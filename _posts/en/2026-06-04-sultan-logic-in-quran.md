@@ -7,10 +7,6 @@ topic: quran-reflection
 tags: [quran, sultan, logic, authority, reason]
 ---
 
-# Sultan/Logic in Qur'an
-
-## منطق و سلطان در قرآن
-
 **In the name of The-God, The-Merciful, The-Compassionate**
 
 The Holy Qur'an, in verse 35 of Surah Ar-Rum, challenges the intellectual framework of those who have fractured religion into self-willed sects and inherited traditions with a jarring and reproachful question:
