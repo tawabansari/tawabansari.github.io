@@ -1,0 +1,28 @@
+title: Forqan Archive
+description: Archive of articles from Ashnayi ba Quran
+url: "https://forqan.co"
+baseurl: ""
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: "_posts/en"
+      type: posts
+    values:
+      lang: en
+      layout: post
+      category: en
+
+  - scope:
+      path: "_posts/fa"
+      type: posts
+    values:
+      lang: fa
+      layout: post
+      category: fa
