@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="/">Forqan</a>
+
+  <nav>
+    <a href="/en.html">English</a>
+    <a href="/fa.html">فارسی</a>
+  </nav>
+</header>
+
+<main class="container">
+  {{ content }}
+</main>
+
+<footer class="site-footer">
+  <p>© {{ site.time | date: "%Y" }} Forqan Archive</p>
+</footer>
+
+</body>
+</html>
