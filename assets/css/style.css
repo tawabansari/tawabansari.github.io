@@ -396,3 +396,49 @@ nav a {
 .site-nav a:hover {
   text-decoration: underline;
 }
+@media (max-width: 700px) {
+  .site-header {
+    flex-wrap: wrap;
+    padding: 16px 6%;
+    gap: 12px;
+  }
+
+  .header-left {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .home-link {
+    font-size: 14px;
+  }
+
+  .site-brand {
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .brand-en {
+    font-size: 17px;
+  }
+
+  .brand-separator {
+    font-size: 15px;
+  }
+
+  .brand-fa {
+    font-size: 17px;
+  }
+
+  .site-nav {
+    width: 100%;
+    justify-content: center;
+    gap: 28px;
+  }
+
+  .site-nav a {
+    font-size: 14px;
+  }
+}
