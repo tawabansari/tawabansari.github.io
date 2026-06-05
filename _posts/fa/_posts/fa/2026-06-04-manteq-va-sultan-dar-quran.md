@@ -3,7 +3,7 @@ layout: post
 title: "منطق و سلطان در قرآن"
 date: 2026-06-04
 lang: fa
-topic: quran-reflection
+topic: quran-terminology
 tags: [قرآن, سلطان, منطق, عقل, تدبر]
 ---
 
