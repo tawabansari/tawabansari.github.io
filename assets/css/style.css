@@ -278,3 +278,18 @@ nav a {
 .site-header nav a:hover {
   text-decoration: underline;
 }
+.brand-en {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
+  letter-spacing: 0.2px;
+}
+
+.brand-fa {
+  font-size: 15px;
+  font-weight: 500;
+  color: #555555;
+  margin-top: 4px;
+  direction: rtl;
+  text-align: left;
+}
