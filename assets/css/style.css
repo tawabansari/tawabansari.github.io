@@ -463,3 +463,67 @@ nav a {
   font-size: 16px;
   line-height: 1.8;
 }
+.intro-page {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 36px 20px 60px;
+}
+
+.intro-invocation {
+  text-align: center;
+  margin-bottom: 44px;
+  color: #333333;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.intro-invocation p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.intro-section {
+  margin-bottom: 34px;
+}
+
+.intro-section h1 {
+  font-size: 30px;
+  margin-bottom: 24px;
+  color: #222222;
+}
+
+.intro-section p {
+  font-size: 15.5px;
+  line-height: 1.9;
+  color: #333333;
+  margin-bottom: 18px;
+}
+
+.intro-praise {
+  font-weight: 600;
+  color: #222222;
+}
+
+.intro-divider {
+  border: 0;
+  border-top: 1px solid #dddddd;
+  margin: 42px 0;
+}
+
+@media (max-width: 700px) {
+  .intro-page {
+    padding: 28px 18px 50px;
+  }
+
+  .intro-section h1 {
+    font-size: 25px;
+  }
+
+  .intro-section p {
+    font-size: 15px;
+  }
+
+  .intro-invocation p {
+    font-size: 15px;
+  }
+}
