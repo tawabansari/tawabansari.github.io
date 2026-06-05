@@ -115,3 +115,21 @@ nav a {
   padding: 30px;
   color: #777;
 }
+.post h1 {
+  font-size: 30px;
+}
+
+.post h2 {
+  font-size: 22px;
+}
+
+.post h3 {
+  font-size: 17px;
+}
+
+.post-content,
+.post p,
+.post li,
+.post blockquote {
+  font-size: 14px;
+}
