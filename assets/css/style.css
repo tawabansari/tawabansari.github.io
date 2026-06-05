@@ -231,3 +231,50 @@ nav a {
 .category-card:hover h2 {
   text-decoration: underline;
 }
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 8%;
+  background: #ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+
+.site-brand {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #222222;
+  line-height: 1.25;
+}
+
+.site-brand:hover {
+  text-decoration: none;
+}
+
+.brand-en {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
+  letter-spacing: 0.3px;
+}
+
+.brand-fa {
+  font-size: 13px;
+  font-weight: 400;
+  color: #666666;
+  margin-top: 3px;
+  direction: rtl;
+  text-align: left;
+}
+
+.site-header nav a {
+  color: #222222;
+  text-decoration: none;
+  margin-left: 22px;
+  font-size: 15px;
+}
+
+.site-header nav a:hover {
+  text-decoration: underline;
+}
