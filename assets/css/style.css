@@ -442,3 +442,24 @@ nav a {
     font-size: 14px;
   }
 }
+.intro-page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.intro-page h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.intro-page h2 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #555555;
+}
+
+.intro-page p {
+  font-size: 16px;
+  line-height: 1.8;
+}
