@@ -1,29 +1,57 @@
 ---
 layout: default
 title: مقالات فارسی
+permalink: /fa/
 ---
 
-<div dir="rtl" class="rtl">
+<section class="language-page rtl" dir="rtl">
   <h1>مقالات فارسی</h1>
 
-  <div class="article-list">
-    {% assign farsi_posts = site.posts | where: "lang", "fa" %}
+  <p class="page-intro">
+    یک بخش را برای مطالعه آرشیف مقاله‌ها انتخاب کنید.
+  </p>
 
-    {% for post in farsi_posts %}
-      <article class="article-card">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+  <div class="category-grid">
 
-        {% if post.tags %}
-          <p class="tags">
-            {% for tag in post.tags %}
-              <span>{{ tag }}</span>
-            {% endfor %}
-          </p>
-        {% endif %}
+    <a class="category-card" href="/fa/quran-completeness/">
+      <h2>کامل بودن قرآن</h2>
+      <p>مقاله‌هایی درباره کامل بودن، بسنده بودن، و معیار نهایی بودن قرآن.</p>
+    </a>
 
-        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-      </article>
-    {% endfor %}
+    <a class="category-card" href="/fa/tawhid/">
+      <h2>توحید</h2>
+      <p>تأملاتی درباره یگانگی خداوند و رد مرجعیت‌های باطل.</p>
+    </a>
+
+    <a class="category-card" href="/fa/divine-names/">
+      <h2>نام‌های الهی</h2>
+      <p>مقاله‌هایی درباره نام‌ها و صفات آن معبود یگانه.</p>
+    </a>
+
+    <a class="category-card" href="/fa/quran-terminology/">
+      <h2>واژه‌شناسی قرآن</h2>
+      <p>بررسی واژه‌های کلیدی قرآن، معناها، و نکات زبانی.</p>
+    </a>
+
+    <a class="category-card" href="/fa/hadith-critique/">
+      <h2>نقد بر احادیث</h2>
+      <p>بررسی احادیث با معیار و مرجعیت قرآن.</p>
+    </a>
+
+    <a class="category-card" href="/fa/salat/">
+      <h2>صلات در قرآن</h2>
+      <p>تأملاتی درباره صلات بر اساس زبان و ساختار قرآن.</p>
+    </a>
+
+    <a class="category-card" href="/fa/zakat/">
+      <h2>زکات در قرآن</h2>
+      <p>مقاله‌هایی درباره زکات، پاک‌سازی، بخشش، و مسئولیت اجتماعی.</p>
+    </a>
+
+    <a class="category-card" href="/fa/siyam/">
+      <h2>صیام در قرآن</h2>
+      <p>تأملاتی درباره روزه، خویشتن‌داری، و تربیت نفس در قرآن.</p>
+    </a>
+
   </div>
-</div>
+</section>
