@@ -293,3 +293,34 @@ nav a {
   direction: rtl;
   text-align: left;
 }
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #222222;
+  line-height: 1.2;
+}
+
+.site-brand:hover {
+  text-decoration: none;
+}
+
+.brand-en {
+  font-size: 19px;
+  font-weight: 700;
+  color: #222222;
+  letter-spacing: 0.2px;
+}
+
+.brand-separator {
+  font-size: 18px;
+  color: #777777;
+}
+
+.brand-fa {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+  direction: rtl;
+}
