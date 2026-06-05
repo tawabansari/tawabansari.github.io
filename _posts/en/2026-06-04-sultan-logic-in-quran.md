@@ -3,7 +3,7 @@ layout: post
 title: "Sultan/Logic in Qur'an"
 date: 2026-06-04
 lang: en
-topic: quran-reflection
+topic: quran-terminology
 tags: [quran, sultan, logic, authority, reason]
 ---
 
