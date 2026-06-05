@@ -175,43 +175,50 @@ nav a {
 .category-card:hover {
   border-color: #111;
 }
+.language-page {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 .language-page h1 {
-  font-size: 34px;
-  margin-bottom: 20px;
+  font-size: 32px;
+  margin-bottom: 18px;
 }
 
 .page-intro {
-  font-size: 15px;
-  color: #555;
-  margin-bottom: 28px;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 26px;
 }
 
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
 }
 
 .category-card {
   display: block;
   background: #ffffff;
   border: 1px solid #dddddd;
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 9px;
+  padding: 18px 20px;
   text-decoration: none;
   color: #222222;
 }
 
 .category-card h2 {
-  font-size: 19px;
+  font-size: 18px;
+  line-height: 1.4;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   color: #222222;
   text-decoration: none;
 }
 
 .category-card p {
-  font-size: 14px;
+  font-size: 13.5px;
+  line-height: 1.7;
   color: #666666;
   margin: 0;
   text-decoration: none;
