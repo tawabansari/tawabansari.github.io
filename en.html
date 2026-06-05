@@ -1,27 +1,57 @@
 ---
 layout: default
 title: English Articles
+permalink: /en/
 ---
 
-<h1>English Articles</h1>
+<section class="language-page">
+  <h1>English Articles</h1>
 
-<div class="article-list">
-  {% assign english_posts = site.posts | where: "lang", "en" %}
+  <p class="page-intro">
+    Choose a section to explore the article archive.
+  </p>
 
-  {% for post in english_posts %}
-    <article class="article-card">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+  <div class="category-grid">
 
-      {% if post.tags %}
-        <p class="tags">
-          {% for tag in post.tags %}
-            <span>{{ tag }}</span>
-          {% endfor %}
-        </p>
-      {% endif %}
+    <a class="category-card" href="/en/quran-completeness/">
+      <h2>Qur’an Completeness</h2>
+      <p>Articles on the Qur’an as complete, sufficient, and the final criterion.</p>
+    </a>
 
-      <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-    </article>
-  {% endfor %}
-</div>
+    <a class="category-card" href="/en/tawhid/">
+      <h2>Tawhid</h2>
+      <p>Reflections on divine unity and the rejection of false authority.</p>
+    </a>
+
+    <a class="category-card" href="/en/divine-names/">
+      <h2>Divine Names</h2>
+      <p>Articles exploring the names and attributes of The-God.</p>
+    </a>
+
+    <a class="category-card" href="/en/quran-terminology/">
+      <h2>Qur’an Terminology</h2>
+      <p>Key Qur’anic terms, meanings, and linguistic reflections.</p>
+    </a>
+
+    <a class="category-card" href="/en/hadith-critique/">
+      <h2>Hadith Critique</h2>
+      <p>Articles examining Hadith through the authority of the Qur’an.</p>
+    </a>
+
+    <a class="category-card" href="/en/salat/">
+      <h2>Salat (Prayer) in the Qur’an</h2>
+      <p>Reflections on salat through Qur’anic language and structure.</p>
+    </a>
+
+    <a class="category-card" href="/en/zakat/">
+      <h2>Zakat (Charity) in the Qur’an</h2>
+      <p>Articles on zakat, purification, giving, and social responsibility.</p>
+    </a>
+
+    <a class="category-card" href="/en/siyam/">
+      <h2>Siyam (Fasting) in the Qur’an</h2>
+      <p>Reflections on fasting and discipline in the Qur’an.</p>
+    </a>
+
+  </div>
+</section>
