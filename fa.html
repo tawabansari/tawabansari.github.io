@@ -4,20 +4,77 @@ title: فارسی
 permalink: /fa/
 ---
 
-# فارسی
+<style>
+  .landing-page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    direction: rtl;
+    text-align: right;
+  }
 
-یک بخش را انتخاب کنید.
+  .landing-page h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
 
-<div class="card-grid" dir="rtl">
+  .landing-page p {
+    color: #555;
+    margin-bottom: 30px;
+  }
 
-<a class="card" href="/quran-reflection/fa/">
-<h2>تأمل در قرآن</h2>
-<p>ترجمه و تأمل قرآنی بر اساس سوره و آیه.</p>
-</a>
+  .section-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+  }
 
-<a class="card" href="/fa/articles/">
-<h2>مقالات فارسی</h2>
-<p>مقاله‌ها و تأملات موضوعی به زبان فارسی.</p>
-</a>
+  .section-card {
+    display: block;
+    padding: 24px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    background: #fff;
+    transition: 0.2s ease;
+  }
+
+  .section-card:hover {
+    border-color: #999;
+    transform: translateY(-2px);
+  }
+
+  .section-card h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.35rem;
+    color: #222;
+  }
+
+  .section-card p {
+    margin: 0;
+    color: #666;
+    line-height: 1.7;
+  }
+</style>
+
+<div class="landing-page">
+
+  <h1>فارسی</h1>
+  <p>یک بخش را انتخاب کنید.</p>
+
+  <div class="section-grid">
+
+    <a class="section-card" href="/quran-reflection/fa/">
+      <h2>تأمل در قرآن</h2>
+      <p>ترجمه و تأمل قرآنی بر اساس سوره و آیه.</p>
+    </a>
+
+    <a class="section-card" href="/fa/articles/">
+      <h2>مقالات فارسی</h2>
+      <p>مقاله‌ها و تأملات موضوعی به زبان فارسی.</p>
+    </a>
+
+  </div>
 
 </div>
