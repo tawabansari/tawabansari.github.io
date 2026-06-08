@@ -6,6 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="/assets/css/style.css">
+
+  <style>
+    .theme-toggle-button {
+      border: 1px solid #ddd;
+      border-radius: 999px;
+      background: #fff;
+      color: inherit;
+      padding: 0.35rem 0.7rem;
+      margin-left: 0.75rem;
+      cursor: pointer;
+      font-size: 1rem;
+      line-height: 1;
+    }
+
+    .theme-toggle-button:hover {
+      border-color: #aaa;
+    }
+  </style>
 </head>
 <body>
 
@@ -14,7 +32,7 @@
   <div class="header-left">
     <a class="home-link" href="/">Home</a>
 
-  <a class="site-brand" href="/introduction/">
+    <a class="site-brand" href="/introduction/">
       <span class="brand-en">Introduction to Qur’an</span>
       <span class="brand-separator">·</span>
       <span class="brand-fa">آشنایی با قرآن</span>
@@ -24,6 +42,9 @@
   <nav class="site-nav">
     <a href="/en/">English</a>
     <a href="/fa/">فارسی</a>
+    <button class="theme-toggle-button" type="button" aria-label="Switch night mode">
+      🌙
+    </button>
   </nav>
 
 </header>
