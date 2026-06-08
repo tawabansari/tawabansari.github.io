@@ -1,68 +1,88 @@
+
 ---
 layout: default
 title: تأمل در قرآن
 permalink: /quran-reflection/fa/
 ---
 
-<style>
-  .quran-page {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 70px 24px;
-    direction: rtl;
-    text-align: right;
-  }
+<div style="direction: rtl; text-align: right;">
 
-  .section-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 24px;
-  }
+  <h1>تأمل در قرآن</h1>
 
-  .section-card {
-    display: block;
-    padding: 34px;
-    border: 1px solid #ddd;
-    border-radius: 14px;
-    text-decoration: none;
-    color: inherit;
-    background: #fff;
-    transition: 0.2s ease;
-  }
+  <p>
+    به نام آن معبود یگانه خداوند فرابخشاینده و پروردگار فرامهربان
+  </p>
 
-  .section-card:hover {
-    border-color: #999;
-    transform: translateY(-2px);
-  }
+  <p>
+    این بخش برای ترجمه، تأمل، نکات زبانی، ارجاعات متقابل، و بررسی آیات قرآن ساخته شده است.
+  </p>
 
-  .section-card h2 {
-    margin: 0 0 18px 0;
-    font-size: 1.55rem;
-    color: #222;
-  }
+  <div class="card-grid">
 
-  .section-card p {
-    margin: 0;
-    color: #666;
-    line-height: 1.8;
-    font-size: 1.05rem;
-  }
-</style>
-
-<div class="quran-page">
-
-  <div class="section-grid">
-
-    <a class="section-card" href="/quran-reflection/fa/methodology/">
+    <a class="landing-card" href="/quran-reflection/fa/methodology/">
       <h2>روش ترجمه و تأمل</h2>
-      <p>یادداشت مقدماتی درباره روش ترجمه، تأمل، محکمات، متشابهات، و حدود برداشت انسانی.</p>
+      <p>توضیح روش، اصول، و احتیاط‌های این مسیر قرآنی.</p>
     </a>
 
-    <a class="section-card" href="/quran-reflection/fa/surahs/">
+    <a class="landing-card" href="/quran-reflection/fa/surahs/">
       <h2>فهرست سوره‌ها</h2>
-      <p>به‌زودی، ان‌شاءالله</p>
+      <p>ورود به فهرست کامل سوره‌ها و آیات قرآن.</p>
     </a>
 
   </div>
 
 </div>
+
+<style>
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.landing-card,
+.ayah-card {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+}
+
+.landing-card:hover,
+.ayah-card:hover {
+  border-color: #aaa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.landing-card h2,
+.ayah-card h2 {
+  margin-top: 0;
+}
+
+.surah-meaning {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #555;
+  margin: 0.5rem 0 1rem;
+}
+
+.verse-count {
+  margin-bottom: 0;
+}
+
+.arabic-text {
+  direction: rtl;
+  text-align: right;
+  font-size: 1.7rem;
+  line-height: 2.5;
+  margin: 1.5rem 0;
+}
+
+.placeholder {
+  color: #555;
+}
+</style>
