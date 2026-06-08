@@ -23,6 +23,10 @@
     .theme-toggle-button:hover {
       border-color: #aaa;
     }
+
+    .theme-icon-light {
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -42,8 +46,10 @@
   <nav class="site-nav">
     <a href="/en/">English</a>
     <a href="/fa/">فارسی</a>
-    <button class="theme-toggle-button" type="button" aria-label="Switch night mode">
-      🌙
+
+    <button class="theme-toggle-button" type="button" aria-label="Switch theme">
+      <span class="theme-icon-dark">🌙</span>
+      <span class="theme-icon-light">☀️</span>
     </button>
   </nav>
 
