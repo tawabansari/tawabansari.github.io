@@ -13,29 +13,53 @@ permalink: /fa/quran-terminology/
 
   {% assign terminology_posts = site.posts | where: "lang", "fa" | where: "topic", "quran-terminology" | sort: "title" %}
 
-  {% if terminology_posts.size > 0 %}
-    <div class="article-list">
-      {% for post in terminology_posts %}
-        <article class="article-card">
-          <h2>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h2>
+  <div class="article-list">
+    {% for post in terminology_posts %}
+      <article class="article-card">
+        <h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
 
-          <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
 
-          {% if post.tags %}
-            <p class="tags">
-              {% for tag in post.tags %}
-                <span>{{ tag }}</span>
-              {% endfor %}
-            </p>
-          {% endif %}
+        {% if post.tags %}
+          <p class="tags">
+            {% for tag in post.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </p>
+        {% endif %}
 
-          <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-        </article>
-      {% endfor %}
-    </div>
-  {% else %}
-    <p>هنوز مقاله‌ای در این بخش اضافه نشده است.</p>
-  {% endif %}
+        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      </article>
+    {% endfor %}
+
+    <article class="article-card">
+      <h2>
+        <a href="/fa/quran-terminology/allah-khodavand-parvardegar/">
+          الله، خداوند، پروردگار و الهیات تنزیهی در زبان قرآن
+        </a>
+      </h2>
+
+      <p class="date">2026-06-08</p>
+
+      <p class="tags">
+        <span>قرآن</span>
+        <span>واژه‌شناسی</span>
+        <span>الله</span>
+        <span>خداوند</span>
+        <span>پروردگار</span>
+        <span>رحمن</span>
+        <span>رحیم</span>
+        <span>توحید</span>
+        <span>تنزیه</span>
+      </p>
+
+      <p>
+        تأملی زبان‌شناختی و قرآنی درباره واژه «الله»، پیوند آن با ریشه‌های سامی،
+        جایگاه واژگان فارسی «خداوند» و «پروردگار»، و چرایی کاربرد
+        «فرابخشاینده» و «فرامهربان» در زبان فارسی.
+      </p>
+    </article>
+  </div>
 </section>
