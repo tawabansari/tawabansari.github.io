@@ -1,21 +1,21 @@
 ---
 layout: default
-title: واژه‌شناسی قرآن
-permalink: /fa/quran-terminology/
+title: مقالات
+permalink: /fa/articles/
 ---
 
 <section class="category-page rtl" dir="rtl">
-  <h1>واژه‌شناسی قرآن</h1>
+  <h1>مقالات</h1>
 
   <p class="page-intro">
-    بررسی واژه‌های کلیدی قرآن، معناها، و نکات زبانی.
+    تأملات قرآنی، اخلاقی، زبانی و فکری درباره انسان، خدا، عدالت، ایمان و حقیقت.
   </p>
 
-  {% assign terminology_posts = site.posts | where: "lang", "fa" | where: "topic", "quran-terminology" | sort: "title" %}
+  {% assign article_posts = site.posts | where: "lang", "fa" | where_exp: "post", "post.categories contains 'articles'" | sort: "title" %}
 
-  {% if terminology_posts.size > 0 %}
+  {% if article_posts.size > 0 %}
     <div class="article-list">
-      {% for post in terminology_posts %}
+      {% for post in article_posts %}
         <article class="article-card">
           <h2>
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
