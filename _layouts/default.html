@@ -470,6 +470,19 @@
 
     if (!summary) return;
 
+    const sectionTitle = cleanText(summary.childNodes[0].textContent);
+
+    const copyAllowedSections = [
+      'Our Reflection',
+      'Qur’anic Reflection',
+      'Linguistic Notes',
+      'تأمل ما',
+      'تأمل قرآنی',
+      'نکات زبانی'
+    ];
+
+    if (!copyAllowedSections.includes(sectionTitle)) return;
+
     const sectionCopyButton = document.createElement('button');
     sectionCopyButton.className = 'copy-section-text';
     sectionCopyButton.type = 'button';
@@ -481,7 +494,6 @@
       event.stopPropagation();
 
       const ayahBlock = detailsBlock.closest('.ayah-block');
-      const sectionTitle = cleanText(summary.childNodes[0].textContent);
       const sectionText = cleanText(detailsBlock.textContent.replace(sectionCopyButton.textContent, ''));
       const source = window.location.origin + window.location.pathname + '#' + ayahBlock.id;
 
