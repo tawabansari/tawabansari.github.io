@@ -28,6 +28,56 @@
       display: none;
     }
 
+    .reading-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 3px;
+      width: 0%;
+      background: #b08d57;
+      z-index: 9999;
+      transition: width 0.1s linear;
+    }
+
+    .back-to-top {
+      position: fixed;
+      right: 1.25rem;
+      bottom: 1.25rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 999px;
+      border: 1px solid #ddd;
+      background: #fff;
+      color: inherit;
+      cursor: pointer;
+      font-size: 1.2rem;
+      line-height: 1;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 9998;
+    }
+
+    .back-to-top.show {
+      display: flex;
+    }
+
+    .copy-ayah-link {
+      border: 1px solid #ddd;
+      border-radius: 999px;
+      background: #fff;
+      color: #555;
+      cursor: pointer;
+      font-size: 0.8rem;
+      padding: 0.25rem 0.55rem;
+      margin-inline-start: 0.5rem;
+      vertical-align: middle;
+    }
+
+    .copy-ayah-link:hover {
+      border-color: #aaa;
+    }
+
     body.dark-theme {
       background: #0f172a;
       color: #e5e7eb;
@@ -129,7 +179,9 @@
       color: #f8fafc;
     }
 
-    body.dark-theme .theme-toggle-button {
+    body.dark-theme .theme-toggle-button,
+    body.dark-theme .back-to-top,
+    body.dark-theme .copy-ayah-link {
       background: #172033;
       border-color: #475569;
       color: #f8fafc;
@@ -142,9 +194,15 @@
     body.dark-theme .theme-icon-light {
       display: inline;
     }
+
+    body.dark-theme .reading-progress {
+      background: #d6b26d;
+    }
   </style>
 </head>
 <body>
+
+<div class="reading-progress" aria-hidden="true"></div>
 
 <header class="site-header">
 
@@ -174,6 +232,10 @@
   {{ content }}
 </main>
 
+<button class="back-to-top" type="button" aria-label="Back to top">
+  ↑
+</button>
+
 <footer class="site-footer">
   <p>© {{ site.time | date: "%Y" }} Forqan Archive</p>
 </footer>
@@ -194,6 +256,60 @@
     } else {
       localStorage.setItem('forqan-theme', 'light');
     }
+  });
+
+  const progressBar = document.querySelector('.reading-progress');
+  const backToTopButton = document.querySelector('.back-to-top');
+
+  function updateScrollTools() {
+    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const documentHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const progress = documentHeight > 0 ? (scrollTop / documentHeight) * 100 : 0;
+
+    progressBar.style.width = progress + '%';
+
+    if (scrollTop > 500) {
+      backToTopButton.classList.add('show');
+    } else {
+      backToTopButton.classList.remove('show');
+    }
+  }
+
+  window.addEventListener('scroll', updateScrollTools);
+  window.addEventListener('load', updateScrollTools);
+
+  backToTopButton.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+  document.querySelectorAll('.ayah-block[id]').forEach(function (ayahBlock) {
+    const ayahTitle = ayahBlock.querySelector('.ayah-title, h2');
+
+    if (!ayahTitle) return;
+
+    const copyButton = document.createElement('button');
+    copyButton.className = 'copy-ayah-link';
+    copyButton.type = 'button';
+    copyButton.textContent = '🔗';
+    copyButton.setAttribute('aria-label', 'Copy verse link');
+
+    copyButton.addEventListener('click', function () {
+      const cleanUrl = window.location.origin + window.location.pathname + '#' + ayahBlock.id;
+
+      navigator.clipboard.writeText(cleanUrl).then(function () {
+        const originalText = copyButton.textContent;
+        copyButton.textContent = '✓';
+
+        setTimeout(function () {
+          copyButton.textContent = originalText;
+        }, 1200);
+      });
+    });
+
+    ayahTitle.appendChild(copyButton);
   });
 </script>
 
