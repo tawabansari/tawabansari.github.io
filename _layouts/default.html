@@ -27,6 +27,70 @@
     .theme-icon-light {
       display: none;
     }
+
+    body.dark-theme {
+      background: #111827;
+      color: #e5e7eb;
+    }
+
+    body.dark-theme .site-header,
+    body.dark-theme .site-footer {
+      background: #0f172a;
+      border-color: #374151;
+    }
+
+    body.dark-theme a {
+      color: inherit;
+    }
+
+    body.dark-theme .container {
+      background: transparent;
+    }
+
+    body.dark-theme .landing-card,
+    body.dark-theme .ayah-card,
+    body.dark-theme details {
+      background: #1f2937;
+      border-color: #374151;
+      color: #e5e7eb;
+    }
+
+    body.dark-theme .landing-card:hover,
+    body.dark-theme .ayah-card:hover {
+      border-color: #6b7280;
+      box-shadow: 0 2px 8px rgba(255, 255, 255, 0.06);
+    }
+
+    body.dark-theme .surah-meaning,
+    body.dark-theme .surah-count,
+    body.dark-theme .placeholder,
+    body.dark-theme .ayah-reference {
+      color: #cbd5e1;
+    }
+
+    body.dark-theme .arabic-text,
+    body.dark-theme .farsi-verse,
+    body.dark-theme .english-verse {
+      color: #f9fafb;
+    }
+
+    body.dark-theme .ayah-block {
+      border-top-color: #374151;
+    }
+
+    body.dark-theme .theme-toggle-button {
+      background: #1f2937;
+      border-color: #4b5563;
+      color: #f9fafb;
+    }
+
+    body.dark-theme .theme-icon-dark {
+      display: none;
+    }
+
+    body.dark-theme .theme-icon-light {
+      display: inline;
+    }
   </style>
 </head>
 <body>
@@ -62,6 +126,25 @@
 <footer class="site-footer">
   <p>© {{ site.time | date: "%Y" }} Forqan Archive</p>
 </footer>
+
+<script>
+  const themeButton = document.querySelector('.theme-toggle-button');
+  const savedTheme = localStorage.getItem('forqan-theme');
+
+  if (savedTheme === 'dark') {
+    document.body.classList.add('dark-theme');
+  }
+
+  themeButton.addEventListener('click', function () {
+    document.body.classList.toggle('dark-theme');
+
+    if (document.body.classList.contains('dark-theme')) {
+      localStorage.setItem('forqan-theme', 'dark');
+    } else {
+      localStorage.setItem('forqan-theme', 'light');
+    }
+  });
+</script>
 
 </body>
 </html>
