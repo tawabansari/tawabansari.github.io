@@ -234,14 +234,74 @@
       color: #e5e7eb !important;
     }
 
-    body.dark-theme .tag,
+    /* Dark-mode fix for article/terminology tag pills */
+    body.dark-theme .tags,
+    body.dark-theme .post-tags,
+    body.dark-theme .article-tags,
+    body.dark-theme .term-tags,
+    body.dark-theme .tag-list {
+      background: transparent !important;
+      border: none !important;
+      box-shadow: none !important;
+    }
+
+    body.dark-theme .tags a,
+    body.dark-theme .tags span,
+    body.dark-theme .post-tags a,
+    body.dark-theme .post-tags span,
+    body.dark-theme .article-tags a,
+    body.dark-theme .article-tags span,
+    body.dark-theme .term-tags a,
+    body.dark-theme .term-tags span,
+    body.dark-theme .tag-list a,
+    body.dark-theme .tag-list span,
+    body.dark-theme a.tag,
+    body.dark-theme span.tag,
     body.dark-theme .tag-pill,
     body.dark-theme .article-tag,
     body.dark-theme .category-tag,
     body.dark-theme .badge {
-      background: #1e293b !important;
-      border-color: #475569 !important;
-      color: #cbd5e1 !important;
+      background: #243044 !important;
+      background-color: #243044 !important;
+      border: 1px solid #64748b !important;
+      color: #f8fafc !important;
+      opacity: 1 !important;
+      box-shadow: none !important;
+    }
+
+    body.dark-theme .tags a *,
+    body.dark-theme .tags span *,
+    body.dark-theme .post-tags a *,
+    body.dark-theme .post-tags span *,
+    body.dark-theme .article-tags a *,
+    body.dark-theme .article-tags span *,
+    body.dark-theme .term-tags a *,
+    body.dark-theme .term-tags span *,
+    body.dark-theme .tag-list a *,
+    body.dark-theme .tag-list span *,
+    body.dark-theme .tag *,
+    body.dark-theme .tag-pill *,
+    body.dark-theme .article-tag *,
+    body.dark-theme .category-tag *,
+    body.dark-theme .badge * {
+      color: #f8fafc !important;
+      opacity: 1 !important;
+    }
+
+    body.dark-theme .tags a:hover,
+    body.dark-theme .post-tags a:hover,
+    body.dark-theme .article-tags a:hover,
+    body.dark-theme .term-tags a:hover,
+    body.dark-theme .tag-list a:hover,
+    body.dark-theme a.tag:hover,
+    body.dark-theme .tag-pill:hover,
+    body.dark-theme .article-tag:hover,
+    body.dark-theme .category-tag:hover,
+    body.dark-theme .badge:hover {
+      background: #2f3f58 !important;
+      background-color: #2f3f58 !important;
+      border-color: #94a3b8 !important;
+      color: #ffffff !important;
     }
 
     body.dark-theme button,
@@ -272,118 +332,6 @@
 
     body.dark-theme .reading-progress {
       background: #d6b26d;
-    }
-
-
-    /* Strong dark-mode fix for terminology/article tag pills and inline-light boxes */
-    body.dark-theme .tags,
-    body.dark-theme .post-tags,
-    body.dark-theme .article-tags,
-    body.dark-theme .term-tags,
-    body.dark-theme .tag-list {
-      color: #e5e7eb !important;
-    }
-
-    body.dark-theme .tags a,
-    body.dark-theme .post-tags a,
-    body.dark-theme .article-tags a,
-    body.dark-theme .term-tags a,
-    body.dark-theme .tag-list a,
-    body.dark-theme span.tag,
-    body.dark-theme a.tag,
-    body.dark-theme .tag,
-    body.dark-theme .tag-pill,
-    body.dark-theme .article-tag,
-    body.dark-theme .category-tag,
-    body.dark-theme .badge,
-    body.dark-theme [class*="tag"],
-    body.dark-theme [class*="Tag"],
-    body.dark-theme [class*="pill"],
-    body.dark-theme [class*="Pill"],
-    body.dark-theme [class*="badge"],
-    body.dark-theme [class*="Badge"] {
-      background: #243044 !important;
-      background-color: #243044 !important;
-      border: 1px solid #64748b !important;
-      color: #f8fafc !important;
-      opacity: 1 !important;
-    }
-
-    body.dark-theme .tags a *,
-    body.dark-theme .post-tags a *,
-    body.dark-theme .article-tags a *,
-    body.dark-theme .term-tags a *,
-    body.dark-theme .tag-list a *,
-    body.dark-theme .tag *,
-    body.dark-theme .tag-pill *,
-    body.dark-theme .article-tag *,
-    body.dark-theme .category-tag *,
-    body.dark-theme .badge *,
-    body.dark-theme [class*="tag"] *,
-    body.dark-theme [class*="Tag"] *,
-    body.dark-theme [class*="pill"] *,
-    body.dark-theme [class*="Pill"] *,
-    body.dark-theme [class*="badge"] *,
-    body.dark-theme [class*="Badge"] * {
-      color: #f8fafc !important;
-      opacity: 1 !important;
-    }
-
-    body.dark-theme .tags a:hover,
-    body.dark-theme .post-tags a:hover,
-    body.dark-theme .article-tags a:hover,
-    body.dark-theme .term-tags a:hover,
-    body.dark-theme .tag-list a:hover,
-    body.dark-theme .tag:hover,
-    body.dark-theme .tag-pill:hover,
-    body.dark-theme .article-tag:hover,
-    body.dark-theme .category-tag:hover,
-    body.dark-theme .badge:hover,
-    body.dark-theme [class*="tag"]:hover,
-    body.dark-theme [class*="Tag"]:hover,
-    body.dark-theme [class*="pill"]:hover,
-    body.dark-theme [class*="Pill"]:hover,
-    body.dark-theme [class*="badge"]:hover,
-    body.dark-theme [class*="Badge"]:hover {
-      background: #2f3f58 !important;
-      background-color: #2f3f58 !important;
-      border-color: #94a3b8 !important;
-      color: #ffffff !important;
-    }
-
-    /* Fix article pages that contain a light inner sheet/card in dark mode */
-    body.dark-theme article,
-    body.dark-theme .post,
-    body.dark-theme .post-card,
-    body.dark-theme .article,
-    body.dark-theme .article-page,
-    body.dark-theme .article-card,
-    body.dark-theme .article-box,
-    body.dark-theme .article-content,
-    body.dark-theme .post-content,
-    body.dark-theme .page-content,
-    body.dark-theme .content,
-    body.dark-theme .content-box,
-    body.dark-theme .content-card,
-    body.dark-theme .forqan-article {
-      background: #172033 !important;
-      background-color: #172033 !important;
-      border-color: #334155 !important;
-      color: #e5e7eb !important;
-    }
-
-    body.dark-theme article *,
-    body.dark-theme .post *,
-    body.dark-theme .article *,
-    body.dark-theme .article-page *,
-    body.dark-theme .article-box *,
-    body.dark-theme .article-content *,
-    body.dark-theme .post-content *,
-    body.dark-theme .page-content *,
-    body.dark-theme .content-box *,
-    body.dark-theme .content-card *,
-    body.dark-theme .forqan-article * {
-      color: #e5e7eb;
     }
 
 
