@@ -2,6 +2,125 @@
 layout: default
 ---
 
+<style>
+  .post {
+    max-width: 980px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: #fff;
+    color: inherit;
+  }
+
+  .post.rtl {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .post .date {
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+
+  .post .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .post.rtl .tags {
+    justify-content: flex-start;
+  }
+
+  .post .tags span {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0.35rem 0.7rem;
+    background: #f5f5f5;
+    color: #333;
+    font-size: 0.9rem;
+  }
+
+  .post-content {
+    line-height: 1.8;
+  }
+
+  .post-content a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  .post-content blockquote,
+  .post-content .quran-quote,
+  .post-content .arabic-box,
+  .post-content .verse-box,
+  .post-content .quran-box,
+  .post-content .quote-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.25rem;
+    background: #f8f8f8;
+  }
+
+  body.dark-theme .post {
+    background: #172033 !important;
+    border-color: #334155 !important;
+    color: #e5e7eb !important;
+  }
+
+  body.dark-theme .post h1,
+  body.dark-theme .post h2,
+  body.dark-theme .post h3,
+  body.dark-theme .post h4,
+  body.dark-theme .post p,
+  body.dark-theme .post li,
+  body.dark-theme .post strong {
+    color: #e5e7eb !important;
+  }
+
+  body.dark-theme .post .date {
+    color: #cbd5e1 !important;
+  }
+
+  body.dark-theme .post .tags {
+    background: transparent !important;
+    border: none !important;
+  }
+
+  body.dark-theme .post .tags span {
+    background: #243044 !important;
+    border-color: #475569 !important;
+    color: #f8fafc !important;
+  }
+
+  body.dark-theme .post-content blockquote,
+  body.dark-theme .post-content .quran-quote,
+  body.dark-theme .post-content .arabic-box,
+  body.dark-theme .post-content .verse-box,
+  body.dark-theme .post-content .quran-box,
+  body.dark-theme .post-content .quote-box {
+    background: #0f172a !important;
+    border-color: #334155 !important;
+    color: #f1f5f9 !important;
+  }
+
+  body.dark-theme .post-content a {
+    color: #f8fafc !important;
+  }
+
+  @media (max-width: 720px) {
+    .post {
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+    }
+  }
+</style>
+
 <article class="post {% if page.lang == 'fa' %}rtl{% endif %}" {% if page.lang == 'fa' %}dir="rtl"{% endif %}>
   <h1>{{ page.title }}</h1>
 
