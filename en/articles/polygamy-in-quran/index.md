@@ -182,6 +182,26 @@ If a second marriage destroys the tranquility, affection, and mercy of the first
 
 <h2 id="conclusion">Conclusion</h2>
 
+<p>
+In conclusion, the Qur’anic discussion of polygamy cannot be separated from the real conditions of human society. The Qur’an does not speak about an imaginary human being; it speaks into realities such as orphanhood, lack of guardianship, financial and security dependence, war, the death of men, demographic differences, and the vulnerability of women and children in traditional social structures. Within such a context, verse 4:3 opens a path for equity, protection, and guardianship — not a free path for male desire.
+</p>
+
+<p>
+Therefore, the issue is not merely the numerical difference between men and women. At times, women’s longer life expectancy, wars, lack of social security, poverty, and absence of protective institutions can place groups of women and children in a vulnerable position. In such circumstances, the Qur’an gives a limited and conditional permission, but it restrains that permission through justice, fear of wrongdoing, and the return to one wife.
+</p>
+
+<p>
+On the other hand, The God is fully aware of human greed, desire, selfishness, and self-deception. A human being can even turn a law of mercy into a tool of lust, power, and religious justification. A man who, under the name of polygamy, after gaining wealth and status, seeks to replace his first wife with a younger girl has inverted the spirit of the verse. A law that came for equity, protection, and social repair must not be turned into an instrument of selfish desire.
+</p>
+
+<p>
+In a society where security, education, financial independence, legal protection, and human dignity are available to everyone, marriage is no longer, as it once was, the only path to survival and social security. If some women or men do not marry, society does not necessarily collapse in a way that must be solved through polygamy. A human being can define identity, dignity, service, growth, and independence outside of forced dependency as well.
+</p>
+
+<p>
+Therefore, polygamy in the Qur’an is not a male privilege, not an anti-woman slogan, and not an unrestricted ruling for all times and all desires. This ruling has meaning within the context of orphans, equity, fear of injustice, and protection of the vulnerable. Wherever this purpose disappears, citing the verse becomes detached from the spirit of the Qur’an.
+</p>
+
 Polygamy in the Qur'an is not a general and free principle for men. [An-Nisa 4:3](/quran-reflection/en/004-an-nisa/003/) comes in the context of orphans and the fear of injustice. If a person is not a guardian of orphans and his issue is not correcting an unjust social condition, this verse does not become an excuse for personal desire.
 
 The condition of the verse is justice, and the Qur'an itself says that complete justice between women is beyond human ability. The family is also a **solemn covenant**, and breaking the covenant, harming the first wife, and wounding the children does not accord with the spirit of the Qur'an.
