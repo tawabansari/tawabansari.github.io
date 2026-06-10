@@ -9,7 +9,6 @@ excerpt: "بررسی قرآن‌محور چندهمسری بر اساس زمین
 permalink: /fa/articles/polygamy-in-quran/
 ---
 
-# چندهمسری در پرتو قرآن
 
 <div class="rtl" dir="rtl" markdown="1">
 
