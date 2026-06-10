@@ -1,8 +1,9 @@
 ---
+
 layout: default
 title: واژه‌شناسی قرآن
 permalink: /fa/quran-terminology/
----
+---------------------------------
 
 <section class="category-page rtl" dir="rtl">
   <h1>واژه‌شناسی قرآن</h1>
@@ -11,71 +12,93 @@ permalink: /fa/quran-terminology/
     بررسی واژه‌های کلیدی قرآن، معناها، و نکات زبانی.
   </p>
 
-  {% assign terminology_posts = site.posts | where: "lang", "fa" | where: "topic", "quran-terminology" %}
+{% assign terminology_posts = site.posts | where: "lang", "fa" | where: "topic", "quran-terminology" %}
 
-  {% comment %}
-  Manual tafsir order:
-  1. Article about the Name of Allah
-  2. Malik Yawm ad-Din
-  3. Huruf Muqatta'at
-  4. Ghayb
-  5. Iman
-  Add future terms here in the order we want them to appear.
-  {% endcomment %}
+{% comment %}
+Manual tafsir order:
 
-  {% assign ordered_terms = "name-of-allah,malik-yawm-ad-din,huruf-muqattaat,ghayb,iman" | split: "," %}
+1. Article about the Name of Allah
+2. Malik Yawm ad-Din
+3. Huruf Muqatta'at
+4. Ghayb
+5. Taqwa
+6. Iman
+   Add future terms here in the order we want them to appear.
+   {% endcomment %}
 
-  {% if terminology_posts.size > 0 %}
-    <div class="article-list">
+{% assign ordered_terms = "name-of-allah,malik-yawm-ad-din,huruf-muqattaat,ghayb,iman" | split: "," %}
 
-      {% for ordered_term in ordered_terms %}
-        {% assign matching_posts = terminology_posts | where: "term", ordered_term %}
-        {% for post in matching_posts %}
-          <article class="article-card">
-            <h2>
-              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </h2>
+  <div class="article-list">
 
-            <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+```
+{% for ordered_term in ordered_terms %}
+  {% assign matching_posts = terminology_posts | where: "term", ordered_term %}
+  {% for post in matching_posts %}
+    <article class="article-card">
+      <h2>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
 
-            {% if post.tags %}
-              <p class="tags">
-                {% for tag in post.tags %}
-                  <span>{{ tag }}</span>
-                {% endfor %}
-              </p>
-            {% endif %}
+      <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
 
-            <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-          </article>
-        {% endfor %}
-      {% endfor %}
+      {% if post.tags %}
+        <p class="tags">
+          {% for tag in post.tags %}
+            <span>{{ tag }}</span>
+          {% endfor %}
+        </p>
+      {% endif %}
 
-      {% for post in terminology_posts %}
-        {% unless ordered_terms contains post.term %}
-          <article class="article-card">
-            <h2>
-              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </h2>
+      <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+    </article>
 
-            <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+    {% if ordered_term == "ghayb" %}
+      <article class="article-card">
+        <h2>
+          <a href="{{ '/fa/quran-terminology/taqwa/' | relative_url }}">تقوا در قرآن چیست؟</a>
+        </h2>
 
-            {% if post.tags %}
-              <p class="tags">
-                {% for tag in post.tags %}
-                  <span>{{ tag }}</span>
-                {% endfor %}
-              </p>
-            {% endif %}
+        <p class="date">واژه‌شناسی قرآن</p>
 
-            <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-          </article>
-        {% endunless %}
-      {% endfor %}
+        <p class="tags">
+          <span>تقوا</span>
+          <span>واژه‌شناسی</span>
+          <span>قرآن</span>
+        </p>
 
-    </div>
-  {% else %}
-    <p>هنوز مقاله‌ای در این بخش اضافه نشده است.</p>
-  {% endif %}
+        <p>
+          بررسی ریشه «و ق ی»، معنای تقوا در قرآن، و اینکه چرا فروکاستن تقوا به «ترس» معنای قرآنی آن را محدود می‌کند.
+        </p>
+      </article>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% if terminology_posts.size > 0 %}
+  {% for post in terminology_posts %}
+    {% unless ordered_terms contains post.term %}
+      <article class="article-card">
+        <h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+
+        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+
+        {% if post.tags %}
+          <p class="tags">
+            {% for tag in post.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </p>
+        {% endif %}
+
+        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      </article>
+    {% endunless %}
+  {% endfor %}
+{% endif %}
+```
+
+  </div>
 
 </section>
