@@ -14,7 +14,7 @@ permalink: /fa/quran-terminology/
   {% assign terminology_posts = site.posts | where: "lang", "fa" | where: "topic", "quran-terminology" %}
 
   {% comment %}
-  Manual tafsir order:
+  Manual terminology order:
 
   1. Article about the Name of Allah
   2. Malik Yawm ad-Din
@@ -22,11 +22,12 @@ permalink: /fa/quran-terminology/
   4. Ghayb
   5. Taqwa
   6. Iman
+  7. Kafir
 
   Add future terms here in the order we want them to appear.
   {% endcomment %}
 
-  {% assign ordered_terms = "name-of-allah,malik-yawm-ad-din,huruf-muqattaat,ghayb,taqwa,iman" | split: "," %}
+  {% assign ordered_terms = "name-of-allah,malik-yawm-ad-din,huruf-muqattaat,ghayb,taqwa,iman,kafir" | split: "," %}
 
   {% if terminology_posts.size > 0 %}
     <div class="article-list">
