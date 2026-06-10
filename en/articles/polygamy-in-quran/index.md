@@ -8,8 +8,6 @@ tags: [Qur'an, polygamy, justice, orphans, family, covenant, equity, marriage]
 excerpt: "A Qur'an-centered study of polygamy through the context of orphans, justice, marital covenant, and the prevention of harm."
 ---
 
-# Polygamy in the Qur'an
-
 <div class="ltr" dir="ltr" markdown="1">
 
 **By Name of The God The Merciful The Compassionate.**
