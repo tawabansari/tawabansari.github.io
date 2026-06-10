@@ -205,7 +205,6 @@
       color: #f1f5f9;
     }
 
-    /* Clean two-tone dark-mode tag pills only */
     body.dark-theme .tags,
     body.dark-theme .post-tags,
     body.dark-theme .article-tags,
@@ -285,7 +284,6 @@
     body.dark-theme .reading-progress {
       background: #d6b26d;
     }
-
 
     @media (max-width: 720px) {
       .site-header {
@@ -384,8 +382,29 @@
   </div>
 
   <nav class="site-nav">
-    <a href="/en/">English</a>
-    <a href="/fa/">فارسی</a>
+    {% assign english_url = "/en/" %}
+    {% assign farsi_url = "/fa/" %}
+
+    {% if page.translation %}
+      {% if page.lang == "fa" %}
+        {% assign english_url = page.translation %}
+        {% assign farsi_url = page.url %}
+      {% elsif page.lang == "en" %}
+        {% assign english_url = page.url %}
+        {% assign farsi_url = page.translation %}
+      {% endif %}
+    {% else %}
+      {% if page.url contains "/fa/" %}
+        {% assign english_url = page.url | replace_first: "/fa/", "/en/" %}
+        {% assign farsi_url = page.url %}
+      {% elsif page.url contains "/en/" %}
+        {% assign english_url = page.url %}
+        {% assign farsi_url = page.url | replace_first: "/en/", "/fa/" %}
+      {% endif %}
+    {% endif %}
+
+    <a href="{{ english_url }}">English</a>
+    <a href="{{ farsi_url }}">فارسی</a>
 
     <button class="theme-toggle-button" type="button" aria-label="Switch theme">
       <span class="theme-icon-dark">🌙</span>
@@ -404,7 +423,8 @@
 </button>
 
 <footer class="site-footer">
-  <p>© {{ site.time | date: "%Y" }} Forqan Archive</p>
+  <p>© {{ site.time | date: "%Y" }} Forqan Archive.</p>
+  <p>Free to share and distribute for non-commercial purposes with attribution.</p>
 </footer>
 
 <script>
