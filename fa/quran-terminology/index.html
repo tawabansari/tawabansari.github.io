@@ -3,7 +3,7 @@
 layout: default
 title: واژه‌شناسی قرآن
 permalink: /fa/quran-terminology/
----------------------------------
+---
 
 <section class="category-page rtl" dir="rtl">
   <h1>واژه‌شناسی قرآن</h1>
@@ -30,7 +30,6 @@ Manual tafsir order:
 
   <div class="article-list">
 
-```
 {% for ordered_term in ordered_terms %}
   {% assign matching_posts = terminology_posts | where: "term", ordered_term %}
   {% for post in matching_posts %}
@@ -97,7 +96,6 @@ Manual tafsir order:
     {% endunless %}
   {% endfor %}
 {% endif %}
-```
 
   </div>
 
