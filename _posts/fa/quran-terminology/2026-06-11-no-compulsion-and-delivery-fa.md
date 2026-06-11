@@ -4,6 +4,8 @@ title: "اکراه در دین نیست؛ وظیفهٔ پیامبر ابلاغ �
 permalink: /fa/quran-terminology/no-compulsion-and-delivery/
 lang: fa
 dir: rtl
+topic: quran-terminology
+term: no-compulsion-and-delivery
 ---
 
 <article class="forqan-article" dir="rtl" lang="fa">
