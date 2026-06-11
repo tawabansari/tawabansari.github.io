@@ -6,6 +6,17 @@ lang: en
 dir: ltr
 topic: quran-terminology
 term: no-compulsion-and-delivery
+tags:
+  - Quran
+  - terminology
+  - no compulsion
+  - delivery
+  - freedom of belief
+  - freedom of expression
+  - jihad
+  - justice
+  - Madinah
+excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s duty of delivery, and why jihad cannot mean religious coercion but only the removal of oppression and barriers to free proclamation."
 ---
 
 <article class="forqan-article" dir="ltr" lang="en">
