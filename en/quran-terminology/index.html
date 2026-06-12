@@ -34,7 +34,6 @@ Add future terms here in the order we want them to appear.
 
 {% if terminology_posts.size > 0 %} <div class="article-list">
 
-```
   {% for ordered_term in ordered_terms %}
     {% assign matching_posts = terminology_posts | where: "term", ordered_term %}
     {% for post in matching_posts %}
