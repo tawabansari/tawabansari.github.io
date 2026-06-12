@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "ختم قلب و سنت الهی هدایت و گمراهی"
-permalink: /fa/quran-terminology/sealing-of-the-heart-and-the-divine-way-of-guidance-and-misguidance/
+permalink: /fa/quran-terminology/sealing-heart-guidance-misguidance/
 lang: fa
 dir: rtl
 topic: quran-terminology
