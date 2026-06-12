@@ -430,7 +430,7 @@
       </svg>
     </button>
 
-    <button class="theme-toggle-button" type="button" aria-label="Switch theme">
+    <button class="theme-toggle-button" id="theme-toggle-btn" type="button" aria-label="Switch theme">
       <span class="theme-icon-dark">🌙</span>
       <span class="theme-icon-light">☀️</span>
     </button>
@@ -452,7 +452,8 @@
 </footer>
 
 <script>
-  const themeButton = document.querySelector('.theme-toggle-button');
+  // FIXED: Targeting explicitly via unique ID instead of querySelector('.theme-toggle-button')
+  const themeButton = document.getElementById('theme-toggle-btn');
   const savedTheme = localStorage.getItem('forqan-theme');
 
   if (savedTheme === 'dark') {
