@@ -12,7 +12,7 @@
       scroll-behavior: smooth;
     }
 
-    /* DESKTOP ZOOM FIX: This forces Chrome/Safari to scale ALL nested text elements proportionally */
+    /* UNIVERSAL DESKTOP ZOOM FACTOR */
     body {
       --zoom-factor: 100%;
     }
@@ -31,11 +31,96 @@
       font-size: var(--zoom-factor) !important;
     }
 
-    /* Keep absolute verse specific containers scaling gracefully relative to the zoom factor */
-    body .container .arabic-text,
-    body .container .farsi-verse,
+    /* TYPOGRAPHY HIERARCHY */
+    body .container .arabic-text {
+      font-size: calc(var(--zoom-factor) * 1.35) !important;
+      line-height: 2 !important; 
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    body .container .farsi-verse {
+      font-size: calc(var(--zoom-factor) * 1.05) !important;
+      line-height: 1.7 !important;
+      text-align: right;
+      direction: rtl;
+      margin-bottom: 1.5rem;
+    }
+
     body .container .english-verse {
-      font-size: calc(var(--zoom-factor) * 1.1) !important;
+      font-size: calc(var(--zoom-factor) * 1.05) !important;
+      line-height: 1.6 !important;
+      text-align: left;
+      margin-bottom: 1.5rem;
+    }
+
+    /* COMFORTABLE DROP-DOWN STRUCTURAL ALIGNMENTS */
+    body .container details {
+      margin-top: 0.75rem;
+      border-radius: 8px;
+      transition: background 0.2s ease;
+    }
+
+    /* Set default inner container spacing and layout behavior */
+    body .container details .details-content {
+      padding: 1rem;
+    }
+
+    /* Auto-align nested content inside English articles vs Farsi articles */
+    body[class*="lang-en"] .container details .details-content {
+      text-align: left;
+      direction: ltr;
+    }
+
+    body[class*="lang-fa"] .container details .details-content {
+      text-align: right;
+      direction: rtl;
+    }
+
+    /* Visual Accent for Lexical Meanings Dropdown */
+    body .container details[data-type="lexical"] summary {
+      border-inline-start: 4px solid #b08d57;
+      padding-inline-start: 0.5rem;
+    }
+    
+    /* Cross Reference Formatting Layout */
+    body .container details[data-type="cross-reference"] ul {
+      list-style-type: none;
+      padding-left: 0;
+      padding-right: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    body .container details[data-type="cross-reference"] li {
+      margin: 0;
+    }
+
+    body .container details[data-type="cross-reference"] a {
+      display: inline-block;
+      padding: 0.35rem 0.75rem;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      color: #b08d57;
+      text-decoration: none;
+      font-weight: 500;
+      background: rgba(176, 141, 87, 0.02);
+    }
+
+    body .container details[data-type="cross-reference"] a:hover {
+      background: rgba(176, 141, 87, 0.08);
+      border-color: #b08d57;
+    }
+
+    /* DYNAMIC BOX RESPONSIVENESS FIX */
+    body .container .card-grid,
+    body .container [class*="grid"],
+    body .container [class*="-grid"] {
+      display: grid !important;
+      grid-template-columns: repeat(auto-fill, minmax(calc(18rem * (var(--zoom-factor) / 100%)), 1fr)) !important;
+      gap: 1.25rem !important;
     }
 
     .theme-toggle-button {
@@ -192,6 +277,16 @@
       background: #172033;
       border-color: #334155;
       color: #e5e7eb;
+    }
+
+    body.dark-theme details[data-type="cross-reference"] a {
+      border-color: #334155;
+      background: rgba(176, 141, 87, 0.05);
+    }
+
+    body.dark-theme details[data-type="cross-reference"] a:hover {
+      border-color: #b08d57;
+      background: rgba(176, 141, 87, 0.15);
     }
 
     body.dark-theme .landing-card:hover,
@@ -398,7 +493,7 @@
     }
   </style>
 </head>
-<body>
+<body class="lang-{% if page.url contains '/fa/' %}fa{% else %}en{% endif %}">
 
 <div class="reading-progress" aria-hidden="true"></div>
 
@@ -495,7 +590,7 @@
     }
   });
 
-  // Text Zoom Logic with CSS Variables (Universal Browser Compatibility Fix)
+  // Text Zoom Logic with CSS Variables
   const zoomInBtn = document.getElementById('zoom-in');
   const zoomOutBtn = document.getElementById('zoom-out');
 
@@ -506,7 +601,6 @@
   if (currentZoomIndex > 4) currentZoomIndex = 4;
 
   function applyZoom() {
-    // Setting property directly on document body cleanly scales all components via CSS Variable variables
     document.body.style.setProperty('--zoom-factor', zoomLevels[currentZoomIndex]);
     localStorage.setItem('forqan-zoom-index', currentZoomIndex);
     
@@ -633,10 +727,12 @@
     const copyAllowedSections = [
       'Our Reflection',
       'Qur’anic Reflection',
-      'Linguistic Notes',
+      'Lexical Meaning of the Roots',
+      'Cross-References',
       'تأمل ما',
       'تأمل قرآنی',
-      'نکات زبانی'
+      'معنای لغوی ریشه‌ها',
+      'ارجاعات متقابل'
     ];
 
     if (!copyAllowedSections.includes(sectionTitle)) return;
