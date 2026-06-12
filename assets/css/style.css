@@ -527,3 +527,46 @@ nav a {
     font-size: 15px;
   }
 }
+
+@media (max-width: 720px) {
+  .root-popover {
+    position: fixed !important;
+    top: auto !important;
+    left: 12px !important;
+    right: 12px !important;
+    bottom: calc(12px + env(safe-area-inset-bottom)) !important;
+
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    max-height: 72dvh !important;
+
+    margin: 0 !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+
+    border-radius: 16px !important;
+  }
+
+  .root-popover-word,
+  .root-popover-row,
+  .root-popover-label,
+  .root-popover-value,
+  .root-popover-link {
+    max-width: 100% !important;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .root-popover-close {
+    position: sticky !important;
+    top: 0 !important;
+    float: inline-end;
+    z-index: 2;
+  }
+}
