@@ -12,6 +12,32 @@
       scroll-behavior: smooth;
     }
 
+    /* DESKTOP ZOOM FIX: This forces Chrome/Safari to scale ALL nested text elements proportionally */
+    body {
+      --zoom-factor: 100%;
+    }
+    
+    body .container, 
+    body .container h1, 
+    body .container h2, 
+    body .container h3, 
+    body .container h4, 
+    body .container p, 
+    body .container li, 
+    body .container span, 
+    body .container div,
+    body .container details,
+    body .container summary {
+      font-size: var(--zoom-factor) !important;
+    }
+
+    /* Keep absolute verse specific containers scaling gracefully relative to the zoom factor */
+    body .container .arabic-text,
+    body .container .farsi-verse,
+    body .container .english-verse {
+      font-size: calc(var(--zoom-factor) * 1.1) !important;
+    }
+
     .theme-toggle-button {
       display: inline-flex;
       align-items: center;
@@ -79,7 +105,7 @@
       border: 1px solid #ddd;
       border-radius: 999px;
       background: #fff;
-      color: #555;
+      color: #555 !important;
       cursor: pointer;
       margin-inline-start: 0.45rem;
       vertical-align: middle;
@@ -87,17 +113,17 @@
     }
 
     .copy-ayah-text {
-      font-size: 1rem;
+      font-size: 1rem !important;
       padding: 0.25rem 0.6rem;
     }
 
     .copy-ayah-link {
-      font-size: 0.85rem;
+      font-size: 0.85rem !important;
       padding: 0.25rem 0.55rem;
     }
 
     .copy-section-text {
-      font-size: 0.9rem;
+      font-size: 0.9rem !important;
       padding: 0.2rem 0.55rem;
     }
 
@@ -452,7 +478,6 @@
 </footer>
 
 <script>
-  // FIXED: Targeting explicitly via unique ID instead of querySelector('.theme-toggle-button')
   const themeButton = document.getElementById('theme-toggle-btn');
   const savedTheme = localStorage.getItem('forqan-theme');
 
@@ -470,22 +495,21 @@
     }
   });
 
-  // Text Zoom Logic (2 Steps Up, 2 Steps Down)
+  // Text Zoom Logic with CSS Variables (Universal Browser Compatibility Fix)
   const zoomInBtn = document.getElementById('zoom-in');
   const zoomOutBtn = document.getElementById('zoom-out');
-  const mainContent = document.querySelector('.container');
 
-  const zoomLevels = ['85%', '92%', '100%', '112%', '125%'];
+  const zoomLevels = ['85%', '92%', '100%', '115%', '130%'];
   let currentZoomIndex = parseInt(localStorage.getItem('forqan-zoom-index')) || 2;
 
   if (currentZoomIndex < 0) currentZoomIndex = 0;
   if (currentZoomIndex > 4) currentZoomIndex = 4;
 
   function applyZoom() {
-    mainContent.style.fontSize = zoomLevels[currentZoomIndex];
+    // Setting property directly on document body cleanly scales all components via CSS Variable variables
+    document.body.style.setProperty('--zoom-factor', zoomLevels[currentZoomIndex]);
     localStorage.setItem('forqan-zoom-index', currentZoomIndex);
     
-    // Dim buttons slightly when limits are met
     zoomOutBtn.style.opacity = currentZoomIndex === 0 ? '0.35' : '1';
     zoomInBtn.style.opacity = currentZoomIndex === 4 ? '0.35' : '1';
   }
