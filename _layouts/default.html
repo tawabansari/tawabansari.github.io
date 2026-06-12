@@ -12,7 +12,7 @@
       scroll-behavior: smooth;
     }
 
-    /* UNIVERSAL DESKTOP ZOOM FACTOR */
+    /* DESKTOP ZOOM FIX: This forces Chrome/Safari to scale ALL nested text elements proportionally */
     body {
       --zoom-factor: 100%;
     }
@@ -31,142 +31,11 @@
       font-size: var(--zoom-factor) !important;
     }
 
-    /* CENTER-ALIGNED SURAH META HEADER BLOCK */
-    .surah-header-block {
-      text-align: center;
-      margin-bottom: 3rem;
-    }
-    
-    .surah-header-block h1 {
-      font-size: calc(var(--zoom-factor) * 1.8) !important;
-      margin-bottom: 0.5rem;
-    }
-
-    /* TYPOGRAPHY HIERARCHY & BALANCED CENTERED ALIGNMENT */
-    body .container .arabic-text {
-      font-size: calc(var(--zoom-factor) * 1.5) !important;
-      line-height: 2.2 !important; 
-      text-align: center;
-      margin-bottom: 1.5rem;
-    }
-
-    body .container .farsi-verse {
-      font-size: calc(var(--zoom-factor) * 1.08) !important;
-      line-height: 1.7 !important;
-      text-align: center; /* Centered under the Arabic text for layout balance */
-      direction: rtl;
-      margin-bottom: 2rem;
-    }
-
+    /* Keep absolute verse specific containers scaling gracefully relative to the zoom factor */
+    body .container .arabic-text,
+    body .container .farsi-verse,
     body .container .english-verse {
-      font-size: calc(var(--zoom-factor) * 1.08) !important;
-      line-height: 1.6 !important;
-      text-align: center; /* Centered under the Arabic text for layout balance */
-      margin-bottom: 2rem;
-    }
-
-    /* MINIMALIST INTERACTIVE WORD LINKS */
-    .word-link {
-      color: inherit;
-      text-decoration: none;
-      border-bottom: 1px dotted rgba(176, 141, 87, 0.4);
-      cursor: help;
-      transition: all 0.2s ease;
-      display: inline-block;
-      padding: 0 2px;
-    }
-
-    .word-link:hover {
-      color: #b08d57 !important;
-      border-bottom-color: #b08d57;
-      background-color: rgba(176, 141, 87, 0.05);
-    }
-
-    /* ROOT POPOVER PANEL */
-    .root-popover {
-      position: absolute;
-      z-index: 10000;
-      background: #ffffff;
-      color: #1e293b;
-      border: 1px solid #b08d57;
-      border-radius: 8px;
-      padding: 0.85rem 1.1rem;
-      max-width: 300px;
-      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
-      display: none;
-    }
-
-    .root-popover-content {
-      font-size: 0.95rem !important;
-      line-height: 1.5 !important;
-    }
-
-    body.dark-theme .root-popover {
-      background: #172033;
-      color: #e5e7eb;
-      border-color: #475569;
-      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
-    }
-
-    /* DROPDOWN STRUCTURAL ALIGNMENTS FOR COMFORTABLE READING */
-    body .container details {
-      margin-top: 0.75rem;
-      border-radius: 8px;
-      transition: background 0.2s ease;
-    }
-
-    body .container details .details-content {
-      padding: 1rem;
-    }
-
-    body[class*="lang-en"] .container details .details-content {
-      text-align: left;
-      direction: ltr;
-    }
-
-    body[class*="lang-fa"] .container details .details-content {
-      text-align: right;
-      direction: rtl;
-    }
-    
-    /* Cross Reference Formatting Layout */
-    body .container details[data-type="cross-reference"] ul {
-      list-style-type: none;
-      padding-left: 0;
-      padding-right: 0;
-      margin: 0;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-
-    body .container details[data-type="cross-reference"] li {
-      margin: 0;
-    }
-
-    body .container details[data-type="cross-reference"] a {
-      display: inline-block;
-      padding: 0.35rem 0.75rem;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      color: #b08d57;
-      text-decoration: none;
-      font-weight: 500;
-      background: rgba(176, 141, 87, 0.02);
-    }
-
-    body .container details[data-type="cross-reference"] a:hover {
-      background: rgba(176, 141, 87, 0.08);
-      border-color: #b08d57;
-    }
-
-    /* DYNAMIC BOX RESPONSIVENESS FIX */
-    body .container .card-grid,
-    body .container [class*="grid"],
-    body .container [class*="-grid"] {
-      display: grid !important;
-      grid-template-columns: repeat(auto-fill, minmax(calc(18rem * (var(--zoom-factor) / 100%)), 1fr)) !important;
-      gap: 1.25rem !important;
+      font-size: calc(var(--zoom-factor) * 1.1) !important;
     }
 
     .theme-toggle-button {
@@ -325,16 +194,6 @@
       color: #e5e7eb;
     }
 
-    body.dark-theme details[data-type="cross-reference"] a {
-      border-color: #334155;
-      background: rgba(176, 141, 87, 0.05);
-    }
-
-    body.dark-theme details[data-type="cross-reference"] a:hover {
-      border-color: #b08d57;
-      background: rgba(176, 141, 87, 0.15);
-    }
-
     body.dark-theme .landing-card:hover,
     body.dark-theme .ayah-card:hover,
     body.dark-theme .article-card:hover,
@@ -377,6 +236,56 @@
       background: #172033;
       border-color: #334155;
       color: #f1f5f9;
+    }
+
+    body.dark-theme .tags,
+    body.dark-theme .post-tags,
+    body.dark-theme .article-tags,
+    body.dark-theme .term-tags,
+    body.dark-theme .tag-list {
+      background: transparent !important;
+      border: none !important;
+      box-shadow: none !important;
+    }
+
+    body.dark-theme .tags a,
+    body.dark-theme .tags span,
+    body.dark-theme .post-tags a,
+    body.dark-theme .post-tags span,
+    body.dark-theme .article-tags a,
+    body.dark-theme .article-tags span,
+    body.dark-theme .term-tags a,
+    body.dark-theme .term-tags span,
+    body.dark-theme .tag-list a,
+    body.dark-theme .tag-list span,
+    body.dark-theme a.tag,
+    body.dark-theme span.tag,
+    body.dark-theme .tag,
+    body.dark-theme .tag-pill,
+    body.dark-theme .article-tag,
+    body.dark-theme .category-tag,
+    body.dark-theme .badge {
+      background: #243044 !important;
+      border: 1px solid #475569 !important;
+      color: #f8fafc !important;
+      opacity: 1 !important;
+      box-shadow: none !important;
+    }
+
+    body.dark-theme .tags a:hover,
+    body.dark-theme .post-tags a:hover,
+    body.dark-theme .article-tags a:hover,
+    body.dark-theme .term-tags a:hover,
+    body.dark-theme .tag-list a:hover,
+    body.dark-theme a.tag:hover,
+    body.dark-theme .tag:hover,
+    body.dark-theme .tag-pill:hover,
+    body.dark-theme .article-tag:hover,
+    body.dark-theme .category-tag:hover,
+    body.dark-theme .badge:hover {
+      background: #2f3f58 !important;
+      border-color: #64748b !important;
+      color: #ffffff !important;
     }
 
     body.dark-theme button,
@@ -460,7 +369,9 @@
         color: #000 !important;
       }
 
-      .container {
+      .container,
+      .forqan-page-ltr,
+      .forqan-page-rtl {
         max-width: 100% !important;
         padding: 0 !important;
         margin: 0 !important;
@@ -487,7 +398,7 @@
     }
   </style>
 </head>
-<body class="lang-{% if page.url contains '/fa/' %}fa{% else %}en{% endif %}">
+<body>
 
 <div class="reading-progress" aria-hidden="true"></div>
 
@@ -584,7 +495,7 @@
     }
   });
 
-  // Text Zoom Logic with CSS Variables
+  // Text Zoom Logic with CSS Variables (Universal Browser Compatibility Fix)
   const zoomInBtn = document.getElementById('zoom-in');
   const zoomOutBtn = document.getElementById('zoom-out');
 
@@ -595,6 +506,7 @@
   if (currentZoomIndex > 4) currentZoomIndex = 4;
 
   function applyZoom() {
+    // Setting property directly on document body cleanly scales all components via CSS Variable variables
     document.body.style.setProperty('--zoom-factor', zoomLevels[currentZoomIndex]);
     localStorage.setItem('forqan-zoom-index', currentZoomIndex);
     
@@ -721,10 +633,10 @@
     const copyAllowedSections = [
       'Our Reflection',
       'Qur’anic Reflection',
-      'Cross-References',
+      'Linguistic Notes',
       'تأمل ما',
       'تأمل قرآنی',
-      'ارجاعات متقابل'
+      'نکات زبانی'
     ];
 
     if (!copyAllowedSections.includes(sectionTitle)) return;
@@ -774,43 +686,6 @@
 
   window.addEventListener('load', highlightLinkedAyah);
   window.addEventListener('hashchange', highlightLinkedAyah);
-
-  // GLOBAL POPOVER ENGINE
-  const popover = document.createElement('div');
-  popover.className = 'root-popover';
-  const popoverContent = document.createElement('div');
-  popoverContent.className = 'root-popover-content';
-  popover.appendChild(popoverContent);
-  document.body.appendChild(popover);
-
-  document.addEventListener('click', function(e) {
-    const target = e.target.closest('.word-link');
-    
-    if (target) {
-      e.preventDefault();
-      e.stopPropagation();
-      
-      const content = target.getAttribute('data-popup');
-      popoverContent.innerHTML = content;
-      
-      popover.style.display = 'block';
-      const rect = target.getBoundingClientRect();
-      
-      const isRtl = document.body.classList.contains('lang-fa');
-      let leftOffset = isRtl ? (window.scrollX + rect.right - popover.offsetWidth) : (window.scrollX + rect.left);
-      
-      // Prevent popover overflowing screen bounds
-      if (leftOffset < 10) leftOffset = 10;
-      if (leftOffset + popover.offsetWidth > window.innerWidth) {
-        leftOffset = window.innerWidth - popover.offsetWidth - 10;
-      }
-      
-      popover.style.left = leftOffset + 'px';
-      popover.style.top = (window.scrollY + rect.bottom + 8) + 'px';
-    } else {
-      popover.style.display = 'none';
-    }
-  });
 </script>
 
 </body>
