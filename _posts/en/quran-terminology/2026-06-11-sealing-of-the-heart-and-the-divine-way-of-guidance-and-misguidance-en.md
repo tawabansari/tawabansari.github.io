@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "The Sealing of the Heart and the Divine Way of Guidance and Misguidance"
-permalink: /en/quran-terminology/sealing-of-the-heart-and-the-divine-way-of-guidance-and-misguidance/
+permalink: /en/quran-terminology/sealing-heart-guidance-misguidance/
 lang: en
 dir: ltr
 topic: quran-terminology
