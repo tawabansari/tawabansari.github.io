@@ -403,7 +403,7 @@
     .header-left {
       display: flex;
       align-items: center;
-      gap: 0.85rem;
+      gap: 1.05rem;
       flex-wrap: wrap;
     }
 
@@ -421,12 +421,12 @@
     }
 
     .header-icon-link {
-      min-width: 2rem;
-      font-size: 1.15rem;
+      min-width: 2.15rem;
+      font-size: 1.45rem;
     }
 
     .header-quran-link {
-      font-size: 0.98rem;
+      font-size: 1rem;
     }
 
     .site-brand {
@@ -436,10 +436,17 @@
       gap: 0.35rem;
       line-height: 1.2;
       text-decoration: none;
+      margin-inline-start: 0.35rem;
+      padding-inline-start: 1rem;
+      border-inline-start: 1px solid rgba(100, 116, 139, 0.45);
     }
 
     .site-brand span {
       font-size: 1rem;
+    }
+
+    body.dark-theme .site-brand {
+      border-inline-start-color: rgba(148, 163, 184, 0.5);
     }
 
     .theme-toggle-button {
@@ -984,11 +991,11 @@
 <header class="site-header">
 
   <div class="header-left">
-    <a class="home-link header-icon-link" href="/" aria-label="Home" title="Home">⌂</a>
-
-    <a class="header-quran-link" href="/quran-reflection/fa/surahs/" lang="fa" dir="rtl">قرآن</a>
+    <a class="home-link header-icon-link" href="/" aria-label="Home" title="Home">🏠</a>
 
     <a class="header-quran-link" href="/quran-reflection/en/surahs/">Qur’an</a>
+
+    <a class="header-quran-link" href="/quran-reflection/fa/surahs/" lang="fa" dir="rtl">قرآن</a>
 
     <a class="site-brand" href="/introduction/">
       <span class="brand-en">Introduction to Qur’an</span>
