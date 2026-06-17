@@ -930,6 +930,182 @@
       }
     }
 
+
+    /* ROOT INDEX HYBRID TOOLS — scoped only to roots index pages */
+    .root-index-page .root-tools {
+      position: sticky;
+      top: 0;
+      z-index: 80;
+      margin: 1.5rem 0 2rem;
+      padding: 0.85rem;
+      border: 1px solid #d7dde6;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
+    }
+
+    .root-index-page .root-search {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #cbd5e1;
+      border-radius: 999px;
+      padding: 0.75rem 1rem;
+      margin-bottom: 0.75rem;
+      background: #ffffff;
+      color: inherit;
+      font: inherit;
+      line-height: 1.4;
+    }
+
+    .root-index-page .root-search:focus {
+      outline: none;
+      border-color: #b08d57;
+      box-shadow: 0 0 0 3px rgba(176, 141, 87, 0.16);
+    }
+
+    .root-index-page .root-letter-nav {
+      display: flex;
+      gap: 0.4rem;
+      overflow-x: auto;
+      padding: 0.15rem 0 0.5rem;
+      margin-bottom: 0.55rem;
+      scrollbar-width: thin;
+    }
+
+    .root-index-page .root-letter-nav a {
+      flex: 0 0 auto;
+      min-width: 2.25rem;
+      padding: 0.42rem 0.65rem;
+      border: 1px solid #d7dde6;
+      border-radius: 999px;
+      text-align: center;
+      color: inherit;
+      text-decoration: none;
+      font-weight: 700;
+      line-height: 1.2;
+      background: #ffffff;
+    }
+
+    .root-index-page .root-letter-nav a:hover,
+    .root-index-page .root-letter-nav a:focus-visible {
+      border-color: #b08d57;
+      color: #6f522d;
+      outline: none;
+    }
+
+    .root-index-page .root-tool-actions {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .root-index-page .root-tool-button,
+    .root-index-page .root-section-toggle {
+      border: 1px solid #d7dde6;
+      border-radius: 999px;
+      background: #ffffff;
+      color: inherit;
+      cursor: pointer;
+      font: inherit;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .root-index-page .root-tool-button {
+      padding: 0.45rem 0.75rem;
+    }
+
+    .root-index-page .root-section-toggle {
+      margin-inline-start: 0.55rem;
+      padding: 0.25rem 0.55rem;
+      font-size: 0.85rem !important;
+      vertical-align: middle;
+    }
+
+    .root-index-page .root-tool-button:hover,
+    .root-index-page .root-section-toggle:hover {
+      border-color: #b08d57;
+    }
+
+    .root-index-page .root-letter-group.root-collapsed .root-index-list,
+    .root-index-page .root-letter-group.root-filter-hidden,
+    .root-index-page .root-index-list li.root-filter-hidden {
+      display: none !important;
+    }
+
+    .root-index-page .root-empty-message {
+      display: none;
+      margin: 1.25rem 0;
+      padding: 1rem;
+      border: 1px dashed #cbd5e1;
+      border-radius: 12px;
+      color: #64748b;
+    }
+
+    .root-index-page .root-empty-message.show {
+      display: block;
+    }
+
+    .root-index-page .root-back-link {
+      display: inline-block;
+      margin-top: 0.8rem;
+      font-weight: 700;
+      color: #9a7440;
+      text-decoration: none;
+    }
+
+    .root-index-page .root-back-link:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    body.dark-theme .root-index-page .root-tools,
+    body.dark-theme .root-index-page .root-search,
+    body.dark-theme .root-index-page .root-letter-nav a,
+    body.dark-theme .root-index-page .root-tool-button,
+    body.dark-theme .root-index-page .root-section-toggle {
+      background: #172033;
+      border-color: #334155;
+      color: #f8fafc;
+    }
+
+    body.dark-theme .root-index-page .root-tools {
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.32);
+    }
+
+    body.dark-theme .root-index-page .root-search:focus,
+    body.dark-theme .root-index-page .root-letter-nav a:hover,
+    body.dark-theme .root-index-page .root-letter-nav a:focus-visible,
+    body.dark-theme .root-index-page .root-tool-button:hover,
+    body.dark-theme .root-index-page .root-section-toggle:hover {
+      border-color: #d6b26d;
+    }
+
+    body.dark-theme .root-index-page .root-letter-nav a:hover,
+    body.dark-theme .root-index-page .root-letter-nav a:focus-visible,
+    body.dark-theme .root-index-page .root-back-link {
+      color: #d6b26d;
+    }
+
+    body.dark-theme .root-index-page .root-empty-message {
+      border-color: #475569;
+      color: #cbd5e1;
+    }
+
+    @media (max-width: 720px) {
+      .root-index-page .root-tools {
+        top: 0;
+        margin-top: 1rem;
+        border-radius: 14px;
+      }
+
+      .root-index-page .root-letter-group {
+        margin-top: 1.5rem;
+      }
+    }
+
+
     @media print {
       .site-header,
       .site-footer,
@@ -1631,6 +1807,188 @@
     },
     { passive: true }
   );
+
+  /* ROOT INDEX HYBRID TOOLS — scoped only to roots index pages */
+  (function () {
+    const rootPage = document.querySelector('.root-index-page');
+    if (!rootPage) return;
+
+    const groups = Array.from(rootPage.querySelectorAll('.root-letter-group[id]'));
+    if (!groups.length) return;
+
+    const isFarsi = document.body.classList.contains('lang-fa') || rootPage.dir === 'rtl';
+
+    const tools = document.createElement('section');
+    tools.className = 'root-tools';
+    tools.id = 'root-tools';
+    tools.setAttribute('aria-label', isFarsi ? 'ابزارهای فهرست ریشه‌ها' : 'Root index tools');
+
+    const search = document.createElement('input');
+    search.className = 'root-search';
+    search.type = 'search';
+    search.autocomplete = 'off';
+    search.placeholder = isFarsi
+      ? 'جستجوی ریشه، مثل: ح ق ق یا h-q-q'
+      : 'Search roots, e.g. A M N or a-m-n';
+    search.setAttribute('aria-label', isFarsi ? 'جستجوی ریشه‌ها' : 'Search roots');
+
+    const nav = document.createElement('nav');
+    nav.className = 'root-letter-nav';
+    nav.setAttribute('aria-label', isFarsi ? 'پرش به حرف' : 'Jump to letter');
+
+    groups.forEach(function (group) {
+      const heading = group.querySelector('h2');
+      if (!heading) return;
+
+      const link = document.createElement('a');
+      link.href = '#' + group.id;
+      link.textContent = cleanText(heading.childNodes[0].textContent || heading.textContent);
+      nav.appendChild(link);
+    });
+
+    const actions = document.createElement('div');
+    actions.className = 'root-tool-actions';
+
+    const expandButton = document.createElement('button');
+    expandButton.className = 'root-tool-button';
+    expandButton.type = 'button';
+    expandButton.textContent = isFarsi ? 'باز کردن همه' : 'Expand all';
+
+    const collapseButton = document.createElement('button');
+    collapseButton.className = 'root-tool-button';
+    collapseButton.type = 'button';
+    collapseButton.textContent = isFarsi ? 'بستن همه' : 'Collapse all';
+
+    actions.appendChild(expandButton);
+    actions.appendChild(collapseButton);
+
+    tools.appendChild(search);
+    tools.appendChild(nav);
+    tools.appendChild(actions);
+
+    const intro = rootPage.querySelector('.root-index-intro');
+    const hero = rootPage.querySelector('.root-index-hero');
+
+    if (intro) {
+      intro.insertAdjacentElement('afterend', tools);
+    } else if (hero) {
+      hero.insertAdjacentElement('afterend', tools);
+    } else {
+      rootPage.insertAdjacentElement('afterbegin', tools);
+    }
+
+    const emptyMessage = document.createElement('p');
+    emptyMessage.className = 'root-empty-message';
+    emptyMessage.textContent = isFarsi
+      ? 'هیچ ریشه‌ای با این جستجو پیدا نشد.'
+      : 'No roots matched this search.';
+    tools.insertAdjacentElement('afterend', emptyMessage);
+
+    function setGroupCollapsed(group, collapsed) {
+      const button = group.querySelector('.root-section-toggle');
+      group.classList.toggle('root-collapsed', collapsed);
+
+      if (button) {
+        button.textContent = collapsed ? '+' : '−';
+        button.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+      }
+    }
+
+    groups.forEach(function (group, index) {
+      const heading = group.querySelector('h2');
+      const list = group.querySelector('.root-index-list');
+      if (!heading || !list) return;
+
+      const toggle = document.createElement('button');
+      toggle.className = 'root-section-toggle';
+      toggle.type = 'button';
+      toggle.textContent = '−';
+      toggle.setAttribute('aria-label', isFarsi ? 'باز و بسته کردن این بخش' : 'Toggle this section');
+      toggle.setAttribute('aria-expanded', 'true');
+
+      toggle.addEventListener('click', function () {
+        setGroupCollapsed(group, !group.classList.contains('root-collapsed'));
+      });
+
+      heading.appendChild(toggle);
+
+      const backLink = document.createElement('a');
+      backLink.className = 'root-back-link';
+      backLink.href = '#root-tools';
+      backLink.textContent = isFarsi ? 'بازگشت به فهرست حروف ↑' : 'Back to letters ↑';
+      group.appendChild(backLink);
+
+      if (window.matchMedia('(max-width: 720px)').matches && index > 0) {
+        setGroupCollapsed(group, true);
+      }
+    });
+
+    expandButton.addEventListener('click', function () {
+      groups.forEach(function (group) {
+        if (!group.classList.contains('root-filter-hidden')) {
+          setGroupCollapsed(group, false);
+        }
+      });
+    });
+
+    collapseButton.addEventListener('click', function () {
+      groups.forEach(function (group) {
+        setGroupCollapsed(group, true);
+      });
+    });
+
+    function normalizeRootSearch(value) {
+      return value
+        .toLowerCase()
+        .replace(/[أإآٱ]/g, 'ا')
+        .replace(/[ة]/g, 'ه')
+        .replace(/[ى]/g, 'ي')
+        .replace(/[‌ـ]/g, '')
+        .replace(/[\s\-_/]+/g, ' ')
+        .trim();
+    }
+
+    function filterRoots() {
+      const query = normalizeRootSearch(search.value);
+      let anyVisible = false;
+
+      groups.forEach(function (group) {
+        let groupHasMatch = false;
+        const items = Array.from(group.querySelectorAll('.root-index-list li'));
+
+        items.forEach(function (item) {
+          const link = item.querySelector('a');
+          const haystack = normalizeRootSearch(
+            item.textContent + ' ' + (link ? link.getAttribute('href') || '' : '')
+          );
+
+          const matches = !query || haystack.includes(query);
+          item.classList.toggle('root-filter-hidden', !matches);
+
+          if (matches) {
+            groupHasMatch = true;
+            anyVisible = true;
+          }
+        });
+
+        group.classList.toggle('root-filter-hidden', !groupHasMatch);
+
+        if (query && groupHasMatch) {
+          setGroupCollapsed(group, false);
+        }
+      });
+
+      emptyMessage.classList.toggle('show', !anyVisible);
+    }
+
+    let searchTimer = null;
+    search.addEventListener('input', function () {
+      window.clearTimeout(searchTimer);
+      searchTimer = window.setTimeout(filterRoots, 80);
+    });
+  }());
+
+
 </script>
 
 </body>
