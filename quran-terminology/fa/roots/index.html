@@ -60,139 +60,11 @@ permalink: /quran-terminology/fa/roots/
   .root-index-list a:hover { text-decoration: none; transform: translateY(-1px); }
   .root-arabic { display: block; font-weight: 700; font-size: 1.08rem; }
 
-  .root-tools {
-    position: sticky;
-    top: 0;
-    z-index: 5;
-    margin: 1.5rem 0 2.25rem;
-    padding: 0.85rem;
-    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.16));
-    border-radius: 16px;
-    background: var(--background-color, rgba(10, 12, 18, 0.92));
-    backdrop-filter: blur(10px);
-  }
-
-  .root-search {
-    width: 100%;
-    box-sizing: border-box;
-    margin-bottom: 0.75rem;
-    padding: 0.8rem 0.95rem;
-    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.16));
-    border-radius: 12px;
-    background: transparent;
-    color: inherit;
-    font: inherit;
-    direction: rtl;
-    text-align: right;
-  }
-
-  .root-letter-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45rem;
-    margin-bottom: 0.75rem;
-  }
-
-  .root-letter-nav a,
-  .root-toggle-all,
-  .root-section-toggle,
-  .root-back-top {
-    color: inherit;
-    text-decoration: none;
-    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.16));
-    border-radius: 999px;
-    background: transparent;
-  }
-
-  .root-letter-nav a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 2.3rem;
-    padding: 0.42rem 0.65rem;
-    line-height: 1.2;
-  }
-
-  .root-actions {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-  }
-
-  .root-toggle-all {
-    cursor: pointer;
-    padding: 0.45rem 0.8rem;
-    font: inherit;
-  }
-
-  .root-section-toggle {
-    width: 100%;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 0;
-    border: 0;
-    border-radius: 0;
-    font: inherit;
-    font-weight: 700;
-    text-align: right;
-  }
-
-  .root-section-toggle::before {
-    content: "−";
-    opacity: 0.7;
-    font-weight: 400;
-  }
-
-  .root-letter-group.is-collapsed .root-section-toggle::before {
-    content: "+";
-  }
-
-  .root-letter-group.is-collapsed .root-index-list,
-  .root-index-list li.is-hidden {
-    display: none;
-  }
-
-  .root-back-top {
-    display: inline-block;
-    margin-top: 0.85rem;
-    padding: 0.35rem 0.7rem;
-    font-size: 0.92rem;
-    opacity: 0.82;
-  }
-
-  .root-no-results {
-    display: none;
-    margin-top: 1rem;
-    opacity: 0.82;
-  }
-
-  .root-no-results.is-visible { display: block; }
-
   @media (max-width: 720px) {
-    .root-tools {
-      margin-right: -0.25rem;
-      margin-left: -0.25rem;
-      border-radius: 14px;
-    }
-
-    .root-letter-nav {
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      padding-bottom: 0.25rem;
-    }
-
-    .root-letter-nav a {
-      flex: 0 0 auto;
-    }
-
     .root-index-list {
       grid-template-columns: repeat(auto-fit, minmax(92px, 1fr));
     }
   }
-
 </style>
 
 <div class="forqan-page-rtl root-index-page" dir="rtl" lang="fa">
@@ -211,47 +83,8 @@ permalink: /quran-terminology/fa/roots/
     </p>
   </section>
 
-  <section class="root-tools" id="root-letters" aria-label="ابزارهای فهرست ریشه‌ها">
-    <input class="root-search" id="root-search" type="search" placeholder="جستجوی ریشه، مانند: ا م ن یا ح ق ق" aria-label="جستجوی ریشه‌ها">
-    <nav class="root-letter-nav" aria-label="پرش به حرف">
-      <a href="#letter-alif">ا</a>
-      <a href="#letter-ba">ب</a>
-      <a href="#letter-ta">ت</a>
-      <a href="#letter-tha">ث</a>
-      <a href="#letter-jim">ج</a>
-      <a href="#letter-ha">ح</a>
-      <a href="#letter-kha">خ</a>
-      <a href="#letter-dal">د</a>
-      <a href="#letter-dhal">ذ</a>
-      <a href="#letter-ra">ر</a>
-      <a href="#letter-zay">ز</a>
-      <a href="#letter-sin">س</a>
-      <a href="#letter-shin">ش</a>
-      <a href="#letter-sad">ص</a>
-      <a href="#letter-dad">ض</a>
-      <a href="#letter-ta-emphatic">ط</a>
-      <a href="#letter-za-emphatic">ظ</a>
-      <a href="#letter-ayn">ع</a>
-      <a href="#letter-ghayn">غ</a>
-      <a href="#letter-fa">ف</a>
-      <a href="#letter-qaf">ق</a>
-      <a href="#letter-kaf">ک</a>
-      <a href="#letter-lam">ل</a>
-      <a href="#letter-mim">م</a>
-      <a href="#letter-nun">ن</a>
-      <a href="#letter-ha-plain">ه</a>
-      <a href="#letter-waw">و</a>
-      <a href="#letter-ya">ی</a>
-    </nav>
-    <div class="root-actions">
-      <button class="root-toggle-all" type="button" data-root-action="open">باز کردن همه</button>
-      <button class="root-toggle-all" type="button" data-root-action="close">بستن همه</button>
-    </div>
-    <p class="root-no-results" id="root-no-results">ریشه‌ای با این جستجو پیدا نشد.</p>
-  </section>
-
   <section class="root-letter-group" id="letter-alif">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ا</button></h2>
+    <h2>ا</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/a-b-b/"><span class="root-arabic">أ ب ب</span></a></li>
@@ -325,11 +158,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/a-y-m/"><span class="root-arabic">أ ي م</span></a></li>
       <li><a href="/quran-terminology/fa/roots/a-y-y/"><span class="root-arabic">أ ي ي</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-ba">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ب</button></h2>
+    <h2>ب</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/b-a-r/"><span class="root-arabic">ب أ ر</span></a></li>
@@ -414,11 +246,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/b-y-ayn/"><span class="root-arabic">ب ي ع</span></a></li>
       <li><a href="/quran-terminology/fa/roots/b-y-n/"><span class="root-arabic">ب ي ن</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-ta">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ت</button></h2>
+    <h2>ت</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/t-b-b/"><span class="root-arabic">ت ب ب</span></a></li>
@@ -442,11 +273,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/t-y-n/"><span class="root-arabic">ت ي ن</span></a></li>
       <li><a href="/quran-terminology/fa/roots/t-y-h2/"><span class="root-arabic">ت ي ه</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-tha">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ث</button></h2>
+    <h2>ث</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/th-b-t/"><span class="root-arabic">ث ب ت</span></a></li>
@@ -471,11 +301,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/th-w-y/"><span class="root-arabic">ث و ي</span></a></li>
       <li><a href="/quran-terminology/fa/roots/th-y-b/"><span class="root-arabic">ث ي ب</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-jim">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ج</button></h2>
+    <h2>ج</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/j-a-r/"><span class="root-arabic">ج أ ر</span></a></li>
@@ -548,11 +377,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/j-y-b/"><span class="root-arabic">ج ي ب</span></a></li>
       <li><a href="/quran-terminology/fa/roots/j-y-d/"><span class="root-arabic">ج ي د</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-ha">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ح</button></h2>
+    <h2>ح</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/h-b-b/"><span class="root-arabic">ح ب ب</span></a></li>
@@ -652,11 +480,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/h-y-n/"><span class="root-arabic">ح ي ن</span></a></li>
       <li><a href="/quran-terminology/fa/roots/h-y-y/"><span class="root-arabic">ح ي ي</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-kha">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">خ</button></h2>
+    <h2>خ</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/kh-b-a/"><span class="root-arabic">خ ب أ</span></a></li>
@@ -728,11 +555,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/kh-y-l/"><span class="root-arabic">خ ي ل</span></a></li>
       <li><a href="/quran-terminology/fa/roots/kh-y-m/"><span class="root-arabic">خ ي م</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-dal">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">د</button></h2>
+    <h2>د</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/d-a-b/"><span class="root-arabic">د أ ب</span></a></li>
@@ -780,11 +606,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/d-w-n/"><span class="root-arabic">د و ن</span></a></li>
       <li><a href="/quran-terminology/fa/roots/d-y-n/"><span class="root-arabic">د ي ن</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-dhal">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ذ</button></h2>
+    <h2>ذ</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/dh-a-b/"><span class="root-arabic">ذ أ ب</span></a></li>
@@ -809,11 +634,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/dh-w-q/"><span class="root-arabic">ذ و ق</span></a></li>
       <li><a href="/quran-terminology/fa/roots/dh-y-ayn/"><span class="root-arabic">ذ ي ع</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-ra">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ر</button></h2>
+    <h2>ر</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/r-a-s/"><span class="root-arabic">ر أ س</span></a></li>
@@ -904,11 +728,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/r-y-ayn/"><span class="root-arabic">ر ي ع</span></a></li>
       <li><a href="/quran-terminology/fa/roots/r-y-n/"><span class="root-arabic">ر ي ن</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-zay">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ز</button></h2>
+    <h2>ز</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/z-b-d/"><span class="root-arabic">ز ب د</span></a></li>
@@ -948,11 +771,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/z-y-l/"><span class="root-arabic">ز ي ل</span></a></li>
       <li><a href="/quran-terminology/fa/roots/z-y-n/"><span class="root-arabic">ز ي ن</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-sin">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">س</button></h2>
+    <h2>س</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/s-a-l/"><span class="root-arabic">س أ ل</span></a></li>
@@ -1057,11 +879,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/s-y-r/"><span class="root-arabic">س ي ر</span></a></li>
       <li><a href="/quran-terminology/fa/roots/s-y-l/"><span class="root-arabic">س ي ل</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-shin">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ش</button></h2>
+    <h2>ش</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/sh-a-m/"><span class="root-arabic">ش أ م</span></a></li>
@@ -1127,11 +948,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/sh-y-d/"><span class="root-arabic">ش ي د</span></a></li>
       <li><a href="/quran-terminology/fa/roots/sh-y-ayn/"><span class="root-arabic">ش ي ع</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-sad">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ص</button></h2>
+    <h2>ص</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/sad-b-a/"><span class="root-arabic">ص ب أ</span></a></li>
@@ -1195,11 +1015,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/sad-y-sad/"><span class="root-arabic">ص ي ص</span></a></li>
       <li><a href="/quran-terminology/fa/roots/sad-y-f/"><span class="root-arabic">ص ي ف</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-dad">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ض</button></h2>
+    <h2>ض</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/dad-a-n/"><span class="root-arabic">ض أ ن</span></a></li>
@@ -1227,11 +1046,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/dad-y-f/"><span class="root-arabic">ض ي ف</span></a></li>
       <li><a href="/quran-terminology/fa/roots/dad-y-q/"><span class="root-arabic">ض ي ق</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-ta-emphatic">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ط</button></h2>
+    <h2>ط</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/tt-b-ayn/"><span class="root-arabic">ط ب ع</span></a></li>
@@ -1270,11 +1088,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/tt-y-r/"><span class="root-arabic">ط ي ر</span></a></li>
       <li><a href="/quran-terminology/fa/roots/tt-y-n/"><span class="root-arabic">ط ي ن</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-za-emphatic">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ظ</button></h2>
+    <h2>ظ</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/zha-ayn-n/"><span class="root-arabic">ظ ع ن</span></a></li>
@@ -1285,11 +1102,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/zha-n-n/"><span class="root-arabic">ظ ن ن</span></a></li>
       <li><a href="/quran-terminology/fa/roots/zha-h2-r/"><span class="root-arabic">ظ ه ر</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-ayn">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ع</button></h2>
+    <h2>ع</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/ayn-b-a/"><span class="root-arabic">ع ب أ</span></a></li>
@@ -1391,11 +1207,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/ayn-y-n/"><span class="root-arabic">ع ي ن</span></a></li>
       <li><a href="/quran-terminology/fa/roots/ayn-y-y/"><span class="root-arabic">ع ي ي</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-ghayn">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">غ</button></h2>
+    <h2>غ</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/gh-b-r/"><span class="root-arabic">غ ب ر</span></a></li>
@@ -1449,11 +1264,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/gh-y-dad/"><span class="root-arabic">غ ي ض</span></a></li>
       <li><a href="/quran-terminology/fa/roots/gh-y-zha/"><span class="root-arabic">غ ي ظ</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-fa">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ف</button></h2>
+    <h2>ف</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/f-a-d/"><span class="root-arabic">ف أ د</span></a></li>
@@ -1529,11 +1343,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/f-y-dad/"><span class="root-arabic">ف ي ض</span></a></li>
       <li><a href="/quran-terminology/fa/roots/f-y-l/"><span class="root-arabic">ف ي ل</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-qaf">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ق</button></h2>
+    <h2>ق</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/q-b-h/"><span class="root-arabic">ق ب ح</span></a></li>
@@ -1612,11 +1425,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/q-y-dad/"><span class="root-arabic">ق ي ض</span></a></li>
       <li><a href="/quran-terminology/fa/roots/q-y-l/"><span class="root-arabic">ق ي ل</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-kaf">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ک</button></h2>
+    <h2>ک</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/k-a-s/"><span class="root-arabic">ك أ س</span></a></li>
@@ -1679,11 +1491,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/k-y-l/"><span class="root-arabic">ك ي ل</span></a></li>
       <li><a href="/quran-terminology/fa/roots/k-y-n/"><span class="root-arabic">ك ي ن</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-lam">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ل</button></h2>
+    <h2>ل</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/l-b-b/"><span class="root-arabic">ل ب ب</span></a></li>
@@ -1741,11 +1552,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/l-y-l/"><span class="root-arabic">ل ي ل</span></a></li>
       <li><a href="/quran-terminology/fa/roots/l-y-n/"><span class="root-arabic">ل ي ن</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-mim">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">م</button></h2>
+    <h2>م</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/m-a-y/"><span class="root-arabic">م أ ي</span></a></li>
@@ -1816,11 +1626,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/m-y-z/"><span class="root-arabic">م ي ز</span></a></li>
       <li><a href="/quran-terminology/fa/roots/m-y-l/"><span class="root-arabic">م ي ل</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-nun">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ن</button></h2>
+    <h2>ن</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/n-a-y/"><span class="root-arabic">ن أ ي</span></a></li>
@@ -1928,11 +1737,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/n-w-y/"><span class="root-arabic">ن و ي</span></a></li>
       <li><a href="/quran-terminology/fa/roots/n-y-l/"><span class="root-arabic">ن ي ل</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-ha-plain">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ه</button></h2>
+    <h2>ه</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/h2-a-a/"><span class="root-arabic">ه ا ء</span></a></li>
@@ -1976,11 +1784,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/h2-y-l/"><span class="root-arabic">ه ي ل</span></a></li>
       <li><a href="/quran-terminology/fa/roots/h2-y-m/"><span class="root-arabic">ه ي م</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-waw">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">و</button></h2>
+    <h2>و</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/w-a-d/"><span class="root-arabic">و أ د</span></a></li>
@@ -2060,11 +1867,10 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/w-h2-n/"><span class="root-arabic">و ه ن</span></a></li>
       <li><a href="/quran-terminology/fa/roots/w-h2-y/"><span class="root-arabic">و ه ي</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
   <section class="root-letter-group" id="letter-ya">
-    <h2><button class="root-section-toggle" type="button" aria-expanded="true">ی</button></h2>
+    <h2>ی</h2>
 
     <ul class="root-index-list">
       <li><a href="/quran-terminology/fa/roots/y-a-s/"><span class="root-arabic">ي أ س</span></a></li>
@@ -2079,72 +1885,7 @@ permalink: /quran-terminology/fa/roots/
       <li><a href="/quran-terminology/fa/roots/y-n-ayn/"><span class="root-arabic">ي ن ع</span></a></li>
       <li><a href="/quran-terminology/fa/roots/y-w-m/"><span class="root-arabic">ي و م</span></a></li>
     </ul>
-    <a class="root-back-top" href="#root-letters">بازگشت به حروف</a>
   </section>
 
 </div>
-
-<script>
-  (function () {
-    var page = document.querySelector('.root-index-page');
-    if (!page) return;
-
-    var search = page.querySelector('#root-search');
-    var noResults = page.querySelector('#root-no-results');
-    var groups = Array.prototype.slice.call(page.querySelectorAll('.root-letter-group'));
-
-    function setGroup(group, open) {
-      var btn = group.querySelector('.root-section-toggle');
-      group.classList.toggle('is-collapsed', !open);
-      if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
-    }
-
-    groups.forEach(function (group, index) {
-      var btn = group.querySelector('.root-section-toggle');
-      if (btn) {
-        btn.addEventListener('click', function () {
-          setGroup(group, group.classList.contains('is-collapsed'));
-        });
-      }
-
-      if (window.matchMedia && window.matchMedia('(max-width: 720px)').matches && index > 0) {
-        setGroup(group, false);
-      }
-    });
-
-    page.querySelectorAll('[data-root-action]').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var open = btn.getAttribute('data-root-action') === 'open';
-        groups.forEach(function (group) { setGroup(group, open); });
-      });
-    });
-
-    if (search) {
-      search.addEventListener('input', function () {
-        var q = search.value.trim().toLowerCase();
-        var any = false;
-
-        groups.forEach(function (group) {
-          var groupHasMatch = false;
-          var items = Array.prototype.slice.call(group.querySelectorAll('.root-index-list li'));
-
-          items.forEach(function (item) {
-            var text = item.textContent.replace(/\s+/g, ' ').trim().toLowerCase();
-            var match = !q || text.indexOf(q) !== -1;
-            item.classList.toggle('is-hidden', !match);
-            if (match) groupHasMatch = true;
-          });
-
-          group.style.display = groupHasMatch ? '' : 'none';
-          if (groupHasMatch) {
-            any = true;
-            if (q) setGroup(group, true);
-          }
-        });
-
-        if (noResults) noResults.classList.toggle('is-visible', !any);
-      });
-    }
-  })();
-</script>
 
