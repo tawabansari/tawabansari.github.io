@@ -945,6 +945,11 @@
       box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
     }
 
+    .root-index-page .root-tools + .root-tools,
+    .root-index-page .root-empty-message + .root-empty-message {
+      display: none !important;
+    }
+
     .root-index-page .root-search {
       width: 100%;
       box-sizing: border-box;
@@ -957,6 +962,9 @@
       font: inherit;
       line-height: 1.4;
     }
+
+    .root-index-page[dir="rtl"] .root-search { direction: rtl; text-align: right; }
+    .root-index-page[dir="ltr"] .root-search { direction: ltr; text-align: left; }
 
     .root-index-page .root-search:focus {
       outline: none;
@@ -972,6 +980,9 @@
       margin-bottom: 0.55rem;
       scrollbar-width: thin;
     }
+
+    .root-index-page[dir="rtl"] .root-letter-nav { direction: rtl; }
+    .root-index-page[dir="ltr"] .root-letter-nav { direction: ltr; }
 
     .root-index-page .root-letter-nav a {
       flex: 0 0 auto;
@@ -1000,6 +1011,8 @@
       flex-wrap: wrap;
     }
 
+    .root-index-page[dir="rtl"] .root-tool-actions { direction: rtl; justify-content: flex-start; }
+
     .root-index-page .root-tool-button,
     .root-index-page .root-section-toggle {
       border: 1px solid #d7dde6;
@@ -1012,11 +1025,20 @@
       line-height: 1.2;
     }
 
-    .root-index-page .root-tool-button {
-      padding: 0.45rem 0.75rem;
+    .root-index-page .root-tool-button { padding: 0.45rem 0.75rem; }
+
+    .root-index-page .root-letter-group > h2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
     }
 
     .root-index-page .root-section-toggle {
+      flex: 0 0 auto;
+      width: auto;
+      min-width: 2.05rem;
+      max-width: 3rem;
       margin-inline-start: 0.55rem;
       padding: 0.25rem 0.55rem;
       font-size: 0.85rem !important;
@@ -1024,13 +1046,12 @@
     }
 
     .root-index-page .root-tool-button:hover,
-    .root-index-page .root-section-toggle:hover {
-      border-color: #b08d57;
-    }
+    .root-index-page .root-section-toggle:hover { border-color: #b08d57; }
 
     .root-index-page .root-letter-group.root-collapsed .root-index-list,
     .root-index-page .root-letter-group.root-filter-hidden,
-    .root-index-page .root-index-list li.root-filter-hidden {
+    .root-index-page .root-index-list li.root-filter-hidden,
+    .root-index-page .root-letter-group.root-collapsed .root-back-link {
       display: none !important;
     }
 
@@ -1043,9 +1064,7 @@
       color: #64748b;
     }
 
-    .root-index-page .root-empty-message.show {
-      display: block;
-    }
+    .root-index-page .root-empty-message.show { display: block; }
 
     .root-index-page .root-back-link {
       display: inline-block;
@@ -1055,10 +1074,7 @@
       text-decoration: none;
     }
 
-    .root-index-page .root-back-link:hover {
-      text-decoration: underline;
-      text-underline-offset: 3px;
-    }
+    .root-index-page .root-back-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 
     body.dark-theme .root-index-page .root-tools,
     body.dark-theme .root-index-page .root-search,
@@ -1070,41 +1086,24 @@
       color: #f8fafc;
     }
 
-    body.dark-theme .root-index-page .root-tools {
-      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.32);
-    }
+    body.dark-theme .root-index-page .root-tools { box-shadow: 0 10px 28px rgba(0, 0, 0, 0.32); }
 
     body.dark-theme .root-index-page .root-search:focus,
     body.dark-theme .root-index-page .root-letter-nav a:hover,
     body.dark-theme .root-index-page .root-letter-nav a:focus-visible,
     body.dark-theme .root-index-page .root-tool-button:hover,
-    body.dark-theme .root-index-page .root-section-toggle:hover {
-      border-color: #d6b26d;
-    }
+    body.dark-theme .root-index-page .root-section-toggle:hover { border-color: #d6b26d; }
 
     body.dark-theme .root-index-page .root-letter-nav a:hover,
     body.dark-theme .root-index-page .root-letter-nav a:focus-visible,
-    body.dark-theme .root-index-page .root-back-link {
-      color: #d6b26d;
-    }
+    body.dark-theme .root-index-page .root-back-link { color: #d6b26d; }
 
-    body.dark-theme .root-index-page .root-empty-message {
-      border-color: #475569;
-      color: #cbd5e1;
-    }
+    body.dark-theme .root-index-page .root-empty-message { border-color: #475569; color: #cbd5e1; }
 
     @media (max-width: 720px) {
-      .root-index-page .root-tools {
-        top: 0;
-        margin-top: 1rem;
-        border-radius: 14px;
-      }
-
-      .root-index-page .root-letter-group {
-        margin-top: 1.5rem;
-      }
+      .root-index-page .root-tools { top: 0; margin-top: 1rem; border-radius: 14px; }
+      .root-index-page .root-letter-group { margin-top: 1.5rem; }
     }
-
 
     @media print {
       .site-header,
@@ -1115,7 +1114,8 @@
       .copy-ayah-text,
       .copy-ayah-link,
       .copy-section-text,
-      .root-popover {
+      .root-popover,
+      .root-tools {
         display: none !important;
       }
 
@@ -1818,6 +1818,14 @@
 
     const isFarsi = document.body.classList.contains('lang-fa') || rootPage.dir === 'rtl';
 
+    rootPage.querySelectorAll('.root-tools, .root-empty-message, .root-back-link, .root-section-toggle').forEach(function (element) {
+      element.remove();
+    });
+
+    rootPage.querySelectorAll('.root-filter-hidden').forEach(function (element) {
+      element.classList.remove('root-filter-hidden');
+    });
+
     const tools = document.createElement('section');
     tools.className = 'root-tools';
     tools.id = 'root-tools';
@@ -1827,9 +1835,7 @@
     search.className = 'root-search';
     search.type = 'search';
     search.autocomplete = 'off';
-    search.placeholder = isFarsi
-      ? 'جستجوی ریشه، مثل: ح ق ق یا h-q-q'
-      : 'Search roots, e.g. A M N or a-m-n';
+    search.placeholder = isFarsi ? 'جستجوی ریشه، مانند: ا م ن یا ح ق ق' : 'Search roots, e.g. A M N or a-m-n';
     search.setAttribute('aria-label', isFarsi ? 'جستجوی ریشه‌ها' : 'Search roots');
 
     const nav = document.createElement('nav');
@@ -1839,7 +1845,6 @@
     groups.forEach(function (group) {
       const heading = group.querySelector('h2');
       if (!heading) return;
-
       const link = document.createElement('a');
       link.href = '#' + group.id;
       link.textContent = cleanText(heading.childNodes[0].textContent || heading.textContent);
@@ -1861,40 +1866,31 @@
 
     actions.appendChild(expandButton);
     actions.appendChild(collapseButton);
-
     tools.appendChild(search);
     tools.appendChild(nav);
     tools.appendChild(actions);
 
     const intro = rootPage.querySelector('.root-index-intro');
     const hero = rootPage.querySelector('.root-index-hero');
-
-    if (intro) {
-      intro.insertAdjacentElement('afterend', tools);
-    } else if (hero) {
-      hero.insertAdjacentElement('afterend', tools);
-    } else {
-      rootPage.insertAdjacentElement('afterbegin', tools);
-    }
+    if (intro) intro.insertAdjacentElement('afterend', tools);
+    else if (hero) hero.insertAdjacentElement('afterend', tools);
+    else rootPage.insertAdjacentElement('afterbegin', tools);
 
     const emptyMessage = document.createElement('p');
     emptyMessage.className = 'root-empty-message';
-    emptyMessage.textContent = isFarsi
-      ? 'هیچ ریشه‌ای با این جستجو پیدا نشد.'
-      : 'No roots matched this search.';
+    emptyMessage.textContent = isFarsi ? 'هیچ ریشه‌ای با این جستجو پیدا نشد.' : 'No roots matched this search.';
     tools.insertAdjacentElement('afterend', emptyMessage);
 
     function setGroupCollapsed(group, collapsed) {
       const button = group.querySelector('.root-section-toggle');
       group.classList.toggle('root-collapsed', collapsed);
-
       if (button) {
         button.textContent = collapsed ? '+' : '−';
         button.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
       }
     }
 
-    groups.forEach(function (group, index) {
+    groups.forEach(function (group) {
       const heading = group.querySelector('h2');
       const list = group.querySelector('.root-index-list');
       if (!heading || !list) return;
@@ -1902,39 +1898,38 @@
       const toggle = document.createElement('button');
       toggle.className = 'root-section-toggle';
       toggle.type = 'button';
-      toggle.textContent = '−';
+      toggle.textContent = '+';
       toggle.setAttribute('aria-label', isFarsi ? 'باز و بسته کردن این بخش' : 'Toggle this section');
-      toggle.setAttribute('aria-expanded', 'true');
-
+      toggle.setAttribute('aria-expanded', 'false');
       toggle.addEventListener('click', function () {
         setGroupCollapsed(group, !group.classList.contains('root-collapsed'));
       });
-
       heading.appendChild(toggle);
 
       const backLink = document.createElement('a');
       backLink.className = 'root-back-link';
       backLink.href = '#root-tools';
-      backLink.textContent = isFarsi ? 'بازگشت به فهرست حروف ↑' : 'Back to letters ↑';
+      backLink.textContent = isFarsi ? 'بازگشت به حروف ↑' : 'Back to letters ↑';
       group.appendChild(backLink);
 
-      if (window.matchMedia('(max-width: 720px)').matches && index > 0) {
-        setGroupCollapsed(group, true);
-      }
+      setGroupCollapsed(group, true);
     });
 
     expandButton.addEventListener('click', function () {
       groups.forEach(function (group) {
-        if (!group.classList.contains('root-filter-hidden')) {
-          setGroupCollapsed(group, false);
-        }
+        if (!group.classList.contains('root-filter-hidden')) setGroupCollapsed(group, false);
       });
     });
 
     collapseButton.addEventListener('click', function () {
-      groups.forEach(function (group) {
-        setGroupCollapsed(group, true);
-      });
+      groups.forEach(function (group) { setGroupCollapsed(group, true); });
+    });
+
+    nav.addEventListener('click', function (event) {
+      const link = event.target.closest('a[href^="#"]');
+      if (!link) return;
+      const target = rootPage.querySelector(link.getAttribute('href'));
+      if (target && target.classList.contains('root-letter-group')) setGroupCollapsed(target, false);
     });
 
     function normalizeRootSearch(value) {
@@ -1943,7 +1938,7 @@
         .replace(/[أإآٱ]/g, 'ا')
         .replace(/[ة]/g, 'ه')
         .replace(/[ى]/g, 'ي')
-        .replace(/[‌ـ]/g, '')
+        .replace(/[ًٌٍَُِّْٰـ‌]/g, '')
         .replace(/[\s\-_/]+/g, ' ')
         .trim();
     }
@@ -1958,13 +1953,9 @@
 
         items.forEach(function (item) {
           const link = item.querySelector('a');
-          const haystack = normalizeRootSearch(
-            item.textContent + ' ' + (link ? link.getAttribute('href') || '' : '')
-          );
-
+          const haystack = normalizeRootSearch(item.textContent + ' ' + (link ? link.getAttribute('href') || '' : ''));
           const matches = !query || haystack.includes(query);
           item.classList.toggle('root-filter-hidden', !matches);
-
           if (matches) {
             groupHasMatch = true;
             anyVisible = true;
@@ -1972,10 +1963,8 @@
         });
 
         group.classList.toggle('root-filter-hidden', !groupHasMatch);
-
-        if (query && groupHasMatch) {
-          setGroupCollapsed(group, false);
-        }
+        if (query && groupHasMatch) setGroupCollapsed(group, false);
+        if (!query) setGroupCollapsed(group, true);
       });
 
       emptyMessage.classList.toggle('show', !anyVisible);
@@ -1987,7 +1976,6 @@
       searchTimer = window.setTimeout(filterRoots, 80);
     });
   }());
-
 
 </script>
 
