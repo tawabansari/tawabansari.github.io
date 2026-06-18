@@ -1,0 +1,661 @@
+---
+layout: default
+title: ریشه قرآنی غ ي ب
+permalink: /quran-terminology/fa/roots/gh-y-b/
+---
+
+<script>
+  (function () {
+    /* Prevent first-paint root-page theme flicker.
+       This reads the same key used by the default layout before the root card renders. */
+    try {
+      var savedTheme = localStorage.getItem('forqan-theme');
+      var html = document.documentElement;
+      if (savedTheme === 'dark') {
+        html.classList.add('forqan-root-pre-dark');
+        html.classList.remove('forqan-root-pre-light');
+      } else if (savedTheme === 'light') {
+        html.classList.add('forqan-root-pre-light');
+        html.classList.remove('forqan-root-pre-dark');
+      }
+    } catch (e) {}
+  })();
+</script>
+
+<style>
+  .root-study-page {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-soft: #f0e5d2;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+
+    direction: rtl;
+    text-align: right;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  /* Dark mode follows the website toggle/classes, not the OS preference. */
+  html.forqan-root-pre-dark .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark .root-study-page,
+  body.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-mode .root-study-page,
+  html[data-theme="dark"] .root-study-page,
+  body[data-theme="dark"] .root-study-page,
+  [data-bs-theme="dark"] .root-study-page,
+  .forqan-theme-dark .root-study-page,
+  .theme-dark .root-study-page,
+  .root-study-page.forqan-root-dark {
+    --root-bg: #0f1a2c;
+    --root-card: #121f33;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #ece7dc;
+    --root-muted: #beb6a7;
+    --root-soft: rgba(255, 255, 255, 0.06);
+    --root-border: rgba(214, 176, 95, 0.24);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
+  }
+
+  html.forqan-root-pre-light .root-study-page,
+  html.light .root-study-page,
+  body.light .root-study-page,
+  html.light-mode .root-study-page,
+  body.light-mode .root-study-page,
+  html[data-theme="light"] .root-study-page,
+  body[data-theme="light"] .root-study-page,
+  [data-bs-theme="light"] .root-study-page,
+  .forqan-theme-light .root-study-page,
+  .theme-light .root-study-page,
+  .root-study-page.forqan-root-light {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-soft: #f0e5d2;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+  }
+
+  .root-study-page * {
+    box-sizing: border-box;
+  }
+
+  .root-study-page,
+  .root-study-page h1,
+  .root-study-page h2,
+  .root-study-page h3,
+  .root-study-page p,
+  .root-study-page li,
+  .root-study-page strong {
+    color: var(--root-text);
+  }
+
+  .root-study-page h1,
+  .root-study-page h2,
+  .root-study-page h3,
+  .root-study-page p,
+  .root-study-page li {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .root-frame {
+    background:
+      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
+      var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+    letter-spacing: 0.01em;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
+      var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-forms-card h2,
+  .root-toc h2 {
+    margin-top: 0;
+  }
+
+  .root-forms-card ul {
+    padding-right: 1.2rem;
+    margin: 0.75rem 0 0;
+  }
+
+  .root-forms-card li {
+    margin: 0.48rem 0;
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-toc li {
+    margin: 0.28rem 0;
+    break-inside: avoid;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page p {
+    margin: 0.85rem 0;
+  }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .root-study-page a:hover {
+    color: var(--root-accent);
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent),
+      var(--root-panel);
+    color: var(--root-text);
+  }
+
+  .root-note {
+    border-right: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+  }
+
+  .root-note strong,
+  .root-subtitle strong {
+    color: var(--root-text);
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page {
+      padding: 2rem 1rem;
+    }
+
+    .root-frame {
+      padding: 1.25rem;
+      border-radius: 19px;
+    }
+
+    .root-section,
+    .root-forms-card,
+    .root-toc {
+      padding: 1rem;
+    }
+
+    .root-toc ol {
+      columns: 1;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    function parseRGB(value) {
+      var match = String(value || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+      if (!match) return null;
+      return [Number(match[1]), Number(match[2]), Number(match[3])];
+    }
+
+    function luminance(rgb) {
+      if (!rgb) return 255;
+      return (0.2126 * rgb[0]) + (0.7152 * rgb[1]) + (0.0722 * rgb[2]);
+    }
+
+    function hasToken(text, token) {
+      return new RegExp('(^|\s|_|-)' + token + '($|\s|_|-)', 'i').test(String(text || ''));
+    }
+
+    function savedThemePreference() {
+      try {
+        return localStorage.getItem('forqan-theme');
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function detectForqanTheme() {
+      var html = document.documentElement;
+      var body = document.body;
+      var marker = [
+        html.className,
+        body ? body.className : '',
+        html.getAttribute('data-theme'),
+        body ? body.getAttribute('data-theme') : '',
+        html.getAttribute('data-bs-theme'),
+        body ? body.getAttribute('data-bs-theme') : ''
+      ].join(' ');
+
+      if (hasToken(marker, 'dark')) return 'dark';
+      if (hasToken(marker, 'light')) return 'light';
+
+      var saved = savedThemePreference();
+      if (saved === 'dark' || saved === 'light') return saved;
+
+      if (body || html) {
+        var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
+                 parseRGB(getComputedStyle(html).backgroundColor);
+        if (bg) return luminance(bg) < 128 ? 'dark' : 'light';
+      }
+
+      return 'light';
+    }
+
+    function applyForqanRootTheme() {
+      var theme = detectForqanTheme();
+      var isDark = theme === 'dark';
+      var html = document.documentElement;
+      var page = document.querySelector('.root-study-page');
+
+      html.classList.toggle('forqan-root-pre-dark', isDark);
+      html.classList.toggle('forqan-root-pre-light', !isDark);
+
+      if (page) {
+        page.classList.toggle('forqan-root-dark', isDark);
+        page.classList.toggle('forqan-root-light', !isDark);
+      }
+    }
+
+    applyForqanRootTheme();
+    document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
+    window.addEventListener('load', applyForqanRootTheme);
+    window.addEventListener('storage', applyForqanRootTheme);
+
+    if (window.MutationObserver) {
+      var observer = new MutationObserver(applyForqanRootTheme);
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+      });
+
+      function observeBody() {
+        if (!document.body) return;
+        observer.observe(document.body, {
+          attributes: true,
+          attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+        });
+      }
+
+      observeBody();
+      document.addEventListener('DOMContentLoaded', observeBody);
+    }
+  })();
+</script>
+
+
+<div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
+
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">ریشه قرآنی</div>
+      <h1>ریشه قرآنی غ ي ب</h1>
+      <p class="root-subtitle">پنهانی، غیبت، پوشیده بودن از دید انسان، و مرزی که میان آگاهی محدود انسان و علم فراگیر خدا قرار دارد</p>
+    </section>
+
+    <section class="root-section" id="forms-covered">
+      <h2>صورت‌های بررسی‌شده از این ریشه</h2>
+
+      <p>
+        در این صفحه، ریشه <strong>غ ي ب</strong> از نظر معنایی بررسی می‌شود و سپس مهم‌ترین صورت‌های قرآنی این ریشه جداگانه توضیح داده می‌شوند:
+      </p>
+
+      <ul>
+        <li><strong>غيب / الغيب</strong> — پنهان، نادیده، امری که از مشاهده مستقیم انسان بیرون است</li>
+        <li><strong>غيوب</strong> — پنهانی‌ها، امور پوشیده، لایه‌هایی از حقیقت که آشکار نیستند</li>
+        <li><strong>غيابت</strong> — ژرفای پنهان، وضعیتی که چیزی یا کسی از چشم بیرونی فرو می‌رود و از دسترس دید خارج می‌شود</li>
+        <li><strong>غائبين</strong> — غایبان، کسانی که در صحنه حاضر نیستند</li>
+        <li><strong>غائبة</strong> — امر پنهان، مکتوم، یا غایب از میدان آشکار</li>
+        <li><strong>يغتب</strong> — در قرآن در قالب نهی آمده است: نباید غیبت کند؛ یعنی نباید از غیاب کسی برای شکستن حرمت او استفاده کند</li>
+      </ul>
+
+      <p>
+        یادآوری: ریشه <strong>غ ي ب</strong> فقط درباره آینده نیست. غیب در قرآن هر چیزی است که از میدان مشاهده، حضور، و آگاهی مستقیم انسان بیرون باشد. ممکن است مربوط به آینده باشد، اما می‌تواند گذشته پنهان، نیت‌های درونی، امور آسمان‌ها و زمین، حقیقت‌های پوشیده، یا چیزی باشد که فقط خدا به آن احاطه کامل دارد.
+      </p>
+    </section>
+
+    <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
+      <h2>فهرست کاربردهای این ریشه</h2>
+      <ol>
+        <li><a href="#general-meaning">معنای عمومی ریشه غ ي ب</a></li>
+        <li><a href="#sense-layer">لایه حسی ریشه: پنهان شدن از افق دید</a></li>
+        <li><a href="#human-boundary">غیب؛ مرز آگاهی انسان</a></li>
+        <li><a href="#iman-bil-ghayb">ایمان به غیب در آغاز سوره بقره</a></li>
+        <li><a href="#knowledge-of-god">غیب و علم خدا</a></li>
+        <li><a href="#ghuyub">غيوب؛ پنهانی‌های چندلایه</a></li>
+        <li><a href="#ghayabat">غيابت؛ احاطه شدن در ژرفای پنهان</a></li>
+        <li><a href="#ghaibin-ghaibah">غائبين و غائبة؛ نبودن در صحنه آشکار</a></li>
+        <li><a href="#yaghtab">يغتب؛ غیبت زبانی و شکستن حرمت انسان</a></li>
+        <li><a href="#humility">غیب، تواضع معرفتی، و پرهیز از ادعای بی‌دلیل</a></li>
+        <li><a href="#summary">جمع‌بندی</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="general-meaning">
+      <h2>معنای عمومی ریشه غ ي ب</h2>
+
+      <p>
+        ریشه <strong>غ ي ب</strong> در قرآن به میدان معنایی پنهان بودن، غایب بودن، پوشیده بودن، و بیرون بودن از مشاهده مستقیم اشاره دارد. وقتی چیزی غایب است، الزاماً وجود ندارد؛ بلکه از دید، حضور، یا آگاهی ما پنهان است.
+      </p>
+
+      <p>
+        این نکته بسیار مهم است. غیب در قرآن به معنای خیال، افسانه، یا امر بی‌واقعیت نیست. غیب یعنی واقعیتی که انسان آن را با چشم، حس، تجربه عادی، یا علم محدود خود در اختیار ندارد. پس غیب نفی واقعیت نیست؛ بلکه یادآوری محدودیت انسان در برابر واقعیت است.
+      </p>
+
+      <p>
+        از همین‌جا، ریشه <strong>غ ي ب</strong> انسان را به تواضع معرفتی دعوت می‌کند. انسان همه چیز را نمی‌بیند، همه چیز را نمی‌داند، و به همه لایه‌های هستی دسترسی ندارد. چیزی ممکن است از نگاه ما پنهان باشد، اما نزد خدا آشکار باشد.
+      </p>
+    </section>
+
+    <section class="root-section" id="sense-layer">
+      <h2>لایه حسی ریشه: پنهان شدن از افق دید</h2>
+
+      <p>
+        در لایه حسی زبان عربی، این ریشه با پنهان شدن چیزی از افق دید پیوند دارد؛ مانند تعبیر <strong>غابت الشمس</strong>، یعنی خورشید از دید ناظر پنهان شد. در چنین حالتی، خورشید نابود نشده است؛ فقط از زاویه دید ما بیرون رفته است.
+      </p>
+
+      <p>
+        این تصویر ساده، معنای قرآنی غیب را ملموس‌تر می‌کند. غیب به معنای نیستی نیست. غیب یعنی چیزی از میدان مشاهده ما کنار رفته، فرو رفته، یا پشت حجاب ادراک ما قرار گرفته است.
+      </p>
+
+      <p>
+        پس انسان نباید میان ندیدن و نبودن شتاب‌زده مساوی بگذارد. چیزی می‌تواند از نگاه انسان غایب باشد، اما در ساختار حقیقت حاضر باشد. این همان نقطه‌ای است که قرآن انسان را از غرور حس‌گرایانه بیرون می‌آورد و به تواضع در برابر حقیقت بزرگ‌تر دعوت می‌کند.
+      </p>
+    </section>
+
+    <section class="root-section" id="human-boundary">
+      <h2>غیب؛ مرز آگاهی انسان</h2>
+
+      <p>
+        در قرآن، غیب مرزی است میان آنچه انسان می‌بیند و آنچه نمی‌بیند؛ میان آنچه انسان می‌داند و آنچه نمی‌داند؛ میان جهان محسوس و لایه‌هایی از حقیقت که فراتر از ادراک عادی او قرار دارند.
+      </p>
+
+      <p>
+        انسان معمولاً آنچه را می‌بیند جدی می‌گیرد و آنچه را نمی‌بیند انکار می‌کند. اما قرآن این نگاه را اصلاح می‌کند. ندیدن، دلیل نبودن نیست. ندانستن، دلیل باطل بودن نیست. محدودیت ابزار انسان، محدودیت حقیقت نیست.
+      </p>
+
+      <p>
+        از این جهت، ایمان به غیب یک دعوت کورکورانه نیست. ایمان به غیب یعنی انسان بپذیرد که هستی بزرگ‌تر از میدان حس اوست، و علم خدا فراتر از علم انسان است. این ایمان، انسان را از غرور علمی، مادی‌گرایی سطحی، و زندانی شدن در ظاهر امور نجات می‌دهد.
+      </p>
+    </section>
+
+    <section class="root-section" id="iman-bil-ghayb">
+      <h2>ایمان به غیب در آغاز سوره بقره</h2>
+
+      <p>
+        در آغاز سوره بقره، یکی از نخستین ویژگی‌های متقین این است که:
+      </p>
+
+      <p class="arabic-quote"><strong>الذين يؤمنون بالغيب</strong></p>
+
+      <p>
+        آنان به غیب ایمان می‌آورند.
+      </p>
+
+      <p>
+        این تعبیر، بسیار بنیادین است. قرآن هدایت خود را برای کسانی معرفی می‌کند که ظرفیت پذیرش حقیقت فراتر از ظاهر را دارند. کسی که فقط آنچه را چشمش می‌بیند حقیقت بداند، هنوز در برابر جهان بزرگ‌تر بسته است.
+      </p>
+
+      <p>
+        ایمان به غیب در اینجا به معنای پذیرش هر ادعای پنهانی نیست. قرآن انسان را به خرافه، توهم، و پیروی از ادعاهای بی‌دلیل دعوت نمی‌کند. ایمان به غیب یعنی انسان در برابر خدا، وحی، آخرت، حساب، فرشتگان، و لایه‌های نادیده هستی بسته و متکبر نباشد. یعنی بداند که حقیقت، محدود به آنچه اکنون می‌بیند نیست.
+      </p>
+
+      <p>
+        پس <strong>بالغيب</strong> در بقره ۲:۳، دروازه‌ای برای فهم تقواست. متقی کسی است که در برابر حقیقت نادیده نیز مسئولانه زندگی می‌کند؛ گویی خدا را نمی‌بیند، اما می‌داند که خدا او را می‌بیند.
+      </p>
+    </section>
+
+    <section class="root-section" id="knowledge-of-god">
+      <h2>غیب و علم خدا</h2>
+
+      <p>
+        قرآن بارها غیب را با علم خدا پیوند می‌دهد. این پیوند نشان می‌دهد که غیب نسبت به انسان غیب است، نه نسبت به خدا. آنچه برای ما پنهان است، نزد خدا حاضر است.
+      </p>
+
+      <p>
+        در نگاه قرآنی، خدا دانای غیب است؛ یعنی هیچ لایه‌ای از حقیقت از علم او بیرون نیست. گذشته، آینده، درون انسان، نیت‌ها، سرانجام‌ها، راه‌های پنهان، و حقیقت اشیا نزد او پوشیده نیستند.
+      </p>
+
+      <p>
+        این شناخت، دو نتیجه مهم دارد. نخست، انسان نباید ادعای احاطه بر غیب کند. دوم، انسان نباید خیال کند که اگر چیزی از مردم پنهان ماند، از خدا نیز پنهان مانده است. غیب برای انسان حجاب است، اما برای خدا حجاب نیست.
+      </p>
+
+      <p>
+        اینجا توحید معرفتی روشن می‌شود: علم مطلق از آن خداست. انسان می‌تواند نشانه‌ها را بفهمد، علم بیاموزد، تحقیق کند، و به حق نزدیک شود؛ اما مالک غیب نیست. هر ادعایی که انسان را صاحب مستقل غیب معرفی کند، باید با احتیاط و معیار قرآن سنجیده شود.
+      </p>
+    </section>
+
+    <section class="root-section" id="ghuyub">
+      <h2>غيوب؛ پنهانی‌های چندلایه</h2>
+
+      <p>
+        صورت <strong>غيوب</strong> جمع غیب است و به پنهانی‌ها یا امور پوشیده اشاره می‌کند. این جمع بودن نشان می‌دهد که پنهان بودن در قرآن یک سطح ساده ندارد. حقیقت می‌تواند لایه‌های گوناگون داشته باشد.
+      </p>
+
+      <p>
+        گاهی چیزی از چشم پنهان است. گاهی از گوش. گاهی از عقل عادی. گاهی از حافظه تاریخی. گاهی در دل انسان پنهان است. گاهی در آینده‌ای است که هنوز برای انسان آشکار نشده. گاهی در ساختار آسمان‌ها و زمین است. گاهی در نتیجه نهایی اعمال است که هنوز ظاهر نشده است.
+      </p>
+
+      <p>
+        پس غیوب، انسان را متوجه جهان چندلایه می‌کند. واقعیت فقط همان سطحی نیست که در برابر ما قرار دارد. پشت ظاهر، لایه‌هایی هست که انسان باید با تواضع، دقت، و تقوا با آن روبه‌رو شود.
+      </p>
+    </section>
+
+    <section class="root-section" id="ghayabat">
+      <h2>غيابت؛ احاطه شدن در ژرفای پنهان</h2>
+
+      <p>
+        صورت <strong>غيابت</strong> در قرآن به ژرفای پنهان یا جایی اشاره دارد که چیزی از دید بیرونی خارج می‌شود. نمونه روشن آن در داستان یوسف است؛ جایی که سخن از <strong>غيابت الجب</strong> می‌آید.
+      </p>
+
+      <p>
+        این تعبیر فقط یک مکان فیزیکی را توصیف نمی‌کند. غیابت وضعیتی است که در آن شخص چنان در لایه‌ای پنهان فرو می‌رود که از بیرون دیده نمی‌شود و راه آشکاری برای دسترسی یا دفاع از او باقی نمی‌ماند.
+      </p>
+
+      <p>
+        در داستان یوسف، برادران می‌خواستند او را از میدان دید، توجه، و آینده پدر دور کنند. انداختن او در غیابت چاه، از نگاه ظاهری شبیه حذف کامل بود؛ گویی کودک از صحنه زندگی پاک می‌شود. اما همین نقطه پنهان، پایان تدبیر خدا نبود.
+      </p>
+
+      <p>
+        یوسف از چشم انسان‌ها پنهان شد، اما از علم و برنامه خدا بیرون نرفت. این نکته با معنای ریشه هماهنگ است: چیزی ممکن است از صحنه آشکار انسانی غایب شود، اما از احاطه خدا غایب نمی‌شود.
+      </p>
+    </section>
+
+    <section class="root-section" id="ghaibin-ghaibah">
+      <h2>غائبين و غائبة؛ نبودن در صحنه آشکار</h2>
+
+      <p>
+        صورت <strong>غائبين</strong> به کسانی اشاره دارد که در صحنه حاضر نیستند. انسان از نگاه خود، برخی را حاضر و برخی را غایب می‌بیند؛ اما این حضور و غیبت، نسبت به آگاهی انسان است، نه نسبت به علم خدا.
+      </p>
+
+      <p>
+        صورت <strong>غائبة</strong> در سوره نمل کاربردی بسیار دقیق دارد:
+      </p>
+
+      <p class="arabic-quote"><strong>وما من غائبة في السماء والأرض إلا في كتاب مبين</strong></p>
+
+      <p>
+        یعنی هیچ امر پنهان و مکتومی در آسمان و زمین نیست مگر اینکه در کتابی روشن ثبت و حاضر است.
+      </p>
+
+      <p>
+        در این کاربرد، <strong>غائبة</strong> را می‌توان به معنای یک امر پوشیده، یک حقیقت پنهان، یا چیزی دانست که از میدان آشکار بیرون است. مهم این است که قرآن می‌گوید چنین امری، هرچند از نگاه مخلوق پنهان باشد، در نظام علم و ثبت الهی گم نیست.
+      </p>
+
+      <p>
+        پس غائب بودن، به معنای بیرون بودن از علم خدا نیست. غائب بودن یعنی از نگاه ما دور بودن. این تمایز، جلوی یک خطای بزرگ را می‌گیرد: اینکه انسان خیال کند آنچه از چشم او دور است، از حقیقت نیز دور است.
+      </p>
+    </section>
+
+    <section class="root-section" id="yaghtab">
+      <h2>يغتب؛ غیبت زبانی و شکستن حرمت انسان</h2>
+
+      <p>
+        صورت <strong>يغتب</strong> از همین ریشه است، اما در میدان اخلاقی زبان به کار می‌رود. در قرآن، این صورت در قالب نهی آمده است: <strong>ولا يغتب بعضكم بعضا</strong>. یعنی برخی از شما نباید برخی دیگر را غیبت کنند.
+      </p>
+
+      <p>
+        غیبت کردن یعنی درباره کسی در نبود او سخن گفتن به گونه‌ای که حرمت او شکسته شود. این ارتباط با ریشه بسیار دقیق است. در غیبت زبانی، انسان از غیاب دیگری سوءاستفاده می‌کند. چون آن شخص حاضر نیست از خود دفاع کند، سخن‌گو پشت غیاب او پنهان می‌شود و آبرو و امنیت او را می‌شکند.
+      </p>
+
+      <p>
+        قرآن این رفتار را با تصویری تکان‌دهنده نشان می‌دهد:
+      </p>
+
+      <p class="arabic-quote"><strong>أيحب أحدكم أن يأكل لحم أخيه ميتا</strong></p>
+
+      <p>
+        آیا یکی از شما دوست دارد گوشت برادر مرده خود را بخورد؟
+      </p>
+
+      <p>
+        این تمثیل، رابطه غیبت زبانی با ریشه غیب را بسیار روشن می‌کند. انسان مرده، مانند انسان غایب، توان دفاع از خود ندارد. حمله به آبروی کسی در غیاب او، شبیه حمله به بدنی است که نمی‌تواند پاسخ دهد. قرآن با این تصویر نشان می‌دهد که غیبت فقط یک سخن ساده نیست؛ نوعی هجوم به حرمت انسان در لحظه ناتوانی اوست.
+      </p>
+
+      <p>
+        از این جهت، غیبت خیانت به امانت حضور انسان است. وقتی کسی حاضر نیست، زبان ما باید عادل‌تر شود، نه آزادتر برای ظلم. غیاب دیگری نباید تبدیل به فرصت تجاوز به آبرو و کرامت او شود.
+      </p>
+
+      <p>
+        کسی که به غیب ایمان دارد، باید در غیاب مردم نیز خدا را حاضر بداند.
+      </p>
+    </section>
+
+    <section class="root-section" id="humility">
+      <h2>غیب، تواضع معرفتی، و پرهیز از ادعای بی‌دلیل</h2>
+
+      <p>
+        یکی از مهم‌ترین درس‌های این ریشه، تواضع معرفتی است. انسان باید بداند که بسیاری از حقیقت‌ها از او پنهان‌اند. اما همین حقیقت نباید بهانه‌ای برای پذیرش هر ادعای بی‌دلیل شود.
+      </p>
+
+      <p>
+        قرآن از یک سو انسان را از انکار غیب بازمی‌دارد، و از سوی دیگر او را از پیروی ظن، گمان، و ادعاهای بی‌پایه نیز منع می‌کند. این تعادل بسیار مهم است. مؤمن قرآنی نه مادی‌گرای بسته است و نه خرافه‌پذیر بی‌معیار.
+      </p>
+
+      <p>
+        او می‌داند که غیب وجود دارد، اما مالک غیب خداست. او می‌داند که حقیقت فراتر از حس است، اما هر کسی که ادعای دسترسی به غیب کرد، صاحب حق نمی‌شود. معیار، قرآن، نشانه‌های روشن، صدق، عدالت، و سازگاری با توحید است.
+      </p>
+
+      <p>
+        پس ایمان به غیب باید انسان را فروتن، مسئول، و بیدار کند؛ نه ساده‌لوح، وابسته، یا تسلیم مدعیان قدرت معنوی.
+      </p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>جمع‌بندی</h2>
+
+      <p>
+        ریشه <strong>غ ي ب</strong> در قرآن به پنهان بودن، غایب بودن، بیرون بودن از مشاهده مستقیم، و محدودیت آگاهی انسان اشاره دارد. صورت‌هایی مانند <strong>غيب</strong>، <strong>غيوب</strong>، <strong>غيابت</strong>، <strong>غائبين</strong>، <strong>غائبة</strong>، و <strong>يغتب</strong> هر کدام شاخه‌ای از این معنا را نشان می‌دهند.
+      </p>
+
+      <p>
+        <strong>غيب</strong> ما را به جهان نادیده و علم خدا متوجه می‌کند. <strong>غيوب</strong> لایه‌های پنهان حقیقت را یادآوری می‌کند. <strong>غيابت</strong> نشان می‌دهد چیزی ممکن است از دید انسان پنهان شود، اما از تدبیر خدا بیرون نرود. <strong>غائبين</strong> و <strong>غائبة</strong> نبودن در صحنه آشکار را نشان می‌دهند. و <strong>يغتب</strong> هشدار می‌دهد که انسان نباید از غیاب دیگری برای شکستن حرمت او استفاده کند.
+      </p>
+
+      <p>
+        در نهایت، این ریشه انسان را به یک تعادل قرآنی می‌رساند: ایمان به حقیقتی فراتر از ظاهر، همراه با پرهیز از ادعای بی‌دلیل درباره غیب. انسان همه چیز را نمی‌داند، اما خدا به همه چیز آگاه است. پس راه درست، نه انکار غیب است و نه ادعای مالکیت بر آن؛ بلکه ایمان، تقوا، تواضع، و مسئولیت در برابر آن معبود یگانه‌ای است که پنهان و آشکار نزد او یکسان است.
+      </p>
+    </section>
+
+  </div>
+</div>
