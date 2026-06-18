@@ -29,12 +29,11 @@ permalink: /quran-terminology/en/roots/w-q-y/
     color: var(--root-text);
   }
 
-  body.dark .root-study-page,
-  body.dark-mode .root-study-page,
-  html.dark .root-study-page,
-  html.dark-mode .root-study-page,
-  [data-theme="dark"] .root-study-page,
-  .dark .root-study-page {
+  html[data-theme="dark"] .root-study-page,
+  body[data-theme="dark"] .root-study-page,
+  [data-bs-theme="dark"] .root-study-page,
+  .forqan-theme-dark .root-study-page,
+  .theme-dark .root-study-page {
     --root-bg: #0f1a2c;
     --root-card: #142238;
     --root-panel: #1b2a40;
@@ -48,6 +47,26 @@ permalink: /quran-terminology/en/roots/w-q-y/
     --root-accent-deep: #f0cf7a;
     --root-accent-soft: rgba(214, 176, 95, 0.12);
     --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  html[data-theme="light"] .root-study-page,
+  body[data-theme="light"] .root-study-page,
+  [data-bs-theme="light"] .root-study-page,
+  .forqan-theme-light .root-study-page,
+  .theme-light .root-study-page {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-soft: #f0e5d2;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
   }
 
   .root-study-page * {
