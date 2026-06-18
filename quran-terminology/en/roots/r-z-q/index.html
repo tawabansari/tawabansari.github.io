@@ -1,134 +1,646 @@
 ---
 layout: default
-title: Qur’anic Root R Z Q
-lang: en
+title: The Qur’anic Root R Z Q
 permalink: /quran-terminology/en/roots/r-z-q/
 ---
 
-<article class="forqan-article" dir="ltr" lang="en">
+<script>
+  (function () {
+    /* Prevent first-paint root-page theme flicker.
+       This reads the same key used by the default layout before the root card renders. */
+    try {
+      var savedTheme = localStorage.getItem('forqan-theme');
+      var html = document.documentElement;
+      if (savedTheme === 'dark') {
+        html.classList.add('forqan-root-pre-dark');
+        html.classList.remove('forqan-root-pre-light');
+      } else if (savedTheme === 'light') {
+        html.classList.add('forqan-root-pre-light');
+        html.classList.remove('forqan-root-pre-dark');
+      }
+    } catch (e) {}
+  })();
+</script>
 
-<p class="opening">By Name of The God, The Universally Merciful, The Particularly Compassionate.</p>
+<style>
+  .root-study-page {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-soft: #f0e5d2;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
 
-<nav class="toc" aria-label="Table of contents">
-  <p><strong>Table of contents</strong></p>
-  <ul>
-    <li><a href="#morphology-table">Morphological forms of the root R Z Q</a></li>
-    <li><a href="#general-meaning">General meaning of the root R Z Q</a></li>
-    <li><a href="#not-only-money">Rizq is not only money and food</a></li>
-    <li><a href="#delivering-need">Rizq as the delivery of need to creation</a></li>
-    <li><a href="#verbs-active">Razaqa and yarzuqu: the act of providing</a></li>
-    <li><a href="#verbs-passive">Ruziqa and yurzaqu: being provided for</a></li>
-    <li><a href="#rizq-noun">Rizq: gift, share, provision, and possibility of life</a></li>
-    <li><a href="#raziq">Rāziqīn: providers</a></li>
-    <li><a href="#razzaq">Al-Razzāq: The God as the constant and abundant Provider</a></li>
-    <li><a href="#rububiyyah">Rizq and Lordship</a></li>
-    <li><a href="#shukr">Rizq and gratitude</a></li>
-    <li><a href="#infaq">Rizq and giving</a></li>
-    <li><a href="#test">Rizq and the test of the human being</a></li>
-    <li><a href="#halal-tayyib">Lawful and wholesome rizq</a></li>
-    <li><a href="#material-nonmaterial">Material and non-material rizq</a></li>
-    <li><a href="#effort">The relation between rizq and human effort</a></li>
-    <li><a href="#wealth-danger">The danger of reducing rizq to wealth</a></li>
-    <li><a href="#translation">Suggested translation in Forqan</a></li>
-    <li><a href="#summary">Summary</a></li>
-  </ul>
-</nav>
+    direction: rtl;
+    text-align: right;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
 
-<h1>Qur’anic Root R Z Q</h1>
+  /* Dark mode follows the website toggle/classes, not the OS preference. */
+  html.forqan-root-pre-dark .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark .root-study-page,
+  body.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-mode .root-study-page,
+  html[data-theme="dark"] .root-study-page,
+  body[data-theme="dark"] .root-study-page,
+  [data-bs-theme="dark"] .root-study-page,
+  .forqan-theme-dark .root-study-page,
+  .theme-dark .root-study-page,
+  .root-study-page.forqan-root-dark {
+    --root-bg: #0f1a2c;
+    --root-card: #121f33;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #ece7dc;
+    --root-muted: #beb6a7;
+    --root-soft: rgba(255, 255, 255, 0.06);
+    --root-border: rgba(214, 176, 95, 0.24);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
+  }
 
-<p class="subtitle">Rizq, provision, delivered gift, fulfillment of need, and the opening of life and growth</p>
+  html.forqan-root-pre-light .root-study-page,
+  html.light .root-study-page,
+  body.light .root-study-page,
+  html.light-mode .root-study-page,
+  body.light-mode .root-study-page,
+  html[data-theme="light"] .root-study-page,
+  body[data-theme="light"] .root-study-page,
+  [data-bs-theme="light"] .root-study-page,
+  .forqan-theme-light .root-study-page,
+  .theme-light .root-study-page,
+  .root-study-page.forqan-root-light {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-soft: #f0e5d2;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+  }
 
-<h2 id="morphology-table">Morphological forms of the root R Z Q</h2>
+  .root-study-page * {
+    box-sizing: border-box;
+  }
 
-<p>This table is designed for teaching Qur’anic morphology. The column “Used in the Qur’an” indicates whether the form or example appears in the Qur’anic text. Some forms may be linguistically possible in Arabic, but if they do not appear in the Qur’an, they are marked “No.”</p>
+  .root-study-page,
+  .root-study-page h1,
+  .root-study-page h2,
+  .root-study-page h3,
+  .root-study-page p,
+  .root-study-page li,
+  .root-study-page strong {
+    color: var(--root-text);
+  }
 
-<table>
-  <thead>
-    <tr>
-      <th>Form type</th>
-      <th>Form / example</th>
-      <th>Used in the Qur’an</th>
-      <th>Note and Qur’anic evidence</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Root</td>
-      <td>ر ز ق</td>
-      <td>Yes</td>
-      <td>Three-letter root related to provision, gift, share, and the delivery of benefit.</td>
-    </tr>
-    <tr>
-      <td>Verbal noun / main noun</td>
-      <td>رِزْق</td>
-      <td>Yes</td>
-      <td>The central noun of this root: provision, gift, share, and what is delivered.</td>
-    </tr>
-    <tr>
-      <td>Past verb</td>
-      <td>رَزَقَ</td>
-      <td>Yes</td>
-      <td>He provided, gave, granted, delivered benefit.</td>
-    </tr>
-    <tr>
-      <td>Present verb</td>
-      <td>يَرْزُقُ</td>
-      <td>Yes</td>
-      <td>He provides, gives, grants, delivers benefit.</td>
-    </tr>
-    <tr>
-      <td>Imperative</td>
-      <td>اُرْزُقْ / وَارْزُقْنَا</td>
-      <td>Yes</td>
-      <td>A request for provision; for example: <a href="{{ '/quran-reflection/en/005-al-maidah/114/' | relative_url }}">وَارْزُقْنَا وَأَنْتَ خَيْرُ الرَّازِقِينَ</a> and <a href="{{ '/quran-reflection/en/002-al-baqarah/126/' | relative_url }}">وَارْزُقْ أَهْلَهُ مِنَ الثَّمَرَاتِ</a>.</td>
-    </tr>
-    <tr>
-      <td>Passive past</td>
-      <td>رُزِقَ</td>
-      <td>Yes</td>
-      <td>He / it was provided, granted, or given a share.</td>
-    </tr>
-    <tr>
-      <td>Passive present</td>
-      <td>يُرْزَقُ / يُرْزَقُونَ</td>
-      <td>Yes</td>
-      <td>He / they are provided; for example: <a href="{{ '/quran-reflection/en/040-ghafir/040/' | relative_url }}">يُرْزَقُونَ فِيهَا بِغَيْرِ حِسَابٍ</a>.</td>
-    </tr>
-    <tr>
-      <td>Active participle</td>
-      <td>رَازِق / رَازِقِين</td>
-      <td>Yes</td>
-      <td>The plural form “رَازِقِين” is prominent in the Qur’an, as in “خَيْرُ الرَّازِقِينَ.” The singular “رَازِق” is the morphological singular of this pattern.</td>
-    </tr>
-    <tr>
-      <td>Passive participle</td>
-      <td>مَرْزُوق</td>
-      <td>No</td>
-      <td>Linguistically possible, but not registered as a Qur’anic form of this root.</td>
-    </tr>
-    <tr>
-      <td>Adjectival form</td>
-      <td>—</td>
-      <td>No</td>
-      <td>No clear Qur’anic usage for this root in this category.</td>
-    </tr>
-    <tr>
-      <td>Intensive form</td>
-      <td>رَزَّاق</td>
-      <td>Yes</td>
-      <td>Constant and abundant Provider; used in relation to The God.</td>
-    </tr>
-    <tr>
-      <td>Instrument noun</td>
-      <td>—</td>
-      <td>No</td>
-      <td>No clear Qur’anic usage.</td>
-    </tr>
-  </tbody>
-</table>
+  .root-study-page h1,
+  .root-study-page h2,
+  .root-study-page h3,
+  .root-study-page p,
+  .root-study-page li {
+    direction: rtl;
+    text-align: right;
+  }
 
-<h2 id="general-meaning">General meaning of the root R Z Q</h2>
+  .root-frame {
+    background:
+      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
+      var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
 
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+    letter-spacing: 0.01em;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
+      var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-forms-card h2,
+  .root-toc h2 {
+    margin-top: 0;
+  }
+
+  .root-forms-card ul {
+    padding-right: 1.2rem;
+    margin: 0.75rem 0 0;
+  }
+
+  .root-forms-card li {
+    margin: 0.48rem 0;
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-toc li {
+    margin: 0.28rem 0;
+    break-inside: avoid;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page p {
+    margin: 0.85rem 0;
+  }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .root-study-page a:hover {
+    color: var(--root-accent);
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent),
+      var(--root-panel);
+    color: var(--root-text);
+  }
+
+  .root-note {
+    border-right: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+  }
+
+  .root-note strong,
+  .root-subtitle strong {
+    color: var(--root-text);
+  }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .root-study-page.forqan-page-ltr .root-forms-card ul {
+    padding-right: 0;
+    padding-left: 1.2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol {
+    padding-left: 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-note {
+    border-right: 0;
+    border-left: 3px solid var(--root-accent);
+  }
+
+
+  .root-morphology-intro {
+    color: var(--root-muted);
+    margin-top: 0;
+  }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin-top: 1.1rem;
+  }
+
+  .morph-card {
+    background: var(--root-panel);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem 1.05rem;
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .morph-type {
+    font-weight: 800;
+    color: var(--root-accent-deep);
+  }
+
+  .morph-used {
+    flex: 0 0 auto;
+    font-size: 0.82rem;
+    font-weight: 800;
+    border: 1px solid var(--root-border);
+    border-radius: 999px;
+    padding: 0.12rem 0.65rem;
+    color: var(--root-accent-deep);
+    background: var(--root-accent-soft);
+  }
+
+  .morph-form {
+    direction: rtl;
+    text-align: right;
+    font-size: 1.24rem;
+    line-height: 1.9;
+    font-weight: 800;
+    color: var(--root-text);
+    margin: 0.2rem 0 0.55rem;
+  }
+
+  .root-study-page.forqan-page-ltr .morph-form {
+    direction: rtl;
+    text-align: left;
+  }
+
+  .morph-note {
+    color: var(--root-muted);
+    font-size: 0.95rem;
+    line-height: 1.95;
+    margin: 0;
+  }
+
+  .morph-note a {
+    color: var(--root-accent-deep);
+  }
+
+  .morph-card.morph-no .morph-used {
+    color: var(--root-muted);
+    background: var(--root-soft);
+    border-color: var(--root-border-soft);
+  }
+
+
+  @media (max-width: 760px) {
+    .root-study-page {
+      padding: 2rem 1rem;
+    }
+
+    .root-frame {
+      padding: 1.25rem;
+      border-radius: 19px;
+    }
+
+    .root-section,
+    .root-forms-card,
+    .root-toc {
+      padding: 1rem;
+    }
+
+    .root-toc ol {
+      columns: 1;
+    }
+
+    .morphology-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .morph-card-header {
+      display: block;
+    }
+
+    .morph-used {
+      display: inline-block;
+      margin-top: 0.35rem;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    function parseRGB(value) {
+      var match = String(value || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+      if (!match) return null;
+      return [Number(match[1]), Number(match[2]), Number(match[3])];
+    }
+
+    function luminance(rgb) {
+      if (!rgb) return 255;
+      return (0.2126 * rgb[0]) + (0.7152 * rgb[1]) + (0.0722 * rgb[2]);
+    }
+
+    function hasToken(text, token) {
+      return new RegExp('(^|\s|_|-)' + token + '($|\s|_|-)', 'i').test(String(text || ''));
+    }
+
+    function savedThemePreference() {
+      try {
+        return localStorage.getItem('forqan-theme');
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function detectForqanTheme() {
+      var html = document.documentElement;
+      var body = document.body;
+      var marker = [
+        html.className,
+        body ? body.className : '',
+        html.getAttribute('data-theme'),
+        body ? body.getAttribute('data-theme') : '',
+        html.getAttribute('data-bs-theme'),
+        body ? body.getAttribute('data-bs-theme') : ''
+      ].join(' ');
+
+      if (hasToken(marker, 'dark')) return 'dark';
+      if (hasToken(marker, 'light')) return 'light';
+
+      var saved = savedThemePreference();
+      if (saved === 'dark' || saved === 'light') return saved;
+
+      if (body || html) {
+        var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
+                 parseRGB(getComputedStyle(html).backgroundColor);
+        if (bg) return luminance(bg) < 128 ? 'dark' : 'light';
+      }
+
+      return 'light';
+    }
+
+    function applyForqanRootTheme() {
+      var theme = detectForqanTheme();
+      var isDark = theme === 'dark';
+      var html = document.documentElement;
+      var page = document.querySelector('.root-study-page');
+
+      html.classList.toggle('forqan-root-pre-dark', isDark);
+      html.classList.toggle('forqan-root-pre-light', !isDark);
+
+      if (page) {
+        page.classList.toggle('forqan-root-dark', isDark);
+        page.classList.toggle('forqan-root-light', !isDark);
+      }
+    }
+
+    applyForqanRootTheme();
+    document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
+    window.addEventListener('load', applyForqanRootTheme);
+    window.addEventListener('storage', applyForqanRootTheme);
+
+    if (window.MutationObserver) {
+      var observer = new MutationObserver(applyForqanRootTheme);
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+      });
+
+      function observeBody() {
+        if (!document.body) return;
+        observer.observe(document.body, {
+          attributes: true,
+          attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+        });
+      }
+
+      observeBody();
+      document.addEventListener('DOMContentLoaded', observeBody);
+    }
+  })();
+</script>
+
+
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">Qur’anic Root</div>
+      <h1>The Qur’anic Root R Z Q</h1>
+      <p class="root-subtitle">Rizq, provision, delivered gift, fulfillment of need, and the opening of life and growth</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>Morphological forms of this root</h2>
+      <p class="root-morphology-intro">This educational section shows which morphological forms of this root are used in the Qur’anic text. Forms that are linguistically possible in Arabic but do not appear in the Qur’an are marked “No.”</p>
+      <div class="morphology-grid">
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Root</div>
+            <div class="morph-used">Used in the Qur’an: Yes</div>
+          </div>
+          <div class="morph-form">ر ز ق</div>
+          <p class="morph-note">Three-letter root related to provision, gift, share, and the delivery of benefit.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Verbal noun / main noun</div>
+            <div class="morph-used">Used in the Qur’an: Yes</div>
+          </div>
+          <div class="morph-form">رِزْق</div>
+          <p class="morph-note">The central noun of this root: provision, gift, share, and what is delivered.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Past verb</div>
+            <div class="morph-used">Used in the Qur’an: Yes</div>
+          </div>
+          <div class="morph-form">رَزَقَ</div>
+          <p class="morph-note">He provided, gave, granted, delivered benefit.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Present verb</div>
+            <div class="morph-used">Used in the Qur’an: Yes</div>
+          </div>
+          <div class="morph-form">يَرْزُقُ</div>
+          <p class="morph-note">He provides, gives, grants, delivers benefit.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Imperative</div>
+            <div class="morph-used">Used in the Qur’an: Yes</div>
+          </div>
+          <div class="morph-form">اُرْزُقْ / وَارْزُقْنَا</div>
+          <p class="morph-note">A request for provision; for example: <a href="{{ '/quran-reflection/en/005-al-maidah/114/' | relative_url }}">وَارْزُقْنَا وَأَنْتَ خَيْرُ الرَّازِقِينَ</a> and <a href="{{ '/quran-reflection/en/002-al-baqarah/126/' | relative_url }}">وَارْزُقْ أَهْلَهُ مِنَ الثَّمَرَاتِ</a>.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Passive past</div>
+            <div class="morph-used">Used in the Qur’an: Yes</div>
+          </div>
+          <div class="morph-form">رُزِقَ</div>
+          <p class="morph-note">He / it was provided, granted, or given a share.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Passive present</div>
+            <div class="morph-used">Used in the Qur’an: Yes</div>
+          </div>
+          <div class="morph-form">يُرْزَقُ / يُرْزَقُونَ</div>
+          <p class="morph-note">He / they are provided; for example: <a href="{{ '/quran-reflection/en/040-ghafir/040/' | relative_url }}">يُرْزَقُونَ فِيهَا بِغَيْرِ حِسَابٍ</a>.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Active participle</div>
+            <div class="morph-used">Used in the Qur’an: Yes</div>
+          </div>
+          <div class="morph-form">رَازِق / رَازِقِين</div>
+          <p class="morph-note">The plural form “رَازِقِين” is prominent in the Qur’an, as in “خَيْرُ الرَّازِقِينَ.” The singular “رَازِق” is the morphological singular of this pattern.</p>
+        </div>
+        <div class="morph-card morph-no">
+          <div class="morph-card-header">
+            <div class="morph-type">Passive participle</div>
+            <div class="morph-used">Used in the Qur’an: No</div>
+          </div>
+          <div class="morph-form">مَرْزُوق</div>
+          <p class="morph-note">Linguistically possible, but not registered as a Qur’anic form of this root.</p>
+        </div>
+        <div class="morph-card morph-no">
+          <div class="morph-card-header">
+            <div class="morph-type">Adjectival form</div>
+            <div class="morph-used">Used in the Qur’an: No</div>
+          </div>
+          <div class="morph-form">—</div>
+          <p class="morph-note">No clear Qur’anic usage for this root in this category.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Intensive form</div>
+            <div class="morph-used">Used in the Qur’an: Yes</div>
+          </div>
+          <div class="morph-form">رَزَّاق</div>
+          <p class="morph-note">Constant and abundant Provider; used in relation to The God.</p>
+        </div>
+        <div class="morph-card morph-no">
+          <div class="morph-card-header">
+            <div class="morph-type">Instrument noun</div>
+            <div class="morph-used">Used in the Qur’an: No</div>
+          </div>
+          <div class="morph-form">—</div>
+          <p class="morph-note">No clear Qur’anic usage.</p>
+        </div>
+      </div>
+    </section>
+
+    <nav class="root-toc" aria-label="Article section list">
+      <h2>Usage map of this root</h2>
+      <ol>
+      <li><a href="#general-meaning">General meaning of the root R Z Q</a></li>
+      <li><a href="#not-only-money">Rizq is not only money and food</a></li>
+      <li><a href="#delivering-need">Rizq as the delivery of need to creation</a></li>
+      <li><a href="#verbs-active">Razaqa and yarzuqu: the act of providing</a></li>
+      <li><a href="#verbs-passive">Ruziqa and yurzaqu: being provided for</a></li>
+      <li><a href="#rizq-noun">Rizq: gift, share, provision, and possibility of life</a></li>
+      <li><a href="#raziq">Rāziqīn: providers</a></li>
+      <li><a href="#razzaq">Al-Razzāq: The God as the constant and abundant Provider</a></li>
+      <li><a href="#rububiyyah">Rizq and Lordship</a></li>
+      <li><a href="#shukr">Rizq and gratitude</a></li>
+      <li><a href="#infaq">Rizq and giving</a></li>
+      <li><a href="#test">Rizq and the test of the human being</a></li>
+      <li><a href="#halal-tayyib">Lawful and wholesome rizq</a></li>
+      <li><a href="#material-nonmaterial">Material and non-material rizq</a></li>
+      <li><a href="#effort">The relation between rizq and human effort</a></li>
+      <li><a href="#wealth-danger">The danger of reducing rizq to wealth</a></li>
+      <li><a href="#translation">Suggested translation in Forqan</a></li>
+      <li><a href="#summary">Summary</a></li>
+      </ol>
+    </nav>
+
+  <section class="root-section" id="general-meaning">
+    <h2>General meaning of the root R Z Q</h2>
 <p>The root “ر ز ق” is usually translated as “provision,” but its range is wider than food, wealth, livelihood, or daily income.</p>
 
 <p>In Arabic usage, rizq refers to a gift or provision that reaches a creature in need and supports the continuation of life. This gift can have a continuous, daily, and unburdened character, like the provision by which a living being continues to exist.</p>
@@ -140,9 +652,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>Rizq can be food, water, fertile earth, wealth, children, security, knowledge, opportunity, ability, understanding, guidance, or even an opening that brings a person out of constriction.</p>
 
 <p>So rizq is not only what the human being holds in his hand or sees in his financial account. Rizq is every delivered gift that helps the human being in life, growth, testing, responsibility, and return to The God.</p>
-
-<h2 id="not-only-money">Rizq is not only money and food</h2>
-
+  </section>
+  <section class="root-section" id="not-only-money">
+    <h2>Rizq is not only money and food</h2>
 <p>One common error in understanding rizq is to limit it to money, food, livelihood, employment, or income.</p>
 
 <p>Undoubtedly, these are part of rizq, but they are not all of rizq.</p>
@@ -154,16 +666,16 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>Sometimes a person has wealth but no tranquility. Sometimes he has food but no understanding. Sometimes he has power but no guidance. Sometimes he has opportunity but no gratitude. Such a person may outwardly possess rizq, yet remain deprived in his material or trans-material needs.</p>
 
 <p>Therefore, Qur’anic rizq must not be reduced to wealth. Rizq is a delivered gift from The God, a gift that answers the need of the creature and places him within the path of growth or testing.</p>
-
-<h2 id="delivering-need">Rizq as the delivery of need to creation</h2>
-
+  </section>
+  <section class="root-section" id="delivering-need">
+    <h2>Rizq as the delivery of need to creation</h2>
 <p>In the root “ر ز ق,” the gift itself is not the only important thing; the delivery of that gift is also important.</p>
 
 <p>Rizq means that something reaches a creature in need. The human being does not own the source of rizq. He strives, plants, works, trades, learns, and plans, but the arrival of the result takes place within a vast order that is not fully under his control.</p>
 
 <p>The human being plants the seed, but he does not create the rain. This is the same truth the Qur’an recalls through a powerful question:</p>
 
-<blockquote class="quran-quote" dir="rtl" lang="ar">
+<blockquote class="arabic-quote" dir="rtl" lang="ar">
   <a href="{{ '/quran-reflection/en/056-al-waqiah/064/' | relative_url }}" style="color: inherit; text-decoration: none;">
     أَأَنتُمْ تَزْرَعُونَهُ أَمْ نَحْنُ الزَّارِعُونَ
   </a>
@@ -178,9 +690,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>The human being strives, but he did not create breath, reason, opportunity, body, earth, time, or the possibility of movement. From here, the Qur’an moves the human gaze away from the arrogance of ownership and toward gratitude and responsibility.</p>
 
 <p>Rizq means that the human being understands that what reached him is not merely the result of his personal power. Human effort matters, but effort takes place within an order of divine gift and possibility.</p>
-
-<h2 id="verbs-active">Razaqa and yarzuqu: the act of providing</h2>
-
+  </section>
+  <section class="root-section" id="verbs-active">
+    <h2>Razaqa and yarzuqu: the act of providing</h2>
 <p>Verbal forms from this root, such as “رَزَقَ” and “يَرْزُقُ,” show the act of providing, granting, and delivering benefit.</p>
 
 <p>When the Qur’an says that The God provides, it is not speaking only of giving food or money. The God has established an order in which creatures can remain, grow, move, and enter the path of their test.</p>
@@ -188,9 +700,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>In this sense, rizq is connected to Lordship. The Lord is not only the initial Creator; He does not abandon creation. He creates, measures, guides, provides, grants time, and opens the way of return.</p>
 
 <p>So the verb of rizq in the Qur’an is a sign of the continuation of The God’s Lordship.</p>
-
-<h2 id="verbs-passive">Ruziqa and yurzaqu: being provided for</h2>
-
+  </section>
+  <section class="root-section" id="verbs-passive">
+    <h2>Ruziqa and yurzaqu: being provided for</h2>
 <p>Passive forms such as “رُزِقَ” and “يُرْزَقُ” shift the gaze from human agency to the state of receiving.</p>
 
 <p>In this state, the human being or creature stands as receiver. He does not possess absolute ownership over rizq; rizq is given to him, reaches him, or is made available for him.</p>
@@ -198,9 +710,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>This angle is important because it saves the human being from arrogance. Whoever sees rizq only as the product of his intelligence, power, tribe, class, trade, or effort has missed part of the truth. Human effort may be a cause, but the cause is not the source.</p>
 
 <p>In the Qur’anic view, the human being is a receiver and a responsible being. What reached him is not only for personal consumption and private pride; it is also a test, a trust, and a responsibility.</p>
-
-<h2 id="rizq-noun">Rizq: gift, share, provision, and possibility of life</h2>
-
+  </section>
+  <section class="root-section" id="rizq-noun">
+    <h2>Rizq: gift, share, provision, and possibility of life</h2>
 <p>“Rizq” is the central noun of this root. It can refer to provision, gift, share, availability, and that which is delivered for the life and movement of a creature.</p>
 
 <p>Rizq is sometimes understood materially: food, fruit, water, land, wealth, or property. But in the Qur’an, the semantic range of rizq can be much wider.</p>
@@ -208,9 +720,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>If The God gives a person understanding, that too is a kind of rizq. If He opens the path of repentance, that too is rizq. If He brings a person out of misguidance, that too is rizq. If He grants him a heart that accepts truth, that is among the greatest forms of rizq.</p>
 
 <p>For this reason, the believer should not pray only for an increase in wealth. He should ask The God for wholesome rizq, pure rizq, the rizq of guidance, the rizq of understanding, the rizq of gratitude, the rizq of righteous action, and the rizq of return.</p>
-
-<h2 id="raziq">Rāziqīn: providers</h2>
-
+  </section>
+  <section class="root-section" id="raziq">
+    <h2>Rāziqīn: providers</h2>
 <p>“Rāziq” is the active participle of this root, meaning provider or deliverer of rizq. The plural form “rāziqīn” is prominent in Qur’anic expressions such as “khayru al-rāziqīn,” the best of providers.</p>
 
 <p>In the Qur’an, when the discussion turns to providers, two levels must be distinguished:</p>
@@ -226,9 +738,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>No human being has the right, merely because he has become a means of rizq, to imagine himself owner of another person’s life, faith, dignity, or freedom. Whoever gives financial help to another did not create that person’s provision from his own private dominion; he only stood in a chain of causes whose origin is from The God.</p>
 
 <p>This understanding saves the receiver from humiliation before creation and saves the giver from arrogance.</p>
-
-<h2 id="razzaq">Al-Razzāq: The God as the constant and abundant Provider</h2>
-
+  </section>
+  <section class="root-section" id="razzaq">
+    <h2>Al-Razzāq: The God as the constant and abundant Provider</h2>
 <p>“Razzāq” is an intensive form. It points to abundance, continuity, intensity, and breadth in providing.</p>
 
 <p>When The God is introduced as “Al-Razzāq,” it does not mean that He occasionally gives something and then abandons the creature. Rather, He is the continuous source of rizq; His provision is not limited to one time, one people, one class, one creature, or one type of gift.</p>
@@ -236,9 +748,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>The provision of The God is not limited to believers. Many who do not know The God, or even respond with ingratitude, still benefit from air, water, earth, body, reason, opportunity, and the possibilities of life. This shows that The God’s rizq comes from His vast mercy and Lordship, not from the complete worthiness of the human being.</p>
 
 <p>But abundant rizq is not always a sign of The God’s approval. Sometimes rizq is a test. Sometimes expansion of rizq brings a person closer to gratitude, and sometimes it drives him toward transgression. Therefore, not every wealth is a sign of honor, and not every outward poverty is a sign of humiliation.</p>
-
-<h2 id="rububiyyah">Rizq and Lordship</h2>
-
+  </section>
+  <section class="root-section" id="rububiyyah">
+    <h2>Rizq and Lordship</h2>
 <p>Rizq is deeply connected to the Lordship of The God.</p>
 
 <p>Lordship means nurturing, delivering, measuring, guiding, and placing a being on the path of its growth and completion. Rizq is one manifestation of this Lordship.</p>
@@ -246,9 +758,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>The God did not create beings and then abandon them. Creation continues through rizq. If rizq were cut off, life, growth, and the possibility of testing would be disrupted.</p>
 
 <p>In this sense, rizq is a sign of The God’s Lordship. Every breath the human being takes, every bite he eats, every knowledge he learns, every opportunity he receives for reform, and every path opened for his return to truth is meaningful within the framework of Lordship.</p>
-
-<h2 id="shukr">Rizq and gratitude</h2>
-
+  </section>
+  <section class="root-section" id="shukr">
+    <h2>Rizq and gratitude</h2>
 <p>Rizq in the Qur’an is connected to gratitude.</p>
 
 <p>A person who sees rizq but forgets its source approaches ingratitude. Gratitude is not merely saying “thank you.” Gratitude means recognizing the blessing, acknowledging its source, and using it properly in the way of truth.</p>
@@ -256,9 +768,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>If someone uses wealth for oppression, corruption, deception, humiliation, or waste, he has taken rizq out of the path of gratitude. If someone uses knowledge for arrogance and humiliating others, his knowledge too has moved away from gratitude. If someone uses power to block the way of The God and pressure people, his power too becomes ingratitude rather than gratitude.</p>
 
 <p>So gratitude for rizq means that every gift is placed in its proper place.</p>
-
-<h2 id="infaq">Rizq and giving</h2>
-
+  </section>
+  <section class="root-section" id="infaq">
+    <h2>Rizq and giving</h2>
 <p>One of the most important signs of understanding rizq correctly is giving.</p>
 
 <p>The Qur’an repeatedly invites the human being to give from what The God has provided. This expression matters because it reminds the human being that he is not the absolute owner; what he has was given to him.</p>
@@ -266,9 +778,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>Giving is not only giving money. If rizq is understood broadly, giving also becomes broad. A person can give from his wealth, knowledge, time, ability, skill, security, influence, tongue, and every good thing The God has delivered to him.</p>
 
 <p>Every rizq carries its own responsibility. The rizq of knowledge carries the responsibility of teaching and clarification. The rizq of wealth carries the responsibility of support and generosity. The rizq of power carries the responsibility of justice. The rizq of speech carries the responsibility of truthfulness. The rizq of understanding carries the responsibility of trustworthiness.</p>
-
-<h2 id="test">Rizq and the test of the human being</h2>
-
+  </section>
+  <section class="root-section" id="test">
+    <h2>Rizq and the test of the human being</h2>
 <p>Rizq is not always only a reward; sometimes it is a test.</p>
 
 <p>Expansion of rizq can reveal the human being. Will he be grateful or transgress? Will he give or hoard? Will he become just or arrogant? Will he see himself as a means or as the absolute owner?</p>
@@ -277,7 +789,7 @@ permalink: /quran-terminology/en/roots/r-z-q/
 
 <p>The Qur’an shows in a very precise verse that the measuring of rizq is connected to The God’s knowledge of human capacity:</p>
 
-<blockquote class="quran-quote" dir="rtl" lang="ar">
+<blockquote class="arabic-quote" dir="rtl" lang="ar">
   <a href="{{ '/quran-reflection/en/042-ash-shuraa/027/' | relative_url }}" style="color: inherit; text-decoration: none;">
     وَلَوْ بَسَطَ اللَّهُ الرِّزْقَ لِعِبَادِهِ لَبَغَوْا فِي الْأَرْضِ وَلَٰكِن يُنَزِّلُ بِقَدَرٍ مَّا يَشَاءُ
   </a>
@@ -292,9 +804,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>Based on this verse, unrestrained expansion is not always an outward mercy. Sometimes uncontrolled abundance becomes a cause of transgression. Therefore, the measured nature of rizq can itself be a form of protection, nurturing, and mercy.</p>
 
 <p>The Qur’an prevents us from judging rizq superficially. Not every expansion is a sign of superiority, and not every constriction is a sign of downfall. The real criterion is the human being’s response to that condition.</p>
-
-<h2 id="halal-tayyib">Lawful and wholesome rizq</h2>
-
+  </section>
+  <section class="root-section" id="halal-tayyib">
+    <h2>Lawful and wholesome rizq</h2>
 <p>Rizq in the Qur’an is also connected to purity, lawfulness, and wholesomeness.</p>
 
 <p>Not everything that reaches a person is necessarily pure and wholesome rizq. A person may acquire something through oppression, theft, deception, usury, corruption, exploitation, or humiliation of others. That thing may be in his possession, but it is not wholesome.</p>
@@ -304,9 +816,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>So a person’s prayer should not only be for more rizq, but also for the purity of rizq, the blessing of rizq, and the proper use of rizq.</p>
 
 <p>Abundant but impure rizq can destroy the human being. Small but pure rizq can preserve blessing, tranquility, dignity, and the path of reform.</p>
-
-<h2 id="material-nonmaterial">Material and non-material rizq</h2>
-
+  </section>
+  <section class="root-section" id="material-nonmaterial">
+    <h2>Material and non-material rizq</h2>
 <p>Rizq can be seen in two broad domains:</p>
 
 <p>Material rizq: food, water, wealth, home, clothing, land, work, economic security, and the means of life.</p>
@@ -316,9 +828,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>Sometimes non-material rizq is more important than material rizq. A person who has knowledge and guidance can grow toward The God even with a simple life. But a person who has great wealth while deprived of guidance, reason, mercy, and gratitude may fall through that very wealth.</p>
 
 <p>For this reason, the Qur’anic understanding of rizq must save the human being from a superficial view of life.</p>
-
-<h2 id="effort">The relation between rizq and human effort</h2>
-
+  </section>
+  <section class="root-section" id="effort">
+    <h2>The relation between rizq and human effort</h2>
 <p>Rizq does not negate effort.</p>
 
 <p>The Qur’an invites the human being to effort, movement, responsibility, giving, justice, and proper use of means. It is not correct for the human being to justify laziness, lack of planning, or dependence on others in the name of trust in The God.</p>
@@ -328,9 +840,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>The human being strives, but the result is not always fully in his control. Many strive and reach different results. Many plan, but events beyond their will occur.</p>
 
 <p>So the Qur’anic view establishes balance between effort and trust. The human being must strive, but he must not imagine himself the absolute owner of the result. He must use the means, but he must not treat the means as God. He must seek provision, but he must not sell his dignity and faith in the pursuit of rizq.</p>
-
-<h2 id="wealth-danger">The danger of reducing rizq to wealth</h2>
-
+  </section>
+  <section class="root-section" id="wealth-danger">
+    <h2>The danger of reducing rizq to wealth</h2>
 <p>If rizq is translated only as wealth, the human understanding of the Qur’an is damaged.</p>
 
 <p>In such a view, the wealthy person is imagined as more successful and more beloved, while the poor person is seen as more deprived and less valuable. This is dangerous because it replaces divine criteria with the criteria of market, power, and class.</p>
@@ -338,9 +850,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>The Qur’an calls us to a deeper view. The worth of the human being does not depend on the amount of his possessions, but on taqwā, gratitude, justice, truthfulness, righteous action, and responsibility before The God.</p>
 
 <p>Abundant rizq without gratitude is danger. Limited rizq with taqwā can be a path of salvation. True rizq is what brings the human being nearer to The God, not what makes him more heedless of The God.</p>
-
-<h2 id="translation">Suggested translation in Forqan</h2>
-
+  </section>
+  <section class="root-section" id="translation">
+    <h2>Suggested translation in Forqan</h2>
 <p>For the root “ر ز ق,” translation must be chosen according to the context of each verse. No single translation is always sufficient.</p>
 
 <p>Possible renderings:</p>
@@ -360,9 +872,9 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>When translating verses, one must examine whether rizq in that verse points more to food, wealth, blessing, divine gift, possibility of life, or guidance and opening.</p>
 
 <p>The translation “provision” is correct in many places, but it is not always enough. Sometimes “gift,” “share,” “availability,” or “what The God has delivered” better conveys the meaning.</p>
-
-<h2 id="summary">Summary</h2>
-
+  </section>
+  <section class="root-section" id="summary">
+    <h2>Summary</h2>
 <p>The root “ر ز ق” is one of the important roots of the Qur’an. It makes the human being aware that his life unfolds within an order of gift, need, effort, gratitude, testing, and responsibility.</p>
 
 <p>Rizq is not only money and food. Rizq is every gift that reaches a creature from The God and makes survival, growth, guidance, reform, or responsibility possible.</p>
@@ -372,5 +884,6 @@ permalink: /quran-terminology/en/roots/r-z-q/
 <p>Rizq is connected to Lordship, gratitude, giving, justice, purity, effort, trust, and testing. Every rizq carries its own responsibility, and every gift can become either a path of gratitude or a field of ingratitude.</p>
 
 <p>Understanding rizq correctly frees the human being from a materialistic view of life. True rizq is what helps the human being move toward truth, growth, dignity, and return to The God.</p>
-
-</article>
+  </section>
+  </div>
+</div>
