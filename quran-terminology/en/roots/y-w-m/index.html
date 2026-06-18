@@ -4,6 +4,24 @@ title: The Qur’anic Root Y W M
 permalink: /quran-terminology/en/roots/y-w-m/
 ---
 
+<script>
+  (function () {
+    /* Prevent first-paint root-page theme flicker.
+       This reads the same key used by the default layout before the root card renders. */
+    try {
+      var savedTheme = localStorage.getItem('forqan-theme');
+      var html = document.documentElement;
+      if (savedTheme === 'dark') {
+        html.classList.add('forqan-root-pre-dark');
+        html.classList.remove('forqan-root-pre-light');
+      } else if (savedTheme === 'light') {
+        html.classList.add('forqan-root-pre-light');
+        html.classList.remove('forqan-root-pre-dark');
+      }
+    } catch (e) {}
+  })();
+</script>
+
 <style>
   .root-study-page {
     --root-bg: #f7f3ea;
@@ -30,6 +48,8 @@ permalink: /quran-terminology/en/roots/y-w-m/
   }
 
   /* Dark mode follows the website toggle/classes, not the OS preference. */
+  html.forqan-root-pre-dark .root-study-page,
+  body.dark-theme .root-study-page,
   html.dark .root-study-page,
   body.dark .root-study-page,
   html.dark-mode .root-study-page,
@@ -55,6 +75,7 @@ permalink: /quran-terminology/en/roots/y-w-m/
     --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
   }
 
+  html.forqan-root-pre-light .root-study-page,
   html.light .root-study-page,
   body.light .root-study-page,
   html.light-mode .root-study-page,
@@ -312,13 +333,18 @@ permalink: /quran-terminology/en/roots/y-w-m/
     }
 
     function hasToken(text, token) {
-      return new RegExp('(^|\\s|_|-)' + token + '($|\\s|_|-)', 'i').test(String(text || ''));
+      return new RegExp('(^|\s|_|-)' + token + '($|\s|_|-)', 'i').test(String(text || ''));
     }
 
-    function applyForqanRootTheme() {
-      var page = document.querySelector('.root-study-page');
-      if (!page) return;
+    function savedThemePreference() {
+      try {
+        return localStorage.getItem('forqan-theme');
+      } catch (e) {
+        return null;
+      }
+    }
 
+    function detectForqanTheme() {
       var html = document.documentElement;
       var body = document.body;
       var marker = [
@@ -330,23 +356,59 @@ permalink: /quran-terminology/en/roots/y-w-m/
         body ? body.getAttribute('data-bs-theme') : ''
       ].join(' ');
 
-      var isDark = hasToken(marker, 'dark');
-      var isLight = hasToken(marker, 'light');
+      if (hasToken(marker, 'dark')) return 'dark';
+      if (hasToken(marker, 'light')) return 'light';
 
-      if (!isDark && !isLight) {
+      var saved = savedThemePreference();
+      if (saved === 'dark' || saved === 'light') return saved;
+
+      if (body || html) {
         var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
                  parseRGB(getComputedStyle(html).backgroundColor);
-        isDark = luminance(bg) < 128;
+        if (bg) return luminance(bg) < 128 ? 'dark' : 'light';
       }
 
-      page.classList.toggle('forqan-root-dark', !!isDark);
-      page.classList.toggle('forqan-root-light', !isDark);
+      return 'light';
+    }
+
+    function applyForqanRootTheme() {
+      var theme = detectForqanTheme();
+      var isDark = theme === 'dark';
+      var html = document.documentElement;
+      var page = document.querySelector('.root-study-page');
+
+      html.classList.toggle('forqan-root-pre-dark', isDark);
+      html.classList.toggle('forqan-root-pre-light', !isDark);
+
+      if (page) {
+        page.classList.toggle('forqan-root-dark', isDark);
+        page.classList.toggle('forqan-root-light', !isDark);
+      }
     }
 
     applyForqanRootTheme();
     document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
     window.addEventListener('load', applyForqanRootTheme);
-    setInterval(applyForqanRootTheme, 700);
+    window.addEventListener('storage', applyForqanRootTheme);
+
+    if (window.MutationObserver) {
+      var observer = new MutationObserver(applyForqanRootTheme);
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+      });
+
+      function observeBody() {
+        if (!document.body) return;
+        observer.observe(document.body, {
+          attributes: true,
+          attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+        });
+      }
+
+      observeBody();
+      document.addEventListener('DOMContentLoaded', observeBody);
+    }
   })();
 </script>
 
