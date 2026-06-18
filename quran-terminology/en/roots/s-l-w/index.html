@@ -1,0 +1,593 @@
+---
+layout: default
+title: The Qur’anic Root Ṣ L W
+permalink: /quran-terminology/en/roots/s-l-w/
+---
+
+<script>
+  (function () {
+    /* Prevent first-paint root-page theme flicker.
+       This reads the same key used by the default layout before the root card renders. */
+    try {
+      var savedTheme = localStorage.getItem('forqan-theme');
+      var html = document.documentElement;
+      if (savedTheme === 'dark') {
+        html.classList.add('forqan-root-pre-dark');
+        html.classList.remove('forqan-root-pre-light');
+      } else if (savedTheme === 'light') {
+        html.classList.add('forqan-root-pre-light');
+        html.classList.remove('forqan-root-pre-dark');
+      }
+    } catch (e) {}
+  })();
+</script>
+
+<style>
+  .root-study-page {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-soft: #f0e5d2;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+
+    direction: rtl;
+    text-align: right;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  /* Dark mode follows the website toggle/classes, not the OS preference. */
+  html.forqan-root-pre-dark .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark .root-study-page,
+  body.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-mode .root-study-page,
+  html[data-theme="dark"] .root-study-page,
+  body[data-theme="dark"] .root-study-page,
+  [data-bs-theme="dark"] .root-study-page,
+  .forqan-theme-dark .root-study-page,
+  .theme-dark .root-study-page,
+  .root-study-page.forqan-root-dark {
+    --root-bg: #0f1a2c;
+    --root-card: #121f33;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #ece7dc;
+    --root-muted: #beb6a7;
+    --root-soft: rgba(255, 255, 255, 0.06);
+    --root-border: rgba(214, 176, 95, 0.24);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
+  }
+
+  html.forqan-root-pre-light .root-study-page,
+  html.light .root-study-page,
+  body.light .root-study-page,
+  html.light-mode .root-study-page,
+  body.light-mode .root-study-page,
+  html[data-theme="light"] .root-study-page,
+  body[data-theme="light"] .root-study-page,
+  [data-bs-theme="light"] .root-study-page,
+  .forqan-theme-light .root-study-page,
+  .theme-light .root-study-page,
+  .root-study-page.forqan-root-light {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-soft: #f0e5d2;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+  }
+
+  .root-study-page * {
+    box-sizing: border-box;
+  }
+
+  .root-study-page,
+  .root-study-page h1,
+  .root-study-page h2,
+  .root-study-page h3,
+  .root-study-page p,
+  .root-study-page li,
+  .root-study-page strong {
+    color: var(--root-text);
+  }
+
+  .root-study-page h1,
+  .root-study-page h2,
+  .root-study-page h3,
+  .root-study-page p,
+  .root-study-page li {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .root-frame {
+    background:
+      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
+      var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+    letter-spacing: 0.01em;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
+      var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-forms-card h2,
+  .root-toc h2 {
+    margin-top: 0;
+  }
+
+  .root-forms-card ul {
+    padding-right: 1.2rem;
+    margin: 0.75rem 0 0;
+  }
+
+  .root-forms-card li {
+    margin: 0.48rem 0;
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-toc li {
+    margin: 0.28rem 0;
+    break-inside: avoid;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page p {
+    margin: 0.85rem 0;
+  }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .root-study-page a:hover {
+    color: var(--root-accent);
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent),
+      var(--root-panel);
+    color: var(--root-text);
+  }
+
+  .root-note {
+    border-right: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+  }
+
+  .root-note strong,
+  .root-subtitle strong {
+    color: var(--root-text);
+  }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .root-study-page.forqan-page-ltr .root-forms-card ul {
+    padding-right: 0;
+    padding-left: 1.2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol {
+    padding-left: 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-note {
+    border-right: 0;
+    border-left: 3px solid var(--root-accent);
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page {
+      padding: 2rem 1rem;
+    }
+
+    .root-frame {
+      padding: 1.25rem;
+      border-radius: 19px;
+    }
+
+    .root-section,
+    .root-forms-card,
+    .root-toc {
+      padding: 1rem;
+    }
+
+    .root-toc ol {
+      columns: 1;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    function parseRGB(value) {
+      var match = String(value || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+      if (!match) return null;
+      return [Number(match[1]), Number(match[2]), Number(match[3])];
+    }
+
+    function luminance(rgb) {
+      if (!rgb) return 255;
+      return (0.2126 * rgb[0]) + (0.7152 * rgb[1]) + (0.0722 * rgb[2]);
+    }
+
+    function hasToken(text, token) {
+      return new RegExp('(^|\s|_|-)' + token + '($|\s|_|-)', 'i').test(String(text || ''));
+    }
+
+    function savedThemePreference() {
+      try {
+        return localStorage.getItem('forqan-theme');
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function detectForqanTheme() {
+      var html = document.documentElement;
+      var body = document.body;
+      var marker = [
+        html.className,
+        body ? body.className : '',
+        html.getAttribute('data-theme'),
+        body ? body.getAttribute('data-theme') : '',
+        html.getAttribute('data-bs-theme'),
+        body ? body.getAttribute('data-bs-theme') : ''
+      ].join(' ');
+
+      if (hasToken(marker, 'dark')) return 'dark';
+      if (hasToken(marker, 'light')) return 'light';
+
+      var saved = savedThemePreference();
+      if (saved === 'dark' || saved === 'light') return saved;
+
+      if (body || html) {
+        var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
+                 parseRGB(getComputedStyle(html).backgroundColor);
+        if (bg) return luminance(bg) < 128 ? 'dark' : 'light';
+      }
+
+      return 'light';
+    }
+
+    function applyForqanRootTheme() {
+      var theme = detectForqanTheme();
+      var isDark = theme === 'dark';
+      var html = document.documentElement;
+      var page = document.querySelector('.root-study-page');
+
+      html.classList.toggle('forqan-root-pre-dark', isDark);
+      html.classList.toggle('forqan-root-pre-light', !isDark);
+
+      if (page) {
+        page.classList.toggle('forqan-root-dark', isDark);
+        page.classList.toggle('forqan-root-light', !isDark);
+      }
+    }
+
+    applyForqanRootTheme();
+    document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
+    window.addEventListener('load', applyForqanRootTheme);
+    window.addEventListener('storage', applyForqanRootTheme);
+
+    if (window.MutationObserver) {
+      var observer = new MutationObserver(applyForqanRootTheme);
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+      });
+
+      function observeBody() {
+        if (!document.body) return;
+        observer.observe(document.body, {
+          attributes: true,
+          attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+        });
+      }
+
+      observeBody();
+      document.addEventListener('DOMContentLoaded', observeBody);
+    }
+  })();
+</script>
+
+
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">Qur’anic Root</div>
+      <h1>The Qur’anic Root Ṣ L W</h1>
+      <p class="root-subtitle">Salat as living connection with God, alignment with truth, and the established path that draws the human being out of heedlessness, crookedness, and dispersion</p>
+    </section>
+
+    <section class="root-section" id="forms-covered">
+      <h2>Forms covered from this root</h2>
+      <p>This page studies the root <strong>ص ل و (Ṣ L W)</strong> semantically, then explains the most important Qur’anic forms and usages built from this root.</p>
+      <ul>
+        <li><strong>صلوة / الصلوة (salat / al-salat)</strong> — salat; living connection, conscious turning, and a path that must be established</li>
+        <li><strong>صلوات (salawat)</strong> — plural of salat; manifestations of connection, attention, support, or places of salat in different contexts</li>
+        <li><strong>صلى (salla)</strong> — verb; turned, performed salat, or placed oneself in a certain direction</li>
+        <li><strong>يصلي / يصلون (yusalli / yusallun)</strong> — present-tense forms; performs salat or they perform salat, each according to its station</li>
+        <li><strong>صل / صلوا (salli / sallu)</strong> — imperative forms; have salat, turn, support, and align yourselves</li>
+        <li><strong>مصلين (musallin)</strong> — those who have a relation to salat or place themselves within the station of salat</li>
+        <li><strong>مصلى (musalla)</strong> — place of salat; a place of standing, turning, and taking direction toward remembrance of God</li>
+      </ul>
+      <p>Note: in the Qur’anic script, the word <strong>صلوة (salat)</strong> is often written with waw. This matters for this page, because we are studying the root <strong>ص ل و (Ṣ L W)</strong>, not only the common modern spelling. One must also distinguish between the root <strong>ص ل و (Ṣ L W)</strong> and the root <strong>ص ل ي (Ṣ L Y)</strong>. <strong>ص ل و (Ṣ L W)</strong> relates to salat, connection, turning, and establishing, while <strong>ص ل ي (Ṣ L Y)</strong> in the Qur’an relates to fire, burning, heat, and tasting heat. These two should not be collapsed into one.</p>
+    </section>
+
+    <nav class="root-toc" aria-label="Article section list">
+      <h2>Usage map of this root</h2>
+      <ol>
+      <li><a href="#general-meaning">General meaning of the root Ṣ L W</a></li>
+      <li><a href="#sensory-layer">The sensory layer of the root: following closely and becoming straight</a></li>
+      <li><a href="#not-enough-translation">Why translating ṣalāh as ritual prayer or supplication is not enough</a></li>
+      <li><a href="#connection-alignment">Salat as connection and alignment</a></li>
+      <li><a href="#establishing-salat">Establishing salat: making a living path stand</a></li>
+      <li><a href="#remembrance">Salat and remembrance of God</a></li>
+      <li><a href="#all-creatures">The salat of all creatures</a></li>
+      <li><a href="#god-angels-prophet">The salat of God and the angels upon the Prophet</a></li>
+      <li><a href="#sallu-alayhi">Sallu alayhi: the command to believers regarding the Prophet</a></li>
+      <li><a href="#not-salam">The difference between salat and giving salam</a></li>
+      <li><a href="#salawat">Salawat: attention, support, and connection</a></li>
+      <li><a href="#musalla">Musalla: the place of standing in the direction of Abraham</a></li>
+      <li><a href="#musallin">Musallin: people of salat or those heedless within salat</a></li>
+      <li><a href="#salat-sala">Salat and ṣily: connection or burning in consequences</a></li>
+      <li><a href="#danger-reduction">The danger of making the meaning of salat small</a></li>
+      <li><a href="#summary">Summary</a></li>
+      </ol>
+    </nav>
+
+  <section class="root-section" id="general-meaning">
+    <h2>General meaning of the root Ṣ L W</h2>
+    <p>The root ص ل و (Ṣ L W) is one of the most important roots in the Qur’an. It does not point only to a few ceremonial pillars or outward acts of worship. If it is reduced to a few movements, a few sentences, or a few inherited religious forms, a large part of its Qur’anic meaning is lost.</p>
+    <p>صلوة (salat) in the Qur’an is a lasting connection with the reference point of truth. It takes the human being out of dispersion, heedlessness, self-centeredness, and forgetfulness, and places him again in the direction of God. This is why the Qur’an does not merely say to perform صلوة (salat); it repeatedly says اقيموا الصلوة (aqimu al-salat): establish salat, keep it alive, and make it stand within your life.</p>
+    <p>So صلوة (salat) is not only a short-term act performed several times a day. It is something that must continually affect the heart, tongue, body, time, decisions, ethics, and conduct of the human being. If صلوة (salat) does not bring a person nearer to remembrance of God, truthfulness, purity, justice, mercy, and distance from evil, one must ask whether only its form has remained while its spirit has been lost.</p>
+    <p>صلوة (salat) is a road of return. The human being becomes lost, occupied, angry, arrogant, afraid, greedy, and forgetful. صلوة (salat) brings him back: to God, to remembrance, to humility, to responsibility, and to truth.</p>
+  </section>
+
+  <section class="root-section" id="sensory-layer">
+    <h2>The sensory layer of the root: following closely and becoming straight</h2>
+    <p>To understand صلوة (salat) better, the sensory layer of Arabic is also useful. Some lexical discussions mention words in this field that relate to the back, following, and closeness. It has been said that in horse racing, the horse that came after the leading horse and moved very closely behind it was called مصلي (musalli). That is, a horse that does not separate from the leader and keeps its path behind it.</p>
+    <p>This image matters for understanding صلوة (salat). Salat means that the human being moves behind truth, not ahead of it. It means not separating oneself from the path. It means walking after God’s guidance, not after desire, power, habit, or blind inheritance.</p>
+    <p>Another image appears in Arabic around bringing something near heat: a crooked piece of wood was softened before fire so that it could be straightened. This image also agrees with the formative meaning of صلوة (salat). The human being becomes dry, arrogant, and crooked. If صلوة (salat) is alive, it softens the heart, reveals the crookedness, and prepares the human being to become straight.</p>
+    <p>So in these layers, two important images appear: following closely and becoming straight after softening. Both agree with the Qur’anic meaning of صلوة (salat). Salat means walking behind truth and becoming soft before the remembrance of God, so that the crookedness of the human being may be corrected.</p>
+  </section>
+
+  <section class="root-section" id="not-enough-translation">
+    <h2>Why translating ṣalāh as ritual prayer or supplication is not enough</h2>
+    <p>In Persian, صلوة (salat) is usually translated as نماز (namaz). This translation is not useless in many verses, but it is not enough. In the minds of many people, نماز (namaz) is limited to a specific act with a specific form and time, while صلوة (salat) in the Qur’an has a wider meaning.</p>
+    <p>In the Qur’an, صلوة (salat) is connected with establishment, remembrance of God, purity, زكوة (zakat), patience, restraint from فحشاء (fahsha) and منكر (munkar), houses of God, مقام ابراهيم (maqam Ibrahim), the Prophet, the angels, and even all creatures. So its meaning clearly goes beyond a narrow ritual frame.</p>
+    <p>Translating صلوة (salat) as دعا (dua) is also incomplete. دعا (dua) means calling and asking. But صلوة (salat) is not always asking. Salat can be established, can restrain the human being from evil, can accompany زكوة (zakat), can have a place, and can be used regarding God, angels, and birds. So it cannot be reduced to supplication alone.</p>
+    <p>Therefore, صلوة (salat) must be understood from the Qur’an itself. نماز (namaz), دعا (dua), devotion, attention, support, and greeting may show part of the meaning in some verses, but none of them alone carries the whole meaning of صلوة (salat).</p>
+  </section>
+
+  <section class="root-section" id="connection-alignment">
+    <h2>Salat as connection and alignment</h2>
+    <p>صلوة (salat) aligns the human being. During the day, a person is pulled in many directions: wealth, fear, anger, competition, desire, reputation, family, power, and countless distractions. صلوة (salat) draws him out of this dispersion and turns him again toward God.</p>
+    <p>This turning is not only with the tongue. If the tongue turns to God while the heart is in arrogance, the hand in injustice, the eye in betrayal, and life in corruption, then صلوة (salat) has not yet reached its truth. Salat must change the direction of the human being.</p>
+    <p>صلوة (salat) means that the human being sees himself before God. He knows that he is seen. He knows that he is not without account. He knows that life is not only eating, building, competing, and dying. Salat brings him back to the truth that he is a servant of God and must live upon the path of truth.</p>
+    <p>From this view, صلوة (salat) is not merely a religious act; it is a correction of direction. The human being returns from self-centeredness to God-centeredness, from heedlessness to remembrance, from disorder to order, from hardness of heart to softness, and from claim to responsibility.</p>
+  </section>
+
+  <section class="root-section" id="establishing-salat">
+    <h2>Establishing salat: making a living path stand</h2>
+    <p>The expression اقيموا الصلوة (aqimu al-salat) is one of the keys to this root. اقامة (iqamah) means establishing, making stand, making firm, and keeping something alive and upright. So صلوة (salat) is not only read or performed; it must be established.</p>
+    <p>If صلوة (salat) were only a few short movements, this repeated emphasis on اقامة (iqamah) would not carry such weight. Establishing salat means that salat must stand in the life of the human being; it must have an effect; it must hold the person; it must correct his path.</p>
+    <p>Establishing صلوة (salat) also shows that salat is not only an individual matter. The Qur’an repeatedly places it beside زكوة (zakat), giving, patience, keeping covenants, and reform. So salat does not separate the human being from society. Rather, it prepares him to live rightly within society.</p>
+    <p>The one who establishes صلوة (salat) should not be indifferent to the poor, the orphan, the oppressed, lying, betrayal, corruption, and injustice. If salat does not bring a person closer to responsibility, only its outer form has remained.</p>
+  </section>
+
+  <section class="root-section" id="remembrance">
+    <h2>Salat and remembrance of God</h2>
+    <p>صلوة (salat) brings the human being back to the remembrance of God. Remembrance of God is not merely saying God’s name. It means that the human being knows that God is present, witnessing, knowing, and that the return of everything is to Him.</p>
+    <p>The human being forgets. This forgetfulness is the source of many sins. When a person loses the remembrance of God, he imagines himself free from account. صلوة (salat) breaks this forgetfulness.</p>
+    <p>صلوة (salat) is like standing again before truth. The human being stops, measures his direction, softens his heart, and asks: Where am I standing? What path am I walking? Am I turned toward God or toward my own self?</p>
+    <p>If صلوة (salat) is not connected to remembrance of God, it becomes habit. And a lifeless habit does not form the human being. Salat must be alive, so that it can make the human being alive.</p>
+  </section>
+
+  <section class="root-section" id="all-creatures">
+    <h2>The salat of all creatures</h2>
+    <p>The Qur’an says that every creature knows its صلوة (salat) and its تسبيح (tasbih). In the same verse, the heavens, the earth, and the birds spread in flight are mentioned. This is a beautiful image. The bird in the sky, with wings spread, knows its path; it moves within the order of creation; it does not leave its place; and in a way we do not fully understand, it has its own تسبيح (tasbih) and صلوة (salat).</p>
+    <p>This verse shows that صلوة (salat) is not only a human act with a few outward forms. Every creature in God’s system has its path, direction, and connection. The human being has human salat, the bird has its salat, and every creature in creation knows its place.</p>
+    <p>تسبيح (tasbih) is to declare God free from deficiency, partner, and falsehood. In existence, every creature, through its being, its path, and its obedience to God’s law, is a sign of tasbih. صلوة (salat) is turning, remaining connected, and standing in the direction of the Origin of existence.</p>
+    <p>If the bird knows its صلوة (salat), the human being should not reduce his salat to a few chants and lifeless movements. The human being has awareness, choice, and responsibility. Therefore his salat must arise from knowing his path and direction, not merely from imitation and repetition.</p>
+  </section>
+
+  <section class="root-section" id="god-angels-prophet">
+    <h2>The salat of God and the angels upon the Prophet</h2>
+    <p>One of the most sensitive verses about this root is the verse that says God and His angels have صلوة (salat) upon the Prophet, then commands the believers to have صلوة (salat) upon him and to submit fully.</p>
+    <p>Here one must be very careful. The صلوة (salat) of God must not be understood like the action of a human being. God does not supplicate like humans, does not repeat a sentence like humans, and does not need words like humans. God is far above all resemblance.</p>
+    <p>So when the Qur’an speaks of God’s صلوة (salat) upon the Prophet, it must be understood in a way worthy of God: mercy, attention, confirmation, strengthening, guidance, support, and giving light to the path of the Prophet and his mission. This meaning is attributed to God without likening Him to creation.</p>
+    <p>The صلوة (salat) of the angels also has its own place. They are within the order of divine command. Their salat may point to support, supplication, accompaniment, carrying out God’s command, and standing in service of the Prophet’s mission.</p>
+    <p>The core meaning is therefore one: attention, connection, support, and alignment with the mission of truth. But its quality differs according to each station. God’s salat is according to God’s majesty, the angels’ salat according to the angels’ station, and the believers’ salat according to their servanthood and faith.</p>
+  </section>
+
+  <section class="root-section" id="sallu-alayhi">
+    <h2>Sallu alayhi: the command to believers regarding the Prophet</h2>
+    <p>When the Qur’an says to the believers صلوا عليه (sallu alayhi), this command should not be restricted to saying a phrase after the Prophet’s name. Saying a prayer of good for the Prophet may be a sign of courtesy and love, but if someone thinks that this is the whole command of the verse, the meaning of the verse has been made small.</p>
+    <p>The Prophet did not call people to himself. He carried God’s message. So صلوة (salat) upon the Prophet means aligning oneself with his mission. It means supporting the path upon which he stood to convey revelation. It means standing in the rank of the message, not in the rank of traditions that oppose the message.</p>
+    <p>صلوة (salat) upon the Prophet means that the human being joins him in the divine aim. It means taking the Qur’an he conveyed seriously. It means not being hostile to his message. It means not building religion in his name while contradicting the Qur’an. It means returning to the truth of the mission instead of replacing it with a slogan.</p>
+    <p>Here the great danger of misunderstanding appears clearly. When a living Qur’anic command is turned into a repeated sentence, people may imagine that they have fulfilled their duty while they may have moved away from the main message.</p>
+    <p>صلوة (salat) upon the Prophet, if understood correctly, is neither personality-worship nor disrespect. It is true respect for the Prophet, because it returns the human being to the very thing for which the Prophet stood: the message of God.</p>
+  </section>
+
+  <section class="root-section" id="not-salam">
+    <h2>The difference between salat and giving salam</h2>
+    <p>In the same verse, after صلوا عليه (sallu alayhi), the Qur’an says وسلموا تسليما (wa-sallimu taslima). This separation is very important. If صلوة (salat) were the same as saying سلام (salam), there would be no clear need for a separate command of سلام (salam) and تسليم (taslim).</p>
+    <p>So صلوة (salat) and سلام (salam) are not the same. Salat is turning, connection, support, and alignment. سلام (salam) and تسليم (taslim) are another layer: acceptance, humility, peace with truth, and surrender to God’s command.</p>
+    <p>From here it becomes clear that saying a phrase after the Prophet’s name, even if it may be verbal courtesy, is not the whole meaning of the verse. The verse calls the human being to something greater: align yourself with the Prophet’s mission, submit before God’s message, and support his path in action.</p>
+    <p>This understanding preserves both tawhid and the honor of the Prophet. It does not take the Prophet out of the station of servanthood and messengerhood, but it also does not reduce his mission to a small verbal respect.</p>
+  </section>
+
+  <section class="root-section" id="salawat">
+    <h2>Salawat: attention, support, and connection</h2>
+    <p>The form صلوات (salawat) is the plural of صلوة (salat). This form appears in the Qur’an in different contexts. Sometimes it relates to places of worship and remembrance of God. Sometimes it is joined with God’s mercy and attention. Sometimes it points to various manifestations of salat.</p>
+    <p>صلوات (salawat) should also not be translated only as greetings. In some contexts, greeting or prayer of good may be part of the meaning, but the field of the root is wider. Salawat can point to attention, connection, support, mercy, and the standing of ways of remembering God.</p>
+    <p>When صلوات (salawat) comes from God, it must be understood with transcendence: mercy, guidance, attention, strengthening, and bringing out of darknesses into light. When it comes from believers, it may relate to turning, supplication, support, accompaniment, and standing in the path of truth.</p>
+    <p>So in every verse, the context must be seen. One fixed translation for all occurrences makes the meaning of the Qur’an smaller.</p>
+  </section>
+
+  <section class="root-section" id="musalla">
+    <h2>Musalla: the place of standing in the direction of Abraham</h2>
+    <p>The form مصلى (musalla) appears in the Qur’an in this setting:</p>
+    <div class="arabic-quote">واتخذوا من مقام إبراهيم مصلى<br><span style="font-size:0.95rem;">wa-ittakhidhu min maqami Ibrahim musalla</span></div>
+    <p>This verse does not speak only about a physical location. مقام إبراهيم (maqam Ibrahim) is the station of Abraham’s standing in tawhid: the station of firmness, surrender, purity, and cutting away from shirk. So مصلى (musalla) in this context means choosing that same Abrahamic position and direction for standing before God.</p>
+    <p>مصلى (musalla) is a place where the human being takes direction. He stands before God. He connects himself to the path of Abraham. This agrees with the root ص ل و (Ṣ L W): صلوة (salat) is connection and turning; مصلى (musalla) is the place of that turning.</p>
+    <p>So مصلى (musalla) is not merely a point on earth. It is a sign that the human being should know in what direction he must stand: not in the direction of idols, tribal pride, power, or lifeless inherited religion, but in the direction of the One God.</p>
+  </section>
+
+  <section class="root-section" id="musallin">
+    <h2>Musallin: people of salat or those heedless within salat</h2>
+    <p>The form مصلين (musallin) refers to those who have a relation to صلوة (salat). But the Qur’an does not always speak of مصلين (musallin) with simple praise. Sometimes it speaks of those who are heedless concerning their salat.</p>
+    <p>This is very important. The title مصلين (musallin) is not enough. A person may outwardly be among the people of salat while being far from the truth of salat. He may preserve the form but lose the remembrance. His body may be in salat while his life is in injustice, showing-off, and heedlessness.</p>
+    <p>The Qur’an therefore distinguishes between the outward form of صلوة (salat) and the truth of صلوة (salat). True salat makes the human being softer, purer, more just, straighter, and more responsible. But heedless salat can become habit, display, religious arrogance, and self-deception.</p>
+    <p>This warning is necessary for every religious community. When salat is emptied of meaning, the very thing that should awaken the human being may become a cover for deeper sleep.</p>
+  </section>
+
+  <section class="root-section" id="salat-sala">
+    <h2>Salat and ṣily: connection or burning in consequences</h2>
+    <p>One must distinguish between ص ل و (Ṣ L W) and ص ل ي (Ṣ L Y). صلوة (salat), with waw, belongs to the field of connection, turning, establishing, and alignment. But صلي (ṣily), with ya, in the Qur’an is connected with fire, burning, heat, and tasting heat.</p>
+    <p>This contrast is deeply striking. The human being either connects himself to truth through صلوة (salat), or when he cuts this connection, he becomes exposed to the heat of the consequences of his own deeds. Salat takes the human being out of crookedness, heedlessness, and misdirection. But cutting the connection with truth moves him toward burning in the result of injustice, kufr, and corruption.</p>
+    <p>In simple words: صلوة (salat) corrects the human being before burning. If the human being becomes soft before truth, he becomes straight. If he does not become soft, the consequences of his deeds burn him.</p>
+    <p>This is not wordplay. The Qur’an itself distinguishes these two fields. صلوة (salat) is the path of connection and return; صلي (ṣily) is the field of heat and consequence. One returns the human being to God; the other shows the result of distance and rebellion.</p>
+  </section>
+
+  <section class="root-section" id="danger-reduction">
+    <h2>The danger of making the meaning of salat small</h2>
+    <p>صلوة (salat) is one of the concepts that, if made small, makes religion small as well. If salat is turned only into outward movement, the human being may imagine he has fulfilled his duty while his life is empty of truthfulness, justice, and mercy.</p>
+    <p>If صلوة (salat) is understood only as supplication, its meaning of establishment, order, direction, and reform is lost. If salat upon the Prophet is turned only into saying one sentence, a command that should join the human being to the Prophet’s mission is reduced to a verbal habit. If God’s salat is understood like a human act, the transcendence of God is harmed.</p>
+    <p>Therefore صلوة (salat) must be understood with Qur’anic care. Salat is not a lifeless word. It is a living connection. It is a return. It is alignment. It is a path of correction. In the human being, it appears through time, body, remembrance, language, and ethics. In society, through purity, justice, zakat, giving, and responsibility. Regarding the Prophet, through support of the mission and submission before the message. Regarding God, through divine mercy, guidance, confirmation, and support, without any resemblance to creation.</p>
+    <p>This understanding saves صلوة (salat) from habit, superstition, empty verbalism, and attachment to appearances.</p>
+  </section>
+
+  <section class="root-section" id="summary">
+    <h2>Summary</h2>
+    <p>The root ص ل و (Ṣ L W) in the Qur’an points to صلوة (salat), connection, turning, alignment, establishment, attention, support, and standing in the path of truth. Forms such as صلوة (salat), صلوات (salawat), صلى (salla), يصلي (yusalli), يصلون (yusallun), صل (salli), صلوا (sallu), مصلين (musallin), and مصلى (musalla) each show part of this field of meaning.</p>
+    <p>صلوة (salat) in human worship is not merely a few outward movements; it must be established and must return the human being to remembrance of God, purity, responsibility, and reform. Salat in creation shows that every creature knows its path and direction within God’s system. The salat of God and the angels upon the Prophet, with full transcendence, points to mercy, attention, confirmation, and support for the Prophet and his mission. The believers’ salat upon the Prophet is also not merely saying a phrase; it is alignment with the mission, support of the message, and submission before God’s guidance.</p>
+    <p>Therefore, translating صلوة (salat) as ritual prayer, supplication, greeting, or blessing may help in some places if it shows only part of the meaning; but if it replaces the full Qur’anic meaning, it distances the human being from the truth.</p>
+    <p>صلوة (salat) in the Qur’an is the way the human being keeps his connection with God alive. Wherever this connection remains alive, salat has been established. And wherever salat becomes habit, display, a word, or lifeless movement, its name remains, but its life has faded.</p>
+  </section>
+  </div>
+</div>
