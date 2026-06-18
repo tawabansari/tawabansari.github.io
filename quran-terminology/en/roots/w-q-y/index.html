@@ -6,172 +6,251 @@ permalink: /quran-terminology/en/roots/w-q-y/
 
 <style>
   .root-study-page {
-    --root-bg: #f7f4ee;
-    --root-card: #fffdf8;
-    --root-text: #25221d;
-    --root-muted: #6f675c;
-    --root-border: rgba(142, 113, 61, 0.24);
-    --root-accent: #b68a35;
-    --root-accent-soft: rgba(182, 138, 53, 0.10);
-    --root-section: rgba(255, 255, 255, 0.62);
-    --root-shadow: 0 18px 50px rgba(40, 32, 20, 0.08);
-    direction: ltr;
-    text-align: left;
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-soft: #f0e5d2;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+
+    direction: rtl;
+    text-align: right;
     max-width: 980px;
     margin: 0 auto;
     padding: 3.5rem 1.25rem;
-    line-height: 1.85;
+    line-height: 2.05;
     color: var(--root-text);
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .root-study-page {
-      --root-bg: #0f1a2c;
-      --root-card: #121f33;
-      --root-text: #ece7dc;
-      --root-muted: #beb6a7;
-      --root-border: rgba(214, 176, 95, 0.24);
-      --root-accent: #d6b05f;
-      --root-accent-soft: rgba(214, 176, 95, 0.12);
-      --root-section: rgba(255, 255, 255, 0.035);
-      --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
-    }
   }
 
   body.dark .root-study-page,
   body.dark-mode .root-study-page,
   html.dark .root-study-page,
-  [data-theme="dark"] .root-study-page {
+  html.dark-mode .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page {
     --root-bg: #0f1a2c;
-    --root-card: #121f33;
-    --root-text: #ece7dc;
-    --root-muted: #beb6a7;
-    --root-border: rgba(214, 176, 95, 0.24);
-    --root-accent: #d6b05f;
-    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-card: #142238;
+    --root-panel: #1b2a40;
     --root-section: rgba(255, 255, 255, 0.035);
-    --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-soft: rgba(255, 255, 255, 0.06);
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
   }
 
-  .root-study-page * { box-sizing: border-box; }
+  .root-study-page * {
+    box-sizing: border-box;
+  }
+
   .root-study-page h1,
   .root-study-page h2,
   .root-study-page h3,
   .root-study-page p,
   .root-study-page li {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
     direction: ltr;
     text-align: left;
   }
 
   .root-frame {
-    background: var(--root-card);
+    background:
+      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
+      var(--root-card);
     border: 1px solid var(--root-border);
-    border-radius: 24px;
-    padding: 2.25rem;
+    border-radius: 26px;
+    padding: 2.4rem;
     box-shadow: var(--root-shadow);
   }
 
   .root-hero {
-    border-bottom: 1px solid var(--root-border);
-    padding-bottom: 1.6rem;
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
     margin-bottom: 2rem;
   }
 
   .root-kicker {
-    color: var(--root-accent);
-    font-size: 0.95rem;
-    font-weight: 700;
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
     margin-bottom: 0.45rem;
+    letter-spacing: 0.01em;
   }
 
   .root-study-page h1 {
     margin: 0;
-    font-size: clamp(2rem, 4vw, 3.15rem);
-    line-height: 1.25;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
     letter-spacing: -0.02em;
+    color: var(--root-text);
   }
 
   .root-subtitle {
     color: var(--root-muted);
-    max-width: 760px;
-    margin: 0.95rem 0 0;
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
+      var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-forms-card h2,
+  .root-toc h2 {
+    margin-top: 0;
+  }
+
+  .root-forms-card ul {
+    padding-right: 1.2rem;
+    margin: 0.75rem 0 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-forms-card ul {
+    padding-right: 0;
+    padding-left: 1.2rem;
+  }
+
+  .root-forms-card li {
+    margin: 0.48rem 0;
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol {
+    padding-left: 0;
+  }
+
+  .root-toc li {
+    margin: 0.28rem 0;
+    break-inside: avoid;
   }
 
   .root-section {
     background: var(--root-section);
-    border: 1px solid rgba(142, 113, 61, 0.13);
+    border: 1px solid var(--root-border-soft);
     border-radius: 18px;
-    padding: 1.45rem 1.55rem;
-    margin: 1.5rem 0;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
   }
 
   .root-section h2 {
     margin: 0 0 1rem;
     color: var(--root-text);
     font-size: 1.35rem;
-    line-height: 1.45;
+    line-height: 1.6;
   }
 
   .root-section h2::before {
     content: "";
     display: inline-block;
-    width: 0.55rem;
-    height: 0.55rem;
+    width: 0.58rem;
+    height: 0.58rem;
     border-radius: 999px;
     background: var(--root-accent);
-    margin-right: 0.55rem;
+    margin-left: 0.55rem;
     vertical-align: 0.08em;
   }
 
-  .root-forms-card,
-  .root-toc {
-    background: linear-gradient(180deg, var(--root-accent-soft), transparent 85%);
-    border: 1px solid var(--root-border);
-    border-radius: 20px;
-    padding: 1.25rem 1.45rem;
-    margin: 1.5rem 0;
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
   }
 
-  .root-forms-card ul { padding-left: 1.2rem; margin: 0.7rem 0 0; }
-  .root-forms-card li { margin: 0.45rem 0; }
-
-  .root-toc ol {
-    list-style-position: inside;
-    padding-left: 0;
-    margin: 0.7rem 0 0;
-    columns: 2;
-    column-gap: 2rem;
+  .root-study-page p {
+    margin: 0.85rem 0;
   }
 
-  .root-toc li { margin: 0.25rem 0; break-inside: avoid; }
-  .root-study-page a { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
-  .root-study-page a:hover { color: var(--root-accent); }
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .root-study-page a:hover {
+    color: var(--root-accent);
+  }
 
   .arabic-quote {
     direction: rtl;
-    text-align: center !important;
-    font-size: 1.45rem;
+    text-align: center;
+    font-size: 1.48rem;
     line-height: 2.5;
-    margin: 1.35rem 0;
+    margin: 1.4rem 0;
     padding: 1rem 1.25rem;
     border: 1px solid var(--root-border);
     border-radius: 18px;
-    background: var(--root-accent-soft);
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent),
+      var(--root-panel);
+    color: var(--root-text);
   }
 
   .root-note {
-    border-left: 3px solid var(--root-accent);
-    padding: 0.85rem 1rem;
+    border-right: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
     background: var(--root-accent-soft);
     border-radius: 14px;
     color: var(--root-muted);
   }
 
+  .root-study-page.forqan-page-ltr .root-note {
+    border-right: 0;
+    border-left: 3px solid var(--root-accent);
+  }
+
   @media (max-width: 760px) {
-    .root-study-page { padding: 2rem 1rem; }
-    .root-frame { padding: 1.25rem; border-radius: 18px; }
-    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
-    .root-toc ol { columns: 1; }
+    .root-study-page {
+      padding: 2rem 1rem;
+    }
+
+    .root-frame {
+      padding: 1.25rem;
+      border-radius: 19px;
+    }
+
+    .root-section,
+    .root-forms-card,
+    .root-toc {
+      padding: 1rem;
+    }
+
+    .root-toc ol {
+      columns: 1;
+    }
   }
 </style>
 
