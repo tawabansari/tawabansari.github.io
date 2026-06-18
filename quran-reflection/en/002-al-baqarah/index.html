@@ -702,6 +702,12 @@ permalink: /quran-reflection/en/002-al-baqarah/
 
   {% include_relative units/006-007.html %}
 
+  <nav class="surah-nav" aria-label="Surah navigation">
+    <a class="surah-nav-button" href="/quran-reflection/en/001-al-fatihah/">Previous Surah: Al-Fatihah</a>
+    <a class="surah-nav-button" href="/quran-reflection/en/">Surah Index</a>
+    <a class="surah-nav-button" href="/quran-reflection/en/003-ali-imran/">Next Surah: Ali 'Imran</a>
+  </nav>
+
 </div>
 
 <style>
@@ -740,6 +746,30 @@ permalink: /quran-reflection/en/002-al-baqarah/
   font-size: 1.2rem;
   line-height: 1.9;
   margin: 0.5rem 0 1.2rem;
+}
+
+.surah-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  border-top: 1px solid #ddd;
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+}
+
+.surah-nav-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  padding: 0.65rem 1rem;
+  text-decoration: none;
+  color: inherit;
+  line-height: 1.4;
+}
+
+.surah-nav-button:hover {
+  background: #f7f7f7;
 }
 
 details .details-content p:first-child {
