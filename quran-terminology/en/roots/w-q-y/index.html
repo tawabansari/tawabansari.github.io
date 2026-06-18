@@ -29,17 +29,17 @@ permalink: /quran-terminology/en/roots/w-q-y/
     color: var(--root-text);
   }
 
-  /* Dark mode: follows the website theme toggle/classes, not the OS/browser preference. */
+  /* Dark mode follows the website toggle/classes, not the OS preference. */
   html.dark .root-study-page,
   body.dark .root-study-page,
   html.dark-mode .root-study-page,
   body.dark-mode .root-study-page,
   html[data-theme="dark"] .root-study-page,
   body[data-theme="dark"] .root-study-page,
-  [data-theme="dark"] .root-study-page,
   [data-bs-theme="dark"] .root-study-page,
   .forqan-theme-dark .root-study-page,
-  .theme-dark .root-study-page {
+  .theme-dark .root-study-page,
+  .root-study-page.forqan-root-dark {
     --root-bg: #0f1a2c;
     --root-card: #121f33;
     --root-panel: #1b2a40;
@@ -55,17 +55,16 @@ permalink: /quran-terminology/en/roots/w-q-y/
     --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
   }
 
-  /* Light mode: explicit warm light override when the site is toggled to light. */
   html.light .root-study-page,
   body.light .root-study-page,
   html.light-mode .root-study-page,
   body.light-mode .root-study-page,
   html[data-theme="light"] .root-study-page,
   body[data-theme="light"] .root-study-page,
-  [data-theme="light"] .root-study-page,
   [data-bs-theme="light"] .root-study-page,
   .forqan-theme-light .root-study-page,
-  .theme-light .root-study-page {
+  .theme-light .root-study-page,
+  .root-study-page.forqan-root-light {
     --root-bg: #f7f3ea;
     --root-card: #fffaf1;
     --root-panel: #fffdf7;
@@ -104,16 +103,6 @@ permalink: /quran-terminology/en/roots/w-q-y/
     text-align: right;
   }
 
-  .root-study-page.forqan-page-ltr,
-  .root-study-page.forqan-page-ltr h1,
-  .root-study-page.forqan-page-ltr h2,
-  .root-study-page.forqan-page-ltr h3,
-  .root-study-page.forqan-page-ltr p,
-  .root-study-page.forqan-page-ltr li {
-    direction: ltr;
-    text-align: left;
-  }
-
   .root-frame {
     background:
       radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
@@ -143,7 +132,6 @@ permalink: /quran-terminology/en/roots/w-q-y/
     font-size: clamp(2rem, 4vw, 3.05rem);
     line-height: 1.4;
     letter-spacing: -0.02em;
-    color: var(--root-text);
   }
 
   .root-subtitle {
@@ -174,11 +162,6 @@ permalink: /quran-terminology/en/roots/w-q-y/
     margin: 0.75rem 0 0;
   }
 
-  .root-study-page.forqan-page-ltr .root-forms-card ul {
-    padding-right: 0;
-    padding-left: 1.2rem;
-  }
-
   .root-forms-card li {
     margin: 0.48rem 0;
   }
@@ -189,10 +172,6 @@ permalink: /quran-terminology/en/roots/w-q-y/
     margin: 0.75rem 0 0;
     columns: 2;
     column-gap: 2rem;
-  }
-
-  .root-study-page.forqan-page-ltr .root-toc ol {
-    padding-left: 0;
   }
 
   .root-toc li {
@@ -224,11 +203,6 @@ permalink: /quran-terminology/en/roots/w-q-y/
     background: var(--root-accent);
     margin-left: 0.55rem;
     vertical-align: 0.08em;
-  }
-
-  .root-study-page.forqan-page-ltr .root-section h2::before {
-    margin-left: 0;
-    margin-right: 0.55rem;
   }
 
   .root-study-page p {
@@ -268,6 +242,35 @@ permalink: /quran-terminology/en/roots/w-q-y/
     color: var(--root-muted);
   }
 
+  .root-note strong,
+  .root-subtitle strong {
+    color: var(--root-text);
+  }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .root-study-page.forqan-page-ltr .root-forms-card ul {
+    padding-right: 0;
+    padding-left: 1.2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol {
+    padding-left: 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
+  }
+
   .root-study-page.forqan-page-ltr .root-note {
     border-right: 0;
     border-left: 3px solid var(--root-accent);
@@ -294,6 +297,58 @@ permalink: /quran-terminology/en/roots/w-q-y/
     }
   }
 </style>
+
+<script>
+  (function () {
+    function parseRGB(value) {
+      var match = String(value || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+      if (!match) return null;
+      return [Number(match[1]), Number(match[2]), Number(match[3])];
+    }
+
+    function luminance(rgb) {
+      if (!rgb) return 255;
+      return (0.2126 * rgb[0]) + (0.7152 * rgb[1]) + (0.0722 * rgb[2]);
+    }
+
+    function hasToken(text, token) {
+      return new RegExp('(^|\\s|_|-)' + token + '($|\\s|_|-)', 'i').test(String(text || ''));
+    }
+
+    function applyForqanRootTheme() {
+      var page = document.querySelector('.root-study-page');
+      if (!page) return;
+
+      var html = document.documentElement;
+      var body = document.body;
+      var marker = [
+        html.className,
+        body ? body.className : '',
+        html.getAttribute('data-theme'),
+        body ? body.getAttribute('data-theme') : '',
+        html.getAttribute('data-bs-theme'),
+        body ? body.getAttribute('data-bs-theme') : ''
+      ].join(' ');
+
+      var isDark = hasToken(marker, 'dark');
+      var isLight = hasToken(marker, 'light');
+
+      if (!isDark && !isLight) {
+        var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
+                 parseRGB(getComputedStyle(html).backgroundColor);
+        isDark = luminance(bg) < 128;
+      }
+
+      page.classList.toggle('forqan-root-dark', !!isDark);
+      page.classList.toggle('forqan-root-light', !isDark);
+    }
+
+    applyForqanRootTheme();
+    document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
+    window.addEventListener('load', applyForqanRootTheme);
+    setInterval(applyForqanRootTheme, 700);
+  })();
+</script>
 
 <div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
   <div class="root-frame">
