@@ -1,0 +1,362 @@
+---
+layout: default
+title: Qur’anic Root W Q Y
+permalink: /quran-terminology/en/roots/w-q-y/
+---
+
+<style>
+  .root-study-page {
+    --root-bg: #f7f4ee;
+    --root-card: #fffdf8;
+    --root-text: #25221d;
+    --root-muted: #6f675c;
+    --root-border: rgba(142, 113, 61, 0.24);
+    --root-accent: #b68a35;
+    --root-accent-soft: rgba(182, 138, 53, 0.10);
+    --root-section: rgba(255, 255, 255, 0.62);
+    --root-shadow: 0 18px 50px rgba(40, 32, 20, 0.08);
+    direction: ltr;
+    text-align: left;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 1.85;
+    color: var(--root-text);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .root-study-page {
+      --root-bg: #0f1a2c;
+      --root-card: #121f33;
+      --root-text: #ece7dc;
+      --root-muted: #beb6a7;
+      --root-border: rgba(214, 176, 95, 0.24);
+      --root-accent: #d6b05f;
+      --root-accent-soft: rgba(214, 176, 95, 0.12);
+      --root-section: rgba(255, 255, 255, 0.035);
+      --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
+    }
+  }
+
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  [data-theme="dark"] .root-study-page {
+    --root-bg: #0f1a2c;
+    --root-card: #121f33;
+    --root-text: #ece7dc;
+    --root-muted: #beb6a7;
+    --root-border: rgba(214, 176, 95, 0.24);
+    --root-accent: #d6b05f;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
+  }
+
+  .root-study-page * { box-sizing: border-box; }
+  .root-study-page h1,
+  .root-study-page h2,
+  .root-study-page h3,
+  .root-study-page p,
+  .root-study-page li {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .root-frame {
+    background: var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 24px;
+    padding: 2.25rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border);
+    padding-bottom: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent);
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 0.45rem;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.15rem);
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 760px;
+    margin: 0.95rem 0 0;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid rgba(142, 113, 61, 0.13);
+    border-radius: 18px;
+    padding: 1.45rem 1.55rem;
+    margin: 1.5rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.45;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-right: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent 85%);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.25rem 1.45rem;
+    margin: 1.5rem 0;
+  }
+
+  .root-forms-card ul { padding-left: 1.2rem; margin: 0.7rem 0 0; }
+  .root-forms-card li { margin: 0.45rem 0; }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0.7rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-toc li { margin: 0.25rem 0; break-inside: avoid; }
+  .root-study-page a { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .root-study-page a:hover { color: var(--root-accent); }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center !important;
+    font-size: 1.45rem;
+    line-height: 2.5;
+    margin: 1.35rem 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background: var(--root-accent-soft);
+  }
+
+  .root-note {
+    border-left: 3px solid var(--root-accent);
+    padding: 0.85rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page { padding: 2rem 1rem; }
+    .root-frame { padding: 1.25rem; border-radius: 18px; }
+    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
+    .root-toc ol { columns: 1; }
+  }
+</style>
+
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+  <div class="root-frame">
+
+    <section class="root-hero">
+      <div class="root-kicker">Qur’anic Root</div>
+      <h1>W Q Y</h1>
+      <p class="root-subtitle">To guard, protect, place a shield, keep oneself away from harm, practice conscious restraint, act with responsible vigilance, and place a barrier between oneself and danger.</p>
+    </section>
+
+    <section class="root-forms-card" id="forms">
+      <h2>Forms Covered from This Root</h2>
+      <p>This page studies the root <strong>W Q Y</strong> in meaning, then explains the most important Qur’anic forms built from this root:</p>
+      <ul>
+        <li><strong>وَقَى / يَقِي / قِنَا / قُوا</strong> — Form I verb; he protected, he protects, protect us, protect yourselves</li>
+        <li><strong>اتَّقَى / يَتَّقِي / اتَّقُوا / تَتَّقُونَ / يَتَّقُونَ</strong> — Form VIII; to guard oneself, take protective awareness, build an inward shield</li>
+        <li><strong>أَتْقَى</strong> — comparative/superlative; more protective, more God-conscious, more careful in guarding oneself from collapse and corruption</li>
+        <li><strong>تَقْوَى</strong> — noun/verbal noun; protective awareness, conscious restraint, inward shielding against moral and spiritual collapse</li>
+        <li><strong>تَقِيّ</strong> — adjective; protective, God-conscious, clean in conduct, one who guards himself from corruption</li>
+        <li><strong>تُقَاة</strong> — noun/verbal noun; caution, protective restraint, foundational vigilance, or a tactical shield in danger</li>
+        <li><strong>وَاق</strong> — active participle; protector, guard, or shield that prevents harm from reaching someone</li>
+        <li><strong>مُتَّقِين / مُتَّقُون / مُتَّقِي</strong> — Form VIII active participle; those of protective awareness, those who place a shield between themselves and collapse</li>
+      </ul>
+      <p class="root-note">Reminder: <strong>muttaqīn</strong> belongs to the root <strong>W Q Y</strong>, not to a separate root T Q Y. The tā in <strong>muttaqīn</strong> comes from the Form VIII structure. The underlying meaning still returns to protection, guarding, and shielding.</p>
+      <p class="root-note">Also, <strong>taqwā</strong> should not be reduced to “fear.” Fear may be one effect of awareness of danger, but the root meaning of taqwā is conscious protection and guarding oneself from collapse.</p>
+    </section>
+
+    <nav class="root-toc" aria-label="Root usage index">
+      <h2>Root Usage Index</h2>
+      <ol>
+        <li><a href="#meaning">General meaning of W Q Y</a></li>
+        <li><a href="#wiqayah">Wiqāyah: the root foundation</a></li>
+        <li><a href="#taqwa-article">Taqwā: brief note and companion article</a></li>
+        <li><a href="#waqa">Waqā / yaqī: protecting and guarding</a></li>
+        <li><a href="#qina-qu">Qinā and qū: prayer and command for protection</a></li>
+        <li><a href="#ittaqa">Ittaqā / yattaqī: taking a shield through awareness</a></li>
+        <li><a href="#taqwa">Taqwā: an inward state of vigilance</a></li>
+        <li><a href="#muttaqin">Muttaqīn: people ready for guidance</a></li>
+        <li><a href="#atqa">Atqā: more protective and vigilant</a></li>
+        <li><a href="#taqiyy">Taqiyy: the protective, clean-conducted person</a></li>
+        <li><a href="#tuqat">Tuqāt: foundational vigilance and tactical shielding</a></li>
+        <li><a href="#waq">Wāq: protector and guard</a></li>
+        <li><a href="#fear">Taqwā and fear: an important distinction</a></li>
+        <li><a href="#justice">Taqwā, justice, and responsibility</a></li>
+        <li><a href="#book-guidance">Taqwā and the guidance of the Book</a></li>
+        <li><a href="#summary">Summary</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="meaning">
+      <h2>General meaning of W Q Y</h2>
+      <p>The root <strong>W Q Y</strong> in the Qur’an points to guarding, protecting, preserving from harm, placing a shield, conscious restraint, and creating distance between oneself and danger.</p>
+      <p>This root is not merely about being afraid. A person may fear something yet never reform. A person may recognize danger yet still walk toward it. But <strong>wiqāyah</strong> means recognizing danger and building a shield against it.</p>
+      <p>In this sense, W Q Y has both an outward and inward dimension. Sometimes the Qur’an speaks of being protected from fire, punishment, evil, harm, or destructive consequences. At other times it speaks of an inward state that guards the human being from injustice, arrogance, falsehood, heedlessness, corruption, and irresponsibility.</p>
+      <p>So this root calls the human being to wakefulness, vigilance, and responsibility. The muttaqī is not merely someone who fears; he is someone who understands that collapse is possible and does not leave himself unprotected.</p>
+    </section>
+
+    <section class="root-section" id="wiqayah">
+      <h2>Wiqāyah: the root foundation</h2>
+      <p>To understand <strong>taqwā</strong>, we must begin with <strong>wiqāyah</strong>: guarding, protecting, and placing a barrier between oneself and harm.</p>
+      <p>In its concrete sensory layer, wiqāyah is close to anything placed between something vulnerable and something harmful. Shoes protect the feet from the hardness of the ground. Armor protects the body from a cutting blade.</p>
+      <p>This image matters. Wiqāyah is not merely standing far away; it is building a shield. The human being places a conscious barrier between himself and danger so he is not worn down, wounded, or destroyed.</p>
+      <p>From here the meaning of taqwā becomes clearer. Taqwā is a living and practical state. It means not merely imagining danger, but taking a real position against it. The person places between himself and collapse a shield of awareness, justice, self-restraint, and remembrance of God.</p>
+      <p>Thus W Q Y teaches that religion is not only a set of mental beliefs. It should build protective power within the human being: protection of heart, tongue, action, choice, and direction of life.</p>
+    </section>
+
+    <section class="root-section" id="taqwa-article">
+      <h2>Taqwā: brief note and companion article</h2>
+      <p>This is a root page for <strong>W Q Y</strong>, so its purpose is not to explain every dimension of taqwā. The broader discussion of taqwā, worship, fasting, justice, the garment of taqwā, salvation, excellence, and Qur’anic guidance belongs in the companion article.</p>
+      <p>Here we only preserve the root connection: taqwā comes from the field of <strong>wiqāyah</strong>. It means conscious protection, self-guarding, and taking a shield against moral and spiritual dangers.</p>
+      <p>So when the Qur’an speaks of taqwā, the mind should not go only to simple fear. Taqwā means making God the center of one’s vigilance and accountability, not people, power, tradition, ego, or desire.</p>
+      <p>This brief note is enough for the root page. The fuller treatment of taqwā belongs in the companion article.</p>
+    </section>
+
+    <section class="root-section" id="waqa">
+      <h2>Waqā / yaqī: protecting and guarding</h2>
+      <p>The forms <strong>waqā</strong> and <strong>yaqī</strong> point to protecting, guarding, and preserving from harm. At this level the meaning is clear: someone or something is kept away from danger.</p>
+      <p>In the Qur’an, this protection may be from punishment, fire, evil, harm, or destructive consequences. The human being asks God for protection because he knows that not every danger can be repelled by his own power.</p>
+      <p>But divine protection is not separate from human responsibility. The human being must also accept the path of being protected. Someone who throws himself into fire and then only asks to be saved has not fully understood wiqāyah.</p>
+      <p>So <strong>waqā</strong> is not only external protection; it also invites the human being to cooperate with guidance. God protects, but the human being must also place himself on the path where protection can reach him.</p>
+    </section>
+
+    <section class="root-section" id="qina-qu">
+      <h2>Qinā and qū: prayer and command for protection</h2>
+      <p><strong>Qinā</strong> means protect us, guard us. This Qur’anic prayer is important because the human being admits that without God’s protection, he is not self-sufficient against collapse and evil consequences.</p>
+      <p>When one says <strong>qinā</strong>, one is not merely escaping pain or punishment. One is saying: Our Lord, protect us from paths that lead to destruction. Protect us from a fire that is the outcome of injustice, heedlessness, and corruption.</p>
+      <p>Alongside this, <strong>qū</strong> is an imperative: protect yourselves. This shows that the human being is not merely waiting for external protection. He is responsible not to leave himself, his family, and his life-path exposed to destructive dangers.</p>
+      <p>So W Q Y contains both prayer and command: it shows both need for God and responsibility of the human being.</p>
+    </section>
+
+    <section class="root-section" id="ittaqa">
+      <h2>Ittaqā / yattaqī: taking a shield through awareness</h2>
+      <p><strong>Ittaqā</strong> is Form VIII and shows the human being entering into the action himself. He guards himself, stays vigilant, and places distance between himself and danger.</p>
+      <p>Here the meaning of taqwā becomes sharper. Taqwā is not passive. The muttaqī is not merely one who fears punishment; he is one who consciously regulates his conduct so he does not fall into injustice, corruption, falsehood, arrogance, slavery to desire, or heedlessness.</p>
+      <p>The Qur’anic command <strong>ittaqū Allāh</strong> is repeated often. If it is translated only as “fear God,” part of the root meaning is lost. At the root level, it means: make God the center of your vigilance, accountability, and life-regulation.</p>
+      <p>So <strong>ittaqū Allāh</strong> means: live consciously before God, protect yourself from what distances you from Him, and build a shield between yourself and collapse.</p>
+    </section>
+
+    <section class="root-section" id="taqwa">
+      <h2>Taqwā: an inward state of vigilance</h2>
+      <p><strong>Taqwā</strong> is one of the central nouns of this root. It is not merely one isolated action; it is an inward state and stable direction of life.</p>
+      <p>Taqwā means the human being has a guard within. This guard watches over speech, judgment, anger, power, desire, wealth, worship, disagreement, and decision-making.</p>
+      <p>If taqwā appears only in outward worship but not in justice, speech, dealings, family, or treatment of opponents, it has been misunderstood. Taqwā must guard the human being from injustice.</p>
+      <p>Taqwā is inward, but it has outward effects. The muttaqī should become more vigilant, more just, more truthful, and more awake in conduct.</p>
+      <p>So <strong>taqwā</strong> is an inward shield that protects the human being from moral and spiritual collapse.</p>
+    </section>
+
+    <section class="root-section" id="muttaqin">
+      <h2>Muttaqīn: people ready for guidance</h2>
+      <p><strong>Muttaqīn</strong> means those who possess taqwā, those who have accepted conscious vigilance as a direction of life. This word has a special place at the opening of Sūrat al-Baqarah:</p>
+      <p class="arabic-quote">هُدًى لِّلْمُتَّقِينَ</p>
+      <p>This means the Book can be recited to all, but its guidance becomes alive in those who carry the state of vigilance. One who leaves himself unprotected before arrogance, prejudice, desire, blind imitation, and corruption does not fully benefit from the Book.</p>
+      <p>The muttaqī is one who wants to be protected. He is ready for reform. He is ready to hear truth. When evidence becomes clear, he steps back from ego. When he errs, he returns. When he sees danger, he does not surrender himself to it.</p>
+      <p>Thus <strong>li-l-muttaqīn</strong> means: for those who practice conscious vigilance; those who place a shield between themselves and collapse, corruption, injustice, misguidance, arrogance, and irresponsibility.</p>
+    </section>
+
+    <section class="root-section" id="atqa">
+      <h2>Atqā: more protective and vigilant</h2>
+      <p><strong>Atqā</strong> means more protective, more vigilant, or greater in taqwā. It shows that taqwā has degrees.</p>
+      <p>Human beings are not equal in vigilance, wakefulness, justice, and guarding themselves from corruption. Some are careful only outwardly while inwardly trapped in arrogance and injustice. Others remain watchful of truth in private and public, in power and weakness, in friendship and hostility.</p>
+      <p>Being atqā is not about displaying more religious appearance. A person may perform many rituals yet be weak in justice, truthfulness, and mercy. Superiority in taqwā must be measured by the truth of life, not by display.</p>
+      <p>So <strong>atqā</strong> points to the quality of vigilance, not merely the quantity of religious appearance.</p>
+    </section>
+
+    <section class="root-section" id="taqiyy">
+      <h2>Taqiyy: the protective, clean-conducted person</h2>
+      <p><strong>Taqiyy</strong> describes a person of taqwā. Such a person does not leave himself exposed to impurity, corruption, injustice, and sin.</p>
+      <p>Being taqiyy does not simply mean being fearful. The taqiyy is inwardly awake. Before error becomes action, he notices it in intention and heart and distances himself from it.</p>
+      <p>This word connects with purity, truthfulness, and sound orientation. The taqiyy sees himself as accountable before God and does not want to pursue ego, tribe, power, or self-interest at any cost.</p>
+      <p>So <strong>taqiyy</strong> means a human being who has turned vigilance into a character trait.</p>
+    </section>
+
+    <section class="root-section" id="tuqat">
+      <h2>Tuqāt: foundational vigilance and tactical shielding</h2>
+      <p><strong>Tuqāt</strong> is a subtle word from this root. It can point to vigilance, restraint, caution, or a protective state in the face of danger.</p>
+      <p>In one usage, the Qur’an speaks of <strong>ḥaqqa tuqātihi</strong>: being mindful of God as is truly due. This points to the height of continuous self-guarding, wakefulness, and accountability before God.</p>
+      <p>In another usage, it describes a situation where the human being builds a temporary and tactical shield in danger. In a threatened condition, one acts with wisdom, caution, and vigilance so oneself or the path of truth is not needlessly exposed to destruction.</p>
+      <p>These two uses show that taqwā is both foundational and situational. On one side, it is the permanent direction of life before God. On the other, in danger it can appear as ethical caution and measured management of conduct.</p>
+      <p>But this caution must not become hypocrisy, fear-worship, or abandonment of truth. A tactical shield only has meaning when the deeper loyalty to truth remains intact.</p>
+    </section>
+
+    <section class="root-section" id="waq">
+      <h2>Wāq: protector and guard</h2>
+      <p><strong>Wāq</strong> means protector or guard. But its Qur’anic usage is not merely about introducing a material protector.</p>
+      <p>In many contexts, <strong>wāq</strong> appears in a space of negation: the human being has no independent protector against God and the consequences of divine laws. When the consequence of truth arrives, no shield separate from God can protect the human being from it.</p>
+      <p>This meaning pulls the human being out of false security. Power, wealth, tribe, status, walls, tools, or mental idols may protect at a limited level, but before divine consequences they are not independent protectors.</p>
+      <p>So <strong>wāq</strong> leads us to this truth: real protection, in the final sense, depends on God’s lordship and mercy. No shield separated from truth is an ultimate shield.</p>
+    </section>
+
+    <section class="root-section" id="fear">
+      <h2>Taqwā and fear: an important distinction</h2>
+      <p>One common mistake is to translate taqwā only as “fear.” This may capture one possible effect of taqwā, but it does not carry the whole meaning.</p>
+      <p>The Qur’an also uses words such as khawf and khashyah for fear, awe, or inward emotional states. But when the Qur’an speaks of taqwā, the issue is not only an inward feeling; action, conduct-regulation, and practical positioning are involved.</p>
+      <p>Khawf may be a state of the heart; taqwā is the engineering of behavior and the building of a shield. The muttaqī does not merely feel fear. He decides, distances himself, restrains himself, observes truth, and corrects his path.</p>
+      <p>If he keeps away from fire, it is because he understands that fire burns. If he keeps away from injustice, it is because he understands that injustice destroys the human being and society. If he avoids disobedience to truth, it is because he understands that distance from truth has consequences.</p>
+      <p>So taqwā is not paralyzing fear. Taqwā is awakening vigilance.</p>
+    </section>
+
+    <section class="root-section" id="justice">
+      <h2>Taqwā, justice, and responsibility</h2>
+      <p>Taqwā is not only the individual’s relation with God. If it does not appear in justice, truthfulness, and social responsibility, it has been misunderstood.</p>
+      <p>A person who claims taqwā but is unjust in judgment, oppressive in power, dishonest in trade, or violates truth in disagreement has reduced taqwā to religious appearance.</p>
+      <p>Taqwā must function like an inward shield. When anger comes, it guards one from injustice. When power comes, it guards one from arrogance. When benefit comes, it guards one from betrayal. When hostility comes, it guards one from unfairness.</p>
+      <p>So W Q Y shows that taqwā is not merely feeling; it is practical responsibility.</p>
+    </section>
+
+    <section class="root-section" id="book-guidance">
+      <h2>Taqwā and the guidance of the Book</h2>
+      <p>At the opening of Sūrat al-Baqarah, after introducing <strong>al-kitāb</strong> and negating rayb from it, the Qur’an says:</p>
+      <p class="arabic-quote">هُدًى لِّلْمُتَّقِينَ</p>
+      <p>This order matters. The Book is guidance, but its guidance becomes alive in those who carry readiness for protective awareness: those who do not want to stand against truth through arrogance, prejudice, desire, or heedlessness.</p>
+      <p>The muttaqī is someone whose heart is still teachable. When he sees truth, he reforms instead of fleeing. He does not turn the signs into tools of argument and self-superiority, but takes them as lamps on the path.</p>
+      <p>So <strong>muttaqīn</strong> here are not merely a religious group with a label. They are those who stand before truth with vigilance, readiness, and accountability.</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>Summary</h2>
+      <p>The root <strong>W Q Y</strong> in the Qur’an calls the human being to protection, guarding, taking a shield, self-restraint, conscious avoidance, and responsible vigilance.</p>
+      <p><strong>Waqā</strong> and <strong>yaqī</strong> speak of protecting and guarding. <strong>Qinā</strong> and <strong>qū</strong> show prayer and command for protection. <strong>Ittaqā</strong> and <strong>yattaqī</strong> speak of active vigilance and taking a shield against danger. <strong>Taqwā</strong> is an inward state of guarding. <strong>Muttaqīn</strong> are those who turn this vigilance into a life-direction. <strong>Atqā</strong> speaks of being greater in protective awareness. <strong>Taqiyy</strong> describes the vigilant person. <strong>Tuqāt</strong> shows both foundational vigilance and caution in danger. And <strong>wāq</strong> points to protection and guarding, especially by showing that no independent protector exists against divine laws and consequences.</p>
+      <p>So taqwā is not merely fear. Taqwā means not leaving oneself exposed to collapse. It means placing a shield between oneself and injustice, corruption, arrogance, misguidance, and irresponsibility. It means making God the center of one’s vigilance and accountability.</p>
+      <p>From here the meaning of <strong>li-l-muttaqīn</strong> becomes clear: this Book becomes living guidance for those who practice conscious protection, those who want to be guarded from collapse and are ready to reform before truth.</p>
+      <p class="arabic-quote">هُدًى لِّلْمُتَّقِينَ</p>
+    </section>
+
+  </div>
+</div>
