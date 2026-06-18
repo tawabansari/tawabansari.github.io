@@ -1,0 +1,690 @@
+---
+layout: default
+title: The Qur’anic Root GH Y B
+permalink: /quran-terminology/en/roots/gh-y-b/
+---
+
+<script>
+  (function () {
+    /* Prevent first-paint root-page theme flicker.
+       This reads the same key used by the default layout before the root card renders. */
+    try {
+      var savedTheme = localStorage.getItem('forqan-theme');
+      var html = document.documentElement;
+      if (savedTheme === 'dark') {
+        html.classList.add('forqan-root-pre-dark');
+        html.classList.remove('forqan-root-pre-light');
+      } else if (savedTheme === 'light') {
+        html.classList.add('forqan-root-pre-light');
+        html.classList.remove('forqan-root-pre-dark');
+      }
+    } catch (e) {}
+  })();
+</script>
+
+<style>
+  .root-study-page {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-soft: #f0e5d2;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+
+    direction: rtl;
+    text-align: right;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  /* Dark mode follows the website toggle/classes, not the OS preference. */
+  html.forqan-root-pre-dark .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark .root-study-page,
+  body.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-mode .root-study-page,
+  html[data-theme="dark"] .root-study-page,
+  body[data-theme="dark"] .root-study-page,
+  [data-bs-theme="dark"] .root-study-page,
+  .forqan-theme-dark .root-study-page,
+  .theme-dark .root-study-page,
+  .root-study-page.forqan-root-dark {
+    --root-bg: #0f1a2c;
+    --root-card: #121f33;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #ece7dc;
+    --root-muted: #beb6a7;
+    --root-soft: rgba(255, 255, 255, 0.06);
+    --root-border: rgba(214, 176, 95, 0.24);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
+  }
+
+  html.forqan-root-pre-light .root-study-page,
+  html.light .root-study-page,
+  body.light .root-study-page,
+  html.light-mode .root-study-page,
+  body.light-mode .root-study-page,
+  html[data-theme="light"] .root-study-page,
+  body[data-theme="light"] .root-study-page,
+  [data-bs-theme="light"] .root-study-page,
+  .forqan-theme-light .root-study-page,
+  .theme-light .root-study-page,
+  .root-study-page.forqan-root-light {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-soft: #f0e5d2;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+  }
+
+  .root-study-page * {
+    box-sizing: border-box;
+  }
+
+  .root-study-page,
+  .root-study-page h1,
+  .root-study-page h2,
+  .root-study-page h3,
+  .root-study-page p,
+  .root-study-page li,
+  .root-study-page strong {
+    color: var(--root-text);
+  }
+
+  .root-study-page h1,
+  .root-study-page h2,
+  .root-study-page h3,
+  .root-study-page p,
+  .root-study-page li {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .root-frame {
+    background:
+      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
+      var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+    letter-spacing: 0.01em;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
+      var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-forms-card h2,
+  .root-toc h2 {
+    margin-top: 0;
+  }
+
+  .root-forms-card ul {
+    padding-right: 1.2rem;
+    margin: 0.75rem 0 0;
+  }
+
+  .root-forms-card li {
+    margin: 0.48rem 0;
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-toc li {
+    margin: 0.28rem 0;
+    break-inside: avoid;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page p {
+    margin: 0.85rem 0;
+  }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .root-study-page a:hover {
+    color: var(--root-accent);
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent),
+      var(--root-panel);
+    color: var(--root-text);
+  }
+
+  .root-note {
+    border-right: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+  }
+
+  .root-note strong,
+  .root-subtitle strong {
+    color: var(--root-text);
+  }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .root-study-page.forqan-page-ltr .root-forms-card ul {
+    padding-right: 0;
+    padding-left: 1.2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol {
+    padding-left: 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-note {
+    border-right: 0;
+    border-left: 3px solid var(--root-accent);
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page {
+      padding: 2rem 1rem;
+    }
+
+    .root-frame {
+      padding: 1.25rem;
+      border-radius: 19px;
+    }
+
+    .root-section,
+    .root-forms-card,
+    .root-toc {
+      padding: 1rem;
+    }
+
+    .root-toc ol {
+      columns: 1;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    function parseRGB(value) {
+      var match = String(value || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
+      if (!match) return null;
+      return [Number(match[1]), Number(match[2]), Number(match[3])];
+    }
+
+    function luminance(rgb) {
+      if (!rgb) return 255;
+      return (0.2126 * rgb[0]) + (0.7152 * rgb[1]) + (0.0722 * rgb[2]);
+    }
+
+    function hasToken(text, token) {
+      return new RegExp('(^|\s|_|-)' + token + '($|\s|_|-)', 'i').test(String(text || ''));
+    }
+
+    function savedThemePreference() {
+      try {
+        return localStorage.getItem('forqan-theme');
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function detectForqanTheme() {
+      var html = document.documentElement;
+      var body = document.body;
+      var marker = [
+        html.className,
+        body ? body.className : '',
+        html.getAttribute('data-theme'),
+        body ? body.getAttribute('data-theme') : '',
+        html.getAttribute('data-bs-theme'),
+        body ? body.getAttribute('data-bs-theme') : ''
+      ].join(' ');
+
+      if (hasToken(marker, 'dark')) return 'dark';
+      if (hasToken(marker, 'light')) return 'light';
+
+      var saved = savedThemePreference();
+      if (saved === 'dark' || saved === 'light') return saved;
+
+      if (body || html) {
+        var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
+                 parseRGB(getComputedStyle(html).backgroundColor);
+        if (bg) return luminance(bg) < 128 ? 'dark' : 'light';
+      }
+
+      return 'light';
+    }
+
+    function applyForqanRootTheme() {
+      var theme = detectForqanTheme();
+      var isDark = theme === 'dark';
+      var html = document.documentElement;
+      var page = document.querySelector('.root-study-page');
+
+      html.classList.toggle('forqan-root-pre-dark', isDark);
+      html.classList.toggle('forqan-root-pre-light', !isDark);
+
+      if (page) {
+        page.classList.toggle('forqan-root-dark', isDark);
+        page.classList.toggle('forqan-root-light', !isDark);
+      }
+    }
+
+    applyForqanRootTheme();
+    document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
+    window.addEventListener('load', applyForqanRootTheme);
+    window.addEventListener('storage', applyForqanRootTheme);
+
+    if (window.MutationObserver) {
+      var observer = new MutationObserver(applyForqanRootTheme);
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+      });
+
+      function observeBody() {
+        if (!document.body) return;
+        observer.observe(document.body, {
+          attributes: true,
+          attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+        });
+      }
+
+      observeBody();
+      document.addEventListener('DOMContentLoaded', observeBody);
+    }
+  })();
+</script>
+
+
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">Qur’anic Root</div>
+      <h1>The Qur’anic Root GH Y B</h1>
+      <p class="root-subtitle">Hiddenness, absence from human sight, what lies beyond direct perception, and the boundary between limited human awareness and the encompassing knowledge of God</p>
+    </section>
+
+    <section class="root-section" id="forms-covered">
+      <h2>Forms covered from this root</h2>
+
+      <p>
+        This page studies the root <strong>غ ي ب</strong> semantically, then explains the most important Qur’anic forms and usages built from this root.
+      </p>
+
+      <ul>
+        <li><strong>ghayb / al-ghayb</strong> / <strong>غيب / الغيب</strong> — the hidden, the unseen, what lies outside direct human perception</li>
+        <li><strong>ghuyub</strong> / <strong>غيوب</strong> — hidden things, unseen matters, concealed layers of reality</li>
+        <li><strong>ghayabat</strong> / <strong>غيابت</strong> — a hidden depth; a state in which someone or something sinks out of visible reach</li>
+        <li><strong>ghaibin</strong> / <strong>غائبين</strong> — those who are absent from the scene</li>
+        <li><strong>ghaibah</strong> / <strong>غائبة</strong> — a hidden, concealed, or absent matter</li>
+        <li><strong>yaghtab</strong> / <strong>يغتب</strong> — in the Qur’an, it appears in a prohibition: one must not backbite; one must not exploit another person’s absence to violate their dignity</li>
+      </ul>
+
+      <p>
+        Note: the root <strong>غ ي ب</strong> is not only about the future. In the Qur’an, ghayb includes whatever is outside the field of direct human sight, presence, or awareness. It may concern the future, but it may also concern hidden past events, inner intentions, the unseen realities of the heavens and the earth, concealed truths, or anything fully encompassed only by God.
+      </p>
+    </section>
+
+    <nav class="root-toc" aria-label="Article section list">
+      <h2>Usage map of this root</h2>
+      <ol>
+        <li><a href="#general-meaning">General meaning of the root GH Y B</a></li>
+        <li><a href="#sense-layer">The sensory layer: disappearing from the horizon of sight</a></li>
+        <li><a href="#human-boundary">Ghayb as the boundary of human awareness</a></li>
+        <li><a href="#iman-bil-ghayb">Faith in the unseen at the beginning of Sūrat al-Baqarah</a></li>
+        <li><a href="#knowledge-of-god">Ghayb and the knowledge of God</a></li>
+        <li><a href="#ghuyub">Ghuyub: many-layered hidden things</a></li>
+        <li><a href="#ghayabat">Ghayabat: being enclosed in hidden depth</a></li>
+        <li><a href="#ghaibin-ghaibah">Ghaibin and ghaibah: absence from the visible scene</a></li>
+        <li><a href="#yaghtab">Yaghtab: backbiting and the violation of human dignity</a></li>
+        <li><a href="#humility">Ghayb, epistemic humility, and caution against baseless claims</a></li>
+        <li><a href="#summary">Summary</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="general-meaning">
+      <h2>General meaning of the root GH Y B</h2>
+
+      <p>
+        The Qur’anic root <strong>غ ي ب</strong> points to the semantic field of hiddenness, absence, concealment, and being outside direct observation. When something is absent, this does not mean it does not exist; it means that it is hidden from our sight, presence, or awareness.
+      </p>
+
+      <p>
+        This distinction is essential. In the Qur’an, ghayb does not mean fantasy, myth, or unreality. Ghayb means a reality that the human being does not possess through ordinary sight, sense, experience, or limited knowledge. The unseen is not the negation of reality; it is a reminder of the limits of human access to reality.
+      </p>
+
+      <p>
+        From here, the root <strong>غ ي ب</strong> calls the human being to epistemic humility. The human being does not see everything, does not know everything, and does not have access to every layer of existence. Something may be hidden from us while remaining fully present before God.
+      </p>
+    </section>
+
+    <section class="root-section" id="sense-layer">
+      <h2>The sensory layer: disappearing from the horizon of sight</h2>
+
+      <p>
+        In the sensory layer of Arabic, this root is connected to something disappearing from the field of sight, as in the expression <strong>ghabat al-shams</strong>, meaning that the sun disappeared from the observer’s view. In such a case, the sun has not ceased to exist; it has only moved beyond our angle of sight.
+      </p>
+
+      <p>
+        This simple image makes the Qur’anic meaning of ghayb more tangible. Ghayb does not mean nonexistence. It means that something has moved out of our field of observation, sunk beyond what we can see, or become veiled from our perception.
+      </p>
+
+      <p>
+        Therefore, the human being should not hastily equate “I do not see” with “it does not exist.” Something may be absent from human sight while still being present within the structure of truth. This is where the Qur’an pulls the human being away from sensory arrogance and toward humility before a reality greater than the visible surface.
+      </p>
+    </section>
+
+    <section class="root-section" id="human-boundary">
+      <h2>Ghayb as the boundary of human awareness</h2>
+
+      <p>
+        In the Qur’an, ghayb marks a boundary between what the human being sees and what the human being does not see; between what the human being knows and what the human being does not know; between the sensible world and layers of reality beyond ordinary perception.
+      </p>
+
+      <p>
+        Human beings often take what they see seriously and deny what they do not see. The Qur’an corrects this tendency. Not seeing is not evidence of nonexistence. Not knowing is not evidence of falsehood. The limitation of human tools is not the limitation of truth.
+      </p>
+
+      <p>
+        For this reason, faith in the unseen is not a call to blind belief. Faith in ghayb means that the human being accepts that existence is larger than the field of sense, and that the knowledge of God is beyond human knowledge. This faith protects the human being from intellectual arrogance, shallow materialism, and imprisonment within appearances.
+      </p>
+    </section>
+
+    <section class="root-section" id="iman-bil-ghayb">
+      <h2>Faith in the unseen at the beginning of Sūrat al-Baqarah</h2>
+
+      <p>
+        At the beginning of Sūrat al-Baqarah, one of the first qualities of the people of taqwa is:
+      </p>
+
+      <p class="arabic-quote"><strong>الذين يؤمنون بالغيب</strong></p>
+
+      <p>
+        They have faith in the unseen.
+      </p>
+
+      <p>
+        This phrase is foundational. The Qur’an presents its guidance for those who have the capacity to receive truth beyond the visible surface. A person who treats only what the eye sees as truth is still closed before the wider reality.
+      </p>
+
+      <p>
+        Faith in the unseen does not mean accepting every hidden claim. The Qur’an does not call the human being to superstition, illusion, or following baseless claims. Faith in ghayb means that the human being is not closed or arrogant before God, revelation, the Hereafter, account, angels, and the unseen layers of existence. It means knowing that truth is not limited to what is presently visible.
+      </p>
+
+      <p>
+        Therefore, <strong>bil-ghayb</strong> in Al-Baqarah 2:3 becomes a gate into the meaning of taqwa. A person of taqwa lives responsibly before an unseen reality: not seeing God, yet knowing that God sees them.
+      </p>
+    </section>
+
+    <section class="root-section" id="knowledge-of-god">
+      <h2>Ghayb and the knowledge of God</h2>
+
+      <p>
+        The Qur’an repeatedly connects ghayb with the knowledge of God. This connection shows that the unseen is unseen in relation to the human being, not in relation to God. What is hidden from us is present before God.
+      </p>
+
+      <p>
+        In the Qur’anic view, God is the Knower of the unseen; no layer of reality lies outside His knowledge. The past, the future, the inner self, intentions, outcomes, hidden paths, and the reality of things are not concealed from Him.
+      </p>
+
+      <p>
+        This recognition has two important consequences. First, the human being must not claim possession of the unseen. Second, the human being must not imagine that if something remains hidden from people, it is also hidden from God. Ghayb is a veil for the human being, not for God.
+      </p>
+
+      <p>
+        Here, epistemic tawhid becomes clear: absolute knowledge belongs to God. The human being may study signs, learn, investigate, and draw nearer to truth, but the human being does not own the unseen. Any claim that makes a human being an independent possessor of the unseen must be weighed carefully against the Qur’an.
+      </p>
+    </section>
+
+    <section class="root-section" id="ghuyub">
+      <h2>Ghuyub: many-layered hidden things</h2>
+
+      <p>
+        The form <strong>ghuyub</strong> is the plural of ghayb and points to hidden things or concealed matters. Its plurality shows that hiddenness in the Qur’an is not one simple level. Reality may have many layers.
+      </p>
+
+      <p>
+        Something may be hidden from the eye. Something may be hidden from the ear. Something may be hidden from ordinary reason. Something may be hidden from historical memory. Something may be hidden inside the human being. Something may belong to a future that has not yet become manifest. Something may be within the structure of the heavens and the earth. Something may be the final result of actions that has not yet appeared.
+      </p>
+
+      <p>
+        Ghuyub therefore awakens the human being to a layered world. Reality is not only the surface before us. Behind the visible surface are layers that the human being must approach with humility, care, and taqwa.
+      </p>
+    </section>
+
+    <section class="root-section" id="ghayabat">
+      <h2>Ghayabat: being enclosed in hidden depth</h2>
+
+      <p>
+        The form <strong>ghayabat</strong> in the Qur’an points to a hidden depth or a place where something disappears from outward sight. Its clearest example appears in the story of Joseph, where the Qur’an speaks of <strong>ghayabat al-jubb</strong>, the hidden depth of the well.
+      </p>
+
+      <p>
+        This expression does not merely describe a physical location. Ghayabat describes a condition in which a person sinks into a hidden layer so completely that they are no longer visible from the outside and no obvious opening remains for access or self-defense.
+      </p>
+
+      <p>
+        In the story of Joseph, the brothers wanted to remove him from the field of sight, attention, and future hope of his father. Casting him into the hidden depth of the well looked, outwardly, like total erasure: as if the child had been removed from the scene of life. But that hidden place was not the end of God’s plan.
+      </p>
+
+      <p>
+        Joseph became hidden from human eyes, but he did not disappear from the knowledge and arrangement of God. This is fully consistent with the root meaning: something may become absent from the visible human scene, yet it is never absent from the encompassing knowledge of God.
+      </p>
+    </section>
+
+    <section class="root-section" id="ghaibin-ghaibah">
+      <h2>Ghaibin and ghaibah: absence from the visible scene</h2>
+
+      <p>
+        The form <strong>ghaibin</strong> refers to those who are absent from the scene. From the human point of view, some are present and some are absent; but this presence and absence is relative to human awareness, not to the knowledge of God.
+      </p>
+
+      <p>
+        The form <strong>ghaibah</strong> has a particularly precise usage in Sūrat al-Naml:
+      </p>
+
+      <p class="arabic-quote"><strong>وما من غائبة في السماء والأرض إلا في كتاب مبين</strong></p>
+
+      <p>
+        That is, no hidden or concealed matter exists in the heaven and the earth except that it is in a clear record.
+      </p>
+
+      <p>
+        In this usage, <strong>ghaibah</strong> may be understood as a hidden matter, a concealed reality, or something outside the visible field. The crucial point is that the Qur’an says such a matter, even if hidden from created beings, is not lost within God’s system of knowledge and record.
+      </p>
+
+      <p>
+        Therefore, being absent is not the same as being outside the knowledge of God. Being absent means being distant from our view. This distinction protects the human being from a major error: imagining that whatever is distant from our eyes is distant from truth itself.
+      </p>
+    </section>
+
+    <section class="root-section" id="yaghtab">
+      <h2>Yaghtab: backbiting and the violation of human dignity</h2>
+
+      <p>
+        The form <strong>yaghtab</strong> comes from the same root, but it enters the ethical field of speech. In the Qur’an, this form appears in a prohibition: <strong>wa la yaghtab baadukum baadan</strong>. Some of you must not backbite others.
+      </p>
+
+      <p>
+        Backbiting means speaking about someone in their absence in a way that violates their dignity. The connection with the root is precise. In backbiting, the speaker exploits the absence of another person. Because that person is not present to defend themselves, the speaker hides behind their absence and violates their reputation and security.
+      </p>
+
+      <p>
+        The Qur’an presents this behavior through a shocking image:
+      </p>
+
+      <p class="arabic-quote"><strong>أيحب أحدكم أن يأكل لحم أخيه ميتا</strong></p>
+
+      <p>
+        Would one of you love to eat the flesh of his dead brother?
+      </p>
+
+      <p>
+        This image makes the connection between backbiting and the root ghayb unmistakable. A dead person, like an absent person, cannot defend himself. Attacking someone’s honor in their absence resembles attacking a body that cannot answer. Through this image, the Qur’an shows that backbiting is not merely careless speech; it is an assault on human dignity at the moment of vulnerability.
+      </p>
+
+      <p>
+        For this reason, backbiting is a betrayal of the trust of human presence. When someone is absent, our tongue should become more just, not more free to wrong them. Another person’s absence must not become an opportunity to violate their honor and dignity.
+      </p>
+
+      <p>
+        Whoever has faith in the unseen must also know that God is present in the absence of people.
+      </p>
+    </section>
+
+    <section class="root-section" id="humility">
+      <h2>Ghayb, epistemic humility, and caution against baseless claims</h2>
+
+      <p>
+        One of the most important lessons of this root is epistemic humility. The human being must know that many truths are hidden from them. But this truth must not become an excuse for accepting every baseless claim.
+      </p>
+
+      <p>
+        The Qur’an prevents the human being from denying the unseen, but it also prevents the human being from following assumption, conjecture, and unsupported claims. This balance is essential. A Qur’anic believer is neither a closed materialist nor a criterionless receiver of superstition.
+      </p>
+
+      <p>
+        Such a person knows that the unseen exists, but that God is the owner of the unseen. Such a person knows that truth is beyond sense, but that anyone who claims access to the unseen does not thereby become truthful. The criterion is the Qur’an, clear signs, truthfulness, justice, and consistency with tawhid.
+      </p>
+
+      <p>
+        Faith in the unseen should therefore make the human being humble, responsible, and awake; not gullible, dependent, or submissive to claimants of spiritual power.
+      </p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>Summary</h2>
+
+      <p>
+        The root <strong>غ ي ب</strong> in the Qur’an points to hiddenness, absence, being outside direct observation, and the limitation of human awareness. Forms such as <strong>ghayb</strong>, <strong>ghuyub</strong>, <strong>ghayabat</strong>, <strong>ghaibin</strong>, <strong>ghaibah</strong>, and <strong>yaghtab</strong> each reveal one branch of this meaning.
+      </p>
+
+      <p>
+        <strong>Ghayb</strong> directs us toward the unseen world and the knowledge of God. <strong>Ghuyub</strong> reminds us of hidden layers of reality. <strong>Ghayabat</strong> shows that something may disappear from human sight without disappearing from the plan of God. <strong>Ghaibin</strong> and <strong>ghaibah</strong> show absence from the visible scene. And <strong>yaghtab</strong> warns that the human being must not use another person’s absence to violate their dignity.
+      </p>
+
+      <p>
+        In the end, this root brings the human being to a Qur’anic balance: faith in a truth beyond appearances, together with caution against baseless claims about the unseen. The human being does not know everything, but God knows all things. The right path is therefore neither denial of the unseen nor ownership-claims over it, but faith, taqwa, humility, and responsibility before The One God before whom hidden and manifest are alike.
+      </p>
+    </section>
+
+  </div>
+</div>
