@@ -29,28 +29,40 @@ permalink: /quran-terminology/en/roots/w-q-y/
     color: var(--root-text);
   }
 
+  /* Dark mode: follows the website theme toggle/classes, not the OS/browser preference. */
+  html.dark .root-study-page,
+  body.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-mode .root-study-page,
   html[data-theme="dark"] .root-study-page,
   body[data-theme="dark"] .root-study-page,
+  [data-theme="dark"] .root-study-page,
   [data-bs-theme="dark"] .root-study-page,
   .forqan-theme-dark .root-study-page,
   .theme-dark .root-study-page {
     --root-bg: #0f1a2c;
-    --root-card: #142238;
+    --root-card: #121f33;
     --root-panel: #1b2a40;
     --root-section: rgba(255, 255, 255, 0.035);
-    --root-text: #eee8dc;
-    --root-muted: #c7bdab;
+    --root-text: #ece7dc;
+    --root-muted: #beb6a7;
     --root-soft: rgba(255, 255, 255, 0.06);
-    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border: rgba(214, 176, 95, 0.24);
     --root-border-soft: rgba(214, 176, 95, 0.16);
     --root-accent: #d6b05f;
     --root-accent-deep: #f0cf7a;
     --root-accent-soft: rgba(214, 176, 95, 0.12);
-    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+    --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
   }
 
+  /* Light mode: explicit warm light override when the site is toggled to light. */
+  html.light .root-study-page,
+  body.light .root-study-page,
+  html.light-mode .root-study-page,
+  body.light-mode .root-study-page,
   html[data-theme="light"] .root-study-page,
   body[data-theme="light"] .root-study-page,
+  [data-theme="light"] .root-study-page,
   [data-bs-theme="light"] .root-study-page,
   .forqan-theme-light .root-study-page,
   .theme-light .root-study-page {
@@ -71,6 +83,16 @@ permalink: /quran-terminology/en/roots/w-q-y/
 
   .root-study-page * {
     box-sizing: border-box;
+  }
+
+  .root-study-page,
+  .root-study-page h1,
+  .root-study-page h2,
+  .root-study-page h3,
+  .root-study-page p,
+  .root-study-page li,
+  .root-study-page strong {
+    color: var(--root-text);
   }
 
   .root-study-page h1,
