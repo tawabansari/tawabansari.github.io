@@ -5,61 +5,253 @@ permalink: /quran-terminology/en/roots/
 ---
 
 <style>
-  .root-index-page {
-    direction: ltr;
-    text-align: left;
-    max-width: 1040px;
+  .root-study-page {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-soft: #f0e5d2;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+
+    direction: rtl;
+    text-align: right;
+    max-width: 980px;
     margin: 0 auto;
-    padding: 3rem 1.25rem;
-    line-height: 1.8;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
   }
 
-  .root-index-page h1,
-  .root-index-page h2,
-  .root-index-page p,
-  .root-index-page li {
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page {
+    --root-bg: #0f1a2c;
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-soft: rgba(255, 255, 255, 0.06);
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-study-page * {
+    box-sizing: border-box;
+  }
+
+  .root-study-page h1,
+  .root-study-page h2,
+  .root-study-page h3,
+  .root-study-page p,
+  .root-study-page li {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
     direction: ltr;
     text-align: left;
   }
 
-  .root-index-hero { margin-bottom: 2rem; }
-  .root-kicker { font-size: 0.95rem; opacity: 0.78; margin-bottom: 0.5rem; }
-  .root-index-hero h1 { margin-top: 0; margin-bottom: 1rem; }
-  .root-subtitle { max-width: 820px; }
-  .root-index-intro { margin-bottom: 2.5rem; }
-  .root-letter-group { margin-top: 2.25rem; }
-  .root-letter-group h2 {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    padding-bottom: 0.35rem;
-    border-bottom: 1px solid var(--border-color, rgba(255, 255, 255, 0.16));
+  .root-frame {
+    background:
+      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
+      var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
   }
 
-  .root-index-list {
-    direction: ltr;
-    text-align: left;
-    list-style: none;
-    padding-left: 0;
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+    letter-spacing: 0.01em;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    color: var(--root-text);
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
+      var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-forms-card h2,
+  .root-toc h2 {
+    margin-top: 0;
+  }
+
+  .root-forms-card ul {
+    padding-right: 1.2rem;
+    margin: 0.75rem 0 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-forms-card ul {
     padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
-    gap: 0.65rem;
+    padding-left: 1.2rem;
   }
 
-  .root-index-list li { margin-bottom: 0; }
-  .root-index-list a {
-    display: block;
-    color: inherit;
-    text-decoration: none;
-    border: 1px solid var(--border-color, rgba(255, 255, 255, 0.16));
-    border-radius: 12px;
-    padding: 0.75rem 0.9rem;
+  .root-forms-card li {
+    margin: 0.48rem 0;
   }
-  .root-index-list a:hover { text-decoration: none; transform: translateY(-1px); }
-  .root-arabic { display: block; direction: rtl; text-align: left; font-weight: 700; font-size: 1.08rem; margin-bottom: 0.15rem; }
-  .root-transliteration { display: block; font-weight: 600; opacity: 0.88; }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol {
+    padding-left: 0;
+  }
+
+  .root-toc li {
+    margin: 0.28rem 0;
+    break-inside: avoid;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
+  }
+
+  .root-study-page p {
+    margin: 0.85rem 0;
+  }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .root-study-page a:hover {
+    color: var(--root-accent);
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent),
+      var(--root-panel);
+    color: var(--root-text);
+  }
+
+  .root-note {
+    border-right: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+  }
+
+  .root-study-page.forqan-page-ltr .root-note {
+    border-right: 0;
+    border-left: 3px solid var(--root-accent);
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page {
+      padding: 2rem 1rem;
+    }
+
+    .root-frame {
+      padding: 1.25rem;
+      border-radius: 19px;
+    }
+
+    .root-section,
+    .root-forms-card,
+    .root-toc {
+      padding: 1rem;
+    }
+
+    .root-toc ol {
+      columns: 1;
+    }
+  }
 </style>
 
 <div class="forqan-page-ltr root-index-page" dir="ltr" lang="en">
