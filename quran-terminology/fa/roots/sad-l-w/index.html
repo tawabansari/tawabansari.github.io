@@ -268,6 +268,83 @@ permalink: /quran-terminology/fa/roots/sad-l-w/
     color: var(--root-text);
   }
 
+
+  .root-morphology-intro {
+    color: var(--root-muted);
+    margin-top: 0;
+  }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin-top: 1.1rem;
+  }
+
+  .morph-card {
+    background: var(--root-panel);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem 1.05rem;
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .morph-type {
+    font-weight: 800;
+    color: var(--root-accent-deep);
+  }
+
+  .morph-used {
+    flex: 0 0 auto;
+    font-size: 0.82rem;
+    font-weight: 800;
+    border: 1px solid var(--root-border);
+    border-radius: 999px;
+    padding: 0.12rem 0.65rem;
+    color: var(--root-accent-deep);
+    background: var(--root-accent-soft);
+  }
+
+  .morph-form {
+    direction: rtl;
+    text-align: right;
+    font-size: 1.24rem;
+    line-height: 1.9;
+    font-weight: 800;
+    color: var(--root-text);
+    margin: 0.2rem 0 0.55rem;
+  }
+
+  .root-study-page.forqan-page-ltr .morph-form {
+    direction: rtl;
+    text-align: left;
+  }
+
+  .morph-note {
+    color: var(--root-muted);
+    font-size: 0.95rem;
+    line-height: 1.95;
+    margin: 0;
+  }
+
+  .morph-note a {
+    color: var(--root-accent-deep);
+  }
+
+  .morph-card.morph-no .morph-used {
+    color: var(--root-muted);
+    background: var(--root-soft);
+    border-color: var(--root-border-soft);
+  }
+
+
   @media (max-width: 760px) {
     .root-study-page {
       padding: 2rem 1rem;
@@ -286,6 +363,19 @@ permalink: /quran-terminology/fa/roots/sad-l-w/
 
     .root-toc ol {
       columns: 1;
+    }
+
+    .morphology-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .morph-card-header {
+      display: block;
+    }
+
+    .morph-used {
+      display: inline-block;
+      margin-top: 0.35rem;
     }
   }
 </style>
@@ -393,19 +483,101 @@ permalink: /quran-terminology/fa/roots/sad-l-w/
       <p class="root-subtitle">صلوة، پیوند زنده با خدا، هم‌جهت شدن با حق، و برپا داشتن راهی که انسان را از غفلت، کجی و پراکندگی بیرون می‌آورد</p>
     </section>
 
-    <section class="root-section" id="forms-covered">
-      <h2>صورت‌های بررسی‌شده از این ریشه</h2>
-      <p>در این صفحه، ریشه <strong>ص ل و</strong> از نظر معنایی بررسی می‌شود و سپس مهم‌ترین صورت‌های قرآنی این ریشه جداگانه توضیح داده می‌شوند:</p>
-      <ul>
-        <li><strong>صلوة / الصلوة</strong> — صلوة؛ پیوند زنده، روی آوردن آگاهانه، و راهی که باید برپا داشته شود</li>
-        <li><strong>صلوات</strong> — جمع صلوة؛ صلوات، نمودهای پیوند، توجه، حمایت، یا جایگاه‌های صلوة در سیاق‌های مختلف</li>
-        <li><strong>صلى</strong> — فعل؛ روی آورد، صلوة کرد، یا در جهت خاصی قرار گرفت</li>
-        <li><strong>يصلي / يصلون</strong> — فعل مضارع؛ صلوة می‌کند یا صلوة می‌کنند، هر کدام در جایگاه خود</li>
-        <li><strong>صل / صلوا</strong> — فعل امر؛ صلوة کن، صلوة کنید، روی آورید، حمایت کنید، و هم‌جهت شوید</li>
-        <li><strong>مصلين</strong> — کسانی که اهل صلوة‌اند، یا خود را در جایگاه صلوة قرار می‌دهند</li>
-        <li><strong>مصلى</strong> — جایگاه صلوة؛ محل ایستادن، روی آوردن، و قرار گرفتن در جهت یاد خدا</li>
-      </ul>
-      <p>یادآوری: در رسم قرآنی، واژه <strong>صلوة</strong> بیشتر با واو دیده می‌شود. همین نکته برای این صفحه مهم است، زیرا ما با ریشه <strong>ص ل و</strong> کار داریم، نه فقط با شکل رایج نوشتاری امروز. همچنین باید میان ریشه <strong>ص ل و</strong> و ریشه <strong>ص ل ي</strong> فرق گذاشت. <strong>ص ل و</strong> با صلوة، پیوند، روی آوردن و برپا داشتن ارتباط دارد؛ اما <strong>ص ل ي</strong> در قرآن با آتش، سوختن، گرم شدن و چشیدن حرارت پیوند دارد. این دو را نباید با هم یکی گرفت.</p>
+    <section class="root-forms-card" id="forms-covered">
+      <h2>صورت‌های صرفی این ریشه</h2>
+      <p class="root-morphology-intro">این بخش برای آموزش صرف قرآنی ساخته شده است. ستون «استفاده در قرآن» نشان می‌دهد که آیا این صورت یا نمونه در متن قرآن به کار رفته است یا نه. صورت‌هایی که از نظر زبان عربی ممکن‌اند اما به عنوان صورت قرآنی این ریشه نیامده‌اند، با «خیر» مشخص شده‌اند.</p>
+      <div class="morphology-grid">
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">ریشه</div>
+            <div class="morph-used">استفاده در قرآن: بلی</div>
+          </div>
+          <div class="morph-form">ص ل و</div>
+          <p class="morph-note">ریشه‌ای مرتبط با صلوة، پیوند، روی‌آوردن، برپا داشتن، توجه و هم‌جهتی. این ریشه باید از ریشه نزدیک اما متفاوت «ص ل ي» جدا نگه داشته شود.</p>
+        </div>
+
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">مصدر / اسم اصلی</div>
+            <div class="morph-used">استفاده در قرآن: بلی</div>
+          </div>
+          <div class="morph-form">صلوة / الصلوة</div>
+          <p class="morph-note">صلوة؛ پیوند زنده، روی‌آوردن آگاهانه، و راهی که باید برپا داشته شود. در رسم قرآنی، این واژه غالباً با واو نوشته می‌شود.</p>
+        </div>
+
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">جمع</div>
+            <div class="morph-used">استفاده در قرآن: بلی</div>
+          </div>
+          <div class="morph-form">صلوات</div>
+          <p class="morph-note">جمع صلوة؛ نمودهای پیوند، توجه، حمایت، رحمت، یا جایگاه‌های صلوة در سیاق‌های مختلف.</p>
+        </div>
+
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">فعل ماضی</div>
+            <div class="morph-used">استفاده در قرآن: بلی</div>
+          </div>
+          <div class="morph-form">صَلَّى</div>
+          <p class="morph-note">روی آورد، صلوة کرد، یا خود را در جهت خاصی قرار داد؛ مانند کاربرد فعلی این ریشه در آیات قرآن.</p>
+        </div>
+
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">فعل مضارع</div>
+            <div class="morph-used">استفاده در قرآن: بلی</div>
+          </div>
+          <div class="morph-form">يُصَلِّي / يُصَلُّونَ</div>
+          <p class="morph-note">صلوة می‌کند / صلوة می‌کنند؛ هر کدام در جایگاه خود. از مهم‌ترین نمونه‌ها: <a href="{{ '/quran-reflection/fa/033-al-ahzab/056/' | relative_url }}">يُصَلُّونَ عَلَى النَّبِيِّ</a>.</p>
+        </div>
+
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">فعل امر</div>
+            <div class="morph-used">استفاده در قرآن: بلی</div>
+          </div>
+          <div class="morph-form">صَلِّ / صَلُّوا</div>
+          <p class="morph-note">صلوة کن / صلوة کنید؛ روی آورید، حمایت کنید، و هم‌جهت شوید. نمونه‌ها: <a href="{{ '/quran-reflection/fa/009-at-tawbah/103/' | relative_url }}">صَلِّ عَلَيْهِمْ</a> و <a href="{{ '/quran-reflection/fa/033-al-ahzab/056/' | relative_url }}">صَلُّوا عَلَيْهِ</a>.</p>
+        </div>
+
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">اسم فاعل / اهل صلوة</div>
+            <div class="morph-used">استفاده در قرآن: بلی</div>
+          </div>
+          <div class="morph-form">مُصَلِّينَ</div>
+          <p class="morph-note">کسانی که با صلوة نسبت دارند؛ قرآن گاهی از این عنوان برای هشدار درباره غفلت در صلوة نیز استفاده می‌کند.</p>
+        </div>
+
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">اسم مکان</div>
+            <div class="morph-used">استفاده در قرآن: بلی</div>
+          </div>
+          <div class="morph-form">مُصَلًّى</div>
+          <p class="morph-note">جایگاه صلوة؛ محل ایستادن، روی‌آوردن و قرار گرفتن در جهت یاد خدا؛ مانند: <a href="{{ '/quran-reflection/fa/002-al-baqarah/125/' | relative_url }}">وَاتَّخِذُوا مِن مَّقَامِ إِبْرَاهِيمَ مُصَلًّى</a>.</p>
+        </div>
+
+        <div class="morph-card morph-no">
+          <div class="morph-card-header">
+            <div class="morph-type">اسم مفعول مستقل</div>
+            <div class="morph-used">استفاده در قرآن: خیر</div>
+          </div>
+          <div class="morph-form">—</div>
+          <p class="morph-note">برای این ریشه، به عنوان یک دسته مستقل و روشن در متن قرآن نیامده است. نباید صورت‌های ممکن صرفی را بدون شاهد به عنوان صورت قرآنی معرفی کرد.</p>
+        </div>
+
+        <div class="morph-card morph-no">
+          <div class="morph-card-header">
+            <div class="morph-type">صیغه مبالغه / اسم آلت</div>
+            <div class="morph-used">استفاده در قرآن: خیر</div>
+          </div>
+          <div class="morph-form">—</div>
+          <p class="morph-note">برای این ریشه در این دسته‌ها کاربرد قرآنی روشن وجود ندارد.</p>
+        </div>
+      </div>
+      <p class="root-note">یادآوری مهم: این صفحه درباره ریشه <strong>ص ل و</strong> است، نه ریشه <strong>ص ل ي</strong>. ص ل و با صلوة، پیوند، روی‌آوردن و برپا داشتن ارتباط دارد؛ اما ص ل ي در قرآن با آتش، سوختن، گرم شدن و چشیدن حرارت پیوند دارد. این دو را نباید با هم یکی گرفت.</p>
     </section>
 
     <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
