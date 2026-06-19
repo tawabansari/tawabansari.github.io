@@ -4,6 +4,24 @@ title: ریشه قرآنی ق و م
 permalink: /quran-terminology/fa/roots/q-w-m/
 ---
 
+<script>
+  (function () {
+    /* Prevent first-paint root-page theme flicker.
+       This reads the same key used by the default layout before the root card renders. */
+    try {
+      var savedTheme = localStorage.getItem('forqan-theme');
+      var html = document.documentElement;
+      if (savedTheme === 'dark') {
+        html.classList.add('forqan-root-pre-dark');
+        html.classList.remove('forqan-root-pre-light');
+      } else if (savedTheme === 'light') {
+        html.classList.add('forqan-root-pre-light');
+        html.classList.remove('forqan-root-pre-dark');
+      }
+    } catch (e) {}
+  })();
+</script>
+
 <style>
   .root-study-page {
     --root-bg: #f7f3ea;
@@ -30,6 +48,8 @@ permalink: /quran-terminology/fa/roots/q-w-m/
   }
 
   /* Dark mode follows the website toggle/classes, not the OS preference. */
+  html.forqan-root-pre-dark .root-study-page,
+  body.dark-theme .root-study-page,
   html.dark .root-study-page,
   body.dark .root-study-page,
   html.dark-mode .root-study-page,
@@ -55,6 +75,7 @@ permalink: /quran-terminology/fa/roots/q-w-m/
     --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
   }
 
+  html.forqan-root-pre-light .root-study-page,
   html.light .root-study-page,
   body.light .root-study-page,
   html.light-mode .root-study-page,
@@ -247,24 +268,168 @@ permalink: /quran-terminology/fa/roots/q-w-m/
     color: var(--root-text);
   }
 
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .root-study-page.forqan-page-ltr .root-forms-card ul {
+    padding-right: 0;
+    padding-left: 1.2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol {
+    padding-left: 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-note {
+    border-right: 0;
+    border-left: 3px solid var(--root-accent);
+  }
+
+
+  .root-morphology-intro {
+    color: var(--root-muted);
+    margin-top: 0;
+  }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin-top: 1.1rem;
+  }
+
+  .morph-card {
+    background: var(--root-panel);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem 1.05rem;
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .morph-type {
+    font-weight: 800;
+    color: var(--root-accent-deep);
+  }
+
+  .morph-used {
+    flex: 0 0 auto;
+    font-size: 0.82rem;
+    font-weight: 800;
+    border: 1px solid var(--root-border);
+    border-radius: 999px;
+    padding: 0.12rem 0.65rem;
+    color: var(--root-accent-deep);
+    background: var(--root-accent-soft);
+  }
+
+  .morph-form {
+    direction: rtl;
+    text-align: right;
+    font-size: 1.24rem;
+    line-height: 1.9;
+    font-weight: 800;
+    color: var(--root-text);
+    margin: 0.2rem 0 0.55rem;
+  }
+
+  .root-study-page.forqan-page-ltr .morph-form {
+    direction: rtl;
+    text-align: left;
+  }
+
+  .morph-translit {
+    direction: ltr;
+    text-align: inherit;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    font-weight: 700;
+    color: var(--root-muted);
+    margin: -0.2rem 0 0.6rem;
+  }
+
+  .morph-label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 800;
+    color: var(--root-accent-deep);
+    margin-bottom: 0.15rem;
+  }
+
+  .morph-note {
+    color: var(--root-muted);
+    font-size: 0.95rem;
+    line-height: 1.95;
+    margin: 0;
+  }
+
+  .morph-note a {
+    color: var(--root-accent-deep);
+  }
+
+  .morph-card.morph-no .morph-used {
+    color: var(--root-muted);
+    background: var(--root-soft);
+    border-color: var(--root-border-soft);
+  }
+
+
   @media (max-width: 760px) {
     .root-study-page {
-      padding: 2rem 1rem;
+      padding: 1.25rem 0.45rem;
     }
 
     .root-frame {
-      padding: 1.25rem;
+      padding: 0.85rem;
       border-radius: 19px;
     }
 
     .root-section,
     .root-forms-card,
     .root-toc {
-      padding: 1rem;
+      padding: 0.85rem;
     }
 
     .root-toc ol {
       columns: 1;
+    }
+
+    .morphology-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .morph-card {
+      padding: 0.9rem 0.85rem;
+      border-radius: 15px;
+    }
+
+    .morph-card-header {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .morph-used {
+      display: inline-block;
+      margin-top: 0.35rem;
     }
   }
 </style>
@@ -283,13 +448,18 @@ permalink: /quran-terminology/fa/roots/q-w-m/
     }
 
     function hasToken(text, token) {
-      return new RegExp('(^|\\s|_|-)' + token + '($|\\s|_|-)', 'i').test(String(text || ''));
+      return new RegExp('(^|\s|_|-)' + token + '($|\s|_|-)', 'i').test(String(text || ''));
     }
 
-    function applyForqanRootTheme() {
-      var page = document.querySelector('.root-study-page');
-      if (!page) return;
+    function savedThemePreference() {
+      try {
+        return localStorage.getItem('forqan-theme');
+      } catch (e) {
+        return null;
+      }
+    }
 
+    function detectForqanTheme() {
       var html = document.documentElement;
       var body = document.body;
       var marker = [
@@ -301,25 +471,62 @@ permalink: /quran-terminology/fa/roots/q-w-m/
         body ? body.getAttribute('data-bs-theme') : ''
       ].join(' ');
 
-      var isDark = hasToken(marker, 'dark');
-      var isLight = hasToken(marker, 'light');
+      if (hasToken(marker, 'dark')) return 'dark';
+      if (hasToken(marker, 'light')) return 'light';
 
-      if (!isDark && !isLight) {
+      var saved = savedThemePreference();
+      if (saved === 'dark' || saved === 'light') return saved;
+
+      if (body || html) {
         var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
                  parseRGB(getComputedStyle(html).backgroundColor);
-        isDark = luminance(bg) < 128;
+        if (bg) return luminance(bg) < 128 ? 'dark' : 'light';
       }
 
-      page.classList.toggle('forqan-root-dark', !!isDark);
-      page.classList.toggle('forqan-root-light', !isDark);
+      return 'light';
+    }
+
+    function applyForqanRootTheme() {
+      var theme = detectForqanTheme();
+      var isDark = theme === 'dark';
+      var html = document.documentElement;
+      var page = document.querySelector('.root-study-page');
+
+      html.classList.toggle('forqan-root-pre-dark', isDark);
+      html.classList.toggle('forqan-root-pre-light', !isDark);
+
+      if (page) {
+        page.classList.toggle('forqan-root-dark', isDark);
+        page.classList.toggle('forqan-root-light', !isDark);
+      }
     }
 
     applyForqanRootTheme();
     document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
     window.addEventListener('load', applyForqanRootTheme);
-    setInterval(applyForqanRootTheme, 700);
+    window.addEventListener('storage', applyForqanRootTheme);
+
+    if (window.MutationObserver) {
+      var observer = new MutationObserver(applyForqanRootTheme);
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+      });
+
+      function observeBody() {
+        if (!document.body) return;
+        observer.observe(document.body, {
+          attributes: true,
+          attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+        });
+      }
+
+      observeBody();
+      document.addEventListener('DOMContentLoaded', observeBody);
+    }
   })();
 </script>
+
 
 <div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
 
@@ -329,31 +536,229 @@ permalink: /quran-terminology/fa/roots/q-w-m/
   <h1>ریشه قرآنی ق و م</h1>
   <p class="root-subtitle">برخاستن، ایستادن، برپا شدن، برپا داشتن، استوار شدن، قوام یافتن، نگه داشتن چیزی بر بنیاد درست، و فعال ساختن آن در زندگی</p>
 </section>
-<section class="root-section" id="forms">
-  <h2>صورت‌های بررسی‌شده از این ریشه</h2>
-  <p>در این صفحه، ریشه <strong>ق و م</strong> از نظر معنایی بررسی می‌شود و سپس مهم‌ترین صورت‌های قرآنی این ریشه جداگانه توضیح داده می‌شوند:</p>
-  <ul>
-    <li><strong>قام / يقوم / قم / قوموا / تقوموا</strong> — فعل مجرد؛ برخاست، می‌ایستد، برخیز، برخیزید، بایستید یا اقدام کنید</li>
-    <li><strong>أقام / يقيم / أقم / أقيموا</strong> — باب افعال؛ برپا داشت، برپا می‌دارد، برپا دار، برپا دارید</li>
-    <li><strong>استقام / يستقيم / استقم</strong> — باب استفعال؛ استوار شد، راست و پایدار شد، استوار باش</li>
-    <li><strong>قوم</strong> — اسم؛ قوم، گروه انسانی، جامعه‌ای که بر یک پیوند یا حالت مشترک ایستاده است</li>
-    <li><strong>قيامة</strong> — اسم؛ قیامت، برخاستن، برپایی نهایی، روز برپا شدن و آشکار شدن حق</li>
-    <li><strong>قيام</strong> — مصدر / اسم؛ ایستادن، برپا بودن، قیام، حالت قائم و فعال</li>
-    <li><strong>قوام</strong> — اسم؛ بنیاد نگهدارنده، مایه ایستادگی، تعادل و سامان</li>
-    <li><strong>قيم / قيمة / قيم</strong> — صفت / اسم؛ استوار، پابرجا، درست، نگهدارنده، دارای قوام و اعتبار</li>
-    <li><strong>قيوم / القيوم</strong> — صفت مبالغه و اسم الهی؛ نگهدارنده، برپادارنده، قائم به ذات، و آن حقیقت یگانه‌ای که همه چیز به او قائم است</li>
-    <li><strong>قائم / قائمة</strong> — اسم فاعل؛ ایستاده، پابرجا، برپا، فعال، برقرار</li>
-    <li><strong>مقيم</strong> — اسم فاعل باب افعال؛ برپادارنده، پایدارکننده، یا کسی که در جایی اقامت دارد</li>
-    <li><strong>مستقيم</strong> — اسم فاعل باب استفعال؛ راست، استوار، بی‌کجی، بر مسیر درست</li>
-    <li><strong>مقام / مقامات</strong> — اسم مکان / جایگاه؛ جای ایستادن، مقام، جایگاه، مرتبه، محل قرار گرفتن</li>
-    <li><strong>مقام / مقامة</strong> — اسم / صفت؛ جایگاه برپا شده، اقامتگاه، محل قرار و ماندگاری</li>
-    <li><strong>تقويم</strong> — مصدر باب تفعیل؛ راست کردن، استوار ساختن، سامان دادن بر ساختار درست</li>
-    <li><strong>إقام / إقامة</strong> — مصدر باب افعال؛ برپا داشتن، قائم کردن، برقرار ساختن</li>
-    <li><strong>قوامين</strong> — صیغه مبالغه / جمع؛ کسانی که بسیار برپا دارنده و پایدارکننده عدالت یا مسئولیت‌اند</li>
-    <li><strong>أقوم</strong> — اسم تفضیل؛ استوارتر، راست‌تر، درست‌تر، پابرجاتر</li>
-  </ul>
-  <p>یادآوری: صورت‌هایی مانند <strong>تقوّم</strong> از نظر صرفی در زبان عربی قابل تصورند، اما در فهرست صورت‌های مستقیم قرآنی این ریشه جایگاه اصلی ندارند. در این صفحه، تمرکز بر صورت‌های قرآنی ریشه <strong>ق و م</strong> است.</p>
-  <p>همچنین باید میان شاخه‌های مختلف این ریشه فرق گذاشت. <strong>قوم</strong> با <strong>قيام</strong> یکی نیست. <strong>قيامة</strong> با <strong>إقامة الصلاة</strong> یکی نیست. <strong>مستقيم</strong> با <strong>مقيم</strong> یکی نیست. همه این‌ها در میدان ایستادن، برپایی، قوام، و استواری قرار دارند، اما هرکدام کاربرد قرآنی خاص خود را دارند.</p>
+<section class="root-forms-card" id="forms-covered">
+  <h2>صورت‌های صرفی این ریشه</h2>
+  <p class="root-morphology-intro">این بخش برای آموزش صرف قرآنی ساخته شده است. ستون «استفاده در قرآن» نشان می‌دهد که آیا این صورت یا نمونه در متن قرآن به کار رفته است یا نه. صورت‌هایی که از نظر زبان عربی ممکن‌اند اما به عنوان صورت قرآنی این ریشه نیامده‌اند، با «خیر» مشخص شده‌اند. در باکس‌های «خیر»، خود دسته صرفی نیز نام برده و کوتاه توضیح داده شده است تا مرز میان امکان صرفی عربی و کاربرد قرآنی روشن بماند.</p>
+
+  <div class="morphology-grid">
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">ریشه</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">ق و م</div>
+      <p class="morph-note">ریشه‌ای مرتبط با برخاستن، ایستادن، برپا شدن، برپا داشتن، استوار شدن، قوام یافتن، نگه داشتن چیزی بر بنیاد درست، و فعال ساختن آن در زندگی.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل ماضی مجرد</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">قَامَ / قَامُوا / قَامَتْ</div>
+      <p class="morph-note">برخاست، ایستاد، یا امری برپا شد. در میدان قرآنی، این فعل می‌تواند به ایستادن بدنی، آماده شدن برای مسئولیت، یا فعال شدن یک امر اشاره کند.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل مضارع مجرد</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">يَقُومُ / تَقُومُ / يَقُومُونَ / تَقُومُوا</div>
+      <p class="morph-note">می‌ایستد، برپا می‌شود، یا اقدام می‌کند. این صورت‌ها استمرار و حضور زنده معنای قیام را نشان می‌دهند.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل امر مجرد</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">قُمْ / قُومُوا</div>
+      <p class="morph-note">برخیز، بایست، یا اقدام کن. این صورت‌ها فرمان خروج از حالت سکون و ورود به میدان مسئولیت، بندگی، یا شهادت به حق را می‌رسانند.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل باب افعال</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">أَقَامَ / يُقِيمُ / أَقِمْ / أَقِيمُوا</div>
+      <p class="morph-note">برپا داشت، برپا می‌دارد، برپا دار، یا برپا دارید. این شاخه فقط انجام دادن نیست؛ قائم کردن، برقرار ساختن، و زنده نگه داشتن امر در جای درست آن است.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">مصدر باب افعال</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">إِقَام / إِقَامَة</div>
+      <p class="morph-note">برپا داشتن، قائم کردن، برقرار ساختن و پایدار کردن. این میدان در فهم تعبیرهایی مانند <strong>إِقَامَةِ الصَّلَاة</strong> بسیار مهم است.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل باب استفعال</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">ٱسْتَقَامَ / يَسْتَقِيمُ / ٱسْتَقِمْ</div>
+      <p class="morph-note">استوار شد، راست ماند، یا استوار باش. این شاخه به پایداری در مسیر حق، بی‌کجی ماندن، و حفظ جهت درست اشاره دارد.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم جمع / گروه انسانی</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">قَوْم</div>
+      <p class="morph-note">قوم، مردم، یا جامعه‌ای که بر پیوندی مشترک ایستاده است. قرآن قوم‌ها را با نام‌شان نمی‌سنجد، بلکه با موضع‌شان در برابر حق می‌سنجد.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">مصدر / اسم حالت</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">قِيَام</div>
+      <p class="morph-note">ایستادن، برخاستن، برپا بودن، یا حالت قائم و فعال. این واژه می‌تواند در عبادت، مسئولیت، شهادت، یا برپایی یک امر به کار رود.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم / روز برپایی نهایی</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">قِيَامَة</div>
+      <p class="morph-note">قیامت؛ روز برخاستن، برپا شدن، و آشکار شدن نهایی حق. این صورت، قیام حقیقت، حساب، شهادت و نتیجه اعمال را نشان می‌دهد.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم فاعل مجرد</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">قَائِم / قَائِمَة</div>
+      <p class="morph-note">ایستاده، پابرجا، برقرار، فعال، یا دارای حضور زنده. قائم بودن فقط وجود داشتن نیست؛ یعنی چیزی هنوز اثر، قوام، و حضور فعال دارد.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم فاعل باب افعال</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">مُقِيم / مُقِيمِي</div>
+      <p class="morph-note">برپادارنده، برقرارکننده، پایدارکننده، یا کسی که در جایی اقامت دارد. در پیوند با صلاة، به کسی اشاره دارد که صلاة را قائم و زنده نگه می‌دارد.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم فاعل باب استفعال</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">مُسْتَقِيم</div>
+      <p class="morph-note">راست، استوار، بی‌کجی، و ایستاده در جهت درست. در تعبیر <strong>الصِّرَاط الْمُسْتَقِيم</strong>، راهی است که بر حق قائم است.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم مکان / جایگاه</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">مَقَام / مَقَامَات</div>
+      <p class="morph-note">جای ایستادن، مقام، جایگاه، مرتبه، یا محل قرار گرفتن. هر مقام، پرسش مسئولیت را همراه دارد: انسان در آن جایگاه بر چه چیزی ایستاده است؟</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم مکان / اسم مفعولی</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">مُقَام / مُقَامَة</div>
+      <p class="morph-note">جای برپا شده، محل اقامت، جای قرار و ماندگاری، یا جایگاهی که برای ماندن و قرار گرفتن آماده شده است.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم / بنیاد نگهدارنده</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">قَوَام</div>
+      <p class="morph-note">مایه ایستادگی، سامان، تعادل، و بنیاد نگهدارنده. چیزی قائم می‌ماند که قوام داشته باشد.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">صفت / اسم</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">قَيِّم / قِيمَة / قِيَم</div>
+      <p class="morph-note">استوار، درست، نگهدارنده، دارای قوام، یا دارای ارزش پابرجا. ارزش در این میدان از قوام و ایستادن بر بنیاد درست می‌آید.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">صیغه مبالغه / اسم الهی</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">قَيُّوم / ٱلْقَيُّوم</div>
+      <p class="morph-note">نگهدارنده، برپادارنده، قائم به ذات، و آن حقیقت یگانه‌ای که همه چیز به او قائم است. درباره خدا، باید با تنزیه کامل فهمیده شود.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">صیغه مبالغه / جمع</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">قَوَّامِين</div>
+      <p class="morph-note">کسانی که به صورت پایدار و جدی برپا دارنده عدالت، شهادت، یا مسئولیت‌اند. این صورت شدت، تکرار، و پایداری در برپا داشتن را نشان می‌دهد.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم تفضیل</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">أَقْوَم</div>
+      <p class="morph-note">استوارتر، راست‌تر، درست‌تر، یا پابرجاتر. این صورت بر سنجش میان راه‌ها، گفتارها، یا ساختارها از نظر قوام و درستی دلالت دارد.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">مصدر باب تفعیل</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">تَقْوِيم</div>
+      <p class="morph-note">راست کردن، استوار ساختن، سامان دادن، و قرار دادن در ساختار درست. این صورت با اصلاح و شکل‌دهی درست پیوند دارد.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل باب تفعیل</div>
+        <div class="morph-used">استفاده در قرآن: خیر</div>
+      </div>
+      <div class="morph-form">قَوَّمَ / يُقَوِّمُ</div>
+      <p class="morph-note">از نظر صرف عربی می‌تواند به معنای راست کرد، سامان داد، یا استوار ساخت باشد؛ اما برای ریشه ق و م، این فعل به عنوان صورت قرآنی روشن در این صفحه ثبت نمی‌شود. قرآن صورت <strong>تَقْوِيم</strong> را می‌آورد، نه ضرورتاً همه فعل‌های ممکن این باب را.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل باب تفعّل</div>
+        <div class="morph-used">استفاده در قرآن: خیر</div>
+      </div>
+      <div class="morph-form">تَقَوَّمَ / يَتَقَوَّمُ</div>
+      <p class="morph-note">از نظر ساخت عربی می‌تواند به معنای قوام یافت، سامان گرفت، یا خود را استوار ساخت باشد؛ اما به عنوان کاربرد روشن قرآنی این ریشه نیامده است.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم مفعول باب تفعیل</div>
+        <div class="morph-used">استفاده در قرآن: خیر</div>
+      </div>
+      <div class="morph-form">مُقَوَّم</div>
+      <p class="morph-note">از نظر صرفی یعنی راست‌کرده‌شده، سامان‌داده‌شده، یا استوارساخته‌شده؛ اما به عنوان صورت قرآنی روشن برای این ریشه کاربرد ندارد.</p>
+    </div>
+  </div>
+
+  <p class="root-note">یادآوری مهم: شاخه‌های این ریشه را نباید با هم یکی گرفت. <strong>قوم</strong> با <strong>قيام</strong> یکی نیست؛ <strong>قيامة</strong> با <strong>إقامة الصلاة</strong> یکی نیست؛ و <strong>مستقيم</strong> با <strong>مقيم</strong> یکی نیست. همه در میدان ایستادن، برپایی، قوام و استواری‌اند، اما هرکدام کاربرد قرآنی خاص خود را دارند.</p>
 </section>
 <section class="root-toc" id="contents">
   <h2>فهرست کاربردهای این ریشه</h2>
