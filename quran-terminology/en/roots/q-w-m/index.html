@@ -4,6 +4,24 @@ title: Qur’anic Root q-w-m
 permalink: /quran-terminology/en/roots/q-w-m/
 ---
 
+<script>
+  (function () {
+    /* Prevent first-paint root-page theme flicker.
+       This reads the same key used by the default layout before the root card renders. */
+    try {
+      var savedTheme = localStorage.getItem('forqan-theme');
+      var html = document.documentElement;
+      if (savedTheme === 'dark') {
+        html.classList.add('forqan-root-pre-dark');
+        html.classList.remove('forqan-root-pre-light');
+      } else if (savedTheme === 'light') {
+        html.classList.add('forqan-root-pre-light');
+        html.classList.remove('forqan-root-pre-dark');
+      }
+    } catch (e) {}
+  })();
+</script>
+
 <style>
   .root-study-page {
     --root-bg: #f7f3ea;
@@ -30,6 +48,8 @@ permalink: /quran-terminology/en/roots/q-w-m/
   }
 
   /* Dark mode follows the website toggle/classes, not the OS preference. */
+  html.forqan-root-pre-dark .root-study-page,
+  body.dark-theme .root-study-page,
   html.dark .root-study-page,
   body.dark .root-study-page,
   html.dark-mode .root-study-page,
@@ -55,6 +75,7 @@ permalink: /quran-terminology/en/roots/q-w-m/
     --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
   }
 
+  html.forqan-root-pre-light .root-study-page,
   html.light .root-study-page,
   body.light .root-study-page,
   html.light-mode .root-study-page,
@@ -276,24 +297,139 @@ permalink: /quran-terminology/en/roots/q-w-m/
     border-left: 3px solid var(--root-accent);
   }
 
+
+  .root-morphology-intro {
+    color: var(--root-muted);
+    margin-top: 0;
+  }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin-top: 1.1rem;
+  }
+
+  .morph-card {
+    background: var(--root-panel);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem 1.05rem;
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .morph-type {
+    font-weight: 800;
+    color: var(--root-accent-deep);
+  }
+
+  .morph-used {
+    flex: 0 0 auto;
+    font-size: 0.82rem;
+    font-weight: 800;
+    border: 1px solid var(--root-border);
+    border-radius: 999px;
+    padding: 0.12rem 0.65rem;
+    color: var(--root-accent-deep);
+    background: var(--root-accent-soft);
+  }
+
+  .morph-form {
+    direction: rtl;
+    text-align: right;
+    font-size: 1.24rem;
+    line-height: 1.9;
+    font-weight: 800;
+    color: var(--root-text);
+    margin: 0.2rem 0 0.55rem;
+  }
+
+  .root-study-page.forqan-page-ltr .morph-form {
+    direction: rtl;
+    text-align: left;
+  }
+
+  .morph-translit {
+    direction: ltr;
+    text-align: inherit;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    font-weight: 700;
+    color: var(--root-muted);
+    margin: -0.2rem 0 0.6rem;
+  }
+
+  .morph-label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 800;
+    color: var(--root-accent-deep);
+    margin-bottom: 0.15rem;
+  }
+
+  .morph-note {
+    color: var(--root-muted);
+    font-size: 0.95rem;
+    line-height: 1.95;
+    margin: 0;
+  }
+
+  .morph-note a {
+    color: var(--root-accent-deep);
+  }
+
+  .morph-card.morph-no .morph-used {
+    color: var(--root-muted);
+    background: var(--root-soft);
+    border-color: var(--root-border-soft);
+  }
+
+
   @media (max-width: 760px) {
     .root-study-page {
-      padding: 2rem 1rem;
+      padding: 1.25rem 0.45rem;
     }
 
     .root-frame {
-      padding: 1.25rem;
+      padding: 0.85rem;
       border-radius: 19px;
     }
 
     .root-section,
     .root-forms-card,
     .root-toc {
-      padding: 1rem;
+      padding: 0.85rem;
     }
 
     .root-toc ol {
       columns: 1;
+    }
+
+    .morphology-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .morph-card {
+      padding: 0.9rem 0.85rem;
+      border-radius: 15px;
+    }
+
+    .morph-card-header {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .morph-used {
+      display: inline-block;
+      margin-top: 0.35rem;
     }
   }
 </style>
@@ -312,13 +448,18 @@ permalink: /quran-terminology/en/roots/q-w-m/
     }
 
     function hasToken(text, token) {
-      return new RegExp('(^|\\s|_|-)' + token + '($|\\s|_|-)', 'i').test(String(text || ''));
+      return new RegExp('(^|\s|_|-)' + token + '($|\s|_|-)', 'i').test(String(text || ''));
     }
 
-    function applyForqanRootTheme() {
-      var page = document.querySelector('.root-study-page');
-      if (!page) return;
+    function savedThemePreference() {
+      try {
+        return localStorage.getItem('forqan-theme');
+      } catch (e) {
+        return null;
+      }
+    }
 
+    function detectForqanTheme() {
       var html = document.documentElement;
       var body = document.body;
       var marker = [
@@ -330,25 +471,62 @@ permalink: /quran-terminology/en/roots/q-w-m/
         body ? body.getAttribute('data-bs-theme') : ''
       ].join(' ');
 
-      var isDark = hasToken(marker, 'dark');
-      var isLight = hasToken(marker, 'light');
+      if (hasToken(marker, 'dark')) return 'dark';
+      if (hasToken(marker, 'light')) return 'light';
 
-      if (!isDark && !isLight) {
+      var saved = savedThemePreference();
+      if (saved === 'dark' || saved === 'light') return saved;
+
+      if (body || html) {
         var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
                  parseRGB(getComputedStyle(html).backgroundColor);
-        isDark = luminance(bg) < 128;
+        if (bg) return luminance(bg) < 128 ? 'dark' : 'light';
       }
 
-      page.classList.toggle('forqan-root-dark', !!isDark);
-      page.classList.toggle('forqan-root-light', !isDark);
+      return 'light';
+    }
+
+    function applyForqanRootTheme() {
+      var theme = detectForqanTheme();
+      var isDark = theme === 'dark';
+      var html = document.documentElement;
+      var page = document.querySelector('.root-study-page');
+
+      html.classList.toggle('forqan-root-pre-dark', isDark);
+      html.classList.toggle('forqan-root-pre-light', !isDark);
+
+      if (page) {
+        page.classList.toggle('forqan-root-dark', isDark);
+        page.classList.toggle('forqan-root-light', !isDark);
+      }
     }
 
     applyForqanRootTheme();
     document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
     window.addEventListener('load', applyForqanRootTheme);
-    setInterval(applyForqanRootTheme, 700);
+    window.addEventListener('storage', applyForqanRootTheme);
+
+    if (window.MutationObserver) {
+      var observer = new MutationObserver(applyForqanRootTheme);
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+      });
+
+      function observeBody() {
+        if (!document.body) return;
+        observer.observe(document.body, {
+          attributes: true,
+          attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+        });
+      }
+
+      observeBody();
+      document.addEventListener('DOMContentLoaded', observeBody);
+    }
   })();
 </script>
+
 
 <div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
 
@@ -358,31 +536,253 @@ permalink: /quran-terminology/en/roots/q-w-m/
   <h1>Qur’anic Root q-w-m</h1>
   <p class="root-subtitle">Rising, standing, establishing, becoming upright, gaining structure, sustaining a thing upon a sound foundation, and making it active in life.</p>
 </section>
-<section class="root-section" id="forms">
-  <h2>Forms examined from this root</h2>
-  <p>This page studies the Qur’anic root <strong>q-w-m</strong> semantically, then explains the most important Qur’anic forms built from this root:</p>
-  <ul>
-    <li><strong>qāma / yaqūmu / qum / qūmū / taqūmū</strong> — Form I verb; he rose, he stands, rise, rise together, stand or take action</li>
-    <li><strong>aqāma / yuqīmu / aqim / aqīmū</strong> — Form IV; established, establishes, establish, establish together</li>
-    <li><strong>istaqāma / yastaqīmu / istaqim</strong> — Form X; became upright, remains straight, be upright</li>
-    <li><strong>qawm</strong> — noun; a people, a human group or society standing upon a shared bond</li>
-    <li><strong>qiyāmah</strong> — noun; resurrection, the final rising and establishment of truth</li>
-    <li><strong>qiyām</strong> — verbal noun / noun; standing, rising, being established, active standing</li>
-    <li><strong>qawām</strong> — noun; sustaining foundation, balance, structure, and order</li>
-    <li><strong>qayyim / qīmah / qiyam</strong> — adjective / noun; upright, sound, sustaining, having lasting value</li>
-    <li><strong>qayyūm / al-Qayyūm</strong> — intensive form and divine name; sustaining, establishing, self-subsisting, the One through whom all things stand</li>
-    <li><strong>qāʾim / qāʾimah</strong> — active participle; standing, firm, established, active, remaining</li>
-    <li><strong>muqīm</strong> — active participle of Form IV; establisher, maintainer, or one who remains</li>
-    <li><strong>mustaqīm</strong> — active participle of Form X; straight, upright, without crookedness, on the sound path</li>
-    <li><strong>maqām / maqāmāt</strong> — place noun / station; standing-place, station, rank, place of standing</li>
-    <li><strong>muqām / muqāmah</strong> — noun / adjective; established place, dwelling, place of remaining</li>
-    <li><strong>taqwīm</strong> — Form II verbal noun; straightening, structuring, setting in sound form</li>
-    <li><strong>iqām / iqāmah</strong> — Form IV verbal noun; establishing, setting upright, making stand</li>
-    <li><strong>qawwāmīn</strong> — intensive plural; those who persistently uphold justice or responsibility</li>
-    <li><strong>aqwam</strong> — comparative/superlative; more upright, sounder, firmer, more correct</li>
-  </ul>
-  <p>Reminder: forms such as <strong>taqawwama</strong> are possible in Arabic morphology, but they are not central Qur’anic forms of this root in our root page. This page focuses on Qur’anic usage.</p>
-  <p>It is also important to distinguish the branches of the root. <strong>Qawm</strong> is not the same as <strong>qiyām</strong>. <strong>Qiyāmah</strong> is not the same as <strong>iqāmat al-ṣalāh</strong>. <strong>Mustaqīm</strong> is not the same as <strong>muqīm</strong>. They all belong to the field of standing, establishing, structure, and uprightness, but each has its own Qur’anic function.</p>
+<section class="root-forms-card" id="forms-covered">
+  <h2>Morphological forms of this root</h2>
+  <p class="root-morphology-intro">This section is designed for teaching Qur’anic morphology. The field “Used in the Qur’an” shows whether the form or example appears in the Qur’anic text. Forms that may be linguistically possible in Arabic but do not appear as Qur’anic forms of this root are marked “No.” In the “No” boxes, the category itself is still named and briefly explained so the boundary between possible Arabic morphology and Qur’anic usage remains clear.</p>
+
+  <div class="morphology-grid">
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Root</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">ق و م</div>
+      <div class="morph-translit">q-w-m</div>
+      <p class="morph-note">A root connected with rising, standing, establishing, becoming upright, gaining structure, sustaining a thing on a sound foundation, and making it active in life.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form I past verb</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">قَامَ / قَامُوا / قَامَتْ</div>
+      <div class="morph-translit">qāma / qāmū / qāmat</div>
+      <p class="morph-note">He rose, they rose, or it/she stood. In the Qur’anic field, this can refer to bodily standing, readiness for responsibility, or an affair becoming active.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form I present verb</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">يَقُومُ / تَقُومُ / يَقُومُونَ / تَقُومُوا</div>
+      <div class="morph-translit">yaqūmu / taqūmu / yaqūmūn / taqūmū</div>
+      <p class="morph-note">He stands, it stands, they stand, or you stand. These forms keep alive the sense of ongoing standing, rising, and active responsibility.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form I imperative</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">قُمْ / قُومُوا</div>
+      <div class="morph-translit">qum / qūmū</div>
+      <p class="morph-note">Rise, stand, or take action. These forms call the human being out of passivity into responsibility, worship, witness, or action.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form IV verb</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">أَقَامَ / يُقِيمُ / أَقِمْ / أَقِيمُوا</div>
+      <div class="morph-translit">aqāma / yuqīmu / aqim / aqīmū</div>
+      <p class="morph-note">Established, establishes, establish, or establish together. This branch means setting something upright, keeping it in place, and making it alive in life.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form IV verbal noun</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">إِقَام / إِقَامَة</div>
+      <div class="morph-translit">iqām / iqāmah</div>
+      <p class="morph-note">Establishing, setting upright, and making stand. This field is central for understanding expressions such as <strong>iqāmat al-ṣalāh</strong>.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form X verb</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">ٱسْتَقَامَ / يَسْتَقِيمُ / ٱسْتَقِمْ</div>
+      <div class="morph-translit">istaqāma / yastaqīmu / istaqim</div>
+      <p class="morph-note">Became upright, remains straight, or be upright. This branch points to steadfastness, freedom from crookedness, and staying on the path of truth.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Collective noun / human group</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">قَوْم</div>
+      <div class="morph-translit">qawm</div>
+      <p class="morph-note">A people, group, or society standing upon a shared bond. The Qur’an judges peoples by their stance toward truth, not by name alone.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Verbal noun / state noun</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">قِيَام</div>
+      <div class="morph-translit">qiyām</div>
+      <p class="morph-note">Standing, rising, being established, or active standing. It can apply to worship, responsibility, witness, or the establishment of an affair.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Noun / final rising</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">قِيَامَة</div>
+      <div class="morph-translit">qiyāmah</div>
+      <p class="morph-note">Resurrection; the day of rising, standing, and final establishment of truth. It points to the standing forth of truth, reckoning, witness, and deeds.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form I active participle</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">قَائِم / قَائِمَة</div>
+      <div class="morph-translit">qāʾim / qāʾimah</div>
+      <p class="morph-note">Standing, firm, established, active, or remaining. To be qāʾim is not merely to exist; it is to have living, stable presence and effect.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form IV active participle</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">مُقِيم / مُقِيمِي</div>
+      <div class="morph-translit">muqīm / muqīmī</div>
+      <p class="morph-note">Establisher, maintainer, or one who remains. In relation to ṣalāh, it points to one who keeps ṣalāh standing and alive.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form X active participle</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">مُسْتَقِيم</div>
+      <div class="morph-translit">mustaqīm</div>
+      <p class="morph-note">Straight, upright, without crookedness, and standing in the right direction. In <strong>al-ṣirāṭ al-mustaqīm</strong>, it describes a path standing upon truth.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Place noun / station</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">مَقَام / مَقَامَات</div>
+      <div class="morph-translit">maqām / maqāmāt</div>
+      <p class="morph-note">Standing-place, station, rank, or place of standing. Every station carries the question of responsibility: upon what does one stand there?</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Place noun / passive-like noun</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">مُقَام / مُقَامَة</div>
+      <div class="morph-translit">muqām / muqāmah</div>
+      <p class="morph-note">Established place, dwelling, or place of remaining. It points to a place prepared for staying, settling, or being established.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Noun / sustaining foundation</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">قَوَام</div>
+      <div class="morph-translit">qawām</div>
+      <p class="morph-note">Sustaining foundation, balance, structure, and order. What remains standing must have qawām.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Adjective / noun</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">قَيِّم / قِيمَة / قِيَم</div>
+      <div class="morph-translit">qayyim / qīmah / qiyam</div>
+      <p class="morph-note">Upright, sound, sustaining, or having lasting value. Value in this field comes from standing upon a correct foundation.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Intensive form / divine name</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">قَيُّوم / ٱلْقَيُّوم</div>
+      <div class="morph-translit">qayyūm / al-Qayyūm</div>
+      <p class="morph-note">Sustaining, establishing, self-subsisting, and the One through whom all things stand. When applied to God, it must be understood with full transcendence.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Intensive plural</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">قَوَّامِين</div>
+      <div class="morph-translit">qawwāmīn</div>
+      <p class="morph-note">Those who persistently uphold justice, witness, or responsibility. The form suggests intensity, repetition, and firmness in upholding.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Comparative / superlative</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">أَقْوَم</div>
+      <div class="morph-translit">aqwam</div>
+      <p class="morph-note">More upright, sounder, firmer, or more correct. It compares paths, speech, or structures in terms of uprightness and soundness.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form II verbal noun</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">تَقْوِيم</div>
+      <div class="morph-translit">taqwīm</div>
+      <p class="morph-note">Straightening, structuring, setting in sound form, and giving proper shape. This form is tied to correction and sound formation.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">Form II verb</div>
+        <div class="morph-used">Used in the Qur’an: No</div>
+      </div>
+      <div class="morph-form">قَوَّمَ / يُقَوِّمُ</div>
+      <div class="morph-translit">qawwama / yuqawwimu</div>
+      <p class="morph-note">Morphologically, this can mean to straighten, structure, or set upright. It is not registered here as a clear Qur’anic verb form of this root, even though the Qur’an uses the verbal noun <strong>taqwīm</strong>.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">Form V verb</div>
+        <div class="morph-used">Used in the Qur’an: No</div>
+      </div>
+      <div class="morph-form">تَقَوَّمَ / يَتَقَوَّمُ</div>
+      <div class="morph-translit">taqawwama / yataqawwamu</div>
+      <p class="morph-note">Morphologically, this can mean to gain structure, become sustained, or become upright. It does not appear as a clear Qur’anic usage of this root.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">Form II passive participle</div>
+        <div class="morph-used">Used in the Qur’an: No</div>
+      </div>
+      <div class="morph-form">مُقَوَّم</div>
+      <div class="morph-translit">muqawwam</div>
+      <p class="morph-note">Morphologically, this means straightened, structured, or set upright. It is not attested as a clear Qur’anic form of this root.</p>
+    </div>
+  </div>
+
+  <p class="root-note">Important note: the branches of this root should not be collapsed into one. <strong>قَوْم (qawm)</strong> is not the same as <strong>قِيَام (qiyām)</strong>; <strong>قِيَامَة (qiyāmah)</strong> is not the same as <strong>إِقَامَة الصَّلَاة (iqāmat al-ṣalāh)</strong>; and <strong>مُسْتَقِيم (mustaqīm)</strong> is not the same as <strong>مُقِيم (muqīm)</strong>. They all belong to the field of standing, establishing, structure, and uprightness, but each has its own Qur’anic function.</p>
 </section>
 <section class="root-toc" id="contents">
   <h2>Contents</h2>
