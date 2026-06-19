@@ -4,6 +4,24 @@ title: Qur’anic Root K T B
 permalink: /quran-terminology/en/roots/k-t-b/
 ---
 
+<script>
+  (function () {
+    /* Prevent first-paint root-page theme flicker.
+       This reads the same key used by the default layout before the root card renders. */
+    try {
+      var savedTheme = localStorage.getItem('forqan-theme');
+      var html = document.documentElement;
+      if (savedTheme === 'dark') {
+        html.classList.add('forqan-root-pre-dark');
+        html.classList.remove('forqan-root-pre-light');
+      } else if (savedTheme === 'light') {
+        html.classList.add('forqan-root-pre-light');
+        html.classList.remove('forqan-root-pre-dark');
+      }
+    } catch (e) {}
+  })();
+</script>
+
 <style>
   .root-study-page {
     --root-bg: #f7f3ea;
@@ -30,6 +48,8 @@ permalink: /quran-terminology/en/roots/k-t-b/
   }
 
   /* Dark mode follows the website toggle/classes, not the OS preference. */
+  html.forqan-root-pre-dark .root-study-page,
+  body.dark-theme .root-study-page,
   html.dark .root-study-page,
   body.dark .root-study-page,
   html.dark-mode .root-study-page,
@@ -55,6 +75,7 @@ permalink: /quran-terminology/en/roots/k-t-b/
     --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
   }
 
+  html.forqan-root-pre-light .root-study-page,
   html.light .root-study-page,
   body.light .root-study-page,
   html.light-mode .root-study-page,
@@ -276,24 +297,139 @@ permalink: /quran-terminology/en/roots/k-t-b/
     border-left: 3px solid var(--root-accent);
   }
 
+
+  .root-morphology-intro {
+    color: var(--root-muted);
+    margin-top: 0;
+  }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin-top: 1.1rem;
+  }
+
+  .morph-card {
+    background: var(--root-panel);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem 1.05rem;
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .morph-type {
+    font-weight: 800;
+    color: var(--root-accent-deep);
+  }
+
+  .morph-used {
+    flex: 0 0 auto;
+    font-size: 0.82rem;
+    font-weight: 800;
+    border: 1px solid var(--root-border);
+    border-radius: 999px;
+    padding: 0.12rem 0.65rem;
+    color: var(--root-accent-deep);
+    background: var(--root-accent-soft);
+  }
+
+  .morph-form {
+    direction: rtl;
+    text-align: right;
+    font-size: 1.24rem;
+    line-height: 1.9;
+    font-weight: 800;
+    color: var(--root-text);
+    margin: 0.2rem 0 0.55rem;
+  }
+
+  .root-study-page.forqan-page-ltr .morph-form {
+    direction: rtl;
+    text-align: left;
+  }
+
+  .morph-translit {
+    direction: ltr;
+    text-align: inherit;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    font-weight: 700;
+    color: var(--root-muted);
+    margin: -0.2rem 0 0.6rem;
+  }
+
+  .morph-label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 800;
+    color: var(--root-accent-deep);
+    margin-bottom: 0.15rem;
+  }
+
+  .morph-note {
+    color: var(--root-muted);
+    font-size: 0.95rem;
+    line-height: 1.95;
+    margin: 0;
+  }
+
+  .morph-note a {
+    color: var(--root-accent-deep);
+  }
+
+  .morph-card.morph-no .morph-used {
+    color: var(--root-muted);
+    background: var(--root-soft);
+    border-color: var(--root-border-soft);
+  }
+
+
   @media (max-width: 760px) {
     .root-study-page {
-      padding: 2rem 1rem;
+      padding: 1.25rem 0.45rem;
     }
 
     .root-frame {
-      padding: 1.25rem;
+      padding: 0.85rem;
       border-radius: 19px;
     }
 
     .root-section,
     .root-forms-card,
     .root-toc {
-      padding: 1rem;
+      padding: 0.85rem;
     }
 
     .root-toc ol {
       columns: 1;
+    }
+
+    .morphology-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .morph-card {
+      padding: 0.9rem 0.85rem;
+      border-radius: 15px;
+    }
+
+    .morph-card-header {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .morph-used {
+      display: inline-block;
+      margin-top: 0.35rem;
     }
   }
 </style>
@@ -312,13 +448,18 @@ permalink: /quran-terminology/en/roots/k-t-b/
     }
 
     function hasToken(text, token) {
-      return new RegExp('(^|\\s|_|-)' + token + '($|\\s|_|-)', 'i').test(String(text || ''));
+      return new RegExp('(^|\s|_|-)' + token + '($|\s|_|-)', 'i').test(String(text || ''));
     }
 
-    function applyForqanRootTheme() {
-      var page = document.querySelector('.root-study-page');
-      if (!page) return;
+    function savedThemePreference() {
+      try {
+        return localStorage.getItem('forqan-theme');
+      } catch (e) {
+        return null;
+      }
+    }
 
+    function detectForqanTheme() {
       var html = document.documentElement;
       var body = document.body;
       var marker = [
@@ -330,25 +471,62 @@ permalink: /quran-terminology/en/roots/k-t-b/
         body ? body.getAttribute('data-bs-theme') : ''
       ].join(' ');
 
-      var isDark = hasToken(marker, 'dark');
-      var isLight = hasToken(marker, 'light');
+      if (hasToken(marker, 'dark')) return 'dark';
+      if (hasToken(marker, 'light')) return 'light';
 
-      if (!isDark && !isLight) {
+      var saved = savedThemePreference();
+      if (saved === 'dark' || saved === 'light') return saved;
+
+      if (body || html) {
         var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
                  parseRGB(getComputedStyle(html).backgroundColor);
-        isDark = luminance(bg) < 128;
+        if (bg) return luminance(bg) < 128 ? 'dark' : 'light';
       }
 
-      page.classList.toggle('forqan-root-dark', !!isDark);
-      page.classList.toggle('forqan-root-light', !isDark);
+      return 'light';
+    }
+
+    function applyForqanRootTheme() {
+      var theme = detectForqanTheme();
+      var isDark = theme === 'dark';
+      var html = document.documentElement;
+      var page = document.querySelector('.root-study-page');
+
+      html.classList.toggle('forqan-root-pre-dark', isDark);
+      html.classList.toggle('forqan-root-pre-light', !isDark);
+
+      if (page) {
+        page.classList.toggle('forqan-root-dark', isDark);
+        page.classList.toggle('forqan-root-light', !isDark);
+      }
     }
 
     applyForqanRootTheme();
     document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
     window.addEventListener('load', applyForqanRootTheme);
-    setInterval(applyForqanRootTheme, 700);
+    window.addEventListener('storage', applyForqanRootTheme);
+
+    if (window.MutationObserver) {
+      var observer = new MutationObserver(applyForqanRootTheme);
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+      });
+
+      function observeBody() {
+        if (!document.body) return;
+        observer.observe(document.body, {
+          attributes: true,
+          attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+        });
+      }
+
+      observeBody();
+      document.addEventListener('DOMContentLoaded', observeBody);
+    }
   })();
 </script>
+
 
 <div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
 
@@ -359,20 +537,203 @@ permalink: /quran-terminology/en/roots/k-t-b/
   <h1>Qur’anic Root K T B</h1>
   <p class="root-subtitle">Writing, binding meaning together, recording, decreeing, obligation, documentation, book, scripture, and entry into a system of record, judgment, or revelation</p>
 </section>
-<section class="root-section" id="forms">
-  <h2>Forms Studied from This Root</h2>
-  <p>This page studies the Qur’anic root <strong>K T B</strong> and then explains the most important Qur’anic forms built from this semantic field:</p>
-  <ul>
-    <li><strong>kataba / yaktubu / katabat / katabnā / kutiba</strong> — Form I verb; he wrote, he writes, she wrote, We wrote, it was written, it was decreed, it was prescribed</li>
-    <li><strong>fakātibūhum</strong> — Form III; make a written contract with them, enter a clear written agreement</li>
-    <li><strong>iktataba</strong> — Form VIII; he had it written for himself, copied, transcribed, or caused something to be written for himself</li>
-    <li><strong>kitāb / kutub / al-kitāb</strong> — noun; book, writing, text, record, document, revelation, prescribed judgment, or a written and criterion-bearing order</li>
-    <li><strong>kitābī</strong> — noun with attached pronoun; my book, my writing, my record, my account</li>
-    <li><strong>kātib / kātibūn</strong> — active participle; writer, writers, those who write or record</li>
-    <li><strong>maktūb</strong> — passive participle; written, recorded, prescribed, or placed in writing and judgment</li>
-  </ul>
-  <p>Note: forms such as <strong>uktub</strong>, various forms of <strong>yaktubu</strong>, or <strong>yuktabu</strong> are morphologically possible, but this page focuses on the main direct Qur’anic forms of the root <strong>K T B</strong>. Also, <strong>kātib</strong> should not be confused with <strong>fakātibūhum</strong>. <strong>Kātib</strong> is an active participle, while <strong>fakātibūhum</strong> is a Form III verb connected to entering a clear written contract.</p>
-  <p>Also, <strong>kitāb</strong> in the Qur’an does not always mean a physical or bound book. It can refer to revealed text, divine record, prescribed judgment, document, written record, the record of deeds, or a meaningful structure of guidance.</p>
+<section class="root-forms-card" id="forms-covered">
+  <h2>Morphological forms of this root</h2>
+  <p class="root-morphology-intro">This section is designed for teaching Qur’anic morphology. The field “Used in the Qur’an” shows whether the form or example appears in the Qur’anic text. Forms that may be linguistically possible in Arabic but do not appear as Qur’anic forms of this root are marked “No.” In the “No” cards, the category is still named and briefly explained so that the boundary between possible Arabic morphology and Qur’anic usage remains clear.</p>
+
+  <div class="morphology-grid">
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Root</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">ك ت ب</div>
+      <div class="morph-translit">K T B</div>
+      <p class="morph-note">A root connected with writing, joining meaning together, recording, decreeing, prescribing, documentation, book, scripture, and entry into a system of record, judgment, or revelation.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form I past verb</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">كتب / كتبت / كتبنا</div>
+      <div class="morph-translit">kataba / katabat / katabnā</div>
+      <p class="morph-note">He wrote, she wrote, or We wrote. In Qur’anic usage, this field can mean writing, recording, decreeing, or placing something within an order of judgment and account.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form I active present verb</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">يكتب / تكتب / نكتب / يكتبون</div>
+      <div class="morph-translit">yaktubu / taktubu / naktubu / yaktubūn</div>
+      <p class="morph-note">He writes, it is written by a subject, We write, or they write. These forms show ongoing writing, recording, or entering something into a written order.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form I passive past verb</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">كتب</div>
+      <div class="morph-translit">kutiba</div>
+      <p class="morph-note">It was written, prescribed, decreed, or placed upon someone. In verses such as <strong>كتب عليكم (kutiba ʿalaykum)</strong>, the meaning often moves from visible writing to prescription and obligation.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form I passive present / future verb</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">تكتب / سيكتب / سنكتب</div>
+      <div class="morph-translit">tuktabu / sayuktabu / sanaktubu</div>
+      <p class="morph-note">It is written, it will be written, or We shall write. This usage keeps the meaning of record and accountability alive: speech, testimony, deeds, and claims enter a register.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Imperative</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">اكتب / اكتبوا</div>
+      <div class="morph-translit">uktub / uktubū</div>
+      <p class="morph-note">Write, or write down. This form can appear in the sense of asking that something be written, recorded, or decreed, as in supplication and documentation.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form III verb</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">كاتبوهم</div>
+      <div class="morph-translit">kātibūhum / fakātibūhum</div>
+      <p class="morph-note">Make a written contract with them, or enter a clear written agreement. This form shows K T B operating in social justice, contracts, rights, and documented responsibility.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Form VIII verb</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">اكتتبها</div>
+      <div class="morph-translit">iktatabahā</div>
+      <p class="morph-note">He had it written for himself, copied it, transcribed it, or caused it to be written for himself. In its Qur’anic context, this appears as an accusation used to deny revelation by attributing it to a human textual source.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Main noun / verbal noun field</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">كتاب / الكتاب</div>
+      <div class="morph-translit">kitāb / al-kitāb</div>
+      <p class="morph-note">Book, writing, revealed text, document, record, prescribed judgment, or a meaningful order of guidance and account. It should not be reduced to a physical bound book only.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Plural noun</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">كتب</div>
+      <div class="morph-translit">kutub</div>
+      <p class="morph-note">Books, writings, or recorded texts. In the Qur’anic field, this may refer to divine writings, earlier books, or records within the order of guidance and account.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Noun with attached pronoun</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">كتابي / كتابه</div>
+      <div class="morph-translit">kitābī / kitābahu</div>
+      <p class="morph-note">My book / his book, or my record / his record. These forms are especially important in the language of account, where the human being faces the record of what they sent forth.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Active participle</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">كاتب / كاتبون / كاتبين</div>
+      <div class="morph-translit">kātib / kātibūn / kātibīn</div>
+      <p class="morph-note">Writer, writers, or those who write and record. In the Qur’anic field, writing carries responsibility because the writer may preserve truth, document rights, or distort and betray meaning.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Passive participle</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">مكتوب</div>
+      <div class="morph-translit">maktūb</div>
+      <p class="morph-note">Written, recorded, prescribed, or placed in writing and judgment. This form shows that something has entered a stable order of record and recognition.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">Scribal plural / recorders</div>
+        <div class="morph-used">Used in the Qur’an: Yes</div>
+      </div>
+      <div class="morph-form">كتبة</div>
+      <div class="morph-translit">katabah</div>
+      <p class="morph-note">Scribes or recorders. This form belongs to the same semantic field of writing and recording, and it reminds the reader that recording is tied to trust, witness, and accountability.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">Independent place noun</div>
+        <div class="morph-used">Used in the Qur’an: No</div>
+      </div>
+      <div class="morph-form">مكتب</div>
+      <div class="morph-translit">maktab</div>
+      <p class="morph-note"><span class="morph-label">Morphological category: place noun</span>In Arabic, maktab can mean a place of writing, office, or school-like writing place in later usage. For the root K T B, this form is not attested as a clear Qur’anic usage and should not be counted among Qur’anic derivatives.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">Independent time noun</div>
+        <div class="morph-used">Used in the Qur’an: No</div>
+      </div>
+      <div class="morph-form">مكتب</div>
+      <div class="morph-translit">maktab</div>
+      <p class="morph-note"><span class="morph-label">Morphological category: time noun</span>Some Arabic patterns can serve for place or time. For K T B, no clear independent Qur’anic time noun is attested. This card is included only to complete the morphology map.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">Instrument noun</div>
+        <div class="morph-used">Used in the Qur’an: No</div>
+      </div>
+      <div class="morph-form">مكتبة / مكتاب</div>
+      <div class="morph-translit">maktabah / miktāb</div>
+      <p class="morph-note"><span class="morph-label">Morphological category: instrument or writing-related noun</span>Arabic can form words for tools or places connected with writing, but no clear independent Qur’anic instrument noun for K T B is attested in this category. Possible Arabic forms should not be presented as Qur’anic usage without a Qur’anic example.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">Intensive form</div>
+        <div class="morph-used">Used in the Qur’an: No</div>
+      </div>
+      <div class="morph-form">كتّاب</div>
+      <div class="morph-translit">kattāb / kuttāb</div>
+      <p class="morph-note"><span class="morph-label">Morphological category: intensive or profession-like form</span>Arabic can form intensive or profession-like expressions from this root, but the Qur’an does not use a clear independent intensive form for K T B in the sense of “one who writes much.” The Qur’anic text uses forms such as <strong>كاتب (kātib)</strong>, <strong>كاتبين (kātibīn)</strong>, and <strong>كتبة (katabah)</strong> instead.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">Relational adjective</div>
+        <div class="morph-used">Used in the Qur’an: No</div>
+      </div>
+      <div class="morph-form">كتابي</div>
+      <div class="morph-translit">kitābī</div>
+      <p class="morph-note"><span class="morph-label">Morphological category: nisbah / relational adjective</span>In later Arabic, kitābī can mean “book-related” or “scriptural.” In the Qur’an, <strong>كتابي (kitābī)</strong> is used as “my book/my record,” not as an independent relational adjective. Therefore the relational category is not counted as a separate Qur’anic derivative here.</p>
+    </div>
+  </div>
+
+  <p class="root-note">Important note: this page studies the root <strong>ك ت ب (K T B)</strong>. Possible Arabic morphology is useful for learning, but only attested Qur’anic forms should be counted as Qur’anic usage. This distinction protects the article from confusing Arabic possibility with Qur’anic evidence.</p>
 </section>
 <nav class="root-toc" aria-label="Root usage table of contents">
   <h2>Root Usage Overview</h2>
