@@ -1,366 +1,20 @@
 ---
 layout: default
-title: The Qur’anic Root ʿ B D
+title: The Qur’anic Root AYN B D (ʿ B D)
 permalink: /quran-terminology/en/roots/ayn-b-d/
 ---
-
-<style>
-  .root-study-page {
-    --root-bg: #f7f3ea;
-    --root-card: #fffaf1;
-    --root-panel: #fffdf7;
-    --root-section: #fffaf2;
-    --root-text: #2f2a22;
-    --root-muted: #6d6255;
-    --root-soft: #f0e5d2;
-    --root-border: rgba(148, 114, 55, 0.28);
-    --root-border-soft: rgba(148, 114, 55, 0.16);
-    --root-accent: #b9852f;
-    --root-accent-deep: #8b6423;
-    --root-accent-soft: rgba(185, 133, 47, 0.11);
-    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
-
-    direction: rtl;
-    text-align: right;
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 3.5rem 1.25rem;
-    line-height: 2.05;
-    color: var(--root-text);
-  }
-
-  /* Dark mode follows the website toggle/classes, not the OS preference. */
-  html.dark .root-study-page,
-  body.dark .root-study-page,
-  html.dark-mode .root-study-page,
-  body.dark-mode .root-study-page,
-  html[data-theme="dark"] .root-study-page,
-  body[data-theme="dark"] .root-study-page,
-  [data-bs-theme="dark"] .root-study-page,
-  .forqan-theme-dark .root-study-page,
-  .theme-dark .root-study-page,
-  .root-study-page.forqan-root-dark {
-    --root-bg: #0f1a2c;
-    --root-card: #121f33;
-    --root-panel: #1b2a40;
-    --root-section: rgba(255, 255, 255, 0.035);
-    --root-text: #ece7dc;
-    --root-muted: #beb6a7;
-    --root-soft: rgba(255, 255, 255, 0.06);
-    --root-border: rgba(214, 176, 95, 0.24);
-    --root-border-soft: rgba(214, 176, 95, 0.16);
-    --root-accent: #d6b05f;
-    --root-accent-deep: #f0cf7a;
-    --root-accent-soft: rgba(214, 176, 95, 0.12);
-    --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
-  }
-
-  html.light .root-study-page,
-  body.light .root-study-page,
-  html.light-mode .root-study-page,
-  body.light-mode .root-study-page,
-  html[data-theme="light"] .root-study-page,
-  body[data-theme="light"] .root-study-page,
-  [data-bs-theme="light"] .root-study-page,
-  .forqan-theme-light .root-study-page,
-  .theme-light .root-study-page,
-  .root-study-page.forqan-root-light {
-    --root-bg: #f7f3ea;
-    --root-card: #fffaf1;
-    --root-panel: #fffdf7;
-    --root-section: #fffaf2;
-    --root-text: #2f2a22;
-    --root-muted: #6d6255;
-    --root-soft: #f0e5d2;
-    --root-border: rgba(148, 114, 55, 0.28);
-    --root-border-soft: rgba(148, 114, 55, 0.16);
-    --root-accent: #b9852f;
-    --root-accent-deep: #8b6423;
-    --root-accent-soft: rgba(185, 133, 47, 0.11);
-    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
-  }
-
-  .root-study-page * {
-    box-sizing: border-box;
-  }
-
-  .root-study-page,
-  .root-study-page h1,
-  .root-study-page h2,
-  .root-study-page h3,
-  .root-study-page p,
-  .root-study-page li,
-  .root-study-page strong {
-    color: var(--root-text);
-  }
-
-  .root-study-page h1,
-  .root-study-page h2,
-  .root-study-page h3,
-  .root-study-page p,
-  .root-study-page li {
-    direction: rtl;
-    text-align: right;
-  }
-
-  .root-frame {
-    background:
-      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
-      var(--root-card);
-    border: 1px solid var(--root-border);
-    border-radius: 26px;
-    padding: 2.4rem;
-    box-shadow: var(--root-shadow);
-  }
-
-  .root-hero {
-    border-bottom: 1px solid var(--root-border-soft);
-    padding-bottom: 1.65rem;
-    margin-bottom: 2rem;
-  }
-
-  .root-kicker {
-    color: var(--root-accent-deep);
-    font-size: 0.96rem;
-    font-weight: 800;
-    margin-bottom: 0.45rem;
-    letter-spacing: 0.01em;
-  }
-
-  .root-study-page h1 {
-    margin: 0;
-    font-size: clamp(2rem, 4vw, 3.05rem);
-    line-height: 1.4;
-    letter-spacing: -0.02em;
-  }
-
-  .root-subtitle {
-    color: var(--root-muted);
-    max-width: 780px;
-    margin: 1rem 0 0;
-    font-size: 1.04rem;
-  }
-
-  .root-forms-card,
-  .root-toc {
-    background:
-      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
-      var(--root-panel);
-    border: 1px solid var(--root-border);
-    border-radius: 20px;
-    padding: 1.35rem 1.55rem;
-    margin: 1.55rem 0;
-  }
-
-  .root-forms-card h2,
-  .root-toc h2 {
-    margin-top: 0;
-  }
-
-  .root-forms-card ul {
-    padding-right: 1.2rem;
-    margin: 0.75rem 0 0;
-  }
-
-  .root-forms-card li {
-    margin: 0.48rem 0;
-  }
-
-  .root-toc ol {
-    list-style-position: inside;
-    padding-right: 0;
-    margin: 0.75rem 0 0;
-    columns: 2;
-    column-gap: 2rem;
-  }
-
-  .root-toc li {
-    margin: 0.28rem 0;
-    break-inside: avoid;
-  }
-
-  .root-section {
-    background: var(--root-section);
-    border: 1px solid var(--root-border-soft);
-    border-radius: 18px;
-    padding: 1.5rem 1.6rem;
-    margin: 1.55rem 0;
-  }
-
-  .root-section h2 {
-    margin: 0 0 1rem;
-    color: var(--root-text);
-    font-size: 1.35rem;
-    line-height: 1.6;
-  }
-
-  .root-section h2::before {
-    content: "";
-    display: inline-block;
-    width: 0.58rem;
-    height: 0.58rem;
-    border-radius: 999px;
-    background: var(--root-accent);
-    margin-left: 0.55rem;
-    vertical-align: 0.08em;
-  }
-
-  .root-study-page p {
-    margin: 0.85rem 0;
-  }
-
-  .root-study-page a {
-    color: var(--root-accent-deep);
-    text-decoration: none;
-    border-bottom: 1px dotted currentColor;
-  }
-
-  .root-study-page a:hover {
-    color: var(--root-accent);
-  }
-
-  .arabic-quote {
-    direction: rtl;
-    text-align: center;
-    font-size: 1.48rem;
-    line-height: 2.5;
-    margin: 1.4rem 0;
-    padding: 1rem 1.25rem;
-    border: 1px solid var(--root-border);
-    border-radius: 18px;
-    background:
-      linear-gradient(180deg, var(--root-accent-soft), transparent),
-      var(--root-panel);
-    color: var(--root-text);
-  }
-
-  .root-note {
-    border-right: 3px solid var(--root-accent);
-    padding: 0.9rem 1rem;
-    background: var(--root-accent-soft);
-    border-radius: 14px;
-    color: var(--root-muted);
-  }
-
-  .root-note strong,
-  .root-subtitle strong {
-    color: var(--root-text);
-  }
-
-  .root-study-page.forqan-page-ltr,
-  .root-study-page.forqan-page-ltr h1,
-  .root-study-page.forqan-page-ltr h2,
-  .root-study-page.forqan-page-ltr h3,
-  .root-study-page.forqan-page-ltr p,
-  .root-study-page.forqan-page-ltr li {
-    direction: ltr;
-    text-align: left;
-  }
-
-  .root-study-page.forqan-page-ltr .root-forms-card ul {
-    padding-right: 0;
-    padding-left: 1.2rem;
-  }
-
-  .root-study-page.forqan-page-ltr .root-toc ol {
-    padding-left: 0;
-  }
-
-  .root-study-page.forqan-page-ltr .root-section h2::before {
-    margin-left: 0;
-    margin-right: 0.55rem;
-  }
-
-  .root-study-page.forqan-page-ltr .root-note {
-    border-right: 0;
-    border-left: 3px solid var(--root-accent);
-  }
-
-  @media (max-width: 760px) {
-    .root-study-page {
-      padding: 2rem 1rem;
-    }
-
-    .root-frame {
-      padding: 1.25rem;
-      border-radius: 19px;
-    }
-
-    .root-section,
-    .root-forms-card,
-    .root-toc {
-      padding: 1rem;
-    }
-
-    .root-toc ol {
-      columns: 1;
-    }
-  }
-</style>
-
-<script>
-  (function () {
-    function parseRGB(value) {
-      var match = String(value || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
-      if (!match) return null;
-      return [Number(match[1]), Number(match[2]), Number(match[3])];
-    }
-
-    function luminance(rgb) {
-      if (!rgb) return 255;
-      return (0.2126 * rgb[0]) + (0.7152 * rgb[1]) + (0.0722 * rgb[2]);
-    }
-
-    function hasToken(text, token) {
-      return new RegExp('(^|\\s|_|-)' + token + '($|\\s|_|-)', 'i').test(String(text || ''));
-    }
-
-    function applyForqanRootTheme() {
-      var page = document.querySelector('.root-study-page');
-      if (!page) return;
-
-      var html = document.documentElement;
-      var body = document.body;
-      var marker = [
-        html.className,
-        body ? body.className : '',
-        html.getAttribute('data-theme'),
-        body ? body.getAttribute('data-theme') : '',
-        html.getAttribute('data-bs-theme'),
-        body ? body.getAttribute('data-bs-theme') : ''
-      ].join(' ');
-
-      var isDark = hasToken(marker, 'dark');
-      var isLight = hasToken(marker, 'light');
-
-      if (!isDark && !isLight) {
-        var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
-                 parseRGB(getComputedStyle(html).backgroundColor);
-        isDark = luminance(bg) < 128;
-      }
-
-      page.classList.toggle('forqan-root-dark', !!isDark);
-      page.classList.toggle('forqan-root-light', !isDark);
-    }
-
-    applyForqanRootTheme();
-    document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
-    window.addEventListener('load', applyForqanRootTheme);
-    setInterval(applyForqanRootTheme, 700);
-  })();
-</script>
 
 <div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
 
   <div class="root-frame">
 <section class="root-hero">
   <div class="root-kicker">Qur’anic Root</div>
-  <h1>The Qur’anic Root ʿ B D</h1>
+  <h1>The Qur’anic Root AYN B D (ʿ B D)</h1>
   <p class="root-subtitle">Servanthood, practical humility, directed obedience, service, dependence, conscious submission, and placing oneself under God’s command and lordship</p>
 </section>
 <section class="root-section" id="forms-studied-from-this-root">
   <h2>Forms Studied from This Root</h2>
-  <p>This page studies the root <strong>ʿ B D</strong> semantically, then explains the main Qur’anic forms built from this root:</p>
+  <p>This page studies the root <strong>AYN B D (ʿ B D)</strong> semantically, then explains the main Qur’anic forms built from this root:</p>
   <ul>
     <li><strong>ʿabada / yaʿbudu / naʿbudu / taʿbudūna / aʿbudu</strong> — Form I verb; he served/worshiped, he serves/worships, we serve/worship, you serve/worship, I serve/worship</li>
     <li><strong>uʿbud / uʿbudū</strong> — imperative; serve, worship, be in servanthood</li>
@@ -371,12 +25,12 @@ permalink: /quran-terminology/en/roots/ayn-b-d/
     <li><strong>ʿābid / ʿābidūn / ʿābidīn / ʿābidāt</strong> — active participle; one who serves/worships, male and female worshipers</li>
     <li><strong>ʿibādah</strong> — verbal noun/noun; servanthood, worship, service, and practical humility before the one worshiped</li>
 </ul>
-  <p>Note: Forms such as <strong>ʿubida</strong> and <strong>yuʿbadu</strong> are possible in Arabic morphology, but they are not central listed Qur’anic forms for this root. Words such as <strong>maʿbūd</strong>, <strong>miʿbad</strong>, and <strong>maʿābid</strong> are known in Arabic, but they are not treated here as direct Qur’anic forms of this root. This page focuses on Qur’anic forms of <strong>ʿ B D</strong>.</p>
+  <p>Note: Forms such as <strong>ʿubida</strong> and <strong>yuʿbadu</strong> are possible in Arabic morphology, but they are not central listed Qur’anic forms for this root. Words such as <strong>maʿbūd</strong>, <strong>miʿbad</strong>, and <strong>maʿābid</strong> are known in Arabic, but they are not treated here as direct Qur’anic forms of this root. This page focuses on Qur’anic forms of <strong>AYN B D (ʿ B D)</strong>.</p>
 </section>
 <section class="root-toc" id="contents">
   <h2>Contents</h2>
   <ol>
-    <li>General Meaning of the Root ʿ B D</li>
+    <li>General Meaning of the Root AYN B D (ʿ B D)</li>
     <li>Worship Beyond Ritual and Religious Formality</li>
     <li>ʿabada / yaʿbudu: Servanthood and Coming Under Command</li>
     <li>naʿbudu: Collective and Conscious Servanthood</li>
@@ -394,11 +48,11 @@ permalink: /quran-terminology/en/roots/ayn-b-d/
 </ol>
 </section>
 <section class="root-section" id="general-meaning-of-the-root-b-d">
-  <h2>General Meaning of the Root ʿ B D</h2>
-  <p>The root <strong>ʿ B D</strong> in the Qur’an points to servanthood, worship, humility, obedience, service, dependence, and coming under command. It should not be reduced to a few ritual acts or religious formalities.</p>
+  <h2>General Meaning of the Root AYN B D (ʿ B D)</h2>
+  <p>The root <strong>AYN B D (ʿ B D)</strong> in the Qur’an points to servanthood, worship, humility, obedience, service, dependence, and coming under command. It should not be reduced to a few ritual acts or religious formalities.</p>
   <p>In the Qur’anic view, servanthood is not merely that a person performs an outward act at a specific time or says a particular phrase. Servanthood means that the human being recognizes their place before God: created, needy, capable of being guided, and not independently self-owned. God is Rabb, God is Allah, and the human being is ʿabd.</p>
   <p>This shows that <strong>ʿibādah</strong> in the Qur’an is not merely ceremony; it is the direction of life. A person either places themselves under God’s command, or under the command of ego, fear, power, inherited custom, wealth, desire, tribe, institution, or other false lords. Even when this is not called worship, the direction of obedience reveals what the person truly serves.</p>
-  <p>So the root <strong>ʿ B D</strong> returns the human being to a foundational truth: true freedom is not lawlessness; it is servanthood to God, because servanthood to God frees the human being from servanthood to other than God.</p>
+  <p>So the root <strong>AYN B D (ʿ B D)</strong> returns the human being to a foundational truth: true freedom is not lawlessness; it is servanthood to God, because servanthood to God frees the human being from servanthood to other than God.</p>
 </section>
 <section class="root-section" id="worship-beyond-ritual-and-religious-formality">
   <h2>Worship Beyond Ritual and Religious Formality</h2>
@@ -433,7 +87,7 @@ permalink: /quran-terminology/en/roots/ayn-b-d/
   <p>The form <strong>ʿabbada</strong> points to making someone a servant, enslaving, or subjugating. This usage is different from conscious worship of God.</p>
   <p>Worship of God frees the human being. But one human being forcing another into servitude can become a sign of oppression, humiliation, and domination. When a human being drives another human being into slavery, blind obedience, or forced submission, the field of servanthood becomes corrupted.</p>
   <p>This distinction matters. Servanthood before God does not destroy human dignity; it rescues the human being from servanthood to other than God. But servanthood before human beings, when it becomes absolute domination, breaks dignity.</p>
-  <p>So the root <strong>ʿ B D</strong> shows both the path of rescue and the danger of downfall: servanthood to God is the path of freedom, while human enslavement by human beings is a path of oppression and corruption.</p>
+  <p>So the root <strong>AYN B D (ʿ B D)</strong> shows both the path of rescue and the danger of downfall: servanthood to God is the path of freedom, while human enslavement by human beings is a path of oppression and corruption.</p>
 </section>
 <section class="root-section" id="abd-the-servant-and-the-human-relation-to-god">
   <h2>ʿabd: The Servant and the Human Relation to God</h2>
@@ -465,7 +119,7 @@ permalink: /quran-terminology/en/roots/ayn-b-d/
 </section>
 <section class="root-section" id="serving-god-and-freedom-from-serving-other-than-god">
   <h2>Serving God and Freedom from Serving Other Than God</h2>
-  <p>One of the most beautiful messages of the root <strong>ʿ B D</strong> is that servanthood to God frees the human being from servanthood to other than God.</p>
+  <p>One of the most beautiful messages of the root <strong>AYN B D (ʿ B D)</strong> is that servanthood to God frees the human being from servanthood to other than God.</p>
   <p>A person who does not serve God is not necessarily free. They may become a servant of ego, fear, fame, wealth, power, tribe, custom, institution, or other human beings.</p>
   <p>Tawḥīd rescues the human being from these scattered servitudes. When a person returns their servanthood to God, they reclaim it from every false lord.</p>
   <p>This freedom is not lawlessness. Tawḥīdic freedom means that the human being comes under the command of truth alone. They are freed from servanthood to falsehood in order to be the servant of God.</p>
@@ -479,22 +133,22 @@ permalink: /quran-terminology/en/roots/ayn-b-d/
 </section>
 <section class="root-section" id="worship-and-lordship">
   <h2>Worship and Lordship</h2>
-  <p>The root <strong>ʿ B D</strong> is deeply connected to the root <strong>R B B</strong>. If God is Rabb, the human being is ʿabd. God’s lordship means that He is the one who nurtures, preserves, guides, and brings beings toward their destination. Human servanthood means that the human being recognizes this lordship and becomes humble before it.</p>
+  <p>The root <strong>AYN B D (ʿ B D)</strong> is deeply connected to the root <strong>R B B</strong>. If God is Rabb, the human being is ʿabd. God’s lordship means that He is the one who nurtures, preserves, guides, and brings beings toward their destination. Human servanthood means that the human being recognizes this lordship and becomes humble before it.</p>
   <p>If a person claims to know God as Rabb but lives under the command of other lords, that knowledge remains incomplete. God’s lordship must lead to human servanthood.</p>
   <p>So servanthood is the human response to God’s lordship.</p>
 </section>
 <section class="root-section" id="worship-and-divinity">
   <h2>Worship and Divinity</h2>
-  <p>The root <strong>ʿ B D</strong> is also directly connected to the root <strong>ʾ L H</strong>. An ilāh is the one whom a person takes as the object of worship, turns toward, receives direction from, and before whom they show ultimate dependence and humility.</p>
+  <p>The root <strong>AYN B D (ʿ B D)</strong> is also directly connected to the root <strong>ʾ L H</strong>. An ilāh is the one whom a person takes as the object of worship, turns toward, receives direction from, and before whom they show ultimate dependence and humility.</p>
   <p>When the Qur’an says <strong>lā ilāha illā Allāh</strong>, its practical meaning is that final servanthood belongs only to God. If the ilāh is one, worship must also be sincere for Him.</p>
   <p>Shirk is not only that a person prostrates before a stone idol. Shirk can also be that a person divides obedience, fear, hope, the standard of truth, or servanthood between God and other than God.</p>
   <p>So worship is the practical form of tawḥīd. Tawḥīd that remains only on the tongue and does not become servanthood is not yet complete in life.</p>
 </section>
 <section class="root-section" id="summary">
   <h2>Summary</h2>
-  <p>The root <strong>ʿ B D</strong> in the Qur’an calls the human being to recognize servanthood, humility, obedience, service, dependence, and freedom from servanthood to other than God. This root must not be reduced to rituals and religious formalities.</p>
+  <p>The root <strong>AYN B D (ʿ B D)</strong> in the Qur’an calls the human being to recognize servanthood, humility, obedience, service, dependence, and freedom from servanthood to other than God. This root must not be reduced to rituals and religious formalities.</p>
   <p><strong>ʿabada</strong> and <strong>yaʿbudu</strong> speak of serving and worshiping. <strong>naʿbudu</strong> declares collective servanthood and direction before God. <strong>uʿbud</strong> and <strong>uʿbudū</strong> call people to return from false lords to the true Lord. <strong>ʿabbada</strong> shows the danger of one human being forcing another into servitude. <strong>ʿabd</strong> clarifies the existential relation between the human being and God. <strong>ʿibād</strong> and <strong>ʿabīd</strong> show servanthood and dependence from different angles. <strong>ʿābid</strong> and <strong>ʿābidūn</strong> describe people of servanthood. And <strong>ʿibādah</strong> expresses the direction of human life before the one worshiped.</p>
-  <p>So when the root <strong>ʿ B D</strong> is understood properly, worship is not merely a ritual act; it is a declaration of freedom from servanthood to other than God. The human being takes servanthood back from false lords and returns it to the true Lord.</p>
+  <p>So when the root <strong>AYN B D (ʿ B D)</strong> is understood properly, worship is not merely a ritual act; it is a declaration of freedom from servanthood to other than God. The human being takes servanthood back from false lords and returns it to the true Lord.</p>
 </section>
   </div>
 </div>

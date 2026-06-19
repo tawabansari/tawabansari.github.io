@@ -1,354 +1,8 @@
 ---
 layout: default
-title: Qur'anic Root n ʿ m
+title: The Qur’anic Root N AYN M (N ʿ M)
 permalink: /quran-terminology/en/roots/n-ayn-m/
 ---
-
-<style>
-  .root-study-page {
-    --root-bg: #f7f3ea;
-    --root-card: #fffaf1;
-    --root-panel: #fffdf7;
-    --root-section: #fffaf2;
-    --root-text: #2f2a22;
-    --root-muted: #6d6255;
-    --root-soft: #f0e5d2;
-    --root-border: rgba(148, 114, 55, 0.28);
-    --root-border-soft: rgba(148, 114, 55, 0.16);
-    --root-accent: #b9852f;
-    --root-accent-deep: #8b6423;
-    --root-accent-soft: rgba(185, 133, 47, 0.11);
-    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
-
-    direction: rtl;
-    text-align: right;
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 3.5rem 1.25rem;
-    line-height: 2.05;
-    color: var(--root-text);
-  }
-
-  /* Dark mode follows the website toggle/classes, not the OS preference. */
-  html.dark .root-study-page,
-  body.dark .root-study-page,
-  html.dark-mode .root-study-page,
-  body.dark-mode .root-study-page,
-  html[data-theme="dark"] .root-study-page,
-  body[data-theme="dark"] .root-study-page,
-  [data-bs-theme="dark"] .root-study-page,
-  .forqan-theme-dark .root-study-page,
-  .theme-dark .root-study-page,
-  .root-study-page.forqan-root-dark {
-    --root-bg: #0f1a2c;
-    --root-card: #121f33;
-    --root-panel: #1b2a40;
-    --root-section: rgba(255, 255, 255, 0.035);
-    --root-text: #ece7dc;
-    --root-muted: #beb6a7;
-    --root-soft: rgba(255, 255, 255, 0.06);
-    --root-border: rgba(214, 176, 95, 0.24);
-    --root-border-soft: rgba(214, 176, 95, 0.16);
-    --root-accent: #d6b05f;
-    --root-accent-deep: #f0cf7a;
-    --root-accent-soft: rgba(214, 176, 95, 0.12);
-    --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
-  }
-
-  html.light .root-study-page,
-  body.light .root-study-page,
-  html.light-mode .root-study-page,
-  body.light-mode .root-study-page,
-  html[data-theme="light"] .root-study-page,
-  body[data-theme="light"] .root-study-page,
-  [data-bs-theme="light"] .root-study-page,
-  .forqan-theme-light .root-study-page,
-  .theme-light .root-study-page,
-  .root-study-page.forqan-root-light {
-    --root-bg: #f7f3ea;
-    --root-card: #fffaf1;
-    --root-panel: #fffdf7;
-    --root-section: #fffaf2;
-    --root-text: #2f2a22;
-    --root-muted: #6d6255;
-    --root-soft: #f0e5d2;
-    --root-border: rgba(148, 114, 55, 0.28);
-    --root-border-soft: rgba(148, 114, 55, 0.16);
-    --root-accent: #b9852f;
-    --root-accent-deep: #8b6423;
-    --root-accent-soft: rgba(185, 133, 47, 0.11);
-    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
-  }
-
-  .root-study-page * {
-    box-sizing: border-box;
-  }
-
-  .root-study-page,
-  .root-study-page h1,
-  .root-study-page h2,
-  .root-study-page h3,
-  .root-study-page p,
-  .root-study-page li,
-  .root-study-page strong {
-    color: var(--root-text);
-  }
-
-  .root-study-page h1,
-  .root-study-page h2,
-  .root-study-page h3,
-  .root-study-page p,
-  .root-study-page li {
-    direction: rtl;
-    text-align: right;
-  }
-
-  .root-frame {
-    background:
-      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
-      var(--root-card);
-    border: 1px solid var(--root-border);
-    border-radius: 26px;
-    padding: 2.4rem;
-    box-shadow: var(--root-shadow);
-  }
-
-  .root-hero {
-    border-bottom: 1px solid var(--root-border-soft);
-    padding-bottom: 1.65rem;
-    margin-bottom: 2rem;
-  }
-
-  .root-kicker {
-    color: var(--root-accent-deep);
-    font-size: 0.96rem;
-    font-weight: 800;
-    margin-bottom: 0.45rem;
-    letter-spacing: 0.01em;
-  }
-
-  .root-study-page h1 {
-    margin: 0;
-    font-size: clamp(2rem, 4vw, 3.05rem);
-    line-height: 1.4;
-    letter-spacing: -0.02em;
-  }
-
-  .root-subtitle {
-    color: var(--root-muted);
-    max-width: 780px;
-    margin: 1rem 0 0;
-    font-size: 1.04rem;
-  }
-
-  .root-forms-card,
-  .root-toc {
-    background:
-      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
-      var(--root-panel);
-    border: 1px solid var(--root-border);
-    border-radius: 20px;
-    padding: 1.35rem 1.55rem;
-    margin: 1.55rem 0;
-  }
-
-  .root-forms-card h2,
-  .root-toc h2 {
-    margin-top: 0;
-  }
-
-  .root-forms-card ul {
-    padding-right: 1.2rem;
-    margin: 0.75rem 0 0;
-  }
-
-  .root-forms-card li {
-    margin: 0.48rem 0;
-  }
-
-  .root-toc ol {
-    list-style-position: inside;
-    padding-right: 0;
-    margin: 0.75rem 0 0;
-    columns: 2;
-    column-gap: 2rem;
-  }
-
-  .root-toc li {
-    margin: 0.28rem 0;
-    break-inside: avoid;
-  }
-
-  .root-section {
-    background: var(--root-section);
-    border: 1px solid var(--root-border-soft);
-    border-radius: 18px;
-    padding: 1.5rem 1.6rem;
-    margin: 1.55rem 0;
-  }
-
-  .root-section h2 {
-    margin: 0 0 1rem;
-    color: var(--root-text);
-    font-size: 1.35rem;
-    line-height: 1.6;
-  }
-
-  .root-section h2::before {
-    content: "";
-    display: inline-block;
-    width: 0.58rem;
-    height: 0.58rem;
-    border-radius: 999px;
-    background: var(--root-accent);
-    margin-left: 0.55rem;
-    vertical-align: 0.08em;
-  }
-
-  .root-study-page p {
-    margin: 0.85rem 0;
-  }
-
-  .root-study-page a {
-    color: var(--root-accent-deep);
-    text-decoration: none;
-    border-bottom: 1px dotted currentColor;
-  }
-
-  .root-study-page a:hover {
-    color: var(--root-accent);
-  }
-
-  .arabic-quote {
-    direction: rtl;
-    text-align: center;
-    font-size: 1.48rem;
-    line-height: 2.5;
-    margin: 1.4rem 0;
-    padding: 1rem 1.25rem;
-    border: 1px solid var(--root-border);
-    border-radius: 18px;
-    background:
-      linear-gradient(180deg, var(--root-accent-soft), transparent),
-      var(--root-panel);
-    color: var(--root-text);
-  }
-
-  .root-note {
-    border-right: 3px solid var(--root-accent);
-    padding: 0.9rem 1rem;
-    background: var(--root-accent-soft);
-    border-radius: 14px;
-    color: var(--root-muted);
-  }
-
-  .root-note strong,
-  .root-subtitle strong {
-    color: var(--root-text);
-  }
-
-  .root-study-page.forqan-page-ltr,
-  .root-study-page.forqan-page-ltr h1,
-  .root-study-page.forqan-page-ltr h2,
-  .root-study-page.forqan-page-ltr h3,
-  .root-study-page.forqan-page-ltr p,
-  .root-study-page.forqan-page-ltr li {
-    direction: ltr;
-    text-align: left;
-  }
-
-  .root-study-page.forqan-page-ltr .root-forms-card ul {
-    padding-right: 0;
-    padding-left: 1.2rem;
-  }
-
-  .root-study-page.forqan-page-ltr .root-toc ol {
-    padding-left: 0;
-  }
-
-  .root-study-page.forqan-page-ltr .root-section h2::before {
-    margin-left: 0;
-    margin-right: 0.55rem;
-  }
-
-  .root-study-page.forqan-page-ltr .root-note {
-    border-right: 0;
-    border-left: 3px solid var(--root-accent);
-  }
-
-  @media (max-width: 760px) {
-    .root-study-page {
-      padding: 2rem 1rem;
-    }
-
-    .root-frame {
-      padding: 1.25rem;
-      border-radius: 19px;
-    }
-
-    .root-section,
-    .root-forms-card,
-    .root-toc {
-      padding: 1rem;
-    }
-
-    .root-toc ol {
-      columns: 1;
-    }
-  }
-</style>
-
-<script>
-  (function () {
-    function parseRGB(value) {
-      var match = String(value || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
-      if (!match) return null;
-      return [Number(match[1]), Number(match[2]), Number(match[3])];
-    }
-
-    function luminance(rgb) {
-      if (!rgb) return 255;
-      return (0.2126 * rgb[0]) + (0.7152 * rgb[1]) + (0.0722 * rgb[2]);
-    }
-
-    function hasToken(text, token) {
-      return new RegExp('(^|\\s|_|-)' + token + '($|\\s|_|-)', 'i').test(String(text || ''));
-    }
-
-    function applyForqanRootTheme() {
-      var page = document.querySelector('.root-study-page');
-      if (!page) return;
-
-      var html = document.documentElement;
-      var body = document.body;
-      var marker = [
-        html.className,
-        body ? body.className : '',
-        html.getAttribute('data-theme'),
-        body ? body.getAttribute('data-theme') : '',
-        html.getAttribute('data-bs-theme'),
-        body ? body.getAttribute('data-bs-theme') : ''
-      ].join(' ');
-
-      var isDark = hasToken(marker, 'dark');
-      var isLight = hasToken(marker, 'light');
-
-      if (!isDark && !isLight) {
-        var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
-                 parseRGB(getComputedStyle(html).backgroundColor);
-        isDark = luminance(bg) < 128;
-      }
-
-      page.classList.toggle('forqan-root-dark', !!isDark);
-      page.classList.toggle('forqan-root-light', !isDark);
-    }
-
-    applyForqanRootTheme();
-    document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
-    window.addEventListener('load', applyForqanRootTheme);
-    setInterval(applyForqanRootTheme, 700);
-  })();
-</script>
 
 <div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
 
@@ -356,12 +10,12 @@ permalink: /quran-terminology/en/roots/n-ayn-m/
   <div class="root-frame">
 <section class="root-hero">
   <div class="root-kicker">Qur’anic Root</div>
-  <h1>Qur'anic Root n ʿ m</h1>
+  <h1>The Qur’anic Root N AYN M (N ʿ M)</h1>
   <p class="root-subtitle">Blessing, favor, ease, expansion, grace, provision, enjoyment, and the responsibility that arises from receiving blessing</p>
 </section>
 <section class="root-section" id="forms">
   <h2>Forms covered from this root</h2>
-  <p>This page studies the Qur'anic root <strong>n ʿ m</strong> and then explains the major Qur'anic forms built from this field:</p>
+  <p>This page studies the Qur’anic root <strong>N AYN M (N ʿ M)</strong> and then explains the major Qur’anic forms built from this field:</p>
   <ul>
     <li><strong>niʿma / niʿimmā</strong> — fixed verb of praise; good it is, how excellent</li>
     <li><strong>naʿʿama</strong> — Form II; to cause someone to enjoy favor, ease, or blessing</li>
@@ -373,13 +27,13 @@ permalink: /quran-terminology/en/roots/n-ayn-m/
     <li><strong>naʿam / anʿām</strong> — noun; livestock, grazing animals, earthly provision</li>
     <li><strong>nāʿimah</strong> — adjective; soft, fresh, flourishing, in a state of ease and blessing</li>
   </ul>
-  <p>Forms such as <strong>naʿima</strong>, <strong>yanʿamu</strong>, <strong>yunʿimu</strong>, <strong>munʿim</strong>, and <strong>nuʿūmah</strong> may be known in Arabic, but they are not central direct Qur'anic forms in this root page. The focus here is on the Qur'anic forms of <strong>n ʿ m</strong>.</p>
+  <p>Forms such as <strong>naʿima</strong>, <strong>yanʿamu</strong>, <strong>yunʿimu</strong>, <strong>munʿim</strong>, and <strong>nuʿūmah</strong> may be known in Arabic, but they are not central direct Qur’anic forms in this root page. The focus here is on the Qur’anic forms of <strong>N AYN M (N ʿ M)</strong>.</p>
   <p>We must also distinguish <strong>niʿmah</strong>, <strong>naʿmah</strong>, <strong>naʿīm</strong>, and <strong>anʿām</strong>. They all belong to the field of favor and enjoyment, but one points to blessing and grace, one to comfort and prosperity, one to deep and lasting delight, and one to livestock and earthly provision.</p>
 </section>
 <nav class="root-toc" aria-label="Root usage table of contents">
   <h2>Root usage table of contents</h2>
   <ol>
-    <li><a href="#s01">The general meaning of the root n ʿ m</a></li>
+    <li><a href="#s01">The general meaning of the root N AYN M (N ʿ M)</a></li>
     <li><a href="#s02">Blessing beyond wealth and comfort</a></li>
     <li><a href="#s03">niʿma / niʿimmā: praise and goodness</a></li>
     <li><a href="#s04">anʿama: granting favor and placing someone within blessing</a></li>
@@ -397,29 +51,29 @@ permalink: /quran-terminology/en/roots/n-ayn-m/
   </ol>
 </nav>
 <section class="root-section" id="s01">
-  <h2>The general meaning of the root n ʿ m</h2>
-  <p>The root <strong>n ʿ m</strong> in the Qur'an points to blessing, favor, ease, expansion, grace, provision, enjoyment, goodness, and being placed in a better condition. It is not limited to wealth or material comfort.</p>
+  <h2>The general meaning of the root N AYN M (N ʿ M)</h2>
+  <p>The root <strong>N AYN M (N ʿ M)</strong> in the Qur’an points to blessing, favor, ease, expansion, grace, provision, enjoyment, goodness, and being placed in a better condition. It is not limited to wealth or material comfort.</p>
   <p>A blessing is anything that moves a human being out of deprivation, constriction, darkness, or incapacity and places that person in a better state. It may be provision, safety, guidance, intellect, opportunity, family, rescue, knowledge, ability, or mercy that brings a person closer to growth.</p>
-  <p>But blessing in the Qur'an is not merely privilege. Blessing creates responsibility. The more a person receives, the more that person must ask: where did this blessing come from, how should it be used, and does it lead me to gratitude, justice, and humility or to arrogance, heedlessness, and corruption?</p>
-  <p>The root <strong>n ʿ m</strong> therefore calls the human being to recognize God's gifts and the responsibility attached to them. If blessing is understood rightly, it leads to gratitude and reform. If it is misunderstood, it can become self-admiration, ingratitude, and a severe test.</p>
+  <p>But blessing in the Qur’an is not merely privilege. Blessing creates responsibility. The more a person receives, the more that person must ask: where did this blessing come from, how should it be used, and does it lead me to gratitude, justice, and humility or to arrogance, heedlessness, and corruption?</p>
+  <p>The root <strong>N AYN M (N ʿ M)</strong> therefore calls the human being to recognize God's gifts and the responsibility attached to them. If blessing is understood rightly, it leads to gratitude and reform. If it is misunderstood, it can become self-admiration, ingratitude, and a severe test.</p>
 </section>
 <section class="root-section" id="s02">
   <h2>Blessing beyond wealth and comfort</h2>
-  <p>Many people think of blessing as wealth, comfort, health, children, a home, power, or prosperity. These can be blessings, but the Qur'an does not restrict blessing to them.</p>
+  <p>Many people think of blessing as wealth, comfort, health, children, a home, power, or prosperity. These can be blessings, but the Qur’an does not restrict blessing to them.</p>
   <p>Guidance is also a blessing. Rescue from injustice is a blessing. The clarification of truth is a blessing. Having time to repent is a blessing. The ability to understand, hear, see, and reform is also a blessing. Even hardship, if it awakens a person and rescues them from collapse, may ultimately be understood within the field of blessing.</p>
   <p>Blessing is not merely what makes a person feel pleased. It is what, when understood and used rightly, brings a person closer to truth. For that reason, blessing is tied to responsibility.</p>
   <p>If a person sees only outward blessings and ignores the blessing of guidance, reason, fitrah, and opportunity, their vision remains incomplete. And if blessing is desired only for personal pleasure, its truth is missed.</p>
 </section>
 <section class="root-section" id="s03">
   <h2>niʿma / niʿimmā: praise and goodness</h2>
-  <p><strong>niʿma</strong> is a fixed verb of praise in the Qur'an. It is used to commend something as good, excellent, or worthy of approval. This shows that the root <strong>n ʿ m</strong> is tied not only to material enjoyment but also to goodness and worthiness.</p>
+  <p><strong>niʿma</strong> is a fixed verb of praise in the Qur’an. It is used to commend something as good, excellent, or worthy of approval. This shows that the root <strong>N AYN M (N ʿ M)</strong> is tied not only to material enjoyment but also to goodness and worthiness.</p>
   <p>When something is described through <strong>niʿma</strong>, it is being marked as good, fitting, and praiseworthy. This reminds us that blessing is connected to true good, not merely to pleasure and ease.</p>
-  <p>Something may be pleasant to the ego yet not truly good. Something else may be difficult at first yet contain true good in its outcome. Qur'anic thought about blessing is therefore deeper than immediate feeling; it looks to truth, goodness, and result.</p>
+  <p>Something may be pleasant to the ego yet not truly good. Something else may be difficult at first yet contain true good in its outcome. Qur’anic thought about blessing is therefore deeper than immediate feeling; it looks to truth, goodness, and result.</p>
   <p>Thus <strong>niʿma</strong> returns us to the criterion of goodness: does this thing bring a person closer to truth, gratitude, justice, and growth?</p>
 </section>
 <section class="root-section" id="s04">
   <h2>anʿama: granting favor and placing someone within blessing</h2>
-  <p><strong>anʿama</strong> means to bestow favor, grant blessing, cause someone to benefit, or place someone in a state of favor. In the Qur'an, true blessing comes from God, because He is the source of all possibility, ability, provision, guidance, and rescue.</p>
+  <p><strong>anʿama</strong> means to bestow favor, grant blessing, cause someone to benefit, or place someone in a state of favor. In the Qur’an, true blessing comes from God, because He is the source of all possibility, ability, provision, guidance, and rescue.</p>
   <p>When God blesses someone, He does not merely add something to that person. He places that person in a position where growth, gratitude, recognition of the path, and responsibility become possible.</p>
   <p>This point is important: God's giving of blessing does not always mean final approval of the person. A person may be given prosperity, but that prosperity may be a test. Wealth, power, or opportunity may be given, yet the person may use it for corruption. So blessing must be joined to gratitude, mindfulness, and responsibility in order to become good.</p>
   <p><strong>anʿama</strong> reminds the human being of the source of blessing. What a person has did not begin from the person. The human being is a receiver, not an independent owner.</p>
@@ -435,7 +89,7 @@ permalink: /quran-terminology/en/roots/n-ayn-m/
   <h2>niʿmah: blessing, grace, and responsibility</h2>
   <p><strong>niʿmah</strong> is one of the most important words from this root. It points to blessing, grace, kindness, favor, and a gift given to the human being.</p>
   <p>A blessing may have a clear outward form, such as provision, safety, health, and family. But it may also have a deeper meaning: guidance, scripture, fitrah, reason, opportunity, forgiveness, and rescue from darkness.</p>
-  <p>The Qur'an does not only call the human being to see blessing; it calls the human being to remember blessing. Human beings forget. When a blessing becomes ordinary, a person begins to imagine it as a natural entitlement. That forgetfulness is the beginning of ingratitude.</p>
+  <p>The Qur’an does not only call the human being to see blessing; it calls the human being to remember blessing. Human beings forget. When a blessing becomes ordinary, a person begins to imagine it as a natural entitlement. That forgetfulness is the beginning of ingratitude.</p>
   <p>Therefore <strong>niʿmah</strong> is tied to remembrance, gratitude, and responsibility. A person must recognize the blessing, not forget its source, and use it in the right path.</p>
 </section>
 <section class="root-section" id="s07">
@@ -447,15 +101,15 @@ permalink: /quran-terminology/en/roots/n-ayn-m/
 </section>
 <section class="root-section" id="s08">
   <h2>naʿīm: deep and lasting enjoyment</h2>
-  <p><strong>naʿīm</strong> points to abundant blessing, deep ease, and wide, lasting enjoyment. In the Qur'an, this word is often connected with the Hereafter and reward.</p>
+  <p><strong>naʿīm</strong> points to abundant blessing, deep ease, and wide, lasting enjoyment. In the Qur’an, this word is often connected with the Hereafter and reward.</p>
   <p>Naʿīm is not merely passing pleasure. Worldly pleasures may be short, unstable, and mixed with anxiety. But <strong>naʿīm</strong>, in its deeper sense, is enjoyment joined to peace, satisfaction, safety, and mercy.</p>
-  <p>At the same time, the Qur'an reminds the human being that even naʿīm will be asked about. Enjoyment, comfort, and blessing are not without account. A person must know that blessing is not only for consumption; it is for recognition, gratitude, and responsibility.</p>
+  <p>At the same time, the Qur’an reminds the human being that even naʿīm will be asked about. Enjoyment, comfort, and blessing are not without account. A person must know that blessing is not only for consumption; it is for recognition, gratitude, and responsibility.</p>
   <p>Thus <strong>naʿīm</strong> takes the human being toward hope in God's mercy and also toward wakefulness regarding the responsibility of blessing.</p>
 </section>
 <section class="root-section" id="s09">
   <h2>naʿam and anʿām: livestock, earthly provision, and signs of favor</h2>
   <p><strong>naʿam</strong> and <strong>anʿām</strong> refer to livestock and grazing animals: creatures that have provided food, transport, clothing, and other forms of benefit in human life.</p>
-  <p>This branch of the root <strong>n ʿ m</strong> shows that blessing is not only mental or spiritual; it appears in the earth, the body, food, animals, nature, and daily life. Human beings benefit from created beings, but this benefit must be joined to gratitude, mercy, and responsibility.</p>
+  <p>This branch of the root <strong>N AYN M (N ʿ M)</strong> shows that blessing is not only mental or spiritual; it appears in the earth, the body, food, animals, nature, and daily life. Human beings benefit from created beings, but this benefit must be joined to gratitude, mercy, and responsibility.</p>
   <p><strong>anʿām</strong> should not be seen merely as a resource for consumption. They are signs of divine favor. If a human being benefits from animals, that benefit is not an absolute, responsibility-free entitlement.</p>
   <p>This word therefore leads to an ethic of using earthly blessings: benefit without oppression, gratitude without waste, and use without forgetting God.</p>
 </section>
@@ -468,7 +122,7 @@ permalink: /quran-terminology/en/roots/n-ayn-m/
 </section>
 <section class="root-section" id="s11">
   <h2>Blessing and gratitude</h2>
-  <p>Blessing in the Qur'an is deeply tied to gratitude. Gratitude is not merely saying thanks. Gratitude means recognizing the blessing, recognizing the giver of the blessing, and using the blessing rightly.</p>
+  <p>Blessing in the Qur’an is deeply tied to gratitude. Gratitude is not merely saying thanks. Gratitude means recognizing the blessing, recognizing the giver of the blessing, and using the blessing rightly.</p>
   <p>If a person uses a blessing for injustice, waste, corruption, humiliating others, or forgetting God, that person has not been grateful, even if the tongue says beautiful words. Gratitude must be seen in action.</p>
   <p>Gratitude for blessing means wealth is used for good, knowledge for clarifying truth, power for justice, health for service, and guidance for reforming oneself and society.</p>
   <p>Gratitude is therefore the right human response to blessing. Blessing without gratitude can weigh a person down, but blessing with gratitude raises a person.</p>
@@ -478,7 +132,7 @@ permalink: /quran-terminology/en/roots/n-ayn-m/
   <p>Blessing is not always the easiest test. Sometimes hardship makes a person turn to God, while blessing makes a person heedless. For that reason, blessing can become a trial.</p>
   <p>The trial of blessing means a person is tested through prosperity. When a person has power, does he remain just? When he has wealth, does he become generous? When he has ease, does he remember God? When he has knowledge, does he become arrogant? When he has guidance, does he humiliate others?</p>
   <p>These questions show that blessing contains danger as well. If blessing does not lead a person to gratitude, humility, and reform, it can become arrogance, waste, hardness of heart, and collapse.</p>
-  <p>The Qur'an therefore calls the human being not to become heedless of blessing. Blessing must be seen rightly: as grace, responsibility, and test.</p>
+  <p>The Qur’an therefore calls the human being not to become heedless of blessing. Blessing must be seen rightly: as grace, responsibility, and test.</p>
 </section>
 <section class="root-section" id="s13">
   <h2>Blessing, guidance, and responsibility</h2>
@@ -489,18 +143,18 @@ permalink: /quran-terminology/en/roots/n-ayn-m/
 </section>
 <section class="root-section" id="s14">
   <h2>Divine blessing and the illusion of human ownership</h2>
-  <p>One danger of blessing is that a person attributes it to the self. He says: my knowledge, my wealth, my power, my beauty, my family, my status. But the Qur'an pulls the human being out of this illusion.</p>
+  <p>One danger of blessing is that a person attributes it to the self. He says: my knowledge, my wealth, my power, my beauty, my family, my status. But the Qur’an pulls the human being out of this illusion.</p>
   <p>What a person has did not begin from the person. Human beings are not the creators of their own life, not the owners of their own time, not the final sustainers of their own provision, and not the independent owners of their opportunities. They are receivers.</p>
   <p>This understanding does not humiliate the human being; it awakens them. A person must use blessing, grow, build, learn, and serve, but must not forget the source of blessing.</p>
   <p>If blessing leads to the illusion of absolute ownership, it distances a person from God. But if it leads to gratitude and trustworthiness, it brings the person nearer to God.</p>
 </section>
 <section class="root-section" id="s15">
   <h2>Conclusion</h2>
-  <p>The root <strong>n ʿ m</strong> in the Qur'an calls the human being to recognize blessing, favor, grace, ease, provision, guidance, and responsibility. It shows that blessing is not only wealth and comfort; anything that places a human being in a better condition and brings them closer to growth, gratitude, and truth can belong to the field of blessing.</p>
+  <p>The root <strong>N AYN M (N ʿ M)</strong> in the Qur’an calls the human being to recognize blessing, favor, grace, ease, provision, guidance, and responsibility. It shows that blessing is not only wealth and comfort; anything that places a human being in a better condition and brings them closer to growth, gratitude, and truth can belong to the field of blessing.</p>
   <p><strong>niʿma</strong> speaks of goodness and praise. <strong>anʿama</strong> speaks of granting favor. <strong>niʿmah</strong> speaks of grace and gift. <strong>naʿmah</strong> and <strong>naʿmāʾ</strong> speak of comfort and ease. <strong>naʿīm</strong> speaks of deep and lasting enjoyment. <strong>naʿam</strong> and <strong>anʿām</strong> speak of earthly and biological provision. And <strong>nāʿimah</strong> speaks of the effect of blessing on the human state.</p>
   <p>If blessing is understood rightly, it leads to gratitude, justice, humility, and responsibility. If it is misunderstood, it can become trial, arrogance, waste, and forgetfulness of God.</p>
   <p>Blessing is therefore not merely something a person enjoys. It is something a person must recognize, be grateful for, use rightly, and carry toward truth:</p>
-  <div class="arabic-quote"><strong>صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ</strong></div>
+  <div class="arabic-quote"><strong>صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ</strong> <span class="root-translit-inline">(ṣirāṭa alladhīna anʿamta ʿalayhim)</span></div>
 </section>
   </div>
 </div>

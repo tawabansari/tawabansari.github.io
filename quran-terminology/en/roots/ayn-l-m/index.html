@@ -1,354 +1,8 @@
 ---
 layout: default
-title: The Qur’anic Root ʿ L M
+title: The Qur’anic Root AYN L M (ʿ L M)
 permalink: /quran-terminology/en/roots/ayn-l-m/
 ---
-
-<style>
-  .root-study-page {
-    --root-bg: #f7f3ea;
-    --root-card: #fffaf1;
-    --root-panel: #fffdf7;
-    --root-section: #fffaf2;
-    --root-text: #2f2a22;
-    --root-muted: #6d6255;
-    --root-soft: #f0e5d2;
-    --root-border: rgba(148, 114, 55, 0.28);
-    --root-border-soft: rgba(148, 114, 55, 0.16);
-    --root-accent: #b9852f;
-    --root-accent-deep: #8b6423;
-    --root-accent-soft: rgba(185, 133, 47, 0.11);
-    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
-
-    direction: rtl;
-    text-align: right;
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 3.5rem 1.25rem;
-    line-height: 2.05;
-    color: var(--root-text);
-  }
-
-  /* Dark mode follows the website toggle/classes, not the OS preference. */
-  html.dark .root-study-page,
-  body.dark .root-study-page,
-  html.dark-mode .root-study-page,
-  body.dark-mode .root-study-page,
-  html[data-theme="dark"] .root-study-page,
-  body[data-theme="dark"] .root-study-page,
-  [data-bs-theme="dark"] .root-study-page,
-  .forqan-theme-dark .root-study-page,
-  .theme-dark .root-study-page,
-  .root-study-page.forqan-root-dark {
-    --root-bg: #0f1a2c;
-    --root-card: #121f33;
-    --root-panel: #1b2a40;
-    --root-section: rgba(255, 255, 255, 0.035);
-    --root-text: #ece7dc;
-    --root-muted: #beb6a7;
-    --root-soft: rgba(255, 255, 255, 0.06);
-    --root-border: rgba(214, 176, 95, 0.24);
-    --root-border-soft: rgba(214, 176, 95, 0.16);
-    --root-accent: #d6b05f;
-    --root-accent-deep: #f0cf7a;
-    --root-accent-soft: rgba(214, 176, 95, 0.12);
-    --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
-  }
-
-  html.light .root-study-page,
-  body.light .root-study-page,
-  html.light-mode .root-study-page,
-  body.light-mode .root-study-page,
-  html[data-theme="light"] .root-study-page,
-  body[data-theme="light"] .root-study-page,
-  [data-bs-theme="light"] .root-study-page,
-  .forqan-theme-light .root-study-page,
-  .theme-light .root-study-page,
-  .root-study-page.forqan-root-light {
-    --root-bg: #f7f3ea;
-    --root-card: #fffaf1;
-    --root-panel: #fffdf7;
-    --root-section: #fffaf2;
-    --root-text: #2f2a22;
-    --root-muted: #6d6255;
-    --root-soft: #f0e5d2;
-    --root-border: rgba(148, 114, 55, 0.28);
-    --root-border-soft: rgba(148, 114, 55, 0.16);
-    --root-accent: #b9852f;
-    --root-accent-deep: #8b6423;
-    --root-accent-soft: rgba(185, 133, 47, 0.11);
-    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
-  }
-
-  .root-study-page * {
-    box-sizing: border-box;
-  }
-
-  .root-study-page,
-  .root-study-page h1,
-  .root-study-page h2,
-  .root-study-page h3,
-  .root-study-page p,
-  .root-study-page li,
-  .root-study-page strong {
-    color: var(--root-text);
-  }
-
-  .root-study-page h1,
-  .root-study-page h2,
-  .root-study-page h3,
-  .root-study-page p,
-  .root-study-page li {
-    direction: rtl;
-    text-align: right;
-  }
-
-  .root-frame {
-    background:
-      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
-      var(--root-card);
-    border: 1px solid var(--root-border);
-    border-radius: 26px;
-    padding: 2.4rem;
-    box-shadow: var(--root-shadow);
-  }
-
-  .root-hero {
-    border-bottom: 1px solid var(--root-border-soft);
-    padding-bottom: 1.65rem;
-    margin-bottom: 2rem;
-  }
-
-  .root-kicker {
-    color: var(--root-accent-deep);
-    font-size: 0.96rem;
-    font-weight: 800;
-    margin-bottom: 0.45rem;
-    letter-spacing: 0.01em;
-  }
-
-  .root-study-page h1 {
-    margin: 0;
-    font-size: clamp(2rem, 4vw, 3.05rem);
-    line-height: 1.4;
-    letter-spacing: -0.02em;
-  }
-
-  .root-subtitle {
-    color: var(--root-muted);
-    max-width: 780px;
-    margin: 1rem 0 0;
-    font-size: 1.04rem;
-  }
-
-  .root-forms-card,
-  .root-toc {
-    background:
-      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
-      var(--root-panel);
-    border: 1px solid var(--root-border);
-    border-radius: 20px;
-    padding: 1.35rem 1.55rem;
-    margin: 1.55rem 0;
-  }
-
-  .root-forms-card h2,
-  .root-toc h2 {
-    margin-top: 0;
-  }
-
-  .root-forms-card ul {
-    padding-right: 1.2rem;
-    margin: 0.75rem 0 0;
-  }
-
-  .root-forms-card li {
-    margin: 0.48rem 0;
-  }
-
-  .root-toc ol {
-    list-style-position: inside;
-    padding-right: 0;
-    margin: 0.75rem 0 0;
-    columns: 2;
-    column-gap: 2rem;
-  }
-
-  .root-toc li {
-    margin: 0.28rem 0;
-    break-inside: avoid;
-  }
-
-  .root-section {
-    background: var(--root-section);
-    border: 1px solid var(--root-border-soft);
-    border-radius: 18px;
-    padding: 1.5rem 1.6rem;
-    margin: 1.55rem 0;
-  }
-
-  .root-section h2 {
-    margin: 0 0 1rem;
-    color: var(--root-text);
-    font-size: 1.35rem;
-    line-height: 1.6;
-  }
-
-  .root-section h2::before {
-    content: "";
-    display: inline-block;
-    width: 0.58rem;
-    height: 0.58rem;
-    border-radius: 999px;
-    background: var(--root-accent);
-    margin-left: 0.55rem;
-    vertical-align: 0.08em;
-  }
-
-  .root-study-page p {
-    margin: 0.85rem 0;
-  }
-
-  .root-study-page a {
-    color: var(--root-accent-deep);
-    text-decoration: none;
-    border-bottom: 1px dotted currentColor;
-  }
-
-  .root-study-page a:hover {
-    color: var(--root-accent);
-  }
-
-  .arabic-quote {
-    direction: rtl;
-    text-align: center;
-    font-size: 1.48rem;
-    line-height: 2.5;
-    margin: 1.4rem 0;
-    padding: 1rem 1.25rem;
-    border: 1px solid var(--root-border);
-    border-radius: 18px;
-    background:
-      linear-gradient(180deg, var(--root-accent-soft), transparent),
-      var(--root-panel);
-    color: var(--root-text);
-  }
-
-  .root-note {
-    border-right: 3px solid var(--root-accent);
-    padding: 0.9rem 1rem;
-    background: var(--root-accent-soft);
-    border-radius: 14px;
-    color: var(--root-muted);
-  }
-
-  .root-note strong,
-  .root-subtitle strong {
-    color: var(--root-text);
-  }
-
-  .root-study-page.forqan-page-ltr,
-  .root-study-page.forqan-page-ltr h1,
-  .root-study-page.forqan-page-ltr h2,
-  .root-study-page.forqan-page-ltr h3,
-  .root-study-page.forqan-page-ltr p,
-  .root-study-page.forqan-page-ltr li {
-    direction: ltr;
-    text-align: left;
-  }
-
-  .root-study-page.forqan-page-ltr .root-forms-card ul {
-    padding-right: 0;
-    padding-left: 1.2rem;
-  }
-
-  .root-study-page.forqan-page-ltr .root-toc ol {
-    padding-left: 0;
-  }
-
-  .root-study-page.forqan-page-ltr .root-section h2::before {
-    margin-left: 0;
-    margin-right: 0.55rem;
-  }
-
-  .root-study-page.forqan-page-ltr .root-note {
-    border-right: 0;
-    border-left: 3px solid var(--root-accent);
-  }
-
-  @media (max-width: 760px) {
-    .root-study-page {
-      padding: 2rem 1rem;
-    }
-
-    .root-frame {
-      padding: 1.25rem;
-      border-radius: 19px;
-    }
-
-    .root-section,
-    .root-forms-card,
-    .root-toc {
-      padding: 1rem;
-    }
-
-    .root-toc ol {
-      columns: 1;
-    }
-  }
-</style>
-
-<script>
-  (function () {
-    function parseRGB(value) {
-      var match = String(value || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
-      if (!match) return null;
-      return [Number(match[1]), Number(match[2]), Number(match[3])];
-    }
-
-    function luminance(rgb) {
-      if (!rgb) return 255;
-      return (0.2126 * rgb[0]) + (0.7152 * rgb[1]) + (0.0722 * rgb[2]);
-    }
-
-    function hasToken(text, token) {
-      return new RegExp('(^|\\s|_|-)' + token + '($|\\s|_|-)', 'i').test(String(text || ''));
-    }
-
-    function applyForqanRootTheme() {
-      var page = document.querySelector('.root-study-page');
-      if (!page) return;
-
-      var html = document.documentElement;
-      var body = document.body;
-      var marker = [
-        html.className,
-        body ? body.className : '',
-        html.getAttribute('data-theme'),
-        body ? body.getAttribute('data-theme') : '',
-        html.getAttribute('data-bs-theme'),
-        body ? body.getAttribute('data-bs-theme') : ''
-      ].join(' ');
-
-      var isDark = hasToken(marker, 'dark');
-      var isLight = hasToken(marker, 'light');
-
-      if (!isDark && !isLight) {
-        var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
-                 parseRGB(getComputedStyle(html).backgroundColor);
-        isDark = luminance(bg) < 128;
-      }
-
-      page.classList.toggle('forqan-root-dark', !!isDark);
-      page.classList.toggle('forqan-root-light', !isDark);
-    }
-
-    applyForqanRootTheme();
-    document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
-    window.addEventListener('load', applyForqanRootTheme);
-    setInterval(applyForqanRootTheme, 700);
-  })();
-</script>
 
 <div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
 
@@ -356,7 +10,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
   <div class="root-frame">
 <section class="root-hero">
     <div class="root-kicker">Qur’anic Root</div>
-    <h1>The Qur’anic Root ʿ L M</h1>
+    <h1>The Qur’anic Root AYN L M (ʿ L M)</h1>
     <p class="root-subtitle">Knowing, recognition, the disclosure of truth, teaching, signs, and worlds known through distinction and recognition</p>
   </section>
 
@@ -364,36 +18,36 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>Forms Covered from This Root</h2>
 
     <p>
-      In this page, the root <strong>ع ل م</strong> is studied semantically, then the most important Qur’anic forms of this root are explained separately:
+      In this page, the root <strong>ع ل م</strong> <span class="root-translit-inline">(AYN L M / ʿ L M)</span> is studied semantically, then the most important Qur’anic forms of this root are explained separately:
     </p>
 
     <ul>
-      <li><strong>عَلِمَ / يَعْلَمُ / اعْلَمُ</strong> — simple verb; he knew, he knows, know</li>
-      <li><strong>عُلِمَ / يُعْلَمُ</strong> — passive verb; it was known, it is known</li>
-      <li><strong>عَلَّمَ / يُعَلِّمُ / عَلِّمْ</strong> — Form II; he taught, he teaches, teach</li>
-      <li><strong>عُلِّمَ / يُعَلَّمُ</strong> — passive Form II; it was taught, it is taught</li>
-      <li><strong>تَعَلَّمَ / يَتَعَلَّمُ</strong> — Form V; learning, acquiring knowledge</li>
-      <li><strong>عِلْم</strong> — noun / verbal noun; knowledge, recognition, awareness</li>
-      <li><strong>عَلِيم</strong> — adjective; knowing, aware, possessing knowledge</li>
-      <li><strong>عُلَمَاء</strong> — plural; the knowledgeable, those who possess knowledge</li>
-      <li><strong>عَلَّام</strong> — intensive form; All-Knowing, greatly knowing, intensely aware</li>
-      <li><strong>أَعْلَم</strong> — comparative/superlative; more knowing, most knowing, more aware</li>
-      <li><strong>مَعْلُوم / مَعْلُومَات</strong> — passive participle; known, made known, known things</li>
-      <li><strong>مُعَلَّم</strong> — passive participle of Form II; taught, trained, instructed</li>
-      <li><strong>عَالَم / عَالَمِين</strong> — noun; world, worlds, realms, or created categories known through distinction</li>
-      <li><strong>عَلَامَات</strong> — signs</li>
-      <li><strong>أَعْلَام</strong> — high signs, visible markers, or things that show the way</li>
+      <li><strong>عَلِمَ / يَعْلَمُ / اعْلَمُ</strong> <span class="root-translit-inline">(ʿalima / yaʿlamu / iʿlam)</span> — simple verb; he knew, he knows, know</li>
+      <li><strong>عُلِمَ / يُعْلَمُ</strong> <span class="root-translit-inline">(ʿulima / yuʿlamu)</span> — passive verb; it was known, it is known</li>
+      <li><strong>عَلَّمَ / يُعَلِّمُ / عَلِّمْ</strong> <span class="root-translit-inline">(ʿallama / yuʿallimu / ʿallim)</span> — Form II; he taught, he teaches, teach</li>
+      <li><strong>عُلِّمَ / يُعَلَّمُ</strong> <span class="root-translit-inline">(ʿullima / yuʿallamu)</span> — passive Form II; it was taught, it is taught</li>
+      <li><strong>تَعَلَّمَ / يَتَعَلَّمُ</strong> <span class="root-translit-inline">(taʿallama / yataʿallamu)</span> — Form V; learning, acquiring knowledge</li>
+      <li><strong>عِلْم</strong> <span class="root-translit-inline">(ʿilm)</span> — noun / verbal noun; knowledge, recognition, awareness</li>
+      <li><strong>عَلِيم</strong> <span class="root-translit-inline">(ʿalīm)</span> — adjective; knowing, aware, possessing knowledge</li>
+      <li><strong>عُلَمَاء</strong> <span class="root-translit-inline">(ʿulamāʾ)</span> — plural; the knowledgeable, those who possess knowledge</li>
+      <li><strong>عَلَّام</strong> <span class="root-translit-inline">(ʿallām)</span> — intensive form; All-Knowing, greatly knowing, intensely aware</li>
+      <li><strong>أَعْلَم</strong> <span class="root-translit-inline">(aʿlam)</span> — comparative/superlative; more knowing, most knowing, more aware</li>
+      <li><strong>مَعْلُوم / مَعْلُومَات</strong> <span class="root-translit-inline">(maʿlūm / maʿlūmāt)</span> — passive participle; known, made known, known things</li>
+      <li><strong>مُعَلَّم</strong> <span class="root-translit-inline">(muʿallam)</span> — passive participle of Form II; taught, trained, instructed</li>
+      <li><strong>عَالَم / عَالَمِين</strong> <span class="root-translit-inline">(ʿālam / ʿālamīn)</span> — noun; world, worlds, realms, or created categories known through distinction</li>
+      <li><strong>عَلَامَات</strong> <span class="root-translit-inline">(ʿalāmāt)</span> — signs</li>
+      <li><strong>أَعْلَام</strong> <span class="root-translit-inline">(aʿlām)</span> — high signs, visible markers, or things that show the way</li>
     </ul>
 
     <p>
-      Note: Some Arabic forms from this root, such as <strong>أَعْلَمَ / يُعْلِمُ</strong>, <strong>اسْتَعْلَمَ</strong>, <strong>عَالِم</strong> in the sense of “knower / scholar,” the singular <strong>عَلَامَة</strong>, and <strong>مَعَالِم</strong>, are known in Arabic. But they are not listed as direct Qur’anic forms of this root. This page focuses mainly on the forms that occur in the Qur’an, or that are needed to understand the Qur’anic usage of this root.
+      Note: Some Arabic forms from this root, such as <strong>أَعْلَمَ / يُعْلِمُ</strong> <span class="root-translit-inline">(aʿlama / yuʿlimu)</span>, <strong>اسْتَعْلَمَ</strong> <span class="root-translit-inline">(istaʿlama)</span>, <strong>عَالِم</strong> <span class="root-translit-inline">(ʿālim)</span> in the sense of “knower / scholar,” the singular <strong>عَلَامَة</strong> <span class="root-translit-inline">(ʿalāmah)</span>, and <strong>مَعَالِم</strong> <span class="root-translit-inline">(maʿālim)</span>, are known in Arabic. But they are not listed as direct Qur’anic forms of this root. This page focuses mainly on the forms that occur in the Qur’an, or that are needed to understand the Qur’anic usage of this root.
     </p>
   </section>
 
   <nav class="root-toc" aria-label="Article section index">
     <h2>Index of This Root’s Uses</h2>
     <ol>
-      <li><a href="#general-meaning">General Meaning of the Root ʿ L M</a></li>
+      <li><a href="#general-meaning">General Meaning of the Root AYN L M (ʿ L M)</a></li>
       <li><a href="#beyond-information">ʿIlm: Beyond Information</a></li>
       <li><a href="#ilm-vs-zann-jahl">Knowledge Against Assumption, Ignorance, and Baseless Following</a></li>
       <li><a href="#alima-yalamu">ʿAlima / Yaʿlamu: Knowing and Being Aware</a></li>
@@ -414,10 +68,10 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
   </nav>
 
   <section class="root-section" id="general-meaning">
-    <h2>General Meaning of the Root ʿ L M</h2>
+    <h2>General Meaning of the Root AYN L M (ʿ L M)</h2>
 
     <p>
-      The root <strong>ع ل م</strong> in the Qur’an points to the semantic field of knowing, recognition, awareness, becoming clear, teaching, sign, and distinction. This root is not limited to storing information in the mind. In the Qur’an, knowledge is usually connected with recognizing truth, seeing signs, understanding responsibility, and separating oneself from ignorance and assumption.
+      The root <strong>ع ل م</strong> <span class="root-translit-inline">(AYN L M / ʿ L M)</span> in the Qur’an points to the semantic field of knowing, recognition, awareness, becoming clear, teaching, sign, and distinction. This root is not limited to storing information in the mind. In the Qur’an, knowledge is usually connected with recognizing truth, seeing signs, understanding responsibility, and separating oneself from ignorance and assumption.
     </p>
 
     <p>
@@ -457,7 +111,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>Knowledge Against Assumption, Ignorance, and Baseless Following</h2>
 
     <p>
-      One of the important roles of the root <strong>ع ل م</strong> in the Qur’an is to distinguish knowledge from assumption, ignorance, and baseless following.
+      One of the important roles of the root <strong>ع ل م</strong> <span class="root-translit-inline">(AYN L M / ʿ L M)</span> in the Qur’an is to distinguish knowledge from assumption, ignorance, and baseless following.
     </p>
 
     <p>
@@ -481,7 +135,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>ʿAlima / Yaʿlamu: Knowing and Being Aware</h2>
 
     <p>
-      The forms <strong>عَلِمَ</strong> and <strong>يَعْلَمُ</strong> are among the foundations of this root. These forms point to knowing, being aware, understanding, and recognizing.
+      The forms <strong>عَلِمَ</strong> <span class="root-translit-inline">(ʿalima)</span> and <strong>يَعْلَمُ</strong> <span class="root-translit-inline">(yaʿlamu)</span> are among the foundations of this root. These forms point to knowing, being aware, understanding, and recognizing.
     </p>
 
     <p>
@@ -501,7 +155,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>ʿUlima / Yuʿlamu: Being Known and Becoming Clear</h2>
 
     <p>
-      The passive forms <strong>عُلِمَ</strong> and <strong>يُعْلَمُ</strong> point to something being known or becoming clear. In this state, attention is on the clarification of the truth itself, not only on the subject who knows.
+      The passive forms <strong>عُلِمَ</strong> <span class="root-translit-inline">(ʿulima)</span> and <strong>يُعْلَمُ</strong> <span class="root-translit-inline">(yuʿlamu)</span> point to something being known or becoming clear. In this state, attention is on the clarification of the truth itself, not only on the subject who knows.
     </p>
 
     <p>
@@ -521,7 +175,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>ʿAllama / Yuʿallimu: Teaching and Conveying Knowledge</h2>
 
     <p>
-      Form II of this root, such as <strong>عَلَّمَ</strong> and <strong>يُعَلِّمُ</strong>, points to teaching and giving instruction. Teaching means knowledge is carried from one place to another, but in the Qur’anic view teaching is not merely the transfer of words.
+      Form II of this root, such as <strong>عَلَّمَ</strong> <span class="root-translit-inline">(ʿallama)</span> and <strong>يُعَلِّمُ</strong> <span class="root-translit-inline">(yuʿallimu)</span>, points to teaching and giving instruction. Teaching means knowledge is carried from one place to another, but in the Qur’anic view teaching is not merely the transfer of words.
     </p>
 
     <p>
@@ -541,7 +195,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>Taʿallama / Yataʿallamu: Learning and Acquiring</h2>
 
     <p>
-      The form <strong>يَتَعَلَّمُ</strong> points to learning and acquiring knowledge. This usage shows that the human being is not merely a passive receiver; he moves along the path of learning, chooses, and learns something.
+      The form <strong>يَتَعَلَّمُ</strong> <span class="root-translit-inline">(yataʿallamu)</span> points to learning and acquiring knowledge. This usage shows that the human being is not merely a passive receiver; he moves along the path of learning, chooses, and learns something.
     </p>
 
     <p>
@@ -561,7 +215,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>ʿIlm: Knowledge, Recognition, and the Measure of Responsibility</h2>
 
     <p>
-      <strong>عِلْم</strong> is one of the most important forms of this root. Knowledge in the Qur’an is a blessing, a trust, and a measure of responsibility.
+      <strong>عِلْم</strong> <span class="root-translit-inline">(ʿilm)</span> is one of the most important forms of this root. Knowledge in the Qur’an is a blessing, a trust, and a measure of responsibility.
     </p>
 
     <p>
@@ -581,15 +235,15 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>ʿAlīm, ʿAllām, and Aʿlam: Degrees of Awareness and Divine Knowledge</h2>
 
     <p>
-      <strong>عَلِيم</strong> is one of the important divine descriptions in the Qur’an. This word shows that The God is knowing; but the knowledge of The God is not like human knowledge. The God does not learn through experience, instruction, guesswork, or time. His knowledge is complete, all-encompassing, and surrounding.
+      <strong>عَلِيم</strong> <span class="root-translit-inline">(ʿalīm)</span> is one of the important divine descriptions in the Qur’an. This word shows that The God is knowing; but the knowledge of The God is not like human knowledge. The God does not learn through experience, instruction, guesswork, or time. His knowledge is complete, all-encompassing, and surrounding.
     </p>
 
     <p>
-      <strong>عَلَّام</strong> is an intensive form and appears in expressions connected to knowing the unseen and hidden things. This word emphasizes the intensity and all-encompassing nature of knowledge. No hidden thing lies outside the knowledge of The God.
+      <strong>عَلَّام</strong> <span class="root-translit-inline">(ʿallām)</span> is an intensive form and appears in expressions connected to knowing the unseen and hidden things. This word emphasizes the intensity and all-encompassing nature of knowledge. No hidden thing lies outside the knowledge of The God.
     </p>
 
     <p>
-      <strong>أَعْلَم</strong> also shows that The God knows better: better concerning intentions, paths, worthiness, misguidance, and what people claim about themselves or others.
+      <strong>أَعْلَم</strong> <span class="root-translit-inline">(aʿlam)</span> also shows that The God knows better: better concerning intentions, paths, worthiness, misguidance, and what people claim about themselves or others.
     </p>
 
     <p>
@@ -605,7 +259,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>ʿUlamāʾ: Those Whose Knowledge Is Affected by Signs</h2>
 
     <p>
-      <strong>عُلَمَاء</strong> is a plural that points to those who know. But in the Qur’anic view, knowledge is not recognized merely by title, clothing, social position, or memorized information.
+      <strong>عُلَمَاء</strong> <span class="root-translit-inline">(ʿulamāʾ)</span> is a plural that points to those who know. But in the Qur’anic view, knowledge is not recognized merely by title, clothing, social position, or memorized information.
     </p>
 
     <p>
@@ -625,7 +279,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>Maʿlūm and Muʿallam: What Is Known or Taught</h2>
 
     <p>
-      <strong>مَعْلُوم</strong> means something that has been known, recognized, or made clear. <strong>مَعْلُومَات</strong> also points to known things, or to known times and recognized signs.
+      <strong>مَعْلُوم</strong> <span class="root-translit-inline">(maʿlūm)</span> means something that has been known, recognized, or made clear. <strong>مَعْلُومَات</strong> <span class="root-translit-inline">(maʿlūmāt)</span> also points to known things, or to known times and recognized signs.
     </p>
 
     <p>
@@ -633,7 +287,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     </p>
 
     <p>
-      <strong>مُعَلَّم</strong> means taught or trained. This word shows that a being or a human being can, through teaching, gain an ability or knowledge it did not possess before.
+      <strong>مُعَلَّم</strong> <span class="root-translit-inline">(muʿallam)</span> means taught or trained. This word shows that a being or a human being can, through teaching, gain an ability or knowledge it did not possess before.
     </p>
 
     <p>
@@ -645,7 +299,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>ʿAlāmāt and Aʿlām: Signs That Illuminate the Way</h2>
 
     <p>
-      <strong>عَلَامَات</strong> and <strong>أَعْلَام</strong> point to signs and visible markers. This part of the root <strong>ع ل م</strong> shows that knowledge is not only in the mind; the world too is full of signs.
+      <strong>عَلَامَات</strong> <span class="root-translit-inline">(ʿalāmāt)</span> and <strong>أَعْلَام</strong> <span class="root-translit-inline">(aʿlām)</span> point to signs and visible markers. This part of the root <strong>ع ل م</strong> <span class="root-translit-inline">(AYN L M / ʿ L M)</span> shows that knowledge is not only in the mind; the world too is full of signs.
     </p>
 
     <p>
@@ -665,7 +319,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>ʿĀlam and ʿĀlamīn: Worlds, Created Categories, and Fields of Recognition</h2>
 
     <p>
-      <strong>عَالَم</strong> and <strong>عَالَمِين</strong> are among the most important forms of this root for understanding Surah Al-Fatihah. This word is usually translated as “world” or “worlds,” but its meaning is wider than one simple physical world.
+      <strong>عَالَم</strong> <span class="root-translit-inline">(ʿālam)</span> and <strong>عَالَمِين</strong> <span class="root-translit-inline">(ʿālamīn)</span> are among the most important forms of this root for understanding Surah Al-Fatihah. This word is usually translated as “world” or “worlds,” but its meaning is wider than one simple physical world.
     </p>
 
     <p>
@@ -673,11 +327,11 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     </p>
 
     <p>
-      The connection of this word with the root <strong>ع ل م</strong> is important. A world is something that is known in some way, has signs, has order, and can lead the human being to recognition. The world is not blind and meaningless; the world is sign-bearing.
+      The connection of this word with the root <strong>ع ل م</strong> <span class="root-translit-inline">(AYN L M / ʿ L M)</span> is important. A world is something that is known in some way, has signs, has order, and can lead the human being to recognition. The world is not blind and meaningless; the world is sign-bearing.
     </p>
 
     <p>
-      In the expression <strong>رَبِّ الْعَالَمِينَ</strong>, <strong>ʿālamīn</strong> is not merely a literary plural. It shows that the rubūbiyyah of The God extends over all fields of existence, all categories of created beings, all levels of being, and all known and unknown worlds.
+      In the expression <strong>رَبِّ الْعَالَمِينَ</strong> <span class="root-translit-inline">(Rabb al-ʿālamīn)</span>, <strong>ʿālamīn</strong> is not merely a literary plural. It shows that the rubūbiyyah of The God extends over all fields of existence, all categories of created beings, all levels of being, and all known and unknown worlds.
     </p>
 
     <p>
@@ -689,15 +343,16 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>Rabb al-ʿĀlamīn in Surah Al-Fatihah</h2>
 
     <p>
-      In Surah Al-Fatihah, after <strong>الْحَمْدُ لِلَّهِ</strong>, the expression <strong>رَبِّ الْعَالَمِينَ</strong> appears:
+      In Surah Al-Fatihah, after <strong>الْحَمْدُ لِلَّهِ</strong> <span class="root-translit-inline">(al-ḥamdu lillāh)</span>, the expression <strong>رَبِّ الْعَالَمِينَ</strong> <span class="root-translit-inline">(Rabb al-ʿālamīn)</span> appears:
     </p>
 
     <p class="arabic-quote">
       <a class="quran-quote-link" href="/quran-reflection/en/001-al-fatihah/#ayah-002">الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ</a>
+<span class="quran-translit-line">al-ḥamdu lillāhi Rabbi al-ʿālamīn</span>
     </p>
 
     <p>
-      This composition places two important roots beside one another: <strong>ر ب ب</strong> and <strong>ع ل م</strong>. The God is worthy of ḥamd because He is Rabb; and His rubūbiyyah is not limited to one tribe, one community, one earth, one heaven, or one known world. He is Rabb al-ʿālamīn.
+      This composition places two important roots beside one another: <strong>ر ب ب</strong> <span class="root-translit-inline">(R B B)</span> and <strong>ع ل م</strong> <span class="root-translit-inline">(AYN L M / ʿ L M)</span>. The God is worthy of ḥamd because He is Rabb; and His rubūbiyyah is not limited to one tribe, one community, one earth, one heaven, or one known world. He is Rabb al-ʿālamīn.
     </p>
 
     <p>
@@ -709,7 +364,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     </p>
 
     <p>
-      So Al-Fatihah, from its beginning, makes the human gaze universal and beyond the self. Before the human being says <strong>إِيَّاكَ نَعْبُدُ</strong> and <strong>اهْدِنَا</strong>, he learns that he is speaking with the Lord of all worlds, not with the god of one tribe or one group.
+      So Al-Fatihah, from its beginning, makes the human gaze universal and beyond the self. Before the human being says <strong>إِيَّاكَ نَعْبُدُ</strong> <span class="root-translit-inline">(iyyāka naʿbudu)</span> and <strong>اهْدِنَا</strong> <span class="root-translit-inline">(ihdinā)</span>, he learns that he is speaking with the Lord of all worlds, not with the god of one tribe or one group.
     </p>
   </section>
 
@@ -765,7 +420,7 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     <h2>Summary</h2>
 
     <p>
-      The root <strong>ع ل م</strong> is one of the foundational roots of the Qur’an. This root covers a wide field of knowing, recognition, teaching, learning, sign, becoming known, and known worlds.
+      The root <strong>ع ل م</strong> <span class="root-translit-inline">(AYN L M / ʿ L M)</span> is one of the foundational roots of the Qur’an. This root covers a wide field of knowing, recognition, teaching, learning, sign, becoming known, and known worlds.
     </p>
 
     <p>
@@ -773,19 +428,20 @@ permalink: /quran-terminology/en/roots/ayn-l-m/
     </p>
 
     <p>
-      <strong>عَلِمَ</strong> and <strong>يَعْلَمُ</strong> speak of knowing. <strong>عَلَّمَ</strong> and <strong>يُعَلِّمُ</strong> speak of teaching. <strong>تَعَلَّمَ</strong> and <strong>يَتَعَلَّمُ</strong> speak of learning. <strong>عِلْم</strong> speaks of knowledge and recognition itself. <strong>عَلِيم</strong>, <strong>عَلَّام</strong>, and <strong>أَعْلَم</strong> speak of the all-encompassing and higher knowledge of The God. <strong>عُلَمَاء</strong> speaks of those who should, through seeing signs, arrive at reverent awareness and responsibility. <strong>عَلَامَات</strong> and <strong>أَعْلَام</strong> speak of signs that illuminate the way. And <strong>عَالَمِين</strong> speaks of worlds and created fields that stand under the rubūbiyyah of The God.
+      <strong>عَلِمَ</strong> <span class="root-translit-inline">(ʿalima)</span> and <strong>يَعْلَمُ</strong> <span class="root-translit-inline">(yaʿlamu)</span> speak of knowing. <strong>عَلَّمَ</strong> <span class="root-translit-inline">(ʿallama)</span> and <strong>يُعَلِّمُ</strong> <span class="root-translit-inline">(yuʿallimu)</span> speak of teaching. <strong>تَعَلَّمَ</strong> <span class="root-translit-inline">(taʿallama)</span> and <strong>يَتَعَلَّمُ</strong> <span class="root-translit-inline">(yataʿallamu)</span> speak of learning. <strong>عِلْم</strong> <span class="root-translit-inline">(ʿilm)</span> speaks of knowledge and recognition itself. <strong>عَلِيم</strong> <span class="root-translit-inline">(ʿalīm)</span>, <strong>عَلَّام</strong> <span class="root-translit-inline">(ʿallām)</span>, and <strong>أَعْلَم</strong> <span class="root-translit-inline">(aʿlam)</span> speak of the all-encompassing and higher knowledge of The God. <strong>عُلَمَاء</strong> <span class="root-translit-inline">(ʿulamāʾ)</span> speaks of those who should, through seeing signs, arrive at reverent awareness and responsibility. <strong>عَلَامَات</strong> <span class="root-translit-inline">(ʿalāmāt)</span> and <strong>أَعْلَام</strong> <span class="root-translit-inline">(aʿlām)</span> speak of signs that illuminate the way. And <strong>عَالَمِين</strong> <span class="root-translit-inline">(ʿālamīn)</span> speaks of worlds and created fields that stand under the rubūbiyyah of The God.
     </p>
 
     <p>
-      In Al-Fatihah, the expression <strong>رَبِّ الْعَالَمِينَ</strong> shows that ḥamd belongs to The God because He is the Lord of all worlds; not only the Rabb of one tribe, one community, one language, or one limited world.
+      In Al-Fatihah, the expression <strong>رَبِّ الْعَالَمِينَ</strong> <span class="root-translit-inline">(Rabb al-ʿālamīn)</span> shows that ḥamd belongs to The God because He is the Lord of all worlds; not only the Rabb of one tribe, one community, one language, or one limited world.
     </p>
 
     <p>
-      So if the root <strong>ع ل م</strong> is understood correctly, it reforms the human being’s view of knowledge, his view of the world, his view of The God, and his discipline before truth. The human being learns to know without becoming arrogant; to see signs without passing over them; and to recognize the worlds without forgetting Rabb al-ʿālamīn:
+      So if the root <strong>ع ل م</strong> <span class="root-translit-inline">(AYN L M / ʿ L M)</span> is understood correctly, it reforms the human being’s view of knowledge, his view of the world, his view of The God, and his discipline before truth. The human being learns to know without becoming arrogant; to see signs without passing over them; and to recognize the worlds without forgetting Rabb al-ʿālamīn:
     </p>
 
     <p class="arabic-quote">
       <a class="quran-quote-link" href="/quran-reflection/en/001-al-fatihah/#ayah-002">الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ</a>
+<span class="quran-translit-line">al-ḥamdu lillāhi Rabbi al-ʿālamīn</span>
     </p>
   </section>
 

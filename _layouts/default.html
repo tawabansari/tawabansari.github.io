@@ -5,7 +5,25 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <script>
+    (function () {
+      try {
+        var savedTheme = localStorage.getItem('forqan-theme');
+        var html = document.documentElement;
+        if (savedTheme === 'dark') {
+          html.classList.add('forqan-root-pre-dark');
+          html.classList.remove('forqan-root-pre-light');
+        } else if (savedTheme === 'light') {
+          html.classList.add('forqan-root-pre-light');
+          html.classList.remove('forqan-root-pre-dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+
   <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/root-study.css">
+  <script src="/assets/js/root-theme.js" defer></script>
 
   <style>
     html {

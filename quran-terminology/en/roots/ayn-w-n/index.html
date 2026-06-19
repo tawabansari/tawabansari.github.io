@@ -1,366 +1,20 @@
 ---
 layout: default
-title: The Qur’anic Root ʿ W N
+title: The Qur’anic Root AYN W N (ʿ W N)
 permalink: /quran-terminology/en/roots/ayn-w-n/
 ---
-
-<style>
-  .root-study-page {
-    --root-bg: #f7f3ea;
-    --root-card: #fffaf1;
-    --root-panel: #fffdf7;
-    --root-section: #fffaf2;
-    --root-text: #2f2a22;
-    --root-muted: #6d6255;
-    --root-soft: #f0e5d2;
-    --root-border: rgba(148, 114, 55, 0.28);
-    --root-border-soft: rgba(148, 114, 55, 0.16);
-    --root-accent: #b9852f;
-    --root-accent-deep: #8b6423;
-    --root-accent-soft: rgba(185, 133, 47, 0.11);
-    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
-
-    direction: rtl;
-    text-align: right;
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 3.5rem 1.25rem;
-    line-height: 2.05;
-    color: var(--root-text);
-  }
-
-  /* Dark mode follows the website toggle/classes, not the OS preference. */
-  html.dark .root-study-page,
-  body.dark .root-study-page,
-  html.dark-mode .root-study-page,
-  body.dark-mode .root-study-page,
-  html[data-theme="dark"] .root-study-page,
-  body[data-theme="dark"] .root-study-page,
-  [data-bs-theme="dark"] .root-study-page,
-  .forqan-theme-dark .root-study-page,
-  .theme-dark .root-study-page,
-  .root-study-page.forqan-root-dark {
-    --root-bg: #0f1a2c;
-    --root-card: #121f33;
-    --root-panel: #1b2a40;
-    --root-section: rgba(255, 255, 255, 0.035);
-    --root-text: #ece7dc;
-    --root-muted: #beb6a7;
-    --root-soft: rgba(255, 255, 255, 0.06);
-    --root-border: rgba(214, 176, 95, 0.24);
-    --root-border-soft: rgba(214, 176, 95, 0.16);
-    --root-accent: #d6b05f;
-    --root-accent-deep: #f0cf7a;
-    --root-accent-soft: rgba(214, 176, 95, 0.12);
-    --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
-  }
-
-  html.light .root-study-page,
-  body.light .root-study-page,
-  html.light-mode .root-study-page,
-  body.light-mode .root-study-page,
-  html[data-theme="light"] .root-study-page,
-  body[data-theme="light"] .root-study-page,
-  [data-bs-theme="light"] .root-study-page,
-  .forqan-theme-light .root-study-page,
-  .theme-light .root-study-page,
-  .root-study-page.forqan-root-light {
-    --root-bg: #f7f3ea;
-    --root-card: #fffaf1;
-    --root-panel: #fffdf7;
-    --root-section: #fffaf2;
-    --root-text: #2f2a22;
-    --root-muted: #6d6255;
-    --root-soft: #f0e5d2;
-    --root-border: rgba(148, 114, 55, 0.28);
-    --root-border-soft: rgba(148, 114, 55, 0.16);
-    --root-accent: #b9852f;
-    --root-accent-deep: #8b6423;
-    --root-accent-soft: rgba(185, 133, 47, 0.11);
-    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
-  }
-
-  .root-study-page * {
-    box-sizing: border-box;
-  }
-
-  .root-study-page,
-  .root-study-page h1,
-  .root-study-page h2,
-  .root-study-page h3,
-  .root-study-page p,
-  .root-study-page li,
-  .root-study-page strong {
-    color: var(--root-text);
-  }
-
-  .root-study-page h1,
-  .root-study-page h2,
-  .root-study-page h3,
-  .root-study-page p,
-  .root-study-page li {
-    direction: rtl;
-    text-align: right;
-  }
-
-  .root-frame {
-    background:
-      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
-      var(--root-card);
-    border: 1px solid var(--root-border);
-    border-radius: 26px;
-    padding: 2.4rem;
-    box-shadow: var(--root-shadow);
-  }
-
-  .root-hero {
-    border-bottom: 1px solid var(--root-border-soft);
-    padding-bottom: 1.65rem;
-    margin-bottom: 2rem;
-  }
-
-  .root-kicker {
-    color: var(--root-accent-deep);
-    font-size: 0.96rem;
-    font-weight: 800;
-    margin-bottom: 0.45rem;
-    letter-spacing: 0.01em;
-  }
-
-  .root-study-page h1 {
-    margin: 0;
-    font-size: clamp(2rem, 4vw, 3.05rem);
-    line-height: 1.4;
-    letter-spacing: -0.02em;
-  }
-
-  .root-subtitle {
-    color: var(--root-muted);
-    max-width: 780px;
-    margin: 1rem 0 0;
-    font-size: 1.04rem;
-  }
-
-  .root-forms-card,
-  .root-toc {
-    background:
-      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
-      var(--root-panel);
-    border: 1px solid var(--root-border);
-    border-radius: 20px;
-    padding: 1.35rem 1.55rem;
-    margin: 1.55rem 0;
-  }
-
-  .root-forms-card h2,
-  .root-toc h2 {
-    margin-top: 0;
-  }
-
-  .root-forms-card ul {
-    padding-right: 1.2rem;
-    margin: 0.75rem 0 0;
-  }
-
-  .root-forms-card li {
-    margin: 0.48rem 0;
-  }
-
-  .root-toc ol {
-    list-style-position: inside;
-    padding-right: 0;
-    margin: 0.75rem 0 0;
-    columns: 2;
-    column-gap: 2rem;
-  }
-
-  .root-toc li {
-    margin: 0.28rem 0;
-    break-inside: avoid;
-  }
-
-  .root-section {
-    background: var(--root-section);
-    border: 1px solid var(--root-border-soft);
-    border-radius: 18px;
-    padding: 1.5rem 1.6rem;
-    margin: 1.55rem 0;
-  }
-
-  .root-section h2 {
-    margin: 0 0 1rem;
-    color: var(--root-text);
-    font-size: 1.35rem;
-    line-height: 1.6;
-  }
-
-  .root-section h2::before {
-    content: "";
-    display: inline-block;
-    width: 0.58rem;
-    height: 0.58rem;
-    border-radius: 999px;
-    background: var(--root-accent);
-    margin-left: 0.55rem;
-    vertical-align: 0.08em;
-  }
-
-  .root-study-page p {
-    margin: 0.85rem 0;
-  }
-
-  .root-study-page a {
-    color: var(--root-accent-deep);
-    text-decoration: none;
-    border-bottom: 1px dotted currentColor;
-  }
-
-  .root-study-page a:hover {
-    color: var(--root-accent);
-  }
-
-  .arabic-quote {
-    direction: rtl;
-    text-align: center;
-    font-size: 1.48rem;
-    line-height: 2.5;
-    margin: 1.4rem 0;
-    padding: 1rem 1.25rem;
-    border: 1px solid var(--root-border);
-    border-radius: 18px;
-    background:
-      linear-gradient(180deg, var(--root-accent-soft), transparent),
-      var(--root-panel);
-    color: var(--root-text);
-  }
-
-  .root-note {
-    border-right: 3px solid var(--root-accent);
-    padding: 0.9rem 1rem;
-    background: var(--root-accent-soft);
-    border-radius: 14px;
-    color: var(--root-muted);
-  }
-
-  .root-note strong,
-  .root-subtitle strong {
-    color: var(--root-text);
-  }
-
-  .root-study-page.forqan-page-ltr,
-  .root-study-page.forqan-page-ltr h1,
-  .root-study-page.forqan-page-ltr h2,
-  .root-study-page.forqan-page-ltr h3,
-  .root-study-page.forqan-page-ltr p,
-  .root-study-page.forqan-page-ltr li {
-    direction: ltr;
-    text-align: left;
-  }
-
-  .root-study-page.forqan-page-ltr .root-forms-card ul {
-    padding-right: 0;
-    padding-left: 1.2rem;
-  }
-
-  .root-study-page.forqan-page-ltr .root-toc ol {
-    padding-left: 0;
-  }
-
-  .root-study-page.forqan-page-ltr .root-section h2::before {
-    margin-left: 0;
-    margin-right: 0.55rem;
-  }
-
-  .root-study-page.forqan-page-ltr .root-note {
-    border-right: 0;
-    border-left: 3px solid var(--root-accent);
-  }
-
-  @media (max-width: 760px) {
-    .root-study-page {
-      padding: 2rem 1rem;
-    }
-
-    .root-frame {
-      padding: 1.25rem;
-      border-radius: 19px;
-    }
-
-    .root-section,
-    .root-forms-card,
-    .root-toc {
-      padding: 1rem;
-    }
-
-    .root-toc ol {
-      columns: 1;
-    }
-  }
-</style>
-
-<script>
-  (function () {
-    function parseRGB(value) {
-      var match = String(value || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
-      if (!match) return null;
-      return [Number(match[1]), Number(match[2]), Number(match[3])];
-    }
-
-    function luminance(rgb) {
-      if (!rgb) return 255;
-      return (0.2126 * rgb[0]) + (0.7152 * rgb[1]) + (0.0722 * rgb[2]);
-    }
-
-    function hasToken(text, token) {
-      return new RegExp('(^|\\s|_|-)' + token + '($|\\s|_|-)', 'i').test(String(text || ''));
-    }
-
-    function applyForqanRootTheme() {
-      var page = document.querySelector('.root-study-page');
-      if (!page) return;
-
-      var html = document.documentElement;
-      var body = document.body;
-      var marker = [
-        html.className,
-        body ? body.className : '',
-        html.getAttribute('data-theme'),
-        body ? body.getAttribute('data-theme') : '',
-        html.getAttribute('data-bs-theme'),
-        body ? body.getAttribute('data-bs-theme') : ''
-      ].join(' ');
-
-      var isDark = hasToken(marker, 'dark');
-      var isLight = hasToken(marker, 'light');
-
-      if (!isDark && !isLight) {
-        var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
-                 parseRGB(getComputedStyle(html).backgroundColor);
-        isDark = luminance(bg) < 128;
-      }
-
-      page.classList.toggle('forqan-root-dark', !!isDark);
-      page.classList.toggle('forqan-root-light', !isDark);
-    }
-
-    applyForqanRootTheme();
-    document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
-    window.addEventListener('load', applyForqanRootTheme);
-    setInterval(applyForqanRootTheme, 700);
-  })();
-</script>
 
 <div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
 
   <div class="root-frame">
 <section class="root-hero">
   <div class="root-kicker">Qur’anic Root</div>
-  <h1>The Qur’anic Root ʿ W N</h1>
+  <h1>The Qur’anic Root AYN W N (ʿ W N)</h1>
   <p class="root-subtitle">Help, support, gaining strength, cooperation, seeking assistance, refusing self-sufficiency, and discerning the right direction of aid</p>
 </section>
 <section class="root-section" id="forms">
   <h2>Forms Studied from This Root</h2>
-  <p>On this page, the root <strong>ʿ W N</strong> is studied semantically, then the main Qur’anic forms of this root are explained separately:</p>
+  <p>On this page, the root <strong>AYN W N (ʿ W N)</strong> is studied semantically, then the main Qur’anic forms of this root are explained separately:</p>
   <ul>
     <li><strong>aʿāna / aʿīnūnī</strong> — Form IV; he helped, help me, giving support in completing a task</li>
     <li><strong>taʿāwanū</strong> — Form VI; cooperate, help one another</li>
@@ -368,13 +22,13 @@ permalink: /quran-terminology/en/roots/ayn-w-n/
     <li><strong>mustaʿān</strong> — passive participle / descriptive form; the one from whom help is sought, or the one with whom help is sought</li>
     <li><strong>ʿawān</strong> — noun / adjective; middle, neither old nor young, between two states</li>
   </ul>
-  <p>Note: forms such as <strong>yuʿīn</strong>, <strong>yataʿāwanūn</strong>, <strong>istaʿāna</strong>, and <strong>ʿawn</strong> are known in Arabic, but the direct Qur’anic forms highlighted for this root are the forms listed above. This page focuses on the Qur’anic forms of the root <strong>ʿ W N</strong>.</p>
+  <p>Note: forms such as <strong>yuʿīn</strong>, <strong>yataʿāwanūn</strong>, <strong>istaʿāna</strong>, and <strong>ʿawn</strong> are known in Arabic, but the direct Qur’anic forms highlighted for this root are the forms listed above. This page focuses on the Qur’anic forms of the root <strong>AYN W N (ʿ W N)</strong>.</p>
   <p><strong>ʿAwān</strong> must also be explained carefully. In its Qur’anic usage, it does not mean helping; it refers to being in the middle, between two states. So the forms of this root should not all be flattened into one simple meaning.</p>
 </section>
 <section class="root-toc" id="contents">
   <h2>Contents</h2>
   <ol>
-    <li>General Meaning of the Root ʿ W N</li>
+    <li>General Meaning of the Root AYN W N (ʿ W N)</li>
     <li>Help Beyond Simple Assistance</li>
     <li>aʿāna / aʿīnūnī: Giving Help in Completing a Task</li>
     <li>nastaʿīn: Seeking Help and Rejecting Self-Sufficiency</li>
@@ -391,11 +45,11 @@ permalink: /quran-terminology/en/roots/ayn-w-n/
   </ol>
 </section>
 <section class="root-section" id="meaning">
-  <h2>General Meaning of the Root ʿ W N</h2>
-  <p>The root <strong>ʿ W N</strong> in the Qur’an points to the field of help, assistance, support, becoming a backing, strengthening, cooperation, and seeking help. This root shows that the human being is not self-sufficient or independent. A person needs help to stand, act, endure, serve God, and move on the path of truth.</p>
+  <h2>General Meaning of the Root AYN W N (ʿ W N)</h2>
+  <p>The root <strong>AYN W N (ʿ W N)</strong> in the Qur’an points to the field of help, assistance, support, becoming a backing, strengthening, cooperation, and seeking help. This root shows that the human being is not self-sufficient or independent. A person needs help to stand, act, endure, serve God, and move on the path of truth.</p>
   <p>Help in the Qur’an is not only material or outward help. A person may need bodily help, financial help, social support, moral support, or inward help for patience, understanding, guidance, and resistance against falsehood.</p>
   <p>But the Qur’an also makes clear that not every kind of help is good. Cooperation can be in the direction of goodness and taqwā, or in the direction of sin and aggression. So the act of helping is not enough by itself; the direction of help matters.</p>
-  <p>From here, the root <strong>ʿ W N</strong> brings a person to an important question: from whom do I seek help, for what do I seek help, and when I help others, to which path am I adding strength?</p>
+  <p>From here, the root <strong>AYN W N (ʿ W N)</strong> brings a person to an important question: from whom do I seek help, for what do I seek help, and when I help others, to which path am I adding strength?</p>
 </section>
 <section class="root-section" id="help-beyond-simple-assistance">
   <h2>Help Beyond Simple Assistance</h2>
@@ -435,7 +89,7 @@ permalink: /quran-terminology/en/roots/ayn-w-n/
 </section>
 <section class="root-section" id="taawanu">
   <h2>taʿāwanū: Social Cooperation and the Moral Direction of Help</h2>
-  <p><strong>Taʿāwanū</strong> points to cooperation and mutual help. This word shows the social dimension of the root <strong>ʿ W N</strong>. Human beings do not only seek help from God; on earth, they must also help one another in the right direction.</p>
+  <p><strong>Taʿāwanū</strong> points to cooperation and mutual help. This word shows the social dimension of the root <strong>AYN W N (ʿ W N)</strong>. Human beings do not only seek help from God; on earth, they must also help one another in the right direction.</p>
   <p>But the Qur’an does not praise cooperation absolutely. If cooperation is in the right path, it is good; if it is in the path of corruption, it strengthens sin and injustice.</p>
   <p>This is very important for society. Many acts of oppression are not carried out by one oppressor alone; they are carried out through networks of cooperation. One commands, one executes, one stays silent, one justifies, one profits, and one hides the truth. All of this can become a kind of cooperation upon falsehood.</p>
   <p>So <strong>taʿāwanū</strong> is not merely a call to help; it is a call to discern the direction of help.</p>
@@ -452,14 +106,14 @@ permalink: /quran-terminology/en/roots/ayn-w-n/
   <p>The Qur’an forbids cooperation upon <strong>ithm</strong> and <strong>ʿudwān</strong>. <strong>Ithm</strong> points to sin, moral burden, and an act that stains the human being. <strong>ʿUdwān</strong> is close to aggression, transgression, crossing the limit, and injustice.</p>
   <p>This warning is very important, because people sometimes help falsehood in the name of loyalty, tribe, family, state, religion, work, or interest. They may say: we only followed orders, we only remained silent, we only accompanied, we only gave small help; but that small help may become part of a structure of injustice.</p>
   <p>Cooperation upon sin and aggression is not only direct participation in oppression. Justifying oppression, hiding truth, supplying tools for oppression, promoting falsehood, or normalizing corruption can also belong to this field.</p>
-  <p>So the root <strong>ʿ W N</strong> makes the human being responsible: every strength we give to another must be examined by the path to which it is added.</p>
+  <p>So the root <strong>AYN W N (ʿ W N)</strong> makes the human being responsible: every strength we give to another must be examined by the path to which it is added.</p>
 </section>
 <section class="root-section" id="awan">
   <h2>ʿAwān: Being in the Middle and Its Semantic Separation from Help</h2>
   <p><strong>ʿAwān</strong> appears in the Qur’an in a meaning different from help. It describes something that is neither old nor young, but between two states.</p>
   <p>This usage shows that not every form of one root always collapses into one simple semantic branch. <strong>ʿAwān</strong> should not be forced back into the meaning of “help.” Here, the semantic field is being in the middle, middle age, or being between two limits.</p>
   <p>This is important for the Forqan method. We should not take a word from a root and force it into our preferred or familiar meaning. Each form must be understood in its own place, with its own context, and with linguistic precision.</p>
-  <p>So <strong>ʿawān</strong> should be mentioned on the root page <strong>ʿ W N</strong>, but explained separately from the branch of seeking help and cooperation.</p>
+  <p>So <strong>ʿawān</strong> should be mentioned on the root page <strong>AYN W N (ʿ W N)</strong>, but explained separately from the branch of seeking help and cooperation.</p>
 </section>
 <section class="root-section" id="divine-human-help">
   <h2>Divine Help and Human Help</h2>
@@ -471,7 +125,7 @@ permalink: /quran-terminology/en/roots/ayn-w-n/
 </section>
 <section class="root-section" id="help-worship-guidance">
   <h2>Help, Servanthood, and Guidance</h2>
-  <p>The root <strong>ʿ W N</strong> is deeply connected to servanthood and guidance. A person needs help in order to serve God. Servanthood is not only intention; it is a path that requires patience, action, purity, decision, and steadfastness.</p>
+  <p>The root <strong>AYN W N (ʿ W N)</strong> is deeply connected to servanthood and guidance. A person needs help in order to serve God. Servanthood is not only intention; it is a path that requires patience, action, purity, decision, and steadfastness.</p>
   <p>A person may know the truth but not have the strength to stand upon it. He may know the right path, but weaken before fear, pressure, habit, or weakness. Here, seeking help becomes meaningful.</p>
   <p>The human being also needs help for guidance. Guidance is not only knowing the path; it is also the ability to walk the path. Whoever seeks help from God is in fact asking Him to complete understanding, strength, patience, and stability within him.</p>
   <p>So help in the Qur’an is not only the solving of outward problems; it is also the building of inward strength for the path of truth.</p>
@@ -481,14 +135,14 @@ permalink: /quran-terminology/en/roots/ayn-w-n/
   <p>Just as seeking the right help can save a person, relying on wrong forms of help can mislead him.</p>
   <p>If a person seeks help for injustice, builds a network for falsehood, or relies on powers that distance him from God, help becomes corruption.</p>
   <p>Also, if a person becomes heedless of God and sees causes as independent, outward help can approach hidden shirk. Causes matter, but they are not independent. Human beings can help, but they do not own the final result.</p>
-  <p>So the root <strong>ʿ W N</strong> calls the human being to precision: from whom do you seek help? For what task? And when you help others, are you strengthening truth or falsehood?</p>
+  <p>So the root <strong>AYN W N (ʿ W N)</strong> calls the human being to precision: from whom do you seek help? For what task? And when you help others, are you strengthening truth or falsehood?</p>
 </section>
 <section class="root-section" id="summary">
   <h2>Summary</h2>
-  <p>The root <strong>ʿ W N</strong> in the Qur’an invites the human being to recognize help, support, cooperation, seeking assistance, and his true need before God. This root shows that the human being is not self-sufficient and needs help for servanthood, guidance, patience, reform, and carrying out the path of truth.</p>
+  <p>The root <strong>AYN W N (ʿ W N)</strong> in the Qur’an invites the human being to recognize help, support, cooperation, seeking assistance, and his true need before God. This root shows that the human being is not self-sufficient and needs help for servanthood, guidance, patience, reform, and carrying out the path of truth.</p>
   <p><strong>aʿāna</strong> and <strong>aʿīnūnī</strong> speak of helping in the completion of a task. <strong>Nastaʿīn</strong> and <strong>istaʿīnū</strong> speak of seeking help and taking support. <strong>Mustaʿān</strong> reminds us that true help is sought with God. <strong>Taʿāwanū</strong> shows the social dimension of help and clarifies that cooperation must be upon birr and taqwā, not upon sin and aggression. <strong>ʿAwān</strong> is a separate branch of this root, pointing to being in the middle and standing between two limits.</p>
-  <p>If the root <strong>ʿ W N</strong> is understood correctly, the human being recognizes both his need for God and his responsibility in helping others. In the Qur’anic view, help is not merely assistance; it is directing strength. And every strength must be examined: is it serving truth or falsehood, taqwā or aggression, servanthood to God or servanthood to other than God?</p>
-  <p class="arabic-quote"><strong>إِيَّاكَ نَسْتَعِينُ</strong></p>
+  <p>If the root <strong>AYN W N (ʿ W N)</strong> is understood correctly, the human being recognizes both his need for God and his responsibility in helping others. In the Qur’anic view, help is not merely assistance; it is directing strength. And every strength must be examined: is it serving truth or falsehood, taqwā or aggression, servanthood to God or servanthood to other than God?</p>
+  <p class="arabic-quote"><strong>إِيَّاكَ نَسْتَعِينُ</strong> <span class="root-translit-inline">(iyyāka nastaʿīn)</span></p>
 </section>
   </div>
 </div>
