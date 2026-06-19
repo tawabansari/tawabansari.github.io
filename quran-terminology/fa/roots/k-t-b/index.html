@@ -4,6 +4,24 @@ title: ریشه قرآنی ك ت ب
 permalink: /quran-terminology/fa/roots/k-t-b/
 ---
 
+<script>
+  (function () {
+    /* Prevent first-paint root-page theme flicker.
+       This reads the same key used by the default layout before the root card renders. */
+    try {
+      var savedTheme = localStorage.getItem('forqan-theme');
+      var html = document.documentElement;
+      if (savedTheme === 'dark') {
+        html.classList.add('forqan-root-pre-dark');
+        html.classList.remove('forqan-root-pre-light');
+      } else if (savedTheme === 'light') {
+        html.classList.add('forqan-root-pre-light');
+        html.classList.remove('forqan-root-pre-dark');
+      }
+    } catch (e) {}
+  })();
+</script>
+
 <style>
   .root-study-page {
     --root-bg: #f7f3ea;
@@ -30,6 +48,8 @@ permalink: /quran-terminology/fa/roots/k-t-b/
   }
 
   /* Dark mode follows the website toggle/classes, not the OS preference. */
+  html.forqan-root-pre-dark .root-study-page,
+  body.dark-theme .root-study-page,
   html.dark .root-study-page,
   body.dark .root-study-page,
   html.dark-mode .root-study-page,
@@ -55,6 +75,7 @@ permalink: /quran-terminology/fa/roots/k-t-b/
     --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
   }
 
+  html.forqan-root-pre-light .root-study-page,
   html.light .root-study-page,
   body.light .root-study-page,
   html.light-mode .root-study-page,
@@ -247,24 +268,139 @@ permalink: /quran-terminology/fa/roots/k-t-b/
     color: var(--root-text);
   }
 
+
+  .root-morphology-intro {
+    color: var(--root-muted);
+    margin-top: 0;
+  }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin-top: 1.1rem;
+  }
+
+  .morph-card {
+    background: var(--root-panel);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem 1.05rem;
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.8rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .morph-type {
+    font-weight: 800;
+    color: var(--root-accent-deep);
+  }
+
+  .morph-used {
+    flex: 0 0 auto;
+    font-size: 0.82rem;
+    font-weight: 800;
+    border: 1px solid var(--root-border);
+    border-radius: 999px;
+    padding: 0.12rem 0.65rem;
+    color: var(--root-accent-deep);
+    background: var(--root-accent-soft);
+  }
+
+  .morph-form {
+    direction: rtl;
+    text-align: right;
+    font-size: 1.24rem;
+    line-height: 1.9;
+    font-weight: 800;
+    color: var(--root-text);
+    margin: 0.2rem 0 0.55rem;
+  }
+
+  .root-study-page.forqan-page-ltr .morph-form {
+    direction: rtl;
+    text-align: left;
+  }
+
+  .morph-translit {
+    direction: ltr;
+    text-align: inherit;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    font-weight: 700;
+    color: var(--root-muted);
+    margin: -0.2rem 0 0.6rem;
+  }
+
+  .morph-label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 800;
+    color: var(--root-accent-deep);
+    margin-bottom: 0.15rem;
+  }
+
+  .morph-note {
+    color: var(--root-muted);
+    font-size: 0.95rem;
+    line-height: 1.95;
+    margin: 0;
+  }
+
+  .morph-note a {
+    color: var(--root-accent-deep);
+  }
+
+  .morph-card.morph-no .morph-used {
+    color: var(--root-muted);
+    background: var(--root-soft);
+    border-color: var(--root-border-soft);
+  }
+
+
   @media (max-width: 760px) {
     .root-study-page {
-      padding: 2rem 1rem;
+      padding: 1.25rem 0.45rem;
     }
 
     .root-frame {
-      padding: 1.25rem;
+      padding: 0.85rem;
       border-radius: 19px;
     }
 
     .root-section,
     .root-forms-card,
     .root-toc {
-      padding: 1rem;
+      padding: 0.85rem;
     }
 
     .root-toc ol {
       columns: 1;
+    }
+
+    .morphology-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .morph-card {
+      padding: 0.9rem 0.85rem;
+      border-radius: 15px;
+    }
+
+    .morph-card-header {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .morph-used {
+      display: inline-block;
+      margin-top: 0.35rem;
     }
   }
 </style>
@@ -283,13 +419,18 @@ permalink: /quran-terminology/fa/roots/k-t-b/
     }
 
     function hasToken(text, token) {
-      return new RegExp('(^|\\s|_|-)' + token + '($|\\s|_|-)', 'i').test(String(text || ''));
+      return new RegExp('(^|\s|_|-)' + token + '($|\s|_|-)', 'i').test(String(text || ''));
     }
 
-    function applyForqanRootTheme() {
-      var page = document.querySelector('.root-study-page');
-      if (!page) return;
+    function savedThemePreference() {
+      try {
+        return localStorage.getItem('forqan-theme');
+      } catch (e) {
+        return null;
+      }
+    }
 
+    function detectForqanTheme() {
       var html = document.documentElement;
       var body = document.body;
       var marker = [
@@ -301,25 +442,62 @@ permalink: /quran-terminology/fa/roots/k-t-b/
         body ? body.getAttribute('data-bs-theme') : ''
       ].join(' ');
 
-      var isDark = hasToken(marker, 'dark');
-      var isLight = hasToken(marker, 'light');
+      if (hasToken(marker, 'dark')) return 'dark';
+      if (hasToken(marker, 'light')) return 'light';
 
-      if (!isDark && !isLight) {
+      var saved = savedThemePreference();
+      if (saved === 'dark' || saved === 'light') return saved;
+
+      if (body || html) {
         var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
                  parseRGB(getComputedStyle(html).backgroundColor);
-        isDark = luminance(bg) < 128;
+        if (bg) return luminance(bg) < 128 ? 'dark' : 'light';
       }
 
-      page.classList.toggle('forqan-root-dark', !!isDark);
-      page.classList.toggle('forqan-root-light', !isDark);
+      return 'light';
+    }
+
+    function applyForqanRootTheme() {
+      var theme = detectForqanTheme();
+      var isDark = theme === 'dark';
+      var html = document.documentElement;
+      var page = document.querySelector('.root-study-page');
+
+      html.classList.toggle('forqan-root-pre-dark', isDark);
+      html.classList.toggle('forqan-root-pre-light', !isDark);
+
+      if (page) {
+        page.classList.toggle('forqan-root-dark', isDark);
+        page.classList.toggle('forqan-root-light', !isDark);
+      }
     }
 
     applyForqanRootTheme();
     document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
     window.addEventListener('load', applyForqanRootTheme);
-    setInterval(applyForqanRootTheme, 700);
+    window.addEventListener('storage', applyForqanRootTheme);
+
+    if (window.MutationObserver) {
+      var observer = new MutationObserver(applyForqanRootTheme);
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+      });
+
+      function observeBody() {
+        if (!document.body) return;
+        observer.observe(document.body, {
+          attributes: true,
+          attributeFilter: ['class', 'data-theme', 'data-bs-theme']
+        });
+      }
+
+      observeBody();
+      document.addEventListener('DOMContentLoaded', observeBody);
+    }
   })();
 </script>
+
 
 <div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
 
@@ -330,20 +508,184 @@ permalink: /quran-terminology/fa/roots/k-t-b/
   <h1>ریشه قرآنی ك ت ب</h1>
   <p class="root-subtitle">نوشتن، به هم پیوستن معنا، ثبت کردن، مقرر ساختن، واجب شدن، سند داشتن، کتاب، نوشتار، و قرار گرفتن چیزی در نظام ثبت، حکم، یا وحی</p>
 </section>
-<section class="root-section" id="forms">
-  <h2>صورت‌های بررسی‌شده از این ریشه</h2>
-  <p>در این صفحه، ریشه <strong>ك ت ب</strong> از نظر معنایی بررسی می‌شود و سپس مهم‌ترین صورت‌های قرآنی این ریشه جداگانه توضیح داده می‌شوند:</p>
-  <ul>
-    <li><strong>كَتَبَ / يَكْتُبُ / كَتَبَتْ / كَتَبْنَا / كُتِبَ</strong> — فعل مجرد؛ نوشت، می‌نویسد، نوشت، نوشتیم، نوشته شد، مقرر شد، واجب شد</li>
-    <li><strong>فَكَاتِبُوهُمْ</strong> — باب مفاعله؛ با آنان قرارداد نوشتاری ببندید، بر اساس نوشتار و توافق روشن وارد عهد شوید</li>
-    <li><strong>ٱكْتَتَبَ</strong> — باب افتعال؛ برای خود نوشت، رونویسی یا استنساخ کرد، یا چیزی را به نوشتار درآورد / برای خود نوشتنی ساخت</li>
-    <li><strong>كِتَاب / كُتُب / الْكِتَاب</strong> — اسم؛ کتاب، نوشته، متن، ثبت، سند، وحی، حکم مقرر، یا نظام مکتوب و معیارمند</li>
-    <li><strong>كِتَابِي</strong> — اسم اضافه‌شده به ضمیر؛ کتاب من، نوشته من، ثبت من، پرونده من</li>
-    <li><strong>كَاتِب / كَاتِبُون</strong> — اسم فاعل؛ نویسنده، نویسندگان، کسانی که می‌نویسند یا ثبت می‌کنند</li>
-    <li><strong>مَكْتُوب</strong> — اسم مفعول؛ نوشته‌شده، ثبت‌شده، مقرر، یا قرارگرفته در نوشتار و حکم</li>
-  </ul>
-  <p>یادآوری: صورت‌هایی مانند <strong>اكتب</strong>، <strong>يكتب</strong> در شکل‌های گوناگون، یا <strong>يُكتب</strong> از نظر صرفی قابل تصورند، اما در این صفحه تمرکز بر صورت‌های اصلی و مستقیم قرآنی ریشه <strong>ك ت ب</strong> است. همچنین <strong>كاتب</strong> نباید از <strong>فكاتبوهم</strong> خلط شود. <strong>كاتب</strong> اسم فاعل است؛ اما <strong>فكاتبوهم</strong> صورت فعلی باب مفاعله است و به بستن قرارداد نوشتاری و روشن اشاره دارد.</p>
-  <p>همچنین باید توجه داشت که <strong>كتاب</strong> در قرآن همیشه به معنای کتاب فیزیکی یا جلددار نیست. گاهی به متن وحیانی، ثبت الهی، حکم مقرر، سند، نوشته، پرونده اعمال، یا ساختار معنادار هدایت اشاره دارد.</p>
+<section class="root-forms-card" id="forms-covered">
+  <h2>صورت‌های صرفی این ریشه</h2>
+  <p class="root-morphology-intro">این بخش برای آموزش صرف قرآنی ساخته شده است. ستون «استفاده در قرآن» نشان می‌دهد که آیا این صورت یا نمونه در متن قرآن به کار رفته است یا نه. صورت‌هایی که از نظر زبان عربی ممکن‌اند اما به عنوان صورت قرآنی این ریشه نیامده‌اند، با «خیر» مشخص شده‌اند. در باکس‌های «خیر»، خود دسته صرفی نیز نام برده و کوتاه توضیح داده شده است تا مرز میان امکان صرفی عربی و کاربرد قرآنی روشن بماند.</p>
+
+  <div class="morphology-grid">
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">ریشه</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">ك ت ب</div>
+      <p class="morph-note">ریشه‌ای مرتبط با نوشتن، به هم پیوستن معنا، ثبت کردن، مقرر ساختن، واجب شدن، سند، کتاب، نوشتار، وحی، و قرار گرفتن چیزی در نظام ثبت، حکم، یا حساب.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل ماضی مجرد</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">كَتَبَ / كَتَبَتْ / كَتَبْنَا</div>
+      <p class="morph-note">نوشت، نوشت، یا نوشتیم. در میدان قرآنی، این فعل می‌تواند به نوشتن، ثبت کردن، مقرر ساختن، یا قرار دادن چیزی در نظام حکم و حساب اشاره کند.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل مضارع معلوم</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">يَكْتُبُ / تَكْتُبُ / نَكْتُبُ / يَكْتُبُونَ</div>
+      <p class="morph-note">می‌نویسد، می‌نویسی/می‌نویسد، می‌نویسیم، یا می‌نویسند. این صورت‌ها ادامه عمل نوشتن، ثبت کردن، و وارد ساختن چیزی در نظام نوشتار و حساب را نشان می‌دهند.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل ماضی مجهول</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">كُتِبَ</div>
+      <p class="morph-note">نوشته شد، مقرر شد، واجب شد، یا بر کسی قرار داده شد. در تعبیرهایی مانند <strong>كُتِبَ عَلَيْكُمْ</strong>، معنا غالباً از نوشتن ظاهری به حکم، الزام و مسئولیت منتقل می‌شود.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل مضارع مجهول / آینده</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">تُكْتَبُ / سَيُكْتَبُ / سَنَكْتُبُ</div>
+      <p class="morph-note">نوشته می‌شود، نوشته خواهد شد، یا خواهیم نوشت. این میدان، معنای ثبت، شهادت، مسئولیت، و ورود گفتار و کردار در دفتر حساب را زنده نگه می‌دارد.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل امر</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">ٱكْتُبْ / ٱكْتُبُوا</div>
+      <p class="morph-note">بنویس، یا بنویسید. این صورت می‌تواند در معنای درخواست ثبت، نوشتن، مقرر ساختن، یا آوردن چیزی در میدان سند و حساب به کار رود.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل باب مفاعله</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">فَكَاتِبُوهُمْ / كَاتِبُوهُمْ</div>
+      <p class="morph-note">با آنان قرارداد نوشتاری ببندید یا وارد توافق روشن و مکتوب شوید. این صورت نشان می‌دهد که ریشه ك ت ب در عدالت اجتماعی، قرارداد، حق، و مسئولیت مستند نیز حضور دارد.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">فعل باب افتعال</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">ٱكْتَتَبَهَا</div>
+      <p class="morph-note">برای خود نوشت، رونویسی کرد، استنساخ کرد، یا سبب شد چیزی برای او نوشته شود. در سیاق قرآنی، این صورت در فضای اتهام مخالفان می‌آید؛ یعنی نسبت دادن وحی به منبع انسانی یا نوشته‌های پیشینیان.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم اصلی / میدان مصدر اسمی</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">كِتَاب / ٱلْكِتَاب</div>
+      <p class="morph-note">کتاب، نوشته، متن وحیانی، سند، ثبت، حکم مقرر، یا نظام معنادار هدایت و حساب. این واژه نباید فقط به کتاب فیزیکی و جلددار کاهش داده شود.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">جمع</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">كُتُب</div>
+      <p class="morph-note">کتاب‌ها، نوشته‌ها، یا متن‌های ثبت‌شده. در میدان قرآنی، می‌تواند به نوشته‌های الهی، کتاب‌های پیشین، یا ثبت‌های مربوط به هدایت و حساب اشاره کند.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم با ضمیر متصل</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">كِتَابِي / كِتَابَهُ</div>
+      <p class="morph-note">کتاب من / کتاب او، یا ثبت من / ثبت او. این صورت‌ها در فضای حساب اهمیت دارند؛ جایی که انسان با پرونده و ثبت اعمال خود روبه‌رو می‌شود.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم فاعل</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">كَاتِب / كَاتِبُون / كَاتِبِينَ</div>
+      <p class="morph-note">نویسنده، نویسندگان، یا کسانی که می‌نویسند و ثبت می‌کنند. در میدان قرآنی، نوشتن مسئولیت دارد؛ زیرا نویسنده می‌تواند حق را حفظ کند، سند عدالت بسازد، یا معنا را تحریف و آلوده کند.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم مفعول</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">مَكْتُوب</div>
+      <p class="morph-note">نوشته‌شده، ثبت‌شده، مقرر، یا قرارگرفته در نوشتار و حکم. این صورت نشان می‌دهد که چیزی وارد نظام ثابت ثبت، شناخت، و مسئولیت شده است.</p>
+    </div>
+
+    <div class="morph-card">
+      <div class="morph-card-header">
+        <div class="morph-type">جمع نویسندگان / ثبت‌کنندگان</div>
+        <div class="morph-used">استفاده در قرآن: بلی</div>
+      </div>
+      <div class="morph-form">كَتَبَة</div>
+      <p class="morph-note">نویسندگان یا ثبت‌کنندگان. این صورت به همان میدان نوشتن و ثبت تعلق دارد و یادآور می‌شود که ثبت کردن با امانت، شهادت، و حساب پیوند دارد.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم مکان مستقل</div>
+        <div class="morph-used">استفاده در قرآن: خیر</div>
+      </div>
+      <div class="morph-form">مَكْتَب</div>
+      <p class="morph-note"><span class="morph-label">دسته صرفی بررسی‌شده: اسم مکان</span>در عربی، مكتب می‌تواند به جای نوشتن، دفتر، یا محل آموزش نوشتار اشاره کند. اما برای ریشه ك ت ب، این صورت به عنوان کاربرد روشن قرآنی نیامده است و نباید جزو مشتقات قرآنی این ریشه شمرده شود.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم زمان مستقل</div>
+        <div class="morph-used">استفاده در قرآن: خیر</div>
+      </div>
+      <div class="morph-form">مَكْتَب</div>
+      <p class="morph-note"><span class="morph-label">دسته صرفی بررسی‌شده: اسم زمان</span>برخی وزن‌ها در عربی می‌توانند برای زمان یا مکان به کار روند. اما برای ریشه ك ت ب، اسم زمان مستقل و روشن در متن قرآن نیامده است. این باکس فقط برای کامل بودن نقشه صرفی آورده شده است.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">اسم آلت</div>
+        <div class="morph-used">استفاده در قرآن: خیر</div>
+      </div>
+      <div class="morph-form">مِكْتَبَة / مِكْتَاب</div>
+      <p class="morph-note"><span class="morph-label">دسته صرفی بررسی‌شده: اسم آلت یا اسم وابسته به نوشتار</span>در عربی می‌توان واژه‌هایی برای ابزار، محل، یا چیزهای وابسته به نوشتن ساخت. اما برای ریشه ك ت ب، اسم آلت مستقل و روشن در قرآن نیامده است. صورت‌های ممکن عربی نباید بدون شاهد قرآنی به عنوان کاربرد قرآنی معرفی شوند.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">صیغه مبالغه</div>
+        <div class="morph-used">استفاده در قرآن: خیر</div>
+      </div>
+      <div class="morph-form">كَتَّاب / كُتَّاب</div>
+      <p class="morph-note"><span class="morph-label">دسته صرفی بررسی‌شده: صیغه مبالغه یا صورت شغلی</span>در عربی می‌توان از این ریشه صورت‌هایی ساخت که به بسیار نوشتن یا پیشه نوشتن اشاره کنند. اما قرآن برای ریشه ك ت ب صیغه مبالغه مستقل و روشنی به معنای «بسیار نویسنده» نیاورده است. قرآن از صورت‌هایی مانند <strong>كاتب</strong>، <strong>كاتبين</strong> و <strong>كتبة</strong> استفاده می‌کند.</p>
+    </div>
+
+    <div class="morph-card morph-no">
+      <div class="morph-card-header">
+        <div class="morph-type">نسبت / صفت نسبی</div>
+        <div class="morph-used">استفاده در قرآن: خیر</div>
+      </div>
+      <div class="morph-form">كِتَابِي</div>
+      <p class="morph-note"><span class="morph-label">دسته صرفی بررسی‌شده: نسبت</span>در عربی متأخر، كتابي می‌تواند به معنای وابسته به کتاب یا نوشتار باشد. اما در قرآن، <strong>كتابي</strong> به معنای «کتاب من / ثبت من» آمده است، نه به عنوان صفت نسبی مستقل. بنابراین این دسته به عنوان مشتق قرآنی جداگانه ثبت نمی‌شود.</p>
+    </div>
+  </div>
+
+  <p class="root-note">یادآوری مهم: این صفحه درباره ریشه <strong>ك ت ب</strong> است. امکان صرفی عربی برای آموزش مفید است، اما تنها صورت‌هایی که در متن قرآن شاهد دارند باید به عنوان کاربرد قرآنی شمرده شوند. این تفکیک از خلط میان امکان زبانی و شاهد قرآنی جلوگیری می‌کند.</p>
 </section>
 <nav class="root-toc" aria-label="فهرست کاربردهای این ریشه">
   <h2>فهرست کاربردهای این ریشه</h2>
