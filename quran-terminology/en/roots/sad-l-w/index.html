@@ -356,6 +356,24 @@ permalink: /quran-terminology/en/roots/sad-l-w/
     text-align: left;
   }
 
+  .morph-translit {
+    direction: ltr;
+    text-align: inherit;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    font-weight: 700;
+    color: var(--root-muted);
+    margin: -0.2rem 0 0.6rem;
+  }
+
+  .morph-label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 800;
+    color: var(--root-accent-deep);
+    margin-bottom: 0.15rem;
+  }
+
   .morph-note {
     color: var(--root-muted);
     font-size: 0.95rem;
@@ -376,18 +394,18 @@ permalink: /quran-terminology/en/roots/sad-l-w/
 
   @media (max-width: 760px) {
     .root-study-page {
-      padding: 2rem 1rem;
+      padding: 1.25rem 0.45rem;
     }
 
     .root-frame {
-      padding: 1.25rem;
+      padding: 0.85rem;
       border-radius: 19px;
     }
 
     .root-section,
     .root-forms-card,
     .root-toc {
-      padding: 1rem;
+      padding: 0.85rem;
     }
 
     .root-toc ol {
@@ -396,10 +414,17 @@ permalink: /quran-terminology/en/roots/sad-l-w/
 
     .morphology-grid {
       grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+
+    .morph-card {
+      padding: 0.9rem 0.85rem;
+      border-radius: 15px;
     }
 
     .morph-card-header {
       display: block;
+      margin-bottom: 0.5rem;
     }
 
     .morph-used {
@@ -522,6 +547,7 @@ permalink: /quran-terminology/en/roots/sad-l-w/
             <div class="morph-used">Used in the Qur’an: Yes</div>
           </div>
           <div class="morph-form">ص ل و</div>
+          <div class="morph-translit">Ṣ L W</div>
           <p class="morph-note">A root connected with salat, connection, turning, establishing, attention, and alignment. It must be distinguished from the nearby but different root “ص ل ي.”</p>
         </div>
 
@@ -531,6 +557,7 @@ permalink: /quran-terminology/en/roots/sad-l-w/
             <div class="morph-used">Used in the Qur’an: Yes</div>
           </div>
           <div class="morph-form">صلوة / الصلوة</div>
+          <div class="morph-translit">ṣalāt / al-ṣalāt</div>
           <p class="morph-note">Salat; living connection, conscious turning, and a path that must be established. In Qur’anic orthography, this word is often written with waw.</p>
         </div>
 
@@ -540,6 +567,7 @@ permalink: /quran-terminology/en/roots/sad-l-w/
             <div class="morph-used">Used in the Qur’an: Yes</div>
           </div>
           <div class="morph-form">صلوات</div>
+          <div class="morph-translit">ṣalawāt</div>
           <p class="morph-note">Plural of salat; manifestations of connection, attention, support, mercy, or places of salat in different contexts.</p>
         </div>
 
@@ -549,6 +577,7 @@ permalink: /quran-terminology/en/roots/sad-l-w/
             <div class="morph-used">Used in the Qur’an: Yes</div>
           </div>
           <div class="morph-form">صَلَّى</div>
+          <div class="morph-translit">ṣallā</div>
           <p class="morph-note">He turned, performed salat, or placed himself in a certain direction; a verbal use of this root in the Qur’an.</p>
         </div>
 
@@ -558,6 +587,7 @@ permalink: /quran-terminology/en/roots/sad-l-w/
             <div class="morph-used">Used in the Qur’an: Yes</div>
           </div>
           <div class="morph-form">يُصَلِّي / يُصَلُّونَ</div>
+          <div class="morph-translit">yuṣallī / yuṣallūn</div>
           <p class="morph-note">He performs salat / they perform salat, each according to its station. A major example is: <a href="{{ '/quran-reflection/en/033-al-ahzab/056/' | relative_url }}">يُصَلُّونَ عَلَى النَّبِيِّ</a>.</p>
         </div>
 
@@ -567,6 +597,7 @@ permalink: /quran-terminology/en/roots/sad-l-w/
             <div class="morph-used">Used in the Qur’an: Yes</div>
           </div>
           <div class="morph-form">صَلِّ / صَلُّوا</div>
+          <div class="morph-translit">ṣalli / ṣallū</div>
           <p class="morph-note">Have salat, turn, support, and align yourselves. Examples include <a href="{{ '/quran-reflection/en/009-at-tawbah/103/' | relative_url }}">صَلِّ عَلَيْهِمْ</a> and <a href="{{ '/quran-reflection/en/033-al-ahzab/056/' | relative_url }}">صَلُّوا عَلَيْهِ</a>.</p>
         </div>
 
@@ -576,6 +607,7 @@ permalink: /quran-terminology/en/roots/sad-l-w/
             <div class="morph-used">Used in the Qur’an: Yes</div>
           </div>
           <div class="morph-form">مُصَلِّينَ</div>
+          <div class="morph-translit">muṣallīn</div>
           <p class="morph-note">Those who have a relation to salat. The Qur’an also uses this title as a warning about heedlessness within salat.</p>
         </div>
 
@@ -585,6 +617,7 @@ permalink: /quran-terminology/en/roots/sad-l-w/
             <div class="morph-used">Used in the Qur’an: Yes</div>
           </div>
           <div class="morph-form">مُصَلًّى</div>
+          <div class="morph-translit">muṣallā</div>
           <p class="morph-note">A place of salat; a place of standing, turning, and taking direction toward remembrance of God; as in: <a href="{{ '/quran-reflection/en/002-al-baqarah/125/' | relative_url }}">وَاتَّخِذُوا مِن مَّقَامِ إِبْرَاهِيمَ مُصَلًّى</a>.</p>
         </div>
 
@@ -593,8 +626,9 @@ permalink: /quran-terminology/en/roots/sad-l-w/
             <div class="morph-type">Independent passive participle</div>
             <div class="morph-used">Used in the Qur’an: No</div>
           </div>
-          <div class="morph-form">—</div>
-          <p class="morph-note">Not used as a separate and clear Qur’anic category for this root. Possible Arabic morphology should not be presented as Qur’anic without evidence.</p>
+          <div class="morph-form">ص ل و</div>
+          <div class="morph-translit">Ṣ L W — category not attested</div>
+          <p class="morph-note"><span class="morph-label">Morphological category: independent passive participle</span>In Arabic morphology, a passive participle points to something upon which an action has occurred. For the root Ṣ L W, this category does not appear as a clear independent Qur’anic usage. It is included here only to mark the boundary between possible Arabic morphology and attested Qur’anic forms.</p>
         </div>
 
         <div class="morph-card morph-no">
@@ -602,8 +636,9 @@ permalink: /quran-terminology/en/roots/sad-l-w/
             <div class="morph-type">Intensive form / instrument noun</div>
             <div class="morph-used">Used in the Qur’an: No</div>
           </div>
-          <div class="morph-form">—</div>
-          <p class="morph-note">No clear Qur’anic usage for this root in these categories.</p>
+          <div class="morph-form">ص ل و</div>
+          <div class="morph-translit">Ṣ L W — categories not attested</div>
+          <p class="morph-note"><span class="morph-label">Morphological categories: intensive form and instrument noun</span>An intensive form expresses strength or repeated intensity of a quality, while an instrument noun names a tool or means. For the root Ṣ L W, no clear Qur’anic usage appears in these categories. This note prevents possible Arabic patterns from being mistaken for Qur’anic usage.</p>
         </div>
       </div>
       <p class="root-note">Important note: this page is about the root <strong>ص ل و (Ṣ L W)</strong>, not the root <strong>ص ل ي (Ṣ L Y)</strong>. Ṣ L W relates to salat, connection, turning, and establishing, while Ṣ L Y in the Qur’an relates to fire, burning, heat, and tasting heat. These two must not be collapsed into one.</p>
