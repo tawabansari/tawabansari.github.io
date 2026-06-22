@@ -1,0 +1,42 @@
+---
+layout: default
+title: Qur’an Completeness
+permalink: /en/quran-completeness/
+---
+
+<section class="category-page ltr" dir="ltr">
+  <h1>Qur’an Completeness</h1>
+
+  <p class="page-intro">
+    Articles on the Qur’an as complete, preserved, sufficient, and the final criterion.
+  </p>
+
+{% assign completeness_posts = site.posts | where: "lang", "en" | where: "topic", "quran-completeness" %}
+
+{% if completeness_posts.size > 0 %}
+  <div class="article-list">
+    {% for post in completeness_posts %}
+      <article class="article-card">
+        <h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+
+        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+
+        {% if post.tags %}
+          <p class="tags">
+            {% for tag in post.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </p>
+        {% endif %}
+
+        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      </article>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No articles have been added to this section yet.</p>
+{% endif %}
+
+</section>
