@@ -5,17 +5,68 @@ permalink: /en/quran-completeness/
 ---
 
 <section class="category-page ltr" dir="ltr">
-  <h1>Qur’an Completeness</h1>
+  <div class="section-hero">
+    <p class="section-kicker">The Qur’an’s Authority</p>
+    <h1>Qur’an Completeness</h1>
 
-  <p class="page-intro">
-    Articles on the Qur’an as complete, preserved, sufficient, and the final criterion.
-  </p>
+    <p class="page-intro">
+      Articles on the Qur’an as complete, preserved, sufficient, and the final criterion.
+    </p>
+
+    <p>
+      This section examines a foundational question: is the Qur’an sufficient and final as the criterion for religious guidance, truth and falsehood, tawhid, worship, justice, taqwa, the Hereafter, and the boundaries of faith and wrongdoing; or should the Qur’an’s authority be placed under later reports, sectarian legal systems, inherited religious customs, and religious power?
+    </p>
+
+    <p>
+      The articles here study Qur’an completeness from within the Qur’an itself: divine preservation, the difference between Qur’an and Hadith, the danger of following probability as religion, the public transmission of the Qur’an, the Prophet’s role as deliverer of the message, the relation between Qur’an and later religious traditions, and why no statement can be placed before the signs of The God.
+    </p>
+  </div>
+
+  <div class="section-guide" aria-label="Section topics">
+    <div class="guide-card">
+      <h2>What Is This Section About?</h2>
+      <p>The Qur’an as the preserved, clear, and final criterion of religion, not merely one source beside equal sources.</p>
+    </div>
+
+    <div class="guide-card">
+      <h2>What Will Be Examined Here?</h2>
+      <p>Claims that the Qur’an is incomplete, Qur’an and Hadith, probable reports, Qur’anic tawatur, and the authority of The God’s signs.</p>
+    </div>
+
+    <div class="guide-card">
+      <h2>What Is the Method?</h2>
+      <p>The Qur’an is read through the Qur’an; reports, history, law, and religious customs are measured before the Qur’an.</p>
+    </div>
+  </div>
+
+  <h2 class="article-list-title">Articles in This Section</h2>
+
+  <div class="article-list">
+    <article class="article-card">
+      <h2>
+        <a href="/en/quran-completeness/quran-and-hadith-transmitters/">Refuting the Claim That the Transmitters of the Qur’an and Hadith Are Equal</a>
+      </h2>
+
+      <p class="date">2026-06-22</p>
+
+      <p class="tags">
+        <span>Qur’an</span>
+        <span>Qur’an Completeness</span>
+        <span>Hadith</span>
+        <span>tawatur</span>
+        <span>probability</span>
+      </p>
+
+      <p>
+        Why trust in the Qur’an does not depend on absolute trust in Hadith, and why Qur’anic transmission is not equal to Hadith transmission.
+      </p>
+    </article>
 
 {% assign completeness_posts = site.posts | where: "lang", "en" | where: "topic", "quran-completeness" %}
 
 {% if completeness_posts.size > 0 %}
-  <div class="article-list">
     {% for post in completeness_posts %}
+      {% unless post.url == "/en/quran-completeness/quran-and-hadith-transmitters/" %}
       <article class="article-card">
         <h2>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -33,10 +84,78 @@ permalink: /en/quran-completeness/
 
         <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
       </article>
+      {% endunless %}
     {% endfor %}
-  </div>
-{% else %}
-  <p>No articles have been added to this section yet.</p>
 {% endif %}
+  </div>
 
 </section>
+
+<style>
+  .category-page .section-hero,
+  .category-page .section-guide,
+  .category-page .article-list-title {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-hero {
+    margin-bottom: 2rem;
+  }
+
+  .section-kicker {
+    margin: 0 0 0.4rem;
+    color: #8b6423;
+    font-weight: 900;
+  }
+
+  .section-hero p {
+    line-height: 1.85;
+  }
+
+  .section-guide {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .guide-card {
+    border: 1px solid rgba(148, 114, 55, 0.24);
+    border-radius: 14px;
+    padding: 1.1rem 1.2rem;
+    background: rgba(185, 133, 47, 0.06);
+  }
+
+  .guide-card h2 {
+    margin-top: 0;
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+
+  .guide-card p {
+    margin-bottom: 0;
+    line-height: 1.7;
+  }
+
+  .article-list-title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  body.dark-theme .guide-card {
+    background: rgba(214, 176, 95, 0.10);
+    border-color: #475569;
+  }
+
+  body.dark-theme .section-kicker {
+    color: #d6b05f;
+  }
+
+  @media (max-width: 820px) {
+    .section-guide {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
