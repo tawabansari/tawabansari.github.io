@@ -1,0 +1,42 @@
+---
+layout: default
+title: کامل بودن قرآن
+permalink: /fa/quran-completeness/
+---
+
+<section class="category-page rtl" dir="rtl">
+  <h1>کامل بودن قرآن</h1>
+
+  <p class="page-intro">
+    مقاله‌هایی درباره کامل بودن، محفوظ بودن، بسنده بودن، و معیار نهایی بودن قرآن.
+  </p>
+
+{% assign completeness_posts = site.posts | where: "lang", "fa" | where: "topic", "quran-completeness" %}
+
+{% if completeness_posts.size > 0 %}
+  <div class="article-list">
+    {% for post in completeness_posts %}
+      <article class="article-card">
+        <h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+
+        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+
+        {% if post.tags %}
+          <p class="tags">
+            {% for tag in post.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </p>
+        {% endif %}
+
+        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      </article>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>هنوز مقاله‌ای در این بخش اضافه نشده است.</p>
+{% endif %}
+
+</section>
