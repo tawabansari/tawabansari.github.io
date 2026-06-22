@@ -12,6 +12,12 @@ permalink: /quran-reflection/en/surahs/
     Browse the Qur’an by surah. Each surah page links to its individual ayah pages.
   </p>
 
+  <div class="surah-index-tools" role="search">
+    <input id="surahSearch" class="surah-search-input" type="search" autocomplete="off" placeholder="Search surah, number, Arabic, English, or common spelling..." aria-label="Search surahs">
+    <div id="surahSearchCount" class="surah-search-count" aria-live="polite"></div>
+  </div>
+
+
   <div class="card-grid">
 
     <a class="landing-card" href="/quran-reflection/en/001-al-fatihah/">
@@ -592,28 +598,57 @@ permalink: /quran-reflection/en/surahs/
 <style>
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 0.75rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.65rem;
+  margin-top: 1.4rem;
+}
+
+.surah-index-tools {
+  margin: 1.25rem auto 0;
+  max-width: 760px;
+}
+
+.surah-search-input {
+  width: 100%;
+  border: 1px solid rgba(120, 130, 150, 0.45);
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  font: inherit;
+  color: inherit;
+  background: rgba(255, 255, 255, 0.72);
+  outline: none;
+}
+
+.surah-search-input:focus {
+  border-color: rgba(180, 135, 50, 0.8);
+  box-shadow: 0 0 0 3px rgba(180, 135, 50, 0.18);
+}
+
+.surah-search-count {
+  min-height: 1.35rem;
+  margin-top: 0.45rem;
+  font-size: 0.92rem;
+  opacity: 0.72;
 }
 
 .landing-card {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 0.5rem;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 0.8rem 1rem;
+  gap: 0.55rem;
+  min-height: 0;
+  border: 1px solid rgba(120, 130, 150, 0.35);
+  border-radius: 10px;
+  padding: 0.72rem 0.9rem;
   text-decoration: none;
   color: inherit;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.58);
   white-space: nowrap;
+  overflow: hidden;
 }
 
 .landing-card:hover {
-  border-color: #aaa;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-color: rgba(180, 135, 50, 0.75);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
 }
 
 .landing-card h2,
@@ -623,36 +658,300 @@ permalink: /quran-reflection/en/surahs/
 }
 
 .landing-card h2 {
-  font-size: 1.05rem;
-  line-height: 1.5;
+  flex: 0 1 auto;
+  min-width: 0;
+  font-size: 1rem;
+  line-height: 1.35;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .surah-meaning {
-  font-size: 1rem;
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 0.94rem;
   font-weight: 600;
-  color: #555;
+  opacity: 0.78;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .verse-count {
-  font-size: 0.95rem;
+  flex: 0 0 auto;
+  font-size: 0.9rem;
+  opacity: 0.72;
+}
+
+.landing-card[hidden] {
+  display: none;
 }
 
 .arabic-text {
   direction: rtl;
   text-align: right;
-  font-size: 1.8rem;
-  line-height: 2.3;
-  margin: 1.5rem 0;
+  font-size: 1.6rem;
+  line-height: 2.4;
 }
 
 .placeholder {
   color: #666;
 }
 
-@media (max-width: 620px) {
+@media (prefers-color-scheme: dark) {
+  .surah-search-input,
+  .landing-card {
+    background: rgba(255, 255, 255, 0.045);
+    border-color: rgba(190, 200, 220, 0.18);
+  }
+}
+
+@media (max-width: 720px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
   .landing-card {
     white-space: normal;
     flex-wrap: wrap;
   }
 }
 </style>
+
+<script>
+(function () {
+  const input = document.getElementById('surahSearch');
+  const count = document.getElementById('surahSearchCount');
+  const cards = Array.from(document.querySelectorAll('.card-grid .landing-card'));
+  const locale = document.documentElement.lang || 'en';
+  const messages = {
+    fa: { all: 'نمایش ۱۱۴ سوره', some: n => `نمایش ${toPersianDigits(n)} سوره`, none: 'نتیجه‌ای پیدا نشد' },
+    en: { all: 'Showing 114 surahs', some: n => `Showing ${n} surahs`, none: 'No matching surah found' }
+  };
+
+  const extraAliases = {
+    1: 'fatiha fatihah fateha fatehah opening opener hamd الحمد الفاتحه فاتحه حمد',
+    2: 'baqarah baqara bakara bakarah bagara bagarah cow البقرة البقره بقره گاو',
+    3: 'imran aal imran al imran ali imran آل عمران ال عمران عمران',
+    4: 'nisa nisaa nesa women النساء نسا نساء زنان',
+    5: 'maidah maida maydah table spread المائدة المائده مائده سفره',
+    6: 'anam anaam cattle الانعام انعام چهارپایان',
+    7: 'araf aaraaf heights الاعراف اعراف',
+    8: 'anfal spoils الانفال انفال',
+    9: 'tawbah tawba taubah repentance التوبة التوبه توبه baraah برائت',
+    10: 'yunus younus jonah یونس يونس',
+    11: 'hud هود',
+    12: 'yusuf yousuf joseph یوسف يوسف',
+    13: 'rad raad thunder الرعد رعد',
+    14: 'ibrahim ebrahim abraham ابراهیم ابراهيم',
+    15: 'hijr حجر الحجر',
+    16: 'nahl bee bees النحل نحل',
+    17: 'isra isra al isra bani israel night journey اسراء الاسراء بنی اسرائیل بني اسرائيل',
+    18: 'kahf cave الکهف الكهف کهف كهف غار',
+    19: 'maryam mary مریم مريم',
+    20: 'taha ta ha طه',
+    21: 'anbiya prophets الأنبياء الانبیاء انبیا انبياء',
+    22: 'hajj haj pilgrimage الحج حج',
+    23: 'muminun muminoon believers المؤمنون مومنون مؤمنون',
+    24: 'nur noor light النور نور',
+    25: 'furqan forqan criterion الفرقان فرقان',
+    26: 'shuara poets الشعراء شعرا شعراء',
+    27: 'naml ant ants النمل نمل',
+    28: 'qasas stories القصص قصص',
+    29: 'ankabut spider العنکبوت العنكبوت عنکبوت عنكبوت',
+    30: 'rum room romans الروم روم',
+    31: 'luqman lokman لقمان',
+    32: 'sajdah sajda prostration السجدة السجده سجده سجدة',
+    33: 'ahzab confederates الأحزاب الاحزاب احزاب',
+    34: 'saba سبأ سبا',
+    35: 'fatir creator فاطر',
+    36: 'yasin ya sin يس یس',
+    37: 'saffat ranks الصافات صافات',
+    38: 'sad ص صاد',
+    39: 'zumar groups الزمر زمر',
+    40: 'ghafir ghafer mumin forgiver غافر مومن مؤمن',
+    41: 'fussilat fusilat explained فصلت',
+    42: 'shura consultation الشورى شوری شورى',
+    43: 'zukhruf ornaments الزخرف زخرف',
+    44: 'dukhan smoke الدخان دخان',
+    45: 'jathiyah jathiya kneeling الجاثية الجاثیه جاثیه جاثية',
+    46: 'ahqaf dunes الاحقاف الأحقاف احقاف',
+    47: 'muhammad mohammad محمد',
+    48: 'fath victory الفتح فتح',
+    49: 'hujurat rooms الحجرات حجرات',
+    50: 'qaf ق قاف',
+    51: 'dhariyat zariyat scatterers الذاريات ذاریات ذاريات',
+    52: 'tur mount الطور طور',
+    53: 'najm star النجم نجم',
+    54: 'qamar moon القمر قمر',
+    55: 'rahman الرحمن رحمان',
+    56: 'waqiah waqia event الواقعة الواقعه واقعه واقعة',
+    57: 'hadid iron الحديد حدید حديد',
+    58: 'mujadilah mujadila pleading المجادلة المجادله مجادله مجادلة',
+    59: 'hashr gathering الحشر حشر',
+    60: 'mumtahanah mumtahina examined الممتحنة الممتحنه ممتحنه ممتحنة',
+    61: 'saff الصف صف',
+    62: 'jumuah jumua friday الجمعة الجمعه جمعه جمعة',
+    63: 'munafiqun hypocrites المنافقون منافقون',
+    64: 'taghabun mutual loss التغابن تغابن',
+    65: 'talaq divorce الطلاق طلاق',
+    66: 'tahrim prohibition التحريم تحریم تحريم',
+    67: 'mulk sovereignty الملك ملک ملك',
+    68: 'qalam pen القلم قلم',
+    69: 'haqqah haqqa inevitable الحاقة الحاقه حاقه حاقة',
+    70: 'maarij ascents المعارج معارج',
+    71: 'nuh nooh noah نوح',
+    72: 'jinn الجن جن',
+    73: 'muzzammil المزمل مزمل',
+    74: 'muddaththir mudathir المدثر مدثر',
+    75: 'qiyamah qiyama resurrection القيامة القیامه قیامت قيامت',
+    76: 'insan human الدهر الانسان الإنسان انسان دهر',
+    77: 'mursalat المرسلات مرسلات',
+    78: 'naba news النبأ النبا نبأ نبا',
+    79: 'naziat النازعات نازعات',
+    80: 'abasa عبس',
+    81: 'takwir التكوير تکویر تكوير',
+    82: 'infitar الانفطار انفطار',
+    83: 'mutaffifin المطففين مطففین مطففين',
+    84: 'inshiqaq الانشقاق انشقاق',
+    85: 'buruj constellations البروج بروج',
+    86: 'tariq nightcomer الطارق طارق',
+    87: 'ala alaa most high الأعلى الاعلی اعلی اعلى',
+    88: 'ghashiyah ghashiya overwhelming الغاشية الغاشیه غاشیه غاشية',
+    89: 'fajr dawn الفجر فجر',
+    90: 'balad city البلد بلد',
+    91: 'shams sun الشمس شمس',
+    92: 'layl lail night الليل لیل ليل',
+    93: 'duha morning الضحى الضحی ضحی ضحى',
+    94: 'sharh expansion الشرح شرح انشراح',
+    95: 'tin fig التين التین تین تين',
+    96: 'alaq clot العلق علق',
+    97: 'qadr قدر القدر',
+    98: 'bayyinah bayyina clear proof البينة البینه بینه بينه',
+    99: 'zalzalah earthquake الزلزلة الزلزله زلزله زلزلة',
+    100: 'adiyat chargers العاديات عادیات عاديات',
+    101: 'qariah qaria calamity القارعة القارعه قارعه قارعة',
+    102: 'takathur rivalry التكاثر تکاثر تكاثر',
+    103: 'asr time العصر عصر',
+    104: 'humazah slanderer الهمزة الهمزه همزه همزة',
+    105: 'fil feel elephant الفيل الفیل فیل فيل',
+    106: 'quraysh quraish قریش قريش',
+    107: 'maun small kindness الماعون ماعون',
+    108: 'kawthar abundance الكوثر الکوثر کوثر كوثر',
+    109: 'kafirun disbelievers الكافرون الکافرون کافرون كافرون',
+    110: 'nasr help النصر نصر',
+    111: 'masad palm fiber المسد مسد تبت',
+    112: 'ikhlas sincerity الإخلاص الاخلاص اخلاص',
+    113: 'falaq daybreak الفلق فلق',
+    114: 'nas people الناس ناس'
+  };
+
+  function toPersianDigits(value) {
+    return String(value).replace(/\d/g, d => '۰۱۲۳۴۵۶۷۸۹'[d]);
+  }
+
+  function normalize(value) {
+    return String(value || '')
+      .toLowerCase()
+      .replace(/[\u064B-\u065F\u0670\u0640]/g, '')
+      .replace(/[٠-٩]/g, d => '٠١٢٣٤٥٦٧٨٩'.indexOf(d))
+      .replace(/[۰-۹]/g, d => '۰۱۲۳۴۵۶۷۸۹'.indexOf(d))
+      .replace(/[إأآٱ]/g, 'ا')
+      .replace(/ى/g, 'ی')
+      .replace(/ي/g, 'ی')
+      .replace(/ك/g, 'ک')
+      .replace(/ة/g, 'ه')
+      .replace(/ؤ/g, 'و')
+      .replace(/ئ/g, 'ی')
+      .replace(/ʿ|‘|’|'|`/g, '')
+      .replace(/ṣ/g, 's')
+      .replace(/ḥ/g, 'h')
+      .replace(/ṭ/g, 't')
+      .replace(/ẓ/g, 'z')
+      .replace(/ḍ/g, 'd')
+      .replace(/ā/g, 'a')
+      .replace(/ī/g, 'i')
+      .replace(/ū/g, 'u')
+      .replace(/\b(al|the)\b/g, ' ')
+      .replace(/[^a-z0-9\u0600-\u06FF]+/g, ' ')
+      .trim();
+  }
+
+  function compact(value) {
+    return normalize(value).replace(/\s+/g, '');
+  }
+
+  function editDistance(a, b) {
+    if (!a || !b) return Math.max(a.length, b.length);
+    if (Math.abs(a.length - b.length) > 2) return 3;
+    const row = Array.from({ length: b.length + 1 }, (_, i) => i);
+    for (let i = 1; i <= a.length; i++) {
+      let prev = row[0];
+      row[0] = i;
+      for (let j = 1; j <= b.length; j++) {
+        const old = row[j];
+        row[j] = a[i - 1] === b[j - 1]
+          ? prev
+          : Math.min(prev + 1, row[j] + 1, row[j - 1] + 1);
+        prev = old;
+      }
+    }
+    return row[b.length];
+  }
+
+  function fuzzyTokenMatch(queryToken, indexTokens) {
+    if (queryToken.length < 4) return false;
+    return indexTokens.some(token => {
+      if (token.length < 4) return false;
+      if (token.includes(queryToken) || queryToken.includes(token)) return true;
+      return editDistance(queryToken, token) <= (queryToken.length > 6 ? 2 : 1);
+    });
+  }
+
+  const indexedCards = cards.map(card => {
+    const heading = card.querySelector('h2')?.textContent || '';
+    const number = (heading.match(/[0-9۰-۹٠-٩]+/) || [''])[0];
+    const normalizedNumber = normalize(number);
+    const paddedNumber = normalizedNumber ? normalizedNumber.padStart(3, '0') : '';
+    const hrefSlug = (card.getAttribute('href') || '').split('/').filter(Boolean).pop() || '';
+    const haystack = [
+      card.textContent,
+      hrefSlug,
+      hrefSlug.replace(/^\d+-/, ''),
+      normalizedNumber,
+      paddedNumber,
+      extraAliases[Number(normalizedNumber)] || ''
+    ].join(' ');
+    const normalized = normalize(haystack);
+    return {
+      card,
+      normalized,
+      compacted: compact(haystack),
+      tokens: normalized.split(/\s+/).filter(Boolean)
+    };
+  });
+
+  function matches(entry, rawQuery) {
+    const query = normalize(rawQuery);
+    if (!query) return true;
+    const compactQuery = compact(rawQuery);
+    if (entry.normalized.includes(query) || entry.compacted.includes(compactQuery)) return true;
+    return query.split(/\s+/).filter(Boolean).every(token => fuzzyTokenMatch(token, entry.tokens));
+  }
+
+  function update() {
+    const query = input.value;
+    let visible = 0;
+    indexedCards.forEach(entry => {
+      const show = matches(entry, query);
+      entry.card.hidden = !show;
+      if (show) visible += 1;
+    });
+    const lang = locale.startsWith('fa') ? 'fa' : 'en';
+    const copy = messages[lang];
+    count.textContent = !query.trim() ? copy.all : (visible ? copy.some(visible) : copy.none);
+  }
+
+  input.addEventListener('input', update);
+  update();
+})();
+</script>
