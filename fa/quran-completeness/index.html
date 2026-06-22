@@ -5,17 +5,68 @@ permalink: /fa/quran-completeness/
 ---
 
 <section class="category-page rtl" dir="rtl">
-  <h1>کامل بودن قرآن</h1>
+  <div class="section-hero">
+    <p class="section-kicker">مرجعیت قرآن</p>
+    <h1>کامل بودن قرآن</h1>
 
-  <p class="page-intro">
-    مقاله‌هایی درباره کامل بودن، محفوظ بودن، بسنده بودن، و معیار نهایی بودن قرآن.
-  </p>
+    <p class="page-intro">
+      مقاله‌هایی درباره کامل بودن، محفوظ بودن، بسنده بودن، و معیار نهایی بودن قرآن.
+    </p>
+
+    <p>
+      این بخش برای بررسی این پرسش بنیادین است: آیا قرآن برای هدایت دینی، سنجش حق و باطل، فهم توحید، عبادت، عدالت، تقوا، آخرت، و مرزهای ایمان و ظلم کافی و معیار نهایی است؛ یا باید مرجعیت قرآن را زیر سایه روایت‌ها، سنت‌های متأخر، فقه‌های فرقه‌ای، و قدرت‌های دینی قرار داد؟
+    </p>
+
+    <p>
+      در اینجا مقالاتی قرار می‌گیرد که از درون خود قرآن، مسئله کامل بودن و مرجعیت قرآن را بررسی می‌کنند: حفظ الهی قرآن، تفاوت قرآن با حدیث، خطر پیروی از ظن، جایگاه پیامبر به عنوان رساننده پیام، نسبت قرآن با سنت‌های دینی، و این‌که چرا هیچ سخنی نمی‌تواند بر آیات خدا مقدم شود.
+    </p>
+  </div>
+
+  <div class="section-guide" aria-label="موضوعات این بخش">
+    <div class="guide-card">
+      <h2>محور این بخش چیست؟</h2>
+      <p>قرآن به عنوان متن محفوظ، روشن، و معیار نهایی دین؛ نه یک منبع در کنار منابع هم‌تراز دیگر.</p>
+    </div>
+
+    <div class="guide-card">
+      <h2>چه چیزهایی اینجا بررسی می‌شود؟</h2>
+      <p>شبهه ناقص بودن قرآن، نسبت قرآن و حدیث، حجیت خبر ظنی، تواتر قرآن، و معیار بودن آیات خدا.</p>
+    </div>
+
+    <div class="guide-card">
+      <h2>روش کار چیست؟</h2>
+      <p>قرآن با قرآن سنجیده می‌شود؛ روایت، تاریخ، فقه، و سنت‌های مذهبی نیز در برابر قرآن بررسی می‌شوند.</p>
+    </div>
+  </div>
+
+  <h2 class="article-list-title">مقاله‌های این بخش</h2>
+
+  <div class="article-list">
+    <article class="article-card">
+      <h2>
+        <a href="/fa/quran-completeness/quran-and-hadith-transmitters/">رد شبهه هم‌ترازی ناقلان قرآن و ناقلان حدیث</a>
+      </h2>
+
+      <p class="date">2026-06-22</p>
+
+      <p class="tags">
+        <span>قرآن</span>
+        <span>کامل بودن قرآن</span>
+        <span>حدیث</span>
+        <span>تواتر</span>
+        <span>ظن</span>
+      </p>
+
+      <p>
+        چرا اعتماد به قرآن وابسته به اعتماد مطلق به حدیث نیست، و چرا انتقال قرآن با انتقال حدیث هم‌تراز نیست.
+      </p>
+    </article>
 
 {% assign completeness_posts = site.posts | where: "lang", "fa" | where: "topic", "quran-completeness" %}
 
 {% if completeness_posts.size > 0 %}
-  <div class="article-list">
     {% for post in completeness_posts %}
+      {% unless post.url == "/fa/quran-completeness/quran-and-hadith-transmitters/" %}
       <article class="article-card">
         <h2>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -33,10 +84,78 @@ permalink: /fa/quran-completeness/
 
         <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
       </article>
+      {% endunless %}
     {% endfor %}
-  </div>
-{% else %}
-  <p>هنوز مقاله‌ای در این بخش اضافه نشده است.</p>
 {% endif %}
+  </div>
 
 </section>
+
+<style>
+  .category-page .section-hero,
+  .category-page .section-guide,
+  .category-page .article-list-title {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-hero {
+    margin-bottom: 2rem;
+  }
+
+  .section-kicker {
+    margin: 0 0 0.4rem;
+    color: #8b6423;
+    font-weight: 900;
+  }
+
+  .section-hero p {
+    line-height: 2;
+  }
+
+  .section-guide {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .guide-card {
+    border: 1px solid rgba(148, 114, 55, 0.24);
+    border-radius: 14px;
+    padding: 1.1rem 1.2rem;
+    background: rgba(185, 133, 47, 0.06);
+  }
+
+  .guide-card h2 {
+    margin-top: 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+
+  .guide-card p {
+    margin-bottom: 0;
+    line-height: 1.8;
+  }
+
+  .article-list-title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  body.dark-theme .guide-card {
+    background: rgba(214, 176, 95, 0.10);
+    border-color: #475569;
+  }
+
+  body.dark-theme .section-kicker {
+    color: #d6b05f;
+  }
+
+  @media (max-width: 820px) {
+    .section-guide {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
