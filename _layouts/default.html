@@ -127,12 +127,16 @@
       text-wrap: balance;
     }
 
-    body .container .arabic-text.forqan-font-repaint,
-    body .container .arabic-text.forqan-font-repaint .word-link,
-    .root-popover-word.forqan-font-repaint {
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-      text-shadow: 0 0 0 currentColor;
+    body .container .arabic-text.forqan-font-reset,
+    body .container .arabic-text.forqan-font-reset .word-link,
+    .root-popover-word.forqan-font-reset {
+      font-family: "Amiri Quran", Amiri, "Scheherazade New", serif !important;
+    }
+
+    body .container .arabic-text.forqan-font-colored,
+    body .container .arabic-text.forqan-font-colored .word-link,
+    .root-popover-word.forqan-font-colored {
+      font-family: "Amiri Quran Colored", "Amiri Quran", Amiri, "Scheherazade New", serif !important;
     }
 
     body .container .farsi-verse {
@@ -872,7 +876,7 @@
       color: #ffffff !important;
     }
 
-    body.dark-theme button,
+    body.dark-theme button:not(.word-link),
     body.dark-theme .button,
     body.dark-theme .btn {
       background: #1e293b;
@@ -1314,21 +1318,29 @@
   const themeButton = document.getElementById('theme-toggle-btn');
   const savedTheme = localStorage.getItem('forqan-theme');
 
-  function repaintArabicText() {
+  function refreshArabicFont() {
     const arabicElements = document.querySelectorAll('.arabic-text, .root-popover-word');
     if (!arabicElements.length) return;
 
     arabicElements.forEach(function (element) {
-      element.classList.remove('forqan-font-repaint');
+      element.classList.remove('forqan-font-colored');
+      element.classList.add('forqan-font-reset');
       void element.offsetHeight;
-      element.classList.add('forqan-font-repaint');
     });
 
     window.setTimeout(function () {
       arabicElements.forEach(function (element) {
-        element.classList.remove('forqan-font-repaint');
+        element.classList.remove('forqan-font-reset');
+        element.classList.add('forqan-font-colored');
+        void element.offsetHeight;
       });
-    }, 260);
+    }, 80);
+
+    window.setTimeout(function () {
+      arabicElements.forEach(function (element) {
+        element.classList.remove('forqan-font-colored');
+      });
+    }, 420);
   }
 
   if (savedTheme === 'dark') {
@@ -1336,9 +1348,9 @@
   }
 
   if (document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(repaintArabicText);
+    document.fonts.ready.then(refreshArabicFont);
   } else {
-    window.addEventListener('load', repaintArabicText);
+    window.addEventListener('load', refreshArabicFont);
   }
 
   themeButton.addEventListener('click', function () {
@@ -1350,8 +1362,8 @@
       localStorage.setItem('forqan-theme', 'light');
     }
 
-    repaintArabicText();
-    window.setTimeout(repaintArabicText, 120);
+    refreshArabicFont();
+    window.setTimeout(refreshArabicFont, 180);
   });
 
   const zoomInBtn = document.getElementById('zoom-in');
