@@ -127,6 +127,14 @@
       text-wrap: balance;
     }
 
+    body .container .arabic-text.forqan-font-repaint,
+    body .container .arabic-text.forqan-font-repaint .word-link,
+    .root-popover-word.forqan-font-repaint {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      text-shadow: 0 0 0 currentColor;
+    }
+
     body .container .farsi-verse {
       direction: rtl;
       text-align: center;
@@ -1306,8 +1314,31 @@
   const themeButton = document.getElementById('theme-toggle-btn');
   const savedTheme = localStorage.getItem('forqan-theme');
 
+  function repaintArabicText() {
+    const arabicElements = document.querySelectorAll('.arabic-text, .root-popover-word');
+    if (!arabicElements.length) return;
+
+    arabicElements.forEach(function (element) {
+      element.classList.remove('forqan-font-repaint');
+      void element.offsetHeight;
+      element.classList.add('forqan-font-repaint');
+    });
+
+    window.setTimeout(function () {
+      arabicElements.forEach(function (element) {
+        element.classList.remove('forqan-font-repaint');
+      });
+    }, 260);
+  }
+
   if (savedTheme === 'dark') {
     document.body.classList.add('dark-theme');
+  }
+
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(repaintArabicText);
+  } else {
+    window.addEventListener('load', repaintArabicText);
   }
 
   themeButton.addEventListener('click', function () {
@@ -1318,6 +1349,9 @@
     } else {
       localStorage.setItem('forqan-theme', 'light');
     }
+
+    repaintArabicText();
+    window.setTimeout(repaintArabicText, 120);
   });
 
   const zoomInBtn = document.getElementById('zoom-in');
