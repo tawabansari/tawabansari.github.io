@@ -26,12 +26,49 @@
   <script src="/assets/js/root-theme.js" defer></script>
 
   <style>
+    @font-face {
+      font-family: "Amiri Quran Colored";
+      src: url("/assets/fonts/AmiriQuranColored.ttf") format("truetype");
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Amiri Quran";
+      src: url("/assets/fonts/AmiriQuran.ttf") format("truetype");
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Vazirmatn";
+      src: url("/assets/fonts/Vazirmatn-Regular.woff2") format("woff2");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Vazirmatn";
+      src: url("/assets/fonts/Vazirmatn-Bold.woff2") format("woff2");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
     html {
       scroll-behavior: smooth;
     }
 
     body {
       --zoom-factor: 100%;
+    }
+
+    body.lang-fa,
+    body.lang-fa .container,
+    body.lang-fa .site-header,
+    body.lang-fa .site-footer,
+    body.lang-fa .details-content,
+    body.lang-fa .farsi-verse {
+      font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
     }
 
     body .container,
@@ -82,17 +119,20 @@
     body .container .arabic-text {
       direction: rtl;
       text-align: center;
-      font-size: calc(var(--zoom-factor) * 1.5) !important;
-      line-height: 2.2 !important;
-      margin-bottom: 1.4rem;
+      font-family: "Amiri Quran Colored", "Amiri Quran", Amiri, "Scheherazade New", serif;
+      font-size: calc(var(--zoom-factor) * 1.72) !important;
+      font-weight: 400;
+      line-height: 2.55 !important;
+      margin: 1.05rem 0 1.35rem;
+      text-wrap: balance;
     }
 
     body .container .farsi-verse {
       direction: rtl;
       text-align: center;
-      font-size: calc(var(--zoom-factor) * 1.08) !important;
-      line-height: 1.8 !important;
-      margin-bottom: 1.8rem;
+      font-size: calc(var(--zoom-factor) * 1.1) !important;
+      line-height: 2 !important;
+      margin: 0.35rem 0 2rem;
     }
 
     body .container .english-verse {
@@ -176,6 +216,7 @@
       font-weight: 700;
       margin-bottom: 0.7rem;
       color: #111827;
+      font-family: "Amiri Quran Colored", "Amiri Quran", Amiri, "Scheherazade New", serif;
     }
 
     .root-popover-row {
@@ -1560,6 +1601,28 @@
   document.body.appendChild(popover);
 
   let activeWord = null;
+  let rootPopoverPinned = false;
+  let rootPopoverHoverTimer = null;
+
+  function canPreviewRootPopoverOnHover() {
+    return window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  }
+
+  function clearRootPopoverHoverTimer() {
+    if (!rootPopoverHoverTimer) return;
+    window.clearTimeout(rootPopoverHoverTimer);
+    rootPopoverHoverTimer = null;
+  }
+
+  function scheduleRootPopoverHoverClose() {
+    clearRootPopoverHoverTimer();
+
+    if (rootPopoverPinned || !canPreviewRootPopoverOnHover()) return;
+
+    rootPopoverHoverTimer = window.setTimeout(function () {
+      closeRootPopover(false);
+    }, 180);
+  }
 
   function createPopoverRow(label, value) {
     if (!value) return null;
@@ -1582,6 +1645,8 @@
   }
 
   function closeRootPopover(returnFocus) {
+    clearRootPopoverHoverTimer();
+    rootPopoverPinned = false;
     popover.classList.remove('show');
     popover.setAttribute('aria-hidden', 'true');
     document.body.classList.remove('root-popover-open');
@@ -1633,7 +1698,11 @@
     popover.style.top = top + 'px';
   }
 
-  function openRootPopover(target) {
+  function openRootPopover(target, options) {
+    const settings = options || {};
+    rootPopoverPinned = Boolean(settings.pinned);
+    clearRootPopoverHoverTimer();
+
     if (activeWord && activeWord !== target) {
       activeWord.setAttribute('aria-expanded', 'false');
     }
@@ -1749,6 +1818,32 @@
           : 'Show word information for ' + labelWord
       );
     }
+
+    wordLink.addEventListener('mouseenter', function () {
+      if (!canPreviewRootPopoverOnHover()) return;
+      openRootPopover(wordLink, { pinned: false });
+    });
+
+    wordLink.addEventListener('mouseleave', function () {
+      scheduleRootPopoverHoverClose();
+    });
+
+    wordLink.addEventListener('focus', function () {
+      if (!canPreviewRootPopoverOnHover()) return;
+      openRootPopover(wordLink, { pinned: false });
+    });
+
+    wordLink.addEventListener('blur', function () {
+      scheduleRootPopoverHoverClose();
+    });
+  });
+
+  popover.addEventListener('mouseenter', function () {
+    clearRootPopoverHoverTimer();
+  });
+
+  popover.addEventListener('mouseleave', function () {
+    scheduleRootPopoverHoverClose();
   });
 
   document.addEventListener('click', function (event) {
@@ -1758,10 +1853,14 @@
       event.preventDefault();
       event.stopPropagation();
 
-      if (activeWord === target && popover.classList.contains('show')) {
+      if (
+        activeWord === target &&
+        popover.classList.contains('show') &&
+        rootPopoverPinned
+      ) {
         closeRootPopover(false);
       } else {
-        openRootPopover(target);
+        openRootPopover(target, { pinned: true });
       }
 
       return;
@@ -1781,10 +1880,14 @@
     ) {
       event.preventDefault();
 
-      if (activeWord === target && popover.classList.contains('show')) {
+      if (
+        activeWord === target &&
+        popover.classList.contains('show') &&
+        rootPopoverPinned
+      ) {
         closeRootPopover(false);
       } else {
-        openRootPopover(target);
+        openRootPopover(target, { pinned: true });
       }
 
       return;
