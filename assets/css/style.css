@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Vazirmatn", Arial, sans-serif;
   background: #f8f8f8;
   color: #222;
   line-height: 1.7;
@@ -107,7 +107,7 @@ nav a {
 .rtl {
   direction: rtl;
   text-align: right;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
 }
 
 .site-footer {
