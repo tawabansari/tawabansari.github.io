@@ -127,6 +127,18 @@
       text-wrap: balance;
     }
 
+    body .container .arabic-text.forqan-font-reset,
+    body .container .arabic-text.forqan-font-reset .word-link,
+    .root-popover-word.forqan-font-reset {
+      font-family: "Amiri Quran", Amiri, "Scheherazade New", serif !important;
+    }
+
+    body .container .arabic-text.forqan-font-colored,
+    body .container .arabic-text.forqan-font-colored .word-link,
+    .root-popover-word.forqan-font-colored {
+      font-family: "Amiri Quran Colored", "Amiri Quran", Amiri, "Scheherazade New", serif !important;
+    }
+
     body .container .farsi-verse {
       direction: rtl;
       text-align: center;
@@ -864,7 +876,7 @@
       color: #ffffff !important;
     }
 
-    body.dark-theme button,
+    body.dark-theme button:not(.word-link),
     body.dark-theme .button,
     body.dark-theme .btn {
       background: #1e293b;
@@ -1306,8 +1318,39 @@
   const themeButton = document.getElementById('theme-toggle-btn');
   const savedTheme = localStorage.getItem('forqan-theme');
 
+  function refreshArabicFont() {
+    const arabicElements = document.querySelectorAll('.arabic-text, .root-popover-word');
+    if (!arabicElements.length) return;
+
+    arabicElements.forEach(function (element) {
+      element.classList.remove('forqan-font-colored');
+      element.classList.add('forqan-font-reset');
+      void element.offsetHeight;
+    });
+
+    window.setTimeout(function () {
+      arabicElements.forEach(function (element) {
+        element.classList.remove('forqan-font-reset');
+        element.classList.add('forqan-font-colored');
+        void element.offsetHeight;
+      });
+    }, 80);
+
+    window.setTimeout(function () {
+      arabicElements.forEach(function (element) {
+        element.classList.remove('forqan-font-colored');
+      });
+    }, 420);
+  }
+
   if (savedTheme === 'dark') {
     document.body.classList.add('dark-theme');
+  }
+
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(refreshArabicFont);
+  } else {
+    window.addEventListener('load', refreshArabicFont);
   }
 
   themeButton.addEventListener('click', function () {
@@ -1318,6 +1361,9 @@
     } else {
       localStorage.setItem('forqan-theme', 'light');
     }
+
+    refreshArabicFont();
+    window.setTimeout(refreshArabicFont, 180);
   });
 
   const zoomInBtn = document.getElementById('zoom-in');
