@@ -586,7 +586,8 @@
 
     .copy-ayah-text,
     .copy-ayah-link,
-    .copy-section-text {
+    .copy-section-text,
+    .section-toggle-button {
       border: 1px solid #ddd;
       border-radius: 999px;
       background: #fff;
@@ -607,15 +608,283 @@
       padding: 0.25rem 0.55rem;
     }
 
-    .copy-section-text {
+    .copy-section-text,
+    .section-toggle-button {
       font-size: 0.9rem !important;
       padding: 0.2rem 0.55rem;
     }
 
     .copy-ayah-text:hover,
     .copy-ayah-link:hover,
-    .copy-section-text:hover {
+    .copy-section-text:hover,
+    .section-toggle-button:hover {
       border-color: #aaa;
+    }
+
+    body .container .ayah-block details > summary {
+      gap: 0.45rem;
+      padding-inline: 1rem !important;
+    }
+
+    body .container .ayah-block details > summary::after {
+      display: none !important;
+    }
+
+    .section-toggle-button {
+      min-width: 1.75rem;
+      min-height: 1.75rem;
+    }
+
+    .quran-nav-trigger {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2rem;
+      height: 2rem;
+      border: 1px solid #d7dde6;
+      border-radius: 999px;
+      background: #fff;
+      color: #64748b;
+      cursor: pointer;
+      font: inherit;
+      font-size: 1rem !important;
+      line-height: 1;
+      margin-inline-start: 0.25rem;
+    }
+
+    .quran-nav-trigger:hover,
+    .quran-nav-trigger:focus-visible {
+      border-color: #b08d57;
+      color: #6f522d;
+      outline: none;
+    }
+
+    .quran-nav-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 9996;
+      display: none;
+      background: rgba(15, 23, 42, 0.28);
+      backdrop-filter: blur(2px);
+    }
+
+    .quran-nav-drawer {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      z-index: 9997;
+      width: min(42rem, calc(100vw - 1.5rem));
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      color: #1f2937;
+      border-inline-end: 1px solid #e5e7eb;
+      box-shadow: 0 22px 70px rgba(15, 23, 42, 0.18);
+      transform: translateX(-105%);
+      transition: transform 180ms ease;
+    }
+
+    .quran-nav-drawer[dir="rtl"] {
+      right: 0;
+      left: auto;
+      border-inline-end: 0;
+      border-inline-start: 1px solid #e5e7eb;
+      transform: translateX(105%);
+    }
+
+    .quran-nav-drawer[dir="ltr"] {
+      left: 0;
+      right: auto;
+    }
+
+    body.quran-nav-open {
+      overflow: hidden;
+    }
+
+    body.quran-nav-open .quran-nav-backdrop {
+      display: block;
+    }
+
+    body.quran-nav-open .quran-nav-drawer {
+      transform: translateX(0);
+    }
+
+    .quran-nav-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 1rem 1rem 0.8rem;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .quran-nav-title {
+      margin: 0;
+      font-size: 1.05rem !important;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    .quran-nav-close {
+      margin-inline-start: auto;
+      width: 2rem;
+      height: 2rem;
+      border: 1px solid #d7dde6;
+      border-radius: 999px;
+      background: #fff;
+      color: #64748b;
+      cursor: pointer;
+      font-size: 1.2rem !important;
+      line-height: 1;
+    }
+
+    .quran-nav-columns {
+      display: grid;
+      grid-template-columns: minmax(13rem, 0.96fr) minmax(12rem, 1.04fr);
+      min-height: 0;
+      flex: 1;
+    }
+
+    .quran-nav-panel {
+      min-width: 0;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+      border-inline-end: 1px solid #e5e7eb;
+    }
+
+    .quran-nav-panel:last-child {
+      border-inline-end: 0;
+    }
+
+    .quran-nav-panel-head {
+      padding: 0.85rem;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    .quran-nav-label {
+      display: block;
+      margin: 0 0 0.45rem;
+      color: #64748b;
+      font-size: 0.78rem !important;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    .quran-nav-search {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #d7dde6;
+      border-radius: 999px;
+      background: #f8fafc;
+      color: inherit;
+      padding: 0.58rem 0.8rem;
+      font: inherit;
+      line-height: 1.25;
+    }
+
+    .quran-nav-search:focus {
+      outline: none;
+      border-color: #b08d57;
+      box-shadow: 0 0 0 3px rgba(176, 141, 87, 0.14);
+      background: #fff;
+    }
+
+    .quran-nav-list {
+      min-height: 0;
+      overflow: auto;
+      padding: 0.5rem;
+    }
+
+    .quran-nav-surah,
+    .quran-nav-ayah {
+      width: 100%;
+      border: 0;
+      border-radius: 8px;
+      background: transparent;
+      color: inherit;
+      cursor: pointer;
+      font: inherit;
+      text-align: start;
+    }
+
+    .quran-nav-surah {
+      display: grid;
+      grid-template-columns: 2.1rem 1fr;
+      gap: 0.65rem;
+      padding: 0.62rem 0.58rem;
+      align-items: center;
+    }
+
+    .quran-nav-surah:hover,
+    .quran-nav-surah:focus-visible,
+    .quran-nav-surah.is-active,
+    .quran-nav-ayah:hover,
+    .quran-nav-ayah:focus-visible,
+    .quran-nav-ayah.is-current {
+      background: rgba(176, 141, 87, 0.1);
+      outline: none;
+    }
+
+    .quran-nav-surah-number {
+      color: #9a7440;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .quran-nav-surah-name {
+      display: block;
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    .quran-nav-surah-meta {
+      display: block;
+      margin-top: 0.16rem;
+      color: #64748b;
+      font-size: 0.78rem !important;
+      line-height: 1.25;
+    }
+
+    .quran-nav-ayah-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(4.2rem, 1fr));
+      gap: 0.42rem;
+    }
+
+    .quran-nav-ayah {
+      min-height: 2.25rem;
+      padding: 0.45rem 0.4rem;
+      text-align: center;
+      border: 1px solid #e5e7eb;
+      background: #fff;
+      font-weight: 800;
+    }
+
+    .quran-nav-empty {
+      margin: 0;
+      padding: 0.85rem;
+      color: #64748b;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 720px) {
+      .quran-nav-drawer {
+        width: 100vw;
+      }
+
+      .quran-nav-columns {
+        grid-template-columns: 1fr;
+      }
+
+      .quran-nav-panel {
+        border-inline-end: 0;
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      .quran-nav-panel:first-child {
+        max-height: 42vh;
+      }
     }
 
     .ayah-block.link-highlight {
@@ -891,10 +1160,48 @@
     body.dark-theme .back-to-top,
     body.dark-theme .copy-ayah-text,
     body.dark-theme .copy-ayah-link,
-    body.dark-theme .copy-section-text {
+    body.dark-theme .copy-section-text,
+    body.dark-theme .section-toggle-button,
+    body.dark-theme .quran-nav-trigger,
+    body.dark-theme .quran-nav-close,
+    body.dark-theme .quran-nav-ayah {
       background: #172033;
       border-color: #475569;
       color: #f8fafc;
+    }
+
+    body.dark-theme .quran-nav-drawer {
+      background: #0f172a;
+      color: #f8fafc;
+      border-color: #334155;
+      box-shadow: 0 22px 70px rgba(0, 0, 0, 0.42);
+    }
+
+    body.dark-theme .quran-nav-header,
+    body.dark-theme .quran-nav-panel,
+    body.dark-theme .quran-nav-panel-head {
+      border-color: #334155;
+    }
+
+    body.dark-theme .quran-nav-search {
+      background: #172033;
+      border-color: #475569;
+      color: #f8fafc;
+    }
+
+    body.dark-theme .quran-nav-label,
+    body.dark-theme .quran-nav-surah-meta,
+    body.dark-theme .quran-nav-empty {
+      color: #cbd5e1;
+    }
+
+    body.dark-theme .quran-nav-surah:hover,
+    body.dark-theme .quran-nav-surah:focus-visible,
+    body.dark-theme .quran-nav-surah.is-active,
+    body.dark-theme .quran-nav-ayah:hover,
+    body.dark-theme .quran-nav-ayah:focus-visible,
+    body.dark-theme .quran-nav-ayah.is-current {
+      background: rgba(214, 178, 109, 0.16);
     }
 
     body.dark-theme .theme-icon-dark {
@@ -1447,6 +1754,10 @@
   <p>Free to share and distribute for non-commercial purposes with attribution.</p>
 </footer>
 
+{% if page.url contains "/quran-reflection/" %}
+<script src="/assets/js/quran-navigation-data.js"></script>
+{% endif %}
+
 <script>
   const themeButton = document.getElementById('theme-toggle-btn');
   const savedTheme = localStorage.getItem('forqan-theme');
@@ -1571,6 +1882,300 @@
     return text.replace(/\s+/g, ' ').trim();
   }
 
+  function labelButton(button, label) {
+    button.setAttribute('aria-label', label);
+    button.setAttribute('title', label);
+  }
+
+  function initQuranNavigator() {
+    const data = window.FORQAN_QURAN_NAV || [];
+    const match = window.location.pathname.match(/^\/quran-reflection\/(en|fa)\/(\d{3}-[^/]+)\//);
+    if (!data.length || !match) return;
+
+    const lang = match[1];
+    const currentSlug = match[2];
+    const isFarsi = lang === 'fa';
+    const currentSurah = data.find(surah => surah.slug === currentSlug) || data[0];
+    let selectedSurah = currentSurah;
+
+    function pad3(value) {
+      return String(value).padStart(3, '0');
+    }
+
+    function localDigits(value) {
+      return isFarsi
+        ? String(value).replace(/\d/g, d => '۰۱۲۳۴۵۶۷۸۹'[d])
+        : String(value);
+    }
+
+    function normalizeNav(value) {
+      return String(value || '')
+        .toLowerCase()
+        .replace(/[\u064B-\u065F\u0670\u0640]/g, '')
+        .replace(/[٠-٩]/g, d => '٠١٢٣٤٥٦٧٨٩'.indexOf(d))
+        .replace(/[۰-۹]/g, d => '۰۱۲۳۴۵۶۷۸۹'.indexOf(d))
+        .replace(/[إأآٱ]/g, 'ا')
+        .replace(/ى/g, 'ی')
+        .replace(/ي/g, 'ی')
+        .replace(/ك/g, 'ک')
+        .replace(/ة/g, 'ه')
+        .replace(/ؤ/g, 'و')
+        .replace(/ئ/g, 'ی')
+        .replace(/ʿ|‘|’|'|`/g, '')
+        .replace(/ṣ/g, 's')
+        .replace(/ḥ/g, 'h')
+        .replace(/ṭ/g, 't')
+        .replace(/ẓ/g, 'z')
+        .replace(/ḍ/g, 'd')
+        .replace(/ā/g, 'a')
+        .replace(/ī/g, 'i')
+        .replace(/ū/g, 'u')
+        .replace(/\b(al|the)\b/g, ' ')
+        .replace(/[^a-z0-9\u0600-\u06FF]+/g, ' ')
+        .trim();
+    }
+
+    function compactNav(value) {
+      return normalizeNav(value).replace(/\s+/g, '');
+    }
+
+    function editDistanceNav(a, b) {
+      if (!a || !b) return Math.max(a.length, b.length);
+      if (Math.abs(a.length - b.length) > 2) return 3;
+      const row = Array.from({ length: b.length + 1 }, (_, i) => i);
+      for (let i = 1; i <= a.length; i++) {
+        let prev = row[0];
+        row[0] = i;
+        for (let j = 1; j <= b.length; j++) {
+          const old = row[j];
+          row[j] = a[i - 1] === b[j - 1]
+            ? prev
+            : Math.min(prev + 1, row[j] + 1, row[j - 1] + 1);
+          prev = old;
+        }
+      }
+      return row[b.length];
+    }
+
+    function fuzzyNavToken(queryToken, tokens) {
+      if (queryToken.length < 4) return false;
+      return tokens.some(token => {
+        if (token.length < 4) return false;
+        if (token.includes(queryToken) || queryToken.includes(token)) return true;
+        return editDistanceNav(queryToken, token) <= (queryToken.length > 6 ? 2 : 1);
+      });
+    }
+
+    const indexedSurahs = data.map(surah => {
+      const haystack = [
+        surah.number,
+        pad3(surah.number),
+        surah.slug,
+        surah.slug.replace(/^\d+-/, ''),
+        surah.enName,
+        surah.faName,
+        surah.enMeaning,
+        surah.faMeaning,
+        surah.aliases
+      ].join(' ');
+      const normalized = normalizeNav(haystack);
+      return {
+        surah,
+        normalized,
+        compacted: compactNav(haystack),
+        tokens: normalized.split(/\s+/).filter(Boolean)
+      };
+    });
+
+    function surahMatches(entry, rawQuery) {
+      const query = normalizeNav(rawQuery);
+      if (!query) return true;
+      const compactQuery = compactNav(rawQuery);
+      if (entry.normalized.includes(query) || entry.compacted.includes(compactQuery)) return true;
+      return query.split(/\s+/).filter(Boolean).every(token => fuzzyNavToken(token, entry.tokens));
+    }
+
+    function ayahNumberFromHash() {
+      const hashMatch = window.location.hash.match(/ayah-(\d+)/);
+      return hashMatch ? Number(hashMatch[1]) : null;
+    }
+
+    function ayahUrl(surah, ayah) {
+      return `/quran-reflection/${lang}/${surah.slug}/#ayah-${pad3(ayah)}`;
+    }
+
+    const trigger = document.createElement('button');
+    trigger.className = 'quran-nav-trigger';
+    trigger.type = 'button';
+    trigger.textContent = '☰';
+    labelButton(trigger, isFarsi ? 'رفتن به سوره یا آیه' : 'Navigate to surah or verse');
+
+    const header = document.querySelector('.surah-header-block');
+    if (header) {
+      header.appendChild(trigger);
+    } else {
+      trigger.style.position = 'fixed';
+      trigger.style.insetBlockStart = '5.5rem';
+      trigger.style.insetInlineEnd = '1rem';
+      trigger.style.zIndex = '9995';
+      document.body.appendChild(trigger);
+    }
+
+    const backdrop = document.createElement('div');
+    backdrop.className = 'quran-nav-backdrop';
+
+    const drawer = document.createElement('aside');
+    drawer.className = 'quran-nav-drawer';
+    drawer.dir = isFarsi ? 'rtl' : 'ltr';
+    drawer.setAttribute('aria-hidden', 'true');
+    drawer.innerHTML = `
+      <div class="quran-nav-header">
+        <h2 class="quran-nav-title">${isFarsi ? 'ناوبری قرآن' : 'Qur’an Navigation'}</h2>
+        <button class="quran-nav-close" type="button" aria-label="${isFarsi ? 'بستن' : 'Close'}" title="${isFarsi ? 'بستن' : 'Close'}">×</button>
+      </div>
+      <div class="quran-nav-columns">
+        <section class="quran-nav-panel">
+          <div class="quran-nav-panel-head">
+            <label class="quran-nav-label" for="quranNavSurahSearch">${isFarsi ? 'سوره' : 'Surah'}</label>
+            <input id="quranNavSurahSearch" class="quran-nav-search" type="search" autocomplete="off" placeholder="${isFarsi ? 'نام یا شماره سوره...' : 'Name or number...'}">
+          </div>
+          <div class="quran-nav-list" data-surah-list></div>
+        </section>
+        <section class="quran-nav-panel">
+          <div class="quran-nav-panel-head">
+            <label class="quran-nav-label" for="quranNavAyahSearch">${isFarsi ? 'آیه' : 'Verse'}</label>
+            <input id="quranNavAyahSearch" class="quran-nav-search" type="search" inputmode="numeric" autocomplete="off" placeholder="${isFarsi ? 'شماره آیه...' : 'Verse number...'}">
+          </div>
+          <div class="quran-nav-list" data-ayah-list></div>
+        </section>
+      </div>
+    `;
+
+    document.body.appendChild(backdrop);
+    document.body.appendChild(drawer);
+
+    const closeButton = drawer.querySelector('.quran-nav-close');
+    const surahSearch = drawer.querySelector('#quranNavSurahSearch');
+    const ayahSearch = drawer.querySelector('#quranNavAyahSearch');
+    const surahList = drawer.querySelector('[data-surah-list]');
+    const ayahList = drawer.querySelector('[data-ayah-list]');
+
+    function renderSurahs() {
+      const query = surahSearch.value;
+      const matches = indexedSurahs.filter(entry => surahMatches(entry, query));
+      surahList.innerHTML = '';
+
+      if (!matches.length) {
+        const empty = document.createElement('p');
+        empty.className = 'quran-nav-empty';
+        empty.textContent = isFarsi ? 'سوره‌ای پیدا نشد.' : 'No surah found.';
+        surahList.appendChild(empty);
+        return;
+      }
+
+      matches.forEach(entry => {
+        const surah = entry.surah;
+        const button = document.createElement('button');
+        button.className = 'quran-nav-surah';
+        button.type = 'button';
+        if (surah.slug === selectedSurah.slug) button.classList.add('is-active');
+        button.innerHTML = `
+          <span class="quran-nav-surah-number">${localDigits(surah.number)}</span>
+          <span>
+            <span class="quran-nav-surah-name">${isFarsi ? surah.faName : surah.enName}</span>
+            <span class="quran-nav-surah-meta">${isFarsi ? surah.enName : surah.faName} · ${localDigits(surah.ayahs)} ${isFarsi ? 'آیه' : 'verses'}</span>
+          </span>
+        `;
+        button.addEventListener('click', function () {
+          selectedSurah = surah;
+          ayahSearch.value = '';
+          renderSurahs();
+          renderAyahs();
+          ayahSearch.focus();
+        });
+        surahList.appendChild(button);
+      });
+    }
+
+    function renderAyahs() {
+      const raw = normalizeNav(ayahSearch.value).replace(/\D/g, '');
+      const currentAyah = selectedSurah.slug === currentSlug ? ayahNumberFromHash() : null;
+      const wrapper = document.createElement('div');
+      wrapper.className = 'quran-nav-ayah-grid';
+      ayahList.innerHTML = '';
+
+      for (let ayah = 1; ayah <= selectedSurah.ayahs; ayah++) {
+        if (raw && !String(ayah).includes(raw)) continue;
+        const button = document.createElement('button');
+        button.className = 'quran-nav-ayah';
+        button.type = 'button';
+        if (ayah === currentAyah) button.classList.add('is-current');
+        button.textContent = `${localDigits(selectedSurah.number)}:${localDigits(ayah)}`;
+        labelButton(button, isFarsi ? `رفتن به آیه ${localDigits(selectedSurah.number)}:${localDigits(ayah)}` : `Go to ${selectedSurah.number}:${ayah}`);
+        button.addEventListener('click', function () {
+          window.location.href = ayahUrl(selectedSurah, ayah);
+        });
+        wrapper.appendChild(button);
+      }
+
+      if (!wrapper.children.length) {
+        const empty = document.createElement('p');
+        empty.className = 'quran-nav-empty';
+        empty.textContent = isFarsi ? 'چنین آیه‌ای در این سوره نیست.' : 'No verse with that number in this surah.';
+        ayahList.appendChild(empty);
+      } else {
+        ayahList.appendChild(wrapper);
+      }
+    }
+
+    function openDrawer() {
+      drawer.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('quran-nav-open');
+      renderSurahs();
+      renderAyahs();
+      setTimeout(() => surahSearch.focus(), 0);
+    }
+
+    function closeDrawer() {
+      document.body.classList.remove('quran-nav-open');
+      drawer.setAttribute('aria-hidden', 'true');
+      trigger.focus();
+    }
+
+    trigger.addEventListener('click', openDrawer);
+    closeButton.addEventListener('click', closeDrawer);
+    backdrop.addEventListener('click', closeDrawer);
+    surahSearch.addEventListener('input', renderSurahs);
+    ayahSearch.addEventListener('input', renderAyahs);
+
+    surahSearch.addEventListener('keydown', function (event) {
+      if (event.key !== 'Enter') return;
+      const first = indexedSurahs.find(entry => surahMatches(entry, surahSearch.value));
+      if (!first) return;
+      selectedSurah = first.surah;
+      ayahSearch.value = '';
+      renderSurahs();
+      renderAyahs();
+      ayahSearch.focus();
+    });
+
+    ayahSearch.addEventListener('keydown', function (event) {
+      if (event.key !== 'Enter') return;
+      const ayah = Number(normalizeNav(ayahSearch.value).replace(/\D/g, ''));
+      if (ayah >= 1 && ayah <= selectedSurah.ayahs) {
+        window.location.href = ayahUrl(selectedSurah, ayah);
+      }
+    });
+
+    window.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && document.body.classList.contains('quran-nav-open')) {
+        closeDrawer();
+      }
+    });
+  }
+
+  initQuranNavigator();
+
   function copyToClipboard(button, text) {
     navigator.clipboard.writeText(text).then(function () {
       const originalText = button.textContent;
@@ -1604,7 +2209,7 @@
     textButton.className = 'copy-ayah-text';
     textButton.type = 'button';
     textButton.textContent = '⧉';
-    textButton.setAttribute('aria-label', 'Copy verse text');
+    labelButton(textButton, document.body.classList.contains('lang-fa') ? 'کپی متن آیه' : 'Copy verse text');
 
     textButton.addEventListener('click', function () {
       const arabicElement = ayahBlock.querySelector('.arabic-text');
@@ -1642,7 +2247,7 @@
     linkButton.className = 'copy-ayah-link';
     linkButton.type = 'button';
     linkButton.textContent = '🔗';
-    linkButton.setAttribute('aria-label', 'Copy verse link');
+    labelButton(linkButton, document.body.classList.contains('lang-fa') ? 'کپی پیوند آیه' : 'Copy verse link');
 
     linkButton.addEventListener('click', function () {
       const cleanUrl =
@@ -1698,7 +2303,7 @@
     sectionCopyButton.className = 'copy-section-text';
     sectionCopyButton.type = 'button';
     sectionCopyButton.textContent = '⧉';
-    sectionCopyButton.setAttribute('aria-label', 'Copy section text');
+    labelButton(sectionCopyButton, document.body.classList.contains('lang-fa') ? 'کپی متن این بخش' : 'Copy section text');
 
     sectionCopyButton.addEventListener('click', function (event) {
       event.preventDefault();
@@ -1734,6 +2339,30 @@
     });
 
     summary.appendChild(sectionCopyButton);
+
+    const sectionToggleButton = document.createElement('button');
+    sectionToggleButton.className = 'section-toggle-button';
+    sectionToggleButton.type = 'button';
+
+    function refreshSectionToggleLabel() {
+      const label = detailsBlock.open
+        ? (document.body.classList.contains('lang-fa') ? 'بستن این بخش' : 'Collapse section')
+        : (document.body.classList.contains('lang-fa') ? 'باز کردن این بخش' : 'Expand section');
+      sectionToggleButton.textContent = detailsBlock.open ? '−' : '+';
+      sectionToggleButton.setAttribute('aria-expanded', detailsBlock.open ? 'true' : 'false');
+      labelButton(sectionToggleButton, label);
+    }
+
+    sectionToggleButton.addEventListener('click', function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      detailsBlock.open = !detailsBlock.open;
+      refreshSectionToggleLabel();
+    });
+
+    detailsBlock.addEventListener('toggle', refreshSectionToggleLabel);
+    refreshSectionToggleLabel();
+    summary.appendChild(sectionToggleButton);
   });
 
   function highlightLinkedAyah() {
