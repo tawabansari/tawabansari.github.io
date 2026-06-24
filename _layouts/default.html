@@ -507,18 +507,6 @@
       letter-spacing: 0;
     }
 
-    .site-brand-mark {
-      width: 1.55rem;
-      height: 1.55rem;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid currentColor;
-      border-radius: 999px;
-      font-size: 0.9rem;
-      line-height: 1;
-    }
-
     .site-menu-toggle {
       min-width: 2.25rem;
       border: 1px solid #d7dde6;
@@ -588,6 +576,19 @@
       margin-inline-start: auto;
     }
 
+    .language-switcher {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      margin-inline-end: 0.35rem;
+      white-space: nowrap;
+    }
+
+    .language-switcher .language-divider {
+      color: #94a3b8;
+      font-weight: 400;
+    }
+
     .site-nav a {
       padding: 0.3rem 0.15rem;
       font-weight: 700;
@@ -640,10 +641,10 @@
       position: fixed;
       right: 1.25rem;
       bottom: 1.25rem;
-      width: 2.5rem;
-      height: 2.5rem;
+      width: 2.75rem;
+      height: 2.75rem;
       border-radius: 999px;
-      border: 1px solid #ddd;
+      border: 1px solid #d7dde6;
       background: #fff;
       color: inherit;
       cursor: pointer;
@@ -730,10 +731,10 @@
     .quran-nav-floating-trigger {
       position: fixed;
       inset-inline-end: 1.15rem;
-      bottom: 4.2rem;
+      bottom: 4.45rem;
       z-index: 9995;
-      width: 2.65rem;
-      height: 2.65rem;
+      width: 2.75rem;
+      height: 2.75rem;
       margin: 0;
       box-shadow: 0 12px 28px rgba(15, 23, 42, 0.15);
       opacity: 0;
@@ -966,8 +967,8 @@
 
     @media (max-width: 720px) {
       .quran-nav-floating-trigger {
-        bottom: 4.15rem;
-        inset-inline-end: 1.05rem;
+        bottom: 4.55rem;
+        inset-inline-end: 1rem;
       }
 
       .quran-nav-drawer {
@@ -1352,37 +1353,30 @@
         min-width: 0;
         display: flex;
         align-items: center;
-        gap: 0.34rem;
+        gap: 0.42rem;
         flex-wrap: nowrap;
         margin-inline-start: auto;
       }
 
       .site-nav a {
-        font-size: 0.85rem;
-        padding: 0.25rem 0.05rem;
+        font-size: 0.9rem;
+        padding: 0.25rem 0;
+      }
+
+      .language-switcher {
+        gap: 0.32rem;
+        margin-inline-end: 0.35rem;
       }
 
       .theme-toggle-button {
         margin-left: 0;
-        min-width: 2.15rem;
-        padding: 0.36rem 0.55rem;
+        min-width: 2rem;
+        padding: 0.34rem 0.5rem;
       }
 
       .site-menu-toggle {
         min-width: 2.15rem;
         padding: 0.42rem 0.6rem;
-      }
-
-      .site-brand-mark {
-        display: none;
-      }
-
-      .lang-full {
-        display: none;
-      }
-
-      .lang-short {
-        display: inline;
       }
 
       .site-menu {
@@ -1403,6 +1397,8 @@
       .back-to-top {
         right: 1rem;
         bottom: 1rem;
+        width: 2.75rem;
+        height: 2.75rem;
       }
     }
 
@@ -1826,13 +1822,46 @@
 
   <div class="header-left">
     <a class="site-brand" href="/" aria-label="Forqan home">
-      <span class="site-brand-mark" aria-hidden="true">◎</span>
       <span>Forqan</span>
     </a>
 
     <button class="site-menu-toggle" id="site-menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open site menu" title="Menu">☰</button>
 
     <div class="site-menu" id="site-menu" hidden>
+      {% if page.url contains "/fa/" %}
+      <a href="/">
+        خانه
+        <small>صفحه آغازین و ورودی زبان‌ها</small>
+      </a>
+      <a href="/fa/" lang="fa" dir="rtl">
+        بخش فارسی
+        <small>ترجمه، تأمل، مقاله‌ها و واژه‌شناسی</small>
+      </a>
+      <a href="/quran-reflection/fa/surahs/" lang="fa" dir="rtl">
+        فهرست سوره‌ها
+        <small>مرور قرآن بر اساس سوره و آیه</small>
+      </a>
+      <a href="/quran-reflection/fa/methodology/" lang="fa" dir="rtl">
+        روش ترجمه و تأمل
+        <small>روش کار در ترجمه و تأمل قرآن</small>
+      </a>
+      <a href="/quran-terminology/fa/roots/" lang="fa" dir="rtl">
+        ریشه‌های قرآنی
+        <small>جستجوی ریشه‌ها و واژه‌های قرآنی</small>
+      </a>
+      <a href="/fa/articles/" lang="fa" dir="rtl">
+        مقاله‌های فارسی
+        <small>نوشتارها و تأمل‌های موضوعی</small>
+      </a>
+      <a href="/">
+        آشنایی با قرآن
+        <small>درباره این پروژه و آغاز آن</small>
+      </a>
+      <a href="/en/">
+        English Section
+        <small>Switch to the English side of the archive</small>
+      </a>
+      {% else %}
       <a href="/">
         Home
         <small>Introduction and language entry points</small>
@@ -1841,46 +1870,31 @@
         English Section
         <small>Qur’an reflection and English articles</small>
       </a>
-      <a href="/fa/" lang="fa" dir="rtl">
-        بخش فارسی
-        <small>ترجمه، تأمل، مقاله‌ها و واژه‌شناسی</small>
-      </a>
       <a href="/quran-reflection/en/surahs/">
         Qur’an Surah Index
         <small>Browse translation and reflection by surah</small>
-      </a>
-      <a href="/quran-reflection/fa/surahs/" lang="fa" dir="rtl">
-        فهرست سوره‌ها
-        <small>مرور قرآن بر اساس سوره و آیه</small>
-      </a>
-      <a href="/">
-        Introduction to Qur’an · آشنایی با قرآن
-        <small>About this project and its beginning</small>
       </a>
       <a href="/quran-reflection/en/methodology/">
         Methodology
         <small>Translation and reflection method</small>
       </a>
-      <a href="/quran-reflection/fa/methodology/" lang="fa" dir="rtl">
-        روش ترجمه و تأمل
-        <small>روش کار در ترجمه و تأمل قرآن</small>
-      </a>
       <a href="/quran-terminology/en/roots/">
         Qur’anic Roots
         <small>Search the Qur’anic root index</small>
-      </a>
-      <a href="/quran-terminology/fa/roots/" lang="fa" dir="rtl">
-        ریشه‌های قرآنی
-        <small>جستجوی ریشه‌ها و واژه‌های قرآنی</small>
       </a>
       <a href="/en/articles/">
         English Articles
         <small>Thematic reflections and essays</small>
       </a>
-      <a href="/fa/articles/" lang="fa" dir="rtl">
-        مقاله‌های فارسی
-        <small>نوشتارها و تأمل‌های موضوعی</small>
+      <a href="/">
+        Introduction to Qur’an
+        <small>About this project and its beginning</small>
       </a>
+      <a href="/fa/" lang="fa" dir="rtl">
+        بخش فارسی
+        <small>رفتن به بخش فارسی سایت</small>
+      </a>
+      {% endif %}
     </div>
   </div>
 
@@ -1906,12 +1920,11 @@
       {% endif %}
     {% endif %}
 
-    <a href="{{ english_url }}" aria-label="English mirror">
-      <span class="lang-full">English</span><span class="lang-short">EN</span>
-    </a>
-    <a href="{{ farsi_url }}" lang="fa" dir="rtl" aria-label="Farsi mirror">
-      <span class="lang-full">فارسی</span><span class="lang-short">فا</span>
-    </a>
+    <span class="language-switcher">
+      <a href="{{ english_url }}" aria-label="English mirror">English</a>
+      <span class="language-divider" aria-hidden="true">|</span>
+      <a href="{{ farsi_url }}" lang="fa" dir="rtl" aria-label="Farsi mirror">فارسی</a>
+    </span>
 
     <button class="theme-toggle-button text-zoom-btn" id="zoom-out" type="button" aria-label="Decrease text size">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
