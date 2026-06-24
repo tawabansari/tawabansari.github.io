@@ -652,6 +652,27 @@
       margin-inline-start: 0.25rem;
     }
 
+    .quran-nav-floating-trigger {
+      position: fixed;
+      inset-inline-end: 1.15rem;
+      bottom: 4.2rem;
+      z-index: 9995;
+      width: 2.65rem;
+      height: 2.65rem;
+      margin: 0;
+      box-shadow: 0 12px 28px rgba(15, 23, 42, 0.15);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(0.45rem);
+      transition: opacity 160ms ease, transform 160ms ease, border-color 160ms ease, color 160ms ease;
+    }
+
+    .quran-nav-floating-trigger.show {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
     .quran-nav-trigger:hover,
     .quran-nav-trigger:focus-visible {
       border-color: #b08d57;
@@ -869,6 +890,11 @@
     }
 
     @media (max-width: 720px) {
+      .quran-nav-floating-trigger {
+        bottom: 1.05rem;
+        inset-inline-end: 1.05rem;
+      }
+
       .quran-nav-drawer {
         width: 100vw;
       }
@@ -2008,7 +2034,7 @@
     trigger.className = 'quran-nav-trigger';
     trigger.type = 'button';
     trigger.textContent = '☰';
-    labelButton(trigger, isFarsi ? 'رفتن به سوره یا آیه' : 'Navigate to surah or verse');
+    labelButton(trigger, isFarsi ? 'جستجوی سوره یا آیه' : 'Find surah or verse');
 
     const header = document.querySelector('.surah-header-block');
     if (header) {
@@ -2021,6 +2047,12 @@
       document.body.appendChild(trigger);
     }
 
+    const floatingTrigger = trigger.cloneNode(true);
+    floatingTrigger.className = 'quran-nav-trigger quran-nav-floating-trigger';
+    floatingTrigger.textContent = '☰';
+    labelButton(floatingTrigger, isFarsi ? 'جستجوی قرآن' : 'Find surah or verse');
+    document.body.appendChild(floatingTrigger);
+
     const backdrop = document.createElement('div');
     backdrop.className = 'quran-nav-backdrop';
 
@@ -2030,7 +2062,7 @@
     drawer.setAttribute('aria-hidden', 'true');
     drawer.innerHTML = `
       <div class="quran-nav-header">
-        <h2 class="quran-nav-title">${isFarsi ? 'ناوبری قرآن' : 'Qur’an Navigation'}</h2>
+        <h2 class="quran-nav-title">${isFarsi ? 'جستجوی قرآن' : 'Qur’an Navigation'}</h2>
         <button class="quran-nav-close" type="button" aria-label="${isFarsi ? 'بستن' : 'Close'}" title="${isFarsi ? 'بستن' : 'Close'}">×</button>
       </div>
       <div class="quran-nav-columns">
@@ -2128,9 +2160,13 @@
       }
     }
 
-    function openDrawer() {
+    let lastNavOpener = trigger;
+
+    function openDrawer(opener) {
+      lastNavOpener = opener || trigger;
       drawer.setAttribute('aria-hidden', 'false');
       document.body.classList.add('quran-nav-open');
+      updateFloatingTrigger();
       renderSurahs();
       renderAyahs();
       setTimeout(() => surahSearch.focus(), 0);
@@ -2139,10 +2175,21 @@
     function closeDrawer() {
       document.body.classList.remove('quran-nav-open');
       drawer.setAttribute('aria-hidden', 'true');
-      trigger.focus();
+      if (lastNavOpener && lastNavOpener.focus) {
+        lastNavOpener.focus({ preventScroll: true });
+      }
+      updateFloatingTrigger();
     }
 
-    trigger.addEventListener('click', openDrawer);
+    function updateFloatingTrigger() {
+      const threshold = header
+        ? header.getBoundingClientRect().bottom + window.scrollY + 120
+        : 360;
+      floatingTrigger.classList.toggle('show', window.scrollY > threshold && !document.body.classList.contains('quran-nav-open'));
+    }
+
+    trigger.addEventListener('click', function () { openDrawer(trigger); });
+    floatingTrigger.addEventListener('click', function () { openDrawer(floatingTrigger); });
     closeButton.addEventListener('click', closeDrawer);
     backdrop.addEventListener('click', closeDrawer);
     surahSearch.addEventListener('input', renderSurahs);
@@ -2172,6 +2219,10 @@
         closeDrawer();
       }
     });
+
+    window.addEventListener('scroll', updateFloatingTrigger, { passive: true });
+    window.addEventListener('resize', updateFloatingTrigger);
+    updateFloatingTrigger();
   }
 
   initQuranNavigator();
