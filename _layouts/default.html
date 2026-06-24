@@ -2142,12 +2142,6 @@
     status.className = 'root-search-status';
     status.setAttribute('aria-live', 'polite');
 
-    const sourceNote = document.createElement('p');
-    sourceNote.className = 'root-search-source';
-    sourceNote.textContent = isFarsi
-      ? 'جستجو با صورت‌های قرآنی، نویسه‌گردانی، و خطاهای رایج گسترش یافته است.'
-      : 'Search includes Qur’anic forms, transliteration variants, and common typo tolerance.';
-
     const nav = document.createElement('nav');
     nav.className = 'root-letter-nav';
     nav.setAttribute('aria-label', isFarsi ? 'پرش به حرف' : 'Jump to letter');
@@ -2180,7 +2174,6 @@
     tools.appendChild(status);
     tools.appendChild(nav);
     tools.appendChild(actions);
-    tools.appendChild(sourceNote);
 
     const intro = rootPage.querySelector('.root-index-intro');
     const hero = rootPage.querySelector('.root-index-hero');
