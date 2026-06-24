@@ -1135,6 +1135,77 @@
     .root-index-page .root-tool-button:hover,
     .root-index-page .root-section-toggle:hover { border-color: #b08d57; }
 
+    .root-index-page .root-index-list {
+      display: grid !important;
+      grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+      gap: 0.75rem;
+      list-style: none !important;
+      margin: 1rem 0 0 !important;
+      padding: 0 !important;
+    }
+
+    .root-index-page .root-index-list li {
+      margin: 0 !important;
+      padding: 0 !important;
+      min-width: 0;
+    }
+
+    .root-index-page .root-index-list a {
+      display: grid !important;
+      min-height: 5.4rem;
+      align-content: center;
+      gap: 0.45rem;
+      padding: 0.8rem 0.75rem !important;
+      border: 1px solid #d7dde6 !important;
+      border-radius: 8px !important;
+      background: #ffffff;
+      color: #1f2937 !important;
+      text-decoration: none !important;
+      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+      transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+    }
+
+    .root-index-page .root-index-list a:hover,
+    .root-index-page .root-index-list a:focus-visible {
+      border-color: #b08d57 !important;
+      box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
+      outline: none;
+      transform: translateY(-1px);
+    }
+
+    .root-index-page .root-arabic,
+    .root-index-page .root-transliteration {
+      display: block;
+      overflow-wrap: anywhere;
+      letter-spacing: 0;
+    }
+
+    .root-index-page .root-arabic {
+      direction: rtl;
+      text-align: center;
+      font-family: "Amiri Quran", "Amiri Quran Colored", serif;
+      font-size: 1.34rem;
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    .root-index-page .root-transliteration {
+      border-top: 1px solid rgba(148, 163, 184, 0.38);
+      padding-top: 0.4rem;
+      color: #64748b;
+      direction: ltr;
+      text-align: center;
+      font-size: 0.82rem;
+      font-weight: 800;
+      line-height: 1.25;
+      text-transform: uppercase;
+    }
+
+    .root-index-page .root-priority-match > a {
+      border-color: #b08d57 !important;
+      box-shadow: 0 0 0 3px rgba(176, 141, 87, 0.14), 0 8px 22px rgba(15, 23, 42, 0.08);
+    }
+
     .root-index-page .root-letter-group.root-collapsed .root-index-list,
     .root-index-page .root-letter-group.root-filter-hidden,
     .root-index-page .root-index-list li.root-filter-hidden,
@@ -1188,10 +1259,26 @@
     body.dark-theme .root-index-page .root-empty-message { border-color: #475569; color: #cbd5e1; }
     body.dark-theme .root-index-page .root-search-status,
     body.dark-theme .root-index-page .root-search-source { color: #cbd5e1; }
+    body.dark-theme .root-index-page .root-index-list a {
+      background: #172033;
+      border-color: #334155 !important;
+      color: #f8fafc !important;
+      box-shadow: none;
+    }
+    body.dark-theme .root-index-page .root-transliteration { color: #cbd5e1; border-top-color: #334155; }
+    body.dark-theme .root-index-page .root-index-list a:hover,
+    body.dark-theme .root-index-page .root-index-list a:focus-visible,
+    body.dark-theme .root-index-page .root-priority-match > a { border-color: #d6b26d !important; }
 
     @media (max-width: 720px) {
       .root-index-page .root-tools { top: 0; margin-top: 1rem; border-radius: 14px; }
       .root-index-page .root-letter-group { margin-top: 1.5rem; }
+      .root-index-page .root-index-list {
+        grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+        gap: 0.6rem;
+      }
+      .root-index-page .root-arabic { font-size: 1.18rem; }
+      .root-index-page .root-transliteration { font-size: 0.76rem; }
     }
 
     @media print {
@@ -2215,13 +2302,16 @@
     }
 
     const enrichedData = (window.FORQAN_ROOT_SEARCH_DATA && window.FORQAN_ROOT_SEARCH_DATA.entries) || {};
+    const semanticData = (window.FORQAN_ROOT_SEARCH_DATA && window.FORQAN_ROOT_SEARCH_DATA.semantic) || {};
     const indexedItems = [];
+    let itemIndex = 0;
 
     groups.forEach(function (group) {
       Array.from(group.querySelectorAll('.root-index-list li')).forEach(function (item) {
         const link = item.querySelector('a');
         const slug = rootSlugFromLink(link);
         const aliases = enrichedData[slug] || [];
+        const semanticAliases = semanticData[slug] || [];
         const arabicRoot = item.querySelector('.root-arabic');
         const transliteration = item.querySelector('.root-transliteration');
         const haystack = [
@@ -2230,21 +2320,32 @@
           slug,
           aliases.join(' ')
         ].join(' ');
+        const semanticHaystack = semanticAliases.join(' ');
         const arabic = cleanArabic(haystack);
         const latin = cleanLatin(haystack);
+        const semanticArabic = cleanArabic(semanticHaystack);
+        const semanticLatin = cleanLatin(semanticHaystack);
         const arabicTokens = arabic.split(/\s+/).filter(Boolean);
         const latinTokens = latin.split(/\s+/).filter(Boolean);
+        const semanticArabicTokens = semanticArabic.split(/\s+/).filter(Boolean);
+        const semanticLatinTokens = semanticLatin.split(/\s+/).filter(Boolean);
         indexedItems.push({
           item: item,
           group: group,
+          index: itemIndex,
           arabic: arabic,
           latin: latin,
           arabicTokens: arabicTokens,
           latinTokens: latinTokens,
+          semanticArabic: semanticArabic,
+          semanticLatin: semanticLatin,
+          semanticArabicTokens: semanticArabicTokens,
+          semanticLatinTokens: semanticLatinTokens,
           arabicRoot: compact(cleanArabic(arabicRoot ? arabicRoot.textContent : '')),
           latinRoot: compact(cleanLatin(transliteration ? transliteration.textContent.replace(/\([^)]*\)/g, '') : slug)),
-          tokens: arabicTokens.concat(latinTokens)
+          tokens: arabicTokens.concat(latinTokens).concat(semanticArabicTokens).concat(semanticLatinTokens)
         });
+        itemIndex += 1;
       });
     });
 
@@ -2256,6 +2357,10 @@
 
       if (!arabicCompactQuery && !latinCompactQuery) return 3;
 
+      if (arabicCompactQuery && entry.semanticArabicTokens.some(function (token) { return compact(token) === arabicCompactQuery; })) return 6;
+      if (latinCompactQuery && entry.semanticLatinTokens.some(function (token) { return compact(token) === latinCompactQuery; })) return 6;
+      if (arabicQuery && entry.semanticArabic.includes(arabicQuery)) return 5;
+      if (latinQuery && entry.semanticLatin.includes(latinQuery)) return 5;
       if (arabicCompactQuery && entry.arabicTokens.some(function (token) { return compact(token) === arabicCompactQuery; })) return 4;
       if (latinCompactQuery && entry.latinTokens.some(function (token) { return compact(token) === latinCompactQuery; })) return 4;
       if (arabicQuery && entry.arabic.includes(arabicQuery)) return 3;
@@ -2279,8 +2384,8 @@
           : '1,608 roots ready to search.';
       } else if (visible) {
         status.textContent = isFarsi
-          ? visible + ' ریشه پیدا شد.'
-          : visible + (visible === 1 ? ' root found.' : ' roots found.');
+          ? visible + ' ریشه پیدا شد. نزدیک‌ترین نتیجه‌ها اول آمده‌اند.'
+          : visible + (visible === 1 ? ' root found. Closest match first.' : ' roots found. Closest matches first.');
       } else {
         status.textContent = isFarsi ? 'نتیجه‌ای پیدا نشد.' : 'No matching roots found.';
       }
@@ -2297,11 +2402,14 @@
       const bestScore = scoredItems.reduce(function (max, scored) {
         return Math.max(max, scored.score);
       }, 0);
+      const minimumVisibleScore = bestScore >= 5 ? bestScore : Math.max(1, bestScore - 1);
 
       scoredItems.forEach(function (scored) {
         const entry = scored.entry;
-        const matches = scored.score > 0 && (!query.trim() || scored.score === bestScore);
+        const matches = scored.score > 0 && (!query.trim() || scored.score >= minimumVisibleScore);
         entry.item.classList.toggle('root-filter-hidden', !matches);
+        entry.item.classList.toggle('root-priority-match', matches && query.trim() && scored.score === bestScore);
+        entry.item.style.order = query.trim() && matches ? String((10 - scored.score) * 10000 + entry.index) : '';
         if (matches) {
           visibleCount += 1;
           anyVisible = true;
