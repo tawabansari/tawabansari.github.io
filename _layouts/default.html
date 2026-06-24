@@ -1006,14 +1006,40 @@
 
 
     /* ROOT INDEX HYBRID TOOLS — scoped only to roots index pages */
+    .root-index-page {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 1.6rem 1.25rem 3rem;
+    }
+
+    .root-index-page .root-index-hero {
+      margin: 0 0 1rem;
+      text-align: center;
+    }
+
+    .root-index-page .root-index-hero h1 {
+      margin: 0;
+      color: inherit;
+      font-size: clamp(1.38rem, 2.2vw, 1.78rem);
+      font-weight: 800;
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+
+    .root-index-page .root-kicker,
+    .root-index-page .root-subtitle,
+    .root-index-page .root-index-intro {
+      display: none !important;
+    }
+
     .root-index-page .root-tools {
       position: sticky;
       top: 0;
       z-index: 80;
-      margin: 1.5rem 0 2rem;
-      padding: 0.85rem;
+      margin: 1rem 0 1.45rem;
+      padding: 0.72rem;
       border: 1px solid #d7dde6;
-      border-radius: 16px;
+      border-radius: 14px;
       background: rgba(255, 255, 255, 0.94);
       backdrop-filter: blur(10px);
       box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
@@ -1029,8 +1055,8 @@
       box-sizing: border-box;
       border: 1px solid #cbd5e1;
       border-radius: 999px;
-      padding: 0.75rem 1rem;
-      margin-bottom: 0.75rem;
+      padding: 0.68rem 1rem;
+      margin-bottom: 0.55rem;
       background: #ffffff;
       color: inherit;
       font: inherit;
@@ -1048,23 +1074,22 @@
 
     .root-index-page .root-search-status,
     .root-index-page .root-search-source {
-      margin: 0 0 0.7rem;
+      margin: 0 0 0.5rem;
       color: #64748b;
       font-size: 0.92rem;
       line-height: 1.6;
     }
 
     .root-index-page .root-search-source {
-      margin: 0.65rem 0 0;
-      font-size: 0.82rem;
+      display: none;
     }
 
     .root-index-page .root-letter-nav {
       display: flex;
       gap: 0.4rem;
       overflow-x: auto;
-      padding: 0.15rem 0 0.5rem;
-      margin-bottom: 0.55rem;
+      padding: 0.1rem 0 0.38rem;
+      margin-bottom: 0.45rem;
       scrollbar-width: thin;
     }
 
@@ -1074,7 +1099,7 @@
     .root-index-page .root-letter-nav a {
       flex: 0 0 auto;
       min-width: 2.25rem;
-      padding: 0.42rem 0.65rem;
+      padding: 0.34rem 0.62rem;
       border: 1px solid #d7dde6;
       border-radius: 999px;
       text-align: center;
@@ -1112,7 +1137,7 @@
       line-height: 1.2;
     }
 
-    .root-index-page .root-tool-button { padding: 0.45rem 0.75rem; }
+    .root-index-page .root-tool-button { padding: 0.38rem 0.72rem; }
 
     .root-index-page .root-letter-group > h2 {
       display: flex;
@@ -1156,12 +1181,13 @@
       align-content: center;
       gap: 0.45rem;
       padding: 0.8rem 0.75rem !important;
-      border: 1px solid #d7dde6 !important;
+      border: 1px solid rgba(148, 163, 184, 0.34) !important;
       border-radius: 8px !important;
-      background: #ffffff;
-      color: #1f2937 !important;
+      background: linear-gradient(180deg, #ffffff, #fbfaf7);
+      color: #283241 !important;
       text-decoration: none !important;
-      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+      border-bottom-style: solid !important;
+      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.035);
       transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
     }
 
@@ -1184,7 +1210,7 @@
       direction: rtl;
       text-align: center;
       font-family: "Amiri Quran", "Amiri Quran Colored", serif;
-      font-size: 1.34rem;
+      font-size: 1.42rem;
       font-weight: 700;
       line-height: 1.45;
     }
@@ -1195,7 +1221,7 @@
       color: #64748b;
       direction: ltr;
       text-align: center;
-      font-size: 0.82rem;
+      font-size: 0.78rem;
       font-weight: 800;
       line-height: 1.25;
       text-transform: uppercase;
@@ -1271,7 +1297,9 @@
     body.dark-theme .root-index-page .root-priority-match > a { border-color: #d6b26d !important; }
 
     @media (max-width: 720px) {
-      .root-index-page .root-tools { top: 0; margin-top: 1rem; border-radius: 14px; }
+      .root-index-page { padding-top: 1.1rem; }
+      .root-index-page .root-index-hero { margin-bottom: 0.75rem; }
+      .root-index-page .root-tools { top: 0; margin-top: 0.75rem; border-radius: 14px; }
       .root-index-page .root-letter-group { margin-top: 1.5rem; }
       .root-index-page .root-index-list {
         grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
