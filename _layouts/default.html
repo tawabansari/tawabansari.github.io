@@ -699,7 +699,8 @@
     .copy-ayah-text,
     .copy-ayah-link,
     .copy-section-text,
-    .section-toggle-button {
+    .section-toggle-button,
+    .language-mirror-link {
       border: 1px solid #ddd;
       border-radius: 999px;
       background: #fff;
@@ -721,16 +722,30 @@
     }
 
     .copy-section-text,
-    .section-toggle-button {
+    .section-toggle-button,
+    .language-mirror-link {
       font-size: 0.9rem !important;
       padding: 0.2rem 0.55rem;
+    }
+
+    .language-mirror-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 1.9rem;
+      min-height: 1.75rem;
+      font-weight: 800;
+      text-decoration: none !important;
     }
 
     .copy-ayah-text:hover,
     .copy-ayah-link:hover,
     .copy-section-text:hover,
-    .section-toggle-button:hover {
+    .section-toggle-button:hover,
+    .language-mirror-link:hover,
+    .language-mirror-link:focus-visible {
       border-color: #aaa;
+      outline: none;
     }
 
     body .container .ayah-block details > summary {
@@ -1318,6 +1333,7 @@
     body.dark-theme .copy-ayah-link,
     body.dark-theme .copy-section-text,
     body.dark-theme .section-toggle-button,
+    body.dark-theme .language-mirror-link,
     body.dark-theme .quran-nav-trigger,
     body.dark-theme .quran-nav-close,
     body.dark-theme .quran-nav-ayah {
@@ -1990,6 +2006,7 @@
       .copy-ayah-text,
       .copy-ayah-link,
       .copy-section-text,
+      .language-mirror-link,
       .root-popover,
       .root-tools {
         display: none !important;
@@ -2642,6 +2659,41 @@
     button.setAttribute('title', label);
   }
 
+
+  function getMirrorLanguageInfo() {
+    const isFarsi = document.body.classList.contains('lang-fa');
+    const currentPath = window.location.pathname;
+    let mirrorPath = currentPath;
+
+    if (isFarsi) {
+      mirrorPath = currentPath.replace('/fa/', '/en/');
+    } else {
+      mirrorPath = currentPath.replace('/en/', '/fa/');
+    }
+
+    return {
+      isFarsi: isFarsi,
+      label: isFarsi ? 'En' : 'فا',
+      title: isFarsi ? 'رفتن به بخش انگلیسی همین قسمت' : 'Go to the Farsi mirror of this section',
+      url: mirrorPath
+    };
+  }
+
+  function createMirrorLanguageLink(targetId) {
+    const info = getMirrorLanguageInfo();
+
+    if (!targetId || info.url === window.location.pathname) return null;
+
+    const link = document.createElement('a');
+    link.className = 'language-mirror-link';
+    link.href = info.url + '#' + encodeURIComponent(targetId);
+    link.textContent = info.label;
+    link.setAttribute('aria-label', info.title);
+    link.setAttribute('title', info.title);
+
+    return link;
+  }
+
   function initQuranNavigator() {
     const data = window.FORQAN_QURAN_NAV || [];
     const match = window.location.pathname.match(/^\/quran-reflection\/(en|fa)\/(\d{3}-[^/]+)\//);
@@ -3039,8 +3091,14 @@
       copyToClipboard(linkButton, cleanUrl);
     });
 
+    const ayahMirrorLink = createMirrorLanguageLink(ayahBlock.id);
+
     ayahTitle.appendChild(textButton);
     ayahTitle.appendChild(linkButton);
+
+    if (ayahMirrorLink) {
+      ayahTitle.appendChild(ayahMirrorLink);
+    }
   });
 
   /* Classify reflection and cross-reference panels automatically */
@@ -3078,6 +3136,17 @@
     ];
 
     if (!copyAllowedSections.includes(sectionTitle)) return;
+
+    const ayahBlockForSection = detailsBlock.closest('.ayah-block');
+    if (ayahBlockForSection && !detailsBlock.id) {
+      const sectionKey = detailsBlock.getAttribute('data-type') || sectionTitle
+        .toLowerCase()
+        .replace(/[^a-z0-9\u0600-\u06FF]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+      detailsBlock.id = ayahBlockForSection.id + '-' + sectionKey;
+    }
+
+    const sectionMirrorLink = detailsBlock.id ? createMirrorLanguageLink(detailsBlock.id) : null;
 
     const sectionCopyButton = document.createElement('button');
     sectionCopyButton.className = 'copy-section-text';
@@ -3120,6 +3189,10 @@
 
     summary.appendChild(sectionCopyButton);
 
+    if (sectionMirrorLink) {
+      summary.appendChild(sectionMirrorLink);
+    }
+
     const sectionToggleButton = document.createElement('button');
     sectionToggleButton.className = 'section-toggle-button';
     sectionToggleButton.type = 'button';
@@ -3148,25 +3221,39 @@
   function highlightLinkedAyah() {
     if (!window.location.hash) return;
 
-    let target;
+    let targetId = window.location.hash.slice(1);
 
     try {
-      target = document.querySelector(window.location.hash);
-    } catch (error) {
-      return;
+      targetId = decodeURIComponent(targetId);
+    } catch (error) {}
+
+    const target = document.getElementById(targetId);
+    if (!target) return;
+
+    if (target.tagName && target.tagName.toLowerCase() === 'details') {
+      target.open = true;
+
+      window.setTimeout(function () {
+        target.scrollIntoView({ behavior: 'auto', block: 'start' });
+      }, 90);
     }
 
-    if (!target || !target.classList.contains('ayah-block')) return;
+    const highlightTarget = target.classList.contains('ayah-block')
+      ? target
+      : target.closest('.ayah-block');
 
-    target.classList.add('link-highlight');
+    if (!highlightTarget) return;
+
+    highlightTarget.classList.add('link-highlight');
 
     setTimeout(function () {
-      target.classList.remove('link-highlight');
+      highlightTarget.classList.remove('link-highlight');
     }, 2600);
   }
 
   window.addEventListener('load', highlightLinkedAyah);
   window.addEventListener('hashchange', highlightLinkedAyah);
+
 
   /* INTERACTIVE ROOT POPOVER */
   const popover = document.createElement('div');
