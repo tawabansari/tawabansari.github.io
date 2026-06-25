@@ -61,11 +61,31 @@ permalink: /fa/quran-completeness/
       </p>
     </article>
 
+    <article class="article-card">
+      <h2>
+        <a href="/fa/quran-completeness/personal-responsibility-and-quran-completeness/">مسئولیت در مقابل پیروی از روایات و خاطره‌ها که در صحت آنها علم یقین نداریم</a>
+      </h2>
+
+      <p class="date">2026-06-25</p>
+
+      <p class="tags">
+        <span>قرآن</span>
+        <span>کامل بودن قرآن</span>
+        <span>روایات</span>
+        <span>مسئولیت شخصی</span>
+        <span>علم یقین</span>
+      </p>
+
+      <p>
+        چرا پیروی از سخنانی که به صحت آنها علم یقینی نداریم، انسان را از مسئولیت در برابر قرآن و خداوند رها نمی‌کند.
+      </p>
+    </article>
+
 {% assign completeness_posts = site.posts | where: "lang", "fa" | where: "topic", "quran-completeness" %}
 
 {% if completeness_posts.size > 0 %}
     {% for post in completeness_posts %}
-      {% unless post.url == "/fa/quran-completeness/quran-and-hadith-transmitters/" %}
+      {% unless post.url == "/fa/quran-completeness/quran-and-hadith-transmitters/" or post.url == "/fa/quran-completeness/personal-responsibility-and-quran-completeness/" %}
       <article class="article-card">
         <h2>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>

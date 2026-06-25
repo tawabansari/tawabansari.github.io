@@ -61,11 +61,31 @@ permalink: /en/quran-completeness/
       </p>
     </article>
 
+    <article class="article-card">
+      <h2>
+        <a href="/en/quran-completeness/personal-responsibility-and-quran-completeness/">Responsibility Before Following Reports and Memories Whose Truth We Do Not Know with Certainty</a>
+      </h2>
+
+      <p class="date">2026-06-25</p>
+
+      <p class="tags">
+        <span>Qur’an</span>
+        <span>Qur’an Completeness</span>
+        <span>reports</span>
+        <span>personal responsibility</span>
+        <span>certainty</span>
+      </p>
+
+      <p>
+        Why following statements whose truth we do not know with certainty does not release a person from responsibility before the Qur’an and The God.
+      </p>
+    </article>
+
 {% assign completeness_posts = site.posts | where: "lang", "en" | where: "topic", "quran-completeness" %}
 
 {% if completeness_posts.size > 0 %}
     {% for post in completeness_posts %}
-      {% unless post.url == "/en/quran-completeness/quran-and-hadith-transmitters/" %}
+      {% unless post.url == "/en/quran-completeness/quran-and-hadith-transmitters/" or post.url == "/en/quran-completeness/personal-responsibility-and-quran-completeness/" %}
       <article class="article-card">
         <h2>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
