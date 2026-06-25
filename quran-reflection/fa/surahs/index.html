@@ -4,7 +4,9 @@ title: فهرست سوره‌ها
 permalink: /quran-reflection/fa/surahs/
 ---
 
-<div style="direction: rtl; text-align: right;">
+<div class="surah-index-page" dir="rtl" lang="fa">
+
+  <a class="surah-method-link" href="/quran-reflection/fa/methodology/">روش ترجمه و تأمل</a>
 
   <h1>فهرست سوره‌ها</h1>
 
@@ -596,6 +598,45 @@ permalink: /quran-reflection/fa/surahs/
 </div>
 
 <style>
+.surah-index-page {
+  --surah-text: #1e293b;
+  --surah-muted: #64748b;
+  --surah-accent: #b08d57;
+  --surah-border: rgba(176, 141, 87, 0.34);
+  --surah-card-bg: linear-gradient(270deg, rgba(176, 141, 87, 0.12), rgba(255, 255, 255, 0.76) 42%, rgba(255, 255, 255, 0.58));
+  --surah-card-hover: linear-gradient(270deg, rgba(176, 141, 87, 0.18), rgba(255, 255, 255, 0.84) 45%, rgba(255, 255, 255, 0.66));
+
+  direction: rtl;
+  text-align: center;
+  color: var(--surah-text);
+}
+
+.surah-index-page > p {
+  color: var(--surah-muted);
+  line-height: 1.8;
+}
+
+.surah-index-page h1 {
+  margin-top: 0.45rem;
+  text-align: center;
+}
+
+.surah-method-link {
+  display: inline-flex;
+  margin: 0 auto 0.65rem;
+  color: var(--surah-accent) !important;
+  font-weight: 800;
+  line-height: 1.6;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.surah-method-link:hover,
+.surah-method-link:focus-visible {
+  border-color: var(--surah-accent);
+  outline: none;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -636,19 +677,23 @@ permalink: /quran-reflection/fa/surahs/
   align-items: center;
   gap: 0.55rem;
   min-height: 0;
-  border: 1px solid rgba(120, 130, 150, 0.35);
+  border: 1px solid var(--surah-border);
   border-radius: 10px;
   padding: 0.72rem 0.9rem;
   text-decoration: none;
   color: inherit;
-  background: rgba(255, 255, 255, 0.58);
+  background: var(--surah-card-bg);
   white-space: nowrap;
   overflow: hidden;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.42);
 }
 
 .landing-card:hover {
-  border-color: rgba(180, 135, 50, 0.75);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  border-color: rgba(176, 141, 87, 0.76);
+  background: var(--surah-card-hover);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.52),
+    0 2px 10px rgba(0, 0, 0, 0.06);
 }
 
 .landing-card h2,
@@ -697,12 +742,22 @@ permalink: /quran-reflection/fa/surahs/
   color: #666;
 }
 
-@media (prefers-color-scheme: dark) {
-  .surah-search-input,
-  .landing-card {
-    background: rgba(255, 255, 255, 0.045);
-    border-color: rgba(190, 200, 220, 0.18);
-  }
+body.dark-theme .surah-index-page {
+  --surah-text: #e5e7eb;
+  --surah-muted: #cbd5e1;
+  --surah-accent: #d6b26d;
+  --surah-border: rgba(214, 178, 109, 0.36);
+  --surah-card-bg: linear-gradient(270deg, rgba(214, 178, 109, 0.18), rgba(23, 32, 51, 0.9) 42%, rgba(23, 32, 51, 0.66));
+  --surah-card-hover: linear-gradient(270deg, rgba(214, 178, 109, 0.25), rgba(23, 32, 51, 0.96) 45%, rgba(23, 32, 51, 0.78));
+}
+
+body.dark-theme .surah-search-input {
+  background: rgba(255, 255, 255, 0.045);
+  border-color: rgba(214, 178, 109, 0.24);
+}
+
+body.dark-theme .landing-card {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
 @media (max-width: 720px) {
