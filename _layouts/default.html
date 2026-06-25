@@ -490,6 +490,7 @@
     .site-brand,
     .site-brand a,
     .site-menu-toggle,
+    .language-switcher a,
     .site-nav a {
       display: inline-flex;
       align-items: center;
@@ -608,7 +609,6 @@
       display: inline-flex;
       align-items: center;
       gap: 0.45rem;
-      margin-inline-end: 0.35rem;
       white-space: nowrap;
     }
 
@@ -618,6 +618,12 @@
     }
 
     .site-nav a {
+      padding: 0.3rem 0.15rem;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .language-switcher a {
       padding: 0.3rem 0.15rem;
       font-weight: 700;
       margin: 0;
@@ -1060,6 +1066,7 @@
     body.dark-theme .site-brand,
     body.dark-theme .site-brand a,
     body.dark-theme .site-menu-toggle,
+    body.dark-theme .language-switcher a,
     body.dark-theme .site-nav a {
       color: #f1f5f9;
     }
@@ -1400,7 +1407,6 @@
 
       .language-switcher {
         gap: 0.32rem;
-        margin-inline-end: 0.35rem;
       }
 
       .theme-toggle-button {
@@ -1867,18 +1873,39 @@
 
 <header class="site-header">
 
+  {% assign english_url = "/en/" %}
+  {% assign farsi_url = "/fa/" %}
+
+  {% if page.translation %}
+    {% if page.lang == "fa" %}
+      {% assign english_url = page.translation %}
+      {% assign farsi_url = page.url %}
+    {% elsif page.lang == "en" %}
+      {% assign english_url = page.url %}
+      {% assign farsi_url = page.translation %}
+    {% endif %}
+  {% else %}
+    {% if page.url contains "/fa/" %}
+      {% assign english_url = page.url | replace_first: "/fa/", "/en/" %}
+      {% assign farsi_url = page.url %}
+    {% elsif page.url contains "/en/" %}
+      {% assign english_url = page.url %}
+      {% assign farsi_url = page.url | replace_first: "/en/", "/fa/" %}
+    {% endif %}
+  {% endif %}
+
   <div class="header-left">
     <a class="site-home-button" href="/" aria-label="Home" title="Home">
       <span aria-hidden="true">⌂</span>
     </a>
 
-    <span class="site-brand" aria-label="Forqan language sections">
-      <a href="/en/" aria-label="Forqan English section">Forqan</a>
-      <span class="site-brand-divider" aria-hidden="true">|</span>
-      <a href="/fa/" lang="fa" dir="rtl" aria-label="Forqan Farsi section">فرقان</a>
-    </span>
-
     <button class="site-menu-toggle" id="site-menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open site menu" title="Menu">☰</button>
+
+    <span class="language-switcher">
+      <a href="{{ english_url }}" aria-label="English mirror">English</a>
+      <span class="language-divider" aria-hidden="true">|</span>
+      <a href="{{ farsi_url }}" lang="fa" dir="rtl" aria-label="Farsi mirror">فارسی</a>
+    </span>
 
     <div class="site-menu" id="site-menu" hidden>
       {% if page.url contains "/fa/" %}
@@ -1952,27 +1979,6 @@
   </div>
 
   <nav class="site-nav">
-    {% assign english_url = "/en/" %}
-    {% assign farsi_url = "/fa/" %}
-
-    {% if page.translation %}
-      {% if page.lang == "fa" %}
-        {% assign english_url = page.translation %}
-        {% assign farsi_url = page.url %}
-      {% elsif page.lang == "en" %}
-        {% assign english_url = page.url %}
-        {% assign farsi_url = page.translation %}
-      {% endif %}
-    {% else %}
-      {% if page.url contains "/fa/" %}
-        {% assign english_url = page.url | replace_first: "/fa/", "/en/" %}
-        {% assign farsi_url = page.url %}
-      {% elsif page.url contains "/en/" %}
-        {% assign english_url = page.url %}
-        {% assign farsi_url = page.url | replace_first: "/en/", "/fa/" %}
-      {% endif %}
-    {% endif %}
-
     <button class="theme-toggle-button text-zoom-btn" id="zoom-out" type="button" aria-label="Decrease text size">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="11" cy="11" r="8"></circle>
