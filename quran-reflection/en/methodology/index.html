@@ -79,14 +79,17 @@ permalink: /quran-reflection/en/methodology/
   .arabic-verse {
     direction: rtl;
     unicode-bidi: isolate;
-    margin: 1.6rem auto;
-    max-width: 820px;
+    margin: 1.8rem auto;
+    max-width: 760px;
     color: var(--method-text);
-    font-family: "Amiri Quran", Amiri, "Scheherazade New", serif;
-    font-size: clamp(1.18rem, 2.8vw, 1.55rem);
+    font-family: "Amiri Quran Colored", "Amiri Quran", Amiri, "Scheherazade New", serif;
+    font-size: 1.45rem;
     font-weight: 400;
-    line-height: 2.35;
+    line-height: 2.8;
     text-align: center;
+    text-wrap: balance;
+    overflow-wrap: normal;
+    word-break: normal;
   }
 
   .methodology-closing {
@@ -111,6 +114,13 @@ permalink: /quran-reflection/en/methodology/
     .methodology-page {
       padding: 2.2rem 1rem 3rem;
       font-size: 1.02rem;
+    }
+
+    .arabic-verse {
+      max-width: 100%;
+      font-size: 1.25rem;
+      line-height: 3;
+      word-spacing: 0.08em;
     }
 
   }
