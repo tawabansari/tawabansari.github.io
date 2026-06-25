@@ -1,106 +1,206 @@
 ---
 layout: default
-title: Translation Method
+title: Translation and Reflection Method
 permalink: /quran-reflection/en/methodology/
 ---
 
 <style>
   .methodology-page {
+    --method-text: #1e293b;
+    --method-muted: #64748b;
+    --method-accent: #b08d57;
+    --method-border: rgba(176, 141, 87, 0.34);
+    --method-soft: rgba(176, 141, 87, 0.1);
+    --method-quote-bg: linear-gradient(90deg, rgba(176, 141, 87, 0.14), rgba(255, 255, 255, 0.92) 44%, rgba(176, 141, 87, 0.05));
+
     max-width: 900px;
     margin: 0 auto;
-    padding: 50px 24px;
+    padding: 3rem 1.5rem 4rem;
     direction: ltr;
     text-align: left;
-    line-height: 1.8;
+    line-height: 1.85;
     font-size: 1.08rem;
-  }
-
-  .methodology-page h1 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    line-height: 1.5;
-  }
-
-  .methodology-page h2 {
-    font-size: 1.45rem;
-    margin-top: 42px;
-    margin-bottom: 18px;
-  }
-
-  .methodology-page p {
-    margin-bottom: 20px;
-  }
-
-  .methodology-page blockquote {
-    border-left: 4px solid #ddd;
-    margin: 28px 0;
-    padding: 16px 22px;
-    background: #fafafa;
-    color: #333;
+    color: var(--method-text);
   }
 
   .methodology-page a {
-    color: inherit;
+    color: var(--method-accent);
+    font-weight: 750;
     text-decoration: underline;
-    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
   }
 
-  .methodology-page ol {
-    padding-left: 24px;
+  .methodology-page a:hover,
+  .methodology-page a:focus-visible {
+    color: inherit;
+    outline: none;
   }
 
-  .methodology-page li {
-    margin-bottom: 18px;
+  .methodology-kicker {
+    margin: 0 0 1rem;
+    color: var(--method-accent);
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .methodology-page h1 {
+    margin: 0 0 1.8rem;
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.35;
+  }
+
+  .methodology-page h2 {
+    margin: 3rem 0 1.2rem;
+    color: var(--method-accent);
+    font-size: 1.5rem;
+    line-height: 1.45;
+  }
+
+  .methodology-page p {
+    margin: 0 0 1.25rem;
+  }
+
+  .methodology-lead {
+    color: var(--method-muted);
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto 2rem !important;
+  }
+
+  .methodology-page blockquote {
+    margin: 1.8rem 0;
+    padding: 1.05rem 1.25rem;
+    border: 1px solid var(--method-border);
+    border-left: 4px solid var(--method-accent);
+    border-radius: 14px;
+    background: var(--method-quote-bg);
+    color: var(--method-text);
+  }
+
+  .methodology-page blockquote p {
+    margin: 0;
   }
 
   .arabic-verse {
     direction: rtl;
     text-align: right;
-    font-size: 1.25rem;
-    line-height: 2.2;
+    font-family: "Amiri Quran Colored", "Amiri Quran", Amiri, "Scheherazade New", serif;
+    font-size: 1.26rem;
+    font-weight: 400;
+    line-height: 2.45;
+  }
+
+  .methodology-page ol {
+    margin: 1rem 0 0;
+    padding-left: 1.45rem;
+  }
+
+  .methodology-page li {
+    margin-bottom: 1.05rem;
+    padding-left: 0.25rem;
+  }
+
+  .methodology-page strong {
+    color: var(--method-accent);
+  }
+
+  .methodology-note {
+    margin-top: 2rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--method-border);
+    color: var(--method-muted);
+  }
+
+  body.dark-theme .methodology-page {
+    --method-text: #e5e7eb;
+    --method-muted: #cbd5e1;
+    --method-accent: #d6b26d;
+    --method-border: rgba(214, 178, 109, 0.38);
+    --method-soft: rgba(214, 178, 109, 0.12);
+    --method-quote-bg: linear-gradient(90deg, rgba(214, 178, 109, 0.18), rgba(23, 32, 51, 0.92) 46%, rgba(214, 178, 109, 0.08));
+  }
+
+  @media (max-width: 720px) {
+    .methodology-page {
+      padding: 2.2rem 1rem 3rem;
+      font-size: 1.02rem;
+    }
+
+    .methodology-page blockquote {
+      padding: 0.95rem 1rem;
+      border-radius: 12px;
+    }
   }
 </style>
 
-<div class="methodology-page">
+<article class="methodology-page" dir="ltr" lang="en">
 
-  <h1>Preliminary Note and Disclaimer</h1>
+  <p class="methodology-kicker">In the name of The-God, The-Merciful, The-Compassionate</p>
 
-  <p>By Name of The God The Merciful The Compassionate</p>
+  <h1>Translation and Reflection Method</h1>
 
-  <p>As far as historical memory and linguistic evidence allow, the message of revelation within the Abrahamic tradition appeared in languages such as Hebrew, Aramaic, and Arabic. It is worth noting that these languages are related, belong to the same linguistic family, and possess similar structures and capacities.</p>
+  <p class="methodology-lead">
+    This note explains the general method of this archive: how we approach translation, how reflection begins from the Qur’anic text itself, and why humility before the text is necessary.
+  </p>
 
-  <p>Among them, the Noble Qur’an was revealed in clear Arabic. Arabic, in its structure, is a highly ordered and precise language built upon a system of roots. From one root, various derived forms emerge, carrying subtle and interconnected meanings. This very feature makes the Qur’anic text, in its full reality, impossible to transfer perfectly and completely into any other language. The sentences and expressions of the Qur’an are multilayered, and a single word may carry a wide field of meaning at the same time — something no one-dimensional translation can fully convey.</p>
+  <p>
+    As far as historical memory and linguistic evidence allow, the message of revelation within the Abrahamic tradition appeared in languages such as Hebrew, Aramaic, and Arabic. These languages are related, belong to the same linguistic family, and possess similar structures and capacities.
+  </p>
 
-  <p>The God Himself introduces this structure in <a href="/quran-reflection/en/003-al-imran/007/">Surah Āl ʿImrān, verse 7</a>:</p>
+  <p>
+    Among them, the Qur’an was revealed in clear Arabic. Arabic, in its structure, is an ordered and precise language built upon a system of roots. From one root, various derived forms emerge, carrying subtle and interconnected meanings. This very feature means that the Qur’anic text, in its full reality, cannot be transferred perfectly and completely into any other language. The sentences and expressions of the Qur’an are multilayered, and a single word may carry a wide field of meaning at the same time — something no one-dimensional translation can fully convey.
+  </p>
+
+  <p>
+    The God Himself introduces this structure in <a href="/quran-reflection/en/003-al-imran/007/">Āl ʿImrān 3:7</a>:
+  </p>
 
   <blockquote>
     <p class="arabic-verse">هُوَ الَّذِی أَنزَلَ عَلَیْکَ الْکِتَابَ مِنْهُ آیَاتٌ مُّحْکَمَاتٌ هُنَّ أُمُّ الْکِتَابِ وَأُخَرُ مُتَشَابِهَاتٌ ۖ فَأَمَّا الَّذِینَ فِی قُلُوبِهِمْ زَیْغٌ فَیَتَّبِعُونَ مَا تَشَابَهَ مِنْهُ ابْتِغَاءَ الْفِتْنَةِ وَابْتِغَاءَ تَأْوِیلِهِ ۗ وَمَا یَعْلَمُ تَأْوِیلَهُ إِلَّا اللَّهُ ۗ وَالرَّاسِخُونَ فِی الْعِلْمِ یَقُولُونَ آمَنَّا بِهِ کُلٌّ مِّنْ عِندِ رَبِّنَا ۗ وَمَا یَذَّکَّرُ إِلَّا أُولُو الْأَلْبَابِ</p>
   </blockquote>
 
-  <p>He is the One who sent down upon you the Book. From it are verses that are muḥkamāt — firm, decisive verses — they are the mother and foundation of the Book; and others are mutashābihāt. As for those in whose hearts is deviation, they follow what is mutashābih from it, seeking fitnah and seeking its ta’wīl. Yet no one knows its ta’wīl except The God. And those firmly rooted in knowledge say: We believe in it; all of it is from our Lord. And none takes reminder except those of understanding.</p>
+  <p>
+    He is the One who sent down upon you the Book. From it are muḥkamāt — firm and decisive verses — they are the mother and foundation of the Book; and others are mutashābihāt. As for those in whose hearts is deviation, they follow what is mutashābih from it, seeking fitnah and seeking its ta’wīl. Yet no one knows its ta’wīl except The God. And those firmly rooted in knowledge say: We believe in it; all of it is from our Lord. And none takes reminder except those of understanding.
+  </p>
 
-  <p>Based on the explicit text of this verse, the final ta’wīl of the mutashābih verses rests in the knowledge of The God. Therefore, no human being has the right to impose upon people, in the name of religion, a final and absolute meaning for what The God has kept within the realm of mutashābihāt.</p>
+  <p>
+    Based on this verse, the final ta’wīl of the mutashābih verses rests in the knowledge of The God. Therefore, no human being has the right to impose upon people, in the name of religion, a final and absolute meaning for what The God has kept within the realm of mutashābihāt.
+  </p>
 
-  <p>On the other hand, the muḥkamāt verses are the clear foundation of the religion. These verses form the legal, ethical, and unchanging principles of guidance — principles upon which society and faithful living are established, such as justice, freedom of religion, individual responsibility, clear limits of lawful and unlawful, inheritance rulings, marriage, divorce, qiṣāṣ, and other evident foundations of guidance.</p>
+  <p>
+    On the other hand, the muḥkamāt verses are the clear foundation of the religion. These verses form the legal, ethical, and unchanging principles of guidance — principles upon which society and faithful living are established, such as justice, freedom of religion, individual responsibility, clear limits of lawful and unlawful, inheritance rulings, marriage, divorce, qiṣāṣ, and other evident foundations of guidance.
+  </p>
 
-  <p>The mutashābih verses are also a field of trial and fitnah. With a sound orientation, a person may draw from them mercy, connection, reflection, and expansion of understanding. But with a deviated heart, those same verses can become tools of division, prejudice, monopoly, doubt-making, and fitnah. The verse itself gives this warning.</p>
+  <p>
+    The mutashābih verses are also a field of trial. With a sound orientation, a person may draw from them mercy, connection, reflection, and expansion of understanding. But with a deviated heart, those same verses can become tools of division, prejudice, monopoly, doubt-making, and fitnah. The verse itself gives this warning.
+  </p>
 
-  <p>For this reason, we sincerely and humbly declare that the translation, interpretation, and reflection offered through this window may be mixed with the limitations, assumptions, errors, and even unseen biases of this writer. We are only attempting, to the extent of our ability, to present a translation and reflection that is more precise, more cautious, and more faithful to the text of the Noble Qur’an.</p>
+  <p>
+    For this reason, we sincerely and humbly declare that the translation and reflection offered through this window may be mixed with the limitations, assumptions, errors, and even unseen biases of the writer. We are only attempting, to the extent of our ability, to present a translation and reflection that is more precise, more cautious, and more faithful to the Qur’anic text.
+  </p>
 
-  <p>A righteous servant of The God is one who listens to speech and follows the best of it, as The God says in <a href="/quran-reflection/en/039-az-zumar/018/">Surah Az-Zumar, verse 18</a>:</p>
+  <p>
+    A good servant of The God is one who listens to speech and follows the best of it, as The God says in <a href="/quran-reflection/en/039-az-zumar/018/">Az-Zumar 39:18</a>:
+  </p>
 
   <blockquote>
     <p class="arabic-verse">الَّذِینَ یَسْتَمِعُونَ الْقَوْلَ فَیَتَّبِعُونَ أَحْسَنَهُ ۚ أُولَٰئِکَ الَّذِینَ هَدَاهُمُ اللَّهُ ۖ وَأُولَٰئِکَ هُمْ أُولُو الْأَلْبَابِ</p>
   </blockquote>
 
-  <p>Those who listen to speech and follow the best of it — those are the ones whom The God has guided, and those are the people of understanding.</p>
+  <p>
+    Those who listen to speech and follow the best of it — those are the ones whom The God has guided, and those are the people of understanding.
+  </p>
 
-  <h2>Methodology</h2>
+  <h2>Our Methodological Principles</h2>
 
-  <p>To remain more faithful to the text and to avoid interpretation by personal desire, we have made several principles the basis of this work:</p>
+  <p>
+    To remain more faithful to the text and to avoid interpretation by personal desire, we have made several principles the basis of this work:
+  </p>
 
   <ol>
-    <li><strong>Interpreting the Qur’an through the Qur’an:</strong> We first look to the context of the Qur’an itself and to related verses, so that each subject, as much as possible, is understood and measured by the Qur’an itself.</li>
+    <li><strong>Reflecting on the Qur’an through the Qur’an:</strong> We first look to the context of the Qur’an itself and to related verses, so that each subject, as much as possible, is understood and measured by the Qur’an itself.</li>
 
     <li><strong>Root analysis and precision in word choice:</strong> To the extent of our ability, we pay attention to word roots, the structure of expressions, and the precise selection of words in the Qur’anic text, and we present our understanding with caution.</li>
 
@@ -111,4 +211,8 @@ permalink: /quran-reflection/en/methodology/
     <li><strong>Maintaining humility before the text:</strong> This work does not claim to be the final interpretation or a flawless translation of the Qur’an. What is offered through this window is a human effort: limited, revisable, and in need of review. The reader is free and responsible to listen, examine, and follow the best of what is said.</li>
   </ol>
 
-</div>
+  <p class="methodology-note">
+    Therefore, this method is neither a call to imitate the writer nor a claim to close the door of understanding. Its purpose is to let the Qur’anic text remain, as much as possible, the criterion by which our translation, reflection, and conclusions are measured.
+  </p>
+
+</article>
