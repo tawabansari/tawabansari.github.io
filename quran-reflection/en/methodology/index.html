@@ -94,10 +94,12 @@ permalink: /quran-reflection/en/methodology/
 
   body:not(.dark-theme) .methodology-page .arabic-verse {
     color: #1e293b !important;
+    -webkit-text-fill-color: #1e293b;
   }
 
   body.dark-theme .methodology-page .arabic-verse {
     color: #f8fafc !important;
+    -webkit-text-fill-color: #f8fafc;
   }
 
   .methodology-closing {
@@ -205,3 +207,35 @@ permalink: /quran-reflection/en/methodology/
   <p class="methodology-closing">نَصْرٌ مِّنَ اللَّهِ وَفَتْحٌ قَرِيبٌ</p>
 
 </article>
+
+<script>
+  (function () {
+    function repaintMethodologyArabic() {
+      document.querySelectorAll(".methodology-page .arabic-verse").forEach(function (verse) {
+        verse.style.opacity = "0.999";
+        verse.style.transform = "translateZ(0)";
+        void verse.offsetHeight;
+        verse.style.opacity = "";
+        verse.style.transform = "";
+      });
+    }
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(repaintMethodologyArabic);
+    }
+
+    var observer = new MutationObserver(function (mutations) {
+      mutations.forEach(function (mutation) {
+        if (mutation.attributeName === "class") {
+          window.requestAnimationFrame(repaintMethodologyArabic);
+          window.setTimeout(repaintMethodologyArabic, 120);
+        }
+      });
+    });
+
+    observer.observe(document.body, {
+      attributes: true,
+      attributeFilter: ["class"]
+    });
+  })();
+</script>
