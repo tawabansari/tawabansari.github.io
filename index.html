@@ -27,12 +27,12 @@ permalink: /
   }
 
   .home-intro-link {
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.45rem;
-    margin-bottom: 2.65rem;
+    column-gap: clamp(0.7rem, 2.4vw, 1.2rem);
+    max-width: 760px;
+    margin: 0 auto 2.65rem;
     color: var(--home-accent);
     font-size: clamp(1.12rem, 2.8vw, 1.45rem);
     font-weight: 800;
@@ -41,6 +41,16 @@ permalink: /
 
   .home-intro-link a {
     border-bottom: 1px solid transparent;
+  }
+
+  .home-intro-link a:first-of-type {
+    justify-self: end;
+    text-align: right;
+  }
+
+  .home-intro-link a:last-of-type {
+    justify-self: start;
+    text-align: left;
   }
 
   .home-intro-link a:hover,
@@ -54,9 +64,56 @@ permalink: /
     outline: none;
   }
 
-  .home-divider {
-    color: var(--home-muted);
-    font-weight: 500;
+  .home-intro-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(0.32rem, 1.3vw, 0.55rem);
+    min-width: clamp(3.4rem, 9vw, 5.3rem);
+    color: var(--home-accent);
+    transform: translateY(-0.02em);
+  }
+
+  .home-intro-mark::before,
+  .home-intro-mark::after {
+    content: "";
+    width: clamp(0.85rem, 2.9vw, 1.65rem);
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(176, 141, 87, 0.58)
+    );
+  }
+
+  .home-intro-mark::after {
+    background: linear-gradient(
+      90deg,
+      rgba(176, 141, 87, 0.58),
+      transparent
+    );
+  }
+
+  .home-intro-mark-symbol {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(0.82rem, 2.1vw, 1.05rem);
+    height: clamp(0.82rem, 2.1vw, 1.05rem);
+    border: 1px solid rgba(176, 141, 87, 0.42);
+    border-radius: 0.28rem;
+    background: rgba(176, 141, 87, 0.075);
+    box-shadow: 0 0 0 0.18rem rgba(176, 141, 87, 0.035);
+    transform: rotate(45deg);
+  }
+
+  .home-intro-mark-symbol::before {
+    content: "";
+    width: 0.28rem;
+    height: 0.28rem;
+    border-radius: 999px;
+    background: currentColor;
+    opacity: 0.62;
   }
 
   .home-title {
@@ -192,6 +249,28 @@ permalink: /
     color: #f1d79a;
   }
 
+  body.dark-theme .home-intro-mark::before {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(214, 178, 109, 0.68)
+    );
+  }
+
+  body.dark-theme .home-intro-mark::after {
+    background: linear-gradient(
+      90deg,
+      rgba(214, 178, 109, 0.68),
+      transparent
+    );
+  }
+
+  body.dark-theme .home-intro-mark-symbol {
+    border-color: rgba(214, 178, 109, 0.46);
+    background: rgba(214, 178, 109, 0.09);
+    box-shadow: 0 0 0 0.18rem rgba(214, 178, 109, 0.045);
+  }
+
   body.dark-theme .home-book-mark::before,
   body.dark-theme .home-book-mark::after {
     background: linear-gradient(
@@ -228,7 +307,24 @@ permalink: /
     }
 
     .home-intro-link {
+      grid-template-columns: 1fr;
+      row-gap: 0.45rem;
       margin-bottom: 1.85rem;
+    }
+
+    .home-intro-link a:first-of-type,
+    .home-intro-link a:last-of-type {
+      justify-self: center;
+      text-align: center;
+    }
+
+    .home-intro-mark {
+      min-width: 6.2rem;
+    }
+
+    .home-intro-mark::before,
+    .home-intro-mark::after {
+      width: 2.25rem;
     }
 
     .home-title {
@@ -264,7 +360,9 @@ permalink: /
 <main class="forqan-home-minimal">
   <nav class="home-intro-link" aria-label="Introduction pages">
     <a href="/en/introduction/">Introduction to Qur’an</a>
-    <span class="home-divider" aria-hidden="true">|</span>
+    <span class="home-intro-mark" aria-hidden="true">
+      <span class="home-intro-mark-symbol"></span>
+    </span>
     <a href="/fa/introduction/" lang="fa" dir="rtl">آشنایی با قرآن کریم</a>
   </nav>
 
