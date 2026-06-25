@@ -1812,6 +1812,120 @@
       .root-index-page .root-transliteration { font-size: 0.76rem; }
     }
 
+
+    /* FORQAN PATHWAY / BREADCRUMB */
+    .forqan-pathway-shell {
+      width: min(1040px, calc(100% - 2rem));
+      margin: 1.05rem auto -0.25rem;
+      padding: 0;
+      color: #64748b;
+    }
+
+    .forqan-pathway {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 0.34rem;
+      min-width: 0;
+      font-size: 0.86rem;
+      line-height: 1.7;
+    }
+
+    .forqan-pathway[dir="rtl"] {
+      direction: rtl;
+      text-align: right;
+    }
+
+    .forqan-pathway[dir="ltr"] {
+      direction: ltr;
+      text-align: left;
+    }
+
+    .forqan-pathway a,
+    .forqan-pathway span {
+      display: inline-flex;
+      align-items: center;
+      max-width: 100%;
+    }
+
+    .forqan-pathway a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition:
+        color 0.16s ease,
+        border-color 0.16s ease;
+    }
+
+    .forqan-pathway a:hover,
+    .forqan-pathway a:focus-visible {
+      color: #9a7440;
+      border-color: currentColor;
+      outline: none;
+    }
+
+    .forqan-pathway-separator {
+      color: rgba(148, 163, 184, 0.9);
+      font-size: 0.82em !important;
+      line-height: 1;
+      transform: translateY(0.01em);
+    }
+
+    .forqan-pathway-current {
+      color: #9a7440;
+      font-weight: 800;
+    }
+
+    body.dark-theme .forqan-pathway-shell {
+      color: #cbd5e1;
+    }
+
+    body.dark-theme .forqan-pathway a:hover,
+    body.dark-theme .forqan-pathway a:focus-visible,
+    body.dark-theme .forqan-pathway-current {
+      color: #d6b26d;
+    }
+
+    body.dark-theme .forqan-pathway-separator {
+      color: rgba(203, 213, 225, 0.66);
+    }
+
+    @media (max-width: 720px) {
+      .forqan-pathway-shell {
+        width: 100%;
+        margin: 0;
+        padding: 0.55rem 0.9rem 0;
+        box-sizing: border-box;
+      }
+
+      .forqan-pathway {
+        flex-wrap: nowrap;
+        gap: 0.38rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 0 0 0.22rem;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+      }
+
+      .forqan-pathway::-webkit-scrollbar {
+        display: none;
+      }
+
+      .forqan-pathway a,
+      .forqan-pathway span {
+        flex: 0 0 auto;
+      }
+
+      .forqan-pathway-current {
+        max-width: 62vw;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
     @media print {
       .site-header,
       .site-footer,
@@ -2003,6 +2117,106 @@
   </nav>
 
 </header>
+
+
+{% assign forqan_show_pathway = true %}
+{% if page.url == "/" %}
+  {% assign forqan_show_pathway = false %}
+{% endif %}
+
+{% if forqan_show_pathway %}
+  {% assign forqan_is_fa = false %}
+  {% if page.url contains "/fa/" %}
+    {% assign forqan_is_fa = true %}
+  {% endif %}
+
+  {% if forqan_is_fa %}
+    {% assign forqan_path_dir = "rtl" %}
+    {% assign forqan_path_lang = "fa" %}
+    {% assign forqan_home_label = "فرقان" %}
+    {% assign forqan_section_label = "بخش فارسی" %}
+    {% assign forqan_section_url = "/fa/" %}
+    {% assign forqan_reflection_label = "تأمل قرآن" %}
+    {% assign forqan_surah_index_label = "فهرست سوره‌ها" %}
+    {% assign forqan_methodology_label = "روش ترجمه و تأمل" %}
+    {% assign forqan_roots_label = "ریشه‌های قرآنی" %}
+    {% assign forqan_articles_label = "مقاله‌ها" %}
+    {% assign forqan_intro_label = "آشنایی با قرآن کریم" %}
+  {% else %}
+    {% assign forqan_path_dir = "ltr" %}
+    {% assign forqan_path_lang = "en" %}
+    {% assign forqan_home_label = "Forqan" %}
+    {% assign forqan_section_label = "English Section" %}
+    {% assign forqan_section_url = "/en/" %}
+    {% assign forqan_reflection_label = "Qur’an Reflection" %}
+    {% assign forqan_surah_index_label = "Surah Index" %}
+    {% assign forqan_methodology_label = "Methodology" %}
+    {% assign forqan_roots_label = "Qur’anic Roots" %}
+    {% assign forqan_articles_label = "Articles" %}
+    {% assign forqan_intro_label = "Introduction to Qur’an" %}
+  {% endif %}
+
+  <div class="forqan-pathway-shell">
+    <nav class="forqan-pathway" aria-label="{% if forqan_is_fa %}مسیر صفحه{% else %}Page pathway{% endif %}" dir="{{ forqan_path_dir }}" lang="{{ forqan_path_lang }}">
+      <a href="/">{{ forqan_home_label }}</a>
+
+      {% if page.url contains "/quran-reflection/" %}
+        <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+        <a href="{{ forqan_section_url }}">{{ forqan_section_label }}</a>
+        <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+        {% if page.url == "/quran-reflection/fa/surahs/" or page.url == "/quran-reflection/en/surahs/" %}
+          <span class="forqan-pathway-current" aria-current="page">{{ forqan_surah_index_label }}</span>
+        {% elsif page.url contains "/methodology/" %}
+          <a href="/quran-reflection/{% if forqan_is_fa %}fa{% else %}en{% endif %}/surahs/">{{ forqan_surah_index_label }}</a>
+          <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+          <span class="forqan-pathway-current" aria-current="page">{{ forqan_methodology_label }}</span>
+        {% else %}
+          <a href="/quran-reflection/{% if forqan_is_fa %}fa{% else %}en{% endif %}/surahs/">{{ forqan_surah_index_label }}</a>
+          <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+          <span class="forqan-pathway-current" aria-current="page">{{ page.title | default: forqan_reflection_label | escape }}</span>
+        {% endif %}
+
+      {% elsif page.url contains "/quran-terminology/" %}
+        <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+        <a href="{{ forqan_section_url }}">{{ forqan_section_label }}</a>
+        <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+        {% if page.url == "/quran-terminology/fa/roots/" or page.url == "/quran-terminology/en/roots/" %}
+          <span class="forqan-pathway-current" aria-current="page">{{ forqan_roots_label }}</span>
+        {% else %}
+          <a href="/quran-terminology/{% if forqan_is_fa %}fa{% else %}en{% endif %}/roots/">{{ forqan_roots_label }}</a>
+          <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+          <span class="forqan-pathway-current" aria-current="page">{{ page.title | default: forqan_roots_label | escape }}</span>
+        {% endif %}
+
+      {% elsif page.url contains "/articles/" %}
+        <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+        <a href="{{ forqan_section_url }}">{{ forqan_section_label }}</a>
+        <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+        {% if page.url == "/fa/articles/" or page.url == "/en/articles/" %}
+          <span class="forqan-pathway-current" aria-current="page">{{ forqan_articles_label }}</span>
+        {% else %}
+          <a href="/{% if forqan_is_fa %}fa{% else %}en{% endif %}/articles/">{{ forqan_articles_label }}</a>
+          <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+          <span class="forqan-pathway-current" aria-current="page">{{ page.title | default: forqan_articles_label | escape }}</span>
+        {% endif %}
+
+      {% elsif page.url == "/fa/introduction/" or page.url == "/en/introduction/" %}
+        <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+        <a href="{{ forqan_section_url }}">{{ forqan_section_label }}</a>
+        <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+        <span class="forqan-pathway-current" aria-current="page">{{ forqan_intro_label }}</span>
+
+      {% elsif page.url == "/fa/" or page.url == "/en/" %}
+        <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+        <span class="forqan-pathway-current" aria-current="page">{{ forqan_section_label }}</span>
+
+      {% else %}
+        <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+        <span class="forqan-pathway-current" aria-current="page">{{ page.title | default: forqan_section_label | escape }}</span>
+      {% endif %}
+    </nav>
+  </div>
+{% endif %}
 
 <main class="container">
   {{ content }}
