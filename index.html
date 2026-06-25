@@ -307,47 +307,77 @@ permalink: /
     }
 
     .home-intro-link {
-      grid-template-columns: 1fr;
-      row-gap: 0.45rem;
-      margin-bottom: 1.85rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.42rem;
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto 1.85rem;
+      text-align: center;
     }
 
     .home-intro-link a:first-of-type,
     .home-intro-link a:last-of-type {
+      align-self: center;
       justify-self: center;
       text-align: center;
     }
 
     .home-intro-mark {
-      min-width: 6.2rem;
+      align-self: center;
+      width: 7.2rem;
+      min-width: 0;
+      margin: 0 auto;
+      gap: 0.42rem;
+      transform: none;
     }
 
     .home-intro-mark::before,
     .home-intro-mark::after {
-      width: 2.25rem;
+      flex: 1 1 0;
+      width: auto;
+    }
+
+    .home-intro-mark-symbol {
+      flex: 0 0 auto;
     }
 
     .home-title {
-      gap: 0.7rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.62rem;
+      width: 100%;
+      text-align: center;
+    }
+
+    .home-title a:first-of-type,
+    .home-title a:last-of-type {
+      align-self: center;
+      text-align: center;
     }
 
     .home-book-mark {
-      flex-basis: 100%;
-      order: 2;
-      margin: -0.1rem 0;
-    }
-
-    .home-title a:first-of-type {
-      order: 1;
-    }
-
-    .home-title a:last-of-type {
-      order: 3;
+      flex-basis: auto;
+      order: initial;
+      width: 16rem;
+      max-width: 72vw;
+      margin: 0 auto;
+      gap: 0.7rem;
+      transform: none;
     }
 
     .home-book-mark::before,
     .home-book-mark::after {
-      width: 3.4rem;
+      flex: 1 1 0;
+      width: auto;
+    }
+
+    .home-book-mark-symbol {
+      flex: 0 0 auto;
     }
 
     .home-section-links {
