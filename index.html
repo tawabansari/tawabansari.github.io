@@ -5,359 +5,181 @@ permalink: /
 ---
 
 <style>
-  .forqan-home {
-    --home-bg: #f8fafc;
-    --home-panel: #ffffff;
-    --home-panel-soft: #fffaf2;
+  .forqan-home-minimal {
     --home-text: #1e293b;
     --home-muted: #64748b;
-    --home-border: #d7dde6;
     --home-accent: #b08d57;
     --home-accent-soft: rgba(176, 141, 87, 0.12);
-    --home-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+    --home-border: rgba(176, 141, 87, 0.32);
 
-    max-width: 1120px;
+    max-width: 820px;
+    min-height: 62vh;
     margin: 0 auto;
-    padding: 3.2rem 1.25rem 4rem;
+    padding: 4.25rem 1.25rem 4rem;
     color: var(--home-text);
-  }
-
-  .forqan-home a {
-    color: inherit;
-  }
-
-  .home-hero {
-    border: 1px solid var(--home-border);
-    border-radius: 18px;
-    background:
-      linear-gradient(135deg, rgba(176, 141, 87, 0.13), transparent 42%),
-      var(--home-panel);
-    box-shadow: var(--home-shadow);
-    padding: clamp(1.5rem, 4vw, 3rem);
     text-align: center;
   }
 
-  .home-invocation {
-    margin: 0 0 1.15rem;
+  .forqan-home-minimal a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .home-intro-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-bottom: 2.4rem;
     color: var(--home-accent);
-    font-size: 0.95rem;
-    font-weight: 700;
-    letter-spacing: 0.02em;
+    font-size: clamp(1.12rem, 2.8vw, 1.45rem);
+    font-weight: 800;
+    line-height: 1.45;
+  }
+
+  .home-intro-link a {
+    border-bottom: 1px solid transparent;
+  }
+
+  .home-intro-link a:hover,
+  .home-intro-link a:focus-visible,
+  .home-title a:hover,
+  .home-title a:focus-visible,
+  .home-section-links a:hover,
+  .home-section-links a:focus-visible {
+    color: var(--home-accent);
+    border-color: var(--home-accent);
+    outline: none;
+  }
+
+  .home-divider {
+    color: var(--home-muted);
+    font-weight: 500;
   }
 
   .home-title {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
     margin: 0;
-    font-size: clamp(2.1rem, 6vw, 4.2rem);
-    line-height: 1.08;
+    font-size: clamp(2.2rem, 7vw, 4.1rem);
+    font-weight: 800;
+    line-height: 1.15;
     letter-spacing: 0;
   }
 
-  .home-subtitle {
-    max-width: 760px;
-    margin: 1rem auto 0;
+  .home-title a {
+    border-bottom: 2px solid transparent;
+  }
+
+  .home-description {
+    max-width: 720px;
+    margin: 1.8rem auto 0;
     color: var(--home-muted);
-    font-size: clamp(1.05rem, 2vw, 1.22rem);
-    line-height: 1.75;
+    font-size: clamp(1rem, 2.1vw, 1.14rem);
+    line-height: 1.9;
   }
 
-  .home-mission {
-    max-width: 820px;
-    margin: 1.6rem auto 0;
-    display: grid;
-    gap: 0.75rem;
-    text-align: start;
-  }
-
-  .home-mission p {
+  .home-description p {
     margin: 0;
-    padding: 0.9rem 1rem;
-    border-inline-start: 4px solid var(--home-accent);
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.7);
-    color: var(--home-text);
-    line-height: 1.75;
   }
 
-  .home-ref {
-    display: inline-flex;
-    align-items: center;
-    margin-inline-start: 0.35rem;
-    padding: 0.14rem 0.45rem;
-    border: 1px solid rgba(176, 141, 87, 0.45);
-    border-radius: 999px;
-    color: #7a5729 !important;
-    font-size: 0.78rem;
-    font-weight: 800;
-    line-height: 1.35;
-    text-decoration: none;
-    white-space: nowrap;
+  .home-description p + p {
+    margin-top: 0.85rem;
   }
 
-  .home-ref:hover,
-  .home-ref:focus-visible {
-    border-color: var(--home-accent);
-    background: var(--home-accent-soft);
-    outline: none;
+  .home-description [dir="rtl"] {
+    font-size: 1.04em;
   }
 
-  .home-actions {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-    margin: 1.6rem auto 0;
-    max-width: 900px;
-  }
-
-  .home-language-card,
-  .home-link-card {
-    display: block;
-    border: 1px solid var(--home-border);
-    border-radius: 14px;
-    background: var(--home-panel);
-    color: inherit;
-    text-decoration: none;
-    transition:
-      border-color 0.18s ease,
-      box-shadow 0.18s ease,
-      transform 0.18s ease;
-  }
-
-  .home-language-card {
-    padding: 1.3rem;
-    text-align: start;
-  }
-
-  .home-language-card:hover,
-  .home-language-card:focus-visible,
-  .home-link-card:hover,
-  .home-link-card:focus-visible {
-    border-color: var(--home-accent);
-    box-shadow: 0 14px 34px rgba(15, 23, 42, 0.1);
-    transform: translateY(-2px);
-    outline: none;
-  }
-
-  .home-card-kicker {
-    display: inline-flex;
-    margin-bottom: 0.65rem;
-    color: var(--home-accent);
-    font-size: 0.78rem;
-    font-weight: 800;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
-
-  .home-language-card h2,
-  .home-link-card h2 {
-    margin: 0;
-    font-size: 1.35rem;
-    line-height: 1.35;
-  }
-
-  .home-language-card p,
-  .home-link-card p {
-    margin: 0.55rem 0 0;
-    color: var(--home-muted);
-    line-height: 1.65;
-  }
-
-  .home-section-title {
-    margin: 2.5rem 0 1rem;
-    text-align: center;
-  }
-
-  .home-section-title h2 {
-    margin: 0;
-    font-size: clamp(1.45rem, 3vw, 2rem);
-  }
-
-  .home-section-title p {
-    margin: 0.5rem auto 0;
-    max-width: 680px;
-    color: var(--home-muted);
-    line-height: 1.7;
-  }
-
-  .home-grid {
+  .home-section-links {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
-  }
-
-  .home-link-card {
-    padding: 1.05rem;
-  }
-
-  .home-link-card h2 {
-    font-size: 1.05rem;
-  }
-
-  .home-link-card p {
-    font-size: 0.95rem;
-  }
-
-  .home-closing {
+    gap: 0.7rem;
     margin: 2.2rem auto 0;
-    max-width: 780px;
-    padding: 1rem 1.15rem;
-    border: 1px solid rgba(176, 141, 87, 0.4);
-    border-radius: 14px;
-    background: var(--home-panel-soft);
+  }
+
+  .home-section-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.2rem;
+    padding: 0.7rem 0.9rem;
+    border: 1px solid var(--home-border);
+    border-radius: 999px;
+    background: var(--home-accent-soft);
     color: var(--home-text);
-    text-align: center;
-    line-height: 1.8;
+    font-weight: 750;
+    line-height: 1.35;
+    transition:
+      border-color 0.18s ease,
+      background-color 0.18s ease,
+      color 0.18s ease;
   }
 
-  .home-rtl {
-    direction: rtl;
-    text-align: right;
+  .home-section-links[dir="rtl"] {
+    margin-top: 0.85rem;
   }
 
-  body.dark-theme .forqan-home {
-    --home-bg: #0f172a;
-    --home-panel: #172033;
-    --home-panel-soft: rgba(214, 178, 109, 0.1);
+  body.dark-theme .forqan-home-minimal {
     --home-text: #e5e7eb;
     --home-muted: #cbd5e1;
-    --home-border: #475569;
     --home-accent: #d6b26d;
-    --home-accent-soft: rgba(214, 178, 109, 0.16);
-    --home-shadow: 0 18px 50px rgba(0, 0, 0, 0.22);
+    --home-accent-soft: rgba(214, 178, 109, 0.12);
+    --home-border: rgba(214, 178, 109, 0.36);
   }
 
-  body.dark-theme .home-hero {
-    background:
-      linear-gradient(135deg, rgba(214, 178, 109, 0.13), transparent 42%),
-      #111b2d;
-  }
-
-  body.dark-theme .home-mission p {
-    background: rgba(15, 23, 42, 0.32);
-  }
-
-  body.dark-theme .home-ref {
-    color: #f5d58a !important;
-    border-color: rgba(214, 178, 109, 0.5);
-  }
-
-  @media (max-width: 820px) {
-    .forqan-home {
-      padding: 2rem 0.85rem 3rem;
+  @media (max-width: 720px) {
+    .forqan-home-minimal {
+      min-height: 58vh;
+      padding: 3rem 1rem 3.4rem;
     }
 
-    .home-actions,
-    .home-grid {
+    .home-intro-link {
+      margin-bottom: 1.85rem;
+    }
+
+    .home-section-links {
       grid-template-columns: 1fr;
-    }
-
-    .home-hero {
-      border-radius: 14px;
-      padding: 1.25rem;
-    }
-
-    .home-mission {
-      text-align: inherit;
-    }
-
-    .home-ref {
-      margin-top: 0.35rem;
+      max-width: 25rem;
     }
   }
 </style>
 
-<main class="forqan-home">
-  <section class="home-hero" aria-labelledby="home-title">
-    <p class="home-invocation">In the name of The-God, The-Merciful, The-Compassionate</p>
-    <h1 class="home-title" id="home-title">Forqan | فرقان</h1>
-    <p class="home-subtitle">
-      A Qur’an-centered archive of meanings, translations, reflections, terminology, root studies, and essays.
+<main class="forqan-home-minimal">
+  <nav class="home-intro-link" aria-label="Introduction pages">
+    <a href="/en/introduction/">Introduction to Qur’an</a>
+    <span class="home-divider" aria-hidden="true">|</span>
+    <a href="/fa/introduction/" lang="fa" dir="rtl">آشنایی با قرآن</a>
+  </nav>
+
+  <h1 class="home-title">
+    <a href="/quran-reflection/en/surahs/">Forqan</a>
+    <span class="home-divider" aria-hidden="true">|</span>
+    <a href="/quran-reflection/fa/surahs/" lang="fa" dir="rtl">فرقان</a>
+  </h1>
+
+  <div class="home-description">
+    <p>
+      This site offers Qur’an translation with minimal interpretive interference, reflection on the Qur’an through the Qur’an itself, concise and detailed studies of Qur’anic roots, and articles with reflective notes.
     </p>
+    <p dir="rtl" lang="fa">
+      در این سایت، ترجمه قرآن با کمترین مداخله تفسیری، تأمل در قرآن با خود قرآن، توضیح کوتاه و مفصل معانی ریشه‌های قرآنی، و مقاله‌ها همراه با تبصره‌های تأملی در دسترس است.
+    </p>
+  </div>
 
-    <div class="home-mission">
-      <p>
-        This project seeks to read the Qur’an free from the authority of secondary, sectarian, inherited, or political religious systems.
-      </p>
-      <p>
-        We are Hanif — non-affiliated seekers turned toward the Creator of the heavens and the earth.
-        <a class="home-ref" href="/quran-reflection/en/006-al-anam/079/">Al-An‘am 6:79</a>
-      </p>
-      <p>
-        We believe in The God, the Last Day, the angels, the Books, and the prophets.
-        <a class="home-ref" href="/quran-reflection/en/002-al-baqarah/177/">Al-Baqarah 2:177</a>
-      </p>
-      <p>
-        We make no distinction between any of His messengers.
-        <a class="home-ref" href="/quran-reflection/en/002-al-baqarah/136/">Al-Baqarah 2:136</a>
-      </p>
-      <p>
-        Whoever believes in The God and the Last Day and does righteous deeds is not outside our circle of faith.
-        <a class="home-ref" href="/quran-reflection/en/002-al-baqarah/062/">Al-Baqarah 2:62</a>
-      </p>
-    </div>
+  <nav class="home-section-links" aria-label="English archive sections">
+    <a href="/quran-reflection/en/surahs/">Qur’an by the Qur’an</a>
+    <a href="/quran-terminology/en/roots/">Qur’anic Roots</a>
+    <a href="/en/articles/">Articles and Notes</a>
+  </nav>
 
-    <div class="home-actions" aria-label="Language sections">
-      <a class="home-language-card" href="/en/">
-        <span class="home-card-kicker">English</span>
-        <h2>English Archive</h2>
-        <p>Qur’an reflection, surah index, root studies, terminology, methodology, and essays.</p>
-      </a>
-
-      <a class="home-language-card home-rtl" href="/fa/" lang="fa" dir="rtl">
-        <span class="home-card-kicker">فارسی</span>
-        <h2>آرشیو فارسی</h2>
-        <p>ترجمه و تأمل قرآن، فهرست سوره‌ها، ریشه‌شناسی، واژه‌شناسی، روش کار، و مقاله‌ها.</p>
-      </a>
-    </div>
-  </section>
-
-  <section aria-labelledby="start-reading-title">
-    <div class="home-section-title">
-      <h2 id="start-reading-title">Start Reading</h2>
-      <p>Choose a doorway into the archive. Each section is meant to help the Qur’an explain itself through language, context, reflection, and moral clarity.</p>
-    </div>
-
-    <div class="home-grid">
-      <a class="home-link-card" href="/quran-reflection/en/surahs/">
-        <span class="home-card-kicker">Reflection</span>
-        <h2>Qur’an Surah Index</h2>
-        <p>Browse translation and reflection by surah and ayah.</p>
-      </a>
-
-      <a class="home-link-card" href="/quran-terminology/en/roots/">
-        <span class="home-card-kicker">Language</span>
-        <h2>Qur’anic Roots</h2>
-        <p>Explore Arabic roots, word families, and Qur’anic usage.</p>
-      </a>
-
-      <a class="home-link-card" href="/en/articles/">
-        <span class="home-card-kicker">Essays</span>
-        <h2>English Articles</h2>
-        <p>Read thematic reflections and public-facing essays.</p>
-      </a>
-
-      <a class="home-link-card" href="/quran-reflection/fa/surahs/" lang="fa" dir="rtl">
-        <span class="home-card-kicker">تأمل</span>
-        <h2>فهرست سوره‌ها</h2>
-        <p>مرور ترجمه و تأمل قرآن بر اساس سوره و آیه.</p>
-      </a>
-
-      <a class="home-link-card" href="/quran-terminology/fa/roots/" lang="fa" dir="rtl">
-        <span class="home-card-kicker">زبان</span>
-        <h2>ریشه‌های قرآنی</h2>
-        <p>جستجوی ریشه‌ها، خانواده‌های واژگانی، و کاربرد قرآنی.</p>
-      </a>
-
-      <a class="home-link-card" href="/fa/articles/" lang="fa" dir="rtl">
-        <span class="home-card-kicker">نوشتارها</span>
-        <h2>مقاله‌های فارسی</h2>
-        <p>خواندن تأمل‌ها و مقاله‌های موضوعی فارسی.</p>
-      </a>
-    </div>
-  </section>
-
-  <p class="home-closing">
-    Pure and exalted is The God above what they associate with Him and above what they describe.
-    <a class="home-ref" href="/quran-reflection/en/023-al-muminun/091/">Al-Mu’minun 23:91</a>
-    <a class="home-ref" href="/quran-reflection/en/037-as-saffat/159/">As-Saffat 37:159</a>
-  </p>
+  <nav class="home-section-links" aria-label="Farsi archive sections" dir="rtl" lang="fa">
+    <a href="/quran-reflection/fa/surahs/">تأمل قرآن با خود قرآن</a>
+    <a href="/quran-terminology/fa/roots/">ریشه‌های قرآنی</a>
+    <a href="/fa/articles/">مقاله‌ها و تبصره‌ها</a>
+  </nav>
 </main>
