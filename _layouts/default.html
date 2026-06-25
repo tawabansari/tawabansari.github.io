@@ -1877,18 +1877,65 @@
       font-weight: 800;
     }
 
-    body.dark-theme .forqan-pathway-shell {
+    .forqan-return-context {
+      display: none;
+      margin-top: 0.28rem;
+      font-size: 0.82rem;
+      line-height: 1.65;
+      color: #64748b;
+    }
+
+    .forqan-return-context.show {
+      display: block;
+    }
+
+    .forqan-return-context[dir="rtl"] {
+      direction: rtl;
+      text-align: right;
+    }
+
+    .forqan-return-context[dir="ltr"] {
+      direction: ltr;
+      text-align: left;
+    }
+
+    .forqan-return-context a {
+      color: #9a7440;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(154, 116, 64, 0.42);
+      font-weight: 800;
+    }
+
+    .forqan-return-context a:hover,
+    .forqan-return-context a:focus-visible {
+      color: #6f4f26;
+      border-color: currentColor;
+      outline: none;
+    }
+
+    body.dark-theme .forqan-pathway-shell,
+    body.dark-theme .forqan-return-context {
       color: #cbd5e1;
     }
 
     body.dark-theme .forqan-pathway a:hover,
     body.dark-theme .forqan-pathway a:focus-visible,
-    body.dark-theme .forqan-pathway-current {
+    body.dark-theme .forqan-pathway-current,
+    body.dark-theme .forqan-return-context a {
       color: #d6b26d;
     }
 
     body.dark-theme .forqan-pathway-separator {
       color: rgba(203, 213, 225, 0.66);
+    }
+
+    body.dark-theme .forqan-return-context a {
+      border-color: rgba(214, 178, 109, 0.5);
+    }
+
+    body.dark-theme .forqan-return-context a:hover,
+    body.dark-theme .forqan-return-context a:focus-visible {
+      color: #f1d59d;
     }
 
     @media (max-width: 720px) {
@@ -1924,11 +1971,19 @@
         overflow: hidden;
         text-overflow: ellipsis;
       }
+
+      .forqan-return-context {
+        margin-top: 0.18rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
     }
 
     @media print {
       .site-header,
       .site-footer,
+      .forqan-pathway-shell,
       .theme-toggle-button,
       .reading-progress,
       .back-to-top,
@@ -2215,6 +2270,8 @@
         <span class="forqan-pathway-current" aria-current="page">{{ page.title | default: forqan_section_label | escape }}</span>
       {% endif %}
     </nav>
+
+    <div class="forqan-return-context" id="forqan-return-context" dir="{{ forqan_path_dir }}" lang="{{ forqan_path_lang }}" hidden></div>
   </div>
 {% endif %}
 
@@ -2388,6 +2445,69 @@
   function cleanText(text) {
     return text.replace(/\s+/g, ' ').trim();
   }
+
+
+  function initForqanReadingReturn() {
+    const currentPath = window.location.pathname;
+    const currentFullPath = window.location.pathname + window.location.search + window.location.hash;
+    const langMatch = currentPath.match(/^\/(?:quran-reflection|quran-terminology)\/(en|fa)\//);
+    const lang = langMatch ? langMatch[1] : (currentPath.indexOf('/fa/') === 0 ? 'fa' : 'en');
+    const isFarsi = lang === 'fa';
+    const storageKey = 'forqan-last-reading-page-' + lang;
+
+    const isReadingPage =
+      /^\/quran-reflection\/(en|fa)\/(?!surahs\/?$)(?!methodology\/?$)[^/]+\/?$/.test(currentPath);
+
+    if (isReadingPage) {
+      const currentCrumb = document.querySelector('.forqan-pathway-current');
+      const fallbackTitle = document.title.split('|')[0].trim();
+      const title = cleanText(currentCrumb ? currentCrumb.textContent : fallbackTitle);
+
+      try {
+        localStorage.setItem(storageKey, JSON.stringify({
+          url: currentFullPath,
+          title: title,
+          savedAt: Date.now()
+        }));
+      } catch (e) {}
+
+      return;
+    }
+
+    const isRootDetailPage =
+      /^\/quran-terminology\/(en|fa)\/roots\/[^/]+\/?$/.test(currentPath);
+
+    if (!isRootDetailPage) return;
+
+    let savedReading = null;
+
+    try {
+      savedReading = JSON.parse(localStorage.getItem(storageKey) || 'null');
+    } catch (e) {
+      savedReading = null;
+    }
+
+    if (!savedReading || !savedReading.url || !savedReading.title) return;
+
+    const returnBox = document.getElementById('forqan-return-context');
+    if (!returnBox) return;
+
+    const intro = document.createElement('span');
+    intro.textContent = isFarsi ? 'بازگشت به مطالعه: ' : 'Return to reading: ';
+
+    const link = document.createElement('a');
+    link.href = savedReading.url;
+    link.textContent = savedReading.title;
+
+    returnBox.innerHTML = '';
+    returnBox.appendChild(intro);
+    returnBox.appendChild(link);
+    returnBox.hidden = false;
+    returnBox.classList.add('show');
+  }
+
+  initForqanReadingReturn();
+
 
   function labelButton(button, label) {
     button.setAttribute('aria-label', label);
