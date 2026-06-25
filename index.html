@@ -307,30 +307,38 @@ permalink: /
     }
 
     .home-intro-link {
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
       align-items: center;
-      justify-content: center;
-      gap: 0.42rem;
-      width: 100%;
+      row-gap: 0.42rem;
+      width: min(100%, 24rem);
       max-width: 100%;
       margin: 0 auto 1.85rem;
       text-align: center;
     }
 
+    .home-intro-link a {
+      display: block;
+      width: 100%;
+      max-width: 24rem;
+      margin: 0 auto;
+      text-align: center;
+      text-wrap: balance;
+    }
+
     .home-intro-link a:first-of-type,
     .home-intro-link a:last-of-type {
-      align-self: center;
       justify-self: center;
       text-align: center;
     }
 
     .home-intro-mark {
-      align-self: center;
-      width: 7.2rem;
+      justify-self: center;
+      width: 10.25rem;
       min-width: 0;
       margin: 0 auto;
-      gap: 0.42rem;
+      gap: 0.46rem;
       transform: none;
     }
 
@@ -345,26 +353,36 @@ permalink: /
     }
 
     .home-title {
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
       align-items: center;
-      justify-content: center;
       gap: 0.62rem;
-      width: 100%;
+      width: min(100%, 26rem);
+      max-width: 100%;
+      margin: 0 auto;
       text-align: center;
+    }
+
+    .home-title a {
+      display: block;
+      width: 100%;
+      max-width: 26rem;
+      margin: 0 auto;
+      text-align: center;
+      text-wrap: balance;
     }
 
     .home-title a:first-of-type,
     .home-title a:last-of-type {
-      align-self: center;
+      justify-self: center;
       text-align: center;
     }
 
     .home-book-mark {
-      flex-basis: auto;
-      order: initial;
-      width: 16rem;
-      max-width: 72vw;
+      justify-self: center;
+      width: 15rem;
+      max-width: 70vw;
       margin: 0 auto;
       gap: 0.7rem;
       transform: none;
