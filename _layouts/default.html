@@ -2449,7 +2449,6 @@
 
   function initForqanReadingReturn() {
     const currentPath = window.location.pathname;
-    const currentFullPath = window.location.pathname + window.location.search + window.location.hash;
     const langMatch = currentPath.match(/^\/(?:quran-reflection|quran-terminology)\/(en|fa)\//);
     const lang = langMatch ? langMatch[1] : (currentPath.indexOf('/fa/') === 0 ? 'fa' : 'en');
     const isFarsi = lang === 'fa';
@@ -2458,18 +2457,135 @@
     const isReadingPage =
       /^\/quran-reflection\/(en|fa)\/(?!surahs\/?$)(?!methodology\/?$)[^/]+\/?$/.test(currentPath);
 
-    if (isReadingPage) {
+    function getBestReadingAnchor() {
+      const viewportReference = window.scrollY + (window.innerHeight * 0.38);
+      const candidates = Array.from(document.querySelectorAll('[id]')).filter(function (element) {
+        const id = element.id || '';
+        if (!id) return false;
+
+        return (
+          /^ayah[-_]/i.test(id) ||
+          /^verse[-_]/i.test(id) ||
+          /^a[0-9]/i.test(id) ||
+          /^v[0-9]/i.test(id) ||
+          /ayah/i.test(id) ||
+          /verse/i.test(id) ||
+          /-\d{3}$/.test(id)
+        );
+      });
+
+      if (!candidates.length) return '';
+
+      let best = candidates[0];
+      let bestDistance = Infinity;
+
+      candidates.forEach(function (element) {
+        const top = element.getBoundingClientRect().top + window.scrollY;
+        const distance = Math.abs(top - viewportReference);
+
+        if (distance < bestDistance) {
+          best = element;
+          bestDistance = distance;
+        }
+      });
+
+      return best && best.id ? best.id : '';
+    }
+
+    function getReadingTitle() {
       const currentCrumb = document.querySelector('.forqan-pathway-current');
       const fallbackTitle = document.title.split('|')[0].trim();
-      const title = cleanText(currentCrumb ? currentCrumb.textContent : fallbackTitle);
+      return cleanText(currentCrumb ? currentCrumb.textContent : fallbackTitle);
+    }
+
+    function saveReadingPosition() {
+      if (!isReadingPage) return;
+
+      const anchorId = getBestReadingAnchor();
+      const baseUrl = window.location.pathname + window.location.search;
+      const returnUrl = anchorId ? (baseUrl + '#' + encodeURIComponent(anchorId)) : baseUrl;
+      const scrollY = Math.max(0, Math.round(window.scrollY || document.documentElement.scrollTop || 0));
 
       try {
         localStorage.setItem(storageKey, JSON.stringify({
-          url: currentFullPath,
-          title: title,
+          url: returnUrl,
+          fallbackUrl: baseUrl,
+          title: getReadingTitle(),
+          scrollY: scrollY,
+          anchorId: anchorId,
           savedAt: Date.now()
         }));
       } catch (e) {}
+    }
+
+    function restoreReadingPositionIfNeeded() {
+      if (!isReadingPage) return;
+
+      let savedReading = null;
+
+      try {
+        savedReading = JSON.parse(localStorage.getItem(storageKey) || 'null');
+      } catch (e) {
+        savedReading = null;
+      }
+
+      if (!savedReading) return;
+
+      const savedBase = (savedReading.fallbackUrl || savedReading.url || '').split('#')[0];
+      const currentBase = window.location.pathname + window.location.search;
+      if (savedBase !== currentBase) return;
+
+      function restore() {
+        if (window.location.hash) {
+          const rawHash = window.location.hash.slice(1);
+          let targetId = rawHash;
+
+          try {
+            targetId = decodeURIComponent(rawHash);
+          } catch (e) {}
+
+          const target = document.getElementById(targetId);
+          if (target) {
+            target.scrollIntoView({ behavior: 'auto', block: 'start' });
+            return;
+          }
+        }
+
+        if (typeof savedReading.scrollY === 'number' && savedReading.scrollY > 0) {
+          window.scrollTo({ top: savedReading.scrollY, left: 0, behavior: 'auto' });
+        }
+      }
+
+      window.setTimeout(restore, 120);
+      window.setTimeout(restore, 520);
+      window.setTimeout(restore, 1000);
+    }
+
+    if (isReadingPage) {
+      restoreReadingPositionIfNeeded();
+
+      let saveTimer = null;
+
+      function scheduleSaveReadingPosition() {
+        if (saveTimer) window.clearTimeout(saveTimer);
+        saveTimer = window.setTimeout(saveReadingPosition, 120);
+      }
+
+      saveReadingPosition();
+
+      window.addEventListener('scroll', scheduleSaveReadingPosition, { passive: true });
+      window.addEventListener('pagehide', saveReadingPosition);
+      window.addEventListener('beforeunload', saveReadingPosition);
+
+      document.addEventListener('click', function (event) {
+        const link = event.target.closest ? event.target.closest('a[href]') : null;
+        if (!link) return;
+
+        const href = link.getAttribute('href') || '';
+        if (href.indexOf('/quran-terminology/') !== -1 || href.indexOf('/roots/') !== -1) {
+          saveReadingPosition();
+        }
+      }, true);
 
       return;
     }
