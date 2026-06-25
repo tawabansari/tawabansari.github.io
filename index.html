@@ -61,10 +61,10 @@ permalink: /
 
   .home-title {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 0.72rem;
+    gap: 0.95rem;
     margin: 0;
     font-size: clamp(2.45rem, 7.4vw, 4.45rem);
     font-weight: 800;
@@ -80,15 +80,49 @@ permalink: /
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 2.25rem;
-    height: 2.25rem;
+    gap: 0.48rem;
+    color: var(--home-accent);
+    transform: translateY(-0.03em);
+  }
+
+  .home-book-mark::before,
+  .home-book-mark::after {
+    content: "";
+    width: clamp(1.35rem, 4vw, 2.4rem);
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(176, 141, 87, 0.62),
+      transparent
+    );
+  }
+
+  .home-book-mark::after {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(176, 141, 87, 0.62),
+      transparent
+    );
+  }
+
+  .home-book-mark-symbol {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(2.05rem, 5vw, 2.65rem);
+    height: clamp(2.05rem, 5vw, 2.65rem);
     border: 1px solid var(--home-border);
     border-radius: 999px;
-    background: var(--home-accent-soft);
+    background:
+      radial-gradient(circle at center, rgba(176, 141, 87, 0.13), rgba(176, 141, 87, 0.05) 62%, transparent 63%);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.55),
+      0 0 0 0.28rem rgba(176, 141, 87, 0.045);
     color: var(--home-accent);
-    font-size: 1.15rem;
+    font-size: clamp(0.72rem, 1.8vw, 0.92rem);
     line-height: 1;
-    transform: translateY(-0.08em);
   }
 
   .home-description {
@@ -158,6 +192,22 @@ permalink: /
     color: #f1d79a;
   }
 
+  body.dark-theme .home-book-mark::before,
+  body.dark-theme .home-book-mark::after {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(214, 178, 109, 0.68),
+      transparent
+    );
+  }
+
+  body.dark-theme .home-book-mark-symbol {
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.08),
+      0 0 0 0.28rem rgba(214, 178, 109, 0.055);
+  }
+
   body.dark-theme .home-description strong,
   body.dark-theme .home-description .gold-word {
     color: #f1d79a;
@@ -181,6 +231,29 @@ permalink: /
       margin-bottom: 1.85rem;
     }
 
+    .home-title {
+      gap: 0.7rem;
+    }
+
+    .home-book-mark {
+      flex-basis: 100%;
+      order: 2;
+      margin: -0.1rem 0;
+    }
+
+    .home-title a:first-of-type {
+      order: 1;
+    }
+
+    .home-title a:last-of-type {
+      order: 3;
+    }
+
+    .home-book-mark::before,
+    .home-book-mark::after {
+      width: 3.4rem;
+    }
+
     .home-section-links {
       grid-template-columns: 1fr;
       max-width: 25rem;
@@ -197,7 +270,9 @@ permalink: /
 
   <h1 class="home-title">
     <a href="/quran-reflection/en/surahs/">Read Forqan</a>
-    <span class="home-book-mark" aria-hidden="true">-</span>
+    <span class="home-book-mark" aria-hidden="true">
+      <span class="home-book-mark-symbol">۞</span>
+    </span>
     <a href="/quran-reflection/fa/surahs/" lang="fa" dir="rtl">مطالعه فرقان</a>
   </h1>
 
