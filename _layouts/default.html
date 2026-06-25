@@ -700,7 +700,8 @@
     .copy-ayah-link,
     .copy-section-text,
     .section-toggle-button,
-    .language-mirror-link {
+    .language-mirror-link,
+    .quran-gooya-link {
       border: 1px solid #ddd;
       border-radius: 999px;
       background: #fff;
@@ -723,12 +724,14 @@
 
     .copy-section-text,
     .section-toggle-button,
-    .language-mirror-link {
+    .language-mirror-link,
+    .quran-gooya-link {
       font-size: 0.9rem !important;
       padding: 0.2rem 0.55rem;
     }
 
-    .language-mirror-link {
+    .language-mirror-link,
+    .quran-gooya-link {
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -738,12 +741,18 @@
       text-decoration: none !important;
     }
 
+    .quran-gooya-link {
+      min-width: 2.35rem;
+    }
+
     .copy-ayah-text:hover,
     .copy-ayah-link:hover,
     .copy-section-text:hover,
     .section-toggle-button:hover,
     .language-mirror-link:hover,
-    .language-mirror-link:focus-visible {
+    .language-mirror-link:focus-visible,
+    .quran-gooya-link:hover,
+    .quran-gooya-link:focus-visible {
       border-color: #aaa;
       outline: none;
     }
@@ -1334,6 +1343,7 @@
     body.dark-theme .copy-section-text,
     body.dark-theme .section-toggle-button,
     body.dark-theme .language-mirror-link,
+    body.dark-theme .quran-gooya-link,
     body.dark-theme .quran-nav-trigger,
     body.dark-theme .quran-nav-close,
     body.dark-theme .quran-nav-ayah {
@@ -2007,6 +2017,7 @@
       .copy-ayah-link,
       .copy-section-text,
       .language-mirror-link,
+      .quran-gooya-link,
       .root-popover,
       .root-tools {
         display: none !important;
@@ -2694,6 +2705,71 @@
     return link;
   }
 
+  function normalizeForqanDigits(value) {
+    return String(value || '')
+      .replace(/[۰-۹]/g, function (digit) {
+        return '۰۱۲۳۴۵۶۷۸۹'.indexOf(digit);
+      })
+      .replace(/[٠-٩]/g, function (digit) {
+        return '٠١٢٣٤٥٦٧٨٩'.indexOf(digit);
+      });
+  }
+
+  function getCurrentSurahNumberFromPath() {
+    const match = window.location.pathname.match(/\/quran-reflection\/(?:en|fa)\/(\d{3})-[^/]+\//);
+    return match ? parseInt(match[1], 10) : null;
+  }
+
+  function getAyahNumberFromBlock(ayahBlock) {
+    if (!ayahBlock) return null;
+
+    const heading = ayahBlock.querySelector('.ayah-title, h2');
+    const headingText = heading ? normalizeForqanDigits(cleanText(heading.textContent)) : '';
+    const headingMatch = headingText.match(/(?:^|[^\d])(\d{1,3})\s*[:：]\s*(\d{1,3})(?:[^\d]|$)/);
+
+    if (headingMatch) {
+      return parseInt(headingMatch[2], 10);
+    }
+
+    const idText = normalizeForqanDigits(ayahBlock.id || '');
+    const idNumbers = idText.match(/\d+/g) || [];
+
+    if (idNumbers.length >= 2) {
+      return parseInt(idNumbers[idNumbers.length - 1], 10);
+    }
+
+    if (idNumbers.length === 1) {
+      return parseInt(idNumbers[0], 10);
+    }
+
+    return null;
+  }
+
+  function createQuranGooyaLink(ayahBlock) {
+    const surahNumber = getCurrentSurahNumberFromPath();
+    const ayahNumber = getAyahNumberFromBlock(ayahBlock);
+
+    if (!surahNumber || !ayahNumber) return null;
+
+    const isFarsi = document.body.classList.contains('lang-fa');
+    const link = document.createElement('a');
+
+    link.className = 'quran-gooya-link';
+    link.href = 'https://QuranGooya.com/qrn/' + surahNumber + '_' + ayahNumber + '.html';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.textContent = isFarsi ? 'گویا' : 'Gooya';
+
+    const title = isFarsi
+      ? 'باز کردن تفسیر و تعبیر این آیه در قرآن گویا توسط عبدالعلی بازرگان'
+      : 'Open interpretation of this verse on Quran Gooya by Abdolali Bazargan';
+
+    link.setAttribute('aria-label', title);
+    link.setAttribute('title', title);
+
+    return link;
+  }
+
   function initQuranNavigator() {
     const data = window.FORQAN_QURAN_NAV || [];
     const match = window.location.pathname.match(/^\/quran-reflection\/(en|fa)\/(\d{3}-[^/]+)\//);
@@ -3092,9 +3168,14 @@
     });
 
     const ayahMirrorLink = createMirrorLanguageLink(ayahBlock.id);
+    const quranGooyaLink = createQuranGooyaLink(ayahBlock);
 
     ayahTitle.appendChild(textButton);
     ayahTitle.appendChild(linkButton);
+
+    if (quranGooyaLink) {
+      ayahTitle.appendChild(quranGooyaLink);
+    }
 
     if (ayahMirrorLink) {
       ayahTitle.appendChild(ayahMirrorLink);
