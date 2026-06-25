@@ -486,7 +486,9 @@
       min-width: 0;
     }
 
+    .site-home-button,
     .site-brand,
+    .site-brand a,
     .site-menu-toggle,
     .site-nav a {
       display: inline-flex;
@@ -507,18 +509,44 @@
       letter-spacing: 0;
     }
 
-    .site-menu-toggle {
-      min-width: 2.25rem;
+    .site-brand a {
+      padding: 0;
+    }
+
+    .site-brand-divider {
+      color: #94a3b8;
+      font-weight: 500;
+      line-height: 1;
+    }
+
+    .site-home-button,
+    .site-menu-toggle,
+    .theme-toggle-button {
+      width: 2.45rem;
+      min-width: 2.45rem;
+      height: 2.45rem;
+      min-height: 2.45rem;
       border: 1px solid #d7dde6;
       border-radius: 999px;
       background: #fff;
       color: inherit;
       cursor: pointer;
-      font: inherit;
-      font-weight: 800;
-      padding: 0.45rem 0.7rem;
+      padding: 0;
     }
 
+    .site-home-button {
+      font-size: 1.45rem;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .site-menu-toggle {
+      font: inherit;
+      font-weight: 800;
+    }
+
+    .site-home-button:hover,
+    .site-home-button:focus-visible,
     .site-menu-toggle:hover,
     .site-menu-toggle:focus-visible {
       border-color: #b08d57;
@@ -603,15 +631,17 @@
       border-radius: 999px;
       background: #fff;
       color: inherit;
-      padding: 0.35rem 0.7rem;
+      padding: 0;
       margin-left: 0;
       cursor: pointer;
       font-size: 1rem;
       line-height: 1;
     }
 
-    .theme-toggle-button:hover {
-      border-color: #aaa;
+    .theme-toggle-button:hover,
+    .theme-toggle-button:focus-visible {
+      border-color: #b08d57;
+      outline: none;
     }
 
     .theme-toggle-button svg {
@@ -1026,12 +1056,15 @@
       color: #e5e7eb;
     }
 
+    body.dark-theme .site-home-button,
     body.dark-theme .site-brand,
+    body.dark-theme .site-brand a,
     body.dark-theme .site-menu-toggle,
     body.dark-theme .site-nav a {
       color: #f1f5f9;
     }
 
+    body.dark-theme .site-home-button,
     body.dark-theme .site-menu,
     body.dark-theme .site-menu-toggle {
       background: #172033;
@@ -1342,10 +1375,12 @@
       .header-left {
         width: auto;
         flex: 0 1 auto;
+        gap: 0.42rem;
       }
 
       .site-brand {
-        font-size: 1rem;
+        gap: 0.32rem;
+        font-size: 0.96rem;
       }
 
       .site-nav {
@@ -1370,13 +1405,25 @@
 
       .theme-toggle-button {
         margin-left: 0;
-        min-width: 2rem;
-        padding: 0.34rem 0.5rem;
       }
 
+      .site-home-button,
       .site-menu-toggle {
-        min-width: 2.15rem;
-        padding: 0.42rem 0.6rem;
+        width: 2.25rem;
+        min-width: 2.25rem;
+        height: 2.25rem;
+        min-height: 2.25rem;
+      }
+
+      .theme-toggle-button {
+        width: 2.25rem;
+        min-width: 2.25rem;
+        height: 2.25rem;
+        min-height: 2.25rem;
+      }
+
+      .site-home-button {
+        font-size: 1.35rem;
       }
 
       .site-menu {
@@ -1821,9 +1868,15 @@
 <header class="site-header">
 
   <div class="header-left">
-    <a class="site-brand" href="/" aria-label="Forqan home">
-      <span>Forqan</span>
+    <a class="site-home-button" href="/" aria-label="Home" title="Home">
+      <span aria-hidden="true">⌂</span>
     </a>
+
+    <span class="site-brand" aria-label="Forqan language sections">
+      <a href="/en/" aria-label="Forqan English section">Forqan</a>
+      <span class="site-brand-divider" aria-hidden="true">|</span>
+      <a href="/fa/" lang="fa" dir="rtl" aria-label="Forqan Farsi section">فرقان</a>
+    </span>
 
     <button class="site-menu-toggle" id="site-menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open site menu" title="Menu">☰</button>
 
@@ -1919,12 +1972,6 @@
         {% assign farsi_url = page.url | replace_first: "/en/", "/fa/" %}
       {% endif %}
     {% endif %}
-
-    <span class="language-switcher">
-      <a href="{{ english_url }}" aria-label="English mirror">English</a>
-      <span class="language-divider" aria-hidden="true">|</span>
-      <a href="{{ farsi_url }}" lang="fa" dir="rtl" aria-label="Farsi mirror">فارسی</a>
-    </span>
 
     <button class="theme-toggle-button text-zoom-btn" id="zoom-out" type="button" aria-label="Decrease text size">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -3135,7 +3182,7 @@
 
     function cleanArabic(value) {
       return value
-        .replace(/[ًٌٍَُِّْٰۣٓٔۜ۟۠ۢۥۦۨـ]/g, '')
+        .replace(/[ًٌٍَُِّْٰۣٓٔۜ۟۠ۢۥۦۨـ]/g, '')
         .replace(/[ٱأإآ]/g, 'ا')
         .replace(/[ؤ]/g, 'و')
         .replace(/[ئ]/g, 'ی')
