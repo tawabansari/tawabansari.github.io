@@ -1,10 +1,15 @@
 title: Forqan Archive
-description: Archive of articles from Ashnayi ba Quran
+description: Qur’an translation, Qur’an-by-Qur’an reflection, Qur’anic roots, and reflective articles in English and Farsi.
 url: "https://forqan.co"
 baseurl: ""
 
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
+
+timezone: America/New_York
+
+plugins:
+  - jekyll-sitemap
 
 collections:
   posts:
@@ -26,3 +31,8 @@ defaults:
       lang: fa
       layout: post
       category: fa
+
+  - scope:
+      path: ""
+    values:
+      sitemap: true
