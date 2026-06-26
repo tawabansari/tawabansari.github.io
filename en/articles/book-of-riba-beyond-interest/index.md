@@ -17,115 +17,134 @@ tags:
 
 <style>
   .riba-book {
-    --paper: rgba(255,255,255,0.82);
-    --ink: #172033;
-    --muted: #5c667a;
-    --line: rgba(31, 41, 55, 0.14);
-    --gold: #b8872d;
-    --green: #28745f;
-    --rose: #9c3b53;
-    color: var(--ink);
-    max-width: 980px;
+    --riba-gold: #b08d57;
+    --riba-gold-strong: #8b6423;
+    --riba-green: #28745f;
+    --riba-muted: #64748b;
+    --riba-line: rgba(176, 141, 87, 0.28);
+    --riba-soft: rgba(176, 141, 87, 0.07);
+    --riba-card: rgba(255, 255, 255, 0.72);
+    max-width: 920px;
     margin: 0 auto;
-    padding: 3rem 1.25rem 4rem;
-    line-height: 1.85;
+    padding: 2.2rem 1.25rem 4rem;
+    color: inherit;
+    line-height: 1.9;
     font-size: 1.04rem;
   }
+
+  .riba-book[dir="rtl"] {
+    line-height: 2.05;
+  }
+
   .riba-hero {
-    border: 1px solid var(--line);
-    background:
-      linear-gradient(135deg, rgba(184,135,45,0.16), rgba(40,116,95,0.12)),
-      var(--paper);
-    border-radius: 18px;
-    padding: 2rem;
-    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--riba-line);
+    margin-bottom: 1.4rem;
+    padding-bottom: 1.15rem;
   }
-  .riba-book .eyebrow {
-    color: var(--green);
-    font-weight: 800;
-    margin: 0 0 .6rem;
-  }
+
   .riba-book h1 {
-    font-size: clamp(2rem, 4vw, 3.4rem);
-    line-height: 1.15;
-    margin: 0 0 1rem;
+    margin: 0 0 0.85rem;
+    color: var(--riba-gold-strong);
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.2;
   }
+
   .riba-book .subtitle {
-    color: var(--muted);
-    font-size: 1.15rem;
+    max-width: 760px;
     margin: 0;
+    color: var(--riba-muted);
+    font-size: 1.08rem;
   }
+
   .riba-book .opening {
-    color: var(--rose);
-    font-weight: 800;
+    margin: 1.4rem 0 1.1rem;
+    color: #9c3b53;
+    font-weight: 850;
     text-align: center;
-    margin: 1.5rem 0;
   }
+
   .riba-toc {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: .75rem;
-    margin: 1.5rem 0 2.5rem;
+    gap: 0.55rem;
+    margin: 1.2rem 0 2.4rem;
   }
+
   .riba-toc a {
-    color: var(--ink);
+    display: block;
+    border: 1px solid var(--riba-line);
+    border-radius: 10px;
+    padding: 0.72rem 0.95rem;
+    background: var(--riba-card);
+    color: inherit;
     text-decoration: none;
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    padding: .85rem 1rem;
-    background: rgba(255,255,255,.62);
+    font-weight: 750;
+    line-height: 1.55;
+    transition: border-color 0.18s ease, transform 0.18s ease, background-color 0.18s ease;
   }
+
+  .riba-toc a:hover,
+  .riba-toc a:focus-visible {
+    border-color: rgba(176, 141, 87, 0.62);
+    transform: translateY(-1px);
+    outline: none;
+  }
+
   .riba-book h2 {
-    border-top: 1px solid var(--line);
     margin-top: 3rem;
-    padding-top: 1.6rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--riba-line);
+    color: var(--riba-gold-strong);
     font-size: 1.8rem;
+    line-height: 1.45;
   }
+
   .riba-book h3 {
-    color: var(--green);
-    margin-top: 1.8rem;
-    font-size: 1.25rem;
+    margin-top: 1.75rem;
+    color: var(--riba-green);
+    font-size: 1.24rem;
+    line-height: 1.6;
   }
+
   .riba-book blockquote {
-    border-inline-start: 4px solid var(--gold);
-    background: rgba(184,135,45,.09);
     margin: 1.4rem 0;
-    padding: 1rem 1.2rem;
-    border-radius: 12px;
+    padding: 0.95rem 1.15rem;
+    border-inline-start: 4px solid var(--riba-gold);
+    border-radius: 10px;
+    background: var(--riba-soft);
   }
-  .riba-book .note {
-    border: 1px solid rgba(40,116,95,.25);
-    background: rgba(40,116,95,.08);
-    padding: 1rem 1.2rem;
-    border-radius: 12px;
-    color: #25493f;
+
+  body.dark-theme .riba-book {
+    --riba-gold: #d6b05f;
+    --riba-gold-strong: #d6b05f;
+    --riba-green: #7fc7ad;
+    --riba-muted: #cbd5e1;
+    --riba-line: rgba(214, 176, 95, 0.30);
+    --riba-soft: rgba(214, 176, 95, 0.10);
+    --riba-card: rgba(15, 23, 42, 0.58);
   }
-  @media (prefers-color-scheme: dark) {
+
+  body.dark-theme .riba-book .opening {
+    color: #e27b93;
+  }
+
+  @media (max-width: 760px) {
     .riba-book {
-      --paper: rgba(17,24,39,0.84);
-      --ink: #e5edf7;
-      --muted: #aab6c8;
-      --line: rgba(226,232,240,0.16);
+      padding-top: 1.45rem;
     }
+
     .riba-toc a {
-      background: rgba(17,24,39,.62);
-    }
-    .riba-book .note {
-      color: #cce7df;
+      padding: 0.68rem 0.8rem;
     }
   }
 </style>
 
 <article class="riba-book">
   <header class="riba-hero">
-    <p class="eyebrow">Long essay / Articles</p>
     <h1>The Book of Riba: Beyond Interest</h1>
     <p class="subtitle">Money, debt, banking, inflation, ownership, risk, speculation, and Qur'anic justice.</p>
   </header>
 
   <p class="opening">By name of The God The Merciful The Compassionate</p>
-
-  <p class="note">This essay does not issue a fatwa. It is a Qur'an-centered attempt to reopen the question: what kind of economic relationship does the Qur'an call <a href="/quran-terminology/en/roots/r-b-w/">riba</a>, and how should that question be asked in a world of credit money, inflation, securitized debt, and speculative markets?</p>
 
   <nav class="riba-toc" aria-label="Table of contents">
     <a href="#intro">Introduction</a>
@@ -264,7 +283,6 @@ At the same time, difficulty should not become surrender. Muslims and Qur'an-cen
 
 A healthier economy would move toward real partnership, transparent debt, relief for hardship, limits on predatory lending, protection from inflationary theft, productive investment, and forms of ownership that connect gain to responsibility. It would not pretend that money is morally neutral. Money is a social promise. If that promise is corrupted, the weak pay first.
 
-The Qur'an does not need us to force truth into existence. It asks us to see. Once riba is seen as a living pattern rather than a dead formula, the discussion becomes harder, but also more honest. And that honesty is the first step toward justice.
 
 </div>
 </article>
