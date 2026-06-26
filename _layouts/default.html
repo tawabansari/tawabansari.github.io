@@ -2012,6 +2012,135 @@
       }
     }
 
+
+    /* EXTERNAL LINK CONFIRMATION MODAL */
+    .forqan-external-modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 10020;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      background: rgba(15, 23, 42, 0.34);
+      backdrop-filter: blur(3px);
+    }
+
+    .forqan-external-modal-backdrop.show {
+      display: flex;
+    }
+
+    .forqan-external-modal {
+      width: min(27rem, calc(100vw - 2rem));
+      border: 1px solid rgba(176, 141, 87, 0.36);
+      border-radius: 18px;
+      background: #ffffff;
+      color: #1e293b;
+      box-shadow: 0 22px 70px rgba(15, 23, 42, 0.22);
+      padding: 1.05rem 1.1rem 1rem;
+    }
+
+    .forqan-external-modal[dir="rtl"] {
+      direction: rtl;
+      text-align: right;
+      font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+    }
+
+    .forqan-external-modal[dir="ltr"] {
+      direction: ltr;
+      text-align: left;
+    }
+
+    .forqan-external-modal-title {
+      margin: 0 0 0.45rem;
+      color: #9a7440;
+      font-size: 1rem !important;
+      font-weight: 800;
+      line-height: 1.45;
+    }
+
+    .forqan-external-modal-text {
+      margin: 0;
+      color: #64748b;
+      font-size: 0.94rem !important;
+      line-height: 1.85;
+    }
+
+    .forqan-external-modal-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      margin-top: 1rem;
+    }
+
+    .forqan-external-modal[dir="rtl"] .forqan-external-modal-actions {
+      justify-content: flex-start;
+    }
+
+    .forqan-external-modal-button {
+      min-width: 5.2rem;
+      min-height: 2.25rem;
+      border: 1px solid #d7dde6;
+      border-radius: 999px;
+      background: #ffffff;
+      color: #1e293b;
+      cursor: pointer;
+      font: inherit;
+      font-size: 0.9rem !important;
+      font-weight: 800;
+      line-height: 1;
+      padding: 0.45rem 0.9rem;
+    }
+
+    .forqan-external-modal-button:hover,
+    .forqan-external-modal-button:focus-visible {
+      border-color: #b08d57;
+      color: #6f522d;
+      outline: none;
+    }
+
+    .forqan-external-modal-continue {
+      background: rgba(176, 141, 87, 0.12);
+      border-color: rgba(176, 141, 87, 0.48);
+      color: #6f522d;
+    }
+
+    body.dark-theme .forqan-external-modal {
+      background: #172033;
+      border-color: rgba(214, 178, 109, 0.42);
+      color: #e5e7eb;
+      box-shadow: 0 22px 70px rgba(0, 0, 0, 0.46);
+    }
+
+    body.dark-theme .forqan-external-modal-title {
+      color: #d6b26d;
+    }
+
+    body.dark-theme .forqan-external-modal-text {
+      color: #cbd5e1;
+    }
+
+    body.dark-theme .forqan-external-modal-button {
+      background: #1e293b;
+      border-color: #475569;
+      color: #f8fafc;
+    }
+
+    body.dark-theme .forqan-external-modal-button:hover,
+    body.dark-theme .forqan-external-modal-button:focus-visible {
+      border-color: #d6b26d;
+      color: #f1d59d;
+    }
+
+    body.dark-theme .forqan-external-modal-continue {
+      background: rgba(214, 178, 109, 0.16);
+      border-color: rgba(214, 178, 109, 0.52);
+      color: #f1d59d;
+    }
+
+
     @media print {
       .site-header,
       .site-footer,
@@ -2308,6 +2437,18 @@
     <div class="forqan-return-context" id="forqan-return-context" dir="{{ forqan_path_dir }}" lang="{{ forqan_path_lang }}" hidden></div>
   </div>
 {% endif %}
+
+
+<div class="forqan-external-modal-backdrop" id="forqan-external-modal-backdrop" hidden>
+  <div class="forqan-external-modal" id="forqan-external-modal" role="dialog" aria-modal="true" aria-labelledby="forqan-external-modal-title" aria-describedby="forqan-external-modal-text">
+    <p class="forqan-external-modal-title" id="forqan-external-modal-title"></p>
+    <p class="forqan-external-modal-text" id="forqan-external-modal-text"></p>
+    <div class="forqan-external-modal-actions">
+      <button class="forqan-external-modal-button forqan-external-modal-cancel" id="forqan-external-modal-cancel" type="button"></button>
+      <button class="forqan-external-modal-button forqan-external-modal-continue" id="forqan-external-modal-continue" type="button"></button>
+    </div>
+  </div>
+</div>
 
 <main class="container">
   {{ content }}
@@ -2762,8 +2903,8 @@
 
     link.className = 'quran-gooya-link';
     link.href = 'https://QuranGooya.com/qrn/' + surahNumber + '_' + ayahNumber + '.html';
-    link.target = '_blank';
     link.rel = 'noopener noreferrer';
+    link.dataset.externalGooya = 'true';
     link.textContent = isFarsi ? 'گویا' : 'Gooya';
 
     const title = isFarsi
@@ -2775,6 +2916,113 @@
 
     return link;
   }
+
+
+  function initForqanExternalLinkModal() {
+    const backdrop = document.getElementById('forqan-external-modal-backdrop');
+    const modal = document.getElementById('forqan-external-modal');
+    const title = document.getElementById('forqan-external-modal-title');
+    const text = document.getElementById('forqan-external-modal-text');
+    const cancelButton = document.getElementById('forqan-external-modal-cancel');
+    const continueButton = document.getElementById('forqan-external-modal-continue');
+
+    if (!backdrop || !modal || !title || !text || !cancelButton || !continueButton) return;
+
+    let pendingUrl = '';
+    let lastFocusedElement = null;
+
+    function isMobileViewport() {
+      return window.matchMedia && window.matchMedia('(max-width: 720px)').matches;
+    }
+
+    function closeModal() {
+      pendingUrl = '';
+      backdrop.classList.remove('show');
+      backdrop.hidden = true;
+      document.body.classList.remove('root-popover-open');
+
+      if (lastFocusedElement && typeof lastFocusedElement.focus === 'function') {
+        lastFocusedElement.focus();
+      }
+    }
+
+    function openModal(url, sourceElement) {
+      const isFarsi = document.body.classList.contains('lang-fa');
+
+      pendingUrl = url;
+      lastFocusedElement = sourceElement || document.activeElement;
+
+      modal.setAttribute('dir', isFarsi ? 'rtl' : 'ltr');
+      modal.setAttribute('lang', isFarsi ? 'fa' : 'en');
+
+      title.textContent = isFarsi ? 'پیوند بیرونی' : 'External link';
+      text.textContent = isFarsi
+        ? 'این پیوند شما را از سایت فرقان به قرآن گویا می‌برد. تفسیر و تعبیر این آیه در آنجا از عبدالعلی بازرگان است.'
+        : 'This link takes you outside Forqan to Quran Gooya. The interpretation of this verse there is by Abdolali Bazargan.';
+
+      cancelButton.textContent = isFarsi ? 'لغو' : 'Cancel';
+      continueButton.textContent = isFarsi ? 'ادامه' : 'Continue';
+
+      backdrop.hidden = false;
+      backdrop.classList.add('show');
+      document.body.classList.add('root-popover-open');
+
+      window.setTimeout(function () {
+        continueButton.focus();
+      }, 40);
+    }
+
+    document.addEventListener('click', function (event) {
+      const link = event.target.closest ? event.target.closest('a[data-external-gooya="true"]') : null;
+      if (!link) return;
+
+      if (isMobileViewport()) {
+        event.preventDefault();
+
+        if (typeof saveReadingPosition === 'function') {
+          saveReadingPosition();
+        }
+
+        openModal(link.href, link);
+      } else {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+
+        if (typeof saveReadingPosition === 'function') {
+          saveReadingPosition();
+        }
+      }
+    }, true);
+
+    cancelButton.addEventListener('click', closeModal);
+
+    continueButton.addEventListener('click', function () {
+      if (!pendingUrl) {
+        closeModal();
+        return;
+      }
+
+      const url = pendingUrl;
+      closeModal();
+      window.location.href = url;
+    });
+
+    backdrop.addEventListener('click', function (event) {
+      if (event.target === backdrop) {
+        closeModal();
+      }
+    });
+
+    window.addEventListener('keydown', function (event) {
+      if (!backdrop.classList.contains('show')) return;
+
+      if (event.key === 'Escape') {
+        closeModal();
+      }
+    });
+  }
+
+  initForqanExternalLinkModal();
 
   function initQuranNavigator() {
     const data = window.FORQAN_QURAN_NAV || [];
