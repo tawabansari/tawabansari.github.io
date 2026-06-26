@@ -3465,12 +3465,12 @@
       detailsBlock.setAttribute('data-type', 'cross-reference');
     }
 
-    const copyAllowedSections = [
+    const toolAllowedSections = [
       ...reflectionTitles,
       ...crossReferenceTitles
     ];
 
-    if (!copyAllowedSections.includes(sectionTitle)) return;
+    if (!toolAllowedSections.includes(sectionTitle)) return;
 
     const ayahBlockForSection = detailsBlock.closest('.ayah-block');
     if (ayahBlockForSection && !detailsBlock.id) {
@@ -3481,51 +3481,56 @@
       detailsBlock.id = ayahBlockForSection.id + '-' + sectionKey;
     }
 
-    const sectionMirrorLink = detailsBlock.id ? createMirrorLanguageLink(detailsBlock.id) : null;
+    const shouldShowReflectionTools = reflectionTitles.includes(sectionTitle);
+    const sectionMirrorLink = shouldShowReflectionTools && detailsBlock.id
+      ? createMirrorLanguageLink(detailsBlock.id)
+      : null;
 
-    const sectionCopyButton = document.createElement('button');
-    sectionCopyButton.className = 'copy-section-text';
-    sectionCopyButton.type = 'button';
-    sectionCopyButton.textContent = '⧉';
-    labelButton(sectionCopyButton, document.body.classList.contains('lang-fa') ? 'کپی متن این بخش' : 'Copy section text');
+    if (shouldShowReflectionTools) {
+      const sectionCopyButton = document.createElement('button');
+      sectionCopyButton.className = 'copy-section-text';
+      sectionCopyButton.type = 'button';
+      sectionCopyButton.textContent = '⧉';
+      labelButton(sectionCopyButton, document.body.classList.contains('lang-fa') ? 'کپی متن این بخش' : 'Copy section text');
 
-    sectionCopyButton.addEventListener('click', function (event) {
-      event.preventDefault();
-      event.stopPropagation();
+      sectionCopyButton.addEventListener('click', function (event) {
+        event.preventDefault();
+        event.stopPropagation();
 
-      const ayahBlock = detailsBlock.closest('.ayah-block');
-      if (!ayahBlock) return;
+        const ayahBlock = detailsBlock.closest('.ayah-block');
+        if (!ayahBlock) return;
 
-      const clonedBlock = detailsBlock.cloneNode(true);
-      clonedBlock
-        .querySelectorAll('.copy-section-text')
-        .forEach(function (button) {
-          button.remove();
-        });
+        const clonedBlock = detailsBlock.cloneNode(true);
+        clonedBlock
+          .querySelectorAll('.copy-section-text, .language-mirror-link')
+          .forEach(function (button) {
+            button.remove();
+          });
 
-      const sectionText = cleanText(clonedBlock.textContent);
-      const source =
-        window.location.origin +
-        window.location.pathname +
-        '#' +
-        ayahBlock.id;
+        const sectionText = cleanText(clonedBlock.textContent);
+        const source =
+          window.location.origin +
+          window.location.pathname +
+          '#' +
+          ayahBlock.id;
 
-      const copiedText =
-        sectionTitle +
-        ' — ' +
-        getAyahReference(ayahBlock) +
-        '\n\n' +
-        sectionText +
-        '\n\nSource:\n' +
-        source;
+        const copiedText =
+          sectionTitle +
+          ' — ' +
+          getAyahReference(ayahBlock) +
+          '\n\n' +
+          sectionText +
+          '\n\nSource:\n' +
+          source;
 
-      copyToClipboard(sectionCopyButton, copiedText);
-    });
+        copyToClipboard(sectionCopyButton, copiedText);
+      });
 
-    summary.appendChild(sectionCopyButton);
+      summary.appendChild(sectionCopyButton);
 
-    if (sectionMirrorLink) {
-      summary.appendChild(sectionMirrorLink);
+      if (sectionMirrorLink) {
+        summary.appendChild(sectionMirrorLink);
+      }
     }
 
     const sectionToggleButton = document.createElement('button');
