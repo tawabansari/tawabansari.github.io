@@ -5,54 +5,172 @@ permalink: /en/introduction/
 ---
 
 <style>
-  .intro-page {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .intro-single-page,
+  .intro-single-page *,
+  .intro-single-page *::before,
+  .intro-single-page *::after {
+    box-sizing: border-box;
+  }
+
+  .intro-single-page {
     --intro-text: #1e293b;
     --intro-muted: #64748b;
     --intro-accent: #b08d57;
+    --intro-accent-soft: rgba(176, 141, 87, 0.12);
     --intro-border: rgba(176, 141, 87, 0.32);
-    --intro-soft: rgba(176, 141, 87, 0.1);
+    --intro-link-bg: linear-gradient(90deg, rgba(176, 141, 87, 0.16), rgba(255, 255, 255, 0.88) 42%, rgba(176, 141, 87, 0.08));
+    --intro-card-bg: linear-gradient(90deg, rgba(176, 141, 87, 0.12), rgba(255, 255, 255, 0.9) 44%, rgba(176, 141, 87, 0.05));
 
-    max-width: 820px;
+    width: 100%;
+    max-width: 880px;
     margin: 0 auto;
-    padding: 3rem 1.25rem 4rem;
+    padding: 2.6rem 1.25rem 4rem;
     color: var(--intro-text);
-    line-height: 1.85;
+    line-height: 1.9;
   }
 
-  .intro-page a {
+  .intro-single-page a {
     color: inherit;
     text-decoration: none;
   }
 
-  .intro-kicker {
-    margin: 0 0 1.4rem;
+  .intro-single-page.rtl {
+    direction: rtl;
+    text-align: right;
+    line-height: 2;
+  }
+
+  .intro-top {
+    display: grid;
+    gap: 0.7rem;
+    margin: 0 auto 1.8rem;
+    text-align: center;
+  }
+
+  .intro-invocation {
+    display: grid;
+    gap: 0.35rem;
+    margin: 0;
     color: var(--intro-accent);
     font-weight: 800;
-    text-align: center;
+    line-height: 1.7;
   }
 
-  .intro-page h1 {
-    margin: 0 0 1.5rem;
-    text-align: center;
-    font-size: clamp(2rem, 5vw, 3.2rem);
-    line-height: 1.2;
+  .intro-invocation p {
+    margin: 0;
   }
 
-  .intro-lead {
-    margin: 0 auto 1.8rem;
-    max-width: 720px;
-    color: var(--intro-muted);
+  .intro-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    width: min(100%, 24rem);
+    margin: 0.3rem auto 0;
+    color: var(--intro-accent);
+  }
+
+  .intro-mark::before,
+  .intro-mark::after {
+    content: "";
+    flex: 1 1 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--intro-border), transparent);
+  }
+
+  .intro-mark-symbol {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.55rem;
+    height: 2.55rem;
+    border: 1px solid var(--intro-border);
+    border-radius: 999px;
+    background:
+      radial-gradient(circle at center, rgba(176, 141, 87, 0.18), transparent 58%),
+      rgba(255, 255, 255, 0.74);
+    box-shadow:
+      0 0 0 0.38rem rgba(176, 141, 87, 0.06),
+      inset 0 1px 0 rgba(255, 255, 255, 0.62);
+  }
+
+  .intro-mark-symbol::before {
+    content: "✧";
+    font-size: 1.05rem;
+    line-height: 1;
+  }
+
+  .intro-language-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+    width: min(100%, 42rem);
+    margin: 0 auto 2rem;
+  }
+
+  .intro-language-cards a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.25rem;
+    padding: 0.72rem 1rem;
+    border: 1px solid var(--intro-border);
+    border-radius: 999px;
+    background: var(--intro-link-bg);
+    color: var(--intro-text);
+    font-weight: 800;
+    line-height: 1.35;
     text-align: center;
-    font-size: 1.08rem;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
+    transition:
+      border-color 0.18s ease,
+      background-color 0.18s ease,
+      box-shadow 0.18s ease,
+      transform 0.18s ease,
+      color 0.18s ease;
+  }
+
+  .intro-language-cards a:hover,
+  .intro-language-cards a:focus-visible {
+    border-color: var(--intro-accent);
+    color: #0f172a;
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow:
+      0 8px 22px rgba(15, 23, 42, 0.08),
+      inset 0 1px 0 rgba(255, 255, 255, 0.5);
   }
 
   .intro-section {
     display: grid;
     gap: 1rem;
+    margin: 0 auto;
+    padding: 1.6rem;
+    border: 1px solid rgba(176, 141, 87, 0.18);
+    border-radius: 1.5rem;
+    background: var(--intro-card-bg);
+    box-shadow:
+      0 12px 34px rgba(15, 23, 42, 0.04),
+      inset 0 1px 0 rgba(255, 255, 255, 0.55);
+  }
+
+  .intro-section h1 {
+    margin: 0 0 0.4rem;
+    color: var(--intro-accent);
+    text-align: center;
+    font-size: clamp(1.75rem, 4.4vw, 2.8rem);
+    line-height: 1.25;
   }
 
   .intro-section p {
     margin: 0;
+    color: var(--intro-text);
   }
 
   .intro-ref {
@@ -63,10 +181,10 @@ permalink: /en/introduction/
     border: 1px solid var(--intro-border);
     border-radius: 999px;
     color: #7a5729 !important;
-    background: var(--intro-soft);
+    background: var(--intro-accent-soft);
     font-size: 0.78rem;
     font-weight: 800;
-    line-height: 1.35;
+    line-height: 1.45;
     white-space: nowrap;
   }
 
@@ -77,24 +195,9 @@ permalink: /en/introduction/
   }
 
   .intro-praise {
-    margin-top: 1.4rem;
-    padding-top: 1.3rem;
-    border-top: 1px solid var(--intro-border);
-    color: var(--intro-accent);
-    font-weight: 750;
+    color: var(--intro-accent) !important;
+    font-weight: 780;
     text-align: center;
-  }
-
-  body.dark-theme .intro-page {
-    --intro-text: #e5e7eb;
-    --intro-muted: #cbd5e1;
-    --intro-accent: #d6b26d;
-    --intro-border: rgba(214, 178, 109, 0.36);
-    --intro-soft: rgba(214, 178, 109, 0.12);
-  }
-
-  body.dark-theme .intro-ref {
-    color: #f1d79a !important;
   }
 
   .intro-next {
@@ -122,7 +225,7 @@ permalink: /en/introduction/
     padding: 1.05rem 1.15rem;
     border: 1px solid var(--intro-border);
     border-radius: 1rem;
-    background: var(--intro-soft);
+    background: var(--intro-accent-soft);
     color: var(--intro-text) !important;
     text-decoration: none !important;
     transition:
@@ -153,18 +256,102 @@ permalink: /en/introduction/
     line-height: 1.7;
   }
 
+  body.dark-theme .intro-single-page {
+    --intro-text: #e5e7eb;
+    --intro-muted: #cbd5e1;
+    --intro-accent: #d6b26d;
+    --intro-accent-soft: rgba(214, 178, 109, 0.14);
+    --intro-border: rgba(214, 178, 109, 0.36);
+    --intro-link-bg: linear-gradient(90deg, rgba(214, 178, 109, 0.13), rgba(23, 32, 51, 0.92) 44%, rgba(214, 178, 109, 0.06));
+    --intro-card-bg: linear-gradient(90deg, rgba(214, 178, 109, 0.13), rgba(23, 32, 51, 0.92) 44%, rgba(214, 178, 109, 0.06));
+  }
+
+  body.dark-theme .intro-language-cards a {
+    color: #e5e7eb;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  }
+
+  body.dark-theme .intro-language-cards a:hover,
+  body.dark-theme .intro-language-cards a:focus-visible {
+    color: #f8fafc;
+    box-shadow:
+      0 8px 22px rgba(0, 0, 0, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+
+  body.dark-theme .intro-section {
+    border-color: rgba(214, 178, 109, 0.22);
+    box-shadow:
+      0 12px 34px rgba(0, 0, 0, 0.18),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  body.dark-theme .intro-mark-symbol {
+    background:
+      radial-gradient(circle at center, rgba(214, 178, 109, 0.22), transparent 58%),
+      rgba(23, 32, 51, 0.92);
+  }
+
+  body.dark-theme .intro-ref {
+    color: #f1d79a !important;
+  }
+
   @media (max-width: 720px) {
+    .intro-single-page {
+      padding: 2rem 1rem 3.2rem;
+      line-height: 1.85;
+    }
+
+    .intro-top {
+      margin-bottom: 1.35rem;
+    }
+
+    .intro-language-cards,
     .intro-next-grid {
       grid-template-columns: 1fr;
     }
-  }
 
+    .intro-language-cards {
+      width: 100%;
+      margin-bottom: 1.65rem;
+    }
+
+    .intro-language-cards a {
+      width: 100%;
+      min-height: 3.2rem;
+    }
+
+    .intro-section {
+      padding: 1.25rem 1rem;
+      border-radius: 1.25rem;
+    }
+
+    .intro-section h1 {
+      font-size: clamp(1.6rem, 8vw, 2.25rem);
+    }
+  }
 </style>
 
-<article class="intro-page">
-  <p class="intro-kicker">In the name of The-God The-Merciful The-Compassionate</p>
+<section class="intro-single-page" lang="en">
 
-  <section class="intro-section">
+  <div class="intro-top">
+    <div class="intro-invocation">
+      <p>In the name of The-God, The-Merciful, The-Compassionate</p>
+    </div>
+
+    <div class="intro-mark" aria-hidden="true">
+      <span class="intro-mark-symbol"></span>
+    </div>
+  </div>
+
+  <nav class="intro-language-cards" aria-label="Introduction pages">
+    <a href="/en/introduction/">Introduction to Qur’an</a>
+    <a href="/fa/introduction/" dir="rtl" lang="fa">آشنایی با قرآن</a>
+  </nav>
+
+  <article class="intro-section">
+    <h1>Introduction to Qur’an</h1>
+
     <p>
       This website seeks to approach the Qur’an free from the authority of secondary, sectarian, inherited, or political religious systems.
     </p>
@@ -224,5 +411,6 @@ permalink: /en/introduction/
         </a>
       </div>
     </section>
-  </section>
-</article>
+  </article>
+
+</section>
