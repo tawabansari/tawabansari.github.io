@@ -418,17 +418,18 @@ permalink: /
 
     .home-section-links {
       grid-template-columns: 1fr;
-      width: min(calc(100vw - 4.6rem), 25rem);
-      max-width: none;
-      margin-left: 0;
-      margin-right: 0;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
+      width: min(calc(100% - 1.2rem), 25rem);
+      max-width: 25rem;
+      margin-left: auto;
+      margin-right: auto;
+      transform: none;
+      position: static;
+      left: auto;
     }
 
     .home-section-links a {
       width: 100%;
+      max-width: 100%;
     }
   }
 </style>
