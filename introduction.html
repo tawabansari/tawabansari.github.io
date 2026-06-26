@@ -4,14 +4,373 @@ title: Introduction to Qur’an
 permalink: /introduction/
 ---
 
-<section class="intro-page">
+<style>
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
-  <div class="intro-invocation">
-    <p>In the name of The-God, The-Merciful, The-Compassionate</p>
-    <p dir="rtl">به نام آن معبود یگانه، فرا رحمان، و فرا رحیم</p>
+  .intro-bilingual-page,
+  .intro-bilingual-page *,
+  .intro-bilingual-page *::before,
+  .intro-bilingual-page *::after {
+    box-sizing: border-box;
+  }
+
+  .intro-bilingual-page {
+    --intro-text: #1e293b;
+    --intro-muted: #64748b;
+    --intro-accent: #b08d57;
+    --intro-accent-soft: rgba(176, 141, 87, 0.12);
+    --intro-border: rgba(176, 141, 87, 0.32);
+    --intro-link-bg: linear-gradient(90deg, rgba(176, 141, 87, 0.16), rgba(255, 255, 255, 0.88) 42%, rgba(176, 141, 87, 0.08));
+    --intro-card-bg: linear-gradient(90deg, rgba(176, 141, 87, 0.12), rgba(255, 255, 255, 0.9) 44%, rgba(176, 141, 87, 0.05));
+
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 2.6rem 1.25rem 4rem;
+    color: var(--intro-text);
+    line-height: 1.9;
+  }
+
+  .intro-bilingual-page a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .intro-top {
+    display: grid;
+    gap: 0.7rem;
+    margin: 0 auto 1.8rem;
+    text-align: center;
+  }
+
+  .intro-invocation {
+    display: grid;
+    gap: 0.35rem;
+    margin: 0;
+    color: var(--intro-accent);
+    font-weight: 800;
+    line-height: 1.7;
+  }
+
+  .intro-invocation p {
+    margin: 0;
+  }
+
+  .intro-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    width: min(100%, 24rem);
+    margin: 0.3rem auto 0;
+    color: var(--intro-accent);
+  }
+
+  .intro-mark::before,
+  .intro-mark::after {
+    content: "";
+    flex: 1 1 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--intro-border), transparent);
+  }
+
+  .intro-mark-symbol {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.55rem;
+    height: 2.55rem;
+    border: 1px solid var(--intro-border);
+    border-radius: 999px;
+    background:
+      radial-gradient(circle at center, rgba(176, 141, 87, 0.18), transparent 58%),
+      rgba(255, 255, 255, 0.74);
+    box-shadow:
+      0 0 0 0.38rem rgba(176, 141, 87, 0.06),
+      inset 0 1px 0 rgba(255, 255, 255, 0.62);
+  }
+
+  .intro-mark-symbol::before {
+    content: "✧";
+    font-size: 1.05rem;
+    line-height: 1;
+  }
+
+  .intro-language-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+    width: min(100%, 42rem);
+    margin: 0 auto 2rem;
+  }
+
+  .intro-language-cards a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.25rem;
+    padding: 0.72rem 1rem;
+    border: 1px solid var(--intro-border);
+    border-radius: 999px;
+    background: var(--intro-link-bg);
+    color: var(--intro-text);
+    font-weight: 800;
+    line-height: 1.35;
+    text-align: center;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
+    transition:
+      border-color 0.18s ease,
+      background-color 0.18s ease,
+      box-shadow 0.18s ease,
+      transform 0.18s ease,
+      color 0.18s ease;
+  }
+
+  .intro-language-cards a:hover,
+  .intro-language-cards a:focus-visible {
+    border-color: var(--intro-accent);
+    color: #0f172a;
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow:
+      0 8px 22px rgba(15, 23, 42, 0.08),
+      inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  }
+
+  .intro-section {
+    display: grid;
+    gap: 1rem;
+    margin: 0 auto;
+    padding: 1.6rem;
+    border: 1px solid rgba(176, 141, 87, 0.18);
+    border-radius: 1.5rem;
+    background: var(--intro-card-bg);
+    box-shadow:
+      0 12px 34px rgba(15, 23, 42, 0.04),
+      inset 0 1px 0 rgba(255, 255, 255, 0.55);
+  }
+
+  .intro-section + .intro-section {
+    margin-top: 1.4rem;
+  }
+
+  .intro-section h1 {
+    margin: 0 0 0.4rem;
+    color: var(--intro-accent);
+    text-align: center;
+    font-size: clamp(1.75rem, 4.4vw, 2.8rem);
+    line-height: 1.25;
+  }
+
+  .intro-section p {
+    margin: 0;
+    color: var(--intro-text);
+  }
+
+  .intro-section.rtl {
+    direction: rtl;
+    text-align: right;
+    line-height: 2;
+  }
+
+  .intro-praise {
+    color: var(--intro-accent) !important;
+    font-weight: 780;
+    text-align: center;
+  }
+
+  .intro-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+    width: min(100%, 32rem);
+    margin: 2rem auto;
+    color: var(--intro-accent);
+  }
+
+  .intro-divider::before,
+  .intro-divider::after {
+    content: "";
+    flex: 1 1 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--intro-border), transparent);
+  }
+
+  .intro-divider span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.35rem;
+    height: 1.35rem;
+    border: 1px solid var(--intro-border);
+    border-radius: 999px;
+    background: var(--intro-accent-soft);
+    font-size: 0.8rem;
+  }
+
+  body.dark-theme .intro-bilingual-page {
+    --intro-text: #e5e7eb;
+    --intro-muted: #cbd5e1;
+    --intro-accent: #d6b26d;
+    --intro-accent-soft: rgba(214, 178, 109, 0.14);
+    --intro-border: rgba(214, 178, 109, 0.36);
+    --intro-link-bg: linear-gradient(90deg, rgba(214, 178, 109, 0.13), rgba(23, 32, 51, 0.92) 44%, rgba(214, 178, 109, 0.06));
+    --intro-card-bg: linear-gradient(90deg, rgba(214, 178, 109, 0.13), rgba(23, 32, 51, 0.92) 44%, rgba(214, 178, 109, 0.06));
+  }
+
+  body.dark-theme .intro-language-cards a {
+    color: #e5e7eb;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  }
+
+  body.dark-theme .intro-language-cards a:hover,
+  body.dark-theme .intro-language-cards a:focus-visible {
+    color: #f8fafc;
+    box-shadow:
+      0 8px 22px rgba(0, 0, 0, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+
+  body.dark-theme .intro-section {
+    border-color: rgba(214, 178, 109, 0.22);
+    box-shadow:
+      0 12px 34px rgba(0, 0, 0, 0.18),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  body.dark-theme .intro-mark-symbol {
+    background:
+      radial-gradient(circle at center, rgba(214, 178, 109, 0.22), transparent 58%),
+      rgba(23, 32, 51, 0.92);
+  }
+
+  @media (max-width: 720px) {
+    .intro-bilingual-page {
+      padding: 2rem 1rem 3.2rem;
+      line-height: 1.85;
+    }
+
+    .intro-top {
+      margin-bottom: 1.35rem;
+    }
+
+    .intro-language-cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: none;
+      margin-bottom: 1.65rem;
+    }
+
+    .intro-language-cards a {
+      width: min(100%, 25rem);
+      max-width: 25rem;
+      min-height: 3.2rem;
+    }
+
+    .intro-section {
+      padding: 1.25rem 1rem;
+      border-radius: 1.25rem;
+    }
+
+    .intro-section h1 {
+      font-size: clamp(1.6rem, 8vw, 2.25rem);
+    }
+
+    .intro-divider {
+      margin: 1.6rem auto;
+    }
+  }
+
+  .intro-next {
+    margin: 2rem auto 0;
+    padding-top: 1.6rem;
+    border-top: 1px solid var(--intro-border);
+  }
+
+  .intro-next h2 {
+    margin: 0 0 1.15rem;
+    color: var(--intro-accent);
+    text-align: center;
+    font-size: 1.35rem;
+    line-height: 1.45;
+  }
+
+  .intro-next-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+
+  .intro-next-card {
+    display: block;
+    padding: 1.05rem 1.15rem;
+    border: 1px solid var(--intro-border);
+    border-radius: 1rem;
+    background: var(--intro-accent-soft);
+    color: var(--intro-text) !important;
+    text-decoration: none !important;
+    transition:
+      border-color 0.18s ease,
+      transform 0.18s ease,
+      box-shadow 0.18s ease;
+  }
+
+  .intro-next-card:hover,
+  .intro-next-card:focus-visible {
+    border-color: var(--intro-accent);
+    transform: translateY(-1px);
+    outline: none;
+  }
+
+  .intro-next-card strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: var(--intro-accent);
+    font-weight: 800;
+    line-height: 1.45;
+  }
+
+  .intro-next-card span {
+    display: block;
+    color: var(--intro-muted);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 720px) {
+    .intro-next-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+</style>
+
+<section class="intro-bilingual-page">
+
+  <div class="intro-top">
+    <div class="intro-invocation">
+      <p>In the name of The-God, The-Merciful, The-Compassionate</p>
+      <p dir="rtl" lang="fa">به نام آن معبود یگانه، فرا رحمان، و فرا رحیم</p>
+    </div>
+
+    <div class="intro-mark" aria-hidden="true">
+      <span class="intro-mark-symbol"></span>
+    </div>
   </div>
 
-  <div class="intro-section">
+  <nav class="intro-language-cards" aria-label="Introduction pages">
+    <a href="/en/introduction/">Introduction to Qur’an</a>
+    <a href="/fa/introduction/" dir="rtl" lang="fa">آشنایی با قرآن</a>
+  </nav>
+
+  <article class="intro-section" lang="en">
     <h1>Introduction to Qur’an</h1>
 
     <p>
@@ -35,7 +394,7 @@ permalink: /introduction/
     </p>
 
     <p>
-      We are believers, and anyone who believes in The God, the Day of Judgment and does righteous deeds - whether Jewish, Christian, Sabiʾin, or any other Hanif (Non-Affiliated and Independent Seeker) - is our brother or sister in faith.
+      We are believers, and anyone who believes in The God, the Day of Judgment and does righteous deeds — whether Jewish, Christian, Sabiʾin, or any other Hanif (Non-Affiliated and Independent Seeker) — is our brother or sister in faith.
     </p>
 
     <p>
@@ -57,11 +416,13 @@ permalink: /introduction/
     <p class="intro-praise">
       Pure and exalted is The God above what they ascribe to Him.
     </p>
+  </article>
+
+  <div class="intro-divider" aria-hidden="true">
+    <span>✧</span>
   </div>
 
-  <hr class="intro-divider">
-
-  <div class="intro-section rtl" dir="rtl">
+  <article class="intro-section rtl" dir="rtl" lang="fa">
     <h1>آشنایی با قرآن</h1>
 
     <p>
@@ -107,6 +468,39 @@ permalink: /introduction/
     <p class="intro-praise">
       پاکیزه و متعالی است خداوند از آنچه او را بدان وصف می‌کنند.
     </p>
-  </div>
+  </article>
+
+
+  <section class="intro-next" aria-label="Next pages">
+    <h2>Continue Reading</h2>
+
+    <div class="intro-next-grid">
+      <a class="intro-next-card" href="/quran-reflection/en/methodology/">
+        <strong>Translation and Reflection Method</strong>
+        <span>How this archive approaches Qur’anic language, translation, cross-references, and reflection.</span>
+      </a>
+
+      <a class="intro-next-card" href="/quran-reflection/en/">
+        <strong>Surah Index</strong>
+        <span>Browse the Qur’an by surah and begin reading verse-by-verse reflections.</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="intro-next rtl" dir="rtl" lang="fa" aria-label="صفحات بعدی">
+    <h2>ادامه مطالعه</h2>
+
+    <div class="intro-next-grid">
+      <a class="intro-next-card" href="/quran-reflection/fa/methodology/">
+        <strong>روش ترجمه و تأمل</strong>
+        <span>چگونه در این دریچه با زبان قرآن، ترجمه، ارجاعات، و تأمل برخورد می‌کنیم.</span>
+      </a>
+
+      <a class="intro-next-card" href="/quran-reflection/fa/">
+        <strong>فهرست سوره‌ها</strong>
+        <span>قرآن را بر اساس سوره‌ها مرور کنید و به تأملات آیه‌به‌آیه دسترسی داشته باشید.</span>
+      </a>
+    </div>
+  </section>
 
 </section>
