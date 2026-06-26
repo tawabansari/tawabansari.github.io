@@ -133,6 +133,60 @@ permalink: /quran-reflection/fa/methodology/
       word-spacing: 0.08em;
     }
   }
+  .methodology-next {
+    margin: 3rem 0 0;
+    padding-top: 1.75rem;
+    border-top: 1px solid var(--method-border);
+  }
+
+  .methodology-next h2 {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .methodology-next-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1.4rem;
+  }
+
+  .methodology-next-card {
+    display: block;
+    padding: 1.25rem 1.35rem;
+    border: 1px solid var(--method-border);
+    border-radius: 16px;
+    background: var(--method-soft);
+    color: var(--method-text) !important;
+    text-decoration: none !important;
+  }
+
+  .methodology-next-card:hover,
+  .methodology-next-card:focus-visible {
+    border-color: var(--method-accent);
+    transform: translateY(-1px);
+  }
+
+  .methodology-next-card strong {
+    display: block;
+    margin-bottom: 0.45rem;
+    color: var(--method-accent);
+    font-size: 1.05rem;
+  }
+
+  .methodology-next-card span {
+    display: block;
+    color: var(--method-muted);
+    font-size: 0.95rem;
+    line-height: 1.75;
+  }
+
+  @media (max-width: 720px) {
+    .methodology-next-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
 </style>
 
 <article class="methodology-page" dir="rtl" lang="fa">
