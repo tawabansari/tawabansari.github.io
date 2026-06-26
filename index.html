@@ -221,8 +221,7 @@ permalink: /
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.7rem;
-    width: min(100%, 760px);
-    max-width: 760px;
+    width: 100%;
     margin: 2.2rem auto 0;
   }
 
@@ -249,9 +248,12 @@ permalink: /
       color 0.18s ease;
   }
 
-  .home-section-links[dir="rtl"] {
-    margin-top: 0.85rem;
-  }
+  .home-link-en-reflection { order: 1; }
+  .home-link-en-roots { order: 2; }
+  .home-link-en-articles { order: 3; }
+  .home-link-fa-articles { order: 4; }
+  .home-link-fa-roots { order: 5; }
+  .home-link-fa-reflection { order: 6; }
 
   body.dark-theme .forqan-home-minimal {
     --home-text: #e5e7eb;
@@ -437,6 +439,13 @@ permalink: /
       margin-left: auto;
       margin-right: auto;
     }
+
+    .home-link-en-reflection { order: 1; }
+    .home-link-en-roots { order: 2; }
+    .home-link-en-articles { order: 3; }
+    .home-link-fa-reflection { order: 4; }
+    .home-link-fa-roots { order: 5; }
+    .home-link-fa-articles { order: 6; }
   }
 </style>
 
@@ -466,15 +475,12 @@ permalink: /
     </p>
   </div>
 
-  <nav class="home-section-links" aria-label="English archive sections">
-    <a href="/quran-reflection/en/surahs/">Qur’an by the Qur’an</a>
-    <a href="/quran-terminology/en/roots/">Qur’anic Roots</a>
-    <a href="/en/articles/">Articles and Notes</a>
-  </nav>
-
-  <nav class="home-section-links" aria-label="Farsi archive sections" dir="rtl" lang="fa">
-    <a href="/quran-reflection/fa/surahs/">تأمل قرآن با خود قرآن</a>
-    <a href="/quran-terminology/fa/roots/">ریشه‌های قرآنی</a>
-    <a href="/fa/articles/">مقاله‌ها و تبصره‌ها</a>
+  <nav class="home-section-links" aria-label="Archive sections">
+    <a class="home-link-en-reflection" href="/quran-reflection/en/surahs/">Qur’an by the Qur’an</a>
+    <a class="home-link-en-roots" href="/quran-terminology/en/roots/">Qur’anic Roots</a>
+    <a class="home-link-en-articles" href="/en/articles/">Articles and Notes</a>
+    <a class="home-link-fa-articles" href="/fa/articles/" lang="fa" dir="rtl">مقاله‌ها و تبصره‌ها</a>
+    <a class="home-link-fa-roots" href="/quran-terminology/fa/roots/" lang="fa" dir="rtl">ریشه‌های قرآنی</a>
+    <a class="home-link-fa-reflection" href="/quran-reflection/fa/surahs/" lang="fa" dir="rtl">تأمل قرآن با خود قرآن</a>
   </nav>
 </main>
