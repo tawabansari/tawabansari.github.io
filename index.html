@@ -5,6 +5,19 @@ permalink: /
 ---
 
 <style>
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .forqan-home-minimal,
+  .forqan-home-minimal *,
+  .forqan-home-minimal *::before,
+  .forqan-home-minimal *::after {
+    box-sizing: border-box;
+  }
+
   .forqan-home-minimal {
     --home-text: #1e293b;
     --home-muted: #64748b;
@@ -13,10 +26,12 @@ permalink: /
     --home-border: rgba(176, 141, 87, 0.32);
     --home-link-bg: linear-gradient(90deg, rgba(176, 141, 87, 0.16), rgba(255, 255, 255, 0.88) 42%, rgba(176, 141, 87, 0.08));
 
+    width: 100%;
     max-width: 820px;
     min-height: 62vh;
     margin: 0 auto;
     padding: 2.15rem 1.25rem 4rem;
+    overflow-x: hidden;
     color: var(--home-text);
     text-align: center;
   }
@@ -206,6 +221,7 @@ permalink: /
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.7rem;
+    width: 100%;
     margin: 2.2rem auto 0;
   }
 
@@ -213,6 +229,8 @@ permalink: /
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    min-width: 0;
     min-height: 3.2rem;
     padding: 0.7rem 0.9rem;
     border: 1px solid var(--home-border);
@@ -400,7 +418,17 @@ permalink: /
 
     .home-section-links {
       grid-template-columns: 1fr;
-      max-width: 25rem;
+      width: min(calc(100vw - 4.6rem), 25rem);
+      max-width: none;
+      margin-left: 0;
+      margin-right: 0;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .home-section-links a {
+      width: 100%;
     }
   }
 </style>
