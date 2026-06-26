@@ -10,6 +10,7 @@ timezone: America/New_York
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 collections:
   posts:
