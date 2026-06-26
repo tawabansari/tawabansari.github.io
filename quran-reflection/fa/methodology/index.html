@@ -4,26 +4,40 @@ title: روش ترجمه و تأمل
 permalink: /quran-reflection/fa/methodology/
 ---
 
+
 <style>
-  .methodology-page {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .methodology-single-page,
+  .methodology-single-page *,
+  .methodology-single-page *::before,
+  .methodology-single-page *::after {
+    box-sizing: border-box;
+  }
+
+  .methodology-single-page {
     --method-text: #1e293b;
     --method-muted: #64748b;
     --method-accent: #b08d57;
-    --method-border: rgba(176, 141, 87, 0.34);
-    --method-soft: rgba(176, 141, 87, 0.1);
-    --method-quote-bg: linear-gradient(90deg, rgba(176, 141, 87, 0.14), rgba(255, 255, 255, 0.92) 44%, rgba(176, 141, 87, 0.05));
+    --method-accent-soft: rgba(176, 141, 87, 0.12);
+    --method-border: rgba(176, 141, 87, 0.32);
+    --method-link-bg: linear-gradient(90deg, rgba(176, 141, 87, 0.16), rgba(255, 255, 255, 0.88) 42%, rgba(176, 141, 87, 0.08));
+    --method-card-bg: linear-gradient(90deg, rgba(176, 141, 87, 0.12), rgba(255, 255, 255, 0.9) 44%, rgba(176, 141, 87, 0.05));
 
+    width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    padding: 3rem 1.5rem 4rem;
-    direction: rtl;
-    text-align: right;
-    line-height: 2.05;
-    font-size: 1.08rem;
+    padding: 2.6rem 1.25rem 4rem;
     color: var(--method-text);
+    line-height: 1.9;
+    font-size: 1.08rem;
   }
 
-  .methodology-page a {
+  .methodology-single-page a {
     color: var(--method-accent);
     font-weight: 750;
     text-decoration: underline;
@@ -31,55 +45,173 @@ permalink: /quran-reflection/fa/methodology/
     text-underline-offset: 5px;
   }
 
-  .methodology-page a:hover,
-  .methodology-page a:focus-visible {
+  .methodology-single-page a:hover,
+  .methodology-single-page a:focus-visible {
     color: inherit;
     outline: none;
   }
 
+  .methodology-single-page.rtl {
+    direction: rtl;
+    text-align: right;
+    line-height: 2.05;
+  }
+
+  .methodology-top {
+    display: grid;
+    gap: 0.7rem;
+    margin: 0 auto 1.8rem;
+    text-align: center;
+  }
+
   .methodology-kicker {
-    margin: 0 0 1rem;
+    display: grid;
+    gap: 0.35rem;
+    margin: 0;
     color: var(--method-accent);
     font-weight: 800;
+    line-height: 1.7;
     text-align: center;
   }
 
-  .methodology-page h1 {
-    margin: 0 0 1.8rem;
-    text-align: center;
-    font-size: clamp(2rem, 5vw, 3rem);
-    line-height: 1.45;
+  .methodology-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    width: min(100%, 24rem);
+    margin: 0.3rem auto 0;
+    color: var(--method-accent);
   }
 
-  .methodology-page h2 {
-    margin: 3rem 0 1.2rem;
+  .methodology-mark::before,
+  .methodology-mark::after {
+    content: "";
+    flex: 1 1 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--method-border), transparent);
+  }
+
+  .methodology-mark-symbol {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.55rem;
+    height: 2.55rem;
+    border: 1px solid var(--method-border);
+    border-radius: 999px;
+    background:
+      radial-gradient(circle at center, rgba(176, 141, 87, 0.18), transparent 58%),
+      rgba(255, 255, 255, 0.74);
+    box-shadow:
+      0 0 0 0.38rem rgba(176, 141, 87, 0.06),
+      inset 0 1px 0 rgba(255, 255, 255, 0.62);
+  }
+
+  .methodology-mark-symbol::before {
+    content: "✧";
+    font-size: 1.05rem;
+    line-height: 1;
+  }
+
+  .methodology-language-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+    width: min(100%, 42rem);
+    margin: 0 auto 2rem;
+  }
+
+  .methodology-language-cards a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.25rem;
+    padding: 0.72rem 1rem;
+    border: 1px solid var(--method-border);
+    border-radius: 999px;
+    background: var(--method-link-bg);
+    color: var(--method-text) !important;
+    font-weight: 800;
+    line-height: 1.35;
+    text-align: center;
+    text-decoration: none !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
+    transition:
+      border-color 0.18s ease,
+      box-shadow 0.18s ease,
+      transform 0.18s ease,
+      color 0.18s ease;
+  }
+
+  .methodology-language-cards a:hover,
+  .methodology-language-cards a:focus-visible {
+    border-color: var(--method-accent);
+    color: #0f172a !important;
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow:
+      0 8px 22px rgba(15, 23, 42, 0.08),
+      inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  }
+
+  .methodology-card {
+    display: grid;
+    gap: 1rem;
+    margin: 0 auto;
+    padding: 1.6rem;
+    border: 1px solid rgba(176, 141, 87, 0.18);
+    border-radius: 1.5rem;
+    background: var(--method-card-bg);
+    box-shadow:
+      0 12px 34px rgba(15, 23, 42, 0.04),
+      inset 0 1px 0 rgba(255, 255, 255, 0.55);
+  }
+
+  .methodology-card h1 {
+    margin: 0 0 0.4rem;
+    color: var(--method-accent);
+    text-align: center;
+    font-size: clamp(1.75rem, 4.4vw, 2.8rem);
+    line-height: 1.25;
+  }
+
+  .methodology-card h2 {
+    margin: 2.4rem 0 0.6rem;
     color: var(--method-accent);
     font-size: 1.5rem;
-    line-height: 1.6;
+    line-height: 1.5;
   }
 
-  .methodology-page p {
-    margin: 0 0 1.25rem;
+  .methodology-card p {
+    margin: 0;
+    color: var(--method-text);
   }
 
-  .methodology-page ol {
-    margin: 1rem 0 0;
+  .methodology-card ol {
+    margin: 0.5rem 0 0;
+  }
+
+  .methodology-card li {
+    margin-bottom: 1.05rem;
+  }
+
+  .methodology-card strong {
+    color: var(--method-accent);
+  }
+
+  .methodology-single-page.rtl .methodology-card ol {
     padding-right: 1.45rem;
   }
 
-  .methodology-page li {
-    margin-bottom: 1.05rem;
-    padding-right: 0.25rem;
-  }
-
-  .methodology-page strong {
-    color: var(--method-accent);
+  .methodology-single-page:not(.rtl) .methodology-card ol {
+    padding-left: 1.45rem;
   }
 
   .arabic-verse {
     direction: rtl;
     unicode-bidi: isolate;
-    margin: 1.8rem auto;
+    margin: 1.8rem auto !important;
     max-width: 760px;
     color: var(--method-text);
     font-family: "Amiri Quran Colored", "Amiri Quran", Amiri, "Scheherazade New", serif;
@@ -92,38 +224,150 @@ permalink: /quran-reflection/fa/methodology/
     word-break: normal;
   }
 
-  body:not(.dark-theme) .methodology-page .arabic-verse {
+  body:not(.dark-theme) .methodology-single-page .arabic-verse {
     color: #1e293b !important;
     -webkit-text-fill-color: #1e293b;
   }
 
-  body.dark-theme .methodology-page .arabic-verse {
+  body.dark-theme .methodology-single-page .arabic-verse {
     color: #f8fafc !important;
     -webkit-text-fill-color: #f8fafc;
   }
 
   .methodology-closing {
-    margin: 3rem auto 0 !important;
+    margin: 2.2rem auto 0 !important;
     padding-top: 1.35rem;
     border-top: 1px solid var(--method-border);
-    color: var(--method-accent);
+    color: var(--method-accent) !important;
     font-weight: 800;
     text-align: center;
   }
 
-  body.dark-theme .methodology-page {
+  .methodology-next {
+    margin: 2rem auto 0;
+    padding-top: 1.6rem;
+    border-top: 1px solid var(--method-border);
+  }
+
+  .methodology-next h2 {
+    margin: 0 0 1.15rem;
+    color: var(--method-accent);
+    text-align: center;
+    font-size: 1.35rem;
+    line-height: 1.45;
+  }
+
+  .methodology-next-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+
+  .methodology-next-card {
+    display: block;
+    padding: 1.05rem 1.15rem;
+    border: 1px solid var(--method-border);
+    border-radius: 1rem;
+    background: var(--method-accent-soft);
+    color: var(--method-text) !important;
+    text-decoration: none !important;
+    transition:
+      border-color 0.18s ease,
+      transform 0.18s ease,
+      box-shadow 0.18s ease;
+  }
+
+  .methodology-next-card:hover,
+  .methodology-next-card:focus-visible {
+    border-color: var(--method-accent);
+    transform: translateY(-1px);
+    outline: none;
+  }
+
+  .methodology-next-card strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: var(--method-accent);
+    font-weight: 800;
+    line-height: 1.45;
+  }
+
+  .methodology-next-card span {
+    display: block;
+    color: var(--method-muted);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  body.dark-theme .methodology-single-page {
     --method-text: #e5e7eb;
     --method-muted: #cbd5e1;
     --method-accent: #d6b26d;
-    --method-border: rgba(214, 178, 109, 0.38);
-    --method-soft: rgba(214, 178, 109, 0.12);
-    --method-quote-bg: linear-gradient(90deg, rgba(214, 178, 109, 0.18), rgba(23, 32, 51, 0.92) 46%, rgba(214, 178, 109, 0.08));
+    --method-accent-soft: rgba(214, 178, 109, 0.14);
+    --method-border: rgba(214, 178, 109, 0.36);
+    --method-link-bg: linear-gradient(90deg, rgba(214, 178, 109, 0.13), rgba(23, 32, 51, 0.92) 44%, rgba(214, 178, 109, 0.06));
+    --method-card-bg: linear-gradient(90deg, rgba(214, 178, 109, 0.13), rgba(23, 32, 51, 0.92) 44%, rgba(214, 178, 109, 0.06));
+  }
+
+  body.dark-theme .methodology-language-cards a {
+    color: #e5e7eb !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  }
+
+  body.dark-theme .methodology-language-cards a:hover,
+  body.dark-theme .methodology-language-cards a:focus-visible {
+    color: #f8fafc !important;
+    box-shadow:
+      0 8px 22px rgba(0, 0, 0, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
+
+  body.dark-theme .methodology-card {
+    border-color: rgba(214, 178, 109, 0.22);
+    box-shadow:
+      0 12px 34px rgba(0, 0, 0, 0.18),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  body.dark-theme .methodology-mark-symbol {
+    background:
+      radial-gradient(circle at center, rgba(214, 178, 109, 0.22), transparent 58%),
+      rgba(23, 32, 51, 0.92);
   }
 
   @media (max-width: 720px) {
-    .methodology-page {
-      padding: 2.2rem 1rem 3rem;
+    .methodology-single-page {
+      padding: 2rem 1rem 3.2rem;
       font-size: 1.02rem;
+      line-height: 1.85;
+    }
+
+    .methodology-top {
+      margin-bottom: 1.35rem;
+    }
+
+    .methodology-language-cards,
+    .methodology-next-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .methodology-language-cards {
+      width: 100%;
+      margin-bottom: 1.65rem;
+    }
+
+    .methodology-language-cards a {
+      width: 100%;
+      min-height: 3.2rem;
+    }
+
+    .methodology-card {
+      padding: 1.25rem 1rem;
+      border-radius: 1.25rem;
+    }
+
+    .methodology-card h1 {
+      font-size: clamp(1.6rem, 8vw, 2.25rem);
     }
 
     .arabic-verse {
@@ -133,69 +377,27 @@ permalink: /quran-reflection/fa/methodology/
       word-spacing: 0.08em;
     }
   }
-  .methodology-next {
-    margin: 3rem 0 0;
-    padding-top: 1.75rem;
-    border-top: 1px solid var(--method-border);
-  }
-
-  .methodology-next h2 {
-    margin-top: 0;
-    text-align: center;
-  }
-
-  .methodology-next-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-    margin-top: 1.4rem;
-  }
-
-  .methodology-next-card {
-    display: block;
-    padding: 1.25rem 1.35rem;
-    border: 1px solid var(--method-border);
-    border-radius: 16px;
-    background: var(--method-soft);
-    color: var(--method-text) !important;
-    text-decoration: none !important;
-  }
-
-  .methodology-next-card:hover,
-  .methodology-next-card:focus-visible {
-    border-color: var(--method-accent);
-    transform: translateY(-1px);
-  }
-
-  .methodology-next-card strong {
-    display: block;
-    margin-bottom: 0.45rem;
-    color: var(--method-accent);
-    font-size: 1.05rem;
-  }
-
-  .methodology-next-card span {
-    display: block;
-    color: var(--method-muted);
-    font-size: 0.95rem;
-    line-height: 1.75;
-  }
-
-  @media (max-width: 720px) {
-    .methodology-next-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-
 </style>
 
-<article class="methodology-page" dir="rtl" lang="fa">
+<section class="methodology-single-page rtl" dir="rtl" lang="fa">
 
-  <p class="methodology-kicker">به نام آن معبود یگانه، فرابخشاینده، فرامهربان</p>
+  <div class="methodology-top">
+    <p class="methodology-kicker">به نام آن معبود یگانه، فرابخشاینده، فرامهربان</p>
 
-  <h1>روش ترجمه و تأمل</h1>
+    <div class="methodology-mark" aria-hidden="true">
+      <span class="methodology-mark-symbol"></span>
+    </div>
+  </div>
 
-  <p>
+  <nav class="methodology-language-cards" aria-label="صفحات روش‌شناسی">
+    <a href="/quran-reflection/fa/methodology/" dir="rtl" lang="fa">روش ترجمه و تأمل</a>
+    <a href="/quran-reflection/en/methodology/">Translation and Reflection Method</a>
+  </nav>
+
+  <article class="methodology-card">
+    <h1>روش ترجمه و تأمل</h1>
+
+<p>
     تا جایی که حافظه تاریخی و شواهد زبانی یاری می‌کند، پیام وحی در سنت ابراهیمی در زبان‌هایی چون عبری، آرامی و عربی ظهور یافته است. این زبان‌ها هم‌ریشه، هم‌خانواده، و دارای ساختارها و توانمندی‌های نزدیک به هم هستند.
   </p>
 
@@ -259,12 +461,30 @@ permalink: /quran-reflection/fa/methodology/
 
   <p class="methodology-closing">نَصْرٌ مِّنَ اللَّهِ وَفَتْحٌ قَرِيبٌ</p>
 
-</article>
+    <section class="methodology-next" aria-label="صفحات بعدی">
+      <h2>ادامه مطالعه</h2>
+
+      <div class="methodology-next-grid">
+        <a class="methodology-next-card" href="/fa/introduction/">
+          <strong>ما کی هستیم؟</strong>
+          <span>درباره هویت، هدف، و جهت ایمانی این دریچه تأمل در قرآن بخوانید.</span>
+        </a>
+
+        <a class="methodology-next-card" href="/quran-reflection/fa/">
+          <strong>فهرست سوره‌ها</strong>
+          <span>قرآن را بر اساس سوره‌ها مرور کنید و به تأملات آیه‌به‌آیه دسترسی داشته باشید.</span>
+        </a>
+      </div>
+    </section>
+
+  </article>
+
+</section>
 
 <script>
   (function () {
     function repaintMethodologyArabic() {
-      document.querySelectorAll(".methodology-page .arabic-verse").forEach(function (verse) {
+      document.querySelectorAll(".methodology-single-page .arabic-verse").forEach(function (verse) {
         verse.style.opacity = "0.999";
         verse.style.transform = "translateZ(0)";
         void verse.offsetHeight;
