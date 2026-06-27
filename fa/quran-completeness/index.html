@@ -81,11 +81,31 @@ permalink: /fa/quran-completeness/
       </p>
     </article>
 
+    <article class="article-card">
+      <h2>
+        <a href="/fa/quran-completeness/linguistics-of-revelation-and-human-reports/">زبان‌شناسی کلام وحی؛ تفاوت قرآن با روایت‌های بشری</a>
+      </h2>
+
+      <p class="date">2026-06-27</p>
+
+      <p class="tags">
+        <span>قرآن</span>
+        <span>کامل بودن قرآن</span>
+        <span>زبان‌شناسی</span>
+        <span>حدیث</span>
+        <span>تحدی قرآن</span>
+      </p>
+
+      <p>
+        بررسی تفاوت ساختاری و زبان‌شناختی قرآن با روایت‌های بشری، و اینکه چرا چالش آوردن سخنی هم‌سنگ قرآن فقط به تولید متن دینی یا معنوی محدود نیست.
+      </p>
+    </article>
+
 {% assign completeness_posts = site.posts | where: "lang", "fa" | where: "topic", "quran-completeness" %}
 
 {% if completeness_posts.size > 0 %}
     {% for post in completeness_posts %}
-      {% unless post.url == "/fa/quran-completeness/quran-and-hadith-transmitters/" or post.url == "/fa/quran-completeness/personal-responsibility-and-quran-completeness/" %}
+      {% unless post.url == "/fa/quran-completeness/quran-and-hadith-transmitters/" or post.url == "/fa/quran-completeness/personal-responsibility-and-quran-completeness/" or post.url == "/fa/quran-completeness/linguistics-of-revelation-and-human-reports/" %}
       <article class="article-card">
         <h2>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>

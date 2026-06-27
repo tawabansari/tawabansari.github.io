@@ -81,11 +81,31 @@ permalink: /en/quran-completeness/
       </p>
     </article>
 
+    <article class="article-card">
+      <h2>
+        <a href="/en/quran-completeness/linguistics-of-revelation-and-human-reports/">Linguistics of Revelation: The Qur’an and Human Reports</a>
+      </h2>
+
+      <p class="date">2026-06-27</p>
+
+      <p class="tags">
+        <span>Qur’an</span>
+        <span>Qur’an Completeness</span>
+        <span>linguistics</span>
+        <span>Hadith</span>
+        <span>Qur’anic challenge</span>
+      </p>
+
+      <p>
+        A linguistic and structural comparison between the Qur’an and human religious reports, showing why the challenge to produce speech equal to the Qur’an is not merely about composing religious or spiritual text.
+      </p>
+    </article>
+
 {% assign completeness_posts = site.posts | where: "lang", "en" | where: "topic", "quran-completeness" %}
 
 {% if completeness_posts.size > 0 %}
     {% for post in completeness_posts %}
-      {% unless post.url == "/en/quran-completeness/quran-and-hadith-transmitters/" or post.url == "/en/quran-completeness/personal-responsibility-and-quran-completeness/" %}
+      {% unless post.url == "/en/quran-completeness/quran-and-hadith-transmitters/" or post.url == "/en/quran-completeness/personal-responsibility-and-quran-completeness/" or post.url == "/en/quran-completeness/linguistics-of-revelation-and-human-reports/" %}
       <article class="article-card">
         <h2>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
