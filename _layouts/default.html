@@ -273,6 +273,50 @@
       text-underline-offset: 3px;
     }
 
+    .root-popover-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      margin-top: 0.95rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    .root-popover-actions .root-popover-link {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+      margin-inline-end: auto;
+    }
+
+    .root-popover-action-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2rem;
+      min-width: 2rem;
+      height: 2rem;
+      min-height: 2rem;
+      padding: 0;
+      border: 1px solid #d7dde6;
+      border-radius: 999px;
+      background: #fff;
+      color: #64748b;
+      cursor: pointer;
+      font: inherit;
+      font-size: 0.95rem !important;
+      line-height: 1;
+      text-decoration: none !important;
+      box-sizing: border-box;
+    }
+
+    .root-popover-action-button:hover,
+    .root-popover-action-button:focus-visible {
+      border-color: #b08d57;
+      color: #6f522d;
+      outline: none;
+    }
+
     .root-popover-close {
       position: absolute;
       top: 0.5rem;
@@ -702,7 +746,9 @@
     .copy-section-text,
     .section-toggle-button,
     .language-mirror-link,
-    .quran-gooya-link {
+    .quran-gooya-link,
+    .ayah-quran-nav-button,
+    .ayah-root-search-link {
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -734,7 +780,9 @@
     }
 
     .language-mirror-link,
-    .quran-gooya-link {
+    .quran-gooya-link,
+    .ayah-quran-nav-button,
+    .ayah-root-search-link {
       letter-spacing: 0;
     }
 
@@ -745,9 +793,23 @@
     .language-mirror-link:hover,
     .language-mirror-link:focus-visible,
     .quran-gooya-link:hover,
-    .quran-gooya-link:focus-visible {
+    .quran-gooya-link:focus-visible,
+    .ayah-quran-nav-button:hover,
+    .ayah-quran-nav-button:focus-visible,
+    .ayah-root-search-link:hover,
+    .ayah-root-search-link:focus-visible {
       border-color: #aaa;
       outline: none;
+    }
+
+    .ayah-root-search-link svg,
+    .root-popover-action-button svg {
+      width: 1rem;
+      height: 1rem;
+      stroke: currentColor;
+      stroke-width: 2.2;
+      fill: none;
+      pointer-events: none;
     }
 
     body .container .ayah-block details > summary {
@@ -1183,6 +1245,22 @@
       color: #d6b26d !important;
     }
 
+    body.dark-theme .root-popover-actions {
+      border-top-color: #334155;
+    }
+
+    body.dark-theme .root-popover-action-button {
+      background: #172033;
+      border-color: #475569;
+      color: #f8fafc;
+    }
+
+    body.dark-theme .root-popover-action-button:hover,
+    body.dark-theme .root-popover-action-button:focus-visible {
+      border-color: #d6b26d;
+      color: #f1d59d;
+    }
+
     body.dark-theme .root-popover-link:hover,
     body.dark-theme .root-popover-link:focus-visible {
       color: #f1d59d !important;
@@ -1337,6 +1415,8 @@
     body.dark-theme .section-toggle-button,
     body.dark-theme .language-mirror-link,
     body.dark-theme .quran-gooya-link,
+    body.dark-theme .ayah-quran-nav-button,
+    body.dark-theme .ayah-root-search-link,
     body.dark-theme .quran-nav-trigger,
     body.dark-theme .quran-nav-close,
     body.dark-theme .quran-nav-ayah {
@@ -1397,7 +1477,9 @@
       .copy-section-text,
       .section-toggle-button,
       .language-mirror-link,
-      .quran-gooya-link {
+      .quran-gooya-link,
+      .ayah-quran-nav-button,
+      .ayah-root-search-link {
         width: 3rem;
         min-width: 3rem;
         height: 1.95rem;
@@ -1518,7 +1600,8 @@
       .root-popover-row,
       .root-popover-label,
       .root-popover-value,
-      .root-popover-link {
+      .root-popover-link,
+      .root-popover-actions {
         max-width: 100% !important;
         overflow-wrap: anywhere;
         word-break: normal;
@@ -2818,6 +2901,39 @@
     button.setAttribute('title', label);
   }
 
+  function isForqanFarsiPage() {
+    return document.body.classList.contains('lang-fa');
+  }
+
+  function getRootSearchUrl() {
+    return isForqanFarsiPage()
+      ? '/quran-terminology/fa/roots/'
+      : '/quran-terminology/en/roots/';
+  }
+
+  function createSearchIcon() {
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('viewBox', '0 0 24 24');
+    svg.setAttribute('aria-hidden', 'true');
+    svg.setAttribute('focusable', 'false');
+
+    const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    circle.setAttribute('cx', '11');
+    circle.setAttribute('cy', '11');
+    circle.setAttribute('r', '7');
+
+    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    line.setAttribute('x1', '16.5');
+    line.setAttribute('y1', '16.5');
+    line.setAttribute('x2', '21');
+    line.setAttribute('y2', '21');
+
+    svg.appendChild(circle);
+    svg.appendChild(line);
+
+    return svg;
+  }
+
 
   function getMirrorLanguageInfo() {
     const isFarsi = document.body.classList.contains('lang-fa');
@@ -3284,6 +3400,8 @@
       setTimeout(() => surahSearch.focus(), 0);
     }
 
+    window.openForqanQuranNavigator = openDrawer;
+
     function closeDrawer() {
       document.body.classList.remove('quran-nav-open');
       drawer.setAttribute('aria-hidden', 'true');
@@ -3425,8 +3543,34 @@
     const ayahMirrorLink = createMirrorLanguageLink(ayahBlock.id);
     const quranGooyaLink = createQuranGooyaLink(ayahBlock);
 
+    const ayahNavButton = document.createElement('button');
+    ayahNavButton.className = 'ayah-quran-nav-button';
+    ayahNavButton.type = 'button';
+    ayahNavButton.textContent = '☰';
+    labelButton(ayahNavButton, document.body.classList.contains('lang-fa') ? 'جستجوی سوره یا آیه' : 'Find surah or verse');
+    ayahNavButton.addEventListener('click', function () {
+      if (typeof window.openForqanQuranNavigator === 'function') {
+        window.openForqanQuranNavigator(ayahNavButton);
+      }
+    });
+
+    const ayahRootSearchLink = document.createElement('a');
+    ayahRootSearchLink.className = 'ayah-root-search-link';
+    ayahRootSearchLink.href = getRootSearchUrl();
+    ayahRootSearchLink.appendChild(createSearchIcon());
+    ayahRootSearchLink.setAttribute(
+      'aria-label',
+      document.body.classList.contains('lang-fa') ? 'جستجوی ریشه‌های قرآنی' : 'Search Qur’anic roots'
+    );
+    ayahRootSearchLink.setAttribute(
+      'title',
+      document.body.classList.contains('lang-fa') ? 'جستجوی ریشه‌های قرآنی' : 'Search Qur’anic roots'
+    );
+
     ayahTitle.appendChild(textButton);
     ayahTitle.appendChild(linkButton);
+    ayahTitle.appendChild(ayahNavButton);
+    ayahTitle.appendChild(ayahRootSearchLink);
 
     if (quranGooyaLink) {
       ayahTitle.appendChild(quranGooyaLink);
@@ -3660,6 +3804,52 @@
     return row;
   }
 
+  function getRootPopoverText(data) {
+    const labels = data.isFarsi
+      ? {
+          transliteration: 'آوانگاری',
+          root: 'ریشه',
+          rootMeaning: 'معنای کوتاه ریشه',
+          contextMeaning: 'معنا در این آیه',
+          source: 'پیوند'
+        }
+      : {
+          transliteration: 'Transliteration',
+          root: 'Root',
+          rootMeaning: 'Brief root meaning',
+          contextMeaning: 'Meaning in this verse',
+          source: 'Source'
+        };
+
+    const lines = [data.word];
+
+    if (!data.isFarsi && data.transliteration) {
+      lines.push(labels.transliteration + ': ' + data.transliteration);
+    }
+
+    if (data.root) lines.push(labels.root + ': ' + data.root);
+    if (data.rootMeaning) lines.push(labels.rootMeaning + ': ' + data.rootMeaning);
+    if (data.contextMeaning) lines.push(labels.contextMeaning + ': ' + data.contextMeaning);
+    if (data.learnMoreUrl) lines.push(labels.source + ': ' + data.learnMoreUrl);
+
+    return lines.filter(Boolean).join('\n');
+  }
+
+  function createRootPopoverActionButton(label, content) {
+    const button = document.createElement('button');
+    button.className = 'root-popover-action-button';
+    button.type = 'button';
+    labelButton(button, label);
+
+    if (typeof content === 'string') {
+      button.textContent = content;
+    } else if (content) {
+      button.appendChild(content);
+    }
+
+    return button;
+  }
+
   function closeRootPopover(returnFocus) {
     clearRootPopoverHoverTimer();
     rootPopoverPinned = false;
@@ -3789,7 +3979,14 @@
       popoverContent.appendChild(fallback);
     }
 
-    if (learnMore && learnMore !== 'pending') {
+    const learnMoreUrl = learnMore && learnMore !== 'pending'
+      ? new URL(learnMore, window.location.origin).href
+      : '';
+
+    const actions = document.createElement('div');
+    actions.className = 'root-popover-actions';
+
+    if (learnMoreUrl) {
       const learnMoreLink = document.createElement('a');
       learnMoreLink.className = 'root-popover-link';
       learnMoreLink.href = learnMore;
@@ -3797,8 +3994,54 @@
         ? 'مطالعه بیشتر ←'
         : 'Learn more →';
 
-      popoverContent.appendChild(learnMoreLink);
+      actions.appendChild(learnMoreLink);
     }
+
+    const popoverText = getRootPopoverText({
+      isFarsi: isFarsi,
+      word: word,
+      transliteration: transliteration,
+      root: root,
+      rootMeaning: rootMeaning,
+      contextMeaning: contextMeaning,
+      learnMoreUrl: learnMoreUrl
+    });
+
+    const copyTextButton = createRootPopoverActionButton(
+      isFarsi ? 'کپی متن این پنجره' : 'Copy this word note',
+      '⧉'
+    );
+    copyTextButton.addEventListener('click', function () {
+      copyToClipboard(copyTextButton, popoverText);
+    });
+    actions.appendChild(copyTextButton);
+
+    if (learnMoreUrl) {
+      const copyLinkButton = createRootPopoverActionButton(
+        isFarsi ? 'کپی پیوند صفحه ریشه' : 'Copy root study link',
+        '🔗'
+      );
+      copyLinkButton.addEventListener('click', function () {
+        copyToClipboard(copyLinkButton, learnMoreUrl);
+      });
+      actions.appendChild(copyLinkButton);
+    }
+
+    const rootSearchLink = document.createElement('a');
+    rootSearchLink.className = 'root-popover-action-button';
+    rootSearchLink.href = getRootSearchUrl();
+    rootSearchLink.appendChild(createSearchIcon());
+    rootSearchLink.setAttribute(
+      'aria-label',
+      isFarsi ? 'جستجوی ریشه‌های قرآنی' : 'Search Qur’anic roots'
+    );
+    rootSearchLink.setAttribute(
+      'title',
+      isFarsi ? 'جستجوی ریشه‌های قرآنی' : 'Search Qur’anic roots'
+    );
+    actions.appendChild(rootSearchLink);
+
+    popoverContent.appendChild(actions);
 
     popover.classList.add('show');
     popover.setAttribute('aria-hidden', 'false');
