@@ -802,6 +802,7 @@
       outline: none;
     }
 
+    .ayah-quran-nav-button svg,
     .ayah-root-search-link svg,
     .root-popover-action-button svg {
       width: 1rem;
@@ -2916,6 +2917,11 @@
     svg.setAttribute('viewBox', '0 0 24 24');
     svg.setAttribute('aria-hidden', 'true');
     svg.setAttribute('focusable', 'false');
+    svg.setAttribute('fill', 'none');
+    svg.setAttribute('stroke', 'currentColor');
+    svg.setAttribute('stroke-width', '2.2');
+    svg.setAttribute('stroke-linecap', 'round');
+    svg.setAttribute('stroke-linejoin', 'round');
 
     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
     circle.setAttribute('cx', '11');
