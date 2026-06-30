@@ -3540,13 +3540,12 @@
       copyToClipboard(linkButton, cleanUrl);
     });
 
-    const ayahMirrorLink = createMirrorLanguageLink(ayahBlock.id);
     const quranGooyaLink = createQuranGooyaLink(ayahBlock);
 
     const ayahNavButton = document.createElement('button');
     ayahNavButton.className = 'ayah-quran-nav-button';
     ayahNavButton.type = 'button';
-    ayahNavButton.textContent = '☰';
+    ayahNavButton.appendChild(createSearchIcon());
     labelButton(ayahNavButton, document.body.classList.contains('lang-fa') ? 'جستجوی سوره یا آیه' : 'Find surah or verse');
     ayahNavButton.addEventListener('click', function () {
       if (typeof window.openForqanQuranNavigator === 'function') {
@@ -3554,30 +3553,12 @@
       }
     });
 
-    const ayahRootSearchLink = document.createElement('a');
-    ayahRootSearchLink.className = 'ayah-root-search-link';
-    ayahRootSearchLink.href = getRootSearchUrl();
-    ayahRootSearchLink.appendChild(createSearchIcon());
-    ayahRootSearchLink.setAttribute(
-      'aria-label',
-      document.body.classList.contains('lang-fa') ? 'جستجوی ریشه‌های قرآنی' : 'Search Qur’anic roots'
-    );
-    ayahRootSearchLink.setAttribute(
-      'title',
-      document.body.classList.contains('lang-fa') ? 'جستجوی ریشه‌های قرآنی' : 'Search Qur’anic roots'
-    );
-
     ayahTitle.appendChild(textButton);
     ayahTitle.appendChild(linkButton);
     ayahTitle.appendChild(ayahNavButton);
-    ayahTitle.appendChild(ayahRootSearchLink);
 
     if (quranGooyaLink) {
       ayahTitle.appendChild(quranGooyaLink);
-    }
-
-    if (ayahMirrorLink) {
-      ayahTitle.appendChild(ayahMirrorLink);
     }
   });
 
