@@ -22,7 +22,7 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
 
 <article class="forqan-article quran-terminology-article" dir="ltr" lang="en">
 
-  <p class="opening">By name of The One Worshiped God, The Overflowingly Merciful, The Ever-Merciful</p>
+  <p class="opening">By name of The God, The Merciful The Compassionate</p>
 
   <section class="article-hero">
     <p class="kicker">Qur’an Terminology</p>
