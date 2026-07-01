@@ -3981,23 +3981,31 @@
     const gap = 10;
     const targetRect = target.getBoundingClientRect();
     const popoverRect = popover.getBoundingClientRect();
+    const hasRoomRight =
+      targetRect.right + gap + popoverRect.width <= window.innerWidth - margin;
+    const hasRoomLeft =
+      targetRect.left - gap - popoverRect.width >= margin;
 
-    let left =
-      targetRect.left + targetRect.width / 2 - popoverRect.width / 2;
+    let left;
 
-    if (left < margin) left = margin;
+    if (hasRoomRight) {
+      left = targetRect.right + gap;
+    } else if (hasRoomLeft) {
+      left = targetRect.left - popoverRect.width - gap;
+    } else {
+      left = targetRect.left + targetRect.width / 2 - popoverRect.width / 2;
 
-    if (left + popoverRect.width > window.innerWidth - margin) {
-      left = window.innerWidth - popoverRect.width - margin;
+      if (left < margin) left = margin;
+
+      if (left + popoverRect.width > window.innerWidth - margin) {
+        left = window.innerWidth - popoverRect.width - margin;
+      }
     }
 
-    let top = targetRect.bottom + gap;
+    let top = targetRect.top + targetRect.height / 2 - popoverRect.height / 2;
 
-    if (
-      top + popoverRect.height > window.innerHeight - margin &&
-      targetRect.top - popoverRect.height - gap >= margin
-    ) {
-      top = targetRect.top - popoverRect.height - gap;
+    if (top + popoverRect.height > window.innerHeight - margin) {
+      top = window.innerHeight - popoverRect.height - margin;
     }
 
     if (top < margin) top = margin;
