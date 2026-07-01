@@ -1081,6 +1081,10 @@
       line-height: 1.5;
     }
 
+    .quran-nav-mobile-action {
+      display: none;
+    }
+
     @media (max-width: 720px) {
       .quran-nav-floating-trigger {
         bottom: 4.55rem;
@@ -1102,6 +1106,46 @@
 
       .quran-nav-panel:first-child {
         max-height: 42vh;
+      }
+
+      .quran-nav-ayah.is-selected {
+        background: rgba(176, 141, 87, 0.16);
+        border-color: #b08d57;
+        color: #6f522d;
+      }
+
+      .quran-nav-mobile-action {
+        display: block;
+        padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom));
+        border-top: 1px solid #e5e7eb;
+        background: #fff;
+      }
+
+      .quran-nav-mobile-selection {
+        margin: 0 0 0.55rem;
+        color: #64748b;
+        font-size: 0.82rem !important;
+        font-weight: 800;
+        line-height: 1.35;
+        text-align: center;
+      }
+
+      .quran-nav-go-button {
+        width: 100%;
+        min-height: 2.75rem;
+        border: 0;
+        border-radius: 999px;
+        background: #9a7440;
+        color: #fff;
+        cursor: pointer;
+        font: inherit;
+        font-weight: 800;
+        line-height: 1.2;
+      }
+
+      .quran-nav-go-button:disabled {
+        cursor: not-allowed;
+        opacity: 0.48;
       }
     }
 
@@ -1445,8 +1489,14 @@
       color: #f8fafc;
     }
 
+    body.dark-theme .quran-nav-mobile-action {
+      background: #0f172a;
+      border-color: #334155;
+    }
+
     body.dark-theme .quran-nav-label,
     body.dark-theme .quran-nav-surah-meta,
+    body.dark-theme .quran-nav-mobile-selection,
     body.dark-theme .quran-nav-empty {
       color: #cbd5e1;
     }
@@ -1458,6 +1508,17 @@
     body.dark-theme .quran-nav-ayah:focus-visible,
     body.dark-theme .quran-nav-ayah.is-current {
       background: rgba(214, 178, 109, 0.16);
+    }
+
+    body.dark-theme .quran-nav-ayah.is-selected {
+      background: rgba(214, 178, 109, 0.2);
+      border-color: #d6b26d;
+      color: #f8fafc;
+    }
+
+    body.dark-theme .quran-nav-go-button {
+      background: #d6b26d;
+      color: #0f172a;
     }
 
     body.dark-theme .theme-icon-dark {
@@ -3315,6 +3376,10 @@
           <div class="quran-nav-list" data-ayah-list></div>
         </section>
       </div>
+      <div class="quran-nav-mobile-action">
+        <p class="quran-nav-mobile-selection" data-mobile-selection>${isFarsi ? 'سوره و آیه را انتخاب کنید.' : 'Select a surah and verse.'}</p>
+        <button class="quran-nav-go-button" type="button" disabled>${isFarsi ? 'رفتن به آیه' : 'Go to verse'}</button>
+      </div>
     `;
 
     document.body.appendChild(backdrop);
@@ -3325,6 +3390,37 @@
     const ayahSearch = drawer.querySelector('#quranNavAyahSearch');
     const surahList = drawer.querySelector('[data-surah-list]');
     const ayahList = drawer.querySelector('[data-ayah-list]');
+    const mobileSelection = drawer.querySelector('[data-mobile-selection]');
+    const mobileGoButton = drawer.querySelector('.quran-nav-go-button');
+    const mobileQuery = window.matchMedia('(max-width: 720px)');
+    let pendingMobileAyah = null;
+
+    function mobileSelectionText() {
+      if (!pendingMobileAyah) {
+        return isFarsi ? 'سوره و آیه را انتخاب کنید.' : 'Select a surah and verse.';
+      }
+
+      return isFarsi
+        ? `انتخاب شده: ${localDigits(pendingMobileAyah.surah.number)}:${localDigits(pendingMobileAyah.ayah)}`
+        : `Selected: ${pendingMobileAyah.surah.enName} ${pendingMobileAyah.surah.number}:${pendingMobileAyah.ayah}`;
+    }
+
+    function updateMobileAction() {
+      mobileSelection.textContent = mobileSelectionText();
+      mobileGoButton.disabled = !pendingMobileAyah;
+    }
+
+    function navigateToAyah(surah, ayah) {
+      const targetUrl = ayahUrl(surah, ayah);
+      const targetPath = new URL(targetUrl, window.location.origin).pathname;
+
+      if (targetPath === window.location.pathname) {
+        window.location.href = targetUrl;
+        closeDrawer();
+      } else {
+        window.location.href = targetUrl;
+      }
+    }
 
     function renderSurahs() {
       const query = surahSearch.value;
@@ -3355,6 +3451,8 @@
         button.addEventListener('click', function () {
           selectedSurah = surah;
           ayahSearch.value = '';
+          pendingMobileAyah = null;
+          updateMobileAction();
           renderSurahs();
           renderAyahs();
           ayahSearch.focus();
@@ -3376,10 +3474,20 @@
         button.className = 'quran-nav-ayah';
         button.type = 'button';
         if (ayah === currentAyah) button.classList.add('is-current');
+        if (pendingMobileAyah && pendingMobileAyah.surah.slug === selectedSurah.slug && pendingMobileAyah.ayah === ayah) {
+          button.classList.add('is-selected');
+        }
         button.textContent = `${localDigits(selectedSurah.number)}:${localDigits(ayah)}`;
         labelButton(button, isFarsi ? `رفتن به آیه ${localDigits(selectedSurah.number)}:${localDigits(ayah)}` : `Go to ${selectedSurah.number}:${ayah}`);
         button.addEventListener('click', function () {
-          window.location.href = ayahUrl(selectedSurah, ayah);
+          if (mobileQuery.matches) {
+            pendingMobileAyah = { surah: selectedSurah, ayah: ayah };
+            updateMobileAction();
+            renderAyahs();
+            return;
+          }
+
+          navigateToAyah(selectedSurah, ayah);
         });
         wrapper.appendChild(button);
       }
@@ -3401,6 +3509,8 @@
       drawer.setAttribute('aria-hidden', 'false');
       document.body.classList.add('quran-nav-open');
       updateFloatingTrigger();
+      pendingMobileAyah = null;
+      updateMobileAction();
       renderSurahs();
       renderAyahs();
       setTimeout(() => surahSearch.focus(), 0);
@@ -3446,8 +3556,13 @@
       if (event.key !== 'Enter') return;
       const ayah = Number(normalizeNav(ayahSearch.value).replace(/\D/g, ''));
       if (ayah >= 1 && ayah <= selectedSurah.ayahs) {
-        window.location.href = ayahUrl(selectedSurah, ayah);
+        navigateToAyah(selectedSurah, ayah);
       }
+    });
+
+    mobileGoButton.addEventListener('click', function () {
+      if (!pendingMobileAyah) return;
+      navigateToAyah(pendingMobileAyah.surah, pendingMobileAyah.ayah);
     });
 
     window.addEventListener('keydown', function (event) {
