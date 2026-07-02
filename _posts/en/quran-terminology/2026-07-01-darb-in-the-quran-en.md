@@ -22,7 +22,7 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
 
 <article class="forqan-article quran-terminology-article" dir="ltr" lang="en">
 
-  <p class="opening">By name of The God, The Merciful The Compassionate</p>
+  <p class="opening">By name of The God The Merciful The Compassionate</p>
 
   <section class="article-hero">
     <p class="kicker">Qur’an Terminology</p>
@@ -43,8 +43,9 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
       <li><a href="#qunut-nushuz">7. Qunut and nushuz</a></li>
       <li><a href="#three-stages">8. The three stages in the verse</a></li>
       <li><a href="#physical-reading">9. The problem with the physical beating reading</a></li>
-      <li><a href="#legal-method">10. The Qur’an’s method in bodily harm, honor, and punishment</a></li>
-      <li><a href="#ending">11. The end of the verse: restraining male power</a></li>
+      <li><a href="#maruf">10. Ma‘ruf as a moral boundary in marriage and separation</a></li>
+      <li><a href="#legal-method">11. The Qur’an’s method in bodily harm, honor, and punishment</a></li>
+      <li><a href="#ending">12. The end of the verse: restraining male power</a></li>
       <li><a href="#conclusion">Conclusion</a></li>
     </ol>
   </nav>
@@ -179,8 +180,31 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
     <p>Traditional readings had to bring external restrictions in order to control this danger: “non-severe beating,” “not the face,” “no breaking bones,” “with a tooth-stick.” But the need for these outside restrictions shows that the physical reading remains undefined and dangerous inside the verse itself. If the Qur’an truly meant to permit a sensitive bodily act inside marriage, it would have defined its limits clearly.</p>
   </section>
 
+  <section class="article-section" id="maruf">
+    <h2>10. Ma‘ruf as a moral boundary in marriage and separation</h2>
+    <p>Another Qur’anic problem for the physical beating reading is the repeated command of <span class="term">ma‘ruf</span> in marital life and separation.</p>
+
+    <blockquote class="quran-quote">
+      <p class="arabic">وَعَاشِرُوهُنَّ بِالْمَعْرُوفِ</p>
+      <p class="translation">Live with them in ma‘ruf.</p>
+      <p class="source"><a href="/quran-reflection/en/004-an-nisa/019/">An-Nisa 4:19</a></p>
+    </blockquote>
+
+    <p>And when divorce becomes possible, the Qur’an says:</p>
+
+    <blockquote class="quran-quote">
+      <p class="arabic">فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ</p>
+      <p class="translation">Retain them with ma‘ruf, or part from them with ma‘ruf.</p>
+      <p class="source"><a href="/quran-reflection/en/065-at-talaq/002/">At-Talaq 65:2</a></p>
+    </blockquote>
+
+    <p><span class="term">Ma‘ruf</span> means recognized goodness, fairness, decency, and kindness. It governs both the continuation of marriage and the ending of marriage. This creates a Qur’anic moral boundary: a woman is not to be kept except with ma‘ruf, and she is not to be separated from except with ma‘ruf.</p>
+    <p>If physical beating is placed between these two Qur’anic commands, the meaning becomes strained. The man would be told to live with her in ma‘ruf, then physically strike her in the crisis, then either retain her or separate from her in ma‘ruf. This makes ma‘ruf appear suspended precisely at the moment when the woman is most vulnerable. Such a reading does not fit the Qur’an’s own moral language.</p>
+    <p>But if <span class="term">wa-idribuhunna</span> is read as decisive nonphysical separation, the sequence remains coherent: live with them in ma‘ruf; if a serious breach occurs, admonish, separate in bed, then create decisive distance and move toward arbitration; if the marriage continues, retain with ma‘ruf; if it ends, part with ma‘ruf.</p>
+  </section>
+
   <section class="article-section" id="legal-method">
-    <h2>10. The Qur’an’s method in bodily harm, honor, and punishment</h2>
+    <h2>11. The Qur’an’s method in bodily harm, honor, and punishment</h2>
     <p>The Qur’an’s method in sensitive matters is not vague. Concerning bodily injury, it says:</p>
 
     <blockquote class="quran-quote">
@@ -211,7 +235,7 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
   </section>
 
   <section class="article-section" id="ending">
-    <h2>11. The end of the verse: restraining male power</h2>
+    <h2>12. The end of the verse: restraining male power</h2>
     <p>The end of the verse is very important:</p>
 
     <blockquote class="quran-quote">
