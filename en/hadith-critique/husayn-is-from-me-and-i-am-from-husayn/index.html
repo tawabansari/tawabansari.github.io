@@ -108,6 +108,23 @@ tags:
     text-align: right;
   }
 
+  .hadith-article[dir="ltr"],
+  .hadith-article[dir="ltr"] p,
+  .hadith-article[dir="ltr"] h1,
+  .hadith-article[dir="ltr"] h2,
+  .hadith-article[dir="ltr"] li,
+  .hadith-article[dir="ltr"] .subtitle,
+  .hadith-article[dir="ltr"] .hadith-toc a {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .hadith-article[dir="ltr"] .quran-quote {
+    direction: rtl;
+    text-align: right;
+    unicode-bidi: isolate;
+  }
+
   body.dark-theme .hadith-article {
     --hadith-gold: #d6b05f;
     --hadith-gold-strong: #d6b05f;
