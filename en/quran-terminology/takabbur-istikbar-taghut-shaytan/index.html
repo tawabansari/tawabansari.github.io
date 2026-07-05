@@ -110,6 +110,23 @@ tags:
     text-align: right;
   }
 
+  .forqan-terminology-article[dir="ltr"],
+  .forqan-terminology-article[dir="ltr"] p,
+  .forqan-terminology-article[dir="ltr"] h1,
+  .forqan-terminology-article[dir="ltr"] h2,
+  .forqan-terminology-article[dir="ltr"] li,
+  .forqan-terminology-article[dir="ltr"] .subtitle,
+  .forqan-terminology-article[dir="ltr"] .forqan-terminology-toc a {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .forqan-terminology-article[dir="ltr"] .quran-quote {
+    direction: rtl;
+    text-align: right;
+    unicode-bidi: isolate;
+  }
+
   body.dark-theme .forqan-terminology-article {
     --term-gold: #d6b05f;
     --term-gold-strong: #d6b05f;
