@@ -109,6 +109,23 @@ tags:
     text-align: right;
   }
 
+  .eden-article[dir="ltr"],
+  .eden-article[dir="ltr"] p,
+  .eden-article[dir="ltr"] h1,
+  .eden-article[dir="ltr"] h2,
+  .eden-article[dir="ltr"] li,
+  .eden-article[dir="ltr"] .subtitle,
+  .eden-article[dir="ltr"] .eden-toc a {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .eden-article[dir="ltr"] .quran-quote {
+    direction: rtl;
+    text-align: right;
+    unicode-bidi: isolate;
+  }
+
   body.dark-theme .eden-article {
     --eden-gold: #d6b05f;
     --eden-gold-strong: #d6b05f;
