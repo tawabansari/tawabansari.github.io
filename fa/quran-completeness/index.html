@@ -101,11 +101,31 @@ permalink: /fa/quran-completeness/
       </p>
     </article>
 
+    <article class="article-card">
+      <h2>
+        <a href="/fa/quran-completeness/obeying-the-messenger-and-hadith-authority/">اطاعت از رسول و حجیت حدیث</a>
+      </h2>
+
+      <p class="date">2026-07-06</p>
+
+      <p class="tags">
+        <span>قرآن</span>
+        <span>کامل بودن قرآن</span>
+        <span>اطاعت از رسول</span>
+        <span>حدیث</span>
+        <span>مرجعیت قرآن</span>
+      </p>
+
+      <p>
+        بررسی این پرسش که آیا فرمان‌های قرآن درباره اطاعت از رسول، به معنای حجیت مستقل حدیث در کنار قرآن است، یا اطاعت از پیامبر در چارچوب پیام وحی و رساندن آیات خدا فهمیده می‌شود.
+      </p>
+    </article>
+
 {% assign completeness_posts = site.posts | where: "lang", "fa" | where: "topic", "quran-completeness" %}
 
 {% if completeness_posts.size > 0 %}
     {% for post in completeness_posts %}
-      {% unless post.url == "/fa/quran-completeness/quran-and-hadith-transmitters/" or post.url == "/fa/quran-completeness/personal-responsibility-and-quran-completeness/" or post.url == "/fa/quran-completeness/linguistics-of-revelation-and-human-reports/" %}
+      {% unless post.url == "/fa/quran-completeness/quran-and-hadith-transmitters/" or post.url == "/fa/quran-completeness/personal-responsibility-and-quran-completeness/" or post.url == "/fa/quran-completeness/linguistics-of-revelation-and-human-reports/" or post.url == "/fa/quran-completeness/obeying-the-messenger-and-hadith-authority/" %}
       <article class="article-card">
         <h2>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
