@@ -1,0 +1,363 @@
+---
+layout: default
+title: The Qur'anic Root H Z N
+permalink: /quran-terminology/en/roots/h-z-n/
+---
+
+<style>
+  .root-study-page {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark-theme .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page,
+  .theme-dark .root-study-page,
+  .forqan-theme-dark .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-study-page * { box-sizing: border-box; }
+
+  .root-study-page.forqan-page-rtl,
+  .root-study-page.forqan-page-rtl h1,
+  .root-study-page.forqan-page-rtl h2,
+  .root-study-page.forqan-page-rtl h3,
+  .root-study-page.forqan-page-rtl p,
+  .root-study-page.forqan-page-rtl li {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .root-frame {
+    background:
+      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
+      var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    color: var(--root-text);
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
+      var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-forms-card h2,
+  .root-toc h2 { margin-top: 0; }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .morph-card {
+    display: block;
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem;
+    background: var(--root-section);
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    color: var(--root-muted);
+    font-size: 0.88rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .morph-form {
+    font-weight: 800;
+    font-size: 1.18rem;
+    color: var(--root-accent-deep);
+    margin-bottom: 0.4rem;
+  }
+
+  .morph-note {
+    color: var(--root-muted);
+    margin-bottom: 0;
+    font-size: 0.95rem;
+  }
+
+  .translit {
+    color: var(--root-muted);
+    font-weight: 500;
+    font-size: 0.92em;
+  }
+
+  .root-note {
+    border-right: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+    margin: 1.25rem 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-note {
+    border-right: 0;
+    border-left: 3px solid var(--root-accent);
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol { padding-left: 0; }
+
+  .root-toc li {
+    margin: 0.28rem 0;
+    break-inside: avoid;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
+  }
+
+  .root-study-page p { margin: 0.85rem 0; }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0 0.65rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent),
+      var(--root-panel);
+    color: var(--root-text);
+    unicode-bidi: isolate;
+  }
+
+  .root-study-page .translation {
+    text-align: center !important;
+    color: var(--root-muted);
+    margin-top: 0.45rem;
+  }
+
+  .root-study-page .verse-ref {
+    text-align: center !important;
+    color: var(--root-accent-deep);
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+
+  .root-study-page .arabic-large {
+    font-size: 1.12em;
+    line-height: 2.15;
+    direction: rtl;
+    unicode-bidi: isolate;
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page { padding: 2rem 1rem; }
+    .root-frame { padding: 1.25rem; border-radius: 19px; }
+    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
+    .root-toc ol { columns: 1; }
+    .morphology-grid { grid-template-columns: 1fr; }
+    .arabic-quote { font-size: 1.24rem; }
+  }
+</style>
+
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">Qur'anic Root</div>
+      <h1>The Qur'anic Root H Z N</h1>
+      <p class="root-subtitle">Grief, heaviness of the heart, and the inner path becoming rough and difficult</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>Morphological forms of this root</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#root-meaning"><div class="morph-card-header"><div class="morph-type">Root</div><div class="morph-used">Foundational meaning</div></div><div class="morph-form">ح ز ن <span class="translit">(ḥ z n)</span></div><p class="morph-note">Becoming grieved, the heart becoming heavy, and inner hardness or roughness.</p></a>
+        <a class="morph-card" href="#forms"><div class="morph-card-header"><div class="morph-type">Noun</div><div class="morph-used">Grief</div></div><div class="morph-form">حُزْن / الْحُزْن / حَزَنًا <span class="translit">(ḥuzn / al-ḥuzn / ḥazanan)</span></div><p class="morph-note">Grief, the state of grief, or the cause and quality of grief in different contexts.</p></a>
+        <a class="morph-card" href="#prophet-grief"><div class="morph-card-header"><div class="morph-type">Verb</div><div class="morph-used">Effect on the heart</div></div><div class="morph-form">يَحْزُن / يَحْزُنك / تَحْزَن <span class="translit">(yaḥzun / yaḥzunka / taḥzan)</span></div><p class="morph-note">To grieve or to make someone grieve, including the effect of other people’s words or conditions upon the heart.</p></a>
+        <a class="morph-card" href="#final-removal"><div class="morph-card-header"><div class="morph-type">Plural/address</div><div class="morph-used">Negating the rule of grief</div></div><div class="morph-form">يَحْزَنُون / تَحْزَنُون <span class="translit">(yaḥzanūn / taḥzanūn)</span></div><p class="morph-note">The grief of a group or of those addressed, especially in structures of promise and consolation.</p></a>
+      </div>
+    </section>
+
+    <p class="root-note">This page studies the Qur'anic semantic field of the root <strong class="arabic-large">ح ز ن</strong> <span class="translit">(ḥ z n)</span>: grief that weighs down the heart and makes the inner path rough, yet loses its final domination through guidance, trust, divine consolation, and the end of mercy.</p>
+
+    <nav class="root-toc" aria-label="Article section list">
+      <h2>Usage map of this root</h2>
+      <ol>
+        <li><a href="#root-meaning">Foundational Meaning</a></li>
+        <li><a href="#forms">Important Qur'anic Forms</a></li>
+        <li><a href="#core">Linguistic Core</a></li>
+        <li><a href="#material-image">Material Image of the Root</a></li>
+        <li><a href="#classical-usage">Classical Arabic Usage</a></li>
+        <li><a href="#guidance">Negation of Grief in the Promise of Guidance</a></li>
+        <li><a href="#prophet-grief">The Prophet's Grief</a></li>
+        <li><a href="#moses-mother">The Mother of Moses and the Resting of the Eye</a></li>
+        <li><a href="#maryam">Maryam and “Do Not Grieve”</a></li>
+        <li><a href="#yaqub">The Grief of Yaʿqūb</a></li>
+        <li><a href="#social-field">The Grief of Believers in the Social Field</a></li>
+        <li><a href="#satanic-grief">Grief as a Tool of Satan</a></li>
+        <li><a href="#final-removal">The Removal of Grief in the Final Outcome</a></li>
+        <li><a href="#distinctions">Distinguishing the Uses</a></li>
+        <li><a href="#structure">Structural Notes</a></li>
+        <li><a href="#near-roots">Difference from Nearby Roots</a></li>
+        <li><a href="#translation-suggestions">Translation Suggestions for Forqan</a></li>
+        <li><a href="#summary">Linguistic Summary</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="root-meaning"><h2>Foundational Meaning</h2><p>The root <strong class="arabic-large">ح ز ن</strong> <span class="translit">(ḥ z n)</span> originally points to becoming grieved, the heart becoming heavy, and the soul becoming caught in a state of hardship and constriction. In the more tangible layer of Arabic, this root is also connected to hardness, roughness, and unevenness, like rocky, hard, and difficult terrain. From this material image, its psychological meaning becomes clear: <strong class="arabic-large">حُزْن</strong> <span class="translit">(ḥuzn)</span> is a state that makes the inner path rough, heavy, and difficult.</p></section>
+
+    <section class="root-section" id="forms"><h2>Important Qur'anic Forms</h2><p>The important forms of this root in the Qur'an include <strong class="arabic-large">حزن</strong> <span class="translit">(ḥuzn)</span>, <strong class="arabic-large">الحزن</strong> <span class="translit">(al-ḥuzn)</span>, <strong class="arabic-large">حزنا</strong> <span class="translit">(ḥazanan)</span>, <strong class="arabic-large">يحزن</strong> <span class="translit">(yaḥzun)</span>, <strong class="arabic-large">يحزنك</strong> <span class="translit">(yaḥzunka)</span>, <strong class="arabic-large">تحزن</strong> <span class="translit">(taḥzan)</span>, <strong class="arabic-large">يحزنون</strong> <span class="translit">(yaḥzanūn)</span>, <strong class="arabic-large">تحزنون</strong> <span class="translit">(taḥzanūn)</span>, and <strong class="arabic-large">حزين</strong> <span class="translit">(ḥazīn)</span>. <strong class="arabic-large">حزن</strong> <span class="translit">(ḥuzn)</span> and <strong class="arabic-large">الحزن</strong> <span class="translit">(al-ḥuzn)</span> refer to grief and sorrow. <strong class="arabic-large">حزنا</strong> <span class="translit">(ḥazanan)</span> shows the state or cause of grief. <strong class="arabic-large">يحزن</strong> <span class="translit">(yaḥzun)</span> and <strong class="arabic-large">تحزن</strong> <span class="translit">(taḥzan)</span> are verbs for becoming grieved or causing grief. <strong class="arabic-large">يحزنك</strong> <span class="translit">(yaḥzunka)</span> means that something makes you grieve. <strong class="arabic-large">يحزنون</strong> <span class="translit">(yaḥzanūn)</span> and <strong class="arabic-large">تحزنون</strong> <span class="translit">(taḥzanūn)</span> also refer to a group or addressees becoming grieved.</p></section>
+
+    <section class="root-section" id="core"><h2>Linguistic Core</h2><p>The linguistic core of <strong class="arabic-large">ح ز ن</strong> <span class="translit">(ḥ z n)</span> is the hardening of the psychological path and the soul becoming heavy. In this root, grief is not merely a passing feeling; it is a state that makes the inside of the human being like uneven ground. In <strong class="arabic-large">حزن</strong> <span class="translit">(ḥuzn)</span>, a person loses inner fluidity and lightness of movement. Something settles in the heart, makes the path heavy, and makes the human being’s inner movement difficult.</p></section>
+
+    <section class="root-section" id="material-image"><h2>Material Image of the Root</h2><p>The material image of this root is hard, rocky, difficult-to-cross ground. A path that is easy to walk on soft and level earth becomes hard and slow in <strong class="arabic-large">حَزْن</strong> <span class="translit">(ḥazn)</span> terrain. Grief is like this too: it takes the heart and soul out of a fluid and peaceful state and makes the inner movement of the human being difficult.</p></section>
+
+    <section class="root-section" id="classical-usage"><h2>Classical Arabic Usage</h2><p>In classical Arabic usage, <strong class="arabic-large">حزن</strong> <span class="translit">(ḥuzn)</span> is connected to grief and sorrow, and also to the hardness and unevenness of land. Its opposite, in the material layer, is the softness and levelness of the path. From here one can understand why <strong class="arabic-large">حزن</strong> <span class="translit">(ḥuzn)</span> is used for grief: grief makes the path of the heart uneven. In the final version, if a reliable witness from pre-Islamic poetry or ancient Arabic usage is found, it can be added.</p></section>
+
+    <section class="root-section" id="guidance"><h2>Negation of Grief in the Promise of Guidance</h2><p>One important use of this root is the negation of grief in the promise of guidance:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</blockquote><p class="translation">So whoever follows My guidance, there shall be no fear upon them, nor shall they grieve.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-038' | relative_url }}">Al-Baqarah 2:38</a></p><p>In this verse, fear and grief come together. Fear is more related to anxiety about the future; grief is more related to sorrow over what has been lost, what has happened, or the inner heaviness of the present state. Divine guidance saves the human being from these two foundational pressures: fear of what lies ahead and corrosive grief over what remains behind or within the person.</p><p>The same structure is repeated many times in the Qur'an:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</blockquote><p class="translation">Be aware: the allies of The God shall have no fear upon them, nor shall they grieve.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/010-yunus/#ayah-062' | relative_url }}">Yunus 10:62</a></p><p>In this verse too, grief comes together with fear. The Qur'an does not promise that the human being will never experience any natural feeling of grief; rather, it speaks of a final security and tranquility in which destructive fear and grief do not rule over them.</p></section>
+
+    <section class="root-section" id="prophet-grief"><h2>The Prophet's Grief</h2><p>The second field is the command not to let the Prophet be consumed by grief:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">قَدْ نَعْلَمُ إِنَّهُ لَيَحْزُنُكَ الَّذِي يَقُولُونَ</blockquote><p class="translation">We certainly know that what they say grieves you.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/006-al-anam/#ayah-033' | relative_url }}">Al-An'am 6:33</a></p><p>This verse is very important because it does not deny the Prophet’s grief. The God says that He knows their words grieve the Prophet. So grief in the Qur'an is not, by itself, a sign of weak faith; it is a human response to denial, harm, loss, or hardship.</p><p>In another verse it says:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">فَلَا يَحْزُنكَ قَوْلُهُمْ ۘ إِنَّا نَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ</blockquote><p class="translation">So do not let their speech grieve you; We know what they conceal and what they make public.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/036-ya-sin/#ayah-076' | relative_url }}">Ya-Sin 36:76</a></p><p>Here, the prohibition of grief does not mean blaming the emotion; rather, it is consolation and protection of the Prophet from inner erosion. The God knows the reality, so the weight of their speech should not break the Prophet’s soul or slow his movement.</p></section>
+
+    <section class="root-section" id="moses-mother"><h2>The Mother of Moses and the Resting of the Eye</h2><p>The third field is grief in the story of Moses and his mother:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">فَرَدَدْنَاهُ إِلَىٰ أُمِّهِ كَيْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ</blockquote><p class="translation">So We returned him to his mother, so that her eye might find rest and she would not grieve.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/028-al-qasas/#ayah-013' | relative_url }}">Al-Qasas 28:13</a></p><p>In this verse, the grief of Moses’ mother stands opposite to <strong class="arabic-large">قرة عين</strong> <span class="translit">(qurrat ʿayn)</span>. The child’s return gives rest to the mother’s eye and removes grief from her. This contrast is important: grief makes the heart hard and unsettled, while <strong class="arabic-large">قرة عين</strong> <span class="translit">(qurrat ʿayn)</span> gives rest and settlement to the eye and heart.</p><p>The same meaning appears in Taha:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">فَرَجَعْنَاكَ إِلَىٰ أُمِّكَ كَيْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ</blockquote><p class="translation">So We returned you to your mother, so that her eye might find rest and she would not grieve.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/020-ta-ha/#ayah-040' | relative_url }}">Ta-Ha 20:40</a></p><p>Here, grief arose from separation, fear, and not knowing. The removal of grief comes together with return, security, and the eye finding rest. This shows that the Qur'an sometimes does not treat grief only through an inner command, but removes it by restoring a bond and creating real tranquility.</p></section>
+
+    <section class="root-section" id="maryam"><h2>Maryam and “Do Not Grieve”</h2><p>The fourth field is grief in the story of Maryam:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">فَنَادَاهَا مِن تَحْتِهَا أَلَّا تَحْزَنِي</blockquote><p class="translation">Then he called her from below her: Do not grieve.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/019-maryam/#ayah-024' | relative_url }}">Maryam 19:24</a></p><p>Maryam is in an extremely difficult moment: loneliness, labor pain, social anxiety, and an unknown future. The address <strong class="arabic-large">لا تحزني</strong> <span class="translit">(lā taḥzanī)</span> in this context is not blame; it opens a path of tranquility. So in the Qur'an, the prohibition of grief sometimes comes together with real causes of tranquility being provided, not merely as a dry psychological command.</p></section>
+
+    <section class="root-section" id="yaqub"><h2>The Grief of Yaʿqūb</h2><p>The fifth field is the grief of Yaʿqūb:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَا أَسَفَىٰ عَلَىٰ يُوسُفَ وَابْيَضَّتْ عَيْنَاهُ مِنَ الْحُزْنِ فَهُوَ كَظِيمٌ</blockquote><p class="translation">And he turned away from them and said: O my sorrow over Yusuf; and his eyes became white from grief, while he was restraining himself.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/012-yusuf/#ayah-084' | relative_url }}">Yusuf 12:84</a></p><p>In this verse, Yaʿqūb’s grief is so intense that it produces a bodily effect. The Qur'an narrates this grief as the human reality of a prophet. Yaʿqūb has grief and also <strong class="arabic-large">كظم</strong> <span class="translit">(kaẓm)</span>; that is, he swallows the grief and holds himself together. So grief is not incompatible with patience and faith; the issue is that grief must not separate the human being from The God.</p><p>In the same story, Yaʿqūb says:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ إِنَّمَا أَشْكُو بَثِّي وَحُزْنِي إِلَى اللَّهِ</blockquote><p class="translation">He said: I only complain of my outpoured distress and my grief to The God.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/012-yusuf/#ayah-086' | relative_url }}">Yusuf 12:86</a></p><p>Here, grief comes together with <strong class="arabic-large">بث</strong> <span class="translit">(bathth)</span>. <strong class="arabic-large">بث</strong> <span class="translit">(bathth)</span> is a grief that fills the inside and needs to be poured out; <strong class="arabic-large">حزن</strong> <span class="translit">(ḥuzn)</span> is the heaviness and unevenness of the heart. Yaʿqūb does not hand his grief over to people so that they may distance him from The God; he presents it to The God.</p></section>
+
+    <section class="root-section" id="social-field"><h2>The Grief of Believers in the Social Field</h2><p>The sixth field is the grief of believers in the social and striving field:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ</blockquote><p class="translation">Do not weaken and do not grieve, while you are higher, if you are believers.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/003-al-imran/#ayah-139' | relative_url }}">Al-Imran 3:139</a></p><p>In this verse, grief appears after defeat, pressure, or collective injury. The Qur'an places grief next to weakness. This means that if grief is not managed, it can weaken collective resolve. The prohibition in the verse is meant to return the believers to steadiness and faithful dignity.</p><p>In another verse, about those who did not have the means to take part in the field, it says:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">تَوَلَّوا وَّأَعْيُنُهُمْ تَفِيضُ مِنَ الدَّمْعِ حَزَنًا أَلَّا يَجِدُوا مَا يُنفِقُونَ</blockquote><p class="translation">They turned away while their eyes overflowed with tears, out of grief that they could not find anything to spend.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/009-at-tawbah/#ayah-092' | relative_url }}">At-Tawbah 9:92</a></p><p>Here, grief is pure and responsible sorrow. They are grieved because they do not have the ability to participate. This verse shows that not every grief in the Qur'an is negative; sometimes grief arises from sincerity of intention and real inability.</p></section>
+
+    <section class="root-section" id="satanic-grief"><h2>Grief as a Tool of Satan</h2><p>The seventh field is grief as a tool of Satan:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّمَا النَّجْوَىٰ مِنَ الشَّيْطَانِ لِيَحْزُنَ الَّذِينَ آمَنُوا</blockquote><p class="translation">Private whispering is only from Satan, so that he may grieve those who have believed.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/058-al-mujadilah/#ayah-010' | relative_url }}">Al-Mujadilah 58:10</a></p><p>In this verse, Satan uses private whispering to create grief among the believers. This grief is not merely a simple feeling; its aim is to make the heart heavy, create suspicion, break collective tranquility, and slow the movement of the believers. Whispering makes the psychological space uneven; a person feels that something hidden is happening against them, and this feeling can distance them from trust, action, and tranquility.</p><p>So satanic grief is a kind of psychological immobilization. The Qur'an immediately clarifies that this does not harm without the permission of The God and that believers should trust in The God. The treatment of this grief, then, is returning to divine trust and leaving the ambiguous atmosphere Satan creates.</p></section>
+
+    <section class="root-section" id="final-removal"><h2>The Removal of Grief in the Final Outcome</h2><p>The eighth field is the removal of grief in Paradise and in the final outcome of the believers:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">وَقَالُوا الْحَمْدُ لِلَّهِ الَّذِي أَذْهَبَ عَنَّا الْحَزَنَ</blockquote><p class="translation">And they said: Praise belongs to The God, who has taken grief away from us.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/035-fatir/#ayah-034' | relative_url }}">Fatir 35:34</a></p><p>In this verse, <strong class="arabic-large">الحزن</strong> <span class="translit">(al-ḥuzn)</span> comes in a general form. The people of Paradise say that The God has taken grief away from them. This shows that the world is a field of grief, loss, anxiety, toil, and unevenness; but in the final outcome of mercy, grief is removed.</p><p>The same meaning appears in the address to the servants of The God:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">يَا عِبَادِ لَا خَوْفٌ عَلَيْكُمُ الْيَوْمَ وَلَا أَنتُمْ تَحْزَنُونَ</blockquote><p class="translation">O My servants, today there is no fear upon you, nor shall you grieve.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/043-az-zukhruf/#ayah-068' | relative_url }}">Az-Zukhruf 43:68</a></p><p>Here too, fear and grief are negated together. The day of final outcome, for the servants of The God, is a day in which fear of the future and grief over the past do not rule over them.</p></section>
+
+    <section class="root-section" id="distinctions"><h2>Distinguishing the Uses</h2><p>One must distinguish between the uses of <strong class="arabic-large">ح ز ن</strong> <span class="translit">(ḥ z n)</span>. The Prophet’s grief over denial is human sorrow in response to harm and rejection. Yaʿqūb’s grief is the grief of loss and separation. The grief of Moses’ mother is the grief of separation and anxiety. Maryam’s grief is the grief of loneliness and social pressure. The grief of believers after hardship can make their resolve heavy. The grief of those who cannot spend is the grief of sincerity and responsibility. Satanic grief is grief manufactured to break the psychology of the believers. The removal of grief in the Hereafter is the removal of the foundational unevenness of the soul.</p></section>
+
+    <section class="root-section" id="structure"><h2>Structural Notes</h2><p>Structurally, the expression <strong class="arabic-large">لا خوف عليهم ولا هم يحزنون</strong> <span class="translit">(lā khawfun ʿalayhim wa-lā hum yaḥzanūn)</span> is very important. Fear faces more toward the future; grief is more connected to the past, loss, bitter events, or the heaviness of the present. <strong class="arabic-large">لا تحزن</strong> <span class="translit">(lā taḥzan)</span> in the Qur'an is not always a dry emotional prohibition; sometimes it is consolation, support, and returning the human being to trust. <strong class="arabic-large">يحزنك</strong> <span class="translit">(yaḥzunka)</span> shows that the words, behavior, or condition of others can affect the human heart. <strong class="arabic-large">أذهب عنا الحزن</strong> <span class="translit">(adhhaba ʿannā al-ḥuzn)</span> shows that grief is something The God can take away from the human being.</p></section>
+
+    <section class="root-section" id="near-roots"><h2>Difference from Nearby Roots</h2><p><strong class="arabic-large">ح ز ن</strong> <span class="translit">(ḥ z n)</span> differs from several nearby roots. <strong class="arabic-large">خوف</strong> <span class="translit">(khawf)</span> relates to fear of danger or the future; <strong class="arabic-large">حزن</strong> <span class="translit">(ḥuzn)</span> relates to grief and heaviness of the heart. <strong class="arabic-large">غم</strong> <span class="translit">(ghamm)</span> is closer to being covered over and surrounded by pressure; <strong class="arabic-large">حزن</strong> <span class="translit">(ḥuzn)</span> is closer to unevenness and psychological hardship. <strong class="arabic-large">أسف</strong> <span class="translit">(asaf)</span> is grief with regret, sorrow, or intense emotional pain, as in <strong class="arabic-large">يا أسفى على يوسف</strong> <span class="translit">(yā asafā ʿalā Yūsuf)</span>. <strong class="arabic-large">كرب</strong> <span class="translit">(karb)</span> is close to severe distress and pressure that constricts the breath. <strong class="arabic-large">ضيق</strong> <span class="translit">(ḍayq)</span> is narrowness and pressure in the chest or space; <strong class="arabic-large">حزن</strong> <span class="translit">(ḥuzn)</span> is more specifically grief and the unevenness of the heart. <strong class="arabic-large">بث</strong> <span class="translit">(bathth)</span> is grief that fills the inside and needs to be poured out. <strong class="arabic-large">همّ</strong> <span class="translit">(hamm)</span> is close to heavy mental concern; <strong class="arabic-large">حزن</strong> <span class="translit">(ḥuzn)</span> is grief settled in the heart.</p></section>
+
+    <section class="root-section" id="translation-suggestions"><h2>Translation Suggestions for Forqan</h2><p>For translation in Forqan, <strong class="arabic-large">ح ز ن</strong> <span class="translit">(ḥ z n)</span> must be translated according to context. <strong class="arabic-large">حزن</strong> <span class="translit">(ḥuzn)</span> can be “grief,” “being grieved,” “sorrow,” or “the heaviness of grief.” <strong class="arabic-large">لا تحزن</strong> <span class="translit">(lā taḥzan)</span> is better translated as “do not grieve” or “do not let grief break you,” depending on the context. <strong class="arabic-large">لا هم يحزنون</strong> <span class="translit">(lā hum yaḥzanūn)</span> can be “nor shall they grieve” or “nor shall grief dominate them.” <strong class="arabic-large">الحزن</strong> <span class="translit">(al-ḥuzn)</span> in Fatir 35:34 is better translated as “grief” or “all grief.” <strong class="arabic-large">حزنا</strong> <span class="translit">(ḥazanan)</span> in At-Tawbah 9:92 is “out of grief.” <strong class="arabic-large">يحزنك قولهم</strong> <span class="translit">(yaḥzunka qawluhum)</span> means “do not let their speech grieve you.”</p></section>
+
+    <section class="root-section" id="summary"><h2>Linguistic Summary</h2><p>Linguistic summary: the root <strong class="arabic-large">ح ز ن</strong> <span class="translit">(ḥ z n)</span> points to becoming grieved, the heart becoming heavy, and, in the material layer, hardness and unevenness. Its material image is rocky ground and a difficult path; its inner image is a heart whose path has become rough and heavy because of grief. In the Qur'an, this root extends from the grief of prophets to the grief of a mother and believers, from pure responsible grief to satanic grief, and from the consoling prohibition <strong class="arabic-large">لا تحزن</strong> <span class="translit">(lā taḥzan)</span> to the complete removal of grief in the Hereafter. Its difference from fear is that fear is more related to the future and the danger ahead, while grief relates to the sorrow of loss, the pressure of events, and the inner heaviness of the heart.</p></section>
+  </div>
+</div>
