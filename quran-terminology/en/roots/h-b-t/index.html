@@ -1,0 +1,268 @@
+---
+layout: default
+title: The Qur'anic Root H B T
+permalink: /quran-terminology/en/roots/h-b-t/
+---
+<style>
+.root-study-page {
+  --root-card: #fffaf1;
+  --root-panel: #fffdf7;
+  --root-section: #fffaf2;
+  --root-text: #2f2a22;
+  --root-muted: #6d6255;
+  --root-border: rgba(148, 114, 55, 0.28);
+  --root-border-soft: rgba(148, 114, 55, 0.16);
+  --root-accent: #b9852f;
+  --root-accent-deep: #8b6423;
+  --root-accent-soft: rgba(185, 133, 47, 0.11);
+  --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 3.5rem 1.25rem;
+  line-height: 2.05;
+  color: var(--root-text);
+}
+body.dark .root-study-page,
+body.dark-mode .root-study-page,
+html.dark .root-study-page,
+html.dark-mode .root-study-page,
+[data-theme="dark"] .root-study-page,
+.dark .root-study-page {
+  --root-card: #142238;
+  --root-panel: #1b2a40;
+  --root-section: rgba(255, 255, 255, 0.035);
+  --root-text: #eee8dc;
+  --root-muted: #c7bdab;
+  --root-border: rgba(214, 176, 95, 0.28);
+  --root-border-soft: rgba(214, 176, 95, 0.16);
+  --root-accent: #d6b05f;
+  --root-accent-deep: #f0cf7a;
+  --root-accent-soft: rgba(214, 176, 95, 0.12);
+  --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+}
+.root-study-page * { box-sizing: border-box; }
+.root-study-page h1,
+.root-study-page h2,
+.root-study-page h3,
+.root-study-page p,
+.root-study-page li { direction: rtl; text-align: right; }
+.root-study-page.forqan-page-ltr h1,
+.root-study-page.forqan-page-ltr h2,
+.root-study-page.forqan-page-ltr h3,
+.root-study-page.forqan-page-ltr p,
+.root-study-page.forqan-page-ltr li { direction: ltr; text-align: left; }
+.root-frame {
+  background: radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%), var(--root-card);
+  border: 1px solid var(--root-border);
+  border-radius: 26px;
+  padding: 2.4rem;
+  box-shadow: var(--root-shadow);
+}
+.root-hero { border-bottom: 1px solid var(--root-border-soft); padding-bottom: 1.65rem; margin-bottom: 2rem; }
+.root-kicker { color: var(--root-accent-deep); font-size: 0.96rem; font-weight: 800; margin-bottom: 0.45rem; }
+.root-study-page h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.05rem); line-height: 1.4; color: var(--root-text); }
+.root-subtitle { color: var(--root-muted); max-width: 780px; margin: 1rem 0 0; font-size: 1.04rem; }
+.root-forms-card,
+.root-note,
+.root-toc,
+.root-section {
+  background: linear-gradient(180deg, var(--root-accent-soft), transparent 82%), var(--root-panel);
+  border: 1px solid var(--root-border);
+  border-radius: 20px;
+  padding: 1.35rem 1.55rem;
+  margin: 1.55rem 0;
+}
+.root-section { background: var(--root-section); }
+.root-forms-card h2,
+.root-toc h2,
+.root-section h2 { margin-top: 0; color: var(--root-accent-deep); }
+.root-morphology-intro { color: var(--root-muted); margin-top: 0; }
+.morphology-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+.morph-card { background: var(--root-card); border: 1px solid var(--root-border-soft); border-radius: 18px; padding: 1rem; }
+.morph-card-header { display: flex; justify-content: space-between; gap: 0.75rem; align-items: flex-start; margin-bottom: 0.8rem; }
+.morph-type { color: var(--root-accent-deep); font-weight: 800; }
+.morph-used { border: 1px solid var(--root-border); border-radius: 999px; padding: 0.18rem 0.65rem; color: var(--root-accent-deep); font-weight: 700; font-size: 0.9rem; white-space: nowrap; }
+.morph-form { font-size: 1.45rem; font-weight: 800; margin: 0.55rem 0; }
+.morph-translit { color: var(--root-muted); font-weight: 700; margin-bottom: 0.55rem; }
+.morph-note { margin-bottom: 0; color: var(--root-text); }
+.root-toc ol { margin: 0.75rem 0 0; padding-right: 1.25rem; }
+.forqan-page-ltr .root-toc ol { padding-right: 0; padding-left: 1.25rem; }
+.root-toc a { color: var(--root-accent-deep); font-weight: 700; text-decoration: none; border-bottom: 1px solid var(--root-border); }
+.arabic-quote { margin: 1.1rem 0; padding: 1rem 1.2rem; border-right: 4px solid var(--root-accent); background: var(--root-card); border-radius: 16px; font-size: 1.25rem; font-weight: 750; line-height: 2.15; }
+.forqan-page-ltr .arabic-quote { text-align: right; direction: rtl; border-right: 4px solid var(--root-accent); }
+.translation { color: var(--root-muted); font-weight: 650; }
+.root-study-page a { color: var(--root-accent-deep); font-weight: 750; }
+@media (max-width: 760px) {
+  .root-study-page { padding: 2rem 0.85rem; }
+  .root-frame { padding: 1.25rem; border-radius: 20px; }
+  .morphology-grid { grid-template-columns: 1fr; }
+  .morph-card-header { flex-direction: column; }
+}
+</style>
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">Qur'anic Root</div>
+      <h1>The Qur'anic Root H B T</h1>
+      <p class="root-subtitle">Descending, coming down, and moving into a lower, more earthly, or more limited field.</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>Morphological forms of this root</h2>
+      <p class="root-morphology-intro">The Qur'anic form of this root is limited. In the Qur'an, ه ب ط (h-b-t) appears only as Form I verbs.</p>
+      <div class="morphology-grid">
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Plural imperative</div>
+            <div class="morph-used">Used in the Qur'an: Yes</div>
+          </div>
+          <div class="morph-form">اهْبِطُوا</div>
+          <div class="morph-translit">ihbiṭū</div>
+          <p class="morph-note">Descend, all of you; used in the context of Adam and those with him, and also in response to the request of the Children of Israel.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Singular imperative</div>
+            <div class="morph-used">Used in the Qur'an: Yes</div>
+          </div>
+          <div class="morph-form">اهْبِطْ</div>
+          <div class="morph-translit">ihbiṭ</div>
+          <p class="morph-note">Descend; used for Iblis with expulsion, and for Nuh with peace and blessing.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Dual imperative</div>
+            <div class="morph-used">Used in the Qur'an: Yes</div>
+          </div>
+          <div class="morph-form">اهْبِطَا</div>
+          <div class="morph-translit">ihbiṭā</div>
+          <p class="morph-note">Descend, both of you; appears in Surah Taha and points to the beginning of a new relation on earth.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">Imperfect verb</div>
+            <div class="morph-used">Used in the Qur'an: Yes</div>
+          </div>
+          <div class="morph-form">يَهْبِطُ</div>
+          <div class="morph-translit">yahbiṭu</div>
+          <p class="morph-note">It descends; used for stones that descend from خشية الله (khashyat Allāh), awe of God.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="root-note">
+      <p>The root ه ب ط (h-b-t) fundamentally points to descending, coming down, and transferring from a higher place or state to a lower and more earthly place or state.</p>
+    </div>
+
+    <nav class="root-toc" aria-label="Article section list">
+      <h2>Usage map of this root</h2>
+      <ol>
+        <li><a href="#foundational-meaning">Foundational meaning</a></li>
+        <li><a href="#material-image">Material image and early Arabic usage</a></li>
+        <li><a href="#adam-descent">The descent of Adam and entry into earth</a></li>
+        <li><a href="#iblis-descent">The descent of Iblis</a></li>
+        <li><a href="#israelites-descent">The descent of the Children of Israel</a></li>
+        <li><a href="#stones-descent">The descent of stones</a></li>
+        <li><a href="#nuh-descent">The descent of Nuh</a></li>
+        <li><a href="#distinctions">Distinguishing uses and structures</a></li>
+        <li><a href="#near-roots">Difference from nearby roots</a></li>
+        <li><a href="#translation-suggestions">Translation suggestions</a></li>
+        <li><a href="#summary">Linguistic summary</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="foundational-meaning">
+      <h2>Foundational meaning</h2>
+      <p>The root ه ب ط (h-b-t) fundamentally points to descending, coming down, and transferring from a higher place or state to a lower and more earthly place or state. This coming down is not always an involuntary fall. Sometimes it is commanded, sometimes it is joined with expulsion, sometimes it is entry into a new stage of life, and sometimes it only shows physical descent from a height.</p>
+      <p>The Qur'anic form of this root is limited. In the Qur'an, ه ب ط (h-b-t) appears only as Form I verbs: اهْبِطُوا (ihbiṭū), اهْبِطْ (ihbiṭ), اهْبِطَا (ihbiṭā), and يَهْبِطُ (yahbiṭu). No broad verbal noun or derived noun from this root appears in the Qur'an. This limitation itself shows that meaning must be taken carefully from each separate use.</p>
+      <p>The linguistic core of ه ب ط (h-b-t) is descent from a higher level to a lower level, but this descent often carries a sense of weight, transfer, and entry into a heavier or more restricted field. For this reason, هبوط (hubūṭ) is not the same as نزول (nuzūl). نزول (nuzūl) is a broader word and can be used for rain, the Book, angels, or any coming down from above. But هبوط (hubūṭ) points more to the descent of an agent or thing from a previous place into a lower, more earthly, or harder field.</p>
+    </section>
+
+    <section class="root-section" id="material-image">
+      <h2>Material image and early Arabic usage</h2>
+      <p>The material image of the root is coming down from a height: a stone that comes down from a mountain, a traveler who reaches the plain from an elevation, or someone who descends from a high place to the earth. In the Qur'an, this image sometimes takes on an existential meaning: Adam and those with him enter the earth from a previous state; Iblis is driven down from a position where arrogance was not permissible; the Children of Israel are transferred from what was better to a lower level of earthly wants; and Nuh descends with peace and blessing.</p>
+      <p>In classical Arabic usage, هبوط (hubūṭ) is connected with coming down from a height, descending into land or a city, and sometimes with decreasing or coming down in rank. In the final version, if a reliable witness from pre-Islamic poetry or early Arabic usage is found, it can be added.</p>
+    </section>
+
+    <section class="root-section" id="adam-descent">
+      <h2>The descent of Adam and entry into earth</h2>
+      <p>The first important Qur'anic field of this root is the descent of Adam and those with him:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَقُلْنَا اهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ</blockquote>
+      <p class="translation">And We said: Descend; some of you will be enemies to others, and for you on the earth there will be a place of settlement and enjoyment for a time.</p>
+      <p><a href="{{ '/quran-reflection/en/002-al-baqarah/036/' | relative_url }}">Al-Baqarah 2:36</a></p>
+      <p>In this verse, هبوط (hubūṭ) is not only spatial movement. It is joined with earth, enmity, settlement, and limited enjoyment. That means the human being enters a stage in which place, time, conflict, effort, and testing acquire meaning. The earth in this verse is not only a place of exile; it is the field of life, responsibility, guidance, and choice.</p>
+      <p>Soon after, the same command is repeated:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قُلْنَا اهْبِطُوا مِنْهَا جَمِيعًا فَإِمَّا يَأْتِيَنَّكُم مِّنِّي هُدًى</blockquote>
+      <p class="translation">We said: Descend from it, all of you; then if guidance comes to you from Me...</p>
+      <p><a href="{{ '/quran-reflection/en/002-al-baqarah/038/' | relative_url }}">Al-Baqarah 2:38</a></p>
+      <p>Here منها (minhā), “from it,” shows that هبوط (hubūṭ) is from a previous state or place. But the continuation of the verse is important: after هبوط (hubūṭ), guidance comes. Therefore, the descent of Adam does not mean being abandoned in darkness; it is the beginning of the earthly stage of the human being, together with the possibility of guidance.</p>
+      <p>In Surah Al-A'raf, it also comes:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ اهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ</blockquote>
+      <p class="translation">He said: Descend; some of you will be enemies to others, and for you on the earth there will be a place of settlement and enjoyment for a time.</p>
+      <p><a href="{{ '/quran-reflection/en/007-al-araf/024/' | relative_url }}">Al-A'raf 7:24</a></p>
+      <p>In this verse, هبوط (hubūṭ) is tied to the earth and temporary enjoyment. The human being enters a field in which he does not have absolute stability, but rather مستقر (mustaqarr) and متاع إلى حين (matāʿ ilā ḥīn): a place of settlement and enjoyment until a specified time.</p>
+      <p>In Surah Taha, the dual form appears:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ اهْبِطَا مِنْهَا جَمِيعًا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ</blockquote>
+      <p class="translation">He said: Descend from it, both of you, all together, while some of you will be enemies to others.</p>
+      <p><a href="{{ '/quran-reflection/en/020-taha/123/' | relative_url }}">Taha 20:123</a></p>
+      <p>The difference in forms is worth attention. In Al-Baqarah and Al-A'raf, the plural form اهْبِطُوا (ihbiṭū) shows the broad field of هبوط (hubūṭ): Adam, his wife, Satan, and the historical continuation of this opposition on earth. In Taha, the dual form اهْبِطَا (ihbiṭā) can bring attention closer to the two main sides of the earthly conflict: the human being and the agent of whispering/enmity. This point must be stated with caution, because the Qur'anic text does not give more detail; but the change in form shows that هبوط (hubūṭ) is not only a simple spatial movement, but the beginning of a new relation on earth.</p>
+    </section>
+
+    <section class="root-section" id="iblis-descent">
+      <h2>The descent of Iblis</h2>
+      <p>The second field is the descent of Iblis:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ فَاهْبِطْ مِنْهَا فَمَا يَكُونُ لَكَ أَن تَتَكَبَّرَ فِيهَا فَاخْرُجْ إِنَّكَ مِنَ الصَّاغِرِينَ</blockquote>
+      <p class="translation">He said: Then descend from it; it is not for you to be arrogant in it. So get out; indeed, you are among the lowly.</p>
+      <p><a href="{{ '/quran-reflection/en/007-al-araf/013/' | relative_url }}">Al-A'raf 7:13</a></p>
+      <p>This هبوط (hubūṭ) is not the same as the هبوط (hubūṭ) of Adam. In the case of Iblis, هبوط (hubūṭ) is joined with arrogance, exit, and صغار (ṣaghār), lowliness. That means his coming down carries the color of expulsion and decrease in rank. He is driven down from a place where arrogance was not acceptable. So هبوط (hubūṭ) here is not merely spatial descent; it is falling down from a rank that was incompatible with kibr.</p>
+    </section>
+
+    <section class="root-section" id="israelites-descent">
+      <h2>The descent of the Children of Israel</h2>
+      <p>The third field is the descent of the Children of Israel to Egypt or to a more earthly city:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ أَتَسْتَبْدِلُونَ الَّذِي هُوَ أَدْنَىٰ بِالَّذِي هُوَ خَيْرٌ اهْبِطُوا مِصْرًا فَإِنَّ لَكُم مَّا سَأَلْتُمْ</blockquote>
+      <p class="translation">He said: Do you exchange what is lower for what is better? Descend to a city/Egypt, for you will have what you asked for.</p>
+      <p><a href="{{ '/quran-reflection/en/002-al-baqarah/061/' | relative_url }}">Al-Baqarah 2:61</a></p>
+      <p>In this verse, هبوط (hubūṭ) is connected with أدنى (adnā), lower, and خير (khayr), better. The Children of Israel asked for something more earthly and ordinary, in contrast to provision that, in the context of the verses, was joined with divine blessing and training. اهْبِطُوا مِصْرًا (ihbiṭū miṣran) here is not only going to a place; it is the response to a request that chose the lower level in place of what was better. So هبوط (hubūṭ) is entry into a more limited and more ordinary level of material life.</p>
+    </section>
+
+    <section class="root-section" id="stones-descent">
+      <h2>The descent of stones</h2>
+      <p>The fourth field is the descent of stones:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِنَّ مِنَ الْحِجَارَةِ لَمَا يَهْبِطُ مِنْ خَشْيَةِ اللَّهِ</blockquote>
+      <p class="translation">And indeed, among stones there are some that descend from awe of God.</p>
+      <p><a href="{{ '/quran-reflection/en/002-al-baqarah/074/' | relative_url }}">Al-Baqarah 2:74</a></p>
+      <p>Here the root remains close to its material image: a stone comes down from its place or falls down. But the verse connects it with خشية الله (khashyat Allāh), awe of God. In the context of the verse, hearts harder than stones are criticized, while stones have response and awe before God. Therefore, the هبوط (hubūṭ) of the stone has both a physical image and a role in moral comparison.</p>
+    </section>
+
+    <section class="root-section" id="nuh-descent">
+      <h2>The descent of Nuh</h2>
+      <p>The fifth field is the descent of Nuh after the flood:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قِيلَ يَا نُوحُ اهْبِطْ بِسَلَامٍ مِّنَّا وَبَرَكَاتٍ عَلَيْكَ وَعَلَىٰ أُمَمٍ مِّمَّن مَّعَكَ</blockquote>
+      <p class="translation">It was said: O Nuh, descend with peace from Us and blessings upon you and upon communities from those with you.</p>
+      <p><a href="{{ '/quran-reflection/en/011-hud/048/' | relative_url }}">Hud 11:48</a></p>
+      <p>This هبوط (hubūṭ) has no negative burden. After passing through the flood, Nuh enters a new stage with peace and blessing. This verse shows that هبوط (hubūṭ) is not always expulsion or moral demotion; sometimes it is safe, blessed descent and a new beginning.</p>
+    </section>
+
+    <section class="root-section" id="distinctions">
+      <h2>Distinguishing uses and structures</h2>
+      <p>The uses of ه ب ط (h-b-t) must be distinguished. The هبوط (hubūṭ) of Adam is entry into earth and the beginning of the history of testing. The هبوط (hubūṭ) of Iblis is being driven down because of arrogance and صغار (ṣaghār), lowliness. The هبوط (hubūṭ) of the Children of Israel is the response to choosing أدنى (adnā), what is lower, instead of خير (khayr), what is better, and entering the lower level of material wants. The هبوط (hubūṭ) of stones is physical descent in the context of awe. The هبوط (hubūṭ) of Nuh is descent with peace and blessing after the flood.</p>
+      <p>Structurally, the form and preposition matter in this root. اهْبِطُوا مِنْهَا (ihbiṭū minhā) shows descent from a previous place or state. فِي الْأَرْضِ مُسْتَقَرٌّ (fī al-arḍi mustaqarr) clarifies the destination and earthly result of Adam's هبوط (hubūṭ). فَاهْبِطْ مِنْهَا (fa-ihbiṭ minhā), about Iblis, is joined with فَاخْرُجْ (fa-ukhruj), so it has the color of expulsion. اهْبِطُوا مِصْرًا (ihbiṭū miṣran) shows an earthly and urban destination. اهْبِطْ بِسَلَامٍ مِّنَّا (ihbiṭ bi-salāmin minnā) shows that هبوط (hubūṭ) can be accompanied by safety and blessing.</p>
+    </section>
+
+    <section class="root-section" id="near-roots">
+      <h2>Difference from nearby roots</h2>
+      <p>ه ب ط (h-b-t) differs from several nearby roots. ن ز ل (n-z-l) is more general and more neutral descent; it can be used for the Book, rain, angels, or a guest. هبوط (hubūṭ) carries more of a sense of coming down into a heavier, more earthly, or more limited field. سقوط (suqūṭ) is close to falling and sudden collapse, but هبوط (hubūṭ) can be commanded and stage-like. هوي (h-w-y) is close to falling down or moving on a downward path, sometimes with speed and collapse; but هبوط (hubūṭ) is not necessarily an uncontrolled fall. خروج (khurūj) points to going out from a boundary; هبوط (hubūṭ) is sometimes joined with خروج (khurūj), but it itself has the direction of descent and coming down.</p>
+    </section>
+
+    <section class="root-section" id="translation-suggestions">
+      <h2>Translation suggestions for Forqan</h2>
+      <p>For translation in Forqan, ه ب ط (h-b-t) must be translated according to context. In the story of Adam, “descend” or “descend to the earth” is suitable, with explanation that the meaning is not only spatial movement, but entry into the earthly stage of testing. About Iblis, “descend” alongside “get out” must preserve the burden of expulsion and decrease in rank. About the Children of Israel, “descend to a city” or “go down to a city” may be suitable, but its connection with أدنى (adnā) must be seen. About Nuh, “descend with peace and blessing” must preserve the positive burden and new beginning.</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>Linguistic summary</h2>
+      <p>Linguistic summary: the root ه ب ط (h-b-t) points to descending, coming down, and transferring from a higher place or state to a lower, more earthly, or more limited stage. Its material image is coming down from a height, but in the Qur'an this image takes on several fields: the هبوط (hubūṭ) of Adam to earth and testing, the هبوط (hubūṭ) of Iblis because of arrogance and expulsion, the هبوط (hubūṭ) of the Children of Israel to the level of lower wants, the هبوط (hubūṭ) of stone from awe of God, and the هبوط (hubūṭ) of Nuh with peace and blessing after the flood. Its difference from نزول (nuzūl) is that نزول (nuzūl) is more general and more neutral, while هبوط (hubūṭ) carries more of a sense of descent into a heavier, more limited, or more earthly level.</p>
+    </section>
+  </div>
+</div>
