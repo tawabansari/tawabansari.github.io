@@ -1,0 +1,467 @@
+---
+layout: default
+title: The Qur’anic Root M T AYN (M T ʿ)
+permalink: /quran-terminology/en/roots/m-t-ayn/
+---
+
+<style>
+  .root-study-page .arabic-large {
+    font-size: 1.12em;
+    line-height: 2.15;
+  }
+
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark-theme .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-frame {
+    background: radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%), var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    color: var(--root-text);
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent 82%), var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 0.85rem;
+  }
+
+  .morph-card {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem;
+    background: var(--root-section);
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    color: var(--root-muted);
+    font-size: 0.92rem;
+    font-weight: 700;
+  }
+
+  .morph-form {
+    margin-top: 0.7rem;
+    font-weight: 800;
+    color: var(--root-accent-deep);
+  }
+
+  .morph-note {
+    margin-bottom: 0;
+    color: var(--root-muted);
+  }
+
+  .translit {
+    font-size: 0.92em;
+    color: var(--root-muted);
+    font-weight: 650;
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-right: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0 0.6rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent), var(--root-panel);
+    color: var(--root-text);
+  }
+
+  .translation {
+    color: var(--root-muted);
+    font-weight: 650;
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page {
+      padding: 2rem 1rem;
+    }
+
+    .root-frame {
+      padding: 1.25rem;
+      border-radius: 19px;
+    }
+
+    .root-section,
+    .root-forms-card,
+    .root-toc {
+      padding: 1rem;
+    }
+
+    .root-toc ol {
+      columns: 1;
+    }
+  }
+</style>
+
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">Qur’anic Root</div>
+      <h1>The Qur’anic Root M T AYN (M T ʿ)</h1>
+      <p class="root-subtitle">Time-bound benefit, usable provision, temporary enjoyment, and tools for the road; <em>matāʿ</em> is equipment for the journey, not the place of final settlement.</p>
+    </section>
+
+    <section class="root-forms-card" id="forms-covered">
+      <h2>Important Forms from This Root</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#root-meaning">
+          <div class="morph-card-header">
+            <div class="morph-type">Root</div>
+            <div class="morph-used">Used in the Qur’an: Yes</div>
+          </div>
+          <div class="morph-form arabic-large">م ت ع <span class="translit">(m t ʿ)</span></div>
+          <p class="morph-note">Time-bound benefit, making use of something on the way, and enjoyment that comes to an end.</p>
+        </a>
+
+        <a class="morph-card" href="#important-forms">
+          <div class="morph-card-header">
+            <div class="morph-type">Nominal Form</div>
+            <div class="morph-used">Central</div>
+          </div>
+          <div class="morph-form arabic-large">مَتَاع، أَمْتِعَة <span class="translit">(matāʿ, amtiʿah)</span></div>
+          <p class="morph-note">A tool, load, equipment, goods, or a benefit taken from life or from a blessing.</p>
+        </a>
+
+        <a class="morph-card" href="#good-provision">
+          <div class="morph-card-header">
+            <div class="morph-type">Giving Benefit</div>
+            <div class="morph-used">Form II</div>
+          </div>
+          <div class="morph-form arabic-large">مَتَّعَ، يُمَتِّع، أُمَتِّعُهُ <span class="translit">(mattaʿa, yumattiʿ, umattiʿuhu)</span></div>
+          <p class="morph-note">To let someone benefit, to grant enjoyment, or to give a period of use until a specified time.</p>
+        </a>
+
+        <a class="morph-card" href="#istimta">
+          <div class="morph-card-header">
+            <div class="morph-type">Taking Benefit</div>
+            <div class="morph-used">Tamattuʿ and Istimtāʿ</div>
+          </div>
+          <div class="morph-form arabic-large">تَمَتُّع، اسْتَمْتَعَ <span class="translit">(tamattuʿ, istamtaʿa)</span></div>
+          <p class="morph-note">Benefiting from a share, relation, opportunity, or opening that has come into one’s reach.</p>
+        </a>
+      </div>
+    </section>
+
+    <nav class="root-toc" aria-label="Sections of this root study">
+      <h2>Usage Map of This Root</h2>
+      <ol>
+        <li><a href="#scope-note">Scope of This Entry</a></li>
+        <li><a href="#important-forms">Important Forms from This Root</a></li>
+        <li><a href="#root-meaning">Central Meaning</a></li>
+        <li><a href="#material-image">Material Image of the Root</a></li>
+        <li><a href="#classical-usage">Classical Arabic Note</a></li>
+        <li><a href="#descent-earth">The Provision of Earth after Descent</a></li>
+        <li><a href="#world-akhirah">The Provision of Worldly Life before the Hereafter</a></li>
+        <li><a href="#little-provision">The Smallness of Worldly Provision</a></li>
+        <li><a href="#good-provision">Good Provision</a></li>
+        <li><a href="#temporary-enjoyment">Granting Enjoyment and Giving Respite</a></li>
+        <li><a href="#divorce-support">Provision in Divorce and Financial Support</a></li>
+        <li><a href="#tools-equipment">Matāʿ as Tools and Equipment</a></li>
+        <li><a href="#istimta">Istimtāʿ</a></li>
+        <li><a href="#marital-relation">Istimtāʿ in the Marital Relation</a></li>
+        <li><a href="#hajj-tamattu">Tamattuʿ in Hajj</a></li>
+        <li><a href="#usage-distinctions">Distinguishing the Uses</a></li>
+        <li><a href="#structure-note">Structural Note</a></li>
+        <li><a href="#nearby-roots">Difference from Nearby Roots</a></li>
+        <li><a href="#translation-method">Forqan Translation Suggestions</a></li>
+        <li><a href="#summary">Linguistic Summary</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="scope-note">
+      <h2>Scope of This Entry</h2>
+      <p>The root <strong class="arabic-large">م ت ع</strong> <span class="translit">(m t ʿ)</span> originally points to benefiting, time-bound use, enjoying something within a defined limit, and having a means by which a need is met on the road. <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is something a human being uses, but it is not meant to be his final destination. From here, its important Qur’anic meaning becomes clear: <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is equipment for the road, not the place of final settlement.</p>
+    </section>
+
+    <section class="root-section" id="important-forms">
+      <h2>Important Forms from This Root</h2>
+      <p>Important forms of this root in the Qur’an include <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span>, <strong class="arabic-large">مَتَّعَ</strong> <span class="translit">(mattaʿa)</span>, <strong class="arabic-large">تَمَتُّع</strong> <span class="translit">(tamattuʿ)</span>, and <strong class="arabic-large">اسْتَمْتَعَ</strong> <span class="translit">(istamtaʿa)</span>. <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is used both for the thing itself, such as equipment, load, and tools, and for the benefit a person takes from life or from a blessing. <strong class="arabic-large">مَتَّعَ</strong> <span class="translit">(mattaʿa)</span> in Form II points to letting someone benefit and making someone enjoy or possess a benefit. <strong class="arabic-large">تَمَتُّع</strong> <span class="translit">(tamattuʿ)</span> means benefiting and making use within a time-bound limit. <strong class="arabic-large">اسْتَمْتَعَ</strong> <span class="translit">(istamtaʿa)</span> points to taking benefit from a share, relation, opportunity, or something placed within reach.</p>
+    </section>
+
+    <section class="root-section" id="root-meaning">
+      <h2>Central Meaning</h2>
+      <p>The linguistic core of <strong class="arabic-large">م ت ع</strong> <span class="translit">(m t ʿ)</span> is extended but finite enjoyment or benefit. Something is stretched within a person’s reach for a time, gives room for use, meets a need, but both the thing itself and the time of benefiting from it come to an end. From this angle, <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is not compatible with eternity or absolute ownership. <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is something whose value lies in using it rightly, not in attaching the heart to it as a final end.</p>
+    </section>
+
+    <section class="root-section" id="material-image">
+      <h2>Material Image of the Root</h2>
+      <p>The material image of this root can be seen in provision for a journey, a load, travel equipment, a rope stretched and used for work, or the light of a day that extends but eventually ends. A traveler uses his provision and tools in order to walk the road. If he treats the provision as the destination, he has lost the road. The world is repeatedly called <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> in the Qur’an in this same way: usable, beautiful, real, but time-bound.</p>
+    </section>
+
+    <section class="root-section" id="classical-usage">
+      <h2>Classical Arabic Note</h2>
+      <p>In classical Arabic usage, <strong class="arabic-large">م ت ع</strong> <span class="translit">(m t ʿ)</span> is connected with benefit, enjoyment, extension, provision, means, and the possibility of use. <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> can be equipment carried along, and it can also be a benefit taken from life or from a blessing. In the final version, if a reliable witness from pre-Islamic poetry or old Arabic usage is found, it can be added.</p>
+    </section>
+
+    <section class="root-section" id="descent-earth">
+      <h2>The Provision of Earth after Descent</h2>
+      <p>One of the first important uses of this root appears in the story of Adam’s descent:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ</blockquote>
+      <p class="translit">(wa-lakum fī al-arḍi mustaqarrun wa-matāʿun ilā ḥīn)</p>
+      <p class="translation">And for you there will be on the earth a place of settlement and provision until a time. <a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-036' | relative_url }}">Al-Baqarah 2:36</a></p>
+      <p>In this ayah, <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> comes together with <strong class="arabic-large">مُسْتَقَرّ</strong> <span class="translit">(mustaqarr)</span> and <strong class="arabic-large">إِلَىٰ حِينٍ</strong> <span class="translit">(ilā ḥīn)</span>, “until a time.” Earth is the human being’s temporary place of settlement, and its provision is also until an appointed time. This combination is very important: earth is both the place of life and the place of benefiting, but neither is endless.</p>
+      <p>The same structure is repeated in Al-A’raf:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ</blockquote>
+      <p class="translit">(wa-lakum fī al-arḍi mustaqarrun wa-matāʿun ilā ḥīn)</p>
+      <p class="translation">And for you there will be on the earth a place of settlement and provision until a time. <a class="quran-ref-link" href="{{ '/quran-reflection/en/007-al-araf/#ayah-024' | relative_url }}">Al-A’raf 7:24</a></p>
+      <p>This repetition shows that the earth’s <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is part of the human being’s earthly stage. So <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is not bad; The God placed it for human life. The problem begins when a human being seats <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> in the place of the Hereafter, the place of truth, or the place of the final destination.</p>
+    </section>
+
+    <section class="root-section" id="world-akhirah">
+      <h2>The Provision of Worldly Life before the Hereafter</h2>
+      <p>The second field is the provision of worldly life in contrast with the Hereafter:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ وَالْخَيْلِ الْمُسَوَّمَةِ وَالْأَنْعَامِ وَالْحَرْثِ ۗ ذَٰلِكَ مَتَاعُ الْحَيَاةِ الدُّنْيَا ۖ وَاللَّهُ عِندَهُ حُسْنُ الْمَآبِ</blockquote>
+      <p class="translit">(zuyyina li-al-nāsi ḥubbu al-shahawāti mina al-nisāʾi wa-al-banīna wa-al-qanāṭīri al-muqanṭarati mina al-dhahabi wa-al-fiḍḍati wa-al-khayli al-musawwamati wa-al-anʿāmi wa-al-ḥarth; dhālika matāʿu al-ḥayāti al-dunyā wa-Allāhu ʿindahu ḥusnu al-maʾāb)</p>
+      <p class="translation">Love of desires has been adorned for people: women, children, heaped-up treasures of gold and silver, marked horses, cattle, and fields. That is the provision of worldly life; and with The God is the best return. <a class="quran-ref-link" href="{{ '/quran-reflection/en/003-al-imran/#ayah-014' | relative_url }}">Al-Imran 3:14</a></p>
+      <p>In this ayah, the provision of worldly life includes real, attractive, and natural things of life. The Qur’an does not negate them, but clarifies their place: they are <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span>, not <strong class="arabic-large">حُسْنُ الْمَآب</strong> <span class="translit">(ḥusn al-maʾāb)</span>, the good return. They are for benefiting from, not for the human heart to end in them.</p>
+      <p>Another ayah states this boundary more sharply:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ</blockquote>
+      <p class="translit">(wa-mā al-ḥayātu al-dunyā illā matāʿu al-ghurūr)</p>
+      <p class="translation">And worldly life is nothing but deceptive provision. <a class="quran-ref-link" href="{{ '/quran-reflection/en/003-al-imran/#ayah-185' | relative_url }}">Al-Imran 3:185</a></p>
+      <p><strong class="arabic-large">مَتَاعُ الْغُرُور</strong> <span class="translit">(matāʿ al-ghurūr)</span> means a provision that causes the human being to miscalculate. The deception is not that the world has no value; the deception is that something finite is imagined to be permanent and absolute. The human being thinks the extension of <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> means its permanence, while its extension is only a period of use.</p>
+      <p>The same expression also appears in Surah Al-Hadid:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ</blockquote>
+      <p class="translit">(wa-mā al-ḥayātu al-dunyā illā matāʿu al-ghurūr)</p>
+      <p class="translation">And worldly life is nothing but deceptive provision. <a class="quran-ref-link" href="{{ '/quran-reflection/en/057-al-hadid/#ayah-020' | relative_url }}">Al-Hadid 57:20</a></p>
+      <p>In this context, worldly life is described through play, diversion, adornment, mutual boasting, and rivalry in increase. When the provision of the world is not understood under the light of truth, it keeps the human being inside the shell of consumption and competition.</p>
+    </section>
+
+    <section class="root-section" id="little-provision">
+      <h2>The Smallness of Worldly Provision</h2>
+      <p>The third field is the smallness of worldly provision:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قُلْ مَتَاعُ الدُّنْيَا قَلِيلٌ وَالْآخِرَةُ خَيْرٌ لِّمَنِ اتَّقَىٰ</blockquote>
+      <p class="translit">(qul matāʿu al-dunyā qalīlun wa-al-ākhiratu khayrun li-mani ittaqā)</p>
+      <p class="translation">Say: the provision of the world is little, and the Hereafter is better for whoever practices taqwā. <a class="quran-ref-link" href="{{ '/quran-reflection/en/004-an-nisa/#ayah-077' | relative_url }}">An-Nisa 4:77</a></p>
+      <p>Its smallness here is not only a matter of quantity; it is a matter of relation. Even if the world’s provision looks abundant, before the Hereafter it is short, limited, and unstable.</p>
+      <p>In At-Tawbah, it also says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَا مَتَاعُ الْحَيَاةِ الدُّنْيَا فِي الْآخِرَةِ إِلَّا قَلِيلٌ</blockquote>
+      <p class="translit">(fa-mā matāʿu al-ḥayāti al-dunyā fī al-ākhirati illā qalīl)</p>
+      <p class="translation">So the provision of worldly life, compared with the Hereafter, is nothing but little. <a class="quran-ref-link" href="{{ '/quran-reflection/en/009-at-tawbah/#ayah-038' | relative_url }}">At-Tawbah 9:38</a></p>
+      <p>So <strong class="arabic-large">م ت ع</strong> <span class="translit">(m t ʿ)</span> teaches the human being to measure the value of every benefit by the destination. If the Hereafter is the measure, the world becomes a tool; if the world becomes the measure, provision turns into deception.</p>
+    </section>
+
+    <section class="root-section" id="good-provision">
+      <h2>Good Provision</h2>
+      <p>The fourth field is good provision:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَأَنِ اسْتَغْفِرُوا رَبَّكُمْ ثُمَّ تُوبُوا إِلَيْهِ يُمَتِّعْكُم مَّتَاعًا حَسَنًا إِلَىٰ أَجَلٍ مُّسَمًّى</blockquote>
+      <p class="translit">(wa-ani istaghfirū rabbakum thumma tūbū ilayhi yumattiʿkum matāʿan ḥasanan ilā ajalin musamman)</p>
+      <p class="translation">And that you seek forgiveness from your Lord, then turn back to Him; He will grant you good provision until a named term. <a class="quran-ref-link" href="{{ '/quran-reflection/en/011-hud/#ayah-003' | relative_url }}">Hud 11:3</a></p>
+      <p>This ayah shows that <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is not always negative. Provision can be good: a healthy, pure, balanced benefit in the right path. But even good provision is <strong class="arabic-large">إِلَىٰ أَجَلٍ مُّسَمًّى</strong> <span class="translit">(ilā ajalin musamman)</span>, until a named term. The goodness of provision does not remove its time-bound nature.</p>
+    </section>
+
+    <section class="root-section" id="temporary-enjoyment">
+      <h2>Granting Enjoyment and Giving Respite</h2>
+      <p>The fifth field is granting enjoyment and giving respite:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَأُمَتِّعُهُ قَلِيلًا ثُمَّ أَضْطَرُّهُ إِلَىٰ عَذَابِ النَّارِ</blockquote>
+      <p class="translit">(fa-umattiʿuhu qalīlan thumma aḍṭarruhu ilā ʿadhābi al-nār)</p>
+      <p class="translation">So I will grant him a little enjoyment, then I will drive him toward the punishment of the Fire. <a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-126' | relative_url }}">Al-Baqarah 2:126</a></p>
+      <p>In this ayah, worldly enjoyment is possible even for the one who rejects truth, but this enjoyment is not proof of The God’s final approval. <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> may be respite, not lasting honor.</p>
+      <p>In Surah Ash-Shu’ara, it also says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أَفَرَأَيْتَ إِن مَّتَّعْنَاهُمْ سِنِينَ ثُمَّ جَاءَهُم مَّا كَانُوا يُوعَدُونَ مَا أَغْنَىٰ عَنْهُم مَّا كَانُوا يُمَتَّعُونَ</blockquote>
+      <p class="translit">(a-fa-raʾayta in mattaʿnāhum sinīn thumma jāʾahum mā kānū yūʿadūn mā aghnā ʿanhum mā kānū yumattaʿūn)</p>
+      <p class="translation">Have you seen: if We grant them enjoyment for years, then what they were promised comes to them, what they used to enjoy will not avail them. <a class="quran-ref-link" href="{{ '/quran-reflection/en/026-ash-shuara/#ayah-205' | relative_url }}">Ash-Shu’ara 26:205-207</a></p>
+      <p>Here, even long years are still <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span>. At the moment of truth, the length of enjoyment cannot replace truth and salvation.</p>
+    </section>
+
+    <section class="root-section" id="divorce-support">
+      <h2>Provision in Divorce and Financial Support</h2>
+      <p>The sixth field is <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> in divorce and financial support:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَمَتِّعُوهُنَّ عَلَى الْمُوسِعِ قَدَرُهُ وَعَلَى الْمُقْتِرِ قَدَرُهُ مَتَاعًا بِالْمَعْرُوفِ</blockquote>
+      <p class="translit">(wa-mattiʿūhunna ʿalā al-mūsiʿi qadaruhu wa-ʿalā al-muqtiri qadaruhu matāʿan bi-al-maʿrūf)</p>
+      <p class="translation">And provide them with a benefit: upon the one of means according to his capacity, and upon the one of limited means according to his capacity; a provision according to what is recognized as right. <a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-236' | relative_url }}">Al-Baqarah 2:236</a></p>
+      <p>In this ayah, <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is close to a benefit or supportive provision after the breaking of marriage. This provision is not the dowry, nor is it humiliating charity; it is a worthy supply for moving from one situation into another. <strong class="arabic-large">بِالْمَعْرُوف</strong> <span class="translit">(bi-al-maʿrūf)</span> means it must accord with fairness, healthy custom, financial capacity, and the woman’s dignity.</p>
+      <p>In another ayah, it says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلِلْمُطَلَّقَاتِ مَتَاعٌ بِالْمَعْرُوفِ حَقًّا عَلَى الْمُتَّقِينَ</blockquote>
+      <p class="translit">(wa-li-al-muṭallaqāti matāʿun bi-al-maʿrūfi ḥaqqan ʿalā al-muttaqīn)</p>
+      <p class="translation">And for divorced women there is a provision according to what is recognized as right: a right upon those who practice taqwā. <a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-241' | relative_url }}">Al-Baqarah 2:241</a></p>
+      <p>Here <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is connected with <strong class="arabic-large">حَقّ</strong> <span class="translit">(ḥaqq)</span>, right. So this provision is not only an optional kindness; it is an ethical and social responsibility. At the moment of family rupture, the Qur’an does not leave the woman without provision or support.</p>
+    </section>
+
+    <section class="root-section" id="tools-equipment">
+      <h2><span class="translit">Matāʿ</span> as Tools and Equipment</h2>
+      <p>The seventh field is <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> as tools and equipment:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَدَّ الَّذِينَ كَفَرُوا لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ</blockquote>
+      <p class="translit">(wadda alladhīna kafarū law taghfulūna ʿan asliḥatikum wa-amtiʿatikum)</p>
+      <p class="translation">Those who rejected truth wish that you would become heedless of your weapons and your equipment. <a class="quran-ref-link" href="{{ '/quran-reflection/en/004-an-nisa/#ayah-102' | relative_url }}">An-Nisa 4:102</a></p>
+      <p>Here <strong class="arabic-large">أَمْتِعَة</strong> <span class="translit">(amtiʿah)</span> refers to equipment, supplies, loads, and tools carried along. This use is close to the material image of the root: things a human being carries for movement, defense, travel, or life.</p>
+      <p>In the story of Yusuf, it also says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَمَّا فَتَحُوا مَتَاعَهُمْ وَجَدُوا بِضَاعَتَهُمْ رُدَّتْ إِلَيْهِمْ</blockquote>
+      <p class="translit">(wa-lammā fataḥū matāʿahum wajadū biḍāʿatahum ruddat ilayhim)</p>
+      <p class="translation">And when they opened their loads, they found their goods returned to them. <a class="quran-ref-link" href="{{ '/quran-reflection/en/012-yusuf/#ayah-065' | relative_url }}">Yusuf 12:65</a></p>
+      <p><strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> here is travel and trade load. This use shows that <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> does not always carry an ethical or Hereafter-facing meaning; sometimes it is simply a load, tool, container, goods, and usable equipment.</p>
+    </section>
+
+    <section class="root-section" id="istimta">
+      <h2><span class="translit">Istimtāʿ</span></h2>
+      <p>The eighth field is <strong class="arabic-large">اسْتِمْتَاع</strong> <span class="translit">(istimtāʿ)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">رَبَّنَا اسْتَمْتَعَ بَعْضُنَا بِبَعْضٍ وَبَلَغْنَا أَجَلَنَا الَّذِي أَجَّلْتَ لَنَا</blockquote>
+      <p class="translit">(rabbanā istamtaʿa baʿḍunā bi-baʿḍin wa-balaghna ajalanā alladhī ajjalta lanā)</p>
+      <p class="translation">Our Lord, some of us benefited from others, and we reached the term that You appointed for us. <a class="quran-ref-link" href="{{ '/quran-reflection/en/006-al-anam/#ayah-128' | relative_url }}">Al-An’am 6:128</a></p>
+      <p><strong class="arabic-large">اسْتِمْتَاع</strong> <span class="translit">(istimtāʿ)</span> in this ayah is mutual benefit, but in a warning context connected with the relation between human beings and jinn. That means benefiting, if it is not under the criterion of truth, can become a polluted, deceptive, or harmful relation.</p>
+      <p>In Surah At-Tawbah, it also says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَاسْتَمْتَعُوا بِخَلَاقِهِمْ فَاسْتَمْتَعْتُم بِخَلَاقِكُمْ</blockquote>
+      <p class="translit">(fa-istamtaʿū bi-khalāqihim fa-istamtaʿtum bi-khalāqikum)</p>
+      <p class="translation">They benefited from their share, so you too benefited from your share. <a class="quran-ref-link" href="{{ '/quran-reflection/en/009-at-tawbah/#ayah-069' | relative_url }}">At-Tawbah 9:69</a></p>
+      <p><strong class="arabic-large">خَلَاق</strong> <span class="translit">(khalāq)</span> means a share or portion. <strong class="arabic-large">اسْتِمْتَاع</strong> <span class="translit">(istimtāʿ)</span> here is use of a worldly share, but it appears in a warning context about repeating the path of earlier peoples. The human being consumes his share, but he must see where this consumption is taking him.</p>
+    </section>
+
+    <section class="root-section" id="marital-relation">
+      <h2><span class="translit">Istimtāʿ</span> in the Marital Relation</h2>
+      <p>The ninth field is <strong class="arabic-large">اسْتِمْتَاع</strong> <span class="translit">(istimtāʿ)</span> in the marital relation:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَا اسْتَمْتَعْتُم بِهِ مِنْهُنَّ فَآتُوهُنَّ أُجُورَهُنَّ فَرِيضَةً</blockquote>
+      <p class="translit">(fa-mā istamtaʿtum bihi minhunna fa-ātūhunna ujūrahunna farīḍah)</p>
+      <p class="translation">So whatever benefit you have taken through them, give them their financial due as an obligation. <a class="quran-ref-link" href="{{ '/quran-reflection/en/004-an-nisa/#ayah-024' | relative_url }}">An-Nisa 4:24</a></p>
+      <p>This ayah has become the site of many historical legal debates, but in this article we must remain root-centered. Linguistically, <strong class="arabic-large">اسْتِمْتَاع</strong> <span class="translit">(istimtāʿ)</span> points to real benefiting within the relation, and the ayah connects it with paying the woman’s right. So <strong class="arabic-large">م ت ع</strong> <span class="translit">(m t ʿ)</span> here is not benefit without responsibility; it is benefit that makes financial right and commitment necessary.</p>
+    </section>
+
+    <section class="root-section" id="hajj-tamattu">
+      <h2><span class="translit">Tamattuʿ</span> in Hajj</h2>
+      <p>The tenth field is <strong class="arabic-large">تَمَتُّع</strong> <span class="translit">(tamattuʿ)</span> in Hajj:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَن تَمَتَّعَ بِالْعُمْرَةِ إِلَى الْحَجِّ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ</blockquote>
+      <p class="translit">(fa-man tamattaʿa bi-al-ʿumrati ilā al-ḥajji fa-mā istaysara mina al-hady)</p>
+      <p class="translation">So whoever benefits from the ʿumrah until the Hajj, then whatever offering is easy. <a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-196' | relative_url }}">Al-Baqarah 2:196</a></p>
+      <p>In this ayah, <strong class="arabic-large">تَمَتُّع</strong> <span class="translit">(tamattuʿ)</span> points to benefiting from a practical and temporal opening between ʿumrah and Hajj. This benefit is also limited and ritual; the human being uses an opportunity within the frame of worship.</p>
+    </section>
+
+    <section class="root-section" id="usage-distinctions">
+      <h2>Distinguishing the Uses</h2>
+      <p>The uses of <strong class="arabic-large">م ت ع</strong> <span class="translit">(m t ʿ)</span> must be distinguished. The provision of the world means the passing and time-bound benefit of life. Good provision means healthy and good benefit until a specified term. Deceptive provision means a benefit that deceives the human being if it is not measured correctly. Divorce provision means worthy support or supply for transition. <strong class="arabic-large">أَمْتِعَة</strong> <span class="translit">(amtiʿah)</span> means tools and equipment for use. <strong class="arabic-large">اسْتِمْتَاع</strong> <span class="translit">(istimtāʿ)</span> means benefiting from something or someone in a relation, which depending on context may be legitimate, warning-laden, or responsibility-bearing. <strong class="arabic-large">تَمَتُّع</strong> <span class="translit">(tamattuʿ)</span> in Hajj is benefiting from the opening between ʿumrah and Hajj.</p>
+    </section>
+
+    <section class="root-section" id="structure-note">
+      <h2>Structural Note</h2>
+      <p>Structurally, time markers in this root are very important: <strong class="arabic-large">إِلَىٰ حِينٍ</strong> <span class="translit">(ilā ḥīn)</span>, <strong class="arabic-large">قَلِيلًا</strong> <span class="translit">(qalīlan)</span>, <strong class="arabic-large">إِلَىٰ أَجَلٍ مُّسَمًّى</strong> <span class="translit">(ilā ajalin musamman)</span>, <strong class="arabic-large">سِنِينَ</strong> <span class="translit">(sinīn)</span>, and <strong class="arabic-large">حَتَّىٰ حِينٍ</strong> <span class="translit">(ḥattā ḥīn)</span>. These markers show that <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> in the Qur’an is usually linked to limited time. Even when the provision is good, it is still not absolute or eternal.</p>
+    </section>
+
+    <section class="root-section" id="nearby-roots">
+      <h2>Difference from Nearby Roots</h2>
+      <p><strong class="arabic-large">م ت ع</strong> <span class="translit">(m t ʿ)</span> differs from several nearby roots. <a href="{{ '/quran-terminology/en/roots/r-z-q/' | relative_url }}">R Z Q</a> points to provision being delivered and the share of life; <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> points to benefiting from something placed within one’s reach. <a href="{{ '/quran-terminology/en/roots/n-ayn-m/' | relative_url }}">N AYN M (N ʿ M)</a> is a pleasant gift or blessing; <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is the use and enjoyment of that gift within limited time. <a href="{{ '/quran-terminology/en/roots/z-y-n/' | relative_url }}">Z Y N</a> relates to adornment and outward beauty; <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> may have adornment, but its core is benefit and use. <a href="{{ '/quran-terminology/en/roots/gh-n-m/' | relative_url }}">GH N M</a> relates to something gained through war or a specific acquisition; <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is broader and includes every tool or time-bound benefit. <a href="{{ '/quran-terminology/en/roots/m-w-l/' | relative_url }}">M W L</a> is wealth or property; <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is the usable quality of that property on the path of life. <a href="{{ '/quran-terminology/en/roots/n-f-ayn/' | relative_url }}">N F AYN (N F ʿ)</a> points to benefit or profit; <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> may bring benefit, but its temporariness and consumption are more prominent.</p>
+    </section>
+
+    <section class="root-section" id="translation-method">
+      <h2>Forqan Translation Suggestions</h2>
+      <p>For translation in Forqan, <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> should not always be translated as “pleasure.” Depending on context, one may use “benefit,” “enjoyment,” “provision,” “supplies,” “equipment,” “tools,” “goods,” “temporary benefit,” or “supportive provision.” <strong class="arabic-large">مَتَاعُ الدُّنْيَا</strong> <span class="translit">(matāʿ al-dunyā)</span> is better rendered as “the provision of worldly life” or “the passing benefit of the world.” <strong class="arabic-large">مَتَاعُ الْغُرُور</strong> <span class="translit">(matāʿ al-ghurūr)</span> can be rendered as “deceptive provision.” <strong class="arabic-large">مَتَاعًا حَسَنًا</strong> <span class="translit">(matāʿan ḥasanan)</span> means “good provision” or “good enjoyment.” <strong class="arabic-large">مَتَاعًا بِالْمَعْرُوف</strong> <span class="translit">(matāʿan bi-al-maʿrūf)</span> in the divorce ayat is better rendered as “a worthy provision,” “a provision according to what is recognized as right,” or “worthy support.” <strong class="arabic-large">أَمْتِعَة</strong> <span class="translit">(amtiʿah)</span> in the context of war and travel is “equipment” or “loads and tools.”</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>Linguistic Summary</h2>
+      <p>Linguistically, the root <strong class="arabic-large">م ت ع</strong> <span class="translit">(m t ʿ)</span> points to benefiting, use, time-bound enjoyment, and having a tool or possibility of consumption for a period. Its material image is the provision and equipment of a traveler: something used on the road, but not the final destination. In the Qur’an, this root extends from the provision of earth after descent to the provision of worldly life; from good provision to deceptive provision; from financial support in divorce to equipment for travel and war; and from <strong class="arabic-large">اسْتِمْتَاع</strong> <span class="translit">(istimtāʿ)</span> to <strong class="arabic-large">تَمَتُّع</strong> <span class="translit">(tamattuʿ)</span> in Hajj. Its difference from <strong class="arabic-large">رِزْق</strong> <span class="translit">(rizq)</span> is that <strong class="arabic-large">رِزْق</strong> <span class="translit">(rizq)</span> is the provision itself and its being delivered, while <strong class="arabic-large">مَتَاع</strong> <span class="translit">(matāʿ)</span> is time-bound benefiting from what has been placed within reach.</p>
+    </section>
+  </div>
+</div>
