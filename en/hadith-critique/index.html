@@ -1,0 +1,173 @@
+---
+layout: default
+title: Hadith Critique
+permalink: /en/hadith-critique/
+---
+
+<section class="articles-hub ltr" dir="ltr">
+  <div class="articles-hero">
+    <p class="section-kicker">Research Section</p>
+    <h1>Hadith Critique</h1>
+    <p>
+      A Qur’an-centered review of famous reports, attributed sayings, and inherited religious claims; not to dishonor people, but to preserve the Qur’an as the clear criterion and prevent human beings from being raised into the place of revelation.
+    </p>
+  </div>
+
+  <div class="article-stack" aria-label="Hadith critique articles">
+    <a class="list-card" href="/en/hadith-critique/husayn-is-from-me-and-i-am-from-husayn/">
+      <div class="card-main">
+        <p class="card-label">Hadith critique</p>
+        <h2>The Conflict of “Husayn Is from Me and I Am from Husayn” with the Qur’an</h2>
+        <p>
+          A Qur’an-centered examination of the famous report in light of “my life and my death are for God,” distinguishing between a rejected legislative meaning and a possible moral-historical reading.
+        </p>
+      </div>
+      <p class="tags">
+        <span>Qur’an</span>
+        <span>Hadith</span>
+        <span>Husayn</span>
+        <span>Tawhid</span>
+        <span>Reports</span>
+      </p>
+    </a>
+  </div>
+</section>
+
+<style>
+  .articles-hub,
+  .articles-hub * {
+    box-sizing: border-box;
+  }
+
+  .articles-hub {
+    --hub-text: #1e293b;
+    --hub-muted: #64748b;
+    --hub-accent: #b08d57;
+    --hub-accent-deep: #8b6423;
+    --hub-green: #28745f;
+    --hub-border: rgba(176, 141, 87, 0.28);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 2.2rem 1.25rem 4rem;
+    color: var(--hub-text);
+  }
+
+  .articles-hero {
+    margin: 0 auto 1.25rem;
+    padding: 1.45rem 1.6rem;
+    border: 1px solid var(--hub-border);
+    border-radius: 16px;
+    background:
+      linear-gradient(135deg, rgba(176, 141, 87, 0.13), rgba(40, 116, 95, 0.08)),
+      rgba(255, 255, 255, 0.76);
+  }
+
+  .section-kicker,
+  .card-label {
+    margin: 0 0 0.35rem;
+    color: var(--hub-accent-deep);
+    font-weight: 900;
+  }
+
+  .articles-hero h1 {
+    margin: 0 0 0.65rem;
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.15;
+  }
+
+  .articles-hero p {
+    margin-bottom: 0;
+    color: var(--hub-muted);
+    line-height: 1.85;
+  }
+
+  .article-stack {
+    display: grid;
+    gap: 0.85rem;
+  }
+
+  .list-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(190px, 0.34fr);
+    gap: 1rem;
+    align-items: center;
+    padding: 1.15rem 1.25rem;
+    border: 1px solid var(--hub-border);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.74);
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+  }
+
+  .list-card:hover {
+    border-color: rgba(176, 141, 87, 0.62);
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+    transform: translateY(-2px);
+  }
+
+  .list-card h2 {
+    margin: 0;
+    font-size: 1.28rem;
+    line-height: 1.35;
+  }
+
+  .list-card p {
+    color: var(--hub-muted);
+    line-height: 1.7;
+  }
+
+  .card-main p:last-child {
+    margin-bottom: 0;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    justify-content: flex-end;
+    margin: 0;
+  }
+
+  .tags span {
+    border: 1px solid rgba(176, 141, 87, 0.32);
+    border-radius: 999px;
+    padding: 0.16rem 0.58rem;
+    color: var(--hub-green);
+    background: rgba(255, 255, 255, 0.55);
+    font-size: 0.9rem;
+    font-weight: 750;
+    white-space: nowrap;
+  }
+
+  body.dark-theme .articles-hub {
+    --hub-text: #e5e7eb;
+    --hub-muted: #cbd5e1;
+    --hub-border: rgba(214, 176, 95, 0.32);
+    --hub-accent-deep: #d6b05f;
+  }
+
+  body.dark-theme .articles-hero,
+  body.dark-theme .list-card {
+    background-color: rgba(15, 23, 42, 0.58);
+  }
+
+  @media (max-width: 760px) {
+    .articles-hub {
+      padding-top: 1.4rem;
+    }
+
+    .articles-hero {
+      padding: 1.2rem;
+    }
+
+    .list-card {
+      grid-template-columns: 1fr;
+      gap: 0.7rem;
+    }
+
+    .tags {
+      justify-content: flex-start;
+    }
+  }
+</style>
