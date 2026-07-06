@@ -1,0 +1,264 @@
+---
+layout: default
+title: ریشه قرآنی ه ب ط
+permalink: /quran-terminology/fa/roots/h-b-t/
+---
+<style>
+.root-study-page {
+  --root-card: #fffaf1;
+  --root-panel: #fffdf7;
+  --root-section: #fffaf2;
+  --root-text: #2f2a22;
+  --root-muted: #6d6255;
+  --root-border: rgba(148, 114, 55, 0.28);
+  --root-border-soft: rgba(148, 114, 55, 0.16);
+  --root-accent: #b9852f;
+  --root-accent-deep: #8b6423;
+  --root-accent-soft: rgba(185, 133, 47, 0.11);
+  --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 3.5rem 1.25rem;
+  line-height: 2.05;
+  color: var(--root-text);
+}
+body.dark .root-study-page,
+body.dark-mode .root-study-page,
+html.dark .root-study-page,
+html.dark-mode .root-study-page,
+[data-theme="dark"] .root-study-page,
+.dark .root-study-page {
+  --root-card: #142238;
+  --root-panel: #1b2a40;
+  --root-section: rgba(255, 255, 255, 0.035);
+  --root-text: #eee8dc;
+  --root-muted: #c7bdab;
+  --root-border: rgba(214, 176, 95, 0.28);
+  --root-border-soft: rgba(214, 176, 95, 0.16);
+  --root-accent: #d6b05f;
+  --root-accent-deep: #f0cf7a;
+  --root-accent-soft: rgba(214, 176, 95, 0.12);
+  --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+}
+.root-study-page * { box-sizing: border-box; }
+.root-study-page h1,
+.root-study-page h2,
+.root-study-page h3,
+.root-study-page p,
+.root-study-page li { direction: rtl; text-align: right; }
+.root-study-page.forqan-page-ltr h1,
+.root-study-page.forqan-page-ltr h2,
+.root-study-page.forqan-page-ltr h3,
+.root-study-page.forqan-page-ltr p,
+.root-study-page.forqan-page-ltr li { direction: ltr; text-align: left; }
+.root-frame {
+  background: radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%), var(--root-card);
+  border: 1px solid var(--root-border);
+  border-radius: 26px;
+  padding: 2.4rem;
+  box-shadow: var(--root-shadow);
+}
+.root-hero { border-bottom: 1px solid var(--root-border-soft); padding-bottom: 1.65rem; margin-bottom: 2rem; }
+.root-kicker { color: var(--root-accent-deep); font-size: 0.96rem; font-weight: 800; margin-bottom: 0.45rem; }
+.root-study-page h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.05rem); line-height: 1.4; color: var(--root-text); }
+.root-subtitle { color: var(--root-muted); max-width: 780px; margin: 1rem 0 0; font-size: 1.04rem; }
+.root-forms-card,
+.root-note,
+.root-toc,
+.root-section {
+  background: linear-gradient(180deg, var(--root-accent-soft), transparent 82%), var(--root-panel);
+  border: 1px solid var(--root-border);
+  border-radius: 20px;
+  padding: 1.35rem 1.55rem;
+  margin: 1.55rem 0;
+}
+.root-section { background: var(--root-section); }
+.root-forms-card h2,
+.root-toc h2,
+.root-section h2 { margin-top: 0; color: var(--root-accent-deep); }
+.root-morphology-intro { color: var(--root-muted); margin-top: 0; }
+.morphology-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+.morph-card { background: var(--root-card); border: 1px solid var(--root-border-soft); border-radius: 18px; padding: 1rem; }
+.morph-card-header { display: flex; justify-content: space-between; gap: 0.75rem; align-items: flex-start; margin-bottom: 0.8rem; }
+.morph-type { color: var(--root-accent-deep); font-weight: 800; }
+.morph-used { border: 1px solid var(--root-border); border-radius: 999px; padding: 0.18rem 0.65rem; color: var(--root-accent-deep); font-weight: 700; font-size: 0.9rem; white-space: nowrap; }
+.morph-form { font-size: 1.45rem; font-weight: 800; margin: 0.55rem 0; }
+.morph-translit { color: var(--root-muted); font-weight: 700; margin-bottom: 0.55rem; }
+.morph-note { margin-bottom: 0; color: var(--root-text); }
+.root-toc ol { margin: 0.75rem 0 0; padding-right: 1.25rem; }
+.forqan-page-ltr .root-toc ol { padding-right: 0; padding-left: 1.25rem; }
+.root-toc a { color: var(--root-accent-deep); font-weight: 700; text-decoration: none; border-bottom: 1px solid var(--root-border); }
+.arabic-quote { margin: 1.1rem 0; padding: 1rem 1.2rem; border-right: 4px solid var(--root-accent); background: var(--root-card); border-radius: 16px; font-size: 1.25rem; font-weight: 750; line-height: 2.15; }
+.forqan-page-ltr .arabic-quote { text-align: right; direction: rtl; border-right: 4px solid var(--root-accent); }
+.translation { color: var(--root-muted); font-weight: 650; }
+.root-study-page a { color: var(--root-accent-deep); font-weight: 750; }
+@media (max-width: 760px) {
+  .root-study-page { padding: 2rem 0.85rem; }
+  .root-frame { padding: 1.25rem; border-radius: 20px; }
+  .morphology-grid { grid-template-columns: 1fr; }
+  .morph-card-header { flex-direction: column; }
+}
+</style>
+<div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">ریشه قرآنی</div>
+      <h1>ریشه قرآنی ه ب ط</h1>
+      <p class="root-subtitle">فرود آمدن، پایین آمدن، و انتقال به بستری پایین‌تر، زمینی‌تر، یا محدودتر.</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>صورت‌های صرفی این ریشه</h2>
+      <p class="root-morphology-intro">صورت قرآنی این ریشه محدود است و در قرآن فقط به صورت فعل باب اول آمده است.</p>
+      <div class="morphology-grid">
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">فعل امر جمع</div>
+            <div class="morph-used">استفاده در قرآن: بلی</div>
+          </div>
+          <div class="morph-form">اهْبِطُوا</div>
+          <p class="morph-note">فرود آیید؛ در سیاق آدم و همراهان او، و نیز در پاسخ به خواسته بنی‌اسرائیل آمده است.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">فعل امر مفرد</div>
+            <div class="morph-used">استفاده در قرآن: بلی</div>
+          </div>
+          <div class="morph-form">اهْبِطْ</div>
+          <p class="morph-note">فرود آی؛ درباره ابلیس با طرد و درباره نوح با سلام و برکت آمده است.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">فعل امر تثنیه</div>
+            <div class="morph-used">استفاده در قرآن: بلی</div>
+          </div>
+          <div class="morph-form">اهْبِطَا</div>
+          <p class="morph-note">هر دو فرود آیید؛ در سوره طه آمده و به آغاز نسبت تازه در زمین اشاره دارد.</p>
+        </div>
+        <div class="morph-card">
+          <div class="morph-card-header">
+            <div class="morph-type">فعل مضارع</div>
+            <div class="morph-used">استفاده در قرآن: بلی</div>
+          </div>
+          <div class="morph-form">يَهْبِطُ</div>
+          <p class="morph-note">فرود می‌آید؛ درباره سنگ‌هایی که از خشیت خدا فرود می‌آیند آمده است.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="root-note">
+      <p>ریشه ه ب ط در اصل به فرود آمدن، پایین آمدن، و انتقال از جایگاه یا وضعیت بالاتر به جایگاه یا وضعیتی پایین‌تر و زمینی‌تر دلالت دارد.</p>
+    </div>
+
+    <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
+      <h2>فهرست کاربردهای این ریشه</h2>
+      <ol>
+        <li><a href="#foundational-meaning">معنای بنیادی</a></li>
+        <li><a href="#material-image">تصویر مادی و کاربرد کهن</a></li>
+        <li><a href="#adam-descent">هبوط آدم و ورود به زمین</a></li>
+        <li><a href="#iblis-descent">هبوط ابلیس</a></li>
+        <li><a href="#israelites-descent">هبوط بنی‌اسرائیل</a></li>
+        <li><a href="#stones-descent">هبوط سنگ‌ها</a></li>
+        <li><a href="#nuh-descent">هبوط نوح</a></li>
+        <li><a href="#distinctions">تفکیک کاربردها و ساختارها</a></li>
+        <li><a href="#near-roots">تفاوت با ریشه‌های نزدیک</a></li>
+        <li><a href="#translation-suggestions">پیشنهادهای ترجمه</a></li>
+        <li><a href="#summary">جمع‌بندی زبانی</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="foundational-meaning">
+      <h2>معنای بنیادی</h2>
+      <p>ریشه ه ب ط در اصل به فرود آمدن، پایین آمدن، و انتقال از جایگاه یا وضعیت بالاتر به جایگاه یا وضعیتی پایین‌تر و زمینی‌تر دلالت دارد. این پایین آمدن همیشه سقوط بی‌اختیار نیست. گاهی فرمان‌یافته است، گاهی با طرد همراه است، گاهی ورود به مرحله تازه زندگی است، و گاهی فقط پایین آمدن مادی از بلندی را نشان می‌دهد.</p>
+      <p>صورت قرآنی این ریشه محدود است. در قرآن، ه ب ط فقط به صورت فعل باب اول آمده است: اهبطوا، اهبط، اهبطا، و يهبط. مصدر یا اسم مشتق گسترده از این ریشه در قرآن نیامده است. همین محدودیت نشان می‌دهد که باید با دقت از هر کاربرد جداگانه معنا گرفت.</p>
+      <p>هسته زبانی ه ب ط، فرود از سطحی بالاتر به سطحی پایین‌تر است، اما این فرود غالباً حس وزن، انتقال، و ورود به بستری سنگین‌تر یا محدودتر را با خود دارد. به همین دلیل، هبوط با نزول یکی نیست. نزول واژه‌ای گسترده‌تر است و می‌تواند برای باران، کتاب، فرشتگان، یا هر پایین آمدنی از بالا به کار رود. اما هبوط بیشتر به فرودِ یک فاعل یا چیز از جایگاه پیشین به بستری پایین‌تر، زمینی‌تر، یا سخت‌تر اشاره دارد.</p>
+    </section>
+
+    <section class="root-section" id="material-image">
+      <h2>تصویر مادی و کاربرد کهن</h2>
+      <p>تصویر مادی ریشه، پایین آمدن از بلندی است: سنگی که از کوه فرو می‌آید، مسافری که از ارتفاع به دشت می‌رسد، یا کسی که از جایگاه بالا به زمین فرود می‌آید. در قرآن، این تصویر گاهی معنای وجودی پیدا می‌کند: آدم و همراهان او از وضعیت پیشین به زمین وارد می‌شوند؛ ابلیس از موضعی که تکبر در آن روا نبود پایین رانده می‌شود؛ بنی‌اسرائیل از خواسته بهتر به سطحی پایین‌تر از خواسته‌های زمینی منتقل می‌شوند؛ و نوح با سلام و برکت فرود می‌آید.</p>
+      <p>در کاربرد عربی کلاسیک، هبوط با پایین آمدن از بلندی، فرود آمدن در زمین یا شهر، و گاهی کاهش یافتن یا پایین آمدن مرتبه نیز پیوند دارد. در نسخه نهایی، اگر شاهد معتبر از شعر جاهلی یا کاربرد کهن عربی پیدا شود، می‌توان آن را افزود.</p>
+    </section>
+
+    <section class="root-section" id="adam-descent">
+      <h2>هبوط آدم و ورود به زمین</h2>
+      <p>نخستین میدان مهم قرآنی این ریشه، هبوط آدم و همراهان اوست:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَقُلْنَا اهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ</blockquote>
+      <p class="translation">و گفتیم: فرود آیید؛ برخی از شما دشمن برخی دیگر خواهید بود، و برای شما در زمین قرارگاه و بهره‌ای تا زمانی خواهد بود.</p>
+      <p><a href="{{ '/quran-reflection/fa/002-al-baqarah/036/' | relative_url }}">البقره ۲:۳۶</a></p>
+      <p>در این آیه، هبوط فقط جابه‌جایی مکانی نیست. با زمین، دشمنی، استقرار، و بهره محدود همراه است. یعنی انسان وارد مرحله‌ای می‌شود که در آن مکان، زمان، تزاحم، تلاش، و آزمون معنا پیدا می‌کند. زمین در این آیه فقط محل تبعید نیست؛ میدان زندگی، مسئولیت، هدایت و انتخاب است.</p>
+      <p>کمی بعد همین فرمان تکرار می‌شود:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قُلْنَا اهْبِطُوا مِنْهَا جَمِيعًا فَإِمَّا يَأْتِيَنَّكُم مِّنِّي هُدًى</blockquote>
+      <p class="translation">گفتیم: همگی از آن فرود آیید؛ پس اگر از سوی من برای شما هدایتی آمد...</p>
+      <p><a href="{{ '/quran-reflection/fa/002-al-baqarah/038/' | relative_url }}">البقره ۲:۳۸</a></p>
+      <p>اینجا «منها» نشان می‌دهد که هبوط از یک وضعیت یا جایگاه پیشین است. اما ادامه آیه مهم است: پس از هبوط، هدایت می‌آید. بنابراین هبوط آدم به معنای رها شدن در تاریکی نیست؛ آغاز مرحله زمینی انسان است، همراه با امکان هدایت.</p>
+      <p>در سوره اعراف نیز آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ اهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ</blockquote>
+      <p class="translation">فرمود: فرود آیید؛ برخی از شما دشمن برخی دیگر خواهید بود، و برای شما در زمین قرارگاه و بهره‌ای تا زمانی خواهد بود.</p>
+      <p><a href="{{ '/quran-reflection/fa/007-al-araf/024/' | relative_url }}">الاعراف ۷:۲۴</a></p>
+      <p>در این آیه، هبوط با زمین و متاع موقت گره خورده است. انسان وارد ساحتی می‌شود که در آن ثبات مطلق ندارد، بلکه «مستقر» و «متاع إلى حين» دارد: قرارگاه و بهره‌ای تا زمانی مشخص.</p>
+      <p>در سوره طه، صیغه تثنیه آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ اهْبِطَا مِنْهَا جَمِيعًا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ</blockquote>
+      <p class="translation">فرمود: هر دو از آن فرود آیید؛ همه، در حالی که برخی از شما دشمن برخی دیگر خواهید بود.</p>
+      <p><a href="{{ '/quran-reflection/fa/020-taha/123/' | relative_url }}">طه ۲۰:۱۲۳</a></p>
+      <p>تفاوت صیغه‌ها قابل توجه است. در بقره و اعراف، صیغه جمع «اهبطوا» میدان کلان هبوط را نشان می‌دهد: آدم، همسرش، شیطان، و ادامه تاریخی این تقابل در زمین. در طه، صیغه تثنیه «اهبطا» می‌تواند توجه را به دو سوی اصلی نزاع زمینی نزدیک کند: انسان و عامل وسوسه/دشمنی. این نکته باید با احتیاط گفته شود، چون متن قرآن تفصیل بیشتری نمی‌دهد؛ اما تغییر صیغه نشان می‌دهد که هبوط تنها یک حرکت مکانی ساده نیست، بلکه آغاز یک نسبت تازه در زمین است.</p>
+    </section>
+
+    <section class="root-section" id="iblis-descent">
+      <h2>هبوط ابلیس</h2>
+      <p>میدان دوم، هبوط ابلیس است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ فَاهْبِطْ مِنْهَا فَمَا يَكُونُ لَكَ أَن تَتَكَبَّرَ فِيهَا فَاخْرُجْ إِنَّكَ مِنَ الصَّاغِرِينَ</blockquote>
+      <p class="translation">فرمود: پس از آن فرود آی؛ تو را نرسد که در آن تکبر کنی؛ پس بیرون رو، که تو از خوارشدگان هستی.</p>
+      <p><a href="{{ '/quran-reflection/fa/007-al-araf/013/' | relative_url }}">الاعراف ۷:۱۳</a></p>
+      <p>این هبوط با هبوط آدم یکی نیست. درباره ابلیس، هبوط با تکبر، خروج، و صغار همراه است. یعنی پایین آمدن او رنگ طرد و کاهش منزلت دارد. او از جایگاهی که تکبر در آن پذیرفتنی نبود پایین رانده می‌شود. پس هبوط در اینجا فرود مکانی صرف نیست؛ پایین افتادن از مرتبه‌ای است که با کبر ناسازگار بود.</p>
+    </section>
+
+    <section class="root-section" id="israelites-descent">
+      <h2>هبوط بنی‌اسرائیل</h2>
+      <p>میدان سوم، هبوط بنی‌اسرائیل به مصر یا شهری زمینی‌تر است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ أَتَسْتَبْدِلُونَ الَّذِي هُوَ أَدْنَىٰ بِالَّذِي هُوَ خَيْرٌ اهْبِطُوا مِصْرًا فَإِنَّ لَكُم مَّا سَأَلْتُمْ</blockquote>
+      <p class="translation">گفت: آیا آنچه پست‌تر است را به جای آنچه بهتر است می‌گیرید؟ به شهری/مصری فرود آیید، که آنچه خواستید برای شما خواهد بود.</p>
+      <p><a href="{{ '/quran-reflection/fa/002-al-baqarah/061/' | relative_url }}">البقره ۲:۶۱</a></p>
+      <p>در این آیه، هبوط با «أدنى» و «خير» پیوند دارد. بنی‌اسرائیل چیزی زمینی‌تر و عادی‌تر خواستند، در برابر رزقی که در سیاق آیات با نعمت و تربیت الهی همراه بود. «اهبطوا مصرا» در اینجا فقط رفتن به یک مکان نیست؛ پاسخ به خواسته‌ای است که سطح پایین‌تر را به جای خیر برگزیده بود. پس هبوط، ورود به سطحی محدودتر و معمولی‌تر از زندگی مادی است.</p>
+    </section>
+
+    <section class="root-section" id="stones-descent">
+      <h2>هبوط سنگ‌ها</h2>
+      <p>میدان چهارم، هبوط سنگ‌هاست:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِنَّ مِنَ الْحِجَارَةِ لَمَا يَهْبِطُ مِنْ خَشْيَةِ اللَّهِ</blockquote>
+      <p class="translation">و همانا از سنگ‌ها، برخی هستند که از خشیت خدا فرود می‌آیند.</p>
+      <p><a href="{{ '/quran-reflection/fa/002-al-baqarah/074/' | relative_url }}">البقره ۲:۷۴</a></p>
+      <p>اینجا ریشه به تصویر مادی خود نزدیک است: سنگ از جای خود پایین می‌آید یا فرو می‌افتد. اما آیه آن را با خشیت خدا پیوند می‌دهد. در سیاق آیه، قلب‌های سخت‌تر از سنگ نکوهش می‌شوند، در حالی که سنگ‌ها در برابر خدا واکنش و خشیت دارند. بنابراین هبوط سنگ، هم تصویر فیزیکی دارد و هم در خدمت مقایسه اخلاقی است.</p>
+    </section>
+
+    <section class="root-section" id="nuh-descent">
+      <h2>هبوط نوح</h2>
+      <p>میدان پنجم، هبوط نوح پس از طوفان است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قِيلَ يَا نُوحُ اهْبِطْ بِسَلَامٍ مِّنَّا وَبَرَكَاتٍ عَلَيْكَ وَعَلَىٰ أُمَمٍ مِّمَّن مَّعَكَ</blockquote>
+      <p class="translation">گفته شد: ای نوح، با سلامی از سوی ما و برکت‌هایی بر تو و بر امت‌هایی از کسانی که با تو هستند فرود آی.</p>
+      <p><a href="{{ '/quran-reflection/fa/011-hud/048/' | relative_url }}">هود ۱۱:۴۸</a></p>
+      <p>این هبوط بار منفی ندارد. نوح پس از عبور از طوفان، با سلام و برکت وارد مرحله تازه می‌شود. این آیه نشان می‌دهد که هبوط همیشه طرد یا تنزل اخلاقی نیست؛ گاهی فرود آمدن امن، مبارک، و آغاز دوباره است.</p>
+    </section>
+
+    <section class="root-section" id="distinctions">
+      <h2>تفکیک کاربردها و ساختارها</h2>
+      <p>باید میان کاربردهای ه ب ط فرق گذاشت. هبوط آدم، ورود به زمین و آغاز تاریخ آزمون است. هبوط ابلیس، پایین رانده شدن به سبب تکبر و صغار است. هبوط بنی‌اسرائیل، پاسخ به انتخاب أدنى به جای خیر و ورود به سطح پایین‌تر خواسته‌های مادی است. هبوط سنگ‌ها، فرود مادی در سیاق خشیت است. هبوط نوح، فرود با سلام و برکت پس از طوفان است.</p>
+      <p>از نظر ساختاری، صیغه و حرف اضافه در این ریشه مهم‌اند. «اهبطوا منها» فرود از جایگاه یا وضعیت پیشین را نشان می‌دهد. «في الأرض مستقر» مقصد و نتیجه زمینی هبوط آدم را روشن می‌کند. «فاهبط منها» درباره ابلیس با «فاخرج» همراه است، پس رنگ طرد دارد. «اهبطوا مصرا» مقصد زمینی و شهری را نشان می‌دهد. «اهبط بسلام منا» نشان می‌دهد که هبوط می‌تواند همراه با امان و برکت باشد.</p>
+    </section>
+
+    <section class="root-section" id="near-roots">
+      <h2>تفاوت با ریشه‌های نزدیک</h2>
+      <p>ه ب ط با چند ریشه نزدیک فرق دارد. ن ز ل فرود آمدن عام‌تر و خنثی‌تر است؛ می‌تواند درباره کتاب، باران، فرشتگان، یا مهمان به کار رود. هبوط بیشتر حس پایین آمدن به بستری سنگین‌تر، زمینی‌تر، یا محدودتر دارد. سقوط به افتادن و فرو افتادن ناگهانی نزدیک است، اما هبوط می‌تواند فرمان‌یافته و مرحله‌ای باشد. هوی به فرو افتادن یا افتادن در مسیر پایین، گاهی با شتاب و سقوط، نزدیک است؛ اما هبوط الزاماً سقوط رهاشده نیست. خروج به بیرون رفتن از محدوده اشاره دارد؛ هبوط گاهی با خروج همراه می‌شود، اما خودِ آن جهت فرود و پایین آمدن را دارد.</p>
+    </section>
+
+    <section class="root-section" id="translation-suggestions">
+      <h2>پیشنهادهای ترجمه برای فرقان</h2>
+      <p>برای ترجمه در فرقان، ه ب ط را باید سیاق‌مند ترجمه کرد. در داستان آدم، «فرود آیید» یا «به زمین فرود آیید» مناسب است، با توضیح اینکه مراد فقط حرکت مکانی نیست، بلکه ورود به مرحله زمینی آزمون است. درباره ابلیس، «فرود آی» در کنار «بیرون رو» باید بار طرد و کاهش منزلت را حفظ کند. درباره بنی‌اسرائیل، «به شهری فرود آیید» یا «به شهری پایین آیید» ممکن است مناسب باشد، اما حتماً باید پیوند آن با «أدنى» دیده شود. درباره نوح، «با سلام و برکت فرود آی» باید بار مثبت و آغاز تازه را نگه دارد.</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>جمع‌بندی زبانی</h2>
+      <p>جمع‌بندی زبانی: ریشه ه ب ط بر فرود آمدن، پایین آمدن، و انتقال از جایگاه یا وضعیت بالاتر به مرحله‌ای پایین‌تر، زمینی‌تر، یا محدودتر دلالت دارد. تصویر مادی آن پایین آمدن از بلندی است، اما در قرآن این تصویر چند میدان پیدا می‌کند: هبوط آدم به زمین و آزمون، هبوط ابلیس به سبب تکبر و طرد، هبوط بنی‌اسرائیل به سطح خواسته‌های پایین‌تر، هبوط سنگ از خشیت خدا، و هبوط نوح با سلام و برکت پس از طوفان. فرق آن با نزول این است که نزول عام‌تر و خنثی‌تر است، اما هبوط بیشتر حس فرود به سطحی سنگین‌تر، محدودتر، یا زمینی‌تر را در خود دارد.</p>
+    </section>
+  </div>
+</div>
