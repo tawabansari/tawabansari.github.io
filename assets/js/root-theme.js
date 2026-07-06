@@ -1,92 +1,45 @@
-// Keeps root study pages aligned with the site theme toggle.
+// Keeps root study pages aligned with the single Forqan site theme.
 (function () {
-    function parseRGB(value) {
-      var match = String(value || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/i);
-      if (!match) return null;
-      return [Number(match[1]), Number(match[2]), Number(match[3])];
-    }
+  function currentTheme() {
+    var theme = document.documentElement.getAttribute('data-forqan-theme');
+    if (theme === 'dark' || theme === 'light') return theme;
 
-    function luminance(rgb) {
-      if (!rgb) return 255;
-      return (0.2126 * rgb[0]) + (0.7152 * rgb[1]) + (0.0722 * rgb[2]);
-    }
-
-    function hasToken(text, token) {
-      return new RegExp('(^|\\s|_|-)' + token + '($|\\s|_|-)', 'i').test(String(text || ''));
-    }
-
-    function savedThemePreference() {
-      try {
-        return localStorage.getItem('forqan-theme');
-      } catch (e) {
-        return null;
-      }
-    }
-
-    function detectForqanTheme() {
-      var html = document.documentElement;
-      var body = document.body;
-      var saved = savedThemePreference();
-
+    try {
+      var saved = localStorage.getItem('forqan-theme');
       if (saved === 'dark' || saved === 'light') return saved;
+    } catch (e) {}
 
-      var marker = [
-        html.className,
-        body ? body.className : '',
-        html.getAttribute('data-theme'),
-        body ? body.getAttribute('data-theme') : '',
-        html.getAttribute('data-bs-theme'),
-        body ? body.getAttribute('data-bs-theme') : ''
-      ].join(' ');
+    return document.body && document.body.classList.contains('dark-theme') ? 'dark' : 'light';
+  }
 
-      if (hasToken(marker, 'dark')) return 'dark';
-      if (hasToken(marker, 'light')) return 'light';
+  function applyRootTheme() {
+    var theme = currentTheme();
+    var isDark = theme === 'dark';
+    var html = document.documentElement;
+    var page = document.querySelector('.root-study-page');
 
-      if (body || html) {
-        var bg = parseRGB(getComputedStyle(body || html).backgroundColor) ||
-                 parseRGB(getComputedStyle(html).backgroundColor);
-        if (bg) return luminance(bg) < 128 ? 'dark' : 'light';
-      }
+    html.setAttribute('data-forqan-theme', theme);
+    html.setAttribute('data-theme', theme);
+    html.classList.toggle('forqan-root-pre-dark', isDark);
+    html.classList.toggle('forqan-root-pre-light', !isDark);
+    html.classList.toggle('forqan-theme-dark', isDark);
+    html.classList.toggle('forqan-theme-light', !isDark);
 
-      return 'light';
+    if (document.body) {
+      document.body.classList.toggle('dark-theme', isDark);
+      document.body.classList.toggle('light-theme', !isDark);
     }
 
-    function applyForqanRootTheme() {
-      var theme = detectForqanTheme();
-      var isDark = theme === 'dark';
-      var html = document.documentElement;
-      var page = document.querySelector('.root-study-page');
-
-      html.classList.toggle('forqan-root-pre-dark', isDark);
-      html.classList.toggle('forqan-root-pre-light', !isDark);
-
-      if (page) {
-        page.classList.toggle('forqan-root-dark', isDark);
-        page.classList.toggle('forqan-root-light', !isDark);
-      }
+    if (page) {
+      page.classList.toggle('forqan-root-dark', isDark);
+      page.classList.toggle('forqan-root-light', !isDark);
     }
+  }
 
-    applyForqanRootTheme();
-    document.addEventListener('DOMContentLoaded', applyForqanRootTheme);
-    window.addEventListener('load', applyForqanRootTheme);
-    window.addEventListener('storage', applyForqanRootTheme);
-
-    if (window.MutationObserver) {
-      var observer = new MutationObserver(applyForqanRootTheme);
-      observer.observe(document.documentElement, {
-        attributes: true,
-        attributeFilter: ['class', 'data-theme', 'data-bs-theme']
-      });
-
-      function observeBody() {
-        if (!document.body) return;
-        observer.observe(document.body, {
-          attributes: true,
-          attributeFilter: ['class', 'data-theme', 'data-bs-theme']
-        });
-      }
-
-      observeBody();
-      document.addEventListener('DOMContentLoaded', observeBody);
-    }
-  })();
+  applyRootTheme();
+  document.addEventListener('DOMContentLoaded', applyRootTheme);
+  window.addEventListener('forqan-theme-change', applyRootTheme);
+  window.addEventListener('storage', function (event) {
+    if (!event || event.key === 'forqan-theme') applyRootTheme();
+  });
+})();

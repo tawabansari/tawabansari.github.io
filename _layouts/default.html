@@ -7,18 +7,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script>
+    /*
+      Forqan theme bootstrap.
+      This runs before CSS is requested, so the browser knows the intended
+      theme before first paint. The whole site now uses one source of truth:
+      localStorage key: forqan-theme, values: light | dark
+      reflected as: html[data-forqan-theme="light|dark"]
+    */
     (function () {
+      var theme = 'light';
       try {
         var savedTheme = localStorage.getItem('forqan-theme');
-        var html = document.documentElement;
-        if (savedTheme === 'dark') {
-          html.classList.add('forqan-root-pre-dark');
-          html.classList.remove('forqan-root-pre-light');
-        } else if (savedTheme === 'light') {
-          html.classList.add('forqan-root-pre-light');
-          html.classList.remove('forqan-root-pre-dark');
+        if (savedTheme === 'dark' || savedTheme === 'light') {
+          theme = savedTheme;
         }
       } catch (e) {}
+
+      var html = document.documentElement;
+      html.setAttribute('data-forqan-theme', theme);
+      html.setAttribute('data-theme', theme);
+      html.classList.toggle('forqan-root-pre-dark', theme === 'dark');
+      html.classList.toggle('forqan-root-pre-light', theme !== 'dark');
+      html.classList.toggle('forqan-theme-dark', theme === 'dark');
+      html.classList.toggle('forqan-theme-light', theme !== 'dark');
     })();
   </script>
 
@@ -60,6 +71,22 @@
 
     html {
       scroll-behavior: smooth;
+    }
+
+    html.forqan-theme-booting *,
+    html.forqan-theme-booting *::before,
+    html.forqan-theme-booting *::after {
+      transition: none !important;
+    }
+
+    html[data-forqan-theme="dark"] {
+      color-scheme: dark;
+      background: #0f172a;
+    }
+
+    html[data-forqan-theme="light"] {
+      color-scheme: light;
+      background: #f8f8f8;
     }
 
     body {
@@ -2346,6 +2373,14 @@
 </head>
 
 <body class="lang-{% if page.url contains '/fa/' %}fa{% else %}en{% endif %}">
+<script>
+  /* Apply body class before visible page content is parsed. */
+  (function () {
+    var theme = document.documentElement.getAttribute('data-forqan-theme') || 'light';
+    document.body.classList.toggle('dark-theme', theme === 'dark');
+    document.body.classList.toggle('light-theme', theme !== 'dark');
+  })();
+</script>
 
 <div class="reading-progress" aria-hidden="true"></div>
 
@@ -2672,9 +2707,27 @@
     }, 420);
   }
 
-  if (savedTheme === 'dark') {
-    document.body.classList.add('dark-theme');
+  function applyForqanTheme(theme) {
+    if (theme !== 'dark' && theme !== 'light') theme = 'light';
+
+    document.documentElement.setAttribute('data-forqan-theme', theme);
+    document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.classList.toggle('forqan-root-pre-dark', theme === 'dark');
+    document.documentElement.classList.toggle('forqan-root-pre-light', theme !== 'dark');
+    document.documentElement.classList.toggle('forqan-theme-dark', theme === 'dark');
+    document.documentElement.classList.toggle('forqan-theme-light', theme !== 'dark');
+
+    document.body.classList.toggle('dark-theme', theme === 'dark');
+    document.body.classList.toggle('light-theme', theme !== 'dark');
+
+    try {
+      localStorage.setItem('forqan-theme', theme);
+    } catch (e) {}
+
+    window.dispatchEvent(new CustomEvent('forqan-theme-change', { detail: { theme: theme } }));
   }
+
+  applyForqanTheme(savedTheme === 'dark' ? 'dark' : 'light');
 
   if (document.fonts && document.fonts.ready) {
     document.fonts.ready.then(refreshArabicFont);
@@ -2682,18 +2735,14 @@
     window.addEventListener('load', refreshArabicFont);
   }
 
-  themeButton.addEventListener('click', function () {
-    document.body.classList.toggle('dark-theme');
-
-    if (document.body.classList.contains('dark-theme')) {
-      localStorage.setItem('forqan-theme', 'dark');
-    } else {
-      localStorage.setItem('forqan-theme', 'light');
-    }
-
-    refreshArabicFont();
-    window.setTimeout(refreshArabicFont, 180);
-  });
+  if (themeButton) {
+    themeButton.addEventListener('click', function () {
+      var nextTheme = document.body.classList.contains('dark-theme') ? 'light' : 'dark';
+      applyForqanTheme(nextTheme);
+      refreshArabicFont();
+      window.setTimeout(refreshArabicFont, 180);
+    });
+  }
 
   const zoomInBtn = document.getElementById('zoom-in');
   const zoomOutBtn = document.getElementById('zoom-out');

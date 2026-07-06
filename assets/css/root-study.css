@@ -24,18 +24,11 @@
     font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
   }
 
-  /* Dark mode follows the website toggle/classes, not the OS preference. */
+  /* Dark mode follows the Forqan theme only. */
+  html[data-forqan-theme="dark"] .root-study-page,
+  html.forqan-theme-dark .root-study-page,
   html.forqan-root-pre-dark .root-study-page,
   body.dark-theme .root-study-page,
-  html.dark .root-study-page,
-  body.dark .root-study-page,
-  html.dark-mode .root-study-page,
-  body.dark-mode .root-study-page,
-  html[data-theme="dark"] .root-study-page,
-  body[data-theme="dark"] .root-study-page,
-  [data-bs-theme="dark"] .root-study-page,
-  .forqan-theme-dark .root-study-page,
-  .theme-dark .root-study-page,
   .root-study-page.forqan-root-dark {
     --root-bg: #0f1a2c;
     --root-card: #121f33;
@@ -52,16 +45,10 @@
     --root-shadow: 0 18px 60px rgba(0, 0, 0, 0.24);
   }
 
+  html[data-forqan-theme="light"] .root-study-page,
+  html.forqan-theme-light .root-study-page,
   html.forqan-root-pre-light .root-study-page,
-  html.light .root-study-page,
-  body.light .root-study-page,
-  html.light-mode .root-study-page,
-  body.light-mode .root-study-page,
-  html[data-theme="light"] .root-study-page,
-  body[data-theme="light"] .root-study-page,
-  [data-bs-theme="light"] .root-study-page,
-  .forqan-theme-light .root-study-page,
-  .theme-light .root-study-page,
+  body.light-theme .root-study-page,
   .root-study-page.forqan-root-light {
     --root-bg: #f7f3ea;
     --root-card: #fffaf1;
