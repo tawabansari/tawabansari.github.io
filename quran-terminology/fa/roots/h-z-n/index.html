@@ -1,0 +1,363 @@
+---
+layout: default
+title: ریشه قرآنی ح ز ن
+permalink: /quran-terminology/fa/roots/h-z-n/
+---
+
+<style>
+  .root-study-page {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark-theme .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page,
+  .theme-dark .root-study-page,
+  .forqan-theme-dark .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-study-page * { box-sizing: border-box; }
+
+  .root-study-page.forqan-page-rtl,
+  .root-study-page.forqan-page-rtl h1,
+  .root-study-page.forqan-page-rtl h2,
+  .root-study-page.forqan-page-rtl h3,
+  .root-study-page.forqan-page-rtl p,
+  .root-study-page.forqan-page-rtl li {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .root-frame {
+    background:
+      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
+      var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    color: var(--root-text);
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
+      var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-forms-card h2,
+  .root-toc h2 { margin-top: 0; }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .morph-card {
+    display: block;
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem;
+    background: var(--root-section);
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    color: var(--root-muted);
+    font-size: 0.88rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .morph-form {
+    font-weight: 800;
+    font-size: 1.18rem;
+    color: var(--root-accent-deep);
+    margin-bottom: 0.4rem;
+  }
+
+  .morph-note {
+    color: var(--root-muted);
+    margin-bottom: 0;
+    font-size: 0.95rem;
+  }
+
+  .translit {
+    color: var(--root-muted);
+    font-weight: 500;
+    font-size: 0.92em;
+  }
+
+  .root-note {
+    border-right: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+    margin: 1.25rem 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-note {
+    border-right: 0;
+    border-left: 3px solid var(--root-accent);
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol { padding-left: 0; }
+
+  .root-toc li {
+    margin: 0.28rem 0;
+    break-inside: avoid;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
+  }
+
+  .root-study-page p { margin: 0.85rem 0; }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0 0.65rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent),
+      var(--root-panel);
+    color: var(--root-text);
+    unicode-bidi: isolate;
+  }
+
+  .root-study-page .translation {
+    text-align: center !important;
+    color: var(--root-muted);
+    margin-top: 0.45rem;
+  }
+
+  .root-study-page .verse-ref {
+    text-align: center !important;
+    color: var(--root-accent-deep);
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+
+  .root-study-page .arabic-large {
+    font-size: 1.12em;
+    line-height: 2.15;
+    direction: rtl;
+    unicode-bidi: isolate;
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page { padding: 2rem 1rem; }
+    .root-frame { padding: 1.25rem; border-radius: 19px; }
+    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
+    .root-toc ol { columns: 1; }
+    .morphology-grid { grid-template-columns: 1fr; }
+    .arabic-quote { font-size: 1.24rem; }
+  }
+</style>
+
+<div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">ریشه قرآنی</div>
+      <h1>ریشه قرآنی ح ز ن</h1>
+      <p class="root-subtitle">اندوه، سنگینی دل، و ناهموار شدن راه درون</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>صورت‌های صرفی این ریشه</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#root-meaning"><div class="morph-card-header"><div class="morph-type">ریشه</div><div class="morph-used">معنای بنیادین</div></div><div class="morph-form">ح ز ن</div><p class="morph-note">اندوهگین شدن، سنگین شدن دل، و سختی و ناهمواری درونی.</p></a>
+        <a class="morph-card" href="#forms"><div class="morph-card-header"><div class="morph-type">اسم</div><div class="morph-used">اندوه</div></div><div class="morph-form">حُزْن / الْحُزْن / حَزَنًا</div><p class="morph-note">اندوه، حالت اندوه، یا سبب و کیفیت اندوه در سیاق‌های گوناگون.</p></a>
+        <a class="morph-card" href="#prophet-grief"><div class="morph-card-header"><div class="morph-type">فعل</div><div class="morph-used">اثر بر دل</div></div><div class="morph-form">يَحْزُن / يَحْزُنك / تَحْزَن</div><p class="morph-note">اندوهگین شدن یا اندوهگین کردن، از جمله اثر سخن و وضعیت دیگران بر دل.</p></a>
+        <a class="morph-card" href="#final-removal"><div class="morph-card-header"><div class="morph-type">جمع/خطاب</div><div class="morph-used">نفی سلطه اندوه</div></div><div class="morph-form">يَحْزَنُون / تَحْزَنُون</div><p class="morph-note">اندوهگین شدن گروهی یا مخاطبان، به‌ویژه در ساختارهای وعده و تسلی.</p></a>
+      </div>
+    </section>
+
+    <p class="root-note">این صفحه درباره میدان زبانی ریشه ح ز ن در قرآن است: اندوهی که دل را سنگین و مسیر درون را ناهموار می‌کند، اما در هدایت، توکل، تسلی الهی و فرجام رحمت، از سلطه نهایی می‌افتد.</p>
+
+    <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
+      <h2>فهرست کاربردهای این ریشه</h2>
+      <ol>
+        <li><a href="#root-meaning">معنای بنیادین</a></li>
+        <li><a href="#forms">صورت‌های مهم قرآنی</a></li>
+        <li><a href="#core">هسته زبانی</a></li>
+        <li><a href="#material-image">تصویر مادی ریشه</a></li>
+        <li><a href="#classical-usage">کاربرد عربی کلاسیک</a></li>
+        <li><a href="#guidance">نفی حزن در وعده هدایت</a></li>
+        <li><a href="#prophet-grief">اندوه پیامبر</a></li>
+        <li><a href="#moses-mother">مادر موسی و آرام گرفتن چشم</a></li>
+        <li><a href="#maryam">مریم و لا تحزني</a></li>
+        <li><a href="#yaqub">حزن یعقوب</a></li>
+        <li><a href="#social-field">حزن مؤمنان در میدان اجتماعی</a></li>
+        <li><a href="#satanic-grief">حزن به عنوان ابزار شیطان</a></li>
+        <li><a href="#final-removal">رفع حزن در فرجام مؤمنان</a></li>
+        <li><a href="#distinctions">تفکیک کاربردها</a></li>
+        <li><a href="#structure">نکات ساختاری</a></li>
+        <li><a href="#near-roots">تفاوت با ریشه‌های نزدیک</a></li>
+        <li><a href="#translation-suggestions">پیشنهادهای ترجمه برای فرقان</a></li>
+        <li><a href="#summary">جمع‌بندی زبانی</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="root-meaning"><h2>معنای بنیادین</h2><p>ریشه ح ز ن در اصل به اندوهگین شدن، سنگین شدن دل، و گرفتار شدن جان در حالتی از سختی و گرفتگی دلالت دارد. در لایه ملموس‌تر عربی، این ریشه با سختی، زبری و ناهمواری نیز پیوند دارد؛ مانند زمین سنگلاخ، سخت و دشوارگذر. از همین تصویر مادی، معنای روانی آن روشن می‌شود: حزن حالتی است که راه درون را ناهموار، سنگین و دشوار می‌کند.</p></section>
+
+    <section class="root-section" id="forms"><h2>صورت‌های مهم قرآنی</h2><p>صورت‌های مهم این ریشه در قرآن شامل حزن، الحزن، حزنا، يحزن، يحزنك، تحزن، يحزنون، تحزنون و حزين است. حزن و الحزن به اندوه و غم اشاره دارند. حزنا حالت یا سبب اندوه را نشان می‌دهد. يحزن و تحزن فعل اندوهگین شدن یا اندوهگین کردن است. يحزنك یعنی چیزی تو را اندوهگین کند. يحزنون و تحزنون نیز به اندوهگین شدن گروهی یا مخاطبان اشاره دارند.</p></section>
+
+    <section class="root-section" id="core"><h2>هسته زبانی</h2><p>هسته زبانی ح ز ن، سخت شدن مسیر روان و سنگین شدن جان است. در این ریشه، غم فقط یک احساس زودگذر نیست؛ حالتی است که درون انسان را مانند زمین ناهموار می‌کند. انسان در حزن، روانی و سبک‌حرکتی خود را از دست می‌دهد. چیزی در دل می‌نشیند، راه را سنگین می‌کند، و حرکت انسان را دشوار می‌سازد.</p></section>
+
+    <section class="root-section" id="material-image"><h2>تصویر مادی ریشه</h2><p>تصویر مادی این ریشه، زمینی سخت، سنگلاخ و دشوارگذر است. راهی که در زمین نرم و هموار آسان پیموده می‌شود، در زمین حزن سخت و کند می‌گردد. اندوه نیز چنین است: قلب و جان را از حالت روان و آرام بیرون می‌برد و حرکت درونی انسان را دشوار می‌کند.</p></section>
+
+    <section class="root-section" id="classical-usage"><h2>کاربرد عربی کلاسیک</h2><p>در کاربرد عربی کلاسیک، حزن با اندوه و غم، و نیز با سختی و ناهمواری زمین پیوند دارد. ضد آن در لایه مادی، نرمی و همواری راه است. از همین‌جا می‌توان فهمید که چرا حزن برای اندوه به کار می‌رود: اندوه، راه دل را ناهموار می‌کند. در نسخه نهایی، اگر شاهد معتبر از شعر جاهلی یا کاربرد کهن عربی پیدا شود، می‌توان آن را افزود.</p></section>
+
+    <section class="root-section" id="guidance"><h2>نفی حزن در وعده هدایت</h2><p>یکی از کاربردهای مهم این ریشه، نفی حزن در وعده هدایت است:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</blockquote><p class="translation">پس هر کس هدایت مرا دنبال کند، نه ترسی بر آنان است و نه اندوهگین می‌شوند.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-038' | relative_url }}">البقرة ۲:۳۸</a></p><p>در این آیه، خوف و حزن کنار هم آمده‌اند. خوف بیشتر به نگرانی از آینده مربوط است؛ حزن بیشتر به اندوه نسبت به از دست‌رفته، رخ‌داده، یا سنگینی درونی حال مربوط می‌شود. هدایت الهی انسان را از این دو فشار بنیادین نجات می‌دهد: ترس از پیش‌رو و اندوه فرساینده نسبت به آنچه پشت سر یا درون انسان مانده است.</p><p>همین ساختار بارها در قرآن تکرار می‌شود:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</blockquote><p class="translation">آگاه باشید، اولیای خدا نه ترسی بر آنان است و نه اندوهگین می‌شوند.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/010-yunus/#ayah-062' | relative_url }}">يونس ۱۰:۶۲</a></p><p>در این آیه نیز حزن با خوف همراه است. قرآن وعده نمی‌دهد که انسان هرگز هیچ احساس طبیعی اندوه را تجربه نمی‌کند؛ بلکه از امنیت نهایی و آرامشی سخن می‌گوید که ترس و اندوه ویرانگر بر آنان سلطه نمی‌یابد.</p></section>
+
+    <section class="root-section" id="prophet-grief"><h2>نهی از اندوه خوردن پیامبر</h2><p>میدان دوم، نهی از اندوه خوردن پیامبر است:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">قَدْ نَعْلَمُ إِنَّهُ لَيَحْزُنُكَ الَّذِي يَقُولُونَ</blockquote><p class="translation">به یقین می‌دانیم آنچه می‌گویند تو را اندوهگین می‌کند.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/006-al-anam/#ayah-033' | relative_url }}">الأنعام ۶:۳۳</a></p><p>این آیه بسیار مهم است، چون اندوه پیامبر را انکار نمی‌کند. خدا می‌فرماید می‌داند که سخنان آنان پیامبر را اندوهگین می‌کند. پس حزن در قرآن به خودی خود نشانه ضعف ایمان نیست؛ واکنشی انسانی به تکذیب، آزار، از دست دادن، یا سختی است.</p><p>در آیه‌ای دیگر آمده است:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">فَلَا يَحْزُنكَ قَوْلُهُمْ ۘ إِنَّا نَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ</blockquote><p class="translation">پس سخن آنان تو را اندوهگین نکند؛ ما آنچه پنهان می‌کنند و آنچه آشکار می‌کنند می‌دانیم.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/036-ya-sin/#ayah-076' | relative_url }}">يس ۳۶:۷۶</a></p><p>اینجا نهی از حزن به معنای سرزنش احساس نیست؛ بلکه تسلی و نگه‌داشتن پیامبر از فرسایش درونی است. خدا واقعیت را می‌داند، پس بار سخن آنان نباید جان پیامبر را بشکند یا حرکت او را کند کند.</p></section>
+
+    <section class="root-section" id="moses-mother"><h2>حزن در داستان موسی و مادر او</h2><p>میدان سوم، حزن در داستان موسی و مادر اوست:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">فَرَدَدْنَاهُ إِلَىٰ أُمِّهِ كَيْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ</blockquote><p class="translation">پس او را به مادرش بازگرداندیم تا چشمش آرام گیرد و اندوهگین نشود.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/028-al-qasas/#ayah-013' | relative_url }}">القصص ۲۸:۱۳</a></p><p>در این آیه، حزن مادر موسی در برابر قرة عين آمده است. بازگشت کودک، چشم مادر را آرام می‌کند و اندوه را از او برمی‌دارد. این تقابل مهم است: حزن دل را سخت و بی‌قرار می‌کند، اما قرة عين چشم و دل را آرام و مستقر می‌سازد.</p><p>همین مضمون در طه آمده است:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">فَرَجَعْنَاكَ إِلَىٰ أُمِّكَ كَيْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ</blockquote><p class="translation">پس تو را به مادرت بازگرداندیم تا چشمش آرام گیرد و اندوهگین نشود.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/020-ta-ha/#ayah-040' | relative_url }}">طه ۲۰:۴۰</a></p><p>در اینجا، حزن از جدایی، ترس و بی‌خبری پدید آمده است. رفع حزن با بازگشت، امنیت، و آرام گرفتن چشم همراه می‌شود. این نشان می‌دهد که قرآن گاهی حزن را فقط با امر درونی درمان نمی‌کند؛ بلکه با بازگرداندن پیوند و ایجاد آرامش واقعی آن را برمی‌دارد.</p></section>
+
+    <section class="root-section" id="maryam"><h2>حزن در داستان مریم</h2><p>میدان چهارم، حزن در داستان مریم است:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">فَنَادَاهَا مِن تَحْتِهَا أَلَّا تَحْزَنِي</blockquote><p class="translation">پس از پایین او را ندا داد که اندوهگین مباش.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/019-maryam/#ayah-024' | relative_url }}">مريم ۱۹:۲۴</a></p><p>مریم در لحظه‌ای بسیار سخت قرار دارد: تنهایی، درد زایمان، نگرانی اجتماعی، و آینده نامعلوم. خطاب «لا تحزني» در این سیاق، سرزنش نیست؛ گشودن راه آرامش است. پس در قرآن، نهی از حزن گاهی همراه با فراهم شدن سبب‌های واقعی آرامش می‌آید، نه فقط دستور خشک روانی.</p></section>
+
+    <section class="root-section" id="yaqub"><h2>حزن یعقوب</h2><p>میدان پنجم، حزن یعقوب است:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَا أَسَفَىٰ عَلَىٰ يُوسُفَ وَابْيَضَّتْ عَيْنَاهُ مِنَ الْحُزْنِ فَهُوَ كَظِيمٌ</blockquote><p class="translation">و از آنان روی برگرداند و گفت: ای دریغ من بر یوسف؛ و چشمانش از اندوه سفید شد، در حالی که فروخورنده بود.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/012-yusuf/#ayah-084' | relative_url }}">يوسف ۱۲:۸۴</a></p><p>در این آیه، حزن یعقوب به اندازه‌ای شدید است که اثر جسمانی پیدا می‌کند. قرآن این اندوه را به عنوان واقعیت انسانی پیامبر نقل می‌کند. یعقوب هم اندوه دارد و هم کظم؛ یعنی اندوه را فرو می‌برد و خود را نگه می‌دارد. پس حزن با صبر و ایمان ناسازگار نیست؛ مسئله این است که حزن انسان را از خدا جدا نکند.</p><p>در همین داستان، یعقوب می‌گوید:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ إِنَّمَا أَشْكُو بَثِّي وَحُزْنِي إِلَى اللَّهِ</blockquote><p class="translation">گفت: من فقط پریشانیِ ریخته‌شده و اندوه خود را به خدا شکایت می‌برم.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/012-yusuf/#ayah-086' | relative_url }}">يوسف ۱۲:۸۶</a></p><p>اینجا حزن در کنار بث آمده است. بث اندوهی است که درون را پر کرده و نیاز به بیرون ریختن دارد؛ حزن سنگینی و ناهمواری دل است. یعقوب اندوه خود را به مردم نمی‌سپارد تا او را از خدا دور کنند؛ آن را به خدا عرضه می‌کند.</p></section>
+
+    <section class="root-section" id="social-field"><h2>حزن مؤمنان در میدان اجتماعی و جهادی</h2><p>میدان ششم، حزن مؤمنان در میدان اجتماعی و جهادی است:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنتُمُ الْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ</blockquote><p class="translation">سست نشوید و اندوهگین نباشید، در حالی که شما برترید اگر مؤمن باشید.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/003-al-imran/#ayah-139' | relative_url }}">آل عمران ۳:۱۳۹</a></p><p>در این آیه، حزن پس از شکست، فشار یا آسیب جمعی مطرح است. قرآن اندوه را با سستی کنار هم می‌آورد. یعنی حزن اگر مدیریت نشود، می‌تواند اراده جمعی را ضعیف کند. نهی آیه برای بازگرداندن مؤمنان به ثبات و عزت ایمانی است.</p><p>در آیه‌ای دیگر درباره کسانی که توان شرکت در میدان را نداشتند آمده است:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">تَوَلَّوا وَّأَعْيُنُهُمْ تَفِيضُ مِنَ الدَّمْعِ حَزَنًا أَلَّا يَجِدُوا مَا يُنفِقُونَ</blockquote><p class="translation">بازگشتند در حالی که چشمانشان از اشک لبریز بود، از اندوه اینکه چیزی نمی‌یافتند که انفاق کنند.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/009-at-tawbah/#ayah-092' | relative_url }}">التوبة ۹:۹۲</a></p><p>اینجا حزن، اندوهی پاک و مسئولانه است. آنان اندوهگین‌اند چون توان مشارکت ندارند. این آیه نشان می‌دهد که هر حزن در قرآن منفی نیست؛ گاهی حزن از صدق نیت و ناتوانی واقعی برمی‌خیزد.</p></section>
+
+    <section class="root-section" id="satanic-grief"><h2>حزن به عنوان ابزار شیطان</h2><p>میدان هفتم، حزن به عنوان ابزار شیطان است:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّمَا النَّجْوَىٰ مِنَ الشَّيْطَانِ لِيَحْزُنَ الَّذِينَ آمَنُوا</blockquote><p class="translation">جز این نیست که نجوا از شیطان است، تا کسانی را که ایمان آورده‌اند اندوهگین کند.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/058-al-mujadilah/#ayah-010' | relative_url }}">المجادلة ۵۸:۱۰</a></p><p>در این آیه، شیطان از نجوا برای ایجاد حزن در مؤمنان استفاده می‌کند. این حزن فقط یک احساس ساده نیست؛ هدف آن سنگین کردن دل، ایجاد سوءظن، شکستن آرامش جمعی، و کند کردن حرکت مؤمنان است. نجوا فضای روانی را ناهموار می‌کند؛ انسان احساس می‌کند چیزی پشت پرده علیه اوست، و همین احساس می‌تواند او را از اعتماد، عمل و آرامش دور کند.</p><p>پس حزن شیطانی نوعی زمین‌گیر کردن روانی است. قرآن بلافاصله روشن می‌کند که این کار بدون اذن خدا زیانی نمی‌رساند و مؤمنان باید بر خدا توکل کنند. یعنی علاج این حزن، بازگشت به اعتماد الهی و بیرون آمدن از فضای مبهمی است که شیطان می‌سازد.</p></section>
+
+    <section class="root-section" id="final-removal"><h2>رفع حزن در بهشت و فرجام مؤمنان</h2><p>میدان هشتم، رفع حزن در بهشت و فرجام مؤمنان است:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">وَقَالُوا الْحَمْدُ لِلَّهِ الَّذِي أَذْهَبَ عَنَّا الْحَزَنَ</blockquote><p class="translation">و گفتند: ستایش برای خداست که اندوه را از ما برد.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/035-fatir/#ayah-034' | relative_url }}">فاطر ۳۵:۳۴</a></p><p>در این آیه، الحزن به صورت کلی آمده است. اهل بهشت می‌گویند خدا اندوه را از آنان برد. این نشان می‌دهد که دنیا میدان اندوه، فقدان، نگرانی، زحمت و ناهمواری است؛ اما در فرجام رحمت، حزن برداشته می‌شود.</p><p>همین مضمون در خطاب به بندگان خدا آمده است:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">يَا عِبَادِ لَا خَوْفٌ عَلَيْكُمُ الْيَوْمَ وَلَا أَنتُمْ تَحْزَنُونَ</blockquote><p class="translation">ای بندگان من، امروز نه ترسی بر شماست و نه اندوهگین می‌شوید.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/043-az-zukhruf/#ayah-068' | relative_url }}">الزخرف ۴۳:۶۸</a></p><p>در اینجا نیز خوف و حزن با هم نفی می‌شوند. روز فرجام، برای بندگان خدا روزی است که ترس آینده و اندوه گذشته بر آنان سلطه ندارد.</p></section>
+
+    <section class="root-section" id="distinctions"><h2>تفکیک کاربردها</h2><p>باید میان کاربردهای ح ز ن فرق گذاشت. حزن پیامبر از تکذیب، اندوه انسانی نسبت به آزار و انکار است. حزن یعقوب اندوه فقدان و فراق است. حزن مادر موسی اندوه جدایی و نگرانی است. حزن مریم اندوه تنهایی و فشار اجتماعی است. حزن مؤمنان پس از سختی می‌تواند اراده آنان را سنگین کند. حزن کسانی که توان انفاق ندارند، اندوه صدق و مسئولیت است. حزن شیطانی اندوهی است که برای شکستن روان مؤمنان ساخته می‌شود. رفع حزن در آخرت، برداشته شدن ناهمواری بنیادین جان است.</p></section>
+
+    <section class="root-section" id="structure"><h2>نکات ساختاری</h2><p>از نظر ساختاری، ترکیب «لا خوف عليهم ولا هم يحزنون» بسیار مهم است. خوف بیشتر رو به آینده دارد؛ حزن بیشتر به گذشته، فقدان، رخداد تلخ، یا سنگینی حال مربوط است. «لا تحزن» در قرآن همیشه یک منع خشک عاطفی نیست؛ گاهی تسلی، حمایت، و بازگرداندن انسان به اعتماد است. «يحزنك» نشان می‌دهد که سخن، رفتار یا وضعیت دیگران می‌تواند بر دل انسان اثر بگذارد. «أذهب عنا الحزن» نشان می‌دهد که حزن چیزی است که خدا می‌تواند آن را از انسان بردارد.</p></section>
+
+    <section class="root-section" id="near-roots"><h2>تفاوت با ریشه‌های نزدیک</h2><p>ح ز ن با چند ریشه نزدیک فرق دارد. خوف به ترس از خطر یا آینده مربوط است؛ حزن به اندوه و سنگینی دل. غم بیشتر به پوشیده شدن و فشار فراگیر نزدیک است؛ حزن به ناهمواری و سختی روانی. أسف اندوه همراه با حسرت، تأسف یا شدت تأثر است؛ مانند «يا أسفى على يوسف». كرب به گرفتاری شدید و فشاری نزدیک است که راه نفس را تنگ می‌کند. ضيق تنگی و فشار در سینه یا فضاست؛ حزن بیشتر اندوه و ناهمواری دل است. بث اندوهی است که درون را پر کرده و نیاز به بیرون ریختن دارد. همّ به نگرانی و مشغولیت ذهنی سنگین نزدیک است؛ حزن اندوه نشسته در دل است.</p></section>
+
+    <section class="root-section" id="translation-suggestions"><h2>پیشنهادهای ترجمه برای فرقان</h2><p>برای ترجمه در فرقان، ح ز ن باید سیاق‌مند ترجمه شود. حزن می‌تواند «اندوه»، «اندوهگینی»، «غم»، یا «سنگینی اندوه» باشد. لا تحزن بهتر است «اندوهگین مباش» یا «اندوه تو را نشکند» ترجمه شود، بسته به سیاق. لا هم يحزنون می‌تواند «و آنان اندوهگین نمی‌شوند» یا «و اندوه بر آنان چیره نمی‌شود» باشد. الحزن در فاطر ۳۵:۳۴ بهتر است «اندوه» یا «همه اندوه» ترجمه شود. حزنا در توبه ۹:۹۲ «از اندوه» است. يحزنك قولهم یعنی «سخن آنان تو را اندوهگین نکند».</p></section>
+
+    <section class="root-section" id="summary"><h2>جمع‌بندی زبانی</h2><p>جمع‌بندی زبانی: ریشه ح ز ن بر اندوهگین شدن، سنگین شدن دل، و در لایه مادی بر سختی و ناهمواری دلالت دارد. تصویر مادی آن زمین سنگلاخ و راه دشوارگذر است؛ و تصویر درونی آن دلی است که راهش از اندوه ناهموار و سنگین شده است. در قرآن، این ریشه از اندوه پیامبران تا اندوه مادر و مؤمنان، از اندوه پاک مسئولانه تا اندوه شیطانی، و از نهی تسلی‌بخش «لا تحزن» تا برداشته شدن کامل حزن در آخرت گسترش می‌یابد. فرق آن با خوف این است که خوف بیشتر به آینده و خطر پیش‌رو مربوط است، اما حزن به اندوه فقدان، فشار رخداد، و سنگینی درونی دل.</p></section>
+  </div>
+</div>
