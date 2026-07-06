@@ -1,22 +1,16 @@
 ---
-
 layout: default
 title: Quran Terminology
 permalink: /en/quran-terminology/
 ---
-
 <section class="category-page ltr" dir="ltr">
-  <h1>Quran Terminology</h1>
-
-  <p class="page-intro">
-    Reflections on key Quranic terms, meanings, and linguistic notes.
-  </p>
-
+<h1>Quran Terminology</h1>
+<p class="page-intro">
+Reflections on key Quranic terms, meanings, and linguistic notes.
+</p>
 {% assign terminology_posts = site.posts | where: "lang", "en" | where: "topic", "quran-terminology" %}
-
 {% comment %}
 Manual terminology order:
-
 1. Article about the Name of The God
 2. Malik Yawm ad-Din
 3. Huruf Muqatta'at
@@ -30,62 +24,51 @@ Manual terminology order:
 11. Taqwa
 12. Iman
 13. Kafir
-
+14. Arrogance and Istikbar; Taghut and the Character of Satan
+15. Sultan and Logic in the Qur'an
+16. Satan and Taghut
 Add future terms here in the order we want them to appear.
 {% endcomment %}
-
-{% assign ordered_terms = "name-of-allah,malik-yawm-ad-din,huruf-muqattaat,no-compulsion-and-delivery,sealing-of-the-heart-and-the-divine-way-of-guidance-and-misguidance,ghayb,covenant-in-the-quran,shahid-in-the-quran,darb-in-the-quran,divine-decree-and-human-choice,taqwa,iman,kafir" | split: "," %}
-
+{% assign ordered_terms = "name-of-allah,malik-yawm-ad-din,huruf-muqattaat,no-compulsion-and-delivery,sealing-of-the-heart-and-the-divine-way-of-guidance-and-misguidance,ghayb,covenant-in-the-quran,shahid-in-the-quran,darb-in-the-quran,divine-decree-and-human-choice,taqwa,iman,kafir,takabbur-istikbar-taghut-shaytan,sultan-logic-in-quran,satan-and-taghut" | split: "," %}
 {% if terminology_posts.size > 0 %} <div class="article-list">
-
-  {% for ordered_term in ordered_terms %}
-    {% assign matching_posts = terminology_posts | where: "term", ordered_term %}
-    {% for post in matching_posts %}
-      <article class="article-card">
-        <h2>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </h2>
-
-        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
-
-        {% if post.tags %}
-          <p class="tags">
-            {% for tag in post.tags %}
-              <span>{{ tag }}</span>
-            {% endfor %}
-          </p>
-        {% endif %}
-
-        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-      </article>
-    {% endfor %}
-  {% endfor %}
-
-  {% for post in terminology_posts %}
-    {% unless ordered_terms contains post.term %}
-      <article class="article-card">
-        <h2>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </h2>
-
-        <p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
-
-        {% if post.tags %}
-          <p class="tags">
-            {% for tag in post.tags %}
-              <span>{{ tag }}</span>
-            {% endfor %}
-          </p>
-        {% endif %}
-
-        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-      </article>
-    {% endunless %}
-  {% endfor %}
-
+{% for ordered_term in ordered_terms %}
+{% assign matching_posts = terminology_posts | where: "term", ordered_term %}
+{% for post in matching_posts %}
+<article class="article-card">
+<h2>
+<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+</h2>
+<p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+{% if post.tags %}
+<p class="tags">
+{% for tag in post.tags %}
+<span>{{ tag }}</span>
+{% endfor %}
+</p>
+{% endif %}
+<p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+</article>
+{% endfor %}
+{% endfor %}
+{% for post in terminology_posts %}
+{% unless ordered_terms contains post.term %}
+<article class="article-card">
+<h2>
+<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+</h2>
+<p class="date">{{ post.date | date: "%Y-%m-%d" }}</p>
+{% if post.tags %}
+<p class="tags">
+{% for tag in post.tags %}
+<span>{{ tag }}</span>
+{% endfor %}
+</p>
+{% endif %}
+<p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+</article>
+{% endunless %}
+{% endfor %}
 </div>
-
 {% else %} <p>No articles have been added to this section yet.</p>
 {% endif %}
-
 </section>
