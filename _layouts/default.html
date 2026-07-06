@@ -3781,9 +3781,10 @@
     const sectionMirrorLink = shouldShowReflectionTools && detailsBlock.id
       ? createMirrorLanguageLink(detailsBlock.id)
       : null;
+    let sectionCopyButton = null;
 
     if (shouldShowReflectionTools) {
-      const sectionCopyButton = document.createElement('button');
+      sectionCopyButton = document.createElement('button');
       sectionCopyButton.className = 'copy-section-text';
       sectionCopyButton.type = 'button';
       sectionCopyButton.textContent = '⧉';
@@ -3798,7 +3799,7 @@
 
         const clonedBlock = detailsBlock.cloneNode(true);
         clonedBlock
-          .querySelectorAll('.copy-section-text, .language-mirror-link')
+          .querySelectorAll('.copy-section-text, .language-mirror-link, .section-toggle-button')
           .forEach(function (button) {
             button.remove();
           });
@@ -3822,11 +3823,6 @@
         copyToClipboard(sectionCopyButton, copiedText);
       });
 
-      summary.appendChild(sectionCopyButton);
-
-      if (sectionMirrorLink) {
-        summary.appendChild(sectionMirrorLink);
-      }
     }
 
     const sectionToggleButton = document.createElement('button');
@@ -3851,7 +3847,24 @@
 
     detailsBlock.addEventListener('toggle', refreshSectionToggleLabel);
     refreshSectionToggleLabel();
+
+    /*
+      Tool order:
+      - LTR visual order: title, expand/collapse, mirror language, copy
+      - RTL visual order: title, expand/collapse, mirror language, copy
+        because the summary uses RTL direction on Farsi pages.
+      This swaps the +/- button with the copy button without requiring edits
+      inside individual verse/content files.
+    */
     summary.appendChild(sectionToggleButton);
+
+    if (sectionMirrorLink) {
+      summary.appendChild(sectionMirrorLink);
+    }
+
+    if (sectionCopyButton) {
+      summary.appendChild(sectionCopyButton);
+    }
   });
 
   function highlightLinkedAyah() {
