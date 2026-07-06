@@ -1,0 +1,331 @@
+---
+layout: default
+title: ریشه قرآنی خ و ف
+permalink: /quran-terminology/fa/roots/kh-w-f/
+---
+
+<style>
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark-theme .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page,
+  .theme-dark .root-study-page,
+  .forqan-theme-dark .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+  .root-study-page * { box-sizing: border-box; }
+  .root-study-page.forqan-page-rtl,
+  .root-study-page.forqan-page-rtl h1,
+  .root-study-page.forqan-page-rtl h2,
+  .root-study-page.forqan-page-rtl h3,
+  .root-study-page.forqan-page-rtl p,
+  .root-study-page.forqan-page-rtl li { direction: rtl; text-align: right; }
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li { direction: ltr; text-align: left; }
+  .root-frame {
+    background: radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%), var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+  .root-hero { border-bottom: 1px solid var(--root-border-soft); padding-bottom: 1.65rem; margin-bottom: 2rem; }
+  .root-kicker { color: var(--root-accent-deep); font-size: 0.96rem; font-weight: 800; margin-bottom: 0.45rem; }
+  .root-study-page h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.05rem); line-height: 1.4; color: var(--root-text); }
+  .root-subtitle { color: var(--root-muted); max-width: 780px; margin: 1rem 0 0; font-size: 1.04rem; }
+  .root-forms-card, .root-toc {
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent 82%), var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+  .root-forms-card h2, .root-toc h2 { margin-top: 0; }
+  .morphology-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+  .morph-card { display: block; border: 1px solid var(--root-border-soft); border-radius: 16px; padding: 1rem; background: var(--root-section); color: inherit; text-decoration: none; }
+  .morph-card-header { display: flex; justify-content: space-between; gap: 0.75rem; color: var(--root-muted); font-size: 0.88rem; margin-bottom: 0.55rem; }
+  .morph-form { font-weight: 800; font-size: 1.18rem; color: var(--root-accent-deep); margin-bottom: 0.4rem; }
+  .morph-note { color: var(--root-muted); margin-bottom: 0; font-size: 0.95rem; }
+  .translit { color: var(--root-muted); font-weight: 500; font-size: 0.92em; }
+  .root-note { border-right: 3px solid var(--root-accent); padding: 0.9rem 1rem; background: var(--root-accent-soft); border-radius: 14px; color: var(--root-muted); margin: 1.25rem 0; }
+  .root-study-page.forqan-page-ltr .root-note { border-right: 0; border-left: 3px solid var(--root-accent); }
+  .root-toc ol { list-style-position: inside; padding-right: 0; margin: 0.75rem 0 0; columns: 2; column-gap: 2rem; }
+  .root-study-page.forqan-page-ltr .root-toc ol { padding-left: 0; }
+  .root-toc li { margin: 0.28rem 0; break-inside: avoid; }
+  .root-section { background: var(--root-section); border: 1px solid var(--root-border-soft); border-radius: 18px; padding: 1.5rem 1.6rem; margin: 1.55rem 0; }
+  .root-section h2 { margin: 0 0 1rem; color: var(--root-text); font-size: 1.35rem; line-height: 1.6; }
+  .root-section h2::before { content: ""; display: inline-block; width: 0.58rem; height: 0.58rem; border-radius: 999px; background: var(--root-accent); margin-left: 0.55rem; vertical-align: 0.08em; }
+  .root-study-page.forqan-page-ltr .root-section h2::before { margin-left: 0; margin-right: 0.55rem; }
+  .root-study-page p { margin: 0.85rem 0; }
+  .root-study-page a { color: var(--root-accent-deep); text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .arabic-quote { direction: rtl; text-align: center; font-size: 1.48rem; line-height: 2.5; margin: 1.4rem 0 0.65rem; padding: 1rem 1.25rem; border: 1px solid var(--root-border); border-radius: 18px; background: linear-gradient(180deg, var(--root-accent-soft), transparent), var(--root-panel); color: var(--root-text); unicode-bidi: isolate; }
+  .root-study-page .translation { text-align: center !important; color: var(--root-muted); margin-top: 0.45rem; }
+  .root-study-page .verse-ref { text-align: center !important; color: var(--root-accent-deep); font-weight: 700; margin-top: 0.25rem; }
+  .root-study-page .arabic-large { font-size: 1.12em; line-height: 2.15; direction: rtl; unicode-bidi: isolate; }
+  @media (max-width: 760px) {
+    .root-study-page { padding: 2rem 1rem; }
+    .root-frame { padding: 1.25rem; border-radius: 19px; }
+    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
+    .root-toc ol { columns: 1; }
+    .morphology-grid { grid-template-columns: 1fr; }
+    .arabic-quote { font-size: 1.24rem; }
+  }
+</style>
+
+<div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">ریشه قرآنی</div>
+      <h1>ریشه قرآنی خ و ف</h1>
+      <p class="root-subtitle">ترس، بیم، آماده‌باش در برابر خطر آینده، و جهت‌گیری جان در برابر تهدید</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>صورت‌های صرفی این ریشه</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#root-meaning"><div class="morph-card-header"><div class="morph-type">ریشه</div><div class="morph-used">معنای بنیادین</div></div><div class="morph-form">خ و ف</div><p class="morph-note">ترس، بیم، نگرانی، و آماده‌باش درونی در برابر خطر یا زیانی پیش‌رو.</p></a>
+        <a class="morph-card" href="#forms"><div class="morph-card-header"><div class="morph-type">اسم</div><div class="morph-used">حالت ترس</div></div><div class="morph-form">خَوْف / خِيفَة / مَخَافَة</div><p class="morph-note">ترس عام، بیم درونی، یا سبب و حالت نگرانی از خطر.</p></a>
+        <a class="morph-card" href="#fear-of-god"><div class="morph-card-header"><div class="morph-type">فعل</div><div class="morph-used">بیم داشتن</div></div><div class="morph-form">خَاف / يَخَاف / تَخَافُون</div><p class="morph-note">ترسیدن، بیم داشتن، یا نگرانی نسبت به پیامد و خطر آینده.</p></a>
+        <a class="morph-card" href="#takhwif"><div class="morph-card-header"><div class="morph-type">باب تفعیل</div><div class="morph-used">هشدار یا هراس‌افکنی</div></div><div class="morph-form">تَخْوِيف / يُخَوِّف</div><p class="morph-note">بیم دادن، هشدار دادن، یا ترساندن؛ بسته به سیاق الهی یا شیطانی.</p></a>
+      </div>
+    </section>
+
+    <p class="root-note">این صفحه میدان قرآنی ریشه خ و ف را بررسی می‌کند: ترسی که می‌تواند انسان را هوشیار، نگهبان و اصلاح‌گر کند، یا اگر به سوی باطل جهت بگیرد، او را از حق بازدارد.</p>
+    <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
+      <h2>فهرست کاربردهای این ریشه</h2>
+      <ol>
+        <li><a href="#root-meaning">معنای بنیادین</a></li>
+        <li><a href="#forms">صورت‌های مهم قرآنی</a></li>
+        <li><a href="#core">هسته زبانی</a></li>
+        <li><a href="#material-image">تصویر مادی ریشه</a></li>
+        <li><a href="#classical-usage">کاربرد عربی کلاسیک</a></li>
+        <li><a href="#guidance">نفی خوف برای اهل هدایت</a></li>
+        <li><a href="#fear-of-god">خوف از خدا</a></li>
+        <li><a href="#taqwa-islah">خوف همراه با تقوا و اصلاح</a></li>
+        <li><a href="#prophets-danger">خوف پیامبران در موقعیت خطر</a></li>
+        <li><a href="#mother-moses">خوف مادر موسی</a></li>
+        <li><a href="#family-social">خوف در روابط خانوادگی و اجتماعی</a></li>
+        <li><a href="#war-insecurity">خوف در جنگ و ناامنی</a></li>
+        <li><a href="#maqam-rabb">خوف از مقام پروردگار</a></li>
+        <li><a href="#akhirah-account">خوف از آخرت و روز حساب</a></li>
+        <li><a href="#takhwif">تخویف و ترساندن</a></li>
+        <li><a href="#distinctions">تفکیک کاربردها</a></li>
+        <li><a href="#structure">نکات ساختاری</a></li>
+        <li><a href="#near-roots">تفاوت با ریشه‌های نزدیک</a></li>
+        <li><a href="#translation-suggestions">پیشنهادهای ترجمه برای فرقان</a></li>
+        <li><a href="#summary">جمع‌بندی زبانی</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="root-meaning">
+      <h2>معنای بنیادین</h2>
+      <p>ریشه خ و ف در اصل به ترس، بیم، نگرانی، و حالت آماده‌باش درونی در برابر خطر یا زیانی پیش‌رو دلالت دارد. خوف بیشتر رو به آینده دارد: چیزی ممکن است برسد، خطری ممکن است واقع شود، زیانی ممکن است رخ دهد، یا حساب و پیامدی ممکن است در راه باشد. از همین‌جا، خوف با حزن فرق دارد: خوف نگاه به خطر آینده دارد؛ حزن بیشتر سنگینی دل از فقدان، رخداد تلخ، یا فشار گذشته و حال است.</p>
+    </section>
+
+    <section class="root-section" id="forms">
+      <h2>صورت‌های مهم قرآنی</h2>
+      <p>صورت‌های مهم این ریشه در قرآن شامل خاف، يخاف، تخافون، يخافون، خوف، خيفة، مخافة، خائف، خائفين، تخويف و يخوف است. خاف یعنی ترسید یا بیم داشت. يخاف و تخافون حالت ترس یا نگرانی را نشان می‌دهند. خوف اسم عام ترس و بیم است. خيفة به بیم درونی، حالت پنهان ترس، یا لرزش درون نزدیک است. مخافة می‌تواند به سبب ترس یا از روی بیم اشاره کند. تخويف یعنی ترساندن، بیم دادن، یا هشدار دادن. خائف یعنی ترسان یا بیمناک.</p>
+    </section>
+
+    <section class="root-section" id="core">
+      <h2>هسته زبانی</h2>
+      <p>هسته زبانی خ و ف، احساس خطر پیش از رسیدن آن است. خوف هنوز خود ضربه نیست؛ واکنش جان و بدن نسبت به احتمال ضربه است. انسان در خوف، خود را جمع می‌کند، هوشیار می‌شود، مراقبت می‌کند، و نسبت به آینده حساس می‌گردد. این حالت اگر درست جهت بگیرد، انسان را بیدار و نگهبان می‌سازد؛ اما اگر به سوی باطل جهت بگیرد، او را می‌شکند، می‌ترساند، و از راه حق بازمی‌دارد.</p>
+    </section>
+
+    <section class="root-section" id="material-image">
+      <h2>تصویر مادی ریشه</h2>
+      <p>تصویر مادی این ریشه، جانداری است که پیش از رسیدن خطر، نشانه‌ای از تهدید را حس می‌کند: گوش‌ها تیز می‌شود، بدن جمع می‌شود، نگاه به اطراف می‌چرخد، و آمادگی برای دفاع یا گریز پدید می‌آید. خوف یعنی حالت مراقبت پیش از وقوع خطر. در سطح انسانی، همین حالت می‌تواند به احتیاط، تقوا، فرار از ظلم، یا گریز از حق تبدیل شود؛ بسته به اینکه انسان از چه می‌ترسد و ترس او را به کدام جهت می‌برد.</p>
+    </section>
+
+    <section class="root-section" id="classical-usage">
+      <h2>کاربرد عربی کلاسیک</h2>
+      <p>در کاربرد عربی کلاسیک، خ و ف با ترس، بیم، احتیاط، نگرانی از خطر، و انتظار زیان پیوند دارد. این ریشه به حالتی اشاره دارد که انسان چیزی را در پیش می‌بیند یا احتمال می‌دهد و از پیامد آن بیمناک می‌شود. در نسخه نهایی، اگر شاهد معتبر از شعر جاهلی یا کاربرد کهن عربی پیدا شود، می‌توان آن را افزود.</p>
+    </section>
+
+    <section class="root-section" id="guidance">
+      <h2>نفی خوف برای اهل هدایت</h2>
+      <p>یکی از کاربردهای بنیادی این ریشه، نفی خوف برای کسانی است که هدایت خدا را دنبال می‌کنند:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</blockquote>
+      <p class="translation">پس هر کس هدایت مرا دنبال کند، نه ترسی بر آنان است و نه اندوهگین می‌شوند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-038' | relative_url }}">البقرة ۲:۳۸</a></p>
+      <p>در این آیه، خوف و حزن کنار هم آمده‌اند. خوف بیشتر به خطر آینده مربوط است؛ حزن بیشتر به اندوه و سنگینی دل نسبت به گذشته یا وضعیت رخ‌داده. پیروی از هدایت، انسان را از سلطه این دو فشار بیرون می‌آورد: ترس از آینده و اندوه فرساینده از گذشته یا حال.</p>
+      <p>همین ساختار در آیه‌ای دیگر آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</blockquote>
+      <p class="translation">آگاه باشید، اولیای خدا نه ترسی بر آنان است و نه اندوهگین می‌شوند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/010-yunus/#ayah-062' | relative_url }}">يونس ۱۰:۶۲</a></p>
+      <p>این نفی خوف به معنای آن نیست که انسان مؤمن هیچ واکنش طبیعی ترس را تجربه نمی‌کند. قرآن از امنیت نهایی سخن می‌گوید؛ یعنی خوف ویرانگر و سرنوشت‌سوز بر آنان چیره نمی‌شود. آنان آینده نهایی خود را در دست تهدیدهای باطل نمی‌بینند.</p>
+    </section>
+
+    <section class="root-section" id="fear-of-god">
+      <h2>خوف از خدا</h2>
+      <p>میدان دوم، خوف از خداست:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّمَا ذَٰلِكُمُ الشَّيْطَانُ يُخَوِّفُ أَوْلِيَاءَهُ فَلَا تَخَافُوهُمْ وَخَافُونِ إِن كُنتُم مُّؤْمِنِينَ</blockquote>
+      <p class="translation">جز این نیست که آن شیطان است که دوستان خود را می‌ترساند؛ پس از آنان نترسید، و از من بیم داشته باشید اگر مؤمن هستید.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/003-al-imran/#ayah-175' | relative_url }}">آل عمران ۳:۱۷۵</a></p>
+      <p>این آیه میدان خوف را اصلاح می‌کند. مشکل فقط ترسیدن نیست؛ مشکل این است که انسان از چه کسی یا چه چیزی می‌ترسد. شیطان می‌خواهد ترس انسان به سوی قدرت‌های باطل و تهدیدهای دنیایی بسته شود. قرآن جهت ترس را تغییر می‌دهد: از آنان نترسید، از من بیم داشته باشید. خوف از خدا، انسان را از اسارت ترس‌های کوچک‌تر آزاد می‌کند.</p>
+      <p>خوف از خدا در قرآن ترس خام و کور نیست؛ آگاهی از عظمت، حساب، حق، و جایگاه پروردگار است. این خوف انسان را فلج نمی‌کند؛ او را از عبور از حد نگه می‌دارد.</p>
+    </section>
+
+    <section class="root-section" id="taqwa-islah">
+      <h2>خوف همراه با تقوا و اصلاح</h2>
+      <p>میدان سوم، خوف همراه با تقوا و اصلاح است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَنِ اتَّقَىٰ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</blockquote>
+      <p class="translation">پس هر کس تقوا پیشه کند و اصلاح نماید، نه ترسی بر آنان است و نه اندوهگین می‌شوند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/007-al-araf/#ayah-035' | relative_url }}">الأعراف ۷:۳۵</a></p>
+      <p>اینجا رفع خوف با تقوا و اصلاح همراه است. تقوا فقط ترس نیست؛ نگهبانی و مراقبت از خود در برابر سقوط است. اصلاح نیز ترمیم مسیر و رفتار است. وقتی انسان در مسیر تقوا و اصلاح قرار گیرد، خوف نهایی از آینده و حزن ویرانگر از گذشته بر او سلطه نمی‌یابد.</p>
+    </section>
+
+    <section class="root-section" id="prophets-danger">
+      <h2>خوف پیامبران در موقعیت خطر</h2>
+      <p>میدان چهارم، خوف پیامبران در موقعیت خطر است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَوْجَسَ فِي نَفْسِهِ خِيفَةً مُّوسَىٰ</blockquote>
+      <p class="translation">پس موسی در دل خود بیمی احساس کرد.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/020-ta-ha/#ayah-067' | relative_url }}">طه ۲۰:۶۷</a></p>
+      <p>در این آیه، خيفة به بیم درونی موسی اشاره دارد. قرآن این حالت را انکار نمی‌کند. پیامبر نیز در برابر تهدید، فشار جمعی، یا صحنه‌ای هراس‌آور می‌تواند در دل خود بیمی احساس کند. اما ادامه آیه می‌آید:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قُلْنَا لَا تَخَفْ إِنَّكَ أَنتَ الْأَعْلَىٰ</blockquote>
+      <p class="translation">گفتیم: مترس؛ همانا تو برتری.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/020-ta-ha/#ayah-068' | relative_url }}">طه ۲۰:۶۸</a></p>
+      <p>پس خوف طبیعی با خطاب الهی مهار می‌شود. خدا ترس موسی را با وعده و اطمینان اصلاح می‌کند، نه با انکار انسانیت او.</p>
+      <p>درباره موسی در زمان خروج از مصر آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَخَرَجَ مِنْهَا خَائِفًا يَتَرَقَّبُ</blockquote>
+      <p class="translation">پس از آنجا بیرون رفت، در حالی که ترسان و مراقب بود.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/028-al-qasas/#ayah-021' | relative_url }}">القصص ۲۸:۲۱</a></p>
+      <p>اینجا خوف با ترقب آمده است. ترقب یعنی مراقبت، چشم‌داشتن، و دیده‌بانی نسبت به خطر. این خوف، جبن یا بی‌ایمانی نیست؛ ترسی عقلانی در وضعیت خطر است. موسی از شهر بیرون می‌رود، اما کور و بی‌تدبیر حرکت نمی‌کند؛ خوف او را مراقب و بیدار نگه می‌دارد.</p>
+    </section>
+
+    <section class="root-section" id="mother-moses">
+      <h2>خوف مادر موسی</h2>
+      <p>میدان پنجم، خوف مادر موسی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَأَوْحَيْنَا إِلَىٰ أُمِّ مُوسَىٰ أَنْ أَرْضِعِيهِ ۖ فَإِذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِي الْيَمِّ وَلَا تَخَافِي وَلَا تَحْزَنِي</blockquote>
+      <p class="translation">و به مادر موسی وحی کردیم که او را شیر ده؛ پس چون بر او ترسیدی، او را در دریا بیفکن، و مترس و اندوهگین مباش.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/028-al-qasas/#ayah-007' | relative_url }}">القصص ۲۸:۷</a></p>
+      <p>این آیه بسیار دقیق است. «خفتي عليه» یعنی بر او ترسیدی؛ یعنی نگران خطر آینده برای کودک شدی. سپس می‌گوید «لا تخافي ولا تحزني»: مترس و اندوهگین مباش. خوف به آینده کودک نگاه دارد؛ حزن به سنگینی دل مادر از جدایی و وضعیت سخت. وعده الهی هر دو را پاسخ می‌دهد.</p>
+    </section>
+
+    <section class="root-section" id="family-social">
+      <h2>خوف در روابط خانوادگی و اجتماعی</h2>
+      <p>میدان ششم، خوف در روابط خانوادگی و اجتماعی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِنِ امْرَأَةٌ خَافَتْ مِن بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا</blockquote>
+      <p class="translation">و اگر زنی از شوهرش نشوز یا روی‌گردانی بیم داشته باشد...</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/004-an-nisa/#ayah-128' | relative_url }}">النساء ۴:۱۲۸</a></p>
+      <p>در این آیه، خوف به معنای ترس از خطر فوری نیست؛ بیم از نشانه‌های یک آسیب خانوادگی است: نشوز، سردی، روی‌گردانی، یا شکستن پیوند. خوف در اینجا ابزار تشخیص زودهنگام است. وقتی نشانه خطر دیده می‌شود، باید پیش از فروپاشی کامل برای اصلاح اقدام کرد.</p>
+      <p>آیه‌ای دیگر می‌گوید:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا</blockquote>
+      <p class="translation">و اگر از شکاف میان آن دو بیم داشتید...</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/004-an-nisa/#ayah-035' | relative_url }}">النساء ۴:۳۵</a></p>
+      <p>اینجا نیز خوف به معنای دریافت نشانه‌های خطر است. جامعه یا خانواده وقتی نشانه شقاق را می‌بیند، باید پیش از شدت گرفتن آسیب وارد اصلاح شود. پس خوف گاهی مراقبت عقلانی و پیشگیرانه است.</p>
+    </section>
+
+    <section class="root-section" id="war-insecurity">
+      <h2>خوف در جنگ و ناامنی</h2>
+      <p>میدان هفتم، خوف در جنگ و ناامنی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَإِنْ خِفْتُمْ فَرِجَالًا أَوْ رُكْبَانًا</blockquote>
+      <p class="translation">پس اگر ترسیدید، پیاده یا سواره.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-239' | relative_url }}">البقرة ۲:۲۳۹</a></p>
+      <p>در این آیه، خوف به شرایط عینی ناامنی اشاره دارد که حتی شکل عادی نماز را تغییر می‌دهد. قرآن خوف واقعی و شرایط خطر را می‌شناسد و تکلیف را با وضعیت انسان هماهنگ می‌کند.</p>
+      <p>در آیه‌ای دیگر درباره نماز در میدان خطر آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِذَا كُنتَ فِيهِمْ فَأَقَمْتَ لَهُمُ الصَّلَاةَ</blockquote>
+      <p class="translation">و هنگامی که در میان آنان باشی و برای آنان نماز را برپا داری...</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/004-an-nisa/#ayah-102' | relative_url }}">النساء ۴:۱۰۲</a></p>
+      <p>ادامه آیه ساختار مراقبت در حالت خطر را توضیح می‌دهد. این میدان نشان می‌دهد که خوف در قرآن فقط روانی نیست؛ می‌تواند وضعیت عینی خطر باشد که تدبیر عملی می‌طلبد.</p>
+    </section>
+
+    <section class="root-section" id="maqam-rabb">
+      <h2>خوف از مقام پروردگار</h2>
+      <p>میدان هشتم، خوف از مقام پروردگار است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَىٰ</blockquote>
+      <p class="translation">و اما کسی که از مقام پروردگارش بیم داشت و نفس را از هوا بازداشت.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/079-an-naziat/#ayah-040' | relative_url }}">النازعات ۷۹:۴۰</a></p>
+      <p>اینجا خوف با نهی نفس از هوا همراه است. خوف از مقام پروردگار یعنی آگاهی جدی از ایستادن در برابر خدا، حساب، حق، و جایگاه عظمت او. این خوف انسان را خرد نمی‌کند؛ او را از بردگی هوا آزاد می‌کند.</p>
+      <p>در الرحمن آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتَانِ</blockquote>
+      <p class="translation">و برای کسی که از مقام پروردگارش بیم داشت، دو باغ است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/055-ar-rahman/#ayah-046' | relative_url }}">الرحمن ۵۵:۴۶</a></p>
+      <p>این خوف، خوف تربیت‌کننده است؛ خوفی که انسان را از عبور از حد بازمی‌دارد و به سوی امان می‌برد.</p>
+    </section>
+
+    <section class="root-section" id="akhirah-account">
+      <h2>خوف از آخرت و روز حساب</h2>
+      <p>میدان نهم، خوف از آخرت و روز حساب است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">يَخَافُونَ يَوْمًا تَتَقَلَّبُ فِيهِ الْقُلُوبُ وَالْأَبْصَارُ</blockquote>
+      <p class="translation">از روزی می‌ترسند که دل‌ها و دیده‌ها در آن دگرگون می‌شود.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/024-an-nur/#ayah-037' | relative_url }}">النور ۲۴:۳۷</a></p>
+      <p>در این آیه، خوف از روزی است که حقیقت آشکار می‌شود و قلب و چشم آرام نمی‌مانند. این خوف، انسان را از غفلت روزمره بیرون می‌آورد و او را به ذکر، صلاة و زکات متصل نگه می‌دارد.</p>
+    </section>
+
+    <section class="root-section" id="takhwif">
+      <h2>تخویف و ترساندن</h2>
+      <p>میدان دهم، تخويف و ترساندن است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَمَا نُرْسِلُ بِالْآيَاتِ إِلَّا تَخْوِيفًا</blockquote>
+      <p class="translation">و ما آیات را نمی‌فرستیم مگر برای هشدار دادن و بیم دادن.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/017-al-isra/#ayah-059' | relative_url }}">الإسراء ۱۷:۵۹</a></p>
+      <p>تخويف در این آیه ترساندن بی‌هدف نیست؛ هشدار دادن برای بیداری است. آیات گاهی انسان را تکان می‌دهند تا خطر مسیر نادرست را ببیند.</p>
+      <p>در مقابل، شیطان نیز تخويف دارد:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّمَا ذَٰلِكُمُ الشَّيْطَانُ يُخَوِّفُ أَوْلِيَاءَهُ</blockquote>
+      <p class="translation">جز این نیست که آن شیطان است که دوستان خود را می‌ترساند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/003-al-imran/#ayah-175' | relative_url }}">آل عمران ۳:۱۷۵</a></p>
+      <p>پس تخويف دو گونه است: تخويف الهی، هشدار برای نجات؛ تخويف شیطانی، ترساندن برای بازداشتن از حق.</p>
+    </section>
+
+    <section class="root-section" id="distinctions">
+      <h2>تفکیک کاربردها</h2>
+      <p>باید میان کاربردهای خ و ف فرق گذاشت. خوف از خدا خوف تربیت‌کننده و آزادکننده از ترس‌های باطل است. خوف از دشمن می‌تواند طبیعی باشد، اما نباید انسان را از حق بازدارد. خوف مادر موسی، نگرانی مادرانه نسبت به خطر آینده کودک است. خوف موسی در برابر تهدید، واکنش انسانی و طبیعی است. خوف در خانواده، تشخیص خطر پیش از فروپاشی است. خوف در جنگ، وضعیت عینی ناامنی است. خوف از مقام پروردگار، آگاهی از حساب و عظمت الهی است. تخويف شیطان، ابزار ترساندن و عقب‌نشاندن مؤمنان است؛ تخويف الهی، هشدار برای بیداری و بازگشت.</p>
+    </section>
+
+    <section class="root-section" id="structure">
+      <h2>نکات ساختاری</h2>
+      <p>از نظر ساختاری، حروف و ترکیب‌ها مهم‌اند. «خاف من» می‌تواند ترس از یک منبع یا خطر را نشان دهد. «خاف عليه» یعنی بر کسی ترسید، یعنی نگران خطر برای او شد؛ مانند مادر موسی. «لا تخافوا» در خطاب الهی، آرام‌سازی و تثبیت است. «خاف مقام ربه» یعنی از جایگاه ایستادن در برابر پروردگار و عظمت حساب بیم داشت. «يخوف أولياءه» یعنی با ترساندن، فضای روانی تهدید می‌سازد.</p>
+    </section>
+
+    <section class="root-section" id="near-roots">
+      <h2>تفاوت با ریشه‌های نزدیک</h2>
+      <p>خ و ف با چند ریشه نزدیک فرق دارد. حزن اندوه و سنگینی دل است، بیشتر نسبت به گذشته یا وضعیت رخ‌داده؛ خوف بیم از خطر یا زیان آینده است. وجل لرزش قلبی و هیبت درونی است؛ خوف می‌تواند گسترده‌تر و پایدارتر باشد. خشية ترس همراه با شناخت و درک عظمت است؛ به همین دلیل در قرآن با علم پیوند نزدیک دارد. رهب ترس همراه با هیبت و احتیاط شدید است. فزع ترس ناگهانی و آشفتگی شدید است. روع به تکان درونی ناگهانی نزدیک است. تقوى ترس ساده نیست؛ مراقبت و نگهبانی از خود در برابر خطر سقوط است. حذر احتیاط و آماده‌باش عملی در برابر خطر است.</p>
+    </section>
+
+    <section class="root-section" id="translation-suggestions">
+      <h2>پیشنهادهای ترجمه برای فرقان</h2>
+      <p>برای ترجمه در فرقان، خ و ف باید سیاق‌مند ترجمه شود. خوف می‌تواند «ترس»، «بیم»، «نگرانی»، «هراس»، یا «احساس خطر» باشد. لا خوف عليهم بهتر است «ترسی بر آنان نیست» یا «ترس بر آنان چیره نیست» ترجمه شود. خاف مقام ربه بهتر است «از مقام پروردگارش بیم داشت» باشد، نه فقط «ترسید». خفت عليه یعنی «بر او ترسیدی» یا «نگران او شدی». تخويف در سیاق الهی بهتر است «هشدار دادن» یا «بیم دادن» باشد؛ در سیاق شیطانی می‌تواند «ترساندن» یا «هراس‌افکنی» باشد. خيفة می‌تواند «بیمی درونی» یا «ترسی پنهان» باشد.</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>جمع‌بندی زبانی</h2>
+      <p>جمع‌بندی زبانی: ریشه خ و ف بر ترس، بیم، نگرانی، و حالت آماده‌باش نسبت به خطر یا زیان آینده دلالت دارد. تصویر مادی آن انسانی یا جانداری است که پیش از رسیدن خطر، هوشیار، جمع‌شده، و آماده واکنش می‌شود. در قرآن، این ریشه از نفی خوف برای اهل هدایت تا خوف از خدا، از ترس طبیعی پیامبران تا ترس مادرانه، از خوف اجتماعی و خانوادگی تا خوف جنگ، و از تخويف الهی تا تخويف شیطانی گسترش می‌یابد. فرق آن با حزن این است که خوف بیشتر آینده‌نگر است، اما حزن اندوه و سنگینی دل نسبت به فقدان، رخداد، یا وضعیت سخت است.</p>
+    </section>
+  </div>
+</div>
