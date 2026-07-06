@@ -1,0 +1,445 @@
+---
+layout: default
+title: ریشه قرآنی ق ر ر
+permalink: /quran-terminology/fa/roots/q-r-r/
+---
+
+<style>
+  .root-study-page .arabic-large {
+    font-size: 1.12em;
+    line-height: 2.15;
+  }
+
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark-theme .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-frame {
+    background: radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%), var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    color: var(--root-text);
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent 82%), var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 0.85rem;
+  }
+
+  .morph-card {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem;
+    background: var(--root-section);
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    color: var(--root-muted);
+    font-size: 0.92rem;
+    font-weight: 700;
+  }
+
+  .morph-form {
+    margin-top: 0.7rem;
+    font-weight: 800;
+    color: var(--root-accent-deep);
+  }
+
+  .morph-note {
+    margin-bottom: 0;
+    color: var(--root-muted);
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0 0.6rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent), var(--root-panel);
+    color: var(--root-text);
+  }
+
+  .translation {
+    color: var(--root-muted);
+    font-weight: 650;
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page {
+      padding: 2rem 1rem;
+    }
+
+    .root-frame {
+      padding: 1.25rem;
+      border-radius: 19px;
+    }
+
+    .root-section,
+    .root-forms-card,
+    .root-toc {
+      padding: 1rem;
+    }
+
+    .root-toc ol {
+      columns: 1;
+    }
+  }
+</style>
+
+<div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">ریشه قرآنی</div>
+      <h1>ریشه قرآنی ق ر ر</h1>
+      <p class="root-subtitle">قرار گرفتن، ثابت شدن، آرام گرفتن در جایگاه، و فرونشستن بی‌قراری.</p>
+    </section>
+
+    <section class="root-forms-card" id="forms-covered">
+      <h2>صورت‌های مهم این ریشه</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#root-meaning">
+          <div class="morph-card-header">
+            <div class="morph-type">ریشه</div>
+            <div class="morph-used">کاربرد قرآنی: بلی</div>
+          </div>
+          <div class="morph-form arabic-large">ق ر ر</div>
+          <p class="morph-note">ثبات پس از حرکت، آرامی پس از اضطراب، و جایگاه یافتن چیزی در محل مناسب خود.</p>
+        </a>
+
+        <a class="morph-card" href="#important-forms">
+          <div class="morph-card-header">
+            <div class="morph-type">قرار و استقرار</div>
+            <div class="morph-used">محوری</div>
+          </div>
+          <div class="morph-form arabic-large">قَرَار، مُسْتَقَرّ، اسْتَقَرَّ</div>
+          <p class="morph-note">جایگاه ثابت، محل آرام گرفتن، مقصد قرار، و قرار گرفتن پس از انتقال.</p>
+        </a>
+
+        <a class="morph-card" href="#coolness-eye">
+          <div class="morph-card-header">
+            <div class="morph-type">آرامی چشم</div>
+            <div class="morph-used">تعبیر قرآنی</div>
+          </div>
+          <div class="morph-form arabic-large">قُرَّة، تَقَرَّ، قَرِّي عَيْنًا</div>
+          <p class="morph-note">آرام گرفتن چشم و دل پس از ترس، حزن، انتظار، یا التهاب.</p>
+        </a>
+
+        <a class="morph-card" href="#acknowledgment">
+          <div class="morph-card-header">
+            <div class="morph-type">اقرار</div>
+            <div class="morph-used">پذیرش و تثبیت</div>
+          </div>
+          <div class="morph-form arabic-large">أَقَرَّ، أَقْرَرْتُمْ، أَقْرَرْنَا</div>
+          <p class="morph-note">پذیرفتن، ثابت کردن، و ایستادن بر یک عهد یا حقیقت.</p>
+        </a>
+      </div>
+    </section>
+
+    <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
+      <h2>فهرست کاربردهای این ریشه</h2>
+      <ol>
+        <li><a href="#scope-note">محدوده این مدخل</a></li>
+        <li><a href="#important-forms">صورت‌های مهم این ریشه</a></li>
+        <li><a href="#root-meaning">معنای مرکزی</a></li>
+        <li><a href="#material-image">تصویر مادی ریشه</a></li>
+        <li><a href="#classical-usage">تبصره تاریخی و زبان کلاسیک</a></li>
+        <li><a href="#earth-as-qarar">قرار زمین</a></li>
+        <li><a href="#womb-qarar">قرار مکین رحم</a></li>
+        <li><a href="#human-mustaqarr">مستقر انسان در زمین</a></li>
+        <li><a href="#mustaqarr-mustawda">مستقر و مستودع</a></li>
+        <li><a href="#final-abode">قرار نهایی</a></li>
+        <li><a href="#coolness-eye">آرام گرفتن چشم</a></li>
+        <li><a href="#qurrat-a-yun">قرة أعين</a></li>
+        <li><a href="#acknowledgment">اقرار و تثبیت عهد</a></li>
+        <li><a href="#settled-object">استقرار چیزی در مکان</a></li>
+        <li><a href="#qawarir">قوارير</a></li>
+        <li><a href="#usage-distinctions">تفکیک کاربردها</a></li>
+        <li><a href="#structure-note">نکته ساختاری</a></li>
+        <li><a href="#nearby-roots">تفکیک از واژه‌های نزدیک</a></li>
+        <li><a href="#translation-method">پیشنهادهای ترجمه در فرقان</a></li>
+        <li><a href="#summary">جمع‌بندی زبانی</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="scope-note">
+      <h2>محدوده این مدخل</h2>
+      <p>ریشه <strong class="arabic-large">ق ر ر</strong> در اصل به قرار گرفتن، ثابت شدن، آرام گرفتن در جایگاه، و فرونشستن بی‌قراری دلالت دارد. این ریشه فقط «ماندن» نیست؛ ماندنی است که در آن حرکت، اضطراب، التهاب یا پراکندگی فرو می‌نشیند و چیزی در جای مناسب خود آرام می‌گیرد.</p>
+    </section>
+
+    <section class="root-section" id="important-forms">
+      <h2>صورت‌های مهم این ریشه</h2>
+      <p>صورت‌های مهم این ریشه در قرآن شامل قرار، قرة، أقر، تقر، استقر، مستقر، و قوارير است. قرار به جایگاه ثابت، محل آرام گرفتن، یا پایگاه استقرار اشاره دارد. مستقر جایی یا حالتی است که چیزی در آن قرار می‌گیرد یا به پایان قرار خود می‌رسد. أقر به تثبیت، اقرار، پذیرفتن و ایستادن بر یک عهد یا حقیقت نزدیک است. تقر در تعبیر «تقر عين» با آرام گرفتن چشم و فرو نشستن حزن و اضطراب پیوند دارد. قرة عين چیزی است که چشم و دل با دیدن آن آرام می‌گیرد. قوارير نیز در قرآن به شیشه یا بلور اشاره دارد، و می‌توان آن را از جهت ظرفی فهمید که مایع را در خود نگه می‌دارد و آشکارا در حالت قرار نشان می‌دهد؛ اما این لایه باید با احتیاط از معنای اصلی قرار جدا نشود.</p>
+    </section>
+
+    <section class="root-section" id="root-meaning">
+      <h2>معنای مرکزی</h2>
+      <p>هسته زبانی <strong class="arabic-large">ق ر ر</strong>، ثبات پس از حرکت و آرامی پس از اضطراب است. چیزی که قرار دارد، از حالت سرگردانی بیرون آمده و جایگاه یافته است. چشم وقتی قرار می‌گیرد، دیگر از نگرانی و جست‌وجو نمی‌لرزد. زمین وقتی قرار است، بستر سکونت و زیست می‌شود. رحم وقتی قرار مکین است، جایگاهی امن و استوار برای نگهداری نطفه است.</p>
+    </section>
+
+    <section class="root-section" id="material-image">
+      <h2>تصویر مادی ریشه</h2>
+      <p>تصویر مادی این ریشه را می‌توان در آبی دید که پس از جوشش و موج، آرام می‌شود؛ در جسمی که پس از حرکت در جای خود می‌نشیند؛ در زمینی که زیر پای انسان محل استقرار می‌شود؛ یا در چشمی که پس از ترس و اشک، با دیدن مایه امنیت خود آرام می‌گیرد. از همین‌جا پیوند <strong class="arabic-large">ق ر ر</strong> با خنکی نیز فهمیده می‌شود. در زبان عربی، قرة عين فقط شادی سطحی نیست؛ آرامی خنکی است که پس از داغی اندوه و التهاب اضطراب در چشم می‌نشیند.</p>
+    </section>
+
+    <section class="root-section" id="classical-usage">
+      <h2>تبصره تاریخی و زبان کلاسیک</h2>
+      <p>در کاربرد عربی کلاسیک، <strong class="arabic-large">ق ر ر</strong> با قرار، سکون، ثبات، خنکی، آرامی، و اقرار پیوند دارد. اقرار نیز از همین میدان فهمیده می‌شود: چیزی را پذیرفتن و بر آن ثابت شدن؛ سخنی را از حالت انکار، تردید یا گریز بیرون آوردن و در جای اعتراف و ثبوت نشاندن. در نسخه نهایی، اگر شاهد معتبر از شعر جاهلی یا کاربرد کهن عربی پیدا شود، می‌توان آن را افزود.</p>
+    </section>
+
+    <section class="root-section" id="earth-as-qarar">
+      <h2>قرار زمین</h2>
+      <p>یکی از کاربردهای مهم قرآن، قرار زمین است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أَمَّن جَعَلَ الْأَرْضَ قَرَارًا وَجَعَلَ خِلَالَهَا أَنْهَارًا</blockquote>
+      <p class="translation">آیا آنکه زمین را قرارگاه ساخت و در میان آن رودها قرار داد؟ <a class="quran-ref-link" href="{{ '/quran-reflection/fa/027-an-naml/#ayah-061' | relative_url }}">النمل ۲۷:۶۱</a></p>
+      <p>در این آیه، زمین «قرار» است؛ یعنی بستری که زندگی می‌تواند بر آن بنشیند، حرکت‌ها در آن نظم پیدا کنند، و انسان در آن سکونت و زیست داشته باشد. زمین فقط ماده‌ای زیر پا نیست؛ جایگاه استقرار زندگی است.</p>
+
+      <p>همین معنا در آیه‌ای دیگر آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اللَّهُ الَّذِي جَعَلَ لَكُمُ الْأَرْضَ قَرَارًا وَالسَّمَاءَ بِنَاءً</blockquote>
+      <p class="translation">خداست آنکه زمین را برای شما قرارگاه ساخت و آسمان را بنا. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/040-ghafir/#ayah-064' | relative_url }}">غافر ۴۰:۶۴</a></p>
+      <p>اینجا قرار زمین در برابر بنای آسمان آمده است. زمین جای استقرار است و آسمان همچون ساختار بالا. پس قرار، کیفیت زمین برای سکونت و آرام گرفتن است، نه فقط نامی برای خود زمین.</p>
+    </section>
+
+    <section class="root-section" id="womb-qarar">
+      <h2>قرار مکین رحم</h2>
+      <p>میدان دوم، قرار در رحم است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">ثُمَّ جَعَلْنَاهُ نُطْفَةً فِي قَرَارٍ مَّكِينٍ</blockquote>
+      <p class="translation">سپس او را نطفه‌ای در قرارگاهی استوار قرار دادیم. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/023-al-muminun/#ayah-013' | relative_url }}">المؤمنون ۲۳:۱۳</a></p>
+      <p>و نیز:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَجَعَلْنَاهُ فِي قَرَارٍ مَّكِينٍ</blockquote>
+      <p class="translation">پس آن را در قرارگاهی استوار قرار دادیم. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/077-al-mursalat/#ayah-021' | relative_url }}">المرسلات ۷۷:۲۱</a></p>
+      <p>در این آیات، قرار مکین به جایگاهی امن، پوشیده، پایدار، و توانمند برای نگهداری و رشد اشاره دارد. نطفه سیال و آسیب‌پذیر است؛ قرار مکین جایی است که این سیال لغزان در آن حفظ می‌شود و امکان رشد پیدا می‌کند. مکین بودن یعنی این قرار فقط یک ظرف خالی نیست؛ جایگاهی محکم و مناسب برای نگه‌داشتن و پرورش است.</p>
+    </section>
+
+    <section class="root-section" id="human-mustaqarr">
+      <h2>مستقر انسان در زمین</h2>
+      <p>میدان سوم، مستقر انسان در زمین است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ</blockquote>
+      <p class="translation">و برای شما در زمین قرارگاهی و بهره‌ای تا زمانی خواهد بود. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-036' | relative_url }}">البقره ۲:۳۶</a></p>
+      <p>در این آیه، مستقر با متاع إلى حين همراه است. زمین برای انسان جایگاه استقرار است، اما این استقرار دائمی نیست. انسان در زمین قرار می‌گیرد، زندگی می‌کند، بهره می‌برد، و آزموده می‌شود، اما این قرار تا زمانی محدود است.</p>
+
+      <p>همین معنا در اعراف تکرار می‌شود:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ</blockquote>
+      <p class="translation">و برای شما در زمین قرارگاهی و بهره‌ای تا زمانی خواهد بود. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/007-al-araf/#ayah-024' | relative_url }}">الاعراف ۷:۲۴</a></p>
+      <p>این آیه نشان می‌دهد که پس از هبوط، انسان در زمین مستقر می‌شود. هبوط انتقال به مرحله زمینی است؛ مستقر، جایگاه موقت زندگی در همان مرحله است.</p>
+    </section>
+
+    <section class="root-section" id="mustaqarr-mustawda">
+      <h2>مستقر در برابر مستودع</h2>
+      <p>میدان چهارم، مستقر در برابر مستودع است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَهُوَ الَّذِي أَنشَأَكُم مِّن نَّفْسٍ وَاحِدَةٍ فَمُسْتَقَرٌّ وَمُسْتَوْدَعٌ</blockquote>
+      <p class="translation">و اوست که شما را از نفسی واحد پدید آورد؛ پس قرارگاهی و سپرده‌گاهی است. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/006-al-anam/#ayah-098' | relative_url }}">الانعام ۶:۹۸</a></p>
+      <p>مستقر با ثبات و قرار پیوند دارد؛ مستودع با سپرده شدن و نگهداری موقت. معنای دقیق این دو در آیه نیاز به بررسی جداگانه دارد، اما از نظر ریشه‌ای، مستقر جای قرار است و مستودع جای ودیعه.</p>
+    </section>
+
+    <section class="root-section" id="final-abode">
+      <h2>قرار نهایی</h2>
+      <p>میدان پنجم، قرار نهایی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِلَىٰ رَبِّكَ يَوْمَئِذٍ الْمُسْتَقَرُّ</blockquote>
+      <p class="translation">در آن روز، قرارگاه به سوی پروردگار توست. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/075-al-qiyamah/#ayah-012' | relative_url }}">القيامة ۷۵:۱۲</a></p>
+      <p>در این آیه، مستقر پایان گریز و حرکت است. انسان پس از همه رفتن‌ها، دویدن‌ها، انکارها و بی‌قراری‌ها به سوی پروردگار خود به قرار نهایی می‌رسد.</p>
+
+      <p>همین میدان در آیه دیگری دیده می‌شود:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِنَّ الْآخِرَةَ هِيَ دَارُ الْقَرَارِ</blockquote>
+      <p class="translation">و همانا آخرت، همان سرای قرار است. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/040-ghafir/#ayah-039' | relative_url }}">غافر ۴۰:۳۹</a></p>
+      <p>دنیا محل حرکت، آزمون، تغییر و گذر است؛ آخرت دار القرار است، یعنی سرای ثبات نهایی و نتیجه پایدار. این آیه نشان می‌دهد که قرار در قرآن می‌تواند سرنوشت نهایی را نیز بیان کند، نه فقط محل سکونت مادی را.</p>
+    </section>
+
+    <section class="root-section" id="coolness-eye">
+      <h2>آرام گرفتن چشم</h2>
+      <p>میدان ششم، آرام گرفتن چشم است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَكُلِي وَاشْرَبِي وَقَرِّي عَيْنًا</blockquote>
+      <p class="translation">پس بخور و بیاشام و چشمت آرام گیرد. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/019-maryam/#ayah-026' | relative_url }}">مریم ۱۹:۲۶</a></p>
+      <p>در این آیه، «قري عينا» یعنی چشم مریم از اضطراب، فشار، و ترس آرام گیرد. این تعبیر فقط «خوشحال باش» نیست؛ یعنی التهاب درونی فرو بنشیند و نگاه از بی‌قراری نجات یابد.</p>
+
+      <p>درباره مادر موسی نیز آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَرَجَعْنَاكَ إِلَىٰ أُمِّكَ كَيْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ</blockquote>
+      <p class="translation">پس تو را به مادرت بازگرداندیم تا چشمش آرام گیرد و اندوه نخورد. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/020-ta-ha/#ayah-040' | relative_url }}">طه ۲۰:۴۰</a></p>
+      <p>و نیز:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَرَدَدْنَاهُ إِلَىٰ أُمِّهِ كَيْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ</blockquote>
+      <p class="translation">پس او را به مادرش بازگرداندیم تا چشمش آرام گیرد و اندوه نخورد. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/028-al-qasas/#ayah-013' | relative_url }}">القصص ۲۸:۱۳</a></p>
+      <p>در این دو آیه، قرار چشم در برابر حزن آمده است. چشم مادر در نگرانی و اندوه بی‌قرار است؛ با بازگشت کودک، چشم او آرام می‌گیرد. قرة عين در اینجا آرامی پس از ترس و انتظار است.</p>
+    </section>
+
+    <section class="root-section" id="qurrat-a-yun">
+      <h2>قرة أعين</h2>
+      <p>میدان هفتم، قرة أعين است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ</blockquote>
+      <p class="translation">پروردگار ما، از همسران و فرزندانمان برای ما آرامی/روشنی چشم عطا کن. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/025-al-furqan/#ayah-074' | relative_url }}">الفرقان ۲۵:۷۴</a></p>
+      <p>در این دعا، قرة أعين به خانواده‌ای اشاره دارد که چشم و دل با آن آرام می‌گیرد. این فقط لذت خانوادگی نیست؛ دیدن صلاح، پاکی، رشد، و آرامش در نزدیک‌ترین پیوندهای انسانی است.</p>
+
+      <p>در آیه‌ای دیگر، همسر فرعون درباره موسی می‌گوید:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قُرَّتُ عَيْنٍ لِّي وَلَكَ</blockquote>
+      <p class="translation">او آرامی/روشنی چشم برای من و توست. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/028-al-qasas/#ayah-009' | relative_url }}">القصص ۲۸:۹</a></p>
+      <p>اینجا قرة عين درباره کودکی است که دیدنش دل را آرام می‌کند و محبت برمی‌انگیزد، هرچند آینده داستان نشان می‌دهد که همین کودک معنایی فراتر از خواست خاندان فرعون دارد.</p>
+    </section>
+
+    <section class="root-section" id="acknowledgment">
+      <h2>اقرار و تثبیت عهد</h2>
+      <p>میدان هشتم، اقرار و تثبیت عهد است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">ثُمَّ أَقْرَرْتُمْ وَأَنتُمْ تَشْهَدُونَ</blockquote>
+      <p class="translation">سپس اقرار کردید، در حالی که خود گواه بودید. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-084' | relative_url }}">البقره ۲:۸۴</a></p>
+      <p>و در آیه میثاق پیامبران:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ أَأَقْرَرْتُمْ وَأَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِي قَالُوا أَقْرَرْنَا</blockquote>
+      <p class="translation">فرمود: آیا اقرار کردید و پیمان سنگین مرا بر این گرفتید؟ گفتند: اقرار کردیم. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/003-al-imran/#ayah-081' | relative_url }}">آل‌عمران ۳:۸۱</a></p>
+      <p>أقر در اینجا یعنی پذیرفتن، ثابت کردن، و بر آن ایستادن. اقرار سخنی است که از حالت انکار و تزلزل بیرون آمده و در جای ثبوت قرار گرفته است.</p>
+    </section>
+
+    <section class="root-section" id="settled-object">
+      <h2>استقرار چیزی در مکان</h2>
+      <p>میدان نهم، استقرار چیزی در مکان است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَلَمَّا رَآهُ مُسْتَقِرًّا عِندَهُ قَالَ هَٰذَا مِن فَضْلِ رَبِّي</blockquote>
+      <p class="translation">پس چون آن را نزد خود مستقر دید، گفت: این از فضل پروردگار من است. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/027-an-naml/#ayah-040' | relative_url }}">النمل ۲۷:۴۰</a></p>
+      <p>در این آیه، مستقر یعنی قرارگرفته و ثابت در نزد او. شیء از حالت انتقال به حالت حضور و قرار رسیده است.</p>
+    </section>
+
+    <section class="root-section" id="qawarir">
+      <h2>قوارير</h2>
+      <p>میدان دهم، قوارير است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَوَارِيرَ مِن فِضَّةٍ قَدَّرُوهَا تَقْدِيرًا</blockquote>
+      <p class="translation">بلورهایی از نقره که آن‌ها را به اندازه‌ای سنجیده اندازه کرده‌اند. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/076-al-insan/#ayah-016' | relative_url }}">الانسان ۷۶:۱۶</a></p>
+      <p>قوارير در قرآن به جام‌ها یا ظرف‌های شفاف و بلورین اشاره دارد. پیوند آن با <strong class="arabic-large">ق ر ر</strong> را می‌توان از جهت ظرف بودن فهمید: چیزی که مایع را در خود نگه می‌دارد، آن را از پراکندگی بیرون می‌آورد، و در شفافیت خود حالت درون را آشکار می‌سازد. با این حال، در ترجمه باید «قوارير» را همان «بلور» یا «جام‌های بلورین» آورد، نه اینکه معنای قرار را مستقیماً جایگزین آن کرد.</p>
+    </section>
+
+    <section class="root-section" id="usage-distinctions">
+      <h2>تفکیک کاربردها</h2>
+      <p>باید میان کاربردهای <strong class="arabic-large">ق ر ر</strong> فرق گذاشت. قرار زمین یعنی بستر زیست و سکونت. قرار مکین یعنی جایگاه امن، استوار و نگهدارنده. مستقر زمین یعنی قرارگاه موقت انسان در دنیا. دار القرار یعنی سرای ثبات نهایی. قرة عين یعنی آرامی چشم و دل پس از اضطراب یا انتظار. اقرار یعنی تثبیت و پذیرش. استقرار یعنی قرار گرفتن پس از انتقال. قوارير ظرف‌های شفاف و بلورین‌اند که از نظر ریشه‌ای به میدان نگه‌داشتن و قرار دادن نزدیک می‌شوند، اما معنای مستقل خود را دارند.</p>
+    </section>
+
+    <section class="root-section" id="structure-note">
+      <h2>نکته ساختاری</h2>
+      <p>از نظر ساختاری، اضافه و ترکیب‌ها مهم‌اند. «قرار مكين» قرارگاهی استوار و توانمند برای نگهداری است. «مستقر ومتاع إلى حين» نشان می‌دهد که استقرار دنیا موقت است. «دار القرار» سرای ثبات نهایی است. «قرة عين» ترکیب خاصی است که آرامی چشم و دل را با هم می‌رساند. «أقررتم» در بافت میثاق یعنی پذیرفتید و بر آن ثابت شدید.</p>
+    </section>
+
+    <section class="root-section" id="nearby-roots">
+      <h2>تفکیک از واژه‌های نزدیک</h2>
+      <p><strong class="arabic-large">ق ر ر</strong> با چند ریشه نزدیک فرق دارد. <a href="{{ '/quran-terminology/fa/roots/th-b-t/' | relative_url }}">ث ب ت</a> بر پابرجایی و استواری تمرکز دارد؛ <strong class="arabic-large">ق ر ر</strong> افزون بر ثبات، آرام گرفتن و جایگاه یافتن را نیز دارد. <a href="{{ '/quran-terminology/fa/roots/s-k-n/' | relative_url }}">س ك ن</a> به سکون، آرامش، و فرو نشستن حرکت اشاره دارد؛ <strong class="arabic-large">ق ر ر</strong> بیشتر بر قرار یافتن در جایگاه و پایان اضطراب تأکید دارد. <a href="{{ '/quran-terminology/fa/roots/q-ayn-d/' | relative_url }}">ق ع د</a> نشستن است، اما قرار الزاماً نشستن بدنی نیست؛ می‌تواند قرارگاه، سرنوشت، یا آرامی چشم باشد. <a href="{{ '/quran-terminology/fa/roots/a-w-y/' | relative_url }}">أ و ي</a> به پناه گرفتن و جای گرفتن در مأوا نزدیک است، اما <strong class="arabic-large">ق ر ر</strong> بیشتر به ثبات و آرامی پس از جای گرفتن اشاره دارد. <a href="{{ '/quran-terminology/fa/roots/m-k-n/' | relative_url }}">م ك ن</a> به توانمندی، تمکین، و استقرار محکم مربوط است؛ قرار مکین ترکیب همین دو میدان است: جایگاه ثابت و توانمند.</p>
+    </section>
+
+    <section class="root-section" id="translation-method">
+      <h2>پیشنهادهای ترجمه در فرقان</h2>
+      <p>برای ترجمه در فرقان، <strong class="arabic-large">ق ر ر</strong> باید سیاق‌مند ترجمه شود. قرار می‌تواند «قرارگاه»، «جایگاه ثابت»، «بستر آرام»، یا «محل استقرار» باشد. مستقر می‌تواند «قرارگاه»، «جای استقرار»، «مقصد قرار»، یا «محل آرام گرفتن» باشد. دار القرار بهتر است «سرای قرار» یا «سرای ثبات نهایی» ترجمه شود. قرة عين را نباید فقط «خوشی» ترجمه کرد؛ بهتر است «آرامی چشم»، «روشنی چشم»، یا «مایه آرام گرفتن چشم و دل» آورده شود. اقرار نیز «پذیرفتن و ثابت شدن بر آن» است، نه فقط گفتن یک جمله. قوارير در ترجمه باید «بلور»، «شیشه»، یا «جام‌های بلورین» بماند.</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>جمع‌بندی زبانی</h2>
+      <p>جمع‌بندی زبانی: ریشه <strong class="arabic-large">ق ر ر</strong> بر قرار گرفتن، ثابت شدن، آرام گرفتن، خنک شدن التهاب، و یافتن جایگاه دلالت دارد. تصویر مادی آن چیزی است که پس از حرکت، جوشش یا اضطراب در جای خود می‌نشیند و آرام می‌شود. در قرآن، این ریشه از قرار زمین تا قرار مکین رحم، از مستقر موقت انسان در دنیا تا دار القرار آخرت، از اقرار در میثاق تا قرة عين و آرام گرفتن چشم و دل، و از استقرار شیء تا قواریر بلورین گسترش می‌یابد. فرق آن با ثبات این است که ثبات بیشتر پابرجایی را نشان می‌دهد، اما <strong class="arabic-large">ق ر ر</strong> آرامی، خنکی، و جایگاه‌یافتن پس از اضطراب را نیز همراه دارد.</p>
+    </section>
+  </div>
+</div>
