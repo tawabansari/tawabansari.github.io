@@ -1,0 +1,436 @@
+---
+layout: default
+title: The Qur’anic Root AYN D W (ʿ D W)
+permalink: /quran-terminology/en/roots/ayn-d-w/
+---
+
+<style>
+  .root-study-page .arabic-large {
+    font-size: 1.12em;
+    line-height: 2.15;
+  }
+
+  .root-study-page {
+    --root-bg: #f7f3ea;
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark-theme .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-frame {
+    background: radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%), var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    color: var(--root-text);
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent 82%), var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 0.85rem;
+  }
+
+  .morph-card {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem;
+    background: var(--root-section);
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    color: var(--root-muted);
+    font-size: 0.92rem;
+    font-weight: 700;
+  }
+
+  .morph-form {
+    margin-top: 0.7rem;
+    font-weight: 800;
+    color: var(--root-accent-deep);
+  }
+
+  .morph-note {
+    margin-bottom: 0;
+    color: var(--root-muted);
+  }
+
+  .translit {
+    font-size: 0.92em;
+    color: var(--root-muted);
+    font-weight: 650;
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2,
+  .root-section h3 {
+    color: var(--root-text);
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-right: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0 0.6rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent), var(--root-panel);
+    color: var(--root-text);
+  }
+
+  .translation {
+    color: var(--root-muted);
+    font-weight: 650;
+  }
+
+  .root-note {
+    border-left: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page {
+      padding: 2rem 1rem;
+    }
+
+    .root-frame {
+      padding: 1.25rem;
+      border-radius: 19px;
+    }
+
+    .root-section,
+    .root-forms-card,
+    .root-toc {
+      padding: 1rem;
+    }
+
+    .root-toc ol {
+      columns: 1;
+    }
+  }
+</style>
+
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">Qur’anic Root</div>
+      <h1>The Qur’anic Root AYN D W (ʿ D W)</h1>
+      <p class="root-subtitle">Swift movement, passing beyond a limit, crossing a boundary, transgression, and entering a position of enmity.</p>
+    </section>
+
+    <section class="root-forms-card" id="forms-covered">
+      <h2>Important Forms from This Root</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#root-meaning">
+          <div class="morph-card-header">
+            <div class="morph-type">Root</div>
+            <div class="morph-used">Used in the Qur’an: Yes</div>
+          </div>
+          <div class="morph-form arabic-large">ع د و <span class="translit">(ʿ d w)</span></div>
+          <p class="morph-note">Movement beyond a limit, crossing a boundary, transgression, and entering a position of hostility or harm.</p>
+        </a>
+
+        <a class="morph-card" href="#important-forms">
+          <div class="morph-card-header">
+            <div class="morph-type">Enmity and Hostility</div>
+            <div class="morph-used">Nominal Forms</div>
+          </div>
+          <div class="morph-form arabic-large">عَدُوّ، أَعْدَاء، عَدَاوَة <span class="translit">(ʿaduww, aʿdāʾ, ʿadāwah)</span></div>
+          <p class="morph-note">Enemy, enemies, and the state of enmity or hostility between persons or groups.</p>
+        </a>
+
+        <a class="morph-card" href="#war-ethics">
+          <div class="morph-card-header">
+            <div class="morph-type">Crossing the Limit</div>
+            <div class="morph-used">Verb and Verbal Noun</div>
+          </div>
+          <div class="morph-form arabic-large">عُدْوَان، اعْتَدَى، يَتَعَدَّى، مُعْتَدِين <span class="translit">(ʿudwān, iʿtadā, yataʿaddā, muʿtadīn)</span></div>
+          <p class="morph-note">Transgression, active violation, crossing limits, and taking the role of transgressors.</p>
+        </a>
+
+        <a class="morph-card" href="#edge-side">
+          <div class="morph-card-header">
+            <div class="morph-type">Edge and Movement</div>
+            <div class="morph-used">Spatial and Kinetic</div>
+          </div>
+          <div class="morph-form arabic-large">عُدْوَة، عَادِيَات <span class="translit">(ʿudwah, ʿādiyāt)</span></div>
+          <p class="morph-note">An edge, side, or bank of a place, and those that rush or charge forward.</p>
+        </a>
+      </div>
+    </section>
+
+    <nav class="root-toc" aria-label="Sections of this root study">
+      <h2>Usage Map of This Root</h2>
+      <ol>
+        <li><a href="#scope-note">Scope of This Entry</a></li>
+        <li><a href="#important-forms">Important Forms from This Root</a></li>
+        <li><a href="#root-meaning">Central Meaning</a></li>
+        <li><a href="#material-image">Material Image of the Root</a></li>
+        <li><a href="#classical-usage">Classical Arabic Note</a></li>
+        <li><a href="#divine-limits">Transgressing the Limits of The God</a></li>
+        <li><a href="#war-ethics">Transgression in War and Defense</a></li>
+        <li><a href="#hatred-and-justice">Hatred and the Prohibition of Transgression</a></li>
+        <li><a href="#satan-as-enemy">Satan as Enemy</a></li>
+        <li><a href="#social-enmity">Social Enmity</a></li>
+        <li><a href="#edge-side">ʿUdwa as Edge or Side</a></li>
+        <li><a href="#adiyat">ʿĀdiyāt and Swift Movement</a></li>
+        <li><a href="#usage-distinctions">Distinguishing the Uses</a></li>
+        <li><a href="#structure-note">Structural Note</a></li>
+        <li><a href="#nearby-roots">Difference from Nearby Roots</a></li>
+        <li><a href="#translation-method">Forqan Translation Suggestions</a></li>
+        <li><a href="#summary">Linguistic Summary</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="scope-note">
+      <h2>Scope of This Entry</h2>
+      <p>The root <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> originally points to swift movement, passing beyond a limit, crossing a boundary, transgressing, and taking a position of enmity. The meaning of enmity in this root does not begin as a simple feeling; it begins with crossing the boundary of a healthy relationship. An <strong class="arabic-large">عَدُوّ</strong> <span class="translit">(ʿaduww)</span> is someone who has passed beyond the safe and proper limit and has entered a position of harm, attack, or hostility.</p>
+    </section>
+
+    <section class="root-section" id="important-forms">
+      <h2>Important Forms from This Root</h2>
+      <p>Important Qur’anic forms from this root include <strong class="arabic-large">عَدُوّ</strong> <span class="translit">(ʿaduww)</span>, <strong class="arabic-large">أَعْدَاء</strong> <span class="translit">(aʿdāʾ)</span>, <strong class="arabic-large">عَدَاوَة</strong> <span class="translit">(ʿadāwah)</span>, <strong class="arabic-large">عُدْوَان</strong> <span class="translit">(ʿudwān)</span>, <strong class="arabic-large">اعْتَدَى</strong> <span class="translit">(iʿtadā)</span>, <strong class="arabic-large">يَتَعَدَّى</strong> <span class="translit">(yataʿaddā)</span>, <strong class="arabic-large">تَعْتَدُوا</strong> <span class="translit">(taʿtadū)</span>, <strong class="arabic-large">مُعْتَدِين</strong> <span class="translit">(muʿtadīn)</span>, <strong class="arabic-large">عُدْوَة</strong> <span class="translit">(ʿudwah)</span>, and <strong class="arabic-large">عَادِيَات</strong> <span class="translit">(ʿādiyāt)</span>. <strong class="arabic-large">عَدُوّ</strong> <span class="translit">(ʿaduww)</span> refers to an enemy or a clear enemy. <strong class="arabic-large">عَدَاوَة</strong> <span class="translit">(ʿadāwah)</span> is the state of enmity and hostility. <strong class="arabic-large">عُدْوَان</strong> <span class="translit">(ʿudwān)</span> is transgression and overreaching beyond the limit. <strong class="arabic-large">اعْتَدَى</strong> <span class="translit">(iʿtadā)</span> and <strong class="arabic-large">يَتَعَدَّى</strong> <span class="translit">(yataʿaddā)</span> point to crossing a boundary and committing transgression. <strong class="arabic-large">عُدْوَة</strong> <span class="translit">(ʿudwah)</span> refers to an edge, side, or bank of land. <strong class="arabic-large">عَادِيَات</strong> <span class="translit">(ʿādiyāt)</span> is related to those that rush or charge forward.</p>
+    </section>
+
+    <section class="root-section" id="root-meaning">
+      <h2>Central Meaning</h2>
+      <p>The linguistic core of <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> is movement beyond a limit. Sometimes this movement is bodily and physical, such as running or charging. Sometimes it is geographical, such as being on an edge or side. Sometimes it is legal and ethical, meaning that someone crosses the limit of right and justice. Sometimes it is relational, meaning that a relationship leaves safety and soundness and becomes enmity.</p>
+    </section>
+
+    <section class="root-section" id="material-image">
+      <h2>Material Image of the Root</h2>
+      <p>The material image of this root is an agent moving swiftly from his place and crossing a boundary; or a horse charging forward; or someone passing from an edge and entering another person’s protected space. The same image works in ethics and law: transgression means moving from a permitted place into a territory that is not one’s right.</p>
+    </section>
+
+    <section class="root-section" id="classical-usage">
+      <h2>Classical Arabic Note</h2>
+      <p>In classical Arabic usage, <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> is connected with running, charging, crossing, transgressing, and enmity. This connection matters, because an enemy in this root is not merely someone who carries resentment in the heart; rather, it is someone who has taken the relationship beyond the limit of soundness and has moved toward aggression or harm. In the final version, if a reliable witness from pre-Islamic poetry or old Arabic usage is found, it can be added.</p>
+    </section>
+
+    <section class="root-section" id="divine-limits">
+      <h2>Transgressing the Limits of The God</h2>
+      <p>In the Qur’an, one of the important uses of the root is crossing the limits of The God:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">تِلْكَ حُدُودُ اللَّهِ فَلَا تَعْتَدُوهَا</blockquote>
+      <p class="translit">(tilka ḥudūdu Allāhi fa-lā taʿtadūhā)</p>
+      <p class="translation">These are the limits of The God, so do not transgress them. <a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-229' | relative_url }}">Al-Baqarah 2:229</a></p>
+      <p>In this ayah, transgression means crossing boundaries that The God has placed. A limit is a line of discernment; transgression means stepping beyond that line. This use is not personal enmity, but crossing the boundary of right.</p>
+
+      <p>The same meaning appears in another ayah:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَمَن يَتَعَدَّ حُدُودَ اللَّهِ فَقَدْ ظَلَمَ نَفْسَهُ</blockquote>
+      <p class="translit">(wa-man yataʿadda ḥudūda Allāhi fa-qad ẓalama nafsah)</p>
+      <p class="translation">And whoever transgresses the limits of The God has wronged himself. <a class="quran-ref-link" href="{{ '/quran-reflection/en/065-at-talaq/#ayah-001' | relative_url }}">At-Talaq 65:1</a></p>
+      <p>Here, transgression is tied to wronging the self. The one who crosses a divine limit does not merely break an external law; he also moves himself out of his proper place.</p>
+
+      <p>A subtle distinction should also be kept between <strong class="arabic-large">يَتَعَدَّى</strong> <span class="translit">(yataʿaddā)</span> and <strong class="arabic-large">اعْتَدَى</strong> <span class="translit">(iʿtadā)</span>. In the context of limits, <strong class="arabic-large">يَتَعَدَّى</strong> <span class="translit">(yataʿaddā)</span> more often shows a conscious boundary-crossing from a ruling or appointed measure, as though the actor steps beyond the line. In many contexts, <strong class="arabic-large">اعْتَدَى</strong> <span class="translit">(iʿtadā)</span> carries a more active color of violation, aggression, or response to aggression. This distinction is not absolute or mechanical, but it is worth noticing in Qur’anic usage.</p>
+    </section>
+
+    <section class="root-section" id="war-ethics">
+      <h2>Transgression in War and Defense</h2>
+      <p>The second field is <strong class="arabic-large">عُدْوَان</strong> <span class="translit">(ʿudwān)</span> and transgression in war and defense:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَقَاتِلُوا فِي سَبِيلِ اللَّهِ الَّذِينَ يُقَاتِلُونَكُمْ وَلَا تَعْتَدُوا إِنَّ اللَّهَ لَا يُحِبُّ الْمُعْتَدِينَ</blockquote>
+      <p class="translit">(wa-qātilū fī sabīli Allāhi alladhīna yuqātilūnakum wa-lā taʿtadū inna Allāha lā yuḥibbu al-muʿtadīn)</p>
+      <p class="translation">And fight in the path of The God those who fight you, and do not transgress; indeed, The God does not love the transgressors. <a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-190' | relative_url }}">Al-Baqarah 2:190</a></p>
+      <p>This ayah is very important for understanding the ethics of war in the Qur’an. Even against those who fight, transgression is forbidden. Fighting in the path of The God is not a license to be released from limits. <strong class="arabic-large">لَا تَعْتَدُوا</strong> <span class="translit">(lā taʿtadū)</span> means that the enmity of the other side must not pull you into transgressing the boundary of justice.</p>
+
+      <p>In another ayah, a proportionate response to aggression appears:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَنِ اعْتَدَىٰ عَلَيْكُمْ فَاعْتَدُوا عَلَيْهِ بِمِثْلِ مَا اعْتَدَىٰ عَلَيْكُمْ</blockquote>
+      <p class="translit">(fa-mani iʿtadā ʿalaykum fa-iʿtadū ʿalayhi bi-mithli mā iʿtadā ʿalaykum)</p>
+      <p class="translation">So whoever transgresses against you, respond against him in the like of what he transgressed against you. <a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-194' | relative_url }}">Al-Baqarah 2:194</a></p>
+      <p>In this ayah, the word <strong class="arabic-large">فَاعْتَدُوا</strong> <span class="translit">(fa-iʿtadū)</span> appears as a response to transgression, but it is bound and limited by <strong class="arabic-large">بِمِثْلِ</strong> <span class="translit">(bi-mithl)</span>, “in the like of.” Therefore, the meaning is not that the Qur’an releases transgression without restraint; rather, the response to transgression must have measure, boundary, and proportion. Anger must not exceed the original violation.</p>
+    </section>
+
+    <section class="root-section" id="hatred-and-justice">
+      <h2>Hatred and the Prohibition of Transgression</h2>
+      <p>The third field is the prohibition of transgression because of hatred:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ أَن صَدُّوكُمْ عَنِ الْمَسْجِدِ الْحَرَامِ أَن تَعْتَدُوا</blockquote>
+      <p class="translit">(wa-lā yajrimannakum shanaʾānu qawmin an ṣaddūkum ʿani al-masjidi al-ḥarāmi an taʿtadū)</p>
+      <p class="translation">And let not the hatred of a people, because they barred you from the Sacred Mosque, drive you to transgress. <a class="quran-ref-link" href="{{ '/quran-reflection/en/005-al-maidah/#ayah-002' | relative_url }}">Al-Ma’idah 5:2</a></p>
+      <p>This ayah shows that the enmity of the other side must not remove a human being from justice. Even if a people previously blocked and harmed, resentment must not become an excuse for transgression. Here, the root <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> marks the boundary between justice and blind revenge.</p>
+    </section>
+
+    <section class="root-section" id="satan-as-enemy">
+      <h2>Satan as Enemy</h2>
+      <p>The fourth field is the enmity of Satan:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ إِنَّهُ لَكُمْ عَدُوٌّ مُّبِينٌ</blockquote>
+      <p class="translit">(wa-lā tattabiʿū khuṭuwāti al-shayṭān innahu lakum ʿaduwwun mubīn)</p>
+      <p class="translation">And do not follow the footsteps of Satan; indeed, he is a clear enemy to you. <a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-168' | relative_url }}">Al-Baqarah 2:168</a></p>
+      <p>Satan is an <strong class="arabic-large">عَدُوّ</strong> <span class="translit">(ʿaduww)</span> because he takes the human being out of the path of truth. His enmity is not only hatred; his work is to draw the human being into steps that cross the limit of The God. This point clarifies the link between <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> and <a href="{{ '/quran-terminology/en/roots/sh-tt-n/' | relative_url }}">SH Ṭ N</a>: Satan is an enemy because he pulls the human being toward transgression from the path of truth.</p>
+
+      <p>In Surah Fatir, it says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّ الشَّيْطَانَ لَكُمْ عَدُوٌّ فَاتَّخِذُوهُ عَدُوًّا</blockquote>
+      <p class="translit">(inna al-shayṭāna lakum ʿaduwwun fa-ittakhidhūhu ʿaduwwā)</p>
+      <p class="translation">Indeed, Satan is an enemy to you, so take him as an enemy. <a class="quran-ref-link" href="{{ '/quran-reflection/en/035-fatir/#ayah-006' | relative_url }}">Fatir 35:6</a></p>
+      <p>This means that the human being should not take Satan as an adviser, protector, or inner guide. An enemy must be recognized as an enemy, not treated as a friend.</p>
+    </section>
+
+    <section class="root-section" id="social-enmity">
+      <h2>Social Enmity</h2>
+      <p>The fifth field is social enmity:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّمَا يُرِيدُ الشَّيْطَانُ أَن يُوقِعَ بَيْنَكُمُ الْعَدَاوَةَ وَالْبَغْضَاءَ</blockquote>
+      <p class="translit">(innamā yurīdu al-shayṭānu an yūqiʿa baynakumu al-ʿadāwata wa-al-baghḍāʾ)</p>
+      <p class="translation">Satan only wants to cast enmity and hatred among you. <a class="quran-ref-link" href="{{ '/quran-reflection/en/005-al-maidah/#ayah-091' | relative_url }}">Al-Ma’idah 5:91</a></p>
+      <p><strong class="arabic-large">عَدَاوَة</strong> <span class="translit">(ʿadāwah)</span> in this ayah is a relational state: distance, hostility, and resentment are created among people. Through things such as intoxicants and gambling, Satan takes human relationships out of soundness and draws them into enmity and hatred.</p>
+
+      <p>Against this state, the Qur’an shows the path by which enmity can be transformed:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">ادْفَعْ بِالَّتِي هِيَ أَحْسَنُ فَإِذَا الَّذِي بَيْنَكَ وَبَيْنَهُ عَدَاوَةٌ كَأَنَّهُ وَلِيٌّ حَمِيمٌ</blockquote>
+      <p class="translit">(idfaʿ bi-allatī hiya aḥsan fa-idhā alladhī baynaka wa-baynahu ʿadāwatun ka-annahu waliyyun ḥamīm)</p>
+      <p class="translation">Repel with what is better; then suddenly the one between you and whom there was enmity becomes as though he were a close and warm friend. <a class="quran-ref-link" href="{{ '/quran-reflection/en/041-fussilat/#ayah-034' | relative_url }}">Fussilat 41:34</a></p>
+      <p>This ayah shows that enmity is not always a final and sealed condition. Better conduct can return a relationship that has left soundness back toward closeness and warm friendship.</p>
+    </section>
+
+    <section class="root-section" id="edge-side">
+      <h2><span class="translit">ʿUdwa</span> as Edge or Side</h2>
+      <p>The sixth field is <strong class="arabic-large">عُدْوَة</strong> <span class="translit">(ʿudwah)</span>, meaning an edge or side:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِذْ أَنتُم بِالْعُدْوَةِ الدُّنْيَا وَهُم بِالْعُدْوَةِ الْقُصْوَىٰ</blockquote>
+      <p class="translit">(idh antum bi-al-ʿudwati al-dunyā wa-hum bi-al-ʿudwati al-quṣwā)</p>
+      <p class="translation">When you were on the nearer edge and they were on the farther edge. <a class="quran-ref-link" href="{{ '/quran-reflection/en/008-al-anfal/#ayah-042' | relative_url }}">Al-Anfal 8:42</a></p>
+      <p>Here <strong class="arabic-large">عُدْوَة</strong> <span class="translit">(ʿudwah)</span> does not mean enmity; it refers to the edge, side, or bank of the place of settlement. This use shows that the root <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> is also connected with boundary, edge, and spatial direction. Enmity can be understood from this same direction: two sides stand in opposing positions, and distance and confrontation arise between them.</p>
+    </section>
+
+    <section class="root-section" id="adiyat">
+      <h2><span class="translit">ʿĀdiyāt</span> and Swift Movement</h2>
+      <p>The seventh field is <strong class="arabic-large">عَادِيَات</strong> <span class="translit">(ʿādiyāt)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَالْعَادِيَاتِ ضَبْحًا</blockquote>
+      <p class="translit">(wa-al-ʿādiyāti ḍabḥā)</p>
+      <p class="translation">By those that charge, panting. <a class="quran-ref-link" href="{{ '/quran-reflection/en/100-al-adiyat/#ayah-001' | relative_url }}">Al-Adiyat 100:1</a></p>
+      <p>In this ayah, the kinetic field of the root is clear: those that charge, with panting and speed. This use helps us understand that <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> is not only a legal boundary; at its core it also has swift, advancing, boundary-crossing movement. When this movement enters the right of The God or the right of other people, it becomes transgression and aggression.</p>
+    </section>
+
+    <section class="root-section" id="usage-distinctions">
+      <h2>Distinguishing the Uses</h2>
+      <p>The uses of <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> must be distinguished. Transgressing the limits of The God means crossing a divine boundary. <strong class="arabic-large">عُدْوَان</strong> <span class="translit">(ʿudwān)</span> means active and harmful aggression. <strong class="arabic-large">عَدُوّ</strong> <span class="translit">(ʿaduww)</span> means an enemy who stands in a position of hostility or aggression. <strong class="arabic-large">عَدَاوَة</strong> <span class="translit">(ʿadāwah)</span> is the state of enmity between persons or groups. <strong class="arabic-large">عُدْوَة</strong> <span class="translit">(ʿudwah)</span> is an edge or side. <strong class="arabic-large">عَادِيَات</strong> <span class="translit">(ʿādiyāt)</span> shows swift, forward movement. All of these are close to the field of movement, boundary, and crossing the limit, but they take meaning in different contexts.</p>
+    </section>
+
+    <section class="root-section" id="structure-note">
+      <h2>Structural Note</h2>
+      <p>Structurally, the preposition and object are important in this root. <strong class="arabic-large">لَا تَعْتَدُوهَا</strong> <span class="translit">(lā taʿtadūhā)</span> means “do not cross them,” meaning the limits. <strong class="arabic-large">اعْتَدَى عَلَيْكُمْ</strong> <span class="translit">(iʿtadā ʿalaykum)</span> means “he transgressed against you.” <strong class="arabic-large">بِمِثْلِ مَا اعْتَدَى عَلَيْكُمْ</strong> <span class="translit">(bi-mithli mā iʿtadā ʿalaykum)</span> restricts the response to the measure of that same transgression. <strong class="arabic-large">عَدُوّ لَكُمْ</strong> <span class="translit">(ʿaduwwun lakum)</span> means an enemy in relation to you. <strong class="arabic-large">بَيْنَكُمُ الْعَدَاوَةَ</strong> <span class="translit">(baynakumu al-ʿadāwah)</span> shows that enmity is a state that occurs between people, not only inside one person.</p>
+    </section>
+
+    <section class="root-section" id="nearby-roots">
+      <h2>Difference from Nearby Roots</h2>
+      <p><strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> differs from several nearby roots. <a href="{{ '/quran-terminology/en/roots/zha-l-m/' | relative_url }}">Ẓ L M</a> points to darkening a right, diminishing a right, and placing a thing somewhere other than its proper place; transgression can be one form of wronging, but <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> highlights crossing a limit more strongly. <a href="{{ '/quran-terminology/en/roots/b-gh-y/' | relative_url }}">B GH Y</a> is related to wrongful seeking, rebellion, and wanting beyond one’s right; <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> shows the act of violation and crossing the boundary itself. <a href="{{ '/quran-terminology/en/roots/tt-gh-y/' | relative_url }}">Ṭ GH Y</a> points to overflowing beyond the limit with a color of rebellion and power-seeking; <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> may occur even in one specific act. <a href="{{ '/quran-terminology/en/roots/kh-sad-m/' | relative_url }}">KH Ṣ M</a> is related to dispute and adversarial argument between sides, while enmity is a broader state of hostility and standing in a position of harm. <a href="{{ '/quran-terminology/en/roots/q-t-l/' | relative_url }}">Q T L</a> points to killing and ending life; enmity can lead to killing, but it is not itself killing. <a href="{{ '/quran-terminology/en/roots/f-s-d/' | relative_url }}">F S D</a> points to the corruption of order; aggression is one of the ways corruption is produced.</p>
+    </section>
+
+    <section class="root-section" id="translation-method">
+      <h2>Forqan Translation Suggestions</h2>
+      <p>For translation in Forqan, <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> must be translated according to context. <strong class="arabic-large">عَدُوّ</strong> <span class="translit">(ʿaduww)</span> is usually “enemy,” but the explanation should remember that an enemy in this root is someone who has crossed the boundary of a healthy relationship. <strong class="arabic-large">عَدَاوَة</strong> <span class="translit">(ʿadāwah)</span> is “enmity” or “a state of hostility.” <strong class="arabic-large">عُدْوَان</strong> <span class="translit">(ʿudwān)</span> is “aggression,” “transgression,” or “overreaching beyond the limit.” <strong class="arabic-large">اعْتَدَى</strong> <span class="translit">(iʿtadā)</span> and <strong class="arabic-large">يَتَعَدَّى</strong> <span class="translit">(yataʿaddā)</span> can be translated as “transgressed,” “passed beyond the limit,” or “crossed the boundary.” <strong class="arabic-large">عُدْوَة</strong> <span class="translit">(ʿudwah)</span> should not be translated as “enmity”; in the context of <a class="quran-ref-link" href="{{ '/quran-reflection/en/008-al-anfal/#ayah-042' | relative_url }}">Al-Anfal 8:42</a>, “edge,” “side,” or “bank” is better. <strong class="arabic-large">عَادِيَات</strong> <span class="translit">(ʿādiyāt)</span> is “those that charge” or “those that rush forward.”</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>Linguistic Summary</h2>
+      <p>Linguistically, the root <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> points to swift movement, crossing a limit, passing beyond a boundary, transgression, and enmity. Its material image is charging forward and crossing an edge. In the Qur’an, this root extends from transgressing the limits of The God to aggression in war, from the enmity of Satan to social enmity, from the edges of the field of Badr to the charging ones in Surah Al-Adiyat. Its difference from wronging is that wronging focuses on displacing right and darkening the proper place, while <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> focuses on movement beyond the limit and transgression across the boundary.</p>
+    </section>
+  </div>
+</div>
