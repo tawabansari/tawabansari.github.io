@@ -1,0 +1,443 @@
+---
+layout: default
+title: ریشه قرآنی م ت ع
+permalink: /quran-terminology/fa/roots/m-t-ayn/
+---
+
+<style>
+  .root-study-page .arabic-large {
+    font-size: 1.12em;
+    line-height: 2.15;
+  }
+
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark-theme .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-frame {
+    background: radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%), var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    color: var(--root-text);
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent 82%), var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 0.85rem;
+  }
+
+  .morph-card {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem;
+    background: var(--root-section);
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    color: var(--root-muted);
+    font-size: 0.92rem;
+    font-weight: 700;
+  }
+
+  .morph-form {
+    margin-top: 0.7rem;
+    font-weight: 800;
+    color: var(--root-accent-deep);
+  }
+
+  .morph-note {
+    margin-bottom: 0;
+    color: var(--root-muted);
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0 0.6rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent), var(--root-panel);
+    color: var(--root-text);
+  }
+
+  .translation {
+    color: var(--root-muted);
+    font-weight: 650;
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page {
+      padding: 2rem 1rem;
+    }
+
+    .root-frame {
+      padding: 1.25rem;
+      border-radius: 19px;
+    }
+
+    .root-section,
+    .root-forms-card,
+    .root-toc {
+      padding: 1rem;
+    }
+
+    .root-toc ol {
+      columns: 1;
+    }
+  }
+</style>
+
+<div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">ریشه قرآنی</div>
+      <h1>ریشه قرآنی م ت ع</h1>
+      <p class="root-subtitle">بهره‌مندی، استفاده زمان‌دار، برخورداری محدود، و داشتن ابزار راه؛ متاع ابزار راه است، نه جایگاه قرار.</p>
+    </section>
+
+    <section class="root-forms-card" id="forms-covered">
+      <h2>صورت‌های مهم این ریشه</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#root-meaning">
+          <div class="morph-card-header">
+            <div class="morph-type">ریشه</div>
+            <div class="morph-used">کاربرد قرآنی: بلی</div>
+          </div>
+          <div class="morph-form arabic-large">م ت ع</div>
+          <p class="morph-note">برخورداری زمان‌دار، بهره‌بردن از چیزی در مسیر، و استفاده‌ای که پایان دارد.</p>
+        </a>
+
+        <a class="morph-card" href="#important-forms">
+          <div class="morph-card-header">
+            <div class="morph-type">صورت اسمی</div>
+            <div class="morph-used">محوری</div>
+          </div>
+          <div class="morph-form arabic-large">مَتَاع، أَمْتِعَة</div>
+          <p class="morph-note">وسیله، بار، ابزار، کالا، یا بهره‌ای که انسان از زندگی یا نعمت می‌برد.</p>
+        </a>
+
+        <a class="morph-card" href="#good-provision">
+          <div class="morph-card-header">
+            <div class="morph-type">بهره‌مند ساختن</div>
+            <div class="morph-used">باب تفعیل</div>
+          </div>
+          <div class="morph-form arabic-large">مَتَّعَ، يُمَتِّع، أُمَتِّعُهُ</div>
+          <p class="morph-note">بهره‌مند ساختن، برخوردار کردن، یا مهلت استفاده دادن تا زمانی مشخص.</p>
+        </a>
+
+        <a class="morph-card" href="#istimta">
+          <div class="morph-card-header">
+            <div class="morph-type">بهره گرفتن</div>
+            <div class="morph-used">تمتع و استمتاع</div>
+          </div>
+          <div class="morph-form arabic-large">تَمَتُّع، اسْتَمْتَعَ</div>
+          <p class="morph-note">بهره بردن از سهم، رابطه، فرصت، یا گشایشی که در اختیار آمده است.</p>
+        </a>
+      </div>
+    </section>
+
+    <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
+      <h2>فهرست کاربردهای این ریشه</h2>
+      <ol>
+        <li><a href="#scope-note">محدوده این مدخل</a></li>
+        <li><a href="#important-forms">صورت‌های مهم این ریشه</a></li>
+        <li><a href="#root-meaning">معنای مرکزی</a></li>
+        <li><a href="#material-image">تصویر مادی ریشه</a></li>
+        <li><a href="#classical-usage">تبصره تاریخی و زبان کلاسیک</a></li>
+        <li><a href="#descent-earth">متاع زمین پس از هبوط</a></li>
+        <li><a href="#world-akhirah">متاع دنیا در برابر آخرت</a></li>
+        <li><a href="#little-provision">اندک بودن متاع دنیا</a></li>
+        <li><a href="#good-provision">متاع حسن</a></li>
+        <li><a href="#temporary-enjoyment">بهره‌مند ساختن و مهلت دادن</a></li>
+        <li><a href="#divorce-support">متاع در طلاق و حمایت مالی</a></li>
+        <li><a href="#tools-equipment">متاع به معنای وسایل و ابزار</a></li>
+        <li><a href="#istimta">استمتاع</a></li>
+        <li><a href="#marital-relation">استمتاع در رابطه زناشویی</a></li>
+        <li><a href="#hajj-tamattu">تمتع در حج</a></li>
+        <li><a href="#usage-distinctions">تفکیک کاربردها</a></li>
+        <li><a href="#structure-note">نکته ساختاری</a></li>
+        <li><a href="#nearby-roots">تفکیک از واژه‌های نزدیک</a></li>
+        <li><a href="#translation-method">پیشنهادهای ترجمه در فرقان</a></li>
+        <li><a href="#summary">جمع‌بندی زبانی</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="scope-note">
+      <h2>محدوده این مدخل</h2>
+      <p>ریشه <strong class="arabic-large">م ت ع</strong> در اصل به بهره‌مندی، استفاده زمان‌دار، برخورداری از چیزی در محدوده‌ای مشخص، و داشتن وسیله‌ای برای رفع نیاز در مسیر دلالت دارد. متاع چیزی است که انسان از آن استفاده می‌کند، اما قرار نیست مقصد نهایی او باشد. از همین‌جا معنای مهم قرآنی آن روشن می‌شود: متاع، ابزار راه است؛ نه جایگاه قرار.</p>
+    </section>
+
+    <section class="root-section" id="important-forms">
+      <h2>صورت‌های مهم این ریشه</h2>
+      <p>صورت‌های مهم این ریشه در قرآن شامل متاع، متع، تمتع، و استمتع است. متاع هم به خودِ وسیله و بار و ابزار گفته می‌شود، هم به بهره‌ای که انسان از زندگی یا نعمت می‌برد. متع در باب تفعیل به بهره‌مند ساختن و برخوردار کردن اشاره دارد. تمتع یعنی بهره‌بردن و استفاده کردن در یک محدوده زمانی. استمتع نیز به بهره گرفتن از سهم، رابطه، فرصت یا چیزی در اختیار آمده دلالت دارد.</p>
+    </section>
+
+    <section class="root-section" id="root-meaning">
+      <h2>معنای مرکزی</h2>
+      <p>هسته زبانی <strong class="arabic-large">م ت ع</strong>، برخورداریِ ممتد اما پایان‌پذیر است. یعنی چیزی برای مدتی در اختیار انسان کشیده می‌شود، مجال استفاده می‌دهد، نیاز را برطرف می‌کند، اما هم خود آن و هم زمان بهره‌برداری از آن پایان دارد. از این جهت، متاع با ابدیت و مالکیت مطلق سازگار نیست. متاع یعنی چیزی که ارزشش در استفاده درست از آن است، نه در دل‌بستن نهایی به آن.</p>
+    </section>
+
+    <section class="root-section" id="material-image">
+      <h2>تصویر مادی ریشه</h2>
+      <p>تصویر مادی این ریشه را می‌توان در توشه، بار، ابزار سفر، طنابی که برای کار کشیده و به کار گرفته می‌شود، یا روشنایی روزی دید که امتداد دارد اما به پایان می‌رسد. مسافر از توشه و ابزار خود استفاده می‌کند تا راه را بپیماید. اگر توشه را مقصد بداند، راه را گم کرده است. دنیا نیز در قرآن بارها همین‌گونه متاع نامیده می‌شود: قابل استفاده، زیبا، واقعی، اما زمان‌مند.</p>
+    </section>
+
+    <section class="root-section" id="classical-usage">
+      <h2>تبصره تاریخی و زبان کلاسیک</h2>
+      <p>در کاربرد عربی کلاسیک، <strong class="arabic-large">م ت ع</strong> با بهره، برخورداری، امتداد، توشه، وسیله، و امکان استفاده پیوند دارد. متاع می‌تواند هم ابزار همراه باشد، هم بهره‌ای که از زندگی یا یک نعمت گرفته می‌شود. در نسخه نهایی، اگر شاهد معتبر از شعر جاهلی یا کاربرد کهن عربی پیدا شود، می‌توان آن را افزود.</p>
+    </section>
+
+    <section class="root-section" id="descent-earth">
+      <h2>متاع زمین پس از هبوط</h2>
+      <p>یکی از نخستین کاربردهای مهم این ریشه در داستان هبوط آدم آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ</blockquote>
+      <p class="translation">و برای شما در زمین قرارگاهی و بهره‌ای تا زمانی خواهد بود. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-036' | relative_url }}">البقره ۲:۳۶</a></p>
+      <p>در این آیه، متاع با مستقر و «إلى حين» همراه است. زمین برای انسان جایگاه استقرار موقت است، و متاع آن نیز تا زمانی معین است. این ترکیب بسیار مهم است: زمین هم محل زندگی است، هم محل بهره‌مندی، اما هیچ‌کدام بی‌پایان نیست.</p>
+      <p>همین ساختار در اعراف نیز تکرار می‌شود:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ</blockquote>
+      <p class="translation">و برای شما در زمین قرارگاهی و بهره‌ای تا زمانی خواهد بود. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/007-al-araf/#ayah-024' | relative_url }}">الاعراف ۷:۲۴</a></p>
+      <p>این تکرار نشان می‌دهد که متاع زمین بخشی از مرحله زمینی انسان است. پس متاع بد نیست؛ خدا آن را برای زندگی انسان قرار داده است. مشکل از جایی آغاز می‌شود که انسان متاع را جای آخرت، جای حق، یا جای مقصد نهایی بنشاند.</p>
+    </section>
+
+    <section class="root-section" id="world-akhirah">
+      <h2>متاع دنیا در برابر آخرت</h2>
+      <p>میدان دوم، متاع دنیا در برابر آخرت است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ وَالْخَيْلِ الْمُسَوَّمَةِ وَالْأَنْعَامِ وَالْحَرْثِ ۗ ذَٰلِكَ مَتَاعُ الْحَيَاةِ الدُّنْيَا ۖ وَاللَّهُ عِندَهُ حُسْنُ الْمَآبِ</blockquote>
+      <p class="translation">دوستی خواسته‌ها برای مردم آراسته شده است: زنان، فرزندان، انباشته‌های فراوان از طلا و نقره، اسبان نشان‌دار، دام‌ها و کشتزار. این بهره زندگی دنیاست؛ و نزد خدا بازگشت نیکوست. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/003-al-imran/#ayah-014' | relative_url }}">آل‌عمران ۳:۱۴</a></p>
+      <p>در این آیه، متاع زندگی دنیا شامل چیزهای واقعی، جذاب و طبیعی زندگی است. قرآن آن‌ها را نفی نمی‌کند، اما جایگاهشان را روشن می‌کند: متاع‌اند، نه حسن المآب. یعنی برای بهره‌بردن‌اند، نه برای اینکه دل انسان در آن‌ها تمام شود.</p>
+      <p>آیه‌ای دیگر این مرز را تندتر بیان می‌کند:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ</blockquote>
+      <p class="translation">و زندگی دنیا جز بهره فریبنده نیست. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/003-al-imran/#ayah-185' | relative_url }}">آل‌عمران ۳:۱۸۵</a></p>
+      <p>متاع الغرور یعنی بهره‌ای که انسان را در محاسبه دچار خطا می‌کند. فریب در این نیست که دنیا هیچ ارزش ندارد؛ فریب در این است که چیز پایان‌پذیر، پایدار و مطلق پنداشته شود. انسان گمان می‌کند امتداد متاع یعنی دوام آن، در حالی که امتدادش فقط مهلت استفاده است.</p>
+      <p>همین تعبیر در سوره حدید نیز آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ</blockquote>
+      <p class="translation">و زندگی دنیا جز بهره فریبنده نیست. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/057-al-hadid/#ayah-020' | relative_url }}">الحديد ۵۷:۲۰</a></p>
+      <p>در این سیاق، زندگی دنیا با بازی، سرگرمی، زینت، تفاخر و تکاثر توصیف می‌شود. متاع دنیا وقتی زیر نور حق فهمیده نشود، انسان را در پوسته مصرف و رقابت نگه می‌دارد.</p>
+    </section>
+
+    <section class="root-section" id="little-provision">
+      <h2>اندک بودن متاع دنیا</h2>
+      <p>میدان سوم، اندک بودن متاع دنیاست:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قُلْ مَتَاعُ الدُّنْيَا قَلِيلٌ وَالْآخِرَةُ خَيْرٌ لِّمَنِ اتَّقَىٰ</blockquote>
+      <p class="translation">بگو بهره دنیا اندک است، و آخرت برای کسی که تقوا دارد بهتر است. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/004-an-nisa/#ayah-077' | relative_url }}">النساء ۴:۷۷</a></p>
+      <p>اندک بودن اینجا فقط مقدار نیست؛ نسبت است. حتی اگر متاع دنیا بسیار به نظر برسد، در برابر آخرت کوتاه، محدود و ناپایدار است.</p>
+      <p>در توبه نیز آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَا مَتَاعُ الْحَيَاةِ الدُّنْيَا فِي الْآخِرَةِ إِلَّا قَلِيلٌ</blockquote>
+      <p class="translation">پس بهره زندگی دنیا در برابر آخرت جز اندک نیست. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/009-at-tawbah/#ayah-038' | relative_url }}">التوبة ۹:۳۸</a></p>
+      <p>پس <strong class="arabic-large">م ت ع</strong> به انسان یاد می‌دهد که ارزش هر بهره‌ای را با مقصد بسنجد. اگر آخرت معیار باشد، دنیا ابزار می‌شود؛ اگر دنیا معیار شود، متاع به غرور تبدیل می‌گردد.</p>
+    </section>
+
+    <section class="root-section" id="good-provision">
+      <h2>متاع حسن</h2>
+      <p>میدان چهارم، متاع حسن است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَأَنِ اسْتَغْفِرُوا رَبَّكُمْ ثُمَّ تُوبُوا إِلَيْهِ يُمَتِّعْكُم مَّتَاعًا حَسَنًا إِلَىٰ أَجَلٍ مُّسَمًّى</blockquote>
+      <p class="translation">و اینکه از پروردگارتان آمرزش بخواهید، سپس به سوی او بازگردید؛ شما را تا زمانی نامیده، بهره‌ای نیکو بهره‌مند می‌سازد. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/011-hud/#ayah-003' | relative_url }}">هود ۱۱:۳</a></p>
+      <p>این آیه نشان می‌دهد که متاع همیشه منفی نیست. متاع می‌تواند حسن باشد؛ یعنی بهره‌ای سالم، پاکیزه، متوازن و در مسیر درست. اما حتی متاع حسن نیز «إلى أجل مسمى» است. خوب بودنِ متاع، زمان‌مند بودن آن را از میان نمی‌برد.</p>
+    </section>
+
+    <section class="root-section" id="temporary-enjoyment">
+      <h2>بهره‌مند ساختن و مهلت دادن</h2>
+      <p>میدان پنجم، بهره‌مند ساختن و مهلت دادن است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَأُمَتِّعُهُ قَلِيلًا ثُمَّ أَضْطَرُّهُ إِلَىٰ عَذَابِ النَّارِ</blockquote>
+      <p class="translation">پس او را اندکی بهره‌مند می‌سازم، سپس او را به سوی عذاب آتش ناچار می‌کنم. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-126' | relative_url }}">البقره ۲:۱۲۶</a></p>
+      <p>در این آیه، بهره‌مندی دنیوی حتی برای کافر نیز ممکن است، اما این بهره‌مندی دلیل رضایت نهایی خدا نیست. ممکن است متاع، مهلت باشد؛ نه کرامت پایدار.</p>
+      <p>در سوره شعراء نیز آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أَفَرَأَيْتَ إِن مَّتَّعْنَاهُمْ سِنِينَ ثُمَّ جَاءَهُم مَّا كَانُوا يُوعَدُونَ مَا أَغْنَىٰ عَنْهُم مَّا كَانُوا يُمَتَّعُونَ</blockquote>
+      <p class="translation">آیا دیدی اگر سال‌هایی بهره‌مندشان سازیم، سپس آنچه وعده داده می‌شدند به آنان برسد، آنچه از آن بهره‌مند می‌شدند برایشان سودی نخواهد داشت. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/026-ash-shuara/#ayah-205' | relative_url }}">الشعراء ۲۶:۲۰۵-۲۰۷</a></p>
+      <p>اینجا حتی سال‌های طولانی هم متاع است. در لحظه حقیقت، طولانی بودن بهره‌مندی نمی‌تواند جای حق و نجات را بگیرد.</p>
+    </section>
+
+    <section class="root-section" id="divorce-support">
+      <h2>متاع در طلاق و حمایت مالی</h2>
+      <p>میدان ششم، متاع در طلاق و حمایت مالی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَمَتِّعُوهُنَّ عَلَى الْمُوسِعِ قَدَرُهُ وَعَلَى الْمُقْتِرِ قَدَرُهُ مَتَاعًا بِالْمَعْرُوفِ</blockquote>
+      <p class="translation">و آنان را بهره‌ای دهید؛ بر توانگر به اندازه توانش و بر تنگدست به اندازه توانش؛ بهره‌ای به معروف. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-236' | relative_url }}">البقره ۲:۲۳۶</a></p>
+      <p>در این آیه، متاع به بهره یا کمک حمایتی پس از گسست ازدواج نزدیک است. این متاع نه مهر است، نه صدقه تحقیرآمیز؛ بلکه توشه‌ای شایسته برای گذار از یک وضعیت به وضعیت دیگر است. «بالمعروف» یعنی باید با انصاف، عرف سالم، توان مالی، و کرامت زن هماهنگ باشد.</p>
+      <p>در آیه‌ای دیگر آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلِلْمُطَلَّقَاتِ مَتَاعٌ بِالْمَعْرُوفِ حَقًّا عَلَى الْمُتَّقِينَ</blockquote>
+      <p class="translation">و برای زنان طلاق‌داده‌شده بهره‌ای به معروف است؛ حقی بر پرهیزگاران. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-241' | relative_url }}">البقره ۲:۲۴۱</a></p>
+      <p>اینجا متاع با «حق» پیوند دارد. پس این بهره فقط لطف اختیاری نیست؛ یک مسئولیت اخلاقی و اجتماعی است. قرآن در لحظه گسست خانواده، زن را بی‌توشه و بی‌پشتوانه رها نمی‌کند.</p>
+    </section>
+
+    <section class="root-section" id="tools-equipment">
+      <h2>متاع به معنای وسایل و ابزار</h2>
+      <p>میدان هفتم، متاع به معنای وسایل و ابزار است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَدَّ الَّذِينَ كَفَرُوا لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ</blockquote>
+      <p class="translation">کسانی که کفر ورزیدند دوست دارند شما از سلاح‌ها و وسایل خود غافل شوید. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/004-an-nisa/#ayah-102' | relative_url }}">النساء ۴:۱۰۲</a></p>
+      <p>اینجا أمتعة به وسایل، تجهیزات، بار و ابزار همراه اشاره دارد. این کاربرد به تصویر مادی ریشه نزدیک است: چیزهایی که انسان برای حرکت، دفاع، سفر یا زندگی با خود دارد.</p>
+      <p>در داستان یوسف نیز آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَمَّا فَتَحُوا مَتَاعَهُمْ وَجَدُوا بِضَاعَتَهُمْ رُدَّتْ إِلَيْهِمْ</blockquote>
+      <p class="translation">و چون بارهای خود را گشودند، کالای خود را یافتند که به آنان بازگردانده شده بود. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/012-yusuf/#ayah-065' | relative_url }}">يوسف ۱۲:۶۵</a></p>
+      <p>متاع در اینجا بار و وسایل سفر و تجارت است. این کاربرد نشان می‌دهد که متاع همیشه مفهوم اخلاقی یا آخرتی ندارد؛ گاهی همان بار، وسیله، ظرف، کالا و ابزار استفاده است.</p>
+    </section>
+
+    <section class="root-section" id="istimta">
+      <h2>استمتاع</h2>
+      <p>میدان هشتم، استمتاع است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">رَبَّنَا اسْتَمْتَعَ بَعْضُنَا بِبَعْضٍ وَبَلَغْنَا أَجَلَنَا الَّذِي أَجَّلْتَ لَنَا</blockquote>
+      <p class="translation">پروردگار ما، برخی از ما از برخی دیگر بهره بردیم، و به اجلی که برای ما مقرر کرده بودی رسیدیم. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/006-al-anam/#ayah-128' | relative_url }}">الأنعام ۶:۱۲۸</a></p>
+      <p>استمتاع در این آیه بهره‌بردن متقابل است، اما در سیاقی هشدارآمیز و مربوط به رابطه انسان‌ها و جن. یعنی بهره‌بردن اگر زیر معیار حق نباشد، می‌تواند به رابطه‌ای آلوده، فریبنده یا زیان‌آور تبدیل شود.</p>
+      <p>در سوره توبه نیز آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَاسْتَمْتَعُوا بِخَلَاقِهِمْ فَاسْتَمْتَعْتُم بِخَلَاقِكُمْ</blockquote>
+      <p class="translation">آنان از سهم خود بهره بردند، پس شما نیز از سهم خود بهره بردید. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/009-at-tawbah/#ayah-069' | relative_url }}">التوبة ۹:۶۹</a></p>
+      <p>خلاق یعنی سهم یا بهره. استمتاع در اینجا استفاده از سهم دنیوی است، اما در سیاق هشدار نسبت به تکرار راه اقوام پیشین آمده است. یعنی انسان سهم خود را مصرف می‌کند، اما باید ببیند این مصرف او را به کجا می‌برد.</p>
+    </section>
+
+    <section class="root-section" id="marital-relation">
+      <h2>استمتاع در رابطه زناشویی</h2>
+      <p>میدان نهم، استمتاع در رابطه زناشویی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَا اسْتَمْتَعْتُم بِهِ مِنْهُنَّ فَآتُوهُنَّ أُجُورَهُنَّ فَرِيضَةً</blockquote>
+      <p class="translation">پس هر بهره‌ای که از آنان بردید، حق مالی آنان را به عنوان فریضه بدهید. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/004-an-nisa/#ayah-024' | relative_url }}">النساء ۴:۲۴</a></p>
+      <p>این آیه از نظر فقهی محل بحث‌های تاریخی فراوان شده است، اما در این مقاله باید ریشه‌محور بمانیم. از نظر لغوی، استمتاع به بهره‌مندی واقعی در رابطه اشاره دارد، و آیه آن را با پرداخت حق زن پیوند می‌دهد. پس <strong class="arabic-large">م ت ع</strong> در اینجا بهره‌مندی بدون مسئولیت نیست؛ بهره‌مندی‌ای است که حق مالی و تعهد را لازم می‌کند.</p>
+    </section>
+
+    <section class="root-section" id="hajj-tamattu">
+      <h2>تمتع در حج</h2>
+      <p>میدان دهم، تمتع در حج است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَن تَمَتَّعَ بِالْعُمْرَةِ إِلَى الْحَجِّ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ</blockquote>
+      <p class="translation">پس هر کس از عمره تا حج بهره‌مند شد، آنچه از قربانی آسان باشد. <a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-196' | relative_url }}">البقره ۲:۱۹۶</a></p>
+      <p>در این آیه، تمتع به بهره‌بردن از گشایش زمانی و عملی میان عمره و حج اشاره دارد. این بهره نیز محدود و آیینی است؛ یعنی انسان از یک فرصت در چارچوب عبادت استفاده می‌کند.</p>
+    </section>
+
+    <section class="root-section" id="usage-distinctions">
+      <h2>تفکیک کاربردها</h2>
+      <p>باید میان کاربردهای <strong class="arabic-large">م ت ع</strong> فرق گذاشت. متاع دنیا یعنی بهره گذرا و زمان‌مند زندگی. متاع حسن یعنی بهره خوب و سالم تا اجلی مشخص. متاع الغرور یعنی بهره‌ای که اگر درست سنجیده نشود، انسان را فریب می‌دهد. متاع طلاق یعنی توشه یا حمایت شایسته برای گذار. أمتعة یعنی وسایل و ابزار استفاده. استمتاع یعنی بهره‌بردن از چیزی یا کسی در یک رابطه، که بسته به سیاق می‌تواند مشروع، هشدارآمیز یا مسئولیت‌آور باشد. تمتع در حج بهره‌مندی از گشایش میان عمره و حج است.</p>
+    </section>
+
+    <section class="root-section" id="structure-note">
+      <h2>نکته ساختاری</h2>
+      <p>از نظر ساختاری، قیدهای زمانی در این ریشه بسیار مهم‌اند: «إلى حين»، «قليلا»، «إلى أجل مسمى»، «سنين»، و «حتى حين». این قیدها نشان می‌دهند که متاع معمولاً در قرآن با زمان محدود همراه است. حتی وقتی متاع خوب است، باز هم مطلق و ابدی نیست.</p>
+    </section>
+
+    <section class="root-section" id="nearby-roots">
+      <h2>تفکیک از واژه‌های نزدیک</h2>
+      <p><strong class="arabic-large">م ت ع</strong> با چند ریشه نزدیک فرق دارد. <a href="{{ '/quran-terminology/fa/roots/r-z-q/' | relative_url }}">ر ز ق</a> به رسانده‌شدن روزی و سهم زیست اشاره دارد؛ متاع به بهره‌بردن از چیزی که در اختیار قرار گرفته است. <a href="{{ '/quran-terminology/fa/roots/n-ayn-m/' | relative_url }}">ن ع م</a> عطای خوشایند و بخشش است؛ متاع استفاده و برخورداری از آن عطا در زمان محدود است. <a href="{{ '/quran-terminology/fa/roots/z-y-n/' | relative_url }}">ز ي ن</a> به آرایش و جلوه ظاهری مربوط است؛ متاع می‌تواند زینت داشته باشد، اما اصل آن بهره‌مندی و استفاده است. <a href="{{ '/quran-terminology/fa/roots/gh-n-m/' | relative_url }}">غ ن م</a> به چیزی مربوط است که در نتیجه جنگ یا دست‌یابی خاص به دست می‌آید؛ متاع گسترده‌تر است و هر ابزار یا بهره زمان‌مند را شامل می‌شود. <a href="{{ '/quran-terminology/fa/roots/m-w-l/' | relative_url }}">م و ل</a> دارایی است؛ متاع استفاده‌پذیری آن دارایی در مسیر زندگی است. <a href="{{ '/quran-terminology/fa/roots/n-f-ayn/' | relative_url }}">ن ف ع</a> به سود رساندن اشاره دارد؛ متاع ممکن است نفع داشته باشد، اما موقتی بودن و مصرف‌شدن در آن پررنگ‌تر است.</p>
+    </section>
+
+    <section class="root-section" id="translation-method">
+      <h2>پیشنهادهای ترجمه در فرقان</h2>
+      <p>برای ترجمه در فرقان، متاع را نباید همیشه «لذت» ترجمه کرد. بسته به سیاق، می‌توان از «بهره»، «برخورداری»، «بهره‌مندی»، «توشه»، «وسایل»، «ابزار»، «کالا»، «بهره موقت»، یا «توشه حمایتی» استفاده کرد. متاع الدنيا بهتر است «بهره زندگی دنیا» یا «برخورداری گذرای دنیا» باشد. متاع الغرور را می‌توان «بهره فریبنده» آورد. متاعا حسنا یعنی «بهره‌ای نیکو» یا «برخورداری نیکو». متاعا بالمعروف در آیات طلاق بهتر است «بهره‌ای شایسته»، «توشه‌ای به معروف»، یا «حمایت شایسته» ترجمه شود. أمتعة در سیاق جنگ و سفر «وسایل» یا «بار و ابزار» است.</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>جمع‌بندی زبانی</h2>
+      <p>جمع‌بندی زبانی: ریشه <strong class="arabic-large">م ت ع</strong> بر بهره‌مندی، استفاده، برخورداری زمان‌دار، و داشتن ابزار یا امکان مصرف برای مدتی دلالت دارد. تصویر مادی آن توشه و وسیله مسافر است؛ چیزی که در راه از آن استفاده می‌شود، اما مقصد نهایی نیست. در قرآن، این ریشه از متاع زمین پس از هبوط تا متاع دنیا، از متاع حسن تا متاع غرور، از حمایت مالی در طلاق تا وسایل سفر و جنگ، و از استمتاع تا تمتع حج گسترش می‌یابد. فرق آن با رزق این است که رزق خود روزی و رسانده‌شدن آن است، اما متاع بهره‌بردن زمان‌مند از چیزی است که در اختیار قرار گرفته است.</p>
+    </section>
+  </div>
+</div>
