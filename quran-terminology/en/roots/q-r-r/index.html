@@ -1,0 +1,469 @@
+---
+layout: default
+title: The Qur’anic Root Q R R
+permalink: /quran-terminology/en/roots/q-r-r/
+---
+
+<style>
+  .root-study-page .arabic-large {
+    font-size: 1.12em;
+    line-height: 2.15;
+  }
+
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark-theme .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-frame {
+    background: radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%), var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    color: var(--root-text);
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent 82%), var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 0.85rem;
+  }
+
+  .morph-card {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem;
+    background: var(--root-section);
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    color: var(--root-muted);
+    font-size: 0.92rem;
+    font-weight: 700;
+  }
+
+  .morph-form {
+    margin-top: 0.7rem;
+    font-weight: 800;
+    color: var(--root-accent-deep);
+  }
+
+  .morph-note {
+    margin-bottom: 0;
+    color: var(--root-muted);
+  }
+
+  .translit {
+    font-size: 0.92em;
+    color: var(--root-muted);
+    font-weight: 650;
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-right: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0 0.6rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent), var(--root-panel);
+    color: var(--root-text);
+  }
+
+  .translation {
+    color: var(--root-muted);
+    font-weight: 650;
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page {
+      padding: 2rem 1rem;
+    }
+
+    .root-frame {
+      padding: 1.25rem;
+      border-radius: 19px;
+    }
+
+    .root-section,
+    .root-forms-card,
+    .root-toc {
+      padding: 1rem;
+    }
+
+    .root-toc ol {
+      columns: 1;
+    }
+  }
+</style>
+
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">Qur’anic Root</div>
+      <h1>The Qur’anic Root Q R R</h1>
+      <p class="root-subtitle">Settling, becoming stable, finding rest in a proper place, and the calming of restlessness.</p>
+    </section>
+
+    <section class="root-forms-card" id="forms-covered">
+      <h2>Important Forms from This Root</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#root-meaning">
+          <div class="morph-card-header">
+            <div class="morph-type">Root</div>
+            <div class="morph-used">Used in the Qur’an: Yes</div>
+          </div>
+          <div class="morph-form arabic-large">ق ر ر <span class="translit">(q r r)</span></div>
+          <p class="morph-note">Stability after movement, calm after anxiety, and finding a fitting place of settlement.</p>
+        </a>
+
+        <a class="morph-card" href="#important-forms">
+          <div class="morph-card-header">
+            <div class="morph-type">Settlement and Stability</div>
+            <div class="morph-used">Central Forms</div>
+          </div>
+          <div class="morph-form arabic-large">قَرَار، مُسْتَقَرّ، اسْتَقَرَّ <span class="translit">(qarār, mustaqarr, istaqarra)</span></div>
+          <p class="morph-note">A fixed place, a place of rest, a destination of settlement, and becoming settled after transfer.</p>
+        </a>
+
+        <a class="morph-card" href="#coolness-eye">
+          <div class="morph-card-header">
+            <div class="morph-type">Rest of the Eye</div>
+            <div class="morph-used">Qur’anic Expression</div>
+          </div>
+          <div class="morph-form arabic-large">قُرَّة، تَقَرَّ، قَرِّي عَيْنًا <span class="translit">(qurrah, taqarra, qarrī ʿaynan)</span></div>
+          <p class="morph-note">The eye and heart becoming calm after fear, grief, waiting, or inner heat.</p>
+        </a>
+
+        <a class="morph-card" href="#acknowledgment">
+          <div class="morph-card-header">
+            <div class="morph-type">Acknowledgment</div>
+            <div class="morph-used">Acceptance and Fixing</div>
+          </div>
+          <div class="morph-form arabic-large">أَقَرَّ، أَقْرَرْتُمْ، أَقْرَرْنَا <span class="translit">(aqarra, aqrartum, aqrarnā)</span></div>
+          <p class="morph-note">Accepting, confirming, and standing firmly upon a covenant or truth.</p>
+        </a>
+      </div>
+    </section>
+
+    <nav class="root-toc" aria-label="Sections of this root study">
+      <h2>Usage Map of This Root</h2>
+      <ol>
+        <li><a href="#scope-note">Scope of This Entry</a></li>
+        <li><a href="#important-forms">Important Forms from This Root</a></li>
+        <li><a href="#root-meaning">Central Meaning</a></li>
+        <li><a href="#material-image">Material Image of the Root</a></li>
+        <li><a href="#classical-usage">Classical Arabic Note</a></li>
+        <li><a href="#earth-as-qarar">The Earth as Qarār</a></li>
+        <li><a href="#womb-qarar">The Secure Resting Place of the Womb</a></li>
+        <li><a href="#human-mustaqarr">The Human Mustaqarr on Earth</a></li>
+        <li><a href="#mustaqarr-mustawda">Mustaqarr and Mustawdaʿ</a></li>
+        <li><a href="#final-abode">The Final Place of Settlement</a></li>
+        <li><a href="#coolness-eye">The Eye Becoming Calm</a></li>
+        <li><a href="#qurrat-a-yun">Qurrat Aʿyun</a></li>
+        <li><a href="#acknowledgment">Acknowledgment and Fixing the Covenant</a></li>
+        <li><a href="#settled-object">A Thing Settling in Place</a></li>
+        <li><a href="#qawarir">Qawārīr</a></li>
+        <li><a href="#usage-distinctions">Distinguishing the Uses</a></li>
+        <li><a href="#structure-note">Structural Note</a></li>
+        <li><a href="#nearby-roots">Difference from Nearby Roots</a></li>
+        <li><a href="#translation-method">Forqan Translation Suggestions</a></li>
+        <li><a href="#summary">Linguistic Summary</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="scope-note">
+      <h2>Scope of This Entry</h2>
+      <p>The root <strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span> originally points to settling, becoming stable, resting in a place, and the subsiding of restlessness. This root is not merely “remaining”; it is a kind of remaining in which movement, anxiety, inner heat, or dispersal settles down, and something comes to rest in its proper place.</p>
+    </section>
+
+    <section class="root-section" id="important-forms">
+      <h2>Important Forms from This Root</h2>
+      <p>Important Qur’anic forms of this root include <strong class="arabic-large">قَرَار</strong> <span class="translit">(qarār)</span>, <strong class="arabic-large">قُرَّة</strong> <span class="translit">(qurrah)</span>, <strong class="arabic-large">أَقَرَّ</strong> <span class="translit">(aqarra)</span>, <strong class="arabic-large">تَقَرَّ</strong> <span class="translit">(taqarra)</span>, <strong class="arabic-large">اسْتَقَرَّ</strong> <span class="translit">(istaqarra)</span>, <strong class="arabic-large">مُسْتَقَرّ</strong> <span class="translit">(mustaqarr)</span>, and <strong class="arabic-large">قَوَارِير</strong> <span class="translit">(qawārīr)</span>. <strong class="arabic-large">قَرَار</strong> <span class="translit">(qarār)</span> refers to a fixed place, a place of rest, or a base of settlement. <strong class="arabic-large">مُسْتَقَرّ</strong> <span class="translit">(mustaqarr)</span> is a place or state in which something settles or reaches the end of its settling. <strong class="arabic-large">أَقَرَّ</strong> <span class="translit">(aqarra)</span> is close to confirming, acknowledging, accepting, and standing upon a covenant or truth. <strong class="arabic-large">تَقَرَّ</strong> <span class="translit">(taqarra)</span> in the expression <strong class="arabic-large">تَقَرَّ عَيْن</strong> <span class="translit">(taqarra ʿayn)</span> is connected with the eye becoming calm and grief and anxiety subsiding. <strong class="arabic-large">قُرَّة عَيْن</strong> <span class="translit">(qurrat ʿayn)</span> is something by which the eye and heart become calm when seeing it. <strong class="arabic-large">قَوَارِير</strong> <span class="translit">(qawārīr)</span> in the Qur’an refers to glass or crystal; it may be understood from the side of a vessel that holds liquid within itself and visibly displays a state of containment, but this layer must be kept carefully distinct from the primary meaning of settlement.</p>
+    </section>
+
+    <section class="root-section" id="root-meaning">
+      <h2>Central Meaning</h2>
+      <p>The linguistic core of <strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span> is stability after movement and calm after anxiety. Something that has <strong class="arabic-large">قَرَار</strong> <span class="translit">(qarār)</span> has come out of wandering and found a place. When the eye settles, it no longer trembles with worry and searching. When the earth is <strong class="arabic-large">قَرَار</strong> <span class="translit">(qarār)</span>, it becomes the bed of dwelling and life. When the womb is a <strong class="arabic-large">قَرَار مَّكِين</strong> <span class="translit">(qarār makīn)</span>, it is a secure and firm place for holding the drop.</p>
+    </section>
+
+    <section class="root-section" id="material-image">
+      <h2>Material Image of the Root</h2>
+      <p>The material image of this root can be seen in water that becomes calm after boiling and waves; in a body that sits into its place after motion; in land that becomes a place of settlement beneath the human being’s feet; or in an eye that, after fear and tears, becomes calm by seeing what gives it security. From here the connection of <strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span> with coolness can also be understood. In Arabic, <strong class="arabic-large">قُرَّة عَيْن</strong> <span class="translit">(qurrat ʿayn)</span> is not merely surface happiness; it is a cool calm that settles into the eye after the heat of grief and the inflammation of anxiety.</p>
+    </section>
+
+    <section class="root-section" id="classical-usage">
+      <h2>Classical Arabic Note</h2>
+      <p>In classical Arabic usage, <strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span> is connected with settlement, stillness, stability, coolness, calm, and acknowledgment. Acknowledgment can also be understood from this same field: accepting something and becoming firm upon it; bringing a statement out of denial, hesitation, or evasion and placing it in the position of admission and establishedness. In the final version, if a reliable witness from pre-Islamic poetry or old Arabic usage is found, it can be added.</p>
+    </section>
+
+    <section class="root-section" id="earth-as-qarar">
+      <h2>The Earth as <span class="translit">Qarār</span></h2>
+      <p>One important Qur’anic use is the earth as <strong class="arabic-large">قَرَار</strong> <span class="translit">(qarār)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أَمَّن جَعَلَ الْأَرْضَ قَرَارًا وَجَعَلَ خِلَالَهَا أَنْهَارًا</blockquote>
+      <p class="translit">(amman jaʿala al-arḍa qarāran wa-jaʿala khilālahā anhārā)</p>
+      <p class="translation">Is He not the One who made the earth a place of settlement and placed rivers through it? <a class="quran-ref-link" href="{{ '/quran-reflection/en/027-an-naml/#ayah-061' | relative_url }}">An-Naml 27:61</a></p>
+      <p>In this ayah, the earth is <strong class="arabic-large">قَرَار</strong> <span class="translit">(qarār)</span>: a bed upon which life can settle, movements can find order, and the human being can dwell and live. The earth is not only matter beneath the feet; it is the place of life’s settlement.</p>
+
+      <p>The same meaning appears in another ayah:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اللَّهُ الَّذِي جَعَلَ لَكُمُ الْأَرْضَ قَرَارًا وَالسَّمَاءَ بِنَاءً</blockquote>
+      <p class="translit">(Allāhu alladhī jaʿala lakumu al-arḍa qarāran wa-al-samāʾa bināʾā)</p>
+      <p class="translation">The God is the One who made the earth for you a place of settlement and the sky a structure. <a class="quran-ref-link" href="{{ '/quran-reflection/en/040-ghafir/#ayah-064' | relative_url }}">Ghafir 40:64</a></p>
+      <p>Here the earth’s <strong class="arabic-large">قَرَار</strong> <span class="translit">(qarār)</span> stands opposite the sky’s building. The earth is the place of settlement, and the sky is like the structure above. So <strong class="arabic-large">قَرَار</strong> <span class="translit">(qarār)</span> is the earth’s quality for dwelling and becoming calm, not merely another name for the earth itself.</p>
+    </section>
+
+    <section class="root-section" id="womb-qarar">
+      <h2>The Secure Resting Place of the Womb</h2>
+      <p>The second field is settlement in the womb:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">ثُمَّ جَعَلْنَاهُ نُطْفَةً فِي قَرَارٍ مَّكِينٍ</blockquote>
+      <p class="translit">(thumma jaʿalnāhu nuṭfatan fī qarārin makīn)</p>
+      <p class="translation">Then We made him a drop in a secure, firm resting place. <a class="quran-ref-link" href="{{ '/quran-reflection/en/023-al-muminun/#ayah-013' | relative_url }}">Al-Mu’minun 23:13</a></p>
+      <p>And also:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَجَعَلْنَاهُ فِي قَرَارٍ مَّكِينٍ</blockquote>
+      <p class="translit">(fa-jaʿalnāhu fī qarārin makīn)</p>
+      <p class="translation">So We placed it in a secure, firm resting place. <a class="quran-ref-link" href="{{ '/quran-reflection/en/077-al-mursalat/#ayah-021' | relative_url }}">Al-Mursalat 77:21</a></p>
+      <p>In these ayat, <strong class="arabic-large">قَرَار مَّكِين</strong> <span class="translit">(qarār makīn)</span> points to a secure, covered, stable, and capable place for holding and growth. The drop is fluid and vulnerable; the secure resting place is where this slippery fluid is preserved and given the possibility of growth. Being <strong class="arabic-large">مَّكِين</strong> <span class="translit">(makīn)</span> means this resting place is not merely an empty container; it is a strong and fitting place for holding and nurturing.</p>
+    </section>
+
+    <section class="root-section" id="human-mustaqarr">
+      <h2>The Human <span class="translit">Mustaqarr</span> on Earth</h2>
+      <p>The third field is the human being’s <strong class="arabic-large">مُسْتَقَرّ</strong> <span class="translit">(mustaqarr)</span> on earth:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ</blockquote>
+      <p class="translit">(wa-lakum fī al-arḍi mustaqarrun wa-matāʿun ilā ḥīn)</p>
+      <p class="translation">And for you there will be on the earth a place of settlement and provision for a time. <a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-036' | relative_url }}">Al-Baqarah 2:36</a></p>
+      <p>In this ayah, <strong class="arabic-large">مُسْتَقَرّ</strong> <span class="translit">(mustaqarr)</span> comes together with <strong class="arabic-large">مَتَاعٌ إِلَىٰ حِينٍ</strong> <span class="translit">(matāʿun ilā ḥīn)</span>, provision for a time. Earth is the human being’s place of settlement, but this settlement is not permanent. The human being settles on earth, lives, benefits, and is tested, but this settlement is limited until a time.</p>
+
+      <p>The same meaning is repeated in Al-A’raf:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ</blockquote>
+      <p class="translit">(wa-lakum fī al-arḍi mustaqarrun wa-matāʿun ilā ḥīn)</p>
+      <p class="translation">And for you there will be on the earth a place of settlement and provision for a time. <a class="quran-ref-link" href="{{ '/quran-reflection/en/007-al-araf/#ayah-024' | relative_url }}">Al-A’raf 7:24</a></p>
+      <p>This ayah shows that after the descent, the human being becomes settled on earth. Descent is the transfer into the earthly stage; <strong class="arabic-large">مُسْتَقَرّ</strong> <span class="translit">(mustaqarr)</span> is the temporary place of life within that stage.</p>
+    </section>
+
+    <section class="root-section" id="mustaqarr-mustawda">
+      <h2><span class="translit">Mustaqarr</span> and <span class="translit">Mustawdaʿ</span></h2>
+      <p>The fourth field is <strong class="arabic-large">مُسْتَقَرّ</strong> <span class="translit">(mustaqarr)</span> in contrast with <strong class="arabic-large">مُسْتَوْدَع</strong> <span class="translit">(mustawdaʿ)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَهُوَ الَّذِي أَنشَأَكُم مِّن نَّفْسٍ وَاحِدَةٍ فَمُسْتَقَرٌّ وَمُسْتَوْدَعٌ</blockquote>
+      <p class="translit">(wa-huwa alladhī anshaʾakum min nafsin wāḥidatin fa-mustaqarrun wa-mustawdaʿ)</p>
+      <p class="translation">And He is the One who brought you forth from a single self; so there is a place of settlement and a place of deposit. <a class="quran-ref-link" href="{{ '/quran-reflection/en/006-al-anam/#ayah-098' | relative_url }}">Al-An’am 6:98</a></p>
+      <p><strong class="arabic-large">مُسْتَقَرّ</strong> <span class="translit">(mustaqarr)</span> is connected with stability and settlement; <strong class="arabic-large">مُسْتَوْدَع</strong> <span class="translit">(mustawdaʿ)</span> is connected with being deposited and temporarily held. The exact meaning of these two in the ayah requires separate study, but at the root level, <strong class="arabic-large">مُسْتَقَرّ</strong> <span class="translit">(mustaqarr)</span> is a place of settlement and <strong class="arabic-large">مُسْتَوْدَع</strong> <span class="translit">(mustawdaʿ)</span> is a place of deposit.</p>
+    </section>
+
+    <section class="root-section" id="final-abode">
+      <h2>The Final Place of Settlement</h2>
+      <p>The fifth field is the final place of settlement:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِلَىٰ رَبِّكَ يَوْمَئِذٍ الْمُسْتَقَرُّ</blockquote>
+      <p class="translit">(ilā rabbika yawmaʾidhin al-mustaqarr)</p>
+      <p class="translation">On that Day, the place of settlement is toward your Lord. <a class="quran-ref-link" href="{{ '/quran-reflection/en/075-al-qiyamah/#ayah-012' | relative_url }}">Al-Qiyamah 75:12</a></p>
+      <p>In this ayah, <strong class="arabic-large">الْمُسْتَقَرّ</strong> <span class="translit">(al-mustaqarr)</span> is the end of fleeing and movement. After all going, running, denial, and restlessness, the human being reaches the final settlement toward his Lord.</p>
+
+      <p>The same field appears in another ayah:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِنَّ الْآخِرَةَ هِيَ دَارُ الْقَرَارِ</blockquote>
+      <p class="translit">(wa-inna al-ākhirata hiya dāru al-qarār)</p>
+      <p class="translation">And indeed, the Hereafter is the Abode of Settlement. <a class="quran-ref-link" href="{{ '/quran-reflection/en/040-ghafir/#ayah-039' | relative_url }}">Ghafir 40:39</a></p>
+      <p>The world is a place of movement, testing, change, and passing. The Hereafter is <strong class="arabic-large">دَارُ الْقَرَار</strong> <span class="translit">(dār al-qarār)</span>, the abode of final stability and lasting result. This ayah shows that <strong class="arabic-large">قَرَار</strong> <span class="translit">(qarār)</span> in the Qur’an can also express final destiny, not only a material dwelling place.</p>
+    </section>
+
+    <section class="root-section" id="coolness-eye">
+      <h2>The Eye Becoming Calm</h2>
+      <p>The sixth field is the eye becoming calm:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَكُلِي وَاشْرَبِي وَقَرِّي عَيْنًا</blockquote>
+      <p class="translit">(fa-kulī wa-ishrabī wa-qarrī ʿaynan)</p>
+      <p class="translation">So eat and drink, and let your eye become calm. <a class="quran-ref-link" href="{{ '/quran-reflection/en/019-maryam/#ayah-026' | relative_url }}">Maryam 19:26</a></p>
+      <p>In this ayah, <strong class="arabic-large">قَرِّي عَيْنًا</strong> <span class="translit">(qarrī ʿaynan)</span> means that Maryam’s eye should become calm from anxiety, pressure, and fear. This expression is not merely “be happy”; it means the inner inflammation should subside and the gaze should be rescued from restlessness.</p>
+
+      <p>About the mother of Moses, it also says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَرَجَعْنَاكَ إِلَىٰ أُمِّكَ كَيْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ</blockquote>
+      <p class="translit">(fa-rajaʿnāka ilā ummika kay taqarra ʿaynuhā wa-lā taḥzan)</p>
+      <p class="translation">So We returned you to your mother so that her eye might become calm and she would not grieve. <a class="quran-ref-link" href="{{ '/quran-reflection/en/020-ta-ha/#ayah-040' | relative_url }}">Ta-Ha 20:40</a></p>
+      <p>And also:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَرَدَدْنَاهُ إِلَىٰ أُمِّهِ كَيْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ</blockquote>
+      <p class="translit">(fa-radadnāhu ilā ummihi kay taqarra ʿaynuhā wa-lā taḥzan)</p>
+      <p class="translation">So We returned him to his mother so that her eye might become calm and she would not grieve. <a class="quran-ref-link" href="{{ '/quran-reflection/en/028-al-qasas/#ayah-013' | relative_url }}">Al-Qasas 28:13</a></p>
+      <p>In these two ayat, the settling of the eye is placed opposite grief. The mother’s eye is restless in worry and sorrow; with the child’s return, her eye becomes calm. <strong class="arabic-large">قُرَّة عَيْن</strong> <span class="translit">(qurrat ʿayn)</span> here is calm after fear and waiting.</p>
+    </section>
+
+    <section class="root-section" id="qurrat-a-yun">
+      <h2><span class="translit">Qurrat Aʿyun</span></h2>
+      <p>The seventh field is <strong class="arabic-large">قُرَّةَ أَعْيُن</strong> <span class="translit">(qurrata aʿyun)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ</blockquote>
+      <p class="translit">(rabbanā hab lanā min azwājinā wa-dhurriyyātinā qurrata aʿyun)</p>
+      <p class="translation">Our Lord, grant us from our spouses and our descendants a calmness/brightness of eyes. <a class="quran-ref-link" href="{{ '/quran-reflection/en/025-al-furqan/#ayah-074' | relative_url }}">Al-Furqan 25:74</a></p>
+      <p>In this supplication, <strong class="arabic-large">قُرَّةَ أَعْيُن</strong> <span class="translit">(qurrata aʿyun)</span> points to a family through whom the eye and heart become calm. This is not merely family enjoyment; it is seeing righteousness, purity, growth, and calm in the closest human bonds.</p>
+
+      <p>In another ayah, Pharaoh’s wife says about Moses:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قُرَّتُ عَيْنٍ لِّي وَلَكَ</blockquote>
+      <p class="translit">(qurratu ʿaynin lī wa-lak)</p>
+      <p class="translation">He is a calmness/brightness of eye for me and for you. <a class="quran-ref-link" href="{{ '/quran-reflection/en/028-al-qasas/#ayah-009' | relative_url }}">Al-Qasas 28:9</a></p>
+      <p>Here <strong class="arabic-large">قُرَّة عَيْن</strong> <span class="translit">(qurrat ʿayn)</span> is said about a child whose sight calms the heart and awakens affection, even though the future of the story shows that this same child carries a meaning beyond the desire of Pharaoh’s household.</p>
+    </section>
+
+    <section class="root-section" id="acknowledgment">
+      <h2>Acknowledgment and Fixing the Covenant</h2>
+      <p>The eighth field is acknowledgment and the fixing of a covenant:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">ثُمَّ أَقْرَرْتُمْ وَأَنتُمْ تَشْهَدُونَ</blockquote>
+      <p class="translit">(thumma aqrartum wa-antum tashhadūn)</p>
+      <p class="translation">Then you acknowledged, while you yourselves were witnessing. <a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-084' | relative_url }}">Al-Baqarah 2:84</a></p>
+      <p>And in the ayah of the covenant of the prophets:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ أَأَقْرَرْتُمْ وَأَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِي قَالُوا أَقْرَرْنَا</blockquote>
+      <p class="translit">(qāla a-aqrartum wa-akhadhtum ʿalā dhālikum iṣrī qālū aqrarnā)</p>
+      <p class="translation">He said: Have you acknowledged and taken My heavy covenant upon that? They said: We have acknowledged. <a class="quran-ref-link" href="{{ '/quran-reflection/en/003-al-imran/#ayah-081' | relative_url }}">Al-Imran 3:81</a></p>
+      <p><strong class="arabic-large">أَقَرَّ</strong> <span class="translit">(aqarra)</span> here means accepting, confirming, and standing upon it. Acknowledgment is speech that has come out of denial and instability and has been placed in the position of establishedness.</p>
+    </section>
+
+    <section class="root-section" id="settled-object">
+      <h2>A Thing Settling in Place</h2>
+      <p>The ninth field is something becoming settled in a place:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَلَمَّا رَآهُ مُسْتَقِرًّا عِندَهُ قَالَ هَٰذَا مِن فَضْلِ رَبِّي</blockquote>
+      <p class="translit">(fa-lammā raʾāhu mustaqirran ʿindahu qāla hādhā min faḍli rabbī)</p>
+      <p class="translation">Then when he saw it settled before him, he said: This is from the bounty of my Lord. <a class="quran-ref-link" href="{{ '/quran-reflection/en/027-an-naml/#ayah-040' | relative_url }}">An-Naml 27:40</a></p>
+      <p>In this ayah, <strong class="arabic-large">مُسْتَقِرًّا</strong> <span class="translit">(mustaqirran)</span> means placed and settled before him. The object has moved from a state of transfer into a state of presence and settlement.</p>
+    </section>
+
+    <section class="root-section" id="qawarir">
+      <h2><span class="translit">Qawārīr</span></h2>
+      <p>The tenth field is <strong class="arabic-large">قَوَارِير</strong> <span class="translit">(qawārīr)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَوَارِيرَ مِن فِضَّةٍ قَدَّرُوهَا تَقْدِيرًا</blockquote>
+      <p class="translit">(qawārīra min fiḍḍatin qaddarūhā taqdīrā)</p>
+      <p class="translation">Crystal vessels of silver, which they have measured with precise measure. <a class="quran-ref-link" href="{{ '/quran-reflection/en/076-al-insan/#ayah-016' | relative_url }}">Al-Insan 76:16</a></p>
+      <p><strong class="arabic-large">قَوَارِير</strong> <span class="translit">(qawārīr)</span> in the Qur’an refers to transparent crystal cups or vessels. Its connection with <strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span> can be understood from the side of being a vessel: something that holds liquid within itself, brings it out of dispersal, and through its transparency reveals the state inside. Yet in translation, <strong class="arabic-large">قَوَارِير</strong> <span class="translit">(qawārīr)</span> should remain “crystal,” “glass,” or “crystal vessels,” not have the meaning of settlement directly substituted for it.</p>
+    </section>
+
+    <section class="root-section" id="usage-distinctions">
+      <h2>Distinguishing the Uses</h2>
+      <p>The uses of <strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span> must be distinguished. The earth as <strong class="arabic-large">قَرَار</strong> <span class="translit">(qarār)</span> means the bed of life and dwelling. <strong class="arabic-large">قَرَار مَّكِين</strong> <span class="translit">(qarār makīn)</span> means a secure, firm, and holding place. The earth as <strong class="arabic-large">مُسْتَقَرّ</strong> <span class="translit">(mustaqarr)</span> means the human being’s temporary place of settlement in the world. <strong class="arabic-large">دَارُ الْقَرَار</strong> <span class="translit">(dār al-qarār)</span> means the abode of final stability. <strong class="arabic-large">قُرَّة عَيْن</strong> <span class="translit">(qurrat ʿayn)</span> means the calm of the eye and heart after anxiety or waiting. Acknowledgment means confirmation and acceptance. Settling means coming to rest after transfer. <strong class="arabic-large">قَوَارِير</strong> <span class="translit">(qawārīr)</span> are transparent crystal vessels; at the root level they come near the field of holding and placing, but they have their own independent meaning.</p>
+    </section>
+
+    <section class="root-section" id="structure-note">
+      <h2>Structural Note</h2>
+      <p>Structurally, genitive constructions and compounds are important. <strong class="arabic-large">قَرَار مَّكِين</strong> <span class="translit">(qarār makīn)</span> is a firm and capable resting place for holding. <strong class="arabic-large">مُسْتَقَرّ وَمَتَاعٌ إِلَىٰ حِينٍ</strong> <span class="translit">(mustaqarr wa-matāʿun ilā ḥīn)</span> shows that worldly settlement is temporary. <strong class="arabic-large">دَارُ الْقَرَار</strong> <span class="translit">(dār al-qarār)</span> is the abode of final stability. <strong class="arabic-large">قُرَّة عَيْن</strong> <span class="translit">(qurrat ʿayn)</span> is a special expression that conveys the calm of the eye and heart together. <strong class="arabic-large">أَقْرَرْتُمْ</strong> <span class="translit">(aqrartum)</span> in the context of covenant means that you accepted and became firm upon it.</p>
+    </section>
+
+    <section class="root-section" id="nearby-roots">
+      <h2>Difference from Nearby Roots</h2>
+      <p><strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span> differs from several nearby roots. <a href="{{ '/quran-terminology/en/roots/th-b-t/' | relative_url }}">TH B T</a> focuses on being firm and established; <strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span>, in addition to stability, also carries calming and finding a place. <a href="{{ '/quran-terminology/en/roots/s-k-n/' | relative_url }}">S K N</a> points to stillness, calm, and the subsiding of movement; <strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span> emphasizes more strongly settling into a place and the end of anxiety. <a href="{{ '/quran-terminology/en/roots/q-ayn-d/' | relative_url }}">Q AYN D (Q ʿ D)</a> is sitting, but <strong class="arabic-large">قَرَار</strong> <span class="translit">(qarār)</span> is not necessarily bodily sitting; it can be a place of settlement, a destiny, or the calm of the eye. <a href="{{ '/quran-terminology/en/roots/a-w-y/' | relative_url }}">A W Y</a> is close to seeking refuge and taking place in a shelter, while <strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span> points more to stability and calm after taking place. <a href="{{ '/quran-terminology/en/roots/m-k-n/' | relative_url }}">M K N</a> is related to capacity, enabling, and firm establishment; <strong class="arabic-large">قَرَار مَّكِين</strong> <span class="translit">(qarār makīn)</span> combines these two fields: a fixed and capable place.</p>
+    </section>
+
+    <section class="root-section" id="translation-method">
+      <h2>Forqan Translation Suggestions</h2>
+      <p>For translation in Forqan, <strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span> must be translated according to context. <strong class="arabic-large">قَرَار</strong> <span class="translit">(qarār)</span> can be “place of settlement,” “fixed place,” “calm bed,” or “place of settling.” <strong class="arabic-large">مُسْتَقَرّ</strong> <span class="translit">(mustaqarr)</span> can be “place of settlement,” “place of settling,” “destination of settlement,” or “place of becoming calm.” <strong class="arabic-large">دَارُ الْقَرَار</strong> <span class="translit">(dār al-qarār)</span> is better rendered as “the Abode of Settlement” or “the Abode of Final Stability.” <strong class="arabic-large">قُرَّة عَيْن</strong> <span class="translit">(qurrat ʿayn)</span> should not be translated only as “happiness”; it is better rendered as “calmness of the eye,” “brightness of the eye,” or “that which lets the eye and heart become calm.” Acknowledgment is also “accepting and becoming firm upon it,” not merely saying a sentence. <strong class="arabic-large">قَوَارِير</strong> <span class="translit">(qawārīr)</span> in translation should remain “crystal,” “glass,” or “crystal vessels.”</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>Linguistic Summary</h2>
+      <p>Linguistically, the root <strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span> points to settling, becoming stable, becoming calm, the cooling of inner heat, and finding a place. Its material image is something that, after motion, boiling, or anxiety, sits into its place and becomes calm. In the Qur’an, this root extends from the earth as a place of settlement to the secure resting place of the womb; from the human being’s temporary <strong class="arabic-large">مُسْتَقَرّ</strong> <span class="translit">(mustaqarr)</span> in the world to the <strong class="arabic-large">دَارُ الْقَرَار</strong> <span class="translit">(dār al-qarār)</span> of the Hereafter; from acknowledgment in covenant to <strong class="arabic-large">قُرَّة عَيْن</strong> <span class="translit">(qurrat ʿayn)</span> and the calming of the eye and heart; and from a thing settling in place to transparent crystal vessels. Its difference from stability is that stability mainly shows firmness, while <strong class="arabic-large">ق ر ر</strong> <span class="translit">(q r r)</span> also carries calm, coolness, and finding a place after anxiety.</p>
+    </section>
+  </div>
+</div>
