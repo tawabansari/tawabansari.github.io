@@ -1,0 +1,503 @@
+---
+layout: default
+title: ریشه قرآنی ب ي ن
+permalink: /quran-terminology/fa/roots/b-y-n/
+---
+
+<style>
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark-theme .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page,
+  .theme-dark .root-study-page,
+  .forqan-theme-dark .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-study-page * { box-sizing: border-box; }
+
+  .root-study-page.forqan-page-rtl,
+  .root-study-page.forqan-page-rtl h1,
+  .root-study-page.forqan-page-rtl h2,
+  .root-study-page.forqan-page-rtl h3,
+  .root-study-page.forqan-page-rtl p,
+  .root-study-page.forqan-page-rtl li {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .root-frame {
+    background:
+      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
+      var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    color: var(--root-text);
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
+      var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-forms-card h2,
+  .root-toc h2 { margin-top: 0; }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .morph-card {
+    display: block;
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem;
+    background: var(--root-section);
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    color: var(--root-muted);
+    font-size: 0.88rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .morph-form {
+    font-weight: 800;
+    font-size: 1.18rem;
+    color: var(--root-accent-deep);
+    margin-bottom: 0.4rem;
+  }
+
+  .morph-note {
+    color: var(--root-muted);
+    margin-bottom: 0;
+    font-size: 0.95rem;
+  }
+
+  .translit {
+    color: var(--root-muted);
+    font-weight: 500;
+    font-size: 0.92em;
+  }
+
+  .root-note {
+    border-right: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+    margin: 1.25rem 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-note {
+    border-right: 0;
+    border-left: 3px solid var(--root-accent);
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol { padding-left: 0; }
+
+  .root-toc li {
+    margin: 0.28rem 0;
+    break-inside: avoid;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
+  }
+
+  .root-study-page p { margin: 0.85rem 0; }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0 0.65rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent),
+      var(--root-panel);
+    color: var(--root-text);
+    unicode-bidi: isolate;
+  }
+
+  .root-study-page .translation {
+    text-align: center !important;
+    color: var(--root-muted);
+    margin-top: 0.45rem;
+  }
+
+  .root-study-page .verse-ref {
+    text-align: center !important;
+    color: var(--root-accent-deep);
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+
+  .root-study-page .arabic-large {
+    font-size: 1.12em;
+    line-height: 2.15;
+    direction: rtl;
+    unicode-bidi: isolate;
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page { padding: 2rem 1rem; }
+    .root-frame { padding: 1.25rem; border-radius: 19px; }
+    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
+    .root-toc ol { columns: 1; }
+    .morphology-grid { grid-template-columns: 1fr; }
+    .arabic-quote { font-size: 1.24rem; }
+  }
+</style>
+
+
+<div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">ریشه قرآنی</div>
+      <h1>ریشه قرآنی ب ي ن</h1>
+      <p class="root-subtitle">جدایی، میان‌داری، آشکار شدن مرزها، و روشن‌سازی معنا از راه تمایز</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>صورت‌های صرفی این ریشه</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#root-meaning"><div class="morph-card-header"><div class="morph-type">ریشه</div><div class="morph-used">معنای بنیادین</div></div><div class="morph-form">ب ي ن</div><p class="morph-note">جدا شدن، فاصله پیدا کردن، میان‌داری، و آشکار شدن مرز میان چیزها.</p></a>
+        <a class="morph-card" href="#forms"><div class="morph-card-header"><div class="morph-type">اسم و مصدر</div><div class="morph-used">روشن‌سازی</div></div><div class="morph-form">بين / بيان / بيّنة / بينات</div><p class="morph-note">میان، بیان، دلیل روشن، و نشانه‌های روشن که حق را از ابهام بیرون می‌آورند.</p></a>
+        <a class="morph-card" href="#messenger-clarification"><div class="morph-card-header"><div class="morph-type">باب تفعیل و تفعّل</div><div class="morph-used">روشن کردن و روشن شدن</div></div><div class="morph-form">يبيّن / تبيين / تبيّن / تبيان</div><p class="morph-note">روشن کردن مرز معنا، بررسی تا آشکار شدن حقیقت، و روشن‌سازی گسترده.</p></a>
+        <a class="morph-card" href="#quran-mubin"><div class="morph-card-header"><div class="morph-type">صفت</div><div class="morph-used">روشن و روشنگر</div></div><div class="morph-form">مبين / المبين</div><p class="morph-note">روشن، آشکار، روشنگر یا آشکارکننده، بسته به موصوف و سیاق.</p></a>
+      </div>
+    </section>
+
+    <p class="root-note">این مقاله درباره ریشه ب ي ن است؛ ریشه‌ای که در قرآن با جدایی مرزها، روشن شدن حجت، بیان وحی، کتاب مبین، بلاغ مبین و حق مبین پیوند دارد.</p>
+
+    <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
+      <h2>فهرست کاربردهای این ریشه</h2>
+      <ol>
+        <li><a href="#root-meaning">معنای بنیادین</a></li>
+        <li><a href="#forms">صورت‌های مهم قرآنی</a></li>
+        <li><a href="#core">هسته زبانی</a></li>
+        <li><a href="#material-image">تصویر مادی ریشه</a></li>
+        <li><a href="#classical-usage">کاربرد عربی کلاسیک</a></li>
+        <li><a href="#rushd-ghayy">جدایی رشد از غی</a></li>
+        <li><a href="#bayyinah">بیّنه</a></li>
+        <li><a href="#bayan-divine">بیان به عنوان روشن‌سازی الهی</a></li>
+        <li><a href="#messenger-clarification">تبیین رسول و تبیان کتاب</a></li>
+        <li><a href="#balagh-mubin">البلاغ المبين</a></li>
+        <li><a href="#quran-mubin">قرآن و کتاب مبین</a></li>
+        <li><a href="#arabic-lisan">لسان عربی مبین</a></li>
+        <li><a href="#imam-mubin">امام مبین</a></li>
+        <li><a href="#negative-mubin">مبین برای دشمنی و گمراهی</a></li>
+        <li><a href="#al-haqq-al-mubin">الحق المبين</a></li>
+        <li><a href="#distinctions">تفکیک کاربردها</a></li>
+        <li><a href="#structure">نکات ساختاری</a></li>
+        <li><a href="#near-roots">تفاوت با ریشه‌های نزدیک</a></li>
+        <li><a href="#translation-suggestions">پیشنهادهای ترجمه برای فرقان</a></li>
+        <li><a href="#summary">جمع‌بندی زبانی</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="root-meaning">
+      <h2>معنای بنیادین</h2>
+      <p>ریشه ب ي ن از ریشه‌های بسیار مهم قرآن است. معنای نخستین آن به جدا شدن، فاصله پیدا کردن، میان‌داری، آشکار شدن از راه جدایی، و روشن شدن مرز میان چیزها برمی‌گردد. در این ریشه، روشنی فقط تابیدن نور بر چیزی نیست؛ روشنی یعنی چیزی از آمیختگی و ابهام بیرون آید، مرزش با چیز دیگر معلوم شود، و دیگر با ضد خود اشتباه گرفته نشود.</p>
+      <p>پس ب ي ن دو لایه نزدیک دارد: یکی «میان» و فاصله میان دو چیز؛ دیگری «بیان» و آشکارسازی از راه جداسازی مرزها. از همین‌جا واژه‌هایی مانند بين، بيان، بيّنة، تبيين، تبيّن، تبيان و مبين ساخته می‌شوند.</p>
+    </section>
+
+    <section class="root-section" id="forms">
+      <h2>صورت‌های مهم قرآنی</h2>
+      <p>صورت‌های مهم این ریشه در قرآن شامل بين، بينكم، بيان، بيّنة، بينات، يبيّن، تبيين، تبيّن، تبيان، مبين و المبين است. بين به فاصله، میان، رابطه یا مرز میان چیزها اشاره دارد. بيان روشن‌سازی معناست. بيّنة دلیل، نشانه یا حجت روشن است. تبيين روشن کردن و باز کردن مرز معناست. تبيّن روشن شدن یا بررسی کردن تا حقیقت آشکار شود. تبيان صورت قوی‌تری از روشن‌سازی و مرزبخشی است. مبين می‌تواند «روشن»، «آشکار»، «روشنگر» یا «آشکارکننده» باشد، بسته به سیاق.</p>
+    </section>
+
+    <section class="root-section" id="core">
+      <h2>هسته زبانی</h2>
+      <p>هسته زبانی ب ي ن، جدا شدن همراه با آشکار شدن است. وقتی چیزی مبهم است، مرزهایش در هم آمیخته است. وقتی بيان رخ می‌دهد، چیزها از هم جدا می‌شوند: حق از باطل، رشد از غی، هدایت از گمراهی، وحی از گمان، و پیام روشن از سخن آشفته.</p>
+    </section>
+
+    <section class="root-section" id="material-image">
+      <h2>تصویر مادی ریشه</h2>
+      <p>تصویر مادی این ریشه، دو چیز است که از هم فاصله می‌گیرند و مرزشان معلوم می‌شود. تا وقتی دو رنگ، دو راه، دو صدا یا دو معنا با هم آمیخته‌اند، تشخیص دشوار است. اما وقتی فاصله و مرز پدید می‌آید، هر چیز جای خود را نشان می‌دهد. بيان نیز همین کار را در زبان و فهم انجام می‌دهد: معنا را از ابهام جدا می‌کند.</p>
+    </section>
+
+    <section class="root-section" id="classical-usage">
+      <h2>کاربرد عربی کلاسیک</h2>
+      <p>در کاربرد عربی کلاسیک، ب ي ن با فاصله، جدایی، میان بودن، آشکار شدن و روشن کردن پیوند دارد. از همین ریشه، هم معنای «میان» ساخته می‌شود و هم معنای «بیان». این پیوند بسیار مهم است: بیان یعنی روشن کردن از راه جدا کردن مرزها. در نسخه نهایی، اگر شاهد معتبر از شعر جاهلی یا کاربرد کهن عربی پیدا شود، می‌توان آن را افزود.</p>
+    </section>
+
+    <section class="root-section" id="rushd-ghayy">
+      <h2>جدایی رشد از غی</h2>
+      <p>یکی از کاربردهای بنیادین این ریشه در قرآن، جدایی رشد از غی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لَا إِكْرَاهَ فِي الدِّينِ ۖ قَد تَّبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ</blockquote>
+      <p class="translation">در دین هیچ اکراهی نیست؛ مرز رشد از گمراهی روشن شده است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-256' | relative_url }}">البقرة ۲:۲۵۶</a></p>
+      <p>در این آیه، تبيّن یعنی روشن شدن پس از جدا شدن. رشد و غی در هم آمیخته نمی‌مانند؛ مرز آنها آشکار شده است. به همین دلیل اکراه در دین نفی می‌شود: وقتی راه روشن شده، پاسخ انسان باید از فهم و انتخاب باشد، نه از زور.</p>
+      <p>این آیه با طاغوت نیز پیوند مستقیم دارد. در ادامه همان آیه آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَن يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِن بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَىٰ</blockquote>
+      <p class="translation">پس هر کس به طاغوت کفر ورزد و به خدا ایمان آورد، به دستاویز استوار چنگ زده است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-256' | relative_url }}">البقرة ۲:۲۵۶</a></p>
+      <p>طاغوت با درهم‌ریختن مرزها کار می‌کند: مرز خدا و غیر خدا، حق و قدرت، وحی و سنت، عدالت و سلطه، بندگی خدا و اطاعت از مرجع باطل. بيّنه و تبيّن در برابر این ابهام می‌ایستند. وقتی رشد از غی روشن شد، طاغوت دیگر نمی‌تواند خود را به جای حق بنشاند، مگر برای کسی که از روشنی روی می‌گرداند.</p>
+    </section>
+
+    <section class="root-section" id="bayyinah">
+      <h2>بیّنه</h2>
+      <p>میدان دوم، بيّنة است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَدْ جَاءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ</blockquote>
+      <p class="translation">به یقین برای شما بیّنه‌ای از سوی پروردگارتان آمد.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/007-al-araf/#ayah-073' | relative_url }}">الأعراف ۷:۷۳</a></p>
+      <p>بيّنة نشانه یا دلیل روشن است؛ چیزی که حق را از ابهام بیرون می‌آورد و حجت را آشکار می‌کند. بيّنة فقط اطلاعات نیست؛ روشنی حجت است. به همین دلیل، پس از آمدن بيّنة، مسئولیت انسان سنگین‌تر می‌شود.</p>
+      <p>در آیه‌ای دیگر آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لِيَهْلِكَ مَنْ هَلَكَ عَن بَيِّنَةٍ وَيَحْيَىٰ مَنْ حَيَّ عَن بَيِّنَةٍ</blockquote>
+      <p class="translation">تا هر کس هلاک می‌شود از روی بیّنه هلاک شود، و هر کس زنده می‌شود از روی بیّنه زنده شود.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/008-al-anfal/#ayah-042' | relative_url }}">الأنفال ۸:۴۲</a></p>
+      <p>اینجا بيّنة معیار مسئولیت است. انسان نباید در تاریکی و ابهام محکوم شود؛ حجت باید روشن گردد. بيّنة فضا را از حالت مه‌آلود بیرون می‌آورد تا انتخاب انسان معنا پیدا کند.</p>
+    </section>
+
+    <section class="root-section" id="bayan-divine">
+      <h2>بیان به عنوان روشن‌سازی الهی</h2>
+      <p>میدان سوم، بيان به عنوان روشن‌سازی الهی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">هَٰذَا بَيَانٌ لِّلنَّاسِ وَهُدًى وَمَوْعِظَةٌ لِّلْمُتَّقِينَ</blockquote>
+      <p class="translation">این بیانی برای مردم، و هدایت و پندی برای پرهیزگاران است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/003-al-imran/#ayah-138' | relative_url }}">آل عمران ۳:۱۳۸</a></p>
+      <p>قرآن در این آیه «بیان» است؛ یعنی سخنی که واقعیت را روشن می‌کند، مرزها را نشان می‌دهد و انسان را از ابهام بیرون می‌آورد. بیان برای همه مردم است، اما اثر هدایت و موعظه آن در اهل تقوا کامل‌تر می‌شود.</p>
+    </section>
+
+    <section class="root-section" id="messenger-clarification">
+      <h2>تبیین رسول و تبیان کتاب</h2>
+      <p>میدان چهارم، تبيين به عنوان وظیفه رسول و کار وحی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ</blockquote>
+      <p class="translation">و ذکر را به سوی تو نازل کردیم تا برای مردم آنچه به سوی آنان نازل شده روشن کنی.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/016-an-nahl/#ayah-044' | relative_url }}">النحل ۱۶:۴۴</a></p>
+      <p>این آیه بسیار مهم است. تبيين رسول در پیوند با «ما نزل إليهم» است؛ یعنی روشن کردن همان چیزی که نازل شده است. تبيين در اینجا ایجاد دین موازی، قانون مستقل، یا منبع رقیب در کنار وحی نیست؛ روشن‌سازی پیام نازل‌شده برای مردم است.</p>
+      <p>در همین سوره آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ</blockquote>
+      <p class="translation">و کتاب را بر تو نازل کردیم، در حالی که تبیانی برای هر چیز است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/016-an-nahl/#ayah-089' | relative_url }}">النحل ۱۶:۸۹</a></p>
+      <p>اینجا خود کتاب «تبيان» است. این نکته باید در فهم تبيين رسول حفظ شود: رسول روشنگر است، اما روشنگری او جدا از کتاب و بر ضد کتاب نیست. کتاب نازل‌شده خود تبيان است، و رسالت پیامبر رساندن، بیان کردن و روشن ساختن همان پیام است.</p>
+    </section>
+
+    <section class="root-section" id="balagh-mubin">
+      <h2>البلاغ المبين</h2>
+      <p>میدان پنجم، البلاغ المبين است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَهَلْ عَلَى الرُّسُلِ إِلَّا الْبَلَاغُ الْمُبِينُ</blockquote>
+      <p class="translation">پس آیا بر رسولان جز رساندن آن مبین چیزی هست؟</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/016-an-nahl/#ayah-035' | relative_url }}">النحل ۱۶:۳۵</a></p>
+      <p>و نیز:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ</blockquote>
+      <p class="translation">و بر رسول جز رساندن آن مبین نیست.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/024-an-nur/#ayah-054' | relative_url }}">النور ۲۴:۵۴</a></p>
+      <p>در ترجمه رایج، البلاغ المبين معمولا «رساندن روشن» یا «ابلاغ آشکار» ترجمه می‌شود. این ترجمه از نظر ساده نحوی قابل فهم است، چون المبين می‌تواند صفت البلاغ باشد. اما در روش فرقان، با توجه به اینکه قرآن بارها خود را «كتاب مبين» و «قرآن مبين» معرفی می‌کند، می‌توان البلاغ المبين را نزدیک‌تر و عمیق‌تر چنین خواند: «رساندن آن مبین».</p>
+      <p>در این خوانش، مبين به خود پیام نازل‌شده اشاره دارد؛ همان کتاب مبین، قرآن مبین، فرقان و ذکر. بنابراین وظیفه رسول رساندن آن مبین است، نه تولید یک مرجعیت مستقل بیرون از وحی. رسول در مقام رسالت، حامل و رساننده پیام خداست؛ اطاعت از رسول در این مقام، اطاعت از پیام روشن رسانده‌شده اوست.</p>
+      <p>این نکته برای فهم آیات «أطيعوا الله وأطيعوا الرسول» بسیار مهم است. اگر رسول مأمور به رساندن آن مبین است، پس اطاعت از رسول در مسیر رسالت به اطاعت از وحی، قرآن، فرقان و پیام روشن الهی بازمی‌گردد. استفاده از این آیات برای نشاندن روایت‌های متأخر، پراکنده و ظنی در کنار قرآن یا بالای قرآن، با معنای البلاغ المبين ناسازگار است. برای بحث تفصیلی‌تر، مقاله «اطاعت از رسول و مرجعیت حدیث» در فرقان باید به عنوان ارجاع داخلی آورده شود:</p>
+      <p><a href="{{ '/fa/articles/obeying-the-messenger-and-hadith-authority/' | relative_url }}">اطاعت از رسول و مرجعیت حدیث</a></p>
+    </section>
+
+    <section class="root-section" id="quran-mubin">
+      <h2>قرآن و کتاب به عنوان مبين</h2>
+      <p>میدان ششم، قرآن و کتاب به عنوان مبين است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">تِلْكَ آيَاتُ الْكِتَابِ وَقُرْآنٍ مُّبِينٍ</blockquote>
+      <p class="translation">اینها آیات کتاب و قرآن مبین است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/015-al-hijr/#ayah-001' | relative_url }}">الحجر ۱۵:۱</a></p>
+      <p>و نیز:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ</blockquote>
+      <p class="translation">اینها آیات کتاب مبین است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/012-yusuf/#ayah-001' | relative_url }}">يوسف ۱۲:۱</a></p>
+      <p>در این آیات، قرآن و کتاب وصف مبين دارند. مبين در اینجا هم می‌تواند «روشن» باشد و هم «روشنگر». قرآن روشن است، چون خودش را در ابهام بسته پنهان نمی‌کند؛ و روشنگر است، چون حق را از باطل جدا می‌سازد.</p>
+      <p>آیات مشابه بسیارند: النمل ۲۷:۱، الشعراء ۲۶:۲، القصص ۲۸:۲، يس ۳۶:۶۹، الدخان ۴۴:۲ و الزخرف ۴۳:۲. این تکرار نشان می‌دهد که مبين یکی از وصف‌های مرکزی قرآن و کتاب است.</p>
+    </section>
+
+    <section class="root-section" id="arabic-lisan">
+      <h2>لسان عربی مبين</h2>
+      <p>میدان هفتم، لسان عربی مبين است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">بِلِسَانٍ عَرَبِيٍّ مُّبِينٍ</blockquote>
+      <p class="translation">به زبانی عربی مبین.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/026-ash-shuara/#ayah-195' | relative_url }}">الشعراء ۲۶:۱۹۵</a></p>
+      <p>زبان وحی «مبين» است؛ یعنی زبانی که توان روشن‌سازی دارد و پیام را در قالبی قابل فهم و آشکار حمل می‌کند. این آیه نباید به برتری قومی عرب تبدیل شود؛ سخن از ظرفیت زبان حامل وحی در آن مقام است، نه امتیاز نژادی.</p>
+    </section>
+
+    <section class="root-section" id="imam-mubin">
+      <h2>امام مبين</h2>
+      <p>میدان هشتم، امام مبين است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَكُلَّ شَيْءٍ أَحْصَيْنَاهُ فِي إِمَامٍ مُّبِينٍ</blockquote>
+      <p class="translation">و هر چیزی را در امامی مبین شمارش کرده‌ایم.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/036-ya-sin/#ayah-012' | relative_url }}">يس ۳۶:۱۲</a></p>
+      <p>در این آیه، امام مبين به مرجع آشکار ثبت، احصا یا پیشوایی روشن اشاره دارد. نباید بی‌دلیل آن را به یک شخص تاریخی خاص فروکاست، مگر با دلیل قرآنی کافی. در سطح ریشه، مبين یعنی چیزی که روشن، آشکار و نشان‌دهنده است.</p>
+    </section>
+
+    <section class="root-section" id="negative-mubin">
+      <h2>مبين برای گمراهی، دشمنی و خطا</h2>
+      <p>میدان نهم، مبين برای گمراهی، دشمنی و خطا نیز می‌آید:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّ الشَّيْطَانَ لَكُمْ عَدُوٌّ مُّبِينٌ</blockquote>
+      <p class="translation">همانا شیطان برای شما دشمنی آشکار است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-168' | relative_url }}">البقرة ۲:۱۶۸</a></p>
+      <p>و:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِنْ أَنتُمْ إِلَّا فِي ضَلَالٍ مُّبِينٍ</blockquote>
+      <p class="translation">شما جز در گمراهی آشکار نیستید.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/036-ya-sin/#ayah-047' | relative_url }}">يس ۳۶:۴۷</a></p>
+      <p>اینجا مبين به معنای مثبت روشنگر نیست؛ بلکه یعنی آشکار، روشن، بی‌پرده. پس مبين همیشه صفت مقدس نیست. بسته به موصوف، می‌تواند روشنگری حق باشد یا آشکار بودن دشمنی و گمراهی.</p>
+    </section>
+
+    <section class="root-section" id="al-haqq-al-mubin">
+      <h2>الحق المبين</h2>
+      <p>اکنون باید درباره «المبين» با دقت سخن گفت. در برخی فهرست‌های مشهور اسماء الحسنی، المبين به عنوان یکی از نام‌های خدا آورده شده است. اما از نظر قرآنی باید دقیق بود. قرآن بارها کتاب، قرآن، بلاغ، لسان، نذیر، عدو، ضلال و امور دیگر را با وصف مبين معرفی می‌کند. درباره خداوند، تعبیر اصلی این است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَيَعْلَمُونَ أَنَّ اللَّهَ هُوَ الْحَقُّ الْمُبِينُ</blockquote>
+      <p class="translation">و می‌دانند که خدا همان حق مبین است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/024-an-nur/#ayah-025' | relative_url }}">النور ۲۴:۲۵</a></p>
+      <p>در این آیه، المبين به صورت وصف الحق آمده است: الله هو الحق المبين. یعنی خدا همان حق آشکار و آشکارکننده است. این آیه به روشنی «الحق المبين» را بیان می‌کند، اما اینکه المبين را جدا و مستقل به عنوان نام الهی درآوریم، نیاز به احتیاط دارد. قرآن به صورت مستقل نمی‌گوید «الله هو المبين». تعبیر قرآنی این است که خدا «الحق المبين» است.</p>
+      <p>از نگاه تنزیهی، این تفاوت مهم است. خداوند حقیقت مطلق است و حق بودن او آشکار و آشکارکننده است. اما المبين در قرآن به صورت برجسته و تکرارشونده بیشتر وصف قرآن، کتاب و بلاغ رسالت است. اگر المبين را بدون قید و با قطع از سیاق به عنوان نام مستقل خدا بنشانیم، مرز میان وصف قرآنی، نام الهی، و کارکرد وحی مبهم می‌شود. بهتر است در کار فرقان گفته شود: «الحق المبين» وصف قرآنی خداوند است، اما «كتاب مبين»، «قرآن مبين» و «البلاغ المبين» از وصف‌ها و نام‌های مرکزی وحی و رسالت‌اند.</p>
+    </section>
+
+    <section class="root-section" id="distinctions">
+      <h2>تفکیک کاربردها</h2>
+      <p>باید میان کاربردهای ب ي ن فرق گذاشت. بين می‌تواند به فاصله، میان و رابطه اشاره کند. بيان روشن‌سازی معناست. بيّنة دلیل یا نشانه روشن است. تبيين کار روشن کردن و جدا ساختن مرز معناست. تبيّن کار بررسی و روشن شدن حقیقت است. مبين گاهی روشن است، گاهی روشنگر، و گاهی آشکارکننده. كتاب مبين و قرآن مبين هم روشن‌اند و هم روشنگر. البلاغ المبين در روش فرقان «رساندن آن مبین» است. عدو مبين دشمن آشکار است. ضلال مبين گمراهی آشکار است. الحق المبين حق آشکار و آشکارکننده است.</p>
+    </section>
+
+    <section class="root-section" id="structure">
+      <h2>نکات ساختاری</h2>
+      <p>از نظر ساختاری، مبين باید همیشه به موصوف و سیاق خود برگردد. وقتی می‌گوییم كتاب مبين، مبين وصف کتاب است. وقتی می‌گوییم قرآن مبين، مبين وصف قرآن است. وقتی می‌گوییم عدو مبين، مبين وصف دشمنی آشکار است. وقتی می‌گوییم الحق المبين، مبين وصف حق است. و وقتی می‌گوییم البلاغ المبين، در روش فرقان می‌توان آن را رساندنِ همان مبین دانست: رساندن کتاب/قرآن/فرقانِ روشن و روشنگر.</p>
+    </section>
+
+    <section class="root-section" id="near-roots">
+      <h2>تفاوت با ریشه‌های نزدیک</h2>
+      <p>ب ي ن با چند ریشه نزدیک فرق دارد. نور فضا را روشن می‌کند تا چیزها دیده شوند؛ اما ب ي ن مرز میان چیزها را روشن می‌کند تا آنها از هم تشخیص داده شوند. ظهر به آشکار شدن و پدیدار شدن نزدیک است؛ اما ب ي ن بر روشن شدن از راه جدایی و تمایز تأکید دارد. وضح به وضوح و روشن بودن نزدیک است؛ بيان فعال‌تر است و مرز معنا را باز می‌کند. فصل به جدا کردن و قطع کردن میان امور اشاره دارد؛ ب ي ن هم جدایی دارد، اما با آشکارسازی معنا پیوند نزدیک‌تری دارد. فرقان نیز به جدا کردن حق از باطل مربوط است؛ بيان روشن‌سازی است و فرقان معیار جداسازی. شرح باز کردن و گشودن است؛ بيان روشن کردن و مرزبندی معناست. كشف برداشتن پوشش است؛ بيان آشکار کردن معنا و حجت است.</p>
+    </section>
+
+    <section class="root-section" id="translation-suggestions">
+      <h2>پیشنهادهای ترجمه برای فرقان</h2>
+      <p>برای ترجمه در فرقان، ب ي ن باید سیاق‌مند ترجمه شود. بين می‌تواند «میان»، «در میان»، «بین»، «مرز میان» یا «رابطه میان» باشد. بيان «بیان»، «روشنگری» یا «روشن‌سازی» است. بيّنة بهتر است «دلیل روشن»، «نشانه روشن» یا «حجت روشن» ترجمه شود. تبيين «روشن کردن»، «آشکار ساختن» یا «مرز معنا را روشن کردن» است. تبيّن «روشن شدن»، «بررسی کردن تا حقیقت روشن شود» یا «تحقیق کردن» است. مبين بسته به سیاق «روشن»، «آشکار»، «روشنگر» یا «آشکارکننده» است. كتاب مبين «کتاب مبین» یا «کتاب روشن و روشنگر» است. قرآن مبين «قرآن مبین» یا «قرآن روشن و روشنگر» است. البلاغ المبين در روش فرقان بهتر است «رساندن آن مبین» ترجمه شود. الحق المبين درباره خداوند بهتر است «حق مبین» یا «حق آشکار و آشکارکننده» ترجمه شود، نه اینکه از آن بی‌احتیاط یک نام مستقل جدا ساخته شود.</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>جمع‌بندی زبانی</h2>
+      <p>جمع‌بندی زبانی: ریشه ب ي ن بر فاصله، جدایی، آشکار شدن، روشن کردن و جدا ساختن مرز معنا دلالت دارد. تصویر مادی آن جدا شدن دو چیز و آشکار شدن فاصله میان آنهاست. در قرآن، این ریشه از بين و بيان تا بيّنة و تبيين، از كتاب مبين و قرآن مبين تا البلاغ المبين، و از عدو مبين تا الحق المبين گسترش می‌یابد. مبين در قرآن یکی از وصف‌های مرکزی قرآن، کتاب و پیام رسانده‌شده است. درباره خداوند، تعبیر قرآنی «الحق المبين» است؛ یعنی خدا همان حق مبین است. بنابراین در روش فرقان، مبين باید از سیاق خود فهمیده شود، و در آیات رسالت، البلاغ المبين باید ما را به رساندن آن مبین، یعنی پیام روشن وحی، بازگرداند؛ نه به مرجعیت بی‌پایان روایت‌های بیرون از قرآن.</p>
+    </section>
+  </div>
+</div>
+
