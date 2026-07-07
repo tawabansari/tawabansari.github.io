@@ -1,0 +1,516 @@
+---
+layout: default
+title: The Qur'anic Root B L GH
+permalink: /quran-terminology/en/roots/b-l-gh/
+---
+<style>
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark-theme .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page,
+  .theme-dark .root-study-page,
+  .forqan-theme-dark .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-study-page * { box-sizing: border-box; }
+
+  .root-study-page.forqan-page-rtl,
+  .root-study-page.forqan-page-rtl h1,
+  .root-study-page.forqan-page-rtl h2,
+  .root-study-page.forqan-page-rtl h3,
+  .root-study-page.forqan-page-rtl p,
+  .root-study-page.forqan-page-rtl li {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .root-frame {
+    background:
+      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
+      var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    color: var(--root-text);
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
+      var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-forms-card h2,
+  .root-toc h2 { margin-top: 0; }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .morph-card {
+    display: block;
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem;
+    background: var(--root-section);
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    color: var(--root-muted);
+    font-size: 0.88rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .morph-form {
+    font-weight: 800;
+    font-size: 1.18rem;
+    color: var(--root-accent-deep);
+    margin-bottom: 0.4rem;
+  }
+
+  .morph-note {
+    color: var(--root-muted);
+    margin-bottom: 0;
+    font-size: 0.95rem;
+  }
+
+  .translit {
+    color: var(--root-muted);
+    font-weight: 500;
+    font-size: 0.92em;
+  }
+
+  .root-note {
+    border-right: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+    margin: 1.25rem 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-note {
+    border-right: 0;
+    border-left: 3px solid var(--root-accent);
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol { padding-left: 0; }
+
+  .root-toc li {
+    margin: 0.28rem 0;
+    break-inside: avoid;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
+  }
+
+  .root-study-page p { margin: 0.85rem 0; }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0 0.65rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent),
+      var(--root-panel);
+    color: var(--root-text);
+    unicode-bidi: isolate;
+  }
+
+  .root-study-page .translation {
+    text-align: center !important;
+    color: var(--root-muted);
+    margin-top: 0.45rem;
+  }
+
+  .root-study-page .verse-ref {
+    text-align: center !important;
+    color: var(--root-accent-deep);
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+
+  .root-study-page .arabic-large {
+    font-size: 1.12em;
+    line-height: 2.15;
+    direction: rtl;
+    unicode-bidi: isolate;
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page { padding: 2rem 1rem; }
+    .root-frame { padding: 1.25rem; border-radius: 19px; }
+    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
+    .root-toc ol { columns: 1; }
+    .morphology-grid { grid-template-columns: 1fr; }
+    .arabic-quote { font-size: 1.24rem; }
+  }
+</style>
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">Qur'anic Root</div>
+      <h1>The Qur'anic Root B L GH</h1>
+      <p class="root-subtitle">Reaching, arriving at a limit, and delivering a message to its destination and completion of proof</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>Morphological forms of this root</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#root-meaning"><div class="morph-card-header"><div class="morph-type">Root</div><div class="morph-used">Foundational meaning</div></div><div class="morph-form">ب ل غ <span class="translit">(b l gh)</span></div><p class="morph-note">Reaching, reaching a limit, completing a path, and delivering something to the place of reception or realization.</p></a>
+        <a class="morph-card" href="#maturity-responsibility"><div class="morph-card-header"><div class="morph-type">Verb</div><div class="morph-used">Reaching a limit</div></div><div class="morph-form">بَلَغَ / يَبْلُغُ <span class="translit">(balagha / yablugh)</span></div><p class="morph-note">Reaching a place, time, stage, age, maturity, death, or a threshold of responsibility.</p></a>
+        <a class="morph-card" href="#message-mission"><div class="morph-card-header"><div class="morph-type">Intensive / causative forms</div><div class="morph-used">Delivering a message</div></div><div class="morph-form">بَلِّغْ / أُبَلِّغُ / أَبْلَغُوا <span class="translit">(balligh / uballighu / ablaghū)</span></div><p class="morph-note">Delivering revelation, messages, and the Lord’s communication to the point of reception and completion of proof.</p></a>
+        <a class="morph-card" href="#balagh-mubin"><div class="morph-card-header"><div class="morph-type">Noun and adjective</div><div class="morph-used">Delivery and completion</div></div><div class="morph-form">بَلَاغ / بَالِغ / بَالِغَة <span class="translit">(balāgh / bāligh / bālighah)</span></div><p class="morph-note">Delivery, the delivered message, something that has reached, something complete, and a proof that has reached its fullness.</p></a>
+      </div>
+    </section>
+
+    <p class="root-note">In this entry, <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> is understood in close relation to <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span>: <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> clarifies the boundary of meaning, while <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> delivers that clarified and bounded message to its destination and recipient.</p>
+
+    <nav class="root-toc" aria-label="Article section list">
+      <h2>Usage map of this root</h2>
+      <ol>
+        <li><a href="#root-meaning">Foundational Meaning</a></li>
+        <li><a href="#spatial-reaching">Spatial Reaching</a></li>
+        <li><a href="#maturity-responsibility">Reaching Age, Maturity, and Responsibility</a></li>
+        <li><a href="#divine-command">The Divine Command Reaching Its End</a></li>
+        <li><a href="#death-boundary">Reaching the Boundary of Death</a></li>
+        <li><a href="#message-mission">Delivery of Message and Mission</a></li>
+        <li><a href="#earlier-messengers">Delivery by Earlier Messengers</a></li>
+        <li><a href="#witnessing-delivery">The God’s Witnessing of the Delivery of Messages</a></li>
+        <li><a href="#balagh-as-message">Balagh as Message and Completion of Proof</a></li>
+        <li><a href="#balagh-mubin">Al-Balagh Al-Mubin</a></li>
+        <li><a href="#responsibility-limits">Balagh and the People’s Responsibility</a></li>
+        <li><a href="#obedience">Balagh and Obedience</a></li>
+        <li><a href="#distinctions">Distinguishing the Uses</a></li>
+        <li><a href="#structure">Structural Notes</a></li>
+        <li><a href="#near-roots">Difference from Nearby Roots</a></li>
+        <li><a href="#translation-suggestions">Translation Suggestions for Forqan</a></li>
+        <li><a href="#summary">Linguistic Summary</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="root-meaning">
+      <h2>Foundational Meaning</h2>
+      <p>The root <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> originally points to reaching, reaching the destination, reaching a limit, the completion of a path, and delivering something to its place of reception or realization. In this root, there is a movement or process that advances until it reaches its limit, destination, stage, ear, heart, time, maturity, or result.</p>
+      <p><strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> has a close relationship with <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span>, but they are not the same. <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> clarifies the boundary and separates meaning from ambiguity. <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> delivers the message or movement to its destination. So <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> is clarity and boundary-making, while <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> is the delivery of the bounded message to the point of reception and completion of proof. When these two come together, as in <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span>, in the Forqan method the expression speaks of “delivering that which is mubīn”: delivering the Book, the Qur'an, the Criterion, the clear and clarifying message.</p>
+      <p>The important forms of this root in the Qur'an include <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span>, <strong class="arabic-large">يبلغ</strong> <span class="translit">(yablugh)</span>, <strong class="arabic-large">بلغوا</strong> <span class="translit">(balaghū)</span>, <strong class="arabic-large">بلغت</strong> <span class="translit">(balaghat)</span>, <strong class="arabic-large">بلّغ</strong> <span class="translit">(balligh)</span>, <strong class="arabic-large">أبلغ</strong> <span class="translit">(ablagha)</span>, <strong class="arabic-large">أبلغكم</strong> <span class="translit">(uballighukum)</span>, <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span>, <strong class="arabic-large">بالغ</strong> <span class="translit">(bāligh)</span>, <strong class="arabic-large">بالغة</strong> <span class="translit">(bālighah)</span>, and <strong class="arabic-large">مبلغ</strong> <span class="translit">(mablagh)</span>. <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> basically means “it reached.” When it is used for age, limit, place, time, or a stage, it means reaching that limit or destination. When it is used for message and mission, it takes the meaning of delivering and conveying. <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> can name the act of delivery, the delivered message, or the completed delivery. <strong class="arabic-large">بالغ</strong> <span class="translit">(bāligh)</span> means reaching, reached, complete, or arrived at its destination. <strong class="arabic-large">بالغة</strong> <span class="translit">(bālighah)</span> can refer to something complete, reaching, and fully establishing proof.</p>
+      <p>The linguistic core of <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> is reaching a limit or delivering to a destination. Sometimes the human being reaches the stage of maturity and responsibility. Sometimes a message reaches its addressee. Sometimes the divine command reaches its realization. Sometimes the soul reaches the boundary of departure. Sometimes speech reaches in such a way that no excuse of ambiguity remains.</p>
+      <p>The material image of this root is a traveler who crosses the road and reaches the station; or a fruit that passes beyond unripeness and reaches ripeness; or a message that leaves the sender, travels the path, and reaches the receiver. As long as the message has not reached its destination, <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> is not complete. <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> means delivering until the message stands in the position of reception.</p>
+      <p>In classical Arabic usage, <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> is connected to reaching a destination, reaching a limit, becoming complete, bodily or intellectual maturity, and delivering news or a message. This root is used both in material movement and in delivering speech, news, command, and mission. In the final version, if a reliable witness from pre-Islamic poetry or ancient Arabic usage is found, it can be added.</p>
+    </section>
+
+    <section class="root-section" id="spatial-reaching">
+      <h2>Spatial Reaching</h2>
+      <p>One clear field of this root is spatial reaching:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَلَمَّا بَلَغَا مَجْمَعَ بَيْنِهِمَا نَسِيَا حُوتَهُمَا</blockquote>
+      <p class="translation">So when the two reached the meeting-place between them, they forgot their fish.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/018-al-kahf/#ayah-061' | relative_url }}">Al-Kahf 18:61</a></p>
+      <p>Here, <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> points to spatial arrival. Moses and his companion travel a path until they reach a specific point. This simple use shows the core of the root: movement until destination.</p>
+      <p>In the same surah it says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">حَتَّىٰ إِذَا بَلَغَ مَغْرِبَ الشَّمْسِ</blockquote>
+      <p class="translation">Until, when he reached the setting-place of the sun.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/018-al-kahf/#ayah-086' | relative_url }}">Al-Kahf 18:86</a></p>
+      <p>And:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">حَتَّىٰ إِذَا بَلَغَ مَطْلِعَ الشَّمْسِ</blockquote>
+      <p class="translation">Until, when he reached the rising-place of the sun.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/018-al-kahf/#ayah-090' | relative_url }}">Al-Kahf 18:90</a></p>
+      <p>In these verses too, <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> is reaching a point in travel and movement. This same material layer becomes important in the meaning of mission: the message must reach its destination.</p>
+    </section>
+
+    <section class="root-section" id="maturity-responsibility">
+      <h2>Reaching Age, Maturity, and Responsibility</h2>
+      <p>The second field is reaching age, maturity, and a limit of responsibility:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَا تَقْرَبُوا مَالَ الْيَتِيمِ إِلَّا بِالَّتِي هِيَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُ</blockquote>
+      <p class="translation">And do not approach the property of the orphan except in the best manner, until he reaches his strength.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/006-al-anam/#ayah-152' | relative_url }}">Al-An'am 6:152</a></p>
+      <p>In this verse, <strong class="arabic-large">يبلغ أشده</strong> <span class="translit">(yablugha ashuddahu)</span> means that the person reaches a stage of firmness, strength, maturity, and ability to carry responsibility. Maturity in this context is not merely a bodily sign; it is reaching a level of strength and ripeness at which a person’s rights should no longer remain in the hands of a guardian.</p>
+      <p>In Surah An-Nisa it says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَابْتَلُوا الْيَتَامَىٰ حَتَّىٰ إِذَا بَلَغُوا النِّكَاحَ فَإِنْ آنَسْتُم مِّنْهُمْ رُشْدًا فَادْفَعُوا إِلَيْهِمْ أَمْوَالَهُمْ</blockquote>
+      <p class="translation">And test the orphans until, when they reach marriage; then if you perceive maturity in them, hand over their property to them.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/004-an-nisa/#ayah-006' | relative_url }}">An-Nisa 4:6</a></p>
+      <p>This verse is very important for understanding <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span>. The Qur'an does not say that only the body reaches a stage; rather, reaching marriage is accompanied by testing and observing maturity. <strong class="arabic-large">بلغوا النكاح</strong> <span class="translit">(balaghū al-nikāḥ)</span> means that they reach a threshold where marriage becomes relevant for them, but handing over financial rights is also conditioned upon perceiving maturity.</p>
+      <p>In this verse, three elements come together: reaching the limit, testing, and observing maturity. This structure shows that Qur'anic maturity for responsibility is not merely a biological event; maturity must be accompanied by growth, discernment, trustworthiness, and the ability to manage life.</p>
+      <p>From here an important conclusion follows: An-Nisa 4:6 is not compatible with child marriage. If the Qur'an, for handing over an orphan’s property, mentions both reaching the threshold of marriage and observing maturity as a condition, then marriage cannot be meaningful for a child who is unripe, without maturity, without the power of decision, and still under guardianship. Marriage in the Qur'an is a contract of a responsible human being, not an imposition upon a child.</p>
+      <p>If a child even needs a test of maturity to receive their own property, how could that child enter a contract heavier than property, a contract connected to body, psyche, consent, family, responsibility, and shared life? Therefore, <strong class="arabic-large">بلغوا النكاح</strong> <span class="translit">(balaghū al-nikāḥ)</span> must be understood as reaching the real limit of marriage, not merely reaching a number or a bodily sign.</p>
+      <p>In Surah An-Nur it says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِذَا بَلَغَ الْأَطْفَالُ مِنكُمُ الْحُلُمَ فَلْيَسْتَأْذِنُوا</blockquote>
+      <p class="translation">And when the children among you reach sexual maturity, let them ask permission.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/024-an-nur/#ayah-059' | relative_url }}">An-Nur 24:59</a></p>
+      <p>Here too, <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> points to passing beyond childhood and entering a new stage of privacy, responsibility, and social etiquette. Before this limit, children are treated as children. When they reach <strong class="arabic-large">الحلم</strong> <span class="translit">(al-ḥulum)</span>, the rule of privacy and asking permission changes regarding them. So the Qur'an distinguishes between childhood and the stage of responsibility.</p>
+      <p>Therefore, in Forqan translation, <strong class="arabic-large">بلغوا النكاح</strong> <span class="translit">(balaghū al-nikāḥ)</span> should not be translated simply and dangerously as “they reached marriage age,” if that expression in common culture is reduced to a number or bodily puberty. It is better to say: “until they reach the threshold of marriage” or “until they reach the limit of marriage.” The explanation should add: that is, they reach a stage in which maturity, discernment, ability to carry responsibility, informed consent, and real readiness for contract and shared life are observable in them.</p>
+    </section>
+
+    <section class="root-section" id="divine-command">
+      <h2>The Divine Command Reaching Its End</h2>
+      <p>The third field is the divine command or decree reaching its end:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّ اللَّهَ بَالِغُ أَمْرِهِ</blockquote>
+      <p class="translation">Indeed, The God brings His command to its destination.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/065-at-talaq/#ayah-003' | relative_url }}">At-Talaq 65:3</a></p>
+      <p>This expression is very important. <strong class="arabic-large">بالغ أمره</strong> <span class="translit">(bālighu amrihi)</span> means that The God brings His command to completion, destination, and realization. No obstacle can stop the command of The God halfway. Here <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> points to final realization and the divine command reaching its end.</p>
+      <p>In another verse it says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">حِكْمَةٌ بَالِغَةٌ</blockquote>
+      <p class="translation">A wisdom that has reached and become complete.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/054-al-qamar/#ayah-005' | relative_url }}">Al-Qamar 54:5</a></p>
+      <p><strong class="arabic-large">حكمة بالغة</strong> <span class="translit">(ḥikmatun bālighah)</span> means a wisdom that has reached the limit of fullness and delivery of proof; it is not incomplete, unfinished, or unripe wisdom. This expression is semantically close to <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span> and <strong class="arabic-large">تبيين</strong> <span class="translit">(tabyīn)</span>: a clear proof must reach the point at which responsibility becomes complete.</p>
+    </section>
+
+    <section class="root-section" id="death-boundary">
+      <h2>Reaching the Boundary of Death</h2>
+      <p>The fourth field is reaching the boundary of death:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَلَوْلَا إِذَا بَلَغَتِ الْحُلْقُومَ</blockquote>
+      <p class="translation">So why, when it reaches the throat...</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/056-al-waqiah/#ayah-083' | relative_url }}">Al-Waqi'ah 56:83</a></p>
+      <p>And:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">كَلَّا إِذَا بَلَغَتِ التَّرَاقِيَ</blockquote>
+      <p class="translation">No indeed; when it reaches the collarbones.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/075-al-qiyamah/#ayah-026' | relative_url }}">Al-Qiyamah 75:26</a></p>
+      <p>In these verses, <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> points to the soul or life reaching the boundary of departure and the end of worldly life. Here <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> is reaching the final point of a worldly path. When the human being reaches this limit, the field of ordinary choice and return comes to an end.</p>
+    </section>
+
+    <section class="root-section" id="message-mission">
+      <h2>Delivery of Message and Mission</h2>
+      <p>The fifth field is the delivery of the message and the mission:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">يَا أَيُّهَا الرَّسُولُ بَلِّغْ مَا أُنزِلَ إِلَيْكَ مِن رَّبِّكَ</blockquote>
+      <p class="translation">O Messenger, deliver what has been sent down to you from your Lord.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/005-al-maidah/#ayah-067' | relative_url }}">Al-Ma'idah 5:67</a></p>
+      <p>This verse is one of the key verses of the root <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span>. The object of <strong class="arabic-large">بلّغ</strong> <span class="translit">(balligh)</span> is clear: <strong class="arabic-large">ما أنزل إليك من ربك</strong> <span class="translit">(mā unzila ilayka min rabbika)</span>, what has been sent down to you from your Lord. So the Messenger’s <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> is the delivery of the sent-down revelation, not the addition of an independent source alongside it.</p>
+      <p>The continuation of the verse says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِن لَّمْ تَفْعَلْ فَمَا بَلَّغْتَ رِسَالَتَهُ</blockquote>
+      <p class="translation">And if you do not do so, then you have not delivered His message.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/005-al-maidah/#ayah-067' | relative_url }}">Al-Ma'idah 5:67</a></p>
+      <p>Here the mission is tied to delivery. Being a Messenger has no meaning without <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span>. Mission, in the Qur'anic station, means carrying the message and delivering it to the addressee.</p>
+    </section>
+
+    <section class="root-section" id="earlier-messengers">
+      <h2>Delivery by Earlier Messengers</h2>
+      <p>The sixth field is the <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> of earlier messengers:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أُبَلِّغُكُمْ رِسَالَاتِ رَبِّي وَأَنصَحُ لَكُمْ</blockquote>
+      <p class="translation">I deliver to you the messages of my Lord, and I give you sincere counsel.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/007-al-araf/#ayah-062' | relative_url }}">Al-A'raf 7:62</a></p>
+      <p>And:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أُبَلِّغُكُمْ رِسَالَاتِ رَبِّي وَأَنَا لَكُمْ نَاصِحٌ أَمِينٌ</blockquote>
+      <p class="translation">I deliver to you the messages of my Lord, and I am for you a sincere and trustworthy counselor.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/007-al-araf/#ayah-068' | relative_url }}">Al-A'raf 7:68</a></p>
+      <p>In these verses, the prophets present themselves as deliverers of the messages of their Lord. They are not independent sources of lordship or lawmaking separate from The God; they deliver the messages of the Lord. The trustworthiness of the Messenger is precisely that he does not make the message his own and does not place himself in the position of the Sender.</p>
+    </section>
+
+    <section class="root-section" id="witnessing-delivery">
+      <h2>The God’s Witnessing of the Delivery of Messages</h2>
+      <p>The seventh field is The God’s witnessing over the delivery of the messages:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا رِسَالَاتِ رَبِّهِمْ</blockquote>
+      <p class="translation">So that He may know that they have delivered the messages of their Lord.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/072-al-jinn/#ayah-028' | relative_url }}">Al-Jinn 72:28</a></p>
+      <p>Here <strong class="arabic-large">أبلغوا رسالات ربهم</strong> <span class="translit">(ablaghū risālāti rabbihim)</span> means that the messages have been delivered to their destination. This verse again shows that the central matter of the messengers is delivering the messages of the Lord. <strong class="arabic-large">إبلاغ</strong> <span class="translit">(iblāgh)</span> means delivering the message until the proof stands in its proper place.</p>
+    </section>
+
+    <section class="root-section" id="balagh-as-message">
+      <h2>Balagh as Message and Completion of Proof</h2>
+      <p>The eighth field is <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> as message and completion of proof:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">هَٰذَا بَلَاغٌ لِّلنَّاسِ وَلِيُنذَرُوا بِهِ</blockquote>
+      <p class="translation">This is a balagh for the people, and so that they may be warned by it.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/014-ibrahim/#ayah-052' | relative_url }}">Ibrahim 14:52</a></p>
+      <p>In this verse, the Qur'an or the sent-down message is a <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> for people. That is, the message has been delivered to people, and its function is warning, tawḥīd, and awakening. <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> here is not only the act of delivery; it is also the delivered message itself.</p>
+    </section>
+
+    <section class="root-section" id="balagh-mubin">
+      <h2>Al-Balagh Al-Mubin</h2>
+      <p>The ninth field is <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَهَلْ عَلَى الرُّسُلِ إِلَّا الْبَلَاغُ الْمُبِينُ</blockquote>
+      <p class="translation">So is there anything upon the messengers except delivering that which is mubīn?</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/016-an-nahl/#ayah-035' | relative_url }}">An-Nahl 16:35</a></p>
+      <p>And also:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ</blockquote>
+      <p class="translation">And there is nothing upon the Messenger except delivering that which is mubīn.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/024-an-nur/#ayah-054' | relative_url }}">An-Nur 24:54</a></p>
+      <p>In common translation, <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span> is usually translated as “clear delivery” or “manifest communication.” This reading is possible from the angle that <strong class="arabic-large">المبين</strong> <span class="translit">(al-mubīn)</span> can be an adjective for <strong class="arabic-large">البلاغ</strong> <span class="translit">(al-balāgh)</span>. But in the Forqan method, because the Qur'an repeatedly identifies itself as <strong class="arabic-large">كتاب مبين</strong> <span class="translit">(kitāb mubīn)</span> and <strong class="arabic-large">قرآن مبين</strong> <span class="translit">(qur'ān mubīn)</span>, the closer and more precise translation is:</p>
+      <p><strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span> = delivering that which is mubīn.</p>
+      <p>That is, the Messenger’s duty is to deliver that same <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>: the clear Book, the clear Qur'an, the Criterion, and the sent-down Reminder. This reading is fully consistent with other verses, because the Qur'an itself says: <strong class="arabic-large">بلّغ ما أنزل إليك من ربك</strong> <span class="translit">(balligh mā unzila ilayka min rabbika)</span>. Therefore <strong class="arabic-large">بلاغ مبين</strong> <span class="translit">(balāgh mubīn)</span> means delivering the sent-down message that is itself clear and clarifying.</p>
+      <p>This point is important for understanding obedience to the Messenger. If the Messenger’s duty is to deliver that which is <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>, obedience to the Messenger in the station of message returns to obedience to the delivered message; not to obedience to every historical report, later narration, or lawmaking outside the Qur'an. The Messenger is commanded to deliver revelation, and revelation in the Qur'an is itself called the clear Book and the clear Qur'an.</p>
+    </section>
+
+    <section class="root-section" id="responsibility-limits">
+      <h2>Balagh and the People’s Responsibility</h2>
+      <p>The tenth field is <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> in relation to the responsibility of the people:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَإِن تَوَلَّوْا فَإِنَّمَا عَلَيْكَ الْبَلَاغُ</blockquote>
+      <p class="translation">So if they turn away, then upon you is only the delivery.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/003-al-imran/#ayah-020' | relative_url }}">Al-Imran 3:20</a></p>
+      <p>In this verse, <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> shows the limit of the Messenger’s responsibility. The Messenger is obligated to deliver; compulsion, domination over people’s faith, and guaranteeing the result are not upon him. This meaning is in harmony with verses such as “there is no compulsion in religion” and “you are not a guardian over them.”</p>
+      <p>In another verse it says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَإِنَّمَا عَلَيْكَ الْبَلَاغُ وَعَلَيْنَا الْحِسَابُ</blockquote>
+      <p class="translation">So upon you is only the delivery, and upon Us is the accounting.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/013-ar-rad/#ayah-040' | relative_url }}">Ar-Ra'd 13:40</a></p>
+      <p>Here two domains are separated: upon the Messenger is delivery; the accounting belongs to The God. This boundary is very important because it prevents the Messenger from being turned into the keeper of people’s faith or the final judge of hearts. The Messenger delivers the message; The God accounts; the human being is responsible for the response.</p>
+    </section>
+
+    <section class="root-section" id="obedience">
+      <h2>Balagh and Obedience</h2>
+      <p>The eleventh field is <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> and obedience:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَأَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَاحْذَرُوا ۚ فَإِن تَوَلَّيْتُمْ فَاعْلَمُوا أَنَّمَا عَلَىٰ رَسُولِنَا الْبَلَاغُ الْمُبِينُ</blockquote>
+      <p class="translation">And obey The God and obey the Messenger and be cautious; then if you turn away, know that upon Our Messenger is only delivering that which is mubīn.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/005-al-maidah/#ayah-092' | relative_url }}">Al-Ma'idah 5:92</a></p>
+      <p>This verse is very central for the Forqan method. The verse brings obedience to The God and obedience to the Messenger, but immediately explains the limit of the Messenger’s mission: upon Our Messenger is only <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span>. This means that obedience to the Messenger in this station is not separate from his message; his message is delivering that which is <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>.</p>
+      <p>So using the obedience verses to construct an independent and endless authority outside the Qur'an conflicts with the continuation of the verse itself. The Qur'an itself explains that the Messenger, in the station of mission, is the deliverer of that which is <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>.</p>
+      <p>The same meaning appears in Surah At-Taghabun:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَأَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ ۚ فَإِن تَوَلَّيْتُمْ فَإِنَّمَا عَلَىٰ رَسُولِنَا الْبَلَاغُ الْمُبِينُ</blockquote>
+      <p class="translation">And obey The God and obey the Messenger; then if you turn away, upon Our Messenger is only delivering that which is mubīn.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/064-at-taghabun/#ayah-012' | relative_url }}">At-Taghabun 64:12</a></p>
+      <p>Here too, the verse does not separate obedience to the Messenger from <strong class="arabic-large">بلاغ مبين</strong> <span class="translit">(balāgh mubīn)</span>. The Messenger is commanded to deliver that which is <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>. Therefore obedience to the Messenger is obedience to the message of the mission.</p>
+    </section>
+
+    <section class="root-section" id="distinctions">
+      <h2>Distinguishing the Uses</h2>
+      <p>One must distinguish between the uses of <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span>. <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> in travel means reaching a place. <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> in growth means reaching the limit of maturity, firmness, or responsibility. <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> in death means reaching the boundary of the end of life. <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> in the divine command means the command reaching its realization. <strong class="arabic-large">بلّغ</strong> <span class="translit">(ballagha)</span> and <strong class="arabic-large">أبلغ</strong> <span class="translit">(ablagha)</span> in mission mean delivering the message of The God. <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> can be the delivery itself, the delivered message, or the completion of proof. <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span>, in the Forqan method, means delivering that which is <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>.</p>
+    </section>
+
+    <section class="root-section" id="structure">
+      <h2>Structural Notes</h2>
+      <p>Structurally, the object of <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> is very important. <strong class="arabic-large">بلّغ ما أنزل إليك</strong> <span class="translit">(balligh mā unzila ilayka)</span> means: deliver what has been sent down to you. <strong class="arabic-large">أبلغكم رسالات ربي</strong> <span class="translit">(uballighukum risālāti rabbī)</span> means: I deliver to you the messages of my Lord. <strong class="arabic-large">أبلغوا رسالات ربهم</strong> <span class="translit">(ablaghū risālāti rabbihim)</span> means: the prophets delivered the messages of their Lord. <strong class="arabic-large">عليك البلاغ</strong> <span class="translit">(ʿalayka al-balāgh)</span> means: your responsibility is delivery, not compulsion or control over the result. <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span>, in the Forqan method, means delivering that which is <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>, the clear and clarifying message.</p>
+    </section>
+
+    <section class="root-section" id="near-roots">
+      <h2>Difference from Nearby Roots</h2>
+      <p><strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> differs from several nearby roots. <strong class="arabic-large">وصل</strong> <span class="translit">(waṣala)</span> points to joining and connecting two things; <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> points to reaching a destination or delivering to a destination. <strong class="arabic-large">وصل</strong> <span class="translit">(waṣala)</span> may create connection, but <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> emphasizes complete arrival. <strong class="arabic-large">أتى</strong> <span class="translit">(atā)</span> is coming; <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> is reaching a limit or destination after a path. <strong class="arabic-large">جاء</strong> <span class="translit">(jā'a)</span> is coming or arriving; <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> is reaching the target point or full limit. <strong class="arabic-large">أعلن</strong> <span class="translit">(aʿlana)</span> is making public; <strong class="arabic-large">بلّغ</strong> <span class="translit">(ballagha)</span> is delivering a message. <strong class="arabic-large">بيّن</strong> <span class="translit">(bayyana)</span> is clarifying and setting the boundary of meaning; <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> is delivering that meaning to the addressee. <strong class="arabic-large">ذكر</strong> <span class="translit">(dhikr)</span> is reminder and reminding message; <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> is the delivery of that message to the people.</p>
+    </section>
+
+    <section class="root-section" id="translation-suggestions">
+      <h2>Translation Suggestions for Forqan</h2>
+      <p>For translation in Forqan, <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> must be translated according to context. <strong class="arabic-large">بلغ</strong> <span class="translit">(balagha)</span> can be “reached,” “reached the limit,” “reached the destination,” or “reached the stage.” <strong class="arabic-large">يبلغ أشده</strong> <span class="translit">(yablugha ashuddahu)</span> means “until he reaches his firmness.” <strong class="arabic-large">بلغ النكاح</strong> <span class="translit">(balagha al-nikāḥ)</span> is better translated as “reached the threshold of marriage” or “reached the limit of marriage,” together with an explanation of maturity and responsibility. <strong class="arabic-large">بلغت الحلقوم</strong> <span class="translit">(balaghat al-ḥulqūm)</span> means “it reached the throat.” <strong class="arabic-large">بلّغ</strong> <span class="translit">(balligh)</span> and <strong class="arabic-large">أبلغ</strong> <span class="translit">(ablagha)</span> in mission mean “to deliver.” <strong class="arabic-large">بلاغ</strong> <span class="translit">(balāgh)</span> can be “delivery,” “the delivered message,” “balagh,” or “completed delivery.” <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span>, in the Forqan method, is better translated as “delivering that which is mubīn.” <strong class="arabic-large">حكمة بالغة</strong> <span class="translit">(ḥikmatun bālighah)</span> can be “a wisdom that has reached and become complete” or “a wisdom that fully establishes proof.” <strong class="arabic-large">إن الله بالغ أمره</strong> <span class="translit">(inna Allāha bālighu amrihi)</span> means “The God brings His command to its destination and realization.”</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>Linguistic Summary</h2>
+      <p>Linguistic summary: the root <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> points to reaching, reaching a limit, delivering, and completing the path to the destination. Its material image is a caravan, a message, a fruit, or a soul reaching its intended point or final limit. In the Qur'an, this root extends from spatial reaching to human maturity, from the arrival of death to the realization of the divine command, and from the delivery of the messages of the prophets to <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span>. Its relation to <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> is this: <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> clarifies the boundary and separates meaning from ambiguity; <strong class="arabic-large">ب ل غ</strong> <span class="translit">(b l gh)</span> delivers that meaning and message to the addressee and destination. From this root, the Qur'an shows that human responsibility requires real arrival at the limit of maturity, and the Messenger’s mission is delivering that which is <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>: delivering the clear Book and clear Qur'an, not constructing an independent authority outside revelation.</p>
+    </section>
+  </div>
+</div>
