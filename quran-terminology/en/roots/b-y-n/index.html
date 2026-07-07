@@ -1,0 +1,503 @@
+---
+layout: default
+title: The Qur'anic Root B Y N
+permalink: /quran-terminology/en/roots/b-y-n/
+---
+
+<style>
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark-theme .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page,
+  .theme-dark .root-study-page,
+  .forqan-theme-dark .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-study-page * { box-sizing: border-box; }
+
+  .root-study-page.forqan-page-rtl,
+  .root-study-page.forqan-page-rtl h1,
+  .root-study-page.forqan-page-rtl h2,
+  .root-study-page.forqan-page-rtl h3,
+  .root-study-page.forqan-page-rtl p,
+  .root-study-page.forqan-page-rtl li {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .root-frame {
+    background:
+      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
+      var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    color: var(--root-text);
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
+      var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-forms-card h2,
+  .root-toc h2 { margin-top: 0; }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .morph-card {
+    display: block;
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem;
+    background: var(--root-section);
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    color: var(--root-muted);
+    font-size: 0.88rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .morph-form {
+    font-weight: 800;
+    font-size: 1.18rem;
+    color: var(--root-accent-deep);
+    margin-bottom: 0.4rem;
+  }
+
+  .morph-note {
+    color: var(--root-muted);
+    margin-bottom: 0;
+    font-size: 0.95rem;
+  }
+
+  .translit {
+    color: var(--root-muted);
+    font-weight: 500;
+    font-size: 0.92em;
+  }
+
+  .root-note {
+    border-right: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+    margin: 1.25rem 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-note {
+    border-right: 0;
+    border-left: 3px solid var(--root-accent);
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol { padding-left: 0; }
+
+  .root-toc li {
+    margin: 0.28rem 0;
+    break-inside: avoid;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
+  }
+
+  .root-study-page p { margin: 0.85rem 0; }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0 0.65rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent),
+      var(--root-panel);
+    color: var(--root-text);
+    unicode-bidi: isolate;
+  }
+
+  .root-study-page .translation {
+    text-align: center !important;
+    color: var(--root-muted);
+    margin-top: 0.45rem;
+  }
+
+  .root-study-page .verse-ref {
+    text-align: center !important;
+    color: var(--root-accent-deep);
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+
+  .root-study-page .arabic-large {
+    font-size: 1.12em;
+    line-height: 2.15;
+    direction: rtl;
+    unicode-bidi: isolate;
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page { padding: 2rem 1rem; }
+    .root-frame { padding: 1.25rem; border-radius: 19px; }
+    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
+    .root-toc ol { columns: 1; }
+    .morphology-grid { grid-template-columns: 1fr; }
+    .arabic-quote { font-size: 1.24rem; }
+  }
+</style>
+
+
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">Qur'anic Root</div>
+      <h1>The Qur'anic Root B Y N</h1>
+      <p class="root-subtitle">Separation, the space between things, clarification of boundaries, and making meaning clear through distinction</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>Morphological forms of this root</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#root-meaning"><div class="morph-card-header"><div class="morph-type">Root</div><div class="morph-used">Foundational meaning</div></div><div class="morph-form">ب ي ن <span class="translit">(b y n)</span></div><p class="morph-note">Separation, distance, being between, and the boundary between things becoming clear.</p></a>
+        <a class="morph-card" href="#forms"><div class="morph-card-header"><div class="morph-type">Noun and verbal noun</div><div class="morph-used">Clarification</div></div><div class="morph-form">بَيْن / بَيَان / بَيِّنَة / بَيِّنَات <span class="translit">(bayn / bayān / bayyinah / bayyināt)</span></div><p class="morph-note">Between, clarification, clear proof, and clear signs that bring truth out of ambiguity.</p></a>
+        <a class="morph-card" href="#messenger-clarification"><div class="morph-card-header"><div class="morph-type">Forms II and V</div><div class="morph-used">Clarifying and becoming clear</div></div><div class="morph-form">يُبَيِّن / تَبْيِين / تَبَيُّن / تِبْيَان <span class="translit">(yubayyin / tabyīn / tabayyun / tibyān)</span></div><p class="morph-note">Clarifying the boundary of meaning, investigating until truth becomes clear, and comprehensive clarification.</p></a>
+        <a class="morph-card" href="#quran-mubin"><div class="morph-card-header"><div class="morph-type">Adjective</div><div class="morph-used">Clear and clarifying</div></div><div class="morph-form">مُبِين / الْمُبِين <span class="translit">(mubīn / al-mubīn)</span></div><p class="morph-note">Clear, manifest, clarifying, or making manifest, depending on the qualified noun and context.</p></a>
+      </div>
+    </section>
+
+    <p class="root-note">This article studies the root <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span>, a root connected in the Qur'an with the separation of boundaries, the clarity of proof, the clarification of revelation, the Clear Book, the Clear Conveyance, and the Manifest Truth.</p>
+
+    <nav class="root-toc" aria-label="Article section list">
+      <h2>Usage map of this root</h2>
+      <ol>
+        <li><a href="#root-meaning">Foundational Meaning</a></li>
+        <li><a href="#forms">Important Qur'anic Forms</a></li>
+        <li><a href="#core">Linguistic Core</a></li>
+        <li><a href="#material-image">Material Image of the Root</a></li>
+        <li><a href="#classical-usage">Classical Arabic Usage</a></li>
+        <li><a href="#rushd-ghayy">The Separation of Rushd from Ghayy</a></li>
+        <li><a href="#bayyinah">Bayyinah</a></li>
+        <li><a href="#bayan-divine">Bayan as Divine Clarification</a></li>
+        <li><a href="#messenger-clarification">The Messenger's Clarification and the Book's Tibyan</a></li>
+        <li><a href="#balagh-mubin">Al-Balagh al-Mubin</a></li>
+        <li><a href="#quran-mubin">The Qur'an and the Book as Mubin</a></li>
+        <li><a href="#arabic-lisan">An Arabic Tongue That Is Mubin</a></li>
+        <li><a href="#imam-mubin">Imam Mubin</a></li>
+        <li><a href="#negative-mubin">Mubin for Enmity and Misguidance</a></li>
+        <li><a href="#al-haqq-al-mubin">Al-Haqq al-Mubin</a></li>
+        <li><a href="#distinctions">Distinguishing the Uses</a></li>
+        <li><a href="#structure">Structural Notes</a></li>
+        <li><a href="#near-roots">Difference from Nearby Roots</a></li>
+        <li><a href="#translation-suggestions">Translation Suggestions for Forqan</a></li>
+        <li><a href="#summary">Linguistic Summary</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="root-meaning">
+      <h2>Foundational Meaning</h2>
+      <p>The root <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> is one of the very important roots of the Qur'an. Its first meaning goes back to separating, becoming distant, being between, becoming manifest through separation, and the boundary between things becoming clear. In this root, clarity is not merely light shining upon something; clarity means that something comes out of mixture and ambiguity, its boundary with another thing becomes known, and it is no longer confused with its opposite.</p>
+      <p>So <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> has two closely related layers: one is “between” and the distance between two things; the other is <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span>, clarification through separating boundaries. From here words such as <strong class="arabic-large">بين</strong> <span class="translit">(bayn)</span>, <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span>, <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span>, <strong class="arabic-large">تبيين</strong> <span class="translit">(tabyīn)</span>, <strong class="arabic-large">تبيّن</strong> <span class="translit">(tabayyun)</span>, <strong class="arabic-large">تبيان</strong> <span class="translit">(tibyān)</span>, and <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> are formed.</p>
+    </section>
+
+    <section class="root-section" id="forms">
+      <h2>Important Qur'anic Forms</h2>
+      <p>The important forms of this root in the Qur'an include <strong class="arabic-large">بين</strong> <span class="translit">(bayn)</span>, <strong class="arabic-large">بينكم</strong> <span class="translit">(baynakum)</span>, <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span>, <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span>, <strong class="arabic-large">بينات</strong> <span class="translit">(bayyināt)</span>, <strong class="arabic-large">يبيّن</strong> <span class="translit">(yubayyin)</span>, <strong class="arabic-large">تبيين</strong> <span class="translit">(tabyīn)</span>, <strong class="arabic-large">تبيّن</strong> <span class="translit">(tabayyun)</span>, <strong class="arabic-large">تبيان</strong> <span class="translit">(tibyān)</span>, <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>, and <strong class="arabic-large">المبين</strong> <span class="translit">(al-mubīn)</span>. <strong class="arabic-large">بين</strong> <span class="translit">(bayn)</span> points to distance, between-ness, relation, or the boundary between things. <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> is clarification of meaning. <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span> is clear proof, a clear sign, or a clear argument. <strong class="arabic-large">تبيين</strong> <span class="translit">(tabyīn)</span> is clarifying and opening the boundary of meaning. <strong class="arabic-large">تبيّن</strong> <span class="translit">(tabayyun)</span> is becoming clear or investigating until the truth becomes manifest. <strong class="arabic-large">تبيان</strong> <span class="translit">(tibyān)</span> is a stronger form of clarification and boundary-giving. <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> can mean “clear,” “manifest,” “clarifying,” or “making manifest,” depending on the context.</p>
+    </section>
+
+    <section class="root-section" id="core">
+      <h2>Linguistic Core</h2>
+      <p>The linguistic core of <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> is separation together with manifestation. When something is ambiguous, its boundaries are mixed together. When <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> occurs, things become separated from each other: truth from falsehood, <strong class="arabic-large">رشد</strong> <span class="translit">(rushd)</span> from <strong class="arabic-large">غي</strong> <span class="translit">(ghayy)</span>, guidance from misguidance, revelation from conjecture, and the clear message from confused speech.</p>
+    </section>
+
+    <section class="root-section" id="material-image">
+      <h2>Material Image of the Root</h2>
+      <p>The material image of this root is two things becoming distant from each other so that their boundary becomes known. As long as two colors, two paths, two sounds, or two meanings are mixed together, recognition is difficult. But when distance and boundary appear, each thing shows its own place. <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> does the same thing in language and understanding: it separates meaning from ambiguity.</p>
+    </section>
+
+    <section class="root-section" id="classical-usage">
+      <h2>Classical Arabic Usage</h2>
+      <p>In classical Arabic usage, <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> is connected to distance, separation, being between, becoming manifest, and making clear. From this same root, both the meaning of “between” and the meaning of “clarification” are formed. This connection is very important: <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> means making clear by separating boundaries. In the final version, if a reliable witness from pre-Islamic poetry or ancient Arabic usage is found, it can be added.</p>
+    </section>
+
+    <section class="root-section" id="rushd-ghayy">
+      <h2>The Separation of Rushd from Ghayy</h2>
+      <p>One foundational use of this root in the Qur'an is the separation of <strong class="arabic-large">رشد</strong> <span class="translit">(rushd)</span> from <strong class="arabic-large">غي</strong> <span class="translit">(ghayy)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لَا إِكْرَاهَ فِي الدِّينِ ۖ قَد تَّبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ</blockquote>
+      <p class="translation">There is no compulsion in religion; the boundary of right direction has become clear from misguidance.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-256' | relative_url }}">Al-Baqarah 2:256</a></p>
+      <p>In this verse, <strong class="arabic-large">تبيّن</strong> <span class="translit">(tabayyana)</span> means becoming clear after separation. <strong class="arabic-large">رشد</strong> <span class="translit">(rushd)</span> and <strong class="arabic-large">غي</strong> <span class="translit">(ghayy)</span> do not remain mixed together; their boundary has become manifest. For this reason, compulsion in religion is negated: when the path has become clear, the human response must arise from understanding and choice, not from force.</p>
+      <p>This verse is also directly connected to <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>. In the continuation of the same verse it says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَن يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِن بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَىٰ</blockquote>
+      <p class="translation">So whoever rejects the ṭāghūt and believes in The God has grasped the firmest handhold.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-256' | relative_url }}">Al-Baqarah 2:256</a></p>
+      <p><strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> works by confusing boundaries: the boundary between God and other-than-God, truth and power, revelation and tradition, justice and domination, servitude to The God and obedience to a false authority. <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span> and <strong class="arabic-large">تبيّن</strong> <span class="translit">(tabayyun)</span> stand against this ambiguity. Once <strong class="arabic-large">رشد</strong> <span class="translit">(rushd)</span> has become clear from <strong class="arabic-large">غي</strong> <span class="translit">(ghayy)</span>, <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> can no longer seat itself in the place of truth, except for one who turns away from clarity.</p>
+    </section>
+
+    <section class="root-section" id="bayyinah">
+      <h2>Bayyinah</h2>
+      <p>The second field is <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَدْ جَاءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ</blockquote>
+      <p class="translation">A clear proof from your Lord has certainly come to you.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/007-al-araf/#ayah-073' | relative_url }}">Al-A'raf 7:73</a></p>
+      <p><strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span> is a clear sign or clear proof; something that brings truth out of ambiguity and makes the argument manifest. <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span> is not merely information; it is the clarity of proof. For this reason, after a <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span> has come, human responsibility becomes heavier.</p>
+      <p>In another verse it says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لِيَهْلِكَ مَنْ هَلَكَ عَن بَيِّنَةٍ وَيَحْيَىٰ مَنْ حَيَّ عَن بَيِّنَةٍ</blockquote>
+      <p class="translation">So that whoever perishes may perish upon clear proof, and whoever lives may live upon clear proof.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/008-al-anfal/#ayah-042' | relative_url }}">Al-Anfal 8:42</a></p>
+      <p>Here, <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span> is the measure of responsibility. The human being should not be judged in darkness and ambiguity; the proof must become clear. <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span> brings the space out of a foggy state so that human choice becomes meaningful.</p>
+    </section>
+
+    <section class="root-section" id="bayan-divine">
+      <h2>Bayan as Divine Clarification</h2>
+      <p>The third field is <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> as divine clarification:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">هَٰذَا بَيَانٌ لِّلنَّاسِ وَهُدًى وَمَوْعِظَةٌ لِّلْمُتَّقِينَ</blockquote>
+      <p class="translation">This is a clarification for the people, and guidance and admonition for the people of taqwā.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/003-al-imran/#ayah-138' | relative_url }}">Al-Imran 3:138</a></p>
+      <p>In this verse, the Qur'an is <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span>: speech that clarifies reality, shows boundaries, and brings the human being out of ambiguity. The clarification is for all people, but its effect as guidance and admonition becomes more complete in the people of <strong class="arabic-large">تقوى</strong> <span class="translit">(taqwā)</span>.</p>
+    </section>
+
+    <section class="root-section" id="messenger-clarification">
+      <h2>The Messenger's Clarification and the Book's Tibyan</h2>
+      <p>The fourth field is <strong class="arabic-large">تبيين</strong> <span class="translit">(tabyīn)</span> as the duty of the Messenger and the work of revelation:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ</blockquote>
+      <p class="translation">And We sent down the Reminder to you so that you may clarify for the people what has been sent down to them.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/016-an-nahl/#ayah-044' | relative_url }}">An-Nahl 16:44</a></p>
+      <p>This verse is very important. The Messenger’s <strong class="arabic-large">تبيين</strong> <span class="translit">(tabyīn)</span> is connected to <strong class="arabic-large">ما نزل إليهم</strong> <span class="translit">(mā nuzzila ilayhim)</span>; that is, clarifying the very thing that was sent down. <strong class="arabic-large">تبيين</strong> <span class="translit">(tabyīn)</span> here is not creating a parallel religion, an independent law, or a rival source beside revelation; it is the clarification of the message sent down for the people.</p>
+      <p>In the same surah it says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ</blockquote>
+      <p class="translation">And We sent down the Book upon you as a clarification for every thing.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/016-an-nahl/#ayah-089' | relative_url }}">An-Nahl 16:89</a></p>
+      <p>Here, the Book itself is <strong class="arabic-large">تبيان</strong> <span class="translit">(tibyān)</span>. This point must be preserved when understanding the Messenger’s <strong class="arabic-large">تبيين</strong> <span class="translit">(tabyīn)</span>: the Messenger clarifies, but his clarification is not separate from the Book and not against the Book. The revealed Book itself is <strong class="arabic-large">تبيان</strong> <span class="translit">(tibyān)</span>, and the Messenger’s mission is to deliver, express, and clarify that same message.</p>
+    </section>
+
+    <section class="root-section" id="balagh-mubin">
+      <h2>Al-Balagh al-Mubin</h2>
+      <p>The fifth field is <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَهَلْ عَلَى الرُّسُلِ إِلَّا الْبَلَاغُ الْمُبِينُ</blockquote>
+      <p class="translation">So is anything upon the messengers except delivering the Mubin?</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/016-an-nahl/#ayah-035' | relative_url }}">An-Nahl 16:35</a></p>
+      <p>And also:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ</blockquote>
+      <p class="translation">And nothing is upon the Messenger except delivering the Mubin.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/024-an-nur/#ayah-054' | relative_url }}">An-Nur 24:54</a></p>
+      <p>In common translation, <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span> is usually rendered “clear delivery” or “manifest conveyance.” This translation is understandable from the simple grammatical angle, because <strong class="arabic-large">المبين</strong> <span class="translit">(al-mubīn)</span> can be an adjective of <strong class="arabic-large">البلاغ</strong> <span class="translit">(al-balāgh)</span>. But in the Forqan method, considering that the Qur'an repeatedly introduces itself as <strong class="arabic-large">كتاب مبين</strong> <span class="translit">(kitāb mubīn)</span> and <strong class="arabic-large">قرآن مبين</strong> <span class="translit">(qur'ān mubīn)</span>, <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span> can be read more closely and more deeply as: “delivering that Mubin.”</p>
+      <p>In this reading, <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> points to the revealed message itself: the Clear Book, the Clear Qur'an, the Criterion, and the Reminder. Therefore the duty of the Messenger is to deliver that Mubin, not to produce an independent authority outside revelation. The Messenger, in the station of messengership, carries and delivers the message of The God; obedience to the Messenger in this station is obedience to the clear message he delivered.</p>
+      <p>This point is very important for understanding the verses <strong class="arabic-large">أطيعوا الله وأطيعوا الرسول</strong> <span class="translit">(aṭīʿū Allāh wa-aṭīʿū al-rasūl)</span>. If the Messenger is commanded to deliver that Mubin, then obedience to the Messenger in the path of messengership returns to obedience to revelation, the Qur'an, the Criterion, and the clear divine message. Using these verses to seat later, scattered, and conjectural reports beside the Qur'an or above the Qur'an is not compatible with the meaning of <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span>. For a more detailed discussion, the Forqan article “Obeying the Messenger and Hadith Authority” should be included as an internal reference:</p>
+      <p><a href="{{ '/en/articles/obeying-the-messenger-and-hadith-authority/' | relative_url }}">Obeying the Messenger and Hadith Authority</a></p>
+    </section>
+
+    <section class="root-section" id="quran-mubin">
+      <h2>The Qur'an and the Book as Mubin</h2>
+      <p>The sixth field is the Qur'an and the Book as <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">تِلْكَ آيَاتُ الْكِتَابِ وَقُرْآنٍ مُّبِينٍ</blockquote>
+      <p class="translation">These are the signs of the Book and a clear and clarifying Qur'an.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/015-al-hijr/#ayah-001' | relative_url }}">Al-Hijr 15:1</a></p>
+      <p>And also:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ</blockquote>
+      <p class="translation">These are the signs of the Clear Book.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/012-yusuf/#ayah-001' | relative_url }}">Yusuf 12:1</a></p>
+      <p>In these verses, the Qur'an and the Book carry the description <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>. Here, <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> can mean both “clear” and “clarifying.” The Qur'an is clear because it does not hide itself in sealed ambiguity; and it is clarifying because it separates truth from falsehood.</p>
+      <p>There are many similar verses: An-Naml 27:1, Ash-Shuʿara 26:2, Al-Qasas 28:2, Ya-Sin 36:69, Ad-Dukhan 44:2, and Az-Zukhruf 43:2. This repetition shows that <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> is one of the central descriptions of the Qur'an and the Book.</p>
+    </section>
+
+    <section class="root-section" id="arabic-lisan">
+      <h2>An Arabic Tongue That Is Mubin</h2>
+      <p>The seventh field is an Arabic tongue that is <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">بِلِسَانٍ عَرَبِيٍّ مُّبِينٍ</blockquote>
+      <p class="translation">In an Arabic tongue that is clear and clarifying.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/026-ash-shuara/#ayah-195' | relative_url }}">Ash-Shu'ara 26:195</a></p>
+      <p>The language of revelation is <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>; that is, a language that has the capacity to clarify and to carry the message in a form that is understandable and manifest. This verse should not be turned into ethnic superiority for Arabs; the point is the capacity of the language carrying revelation in that station, not a racial privilege.</p>
+    </section>
+
+    <section class="root-section" id="imam-mubin">
+      <h2>Imam Mubin</h2>
+      <p>The eighth field is <strong class="arabic-large">إمام مبين</strong> <span class="translit">(imām mubīn)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَكُلَّ شَيْءٍ أَحْصَيْنَاهُ فِي إِمَامٍ مُّبِينٍ</blockquote>
+      <p class="translation">And every thing We have enumerated in a clear and clarifying imām.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/036-ya-sin/#ayah-012' | relative_url }}">Ya-Sin 36:12</a></p>
+      <p>In this verse, <strong class="arabic-large">إمام مبين</strong> <span class="translit">(imām mubīn)</span> points to a manifest reference of recording, enumeration, or clear leading. It should not be reduced without evidence to a particular historical person unless there is sufficient Qur'anic proof. At the level of the root, <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> means something clear, manifest, and indicating.</p>
+    </section>
+
+    <section class="root-section" id="negative-mubin">
+      <h2>Mubin for Enmity and Misguidance</h2>
+      <p>The ninth field is that <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> also comes for misguidance, enmity, and error:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّ الشَّيْطَانَ لَكُمْ عَدُوٌّ مُّبِينٌ</blockquote>
+      <p class="translation">Indeed, Satan is for you a manifest enemy.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-168' | relative_url }}">Al-Baqarah 2:168</a></p>
+      <p>And:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِنْ أَنتُمْ إِلَّا فِي ضَلَالٍ مُّبِينٍ</blockquote>
+      <p class="translation">You are only in manifest misguidance.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/036-ya-sin/#ayah-047' | relative_url }}">Ya-Sin 36:47</a></p>
+      <p>Here, <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> does not have the positive meaning of clarifying truth; rather, it means manifest, clear, unveiled. So <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> is not always a sacred adjective. Depending on what it qualifies, it can be the clarification of truth or the manifestness of enmity and misguidance.</p>
+    </section>
+
+    <section class="root-section" id="al-haqq-al-mubin">
+      <h2>Al-Haqq al-Mubin</h2>
+      <p>Now one must speak carefully about <strong class="arabic-large">المبين</strong> <span class="translit">(al-mubīn)</span>. In some famous lists of the Beautiful Names, <strong class="arabic-large">المبين</strong> <span class="translit">(al-mubīn)</span> is brought as one of the names of The God. But from a Qur'anic perspective, precision is necessary. The Qur'an repeatedly describes the Book, the Qur'an, the conveyance, the tongue, the warner, the enemy, misguidance, and other matters with the description <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>. Regarding The God, the main expression is:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَيَعْلَمُونَ أَنَّ اللَّهَ هُوَ الْحَقُّ الْمُبِينُ</blockquote>
+      <p class="translation">And they will know that The God is the Manifest Truth.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/024-an-nur/#ayah-025' | relative_url }}">An-Nur 24:25</a></p>
+      <p>In this verse, <strong class="arabic-large">المبين</strong> <span class="translit">(al-mubīn)</span> comes as a description of <strong class="arabic-large">الحق</strong> <span class="translit">(al-ḥaqq)</span>: <strong class="arabic-large">الله هو الحق المبين</strong> <span class="translit">(Allāh huwa al-ḥaqq al-mubīn)</span>. That is, The God is the manifest and manifesting Truth. This verse clearly states <strong class="arabic-large">الحق المبين</strong> <span class="translit">(al-ḥaqq al-mubīn)</span>, but extracting <strong class="arabic-large">المبين</strong> <span class="translit">(al-mubīn)</span> separately and independently as a divine name requires caution. The Qur'an does not independently say <strong class="arabic-large">الله هو المبين</strong> <span class="translit">(Allāh huwa al-mubīn)</span>. The Qur'anic expression is that The God is <strong class="arabic-large">الحق المبين</strong> <span class="translit">(al-ḥaqq al-mubīn)</span>.</p>
+      <p>From a perspective of divine transcendence, this difference is important. The God is absolute Truth, and His being the Truth is manifest and manifesting. But <strong class="arabic-large">المبين</strong> <span class="translit">(al-mubīn)</span> in the Qur'an appears more prominently and repeatedly as a description of the Qur'an, the Book, and the conveyance of messengership. If <strong class="arabic-large">المبين</strong> <span class="translit">(al-mubīn)</span> is taken without qualification and cut off from context as an independent name of The God, the boundary between Qur'anic description, divine name, and the function of revelation becomes ambiguous. It is better in the work of Forqan to say: <strong class="arabic-large">الحق المبين</strong> <span class="translit">(al-ḥaqq al-mubīn)</span> is the Qur'anic description of The God, while <strong class="arabic-large">كتاب مبين</strong> <span class="translit">(kitāb mubīn)</span>, <strong class="arabic-large">قرآن مبين</strong> <span class="translit">(qur'ān mubīn)</span>, and <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span> are central descriptions and names of revelation and messengership.</p>
+    </section>
+
+    <section class="root-section" id="distinctions">
+      <h2>Distinguishing the Uses</h2>
+      <p>One must distinguish between the uses of <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span>. <strong class="arabic-large">بين</strong> <span class="translit">(bayn)</span> can point to distance, between-ness, and relation. <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> is clarification of meaning. <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span> is a clear proof or clear sign. <strong class="arabic-large">تبيين</strong> <span class="translit">(tabyīn)</span> is the act of clarifying and separating the boundary of meaning. <strong class="arabic-large">تبيّن</strong> <span class="translit">(tabayyun)</span> is the act of investigation and truth becoming clear. <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> is sometimes clear, sometimes clarifying, and sometimes making manifest. <strong class="arabic-large">كتاب مبين</strong> <span class="translit">(kitāb mubīn)</span> and <strong class="arabic-large">قرآن مبين</strong> <span class="translit">(qur'ān mubīn)</span> are both clear and clarifying. <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span> in the Forqan method is “delivering that Mubin.” <strong class="arabic-large">عدو مبين</strong> <span class="translit">(ʿaduww mubīn)</span> is a manifest enemy. <strong class="arabic-large">ضلال مبين</strong> <span class="translit">(ḍalāl mubīn)</span> is manifest misguidance. <strong class="arabic-large">الحق المبين</strong> <span class="translit">(al-ḥaqq al-mubīn)</span> is the manifest and manifesting Truth.</p>
+    </section>
+
+    <section class="root-section" id="structure">
+      <h2>Structural Notes</h2>
+      <p>Structurally, <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> must always be brought back to the noun it qualifies and to its context. When we say <strong class="arabic-large">كتاب مبين</strong> <span class="translit">(kitāb mubīn)</span>, <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> is a description of the Book. When we say <strong class="arabic-large">قرآن مبين</strong> <span class="translit">(qur'ān mubīn)</span>, <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> is a description of the Qur'an. When we say <strong class="arabic-large">عدو مبين</strong> <span class="translit">(ʿaduww mubīn)</span>, <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> is a description of manifest enmity. When we say <strong class="arabic-large">الحق المبين</strong> <span class="translit">(al-ḥaqq al-mubīn)</span>, <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> is a description of the Truth. And when we say <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span>, in the Forqan method it can be understood as delivering that same Mubin: delivering the clear and clarifying Book/Qur'an/Criterion.</p>
+    </section>
+
+    <section class="root-section" id="near-roots">
+      <h2>Difference from Nearby Roots</h2>
+      <p><strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> differs from several nearby roots. <strong class="arabic-large">نور</strong> <span class="translit">(nūr)</span> illuminates the space so that things may be seen; but <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> clarifies the boundary between things so that they may be distinguished from each other. <strong class="arabic-large">ظهر</strong> <span class="translit">(ẓahara)</span> is close to becoming apparent and appearing; but <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> emphasizes becoming clear through separation and distinction. <strong class="arabic-large">وضح</strong> <span class="translit">(waḍaḥa)</span> is close to clarity and being clear; <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> is more active and opens the boundary of meaning. <strong class="arabic-large">فصل</strong> <span class="translit">(faṣl)</span> points to separating and cutting between matters; <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> also contains separation, but it is more closely connected to making meaning manifest. <strong class="arabic-large">فرقان</strong> <span class="translit">(furqān)</span> is also connected to separating truth from falsehood; <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> is clarification, and <strong class="arabic-large">فرقان</strong> <span class="translit">(furqān)</span> is the criterion of separation. <strong class="arabic-large">شرح</strong> <span class="translit">(sharḥ)</span> is opening and expanding; <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> is clarifying and setting the boundary of meaning. <strong class="arabic-large">كشف</strong> <span class="translit">(kashf)</span> is removing a covering; <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> is making meaning and proof manifest.</p>
+    </section>
+
+    <section class="root-section" id="translation-suggestions">
+      <h2>Translation Suggestions for Forqan</h2>
+      <p>For translation in Forqan, <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> must be translated according to context. <strong class="arabic-large">بين</strong> <span class="translit">(bayn)</span> can be “between,” “among,” “in between,” “the boundary between,” or “the relation between.” <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> is “clarification,” “making clear,” or “clarifying speech.” <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span> is better translated as “clear proof,” “clear sign,” or “clear argument.” <strong class="arabic-large">تبيين</strong> <span class="translit">(tabyīn)</span> is “clarifying,” “making manifest,” or “making the boundary of meaning clear.” <strong class="arabic-large">تبيّن</strong> <span class="translit">(tabayyun)</span> is “becoming clear,” “investigating until the truth becomes clear,” or “verification.” <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span>, depending on context, is “clear,” “manifest,” “clarifying,” or “making manifest.” <strong class="arabic-large">كتاب مبين</strong> <span class="translit">(kitāb mubīn)</span> is “the Clear Book” or “the clear and clarifying Book.” <strong class="arabic-large">قرآن مبين</strong> <span class="translit">(qur'ān mubīn)</span> is “the Clear Qur'an” or “the clear and clarifying Qur'an.” <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span> in the Forqan method is better translated as “delivering that Mubin.” <strong class="arabic-large">الحق المبين</strong> <span class="translit">(al-ḥaqq al-mubīn)</span> regarding The God is better translated as “the Manifest Truth” or “the manifest and manifesting Truth,” rather than carelessly extracting from it an independent name.</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>Linguistic Summary</h2>
+      <p>Linguistic summary: the root <strong class="arabic-large">ب ي ن</strong> <span class="translit">(b y n)</span> points to distance, separation, becoming manifest, making clear, and separating the boundary of meaning. Its material image is two things separating and the distance between them becoming manifest. In the Qur'an, this root extends from <strong class="arabic-large">بين</strong> <span class="translit">(bayn)</span> and <strong class="arabic-large">بيان</strong> <span class="translit">(bayān)</span> to <strong class="arabic-large">بيّنة</strong> <span class="translit">(bayyinah)</span> and <strong class="arabic-large">تبيين</strong> <span class="translit">(tabyīn)</span>, from <strong class="arabic-large">كتاب مبين</strong> <span class="translit">(kitāb mubīn)</span> and <strong class="arabic-large">قرآن مبين</strong> <span class="translit">(qur'ān mubīn)</span> to <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span>, and from <strong class="arabic-large">عدو مبين</strong> <span class="translit">(ʿaduww mubīn)</span> to <strong class="arabic-large">الحق المبين</strong> <span class="translit">(al-ḥaqq al-mubīn)</span>. <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> in the Qur'an is one of the central descriptions of the Qur'an, the Book, and the delivered message. Regarding The God, the Qur'anic expression is <strong class="arabic-large">الحق المبين</strong> <span class="translit">(al-ḥaqq al-mubīn)</span>; that is, The God is the Manifest Truth. Therefore, in the Forqan method, <strong class="arabic-large">مبين</strong> <span class="translit">(mubīn)</span> must be understood from its context; and in the verses of messengership, <strong class="arabic-large">البلاغ المبين</strong> <span class="translit">(al-balāgh al-mubīn)</span> must return us to delivering that Mubin, meaning the clear message of revelation, not to an endless authority of reports outside the Qur'an.</p>
+    </section>
+  </div>
+</div>
+
