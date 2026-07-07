@@ -1,0 +1,500 @@
+---
+layout: default
+title: ریشه قرآنی ب ل غ
+permalink: /quran-terminology/fa/roots/b-l-gh/
+---
+<style>
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark-theme .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page,
+  .theme-dark .root-study-page,
+  .forqan-theme-dark .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-study-page * { box-sizing: border-box; }
+
+  .root-study-page.forqan-page-rtl,
+  .root-study-page.forqan-page-rtl h1,
+  .root-study-page.forqan-page-rtl h2,
+  .root-study-page.forqan-page-rtl h3,
+  .root-study-page.forqan-page-rtl p,
+  .root-study-page.forqan-page-rtl li {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .root-frame {
+    background:
+      radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%),
+      var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero {
+    border-bottom: 1px solid var(--root-border-soft);
+    padding-bottom: 1.65rem;
+    margin-bottom: 2rem;
+  }
+
+  .root-kicker {
+    color: var(--root-accent-deep);
+    font-size: 0.96rem;
+    font-weight: 800;
+    margin-bottom: 0.45rem;
+  }
+
+  .root-study-page h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.05rem);
+    line-height: 1.4;
+    color: var(--root-text);
+  }
+
+  .root-subtitle {
+    color: var(--root-muted);
+    max-width: 780px;
+    margin: 1rem 0 0;
+    font-size: 1.04rem;
+  }
+
+  .root-forms-card,
+  .root-toc {
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent 82%),
+      var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-forms-card h2,
+  .root-toc h2 { margin-top: 0; }
+
+  .morphology-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .morph-card {
+    display: block;
+    border: 1px solid var(--root-border-soft);
+    border-radius: 16px;
+    padding: 1rem;
+    background: var(--root-section);
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .morph-card-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    color: var(--root-muted);
+    font-size: 0.88rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .morph-form {
+    font-weight: 800;
+    font-size: 1.18rem;
+    color: var(--root-accent-deep);
+    margin-bottom: 0.4rem;
+  }
+
+  .morph-note {
+    color: var(--root-muted);
+    margin-bottom: 0;
+    font-size: 0.95rem;
+  }
+
+  .translit {
+    color: var(--root-muted);
+    font-weight: 500;
+    font-size: 0.92em;
+  }
+
+  .root-note {
+    border-right: 3px solid var(--root-accent);
+    padding: 0.9rem 1rem;
+    background: var(--root-accent-soft);
+    border-radius: 14px;
+    color: var(--root-muted);
+    margin: 1.25rem 0;
+  }
+
+  .root-study-page.forqan-page-ltr .root-note {
+    border-right: 0;
+    border-left: 3px solid var(--root-accent);
+  }
+
+  .root-toc ol {
+    list-style-position: inside;
+    padding-right: 0;
+    margin: 0.75rem 0 0;
+    columns: 2;
+    column-gap: 2rem;
+  }
+
+  .root-study-page.forqan-page-ltr .root-toc ol { padding-left: 0; }
+
+  .root-toc li {
+    margin: 0.28rem 0;
+    break-inside: avoid;
+  }
+
+  .root-section {
+    background: var(--root-section);
+    border: 1px solid var(--root-border-soft);
+    border-radius: 18px;
+    padding: 1.5rem 1.6rem;
+    margin: 1.55rem 0;
+  }
+
+  .root-section h2 {
+    margin: 0 0 1rem;
+    color: var(--root-text);
+    font-size: 1.35rem;
+    line-height: 1.6;
+  }
+
+  .root-section h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 999px;
+    background: var(--root-accent);
+    margin-left: 0.55rem;
+    vertical-align: 0.08em;
+  }
+
+  .root-study-page.forqan-page-ltr .root-section h2::before {
+    margin-left: 0;
+    margin-right: 0.55rem;
+  }
+
+  .root-study-page p { margin: 0.85rem 0; }
+
+  .root-study-page a {
+    color: var(--root-accent-deep);
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+  }
+
+  .arabic-quote {
+    direction: rtl;
+    text-align: center;
+    font-size: 1.48rem;
+    line-height: 2.5;
+    margin: 1.4rem 0 0.65rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--root-border);
+    border-radius: 18px;
+    background:
+      linear-gradient(180deg, var(--root-accent-soft), transparent),
+      var(--root-panel);
+    color: var(--root-text);
+    unicode-bidi: isolate;
+  }
+
+  .root-study-page .translation {
+    text-align: center !important;
+    color: var(--root-muted);
+    margin-top: 0.45rem;
+  }
+
+  .root-study-page .verse-ref {
+    text-align: center !important;
+    color: var(--root-accent-deep);
+    font-weight: 700;
+    margin-top: 0.25rem;
+  }
+
+  .root-study-page .arabic-large {
+    font-size: 1.12em;
+    line-height: 2.15;
+    direction: rtl;
+    unicode-bidi: isolate;
+  }
+
+  @media (max-width: 760px) {
+    .root-study-page { padding: 2rem 1rem; }
+    .root-frame { padding: 1.25rem; border-radius: 19px; }
+    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
+    .root-toc ol { columns: 1; }
+    .morphology-grid { grid-template-columns: 1fr; }
+    .arabic-quote { font-size: 1.24rem; }
+  }
+</style>
+<div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">ریشه قرآنی</div>
+      <h1>ریشه قرآنی ب ل غ</h1>
+      <p class="root-subtitle">رسیدن، به حد رسیدن، و رساندن پیام تا مقصد و اتمام حجت</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>صورت‌های صرفی این ریشه</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#root-meaning"><div class="morph-card-header"><div class="morph-type">ریشه</div><div class="morph-used">معنای بنیادین</div></div><div class="morph-form">ب ل غ</div><p class="morph-note">رسیدن، به حد رسیدن، کامل شدن مسیر، و رساندن چیزی به مقصد دریافت یا تحقق.</p></a>
+        <a class="morph-card" href="#maturity-responsibility"><div class="morph-card-header"><div class="morph-type">فعل</div><div class="morph-used">رسیدن به حد</div></div><div class="morph-form">بَلَغَ / يَبْلُغُ</div><p class="morph-note">رسیدن به مکان، زمان، مرحله، سن، رشد، مرگ یا حد مسئولیت.</p></a>
+        <a class="morph-card" href="#message-mission"><div class="morph-card-header"><div class="morph-type">باب تفعیل و إفعال</div><div class="morph-used">رساندن پیام</div></div><div class="morph-form">بَلِّغْ / أُبَلِّغُ / أَبْلَغُوا</div><p class="morph-note">رساندن وحی، رسالت‌ها و پیام پروردگار تا جایگاه دریافت و اتمام حجت.</p></a>
+        <a class="morph-card" href="#balagh-mubin"><div class="morph-card-header"><div class="morph-type">اسم و وصف</div><div class="morph-used">بلاغ و تمامیت</div></div><div class="morph-form">بَلَاغ / بَالِغ / بَالِغَة</div><p class="morph-note">رساندن، پیام رسانده‌شده، رسیده، کامل، و حجتی که به حد تمامیت رسیده است.</p></a>
+      </div>
+    </section>
+
+    <p class="root-note">در این مدخل، ب ل غ در پیوند با ب ي ن فهمیده می‌شود: بيان مرز معنا را روشن می‌کند؛ بلاغ آن پیام روشن و مرزبندی‌شده را تا مقصد و مخاطب می‌رساند.</p>
+
+    <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
+      <h2>فهرست کاربردهای این ریشه</h2>
+      <ol>
+        <li><a href="#root-meaning">معنای بنیادین</a></li><li><a href="#spatial-reaching">رسیدن مکانی</a></li><li><a href="#maturity-responsibility">رسیدن به سن، رشد و حد مسئولیت</a></li><li><a href="#divine-command">رسیدن امر یا تقدیر به نهایت</a></li><li><a href="#death-boundary">رسیدن به مرز مرگ</a></li><li><a href="#message-mission">بلاغ پیام و رسالت</a></li><li><a href="#earlier-messengers">بلاغ رسولان پیشین</a></li><li><a href="#witnessing-delivery">شاهد بودن خدا بر ابلاغ رسالت‌ها</a></li><li><a href="#balagh-as-message">بلاغ به عنوان پیام و اتمام حجت</a></li><li><a href="#balagh-mubin">البلاغ المبين</a></li><li><a href="#responsibility-limits">بلاغ در برابر مسئولیت مردم</a></li><li><a href="#obedience">بلاغ و اطاعت</a></li><li><a href="#distinctions">تفکیک کاربردها</a></li><li><a href="#structure">نکات ساختاری</a></li><li><a href="#near-roots">تفاوت با ریشه‌های نزدیک</a></li><li><a href="#translation-suggestions">پیشنهادهای ترجمه برای فرقان</a></li><li><a href="#summary">جمع‌بندی زبانی</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="root-meaning">
+      <h2>معنای بنیادین</h2>
+      <p>ریشه ب ل غ در اصل به رسیدن، به مقصد رسیدن، به حد رسیدن، کامل شدن مسیر، و رساندن چیزی به جایگاه دریافت یا تحقق دلالت دارد. در این ریشه، حرکت یا فرایندی وجود دارد که تا نقطه‌ای پیش می‌رود و به حد، مقصد، مرحله، گوش، قلب، زمان، بلوغ، یا نتیجه خود می‌رسد.</p>
+      <p>ب ل غ با ب ي ن ارتباط نزدیک دارد، اما یکی نیست. ب ي ن مرز را روشن می‌کند و معنا را از ابهام جدا می‌سازد. ب ل غ پیام یا حرکت را به مقصد می‌رساند. پس بيان روشنی و مرزبخشی است؛ بلاغ رساندنِ پیامِ مرزبندی‌شده تا نقطه دریافت و اتمام حجت است. وقتی این دو کنار هم می‌آیند، مانند «البلاغ المبين»، در روش فرقان سخن از «رساندن آن مبین» است؛ یعنی رساندن کتاب/قرآن/فرقان/مبین.</p>
+      <p>صورت‌های مهم این ریشه در قرآن شامل بلغ، يبلغ، بلغوا، بلغت، بلّغ، أبلغ، أبلغكم، بلاغ، بالغ، بالغة و مبلغ است. بلغ در اصل یعنی رسید. وقتی درباره سن، حد، مکان، زمان یا مرحله‌ای بیاید، معنای رسیدن به آن حد یا مقصد را دارد. وقتی درباره پیام و رسالت بیاید، معنای رساندن و ابلاغ کردن پیدا می‌کند. بلاغ نام رساندن، پیام رسانده‌شده، یا اتمام رساندن است. بالغ یعنی رسنده، رسیده، کامل یا به مقصد رسیده. بالغة می‌تواند به چیزی کامل، رسنده و تمام‌حجت اشاره کند.</p>
+      <p>هسته زبانی ب ل غ، رسیدن به حد یا رساندن به مقصد است. گاهی انسان به مرحله رشد و مسئولیت می‌رسد. گاهی پیام به مخاطب می‌رسد. گاهی امر الهی به تحقق خود می‌رسد. گاهی جان به مرز خروج می‌رسد. گاهی سخن چنان می‌رسد که دیگر عذر ابهام باقی نمی‌ماند.</p>
+      <p>تصویر مادی این ریشه، مسافری است که راه را طی می‌کند و به منزل می‌رسد؛ یا میوه‌ای که از نارس بودن عبور می‌کند و به رسیدگی می‌رسد؛ یا پیامی که از فرستنده جدا می‌شود، مسیر را می‌پیماید، و به گیرنده می‌رسد. تا وقتی پیام به مقصد نرسیده، بلاغ کامل نشده است. بلاغ یعنی رساندن تا جایی که پیام در موضع دریافت قرار گیرد.</p>
+      <p>در کاربرد عربی کلاسیک، ب ل غ با رسیدن به مقصد، رسیدن به حد، کامل شدن، بلوغ جسمی یا عقلی، و رساندن خبر یا پیام پیوند دارد. این ریشه هم در حرکت مادی کاربرد دارد و هم در رساندن کلام، خبر، فرمان و رسالت. در نسخه نهایی، اگر شاهد معتبر از شعر جاهلی یا کاربرد کهن عربی پیدا شود، می‌توان آن را افزود.</p>
+    </section>
+
+    <section class="root-section" id="spatial-reaching">
+      <h2>رسیدن مکانی</h2>
+      <p>یکی از میدان‌های روشن این ریشه، رسیدن مکانی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَلَمَّا بَلَغَا مَجْمَعَ بَيْنِهِمَا نَسِيَا حُوتَهُمَا</blockquote>
+      <p class="translation">پس چون آن دو به محل پیوند میان دو دریا رسیدند، ماهی خود را فراموش کردند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/018-al-kahf/#ayah-061' | relative_url }}">الكهف ۱۸:۶۱</a></p>
+      <p>اینجا بلغ به رسیدن مکانی اشاره دارد. موسی و همراهش مسیر را طی می‌کنند تا به نقطه‌ای مشخص برسند. این کاربرد ساده، هسته ریشه را نشان می‌دهد: حرکت تا مقصد.</p>
+      <p>در همان سوره آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">حَتَّىٰ إِذَا بَلَغَ مَغْرِبَ الشَّمْسِ</blockquote>
+      <p class="translation">تا هنگامی که به مغرب خورشید رسید.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/018-al-kahf/#ayah-086' | relative_url }}">الكهف ۱۸:۸۶</a></p>
+      <p>و:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">حَتَّىٰ إِذَا بَلَغَ مَطْلِعَ الشَّمْسِ</blockquote>
+      <p class="translation">تا هنگامی که به مطلع خورشید رسید.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/018-al-kahf/#ayah-090' | relative_url }}">الكهف ۱۸:۹۰</a></p>
+      <p>در این آیات نیز بلغ رسیدن به نقطه‌ای در سفر و حرکت است. همین لایه مادی در معنای رسالت نیز مهم می‌شود: پیام باید به مقصد خود برسد.</p>
+    </section>
+
+    <section class="root-section" id="maturity-responsibility">
+      <h2>رسیدن به سن، رشد و حد مسئولیت</h2>
+      <p>میدان دوم، رسیدن به سن، رشد و حد مسئولیت است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَا تَقْرَبُوا مَالَ الْيَتِيمِ إِلَّا بِالَّتِي هِيَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُ</blockquote>
+      <p class="translation">و به مال یتیم نزدیک نشوید مگر به بهترین شیوه، تا آنکه به استواری خود برسد.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/006-al-anam/#ayah-152' | relative_url }}">الأنعام ۶:۱۵۲</a></p>
+      <p>در این آیه، يبلغ أشده یعنی شخص به مرحله استواری، قدرت، رشد و توان مسئولیت برسد. بلوغ در این سیاق فقط نشانه بدنی نیست؛ رسیدن به حدی از قوت و پختگی است که حقوق انسان دیگر نباید در دست سرپرست باقی بماند.</p>
+      <p>در سوره نساء آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَابْتَلُوا الْيَتَامَىٰ حَتَّىٰ إِذَا بَلَغُوا النِّكَاحَ فَإِنْ آنَسْتُم مِّنْهُمْ رُشْدًا فَادْفَعُوا إِلَيْهِمْ أَمْوَالَهُمْ</blockquote>
+      <p class="translation">و یتیمان را بیازمایید تا هنگامی که به نکاح برسند؛ پس اگر در آنان رشدی یافتید، اموالشان را به آنان بسپارید.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/004-an-nisa/#ayah-006' | relative_url }}">النساء ۴:۶</a></p>
+      <p>این آیه برای فهم ب ل غ بسیار مهم است. قرآن نمی‌گوید فقط بدن به مرحله‌ای برسد؛ بلکه رسیدن به نکاح را با آزمودن و مشاهده رشد همراه می‌کند. «بلغوا النكاح» یعنی به آستانه‌ای برسند که نکاح برای آنان موضوعیت پیدا کند، اما سپردن حق مالی نیز مشروط به مشاهده رشد است.</p>
+      <p>در این آیه، سه عنصر کنار هم آمده است: رسیدن به حد، آزمودن، و مشاهده رشد. این ساختار نشان می‌دهد که بلوغ قرآنی برای مسئولیت، فقط یک رخداد زیستی نیست؛ بلوغ باید با رشد، تشخیص، امانت‌داری و توان اداره زندگی همراه شود.</p>
+      <p>از اینجا نتیجه‌ای مهم به دست می‌آید: نساء ۴:۶ با کودک‌همسری سازگار نیست. اگر قرآن برای سپردن مال یتیم، هم رسیدن به آستانه نکاح را مطرح می‌کند و هم مشاهده رشد را شرط می‌گذارد، پس نکاح نمی‌تواند برای کودکِ نارس، بی‌رشد، بی‌قدرت تصمیم‌گیری و زیر سرپرستی معنا داشته باشد. نکاح در قرآن قرارداد انسان مسئول است، نه تحمیل بر کودک.</p>
+      <p>اگر کودک حتی برای دریافت مال خود نیازمند آزمون رشد است، چگونه می‌تواند وارد عقدی شود که از مال سنگین‌تر است و با بدن، روان، رضایت، خانواده، مسئولیت و زندگی مشترک پیوند دارد؟ پس «بلغوا النكاح» باید رسیدن به حد واقعی نکاح فهمیده شود، نه صرف رسیدن عددی یا نشانه بدنی.</p>
+      <p>در سوره نور نیز آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِذَا بَلَغَ الْأَطْفَالُ مِنكُمُ الْحُلُمَ فَلْيَسْتَأْذِنُوا</blockquote>
+      <p class="translation">و هنگامی که کودکان شما به حلم رسیدند، باید اجازه بگیرند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/024-an-nur/#ayah-059' | relative_url }}">النور ۲۴:۵۹</a></p>
+      <p>اینجا نیز ب ل غ به عبور از مرحله کودکی و ورود به مرحله تازه‌ای از حریم، مسئولیت و آداب اجتماعی اشاره دارد. کودکان تا پیش از این حد، در حکم کودکان‌اند. وقتی به حلم می‌رسند، حکم حریم و اجازه گرفتن درباره آنان تغییر می‌کند. پس قرآن میان کودکی و مرحله مسئولیت تفاوت می‌گذارد.</p>
+      <p>بنابراین در ترجمه فرقان، «بلغوا النكاح» نباید ساده و خطرناک به «به سن ازدواج رسیدند» ترجمه شود، اگر این تعبیر در فرهنگ رایج به سن عددی یا بلوغ بدنی تقلیل یابد. بهتر است گفته شود: «تا هنگامی که به آستانه نکاح برسند» یا «تا آنگاه که به حد نکاح برسند». در توضیح باید افزود: یعنی به مرحله‌ای برسند که رشد، تشخیص، توان مسئولیت، رضایت آگاهانه، و آمادگی واقعی برای عقد و زندگی مشترک در آنان قابل مشاهده باشد.</p>
+    </section>
+
+    <section class="root-section" id="divine-command">
+      <h2>رسیدن امر یا تقدیر به نهایت</h2>
+      <p>میدان سوم، رسیدن امر یا تقدیر به نهایت است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّ اللَّهَ بَالِغُ أَمْرِهِ</blockquote>
+      <p class="translation">همانا خدا رساننده امر خویش به مقصد آن است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/065-at-talaq/#ayah-003' | relative_url }}">الطلاق ۶۵:۳</a></p>
+      <p>این تعبیر بسیار مهم است. بالغ أمره یعنی خدا امر خود را به انجام، مقصد و تحقق می‌رساند. هیچ مانعی نمی‌تواند امر خدا را در نیمه راه متوقف کند. در اینجا ب ل غ به تحقق نهایی و رسیدن امر الهی به غایت خود اشاره دارد.</p>
+      <p>در آیه‌ای دیگر آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">حِكْمَةٌ بَالِغَةٌ</blockquote>
+      <p class="translation">حکمتی رسیده و تمام.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/054-al-qamar/#ayah-005' | relative_url }}">القمر ۵۴:۵</a></p>
+      <p>حكمة بالغة یعنی حکمتی که به حد تمامیت و رسانندگی حجت رسیده است؛ حکمتی ناقص، نیمه‌کاره یا نارس نیست. این تعبیر با بيّنة و تبيين هم‌خانواده معنایی دارد: حجت روشن باید به حدی برسد که مسئولیت را کامل کند.</p>
+    </section>
+
+    <section class="root-section" id="death-boundary">
+      <h2>رسیدن به مرز مرگ</h2>
+      <p>میدان چهارم، رسیدن به مرز مرگ است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَلَوْلَا إِذَا بَلَغَتِ الْحُلْقُومَ</blockquote>
+      <p class="translation">پس چرا هنگامی که آن به حلقوم رسید…</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/056-al-waqiah/#ayah-083' | relative_url }}">الواقعة ۵۶:۸۳</a></p>
+      <p>و:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">كَلَّا إِذَا بَلَغَتِ التَّرَاقِيَ</blockquote>
+      <p class="translation">نه چنین است؛ هنگامی که آن به ترقوه‌ها برسد.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/075-al-qiyamah/#ayah-026' | relative_url }}">القيامة ۷۵:۲۶</a></p>
+      <p>در این آیات، بلغ به رسیدن جان یا نفس به مرز خروج و پایان زندگی دلالت دارد. اینجا ب ل غ رسیدن به نقطه نهایی یک مسیر دنیوی است. وقتی انسان به این حد رسید، میدان اختیار و بازگشت عادی پایان می‌پذیرد.</p>
+    </section>
+
+    <section class="root-section" id="message-mission">
+      <h2>بلاغ پیام و رسالت</h2>
+      <p>میدان پنجم، بلاغ پیام و رسالت است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">يَا أَيُّهَا الرَّسُولُ بَلِّغْ مَا أُنزِلَ إِلَيْكَ مِن رَّبِّكَ</blockquote>
+      <p class="translation">ای رسول، آنچه از سوی پروردگارت به سوی تو نازل شده برسان.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/005-al-maidah/#ayah-067' | relative_url }}">المائدة ۵:۶۷</a></p>
+      <p>این آیه یکی از کلیدی‌ترین آیات ریشه ب ل غ است. متعلق بلّغ روشن است: ما أنزل إليك من ربك، آنچه از سوی پروردگارت به تو نازل شده است. پس بلاغ رسول، رساندن وحی نازل‌شده است، نه افزودن منبعی مستقل در کنار آن.</p>
+      <p>ادامه آیه می‌گوید:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِن لَّمْ تَفْعَلْ فَمَا بَلَّغْتَ رِسَالَتَهُ</blockquote>
+      <p class="translation">و اگر انجام ندهی، رسالت او را نرسانده‌ای.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/005-al-maidah/#ayah-067' | relative_url }}">المائدة ۵:۶۷</a></p>
+      <p>در اینجا رسالت با رساندن پیوند خورده است. رسول بودن بدون بلاغ معنا ندارد. رسالت در مقام قرآنی یعنی حامل بودن پیام و رساندن آن تا مخاطب.</p>
+    </section>
+
+    <section class="root-section" id="earlier-messengers">
+      <h2>بلاغ رسولان پیشین</h2>
+      <p>میدان ششم، بلاغ رسولان پیشین است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أُبَلِّغُكُمْ رِسَالَاتِ رَبِّي وَأَنصَحُ لَكُمْ</blockquote>
+      <p class="translation">رسالت‌های پروردگارم را به شما می‌رسانم و برای شما خیرخواهی می‌کنم.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/007-al-araf/#ayah-062' | relative_url }}">الأعراف ۷:۶۲</a></p>
+      <p>و:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أُبَلِّغُكُمْ رِسَالَاتِ رَبِّي وَأَنَا لَكُمْ نَاصِحٌ أَمِينٌ</blockquote>
+      <p class="translation">رسالت‌های پروردگارم را به شما می‌رسانم، و من برای شما خیرخواهی امینم.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/007-al-araf/#ayah-068' | relative_url }}">الأعراف ۷:۶۸</a></p>
+      <p>در این آیات، پیامبران خود را رسانندگان رسالات پروردگار معرفی می‌کنند. آنان منبع مستقل ربوبیت یا قانون‌گذاری جدا از خدا نیستند؛ رسالات رب را می‌رسانند. امانت رسول در همین است که پیام را از خود نمی‌کند و خود را جای فرستنده نمی‌نشاند.</p>
+    </section>
+
+    <section class="root-section" id="witnessing-delivery">
+      <h2>شاهد بودن خدا بر ابلاغ رسالت‌ها</h2>
+      <p>میدان هفتم، شاهد بودن خدا بر ابلاغ رسالت‌هاست:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا رِسَالَاتِ رَبِّهِمْ</blockquote>
+      <p class="translation">تا بداند که آنان رسالت‌های پروردگارشان را رسانده‌اند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/072-al-jinn/#ayah-028' | relative_url }}">الجن ۷۲:۲۸</a></p>
+      <p>اینجا أبلغوا رسالات ربهم یعنی رسالت‌ها به مقصد رسانده شده‌اند. این آیه بار دیگر نشان می‌دهد که موضوع اصلی رسولان، رساندن رسالات رب است. ابلاغ یعنی رساندن پیام تا جایی که حجت در جای خود قرار گیرد.</p>
+    </section>
+
+    <section class="root-section" id="balagh-as-message">
+      <h2>بلاغ به عنوان پیام و اتمام حجت</h2>
+      <p>میدان هشتم، بلاغ به عنوان پیام و اتمام حجت است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">هَٰذَا بَلَاغٌ لِّلنَّاسِ وَلِيُنذَرُوا بِهِ</blockquote>
+      <p class="translation">این بلاغی برای مردم است، و تا به آن هشدار داده شوند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/014-ibrahim/#ayah-052' | relative_url }}">إبراهيم ۱۴:۵۲</a></p>
+      <p>در این آیه، قرآن یا پیام نازل‌شده «بلاغ» برای مردم است. یعنی پیام به مردم رسانده شده و کارکرد آن انذار، توحید و بیداری است. بلاغ در اینجا فقط عمل رساندن نیست؛ خود پیام رسانده‌شده نیز هست.</p>
+    </section>
+
+    <section class="root-section" id="balagh-mubin">
+      <h2>البلاغ المبين</h2>
+      <p>میدان نهم، البلاغ المبين است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَهَلْ عَلَى الرُّسُلِ إِلَّا الْبَلَاغُ الْمُبِينُ</blockquote>
+      <p class="translation">پس آیا بر رسولان جز رساندن آن مبین چیزی هست؟</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/016-an-nahl/#ayah-035' | relative_url }}">النحل ۱۶:۳۵</a></p>
+      <p>و نیز:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ</blockquote>
+      <p class="translation">و بر رسول جز رساندن آن مبین نیست.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/024-an-nur/#ayah-054' | relative_url }}">النور ۲۴:۵۴</a></p>
+      <p>در ترجمه رایج، البلاغ المبين معمولا «ابلاغ روشن» یا «رساندن آشکار» ترجمه می‌شود. این خوانش از نظر صفت بودن مبين برای بلاغ ممکن است. اما در روش فرقان، با توجه به اینکه قرآن بارها خود را كتاب مبين و قرآن مبين معرفی می‌کند، ترجمه نزدیک‌تر و دقیق‌تر چنین است:</p>
+      <p>البلاغ المبين = رساندن آن مبین</p>
+      <p>یعنی وظیفه رسول، رساندن همان مبین است: کتاب مبین، قرآن مبین، فرقان و ذکر نازل‌شده. این خوانش با آیات دیگر کاملا هماهنگ است، چون قرآن خود می‌گوید: «بلّغ ما أنزل إليك من ربك». پس بلاغ مبین یعنی رساندن پیام نازل‌شده‌ای که خود روشن و روشنگر است.</p>
+      <p>این نکته برای فهم اطاعت رسول مهم است. اگر وظیفه رسول رساندن آن مبین است، اطاعت از رسول در مقام رسالت به اطاعت از پیام رسانده‌شده بازمی‌گردد؛ نه به اطاعت از هر گزارش تاریخی، روایت متأخر، یا قانون‌گذاری بیرون از قرآن. رسول مأمور رساندن وحی است، و وحی در قرآن خود كتاب مبين و قرآن مبين معرفی شده است.</p>
+    </section>
+
+    <section class="root-section" id="responsibility-limits">
+      <h2>بلاغ در برابر مسئولیت مردم</h2>
+      <p>میدان دهم، بلاغ در برابر مسئولیت مردم است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَإِن تَوَلَّوْا فَإِنَّمَا عَلَيْكَ الْبَلَاغُ</blockquote>
+      <p class="translation">پس اگر روی گرداندند، جز این نیست که بر تو رساندن است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/003-al-imran/#ayah-020' | relative_url }}">آل عمران ۳:۲۰</a></p>
+      <p>در این آیه، بلاغ حد مسئولیت رسول را نشان می‌دهد. رسول موظف به رساندن است؛ اجبار، سلطه بر ایمان مردم، و ضمانت نتیجه بر او نیست. این معنا با آیات «لا إكراه في الدين» و «ما أنت عليهم بوكيل» هماهنگ است.</p>
+      <p>در آیه‌ای دیگر آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَإِنَّمَا عَلَيْكَ الْبَلَاغُ وَعَلَيْنَا الْحِسَابُ</blockquote>
+      <p class="translation">پس جز این نیست که بر تو رساندن است و بر ما حساب است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/013-ar-rad/#ayah-040' | relative_url }}">الرعد ۱۳:۴۰</a></p>
+      <p>اینجا دو حوزه جدا می‌شود: بر رسول بلاغ است؛ حساب با خداست. این مرزبندی بسیار مهم است، چون از تبدیل رسول به نگهبان ایمان مردم یا داور نهایی دل‌ها جلوگیری می‌کند. رسول پیام را می‌رساند؛ خدا حساب می‌کند؛ انسان مسئول پاسخ خود است.</p>
+    </section>
+
+    <section class="root-section" id="obedience">
+      <h2>بلاغ و اطاعت</h2>
+      <p>میدان یازدهم، بلاغ و اطاعت است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَأَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَاحْذَرُوا ۚ فَإِن تَوَلَّيْتُمْ فَاعْلَمُوا أَنَّمَا عَلَىٰ رَسُولِنَا الْبَلَاغُ الْمُبِينُ</blockquote>
+      <p class="translation">و خدا را اطاعت کنید و رسول را اطاعت کنید و پرهیز کنید؛ پس اگر روی گرداندید، بدانید که بر رسول ما فقط رساندن آن مبین است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/005-al-maidah/#ayah-092' | relative_url }}">المائدة ۵:۹۲</a></p>
+      <p>این آیه برای روش فرقان بسیار کلیدی است. آیه اطاعت از خدا و رسول را می‌آورد، اما بلافاصله حد مأموریت رسول را توضیح می‌دهد: بر رسول ما فقط البلاغ المبين است. یعنی اطاعت رسول در این مقام، از رسالت او جدا نیست؛ رسالت او رساندن آن مبین است.</p>
+      <p>پس استفاده از آیات اطاعت برای ساختن مرجعیت مستقل و بی‌پایان بیرون از قرآن، با ادامه خود آیه ناسازگار است. قرآن خود توضیح می‌دهد که رسول در مقام رسالت، رساننده آن مبین است.</p>
+      <p>همین مضمون در سوره تغابن نیز آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَأَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ ۚ فَإِن تَوَلَّيْتُمْ فَإِنَّمَا عَلَىٰ رَسُولِنَا الْبَلَاغُ الْمُبِينُ</blockquote>
+      <p class="translation">و خدا را اطاعت کنید و رسول را اطاعت کنید؛ پس اگر روی گرداندید، جز این نیست که بر رسول ما رساندن آن مبین است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/064-at-taghabun/#ayah-012' | relative_url }}">التغابن ۶۴:۱۲</a></p>
+      <p>اینجا نیز آیه، اطاعت رسول را از بلاغ مبین جدا نمی‌کند. رسول مأمور به رساندن آن مبین است. بنابراین اطاعت از رسول، اطاعت از پیام رسالت است.</p>
+    </section>
+
+    <section class="root-section" id="distinctions">
+      <h2>تفکیک کاربردها</h2>
+      <p>باید میان کاربردهای ب ل غ فرق گذاشت. بلغ در سفر یعنی رسیدن به مکان. بلغ در رشد یعنی رسیدن به حد بلوغ، استواری یا مسئولیت. بلغ در مرگ یعنی رسیدن به مرز پایان زندگی. بلغ در امر الهی یعنی رسیدن امر به تحقق خود. بلّغ و أبلغ در رسالت یعنی رساندن پیام خدا. بلاغ می‌تواند خود رساندن، پیام رسانده‌شده، یا اتمام حجت باشد. البلاغ المبين در روش فرقان یعنی رساندن آن مبین.</p>
+    </section>
+
+    <section class="root-section" id="structure">
+      <h2>نکات ساختاری</h2>
+      <p>از نظر ساختاری، متعلق بلاغ بسیار مهم است. «بلّغ ما أنزل إليك» یعنی آنچه نازل شده برسان. «أبلغكم رسالات ربي» یعنی رسالات پروردگارم را به شما می‌رسانم. «أبلغوا رسالات ربهم» یعنی پیامبران رسالت‌های پروردگارشان را رسانده‌اند. «عليك البلاغ» یعنی مسئولیت تو رساندن است، نه اجبار و کنترل نتیجه. «البلاغ المبين» در روش فرقان یعنی رساندن آن مبین، همان پیام روشن و روشنگر.</p>
+    </section>
+
+    <section class="root-section" id="near-roots">
+      <h2>تفاوت با ریشه‌های نزدیک</h2>
+      <p>ب ل غ با چند ریشه نزدیک فرق دارد. وصل به پیوستن و وصل کردن دو چیز دلالت دارد؛ ب ل غ به رسیدن به مقصد یا رساندن به مقصد اشاره دارد. وصل می‌تواند اتصال ایجاد کند، اما بلغ بر رسیدن کامل تأکید دارد. أتى آمدن است؛ بلغ رسیدن به حد یا مقصد پس از مسیر است. جاء آمدن و فرا رسیدن است؛ بلغ رسیدن به نقطه هدف یا حد کامل است. أعلن آشکار کردن است؛ بلّغ رساندن پیام است. بين روشن کردن و مرزبندی معناست؛ بلغ رساندن آن معنا تا مخاطب است. ذكر یادآوری و پیام یادآور است؛ بلاغ رساندن آن پیام به مردم است.</p>
+    </section>
+
+    <section class="root-section" id="translation-suggestions">
+      <h2>پیشنهادهای ترجمه برای فرقان</h2>
+      <p>برای ترجمه در فرقان، ب ل غ باید سیاق‌مند ترجمه شود. بلغ می‌تواند «رسید»، «به حد رسید»، «به مقصد رسید»، یا «به مرحله رسید» باشد. يبلغ أشده یعنی «به استواری خود برسد». بلغ النكاح بهتر است «به آستانه نکاح رسید» یا «به حد نکاح رسید» ترجمه شود، همراه با توضیح رشد و مسئولیت. بلغت الحلقوم یعنی «به حلقوم رسید». بلّغ و أبلغ در رسالت «رساندن» است. بلاغ می‌تواند «رساندن»، «پیام رسانده‌شده»، «بلاغ»، یا «اتمام رساندن» باشد. البلاغ المبين در روش فرقان بهتر است «رساندن آن مبین» ترجمه شود. حكمة بالغة می‌تواند «حکمتی رسیده و تمام» یا «حکمتی تمام‌حجت» باشد. إن الله بالغ أمره یعنی «خدا امر خود را به مقصد و تحقق می‌رساند».</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>جمع‌بندی زبانی</h2>
+      <p>جمع‌بندی زبانی: ریشه ب ل غ بر رسیدن، به حد رسیدن، رساندن، و کامل کردن مسیر تا مقصد دلالت دارد. تصویر مادی آن کاروان، پیام، میوه یا جانی است که به نقطه مقصود یا حد نهایی خود می‌رسد. در قرآن، این ریشه از رسیدن مکانی تا بلوغ انسان، از رسیدن مرگ تا تحقق امر الهی، و از رساندن رسالات پیامبران تا البلاغ المبين گسترش می‌یابد. نسبت آن با ب ي ن چنین است: ب ي ن مرز را روشن می‌کند و معنا را از ابهام جدا می‌سازد؛ ب ل غ آن معنا و پیام را تا مخاطب و مقصد می‌رساند. از همین ریشه، قرآن نشان می‌دهد که مسئولیت انسانی نیازمند رسیدن واقعی به حد رشد است، و رسالت پیامبر نیز رساندن آن مبین است: رساندن کتاب و قرآن مبین، نه ساختن مرجعیت مستقل بیرون از وحی.</p>
+    </section>
+  </div>
+</div>
