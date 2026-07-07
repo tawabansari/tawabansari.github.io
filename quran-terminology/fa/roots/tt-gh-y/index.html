@@ -5,147 +5,296 @@ permalink: /quran-terminology/fa/roots/tt-gh-y/
 ---
 
 <style>
-  .root-study-page .arabic-large {
-    font-size: 1.12em;
-    line-height: 2.15;
+  .root-study-page {
+    --root-card:#fffaf1; --root-panel:#fffdf7; --root-section:#fffaf2; --root-text:#2f2a22;
+    --root-muted:#6d6255; --root-border:rgba(148,114,55,.28); --root-border-soft:rgba(148,114,55,.16);
+    --root-accent:#b9852f; --root-accent-deep:#8b6423; --root-accent-soft:rgba(185,133,47,.11);
+    --root-shadow:0 22px 60px rgba(65,46,20,.10);
+    max-width:980px; margin:0 auto; padding:3.5rem 1.25rem; line-height:2.05; color:var(--root-text);
   }
+  body.dark .root-study-page, body.dark-mode .root-study-page, html.dark .root-study-page, html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page, html.dark-theme .root-study-page, [data-theme="dark"] .root-study-page,
+  .dark .root-study-page, .theme-dark .root-study-page, .forqan-theme-dark .root-study-page {
+    --root-card:#142238; --root-panel:#1b2a40; --root-section:rgba(255,255,255,.035); --root-text:#eee8dc;
+    --root-muted:#c7bdab; --root-border:rgba(214,176,95,.28); --root-border-soft:rgba(214,176,95,.16);
+    --root-accent:#d6b05f; --root-accent-deep:#f0cf7a; --root-accent-soft:rgba(214,176,95,.12);
+    --root-shadow:0 22px 70px rgba(0,0,0,.26);
+  }
+  .root-study-page *{box-sizing:border-box}
+  .root-study-page.forqan-page-rtl,.root-study-page.forqan-page-rtl h1,.root-study-page.forqan-page-rtl h2,.root-study-page.forqan-page-rtl h3,.root-study-page.forqan-page-rtl p,.root-study-page.forqan-page-rtl li{direction:rtl;text-align:right}
+  .root-study-page.forqan-page-ltr,.root-study-page.forqan-page-ltr h1,.root-study-page.forqan-page-ltr h2,.root-study-page.forqan-page-ltr h3,.root-study-page.forqan-page-ltr p,.root-study-page.forqan-page-ltr li{direction:ltr;text-align:left}
+  .root-frame{background:radial-gradient(circle at top right,var(--root-accent-soft),transparent 34%),var(--root-card);border:1px solid var(--root-border);border-radius:26px;padding:2.4rem;box-shadow:var(--root-shadow)}
+  .root-hero{border-bottom:1px solid var(--root-border-soft);padding-bottom:1.65rem;margin-bottom:2rem}
+  .root-kicker{color:var(--root-accent-deep);font-size:.96rem;font-weight:800;margin-bottom:.45rem}
+  .root-study-page h1{margin:0;font-size:clamp(2rem,4vw,3.05rem);line-height:1.4;color:var(--root-text)}
+  .root-subtitle{color:var(--root-muted);max-width:780px;margin:1rem 0 0;font-size:1.04rem}
+  .root-forms-card,.root-toc{background:linear-gradient(180deg,var(--root-accent-soft),transparent 82%),var(--root-panel);border:1px solid var(--root-border);border-radius:20px;padding:1.35rem 1.55rem;margin:1.55rem 0}
+  .root-forms-card h2,.root-toc h2{margin-top:0}
+  .morphology-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin-top:1rem}
+  .morph-card{display:block;border:1px solid var(--root-border-soft);border-radius:16px;padding:1rem;background:var(--root-section);color:inherit;text-decoration:none}
+  .morph-card-header{display:flex;justify-content:space-between;gap:.75rem;color:var(--root-muted);font-size:.88rem;margin-bottom:.55rem}
+  .morph-form{font-weight:800;font-size:1.18rem;color:var(--root-accent-deep);margin-bottom:.4rem}
+  .morph-note{color:var(--root-muted);margin-bottom:0;font-size:.95rem}
+  .translit{color:var(--root-muted);font-weight:500;font-size:.92em}
+  .root-note{border-right:3px solid var(--root-accent);padding:.9rem 1rem;background:var(--root-accent-soft);border-radius:14px;color:var(--root-muted);margin:1.25rem 0}
+  .root-study-page.forqan-page-ltr .root-note{border-right:0;border-left:3px solid var(--root-accent)}
+  .root-toc ol{list-style-position:inside;padding-right:0;margin:.75rem 0 0;columns:2;column-gap:2rem}
+  .root-study-page.forqan-page-ltr .root-toc ol{padding-left:0}
+  .root-toc li{margin:.28rem 0;break-inside:avoid}
+  .root-section{background:var(--root-section);border:1px solid var(--root-border-soft);border-radius:18px;padding:1.5rem 1.6rem;margin:1.55rem 0}
+  .root-section h2{margin:0 0 1rem;color:var(--root-text);font-size:1.35rem;line-height:1.6}
+  .root-section h2::before{content:"";display:inline-block;width:.58rem;height:.58rem;border-radius:999px;background:var(--root-accent);margin-left:.55rem;vertical-align:.08em}
+  .root-study-page.forqan-page-ltr .root-section h2::before{margin-left:0;margin-right:.55rem}
+  .root-study-page p{margin:.85rem 0}
+  .root-study-page a{color:var(--root-accent-deep);text-decoration:none;border-bottom:1px dotted currentColor}
+  .arabic-quote{direction:rtl;text-align:center;font-size:1.48rem;line-height:2.5;margin:1.4rem 0 .65rem;padding:1rem 1.25rem;border:1px solid var(--root-border);border-radius:18px;background:linear-gradient(180deg,var(--root-accent-soft),transparent),var(--root-panel);color:var(--root-text);unicode-bidi:isolate}
+  .root-study-page .translation{text-align:center!important;color:var(--root-muted);margin-top:.45rem}
+  .root-study-page .verse-ref{text-align:center!important;color:var(--root-accent-deep);font-weight:700;margin-top:.25rem}
+  .root-study-page .arabic-large{font-size:1.12em;line-height:2.15;direction:rtl;unicode-bidi:isolate}
+  @media(max-width:760px){.root-study-page{padding:2rem 1rem}.root-frame{padding:1.25rem;border-radius:19px}.root-section,.root-forms-card,.root-toc{padding:1rem}.root-toc ol{columns:1}.morphology-grid{grid-template-columns:1fr}.arabic-quote{font-size:1.24rem}}
 </style>
 
 <div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
   <div class="root-frame">
-    <header class="root-hero">
-      <p class="root-kicker">ریشه قرآنی</p>
-      <h1>ریشه ط غ ي</h1>
-      <p class="root-summary">از حد گذشتن، سرریز شدن، شکستن مرز حق، و بیرون رفتن از اندازه درست</p>
-    </header>
+    <section class="root-hero">
+      <div class="root-kicker">ریشه قرآنی</div>
+      <h1>ریشه قرآنی ط غ ي</h1>
+      <p class="root-subtitle">از طغیان تا طاغوت؛ از حد گذشتن، شکستن مرز، و نشستن مرجع باطل در جای حق</p>
+    </section>
 
-    <section class="root-forms-card">
-      <h2>صورت‌های مهم این ریشه</h2>
+    <section class="root-forms-card" id="morphology-table">
+      <h2>صورت‌های صرفی این ریشه</h2>
       <div class="morphology-grid">
-        <article class="morph-card">
-          <div class="morph-form arabic-large">طَغَى / يَطْغَى</div>
-          <p class="morph-note">از حد گذشت؛ سرکشی کرد؛ از اندازه درست بیرون رفت.</p>
-        </article>
-        <article class="morph-card">
-          <div class="morph-form arabic-large">طُغْيَان</div>
-          <p class="morph-note">حدشکنی، سرکشی، و تجاوز از مرز حق.</p>
-        </article>
-        <article class="morph-card">
-          <div class="morph-form arabic-large">طَاغٍ</div>
-          <p class="morph-note">کسی یا چیزی که از حد گذشته است.</p>
-        </article>
-        <article class="morph-card">
-          <div class="morph-form arabic-large">طَاغِيَة</div>
-          <p class="morph-note">نیروی سرکش، حادثه ویرانگر، یا قدرت طغیانگر.</p>
-        </article>
-        <article class="morph-card">
-          <div class="morph-form arabic-large">طَاغُوت</div>
-          <p class="morph-note">مرجع، نیرو، ساختار، یا قدرتی که انسان را از حد حق بیرون می‌برد یا خود را به جای حق می‌نشاند.</p>
-        </article>
+        <a class="morph-card" href="#intro"><div class="morph-card-header"><div class="morph-type">ریشه</div><div class="morph-used">معنای بنیادین</div></div><div class="morph-form">ط غ ي</div><p class="morph-note">از حد گذشتن، سرریز شدن، طغیان کردن، و شکستن مرز درست.</p></a>
+        <a class="morph-card" href="#water"><div class="morph-card-header"><div class="morph-type">فعل</div><div class="morph-used">طغیان</div></div><div class="morph-form">طَغَى / يَطْغَى / طَغَوْا</div><p class="morph-note">سرکشی و عبور از حد در فرد، قدرت، جامعه، نعمت، یا ادراک.</p></a>
+        <a class="morph-card" href="#wandering"><div class="morph-card-header"><div class="morph-type">مصدر</div><div class="morph-used">روند حدشکنی</div></div><div class="morph-form">طُغْيَان</div><p class="morph-note">حالت و روندی که انسان را از اندازه درست بیرون می‌برد و به سرگردانی می‌کشاند.</p></a>
+        <a class="morph-card" href="#taghut"><div class="morph-card-header"><div class="morph-type">صورت محوری</div><div class="morph-used">مرجع باطل</div></div><div class="morph-form">طَاغُوت</div><p class="morph-note">طغیانِ نهادی‌شده در قالب مرجعیت، ولایت، داوری، اطاعت‌طلبی یا بندگی.</p></a>
       </div>
     </section>
 
-    <nav class="root-toc" aria-label="فهرست بخش‌های ریشه ط غ ي">
-      <h2>فهرست بخش‌ها</h2>
+    <p class="root-note">این مقاله از واژه طاغوت آغاز می‌کند، اما میدان کامل ریشه ط غ ي را دنبال می‌کند: از تصویر آبِ سرریز تا فرعون، استغنا، نعمت، ادراک، تمدن، و سرانجام طاغوت به عنوان صورت مرجعی و نهادی طغیان.</p>
+
+    <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
+      <h2>فهرست کاربردهای این ریشه</h2>
       <ol>
-        <li><a href="#core">معنای مرکزی</a></li>
-        <li><a href="#image">تصویر مادی ریشه</a></li>
-        <li><a href="#old-arabic">تبصره تاریخی و زبان عربی کهن</a></li>
-        <li><a href="#istighna">طغیان و خطای دید استغنا</a></li>
-        <li><a href="#mizan">طغیان در میزان</a></li>
-        <li><a href="#pharaoh">طغیان و فرعون</a></li>
-        <li><a href="#taghut">طاغوت چیست؟</a></li>
-        <li><a href="#near">تفاوت با واژه‌های نزدیک</a></li>
-        <li><a href="#today">پیوند با زندگی امروز</a></li>
-        <li><a href="#translation">پیشنهادهای ترجمه</a></li>
-        <li><a href="#summary">جمع‌بندی</a></li>
+        <li><a href="#intro">معنای بنیادین</a></li>
+        <li><a href="#forms">صورت‌های مهم قرآنی</a></li>
+        <li><a href="#core">هسته زبانی</a></li>
+        <li><a href="#material">تصویر مادی ریشه</a></li>
+        <li><a href="#classical">کاربرد عربی کلاسیک</a></li>
+        <li><a href="#water">تصویر مستقیم طغیان آب</a></li>
+        <li><a href="#pharaoh">طغیان فرعون</a></li>
+        <li><a href="#self-sufficiency">طغیان انسان در احساس بی‌نیازی</a></li>
+        <li><a href="#provision">طغیان در نعمت و روزی</a></li>
+        <li><a href="#perception">طغیان چشم و ادراک</a></li>
+        <li><a href="#civilization">طغیان جمعی و تمدنی</a></li>
+        <li><a href="#wandering">سرگردانی در طغیان</a></li>
+        <li><a href="#taghut">رسیدن به مفهوم طاغوت</a></li>
+        <li><a href="#taghut-foundation">کفر به طاغوت و ایمان به خدا</a></li>
+        <li><a href="#wilayah">طاغوت در برابر ولایت خدا</a></li>
+        <li><a href="#messengers">دعوت رسولان و اجتناب از طاغوت</a></li>
+        <li><a href="#judgment">طاغوت در مقام داوری</a></li>
+        <li><a href="#path">سبیل طاغوت</a></li>
+        <li><a href="#worship">اجتناب از بندگی طاغوت</a></li>
+        <li><a href="#distinctions">فرق طغیان و طاغوت</a></li>
+        <li><a href="#satan">فرق طاغوت و شیطان</a></li>
+        <li><a href="#idol">فرق طاغوت و بت</a></li>
+        <li><a href="#structure">نکات ساختاری</a></li>
+        <li><a href="#near-roots">تفاوت با ریشه‌های نزدیک</a></li>
+        <li><a href="#translation-suggestions">پیشنهادهای ترجمه برای فرقان</a></li>
+        <li><a href="#summary">جمع‌بندی زبانی</a></li>
       </ol>
     </nav>
 
-    <section id="core" class="root-section">
-      <h2>معنای مرکزی</h2>
-      <p>ریشه <strong>ط غ ي</strong> در اصل به معنای از حد گذشتن، سرریز شدن، تجاوز از مرز، و بیرون رفتن از اندازه درست است.</p>
-      <p>این ریشه پیش از آنکه یک واژه سیاسی، کلامی، یا فقهی باشد، یک تصویر زنده دارد: چیزی از ظرفیت طبیعی خود بیرون می‌زند. آب از بستر خود بالا می‌آید. ظرف بیش از اندازه پر می‌شود. قدرت از مرز عدالت عبور می‌کند. نفس انسان جای بندگی را رها می‌کند و خود را معیار نهایی می‌بیند.</p>
-      <p>پس طغیان فقط نافرمانی ساده نیست. طغیان یعنی شکستن حد؛ یعنی چیزی از جایگاه درست خود بیرون رود و مرز حق را پشت سر بگذارد.</p>
+    <section class="root-section" id="intro">
+      <h2>معنای بنیادین</h2>
+      <p>ریشه</p>
+      <p>ط غ ي</p>
+      <p>از واژه طاغوت</p>
+      <p>ریشه ط غ ي در اصل به از حد گذشتن، سرریز شدن، طغیان کردن، شکستن مرز، و بیرون رفتن از اندازه درست دلالت دارد. تصویر مادی آن آبی است که از بستر خود بالا می‌آید، حد نگه‌دارنده را می‌شکند و به اطراف می‌ریزد. از همین تصویر، معنای اخلاقی و اجتماعی ریشه روشن می‌شود: چیزی که باید در حد خود بماند، از جایگاه خود بیرون می‌رود و به قلمرو حق، عدالت، بندگی یا اختیار دیگران دست‌اندازی می‌کند.</p>
     </section>
 
-    <section id="image" class="root-section">
+    <section class="root-section" id="forms">
+      <h2>صورت‌های مهم قرآنی</h2>
+      <p>صورت‌های مهم این ریشه در قرآن شامل طغى، يطغى، تطغوا، طغوا، أطغى، طغيان، طاغية، طاغون و طاغوت است. طغى فعل اصلی است و به سرکشی و عبور از حد اشاره دارد. طغيان نام حالت و روند حدشکنی است. طاغية می‌تواند به نیرویی سرکش، حادثه‌ای فراگیر و ویرانگر، یا صورت شدید طغیان اشاره کند. طاغوت صورت بسیار مهمی است که به هر مرجع، قدرت، معیار، نظام یا موجودی دلالت دارد که از حد خود عبور کرده و در برابر خدا، یا در جای خدا، مرجع اطاعت، داوری، ولایت یا بندگی شود.</p>
+    </section>
+
+    <section class="root-section" id="core">
+      <h2>هسته زبانی</h2>
+      <p>هسته زبانی ط غ ي، شکستن حد است. در این ریشه، مشکل فقط انجام یک کار بد نیست؛ مشکل از میان رفتن اندازه و مرز است. انسان، حکومت، مال، نفس، سنت، قوم، دانش، نهاد دینی، رهبر، یا نظام سیاسی وقتی از جایگاه خود بیرون رود و خود را معیار نهایی حق قرار دهد، وارد میدان طغیان می‌شود.</p>
+    </section>
+
+    <section class="root-section" id="material">
       <h2>تصویر مادی ریشه</h2>
-      <p>تصویر اصلی این ریشه را می‌توان در سرریز شدن دید. وقتی آب از بستر خود بالا می‌زند و از حد طبیعی خود عبور می‌کند، دیگر فقط آب نیست؛ نیرویی ویرانگر می‌شود. قرآن همین تصویر را به کار می‌برد:</p>
-      <p><strong class="arabic-large">إِنَّا لَمَّا طَغَى الْمَاءُ حَمَلْنَاكُمْ فِي الْجَارِيَةِ</strong> <a class="quran-ref-link" href="{{ '/quran-reflection/fa/069-al-haqqah/#ayah-011' | relative_url }}">۶۹:۱۱</a></p>
-      <p>در این آیه، طغیان درباره انسان نیست؛ درباره آب است. این نکته مهم است. ریشه <strong>ط غ ي</strong> در بنیاد خود فقط درباره گناه انسانی نیست، بلکه درباره خروج از حد و ظرفیت است. هر چیزی اگر از اندازه درست خود بیرون رود، می‌تواند طغیان کند.</p>
-      <p>آب اگر در حد خود باشد، زندگی می‌دهد. اما اگر از حد بگذرد، ویران می‌کند. قدرت هم چنین است. ثروت هم چنین است. علم هم چنین است. دین هم اگر از جایگاه هدایت بیرون رود و ابزار سلطه شود، می‌تواند صورت طغیان بگیرد.</p>
+      <p>تصویر مادی این ریشه، سیلاب است. آب تا وقتی در بستر خود جاری است، می‌تواند زندگی‌بخش باشد؛ اما وقتی از حد خود بگذرد، مرز را بشکند و بر زمین‌های اطراف بریزد، ویرانگر می‌شود. قرآن همین تصویر را به صورت مستقیم آورده است:</p>
     </section>
 
-    <section id="old-arabic" class="root-section">
-      <h2>تبصره تاریخی و زبان عربی کهن</h2>
-      <p>در عربی کلاسیک، این ریشه با بالا آمدن، سرریز شدن، و عبور از اندازه پیوند دارد. لغت‌شناسان عرب طغیان را درباره آب، سیلاب، رفتار انسان، و سرکشی موجود زنده به کار برده‌اند.</p>
-      <p>در برخی منابع لغوی، نمونه‌هایی از کاربرد این ریشه برای سرریز شدن یا شدت گرفتن چیزی آمده است؛ مانند بالا آمدن آب یا جوشش چیزی که از ظرفیت ظرف بیرون می‌زند. این تصویرها نشان می‌دهند که عرب قدیم طغیان را فقط به معنای مخالفت عقیدتی نمی‌فهمید، بلکه آن را نوعی عبور از اندازه و گنجایش می‌دید.</p>
-      <p>شعر و لغت قدیم فقط فضای زبانی ریشه را روشن می‌سازند؛ معیار نهایی برای فهم قرآنی، خود قرآن و پیوند آیات با یکدیگر است.</p>
+    <section class="root-section" id="classical">
+      <h2>کاربرد عربی کلاسیک</h2>
+      <p>در کاربرد عربی کلاسیک، طغيان با سرریز شدن، بالا آمدن، غلبه کردن، سرکشی و خروج از حد پیوند دارد. این ریشه درباره آب، قدرت، رفتار، نفس و جامعه می‌تواند به کار رود. درباره وزن و ساختار واژه طاغوت نیز باید با احتیاط سخن گفت. طاغوت از میدان طغى آمده و صیغه‌ای بسیار سنگین‌تر از طاغی است. طاغی می‌تواند یک شخص سرکش باشد؛ اما طاغوت غالبا به مرجع یا ساختاری اشاره دارد که طغیان در آن به ولایت، اطاعت‌طلبی، داوری یا بندگی تبدیل شده است. در نسخه نهایی، اگر شاهد معتبر از شعر جاهلی یا کاربرد کهن عربی پیدا شود، می‌توان آن را افزود.</p>
     </section>
 
-    <section id="istighna" class="root-section">
-      <h2>طغیان و خطای دید استغنا</h2>
-      <p>قرآن در سوره علق ریشه <strong>ط غ ي</strong> را به یکی از عمیق‌ترین بیماری‌های انسان وصل می‌کند:</p>
-      <p><strong class="arabic-large">كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَىٰ ۝ أَن رَّآهُ اسْتَغْنَىٰ</strong> <a class="quran-ref-link" href="{{ '/quran-reflection/fa/096-al-alaq/#ayah-006' | relative_url }}">۹۶:۶</a>–<a class="quran-ref-link" href="{{ '/quran-reflection/fa/096-al-alaq/#ayah-007' | relative_url }}">۹۶:۷</a></p>
-      <p>نکته دقیق در این آیه، تعبیر <strong class="arabic-large">رَآهُ اسْتَغْنَىٰ</strong> است. آیه نمی‌گوید انسان واقعاً بی‌نیاز می‌شود؛ می‌گوید انسان خود را بی‌نیاز می‌بیند.</p>
-      <p>این یک خطای دید درونی است. انسان هرگز از خدا، هستی، نفس، زمان، زمین، آب، غذا، نور، جامعه، و رحمت بی‌نیاز نیست. اما وقتی خود را مستقل و خودبسنده تصور کند، مرز بندگی در درون او سست می‌شود.</p>
-      <p>پس طغیان از قدرت واقعی شروع نمی‌شود؛ از پندار بی‌نیازی شروع می‌شود. مسئله مقدار دارایی نیست؛ مسئله این است که انسان خود را بی‌نیاز از حق و معیار ببیند.</p>
+    <section class="root-section" id="water">
+      <h2>تصویر مستقیم طغیان آب</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّا لَمَّا طَغَى الْمَاءُ حَمَلْنَاكُمْ فِي الْجَارِيَةِ</blockquote>
+      <p class="translation">همانا هنگامی که آب طغیان کرد، شما را در کشتی روان حمل کردیم.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/069-al-haqqah/#ayah-011' | relative_url }}">الحاقة ۶۹:۱۱</a></p>
+      <p>اینجا طغیان، مادی و دیدنی است: آب از اندازه و بستر خود بیرون می‌رود. این آیه برای فهم ریشه بسیار مهم است، چون نشان می‌دهد طغیان فقط «زیاد شدن» نیست؛ زیاد شدنی است که حد را می‌شکند و به ویرانی می‌انجامد.</p>
     </section>
 
-    <section id="mizan" class="root-section">
-      <h2>طغیان در میزان</h2>
-      <p>قرآن طغیان را فقط به نفس فردی یا قدرت سیاسی محدود نمی‌کند. در سوره الرحمن، طغیان مستقیماً به میزان و سنجش وصل می‌شود:</p>
-      <p><strong class="arabic-large">وَالسَّمَاءَ رَفَعَهَا وَوَضَعَ الْمِيزَانَ ۝ أَلَّا تَطْغَوْا فِي الْمِيزَانِ</strong> <a class="quran-ref-link" href="{{ '/quran-reflection/fa/055-ar-rahman/#ayah-007' | relative_url }}">۵۵:۷</a>–<a class="quran-ref-link" href="{{ '/quran-reflection/fa/055-ar-rahman/#ayah-008' | relative_url }}">۵۵:۸</a></p>
-      <p>اینجا طغیان یعنی عبور از حد در سنجش؛ یعنی معیار را دستکاری کردن، توازن را شکستن، و کفه‌ها را به سود خود جابه‌جا کردن.</p>
-      <p>این آیه برای فهم اقتصادی و اجتماعی ریشه بسیار مهم است. طغیان فقط این نیست که کسی آشکارا ظلم کند. گاهی طغیان در معیارها پنهان می‌شود: در پیمانه، وزن، قیمت، قرارداد، سود، بدهی، شاخص، قانون، رسانه، یا قدرتی که خود را بالاتر از سنجش عادلانه می‌داند.</p>
+    <section class="root-section" id="pharaoh">
+      <h2>طغیان فرعون</h2>
+      <p>یکی از کاربردهای روشن این ریشه درباره فرعون است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُ طَغَىٰ</blockquote>
+      <p class="translation">به سوی فرعون برو؛ همانا او طغیان کرده است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/020-ta-ha/#ayah-024' | relative_url }}">طه ۲۰:۲۴</a></p>
+      <p>و نیز:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُ طَغَىٰ</blockquote>
+      <p class="translation">به سوی فرعون برو؛ همانا او طغیان کرده است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/079-an-naziat/#ayah-017' | relative_url }}">النازعات ۷۹:۱۷</a></p>
+      <p>فرعون فقط گناهکار عادی نیست؛ نمونه روشن طغیان سیاسی، اجتماعی و الهیاتی است. او قدرت خود را از حد گذراند، مردم را زیر سلطه برد، و برای خود جایگاهی ساخت که فقط حق خداست. طغیان فرعون یعنی قدرت انسانی که مرز بندگی و مسئولیت را می‌شکند و خود را برتر از حق می‌نشاند.</p>
     </section>
 
-    <section id="pharaoh" class="root-section">
-      <h2>طغیان و فرعون</h2>
-      <p>یکی از روشن‌ترین نمونه‌های قرآنی طغیان، فرعون است:</p>
-      <p><strong class="arabic-large">اذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُ طَغَىٰ</strong> <a class="quran-ref-link" href="{{ '/quran-reflection/fa/020-taha/#ayah-024' | relative_url }}">۲۰:۲۴</a></p>
-      <p>فرعون فقط یک حاکم ظالم نیست. او نمونه انسانی است که قدرت را از حد خود بیرون برده است. او دیگر خود را مسئول نمی‌بیند؛ خود را معیار می‌بیند. در نگاه قرآنی، فرعون زمانی خطرناک می‌شود که قدرت سیاسی، ادعای مالکیت بر مردم، تحقیر انسان، و ادعای مرجعیت نهایی در او جمع می‌شود.</p>
-      <p>پس طغیان فرعونی فقط زورگویی نیست؛ طغیان فرعونی یعنی قدرتی که از جایگاه خدمت و مسئولیت بیرون می‌رود و در جایگاه ربوبیت اجتماعی می‌نشیند.</p>
+    <section class="root-section" id="self-sufficiency">
+      <h2>طغیان انسان در احساس بی‌نیازی</h2>
+      <p>میدان دوم، طغیان انسان در اثر احساس بی‌نیازی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَىٰ
+أَن رَّآهُ اسْتَغْنَىٰ</blockquote>
+      <p class="translation">نه چنین است؛ همانا انسان طغیان می‌کند، از آن رو که خود را بی‌نیاز می‌بیند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/096-al-alaq/#ayah-006' | relative_url }}">العلق ۹۶:۶-۷</a></p>
+      <p>این آیه برای فهم روان‌شناسی طغیان بسیار مهم است. انسان وقتی خود را بی‌نیاز ببیند، حد خود را فراموش می‌کند. استغنا دروغین، طغیان می‌سازد. یعنی انسان وقتی خود را بی‌نیاز از خدا، حق، اخلاق، جامعه، حساب و هدایت بداند، از جایگاه واقعی خود بیرون می‌رود.</p>
+      <p>در اینجا، طغیان از درون آغاز می‌شود. نخست انسان خود را بزرگ‌تر از حد واقعی خود می‌بیند، سپس مرزها را می‌شکند. پس ریشه طغیان، گاهی قدرت بیرونی نیست؛ توهم بی‌نیازی درونی است.</p>
     </section>
 
-    <section id="taghut" class="root-section">
-      <h2>طاغوت چیست؟</h2>
-      <p>از همین جا می‌توان به واژه <strong class="arabic-large">طَاغُوت</strong> نزدیک شد. طاغوت فقط بت سنگی نیست. فقط حاکم ظالم هم نیست. طاغوت هر مرجع، قوه، ساختار، شخص، نظام، میل، ترس، سنت، یا قدرتی است که از حد خود بیرون می‌رود و انسان را از بندگی خدا به بندگی غیر خدا می‌کشاند.</p>
-      <p>طاغوت می‌تواند بیرونی باشد؛ مانند حاکم ستمگر، نظام فاسد، بت، سنت کور، قدرت اقتصادی، یا ساختار دینی که خود را جای حق می‌نشاند. اما طاغوت می‌تواند درونی هم باشد؛ مانند نفس، غرور، پندار بی‌نیازی، میل به سلطه، ترس از مردم، یا خواسته‌ای که در درون انسان جای معیار الهی را می‌گیرد.</p>
-      <p>قرآن می‌فرماید: <strong class="arabic-large">فَمَن يَكْفُرْ بِالطَّاغُوتِ</strong> <a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-256' | relative_url }}">۲:۲۵۶</a>. کفر به طاغوت یعنی نپذیرفتن مرجعیت هر قدرت یا قوه‌ای که انسان را از حد حق بیرون می‌برد.</p>
-      <p>باید میان این سه سطح فرق گذاشت: <strong>طغیان</strong> یعنی عمل از حد گذشتن. <strong>طاغی</strong> یعنی کسی یا چیزی که از حد گذشته است. <strong>طاغوت</strong> یعنی مرجع، نیرو، ساختار، یا قوه‌ای که خروج از حد حق را به یک دعوت، مسیر، یا نظام تبدیل می‌کند.</p>
+    <section class="root-section" id="provision">
+      <h2>طغیان در نعمت و روزی</h2>
+      <p>میدان سوم، طغیان در نعمت و روزی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">كُلُوا مِن طَيِّبَاتِ مَا رَزَقْنَاكُمْ وَلَا تَطْغَوْا فِيهِ فَيَحِلَّ عَلَيْكُمْ غَضَبِي</blockquote>
+      <p class="translation">از پاکیزه‌های آنچه روزی‌تان دادیم بخورید، و در آن طغیان نکنید که خشم من بر شما فرود آید.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/020-ta-ha/#ayah-081' | relative_url }}">طه ۲۰:۸۱</a></p>
+      <p>اینجا طغیان در رزق و نعمت مطرح است. نعمت باید در حد درست مصرف، شکر، عدالت و مسئولیت بماند. وقتی نعمت به اسراف، غرور، انحصار، فساد، ناسپاسی یا نافرمانی تبدیل شود، انسان در همان نعمت طغیان کرده است. پس رزق نیز اگر از حد بندگی بیرون رود، به میدان طغیان تبدیل می‌شود.</p>
     </section>
 
-    <section id="near" class="root-section">
-      <h2>تفاوت با واژه‌های نزدیک</h2>
-      <p><strong>ظلم</strong> یعنی چیزی را در جای نادرست گذاشتن یا حق را پایمال کردن. <strong>عدوان</strong> یعنی تجاوز به حق یا مرز دیگری. <strong>فساد</strong> یعنی خراب شدن نظم و صلاح یک چیز. <strong>کفر</strong> یعنی پوشاندن یا انکار حقیقت. <strong>بغي</strong> یعنی طلب کردن همراه با تجاوز، برتری‌جویی، یا تعدی.</p>
-      <p>اما <strong>طغیان</strong> یعنی از حد گذشتن و بیرون رفتن از اندازه حق. ممکن است یک عمل هم ظلم باشد، هم عدوان، هم فساد، و هم طغیان. اما ریشه <strong>ط غ ي</strong> روی مرزشکنی و خروج از ظرفیت درست تأکید دارد.</p>
+    <section class="root-section" id="perception">
+      <h2>طغیان چشم و ادراک</h2>
+      <p>میدان چهارم، طغیان چشم و ادراک است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">مَا زَاغَ الْبَصَرُ وَمَا طَغَىٰ</blockquote>
+      <p class="translation">چشم منحرف نشد و از حد نگذشت.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/053-an-najm/#ayah-017' | relative_url }}">النجم ۵۳:۱۷</a></p>
+      <p>در این آیه، طغیان درباره بصر آمده است. چشم نه منحرف شد و نه از حد گذشت. این کاربرد نشان می‌دهد که طغیان فقط سیاسی یا اخلاقی نیست؛ حتی ادراک نیز می‌تواند از حد خود بیرون رود. نگاه نیز باید اندازه، امانت و مرز داشته باشد. در این آیه، نفی طغیان چشم یعنی دید در حد مأذون و درست خود باقی ماند.</p>
     </section>
 
-    <section id="today" class="root-section">
-      <h2>پیوند با زندگی امروز</h2>
-      <p>طغیان فقط در داستان فرعون نیست. وقتی دولت خود را بالاتر از مردم و عدالت بداند، طغیان سیاسی شکل می‌گیرد. وقتی بازار خود را آزاد از اخلاق و مسئولیت بداند، طغیان اقتصادی شکل می‌گیرد. وقتی علم خود را بی‌نیاز از حکمت و رحمت بداند، طغیان علمی شکل می‌گیرد. وقتی دین به جای هدایت، ابزار سلطه و ترس شود، طغیان دینی شکل می‌گیرد.</p>
-      <p>از نگاه قرآن، مشکل فقط این نیست که انسان اشتباه می‌کند. انسان ممکن است اشتباه کند و برگردد. خطر بزرگ‌تر آن است که انسان از حد بیرون رود و همان خروج را حق بنامد.</p>
+    <section class="root-section" id="civilization">
+      <h2>طغیان جمعی و تمدنی</h2>
+      <p>میدان پنجم، طغیان جمعی و تمدنی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">الَّذِينَ طَغَوْا فِي الْبِلَادِ
+فَأَكْثَرُوا فِيهَا الْفَسَادَ</blockquote>
+      <p class="translation">کسانی که در شهرها طغیان کردند، پس در آنها فساد بسیار کردند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/089-al-fajr/#ayah-011' | relative_url }}">الفجر ۸۹:۱۱-۱۲</a></p>
+      <p>در این آیات، طغیان با فساد اجتماعی همراه شده است. وقتی قدرت‌ها، اقوام یا تمدن‌ها از حد خود بگذرند، نتیجه آن فساد در زمین است. طغیان اجتماعی یعنی ساختار قدرت از جایگاه خدمت، عدالت و امانت بیرون می‌رود و به سلطه، فساد و تباه‌سازی تبدیل می‌شود.</p>
     </section>
 
-    <section id="translation" class="root-section">
-      <h2>پیشنهادهای ترجمه در فرقان</h2>
-      <p><strong class="arabic-large">طَغَى</strong>: از حد گذشت؛ طغیان کرد؛ مرز حق را شکست.</p>
-      <p><strong class="arabic-large">يَطْغَى</strong>: از حد می‌گذرد؛ به طغیان می‌افتد.</p>
-      <p><strong class="arabic-large">طُغْيَان</strong>: حدشکنی؛ طغیان؛ خروج از اندازه حق.</p>
-      <p><strong class="arabic-large">طَاغٍ</strong>: حدشکن؛ سرکش؛ از حد گذشته.</p>
-      <p><strong class="arabic-large">طَاغِيَة</strong>: نیروی طغیانگر؛ حادثه سرکش؛ قدرت ویرانگر.</p>
-      <p><strong class="arabic-large">طَاغُوت</strong>: مرجع طغیانگر؛ قدرت حدشکن؛ قوه دعوت‌کننده به خروج از حق؛ ساختار جایگزین حق؛ هر مرکز بندگی غیر خدا.</p>
-      <p><strong class="arabic-large">لَمَّا طَغَى الْمَاءُ</strong>: وقتی آب از حد خود گذشت و سرریز شد.</p>
-      <p><strong class="arabic-large">أَلَّا تَطْغَوْا فِي الْمِيزَانِ</strong>: تا در میزان و معیار سنجش از حد حق فراتر نروید.</p>
+    <section class="root-section" id="wandering">
+      <h2>سرگردانی در طغیان</h2>
+      <p>میدان ششم، طغيان به عنوان سرگردانی در حدشکنی است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَيَذَرُهُمْ فِي طُغْيَانِهِمْ يَعْمَهُونَ</blockquote>
+      <p class="translation">و آنان را در طغیانشان وا می‌گذارد که سرگردان بمانند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/007-al-araf/#ayah-186' | relative_url }}">الأعراف ۷:۱۸۶</a></p>
+      <p>در این آیه، طغيان به وضعیتی تبدیل شده که انسان در آن سرگردان است. کسی که از حد بیرون می‌رود، گمان می‌کند آزاد شده، اما در واقع خطوط راه را از دست می‌دهد. طغیان اگر ادامه یابد، انسان را به عمه، یعنی سرگردانی کور، می‌کشاند.</p>
     </section>
 
-    <section id="summary" class="root-section">
-      <h2>جمع‌بندی</h2>
-      <p>ریشه <strong>ط غ ي</strong> به ما می‌آموزد که خطر اصلی فقط خطا کردن نیست؛ خطر این است که چیزی از حد خود بیرون رود و جایگاه حق را اشغال کند.</p>
-      <p>آب اگر در حد خود باشد، زندگی است؛ اگر از حد بگذرد، ویرانگر می‌شود. قدرت اگر در حد مسئولیت باشد، امانت است؛ اگر از حد بگذرد، فرعونی می‌شود. ثروت اگر در میزان عدالت باشد، نعمت است؛ اگر از حد بگذرد، ابزار سلطه می‌شود. حتی علم و دین، اگر از حد بندگی و حقیقت بیرون روند، می‌توانند به طغیان آلوده شوند.</p>
-      <p>از این نگاه، مبارزه با طاغوت فقط مبارزه با یک بت بیرونی نیست. نخستین میدان آن در درون انسان است: جایی که انسان خود را بی‌نیاز می‌پندارد، میزان را کنار می‌گذارد، و نفس خود را به جای حق می‌نشاند.</p>
+    <section class="root-section" id="taghut">
+      <h2>رسیدن به مفهوم طاغوت</h2>
+      <p>اکنون به طاغوت می‌رسیم. طاغوت صورت نهادی و مرجعی طغیان است. طاغوت فقط شخصی سرکش نیست؛ هر قدرت، مرجع، نظام، سنت، نفس، رهبر، قانون، نهاد یا خواسته‌ای است که از حد خود بیرون رفته و در جای حق بنشیند. طاغوت یعنی حدشکنی‌ای که از حالت فردی عبور کرده و به اطاعت‌طلبی، داوری، ولایت، بندگی یا مسیر اجتماعی تبدیل شده است.</p>
+    </section>
+
+    <section class="root-section" id="taghut-foundation">
+      <h2>کفر به طاغوت و ایمان به خدا</h2>
+      <p>آیه بنیادین در این باب چنین است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لَا إِكْرَاهَ فِي الدِّينِ ۖ قَد تَّبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ ۚ فَمَن يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِن بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَىٰ</blockquote>
+      <p class="translation">در دین هیچ اکراهی نیست؛ راه رشد از گمراهی روشن شده است. پس هر کس به طاغوت کفر ورزد و به خدا ایمان آورد، به دستاویز استوار چنگ زده است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-256' | relative_url }}">البقرة ۲:۲۵۶</a></p>
+      <p>ترتیب آیه بسیار مهم است: نخست کفر به طاغوت، سپس ایمان به خدا. یعنی ایمان وقتی استوار می‌شود که انسان مرجعیت باطل را رد کند. اگر نفس، قوم، سنت، قدرت، رهبر، مذهب، ترس یا منفعت در جایگاه حق نشسته باشد، ایمان هنوز از طاغوت پاک نشده است.</p>
+    </section>
+
+    <section class="root-section" id="wilayah">
+      <h2>طاغوت در برابر ولایت خدا</h2>
+      <p>در آیه بعد آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اللَّهُ وَلِيُّ الَّذِينَ آمَنُوا يُخْرِجُهُم مِّنَ الظُّلُمَاتِ إِلَى النُّورِ ۖ وَالَّذِينَ كَفَرُوا أَوْلِيَاؤُهُمُ الطَّاغُوتُ يُخْرِجُونَهُم مِّنَ النُّورِ إِلَى الظُّلُمَاتِ</blockquote>
+      <p class="translation">خدا ولی کسانی است که ایمان آورده‌اند؛ آنان را از تاریکی‌ها به سوی نور بیرون می‌آورد. و کسانی که کفر ورزیدند، اولیای آنان طاغوت‌اند؛ آنان را از نور به سوی تاریکی‌ها بیرون می‌برند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-257' | relative_url }}">البقرة ۲:۲۵۷</a></p>
+      <p>اینجا طاغوت در برابر ولایت خدا قرار گرفته است. خدا انسان را از ظلمات به نور می‌برد؛ طاغوت انسان را از نور به ظلمات می‌کشاند. پس طاغوت فقط یک «چیز بد» نیست؛ مرجعی است که جهت انسان را عوض می‌کند و مسیر او را از روشنایی به تاریکی می‌برد.</p>
+    </section>
+
+    <section class="root-section" id="messengers">
+      <h2>دعوت رسولان و اجتناب از طاغوت</h2>
+      <p>میدان دیگر، دعوت همه رسولان است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَّسُولًا أَنِ اعْبُدُوا اللَّهَ وَاجْتَنِبُوا الطَّاغُوتَ</blockquote>
+      <p class="translation">و به یقین در هر امتی رسولی برانگیختیم که خدا را بندگی کنید و از طاغوت دوری کنید.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/016-an-nahl/#ayah-036' | relative_url }}">النحل ۱۶:۳۶</a></p>
+      <p>دعوت پیامبران فقط اثبات خدا نبود؛ دوری از طاغوت نیز بود. انسان می‌تواند نام خدا را بگوید، اما در عمل از طاغوت اطاعت کند. پس عبادت خدا و اجتناب از طاغوت دو روی یک حقیقت‌اند.</p>
+    </section>
+
+    <section class="root-section" id="judgment">
+      <h2>طاغوت در مقام داوری</h2>
+      <p>در آیه‌ای دیگر، طاغوت با داوری ناحق پیوند دارد:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">يُرِيدُونَ أَن يَتَحَاكَمُوا إِلَى الطَّاغُوتِ وَقَدْ أُمِرُوا أَن يَكْفُرُوا بِهِ</blockquote>
+      <p class="translation">می‌خواهند داوری نزد طاغوت ببرند، در حالی که فرمان یافته‌اند به آن کفر ورزند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/004-an-nisa/#ayah-060' | relative_url }}">النساء ۴:۶۰</a></p>
+      <p>اینجا طاغوت فقط بت نیست؛ مرجع داوری باطل است. هر نظام داوری، حکم‌سازی یا مرجعیت که انسان را از حق خدا، عدالت و وحی دور کند و خود را معیار نهایی بنشاند، می‌تواند طاغوتی شود.</p>
+    </section>
+
+    <section class="root-section" id="path">
+      <h2>سبیل طاغوت</h2>
+      <p>در سوره نساء نیز آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">الَّذِينَ آمَنُوا يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ ۖ وَالَّذِينَ كَفَرُوا يُقَاتِلُونَ فِي سَبِيلِ الطَّاغُوتِ</blockquote>
+      <p class="translation">کسانی که ایمان آورده‌اند در راه خدا می‌جنگند، و کسانی که کفر ورزیده‌اند در راه طاغوت می‌جنگند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/004-an-nisa/#ayah-076' | relative_url }}">النساء ۴:۷۶</a></p>
+      <p>اینجا طاغوت راه و جبهه می‌سازد. سبيل الله در برابر سبيل الطاغوت آمده است. یعنی طاغوت فقط یک عقیده یا بت ذهنی نیست؛ مسیر، سیاست، وفاداری، جنگ و نظام عمل می‌سازد.</p>
+    </section>
+
+    <section class="root-section" id="worship">
+      <h2>اجتناب از بندگی طاغوت</h2>
+      <p>میدان دیگر، اجتناب از بندگی طاغوت است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَالَّذِينَ اجْتَنَبُوا الطَّاغُوتَ أَن يَعْبُدُوهَا وَأَنَابُوا إِلَى اللَّهِ لَهُمُ الْبُشْرَىٰ</blockquote>
+      <p class="translation">و کسانی که از طاغوت دوری کردند که آن را بندگی کنند، و به سوی خدا بازگشتند، برای آنان بشارت است.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/039-az-zumar/#ayah-017' | relative_url }}">الزمر ۳۹:۱۷</a></p>
+      <p>این آیه طاغوت را با عبادت پیوند می‌دهد. عبادت در اینجا فقط سجده ظاهری نیست؛ بندگی، اطاعت نابه‌جا، تسلیم شدن، و گرفتن مرجعیت از غیر خدا نیز در این میدان می‌آید. اجتناب از طاغوت یعنی دور شدن از هر مرجعی که انسان را از بندگی خدا بیرون می‌برد.</p>
+    </section>
+
+    <section class="root-section" id="distinctions">
+      <h2>فرق طغیان و طاغوت</h2>
+      <p>باید میان طغیان و طاغوت فرق گذاشت. طغیان حالت یا عمل از حد گذشتن است. طاغوت چیزی است که این حدشکنی در آن به مرجعیت، قدرت، اطاعت‌طلبی، داوری یا نظام تبدیل شده است. هر طاغوتی طغیان دارد، اما هر طغیانی هنوز به صورت طاغوت اجتماعی، سیاسی یا دینی درنیامده است.</p>
+    </section>
+
+    <section class="root-section" id="satan">
+      <h2>فرق طاغوت و شیطان</h2>
+      <p>طاغوت همچنین با شیطان نزدیک است، اما یکی نیست. شیطان وسوسه می‌کند، گمراهی را زینت می‌دهد، و انسان را به راه طغیان دعوت می‌کند. طاغوت مرجع باطل و حدشکنی است که انسان ممکن است آن را ولی، داور، معبود، قانون‌گذار یا فرمانده بگیرد. شیطان می‌تواند انسان را به طاغوت دعوت کند؛ و طاغوت می‌تواند شیطانی عمل کند. اما این دو واژه یکسان نیستند.</p>
+    </section>
+
+    <section class="root-section" id="idol">
+      <h2>فرق طاغوت و بت</h2>
+      <p>طاغوت با بت نیز یکی نیست. بت می‌تواند یکی از صورت‌های طاغوت باشد، اما طاغوت از بت گسترده‌تر است. طاغوت می‌تواند قدرت سیاسی، نفس خودپرست، سنت موروثی، نهاد دینی حدشکن، قانون ناحق، رهبر مقدس‌شده، قومیت، مال، یا هر مرجع دیگری باشد که در جای حق بنشیند.</p>
+    </section>
+
+    <section class="root-section" id="structure">
+      <h2>نکات ساختاری</h2>
+      <p>از نظر ساختاری، «كفر بالطاغوت» بسیار مهم است. کفر در اینجا فقط انکار ذهنی نیست؛ رد کردن مرجعیت طاغوت، بریدن از آن، و نپذیرفتن ولایت آن است. «اجتنبوا الطاغوت» نیز فقط مخالفت نظری نیست؛ دوری گرفتن عملی و پرهیز از بندگی آن است. «يتحاكموا إلى الطاغوت» نشان می‌دهد که طاغوت می‌تواند در مقام داوری و حکم ظاهر شود. «سبيل الطاغوت» نشان می‌دهد که طاغوت می‌تواند راه و جبهه بسازد. «أولياؤهم الطاغوت» نشان می‌دهد که طاغوت می‌تواند در جای ولایت بنشیند و انسان را از نور به تاریکی ببرد.</p>
+    </section>
+
+    <section class="root-section" id="near-roots">
+      <h2>تفاوت با ریشه‌های نزدیک</h2>
+      <p>ط غ ي با چند ریشه نزدیک فرق دارد. ع د و به دشمنی و تجاوز از حد در رابطه با دیگری اشاره دارد؛ طغیان گسترده‌تر است و اصل سرریز شدن از حد را نشان می‌دهد. ب غ ي به طلب نابه‌جا، تعدی و خواستن بیش از حق نزدیک است؛ طغیان بر شکستن حد و بیرون زدن از اندازه تمرکز دارد. ظلم به جابه‌جا کردن حق و قرار دادن چیزی در غیر جای خود مربوط است؛ طغیان غالبا زمینه ظلم را می‌سازد. كفر پوشاندن حق است؛ طغیان بیرون رفتن از حد حق است. فسق بیرون رفتن از مرز فرمان است؛ طغیان صورت شدیدتر و سرکشانه‌تر خروج از حد است. علو به بالا رفتن و برتری‌جویی اشاره دارد؛ طغیان وقتی رخ می‌دهد که این بالا رفتن از حد مشروع بگذرد.</p>
+    </section>
+
+    <section class="root-section" id="translation-suggestions">
+      <h2>پیشنهادهای ترجمه برای فرقان</h2>
+      <p>برای ترجمه در فرقان، ط غ ي باید سیاق‌مند ترجمه شود. طغى می‌تواند «طغیان کرد»، «از حد گذشت»، «سرکشی کرد» یا «مرز شکست» باشد. طغيان می‌تواند «طغیان»، «سرکشی»، «حدشکنی» یا «از حد گذشتگی» باشد. لا تطغوا بهتر است «در آن از حد نگذرید» یا «در آن طغیان نکنید» باشد. طاغوت بهتر است فقط «بت» ترجمه نشود. بسته به سیاق می‌توان آن را «طاغوت»، «مرجع حدشکن»، «قدرت باطل»، «مرجع باطل»، «نظام سرکش»، یا «آنچه در جای خدا نشانده شده» توضیح داد. در بسیاری از آیات، حفظ خود واژه «طاغوت» همراه با توضیح بهتر از ترجمه ساده است.</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>جمع‌بندی زبانی</h2>
+      <p>جمع‌بندی زبانی: ریشه ط غ ي بر سرریز شدن، از حد گذشتن، طغیان کردن و شکستن مرز درست دلالت دارد. تصویر مادی آن آبی است که از بستر خود بیرون می‌زند و ویرانگر می‌شود. در قرآن، این ریشه از طغیان آب تا طغیان فرعون، از طغیان انسان به سبب احساس بی‌نیازی تا طغیان در نعمت، از طغیان چشم تا طغیان تمدن‌ها، و از طغیان فردی تا طاغوت به عنوان مرجع باطل گسترش می‌یابد. طاغوت صورت نهادی، مرجعی یا پرستش‌پذیر طغیان است: هر چیزی که از حد خود عبور کند و در جای حق، خدا، وحی، عدالت یا داوری نهایی بنشیند.</p>
     </section>
   </div>
 </div>
