@@ -1,151 +1,295 @@
 ---
 layout: default
-title: The Qur’anic Root Ṭ GH Y
+title: The Qur'anic Root TT GH Y
 permalink: /quran-terminology/en/roots/tt-gh-y/
 ---
-
 <style>
-  .root-study-page .arabic-large {
-    font-size: 1.12em;
-    line-height: 2.15;
+  .root-study-page {
+    --root-card:#fffaf1; --root-panel:#fffdf7; --root-section:#fffaf2; --root-text:#2f2a22;
+    --root-muted:#6d6255; --root-border:rgba(148,114,55,.28); --root-border-soft:rgba(148,114,55,.16);
+    --root-accent:#b9852f; --root-accent-deep:#8b6423; --root-accent-soft:rgba(185,133,47,.11);
+    --root-shadow:0 22px 60px rgba(65,46,20,.10);
+    max-width:980px; margin:0 auto; padding:3.5rem 1.25rem; line-height:2.05; color:var(--root-text);
   }
+  body.dark .root-study-page, body.dark-mode .root-study-page, html.dark .root-study-page, html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page, html.dark-theme .root-study-page, [data-theme="dark"] .root-study-page,
+  .dark .root-study-page, .theme-dark .root-study-page, .forqan-theme-dark .root-study-page {
+    --root-card:#142238; --root-panel:#1b2a40; --root-section:rgba(255,255,255,.035); --root-text:#eee8dc;
+    --root-muted:#c7bdab; --root-border:rgba(214,176,95,.28); --root-border-soft:rgba(214,176,95,.16);
+    --root-accent:#d6b05f; --root-accent-deep:#f0cf7a; --root-accent-soft:rgba(214,176,95,.12);
+    --root-shadow:0 22px 70px rgba(0,0,0,.26);
+  }
+  .root-study-page *{box-sizing:border-box}
+  .root-study-page.forqan-page-rtl,.root-study-page.forqan-page-rtl h1,.root-study-page.forqan-page-rtl h2,.root-study-page.forqan-page-rtl h3,.root-study-page.forqan-page-rtl p,.root-study-page.forqan-page-rtl li{direction:rtl;text-align:right}
+  .root-study-page.forqan-page-ltr,.root-study-page.forqan-page-ltr h1,.root-study-page.forqan-page-ltr h2,.root-study-page.forqan-page-ltr h3,.root-study-page.forqan-page-ltr p,.root-study-page.forqan-page-ltr li{direction:ltr;text-align:left}
+  .root-frame{background:radial-gradient(circle at top right,var(--root-accent-soft),transparent 34%),var(--root-card);border:1px solid var(--root-border);border-radius:26px;padding:2.4rem;box-shadow:var(--root-shadow)}
+  .root-hero{border-bottom:1px solid var(--root-border-soft);padding-bottom:1.65rem;margin-bottom:2rem}
+  .root-kicker{color:var(--root-accent-deep);font-size:.96rem;font-weight:800;margin-bottom:.45rem}
+  .root-study-page h1{margin:0;font-size:clamp(2rem,4vw,3.05rem);line-height:1.4;color:var(--root-text)}
+  .root-subtitle{color:var(--root-muted);max-width:780px;margin:1rem 0 0;font-size:1.04rem}
+  .root-forms-card,.root-toc{background:linear-gradient(180deg,var(--root-accent-soft),transparent 82%),var(--root-panel);border:1px solid var(--root-border);border-radius:20px;padding:1.35rem 1.55rem;margin:1.55rem 0}
+  .root-forms-card h2,.root-toc h2{margin-top:0}
+  .morphology-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin-top:1rem}
+  .morph-card{display:block;border:1px solid var(--root-border-soft);border-radius:16px;padding:1rem;background:var(--root-section);color:inherit;text-decoration:none}
+  .morph-card-header{display:flex;justify-content:space-between;gap:.75rem;color:var(--root-muted);font-size:.88rem;margin-bottom:.55rem}
+  .morph-form{font-weight:800;font-size:1.18rem;color:var(--root-accent-deep);margin-bottom:.4rem}
+  .morph-note{color:var(--root-muted);margin-bottom:0;font-size:.95rem}
+  .translit{color:var(--root-muted);font-weight:500;font-size:.92em}
+  .root-note{border-right:3px solid var(--root-accent);padding:.9rem 1rem;background:var(--root-accent-soft);border-radius:14px;color:var(--root-muted);margin:1.25rem 0}
+  .root-study-page.forqan-page-ltr .root-note{border-right:0;border-left:3px solid var(--root-accent)}
+  .root-toc ol{list-style-position:inside;padding-right:0;margin:.75rem 0 0;columns:2;column-gap:2rem}
+  .root-study-page.forqan-page-ltr .root-toc ol{padding-left:0}
+  .root-toc li{margin:.28rem 0;break-inside:avoid}
+  .root-section{background:var(--root-section);border:1px solid var(--root-border-soft);border-radius:18px;padding:1.5rem 1.6rem;margin:1.55rem 0}
+  .root-section h2{margin:0 0 1rem;color:var(--root-text);font-size:1.35rem;line-height:1.6}
+  .root-section h2::before{content:"";display:inline-block;width:.58rem;height:.58rem;border-radius:999px;background:var(--root-accent);margin-left:.55rem;vertical-align:.08em}
+  .root-study-page.forqan-page-ltr .root-section h2::before{margin-left:0;margin-right:.55rem}
+  .root-study-page p{margin:.85rem 0}
+  .root-study-page a{color:var(--root-accent-deep);text-decoration:none;border-bottom:1px dotted currentColor}
+  .arabic-quote{direction:rtl;text-align:center;font-size:1.48rem;line-height:2.5;margin:1.4rem 0 .65rem;padding:1rem 1.25rem;border:1px solid var(--root-border);border-radius:18px;background:linear-gradient(180deg,var(--root-accent-soft),transparent),var(--root-panel);color:var(--root-text);unicode-bidi:isolate}
+  .root-study-page .translation{text-align:center!important;color:var(--root-muted);margin-top:.45rem}
+  .root-study-page .verse-ref{text-align:center!important;color:var(--root-accent-deep);font-weight:700;margin-top:.25rem}
+  .root-study-page .arabic-large{font-size:1.12em;line-height:2.15;direction:rtl;unicode-bidi:isolate}
+  @media(max-width:760px){.root-study-page{padding:2rem 1rem}.root-frame{padding:1.25rem;border-radius:19px}.root-section,.root-forms-card,.root-toc{padding:1rem}.root-toc ol{columns:1}.morphology-grid{grid-template-columns:1fr}.arabic-quote{font-size:1.24rem}}
 </style>
-
 <div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
   <div class="root-frame">
-    <header class="root-hero">
-      <p class="root-kicker">Qur’anic Root</p>
-      <h1>The Qur’anic Root Ṭ GH Y</h1>
-      <p class="root-summary">Crossing the limit, overflowing, breaking the boundary of right measure, and moving beyond what is proper</p>
-    </header>
+    <section class="root-hero">
+      <div class="root-kicker">Qur'anic Root</div>
+      <h1>The Qur'anic Root TT GH Y</h1>
+      <p class="root-subtitle">From transgression to Taghut: passing beyond the limit, breaking the boundary, and a false reference sitting in the place of truth</p>
+    </section>
 
-    <section class="root-forms-card">
-      <h2>Important Forms from This Root</h2>
+    <section class="root-forms-card" id="morphology-table">
+      <h2>Morphological forms of this root</h2>
       <div class="morphology-grid">
-        <article class="morph-card">
-          <div class="morph-form arabic-large">طَغَى / يَطْغَى <span class="translit">(ṭaghā / yaṭghaā)</span></div>
-          <p class="morph-note"><em>ṭaghā / yaṭghā</em>; crossed the limit, rebelled, overflowed, moved beyond proper measure.</p>
-        </article>
-        <article class="morph-card">
-          <div class="morph-form arabic-large">طُغْيَان <span class="translit">(ṭughyān)</span></div>
-          <p class="morph-note"><em>ṭughyān</em>; transgression, limit-breaking, rebellion against right measure.</p>
-        </article>
-        <article class="morph-card">
-          <div class="morph-form arabic-large">طَاغٍ <span class="translit">(ṭāghin)</span></div>
-          <p class="morph-note"><em>ṭāghin</em>; one who has crossed the limit.</p>
-        </article>
-        <article class="morph-card">
-          <div class="morph-form arabic-large">طَاغِيَة <span class="translit">(ṭāghiyah)</span></div>
-          <p class="morph-note"><em>ṭāghiyah</em>; a rebellious force, destructive event, or tyrannical power.</p>
-        </article>
-        <article class="morph-card">
-          <div class="morph-form arabic-large">طَاغُوت <span class="translit">(ṭāghūt)</span></div>
-          <p class="morph-note"><em>ṭāghūt</em>; any authority, power, structure, or force that pulls the human being beyond the boundary of truth or sets itself in the place of truth.</p>
-        </article>
+        <a class="morph-card" href="#intro"><div class="morph-card-header"><div class="morph-type">Root</div><div class="morph-used">Foundational meaning</div></div><div class="morph-form">ط غ ي <span class="translit">(ṭ gh y)</span></div><p class="morph-note">Passing beyond the limit, overflowing, transgressing, and breaking the proper boundary.</p></a>
+        <a class="morph-card" href="#water"><div class="morph-card-header"><div class="morph-type">Verb</div><div class="morph-used">Transgression</div></div><div class="morph-form">طَغَى / يَطْغَى / طَغَوْا <span class="translit">(ṭaghā / yaṭghā / ṭaghaw)</span></div><p class="morph-note">Rebellion and crossing the limit in a person, power, society, blessing, or perception.</p></a>
+        <a class="morph-card" href="#wandering"><div class="morph-card-header"><div class="morph-type">Verbal noun</div><div class="morph-used">Boundary-breaking process</div></div><div class="morph-form">طُغْيَان <span class="translit">(ṭughyān)</span></div><p class="morph-note">A state and process that carries the human being beyond proper measure and into wandering.</p></a>
+        <a class="morph-card" href="#taghut"><div class="morph-card-header"><div class="morph-type">Central form</div><div class="morph-used">False reference</div></div><div class="morph-form">طَاغُوت <span class="translit">(ṭāghūt)</span></div><p class="morph-note">Transgression institutionalized as reference, guardianship, judgment, demand for obedience, or servitude.</p></a>
       </div>
     </section>
 
-    <nav class="root-toc" aria-label="Sections for the root Ṭ GH Y">
-      <h2>Sections</h2>
+    <p class="root-note">This article begins from the word <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>, but follows the full field of the root <strong class="arabic-large">ط غ ي</strong> <span class="translit">(ṭ gh y)</span>: from overflowing water to Pharaoh, self-sufficiency, blessing, perception, civilization, and finally <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> as the referential and institutional form of transgression.</p>
+
+    <nav class="root-toc" aria-label="Article section list">
+      <h2>Usage map of this root</h2>
       <ol>
-        <li><a href="#core">Central Meaning</a></li>
-        <li><a href="#image">Material Image</a></li>
-        <li><a href="#old-arabic">Classical Arabic Note</a></li>
-        <li><a href="#istighna">Transgression and the Illusion of Self-Sufficiency</a></li>
-        <li><a href="#mizan">Transgression in the Measure</a></li>
-        <li><a href="#pharaoh">Transgression and Pharaoh</a></li>
-        <li><a href="#taghut">What Is Ṭāghūt?</a></li>
-        <li><a href="#near">Difference from Nearby Terms</a></li>
-        <li><a href="#today">Connection to Life Today</a></li>
-        <li><a href="#translation">Forqan Translation Suggestions</a></li>
-        <li><a href="#summary">Summary</a></li>
+        <li><a href="#intro">Foundational Meaning</a></li>
+        <li><a href="#forms">Important Qur'anic Forms</a></li>
+        <li><a href="#core">Linguistic Core</a></li>
+        <li><a href="#material">Material Image of the Root</a></li>
+        <li><a href="#water">The Direct Image of Overflowing Water</a></li>
+        <li><a href="#classical">Classical Arabic Usage</a></li>
+        <li><a href="#pharaoh">The Rebellion of Pharaoh</a></li>
+        <li><a href="#self-sufficiency">Human Transgression Through Imagined Self-Sufficiency</a></li>
+        <li><a href="#provision">Transgression in Blessing and Provision</a></li>
+        <li><a href="#perception">Transgression of the Eye and Perception</a></li>
+        <li><a href="#civilization">Collective and Civilizational Transgression</a></li>
+        <li><a href="#wandering">Wandering Within Transgression</a></li>
+        <li><a href="#taghut">Reaching the Concept of Taghut</a></li>
+        <li><a href="#taghut-foundation">Rejecting Taghut and Believing in The God</a></li>
+        <li><a href="#wilayah">Taghut Against the Guardianship of The God</a></li>
+        <li><a href="#messengers">The Call of All Messengers</a></li>
+        <li><a href="#judgment">Taghut in the Place of Judgment</a></li>
+        <li><a href="#path">The Path of Taghut</a></li>
+        <li><a href="#worship">Avoiding the Servitude of Taghut</a></li>
+        <li><a href="#distinctions">The Difference Between Tughyān and Taghut</a></li>
+        <li><a href="#satan">The Difference Between Taghut and Satan</a></li>
+        <li><a href="#idol">The Difference Between Taghut and Idol</a></li>
+        <li><a href="#structure">Structural Notes</a></li>
+        <li><a href="#near-roots">Difference from Nearby Roots</a></li>
+        <li><a href="#translation-suggestions">Translation Suggestions for Forqan</a></li>
+        <li><a href="#summary">Linguistic Summary</a></li>
       </ol>
     </nav>
 
-    <section id="core" class="root-section">
-      <h2>Central Meaning</h2>
-      <p>The root <strong>Ṭ GH Y</strong> means crossing a limit, overflowing, transgressing a boundary, and moving beyond the right measure.</p>
-      <p>Before this root becomes a political, theological, or legal word, it carries a living image: something exceeds its natural capacity. Water rises above its bed. A vessel is filled beyond measure. Power crosses the boundary of justice. The human self abandons servanthood and sees itself as the final criterion.</p>
-      <p>So <em>ṭughyān</em> is not merely disobedience. It is the breaking of a boundary: something leaves its proper place and passes beyond the limit of truth.</p>
+    <section class="root-section" id="intro">
+      <h2>Foundational Meaning</h2>
+      <p>The root <strong class="arabic-large">ط غ ي</strong> <span class="translit">(ṭ gh y)</span>, beginning here from the word <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>, originally points to passing beyond the limit, overflowing, rebelling, breaking a boundary, and leaving the proper measure. Its material image is water that rises above its bed, breaks the restraining limit, and spills into the surrounding area. From this image, the ethical and social meaning of the root becomes clear: something that should remain within its proper limit leaves its place and trespasses into the domain of truth, justice, servanthood, or the freedom of others.</p>
     </section>
 
-    <section id="image" class="root-section">
-      <h2>Material Image</h2>
-      <p>The central material image of this root can be seen in overflow. When water rises above its bed and crosses its natural boundary, it is no longer simply water; it becomes a destructive force. The Qur’an uses this image directly:</p>
-      <p><strong class="arabic-large">إِنَّا لَمَّا طَغَى الْمَاءُ حَمَلْنَاكُمْ فِي الْجَارِيَةِ</strong> <span class="translit">(innā lammā ṭaghā al-māʾu ḥamalnākum fī al-jāriyah)</span> <a class="quran-ref-link" href="{{ '/quran-reflection/en/069-al-haqqah/#ayah-011' | relative_url }}">69:11</a></p>
-      <p>In this verse, transgression is not said of a human being; it is said of water. This matters. The root <strong>Ṭ GH Y</strong> is not only about human sin. At its base, it is about leaving the proper limit and capacity.</p>
-      <p>Water within its limit gives life. When it crosses the limit, it destroys. Power is the same. Wealth is the same. Knowledge is the same. Even religion, if it leaves the place of guidance and becomes an instrument of domination, can take the form of transgression.</p>
+    <section class="root-section" id="forms">
+      <h2>Important Qur'anic Forms</h2>
+      <p>The important forms of this root in the Qur'an include <strong class="arabic-large">طغى</strong> <span class="translit">(ṭaghā)</span>, <strong class="arabic-large">يطغى</strong> <span class="translit">(yaṭghā)</span>, <strong class="arabic-large">تطغوا</strong> <span class="translit">(taṭghaw)</span>, <strong class="arabic-large">طغوا</strong> <span class="translit">(ṭaghaw)</span>, <strong class="arabic-large">أطغى</strong> <span class="translit">(aṭghā)</span>, <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span>, <strong class="arabic-large">طاغية</strong> <span class="translit">(ṭāghiyah)</span>, <strong class="arabic-large">طاغون</strong> <span class="translit">(ṭāghūn)</span>, and <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>. <strong class="arabic-large">طغى</strong> <span class="translit">(ṭaghā)</span> is the primary verb and refers to rebellion and crossing the limit. <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> names the state and process of boundary-breaking. <strong class="arabic-large">طاغية</strong> <span class="translit">(ṭāghiyah)</span> can refer to a rebellious force, an overwhelming destructive event, or an intensified form of transgression. <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is a very important form that points to any reference, power, standard, system, or being that has crossed its limit and becomes, against The God or in the place of The God, a reference of obedience, judgment, guardianship, or servitude.</p>
     </section>
 
-    <section id="old-arabic" class="root-section">
-      <h2>Classical Arabic Note</h2>
-      <p>In classical Arabic, this root is connected with rising, overflowing, and exceeding measure. Arabic lexicographers used it for water, flood, human conduct, and the rebellion of living beings.</p>
-      <p>Some lexical examples use this root for something that rises beyond its container or proper capacity. This shows that early Arabic did not understand <em>ṭughyān</em> only as doctrinal opposition, but as a movement beyond measure and containment.</p>
-      <p>Classical poetry and lexicon may illuminate the linguistic atmosphere of the root, but the final criterion for Qur’anic meaning remains the Qur’an and the relation of its verses to one another.</p>
+    <section class="root-section" id="core">
+      <h2>Linguistic Core</h2>
+      <p>The linguistic core of <strong class="arabic-large">ط غ ي</strong> <span class="translit">(ṭ gh y)</span> is breaking the limit. In this root, the problem is not merely committing a bad act; the problem is the collapse of measure and boundary. A human being, government, wealth, ego, tradition, tribe, knowledge, religious institution, leader, or political system enters the field of <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> when it leaves its proper place and sets itself up as the final criterion of truth.</p>
     </section>
 
-    <section id="istighna" class="root-section">
-      <h2>Transgression and the Illusion of Self-Sufficiency</h2>
-      <p>In Surat al-ʿAlaq, the Qur’an connects this root to one of the deepest diseases of the human being:</p>
-      <p><strong class="arabic-large">كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَىٰ ۝ أَن رَّآهُ اسْتَغْنَىٰ</strong> <span class="translit">(kallā inna al-insāna layaṭghaā ۝ an rraāhu astaghnaā)</span> <a class="quran-ref-link" href="{{ '/quran-reflection/en/096-al-alaq/#ayah-006' | relative_url }}">96:6</a>–<a class="quran-ref-link" href="{{ '/quran-reflection/en/096-al-alaq/#ayah-007' | relative_url }}">96:7</a></p>
-      <p>The precise expression is <strong class="arabic-large">رَآهُ اسْتَغْنَىٰ</strong> <span class="translit">(raāhu astaghnaā)</span>. The verse does not say that the human being truly becomes self-sufficient. It says that he sees himself as self-sufficient.</p>
-      <p>This is an inner illusion. The human being is never independent of The God, existence, breath, time, earth, water, food, light, society, and mercy. But when he imagines himself independent and self-contained, the boundary of servanthood becomes weak within him.</p>
-      <p>Transgression therefore does not begin with real power. It begins with the illusion of self-sufficiency.</p>
+    <section class="root-section" id="material">
+      <h2>Material Image of the Root</h2>
+      <p>The material image of this root is a flood. As long as water flows within its channel, it can be life-giving. But when it passes beyond its limit, breaks the boundary, and spills over the surrounding land, it becomes destructive. The Qur'an brings this image directly:</p>
     </section>
 
-    <section id="mizan" class="root-section">
-      <h2>Transgression in the Measure</h2>
-      <p>The Qur’an does not limit transgression to the inner self or political power. In Surat al-Raḥmān, transgression is directly connected with the measure:</p>
-      <p><strong class="arabic-large">وَالسَّمَاءَ رَفَعَهَا وَوَضَعَ الْمِيزَانَ ۝ أَلَّا تَطْغَوْا فِي الْمِيزَانِ</strong> <span class="translit">(wālssamāʾa rafaʿahā wawaḍaʿa al-mīzāna ۝ allā taṭghawā fī al-mīzāni)</span> <a class="quran-ref-link" href="{{ '/quran-reflection/en/055-ar-rahman/#ayah-007' | relative_url }}">55:7</a>–<a class="quran-ref-link" href="{{ '/quran-reflection/en/055-ar-rahman/#ayah-008' | relative_url }}">55:8</a></p>
-      <p>Here transgression means crossing the limit in measurement: manipulating the criterion, breaking balance, and moving the scales in one’s own favor.</p>
-      <p>This verse is crucial for the economic and social meaning of the root. Transgression is not only open oppression. Sometimes it hides inside criteria: measures, weights, prices, contracts, profit, debt, indexes, laws, media, or powers that imagine themselves above just measurement.</p>
+    <section class="root-section" id="water">
+      <h2>The Direct Image of Overflowing Water</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّا لَمَّا طَغَى الْمَاءُ حَمَلْنَاكُمْ فِي الْجَارِيَةِ</blockquote>
+            <p class="translation">Indeed, when the water overflowed, We carried you in the running vessel.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/069-al-haqqah/#ayah-011' | relative_url }}">Al-Haqqah 69:11</a></p>
+      <p>Here, <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> is material and visible: water leaves its measure and bed. This verse is very important for understanding the root, because it shows that <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> is not merely “increase”; it is an increase that breaks the limit and leads to destruction.</p>
     </section>
 
-    <section id="pharaoh" class="root-section">
-      <h2>Transgression and Pharaoh</h2>
-      <p>One of the clearest Qur’anic examples of transgression is Pharaoh:</p>
-      <p><strong class="arabic-large">اذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُ طَغَىٰ</strong> <span class="translit">(adhhab ilā firʿawna innahu ṭaghā)</span> <a class="quran-ref-link" href="{{ '/quran-reflection/en/020-taha/#ayah-024' | relative_url }}">20:24</a></p>
-      <p>Pharaoh is not merely an unjust ruler. He is the human example of power that has gone beyond its proper limit. He no longer sees himself as responsible; he sees himself as the criterion.</p>
-      <p>Pharaonic transgression is power leaving the place of service and responsibility and sitting in the position of social lordship.</p>
+    <section class="root-section" id="classical">
+      <h2>Classical Arabic Usage</h2>
+      <p>In classical Arabic usage, <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> is connected to overflowing, rising up, overpowering, rebelling, and leaving the limit. This root can be used for water, power, behavior, the self, and society. The form and weight of the word <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> must also be discussed carefully. <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> comes from the field of <strong class="arabic-large">طغى</strong> <span class="translit">(ṭaghā)</span> and is a much weightier form than <strong class="arabic-large">طاغي</strong> <span class="translit">(ṭāghī)</span>. A <strong class="arabic-large">طاغي</strong> <span class="translit">(ṭāghī)</span> may be a rebellious person; but <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> often points to a reference or structure in which rebellion has become guardianship, demand for obedience, judgment, or servitude. In the final version, if a reliable witness from pre-Islamic poetry or ancient Arabic usage is found, it can be added.</p>
     </section>
 
-    <section id="taghut" class="root-section">
-      <h2>What Is Ṭāghūt?</h2>
-      <p>From here we can approach the word <strong class="arabic-large">طَاغُوت</strong> <span class="translit">(ṭāghūt)</span>. Ṭāghūt is not only a stone idol. It is not only a tyrant. Ṭāghūt is any authority, force, structure, person, system, desire, fear, tradition, or power that crosses its limit and drags the human being from servanthood to The God into servanthood to other than The God.</p>
-      <p>Ṭāghūt may be external: a tyrannical ruler, corrupt system, idol, blind tradition, economic power, or religious structure that puts itself in the place of truth. But it may also be internal: the self, pride, imagined independence, lust for domination, fear of people, or a desire that replaces the divine criterion within the human being.</p>
-      <p>The Qur’an says: <strong class="arabic-large">فَمَن يَكْفُرْ بِالطَّاغُوتِ</strong> <span class="translit">(faman yakfur biālṭṭāghūti)</span> <a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-256' | relative_url }}">2:256</a>. To reject ṭāghūt is to refuse the authority of every power or force that pulls the human being beyond the limit of truth.</p>
-      <p>These three levels should be kept distinct: <strong>ṭughyān</strong> is the act of crossing the limit. <strong>ṭāghī</strong> is one who has crossed the limit. <strong>ṭāghūt</strong> is a force, authority, structure, or reference that turns crossing the limit into a path, invitation, or system.</p>
+    <section class="root-section" id="pharaoh">
+      <h2>The Rebellion of Pharaoh</h2>
+      <p>One clear Qur'anic use of this root concerns Pharaoh:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُ طَغَىٰ</blockquote>
+            <p class="translation">Go to Pharaoh; indeed, he has transgressed.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/020-ta-ha/#ayah-024' | relative_url }}">Ta-Ha 20:24</a></p>
+      <p>And also:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُ طَغَىٰ</blockquote>
+            <p class="translation">Go to Pharaoh; indeed, he has transgressed.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/079-an-naziat/#ayah-017' | relative_url }}">An-Nazi'at 79:17</a></p>
+      <p>Pharaoh is not merely an ordinary sinner; he is a clear example of political, social, and theological <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span>. He pushed human power beyond its limit, placed people under domination, and built for himself a position that belongs only to The God. Pharaoh’s <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> means human power breaking the boundary of servanthood and responsibility and seating itself above truth.</p>
     </section>
 
-    <section id="near" class="root-section">
-      <h2>Difference from Nearby Terms</h2>
-      <p><strong>Ẓulm</strong> is putting something in the wrong place or violating a right. <strong>ʿUdwān</strong> is aggression against another’s right or boundary. <strong>Fasād</strong> is corruption of order and soundness. <strong>Kufr</strong> is covering or denying truth. <strong>Baghy</strong> is seeking with excess, superiority, or violation.</p>
-      <p><strong>Ṭughyān</strong> is crossing the limit and moving beyond the proper measure of truth. One act may be oppression, aggression, corruption, and transgression at the same time, but <strong>Ṭ GH Y</strong> emphasizes boundary-breaking and leaving proper capacity.</p>
+    <section class="root-section" id="self-sufficiency">
+      <h2>Human Transgression Through Imagined Self-Sufficiency</h2>
+      <p>The second field is human transgression through the feeling of self-sufficiency:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَىٰ
+      أَن رَّآهُ اسْتَغْنَىٰ</blockquote>
+            <p class="translation">No indeed; the human being surely transgresses, because he sees himself as self-sufficient.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/096-al-alaq/#ayah-006' | relative_url }}">Al-Alaq 96:6-7</a></p>
+      <p>This verse is very important for understanding the psychology of <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span>. When the human being sees himself as self-sufficient, he forgets his limit. False self-sufficiency produces transgression. That is, when a person sees himself as free of need from The God, truth, ethics, society, accountability, and guidance, he leaves his real place.</p>
+      <p>Here, <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> begins from within. First the human being sees himself as greater than his true limit; then he breaks the boundaries. So the root of transgression is sometimes not external power, but the inner illusion of self-sufficiency.</p>
     </section>
 
-    <section id="today" class="root-section">
-      <h2>Connection to Life Today</h2>
-      <p>Transgression is not only in the story of Pharaoh. When a state sees itself above people and justice, political transgression forms. When the market sees itself free from ethics and responsibility, economic transgression forms. When knowledge imagines itself independent of wisdom and mercy, intellectual transgression forms. When religion becomes a tool of domination and fear instead of guidance, religious transgression forms.</p>
-      <p>From the Qur’anic view, the problem is not only that the human being makes mistakes. The greater danger is that the human being crosses the limit and then names that crossing as truth.</p>
+    <section class="root-section" id="provision">
+      <h2>Transgression in Blessing and Provision</h2>
+      <p>The third field is transgression in blessing and provision:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">كُلُوا مِن طَيِّبَاتِ مَا رَزَقْنَاكُمْ وَلَا تَطْغَوْا فِيهِ فَيَحِلَّ عَلَيْكُمْ غَضَبِي</blockquote>
+            <p class="translation">Eat from the good things We have provided you, and do not transgress in it, lest My anger descend upon you.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/020-ta-ha/#ayah-081' | relative_url }}">Ta-Ha 20:81</a></p>
+      <p>Here, transgression is mentioned within provision and blessing. Blessing must remain within the proper limit of use, gratitude, justice, and responsibility. When blessing turns into excess, arrogance, monopoly, corruption, ingratitude, or disobedience, the human being has transgressed within that very blessing. So provision too, if it leaves the boundary of servanthood, becomes a field of <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span>.</p>
     </section>
 
-    <section id="translation" class="root-section">
-      <h2>Forqan Translation Suggestions</h2>
-      <p><strong class="arabic-large">طَغَى (ṭaghā)</strong>: crossed the limit; transgressed; broke the boundary of truth.</p>
-      <p><strong class="arabic-large">يَطْغَى (yaṭghā)</strong>: crosses the limit; falls into transgression.</p>
-      <p><strong class="arabic-large">طُغْيَان (ṭughyān)</strong>: transgression; limit-breaking; departure from the measure of truth.</p>
-      <p><strong class="arabic-large">طَاغٍ (ṭāghin)</strong>: limit-breaker; rebellious one; one who has gone beyond measure.</p>
-      <p><strong class="arabic-large">طَاغِيَة (ṭāghiyah)</strong>: transgressive force; rebellious event; destructive power.</p>
-      <p><strong class="arabic-large">طَاغُوت (ṭāghūt)</strong>: transgressive authority; limit-breaking power; a force that invites departure from truth; a structure that replaces truth; any center of servanthood other than The God.</p>
-      <p><strong class="arabic-large">لَمَّا طَغَى الْمَاءُ</strong> <span class="translit">(lammā ṭaghā al-māʾu)</span>: when the water crossed its limit and overflowed.</p>
-      <p><strong class="arabic-large">أَلَّا تَطْغَوْا فِي الْمِيزَانِ</strong> <span class="translit">(allā taṭghawā fī al-mīzāni)</span>: so that you do not cross the boundary of truth in the measure.</p>
+    <section class="root-section" id="perception">
+      <h2>Transgression of the Eye and Perception</h2>
+      <p>The fourth field is transgression of the eye and perception:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">مَا زَاغَ الْبَصَرُ وَمَا طَغَىٰ</blockquote>
+            <p class="translation">The sight did not swerve, nor did it transgress.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/053-an-najm/#ayah-017' | relative_url }}">An-Najm 53:17</a></p>
+      <p>In this verse, <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> is used concerning sight. The eye neither deviated nor passed beyond the limit. This use shows that transgression is not only political or ethical; even perception can leave its limit. Vision too must have measure, trustworthiness, and boundary. In this verse, the negation of the eye’s transgression means that seeing remained within its permitted and proper limit.</p>
     </section>
 
-    <section id="summary" class="root-section">
-      <h2>Summary</h2>
-      <p>The root <strong>Ṭ GH Y</strong> teaches that the central danger is not only making an error. The danger is that something leaves its limit and occupies the place of truth.</p>
-      <p>Water within its limit is life; beyond its limit it becomes destruction. Power within responsibility is a trust; beyond its limit it becomes Pharaonic. Wealth within justice is a blessing; beyond its limit it becomes an instrument of domination. Even knowledge and religion, if they leave servanthood and truth, may become infected with transgression.</p>
-      <p>From this view, the struggle against ṭāghūt is not only a struggle against an external idol. Its first field is inside the human being, where the self imagines itself self-sufficient, sets aside the measure, and places itself in the position of truth.</p>
+    <section class="root-section" id="civilization">
+      <h2>Collective and Civilizational Transgression</h2>
+      <p>The fifth field is collective and civilizational transgression:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">الَّذِينَ طَغَوْا فِي الْبِلَادِ
+      فَأَكْثَرُوا فِيهَا الْفَسَادَ</blockquote>
+            <p class="translation">Those who transgressed in the lands, and increased corruption within them.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/089-al-fajr/#ayah-011' | relative_url }}">Al-Fajr 89:11-12</a></p>
+      <p>In these verses, transgression is joined with social corruption. When powers, peoples, or civilizations pass beyond their limit, the result is corruption in the earth. Social transgression means that the structure of power leaves its place of service, justice, and trust and becomes domination, corruption, and ruin-making.</p>
+    </section>
+
+    <section class="root-section" id="wandering">
+      <h2>Wandering Within Transgression</h2>
+      <p>The sixth field is <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> as wandering in boundary-breaking:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَيَذَرُهُمْ فِي طُغْيَانِهِمْ يَعْمَهُونَ</blockquote>
+            <p class="translation">And He leaves them in their transgression, wandering blindly.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/007-al-araf/#ayah-186' | relative_url }}">Al-A'raf 7:186</a></p>
+      <p>In this verse, <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> has become a condition in which the human being is bewildered. The one who leaves the limit imagines that he has become free, but in reality he loses the lines of the path. If transgression continues, it leads the human being to <strong class="arabic-large">عمه</strong> <span class="translit">(ʿamah)</span>, blind wandering.</p>
+    </section>
+
+    <section class="root-section" id="taghut">
+      <h2>Reaching the Concept of Taghut</h2>
+      <p>Now we arrive at <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>. <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is the institutional and referential form of transgression. <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is not merely a rebellious person; it is any power, reference, system, tradition, ego, leader, law, institution, or desire that has left its limit and seated itself in the place of truth. <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is boundary-breaking that has passed beyond the individual state and has become a demand for obedience, judgment, guardianship, servitude, or a social path.</p>
+    </section>
+
+    <section class="root-section" id="taghut-foundation">
+      <h2>Rejecting Taghut and Believing in The God</h2>
+      <p>The foundational verse in this matter is:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لَا إِكْرَاهَ فِي الدِّينِ ۖ قَد تَّبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ ۚ فَمَن يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِن بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَىٰ</blockquote>
+            <p class="translation">There is no compulsion in religion; the way of sound growth has become clear from error. So whoever rejects Taghut and believes in The God has grasped the firmest handhold.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-256' | relative_url }}">Al-Baqarah 2:256</a></p>
+      <p>The order of the verse is very important: first rejecting <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>, then believing in The God. This means faith becomes firm when the human being rejects false reference. If the ego, tribe, tradition, power, leader, sect, fear, or benefit has taken the place of truth, faith has not yet been purified from <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>.</p>
+    </section>
+
+    <section class="root-section" id="wilayah">
+      <h2>Taghut Against the Guardianship of The God</h2>
+      <p>In the next verse it says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اللَّهُ وَلِيُّ الَّذِينَ آمَنُوا يُخْرِجُهُم مِّنَ الظُّلُمَاتِ إِلَى النُّورِ ۖ وَالَّذِينَ كَفَرُوا أَوْلِيَاؤُهُمُ الطَّاغُوتُ يُخْرِجُونَهُم مِّنَ النُّورِ إِلَى الظُّلُمَاتِ</blockquote>
+            <p class="translation">The God is the Wali of those who believe; He brings them out from darknesses into the light. And those who disbelieve, their awliya are Taghut; they bring them out from the light into darknesses.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-257' | relative_url }}">Al-Baqarah 2:257</a></p>
+      <p>Here, <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> stands opposite the guardianship of The God. The God brings the human being from darknesses into light; <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> pulls the human being from light into darknesses. So <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is not merely a “bad thing”; it is a reference that changes the human being’s direction and carries the path from light toward darkness.</p>
+    </section>
+
+    <section class="root-section" id="messengers">
+      <h2>The Call of All Messengers</h2>
+      <p>Another field is the call of all messengers:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَقَدْ بَعَثْنَا فِي كُلِّ أُمَّةٍ رَّسُولًا أَنِ اعْبُدُوا اللَّهَ وَاجْتَنِبُوا الطَّاغُوتَ</blockquote>
+            <p class="translation">And We certainly raised in every community a messenger: Worship The God and avoid Taghut.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/016-an-nahl/#ayah-036' | relative_url }}">An-Nahl 16:36</a></p>
+      <p>The call of the prophets was not merely to prove The God; it was also to stay away from <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>. A person may utter the name of The God, yet in practice obey <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>. So worshipping The God and avoiding <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> are two faces of one reality.</p>
+    </section>
+
+    <section class="root-section" id="judgment">
+      <h2>Taghut in the Place of Judgment</h2>
+      <p>In another verse, <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is connected with false judgment:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">يُرِيدُونَ أَن يَتَحَاكَمُوا إِلَى الطَّاغُوتِ وَقَدْ أُمِرُوا أَن يَكْفُرُوا بِهِ</blockquote>
+            <p class="translation">They wish to take judgment to Taghut, while they were commanded to reject it.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/004-an-nisa/#ayah-060' | relative_url }}">An-Nisa 4:60</a></p>
+      <p>Here, <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is not merely an idol; it is a false reference of judgment. Any system of judgment, production of rulings, or authority that distances the human being from the truth of The God, justice, and revelation, and seats itself as the final criterion, can become <strong class="arabic-large">طاغوتي</strong> <span class="translit">(ṭāghūtī)</span>.</p>
+    </section>
+
+    <section class="root-section" id="path">
+      <h2>The Path of Taghut</h2>
+      <p>In Surat An-Nisa it also says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">الَّذِينَ آمَنُوا يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ ۖ وَالَّذِينَ كَفَرُوا يُقَاتِلُونَ فِي سَبِيلِ الطَّاغُوتِ</blockquote>
+            <p class="translation">Those who believe fight in the way of The God, and those who disbelieve fight in the way of Taghut.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/004-an-nisa/#ayah-076' | relative_url }}">An-Nisa 4:76</a></p>
+      <p>Here, <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> creates a path and a front. <strong class="arabic-large">سبيل الله</strong> <span class="translit">(sabīl Allāh)</span> stands opposite <strong class="arabic-large">سبيل الطاغوت</strong> <span class="translit">(sabīl al-ṭāghūt)</span>. This means <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is not merely a belief or an idol in the mind; it builds a path, politics, loyalty, war, and a system of action.</p>
+    </section>
+
+    <section class="root-section" id="worship">
+      <h2>Avoiding the Servitude of Taghut</h2>
+      <p>Another field is avoiding the servitude of <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَالَّذِينَ اجْتَنَبُوا الطَّاغُوتَ أَن يَعْبُدُوهَا وَأَنَابُوا إِلَى اللَّهِ لَهُمُ الْبُشْرَىٰ</blockquote>
+            <p class="translation">And those who avoided Taghut, that they might worship it, and turned back to The God — for them is good news.</p>
+            <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/039-az-zumar/#ayah-017' | relative_url }}">Az-Zumar 39:17</a></p>
+      <p>This verse connects <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> with worship. Worship here is not only outward prostration; servitude, misplaced obedience, surrender, and taking reference from other than The God also enter this field. Avoiding <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> means distancing oneself from every reference that takes the human being out of servitude to The God.</p>
+    </section>
+
+    <section class="root-section" id="distinctions">
+      <h2>The Difference Between Tughyān and Taghut</h2>
+      <p>One must distinguish between <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> and <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>. <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> is the state or act of passing beyond the limit. <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is something in which this boundary-breaking has become reference, power, demand for obedience, judgment, or system. Every <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> contains <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span>, but not every act of <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> has yet become a social, political, or religious <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>.</p>
+    </section>
+
+    <section class="root-section" id="satan">
+      <h2>The Difference Between Taghut and Satan</h2>
+      <p><strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is also close to Satan, but they are not the same. Satan whispers, beautifies misguidance, and invites the human being to the path of transgression. <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is a false reference and boundary-breaking authority that a human being may take as wali, judge, object of worship, legislator, or commander. Satan can invite a human being to <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>; and <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> can act satanically. But the two words are not identical.</p>
+    </section>
+
+    <section class="root-section" id="idol">
+      <h2>The Difference Between Taghut and Idol</h2>
+      <p><strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is not identical with an idol either. An idol can be one form of <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>, but <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is broader than an idol. <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> can be political power, the self-worshipping ego, inherited tradition, a boundary-breaking religious institution, an unjust law, a sanctified leader, ethnicity, wealth, or any other reference that seats itself in the place of truth.</p>
+    </section>
+
+    <section class="root-section" id="structure">
+      <h2>Structural Notes</h2>
+      <p>Structurally, <strong class="arabic-large">كفر بالطاغوت</strong> <span class="translit">(kufr bi-l-ṭāghūt)</span> is very important. <strong class="arabic-large">كفر</strong> <span class="translit">(kufr)</span> here is not only mental denial; it is rejecting the authority of <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span>, cutting away from it, and refusing its guardianship. <strong class="arabic-large">اجتنبوا الطاغوت</strong> <span class="translit">(ijtanibū al-ṭāghūt)</span> is also not only theoretical opposition; it is practical distancing and avoidance of servitude to it. <strong class="arabic-large">يتحاكموا إلى الطاغوت</strong> <span class="translit">(yataḥākamū ilā al-ṭāghūt)</span> shows that <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> can appear in the station of judgment and ruling. <strong class="arabic-large">سبيل الطاغوت</strong> <span class="translit">(sabīl al-ṭāghūt)</span> shows that <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> can build a path and a front. <strong class="arabic-large">أولياؤهم الطاغوت</strong> <span class="translit">(awliyāʾuhum al-ṭāghūt)</span> shows that <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> can sit in the place of guardianship and carry the human being from light into darkness.</p>
+    </section>
+
+    <section class="root-section" id="near-roots">
+      <h2>Difference from Nearby Roots</h2>
+      <p><strong class="arabic-large">ط غ ي</strong> <span class="translit">(ṭ gh y)</span> differs from several nearby roots. <strong class="arabic-large">ع د و</strong> <span class="translit">(ʿ d w)</span> points to hostility and transgressing the limit in relation to another; <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> is broader and shows the basic overflowing beyond the limit. <strong class="arabic-large">ب غ ي</strong> <span class="translit">(b gh y)</span> is close to improper seeking, aggression, and desiring beyond one's right; <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> focuses on breaking the limit and bursting beyond measure. <strong class="arabic-large">ظلم</strong> <span class="translit">(ẓulm)</span> relates to displacing a right and putting something outside its proper place; <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> often creates the ground for <strong class="arabic-large">ظلم</strong> <span class="translit">(ẓulm)</span>. <strong class="arabic-large">كفر</strong> <span class="translit">(kufr)</span> is covering the truth; <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> is leaving the boundary of truth. <strong class="arabic-large">فسق</strong> <span class="translit">(fisq)</span> is leaving the boundary of the command; <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> is a more intense and rebellious form of leaving the limit. <strong class="arabic-large">علو</strong> <span class="translit">(ʿuluww)</span> points to rising up and seeking superiority; <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> occurs when this rising passes beyond its legitimate limit.</p>
+    </section>
+
+    <section class="root-section" id="translation-suggestions">
+      <h2>Translation Suggestions for Forqan</h2>
+      <p>For translation in Forqan, <strong class="arabic-large">ط غ ي</strong> <span class="translit">(ṭ gh y)</span> must be translated according to context. <strong class="arabic-large">طغى</strong> <span class="translit">(ṭaghā)</span> can be “transgressed,” “passed beyond the limit,” “rebelled,” or “broke the boundary.” <strong class="arabic-large">طغيان</strong> <span class="translit">(ṭughyān)</span> can be “transgression,” “rebellion,” “boundary-breaking,” or “passing beyond the limit.” <strong class="arabic-large">لا تطغوا</strong> <span class="translit">(lā taṭghaw)</span> is better rendered as “do not pass beyond the limit in it” or “do not transgress in it.” <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> should not be translated merely as “idol.” Depending on context, it can be explained as “Taghut,” “boundary-breaking reference,” “false power,” “false authority,” “rebellious system,” or “that which has been seated in the place of The God.” In many verses, preserving the word <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> together with explanation is better than a simple translation.</p>
+    </section>
+
+    <section class="root-section" id="summary">
+      <h2>Linguistic Summary</h2>
+      <p>Linguistic summary: the root <strong class="arabic-large">ط غ ي</strong> <span class="translit">(ṭ gh y)</span> points to overflowing, passing beyond the limit, transgressing, and breaking the proper boundary. Its material image is water that bursts out of its bed and becomes destructive. In the Qur'an, this root extends from the overflowing of water to the transgression of Pharaoh, from human transgression through the feeling of self-sufficiency to transgression in blessing, from the transgression of the eye to the transgression of civilizations, and from individual transgression to <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> as a false reference. <strong class="arabic-large">طاغوت</strong> <span class="translit">(ṭāghūt)</span> is the institutional, referential, or worship-receiving form of transgression: anything that crosses its own limit and seats itself in the place of truth, The God, revelation, justice, or final judgment.</p>
     </section>
   </div>
 </div>
