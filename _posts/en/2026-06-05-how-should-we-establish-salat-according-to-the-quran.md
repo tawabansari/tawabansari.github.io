@@ -40,7 +40,7 @@ So the first correction is this:
 
 **The prayer-connection in the Qur’an is not something to be “read.” It is something to be established.**
 
-But what is “namaz”? Where did this word come from?
+But what is “namaz”? Where did this term come from?
 
 “Namaz” is a Persian word that existed in Iranian languages before Islam. It carried meanings such as reverence, bending, and a form of humble gesture. Later, this word was used to translate the Qur’anic term for prayer-connection. But over time, this translation pushed the meaning toward an outward and repetitive ritual act, while the Qur’anic concept is much deeper and wider. This is the point where a translation, instead of carrying the meaning, limited it.
 
