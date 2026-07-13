@@ -1,0 +1,437 @@
+---
+layout: default
+title: ریشه قرآنی ط ر ح
+permalink: /quran-terminology/fa/roots/tt-r-h/
+---
+<style>
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark-theme .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page,
+  .theme-dark .root-study-page,
+  .forqan-theme-dark .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-study-page * { box-sizing: border-box; }
+
+  .root-study-page.forqan-page-rtl,
+  .root-study-page.forqan-page-rtl h1,
+  .root-study-page.forqan-page-rtl h2,
+  .root-study-page.forqan-page-rtl h3,
+  .root-study-page.forqan-page-rtl p,
+  .root-study-page.forqan-page-rtl li { direction: rtl; text-align: right; }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li { direction: ltr; text-align: left; }
+
+  .root-frame {
+    background: radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%), var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero { border-bottom: 1px solid var(--root-border-soft); padding-bottom: 1.65rem; margin-bottom: 2rem; }
+  .root-kicker { color: var(--root-accent-deep); font-size: 0.96rem; font-weight: 800; margin-bottom: 0.45rem; }
+  .root-study-page h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.05rem); line-height: 1.4; color: var(--root-text); }
+  .root-subtitle { color: var(--root-muted); max-width: 780px; margin: 1rem 0 0; font-size: 1.04rem; }
+
+  .root-forms-card, .root-toc {
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent 82%), var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+  .root-forms-card h2, .root-toc h2 { margin-top: 0; }
+  .morphology-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+  .morph-card { display: block; border: 1px solid var(--root-border-soft); border-radius: 16px; padding: 1rem; background: var(--root-section); color: inherit; text-decoration: none; }
+  .morph-card-header { display: flex; justify-content: space-between; gap: 0.75rem; color: var(--root-muted); font-size: 0.88rem; margin-bottom: 0.55rem; }
+  .morph-form { font-weight: 800; font-size: 1.18rem; color: var(--root-accent-deep); margin-bottom: 0.4rem; }
+  .morph-note { color: var(--root-muted); margin-bottom: 0; font-size: 0.95rem; }
+  .translit { color: var(--root-muted); font-weight: 500; font-size: 0.92em; }
+
+  .root-note { border-right: 3px solid var(--root-accent); padding: 0.9rem 1rem; background: var(--root-accent-soft); border-radius: 14px; color: var(--root-muted); margin: 1.25rem 0; }
+  .root-study-page.forqan-page-ltr .root-note { border-right: 0; border-left: 3px solid var(--root-accent); }
+
+  .root-toc ol { list-style-position: inside; padding-right: 0; margin: 0.75rem 0 0; columns: 2; column-gap: 2rem; }
+  .root-study-page.forqan-page-ltr .root-toc ol { padding-left: 0; }
+  .root-toc li { margin: 0.28rem 0; break-inside: avoid; }
+
+  .root-section { background: var(--root-section); border: 1px solid var(--root-border-soft); border-radius: 18px; padding: 1.5rem 1.6rem; margin: 1.55rem 0; }
+  .root-section h2 { margin: 0 0 1rem; color: var(--root-text); font-size: 1.35rem; line-height: 1.6; }
+  .root-section h2::before { content: ""; display: inline-block; width: 0.58rem; height: 0.58rem; border-radius: 999px; background: var(--root-accent); margin-left: 0.55rem; vertical-align: 0.08em; }
+  .root-study-page.forqan-page-ltr .root-section h2::before { margin-left: 0; margin-right: 0.55rem; }
+  .root-study-page p { margin: 0.85rem 0; }
+  .root-study-page a { color: var(--root-accent-deep); text-decoration: none; border-bottom: 1px dotted currentColor; }
+
+  .arabic-quote { direction: rtl; text-align: center; font-size: 1.48rem; line-height: 2.5; margin: 1.4rem 0 0.65rem; padding: 1rem 1.25rem; border: 1px solid var(--root-border); border-radius: 18px; background: linear-gradient(180deg, var(--root-accent-soft), transparent), var(--root-panel); color: var(--root-text); unicode-bidi: isolate; }
+  .root-study-page .translation { text-align: center !important; color: var(--root-muted); margin-top: 0.45rem; }
+  .root-study-page .verse-ref { text-align: center !important; color: var(--root-accent-deep); font-weight: 700; margin-top: 0.25rem; }
+  .root-study-page .arabic-large { font-size: 1.12em; line-height: 2.15; direction: rtl; unicode-bidi: isolate; }
+
+  @media (max-width: 760px) {
+    .root-study-page { padding: 2rem 1rem; }
+    .root-frame { padding: 1.25rem; border-radius: 19px; }
+    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
+    .root-toc ol { columns: 1; }
+    .morphology-grid { grid-template-columns: 1fr; }
+    .arabic-quote { font-size: 1.24rem; }
+  }
+</style>
+
+<div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">ریشه قرآنی</div>
+      <h1>ریشه قرآنی ط ر ح</h1>
+      <p class="root-subtitle">افکندن، بیرون انداختن، کنار نهادن، و دور ساختن چیزی از جایگاه پیشین</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>صورت‌های صرفی این ریشه</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#short-meaning"><div class="morph-card-header"><div class="morph-type">ریشه</div><div class="morph-used">معنای بنیادین</div></div><div class="morph-form">ط ر ح</div><p class="morph-note">افکندن، بیرون انداختن، کنار نهادن یا دور ساختن چیزی از جایگاه پیشین.</p></a>
+        <a class="morph-card" href="#forms"><div class="morph-card-header"><div class="morph-type">صورت قرآنی</div><div class="morph-used">تنها کاربرد قرآنی</div></div><div class="morph-form">اطْرَحُوهُ</div><p class="morph-note">او را بیفکنید یا بیرون اندازید؛ امر جمع از فعل ساده طَرَحَ.</p></a>
+        <a class="morph-card" href="#from-itrahuhu-to-alquhu"><div class="morph-card-header"><div class="morph-type">مقایسه سیاقی</div><div class="morph-used">در داستان یوسف</div></div><div class="morph-form">اطْرَحُوهُ / أَلْقُوهُ</div><p class="morph-note">طرح بر حذف از محیط خانواده و القا بر انداختن در مقصد معین تأکید دارد.</p></a>
+        <a class="morph-card" href="#translation-suggestions"><div class="morph-card-header"><div class="morph-type">صورت‌های لغوی</div><div class="morph-used">برای میدان معنایی</div></div><div class="morph-form">طَرَحَ / طَرْح / مَطْرُوح</div><p class="morph-note">صورت‌هایی برای افکندن، بیرون انداختن، کنار گذاشتن، یا پیش نهادن.</p></a>
+      </div>
+    </section>
+
+    <p class="root-note">این صفحه درباره ریشه ط ر ح و تنها صورت قرآنی آن، اطْرَحُوهُ، است: بیرون ساختن یوسف از میدان خانواده و قرار دادن او در سرزمینی نامعین.</p>
+
+    <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
+      <h2>فهرست کاربردهای این ریشه</h2>
+      <ol>
+        <li><a href="#short-meaning">معنای کوتاه ریشه</a></li>
+        <li><a href="#forms">صورت‌های مهم ریشه</a></li>
+        <li><a href="#linguistic-note">نکته زبان‌شناسی</a></li>
+        <li><a href="#material-image">تصویر مادی ریشه</a></li>
+        <li><a href="#classical-usage">تبصره تاریخی و کاربرد عربی کهن</a></li>
+        <li><a href="#quranic-usage">کاربرد قرآنی ریشه</a></li>
+        <li><a href="#yusuf-family-removal">بیرون افکندن یوسف از محیط خانواده</a></li>
+        <li><a href="#from-itrahuhu-to-alquhu">از اطْرَحُوهُ أَرْضًا تا أَلْقُوهُ فِي غَيَابَتِ الْجُبِّ</a></li>
+        <li><a href="#meaning-ardan">معنای أَرْضًا</a></li>
+        <li><a href="#distinctions">تفکیک کاربردهای مشابه</a></li>
+        <li><a href="#casting-body-person">افکندن جسم یا شخص</a></li>
+        <li><a href="#out-of-structure">بیرون انداختن از یک ساختار</a></li>
+        <li><a href="#distancing">دور ساختن</a></li>
+        <li><a href="#setting-aside">کنار گذاشتن</a></li>
+        <li><a href="#putting-forward">پیش نهادن</a></li>
+        <li><a href="#fallen-state">افتاده و ازپای‌درآمده بودن</a></li>
+        <li><a href="#syntax">نکات نحوی و ساختاری</a></li>
+        <li><a href="#structure-itrahuhu">ساختمان اطْرَحُوهُ</a></li>
+        <li><a href="#structure-aw-itrahuhu">ساختار أَوِ اطْرَحُوهُ</a></li>
+        <li><a href="#position-ardan">جایگاه أَرْضًا</a></li>
+        <li><a href="#near-roots">تفاوت با ریشه‌های نزدیک</a></li>
+        <li><a href="#tt-r-h-and-l-q-y">ط ر ح و ل ق ي</a></li>
+        <li><a href="#tt-r-h-and-n-b-dh">ط ر ح و ن ب ذ</a></li>
+        <li><a href="#tt-r-h-and-r-m-y">ط ر ح و ر م ي</a></li>
+        <li><a href="#tt-r-h-and-q-dh-f">ط ر ح و ق ذ ف</a></li>
+        <li><a href="#tt-r-h-and-tt-r-d">ط ر ح و ط ر د</a></li>
+        <li><a href="#tt-r-h-and-t-r-k">ط ر ح و ت ر ك</a></li>
+        <li><a href="#tt-r-h-and-w-dad-ayn">ط ر ح و و ض ع</a></li>
+        <li><a href="#tt-r-h-and-abaada">ط ر ح و أ ب ع د</a></li>
+        <li><a href="#translation-suggestions">پیشنهادهای ترجمه برای فرقان</a></li>
+        <li><a href="#translate-taraha">طَرَحَ</a></li>
+        <li><a href="#translate-yatrahu">يَطْرَحُ</a></li>
+        <li><a href="#translate-tarh">طَرْح</a></li>
+        <li><a href="#translate-tarih">طَرِيح</a></li>
+        <li><a href="#translate-matruh">مَطْرُوح</a></li>
+        <li><a href="#translate-matrah">مَطْرَح</a></li>
+        <li><a href="#translate-taruh">طَرُوح</a></li>
+        <li><a href="#translate-itrahuhu">اطْرَحُوهُ</a></li>
+        <li><a href="#summary">جمع‌بندی زبانی</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="درآمد"><h2>درآمد</h2>
+      <p>از واژه اطْرَحُوهُ</p>
+    </section>
+    <section class="root-section" id="short-meaning"><h2>معنای کوتاه ریشه</h2>
+      <p>ریشه ط ر ح بر افکندن، بیرون انداختن، کنار نهادن یا دور ساختن چیزی از جایگاه پیشین دلالت دارد. در این ریشه، مفعول از محیط، پیوند یا موقعیتی که در آن قرار داشته جدا می‌شود و بیرون از آن قرار می‌گیرد.</p>
+      <p>در قرآن، این ریشه درباره پیشنهاد برادران یوسف برای حذف او از محیط خانواده آمده است.</p>
+    </section>
+    <section class="root-section" id="forms"><h2>صورت‌های مهم ریشه</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">طَرَحَ فعل ماضی است و بسته به سیاق می‌تواند به معنای افکند، بیرون انداخت، دور کرد، کنار نهاد یا رها کرد باشد.</blockquote>
+      <p>يَطْرَحُ فعل مضارع آن است و بر افکندن، بیرون نهادن یا کنار گذاشتن دلالت دارد.</p>
+      <p>طَرْح مصدر اصلی ریشه است و عمل افکندن، بیرون انداختن، کنار نهادن یا پیش نهادن چیزی را بیان می‌کند.</p>
+      <p>طَرِيح به شخص یا چیزی گفته می‌شود که افکنده، افتاده یا ازپای‌درآمده باشد. این صورت می‌تواند درباره بیمار یا مجروحی به کار رود که توان برخاستن ندارد و بر بستر افتاده است.</p>
+      <p>مَطْرُوح اسم مفعول است و معنای افکنده‌شده، بیرون‌انداخته‌شده، کنارگذاشته‌شده یا پیش‌نهاده‌شده را می‌رساند.</p>
+      <p>مَطْرَح اسم مکان است و می‌تواند به جای افکندن، محل قرار گرفتن یا نقطه‌ای که چیزی در آن نهاده شده است اشاره کند.</p>
+      <p>طَرُوح وصفی برای چیزی است که دور می‌افکند یا به فاصله دور می‌رساند. در کاربرد لغوی، کمانی که تیر را به مسافت دور می‌فرستد می‌تواند طروح خوانده شود.</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">طَرَّحَ در باب تفعیل می‌تواند شدت، تکرار یا استمرار افکندن و کنار نهادن را بیان کند.</blockquote>
+      <p>اطَّرَحَ صورت باب افتعال است و بر از خود دور کردن، کنار انداختن یا ترک کردن چیزی دلالت دارد. این صورت با فعل امر قرآنی اطْرَحُوا یکسان نیست؛ زیرا اطْرَحُوا امرِ فعل ساده طَرَحَ است، نه فعلی از باب افتعال.</p>
+      <p>تَطَارَحَ و مُطَارَحَة بر افکندن یا پیش نهادن چیزی میان دو یا چند طرف دلالت دارند. کاربردهایی مانند مبادله سخن و طرح پرسش از همین گسترش معنایی پدید آمده‌اند.</p>
+      <p>أُطْرُوحَة در عربی متأخر به نوشته، مدعا یا مسئله‌ای گفته می‌شود که برای بررسی علمی پیش نهاده شده است. این کاربرد قرآنی نیست.</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">در قرآن، از این ریشه تنها صورت اطْرَحُوهُ آمده است.</blockquote>
+    </section>
+    <section class="root-section" id="linguistic-note"><h2>نکته زبان‌شناسی</h2>
+      <p>هسته ط ر ح فقط «حرکت دادن» نیست. در آن معمولاً سه مرحله دیده می‌شود:</p>
+      <p>چیزی نخست در یک جایگاه، مجموعه یا پیوند قرار دارد؛ سپس از آن جدا می‌شود؛ و سرانجام بیرون از جایگاه پیشین افکنده یا نهاده می‌شود.</p>
+      <p>ازاین‌رو، طرح از وضع خنثی‌تر و از انتقال عادی شدیدتر است. وقتی چیزی وضع می‌شود، توجه بیشتر بر محل قرار گرفتن آن است. اما وقتی طرح می‌شود، جدا شدن از جایگاه نخست و بیرون افکنده شدن برجسته‌تر است.</p>
+      <p>این بیرون‌افکندن همیشه با پرتاب شدید بدنی انجام نمی‌شود. شاخه‌های معنایی ریشه می‌توانند شامل این موارد باشند:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">افکندن جسم؛</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">دور ساختن شخص؛</blockquote>
+      <p>ریزش یا بیرون آمدن چیزی از یک پیکره؛</p>
+      <p>کنار گذاشتن یک رأی یا شیوه؛</p>
+      <p>پیش نهادن مسئله‌ای برای بررسی.</p>
+      <p>در همه این کاربردها، چیزی که پیش‌تر درون یک محل، مجموعه، ذهن یا ساختار قرار داشت، از آن بیرون آورده و در میدان دیگری نهاده می‌شود.</p>
+    </section>
+    <section class="root-section" id="material-image"><h2>تصویر مادی ریشه</h2>
+      <p>روشن‌ترین تصویر مادی ط ر ح، شیئی است که از دست یا محل خود جدا و بر زمین یا در نقطه‌ای دیگر افکنده می‌شود. جهت اصلی حرکت از «درون یا نزدیکی» به سوی «بیرون یا فاصله» است.</p>
+      <p>تصویر دیگر، تیر یا شیئی است که با وسیله‌ای به دور فرستاده می‌شود. کمان طروح به سبب توان دورافکنی خود نام گرفته است. در این تصویر، دوری نتیجه عمل طرح است: شیء از نقطه آغاز جدا می‌شود و در فاصله‌ای دیگر فرود می‌آید.</p>
+      <p>در کاربردهای زیستی نیز گفته می‌شود حیوان جنین خود را طرح کرد؛ یعنی جنین از بدن جدا و بیرون افکنده شد. درباره گیاه یا درخت نیز طرح می‌تواند به ریختن و بیرون انداختن برگ یا میوه اشاره کند.</p>
+      <p>اهمیت این کاربردها در آن است که طرح همیشه درباره شیئی کاملاً بی‌پیوند و خارجی نیست. گاهی چیزی که پیش‌تر بخشی از یک ساختار بوده، از آن جدا می‌شود. بااین‌حال، این تصویر لغوی نباید به استعاره‌ای تفسیری درباره داستان یوسف تبدیل شود؛ در آیه، معنای مستقیم همان بیرون افکندن و دور ساختن یوسف است.</p>
+    </section>
+    <section class="root-section" id="classical-usage"><h2>تبصره تاریخی و کاربرد عربی کهن</h2>
+      <p>در عربی کلاسیک، طرح الشيء برای افکندن، دور انداختن یا کنار نهادن چیزی به کار می‌رفت. صورت‌هایی مانند طرحه، طرح به، طرّحه و اطّرحه نیز با تفاوت‌های صرفی در همین میدان قرار داشتند.</p>
+      <p>تعبیری مانند:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">طَرَحَتِ النَّاقَةُ جَنِينَهَا</blockquote>
+      <p>به معنای آن بود که شتر جنین خود را افکند. در این کاربرد، عنصر اصلی جدایی و بیرون آمدن چیزی از درون یک پیکره است.</p>
+      <p>همچنین می‌توانستند درباره ریزش محصول یا اجزای گیاه از صورت‌های این ریشه استفاده کنند. این کاربرد، طرح را به جدا شدن و افتادن چیزی که پیش‌تر به ساختاری پیوسته بوده مربوط می‌سازد.</p>
+      <p>در زبان عربی، الطَّرَح و المَطْرَح با دوری و محل افکندن نیز ارتباط پیدا کرده‌اند. در تعبیرهایی درباره سفر و جدایی، روزگار یا دوری چنان تصویر می‌شود که گویی انسان را از جایگاه خود برداشته و به نقطه‌ای دور افکنده است.</p>
+      <p>همچنین:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَوْسٌ طَرُوح</blockquote>
+      <p>به کمانی گفته می‌شد که تیر را دور می‌افکند.</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">این کاربردها نشان می‌دهند که دوری معنایی کاملاً جدا از افکندن نیست؛ بلکه یکی از نتایج طبیعی آن است.</blockquote>
+      <p>در زبان متأخر، «طرح مسئله» به معنای پیش نهادن مسئله‌ای برای بررسی گسترش یافته است. در اینجا چیزی دور انداخته نمی‌شود، بلکه از درون ذهن یا سکوت بیرون آورده و در برابر دیگران قرار داده می‌شود. این کاربرد جدیدتر نباید بر معنای آیه قرآن تحمیل شود.</p>
+    </section>
+    <section class="root-section" id="quranic-usage"><h2>کاربرد قرآنی ریشه</h2>
+    </section>
+    <section class="root-section" id="yusuf-family-removal"><h2>بیرون افکندن یوسف از محیط خانواده</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اقْتُلُوا يُوسُفَ أَوِ اطْرَحُوهُ أَرْضًا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ</blockquote>
+      <p class="translation"> یوسف را بکشید یا او را در سرزمینی بیفکنید تا توجه پدرتان برای شما خالی شود.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/012-yusuf/#ayah-009' | relative_url }}"> یوسف ۱۲:۹</a></p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">ریشه ط ر ح در قرآن تنها در همین آیه آمده است.</blockquote>
+      <p>اطْرَحُوهُ فعل امر جمع است:</p>
+      <p>اطْرَحُوا: بیفکنید یا بیرون اندازید</p>
+      <p> هُ: او را</p>
+      <p>برادران یوسف دو راه را برای حذف او پیش می‌نهند: کشتن یا افکندن در سرزمینی دیگر. طرح در اینجا صرفاً جابه‌جایی نیست. آنان می‌خواهند یوسف را از محیط خانواده، دسترس پدر و میدان توجه او بیرون سازند.</p>
+      <p>ادامه جمله هدف عمل را آشکار می‌کند:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ</blockquote>
+      <p> تا روی پدرتان برای شما خالی شود.</p>
+      <p>«وجه پدر» در اینجا تنها چهره جسمانی نیست؛ روی آوردن، توجه و حضور پدر در برابر فرزندان را نیز دربرمی‌گیرد. در منطق برادران، یوسف مانعی در راه اختصاص یافتن توجه پدر به آنان است. ازاین‌رو، می‌خواهند او را از این میدان کنار بزنند.</p>
+      <p>بااین‌حال، معنای لغوی طرح به‌خودی‌خود «برداشتن مانع» نیست. این بُعد از هدفی فهمیده می‌شود که در ادامه آیه بیان شده است. هسته فعل همچنان افکندن و بیرون ساختن از جایگاه پیشین است.</p>
+    </section>
+    <section class="root-section" id="from-itrahuhu-to-alquhu"><h2>از اطْرَحُوهُ أَرْضًا تا أَلْقُوهُ فِي غَيَابَتِ الْجُبِّ</h2>
+      <p>در آیه بعد، یکی از برادران پیشنهاد مشخص‌تری می‌دهد:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لَا تَقْتُلُوا يُوسُفَ وَأَلْقُوهُ فِي غَيَابَتِ الْجُبِّ</blockquote>
+      <p class="translation"> یوسف را نکشید و او را در نهانگاه چاه بیفکنید.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/012-yusuf/#ayah-010' | relative_url }}"> یوسف ۱۲:۱۰</a></p>
+      <p>در آیه ۹ گفته شده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اطْرَحُوهُ أَرْضًا</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> او را در سرزمینی بیفکنید.</blockquote>
+      <p>مقصد در این پیشنهاد نامعین است. مسئله اصلی، بیرون کردن یوسف از محیط خانواده است؛ هر سرزمینی که او را از پدر جدا کند می‌تواند مقصد باشد.</p>
+      <p>اما در آیه ۱۰ آمده است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أَلْقُوهُ فِي غَيَابَتِ الْجُبِّ</blockquote>
+      <p> او را در نهانگاه چاه بیفکنید.</p>
+      <p>اینجا مقصد با حرف جر في و عبارت مشخص غَيَابَتِ الْجُبِّ تعیین شده است. نقشه از پیشنهاد کلیِ حذف و دور ساختن، به عملی معین با مکانی مشخص تبدیل می‌شود.</p>
+      <p>این تفاوت نشان نمی‌دهد که طرح همیشه مقصدی نامعین و القا همیشه مقصدی مشخص دارد. هر دو ریشه در سیاق‌های دیگر می‌توانند ساختارهای متفاوتی بگیرند. تفاوت این دو آیه، حاصل ترکیب فعل، ساختار نحوی و مرحله‌ای است که گفت‌وگوی برادران به آن رسیده است:</p>
+      <p>اطرحوه أرضاً: حذف او از میدان خانواده، با مقصدی نامعین؛</p>
+      <p>ألقوه في غيابت الجب: اجرای نقشه از طریق انداختن در محل معین.</p>
+    </section>
+    <section class="root-section" id="meaning-ardan"><h2>معنای أَرْضًا</h2>
+      <p>واژه أَرْضًا نکره و منصوب آمده است. این صورت بر سرزمین یا ناحیه‌ای نامعین دلالت می‌کند؛ جایی که یوسف در آن از خانه و پدر جدا شود.</p>
+      <p>در تحلیل نحوی، أرضاً را می‌توان ظرف مکان یا مفعول‌فیه دانست؛ یعنی:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">او را در سرزمینی بیفکنید.</blockquote>
+      <p>برخی تحلیل‌های نحوی آن را منصوب بر حذف حرف جر می‌دانند و ساختار مقدر را چنین می‌فهمند:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اطْرَحُوهُ فِي أَرْضٍ</blockquote>
+      <p>یعنی: او را در سرزمینی بیفکنید.</p>
+      <p>این دو توضیح در نتیجه ترجمه تفاوت بزرگی ایجاد نمی‌کنند؛ در هر دو، أرض محل وقوع یا مقصد افکندن است، نه مفعول مستقلی در کنار یوسف.</p>
+      <p>بااین‌حال، حذف حرف جر ــ در صورتی که این تحلیل پذیرفته شود ــ به‌تنهایی شدت، خشونت یا فوریت عمل را اثبات نمی‌کند. شدت جمله پیش از هر چیز از معنای فعل طرح، قرار گرفتن آن در برابر قتل، و هدف حذف یوسف از خانواده فهمیده می‌شود. نباید یک امکان نحوی را به معنایی بلاغی تبدیل کرد که خود ساختار الزاماً آن را ثابت نمی‌کند.</p>
+      <p>نکره بودن أرض نیز مستقیماً به معنای «سرزمین دور» نیست. اما نامعین بودن مقصد، همراه با هدف دور کردن یوسف از پدر، دوری و ناآشنایی آن مکان را از سیاق قابل‌فهم می‌سازد.</p>
+      <p>ازاین‌رو، بهتر است در ترجمه اصلی واژه «دور» افزوده نشود و این معنا در توضیح زبانی بیان گردد.</p>
+    </section>
+    <section class="root-section" id="distinctions"><h2>تفکیک کاربردهای مشابه</h2>
+    </section>
+    <section class="root-section" id="casting-body-person"><h2>افکندن جسم یا شخص</h2>
+      <p>در کاربرد پایه، شیء یا شخص از جای خود جدا و در نقطه دیگری افکنده می‌شود. کاربرد قرآنی اطْرَحُوهُ در همین میدان است.</p>
+    </section>
+    <section class="root-section" id="out-of-structure"><h2>بیرون انداختن از یک ساختار</h2>
+      <p>در کاربردهایی مانند افکندن جنین یا ریختن میوه، چیزی از پیکره‌ای که پیش‌تر به آن پیوسته بود جدا می‌شود. محور اصلی، گسستن پیوند و بیرون آمدن است.</p>
+    </section>
+    <section class="root-section" id="distancing"><h2>دور ساختن</h2>
+      <p>چیزی که طرح می‌شود، ممکن است در فاصله‌ای از محل پیشین قرار گیرد. دوری یکی از نتایج رایج طرح است، اما در همه کاربردها جزء مستقل و لازم ترجمه نیست.</p>
+    </section>
+    <section class="root-section" id="setting-aside"><h2>کنار گذاشتن</h2>
+      <p>رأی، شیوه یا چیزی غیرمادی نیز می‌تواند طرح شود؛ یعنی از میدان اعتبار یا استفاده کنار نهاده شود.</p>
+    </section>
+    <section class="root-section" id="putting-forward"><h2>پیش نهادن</h2>
+      <p>در زبان متأخر، طرح پرسش یا مسئله به معنای وارد کردن آن به میدان گفت‌وگو است. این کاربرد جهت متفاوتی دارد، اما همچنان بر بیرون آوردن چیزی از حالت پنهان یا درونی و قرار دادن آن در برابر دیگران استوار است.</p>
+    </section>
+    <section class="root-section" id="fallen-state"><h2>افتاده و ازپای‌درآمده بودن</h2>
+      <p>طریح می‌تواند به کسی گفته شود که بر زمین یا بستر افتاده است. در اینجا نتیجه عمل، نه لحظه افکندن، برجسته است.</p>
+    </section>
+    <section class="root-section" id="syntax"><h2>نکات نحوی و ساختاری</h2>
+    </section>
+    <section class="root-section" id="structure-itrahuhu"><h2>ساختمان اطْرَحُوهُ</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اطْرَحُوا فعل امر برای جمع مذکر مخاطب است.</blockquote>
+      <p>واو پایانی نشانه جمع است.</p>
+      <p>ضمیر هُ مفعول فعل و به یوسف بازمی‌گردد:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اطْرَحُوا + هُ</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> بیفکنید + او را</blockquote>
+      <p>این صورت از فعل ساده طَرَحَ ـ يَطْرَحُ ساخته شده است:</p>
+    </section>
+    <section class="root-section" id="translate-yatrahu"><h2>يَطْرَحُ</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> طْرَحْ</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> اطْرَحْ</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> اطْرَحُوا</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">همزه آغازین، همزه وصل است و برای ممکن شدن تلفظِ آغاز فعل با حرف ساکن افزوده شده است. بنابراین، اطْرَحُوا نه از باب افعال است و نه از باب افتعال.</blockquote>
+    </section>
+    <section class="root-section" id="structure-aw-itrahuhu"><h2>ساختار أَوِ اطْرَحُوهُ</h2>
+      <p>اصل حرف عطف أَوْ است. در پیوستگی تلاوت، برای جلوگیری از برخورد دو سکون، کسره‌ای شنیده می‌شود:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أَوِ اطْرَحُوهُ</blockquote>
+      <p>معنای أو همان «یا» است و دو پیشنهاد را در برابر یکدیگر قرار می‌دهد:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">کشتن یوسف؛</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">افکندن و دور ساختن او.</blockquote>
+    </section>
+    <section class="root-section" id="position-ardan"><h2>جایگاه أَرْضًا</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أرضاً محل یا میدان وقوع فعل را بیان می‌کند. می‌توان آن را ظرف مکان منصوب یا منصوب بر حذف حرف جر دانست.</blockquote>
+      <p>در هر دو تحلیل، ترجمه طبیعی فارسی چنین است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">او را در سرزمینی بیفکنید.</blockquote>
+      <p>نباید آن را مفعول دومِ طرح ترجمه کرد؛ زیرا چیزی که افکنده می‌شود یوسف است و أرض مقصد یا محیط افکندن را نشان می‌دهد.</p>
+    </section>
+    <section class="root-section" id="near-roots"><h2>تفاوت با ریشه‌های نزدیک</h2>
+    </section>
+    <section class="root-section" id="tt-r-h-and-l-q-y"><h2>ط ر ح و ل ق ي</h2>
+      <p>ریشه ل ق ي در باب افعال، ألقى، بر انداختن، افکندن، قرار دادن یا رساندن چیزی دلالت دارد. میدان آن گسترده است: عصا افکنده می‌شود، سخن القا می‌شود، چیزی در آب انداخته می‌شود و محبت در دل قرار داده می‌شود.</p>
+      <p>در ط ر ح، بیرون انداختن، کنار زدن و جدا کردن از جایگاه پیشین برجسته‌تر است. ألقى بیشتر خود عمل رساندن یا افکندن به مقصد را بیان می‌کند.</p>
+      <p>این تفاوت در یوسف ۱۲:۹ و ۱۲:۱۰ به‌خوبی دیده می‌شود: طرح بر حذف یوسف از محیط خانواده تمرکز دارد، در حالی که القا در چاه، عمل مشخص انداختن او در مقصد معین را بیان می‌کند.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-n-b-dh"><h2>ط ر ح و ن ب ذ</h2>
+      <p>ن ب ذ نیز بر افکندن و کنار گذاشتن دلالت دارد، اما در بسیاری از کاربردهایش بی‌اعتنایی، ترک رابطه یا پشت سر افکندن چیزی برجسته است:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">نَبَذُوهُ وَرَاءَ ظُهُورِهِمْ</blockquote>
+      <p class="translation"> آن را پشت سر خود افکندند.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/003-al-imran/#ayah-187' | relative_url }}"> آل‌عمران ۳:۱۸۷</a></p>
+      <p>در نبذ، مفعول از حوزه توجه، تعهد یا اعتبار بیرون گذاشته می‌شود. اما نباید «بی‌ارزشی ذاتی مفعول» را جزء قطعی معنای ریشه دانست. چیزی ممکن است ارزشمند باشد، ولی شخص آن را با بی‌اعتنایی نبذ کند.</p>
+      <p>در طرح، توجه بیشتر بر عمل بیرون افکندن و جابه‌جایی از جایگاه پیشین است. مفعول ممکن است بی‌ارزش، ناخواسته، خطرناک یا صرفاً مزاحم هدف فاعل باشد؛ خود ریشه درباره ارزش ذاتی آن داوری نمی‌کند.</p>
+      <p>برادران یوسف او را به سبب بی‌ارزش دانستن کنار نمی‌زنند؛ سیاق نشان می‌دهد که محبوبیت او نزد پدر سبب دشمنی آنان شده است. اما این نکته از داستان فهمیده می‌شود، نه از معنای لغوی ط ر ح به‌تنهایی.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-r-m-y"><h2>ط ر ح و ر م ي</h2>
+      <p>ر م ي بر پرتاب کردن به سوی جهت یا هدف دلالت دارد. تیر، سنگ و حتی اتهام می‌تواند موضوع رمی باشد.</p>
+      <p>در طرح، رسیدن به هدف دقیق ضروری نیست. محور اصلی، بیرون افکندن و جدا کردن از محل پیشین است. رمی بیشتر حرکت به سوی هدف را برجسته می‌کند؛ طرح بیشتر دور شدن از مبدأ را.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-q-dh-f"><h2>ط ر ح و ق ذ ف</h2>
+      <p>ق ذ ف معمولاً پرتاب همراه با نیرو و شتاب را برجسته می‌کند. این ریشه می‌تواند درباره جسم، انداختن چیزی در دل یا نسبت دادن اتهام به کار رود.</p>
+      <p>در طرح، شدت پرتاب جزء لازم معنا نیست. ممکن است عمل شدید باشد، اما هسته آن بیرون افکندن و کنار زدن است.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-tt-r-d"><h2>ط ر ح و ط ر د</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">ط ر د بر راندن، اخراج کردن و واداشتن کسی به دور شدن دلالت دارد. در طرد، شخص یا حیوان ممکن است خود تحت فشار از محل دور شود.</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">در طرح، مفعول مستقیم‌تر موضوع افکندن و بیرون نهادن است. طرد حرکت اجباریِ دورشدن را برجسته می‌کند؛ طرح عمل بیرون افکندن را.</blockquote>
+    </section>
+    <section class="root-section" id="tt-r-h-and-t-r-k"><h2>ط ر ح و ت ر ك</h2>
+      <p>ت ر ك بر رها کردن یا دست کشیدن از چیزی دلالت دارد. چیزی ممکن است همان‌جا باقی بماند، اما فاعل آن را ترک کند.</p>
+      <p>در طرح، خود مفعول از جایگاهش بیرون برده یا افکنده می‌شود. بنابراین، «رها کردن» تنها هنگامی ترجمه مناسبی برای طرح است که معنای بیرون نهادن و دور ساختن نیز در سیاق روشن باشد.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-w-dad-ayn"><h2>ط ر ح و و ض ع</h2>
+      <p>و ض ع بر نهادن و قرار دادن چیزی در محل دلالت دارد. این ریشه از نظر ارزشی و حرکتی خنثی‌تر است.</p>
+      <p>در وضع، مقصدِ قرار گرفتن برجسته است؛ در طرح، جدا شدن از مبدأ و بیرون افکنده شدن.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-abaada"><h2>ط ر ح و أ ب ع د</h2>
+      <p>أبعد نتیجه را مستقیم بیان می‌کند: کسی یا چیزی دور ساخته می‌شود.</p>
+      <p>طرح شیوه‌ای را نشان می‌دهد که می‌تواند این فاصله را ایجاد کند: مفعول از جایگاه خود بیرون افکنده می‌شود و در نتیجه فاصله می‌گیرد.</p>
+    </section>
+    <section class="root-section" id="translation-suggestions"><h2>پیشنهادهای ترجمه برای فرقان</h2>
+    </section>
+    <section class="root-section" id="translate-taraha"><h2>طَرَحَ</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">افکند</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> بیرون انداخت</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> دور انداخت</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> کنار نهاد</blockquote>
+      <p> از جایگاهش بیرون کرد</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> در جایی رها کرد، بسته به سیاق</blockquote>
+    </section>
+    <section class="root-section" id="translate-yatrahu"><h2>يَطْرَحُ</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">می‌افکند</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> بیرون می‌اندازد</blockquote>
+      <p> کنار می‌گذارد</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> دور می‌سازد</blockquote>
+    </section>
+    <section class="root-section" id="translate-tarh"><h2>طَرْح</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">افکندن</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> بیرون انداختن</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> کنار نهادن</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> دور ساختن</blockquote>
+      <p> پیش نهادن، در کاربرد فکری</p>
+    </section>
+    <section class="root-section" id="translate-tarih"><h2>طَرِيح</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">افکنده</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> افتاده</blockquote>
+      <p> ازپای‌درآمده</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> بستری</blockquote>
+    </section>
+    <section class="root-section" id="translate-matruh"><h2>مَطْرُوح</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">افکنده‌شده</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> بیرون‌انداخته‌شده</blockquote>
+      <p> کنارگذاشته‌شده</p>
+      <p> پیش‌نهاده‌شده، در کاربرد فکری</p>
+    </section>
+    <section class="root-section" id="translate-matrah"><h2>مَطْرَح</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">محل افکندن</blockquote>
+      <p> جای قرار گرفتن</p>
+      <p> جایگاه</p>
+    </section>
+    <section class="root-section" id="translate-taruh"><h2>طَرُوح</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">دورافکن</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> دوررس</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> بسیار دورکننده، بسته به موصوف</blockquote>
+    </section>
+    <section class="root-section" id="translate-itrahuhu"><h2>اطْرَحُوهُ</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">او را بیفکنید</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> او را بیرون اندازید</blockquote>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar"> او را دور سازید</blockquote>
+      <p> او را در جایی دیگر رها کنید</p>
+      <p>برای عبارت:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اقْتُلُوا يُوسُفَ أَوِ اطْرَحُوهُ أَرْضًا</blockquote>
+      <p>ترجمه پیشنهادی فرقان:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">یوسف را بکشید یا او را در سرزمینی بیفکنید.</blockquote>
+      <p>این ترجمه «دور» را که به‌صراحت در متن نیامده، وارد آیه نمی‌کند. نامعین بودن سرزمین و هدف دور ساختن یوسف از پدر، در یادداشت زبانی توضیح داده می‌شود.</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">ترجمه «او را در جایی رها کنید» از نظر فارسی روان است، اما شدت «افکندن و بیرون ساختن» را کاهش می‌دهد. «در سرزمینی بیفکنید» ساختار و نیروی فعل را بهتر حفظ می‌کند.</blockquote>
+    </section>
+    <section class="root-section" id="summary"><h2>جمع‌بندی زبانی</h2>
+      <p>ریشه ط ر ح بر جدا کردن چیزی از جایگاه پیشین و افکندن، بیرون نهادن یا کنار گذاشتن آن دلالت دارد. تصویر مادی آن، شیء یا موجودی است که از محل یا پیکره‌ای جدا و در بیرون آن قرار داده می‌شود.</p>
+      <p>در قرآن، این ریشه تنها در اطْرَحُوهُ أَرْضًا آمده است؛ پیشنهادی برای بیرون ساختن یوسف از محیط خانواده و قرار دادن او در سرزمینی نامعین.</p>
+      <p>طرح با القا، نبذ، رمی، قذف، طرد، ترک و وضع هم‌پوشانی دارد، اما ویژگی برجسته آن پیوند میان جدا شدن از جایگاه، بیرون افکنده شدن و قرار گرفتن در میدان دیگر است.</p>
+    </section>
+  </div>
+</div>
