@@ -1,0 +1,383 @@
+---
+layout: default
+title: The Qur'anic Root Ṭ R Ḥ
+permalink: /quran-terminology/en/roots/tt-r-h/
+---
+<style>
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark-theme .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page,
+  .theme-dark .root-study-page,
+  .forqan-theme-dark .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-study-page * { box-sizing: border-box; }
+
+  .root-study-page.forqan-page-rtl,
+  .root-study-page.forqan-page-rtl h1,
+  .root-study-page.forqan-page-rtl h2,
+  .root-study-page.forqan-page-rtl h3,
+  .root-study-page.forqan-page-rtl p,
+  .root-study-page.forqan-page-rtl li { direction: rtl; text-align: right; }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li { direction: ltr; text-align: left; }
+
+  .root-frame {
+    background: radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%), var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero { border-bottom: 1px solid var(--root-border-soft); padding-bottom: 1.65rem; margin-bottom: 2rem; }
+  .root-kicker { color: var(--root-accent-deep); font-size: 0.96rem; font-weight: 800; margin-bottom: 0.45rem; }
+  .root-study-page h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.05rem); line-height: 1.4; color: var(--root-text); }
+  .root-subtitle { color: var(--root-muted); max-width: 780px; margin: 1rem 0 0; font-size: 1.04rem; }
+
+  .root-forms-card, .root-toc {
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent 82%), var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+  .root-forms-card h2, .root-toc h2 { margin-top: 0; }
+  .morphology-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+  .morph-card { display: block; border: 1px solid var(--root-border-soft); border-radius: 16px; padding: 1rem; background: var(--root-section); color: inherit; text-decoration: none; }
+  .morph-card-header { display: flex; justify-content: space-between; gap: 0.75rem; color: var(--root-muted); font-size: 0.88rem; margin-bottom: 0.55rem; }
+  .morph-form { font-weight: 800; font-size: 1.18rem; color: var(--root-accent-deep); margin-bottom: 0.4rem; }
+  .morph-note { color: var(--root-muted); margin-bottom: 0; font-size: 0.95rem; }
+  .translit { color: var(--root-muted); font-weight: 500; font-size: 0.92em; }
+
+  .root-note { border-right: 3px solid var(--root-accent); padding: 0.9rem 1rem; background: var(--root-accent-soft); border-radius: 14px; color: var(--root-muted); margin: 1.25rem 0; }
+  .root-study-page.forqan-page-ltr .root-note { border-right: 0; border-left: 3px solid var(--root-accent); }
+
+  .root-toc ol { list-style-position: inside; padding-right: 0; margin: 0.75rem 0 0; columns: 2; column-gap: 2rem; }
+  .root-study-page.forqan-page-ltr .root-toc ol { padding-left: 0; }
+  .root-toc li { margin: 0.28rem 0; break-inside: avoid; }
+
+  .root-section { background: var(--root-section); border: 1px solid var(--root-border-soft); border-radius: 18px; padding: 1.5rem 1.6rem; margin: 1.55rem 0; }
+  .root-section h2 { margin: 0 0 1rem; color: var(--root-text); font-size: 1.35rem; line-height: 1.6; }
+  .root-section h2::before { content: ""; display: inline-block; width: 0.58rem; height: 0.58rem; border-radius: 999px; background: var(--root-accent); margin-left: 0.55rem; vertical-align: 0.08em; }
+  .root-study-page.forqan-page-ltr .root-section h2::before { margin-left: 0; margin-right: 0.55rem; }
+  .root-study-page p { margin: 0.85rem 0; }
+  .root-study-page a { color: var(--root-accent-deep); text-decoration: none; border-bottom: 1px dotted currentColor; }
+
+  .arabic-quote { direction: rtl; text-align: center; font-size: 1.48rem; line-height: 2.5; margin: 1.4rem 0 0.65rem; padding: 1rem 1.25rem; border: 1px solid var(--root-border); border-radius: 18px; background: linear-gradient(180deg, var(--root-accent-soft), transparent), var(--root-panel); color: var(--root-text); unicode-bidi: isolate; }
+  .root-study-page .translation { text-align: center !important; color: var(--root-muted); margin-top: 0.45rem; }
+  .root-study-page .verse-ref { text-align: center !important; color: var(--root-accent-deep); font-weight: 700; margin-top: 0.25rem; }
+  .root-study-page .arabic-large { font-size: 1.12em; line-height: 2.15; direction: rtl; unicode-bidi: isolate; }
+
+  @media (max-width: 760px) {
+    .root-study-page { padding: 2rem 1rem; }
+    .root-frame { padding: 1.25rem; border-radius: 19px; }
+    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
+    .root-toc ol { columns: 1; }
+    .morphology-grid { grid-template-columns: 1fr; }
+    .arabic-quote { font-size: 1.24rem; }
+  }
+</style>
+
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">Qur'anic Root</div>
+      <h1>The Qur'anic Root Ṭ R Ḥ</h1>
+      <p class="root-subtitle">Casting out, setting aside, and removing something from its previous place</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>Morphological forms of this root</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#short-meaning"><div class="morph-card-header"><div class="morph-type">Root</div><div class="morph-used">Foundational meaning</div></div><div class="morph-form">ط ر ح <span class="translit">(ṭ r ḥ)</span></div><p class="morph-note">Casting, throwing out, setting aside, or distancing something from its previous place.</p></a>
+        <a class="morph-card" href="#forms"><div class="morph-card-header"><div class="morph-type">Qur'anic form</div><div class="morph-used">Only Qur'anic occurrence</div></div><div class="morph-form">اطْرَحُوهُ <span class="translit">(iṭraḥūhu)</span></div><p class="morph-note">Cast him, or throw him out; a plural imperative from the simple verb ṭaraḥa.</p></a>
+        <a class="morph-card" href="#from-itrahuhu-to-alquhu"><div class="morph-card-header"><div class="morph-type">Contextual comparison</div><div class="morph-used">In the story of Yusuf</div></div><div class="morph-form">اطْرَحُوهُ / أَلْقُوهُ <span class="translit">(iṭraḥūhu / alqūhu)</span></div><p class="morph-note">Ṭarḥ highlights removal from the family field; ilqāʾ highlights casting into a specified destination.</p></a>
+        <a class="morph-card" href="#translation-suggestions"><div class="morph-card-header"><div class="morph-type">Lexical forms</div><div class="morph-used">Semantic field</div></div><div class="morph-form">طَرَحَ / طَرْح / مَطْرُوح <span class="translit">(ṭaraḥa / ṭarḥ / maṭrūḥ)</span></div><p class="morph-note">Forms for casting, throwing out, setting aside, or putting forward.</p></a>
+      </div>
+    </section>
+
+    <p class="root-note">This page studies the root <strong class="arabic-large">ط ر ح</strong> <span class="translit">(ṭ r ḥ)</span> and its only Qur'anic form, <strong class="arabic-large">اطْرَحُوهُ</strong> <span class="translit">(iṭraḥūhu)</span>: removing Yusuf from the family field and placing him in an unspecified land.</p>
+
+    <nav class="root-toc" aria-label="Article section list">
+      <h2>Usage map of this root</h2>
+      <ol>
+        <li><a href="#short-meaning">Short Meaning of the Root</a></li>
+        <li><a href="#forms">Important Forms of the Root</a></li>
+        <li><a href="#linguistic-note">Linguistic Note</a></li>
+        <li><a href="#material-image">Material Image of the Root</a></li>
+        <li><a href="#classical-usage">Historical Note and Ancient Arabic Usage</a></li>
+        <li><a href="#quranic-usage">Qur'anic Usage of the Root</a></li>
+        <li><a href="#yusuf-family-removal">Casting Yusuf Out of the Family Environment</a></li>
+        <li><a href="#from-itrahuhu-to-alquhu">From iṭraḥūhu arḍan to alqūhu fī ghayābat al-jubb</a></li>
+        <li><a href="#meaning-ardan">The Meaning of arḍan</a></li>
+        <li><a href="#distinctions">Distinguishing Similar Uses</a></li>
+        <li><a href="#syntax">Syntactic and Structural Notes</a></li>
+        <li><a href="#near-roots">Difference from Nearby Roots</a></li>
+        <li><a href="#translation-suggestions">Translation Suggestions for Forqan</a></li>
+        <li><a href="#summary">Linguistic Summary</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="short-meaning"><h2>Short Meaning of the Root</h2>
+      <p>The root <strong class="arabic-large">ط ر ح</strong> <span class="translit">(ṭ r ḥ)</span> points to casting down, throwing out, setting aside, or distancing something from its previous place. In this root, the object is separated from the environment, bond, or position in which it had been, and is placed outside it.</p>
+      <p>In the Qur'an, this root appears in relation to the proposal of Yusuf’s brothers to remove him from the family environment.</p>
+    </section>
+    <section class="root-section" id="forms"><h2>Important Forms of the Root</h2>
+      <p><strong class="arabic-large">طَرَحَ</strong> <span class="translit">(ṭaraḥa)</span> is the past-tense verb and, depending on context, can mean: he cast, threw out, distanced, set aside, or left behind.</p>
+      <p><strong class="arabic-large">يَطْرَحُ</strong> <span class="translit">(yaṭraḥu)</span> is its imperfect verb and points to casting, putting out, or setting aside.</p>
+      <p><strong class="arabic-large">طَرْح</strong> <span class="translit">(ṭarḥ)</span> is the main verbal noun of the root and expresses the act of casting, throwing out, setting aside, or putting something forward.</p>
+      <p><strong class="arabic-large">طَرِيح</strong> <span class="translit">(ṭarīḥ)</span> is said of a person or thing that has been cast down, fallen, or brought low. This form can be used for a sick or wounded person who cannot rise and is lying on a bed.</p>
+      <p><strong class="arabic-large">مَطْرُوح</strong> <span class="translit">(maṭrūḥ)</span> is the passive participle and means cast down, thrown out, set aside, or put forward.</p>
+      <p><strong class="arabic-large">مَطْرَح</strong> <span class="translit">(maṭraḥ)</span> is a noun of place and can refer to a place of casting, a place where something lies, or the point at which something has been set down.</p>
+      <p><strong class="arabic-large">طَرُوح</strong> <span class="translit">(ṭarūḥ)</span> describes something that casts far away or sends to a distance. In lexical usage, a bow that sends an arrow to a far distance can be called <strong class="arabic-large">طَرُوح</strong> <span class="translit">(ṭarūḥ)</span>.</p>
+      <p><strong class="arabic-large">طَرَّحَ</strong> <span class="translit">(ṭarraḥa)</span> in Form II can express intensity, repetition, or continuity in casting and setting aside.</p>
+      <p><strong class="arabic-large">اطَّرَحَ</strong> <span class="translit">(iṭṭaraḥa)</span> is the Form VIII pattern and points to distancing something from oneself, casting something aside, or abandoning it. This form is not the same as the Qur'anic imperative <strong class="arabic-large">اطْرَحُوا</strong> <span class="translit">(iṭraḥū)</span>, because <strong class="arabic-large">اطْرَحُوا</strong> <span class="translit">(iṭraḥū)</span> is the imperative of the simple verb <strong class="arabic-large">طَرَحَ</strong> <span class="translit">(ṭaraḥa)</span>, not a Form VIII verb.</p>
+      <p><strong class="arabic-large">تَطَارَحَ</strong> <span class="translit">(taṭāraḥa)</span> and <strong class="arabic-large">مُطَارَحَة</strong> <span class="translit">(muṭāraḥah)</span> point to casting or putting something forward between two or more parties. Uses such as exchanging speech and posing a question arise from this semantic expansion.</p>
+      <p><strong class="arabic-large">أُطْرُوحَة</strong> <span class="translit">(uṭrūḥah)</span> in later Arabic refers to a written thesis, claim, or problem placed forward for scholarly examination. This is not a Qur'anic usage.</p>
+      <p>In the Qur'an, the only form from this root is <strong class="arabic-large">اطْرَحُوهُ</strong> <span class="translit">(iṭraḥūhu)</span>.</p>
+    </section>
+    <section class="root-section" id="linguistic-note"><h2>Linguistic Note</h2>
+      <p>The core of <strong class="arabic-large">ط ر ح</strong> <span class="translit">(ṭ r ḥ)</span> is not merely “moving” something. Usually, three stages are visible in it:</p>
+      <p>First, something is in a place, collection, or bond.</p>
+      <p>Then it is separated from that place, collection, or bond.</p>
+      <p>Finally, it is cast or placed outside its previous position.</p>
+      <p>For this reason, <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> is stronger than the more neutral idea of placing and stronger than ordinary transfer. When something is <strong class="arabic-large">وضع</strong> <span class="translit">(wuḍiʿa)</span>, the focus is more on the place where it is put. But when something is <strong class="arabic-large">طرح</strong> <span class="translit">(ṭuriḥa)</span>, its separation from the first place and its being thrown outside are more prominent.</p>
+      <p>This throwing-out does not always occur through a violent bodily throw. The semantic branches of the root can include casting a physical object, distancing a person, the falling or coming out of something from an organic body, setting aside an opinion or method, and putting forward a question for examination.</p>
+      <p>In all these uses, something that had previously been inside a location, set, mind, or structure is brought out of it and placed in another field.</p>
+    </section>
+    <section class="root-section" id="material-image"><h2>Material Image of the Root</h2>
+      <p>The clearest material image of <strong class="arabic-large">ط ر ح</strong> <span class="translit">(ṭ r ḥ)</span> is an object separated from the hand or its place and cast onto the ground or into another point. The main direction of movement is from “inside or nearness” toward “outside or distance.”</p>
+      <p>Another image is an arrow or object sent far away by an instrument. The bow called <strong class="arabic-large">طَرُوح</strong> <span class="translit">(ṭarūḥ)</span> is named because of its capacity to cast far. In this image, distance is the result of the act of <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span>: the object separates from the point of origin and lands elsewhere.</p>
+      <p>In biological usage too, one says that an animal <strong class="arabic-large">طَرَحَتْ</strong> <span class="translit">(ṭaraḥat)</span> its fetus; that is, the fetus separated from the body and was cast out. With plants or trees, <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> can also refer to shedding or throwing off leaves or fruit.</p>
+      <p>The importance of these usages is that <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> is not always about something completely external and unrelated. Sometimes what is cast out had previously been part of a structure. Even so, this lexical image should not become an interpretive metaphor imposed on the story of Yusuf; in the verse, the direct meaning is casting out and distancing Yusuf.</p>
+    </section>
+    <section class="root-section" id="classical-usage"><h2>Historical Note and Ancient Arabic Usage</h2>
+      <p>In classical Arabic, <strong class="arabic-large">طرح الشيء</strong> <span class="translit">(ṭaraḥa al-shayʾ)</span> was used for casting something down, throwing it away, or setting it aside. Forms such as <strong class="arabic-large">طرحه</strong> <span class="translit">(ṭaraḥahu)</span>, <strong class="arabic-large">طرح به</strong> <span class="translit">(ṭaraḥa bihi)</span>, <strong class="arabic-large">طرّحه</strong> <span class="translit">(ṭarraḥahu)</span>, and <strong class="arabic-large">اطّرحه</strong> <span class="translit">(iṭṭaraḥahu)</span> also belong, with morphological differences, to the same field.</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">طَرَحَتِ النَّاقَةُ جَنِينَهَا</blockquote>
+      <p>An expression like this meant that the she-camel cast out her fetus. In this usage, the main element is separation and the coming out of something from within a body.</p>
+      <p>They could also use forms of this root for the shedding of produce or parts of a plant. This use connects <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> with the separation and falling of something that had previously been connected to a structure.</p>
+      <p>In Arabic, <strong class="arabic-large">الطَّرَح</strong> <span class="translit">(al-ṭarḥ)</span> and <strong class="arabic-large">المَطْرَح</strong> <span class="translit">(al-maṭraḥ)</span> also became connected with distance and the place of casting. In expressions about travel and separation, time or distance is imagined as though it took a person from his place and cast him to a far point.</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">قَوْسٌ طَرُوح</blockquote>
+      <p>This referred to a bow that casts the arrow far away.</p>
+      <p>These usages show that distance is not a meaning wholly separate from casting; rather, it is one of its natural results.</p>
+      <p>In later language, “posing a question” came to mean putting a question forward for examination. Here nothing is thrown away; rather, something is brought out of the mind or silence and placed before others. This later usage should not be imposed on the meaning of the Qur'anic verse.</p>
+    </section>
+    <section class="root-section" id="quranic-usage"><h2>Qur'anic Usage of the Root</h2>
+
+    </section>
+    <section class="root-section" id="yusuf-family-removal"><h2>Casting Yusuf Out of the Family Environment</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اقْتُلُوا يُوسُفَ أَوِ اطْرَحُوهُ أَرْضًا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ</blockquote>
+      <p class="translation">Kill Yusuf, or cast him into some land, so that your father’s attention may become free for you.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/012-yusuf/#ayah-009' | relative_url }}">Yusuf 12:9</a></p>
+      <p>The root <strong class="arabic-large">ط ر ح</strong> <span class="translit">(ṭ r ḥ)</span> appears in the Qur'an only in this verse.</p>
+      <p><strong class="arabic-large">اطْرَحُوهُ</strong> <span class="translit">(iṭraḥūhu)</span> is a plural imperative:</p>
+      <p><strong class="arabic-large">اطْرَحُوا</strong> <span class="translit">(iṭraḥū)</span>: cast, or throw out.</p>
+      <p><strong class="arabic-large">هُ</strong> <span class="translit">(hu)</span>: him.</p>
+      <p>Yusuf’s brothers put forward two ways of removing him: killing him, or casting him into another land. <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> here is not merely relocation. They want to remove Yusuf from the family environment, from the father’s reach, and from the field of his attention.</p>
+      <p>The continuation of the sentence reveals the aim of the act:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ</blockquote>
+      <p class="translation">So that your father’s face may become free for you.</p>
+      <p><strong class="arabic-large">وجه أبيكم</strong> <span class="translit">(wajhu abīkum)</span> here is not only the physical face. It also includes the father’s turning toward, attention, and presence before his children. In the brothers’ logic, Yusuf is an obstacle to the father’s attention being reserved for them. Therefore, they want to remove him from this field.</p>
+      <p>Even so, the lexical meaning of <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> by itself is not “removing an obstacle.” That dimension is understood from the aim stated in the continuation of the verse. The core of the verb remains casting and bringing out from the previous position.</p>
+    </section>
+    <section class="root-section" id="from-itrahuhu-to-alquhu"><h2>From <span class="arabic-large">اطْرَحُوهُ أَرْضًا</span> <span class="translit">(iṭraḥūhu arḍan)</span> to <span class="arabic-large">أَلْقُوهُ فِي غَيَابَتِ الْجُبِّ</span> <span class="translit">(alqūhu fī ghayābat al-jubb)</span></h2>
+      <p>In the next verse, one of the brothers gives a more specific proposal:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لَا تَقْتُلُوا يُوسُفَ وَأَلْقُوهُ فِي غَيَابَتِ الْجُبِّ</blockquote>
+      <p class="translation">Do not kill Yusuf; cast him into the hidden depth of the well.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/012-yusuf/#ayah-010' | relative_url }}">Yusuf 12:10</a></p>
+      <p>In verse 9 it had said:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اطْرَحُوهُ أَرْضًا</blockquote>
+      <p class="translation">Cast him into some land.</p>
+      <p>The destination in this proposal is unspecified. The main issue is removing Yusuf from the family environment; any land that separates him from the father could serve as the destination.</p>
+      <p>But in verse 10 it says:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أَلْقُوهُ فِي غَيَابَتِ الْجُبِّ</blockquote>
+      <p class="translation">Cast him into the hidden depth of the well.</p>
+      <p>Here the destination is defined by the preposition <strong class="arabic-large">في</strong> <span class="translit">(fī)</span> and the specific phrase <strong class="arabic-large">غَيَابَتِ الْجُبِّ</strong> <span class="translit">(ghayābat al-jubb)</span>. The plan moves from a general proposal of removal and distancing to a specific act with a specific place.</p>
+      <p>This difference does not show that <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> always has an unspecified destination and <strong class="arabic-large">إلقاء</strong> <span class="translit">(ilqāʾ)</span> always has a specified destination. Both roots can take different structures in other contexts. The difference between these two verses arises from the combination of verb, syntactic structure, and the stage the brothers’ discussion has reached:</p>
+      <p><strong class="arabic-large">اطرحوه أرضاً</strong> <span class="translit">(iṭraḥūhu arḍan)</span>: removing him from the field of the family, with an unspecified destination.</p>
+      <p><strong class="arabic-large">ألقوه في غيابت الجب</strong> <span class="translit">(alqūhu fī ghayābat al-jubb)</span>: executing the plan by casting him into a specified place.</p>
+    </section>
+    <section class="root-section" id="meaning-ardan"><h2>The Meaning of <span class="arabic-large">أَرْضًا</span> <span class="translit">(arḍan)</span></h2>
+      <p>The word <strong class="arabic-large">أَرْضًا</strong> <span class="translit">(arḍan)</span> is indefinite and accusative. This form points to an unspecified land or region: a place where Yusuf would be separated from home and father.</p>
+      <p>In syntactic analysis, <strong class="arabic-large">أرضاً</strong> <span class="translit">(arḍan)</span> can be understood as an adverbial accusative of place, meaning:</p>
+      <p>Cast him into some land.</p>
+      <p>Some syntactic analyses understand it as accusative because a preposition has been omitted, with the underlying structure:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اطْرَحُوهُ فِي أَرْضٍ</blockquote>
+      <p class="translation">Cast him into some land.</p>
+      <p>These two explanations do not create a major difference in translation. In both, <strong class="arabic-large">أرض</strong> <span class="translit">(arḍ)</span> is the place or destination of the casting, not a second object alongside Yusuf.</p>
+      <p>However, the omission of the preposition, if this analysis is accepted, does not by itself prove intensity, violence, or urgency. The intensity of the sentence is understood first from the meaning of the verb <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span>, its placement opposite killing, and the aim of removing Yusuf from the family. A possible syntactic analysis should not be turned into a rhetorical meaning that the structure itself does not necessarily establish.</p>
+      <p>The indefiniteness of <strong class="arabic-large">أرض</strong> <span class="translit">(arḍ)</span> also does not directly mean “a distant land.” Yet the unspecified destination, together with the aim of distancing Yusuf from his father, makes distance and unfamiliarity understandable from the context.</p>
+      <p>Therefore, it is better not to add the word “distant” in the main translation, but to explain that meaning in the linguistic note.</p>
+    </section>
+    <section class="root-section" id="distinctions"><h2>Distinguishing Similar Uses</h2>
+
+    </section>
+    <section class="root-section" id="casting-body-person"><h2>Casting a Body or Person</h2>
+      <p>In the basic use, a thing or person is separated from its place and cast into another point. The Qur'anic use of <strong class="arabic-large">اطْرَحُوهُ</strong> <span class="translit">(iṭraḥūhu)</span> belongs to this field.</p>
+    </section>
+    <section class="root-section" id="out-of-structure"><h2>Throwing Out from a Structure</h2>
+      <p>In uses such as casting out a fetus or shedding fruit, something is separated from the body or structure to which it had previously been connected. The main axis is the severing of the bond and the coming out.</p>
+    </section>
+    <section class="root-section" id="distancing"><h2>Distancing</h2>
+      <p>What is <strong class="arabic-large">طرح</strong> <span class="translit">(ṭurḥa)</span> may be placed at a distance from its previous location. Distance is one common result of <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span>, but it is not an independent and necessary part of every translation.</p>
+    </section>
+    <section class="root-section" id="setting-aside"><h2>Setting Aside</h2>
+      <p>An opinion, method, or immaterial thing can also be <strong class="arabic-large">طرح</strong> <span class="translit">(ṭurḥa)</span>; that is, it is removed from the field of validity or use.</p>
+    </section>
+    <section class="root-section" id="putting-forward"><h2>Putting Forward</h2>
+      <p>In later language, posing a question or problem means bringing it into the field of discussion. This use has a different direction, but still rests on bringing something out of a hidden or internal state and placing it before others.</p>
+    </section>
+    <section class="root-section" id="fallen-state"><h2>Being Fallen and Brought Low</h2>
+      <p><strong class="arabic-large">طريح</strong> <span class="translit">(ṭarīḥ)</span> can be said of someone fallen on the ground or on a bed. Here the result of the act, not the moment of casting, is prominent.</p>
+    </section>
+    <section class="root-section" id="syntax"><h2>Syntactic and Structural Notes</h2>
+
+    </section>
+    <section class="root-section" id="structure-itrahuhu"><h2>The Structure of <span class="arabic-large">اطْرَحُوهُ</span> <span class="translit">(iṭraḥūhu)</span></h2>
+      <p><strong class="arabic-large">اطْرَحُوا</strong> <span class="translit">(iṭraḥū)</span> is an imperative verb addressed to a masculine plural.</p>
+      <p>The final <strong class="arabic-large">واو</strong> <span class="translit">(wāw)</span> marks the plural.</p>
+      <p>The pronoun <strong class="arabic-large">هُ</strong> <span class="translit">(hu)</span> is the object of the verb and refers back to Yusuf:</p>
+      <p><strong class="arabic-large">اطْرَحُوا + هُ</strong> <span class="translit">(iṭraḥū + hu)</span></p>
+      <p>Cast + him.</p>
+      <p>This form is built from the simple verb <strong class="arabic-large">طَرَحَ ـ يَطْرَحُ</strong> <span class="translit">(ṭaraḥa — yaṭraḥu)</span>:</p>
+      <p><strong class="arabic-large">يَطْرَحُ</strong> <span class="translit">(yaṭraḥu)</span></p>
+      <p><strong class="arabic-large">طْرَحْ</strong> <span class="translit">(ṭraḥ)</span></p>
+      <p><strong class="arabic-large">اطْرَحْ</strong> <span class="translit">(iṭraḥ)</span></p>
+      <p><strong class="arabic-large">اطْرَحُوا</strong> <span class="translit">(iṭraḥū)</span></p>
+      <p>The initial hamzah is <strong class="arabic-large">همزة وصل</strong> <span class="translit">(hamzat waṣl)</span>, added to make it possible to begin pronouncing a verb that otherwise begins with a consonant cluster. Therefore, <strong class="arabic-large">اطْرَحُوا</strong> <span class="translit">(iṭraḥū)</span> is neither Form IV nor Form VIII.</p>
+    </section>
+    <section class="root-section" id="structure-aw-itrahuhu"><h2>The Structure of <span class="arabic-large">أَوِ اطْرَحُوهُ</span> <span class="translit">(awi iṭraḥūhu)</span></h2>
+      <p>The original conjunction is <strong class="arabic-large">أَوْ</strong> <span class="translit">(aw)</span>. In connected recitation, to avoid the collision of two sukūns, a kasrah is heard:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أَوِ اطْرَحُوهُ</blockquote>
+      <p>The meaning of <strong class="arabic-large">أو</strong> <span class="translit">(aw)</span> remains “or,” placing two proposals before the speakers:</p>
+      <p>killing Yusuf;</p>
+      <p>casting and distancing him.</p>
+    </section>
+    <section class="root-section" id="position-ardan"><h2>The Position of <span class="arabic-large">أَرْضًا</span> <span class="translit">(arḍan)</span></h2>
+      <p><strong class="arabic-large">أرضاً</strong> <span class="translit">(arḍan)</span> expresses the place or field in which the act occurs. It may be taken as an accusative adverb of place or as accusative because a preposition has been omitted.</p>
+      <p>In both analyses, the natural English meaning is:</p>
+      <p>Cast him into some land.</p>
+      <p>It should not be translated as a second object of <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span>, because Yusuf is what is cast, while <strong class="arabic-large">أرض</strong> <span class="translit">(arḍ)</span> shows the destination or environment of the casting.</p>
+    </section>
+    <section class="root-section" id="near-roots"><h2>Difference from Nearby Roots</h2>
+
+    </section>
+    <section class="root-section" id="tt-r-h-and-l-q-y"><h2><span class="arabic-large">ط ر ح</span> <span class="translit">(ṭ r ḥ)</span> and <span class="arabic-large">ل ق ي</span> <span class="translit">(l q y)</span></h2>
+      <p>The root <strong class="arabic-large">ل ق ي</strong> <span class="translit">(l q y)</span> in Form IV, <strong class="arabic-large">ألقى</strong> <span class="translit">(alqā)</span>, points to casting, throwing, placing, or conveying something. Its field is broad: a staff is cast, speech is cast or delivered, something is thrown into water, and love is placed in the heart.</p>
+      <p>In <strong class="arabic-large">ط ر ح</strong> <span class="translit">(ṭ r ḥ)</span>, throwing out, setting aside, and separating from the previous position are more prominent. <strong class="arabic-large">ألقى</strong> <span class="translit">(alqā)</span> more often expresses the act of delivering or casting to a destination.</p>
+      <p>This difference is clear in Yusuf 12:9 and 12:10: <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> focuses on removing Yusuf from the family environment, while casting him into the well with <strong class="arabic-large">ألقى</strong> <span class="translit">(alqā)</span> expresses the specific act of throwing him into a defined destination.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-n-b-dh"><h2><span class="arabic-large">ط ر ح</span> <span class="translit">(ṭ r ḥ)</span> and <span class="arabic-large">ن ب ذ</span> <span class="translit">(n b dh)</span></h2>
+      <p><strong class="arabic-large">ن ب ذ</strong> <span class="translit">(n b dh)</span> also points to casting away and setting aside, but in many of its uses, disregard, abandoning a relationship, or throwing something behind one’s back is prominent:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">نَبَذُوهُ وَرَاءَ ظُهُورِهِمْ</blockquote>
+      <p class="translation">They cast it behind their backs.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/003-al-imran/#ayah-187' | relative_url }}">Al-Imran 3:187</a></p>
+      <p>In <strong class="arabic-large">نبذ</strong> <span class="translit">(nabdh)</span>, the object is put outside the field of attention, commitment, or validity. But “the intrinsic worthlessness of the object” should not be made a fixed part of the root. Something can be valuable, yet a person may cast it aside with disregard.</p>
+      <p>In <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span>, the focus is more on the act of throwing out and moving from the previous position. The object may be worthless, unwanted, dangerous, or simply obstructive to the actor’s aim; the root itself does not judge its intrinsic value.</p>
+      <p>Yusuf’s brothers do not set him aside because he is intrinsically worthless; the context shows that his belovedness to the father caused their hostility. But that point is understood from the story, not from the lexical meaning of <strong class="arabic-large">ط ر ح</strong> <span class="translit">(ṭ r ḥ)</span> by itself.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-r-m-y"><h2><span class="arabic-large">ط ر ح</span> <span class="translit">(ṭ r ḥ)</span> and <span class="arabic-large">ر م ي</span> <span class="translit">(r m y)</span></h2>
+      <p><strong class="arabic-large">ر م ي</strong> <span class="translit">(r m y)</span> points to throwing toward a direction or target. An arrow, stone, and even an accusation can be the subject of <strong class="arabic-large">رمي</strong> <span class="translit">(ramy)</span>.</p>
+      <p>In <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span>, reaching a precise target is not necessary. The main axis is throwing out and separating from the previous place. <strong class="arabic-large">رمي</strong> <span class="translit">(ramy)</span> highlights movement toward a target; <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> highlights moving away from the origin.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-q-dh-f"><h2><span class="arabic-large">ط ر ح</span> <span class="translit">(ṭ r ḥ)</span> and <span class="arabic-large">ق ذ ف</span> <span class="translit">(q dh f)</span></h2>
+      <p><strong class="arabic-large">ق ذ ف</strong> <span class="translit">(q dh f)</span> usually highlights throwing with force and speed. This root can be used for a physical object, for placing something in the heart, or for making an accusation.</p>
+      <p>In <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span>, violent force is not a necessary part of the meaning. The act may be harsh, but the core is throwing out and setting aside.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-tt-r-d"><h2><span class="arabic-large">ط ر ح</span> <span class="translit">(ṭ r ḥ)</span> and <span class="arabic-large">ط ر د</span> <span class="translit">(ṭ r d)</span></h2>
+      <p><strong class="arabic-large">ط ر د</strong> <span class="translit">(ṭ r d)</span> points to driving away, expelling, and forcing someone to move away. In <strong class="arabic-large">طرد</strong> <span class="translit">(ṭard)</span>, the person or animal may itself move away under pressure.</p>
+      <p>In <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span>, the object is more directly the thing cast and put outside. <strong class="arabic-large">طرد</strong> <span class="translit">(ṭard)</span> highlights compulsory movement away; <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> highlights the act of throwing out.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-t-r-k"><h2><span class="arabic-large">ط ر ح</span> <span class="translit">(ṭ r ḥ)</span> and <span class="arabic-large">ت ر ك</span> <span class="translit">(t r k)</span></h2>
+      <p><strong class="arabic-large">ت ر ك</strong> <span class="translit">(t r k)</span> points to leaving or giving up something. Something may remain where it is, while the actor leaves it.</p>
+      <p>In <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span>, the object itself is taken out of its position or cast away. Therefore, “leaving” is only a suitable translation for <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> when the meaning of putting outside and distancing is also clear in the context.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-w-dad-ayn"><h2><span class="arabic-large">ط ر ح</span> <span class="translit">(ṭ r ḥ)</span> and <span class="arabic-large">و ض ع</span> <span class="translit">(w ḍ ʿ)</span></h2>
+      <p><strong class="arabic-large">و ض ع</strong> <span class="translit">(w ḍ ʿ)</span> points to placing or putting something in a location. This root is more neutral in value and motion.</p>
+      <p>In <strong class="arabic-large">وضع</strong> <span class="translit">(waḍʿ)</span>, the destination of placement is prominent; in <strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span>, separation from the origin and being cast out are prominent.</p>
+    </section>
+    <section class="root-section" id="tt-r-h-and-abaada"><h2><span class="arabic-large">ط ر ح</span> <span class="translit">(ṭ r ḥ)</span> and <span class="arabic-large">أ ب ع د</span> <span class="translit">(ʾ b ʿ d)</span></h2>
+      <p><strong class="arabic-large">أبعد</strong> <span class="translit">(abʿada)</span> directly states the result: someone or something is made distant.</p>
+      <p><strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> shows a way this distance can be produced: the object is cast out of its place and, as a result, becomes distant.</p>
+    </section>
+    <section class="root-section" id="translation-suggestions"><h2>Translation Suggestions for Forqan</h2>
+
+    </section>
+    <section class="root-section" id="translate-taraha"><h2><span class="arabic-large">طَرَحَ</span> <span class="translit">(ṭaraḥa)</span></h2>
+      <p>cast; threw out; threw away; set aside; removed from its place; left somewhere, depending on context.</p>
+    </section>
+    <section class="root-section" id="translate-yatrahu"><h2><span class="arabic-large">يَطْرَحُ</span> <span class="translit">(yaṭraḥu)</span></h2>
+      <p>casts; throws out; sets aside; distances.</p>
+    </section>
+    <section class="root-section" id="translate-tarh"><h2><span class="arabic-large">طَرْح</span> <span class="translit">(ṭarḥ)</span></h2>
+      <p>casting; throwing out; setting aside; distancing; putting forward, in intellectual usage.</p>
+    </section>
+    <section class="root-section" id="translate-tarih"><h2><span class="arabic-large">طَرِيح</span> <span class="translit">(ṭarīḥ)</span></h2>
+      <p>cast down; fallen; brought low; bedridden.</p>
+    </section>
+    <section class="root-section" id="translate-matruh"><h2><span class="arabic-large">مَطْرُوح</span> <span class="translit">(maṭrūḥ)</span></h2>
+      <p>cast down; thrown out; set aside; put forward, in intellectual usage.</p>
+    </section>
+    <section class="root-section" id="translate-matrah"><h2><span class="arabic-large">مَطْرَح</span> <span class="translit">(maṭraḥ)</span></h2>
+      <p>place of casting; place where something lies; place or position.</p>
+    </section>
+    <section class="root-section" id="translate-taruh"><h2><span class="arabic-large">طَرُوح</span> <span class="translit">(ṭarūḥ)</span></h2>
+      <p>far-casting; far-reaching; strongly distancing, depending on the described object.</p>
+    </section>
+    <section class="root-section" id="translate-itrahuhu"><h2><span class="arabic-large">اطْرَحُوهُ</span> <span class="translit">(iṭraḥūhu)</span></h2>
+      <p>cast him; throw him out; distance him; leave him somewhere else.</p>
+      <p>For the phrase:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">اقْتُلُوا يُوسُفَ أَوِ اطْرَحُوهُ أَرْضًا</blockquote>
+      <p>the suggested Forqan translation is:</p>
+      <p>Kill Yusuf, or cast him into some land.</p>
+      <p>This translation does not insert “far,” which is not explicit in the text. The unspecified land and the aim of distancing Yusuf from the father are explained in the linguistic note.</p>
+      <p>The translation “leave him somewhere” is smooth in English, but it weakens the force of “casting and bringing out.” “Cast him into some land” better preserves the structure and force of the verb.</p>
+    </section>
+    <section class="root-section" id="summary"><h2>Linguistic Summary</h2>
+      <p>Linguistic summary: the root <strong class="arabic-large">ط ر ح</strong> <span class="translit">(ṭ r ḥ)</span> points to separating something from its previous position and casting, putting out, or setting it aside. Its material image is a thing or living being separated from a place or body and placed outside it.</p>
+      <p>In the Qur'an, this root appears only in <strong class="arabic-large">اطْرَحُوهُ أَرْضًا</strong> <span class="translit">(iṭraḥūhu arḍan)</span>: a proposal to remove Yusuf from the family environment and place him in an unspecified land.</p>
+      <p><strong class="arabic-large">طرح</strong> <span class="translit">(ṭarḥ)</span> overlaps with <strong class="arabic-large">إلقاء</strong> <span class="translit">(ilqāʾ)</span>, <strong class="arabic-large">نبذ</strong> <span class="translit">(nabdh)</span>, <strong class="arabic-large">رمي</strong> <span class="translit">(ramy)</span>, <strong class="arabic-large">قذف</strong> <span class="translit">(qadhf)</span>, <strong class="arabic-large">طرد</strong> <span class="translit">(ṭard)</span>, <strong class="arabic-large">ترك</strong> <span class="translit">(tark)</span>, and <strong class="arabic-large">وضع</strong> <span class="translit">(waḍʿ)</span>, but its distinctive feature is the connection between separation from a position, being cast out, and being placed in another field.</p>
+    </section>
+  </div>
+</div>
