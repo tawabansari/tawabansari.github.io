@@ -13,231 +13,507 @@ permalink: /quran-terminology/en/roots/t-b-b/
   .root-study-page h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.05rem); line-height: 1.2; color: var(--root-text, #2f2a22); }
   .root-subtitle { color: var(--root-muted, #6d6255); max-width: 780px; margin: 1rem 0 0; font-size: 1.04rem; }
   .root-forms-card, .root-toc { background: linear-gradient(180deg, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent 82%), var(--root-panel, #fffdf7); border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 20px; padding: 1.35rem 1.55rem; margin: 1.55rem 0; }
+  .root-forms-card h2, .root-toc h2 { margin-top: 0; }
   .morphology-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
-  .morph-card { display: block; border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 16px; padding: 1rem; background: var(--root-section, #fffaf2); color: inherit; text-decoration: none; }
-  .morph-card-header { display: flex; justify-content: space-between; gap: 0.75rem; color: var(--root-muted, #6d6255); font-size: 0.88rem; margin-bottom: 0.55rem; }
-  .morph-form { font-weight: 800; font-size: 1.18rem; color: var(--root-accent-deep, #8b6423); margin-bottom: 0.4rem; }
+  .morph-card { display: block; min-width: 0; border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 16px; padding: 1rem; background: var(--root-section, #fffaf2); color: inherit; text-decoration: none; }
+  .morph-card-header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.35rem 0.75rem; color: var(--root-muted, #6d6255); font-size: 0.88rem; margin-bottom: 0.55rem; }
+  .morph-form { font-weight: 800; font-size: 1.28rem; color: var(--root-accent-deep, #8b6423); margin-bottom: 0.15rem; }
+  .morph-translit { color: var(--root-accent-deep, #8b6423); font-size: 0.88rem; font-style: italic; }
   .morph-note { color: var(--root-muted, #6d6255); margin-bottom: 0; font-size: 0.95rem; }
+  .morph-destination { color: var(--root-accent-deep, #8b6423); margin: 0.45rem 0 0; font-size: 0.86rem; font-weight: 700; }
   .root-toc ol { list-style-position: inside; padding-left: 0; margin: 0.75rem 0 0; columns: 2; column-gap: 2rem; }
   .root-toc li { margin: 0.28rem 0; break-inside: avoid; }
-  .root-section { background: var(--root-section, #fffaf2); border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 18px; padding: 1.5rem 1.6rem; margin: 1.55rem 0; }
+  .root-section { background: var(--root-section, #fffaf2); border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 18px; padding: 1.5rem 1.6rem; margin: 1.55rem 0; scroll-margin-top: 1.25rem; }
   .root-section h2 { margin: 0 0 1rem; color: var(--root-text, #2f2a22); font-size: 1.35rem; line-height: 1.35; }
   .root-section h2::before { content: ""; display: inline-block; width: 0.58rem; height: 0.58rem; border-radius: 999px; background: var(--root-accent, #b9852f); margin-right: 0.55rem; vertical-align: 0.08em; }
+  .root-section h3 { margin: 1.65rem 0 0.75rem; color: var(--root-accent-deep, #8b6423); font-size: 1.13rem; scroll-margin-top: 1.25rem; }
   .root-study-page p { margin: 0.85rem 0; }
   .root-study-page a { color: var(--root-accent-deep, #8b6423); text-decoration: none; border-bottom: 1px dotted currentColor; }
-  .root-study-page blockquote { margin: 1.35rem 0; padding: 1rem 1.25rem; border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 18px; background: linear-gradient(180deg, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent), var(--root-panel, #fffdf7); }
-  .root-study-page blockquote p { margin: 0.45rem 0; }
-  .root-study-page cite { display: block; color: var(--root-accent-deep, #8b6423); font-style: normal; font-weight: 700; margin-top: 0.5rem; }
+  .morph-card, .morph-card:hover { border-bottom-style: solid; }
+  .verse-block { margin: 1.35rem 0 0.65rem; padding: 1rem 1.25rem; border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 18px; background: linear-gradient(180deg, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent), var(--root-panel, #fffdf7); }
+  .arabic-quote { direction: rtl; text-align: center !important; font-size: 1.48rem; line-height: 2.5; margin: 0; color: var(--root-text, #2f2a22); unicode-bidi: isolate; }
+  .translation { text-align: center; color: var(--root-muted, #6d6255); margin-top: 0.45rem; }
+  .verse-ref { text-align: center; color: var(--root-accent-deep, #8b6423); font-weight: 700; margin-top: 0.25rem; }
   .arabic-large { font-size: 1.12em; line-height: 2.15; direction: rtl; unicode-bidi: isolate; }
-  @media (max-width: 760px) { .root-frame { padding: 1.25rem; border-radius: 20px; } .morphology-grid { grid-template-columns: 1fr; } .root-toc ol { columns: 1; } }
+  @media (max-width: 760px) { .root-study-page { padding: 1.5rem 0.75rem; } .root-frame { padding: 1.25rem; border-radius: 20px; } .morphology-grid { grid-template-columns: 1fr; } .root-toc ol { columns: 1; } .arabic-quote { font-size: 1.25rem; } }
 </style>
 
 <div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
   <div class="root-frame">
-    <section class="root-hero">
-      <div class="root-kicker">Qur'anic Root</div>
-      <h1>Qur'anic Root T B B</h1>
-      <p class="root-subtitle">Loss, failure, fruitlessness, and the collapse of the benefit expected from an effort, tool, plan, or support.</p>
-    </section>
+    <section class="root-hero"><div class="root-kicker">Qur'anic Root</div><h1>Qur'anic Root T B B</h1><p class="root-subtitle">Loss and failure that prevent a person, act, plan, or support from reaching a beneficial outcome.</p></section>
+    <section class="root-forms-card" aria-labelledby="morphology-title">
+  <h2 id="morphology-title">Qur'anic Derivative Cards</h2>
+  <div class="morphology-grid">
+    <a class="morph-card" href="#quran-hands"><div class="morph-card-header"><span>Form I past verb, feminine singular</span><span>Al-Masad 111:1</span></div><div class="morph-form" dir="rtl" lang="ar">تَبَّتْ</div><div class="morph-translit">tabbat</div><p class="morph-note">Her two hands suffered loss, failed, or the result of their work was ruined.</p><p class="morph-destination">Related section: the failure of the hands and instruments of action</p></a>
+    <a class="morph-card" href="#derivative-tabba"><div class="morph-card-header"><span>Form I past verb, masculine singular</span><span>Al-Masad 111:1</span></div><div class="morph-form" dir="rtl" lang="ar">تَبَّ</div><div class="morph-translit">tabba</div><p class="morph-note">He himself suffered loss and reached a failed outcome.</p><p class="morph-destination">Related section: the ruin of action returning to the person who acts</p></a>
+    <a class="morph-card" href="#derivative-tabab"><div class="morph-card-header"><span>Noun or nominal verbal form</span><span>Ghafir 40:37</span></div><div class="morph-form" dir="rtl" lang="ar">تَبَاب</div><div class="morph-translit">tabab</div><p class="morph-note">Loss, failure, and ruin within which Pharaoh's plot stands.</p><p class="morph-destination">Related section: Pharaoh's plot within tabab</p></a>
+    <a class="morph-card" href="#derivative-tatbib"><div class="morph-card-header"><span>Form II verbal noun</span><span>Hud 11:101</span></div><div class="morph-form" dir="rtl" lang="ar">تَتْبِيب</div><div class="morph-translit">tatbib</div><p class="morph-note">Adding to loss and drawing farther into ruin.</p><p class="morph-destination">Related section: from inability to rescue to increased ruin</p></a>
+  </div>
+</section>
 
-    <section class="root-forms-card">
-      <h2>Important Forms</h2>
-      <div class="morphology-grid">
-        <a class="morph-card" href="#root-meaning"><div class="morph-card-header"><span>Root</span><span>T B B</span></div><div class="morph-form arabic-large">ت ب ب</div><p class="morph-note">Loss, failure, loss of benefit, and a path reaching a ruined outcome.</p></a>
-        <a class="morph-card" href="#hands"><div class="morph-card-header"><span>Verb</span><span>tabba / tabbat</span></div><div class="morph-form arabic-large">تَبَّ / تَبَّتْ</div><p class="morph-note">He failed, lost, was deprived of good, or reached a ruined outcome.</p></a>
-        <a class="morph-card" href="#pharaoh"><div class="morph-card-header"><span>Noun</span><span>tabab</span></div><div class="morph-form arabic-large">تَبَاب</div><p class="morph-note">Continuing loss, failure, destruction, and collapse of result.</p></a>
-        <a class="morph-card" href="#tatbib"><div class="morph-card-header"><span>Form II verbal noun</span><span>tatbib</span></div><div class="morph-form arabic-large">تَتْبِيب</div><p class="morph-note">Increasing ruin, intensifying failure, or driving deeper into loss.</p></a>
-      </div>
-    </section>
+    <nav class="root-toc" aria-label="Article section list"><h2>Article Map</h2><ol><li><a href="#introduction">Short Introduction to the Root</a></li>
+          <li><a href="#forms">Important Forms and Derivatives</a></li>
+          <li><a href="#root-meaning">Semantic Core of the Root</a></li>
+          <li><a href="#material-image">Material Image of the Root</a></li>
+          <li><a href="#classical-usage">Use of the Root in Early Arabic</a></li>
+          <li><a href="#reception-history">History of Understanding, Misuse, or Semantic Distortion</a></li>
+          <li><a href="#methodology">Methodological Note</a></li>
+          <li><a href="#quranic-uses">Qur’anic Uses of the Root</a></li>
+          <li><a href="#quranic-derivatives">Important Qur’anic Derivatives</a></li>
+          <li><a href="#grammar">Grammatical and Structural Notes</a></li>
+          <li><a href="#near-roots">Comparison With Nearby Roots</a></li>
+          <li><a href="#exceptional-lahab">Exceptional Section: Abu Lahab and “نَارًا ذَاتَ لَهَبٍ”</a></li>
+          <li><a href="#translation">Translation Suggestions for Forqan</a></li>
+          <li><a href="#summary">Summary</a></li></ol></nav>
+    <section id="introduction" class="root-section">
+<h2>Short Introduction to the Root</h2>
+<p>The root  moves in the field of loss, failure, ruin, and the loss of a desired outcome. It is used of a person, act, plan, or support that does not reach benefit, rescue, or success, and whose result ends in loss and ruin.</p>
 
-    <nav class="root-toc">
-      <h2>Main Paths</h2>
-      <ol>
-        <li><a href="#root-meaning">Core Meaning</a></li>
-        <li><a href="#forms">Important Forms</a></li>
-        <li><a href="#linguistic-note">Linguistic Note</a></li>
-        <li><a href="#material-image">Material Image</a></li>
-        <li><a href="#historical-note">Classical Usage</a></li>
-        <li><a href="#hands">Failure of the Hands</a></li>
-        <li><a href="#person">Failure of the Person</a></li>
-        <li><a href="#wealth">Wealth and Gain That Do Not Avail</a></li>
-        <li><a href="#lahab">Abu Lahab and Blazing Fire</a></li>
-        <li><a href="#pharaoh">Pharaoh's Plot in Tabab</a></li>
-        <li><a href="#project">A Grand Project With a Ruined End</a></li>
-        <li><a href="#false-gods">Objects of Worship That Do Not Avail</a></li>
-        <li><a href="#tatbib">From Uselessness to Added Loss</a></li>
-        <li><a href="#ighna">Ighna and Tabab</a></li>
-        <li><a href="#similar-uses">Similar Uses</a></li>
-        <li><a href="#grammar">Grammar and Structure</a></li>
-        <li><a href="#near-roots">Nearby Roots</a></li>
-        <li><a href="#translation">Translation Suggestions</a></li>
-        <li><a href="#summary">Summary</a></li>
-      </ol>
-    </nav>
+<p>In its Qur’anic uses, this root is not limited to bodily destruction or the ending of life. A person’s two hands, the person himself, the plot of a ruler, and objects of worship taken as supports can all stand within the field of . The root therefore extends beyond death or physical destruction and includes the failure of action, plan, power, and support.</p>
 
-    <section id="root-meaning" class="root-section">
-      <h2>Core Meaning</h2>
-      <p>The root <strong class="arabic-large">ت ب ب</strong> indicates loss, failure, fruitlessness of effort, loss of expected benefit, and a path reaching a ruined outcome.</p>
-      <p>Tabb is not only bodily destruction or death. A person may remain alive, wealthy, and powerful, yet his tools, capital, plans, and effort fail to produce the result for which they were assembled. In that condition, his path has reached tabab.</p>
-      <p>The semantic core may be summarized as the collapse of the benefit and result expected from an effort, tool, plan, or support.</p>
-    </section>
+<p>In a brief formulation, the root’s main field may be expressed as:</p>
 
-    <section id="forms" class="root-section">
-      <h2>Important Forms</h2>
-      <p><strong class="arabic-large">تَبَّ</strong> is the past verb of form I: he suffered loss, failed, was deprived of good, or reached a ruined outcome.</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ</p><p>The two hands of Abu Lahab failed, and he himself failed.</p><cite>Al-Masad 111:1</cite></blockquote>
-      <p>The first verb returns to the two hands; the second returns to Abu Lahab himself. The verse speaks both of the failure of his instruments and efforts, and of the final outcome of the person himself.</p>
-      <p><strong class="arabic-large">تَبَّتْ</strong> is the feminine past form. Morphologically it appears as feminine singular because the verb comes before a dual subject, and <strong class="arabic-large">يد</strong> is feminine. This verb is not from the root <strong>Q T ʿ</strong>, and it should not be translated as “cut off” in the sense of bodily cutting of the hands.</p>
-      <p><strong class="arabic-large">تَبَاب</strong> is a verbal noun or noun indicating continuing loss, failure, destruction, and collapse of result:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِي تَبَابٍ</p><p>The plot of Pharaoh was only in tabab, in a field of failure and collapse.</p><cite>Ghafir 40:37</cite></blockquote>
-      <p>Tabab here is not only a momentary defeat. Pharaoh's plan is in a path whose result is fruitlessness and loss, even if for a time it appears large and effective.</p>
-      <p><strong class="arabic-large">تَتْبِيب</strong> is the verbal noun of form II: causing ruin, adding to loss, causing failure, or intensifying tabab.</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ</p><p>They increased them in nothing except ruin and failure.</p><cite>Hud 11:101</cite></blockquote>
-      <p>Form II can carry a causative or intensive sense here: those supports not only failed to save them, but added to the process of loss and collapse.</p>
-      <p><strong>Tabban</strong> in lexical Arabic may be used as an accusative verbal noun to announce loss, curse failure, or express destruction. This exact independent form does not occur in the Qur'an. Forms such as <strong>tabb</strong> as an active adjective and <strong>matbub</strong> are morphologically possible, but they do not occur in the Qur'an and are not central for understanding the Qur'anic use.</p>
-    </section>
+<p></p>
 
-    <section id="linguistic-note" class="root-section">
-      <h2>Linguistic Note</h2>
-      <p>The core of <strong class="arabic-large">ت ب ب</strong> is not simply “being destroyed.” It is the loss of good, benefit, and the possibility of success. Usually this root's field contains several elements: a person has a goal; he uses tools; he gathers wealth, power, a plan, or a support; he expects that means to bring benefit, victory, or rescue; but the final result is fruitlessness and loss.</p>
-      <p>For this reason, T B B in the Qur'an is linked with hands, wealth, gain, plot, and claimed objects of worship. Each of these is supposed to produce benefit or protection for its owner, but in the field of tabab it loses the ability to bring him to his intended result.</p>
-      <p>Some lexical reports mention cutting for tabb. That branch should not make <strong class="arabic-large">تبت يدا</strong> mean bodily cutting of hands. Even if “cutting” is accepted in some lexical uses, the Qur'anic axis of the verse is not the cutting of limbs. It is the cutting off of good, benefit, and success from the action and its owner. In other words, what is severed is the line of benefit and possibility of success, not necessarily the bodily organ itself.</p>
-    </section>
+</section>
 
-    <section id="material-image" class="root-section">
-      <h2>Material Image</h2>
-      <p>The material image of this root can be seen in hands that have worked intensely, yet the result of their work never reaches its aim. The hand is the tool of building, gathering, defending, gaining, and executing a decision. When the Qur'an says <strong class="arabic-large">تَبَّتْ يَدَا أَبِي لَهَبٍ</strong>, it does not mean that his hands were separated from his body. The image is that the practical power, actions, and achievements he formed by his own hands failed to produce the expected benefit.</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ</p><p>His wealth and what he gained did not avail him.</p><cite>Al-Masad 111:2</cite></blockquote>
-      <p>Three layers stand together: hand, as the instrument of action; wealth, as material support; and gain, as the result of effort. Tabab becomes visible when tool, support, and achievement all exist, but cannot bring their owner to real rescue or benefit.</p>
-      <p>Another image is a large, costly plan that is built, yet from the beginning it moves in a direction that will not reach its aim:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِي تَبَابٍ</p><p>The plot of Pharaoh was only in failure.</p><cite>Ghafir 40:37</cite></blockquote>
-      <p>The size of the tools and the breadth of the project do not guarantee success. A plan may appear great outwardly, yet in aim and result move in a dead end.</p>
-    </section>
+<section id="forms" class="root-section">
+<h2>Important Forms and Derivatives</h2>
+<p>The root  occurs four times in the Qur’an in three morphological forms.</p>
 
-    <section id="historical-note" class="root-section">
-      <h2>Classical Usage</h2>
-      <p>In classical Arabic, tabb and tabab were used for loss, destruction, failure, being deprived of good, and continuing in loss. The expression <strong>tabban li-fulan</strong> was used to announce loss or call for the destruction and failure of a person. This usage did not only consider bodily death; it could also point to the loss of good, failure of effort, and collapse of hoped-for success.</p>
-      <p>Some sources report a meaning of cutting for tabb. Yet this use should not be imposed on the Qur'an without context. In Surat Al-Masad, the clues of wealth, gain, and the final outcome of the person show that the axis is the cutting off of benefit and the failure of effort, not the bodily cutting of hands.</p>
-    </section>
+<h3 id="form-tabba">تَبَّ (tabba)</h3>
 
-    <section id="hands" class="root-section">
-      <h2>Failure of the Hands: The Fruitlessness of the Instruments of Action</h2>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">تَبَّتْ يَدَا أَبِي لَهَبٍ</p><p>The two hands of Abu Lahab failed.</p><cite>Al-Masad 111:1</cite></blockquote>
-      <p>The two hands can represent the entire field of action, power, effort, and acquisition. The verse speaks of hands that acted and gathered something, but that action ultimately has no power to rescue or bring success. Explanatory translations such as “the efforts of Abu Lahab failed” clarify part of the meaning, but direct translation should preserve the image of the two hands.</p>
-    </section>
+<p> is a form I past verb. In Arabic, it can indicate suffering loss, failing, perishing, or reaching a ruined outcome.</p>
 
-    <section id="person" class="root-section">
-      <h2>Failure of the Person Who Acts</h2>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ</p><p>The two hands of Abu Lahab failed, and he himself failed.</p><cite>Al-Masad 111:1</cite></blockquote>
-      <p>There is a deep relation between the two parts of the verse, but it should not be reduced to a simple timeline, as if first the hands failed and then the person was ruined. The hands are instruments and extensions of the person's will. The person's direction appears in his tools, gain, and results.</p>
-      <p>The failure of the hands is not separate from the path and choice of their owner; nor is the failure of the person formed apart from his acts and efforts. The verse shows a two-sided relation: the person's wrong direction drives his tools and efforts toward tabab, and the ruined result of those efforts returns upon him.</p>
-    </section>
+<p>In the Qur’an, the verb occurs twice in one ayah:</p>
 
-    <section id="wealth" class="root-section">
-      <h2>Wealth and Gain That Do Not Avail</h2>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ</p><p>His wealth and what he gained did not avail him.</p><cite>Al-Masad 111:2</cite></blockquote>
-      <p>The tabab of Abu Lahab did not arise from a lack of means. He had wealth and gain, but these possessions failed to perform the function expected from them. Ighna means to meet a need, suffice, and make someone free of need. The negation of ighna shows that the wealth existed, but did not suffice.</p>
-      <p>Thus tabab cannot be reduced to becoming poor or losing wealth. Sometimes wealth remains, but its power to save and benefit collapses.</p>
-    </section>
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ</p></blockquote>
+<p class="translation">“The two hands of Abu Lahab suffered loss, and he himself also suffered loss.”</p>
+<p class="verse-ref">Al-Masad 111:1</p>
 
-    <section id="lahab" class="root-section">
-      <h2>The Name Abu Lahab and the Scene of Blazing Fire</h2>
-      <p>Abu Lahab is the known name or title of the person addressed in the surah, and the surah immediately speaks of a fire with flame:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ</p><p>He will enter a fire of flame.</p><cite>Al-Masad 111:3</cite></blockquote>
-      <p>There is an obvious verbal harmony between “Abu Lahab” and <strong class="arabic-large">نارًا ذات لهب</strong>. Yet one should not conclude from this harmony that the meaning of T B B comes from fire and ashes. The surah uses the known name Abu Lahab to build a verbal and imaginal connection with his outcome, but the core of T B B remains loss, failure, and fruitlessness, not burning or becoming ash.</p>
-    </section>
+<p>The form  is the same verb marked as feminine because of its subject, , “two hands.” The second form, , returns to Abu Lahab himself.</p>
 
-    <section id="pharaoh" class="root-section">
-      <h2>Pharaoh's Plot Inside Tabab</h2>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِي تَبَابٍ</p><p>The plot of Pharaoh was only in tabab, in a field of failure and collapse.</p><cite>Ghafir 40:37</cite></blockquote>
-      <p>The preposition <strong class="arabic-large">في</strong> is important. The verse does not merely say that Pharaoh's plan eventually failed; it places his plot inside tabab. His project may move outwardly, buildings may be raised, power may be mobilized, and people may be affected, yet in direction and result it is already within the space of failure.</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">يَا قَوْمِ اتَّبِعُونِ أَهْدِكُمْ سَبِيلَ الرَّشَادِ</p><p>O my people, follow me; I will guide you to the path of right reaching.</p><cite>Ghafir 40:38</cite></blockquote>
-      <p>The placement of rushd and tabab in this part of the surah reveals two opposing directions: rushd is finding the right direction and reaching the proper aim; tabab is movement in a path whose result is failure and fruitlessness. These two words are not presented as direct lexical opposites in one sentence; the contrast emerges from the structure of the dialogue and the outcomes of the two paths.</p>
-    </section>
+<h3 id="form-tabab">تَبَاب (tabab)</h3>
 
-    <section id="project" class="root-section">
-      <h2>A Grand Project With a Ruined Aim</h2>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">يَا هَامَانُ ابْنِ لِي صَرْحًا لَعَلِّي أَبْلُغُ الْأَسْبَابَ</p><p>O Haman, build for me a lofty structure, so perhaps I may reach the means.</p><cite>Ghafir 40:36</cite></blockquote>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَإِنِّي لَأَظُنُّهُ كَاذِبًا</p><p>And I certainly suppose him to be a liar.</p><cite>Ghafir 40:37</cite></blockquote>
-      <p>This project is not merely a building. It is a display of power, the construction of a political narrative, and the transformation of a predetermined claim into a public project. Tabab here shows that outward greatness, complexity of tools, and executive power do not guarantee the rightness of the aim. A project may be materially large, yet because it is built on self-deception, denial, and wrong direction, it does not reach the true aim.</p>
-      <p>This verse should not be used as a general argument against technology, construction, or large projects. The issue is not the tool; it is the aim, claim, and direction in which the tool is used. The Qur'an places Pharaoh's plot in tabab, not the ability to build itself.</p>
-    </section>
+<p> is a noun or nominal verbal form indicating loss, ruin, and failure:</p>
 
-    <section id="false-gods" class="root-section">
-      <h2>Claimed Objects of Worship That Do Not Avail</h2>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">فَمَا أَغْنَتْ عَنْهُمْ آلِهَتُهُمُ الَّتِي يَدْعُونَ مِنْ دُونِ اللَّهِ مِنْ شَيْءٍ</p><p>Their objects of worship, which they called upon apart from The God, did not avail them in anything.</p><cite>Hud 11:101</cite></blockquote>
-      <p>A human being expects support, rescue, and sufficiency from what he takes as an object of worship and reliance. But these claimed objects of worship produced no ighna when the result arrived. What was supposed to be a refuge revealed its inability.</p>
-    </section>
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِي تَبَابٍ</p></blockquote>
+<p class="translation">“And Pharaoh’s plot was only in loss and ruin.”</p>
+<p class="verse-ref">Ghafir 40:37</p>
 
-    <section id="tatbib" class="root-section">
-      <h2>From Uselessness to Added Loss</h2>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ</p><p>They increased them in nothing except ruin and failure.</p><cite>Hud 11:101</cite></blockquote>
-      <p>The verse does not merely say that their objects of worship were useless. Dependence on them increased ruin. This increase can be understood from several directions: trusting a powerless refuge, moving away from the real reference point, building false security, continuing the wrong path in hope of rescue, and increasing the weight of consequences based on that dependence.</p>
-      <p>Tatbib is therefore a stage beyond ineffectiveness. The means not only fails to benefit; it plays a role in increasing the loss.</p>
-    </section>
+<h3 id="form-tatbib">تَتْبِيب (tatbib)</h3>
 
-    <section id="ighna" class="root-section">
-      <h2>The Relation Between Ighna and Tabab</h2>
-      <p>In Al-Masad and Hud, the negation of ighna appears beside the field of tabab:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ</p><p>His wealth and gain did not suffice for him.</p><cite>Al-Masad 111:2</cite></blockquote>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">فَمَا أَغْنَتْ عَنْهُمْ آلِهَتُهُمْ</p><p>Their objects of worship did not suffice for them.</p><cite>Hud 11:101</cite></blockquote>
-      <p>In one case, the support is wealth and gain; in the other, claimed objects of worship. Both enter the field of tabab when a means chosen for sufficiency and rescue becomes ineffective or loss-increasing at the decisive moment.</p>
-      <p>This contrast clarifies the difference between outward increase and real benefit. Accumulation of wealth, tools, or followers may appear as growth, but if it does not reach its proper aim, then in terms of result it is moving inside tabab.</p>
-    </section>
+<p> is the form II verbal noun of . In this structure, a causative or intensive meaning becomes prominent: drawing into ruin, adding to loss, or intensifying loss.</p>
 
-    <section id="similar-uses" class="root-section">
-      <h2>Similar Uses</h2>
-      <p><strong>Ruin of the tools and ruin of the person:</strong> <strong class="arabic-large">تبت يدا</strong> directs attention to the person's tools, efforts, and achievements. <strong class="arabic-large">وتب</strong> states the outcome of the owner himself. These two should not be completely separated. The tools are extensions of human will, and the result of actions returns to the person.</p>
-      <p><strong>Gradual tabab and sudden destruction:</strong> Tabab may be a gradual process. Pharaoh's plan continues for a time and may even show outward successes, yet it is in a path of fruitlessness. Tabab is not necessarily instant destruction; it may be present in the structure of a path before final collapse.</p>
-      <p><strong>Bodily cutting and cutting off good:</strong> Some lexical uses connect tabb with cutting. Yet <strong class="arabic-large">تبت يدا</strong> in Surat Al-Masad does not speak of cutting off a limb. If the idea of cutting is preserved here, what is cut off is access to good, the line of benefit, the possibility of success, and the connection between tool and expected result.</p>
-      <p><strong>Ineffectiveness and loss-increasing dependence:</strong> In Hud 11:101, the claimed objects of worship first do not benefit, then they add to tatbib. Ineffectiveness means the means has no positive result. Tatbib means dependence on the means increases the loss.</p>
-      <p><strong>Outward success and final success:</strong> A person or government may possess wealth, power, buildings, followers, and executive capacity. These are outward successes. Tabab judges the final outcome and real benefit. If the tools do not reach the proper aim, their breadth does not prevent tabab.</p>
-      <p><strong>Curse and declaration of result:</strong> <strong class="arabic-large">تبت</strong> may carry the tone of a curse, but Surat Al-Masad is not merely an emotional reaction against a person. The following verses explain the result of his failure. Translation should preserve both the declarative force and the report-like dimension of the phrase.</p>
-    </section>
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ</p></blockquote>
+<p class="translation">“And they increased them in nothing except ruin.”</p>
+<p class="verse-ref">Hud 11:101</p>
 
-    <section id="grammar" class="root-section">
-      <h2>Grammar and Structure</h2>
-      <p><strong>Why is tabbat feminine singular?</strong> In <strong class="arabic-large">تَبَّتْ يَدَا أَبِي لَهَبٍ</strong>, <strong class="arabic-large">يدا</strong> is the dual of <strong class="arabic-large">يد</strong>. Because the verb comes before the subject, it appears in singular form. Since <strong class="arabic-large">يد</strong> is feminine, the verb is feminine. This structure does not mean that only one hand is intended.</p>
-      <p><strong>Attributing action to hands:</strong> In Arabic and Persian alike, the hand can represent a person's action and gain: he built it with his own hand; his achievement; his hand was in this matter. Still, <strong class="arabic-large">يدا</strong> should not be erased completely and translated only as “his deeds,” because the image of the hand is part of the verse.</p>
-      <p><strong>The difference between tabbat and tabb:</strong> In <strong class="arabic-large">تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ</strong>, the subject of <strong class="arabic-large">تبت</strong> is the two hands of Abu Lahab, and the subject of <strong class="arabic-large">تب</strong> is Abu Lahab himself. Repeating the root expands failure from the tools and efforts to the person, without necessarily establishing a timeline between them.</p>
-      <p><strong>The structure fi tabab:</strong> In <strong class="arabic-large">وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِي تَبَابٍ</strong>, the preposition <strong class="arabic-large">في</strong> places the plot inside tabab. This structure is broader than “it eventually failed”; the plan is in the space of failure in its whole direction and structure.</p>
-      <p><strong>The structure ghayra tatbib:</strong> In <strong class="arabic-large">وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ</strong>, <strong class="arabic-large">غير تتبيب</strong> states the result of the increase: nothing was added except more ruin. Tatbib may be translated as increase of ruin, loss-increasing, intensification of failure, or being driven deeper into loss.</p>
-    </section>
+<h3 id="forms-1-3263170056772509171">Non-Qur’anic Forms</h3>
 
-    <section id="near-roots" class="root-section">
-      <h2>Nearby Roots</h2>
-      <p><strong>T B B and KH S R:</strong> Khasr indicates losing capital, decrease of profit, or emerging from a transaction with loss. Tabb emphasizes the failure of a path and the fruitlessness of the result. Khasr: capital or profit decreased. Tabb: the effort, tool, or person did not reach success.</p>
-      <p><strong>T B B and H L K:</strong> Halak indicates perishing, destruction, or the end of existence. Tabb may lead to halak, but its field is broader than bodily death. Hands, a plan, and effort can also reach tabab.</p>
-      <p><strong>T B B and B Ṭ L:</strong> Batil indicates becoming invalid or ineffective. Tabb emphasizes loss and failure returning from that ineffectiveness to the one who acts. Batil: validity or effect disappeared. Tabab: the path and its owner reached loss and failure.</p>
-      <p><strong>T B B and Ḥ B Ṭ:</strong> Habat indicates the loss of the effect and value of an action. Tabab can include action, tool, plan, and owner. Habat: the action lost its effect and reward. Tabab: the whole path reached fruitlessness and failure.</p>
-      <p><strong>T B B and D M R:</strong> Damar indicates destroying and eliminating structure. Tabab focuses on the harmful end and fruitlessness of the result. Damar: the structure was destroyed. Tabab: the hope and result of success collapsed.</p>
-      <p><strong>T B B and T B R:</strong> Tabara indicates severe smashing and destruction:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَكُلًّا تَبَّرْنَا تَتْبِيرًا</p><p>And each We shattered with complete shattering.</p><cite>Al-Furqan 25:39</cite></blockquote>
-      <p>The sound similarity between T B B and T B R should not make them identical. T B R is shattering and destroying; T B B is suffering loss and becoming fruitless.</p>
-      <p><strong>T B B and T ʿ S:</strong> Taʿs is close to slipping, falling, and wretchedness. Taʿs highlights the fall of the person; tabab focuses on the collapse of benefit and result.</p>
-      <p><strong>T B B and Ḍ L L:</strong> Dalal indicates losing the way and moving away from the destination. Dalal can cause tabab. Dalal: the wrong direction was chosen. Tabab: the result of that direction ended in failure.</p>
-      <p><strong>T B B and F SH L:</strong> Fashal indicates weakness, loss of strength, and inability to continue action. Fashal may occur in the middle of movement; tabab concerns more the result and failed outcome of the path.</p>
-      <p><strong>T B B and R SH D:</strong> Rushd and rashad are close to finding the right direction, maturity of judgment, and movement toward the correct result. Tabab shows a movement or plan that fails to reach benefit and destination. In the context of Surat Ghafir, sabil ar-rashad is a path that leads to the correct destination, while a plot in tabab is a plan moving inside failure and dead end. The two roots are not perfect lexical opposites, but in that context they show two different directions of outcome.</p>
-    </section>
+<p>The form  is also known in Arabic. This accusative verbal noun is used in expressions such as  to announce loss or destruction, or to call for failure. This independent form does not occur in the Qur’an.</p>
 
-    <section id="translation" class="root-section">
-      <h2>Translation Suggestions for Forqan</h2>
-      <p>For <strong class="arabic-large">تَبَّ</strong>: failed, suffered loss, was ruined, reached fruitlessness, was deprived of good and success, the result of his work collapsed.</p>
-      <p>For <strong class="arabic-large">تَبَّتْ يَدَاهُ</strong>: his two hands failed; the power of his hands reached a dead end; his efforts became fruitless; what his two hands had prepared ended in loss.</p>
-      <p>For <strong class="arabic-large">تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ</strong>: the two hands of Abu Lahab failed, and he himself failed; the power of Abu Lahab's hands reached a dead end, and he himself fell into ruin; Abu Lahab's efforts became fruitless, and he himself reached a failed end. For direct translation, “the two hands of Abu Lahab failed” preserves the image of the verse better.</p>
-      <p>For <strong class="arabic-large">تَبَاب</strong>: failure, ruin, loss, fruitlessness, collapse of result, dead end of benefit and success.</p>
-      <p>For <strong class="arabic-large">فِي تَبَاب</strong>: in a field of failure, in a path of ruin, inside fruitlessness and collapse, in a condition condemned to failed result.</p>
-      <p>For <strong class="arabic-large">وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِي تَبَابٍ</strong>: the plot of Pharaoh was only in a field of failure and collapse; Pharaoh's plan was only in a path moving toward fruitlessness; Pharaoh's plot was in nothing but ruin and dead end.</p>
-      <p>For <strong class="arabic-large">تَتْبِيب</strong>: increase of ruin, intensification of failure, driving into loss, pushing deeper into ruin, loss-increasing.</p>
-      <p>For <strong class="arabic-large">وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ</strong>: they increased them in nothing except ruin; they only intensified their failure; they drove them only deeper into loss; they added nothing except loss and collapse.</p>
-    </section>
+<p>Forms such as  or  may also appear in lexical sources or limited Arabic usage, but they are not central to studying the Qur’anic use of this root and should not be confused with the forms found in the Qur’an.</p>
 
-    <section id="summary" class="root-section">
-      <h2>Summary</h2>
-      <p>The root <strong class="arabic-large">ت ب ب</strong> indicates loss, failure, the cutting off of good, and the fruitlessness of an effort, tool, or plan. Its material image appears in hands that acted, but no longer have the power to bring their owner to benefit and rescue.</p>
-      <p>In the Qur'an, this root is used for the hands and person of Abu Lahab, the plot of Pharaoh, and claimed objects of worship that, instead of providing sufficiency and rescue, increase the ruin of those who rely on them. In all these uses, what was imagined as a means of success loses the power to fulfill its aim.</p>
-      <p>Tabab may be present in the structure of a path before outward destruction. Wealth may increase, a building may rise, and a plan may operate for a time; but if its aim and result collapse, the path is in tabab.</p>
-      <p>T B B is close to khasr, halak, batil, habat, damar, tabr, fashal, and dalal, but it is identical with none of them. Its distinctive core is the failure of effort and the collapse of the benefit and result expected from tools, power, wealth, or a support.</p>
-    </section>
+</section>
+
+<section id="root-meaning" class="root-section">
+<h2>Semantic Core of the Root</h2>
+<p>The core of  should be sought in loss and failure. Something that reaches  is kept from a beneficial outcome, and its result ends in loss.</p>
+
+<p>This meaning may apply to the person himself, as with Abu Lahab; to his instruments and actions, as when his two hands become the subject of the verb; to a political scheme and the plot of power, as when Pharaoh’s plot is described as being in tabab; or to supports that, instead of rescuing their followers, increase their loss.</p>
+
+<p>The root therefore does not necessarily mean that the subject has immediately and outwardly been destroyed. A person may still possess wealth, power, or position; a plan may still be operating; and a system of worship may still have followers. Yet the Qur’an can place it in , because its direction and outcome do not reach true success.</p>
+
+<p>The expression “the collapse of expected benefit” can help explain the connection among some Qur’anic uses, but the root’s lexical meaning should not be restricted to economic language, profit, or capital. Its field is loss and ruin, and according to context this loss may appear in action, result, life, power, or support.</p>
+
+</section>
+
+<section id="material-image" class="root-section">
+<h2>Material Image of the Root</h2>
+<p>No single and certain material image is clearly available for  that can be treated as the origin of all its uses. Images such as turning to ash, cutting off a hand, or the collapse of a building should therefore not be presented as the root’s certain point of origin.</p>
+
+<p>Its linguistic and Qur’anic uses nevertheless provide two tangible images that help explain its field.</p>
+
+<p>The first is . In early Arabic usage, an expression about the hands of a trader suffering loss could be said of a transaction that produced no benefit. In this image, the hands have acted, taken, or given something, but the result of the transaction is loss.</p>
+
+<p>The second is . The hand is an instrument of taking, building, defending, acquiring, and carrying out. When the Qur’an says:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">تَبَّتْ يَدَا أَبِي لَهَبٍ</p></blockquote>
+
+<p>the subject is not merely two bodily organs. The two hands can represent the whole field of a person’s action, effort, executive power, and achievement. The following ayah makes this image clearer:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ</p></blockquote>
+<p class="translation">“His wealth and what he had acquired did not ward anything off from him or make him free of need.”</p>
+<p class="verse-ref">Al-Masad 111:2</p>
+
+<p>Hand, gain, and wealth stand in one field: the instrument of action, the result of action, and the support in which the person places trust. Tabab becomes evident when this whole set cannot save its owner from a harmful outcome.</p>
+
+</section>
+
+<section id="classical-usage" class="root-section">
+<h2>Use of the Root in Early Arabic</h2>
+<p>Arabic lexical sources explain  with loss and  with loss and destruction. The expression  was also used to announce or call for a person’s loss and destruction.</p>
+
+<p>The expression  was known in Arabic for the two hands suffering loss or for the failure of the person who acts. In this structure, the hands can stand for a person’s work, transaction, or effort. This usage indicates that, for an Arabic hearer, the Qur’anic wording in Surat Al-Masad was not merely an image of bodily amputation.</p>
+
+<p>Some sources also report “to cut” as a meaning of . This lexical branch should be recorded, but it should not be imposed mechanically on the ayah in Surat Al-Masad. The structure of the ayah, the known use of , and the continuation of the surah concerning wealth, gain, and the person’s outcome all strengthen the field of loss and failure.</p>
+
+<p>Within the same lexical family, the form  is also reported for a road becoming visible and even, or for a matter becoming established. This branch has historically been recorded under the same lexical material, but its exact relation to the field of loss and destruction is not fully clear. It should therefore not be brought into the Qur’anic core of the root without an independent examination.</p>
+
+</section>
+
+<section id="reception-history" class="root-section">
+<h2>History of Understanding, Misuse, or Semantic Distortion</h2>
+<p>One well-known translation of  is “perish the two hands of Abu Lahab,” or a similar wording suggesting that the hands be cut off. Such a translation may convey the curse-like force at the beginning of the surah, but it creates two problems.</p>
+
+<p>First, “being cut off” may give a present-day reader an image of bodily amputation, while the prominent meaning in this context is loss and failure.</p>
+
+<p>Second, the past form  is rendered only as a prayer or curse, and its declarative and report-like dimension becomes less visible. The expression can carry the resonance of a curse, judgment, or declaration of outcome, but morphologically it is a past verb: his two hands suffered loss or failed.</p>
+
+<p>At the other extreme, translating the phrase entirely interpretively as “Abu Lahab’s deeds were destroyed” also removes part of the ayah’s image. “Deeds” is one possible implication of the hands, but the image of  should remain in the translation as far as possible.</p>
+
+<p>Forqan’s translation should therefore preserve the image of the text while making the field of loss clear. For example:</p>
+
+<p></p>
+
+<p>Or:</p>
+
+<p></p>
+
+</section>
+
+<section id="methodology" class="root-section">
+<h2>Methodological Note</h2>
+<p>Three levels must be distinguished when examining this root.</p>
+
+<p>The first is : loss, destruction, decrease, and ruin.</p>
+
+<p>The second is : hands as instruments of action, wealth and gain as supports, plot as a scheme of power, and objects of worship as claimed refuges.</p>
+
+<p>The third is : the thought that any instrument, power, or plan can stand within tabab if it does not reach the right aim.</p>
+
+<p>The third level may be inspired by the ayat, but it should not be presented as the root’s dictionary meaning.  does not directly mean “the failure of technology,” “the collapse of a political project,” or “capital becoming ineffective.” These are contextual and reflective expressions of loss and failure in particular settings.</p>
+
+<p>Likewise, the reported meaning “cutting” should not be turned into a general theory that the root’s core is “the cutting off of good.” That expression may serve as an interpretive explanation, but the clearer lexical evidence places loss and destruction at the center.</p>
+
+</section>
+
+<section id="quranic-uses" class="root-section">
+<h2>Qur’anic Uses of the Root</h2>
+<h3 id="quran-hands">The Failure of the Hands and the Instruments of Action</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ</p></blockquote>
+<p class="translation">“The two hands of Abu Lahab suffered loss, and he himself also suffered loss.”</p>
+<p class="verse-ref">Al-Masad 111:1</p>
+
+<p>The ayah first makes  the subject of loss. Hands are the human being’s nearest instruments for action, taking possession, building, gathering, and defending. Attributing ruin to the hands can include a person’s action and effort, but the image of the hands should not be completely removed from translation.</p>
+
+<p>The ayah then returns the loss to Abu Lahab himself through . This structure shows the link between the person and his actions: his instruments and efforts are not separate from him, and the outcome of action returns to the one who acts.</p>
+
+<p>Yet the ayah does not necessarily create a two-stage timeline in which the hands are first destroyed and the person only afterward. The two parts can be two sides of one judgment: his action is loss-stricken, and he himself stands in the same loss.</p>
+
+<h3 id="quran-wealth">Wealth and Gain That Do Not Provide Ighna</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ</p></blockquote>
+<p class="translation">“His wealth and what he had acquired did not ward anything off from him.”</p>
+<p class="verse-ref">Al-Masad 111:2</p>
+
+<p>The root  is not repeated in this ayah, but the second ayah explains the field of loss in the first. The issue is not that Abu Lahab possessed no wealth or gain. The ayah assumes the presence of wealth and acquisition but denies their power of  and sufficiency.</p>
+
+<p>Tabab, then, does not arise only from lacking instruments. A person may possess instruments, wealth, and achievements, yet they may have no rescuing function against the outcome of his action.</p>
+
+<p>This should not be taken to mean that wealth or gain is condemned in itself. The context concerns their inability to ward off the result of a particular direction and action.</p>
+
+<h3 id="subsection-7-1593976937040055857">Pharaoh’s Plot Within Tabab</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِي تَبَابٍ</p></blockquote>
+<p class="translation">“And Pharaoh’s plot was only in loss and ruin.”</p>
+<p class="verse-ref">Ghafir 40:37</p>
+
+<p>In this ayah,  is placed within . The preposition  is important: the ayah does not merely say that his plan failed at the end, but describes it as being in the space of loss and ruin.</p>
+
+<p>This plot appears in the context of Pharaoh’s command to Haman to build a lofty structure:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">يَا هَامَانُ ابْنِ لِي صَرْحًا لَعَلِّي أَبْلُغُ الْأَسْبَابَ</p></blockquote>
+<p class="translation">“O Haman, build for me a lofty structure, so perhaps I may reach the ways and means.”</p>
+<p class="verse-ref">Ghafir 40:36</p>
+
+<p>The point of the ayah is not opposition to constructing a building or using instruments. What is described as being in tabab is : a scheme placed in the service of self-exaltation, denial, and the consolidation of his claim.</p>
+
+<p>Outwardly, such a plan may possess human power, instruments, resources, and a display of authority. Yet its outward greatness does not remove it from tabab. The ayah judges the direction and outcome of the plot, not the material size of the project.</p>
+
+<h3 id="quran-false-gods">Supports That Bring No Benefit</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَمَا أَغْنَتْ عَنْهُمْ آلِهَتُهُمُ الَّتِي يَدْعُونَ مِنْ دُونِ اللَّهِ مِنْ شَيْءٍ</p></blockquote>
+<p class="translation">“The objects of worship they called upon apart from The God did not ward anything off from them.”</p>
+<p class="verse-ref">Hud 11:101</p>
+
+<p>Here, as in Surat Al-Masad, the structure of  is present. Those people expected support, sufficiency, or rescue from their objects of worship, but when the outcome arrived those supports brought them no benefit.</p>
+
+<h3 id="quran-tatbib">From Inability to Rescue to Increased Ruin</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ</p></blockquote>
+<p class="translation">“And they increased them in nothing except ruin.”</p>
+<p class="verse-ref">Hud 11:101</p>
+
+<p>The ayah does not stop at the inability of those objects of worship to rescue. They added nothing to their followers except .</p>
+
+<p>Form II can carry a causative or intensive meaning here. Reliance on these objects of worship was not merely useless; dependence upon them increased loss. This increase can appear in continuing the wrong path, trusting a powerless refuge, and moving farther from the true point of rescue.</p>
+
+<p>Yet definite psychological or social details should not be constructed beyond the ayah. What the text clearly says is that these objects of worship not only failed to provide ighna but also increased tatbib.</p>
+
+</section>
+
+<section id="quranic-derivatives" class="root-section">
+<h2>Important Qur’anic Derivatives</h2>
+<h3 id="derivative-tabba">تَبَّتْ and تَبَّ (tabbat and tabba)</h3>
+
+<p>The two verbal forms in Surat Al-Masad belong to the same root and form, but their subjects differ.</p>
+
+<p>In , the subject is . The verb is feminine singular because, when a verb precedes a dual subject, it normally appears in the singular, and  is feminine.</p>
+
+<p>In , the subject is an implicit pronoun returning to Abu Lahab. Repetition of the root carries loss from the hands to the person himself.</p>
+
+<p>This distinction should be preserved in translation:</p>
+
+<p></p>
+
+<p>Translating it as “may Abu Lahab perish” removes the repetition between the hands and the person. Translating it as “Abu Lahab’s deeds were destroyed” also removes the image of the hands.</p>
+
+<h3 id="derivative-tabab">تَبَاب (tabab)</h3>
+
+<p> in Ghafir 40:37 follows the preposition  and appears as an indefinite noun:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فِي تَبَابٍ</p></blockquote>
+
+<p>This structure can express a condition or environment of loss: Pharaoh’s plot stands in loss, rather than merely having one separate defeat added to it at the end.</p>
+
+<p>Translations such as “in ruin,” “in loss,” “on a path of failure,” or “in a condition moving toward ruin” can convey part of the construction. “Condemned to failure” is more interpretive and adds a stronger certainty to the phrase; “in loss and ruin” is therefore more cautious for direct translation.</p>
+
+<h3 id="derivative-tatbib">تَتْبِيب (tatbib)</h3>
+
+<p> is a form II verbal noun. It occurs in the following structure:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ</p></blockquote>
+
+<p> identifies what was added to them: nothing except tatbib.</p>
+
+<p>“They increased them in nothing except ruin” conveys the structure naturally. “Loss-increasing” may be conceptually precise, but in a Qur’an translation it may sound overly technical or artificial.</p>
+
+</section>
+
+<section id="grammar" class="root-section">
+<h2>Grammatical and Structural Notes</h2>
+<h3 id="grammar-dual-subject">A Singular Verb With a Dual Subject</h3>
+
+<p>In , the verb precedes a dual subject. In this structure, the verb appears in the singular;  therefore does not mean that only one hand is the subject of the ayah.</p>
+
+<p>The feminine marker appears because the singular  is feminine in Arabic.</p>
+
+<h3 id="grammar-yada">The Dual Form in يَدَا (yada)</h3>
+
+<p> is the dual form of  in the nominative case. It is the first term of a possessive construction, and  is its genitive complement.</p>
+
+<p>Preserving the dual in translation matters because the ayah explicitly speaks of “two hands,” not merely “a hand” or “action.”</p>
+
+<h3 id="grammar-repetition">Repetition of the Verb</h3>
+
+<p>The repetition in  is not merely verbal repetition. The subject of the first verb is the two hands, while the subject of the second is the person himself. This change of subject expands the field of loss.</p>
+
+<h3 id="grammar-restriction">The Restrictive Construction</h3>
+
+<p>In the expression:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِي تَبَابٍ</p></blockquote>
+
+<p>the construction  creates restriction. The ayah does not place Pharaoh’s plot outside tabab; its judgment concerning this plot is confined to loss and ruin.</p>
+
+<h3 id="grammar-fi">The Role of فِي (fi)</h3>
+
+<p>The preposition  places the plot inside tabab. For this reason, “Pharaoh’s plan failed” does not convey the full capacity of the structure. The Qur’anic expression shows a condition and direction broader than a single event at the end.</p>
+
+<h3 id="grammar-form-ii">Form II</h3>
+
+<p>In , form II can indicate causing or intensifying. In the context of the ayah, the objects of worship increased the ruin of their followers; the sense of intensification and increased loss is therefore prominent.</p>
+
+</section>
+
+<section id="near-roots" class="root-section">
+<h2>Comparison With Nearby Roots</h2>
+<h3 id="compare-kh-s-r">T B B compared with KH S R: tabab and khasr</h3>
+
+<p>The root  has a broad field of loss, decrease of capital, losing, and the loss of benefit or value. Khasr can occur in trade, lifetime, action, or a person’s outcome.</p>
+
+<p> closely overlaps with khasr, and lexical sources sometimes explain tabab directly through khasr. The difference between the two should not be enlarged beyond the linguistic evidence.</p>
+
+<p>In the limited Qur’anic uses of , however, there is a particular emphasis on the failure of a person, hands, plot, and supports that do not reach a beneficial result. This pattern may be described as a feature of Qur’anic usage, not necessarily as an absolute boundary between the two roots throughout Arabic.</p>
+
+<h3 id="compare-h-l-k">T B B compared with H L K: tabab and halak</h3>
+
+<p>The root  indicates passing away, destruction, and coming to an end, and can be used of a person, people, wealth, or power.</p>
+
+<p>Lexical sources also explain  through destruction, but its Qur’anic use is not confined to bodily destruction. A plot, hands, and claimed supports can also enter its field.</p>
+
+<p>“Destruction” is therefore one nearby meaning, but it is not the best translation in every context.</p>
+
+<h3 id="compare-h-b-t">T B B compared with H B T: tabab and habat</h3>
+
+<p>In the Qur’an,  is often used of an action whose effect, value, or fruit is lost. Its focus is the loss of the effect of an action.</p>
+
+<p> can include action, but it is not limited to action; the person himself, a plot, and a system of supports can also be in tabab.</p>
+
+<h3 id="compare-b-t-l">T B B compared with B T L: tabab and butlan</h3>
+
+<p> is close to becoming invalid, ineffective, or unsound. Something batil may lack a basis in truth or valid effect.</p>
+
+<p> places greater emphasis on loss and a ruined outcome. Butlan can be a quality of a claim or action; tabab highlights the loss and failure produced by a path.</p>
+
+<h3 id="compare-t-b-r">T B B compared with T B R: tabab and tatbir</h3>
+
+<p>The written and phonetic similarity between  and  should not cause them to be treated as one root.</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَكُلًّا تَبَّرْنَا تَتْبِيرًا</p></blockquote>
+<p class="translation">“And each We shattered and destroyed completely.”</p>
+<p class="verse-ref">Al-Furqan 25:39</p>
+
+<p> places greater emphasis on smashing and severe destruction, while  centers on loss, failure, and ruin.</p>
+
+<h3 id="compare-t-ayn-s">T B B compared with T ʿ S: tabab and taʿs</h3>
+
+<p> highlights the image of slipping, falling, and reaching a bad outcome.  speaks more directly in the language of loss and ruin.</p>
+
+<p>The two can draw close in result, but their linguistic images are not the same.</p>
+
+<h3 id="compare-d-l-l">T B B compared with D L L: tabab and dalal</h3>
+
+<p> concerns losing the way, moving away from the path, or an action going astray. Dalal can prepare the ground for tabab, but it is not identical with tabab.</p>
+
+<p>One may say by way of explanation that dalal concerns wrong direction, while tabab concerns the loss and failure of that direction. This helps clarify their relation, but it should not be turned into an absolute dictionary boundary.</p>
+
+<h3 id="compare-f-sh-l">T B B compared with F SH L: tabab and fashal</h3>
+
+<p> is close to weakness, loss of courage, weakening of will, or inability to continue an action.</p>
+
+<p>Tabab does not necessarily arise from weakness. Pharaoh’s plot may have extensive executive power yet still stand in tabab.</p>
+
+<p>Fashal therefore concerns weakness in capacity or will, while tabab concerns loss and a failed outcome.</p>
+
+<h3 id="compare-r-sh-d">T B B compared with R SH D: tabab and rashad</h3>
+
+<p>In the context of Surat Ghafir, the believing man from Pharaoh’s people speaks of , while Pharaoh’s plot stands in .</p>
+
+<p>Rashad and tabab are not complete and direct lexical opposites, but in the structure of this dialogue they show two different directions: a path leading to right direction and a plan standing in loss.</p>
+
+</section>
+
+<section id="exceptional-lahab" class="root-section">
+<h2>Exceptional Section: Abu Lahab and “نَارًا ذَاتَ لَهَبٍ”</h2>
+<p>After the name or title , Surat Al-Masad says:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ</p></blockquote>
+<p class="translation">“He will soon enter a blazing fire.”</p>
+<p class="verse-ref">Al-Masad 111:3</p>
+
+<p>There is clear verbal harmony between  and . The surah places the person’s known name alongside an image of blazing fire.</p>
+
+<p>This harmony, however, should not be mixed with the root .  belongs to the root  and concerns flame and the blazing tongue of fire.  belongs to  and stands in the field of loss and ruin.</p>
+
+<p>It therefore cannot be said that the core of  is burning, turning to ash, or the extinguishing of fire. The surah builds a verbal connection between Abu Lahab’s name and his fiery outcome, but this connection does not change the etymology of .</p>
+
+</section>
+
+<section id="translation" class="root-section">
+<h2>Translation Suggestions for Forqan</h2>
+<h3 id="translation-tabba">تَبَّ (tabba)</h3>
+
+<p>Depending on context:</p>
+
+<p>suffered loss; failed; was ruined; reached loss; or, in a context where destruction is prominent, perished.</p>
+
+<p>“Was destroyed” may be too bodily or final in some contexts. “Failed” and “suffered loss” preserve a wider field for the use in Surat Al-Masad.</p>
+
+<h3 id="translation-tabbatyada">تَبَّتْ يَدَا أَبِي لَهَبٍ</h3>
+
+<p>Primary suggestion:</p>
+
+<p></p>
+
+<p>More natural suggestion:</p>
+
+<p></p>
+
+<p>Explanatory suggestion:</p>
+
+<p></p>
+
+<p>The third suggestion is more suitable for explanation or reflection than for direct translation because it removes the image of the two hands.</p>
+
+<p>“May the two hands of Abu Lahab be cut off” conveys the force of a curse, but because it creates an image of bodily amputation and turns a past verb into an explicit prayer, it may not be suitable as Forqan’s primary translation.</p>
+
+<h3 id="translation-wa-tabba">وَتَبَّ</h3>
+
+<p>And he himself also suffered loss; and he himself also failed; or and he himself also reached ruin.</p>
+
+<p>To preserve the repetition of the root, it is preferable not to use entirely unrelated words in the two parts of the ayah.</p>
+
+<h3 id="translation-full-verse">تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ</h3>
+
+<p>Primary suggestion:</p>
+
+<p></p>
+
+<p>More natural suggestion:</p>
+
+<p></p>
+
+<p>The first better preserves the verbal repetition of the root. The second is more natural in English but slightly more explanatory.</p>
+
+<h3 id="translation-tabab">تَبَاب (tabab)</h3>
+
+<p>Loss; ruin; failure; destruction in a suitable context; or a harmful outcome as an explanatory rendering.</p>
+
+<p>“Fruitlessness” can be one result of tabab, but it is not a complete replacement in every context.</p>
+
+<h3 id="translation-fi-tabab">فِي تَبَابٍ</h3>
+
+<p>In loss and ruin; within ruin; on a harmful path as an explanatory rendering; or in a condition moving toward failure as an explanatory rendering.</p>
+
+<p>Primary suggestion for Ghafir 40:37:</p>
+
+<p></p>
+
+<h3 id="translation-tatbib">تَتْبِيب (tatbib)</h3>
+
+<p>Drawing into ruin; increase of loss; intensification of failure; or adding to ruin.</p>
+
+<p>“Loss-increasing” is structurally concise, but it may sound artificial in direct translation.</p>
+
+<h3 id="translation-tatbib-verse">وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ</h3>
+
+<p>Primary suggestion:</p>
+
+<p></p>
+
+<p>Other suggestions:</p>
+
+<p></p>
+
+<p></p>
+
+</section>
+
+<section id="summary" class="root-section">
+<h2>Summary</h2>
+<p>The root  moves in the Qur’an within the field of loss, failure, ruin, and a harmful outcome. It occurs four times: twice as the verb , once as , and once as .</p>
+
+<p>In Surat Al-Masad, loss is first attributed to Abu Lahab’s two hands and then to the person himself. The hands can represent a human being’s instruments of action, gain, and executive power, but their explicit image should not be removed from translation. The following ayah shows that his wealth and gain had no power of ighna or rescue.</p>
+
+<p>In Surat Ghafir, Pharaoh’s plot stands within tabab. This expression shows that outward power, extensive instruments, and the execution of a plan do not necessarily remove it from loss. Yet the ayah does not judge technology or construction itself negatively; its subject is Pharaoh’s plot and its direction.</p>
+
+<p>In Surat Hud, the claimed objects of worship not only fail to rescue their followers but add nothing except tatbib. Form II here highlights intensification or the causing of loss.</p>
+
+<p> overlaps with roots such as , and , but it is not completely identical with any of them. In its Qur’anic usage, the loss of the person, failure of the instruments of action, ruin of a plot, and inability of supports to bring a human being to rescue stand within one shared semantic field.</p>
+</section>
   </div>
 </div>
