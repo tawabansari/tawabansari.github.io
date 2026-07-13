@@ -1,0 +1,272 @@
+---
+layout: default
+title: The Qur'anic Root TT B Q
+permalink: /quran-terminology/en/roots/tt-b-q/
+---
+
+<style>
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark-theme .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page,
+  .theme-dark .root-study-page,
+  .forqan-theme-dark .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-study-page * { box-sizing: border-box; }
+
+  .root-study-page.forqan-page-rtl,
+  .root-study-page.forqan-page-rtl h1,
+  .root-study-page.forqan-page-rtl h2,
+  .root-study-page.forqan-page-rtl h3,
+  .root-study-page.forqan-page-rtl p,
+  .root-study-page.forqan-page-rtl li { direction: rtl; text-align: right; }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li { direction: ltr; text-align: left; }
+
+  .root-frame {
+    background: radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%), var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero { border-bottom: 1px solid var(--root-border-soft); padding-bottom: 1.65rem; margin-bottom: 2rem; }
+  .root-kicker { color: var(--root-accent-deep); font-size: 0.96rem; font-weight: 800; margin-bottom: 0.45rem; }
+  .root-study-page h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.05rem); line-height: 1.4; color: var(--root-text); }
+  .root-subtitle { color: var(--root-muted); max-width: 780px; margin: 1rem 0 0; font-size: 1.04rem; }
+
+  .root-forms-card, .root-toc {
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent 82%), var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+  .root-forms-card h2, .root-toc h2 { margin-top: 0; }
+  .morphology-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+  .morph-card { display: block; border: 1px solid var(--root-border-soft); border-radius: 16px; padding: 1rem; background: var(--root-section); color: inherit; text-decoration: none; }
+  .morph-card-header { display: flex; justify-content: space-between; gap: 0.75rem; color: var(--root-muted); font-size: 0.88rem; margin-bottom: 0.55rem; }
+  .morph-form { font-weight: 800; font-size: 1.18rem; color: var(--root-accent-deep); margin-bottom: 0.4rem; }
+  .morph-note { color: var(--root-muted); margin-bottom: 0; font-size: 0.95rem; }
+  .translit { color: var(--root-muted); font-weight: 500; font-size: 0.92em; }
+
+  .root-note { border-right: 3px solid var(--root-accent); padding: 0.9rem 1rem; background: var(--root-accent-soft); border-radius: 14px; color: var(--root-muted); margin: 1.25rem 0; }
+  .root-study-page.forqan-page-ltr .root-note { border-right: 0; border-left: 3px solid var(--root-accent); }
+
+  .root-toc ol { list-style-position: inside; padding-right: 0; margin: 0.75rem 0 0; columns: 2; column-gap: 2rem; }
+  .root-study-page.forqan-page-ltr .root-toc ol { padding-left: 0; }
+  .root-toc li { margin: 0.28rem 0; break-inside: avoid; }
+
+  .root-section { background: var(--root-section); border: 1px solid var(--root-border-soft); border-radius: 18px; padding: 1.5rem 1.6rem; margin: 1.55rem 0; }
+  .root-section h2 { margin: 0 0 1rem; color: var(--root-text); font-size: 1.35rem; line-height: 1.6; }
+  .root-section h2::before { content: ""; display: inline-block; width: 0.58rem; height: 0.58rem; border-radius: 999px; background: var(--root-accent); margin-left: 0.55rem; vertical-align: 0.08em; }
+  .root-study-page.forqan-page-ltr .root-section h2::before { margin-left: 0; margin-right: 0.55rem; }
+  .root-study-page p { margin: 0.85rem 0; }
+  .root-study-page a { color: var(--root-accent-deep); text-decoration: none; border-bottom: 1px dotted currentColor; }
+
+  .arabic-quote { direction: rtl; text-align: center; font-size: 1.48rem; line-height: 2.5; margin: 1.4rem 0 0.65rem; padding: 1rem 1.25rem; border: 1px solid var(--root-border); border-radius: 18px; background: linear-gradient(180deg, var(--root-accent-soft), transparent), var(--root-panel); color: var(--root-text); unicode-bidi: isolate; }
+  .root-study-page .translation { text-align: center !important; color: var(--root-muted); margin-top: 0.45rem; }
+  .root-study-page .verse-ref { text-align: center !important; color: var(--root-accent-deep); font-weight: 700; margin-top: 0.25rem; }
+  .root-study-page .arabic-large { font-size: 1.12em; line-height: 2.15; direction: rtl; unicode-bidi: isolate; }
+
+  @media (max-width: 760px) {
+    .root-study-page { padding: 2rem 1rem; }
+    .root-frame { padding: 1.25rem; border-radius: 19px; }
+    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
+    .root-toc ol { columns: 1; }
+    .morphology-grid { grid-template-columns: 1fr; }
+    .arabic-quote { font-size: 1.24rem; }
+  }
+</style>
+
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">Qur'anic Root</div>
+      <h1>The Qur'anic Root TT B Q</h1>
+      <p class="root-subtitle">Placing, covering, layering, correspondence, and passing from one state to another</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>Morphological forms of this root</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#short-meaning"><div class="morph-card-header"><div class="morph-type">Root</div><div class="morph-used">Foundational meaning</div></div><div class="morph-form">ط ب ق <span class="translit">(ṭ b q)</span></div><p class="morph-note">Something being placed upon another thing in a covering, equal, or fitting way.</p></a>
+        <a class="morph-card" href="#forms"><div class="morph-card-header"><div class="morph-type">Qur'anic form</div><div class="morph-used">Heavens</div></div><div class="morph-form">طِبَاقًا <span class="translit">(ṭibāqan)</span></div><p class="morph-note">Layeredness, structural relation, and harmony or proportion among layers.</p></a>
+        <a class="morph-card" href="#state-to-state"><div class="morph-card-header"><div class="morph-type">Qur'anic form</div><div class="morph-used">Human states</div></div><div class="morph-form">طَبَقًا / طَبَقٍ <span class="translit">(ṭabaqan / ṭabaq)</span></div><p class="morph-note">A state, stage, or level that arrives after another state.</p></a>
+        <a class="morph-card" href="#translation-suggestions"><div class="morph-card-header"><div class="morph-type">Lexical forms</div><div class="morph-used">Semantic field</div></div><div class="morph-form">طَابَقَ / اِنْطَبَقَ / مُطَابَقَة <span class="translit">(ṭābaqa / inṭabaqa / muṭābaqah)</span></div><p class="morph-note">Forms for correspondence, harmony, covering, or fitting together; these forms do not occur in the Qur'an.</p></a>
+      </div>
+    </section>
+
+    <p class="root-note">This page studies the root <strong class="arabic-large">ط ب ق</strong> <span class="translit">(ṭ b q)</span> and its two Qur'anic forms <strong class="arabic-large">طِبَاقًا</strong> <span class="translit">(ṭibāqan)</span> and <strong class="arabic-large">طَبَقًا</strong> <span class="translit">(ṭabaqan)</span>: from the image of covering and layering to the structure of the heavens and the human passage from one state to another.</p>
+
+    <nav class="root-toc" aria-label="Article section list">
+      <h2>Usage map of this root</h2>
+      <ol>
+        <li><a href="#short-meaning">Short Meaning of the Root</a></li>
+        <li><a href="#forms">Important Forms of the Root</a></li>
+        <li><a href="#linguistic-note">Linguistic Note</a></li>
+        <li><a href="#material-image">Material Image of the Root</a></li>
+        <li><a href="#classical-usage">Historical Note and Ancient Arabic Usage</a></li>
+        <li><a href="#quranic-usage">Qur'anic Usage of the Root</a></li>
+        <li><a href="#layered-heavens">Layered Heavens</a></li>
+        <li><a href="#seven-heavens">Seven Heavens in a Layered Order</a></li>
+        <li><a href="#state-to-state">Passing from One State to Another</a></li>
+        <li><a href="#distinctions">Distinguishing Similar Uses</a></li>
+        <li><a href="#syntax">Syntactic and Structural Notes</a></li>
+        <li><a href="#near-roots">Difference from Nearby Roots</a></li>
+        <li><a href="#translation-suggestions">Translation Suggestions for Forqan</a></li>
+        <li><a href="#summary">Linguistic Summary</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="short-meaning"><h2>Short Meaning of the Root</h2>
+      <p>The root <strong class="arabic-large">ط ب ق</strong> <span class="translit">(ṭ b q)</span> indicates something being placed upon another thing in a covering, equal-sized, or proportionate way. From this core, meanings such as covering, layer, correspondence, harmony, rank, and successive state are formed.</p>
+      <p>In the Qur'an, this root appears in two main fields: the layered structure of the heavens and the human transition from one state to another.</p>
+    </section>
+
+    <section class="root-section" id="forms"><h2>Important Forms of the Root</h2>
+      <p><strong class="arabic-large">طَبَق</strong> <span class="translit">(ṭabaq)</span> is said of a covering or something that is placed upon another thing and is equal or proportionate to it. The word can indicate a lid, surface, layer, rank, state, or a group of the same standing.</p>
+      <p><strong class="arabic-large">أَطْبَاق</strong> <span class="translit">(aṭbāq)</span> is the plural of <strong class="arabic-large">طَبَق</strong> <span class="translit">(ṭabaq)</span> and is used for multiple coverings, layers, or surfaces.</p>
+      <p><strong class="arabic-large">طِبَاق</strong> <span class="translit">(ṭibāq)</span> can indicate things placed one upon another or things proportionate and harmonious with one another. In the Qur'an, the form <strong class="arabic-large">طِبَاقًا</strong> <span class="translit">(ṭibāqan)</span> occurs twice in the description of the seven heavens.</p>
+      <p><strong class="arabic-large">طَبَقَة</strong> <span class="translit">(ṭabaqah)</span> means a layer, rank, level, or group of the same standing, and its plural is <strong class="arabic-large">طَبَقَات</strong> <span class="translit">(ṭabaqāt)</span>. This form does not occur in the Qur'an.</p>
+      <p><strong class="arabic-large">طَبَّقَ</strong> <span class="translit">(ṭabbaqa)</span> in form II means to cover, place something upon something else, encompass all of something, or layer it.</p>
+      <p><strong class="arabic-large">أَطْبَقَ</strong> <span class="translit">(aṭbaqa)</span> in form IV can mean to close, cover, place over something, or encompass it completely.</p>
+      <p><strong class="arabic-large">طَابَقَ</strong> <span class="translit">(ṭābaqa)</span> in form III means to be equal, compatible, or corresponding with something.</p>
+      <p><strong class="arabic-large">تَطَابَقَ</strong> <span class="translit">(taṭābaqa)</span> means to become mutually harmonious or corresponding.</p>
+      <p><strong class="arabic-large">اِنْطَبَقَ</strong> <span class="translit">(inṭabaqa)</span> means to close, to be placed upon something, or to fit it completely.</p>
+      <p><strong class="arabic-large">مُطَابَقَة</strong> <span class="translit">(muṭābaqah)</span> indicates correspondence, harmony, and equality between two things in form, limit, state, or meaning.</p>
+      <p>Among these forms, the Qur'an only uses the nominal forms <strong class="arabic-large">طِبَاقًا</strong> <span class="translit">(ṭibāqan)</span> and <strong class="arabic-large">طَبَقًا / طَبَقٍ</strong> <span class="translit">(ṭabaqan / ṭabaq)</span>.</p>
+    </section>
+
+    <section class="root-section" id="linguistic-note"><h2>Linguistic Note</h2>
+      <p>Several elements are joined together in the semantic core of <strong class="arabic-large">ط ب ق</strong> <span class="translit">(ṭ b q)</span>:</p>
+      <p>First, something is placed upon another thing.</p>
+      <p>Second, what is placed covers the surface or boundary of what lies beneath it.</p>
+      <p>Third, there is a kind of proportion, equality, or alignment between the two.</p>
+      <p>Fourth, several <strong class="arabic-large">أطباق</strong> <span class="translit">(aṭbāq)</span> can appear as layers, ranks, or successive states.</p>
+      <p>Therefore, “covering,” “layer,” “correspondence,” and “rank” are not unrelated branches of one word. All of them return to the relation between two surfaces, two limits, two states, or several connected parts.</p>
+      <p>Nevertheless, the material meaning of the root should not be imposed mechanically on every usage. In one context, covering is prominent; in another, equality and harmony; and in a context such as <strong class="arabic-large">طَبَقًا عَنْ طَبَقٍ</strong> <span class="translit">(ṭabaqan ʿan ṭabaq)</span>, succession and replacement of states.</p>
+    </section>
+
+    <section class="root-section" id="material-image"><h2>Material Image of the Root</h2>
+      <p>The clearest material image of this root is a covering placed upon something and proportionate to its surface. A <strong class="arabic-large">طَبَق</strong> <span class="translit">(ṭabaq)</span> is not merely something that accidentally falls above another object; its boundary or surface has a kind of fit with what it covers.</p>
+      <p>Another image is two surfaces or two parts settling upon one another so that their limits fit together. In lexical sources, <strong class="arabic-large">طَبَق</strong> <span class="translit">(ṭabaq)</span> is used both for “the covering of every thing” and for something equal and corresponding to another thing.</p>
+      <p>The placement of bodily parts or natural components upon one another can also clarify this image, such as vertebrae each positioned in relation to another vertebra. Still, very specific examples, such as a shell or an animal’s hoof, should only be entered into the final version when there is an explicit and reliable lexical witness for that exact usage.</p>
+      <p>From this material image, the concept of “layer” and then “rank or successive state” emerges: each state takes another position in relation to the previous state and comes after it.</p>
+    </section>
+
+    <section class="root-section" id="classical-usage"><h2>Historical Note and Ancient Arabic Usage</h2>
+      <p>In classical Arabic, <strong class="arabic-large">الطَّبَق</strong> <span class="translit">(al-ṭabaq)</span> is used for the covering of every thing, a covering that remains attached to something, and something equal or proportionate to another thing. Expressions such as <strong class="arabic-large">أطبقه</strong> <span class="translit">(aṭbaqahu)</span>, <strong class="arabic-large">طبّقه</strong> <span class="translit">(ṭabbaqahu)</span>, and <strong class="arabic-large">انطبق</strong> <span class="translit">(inṭabaqa)</span> also indicate covering, closing, or something being placed upon another thing.</p>
+      <p>Also in Arabic usage, <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span> can refer to a state, station, or rank. This semantic expansion shows that the move from “surface and covering” to “state and stage” was known in the Arabic lexical field before the interpretive use of the verse of Al-Inshiqaq.</p>
+      <p>In some lexical sources, the expression <strong class="arabic-large">بَنَاتُ طَبَقٍ</strong> <span class="translit">(banātu ṭabaq)</span> is transmitted for hardships, transformations, or heavy events of time. This expression may show that <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span> in ancient language had the capacity to be used for successive states and changing pressures of time. However, the precise relation of this expression to the pre-Qur'anic period and its poetic witness should be separately examined before definite inclusion in the final version.</p>
+      <p>Therefore, one cannot claim without independent evidence that every usage recorded in later dictionaries was necessarily common in pre-Islamic poetry. In the final version, if a reliable and dateable witness from pre-Islamic poetry or pre-Qur'anic usage is found, it can be added.</p>
+    </section>
+
+    <section class="root-section" id="quranic-usage"><h2>Qur'anic Usage of the Root</h2></section>
+
+    <section class="root-section" id="layered-heavens"><h2>Layered Heavens</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ طِبَاقًا</blockquote><p class="translation">The One who created seven heavens layer-wise.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/067-al-mulk/#ayah-003' | relative_url }}">Al-Mulk 67:3</a></p>
+      <p>In this verse, <strong class="arabic-large">طِبَاقًا</strong> <span class="translit">(ṭibāqan)</span> describes the structure and relation among the heavens. The basic meaning can be that the heavens are arranged as orderly, proportionate layers, one in relation to another.</p>
+      <p><strong class="arabic-large">طِبَاق</strong> <span class="translit">(ṭibāq)</span> in itself has the semantic capacity of equality, proportion, and things being placed upon one another. The continuation of the verse does not create this capacity; rather, it highlights and confirms it in this context:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">مَا تَرَىٰ فِي خَلْقِ الرَّحْمَٰنِ مِنْ تَفَاوُتٍ</blockquote><p class="translation">You do not see any disharmony in the creation of The All-Merciful.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/067-al-mulk/#ayah-003' | relative_url }}">Al-Mulk 67:3</a></p>
+      <p>Therefore, the translation “layer-wise” preserves the main image; but in linguistic explanation one may add that these layers are not described as disproportionate or disjointed.</p>
+      <p>One should not extract, from <strong class="arabic-large">طِبَاقًا</strong> <span class="translit">(ṭibāqan)</span> alone, a specific scientific model of the physical structure of the cosmos. The word shows a layered and ordered relation, but it does not define the physical shape, distance, or nature of those layers.</p>
+    </section>
+
+    <section class="root-section" id="seven-heavens"><h2>Seven Heavens in a Layered Order</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أَلَمْ تَرَوْا كَيْفَ خَلَقَ اللَّهُ سَبْعَ سَمَاوَاتٍ طِبَاقًا</blockquote><p class="translation">Have you not seen how The God created seven heavens layer-wise?</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/071-nuh/#ayah-015' | relative_url }}">Nuh 71:15</a></p>
+      <p>In this verse too, <strong class="arabic-large">طِبَاقًا</strong> <span class="translit">(ṭibāqan)</span> describes the seven heavens. This form can indicate layeredness, one being positioned in relation to another, and structural harmony.</p>
+      <p>The translation “one above another” may convey part of the image, but it may also insert a specific spatial direction more strongly than the word itself explicitly states. “Layer-wise” or “in proportionate layers” keeps the semantic range more open.</p>
+    </section>
+
+    <section class="root-section" id="state-to-state"><h2>Passing from One State to Another</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ</blockquote><p class="translation">Surely you will pass from one state to another.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/084-al-inshiqaq/#ayah-019' | relative_url }}">Al-Inshiqaq 84:19</a></p>
+      <p>In this verse, <strong class="arabic-large">طَبَق</strong> <span class="translit">(ṭabaq)</span> is not translated as a physical covering or vessel. The word indicates a state, stage, or rank that comes after another state.</p>
+      <p>The connection with the material meaning remains visible: states are like successive surfaces or layers, but the verse does not focus on their stillness; the axis of the expression is the addressee’s transition from one <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span> to another.</p>
+      <p>The verb <strong class="arabic-large">لَتَرْكَبُنَّ</strong> <span class="translit">(latarkabunna)</span> also shows movement and entry into a state. <strong class="arabic-large">ركوب</strong> <span class="translit">(rukūb)</span> here is not merely mounting a riding animal; it conveys entering, traversing, or being enveloped in a condition.</p>
+      <p>The context of the surah speaks of the transformation of heaven and earth, human striving, meeting the Lord, and different final outcomes. Therefore, the expression can include successive stages of human experience. Nevertheless, the verse does not name these stages as a specific list; so the translation should preserve the open and direct meaning of “one state after another.”</p>
+    </section>
+
+    <section class="root-section" id="distinctions"><h2>Distinguishing Similar Uses</h2>
+      <h2 id="tibaq-heavens">طِبَاقًا in the Description of the Heavens</h2><p>In Al-Mulk 67:3 and Nuh 71:15, the word refers to the relation among several heavens. The axis of this usage is layeredness and structural proportion.</p>
+      <h2 id="tabaq-human-states">طَبَقًا in the Description of Human States</h2><p>In Al-Inshiqaq 84:19, <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span> is not a fixed physical surface, but a state or stage that the human being traverses and leaves behind.</p>
+      <h2 id="covering-usage">Covering in Lexical Usage</h2><p>In lexical usage, <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span> can be a lid or covering placed upon something. This image is important for knowing the origin of the root’s meaning, but it should not be translated mechanically as “lid” in the verses.</p>
+      <h2 id="conformity">Correspondence and Harmony</h2><p>Forms such as <strong class="arabic-large">طابق</strong> <span class="translit">(ṭābaqa)</span>, <strong class="arabic-large">تطابق</strong> <span class="translit">(taṭābaqa)</span>, and <strong class="arabic-large">مطابقة</strong> <span class="translit">(muṭābaqah)</span> do not occur in the Qur'an, but they show that the concept of two things becoming equal and harmonious exists in the historical field of this root. However, <strong class="arabic-large">طِبَاقًا</strong> <span class="translit">(ṭibāqan)</span> should not be reduced only to “harmonious,” because the image of layers and things positioned in relation to one another remains in it.</p>
+    </section>
+
+    <section class="root-section" id="syntax"><h2>Syntactic and Structural Notes</h2>
+      <h2 id="position-tibaq">The Position of طِبَاقًا</h2><p>In the expression:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">سَبْعَ سَمَاوَاتٍ طِبَاقًا</blockquote><p>the word <strong class="arabic-large">طِبَاقًا</strong> <span class="translit">(ṭibāqan)</span> is accusative and describes the heavens in terms of how they are structured. In natural English, it can be rendered as “layer-wise” or “in proportionate layers.”</p>
+      <h2 id="emphasis-latarkabunna">The Emphasis in لَتَرْكَبُنَّ</h2><p>In the expression:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ</blockquote><p>the initial <strong class="arabic-large">لام</strong> <span class="translit">(lām)</span> on the verb and the emphatic <strong class="arabic-large">نون</strong> <span class="translit">(nūn)</span> at its end indicate certainty. Therefore, the translation should preserve this emphasis as much as possible:</p><p>“Surely you will pass”</p><p>or</p><p>“You will certainly enter one state after another.”</p>
+      <h2 id="role-an">The Role of عَنْ</h2><p>The particle <strong class="arabic-large">عن</strong> <span class="translit">(ʿan)</span> is important in this structure. <strong class="arabic-large">عن</strong> <span class="translit">(ʿan)</span> can indicate distancing, passing beyond, and leaving behind. Therefore, the expression does not merely present an image of several static layers upon one another.</p><p>If the intended image were simply one layer being upon another, a structure with <strong class="arabic-large">على</strong> <span class="translit">(ʿalā)</span> could have made a more direct image of “being on top of something.” But <strong class="arabic-large">طَبَقًا عَنْ طَبَقٍ</strong> <span class="translit">(ṭabaqan ʿan ṭabaq)</span> highlights movement away from one state and entry into the next.</p><p>Therefore, “stage after stage” or “from one state to another” is more accurate than “layer upon layer.” Nevertheless, <strong class="arabic-large">عن</strong> <span class="translit">(ʿan)</span> does not necessarily mean that the previous state is, in every case, completely destroyed or emptied out; its more certain meaning is passing beyond and distancing from the previous condition.</p>
+    </section>
+
+    <section class="root-section" id="near-roots"><h2>Difference from Nearby Roots</h2>
+      <h2 id="w-f-q">ط ب ق and و ف ق</h2><p>The root <strong class="arabic-large">و ف ق</strong> <span class="translit">(w f q)</span> indicates compatibility, accompaniment, and fitting together. In <strong class="arabic-large">ط ب ق</strong> <span class="translit">(ṭ b q)</span>, beyond compatibility, the image of two surfaces, limits, or states being placed in relation to one another is also present.</p><p>Two opinions may agree with one another without one being <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span> of the other. <strong class="arabic-large">مطابقة</strong> <span class="translit">(muṭābaqah)</span> usually conveys a more precise correspondence of the limits or qualities of two things.</p>
+      <h2 id="w-dad-ayn">ط ب ق and و ض ع</h2><p>The root <strong class="arabic-large">و ض ع</strong> <span class="translit">(w ḍ ʿ)</span> indicates placing and setting down. Anything may be placed somewhere, but <strong class="arabic-large">ط ب ق</strong> <span class="translit">(ṭ b q)</span> usually also includes a kind of covering, proportion, or layered relation.</p>
+      <h2 id="s-t-r">ط ب ق and س ت ر</h2><p>The root <strong class="arabic-large">س ت ر</strong> <span class="translit">(s t r)</span> focuses on covering and hiding from sight. <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span> does not necessarily hide something; it may simply be placed upon it, become equal-sized with it, or be one of its layers.</p>
+      <h2 id="gh-tt-y">ط ب ق and غ ط ي</h2><p>The root <strong class="arabic-large">غ ط ي</strong> <span class="translit">(gh ṭ y)</span> indicates covering and encompassing. Not every covering necessarily corresponds to what it covers. In <strong class="arabic-large">ط ب ق</strong> <span class="translit">(ṭ b q)</span>, proportion and surface placement are more prominent.</p>
+      <h2 id="r-t-b">ط ب ق and ر ت ب</h2><p>The root <strong class="arabic-large">ر ت ب</strong> <span class="translit">(r t b)</span> indicates being ordered in ranks and defined places. Rank more often shows the position of something within an order, while <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span> preserves the image of a surface, layer, or state placed in relation to another <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span>.</p>
+      <h2 id="d-r-j">ط ب ق and د ر ج</h2><p>The root <strong class="arabic-large">د ر ج</strong> <span class="translit">(d r j)</span> indicates gradual, step-by-step movement. A <strong class="arabic-large">درجة</strong> <span class="translit">(darajah)</span> can be one step of an ascending or descending path. In <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span>, the distinct states or layers themselves and their relation to one another are more prominent.</p>
+      <h2 id="tt-w-r">ط ب ق and ط و ر</h2><p>The root <strong class="arabic-large">ط و ر</strong> <span class="translit">(ṭ w r)</span>, in usages such as <strong class="arabic-large">أَطْوَارًا</strong> <span class="translit">(aṭwāran)</span>, indicates different states and forms of growth or transformation:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">وَقَدْ خَلَقَكُمْ أَطْوَارًا</blockquote><p class="translation">while He created you in varied states and phases.</p><p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/071-nuh/#ayah-014' | relative_url }}">Nuh 71:14</a></p><p><strong class="arabic-large">طور</strong> <span class="translit">(ṭawr)</span> can be a stage in which the form, feature, or condition of a being changes. <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span> relies more on the relation between successive states and the passage from one condition to another.</p><p>Nevertheless, this difference should not be made absolute. Both roots can be translated into English as “stage.” The main difference lies in their linguistic image: <strong class="arabic-large">طور</strong> <span class="translit">(ṭawr)</span> highlights transformation of form or state more strongly; <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span> highlights the placement and succession of states in relation to one another.</p>
+      <h2 id="sad-f-f">ط ب ق and ص ف ف</h2><p>The root <strong class="arabic-large">ص ف ف</strong> <span class="translit">(ṣ f f)</span> indicates being placed next to one another in a row or line. A row shows more of a side-by-side relation, while <strong class="arabic-large">طبق</strong> <span class="translit">(ṭabaq)</span> usually has a layered, covering, or staged relation.</p>
+      <h2 id="s-w-y">ط ب ق and س و ي</h2><p>The root <strong class="arabic-large">س و ي</strong> <span class="translit">(s w y)</span> indicates equality, evenness, balance, or setting something right. <strong class="arabic-large">ط ب ق</strong> <span class="translit">(ṭ b q)</span> focuses on the relation between two or more surfaces, coverings, or states; but <strong class="arabic-large">س و ي</strong> <span class="translit">(s w y)</span> can indicate equality and balance without a layered relation.</p>
+    </section>
+
+    <section class="root-section" id="translation-suggestions"><h2>Translation Suggestions for Forqan</h2>
+      <h2 id="translate-tabaq">طَبَق</h2><p>Depending on context:</p><p>layer</p><p>class</p><p>state</p><p>stage</p><p>rank</p><p>covering</p>
+      <h2 id="translate-tibaq">طِبَاقًا</h2><p>layer-wise</p><p>layer upon layer</p><p>in proportionate layers</p><p>in a layered order</p><p>one in relation to another</p><p>For the expression:</p><blockquote class="arabic-quote" dir="rtl" lang="ar">سَبْعَ سَمَاوَاتٍ طِبَاقًا</blockquote><p>translation suggestions:</p><p>He created seven heavens layer-wise.</p><p>He created seven heavens in proportionate layers.</p><p>He created seven heavens layered and harmonious.</p><p>The first translation is shorter and closer to the text:</p><p>He created seven heavens layer-wise.</p><p>The word “harmonious” can be brought in the explanation, because if it is added directly into the translation, it may turn one capacity of the word into its only meaning.</p>
+      <h2 id="translate-tabaqan">طَبَقًا عَنْ طَبَقٍ</h2><p>from one state to another</p><p>stage after stage</p><p>one state following another</p><p>from one rank to another</p><p>Main suggestion:</p><p>Surely you will pass from one state to another.</p><p>“State” is broader than “stage” and preserves the different possibilities of the context. “Stage” is also a clear translation, but it may imply a regular, pre-divided sequence that the verse itself does not explicitly define.</p>
+      <h2 id="translate-tabaqa-verb">طَابَقَ</h2><p>corresponded</p><p>harmonized with something</p><p>became equal or aligned with it</p>
+      <h2 id="translate-mutabaqa">مُطَابَقَة</h2><p>correspondence</p><p>congruence</p><p>precise harmony</p><p>equality of limits or qualities</p>
+      <h2 id="translate-atbaqa">أَطْبَقَ</h2><p>covered</p><p>closed</p><p>encompassed</p><p>placed something completely over another thing</p>
+      <h2 id="translate-intabaqa">اِنْطَبَقَ</h2><p>closed</p><p>was placed upon something</p><p>fit completely with something</p><p>corresponded</p><p>These verbal and verbal-noun forms do not occur in the Qur'an and are mentioned only to clarify the lexical field of the root.</p>
+    </section>
+
+    <section class="root-section" id="summary"><h2>Linguistic Summary</h2>
+      <p>The root <strong class="arabic-large">ط ب ق</strong> <span class="translit">(ṭ b q)</span> indicates something being placed upon another thing with a kind of covering, proportion, or alignment. Its material image is a surface or covering that fits what lies beneath it.</p>
+      <p>In the Qur'an, <strong class="arabic-large">طِبَاقًا</strong> <span class="translit">(ṭibāqan)</span> describes the layered structure of the heavens, while <strong class="arabic-large">طَبَقًا عَنْ طَبَقٍ</strong> <span class="translit">(ṭabaqan ʿan ṭabaq)</span> indicates the human passage from one state to another. In the first usage, the relation and harmony of layers is prominent; in the second, succession and transition between states.</p>
+      <p>This root is connected to covering, equality, rank, and stage, but its distinctive feature is the link between placement, correspondence, and the succession of layers or states.</p>
+    </section>
+  </div>
+</div>
