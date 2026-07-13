@@ -1,0 +1,390 @@
+---
+layout: default
+title: ریشه قرآنی ط ب ق
+permalink: /quran-terminology/fa/roots/tt-b-q/
+---
+
+<style>
+  .root-study-page {
+    --root-card: #fffaf1;
+    --root-panel: #fffdf7;
+    --root-section: #fffaf2;
+    --root-text: #2f2a22;
+    --root-muted: #6d6255;
+    --root-border: rgba(148, 114, 55, 0.28);
+    --root-border-soft: rgba(148, 114, 55, 0.16);
+    --root-accent: #b9852f;
+    --root-accent-deep: #8b6423;
+    --root-accent-soft: rgba(185, 133, 47, 0.11);
+    --root-shadow: 0 22px 60px rgba(65, 46, 20, 0.10);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem;
+    line-height: 2.05;
+    color: var(--root-text);
+  }
+
+  body.dark .root-study-page,
+  body.dark-mode .root-study-page,
+  html.dark .root-study-page,
+  html.dark-mode .root-study-page,
+  body.dark-theme .root-study-page,
+  html.dark-theme .root-study-page,
+  [data-theme="dark"] .root-study-page,
+  .dark .root-study-page,
+  .theme-dark .root-study-page,
+  .forqan-theme-dark .root-study-page {
+    --root-card: #142238;
+    --root-panel: #1b2a40;
+    --root-section: rgba(255, 255, 255, 0.035);
+    --root-text: #eee8dc;
+    --root-muted: #c7bdab;
+    --root-border: rgba(214, 176, 95, 0.28);
+    --root-border-soft: rgba(214, 176, 95, 0.16);
+    --root-accent: #d6b05f;
+    --root-accent-deep: #f0cf7a;
+    --root-accent-soft: rgba(214, 176, 95, 0.12);
+    --root-shadow: 0 22px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .root-study-page * { box-sizing: border-box; }
+
+  .root-study-page.forqan-page-rtl,
+  .root-study-page.forqan-page-rtl h1,
+  .root-study-page.forqan-page-rtl h2,
+  .root-study-page.forqan-page-rtl h3,
+  .root-study-page.forqan-page-rtl p,
+  .root-study-page.forqan-page-rtl li { direction: rtl; text-align: right; }
+
+  .root-study-page.forqan-page-ltr,
+  .root-study-page.forqan-page-ltr h1,
+  .root-study-page.forqan-page-ltr h2,
+  .root-study-page.forqan-page-ltr h3,
+  .root-study-page.forqan-page-ltr p,
+  .root-study-page.forqan-page-ltr li { direction: ltr; text-align: left; }
+
+  .root-frame {
+    background: radial-gradient(circle at top right, var(--root-accent-soft), transparent 34%), var(--root-card);
+    border: 1px solid var(--root-border);
+    border-radius: 26px;
+    padding: 2.4rem;
+    box-shadow: var(--root-shadow);
+  }
+
+  .root-hero { border-bottom: 1px solid var(--root-border-soft); padding-bottom: 1.65rem; margin-bottom: 2rem; }
+  .root-kicker { color: var(--root-accent-deep); font-size: 0.96rem; font-weight: 800; margin-bottom: 0.45rem; }
+  .root-study-page h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.05rem); line-height: 1.4; color: var(--root-text); }
+  .root-subtitle { color: var(--root-muted); max-width: 780px; margin: 1rem 0 0; font-size: 1.04rem; }
+
+  .root-forms-card, .root-toc {
+    background: linear-gradient(180deg, var(--root-accent-soft), transparent 82%), var(--root-panel);
+    border: 1px solid var(--root-border);
+    border-radius: 20px;
+    padding: 1.35rem 1.55rem;
+    margin: 1.55rem 0;
+  }
+  .root-forms-card h2, .root-toc h2 { margin-top: 0; }
+  .morphology-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+  .morph-card { display: block; border: 1px solid var(--root-border-soft); border-radius: 16px; padding: 1rem; background: var(--root-section); color: inherit; text-decoration: none; }
+  .morph-card-header { display: flex; justify-content: space-between; gap: 0.75rem; color: var(--root-muted); font-size: 0.88rem; margin-bottom: 0.55rem; }
+  .morph-form { font-weight: 800; font-size: 1.18rem; color: var(--root-accent-deep); margin-bottom: 0.4rem; }
+  .morph-note { color: var(--root-muted); margin-bottom: 0; font-size: 0.95rem; }
+  .translit { color: var(--root-muted); font-weight: 500; font-size: 0.92em; }
+
+  .root-note { border-right: 3px solid var(--root-accent); padding: 0.9rem 1rem; background: var(--root-accent-soft); border-radius: 14px; color: var(--root-muted); margin: 1.25rem 0; }
+  .root-study-page.forqan-page-ltr .root-note { border-right: 0; border-left: 3px solid var(--root-accent); }
+
+  .root-toc ol { list-style-position: inside; padding-right: 0; margin: 0.75rem 0 0; columns: 2; column-gap: 2rem; }
+  .root-study-page.forqan-page-ltr .root-toc ol { padding-left: 0; }
+  .root-toc li { margin: 0.28rem 0; break-inside: avoid; }
+
+  .root-section { background: var(--root-section); border: 1px solid var(--root-border-soft); border-radius: 18px; padding: 1.5rem 1.6rem; margin: 1.55rem 0; }
+  .root-section h2 { margin: 0 0 1rem; color: var(--root-text); font-size: 1.35rem; line-height: 1.6; }
+  .root-section h2::before { content: ""; display: inline-block; width: 0.58rem; height: 0.58rem; border-radius: 999px; background: var(--root-accent); margin-left: 0.55rem; vertical-align: 0.08em; }
+  .root-study-page.forqan-page-ltr .root-section h2::before { margin-left: 0; margin-right: 0.55rem; }
+  .root-study-page p { margin: 0.85rem 0; }
+  .root-study-page a { color: var(--root-accent-deep); text-decoration: none; border-bottom: 1px dotted currentColor; }
+
+  .arabic-quote { direction: rtl; text-align: center; font-size: 1.48rem; line-height: 2.5; margin: 1.4rem 0 0.65rem; padding: 1rem 1.25rem; border: 1px solid var(--root-border); border-radius: 18px; background: linear-gradient(180deg, var(--root-accent-soft), transparent), var(--root-panel); color: var(--root-text); unicode-bidi: isolate; }
+  .root-study-page .translation { text-align: center !important; color: var(--root-muted); margin-top: 0.45rem; }
+  .root-study-page .verse-ref { text-align: center !important; color: var(--root-accent-deep); font-weight: 700; margin-top: 0.25rem; }
+  .root-study-page .arabic-large { font-size: 1.12em; line-height: 2.15; direction: rtl; unicode-bidi: isolate; }
+
+  @media (max-width: 760px) {
+    .root-study-page { padding: 2rem 1rem; }
+    .root-frame { padding: 1.25rem; border-radius: 19px; }
+    .root-section, .root-forms-card, .root-toc { padding: 1rem; }
+    .root-toc ol { columns: 1; }
+    .morphology-grid { grid-template-columns: 1fr; }
+    .arabic-quote { font-size: 1.24rem; }
+  }
+</style>
+
+<div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
+  <div class="root-frame">
+    <section class="root-hero">
+      <div class="root-kicker">ریشه قرآنی</div>
+      <h1>ریشه قرآنی ط ب ق</h1>
+      <p class="root-subtitle">قرار گرفتن، پوشش، لایه، انطباق، و گذر از حالتی به حالت دیگر</p>
+    </section>
+
+    <section class="root-forms-card" id="morphology-table">
+      <h2>صورت‌های صرفی این ریشه</h2>
+      <div class="morphology-grid">
+        <a class="morph-card" href="#short-meaning"><div class="morph-card-header"><div class="morph-type">ریشه</div><div class="morph-used">معنای بنیادین</div></div><div class="morph-form">ط ب ق</div><p class="morph-note">قرار گرفتن چیزی بر چیزی دیگر به‌گونه‌ای پوشاننده، هم‌اندازه یا متناسب.</p></a>
+        <a class="morph-card" href="#forms"><div class="morph-card-header"><div class="morph-type">صورت قرآنی</div><div class="morph-used">در وصف آسمان‌ها</div></div><div class="morph-form">طِبَاقًا</div><p class="morph-note">لایه‌وار بودن، نسبت ساختاری، و هماهنگی یا تناسب میان لایه‌ها.</p></a>
+        <a class="morph-card" href="#state-to-state"><div class="morph-card-header"><div class="morph-type">صورت قرآنی</div><div class="morph-used">در وصف حالات انسان</div></div><div class="morph-form">طَبَقًا / طَبَقٍ</div><p class="morph-note">حالت، مرحله یا مرتبه‌ای که پس از حالت دیگر فرا می‌رسد.</p></a>
+        <a class="morph-card" href="#translation-suggestions"><div class="morph-card-header"><div class="morph-type">صورت‌های لغوی</div><div class="morph-used">برای میدان معنایی</div></div><div class="morph-form">طَابَقَ / اِنْطَبَقَ / مُطَابَقَة</div><p class="morph-note">صورت‌هایی برای انطباق، هماهنگی، پوشاندن یا جور آمدن که در قرآن نیامده‌اند.</p></a>
+      </div>
+    </section>
+
+    <p class="root-note">این صفحه درباره ریشه ط ب ق و دو صورت قرآنی آن، طِبَاقًا و طَبَقًا، است: از تصویر پوشش و لایه تا ساختار آسمان‌ها و گذر انسان از حالتی به حالت دیگر.</p>
+
+    <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
+      <h2>فهرست کاربردهای این ریشه</h2>
+      <ol>
+        <li><a href="#short-meaning">معنای کوتاه ریشه</a></li>
+        <li><a href="#forms">صورت‌های مهم ریشه</a></li>
+        <li><a href="#linguistic-note">نکته زبان‌شناسی</a></li>
+        <li><a href="#material-image">تصویر مادی ریشه</a></li>
+        <li><a href="#classical-usage">تبصره تاریخی و کاربرد عربی کهن</a></li>
+        <li><a href="#quranic-usage">کاربرد قرآنی ریشه</a></li>
+        <li><a href="#layered-heavens">آسمان‌های لایه‌وار</a></li>
+        <li><a href="#seven-heavens">هفت آسمان در نظامی طبقه‌وار</a></li>
+        <li><a href="#state-to-state">گذر از حالتی به حالت دیگر</a></li>
+        <li><a href="#distinctions">تفکیک کاربردهای مشابه</a></li>
+        <li><a href="#tibaq-heavens">طِبَاقًا در وصف آسمان‌ها</a></li>
+        <li><a href="#tabaq-human-states">طَبَقًا در وصف حالات انسان</a></li>
+        <li><a href="#covering-usage">پوشش در کاربرد لغوی</a></li>
+        <li><a href="#conformity">مطابقت و هماهنگی</a></li>
+        <li><a href="#syntax">نکات نحوی و ساختاری</a></li>
+        <li><a href="#position-tibaq">جایگاه طِبَاقًا</a></li>
+        <li><a href="#emphasis-latarkabunna">تأکید در لَتَرْكَبُنَّ</a></li>
+        <li><a href="#role-an">نقش عَنْ</a></li>
+        <li><a href="#near-roots">تفاوت با ریشه‌های نزدیک</a></li>
+        <li><a href="#w-f-q">ط ب ق و و ف ق</a></li>
+        <li><a href="#w-dad-ayn">ط ب ق و و ض ع</a></li>
+        <li><a href="#s-t-r">ط ب ق و س ت ر</a></li>
+        <li><a href="#gh-tt-y">ط ب ق و غ ط ي</a></li>
+        <li><a href="#r-t-b">ط ب ق و ر ت ب</a></li>
+        <li><a href="#d-r-j">ط ب ق و د ر ج</a></li>
+        <li><a href="#tt-w-r">ط ب ق و ط و ر</a></li>
+        <li><a href="#sad-f-f">ط ب ق و ص ف ف</a></li>
+        <li><a href="#s-w-y">ط ب ق و س و ي</a></li>
+        <li><a href="#translation-suggestions">پیشنهادهای ترجمه برای فرقان</a></li>
+        <li><a href="#translate-tabaq">طَبَق</a></li>
+        <li><a href="#translate-tibaq">طِبَاقًا</a></li>
+        <li><a href="#translate-tabaqan">طَبَقًا عَنْ طَبَقٍ</a></li>
+        <li><a href="#translate-tabaqa-verb">طَابَقَ</a></li>
+        <li><a href="#translate-mutabaqa">مُطَابَقَة</a></li>
+        <li><a href="#translate-atbaqa">أَطْبَقَ</a></li>
+        <li><a href="#translate-intabaqa">اِنْطَبَقَ</a></li>
+        <li><a href="#summary">جمع‌بندی زبانی</a></li>
+      </ol>
+    </nav>
+
+    <section class="root-section" id="short-meaning"><h2>معنای کوتاه ریشه</h2>
+      <p>ریشه ط ب ق بر قرار گرفتن چیزی بر چیزی دیگر به‌گونه‌ای پوشاننده، هم‌اندازه یا متناسب دلالت دارد. از این هسته، معناهایی مانند پوشش، لایه، انطباق، هماهنگی، مرتبه و حالت پیاپی شکل گرفته‌اند.</p>
+      <p>در قرآن، این ریشه در دو میدان اصلی دیده می‌شود: ساختار لایه‌وار آسمان‌ها و انتقال انسان از حالتی به حالت دیگر.</p>
+    </section>
+    <section class="root-section" id="forms"><h2>صورت‌های مهم ریشه</h2>
+      <p>طَبَق به پوشش یا چیزی گفته می‌شود که بر چیز دیگری قرار می‌گیرد و با آن برابر یا متناسب است. این واژه می‌تواند بر سرپوش، سطح، لایه، مرتبه، حالت یا گروهی هم‌جایگاه دلالت کند.</p>
+      <p>أَطْبَاق جمع طبق است و برای پوشش‌ها، لایه‌ها یا سطوح متعدد به کار می‌رود.</p>
+      <p>طِبَاق می‌تواند بر چیزهایی دلالت کند که یکی بر دیگری قرار گرفته‌اند یا با یکدیگر متناسب و هماهنگ‌اند. در قرآن، صورت طِبَاقًا دو بار در وصف هفت آسمان آمده است.</p>
+      <p>طَبَقَة به یک لایه، مرتبه، سطح یا گروه هم‌جایگاه گفته می‌شود و جمع آن طَبَقَات است. این صورت در قرآن نیامده است.</p>
+      <p>طَبَّقَ در باب تفعیل به معنای پوشاندن، چیزی را بر چیزی قرار دادن، سراسر چیزی را فراگرفتن یا آن را لایه‌بندی کردن است.</p>
+      <p>أَطْبَقَ در باب افعال می‌تواند به معنای بستن، پوشاندن، بر چیزی قرار دادن یا آن را کاملاً فراگرفتن باشد.</p>
+      <p>طَابَقَ در باب مفاعله به معنای با چیزی برابر، سازگار یا منطبق بودن است.</p>
+      <p>تَطَابَقَ به معنای با یکدیگر هماهنگ یا منطبق شدن است.</p>
+      <p>اِنْطَبَقَ به معنای بسته شدن، بر چیزی قرار گرفتن یا کاملاً با آن جور آمدن است.</p>
+      <p>مُطَابَقَة بر انطباق، هماهنگی و برابر بودن دو چیز از نظر شکل، حد، حالت یا معنا دلالت دارد.</p>
+      <p>از میان این صورت‌ها، قرآن تنها صورت‌های اسمی طِبَاقًا و طَبَقًا / طَبَقٍ را به کار برده است.</p>
+    </section>
+    <section class="root-section" id="linguistic-note"><h2>نکته زبان‌شناسی</h2>
+      <p>در هسته معنایی ط ب ق چند عنصر به یکدیگر پیوسته‌اند:</p>
+      <p>نخست، چیزی بر چیز دیگر قرار می‌گیرد.</p>
+      <p>دوم، چیزی که قرار می‌گیرد، سطح یا محدوده چیز زیرین را می‌پوشاند.</p>
+      <p>سوم، میان آن دو نوعی تناسب، برابری یا هم‌راستایی وجود دارد.</p>
+      <p>چهارم، چند طبق می‌توانند به صورت لایه‌ها، مرتبه‌ها یا حالت‌های پیاپی ظاهر شوند.</p>
+      <p>بنابراین، «پوشش»، «لایه»، «انطباق» و «مرتبه» شاخه‌های بی‌ارتباط یک واژه نیستند. همه آن‌ها به رابطه میان دو سطح، دو حد، دو حالت یا چند بخش پیوسته بازمی‌گردند.</p>
+      <p>بااین‌حال، معنای مادی ریشه نباید به‌صورت مکانیکی بر همه کاربردها تحمیل شود. در یک سیاق، پوشاندن برجسته است؛ در سیاقی دیگر، برابر و هماهنگ بودن؛ و در سیاقی مانند طَبَقًا عَنْ طَبَقٍ، توالی و جایگزینی حالت‌ها.</p>
+    </section>
+    <section class="root-section" id="material-image"><h2>تصویر مادی ریشه</h2>
+      <p>روشن‌ترین تصویر مادی این ریشه، پوششی است که بر چیزی قرار می‌گیرد و با سطح آن تناسب دارد. طبق تنها چیزی نیست که اتفاقی بالای شیء دیگری افتاده باشد؛ مرز یا سطح آن با آنچه می‌پوشاند، نوعی هم‌خوانی دارد.</p>
+      <p>تصویر دیگر، دو سطح یا دو بخش است که روی یکدیگر می‌نشینند و حدودشان با هم سازگار می‌شود. در منابع لغوی، طبق هم برای «پوشش هر چیز» و هم برای چیزی به کار رفته که با چیز دیگر برابر و هم‌اندازه باشد.</p>
+      <p>قرار گرفتن بخش‌های بدن یا اجزای طبیعی بر یکدیگر نیز می‌تواند این تصویر را روشن کند؛ مانند مهره‌هایی که هرکدام در جای خود نسبت به مهره دیگر قرار می‌گیرد. بااین‌حال، نمونه‌های بسیار جزئی، مانند صدف یا سم حیوان، تنها هنگامی باید در نسخه نهایی وارد شوند که شاهد لغوی صریح و معتبر برای همان کاربرد در دست باشد.</p>
+      <p>از همین تصویر مادی، مفهوم «لایه» و سپس «مرتبه یا حالت پیاپی» پدید می‌آید: هر حالت نسبت به حالت پیشین جایگاهی دیگر می‌گیرد و پس از آن قرار می‌گیرد.</p>
+    </section>
+    <section class="root-section" id="classical-usage"><h2>تبصره تاریخی و کاربرد عربی کهن</h2>
+      <p>در عربی کلاسیک، الطَّبَق برای پوشش هر چیز، پوششی که ملازم چیزی باشد، و چیزی که با چیز دیگر برابر یا متناسب باشد به کار رفته است. تعبیرهایی مانند أطبقه، طبّقه و انطبق نیز بر پوشاندن، بسته شدن یا قرار گرفتن چیزی بر چیز دیگر دلالت دارند.</p>
+      <p>همچنین در کاربرد عربی، طبق می‌تواند به حالت، منزلت یا مرتبه اشاره کند. این گسترش معنایی نشان می‌دهد که انتقال از «سطح و پوشش» به «حالت و مرحله» پیش از کاربرد تفسیری آیه انشقاق، در میدان لغوی عربی شناخته‌شده بوده است.</p>
+      <p>در برخی منابع لغوی، تعبیر بَنَاتُ طَبَقٍ برای دشواری‌ها، دگرگونی‌ها یا حوادث سنگین روزگار نقل شده است. این تعبیر می‌تواند نشان دهد که طبق در زبان کهن برای حالت‌های پیاپی و فشارهای متغیر زمان نیز ظرفیت کاربرد داشته است. بااین‌حال، نسبت دقیق این تعبیر به دوره پیشاقرآنی و شاهد شعری آن باید پیش از درج قطعی در نسخه نهایی جداگانه بررسی شود.</p>
+      <p>بنابراین، نمی‌توان بدون شاهد مستقل ادعا کرد که هر کاربرد ثبت‌شده در فرهنگ‌های متأخر، الزاماً در شعر جاهلی نیز رایج بوده است. در نسخه نهایی، اگر شاهد معتبر و تاریخ‌پذیر از شعر جاهلی یا کاربرد پیشاقرآنی پیدا شود، می‌توان آن را افزود.</p>
+    </section>
+    <section class="root-section" id="quranic-usage"><h2>کاربرد قرآنی ریشه</h2>
+    </section>
+    <section class="root-section" id="layered-heavens"><h2>آسمان‌های لایه‌وار</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">الَّذِي خَلَقَ سَبْعَ سَمَاوَاتٍ طِبَاقًا</blockquote>
+      <p class="translation">همان‌که هفت آسمان را لایه‌وار آفرید.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/067-al-mulk/#ayah-003' | relative_url }}">الملک ۶۷:۳</a></p>
+      <p>در این آیه، طِبَاقًا ساختار و نسبت میان آسمان‌ها را وصف می‌کند. معنای پایه می‌تواند این باشد که آسمان‌ها به صورت لایه‌هایی منظم، متناسب یا یکی نسبت به دیگری قرار گرفته‌اند.</p>
+      <p>طباق به‌خودی‌خود ظرفیت معناییِ برابری، تناسب و قرار گرفتن چیزها بر یکدیگر را دارد. ادامه آیه این ظرفیت را ایجاد نمی‌کند، بلکه آن را در همین سیاق برجسته و تأیید می‌کند:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">مَا تَرَىٰ فِي خَلْقِ الرَّحْمَٰنِ مِنْ تَفَاوُتٍ</blockquote>
+      <p class="translation">در آفرینش آن فرابخشاینده هیچ ناهماهنگی نمی‌بینی.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/067-al-mulk/#ayah-003' | relative_url }}">الملک ۶۷:۳</a></p>
+      <p>ازاین‌رو، ترجمه «لایه‌وار» تصویر اصلی را حفظ می‌کند؛ اما در توضیح زبانی می‌توان افزود که این لایه‌ها نامتناسب و گسیخته توصیف نشده‌اند.</p>
+      <p>نباید از طِبَاقًا به‌تنهایی یک مدل علمی مشخص درباره ساختمان کیهان استخراج کرد. واژه، رابطه‌ای لایه‌وار و منظم را نشان می‌دهد، اما شکل فیزیکی، فاصله یا ماهیت آن لایه‌ها را تعریف نمی‌کند.</p>
+    </section>
+    <section class="root-section" id="seven-heavens"><h2>هفت آسمان در نظامی طبقه‌وار</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">أَلَمْ تَرَوْا كَيْفَ خَلَقَ اللَّهُ سَبْعَ سَمَاوَاتٍ طِبَاقًا</blockquote>
+      <p class="translation">آیا ندیده‌اید که آن معبود یگانه هفت آسمان را چگونه لایه‌وار آفرید؟</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/071-nuh/#ayah-015' | relative_url }}">نوح ۷۱:۱۵</a></p>
+      <p>در این آیه نیز طِبَاقًا وصف هفت آسمان است. این صورت می‌تواند بر لایه‌وار بودن، یکی نسبت به دیگری قرار گرفتن و هماهنگی ساختاری دلالت کند.</p>
+      <p>ترجمه «یکی بالای دیگری» ممکن است بخشی از تصویر را منتقل کند، اما احتمال دارد جهت مکانی خاصی را بیش از آنچه خود واژه تصریح می‌کند، وارد ترجمه سازد. «لایه‌وار» یا «در لایه‌های متناسب» دامنه معنایی را بازتر نگه می‌دارد.</p>
+    </section>
+    <section class="root-section" id="state-to-state"><h2>گذر از حالتی به حالت دیگر</h2>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ</blockquote>
+      <p class="translation">بی‌گمان از حالتی به حالت دیگر خواهید گذشت.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/084-al-inshiqaq/#ayah-019' | relative_url }}">الانشقاق ۸۴:۱۹</a></p>
+      <p>در این آیه، طَبَق به پوشش یا ظرف فیزیکی ترجمه نمی‌شود. واژه بر حالت، مرحله یا مرتبه‌ای دلالت می‌کند که پس از حالت دیگری فرا می‌رسد.</p>
+      <p>رابطه با معنای مادی همچنان قابل مشاهده است: حالت‌ها مانند سطوح یا لایه‌هایی پی‌درپی‌اند، اما آیه بر ایستایی آن‌ها تمرکز ندارد؛ محور عبارت، انتقال مخاطب از یک طبق به طبق دیگر است.</p>
+      <p>فعل لَتَرْكَبُنَّ نیز حرکت و ورود به حالت را نشان می‌دهد. رکوب در اینجا صرفاً سوار شدن بر مرکب نیست، بلکه دربرگرفتن، پیمودن یا وارد شدن در وضعیتی را می‌رساند.</p>
+      <p>سیاق سوره از دگرگونی آسمان و زمین، کوشش انسان، ملاقات با پروردگار و سرانجام‌های متفاوت سخن می‌گوید. بنابراین، عبارت می‌تواند مراحل پی‌درپی تجربه انسانی را دربرگیرد. بااین‌حال، آیه این مراحل را به‌صورت یک فهرست مشخص نام‌گذاری نمی‌کند؛ پس بهتر است ترجمه، معنای باز و مستقیم «حالتی پس از حالت دیگر» را حفظ کند.</p>
+    </section>
+    <section class="root-section" id="distinctions"><h2>تفکیک کاربردهای مشابه</h2>
+    </section>
+    <section class="root-section" id="tibaq-heavens"><h2>طِبَاقًا در وصف آسمان‌ها</h2>
+      <p>در ملک ۶۷:۳ و نوح ۷۱:۱۵، واژه به نسبت میان چند آسمان اشاره دارد. محور این کاربرد، لایه‌وار بودن و تناسب ساختاری است.</p>
+    </section>
+    <section class="root-section" id="tabaq-human-states"><h2>طَبَقًا در وصف حالات انسان</h2>
+      <p>در انشقاق ۸۴:۱۹، طبق یک سطح فیزیکی ثابت نیست، بلکه حالت یا مرحله‌ای است که انسان آن را می‌پیماید و پشت سر می‌گذارد.</p>
+    </section>
+    <section class="root-section" id="covering-usage"><h2>پوشش در کاربرد لغوی</h2>
+      <p>در کاربرد لغوی، طبق می‌تواند سرپوش یا پوششی باشد که بر چیزی قرار می‌گیرد. این تصویر برای شناخت خاستگاه معنایی ریشه مهم است، اما نباید در آیات به‌صورت مکانیکی به «سرپوش» ترجمه شود.</p>
+    </section>
+    <section class="root-section" id="conformity"><h2>مطابقت و هماهنگی</h2>
+      <p>صورت‌هایی مانند طابق، تطابق و مطابقة در قرآن نیامده‌اند، اما نشان می‌دهند که مفهوم برابر و هماهنگ شدن دو چیز در میدان تاریخی این ریشه وجود دارد. بااین‌حال، طِبَاقًا را نیز نباید تنها به «هماهنگ» فروکاست؛ زیرا تصویر لایه‌ها و قرار گرفتن چیزها نسبت به یکدیگر در آن باقی است.</p>
+    </section>
+    <section class="root-section" id="syntax"><h2>نکات نحوی و ساختاری</h2>
+    </section>
+    <section class="root-section" id="position-tibaq"><h2>جایگاه طِبَاقًا</h2>
+      <p>در عبارت:</p>
+      <p>سَبْعَ سَمَاوَاتٍ طِبَاقًا</p>
+      <p>واژه طِبَاقًا منصوب است و آسمان‌ها را از نظر چگونگی ساختارشان وصف می‌کند. در ترجمه طبیعی فارسی می‌توان آن را «لایه‌وار» یا «در لایه‌های متناسب» آورد.</p>
+    </section>
+    <section class="root-section" id="emphasis-latarkabunna"><h2>تأکید در لَتَرْكَبُنَّ</h2>
+      <p>در عبارت:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ</blockquote>
+      <p class="translation">لام آغاز فعل و نون تأکید در پایان آن، بر قطعیت دلالت دارند. بنابراین، ترجمه باید این تأکید را تا حد امکان حفظ کند:</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/084-al-inshiqaq/#ayah-019' | relative_url }}">الانشقاق ۸۴:۱۹</a></p>
+      <p>«بی‌گمان خواهید گذشت»</p>
+      <p>یا</p>
+      <p>«قطعاً وارد حالتی پس از حالت دیگر خواهید شد.»</p>
+    </section>
+    <section class="root-section" id="role-an"><h2>نقش عَنْ</h2>
+      <p>حرف عن در این ساختار مهم است. عن می‌تواند بر فاصله گرفتن، عبور کردن و پشت سر گذاشتن دلالت کند. ازاین‌رو، عبارت تنها تصویری از چند لایه ساکن روی یکدیگر ارائه نمی‌کند.</p>
+      <p>اگر مقصود صرفاً قرار گرفتن یک طبقه بر طبقه دیگر بود، ساختاری با على می‌توانست تصویر مستقیم‌تری از «رویِ چیزی بودن» بسازد. اما طَبَقًا عَنْ طَبَقٍ حرکت از یک حالت و ورود به حالت بعدی را برجسته می‌کند.</p>
+      <p>بنابراین، «مرحله‌ای پس از مرحله دیگر» یا «از حالتی به حالت دیگر» از «لایه‌ای روی لایه» دقیق‌تر است. بااین‌حال، عن لزوماً به این معنا نیست که حالت پیشین در هر مورد کاملاً نابود یا تخلیه می‌شود؛ معنای قطعی‌تر آن، عبور و فاصله گرفتن از وضع پیشین است.</p>
+    </section>
+    <section class="root-section" id="near-roots"><h2>تفاوت با ریشه‌های نزدیک</h2>
+    </section>
+    <section class="root-section" id="w-f-q"><h2>ط ب ق و و ف ق</h2>
+      <p>ریشه و ف ق بر سازگاری، همراهی و جور آمدن دلالت دارد. در ط ب ق، افزون بر سازگاری، تصویر قرار گرفتن دو سطح، حد یا حالت نسبت به یکدیگر نیز حضور دارد.</p>
+      <p>دو نظر می‌توانند با هم موافق باشند، بدون آنکه یکی طبق دیگری باشد. مطابقت معمولاً هماهنگی دقیق‌ترِ حدود یا ویژگی‌های دو چیز را می‌رساند.</p>
+    </section>
+    <section class="root-section" id="w-dad-ayn"><h2>ط ب ق و و ض ع</h2>
+      <p>ریشه و ض ع بر نهادن و قرار دادن دلالت دارد. هر چیزی ممکن است در جایی نهاده شود، اما ط ب ق معمولاً نوعی پوشش، تناسب یا رابطه لایه‌ای را نیز دربردارد.</p>
+    </section>
+    <section class="root-section" id="s-t-r"><h2>ط ب ق و س ت ر</h2>
+      <p>ریشه س ت ر بر پوشاندن و پنهان کردن از دید تمرکز دارد. طبق لزوماً چیزی را پنهان نمی‌کند؛ ممکن است فقط بر آن قرار گیرد، با آن هم‌اندازه شود یا یکی از لایه‌های آن باشد.</p>
+    </section>
+    <section class="root-section" id="gh-tt-y"><h2>ط ب ق و غ ط ي</h2>
+      <p>ریشه غ ط ي بر پوشش و فراگرفتن دلالت دارد. هر پوششی الزاماً با آنچه می‌پوشاند منطبق نیست. در ط ب ق، تناسب و قرار گرفتن سطحی برجسته‌تر است.</p>
+    </section>
+    <section class="root-section" id="r-t-b"><h2>ط ب ق و ر ت ب</h2>
+      <p>ریشه ر ت ب بر سامان یافتن در مرتبه‌ها و جایگاه‌های معین دلالت دارد. مرتبه بیشتر جایگاه یک چیز در نظم را نشان می‌دهد، اما طبق تصویر سطح، لایه یا حالتی را حفظ می‌کند که نسبت به طبق دیگر قرار گرفته است.</p>
+    </section>
+    <section class="root-section" id="d-r-j"><h2>ط ب ق و د ر ج</h2>
+      <p>ریشه د ر ج بر حرکت تدریجی و گام‌به‌گام دلالت دارد. درجه می‌تواند یکی از پله‌های یک مسیر صعودی یا نزولی باشد. در طبق، خود حالت‌ها یا لایه‌های متمایز و نسبت آن‌ها با یکدیگر برجسته‌تر است.</p>
+    </section>
+    <section class="root-section" id="tt-w-r"><h2>ط ب ق و ط و ر</h2>
+      <p>ریشه ط و ر در کاربردهایی مانند أَطْوَارًا بر حالت‌ها و صورت‌های متفاوت رشد یا دگرگونی دلالت دارد:</p>
+      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَقَدْ خَلَقَكُمْ أَطْوَارًا</blockquote>
+      <p class="translation">در حالی که شما را در حالت‌ها و دوره‌های گوناگون آفرید.</p>
+      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/071-nuh/#ayah-014' | relative_url }}">نوح ۷۱:۱۴</a></p>
+      <p>طور می‌تواند مرحله‌ای باشد که در آن صورت، ویژگی یا وضعیت یک موجود دگرگون می‌شود. طبق بیشتر بر نسبت میان حالت‌های پیاپی و عبور از یک وضعیت به وضعیت دیگر تکیه دارد.</p>
+      <p>بااین‌حال، نباید این تفاوت را مطلق ساخت. هر دو ریشه می‌توانند در فارسی «مرحله» ترجمه شوند. فرق اصلی در تصویر زبانی آن‌هاست: طور بیشتر دگرگونی صورت یا حالت را برجسته می‌کند؛ طبق بیشتر قرار گرفتن و پی‌آمدن حالت‌ها نسبت به یکدیگر را.</p>
+    </section>
+    <section class="root-section" id="sad-f-f"><h2>ط ب ق و ص ف ف</h2>
+      <p>ریشه ص ف ف بر کنار هم قرار گرفتن در یک ردیف یا صف دلالت دارد. صف بیشتر رابطه کنارهمی را نشان می‌دهد، در حالی که طبق معمولاً رابطه لایه‌ای، پوشاننده یا مرحله‌ای دارد.</p>
+    </section>
+    <section class="root-section" id="s-w-y"><h2>ط ب ق و س و ي</h2>
+      <p>ریشه س و ي بر برابری، همواری، توازن یا درست ساختن دلالت دارد. ط ب ق بر رابطه میان دو یا چند سطح، پوشش یا حالت تمرکز می‌کند؛ اما س و ي می‌تواند بدون رابطه لایه‌ای بر برابری و تعادل دلالت داشته باشد.</p>
+    </section>
+    <section class="root-section" id="translation-suggestions"><h2>پیشنهادهای ترجمه برای فرقان</h2>
+    </section>
+    <section class="root-section" id="translate-tabaq"><h2>طَبَق</h2>
+      <p>بسته به سیاق:</p>
+      <p>لایه</p>
+      <p>طبقه</p>
+      <p>حالت</p>
+      <p>مرحله</p>
+      <p>مرتبه</p>
+      <p>پوشش</p>
+    </section>
+    <section class="root-section" id="translate-tibaq"><h2>طِبَاقًا</h2>
+      <p>لایه‌وار</p>
+      <p>لایه‌لایه</p>
+      <p>در لایه‌های متناسب</p>
+      <p>طبقه‌وار</p>
+      <p>یکی نسبت به دیگری</p>
+      <p>برای عبارت:</p>
+      <p>سَبْعَ سَمَاوَاتٍ طِبَاقًا</p>
+      <p>پیشنهادهای ترجمه:</p>
+      <p>هفت آسمان را لایه‌وار آفرید.</p>
+      <p>هفت آسمان را در لایه‌های متناسب آفرید.</p>
+      <p>هفت آسمان را لایه‌لایه و هماهنگ آفرید.</p>
+      <p>ترجمه نخست کوتاه‌تر و به متن نزدیک‌تر است:</p>
+      <p>هفت آسمان را لایه‌وار آفرید.</p>
+      <p>واژه «هماهنگ» را می‌توان در توضیح آورد، زیرا اگر در خود ترجمه افزوده شود، ممکن است یکی از ظرفیت‌های واژه را به معنای یگانه آن تبدیل کند.</p>
+    </section>
+    <section class="root-section" id="translate-tabaqan"><h2>طَبَقًا عَنْ طَبَقٍ</h2>
+      <p>از حالتی به حالت دیگر</p>
+      <p>مرحله‌ای پس از مرحله دیگر</p>
+      <p>حالتی در پی حالتی دیگر</p>
+      <p>از مرتبه‌ای به مرتبه دیگر</p>
+      <p>پیشنهاد اصلی:</p>
+      <p>بی‌گمان از حالتی به حالت دیگر خواهید گذشت.</p>
+      <p>«حالت» از «مرحله» بازتر است و امکان‌های مختلف سیاق را حفظ می‌کند. «مرحله» نیز ترجمه‌ای روشن است، اما ممکن است توالی منظم و ازپیش‌تقسیم‌شده‌ای را القا کند که خود آیه به‌صراحت تعریف نکرده است.</p>
+    </section>
+    <section class="root-section" id="translate-tabaqa-verb"><h2>طَابَقَ</h2>
+      <p>منطبق شد</p>
+      <p>با چیزی هماهنگ شد</p>
+      <p>با آن برابر یا هم‌راستا شد</p>
+    </section>
+    <section class="root-section" id="translate-mutabaqa"><h2>مُطَابَقَة</h2>
+      <p>انطباق</p>
+      <p>هم‌خوانی</p>
+      <p>هماهنگی دقیق</p>
+      <p>برابری حدود یا ویژگی‌ها</p>
+    </section>
+    <section class="root-section" id="translate-atbaqa"><h2>أَطْبَقَ</h2>
+      <p>پوشاند</p>
+      <p>بست</p>
+      <p>فراگرفت</p>
+      <p>چیزی را کاملاً بر چیز دیگر قرار داد</p>
+    </section>
+    <section class="root-section" id="translate-intabaqa"><h2>اِنْطَبَقَ</h2>
+      <p>بسته شد</p>
+      <p>بر چیزی قرار گرفت</p>
+      <p>کاملاً با چیزی جور آمد</p>
+      <p>منطبق شد</p>
+      <p>این صورت‌های فعلی و مصدری در قرآن نیامده‌اند و تنها برای روشن شدن میدان لغوی ریشه ذکر می‌شوند.</p>
+    </section>
+    <section class="root-section" id="summary"><h2>جمع‌بندی زبانی</h2>
+      <p>ریشه ط ب ق بر قرار گرفتن چیزی بر چیز دیگر با نوعی پوشش، تناسب یا هم‌راستایی دلالت دارد. تصویر مادی آن، سطح یا پوششی است که با آنچه زیر آن قرار دارد، جور می‌آید.</p>
+      <p>در قرآن، طِبَاقًا ساختار لایه‌وار آسمان‌ها را وصف می‌کند، در حالی که طَبَقًا عَنْ طَبَقٍ بر عبور انسان از حالتی به حالت دیگر دلالت دارد. در کاربرد نخست، نسبت و هماهنگی لایه‌ها برجسته است؛ در کاربرد دوم، توالی و انتقال میان حالت‌ها.</p>
+      <p>این ریشه با پوشاندن، برابری، مرتبه و مرحله ارتباط دارد، اما ویژگی متمایز آن پیوند میان قرار گرفتن، انطباق و پی‌آمدن لایه‌ها یا حالت‌ها است.</p>
+    </section>
+  </div>
+</div>
