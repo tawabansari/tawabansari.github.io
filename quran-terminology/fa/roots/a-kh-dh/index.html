@@ -62,6 +62,44 @@ html[data-theme="light"] .root-study-page, body[data-theme="light"] .root-study-
 .root-study-page .root-subtitle { color: var(--root-muted); max-width: 760px; margin: .8rem auto 0; line-height: 1.95; }
 .root-study-page .root-toc { padding: 1rem 1.2rem; margin-bottom: 1.2rem; }
 .root-study-page .root-toc h2 { margin-top: 0; font-size: 1.2rem; color: var(--root-accent); }
+.root-study-page .root-toc-list,
+.root-study-page .root-toc-item {
+  list-style: none !important;
+  counter-reset: none !important;
+  counter-increment: none !important;
+}
+.root-study-page .root-toc-list::before,
+.root-study-page .root-toc-list::after,
+.root-study-page .root-toc-item::before,
+.root-study-page .root-toc-item::after,
+.root-study-page .root-toc-item a::before,
+.root-study-page .root-toc-item a::after {
+  content: none !important;
+  display: none !important;
+  counter-increment: none !important;
+}
+.root-study-page .root-toc-item {
+  display: block !important;
+  padding-inline-start: 0 !important;
+}
+.root-study-page .root-toc-list {
+  columns: 2;
+  column-gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.root-study-page .root-toc-item {
+  break-inside: avoid;
+  margin: 0 0 .45rem;
+}
+.root-study-page .root-toc-item a {
+  display: inline-block;
+}
+@media (max-width: 720px) {
+  .root-study-page .root-toc-list {
+    columns: 1;
+  }
+}
 .root-study-page .root-toc a { color: inherit; text-decoration: none; }
 .root-study-page .root-toc a:hover, .root-study-page .root-toc a:focus { color: var(--root-accent); text-decoration: underline; }
 .root-study-page .root-section { padding: 1.25rem 1.35rem; margin-bottom: 1.15rem; }
@@ -94,8 +132,6 @@ html[data-theme="light"] .root-study-page, body[data-theme="light"] .root-study-
 .root-study-page .derivative-target { scroll-margin-top: 1rem; }
 .root-study-page.forqan-page-rtl { direction: rtl; text-align: right; }
 .root-study-page.forqan-page-ltr { direction: ltr; text-align: left; }
-.root-study-page.forqan-page-rtl .root-toc ol { padding-right: 1.4rem; }
-.root-study-page.forqan-page-ltr .root-toc ol { padding-left: 1.4rem; }
 @media (max-width: 640px) {
   .root-study-page .root-frame { padding-inline: .6rem; }
   .root-study-page .root-section, .root-study-page .root-hero, .root-study-page .root-toc { padding: 1rem; border-radius: 13px; }
@@ -113,26 +149,26 @@ html[data-theme="light"] .root-study-page, body[data-theme="light"] .root-study-
 </section>
 <nav aria-label="فهرست مقاله" class="root-toc">
 <h2>فهرست مقاله</h2>
-<ol>
-<li><a href="#section-1">۱. معرفی کوتاه ریشه</a></li>
-<li><a href="#section-2">۲. صورت‌ها و مشتق‌های مهم ریشه</a></li>
-<li><a href="#section-3">۳. کارت‌های قابل ارجاع برای مشتق‌های قرآنی</a></li>
-<li><a href="#section-4">۴. هسته معنایی ریشه</a></li>
-<li><a href="#section-5">۵. تصویر مادی ریشه</a></li>
-<li><a href="#section-6">۶. کاربرد ریشه در عربی کهن</a></li>
-<li><a href="#section-7">۷. تاریخچه فهم، سوءاستفاده یا محدودسازی معنایی</a></li>
-<li><a href="#section-8">۸. تبصره روش‌شناختی</a></li>
-<li><a href="#section-9">۹. کاربردهای قرآنی ریشه</a></li>
-<li><a href="#section-10">۱۰. بررسی مشتق‌های مهم در قرآن</a></li>
-<li><a href="#section-11">۱۱. مشتق مربوط به وصف و فعل الهی</a></li>
-<li><a href="#section-12">۱۲. نکات نحوی و ساختاری</a></li>
-<li><a href="#section-13">۱۳. أ خ ذ (أَخْذ) در مقایسه با أ ت ي (إِيتَاء)</a></li>
-<li><a href="#section-14">۱۴. أ خ ذ (أَخْذ) در مقایسه با ق ب ض (قَبْض)</a></li>
-<li><a href="#section-15">۱۵. أ خ ذ (أَخْذ) در مقایسه با ق ب ل (قَبُول)</a></li>
-<li><a href="#section-16">۱۶. بحث تخصصی و تبصره ساختاری: عهد، کیفر و اتخاذ در شبکه قرآنی أ خ ذ</a></li>
-<li><a href="#section-17">۱۷. پیشنهادهای ترجمه برای فرقان</a></li>
-<li><a href="#section-18">۱۸. جمع‌بندی</a></li>
-</ol>
+<div class="root-toc-list">
+  <div class="root-toc-item"><a href="#section-1">۱. معرفی کوتاه ریشه</a></div>
+  <div class="root-toc-item"><a href="#section-2">۲. صورت‌ها و مشتق‌های مهم ریشه</a></div>
+  <div class="root-toc-item"><a href="#section-3">۳. کارت‌های قابل ارجاع برای مشتق‌های قرآنی</a></div>
+  <div class="root-toc-item"><a href="#section-4">۴. هسته معنایی ریشه</a></div>
+  <div class="root-toc-item"><a href="#section-5">۵. تصویر مادی ریشه</a></div>
+  <div class="root-toc-item"><a href="#section-6">۶. کاربرد ریشه در عربی کهن</a></div>
+  <div class="root-toc-item"><a href="#section-7">۷. تاریخچه فهم، سوءاستفاده یا محدودسازی معنایی</a></div>
+  <div class="root-toc-item"><a href="#section-8">۸. تبصره روش‌شناختی</a></div>
+  <div class="root-toc-item"><a href="#section-9">۹. کاربردهای قرآنی ریشه</a></div>
+  <div class="root-toc-item"><a href="#section-10">۱۰. بررسی مشتق‌های مهم در قرآن</a></div>
+  <div class="root-toc-item"><a href="#section-11">۱۱. مشتق مربوط به وصف و فعل الهی</a></div>
+  <div class="root-toc-item"><a href="#section-12">۱۲. نکات نحوی و ساختاری</a></div>
+  <div class="root-toc-item"><a href="#section-13">۱۳. أ خ ذ (أَخْذ) در مقایسه با أ ت ي (إِيتَاء)</a></div>
+  <div class="root-toc-item"><a href="#section-14">۱۴. أ خ ذ (أَخْذ) در مقایسه با ق ب ض (قَبْض)</a></div>
+  <div class="root-toc-item"><a href="#section-15">۱۵. أ خ ذ (أَخْذ) در مقایسه با ق ب ل (قَبُول)</a></div>
+  <div class="root-toc-item"><a href="#section-16">۱۶. بحث تخصصی و تبصره ساختاری: عهد، کیفر و اتخاذ در شبکه قرآنی أ خ ذ</a></div>
+  <div class="root-toc-item"><a href="#section-17">۱۷. پیشنهادهای ترجمه برای فرقان</a></div>
+  <div class="root-toc-item"><a href="#section-18">۱۸. جمع‌بندی</a></div>
+</div>
 </nav>
 <section class="root-section" id="section-1">
 <h2>۱. معرفی کوتاه ریشه</h2>
