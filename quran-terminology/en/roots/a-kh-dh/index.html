@@ -62,6 +62,44 @@ html[data-theme="light"] .root-study-page, body[data-theme="light"] .root-study-
 .root-study-page .root-subtitle { color: var(--root-muted); max-width: 760px; margin: .8rem auto 0; line-height: 1.95; }
 .root-study-page .root-toc { padding: 1rem 1.2rem; margin-bottom: 1.2rem; }
 .root-study-page .root-toc h2 { margin-top: 0; font-size: 1.2rem; color: var(--root-accent); }
+.root-study-page .root-toc-list,
+.root-study-page .root-toc-item {
+  list-style: none !important;
+  counter-reset: none !important;
+  counter-increment: none !important;
+}
+.root-study-page .root-toc-list::before,
+.root-study-page .root-toc-list::after,
+.root-study-page .root-toc-item::before,
+.root-study-page .root-toc-item::after,
+.root-study-page .root-toc-item a::before,
+.root-study-page .root-toc-item a::after {
+  content: none !important;
+  display: none !important;
+  counter-increment: none !important;
+}
+.root-study-page .root-toc-item {
+  display: block !important;
+  padding-inline-start: 0 !important;
+}
+.root-study-page .root-toc-list {
+  columns: 2;
+  column-gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.root-study-page .root-toc-item {
+  break-inside: avoid;
+  margin: 0 0 .45rem;
+}
+.root-study-page .root-toc-item a {
+  display: inline-block;
+}
+@media (max-width: 720px) {
+  .root-study-page .root-toc-list {
+    columns: 1;
+  }
+}
 .root-study-page .root-toc a { color: inherit; text-decoration: none; }
 .root-study-page .root-toc a:hover, .root-study-page .root-toc a:focus { color: var(--root-accent); text-decoration: underline; }
 .root-study-page .root-section { padding: 1.25rem 1.35rem; margin-bottom: 1.15rem; }
@@ -94,8 +132,6 @@ html[data-theme="light"] .root-study-page, body[data-theme="light"] .root-study-
 .root-study-page .derivative-target { scroll-margin-top: 1rem; }
 .root-study-page.forqan-page-rtl { direction: rtl; text-align: right; }
 .root-study-page.forqan-page-ltr { direction: ltr; text-align: left; }
-.root-study-page.forqan-page-rtl .root-toc ol { padding-right: 1.4rem; }
-.root-study-page.forqan-page-ltr .root-toc ol { padding-left: 1.4rem; }
 @media (max-width: 640px) {
   .root-study-page .root-frame { padding-inline: .6rem; }
   .root-study-page .root-section, .root-study-page .root-hero, .root-study-page .root-toc { padding: 1rem; border-radius: 13px; }
@@ -113,26 +149,26 @@ html[data-theme="light"] .root-study-page, body[data-theme="light"] .root-study-
 </section>
 <nav aria-label="Article Map" class="root-toc">
 <h2>Article Map</h2>
-<ol>
-<li><a href="#section-1">1. A Short Introduction to the Root</a></li>
-<li><a href="#section-2">2. Important Forms and Derivatives of the Root</a></li>
-<li><a href="#section-3">3. Reference Cards for Qur'anic Derivatives</a></li>
-<li><a href="#section-4">4. The Semantic Core of the Root</a></li>
-<li><a href="#section-5">5. The Material Image of the Root</a></li>
-<li><a href="#section-6">6. The Root in Early Arabic Usage</a></li>
-<li><a href="#section-7">7. The History of Understanding, Misuse, or Semantic Restriction</a></li>
-<li><a href="#section-8">8. Methodological Note</a></li>
-<li><a href="#section-9">9. Qur'anic Uses of the Root</a></li>
-<li><a href="#section-10">10. Important Qur'anic Derivatives</a></li>
-<li><a href="#section-11">11. A Derivative Used as a Divine Description and Act</a></li>
-<li><a href="#section-12">12. Grammatical and Structural Notes</a></li>
-<li><a href="#section-13">13. أ خ ذ (AKHDH) Compared with أ ت ي (ITA')</a></li>
-<li><a href="#section-14">14. أ خ ذ (AKHDH) Compared with ق ب ض (QABD)</a></li>
-<li><a href="#section-15">15. أ خ ذ (AKHDH) Compared with ق ب ل (QABUL)</a></li>
-<li><a href="#section-16">16. Specialized Discussion and Structural Note: Covenant, Punishment, and Ittikhadh in the Qur'anic Network of أ خ ذ</a></li>
-<li><a href="#section-17">17. Translation Suggestions for Forqan</a></li>
-<li><a href="#section-18">18. Conclusion</a></li>
-</ol>
+<div class="root-toc-list">
+  <div class="root-toc-item"><a href="#section-1">1. A Short Introduction to the Root</a></div>
+  <div class="root-toc-item"><a href="#section-2">2. Important Forms and Derivatives of the Root</a></div>
+  <div class="root-toc-item"><a href="#section-3">3. Reference Cards for Qur'anic Derivatives</a></div>
+  <div class="root-toc-item"><a href="#section-4">4. The Semantic Core of the Root</a></div>
+  <div class="root-toc-item"><a href="#section-5">5. The Material Image of the Root</a></div>
+  <div class="root-toc-item"><a href="#section-6">6. The Root in Early Arabic Usage</a></div>
+  <div class="root-toc-item"><a href="#section-7">7. The History of Understanding, Misuse, or Semantic Restriction</a></div>
+  <div class="root-toc-item"><a href="#section-8">8. Methodological Note</a></div>
+  <div class="root-toc-item"><a href="#section-9">9. Qur'anic Uses of the Root</a></div>
+  <div class="root-toc-item"><a href="#section-10">10. Important Qur'anic Derivatives</a></div>
+  <div class="root-toc-item"><a href="#section-11">11. A Derivative Used as a Divine Description and Act</a></div>
+  <div class="root-toc-item"><a href="#section-12">12. Grammatical and Structural Notes</a></div>
+  <div class="root-toc-item"><a href="#section-13">13. أ خ ذ (AKHDH) Compared with أ ت ي (ITA')</a></div>
+  <div class="root-toc-item"><a href="#section-14">14. أ خ ذ (AKHDH) Compared with ق ب ض (QABD)</a></div>
+  <div class="root-toc-item"><a href="#section-15">15. أ خ ذ (AKHDH) Compared with ق ب ل (QABUL)</a></div>
+  <div class="root-toc-item"><a href="#section-16">16. Specialized Discussion and Structural Note: Covenant, Punishment, and Ittikhadh in the Qur'anic Network of أ خ ذ</a></div>
+  <div class="root-toc-item"><a href="#section-17">17. Translation Suggestions for Forqan</a></div>
+  <div class="root-toc-item"><a href="#section-18">18. Conclusion</a></div>
+</div>
 </nav>
 <section class="root-section" id="section-1">
 <h2>1. A Short Introduction to the Root</h2>
