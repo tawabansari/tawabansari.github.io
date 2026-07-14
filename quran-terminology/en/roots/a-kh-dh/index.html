@@ -1,20 +1,539 @@
 ---
 layout: default
-title: Qur'anic Root A KH DH
+title: The Qur'anic Root ʾ KH DH
 permalink: /quran-terminology/en/roots/a-kh-dh/
 ---
 
+
+<style>
+.root-study-page {
+  --root-bg: #fffaf2;
+  --root-surface: #fffdf8;
+  --root-surface-2: #f5ecdc;
+  --root-text: #24211d;
+  --root-muted: #6f685e;
+  --root-border: rgba(96, 78, 48, 0.20);
+  --root-accent: #8a6a2f;
+  --root-accent-soft: rgba(138, 106, 47, 0.10);
+  color: var(--root-text);
+}
+html.dark .root-study-page, body.dark .root-study-page,
+html.dark-mode .root-study-page, body.dark-mode .root-study-page,
+html[data-theme="dark"] .root-study-page, body[data-theme="dark"] .root-study-page,
+[data-bs-theme="dark"] .root-study-page, .forqan-theme-dark .root-study-page,
+.theme-dark .root-study-page {
+  --root-bg: #172133;
+  --root-surface: #1d2a40;
+  --root-surface-2: #25344d;
+  --root-text: #f5f0e7;
+  --root-muted: #c7bdad;
+  --root-border: rgba(236, 211, 161, 0.20);
+  --root-accent: #d6b66e;
+  --root-accent-soft: rgba(214, 182, 110, 0.12);
+}
+html.light .root-study-page, body.light .root-study-page,
+html.light-mode .root-study-page, body.light-mode .root-study-page,
+html[data-theme="light"] .root-study-page, body[data-theme="light"] .root-study-page,
+[data-bs-theme="light"] .root-study-page, .forqan-theme-light .root-study-page,
+.theme-light .root-study-page {
+  --root-bg: #fffaf2;
+  --root-surface: #fffdf8;
+  --root-surface-2: #f5ecdc;
+  --root-text: #24211d;
+  --root-muted: #6f685e;
+  --root-border: rgba(96, 78, 48, 0.20);
+  --root-accent: #8a6a2f;
+  --root-accent-soft: rgba(138, 106, 47, 0.10);
+}
+.root-study-page, .root-study-page * { box-sizing: border-box; }
+.root-study-page .root-frame {
+  max-width: 980px; margin: 0 auto; padding: 1.25rem 1rem 3rem;
+}
+.root-study-page .root-hero, .root-study-page .root-section,
+.root-study-page .root-toc {
+  border: 1px solid var(--root-border);
+  background: var(--root-surface);
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(30, 24, 15, .05);
+}
+.root-study-page .root-hero { padding: 2rem 1.4rem; margin-bottom: 1.2rem; text-align: center; }
+.root-study-page .root-kicker { color: var(--root-accent); font-weight: 800; margin-bottom: .35rem; }
+.root-study-page h1 { margin: 0; font-size: clamp(2rem, 5vw, 3.35rem); line-height: 1.25; }
+.root-study-page .root-subtitle { color: var(--root-muted); max-width: 760px; margin: .8rem auto 0; line-height: 1.95; }
+.root-study-page .root-toc { padding: 1rem 1.2rem; margin-bottom: 1.2rem; }
+.root-study-page .root-toc h2 { margin-top: 0; font-size: 1.2rem; color: var(--root-accent); }
+.root-study-page .root-toc a { color: inherit; text-decoration: none; }
+.root-study-page .root-toc a:hover, .root-study-page .root-toc a:focus { color: var(--root-accent); text-decoration: underline; }
+.root-study-page .root-section { padding: 1.25rem 1.35rem; margin-bottom: 1.15rem; }
+.root-study-page .root-section h2 { margin-top: 0; border-bottom: 1px solid var(--root-border); padding-bottom: .55rem; }
+.root-study-page .root-section h3 { color: var(--root-accent); margin-top: 1.55rem; scroll-margin-top: 1rem; }
+.root-study-page p, .root-study-page li { line-height: 2; }
+.root-study-page .arabic-inline, .root-study-page .morph-form, .root-study-page .arabic-quote {
+  font-family: "Noto Naskh Arabic", "Amiri", serif;
+}
+.root-study-page .arabic-inline { direction: rtl; unicode-bidi: isolate; }
+.root-study-page .arabic-quote {
+  direction: rtl; text-align: center; font-size: 1.45rem; line-height: 2.15;
+  border: 1px solid var(--root-border); background: var(--root-accent-soft);
+  border-radius: 14px; padding: 1rem 1.2rem; margin: 1.15rem 0 .45rem;
+}
+.root-study-page .verse-translation { text-align: center; margin: .4rem 0; }
+.root-study-page .verse-reference { text-align: center; color: var(--root-muted); font-weight: 750; margin-top: .2rem; }
+.root-study-page .morph-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .85rem; }
+.root-study-page .morph-card {
+  display: block; color: inherit; text-decoration: none;
+  border: 1px solid var(--root-border); background: var(--root-surface-2);
+  border-radius: 14px; padding: 1rem; scroll-margin-top: 1rem;
+  transition: transform .16s ease, border-color .16s ease;
+}
+.root-study-page .morph-card:hover, .root-study-page .morph-card:focus {
+  transform: translateY(-2px); border-color: var(--root-accent); outline: none;
+}
+.root-study-page .morph-form { direction: rtl; font-size: 1.45rem; font-weight: 800; margin-bottom: .35rem; }
+.root-study-page .morph-note { color: var(--root-muted); margin: 0; line-height: 1.75; }
+.root-study-page .derivative-target { scroll-margin-top: 1rem; }
+.root-study-page.forqan-page-rtl { direction: rtl; text-align: right; }
+.root-study-page.forqan-page-ltr { direction: ltr; text-align: left; }
+.root-study-page.forqan-page-rtl .root-toc ol { padding-right: 1.4rem; }
+.root-study-page.forqan-page-ltr .root-toc ol { padding-left: 1.4rem; }
+@media (max-width: 640px) {
+  .root-study-page .root-frame { padding-inline: .6rem; }
+  .root-study-page .root-section, .root-study-page .root-hero, .root-study-page .root-toc { padding: 1rem; border-radius: 13px; }
+  .root-study-page .morph-grid { grid-template-columns: 1fr; gap: .65rem; }
+  .root-study-page .arabic-quote { font-size: 1.25rem; }
+}
+</style>
+
 <div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
-  <div class="root-frame">
-    <section class="root-hero">
-      <div class="root-kicker">Qur'anic Root</div>
-      <h1>Qur'anic Root A KH DH</h1>
-      <p class="root-subtitle">Taking, receiving, seizing, accepting, and taking something with consequence.</p>
-    </section>
-    <section class="root-section">
-      <h2>Article Placeholder</h2>
-      <p>This page is a placeholder for the root <strong class="arabic-large">أ خ ذ</strong>, so Qur'anic word links and verse references have a real destination. The full study of this root will be added later.</p>
-      <p>In 2:48, no equivalent, substitute, or 'adl is taken from the self; the path of replacement-payment is closed.</p>
-    </section>
-  </div>
+<div class="root-frame">
+<section class="root-hero">
+<div class="root-kicker">Qur'anic Root</div>
+<h1>The Qur'anic Root ʾ KH DH</h1>
+<p class="root-subtitle">Taking, bringing into one's possession, restraining, and bringing something within the sphere of control, obligation, or pursuit</p>
+</section>
+<nav aria-label="Article Map" class="root-toc">
+<h2>Article Map</h2>
+<ol>
+<li><a href="#section-1">1. A Short Introduction to the Root</a></li>
+<li><a href="#section-2">2. Important Forms and Derivatives of the Root</a></li>
+<li><a href="#section-3">3. Reference Cards for Qur'anic Derivatives</a></li>
+<li><a href="#section-4">4. The Semantic Core of the Root</a></li>
+<li><a href="#section-5">5. The Material Image of the Root</a></li>
+<li><a href="#section-6">6. The Root in Early Arabic Usage</a></li>
+<li><a href="#section-7">7. The History of Understanding, Misuse, or Semantic Restriction</a></li>
+<li><a href="#section-8">8. Methodological Note</a></li>
+<li><a href="#section-9">9. Qur'anic Uses of the Root</a></li>
+<li><a href="#section-10">10. Important Qur'anic Derivatives</a></li>
+<li><a href="#section-11">11. A Derivative Used as a Divine Description and Act</a></li>
+<li><a href="#section-12">12. Grammatical and Structural Notes</a></li>
+<li><a href="#section-13">13. أ خ ذ (AKHDH) Compared with أ ت ي (ITA')</a></li>
+<li><a href="#section-14">14. أ خ ذ (AKHDH) Compared with ق ب ض (QABD)</a></li>
+<li><a href="#section-15">15. أ خ ذ (AKHDH) Compared with ق ب ل (QABUL)</a></li>
+<li><a href="#section-16">16. Specialized Discussion and Structural Note: Covenant, Punishment, and Ittikhadh in the Qur'anic Network of أ خ ذ</a></li>
+<li><a href="#section-17">17. Translation Suggestions for Forqan</a></li>
+<li><a href="#section-18">18. Conclusion</a></li>
+</ol>
+</nav>
+<section class="root-section" id="section-1">
+<h2>1. A Short Introduction to the Root</h2>
+<p>The root <strong class="arabic-inline">أ خ ذ</strong> moves within the semantic field of taking, bringing into one's possession, holding, restraining, and bringing a person or thing within the sphere of the agent's control.</p>
+<p>The root's basic image is highly concrete: an agent takes something, removes it from a state of being loose or outside reach, and places it within the agent's sphere of control, retention, or effect. This taking may be physical and performed by the hand; it may mean receiving a book, property, or something from another; it may appear as taking a covenant and making an obligation binding; and it may describe overtaking or seizing a person or society through consequence and punishment.</p>
+<p>Nevertheless, meanings such as “coercive power,” “total domination,” or “existential obligation” should not automatically be added to the root itself. Many Qur'anic uses of <strong class="arabic-inline">أ خ ذ</strong> carry the general meaning of “taking,” while intensity, compulsion, violence, or punishment are identified through the object, preposition, and context of the ayah.</p>
+<p>For example, taking the head or beard, taking a covenant, taking the Book, taking property, taking a path, taking a god, and taking oppressive towns all belong to the same word-family, but the type of taking is not identical in each case.</p>
+<p>The root's concise core may therefore be expressed as:</p>
+<p><strong>Taking something and bringing it within the agent's sphere of access, control, retention, relationship, or pursuit.</strong></p>
+</section>
+<section class="root-section" id="section-2">
+<h2>2. Important Forms and Derivatives of the Root</h2>
+<h3>أَخَذَ / يَأْخُذُ</h3>
+<p>The basic Form I verb: to take, receive, bring into one's possession, restrain, or overtake, depending on context.</p>
+<h3>خُذْ / خُذُوا</h3>
+<p>The imperative: take, or take you all. The object or accompanying qualifier usually identifies the nature and quality of the taking.</p>
+<h3>أُخِذَ / يُؤْخَذُ</h3>
+<p>The passive form: to be taken, detained, overtaken, or held accountable.</p>
+<h3>أَخْذ</h3>
+<p>The verbal noun of the root: the act of taking. In some ayat, especially when attributed to the Rabb, it denotes punitive taking or the overtaking of wrongdoers.</p>
+<h3>أَخْذَة</h3>
+<p>A particular act or instance of taking or overtaking. In Qur'anic contexts, this form often concerns a severe punitive taking, but “sudden” or “cosmic” should not be inserted into the morphology without contextual evidence.</p>
+<h3>اتَّخَذَ / يَتَّخِذُ</h3>
+<p>The Form VIII verb: to take someone or something for oneself, place it in a role, choose it, adopt it, or establish a relationship or position through it.</p>
+<h3>مُتَّخِذ</h3>
+<p>The active participle of Form VIII: one who takes or adopts something for oneself.</p>
+<p>Other derivatives from this family exist in Arabic, but a Qur'anic root article must distinguish the forms present in the Qur'an from later lexical and technical uses outside the Qur'an.</p>
+</section>
+<section class="root-section" id="section-3">
+<h2>3. Reference Cards for Qur'anic Derivatives</h2>
+<div class="morph-grid">
+<a class="morph-card" href="#derivative-akhadha">
+<div class="morph-form" dir="rtl" lang="ar">أَخَذَ</div>
+<p class="morph-note">He took, received, brought into his possession, restrained, or overtook; the exact meaning is determined by context.</p>
+</a>
+<a class="morph-card" href="#usage-take-given">
+<div class="morph-form" dir="rtl" lang="ar">خُذْ / خُذُوا</div>
+<p class="morph-note">Take, or take you all: receive something in practice and enter into a relationship with it.</p>
+</a>
+<a class="morph-card" href="#derivative-akhdh">
+<div class="morph-form" dir="rtl" lang="ar">أَخْذ</div>
+<p class="morph-note">The act of taking; and in some contexts, overtaking and punishing.</p>
+</a>
+<a class="morph-card" href="#derivative-akhdhah">
+<div class="morph-form" dir="rtl" lang="ar">أَخْذَة</div>
+<p class="morph-note">A single act of taking or overtaking; in Qur'anic usage, often a severe punitive taking.</p>
+</a>
+<a class="morph-card" href="#derivative-ittakhadha">
+<div class="morph-form" dir="rtl" lang="ar">اتَّخَذَ</div>
+<p class="morph-note">He took someone or something for himself, chose it, or placed it in a defined role.</p>
+</a>
+<a class="morph-card" href="#usage-take-gods">
+<div class="morph-form" dir="rtl" lang="ar">اتَّخَذَ إِلٰهًا</div>
+<p class="morph-note">He placed a being, person, force, or concept in the position of a god for himself.</p>
+</a>
+<a class="morph-card" href="#usage-take-awliya">
+<div class="morph-form" dir="rtl" lang="ar">اتَّخَذَ وَلِيًّا</div>
+<p class="morph-note">He took someone or something as a wali, protective authority, support, or guardian.</p>
+</a>
+<a class="morph-card" href="#usage-take-covenant">
+<div class="morph-form" dir="rtl" lang="ar">أَخَذَ الْمِيثَاقَ</div>
+<p class="morph-note">He took the covenant and placed the other party under responsibility in relation to it.</p>
+</a>
+</div>
+</section>
+<section class="root-section" id="section-4">
+<h2>4. The Semantic Core of the Root</h2>
+<p>The semantic core of <strong class="arabic-inline">أ خ ذ</strong> is <strong>taking something out of a state of being loose or outside reach and bringing it within the agent's sphere</strong>.</p>
+<p>That sphere may be physical possession and bodily control:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">لَا تَأْخُذْ بِلِحْيَتِي وَلَا بِرَأْسِي</blockquote>
+<p class="verse-translation">It may be receipt and retention:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">خُذُوا مَا آتَيْنَاكُمْ</blockquote>
+<p class="verse-translation">It may be legal and moral obligation:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">أَخَذْنَا مِيثَاقَكُمْ</blockquote>
+<p class="verse-translation">And it may be punishment and being overtaken:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَخَذَهُمُ اللَّهُ بِذُنُوبِهِمْ</blockquote>
+<p class="verse-translation">In all these uses, something enters an active relation with the agent. Yet not every <strong>akhdh</strong> is necessarily coercive or involves a complete removal of freedom. Taking a book, receiving a share, accepting what has been given, or choosing a path involve different degrees and directions.</p>
+<p>The root is also value-neutral. An agent may take the Book with strength, accept a covenant, take a path toward the Rabb, take a fabricated god, take people's property, or be overtaken in divine punishment. The object and context determine whether the act is sound or corrupt.</p>
+</section>
+<section class="root-section" id="section-5">
+<h2>5. The Material Image of the Root</h2>
+<p>The material image of the root is a hand or instrument reaching something and taking hold of it.</p>
+<p>When a person takes something, a direct relation is formed between that person and the object. The object is no longer merely outside the person's sphere; it is placed within reach, retention, movement, or control.</p>
+<p>This image is explicit in the account of Moses and Aaron:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُ إِلَيْهِ</blockquote>
+<p class="verse-translation">And he took his brother by the head, pulling him toward himself.</p>
+<p><strong>Al-A'raf 7:150</strong></p>
+<p>Aaron says:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">يَا ابْنَ أُمَّ لَا تَأْخُذْ بِلِحْيَتِي وَلَا بِرَأْسِي</blockquote>
+<p class="verse-translation">O son of my mother, do not take me by my beard or by my head.</p>
+<p><strong>Ta-Ha 20:94</strong></p>
+<p>Here, <strong>akhdh</strong> is direct physical taking. The preposition <strong class="arabic-inline">بِـ</strong> identifies the member or point to which the taking is attached.</p>
+<p>Not every use of the root, however, should be reduced to “clenching a fist” or taking hold of an animal. The image of the hand and taking is suitable for clarifying the core, but Arabic extends the root into abstract spheres such as covenant, path, protective authority, and god.</p>
+</section>
+<section class="root-section" id="section-6">
+<h2>6. The Root in Early Arabic Usage</h2>
+<p>In Arabic, <strong class="arabic-inline">أَخَذَ</strong> was used for taking a body, property, a person, a statement, a path, a covenant, or a position. The range of these uses shows that the root was not restricted from the outset to punishment or violent grasping.</p>
+<p>Some lexicons use <strong class="arabic-inline">أَخِيذ</strong> for a captive or someone who has been taken. This form conveys a passive state: a person brought into another's control or whose freedom of movement has been restricted.</p>
+<p>The expression <strong class="arabic-inline">أَخَذَ فِي السَّيْرِ</strong> refers to beginning or entering into travel. In this construction, a person has, as it were, taken up the road or action and entered it, without necessarily seizing it through power or violence.</p>
+<p>Uses are also reported for a basin or place that catches and retains water. Such usage agrees with the broad field of holding something and preventing it from leaving a sphere.</p>
+<p>These witnesses may clarify the root's breadth, but rare or later usages should not be presented as the certain origin of Qur'anic meaning. Philological study must distinguish a shared core from speculative etymological stories.</p>
+</section>
+<section class="root-section" id="section-7">
+<h2>7. The History of Understanding, Misuse, or Semantic Restriction</h2>
+<p>One possible restriction in translation is rendering every form of <strong class="arabic-inline">أ خ ذ</strong> with one fixed word such as “take,” without clarifying the kind of relation established in each context.</p>
+<p>These are not identical:</p>
+<ul>
+<li>taking the head or beard;</li>
+<li>taking a covenant;</li>
+<li>taking the Book with strength;</li>
+<li>taking property;</li>
+<li>taking a path;</li>
+<li>taking someone because of wrongdoing;</li>
+<li>taking a wali or a god.</li>
+</ul>
+<p>In some ayat, “take” is entirely suitable. Elsewhere, “receive,” “seize,” “detain,” “overtake,” “hold accountable,” or “adopt for oneself” may be more natural and precise.</p>
+<p>At the other extreme, continually adding terms such as “powerfully,” “existentially,” “cosmically,” or “inescapably” also overloads the root. The severity of divine taking in punitive ayat is real, but this severity is known from descriptions such as <strong class="arabic-inline">أليم، شديد، بغتة</strong> and from the context of destruction; it is not automatically carried in full by every form of the root.</p>
+<p>Care is also required with <strong>ittikhadh</strong>. Taking a god or wali may establish a deep and identity-forming relation, but the morphology alone does not mean “constructing an existential position.” Its basic meaning is taking someone or something for oneself and placing it in a role. The identity-forming depth is learned from the object and the continuation of the ayah.</p>
+</section>
+<section class="root-section" id="section-8">
+<h2>8. Methodological Note</h2>
+<p>Several levels must be distinguished when studying <strong class="arabic-inline">أ خ ذ</strong>.</p>
+<p>First, <strong>physical taking</strong>, such as taking a head, hand, property, or person.</p>
+<p>Second, <strong>receipt and retention</strong>, such as taking a book or what has been given.</p>
+<p>Third, <strong>taking and imposing an obligation</strong>, such as taking a covenant or commitment.</p>
+<p>Fourth, <strong>overtaking and holding accountable</strong>, such as taking wrongdoers because of their sins.</p>
+<p>Fifth, <strong>ittikhadh</strong>, meaning taking someone or something for oneself and placing it within a role, position, or relationship.</p>
+<p>A ruling belonging to one branch cannot be imposed on every branch. Punitive taking may be sudden and inescapable, but taking a book or a path does not bear those meanings. Likewise, taking a god may have identity-forming consequences, but not every <strong>ittikhadh</strong> is false or grave; the Qur'an also speaks of taking a path toward the Rabb.</p>
+<p>When <strong>akhdh</strong> is attributed to The God, physical anthropomorphism must be avoided. When the Qur'an says that He takes every creature by its forelock or takes oppressive towns, it does not require imagining a bodily hand or human movement for The God. The language expresses encompassing authority, command, and the creature's inability to leave His domain.</p>
+</section>
+<section class="root-section" id="section-9">
+<h2>9. Qur'anic Uses of the Root</h2>
+<h3>A. Physical Taking</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ يَا ابْنَ أُمَّ لَا تَأْخُذْ بِلِحْيَتِي وَلَا بِرَأْسِي</blockquote>
+<p class="verse-translation">He said, “O son of my mother, do not take me by my beard or by my head.”</p>
+<p><strong>Ta-Ha 20:94</strong></p>
+<p>This ayah shows the root's direct material meaning. The taking is attached to a bodily member and makes physical movement or control possible.</p>
+<p>This usage should provide a basis for understanding the root's core, but abstract uses should not be forced back into physical violence.</p>
+<h3 class="derivative-target" id="usage-take-given">B. Taking What Has Been Given</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ</blockquote>
+<p class="verse-translation">Take what We have given you with strength.</p>
+<p><strong>Al-Baqarah 2:63</strong></p>
+<p>This construction presents two complementary directions:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">مَا آتَيْنَاكُمْ</blockquote>
+<p class="verse-translation">what We gave you;</p>
+<p>and:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">خُذُوا</blockquote>
+<p class="verse-translation">take it.</p>
+<p><strong>Ita'</strong> comes from The God, and <strong>akhdh</strong> belongs to the recipients. Yet <strong class="arabic-inline">بِقُوَّةٍ</strong> defines the quality of this taking. <strong>Khudhu</strong> by itself does not necessarily mean “seize forcefully”; the qualifier adds seriousness, firmness, and capacity.</p>
+<p>Taking the Book with strength may include treating it seriously, retaining it, acting by it, and not responding to it weakly. The details of this responsibility are learned from the context of covenant and remembering its content.</p>
+<h3 class="derivative-target" id="usage-take-covenant">C. Taking the Covenant</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِذْ أَخَذْنَا مِيثَاقَكُمْ</blockquote>
+<p class="verse-translation">And when We took your covenant.</p>
+<p><strong>Al-Baqarah 2:63</strong></p>
+<p>Taking a covenant does not mean taking a physical object. A covenant is taken from the other party, and that party becomes responsible in relation to it.</p>
+<p>Here, <strong>akhdh</strong> shows that the covenant is not scattered speech without effect; it was taken from the covenanting parties as a recognized and binding commitment. Expressions such as “existential entanglement” or “direct connection to cosmic laws” should, however, be presented as reflection rather than as the lexical definition of taking a covenant.</p>
+<h3>D. Taking an Acknowledgment and the Burden of the Covenant</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">أَأَقْرَرْتُمْ وَأَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِي قَالُوا أَقْرَرْنَا</blockquote>
+<p class="verse-translation">Did you acknowledge and take My binding burden upon that? They said, “We acknowledge.”</p>
+<p><strong>Ali 'Imran 3:81</strong></p>
+<p>Here, <strong>akhdh</strong> is attributed to the prophets. They accept and take upon themselves the <strong>isr</strong>, the binding burden of the covenant.</p>
+<p>This use shows that <strong>akhdh</strong> is not always taking something from someone else; a person may take something upon oneself. “Accepting” is more precise here than “seizing.”</p>
+<h3>E. Punitive Taking</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">وَكَذَٰلِكَ أَخْذُ رَبِّكَ إِذَا أَخَذَ الْقُرَىٰ وَهِيَ ظَالِمَةٌ إِنَّ أَخْذَهُ أَلِيمٌ شَدِيدٌ</blockquote>
+<p class="verse-translation">Such is the taking of your Rabb when He takes the towns while they are oppressive. His taking is painful and severe.</p>
+<p><strong>Hud 11:102</strong></p>
+<p>The descriptions <strong class="arabic-inline">أليم</strong> and <strong class="arabic-inline">شديد</strong> identify the punitive character of <strong>akhdh</strong> here. The taking of the Rabb in this context is the overtaking of an oppressive society in the consequence and punishment of its conduct.</p>
+<p>It may be translated as “overtaking,” “holding accountable,” or “taking in punishment.” Yet “the automatic reflection of action” should not be treated as the ayah's only certain meaning. The Qur'an also explicitly preserves the agency and judgment of the Rabb.</p>
+<h3>F. Taking Because of Sins</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَخَذَهُمُ اللَّهُ بِذُنُوبِهِمْ</blockquote>
+<p class="verse-translation">Then The God took them because of their sins.</p>
+<p>In this construction, <strong class="arabic-inline">بِـ</strong> introduces the cause or ground of the taking. Their taking is not unrelated to their conduct but connected to their sins.</p>
+<p>A translation may read:</p>
+<p><strong>He held them accountable because of their sins.</strong></p>
+<p>Or:</p>
+<p><strong>He overtook them because of their sins.</strong></p>
+<h3>G. Sudden Taking</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَخَذْنَاهُمْ بَغْتَةً وَهُمْ لَا يَشْعُرُونَ</blockquote>
+<p class="verse-translation">Then We took them suddenly while they were unaware.</p>
+<p><strong>Al-A'raf 7:95</strong></p>
+<p>The suddenness comes from <strong class="arabic-inline">بَغْتَةً</strong>, not from <strong class="arabic-inline">أَخَذَ</strong> itself. In another context, taking need not be sudden.</p>
+<p>The ayah shows that when consequence and punishment arrive, the opportunity for artificial preparation and escape may have passed.</p>
+<h3>H. Taking with No Possibility of Escape</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَلَا فَوْتَ وَأُخِذُوا مِنْ مَكَانٍ قَرِيبٍ</blockquote>
+<p class="verse-translation">Then there is no escape, and they are taken from a near place.</p>
+<p><strong>Saba 34:51</strong></p>
+<p><strong>La fawt</strong> negates getting away, passing beyond reach, or escaping. They are taken, and no route remains for leaving the sphere of this taking.</p>
+<p><strong class="arabic-inline">مِنْ مَكَانٍ قَرِيبٍ</strong> conveys nearness of access and the absence of a safe distance. The expression “from the nearest point within their own souls,” however, goes beyond the wording and should be identified as reflection if proposed.</p>
+<h3>I. Taking a Path</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَنْ شَاءَ اتَّخَذَ إِلَىٰ رَبِّهِ سَبِيلًا</blockquote>
+<p class="verse-translation">So whoever wills may take a path toward his Rabb.</p>
+<p><strong>Al-Muzzammil 73:19</strong></p>
+<p>Here, <strong>ittikhadh</strong> concerns choosing and following a path toward the Rabb. This use shows that <strong>ittikhadh</strong> is not inherently negative.</p>
+<p>A person takes a path for oneself and makes it the course of one's movement. “Identity construction” may be a consequence of this choice, but the base translation is “take a path” or “choose a path for oneself.”</p>
+<h3 class="derivative-target" id="usage-take-gods">J. Taking Gods</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">وَاتَّخَذُوا مِنْ دُونِ اللَّهِ آلِهَةً</blockquote>
+<p class="verse-translation">And they took gods besides The God.</p>
+<p>This does not mean truly creating a god. It means placing a being, force, person, or concept in the position of an <strong>ilah</strong>, a god or object of devotion.</p>
+<p>Such a choice may reshape a person's intellectual, devotional, social, and identity relations, but these consequences arise from the meaning of <strong>ilah</strong> and the wider network of ayat, not from <strong class="arabic-inline">أ خ ذ</strong> alone.</p>
+<h3 class="derivative-target" id="usage-take-awliya">K. Taking Awliya</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">لَا تَتَّخِذُوا الْيَهُودَ وَالنَّصَارَىٰ أَوْلِيَاءَ</blockquote>
+<p class="verse-translation">Do not take the Jews and the Christians as awliya.</p>
+<p><strong>Al-Ma'idah 5:51</strong></p>
+<p>Here, the second object <strong class="arabic-inline">أولياء</strong> identifies the position and relationship in which a group is placed. <strong>Ittikhadh</strong> is not merely ordinary affection or general social relations; the subject is placing them in the role of <strong>wali</strong>.</p>
+<p>The precise meaning of <strong>wali</strong> and the historical and contextual conditions of the ayah must be studied through the root <strong class="arabic-inline">و ل ي</strong> and the surrounding ayat. <strong>Ittikhadh</strong> alone should not be used to construct a universal ruling about every human relationship.</p>
+<h3>L. Taking Ibrahim as a Khalil</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">وَاتَّخَذَ اللَّهُ إِبْرَاهِيمَ خَلِيلًا</blockquote>
+<p class="verse-translation">And The God took Ibrahim as a khalil.</p>
+<p><strong>Al-Nisa 4:125</strong></p>
+<p>In this construction, Ibrahim is the first object and <strong>khalilan</strong> the second. The verb places Ibrahim in the position of khalil.</p>
+<p>This example shows that <strong>ittikhadh</strong> does not always mean manufacturing something false or taking something to satisfy a need. When attributed to The God, “taking for Himself” must not be imagined as a human need for companionship or friendship.</p>
+<h3>M. Taking a House in the Example of the Spider</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">مَثَلُ الَّذِينَ اتَّخَذُوا مِنْ دُونِ اللَّهِ أَوْلِيَاءَ كَمَثَلِ الْعَنْكَبُوتِ اتَّخَذَتْ بَيْتًا</blockquote>
+<p class="verse-translation">The example of those who take awliya besides The God is like the spider that takes a house.</p>
+<p><strong>Al-'Ankabut 29:41</strong></p>
+<p>The repetition of <strong class="arabic-inline">اتخذوا</strong> and <strong class="arabic-inline">اتخذت</strong> strengthens the analogy. People take supports for themselves, and the spider takes a house for itself; the ayah then exposes the frailty of the spider's house.</p>
+<p>It may be said that <strong>ittikhadh</strong> here is not merely a mental judgment: something is placed in life as a support, house, wali, or reference. But “architecting existential reality” goes beyond the direct level of the language and belongs, if used, in conceptual reflection.</p>
+</section>
+<section class="root-section" id="section-10">
+<h2>10. Important Qur'anic Derivatives</h2>
+<h3 class="derivative-target" id="derivative-akhadha">أَخَذَ</h3>
+<p>This is the root's broadest verbal form. Depending on context, it may be translated:</p>
+<ul>
+<li>took;</li>
+<li>received;</li>
+<li>seized;</li>
+<li>detained;</li>
+<li>held accountable;</li>
+<li>overtook;</li>
+<li>accepted or took upon oneself.</li>
+</ul>
+<p>No single translation should be imposed on every ayah.</p>
+<h3 class="derivative-target" id="derivative-akhdh">أَخْذ</h3>
+<p>The verbal noun may express the act of taking itself:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّ أَخْذَهُ أَلِيمٌ شَدِيدٌ</blockquote>
+<p class="verse-translation">His taking is painful and severe.</p>
+<p>In this context, <strong>akhdh</strong> is punitive. But that meaning is made clear by its attribution to the Rabb, the oppressive object, and the descriptions “painful” and “severe.”</p>
+<h3 class="derivative-target" id="derivative-akhdhah">أَخْذَة</h3>
+<p>This form denotes a particular act of taking or overtaking:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَخَذَهُمْ أَخْذَةً رَابِيَةً</blockquote>
+<p class="verse-translation">So He took them with an overwhelming taking.</p>
+<p><strong>Al-Haqqah 69:10</strong></p>
+<p>The intensity comes from <strong class="arabic-inline">رابية</strong>. The basic translation is therefore “a taking” or “an overtaking,” completed by the qualifying description.</p>
+<h3 class="derivative-target" id="derivative-ittakhadha">اتَّخَذَ</h3>
+<p><strong>Ittikhadh</strong> denotes taking something for oneself or placing it in a defined position.</p>
+<p>Its constructions include:</p>
+<ul>
+<li>taking a path;</li>
+<li>taking a wali;</li>
+<li>taking a khalil;</li>
+<li>taking a god;</li>
+<li>taking a house;</li>
+<li>taking a covenant;</li>
+<li>taking a child.</li>
+</ul>
+<p>In some cases, it takes two objects: someone or something is taken and placed in another role. In other cases, the second relation is understood through a preposition or the structure of the sentence.</p>
+</section>
+<section class="root-section" id="section-11">
+<h2>11. A Derivative Used as a Divine Description and Act</h2>
+<p>In the Qur'an, <strong class="arabic-inline">آخِذ</strong> appears as a description in this ayah:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">مَا مِنْ دَابَّةٍ إِلَّا هُوَ آخِذٌ بِنَاصِيَتِهَا إِنَّ رَبِّي عَلَىٰ صِرَاطٍ مُسْتَقِيمٍ</blockquote>
+<p class="verse-translation">There is no moving creature except that He is taking it by its forelock. Indeed, my Rabb is upon a straight path.</p>
+<p><strong>Hud 11:56</strong></p>
+<p><strong>Nasiyah</strong> is the front of the head or the hair at the forehead. In Arabic, taking the forelock may form an image of control, authority, and holding the direction of movement.</p>
+<p>Details concerning the control of a horse or other animal should not, however, be presented as the expression's sole origin without decisive evidence. At the rhetorical level, the ayah expresses The God's complete encompassing authority over every creature: no creature lies outside His domain or reach.</p>
+<p>The expression must not be read bodily. <strong class="arabic-inline">آخذ بناصيتها</strong> does not mean that The God has a physical hand or materially grasps every creature's head. The language conveys ownership, command, encompassing authority, and the creature's inability to escape His order.</p>
+<p>The continuation is also important:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّ رَبِّي عَلَىٰ صِرَاطٍ مُسْتَقِيمٍ</blockquote>
+<p class="verse-translation">His authority and encompassing power are not separated from justice, truthfulness, and a straight order. Divine <strong>akhdh</strong> must therefore not be compared to arbitrary power or unprincipled will.</p>
+</section>
+<section class="root-section" id="section-12">
+<h2>12. Grammatical and Structural Notes</h2>
+<h3>أَخَذَ with a Direct Object</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">أَخَذَ الْقُرَىٰ</blockquote>
+<p class="verse-translation">He took the towns.</p>
+<p>The direct object is the person or thing brought within the sphere of taking.</p>
+<h3>أَخَذَ بِـ</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">أَخَذَ بِرَأْسِ أَخِيهِ</blockquote>
+<p class="verse-translation">He took his brother by the head.</p>
+<p>The preposition <strong class="arabic-inline">بِـ</strong> introduces the point or means of contact. This construction may indicate direct taking or holding onto something.</p>
+<p>But in:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ</blockquote>
+<p class="verse-translation">the <strong class="arabic-inline">بِـ</strong> in <strong class="arabic-inline">بقوة</strong> describes the manner and quality of taking, not the object of the verb. The constructions of <strong class="arabic-inline">أخذ بـ</strong> must therefore not all be analyzed in the same way.</p>
+<h3>أَخَذَ مِنْ</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">أَخَذْنَا مِنْهُمْ مِيثَاقًا غَلِيظًا</blockquote>
+<p class="verse-translation">We took from them a weighty covenant.</p>
+<p><strong class="arabic-inline">مِنْ</strong> introduces the party from whom a covenant or something else is taken.</p>
+<h3>أَخَذَ عَلَىٰ</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">أَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِي</blockquote>
+<p class="verse-translation">You took My binding burden upon that.</p>
+<p>Here, <strong class="arabic-inline">على</strong> introduces that upon which the commitment was accepted.</p>
+<h3>اتَّخَذَ with Two Objects</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">اتَّخَذَ اللَّهُ إِبْرَاهِيمَ خَلِيلًا</blockquote>
+<p class="verse-translation">The God took Ibrahim as a khalil.</p>
+<p>Ibrahim is the first object, and <strong>khalilan</strong> is the position assigned to him.</p>
+<h3>اتَّخَذَ مِنْ دُونِ</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">اتَّخَذُوا مِنْ دُونِ اللَّهِ آلِهَةً</blockquote>
+<p class="verse-translation">They took gods besides The God.</p>
+<p><strong>Min dun</strong> identifies a being or reference placed, apart from The God's authority, in the position of a god, wali, or support.</p>
+</section>
+<section class="root-section" id="section-13">
+<h2>13. أ خ ذ (AKHDH) Compared with أ ت ي (ITA')</h2>
+<p>The root <strong class="arabic-inline">أ ت ي</strong> in Form IV, <strong class="arabic-inline">آتَىٰ</strong>, refers to giving and conveying something to another.</p>
+<p>The root <strong class="arabic-inline">أ خ ذ</strong> refers to the other party taking and receiving it.</p>
+<p>The two occur together:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ</blockquote>
+<p class="verse-translation">Take what We have given you with strength.</p>
+<p><strong>Ita'</strong> shows movement from the giver toward the recipient; <strong>akhdh</strong> shows the recipient's relation to what has been given.</p>
+<p>One should not say, however, that <strong>ita'</strong> is always “gentle and enabling” while <strong>akhdh</strong> is always “powerful and heavy.” Such values come from context. The more basic distinction is:</p>
+<p><strong class="arabic-inline">آتَىٰ:</strong> conveyed and gave something.</p>
+<p><strong class="arabic-inline">أَخَذَ:</strong> took it and brought it within one's own sphere.</p>
+</section>
+<section class="root-section" id="section-14">
+<h2>14. أ خ ذ (AKHDH) Compared with ق ب ض (QABD)</h2>
+<p>The root <strong class="arabic-inline">ق ب ض</strong> is connected with gathering, closing the hand around something, constricting, and standing opposite <strong>bast</strong>, expansion.</p>
+<p><strong class="arabic-inline">أَخَذَ</strong> is broader. Something may be taken without being clenched or compressed. <strong>Akhdh</strong> may be physical, legal, moral, or punitive.</p>
+<p><strong>Qabd</strong> emphasizes gathering or constriction within the hand or a sphere; <strong>akhdh</strong> emphasizes the basic act of taking and bringing within the agent's sphere.</p>
+<p>Every <strong>qabd</strong> is a kind of taking, but not every <strong>akhdh</strong> is necessarily <strong>qabd</strong>.</p>
+</section>
+<section class="root-section" id="section-15">
+<h2>15. أ خ ذ (AKHDH) Compared with ق ب ل (QABUL)</h2>
+<p>The root <strong class="arabic-inline">ق ب ل</strong>, in its branch of acceptance, emphasizes not rejecting and accepting something presented or offered.</p>
+<p>The root <strong class="arabic-inline">أ خ ذ</strong> focuses on taking something and bringing it within one's own sphere.</p>
+<p>The two may approach each other in some contexts, but they are not identical. A person may take something without accepting it morally or legally, or accept a statement without physical taking being involved.</p>
+<p>In concise terms:</p>
+<p><strong class="arabic-inline">قَبِلَ:</strong> did not reject and accepted.</p>
+<p><strong class="arabic-inline">أَخَذَ:</strong> took and placed within the sphere of access or relationship.</p>
+</section>
+<section class="root-section" id="section-16">
+<h2>16. Specialized Discussion and Structural Note: Covenant, Punishment, and Ittikhadh in the Qur'anic Network of أ خ ذ</h2>
+<p>In several groups of ayat, the root <strong class="arabic-inline">أ خ ذ</strong> occurs with words and constructions that clarify the kind of taking involved. These collocations allow us to distinguish the general core from its contextual consequences.</p>
+<p>In the ayat concerning the Children of Israel, taking the covenant appears together with raising the Mount and the command <strong class="arabic-inline">خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ</strong>:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِذْ أَخَذْنَا مِيثَاقَكُمْ وَرَفَعْنَا فَوْقَكُمُ الطُّورَ خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ</blockquote>
+<p class="verse-reference">Al-Baqarah 2:63</p>
+<p>This association shows that the covenant in this context was not an ordinary, insignificant promise. The covenant was taken, the Mount was raised above them, and they were commanded to take what had been given with strength.</p>
+<p>The construction itself, however, does not prove with certainty that the mountain was “the existential embodiment of the covenant's burden.” Such a reading may be literary or conceptual reflection, but the ayah does not state it explicitly. What the text clearly shows is the covenant's seriousness, the force of the accompanying sign, and responsibility toward what was given.</p>
+<p>The raising of the Mount in Al-Baqarah 2:63 and 2:93 and Al-A'raf 7:171 accompanies the reminder of covenant. This repetition may show the event's warning and intensifying role. The people faced a scene that removed the covenant from the level of ordinary speech and exposed the weight of their responsibility.</p>
+<p>In another group of ayat, punitive taking appears with terms such as <strong class="arabic-inline">بَغْتَةً</strong> and <strong class="arabic-inline">لَا فَوْتَ</strong>:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَخَذْنَاهُمْ بَغْتَةً وَهُمْ لَا يَشْعُرُونَ</blockquote>
+<p class="verse-reference">Al-A'raf 7:95</p>
+<p>And:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَلَا فَوْتَ وَأُخِذُوا مِنْ مَكَانٍ قَرِيبٍ</blockquote>
+<p class="verse-reference">Saba 34:51</p>
+<p>In the first ayah, <strong>baghtatan</strong> marks suddenness. In the second, <strong>la fawt</strong> expresses inability to escape or pass beyond reach. These descriptions show that punitive <strong>akhdh</strong> may arrive when the possibility of preparation, delay, or flight has disappeared.</p>
+<p>Yet these ayat do not establish that every divine taking is “the automatic activation of invisible cords of deeds.” The Qur'an links consequence to human conduct and sin, while also preserving The God's agency, knowledge, and judgment. More precisely: through their wrongdoing and conduct, they enter a punitive sphere that the Rabb brings into effect according to His knowledge and justice.</p>
+<p><strong class="arabic-inline">مِنْ مَكَانٍ قَرِيبٍ</strong> also indicates nearness of access and the absence of a safe distance. The expression may carry existential force, but the text does not say that the taking necessarily comes “from within the soul” or “from the nearest point of existence.” Such explanations must remain separate from translation and lexical analysis.</p>
+<p>In Surah Al-'Ankabut, two uses of <strong>ittikhadh</strong> meet within a single analogy:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">مَثَلُ الَّذِينَ اتَّخَذُوا مِنْ دُونِ اللَّهِ أَوْلِيَاءَ كَمَثَلِ الْعَنْكَبُوتِ اتَّخَذَتْ بَيْتًا</blockquote>
+<p class="verse-reference">Al-'Ankabut 29:41</p>
+<p>Some people take awliya besides The God, and the spider takes a house. The weakness of the spider's house is then exposed.</p>
+<p>This parallel shows that <strong>ittikhadh</strong> is not merely mental awareness that something exists. Something is installed as a support, house, wali, or reference, and practical trust is built upon it. In that sense, <strong>ittikhadh</strong> can be structural and identity-forming, because what a person takes as wali, god, or path shapes conduct and reliance.</p>
+<p>Its basic meaning nevertheless remains “taking for oneself and placing in a role.” Phrases such as “architecting existence” or “constructing cosmic reality” are reflective explanations and must not replace the lexical definition.</p>
+<p>These three groups therefore display three distinct applications of the root:</p>
+<p>In taking a covenant, something is taken from a person and the person becomes responsible before the commitment.</p>
+<p>In punitive taking, a person or society is overtaken as the consequence of oppression and wrongdoing.</p>
+<p>In <strong>ittikhadh</strong>, the agent takes something for oneself in the position of a path, wali, god, friend, or support.</p>
+<p>The shared core is taking and bringing within a sphere of relationship, while context identifies that sphere: obligation, punishment, or choice and attachment.</p>
+</section>
+<section class="root-section" id="section-17">
+<h2>17. Translation Suggestions for Forqan</h2>
+<h3>أَخَذَ in General Usage</h3>
+<p>took received seized brought into possession</p>
+<h3>أَخَذَ in Physical Contexts</h3>
+<p>took took hold of took by that point detained, when the context indicates restricting a person</p>
+<h3>أَخَذَ in Covenant Contexts</h3>
+<p>took a covenant took a commitment took from them a weighty covenant</p>
+<h3>أَخَذَ in Punitive Contexts</h3>
+<p>overtook held accountable took in punishment took, preserving the ayah's direct language</p>
+<p>“Bound them in punishment” may suit interpretive prose, but it adds meaning in a base translation.</p>
+<h3>أَخْذ</h3>
+<p>taking overtaking accountability punitive taking, in a punishment context</p>
+<h3>أَخْذَة</h3>
+<p>a taking an overtaking a severe taking, when a qualifier or context indicates severity</p>
+<h3>خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ</h3>
+<p>Take what We have given you with strength.</p>
+<p>Or, in an explanatory translation:</p>
+<p>Take what We have given you with seriousness and firmness.</p>
+<p>“Grasp it with all your strength” is more pictorial but may insert more physical imagery than the text itself.</p>
+<h3>اتَّخَذَ</h3>
+<p>took for oneself chose placed in a defined role took as one's reference or companion adopted or followed, for a path or course</p>
+<h3>اتَّخَذَ إِلٰهًا</h3>
+<p>He took him as his god. He placed him in the position of a god.</p>
+<h3>اتَّخَذَ وَلِيًّا</h3>
+<p>He took him as his wali. He placed him as a protective authority and guardian, depending on the contextual meaning of <strong>wali</strong>.</p>
+<h3>اتَّخَذَ سَبِيلًا</h3>
+<p>He took a path. He chose a path for himself.</p>
+<h3>هُوَ آخِذٌ بِنَاصِيَتِهَا</h3>
+<p>He holds its forelock within His authority.</p>
+<p>Or:</p>
+<p>He has encompassing authority over that creature.</p>
+<p>The first preserves the ayah's image; the second clarifies its explanatory meaning.</p>
+</section>
+<section class="root-section" id="section-18">
+<h2>18. Conclusion</h2>
+<p>The root <strong class="arabic-inline">أ خ ذ</strong> denotes taking and bringing a person or thing within the agent's sphere of access, control, retention, obligation, or pursuit.</p>
+<p>This taking may be entirely material, as in taking the head and beard. It may be receipt and retention, as in taking what has been given. It may be legal and moral, as in taking a covenant. It may be punitive, as in overtaking oppressive towns. In Form VIII, it may mean taking something for oneself and placing it in a defined position, as in taking a path, wali, khalil, or god.</p>
+<p>The root itself does not always mean coercive power, violence, existential obligation, or cosmic punishment. Such meanings are real in some ayat, but they are identified through the object, grammatical construction, descriptions, and context.</p>
+<p>In punitive taking, the Qur'an links <strong>akhdh</strong> with oppression, sin, suddenness, severity, and lack of escape. In taking a covenant, responsibility and obligation are prominent. In <strong>ittikhadh</strong>, something is placed for the agent in a practical and relational position.</p>
+<p>The expression <strong class="arabic-inline">آخذ بناصيتها</strong> conveys The God's encompassing authority over every creature without requiring a bodily or human hand for Him. In the same ayah, this authority is joined with the straight path and is therefore separated from arbitrary power.</p>
+<p>The shortest expression of this root's core is:</p>
+<p><strong>Taking something and bringing it within the agent's sphere of access, control, retention, responsibility, or relationship, with the precise shade determined by each Qur'anic context.</strong></p>
+</section>
+</div>
 </div>

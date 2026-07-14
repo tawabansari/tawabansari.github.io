@@ -4,17 +4,532 @@ title: ریشه قرآنی أ خ ذ
 permalink: /quran-terminology/fa/roots/a-kh-dh/
 ---
 
+
+<style>
+.root-study-page {
+  --root-bg: #fffaf2;
+  --root-surface: #fffdf8;
+  --root-surface-2: #f5ecdc;
+  --root-text: #24211d;
+  --root-muted: #6f685e;
+  --root-border: rgba(96, 78, 48, 0.20);
+  --root-accent: #8a6a2f;
+  --root-accent-soft: rgba(138, 106, 47, 0.10);
+  color: var(--root-text);
+}
+html.dark .root-study-page, body.dark .root-study-page,
+html.dark-mode .root-study-page, body.dark-mode .root-study-page,
+html[data-theme="dark"] .root-study-page, body[data-theme="dark"] .root-study-page,
+[data-bs-theme="dark"] .root-study-page, .forqan-theme-dark .root-study-page,
+.theme-dark .root-study-page {
+  --root-bg: #172133;
+  --root-surface: #1d2a40;
+  --root-surface-2: #25344d;
+  --root-text: #f5f0e7;
+  --root-muted: #c7bdad;
+  --root-border: rgba(236, 211, 161, 0.20);
+  --root-accent: #d6b66e;
+  --root-accent-soft: rgba(214, 182, 110, 0.12);
+}
+html.light .root-study-page, body.light .root-study-page,
+html.light-mode .root-study-page, body.light-mode .root-study-page,
+html[data-theme="light"] .root-study-page, body[data-theme="light"] .root-study-page,
+[data-bs-theme="light"] .root-study-page, .forqan-theme-light .root-study-page,
+.theme-light .root-study-page {
+  --root-bg: #fffaf2;
+  --root-surface: #fffdf8;
+  --root-surface-2: #f5ecdc;
+  --root-text: #24211d;
+  --root-muted: #6f685e;
+  --root-border: rgba(96, 78, 48, 0.20);
+  --root-accent: #8a6a2f;
+  --root-accent-soft: rgba(138, 106, 47, 0.10);
+}
+.root-study-page, .root-study-page * { box-sizing: border-box; }
+.root-study-page .root-frame {
+  max-width: 980px; margin: 0 auto; padding: 1.25rem 1rem 3rem;
+}
+.root-study-page .root-hero, .root-study-page .root-section,
+.root-study-page .root-toc {
+  border: 1px solid var(--root-border);
+  background: var(--root-surface);
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(30, 24, 15, .05);
+}
+.root-study-page .root-hero { padding: 2rem 1.4rem; margin-bottom: 1.2rem; text-align: center; }
+.root-study-page .root-kicker { color: var(--root-accent); font-weight: 800; margin-bottom: .35rem; }
+.root-study-page h1 { margin: 0; font-size: clamp(2rem, 5vw, 3.35rem); line-height: 1.25; }
+.root-study-page .root-subtitle { color: var(--root-muted); max-width: 760px; margin: .8rem auto 0; line-height: 1.95; }
+.root-study-page .root-toc { padding: 1rem 1.2rem; margin-bottom: 1.2rem; }
+.root-study-page .root-toc h2 { margin-top: 0; font-size: 1.2rem; color: var(--root-accent); }
+.root-study-page .root-toc a { color: inherit; text-decoration: none; }
+.root-study-page .root-toc a:hover, .root-study-page .root-toc a:focus { color: var(--root-accent); text-decoration: underline; }
+.root-study-page .root-section { padding: 1.25rem 1.35rem; margin-bottom: 1.15rem; }
+.root-study-page .root-section h2 { margin-top: 0; border-bottom: 1px solid var(--root-border); padding-bottom: .55rem; }
+.root-study-page .root-section h3 { color: var(--root-accent); margin-top: 1.55rem; scroll-margin-top: 1rem; }
+.root-study-page p, .root-study-page li { line-height: 2; }
+.root-study-page .arabic-inline, .root-study-page .morph-form, .root-study-page .arabic-quote {
+  font-family: "Noto Naskh Arabic", "Amiri", serif;
+}
+.root-study-page .arabic-inline { direction: rtl; unicode-bidi: isolate; }
+.root-study-page .arabic-quote {
+  direction: rtl; text-align: center; font-size: 1.45rem; line-height: 2.15;
+  border: 1px solid var(--root-border); background: var(--root-accent-soft);
+  border-radius: 14px; padding: 1rem 1.2rem; margin: 1.15rem 0 .45rem;
+}
+.root-study-page .verse-translation { text-align: center; margin: .4rem 0; }
+.root-study-page .verse-reference { text-align: center; color: var(--root-muted); font-weight: 750; margin-top: .2rem; }
+.root-study-page .morph-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .85rem; }
+.root-study-page .morph-card {
+  display: block; color: inherit; text-decoration: none;
+  border: 1px solid var(--root-border); background: var(--root-surface-2);
+  border-radius: 14px; padding: 1rem; scroll-margin-top: 1rem;
+  transition: transform .16s ease, border-color .16s ease;
+}
+.root-study-page .morph-card:hover, .root-study-page .morph-card:focus {
+  transform: translateY(-2px); border-color: var(--root-accent); outline: none;
+}
+.root-study-page .morph-form { direction: rtl; font-size: 1.45rem; font-weight: 800; margin-bottom: .35rem; }
+.root-study-page .morph-note { color: var(--root-muted); margin: 0; line-height: 1.75; }
+.root-study-page .derivative-target { scroll-margin-top: 1rem; }
+.root-study-page.forqan-page-rtl { direction: rtl; text-align: right; }
+.root-study-page.forqan-page-ltr { direction: ltr; text-align: left; }
+.root-study-page.forqan-page-rtl .root-toc ol { padding-right: 1.4rem; }
+.root-study-page.forqan-page-ltr .root-toc ol { padding-left: 1.4rem; }
+@media (max-width: 640px) {
+  .root-study-page .root-frame { padding-inline: .6rem; }
+  .root-study-page .root-section, .root-study-page .root-hero, .root-study-page .root-toc { padding: 1rem; border-radius: 13px; }
+  .root-study-page .morph-grid { grid-template-columns: 1fr; gap: .65rem; }
+  .root-study-page .arabic-quote { font-size: 1.25rem; }
+}
+</style>
+
 <div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
-  <div class="root-frame">
-    <section class="root-hero">
-      <div class="root-kicker">ریشه قرآنی</div>
-      <h1>ریشه قرآنی أ خ ذ</h1>
-      <p class="root-subtitle">گرفتن، اخذ کردن، دریافت کردن، در اختیار گرفتن، و گرفتن چیزی با اثر و پیامد</p>
-    </section>
-    <section class="root-section">
-      <h2>جای‌نگهدار مقاله</h2>
-      <p>این صفحه به عنوان جای‌نگهدار ریشه <strong class="arabic-large">أ خ ذ</strong> ساخته شده است تا ارجاعات آیات و واژگان قرآنی به مقصد درست وصل باشند. تفصیل کامل این ریشه بعداً افزوده می‌شود.</p>
-      <p>در آیه ۲:۴۸، از هیچ نفس عوض، بدل یا عدل گرفته نمی‌شود؛ یعنی راه پرداخت جایگزین بسته است.</p>
-    </section>
-  </div>
+<div class="root-frame">
+<section class="root-hero">
+<div class="root-kicker">ریشه قرآنی</div>
+<h1>ریشه قرآنی أ خ ذ</h1>
+<p class="root-subtitle">گرفتن، در اختیار آوردن، بازداشتن، و واردکردن چیزی در حوزه تصرف، تعهد یا پیگیری</p>
+</section>
+<nav aria-label="فهرست مقاله" class="root-toc">
+<h2>فهرست مقاله</h2>
+<ol>
+<li><a href="#section-1">۱. معرفی کوتاه ریشه</a></li>
+<li><a href="#section-2">۲. صورت‌ها و مشتق‌های مهم ریشه</a></li>
+<li><a href="#section-3">۳. کارت‌های قابل ارجاع برای مشتق‌های قرآنی</a></li>
+<li><a href="#section-4">۴. هسته معنایی ریشه</a></li>
+<li><a href="#section-5">۵. تصویر مادی ریشه</a></li>
+<li><a href="#section-6">۶. کاربرد ریشه در عربی کهن</a></li>
+<li><a href="#section-7">۷. تاریخچه فهم، سوءاستفاده یا محدودسازی معنایی</a></li>
+<li><a href="#section-8">۸. تبصره روش‌شناختی</a></li>
+<li><a href="#section-9">۹. کاربردهای قرآنی ریشه</a></li>
+<li><a href="#section-10">۱۰. بررسی مشتق‌های مهم در قرآن</a></li>
+<li><a href="#section-11">۱۱. مشتق مربوط به وصف و فعل الهی</a></li>
+<li><a href="#section-12">۱۲. نکات نحوی و ساختاری</a></li>
+<li><a href="#section-13">۱۳. أ خ ذ (أَخْذ) در مقایسه با أ ت ي (إِيتَاء)</a></li>
+<li><a href="#section-14">۱۴. أ خ ذ (أَخْذ) در مقایسه با ق ب ض (قَبْض)</a></li>
+<li><a href="#section-15">۱۵. أ خ ذ (أَخْذ) در مقایسه با ق ب ل (قَبُول)</a></li>
+<li><a href="#section-16">۱۶. بحث تخصصی و تبصره ساختاری: عهد، کیفر و اتخاذ در شبکه قرآنی أ خ ذ</a></li>
+<li><a href="#section-17">۱۷. پیشنهادهای ترجمه برای فرقان</a></li>
+<li><a href="#section-18">۱۸. جمع‌بندی</a></li>
+</ol>
+</nav>
+<section class="root-section" id="section-1">
+<h2>۱. معرفی کوتاه ریشه</h2>
+<p>ریشه <strong class="arabic-inline">أ خ ذ</strong> در میدان معناییِ گرفتن، در اختیار آوردن، نگه‌داشتن، بازداشتن و واردکردن شخص یا چیزی در حوزه تصرف فاعل حرکت می‌کند.</p>
+<p>تصویر پایه این ریشه بسیار عینی است: فاعل چیزی را می‌گیرد، آن را از حالت رها و بیرون از دسترس خارج می‌کند و در حوزه اختیار، نگهداری یا اثر خود قرار می‌دهد. این گرفتن می‌تواند با دست و به‌صورت فیزیکی باشد؛ می‌تواند به معنای دریافت کتاب، مال یا چیزی از دیگری باشد؛ می‌تواند در قالب گرفتن پیمان و الزام‌آورکردن یک تعهد ظاهر شود؛ و می‌تواند درباره فراگرفتن و گرفتارکردن انسان یا جامعه در نتیجه عمل و کیفر به کار رود.</p>
+<p>بااین‌حال، نباید به خود ریشه همیشه معنای «قدرت قهرآمیز»، «تسلط کامل» یا «تعهد وجودی» افزود. بسیاری از کاربردهای قرآنی أ خ ذ همان معنای عمومی «گرفتن» را دارند و شدت، الزام، خشونت یا مجازات از مفعول، حرف اضافه و سیاق آیه شناخته می‌شود.</p>
+<p>برای نمونه، گرفتن سر یا محاسن، اخذ میثاق، اخذ کتاب، گرفتن مال، برگزیدن راه، اتخاذ معبود و اخذ آبادی‌های ستمکار همه از همین خانواده‌اند، اما نوع گرفتن در همه آن‌ها یکسان نیست.</p>
+<p>بنابراین، هسته کوتاه این ریشه چنین است:</p>
+<p><strong class="arabic-inline">گرفتن چیزی و واردکردن آن در حوزه دسترسی، اختیار، نگهداری، رابطه یا پیگیری فاعل.</strong></p>
+</section>
+<section class="root-section" id="section-2">
+<h2>۲. صورت‌ها و مشتق‌های مهم ریشه</h2>
+<h3>أَخَذَ / يَأْخُذُ</h3>
+<p>فعل ثلاثی مجرد به معنای گرفتن، دریافت‌کردن، در اختیار آوردن، بازداشتن یا گرفتارکردن، بسته به سیاق.</p>
+<h3>خُذْ / خُذُوا</h3>
+<p>صورت امر؛ بگیر یا بگیرید. نوع و کیفیت گرفتن معمولاً از مفعول یا قید همراه روشن می‌شود.</p>
+<h3>أُخِذَ / يُؤْخَذُ</h3>
+<p>صورت مجهول؛ گرفته، بازداشت، گرفتار یا مؤاخذه شدن.</p>
+<h3>أَخْذ</h3>
+<p>مصدر ریشه؛ خودِ عمل گرفتن. در برخی آیات، به‌ویژه هنگامی که به پروردگار نسبت داده می‌شود، بر گرفتنِ کیفری و فروگرفتن ستمگران دلالت می‌کند.</p>
+<h3>أَخْذَة</h3>
+<p>یک گرفتن یا فروگرفتن مشخص. این صورت در سیاق‌های قرآنی غالباً درباره گرفتن سخت و کیفری آمده است، اما مفهوم «ناگهانی» یا «تکوینی» را نباید بدون قرینه داخل ساخت صرفی آن گذاشت.</p>
+<h3>اتَّخَذَ / يَتَّخِذُ</h3>
+<p>فعل باب افتعال؛ چیزی یا کسی را برای خود گرفتن، در جایگاهی قرار دادن، برگزیدن، پذیرفتن یا از آن رابطه و موقعیتی برای خود ساختن.</p>
+<h3>مُتَّخِذ</h3>
+<p>اسم فاعل باب افتعال؛ کسی که چیزی را برای خود اتخاذ می‌کند.</p>
+<p>در زبان عربی مشتق‌های دیگری از این خانواده وجود دارند، اما در مقاله ریشه قرآنی باید صورت‌های حاضر در خود قرآن از کاربردهای لغوی و اصطلاحی بیرون از قرآن جدا بمانند.</p>
+</section>
+<section class="root-section" id="section-3">
+<h2>۳. کارت‌های قابل ارجاع برای مشتق‌های قرآنی</h2>
+<div class="morph-grid">
+<a class="morph-card" href="#derivative-akhadha">
+<div class="morph-form" dir="rtl" lang="ar">أَخَذَ</div>
+<p class="morph-note">گرفت، دریافت کرد، در اختیار آورد، بازداشت یا گرفتار کرد؛ معنای دقیق از سیاق تعیین می‌شود.</p>
+</a>
+<a class="morph-card" href="#usage-take-given">
+<div class="morph-form" dir="rtl" lang="ar">خُذْ / خُذُوا</div>
+<p class="morph-note">بگیر یا بگیرید؛ چیزی را عملاً دریافت کنید و با آن وارد رابطه شوید.</p>
+</a>
+<a class="morph-card" href="#derivative-akhdh">
+<div class="morph-form" dir="rtl" lang="ar">أَخْذ</div>
+<p class="morph-note">عمل گرفتن؛ و در برخی سیاق‌ها، فروگرفتن و کیفرکردن.</p>
+</a>
+<a class="morph-card" href="#derivative-akhdhah">
+<div class="morph-form" dir="rtl" lang="ar">أَخْذَة</div>
+<p class="morph-note">یک بار گرفتن یا فروگرفتن؛ در کاربردهای قرآنی غالباً گرفتن سخت و کیفری.</p>
+</a>
+<a class="morph-card" href="#derivative-ittakhadha">
+<div class="morph-form" dir="rtl" lang="ar">اتَّخَذَ</div>
+<p class="morph-note">چیزی یا کسی را برای خود گرفت، برگزید یا در جایگاهی معین قرار داد.</p>
+</a>
+<a class="morph-card" href="#usage-take-gods">
+<div class="morph-form" dir="rtl" lang="ar">اتَّخَذَ إِلٰهًا</div>
+<p class="morph-note">موجود، شخص، نیرو یا مفهومی را در جایگاه معبود برای خود قرار داد.</p>
+</a>
+<a class="morph-card" href="#usage-take-awliya">
+<div class="morph-form" dir="rtl" lang="ar">اتَّخَذَ وَلِيًّا</div>
+<p class="morph-note">کسی یا چیزی را برای خود ولی، تکیه‌گاه یا سرپرست گرفت.</p>
+</a>
+<a class="morph-card" href="#usage-take-covenant">
+<div class="morph-form" dir="rtl" lang="ar">أَخَذَ الْمِيثَاقَ</div>
+<p class="morph-note">پیمان گرفت و طرف مقابل را در نسبت با آن پیمان مسئول ساخت.</p>
+</a>
+</div>
+</section>
+<section class="root-section" id="section-4">
+<h2>۴. هسته معنایی ریشه</h2>
+<p>هسته ریشه أ خ ذ، <strong class="arabic-inline">گرفتن و بیرون‌آوردن چیزی از حالت رها یا بیرون از دسترس و واردکردن آن در حوزه فاعل</strong> است.</p>
+<p>این حوزه ممکن است دست و تصرف جسمانی باشد:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">لَا تَأْخُذْ بِلِحْيَتِي وَلَا بِرَأْسِي</blockquote>
+<p class="verse-translation">ممکن است حوزه نگهداری و دریافت باشد:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">خُذُوا مَا آتَيْنَاكُمْ</blockquote>
+<p class="verse-translation">ممکن است حوزه الزام حقوقی و اخلاقی باشد:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">أَخَذْنَا مِيثَاقَكُمْ</blockquote>
+<p class="verse-translation">و ممکن است حوزه کیفر و گرفتارشدن باشد:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَخَذَهُمُ اللَّهُ بِذُنُوبِهِمْ</blockquote>
+<p class="verse-translation">در همه این موارد، چیزی در نسبت فعال با فاعل قرار می‌گیرد. اما نمی‌توان گفت هر «اخذ» الزاماً قهرآمیز یا همراه با سلب کامل آزادی است. برای مثال، گرفتن کتاب، برداشتن سهم، پذیرفتن آنچه داده شده یا انتخاب راه، درجات و جهت‌های متفاوتی دارند.</p>
+<p>ریشه أ خ ذ از نظر ارزشی نیز خنثی است. فاعل ممکن است کتاب را با قوت بگیرد، پیمانی را بپذیرد، راهی به سوی پروردگار اتخاذ کند، معبودی ساختگی اتخاذ کند، مال مردم را بگیرد یا در کیفر الهی گرفتار شود. نیک یا بد بودن عمل را موضوع و سیاق تعیین می‌کند.</p>
+</section>
+<section class="root-section" id="section-5">
+<h2>۵. تصویر مادی ریشه</h2>
+<p>تصویر مادی ریشه، دست یا ابزاری است که به چیزی می‌رسد و آن را می‌گیرد.</p>
+<p>وقتی انسان چیزی را می‌گیرد، میان او و آن شیء رابطه‌ای مستقیم شکل می‌گیرد. آن چیز دیگر صرفاً در بیرون از حوزه او نیست؛ در دسترس، نگهداری، حرکت یا تصرف او قرار می‌گیرد.</p>
+<p>در داستان موسی و هارون این تصویر آشکار است:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُ إِلَيْهِ</blockquote>
+<p class="verse-translation">و سر برادرش را گرفت و او را به سوی خود می‌کشید.</p>
+<p><strong class="arabic-inline">الأعراف ۷:۱۵۰</strong></p>
+<p>و هارون می‌گوید:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">يَا ابْنَ أُمَّ لَا تَأْخُذْ بِلِحْيَتِي وَلَا بِرَأْسِي</blockquote>
+<p class="verse-translation">ای فرزند مادرم، محاسنم و سرم را مگیر.</p>
+<p><strong class="arabic-inline">طه ۲۰:۹۴</strong></p>
+<p>در این آیات، اخذ گرفتن جسمانی و مستقیم است. حرف <strong class="arabic-inline">بِـ</strong> عضو یا موضعی را نشان می‌دهد که گرفتن به آن تعلق یافته است.</p>
+<p>اما همه کاربردهای ریشه را نباید به «مشت‌کردن پنجه» یا گرفتن چارپا بازگرداند. تصویر دست و گرفتن برای توضیح هسته مناسب است، ولی برخی کاربردها در زبان به حوزه‌های انتزاعی مانند پیمان، راه، دوست و معبود گسترش یافته‌اند.</p>
+</section>
+<section class="root-section" id="section-6">
+<h2>۶. کاربرد ریشه در عربی کهن</h2>
+<p>در عربی، أَخَذَ برای گرفتن جسم، مال، شخص، سخن، راه، پیمان و موضع به کار می‌رفت. گستردگی این کاربرد نشان می‌دهد که ریشه از ابتدا فقط به مجازات یا چنگ‌زدن خشن محدود نبوده است.</p>
+<p>در برخی منابع لغوی، <strong class="arabic-inline">أَخِيذ</strong> درباره اسیر یا کسی که گرفته شده به کار رفته است. این واژه حالت مفعولی را نشان می‌دهد: کسی که در اختیار دیگری قرار گرفته یا امکان حرکت آزادش محدود شده است.</p>
+<p>تعبیر <strong class="arabic-inline">أَخَذَ فِي السَّيْرِ</strong> به آغازکردن و واردشدن در حرکت اشاره می‌کند. در این ساخت، شخص گویی راه یا کار را گرفته و در آن وارد شده است؛ نه اینکه لزوماً با قدرت و خشونت آن را در تصرف آورده باشد.</p>
+<p>همچنین کاربردهایی درباره آبگیر یا جایی که آب را نگه می‌دارد گزارش شده است. این نوع کاربرد با میدان عمومی نگه‌داشتن و خارج‌نشدن چیزی از حوزه سازگار است.</p>
+<p>این شواهد می‌توانند گستردگی معنایی ریشه را نشان دهند، اما نباید کاربردهای نادر یا متأخر به‌عنوان منشأ قطعی معنای قرآنی معرفی شوند. در مطالعه فیلولوژیک، باید میان هسته مشترک و داستان‌های اشتقاقی تفکیک کرد.</p>
+</section>
+<section class="root-section" id="section-7">
+<h2>۷. تاریخچه فهم، سوءاستفاده یا محدودسازی معنایی</h2>
+<p>یکی از محدودسازی‌های ممکن در ترجمه، برگرداندن همه صورت‌های أ خ ذ به یک واژه ثابت مانند «گرفتن» است، بدون آنکه نوع رابطه در سیاق روشن شود.</p>
+<p>برای نمونه، این موارد یکسان نیستند:</p>
+<ul>
+<li>گرفتن سر یا محاسن؛</li>
+<li>گرفتن پیمان؛</li>
+<li>گرفتن کتاب با قوت؛</li>
+<li>گرفتن مال؛</li>
+<li>گرفتن یک راه؛</li>
+<li>گرفتن کسی به سبب گناه؛</li>
+<li>اتخاذ دوست یا معبود.</li>
+</ul>
+<p>در برخی آیات، «گرفتن» ترجمه کاملاً مناسبی است. در برخی دیگر، «دریافت‌کردن»، «ستاندن»، «بازداشتن»، «فروگرفتن»، «مؤاخذه‌کردن» یا «برای خود برگزیدن» طبیعی‌تر و دقیق‌تر است.</p>
+<p>در سوی دیگر، افزودن همیشگی واژه‌هایی مانند «مقتدرانه»، «وجودی»، «تکوینی» و «گریزناپذیر» نیز ریشه را بیش از اندازه سنگین می‌کند. شدت اخذ الهی در آیات کیفر واقعی است، اما این شدت از وصف‌هایی مانند <strong class="arabic-inline">أليم، شديد، بغتة</strong> و از سیاق هلاکت شناخته می‌شود؛ نه اینکه هر صورت ریشه خودبه‌خود همه این معانی را حمل کند.</p>
+<p>درباره <strong class="arabic-inline">اتخاذ</strong> نیز باید محتاط بود. اتخاذ ممکن است رابطه‌ای عمیق و هویت‌ساز ایجاد کند، به‌ویژه در اتخاذ معبود یا ولی، اما معنای صرفی آن به‌تنهایی «ساختن یک موقعیت وجودی» نیست. معنای پایه آن، چیزی یا کسی را برای خود گرفتن و در جایگاهی قرار دادن است. عمق هویتی آن از نوع مفعول و ادامه آیه به دست می‌آید.</p>
+</section>
+<section class="root-section" id="section-8">
+<h2>۸. تبصره روش‌شناختی</h2>
+<p>در بررسی ریشه أ خ ذ باید میان چند سطح فرق گذاشت.</p>
+<p>نخست، <strong class="arabic-inline">گرفتن جسمانی</strong>؛ مانند گرفتن سر، دست، مال یا شخص.</p>
+<p>دوم، <strong class="arabic-inline">دریافت و نگهداری</strong>؛ مانند گرفتن کتاب یا آنچه به انسان داده شده است.</p>
+<p>سوم، <strong class="arabic-inline">ستاندن و الزام</strong>؛ مانند اخذ پیمان یا گرفتن تعهد.</p>
+<p>چهارم، <strong class="arabic-inline">گرفتارکردن و مؤاخذه</strong>؛ مانند اخذ ستمگران به سبب گناهانشان.</p>
+<p>پنجم، <strong class="arabic-inline">اتخاذ</strong>؛ یعنی چیزی یا کسی را برای خود گرفتن و در یک جایگاه، نقش یا رابطه قرار دادن.</p>
+<p>نمی‌توان حکم یک شاخه را بر همه شاخه‌ها جاری کرد. برای مثال، اخذ کیفری ممکن است ناگهانی و گریزناپذیر باشد، اما گرفتن کتاب یا راه چنین معنایی ندارد. همچنین اتخاذ معبود ممکن است پیامد هویتی داشته باشد، ولی هر اتخاذی لزوماً باطل یا سنگین نیست؛ قرآن از اتخاذ راهی به سوی پروردگار نیز سخن می‌گوید.</p>
+<p>در نسبت‌دادن اخذ به آن معبود یگانه نیز باید از تشبیه جسمانی پرهیز کرد. وقتی قرآن می‌گوید او جنبندگان را از ناصیه گرفته یا آبادی‌های ستمکار را اخذ می‌کند، نباید برای خدا دست جسمانی یا حرکت انسانی تصور کرد. زبان، احاطه، اختیار، فرمان و ناتوانی مخلوق از بیرون‌رفتن از قلمرو او را بیان می‌کند.</p>
+</section>
+<section class="root-section" id="section-9">
+<h2>۹. کاربردهای قرآنی ریشه</h2>
+<h3>الف. گرفتن جسمانی</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">قَالَ يَا ابْنَ أُمَّ لَا تَأْخُذْ بِلِحْيَتِي وَلَا بِرَأْسِي</blockquote>
+<p class="verse-translation">گفت: ای فرزند مادرم، محاسنم و سرم را مگیر.</p>
+<p><strong class="arabic-inline">طه ۲۰:۹۴</strong></p>
+<p>این آیه معنای مستقیم و مادی ریشه را نشان می‌دهد. گرفتن به عضو جسمانی تعلق گرفته و حرکت یا کنترل فیزیکی را ممکن ساخته است.</p>
+<p>این کاربرد باید مبنایی برای فهم هسته ریشه باشد، اما نباید تمام کاربردهای انتزاعی را به زور به خشونت جسمانی برگرداند.</p>
+<h3 class="derivative-target" id="usage-take-given">ب. گرفتن آنچه داده شده است</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ</blockquote>
+<p class="verse-translation">آنچه به شما داده‌ایم با قوت بگیرید.</p>
+<p><strong class="arabic-inline">البقره ۲:۶۳</strong></p>
+<p>در این ساخت، دو جهت مکمل دیده می‌شود:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">مَا آتَيْنَاكُمْ<br/>آنچه به شما دادیم؛</blockquote>
+<p class="verse-translation">و:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">خُذُوا<br/>آن را بگیرید.</blockquote>
+<p class="verse-translation">ایتاء از سوی آن معبود یگانه است و اخذ از سوی دریافت‌کنندگان. اما <strong class="arabic-inline">بِقُوَّةٍ</strong> است که کیفیت این اخذ را مشخص می‌کند. خود خذوا لزوماً به معنای «چنگ‌زدن مقتدرانه» نیست؛ قید با قوت، جدیت، استواری و توان را می‌افزاید.</p>
+<p>گرفتن کتاب با قوت می‌تواند بر جدی‌گرفتن، نگهداری، عمل‌کردن و سست‌نبودن در برابر آن دلالت کند. جزئیات این مسئولیت از سیاق پیمان و یادآوری محتوا فهمیده می‌شود.</p>
+<h3 class="derivative-target" id="usage-take-covenant">ج. اخذ میثاق</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِذْ أَخَذْنَا مِيثَاقَكُمْ</blockquote>
+<p class="verse-translation">و آنگاه که پیمانتان را گرفتیم.</p>
+<p><strong class="arabic-inline">البقره ۲:۶۳</strong></p>
+<p>گرفتن پیمان به معنای گرفتن یک جسم نیست. پیمان از طرف مقابل گرفته می‌شود و او در نسبت با آن مسئول می‌گردد.</p>
+<p>در این کاربرد، اخذ نشان می‌دهد که میثاق فقط سخنی پراکنده و بی‌اثر نیست؛ به‌صورت عهدی شناخته‌شده و الزام‌آور از طرف پیمان‌دهندگان گرفته شده است. اما تعبیرهایی مانند «گره‌خوردگی وجودی» یا «پیوستن مستقیم به قوانین تکوینی» باید به‌عنوان تأمل معرفی شوند، نه تعریف لغوی اخذ میثاق.</p>
+<h3>د. اخذ اقرار و بار عهد</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">أَأَقْرَرْتُمْ وَأَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِي قَالُوا أَقْرَرْنَا</blockquote>
+<p class="verse-translation">آیا اقرار کردید و بر این اساس بار عهد مرا پذیرفتید؟ گفتند: اقرار کردیم.</p>
+<p><strong class="arabic-inline">آل‌عمران ۳:۸۱</strong></p>
+<p>در اینجا، اخذ به پیامبران نسبت داده شده است. آنان «إصر» یا بار عهد را می‌پذیرند و بر خود می‌گیرند.</p>
+<p>این کاربرد نشان می‌دهد که اخذ همیشه گرفتن چیزی از دیگری نیست؛ ممکن است انسان چیزی را بر خود بگیرد. ترجمه «پذیرفتن» در چنین سیاقی از «به چنگ آوردن» دقیق‌تر است.</p>
+<h3>هـ. اخذ کیفری</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">وَكَذَٰلِكَ أَخْذُ رَبِّكَ إِذَا أَخَذَ الْقُرَىٰ وَهِيَ ظَالِمَةٌ إِنَّ أَخْذَهُ أَلِيمٌ شَدِيدٌ</blockquote>
+<p class="verse-translation">و چنین است گرفتن پروردگارت، هنگامی که آبادی‌ها را درحالی‌که ستمکارند می‌گیرد؛ همانا گرفتن او دردناک و سخت است.</p>
+<p><strong class="arabic-inline">هود ۱۱:۱۰۲</strong></p>
+<p>در این آیه، وصف‌های <strong class="arabic-inline">أليم</strong> و <strong class="arabic-inline">شديد</strong> ماهیت کیفری اخذ را روشن می‌کنند. گرفتن پروردگار در این سیاق فروگرفتن جامعه ستمکار در نتیجه و کیفر عمل آن است.</p>
+<p>می‌توان آن را «فروگرفتن»، «مؤاخذه‌کردن» یا «در کیفر گرفتن» ترجمه کرد. بااین‌حال، نباید «بازتاب خودکار عمل» را تنها معنای قطعی آیه دانست. قرآن فاعلیت و داوری پروردگار را نیز صریحاً حفظ می‌کند.</p>
+<h3>و. اخذ به سبب گناهان</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَخَذَهُمُ اللَّهُ بِذُنُوبِهِمْ</blockquote>
+<p class="verse-translation">پس آن معبود یگانه آنان را به سبب گناهانشان گرفت.</p>
+<p>در این ساخت، حرف <strong class="arabic-inline">بِـ</strong> سبب یا زمینه اخذ را معرفی می‌کند: اخذ آنان بی‌ارتباط با رفتارشان نیست، بلکه به گناهانشان مربوط است.</p>
+<p>ترجمه می‌تواند چنین باشد:</p>
+<p><strong class="arabic-inline">آنان را به سبب گناهانشان مؤاخذه کرد.</strong></p>
+<p>یا:</p>
+<p><strong class="arabic-inline">آنان را به سبب گناهانشان فروگرفت.</strong></p>
+<h3>ز. اخذ ناگهانی</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَخَذْنَاهُمْ بَغْتَةً وَهُمْ لَا يَشْعُرُونَ</blockquote>
+<p class="verse-translation">پس ناگهان آنان را گرفتیم، درحالی‌که آگاه نبودند.</p>
+<p><strong class="arabic-inline">الأعراف ۷:۹۵</strong></p>
+<p>در این آیه، ناگهانی‌بودن از <strong class="arabic-inline">بَغْتَةً</strong> فهمیده می‌شود، نه از خود أَخَذَ. اخذ می‌تواند در سیاق دیگری ناگهانی نباشد.</p>
+<p>آیه نشان می‌دهد که هنگامی که نتیجه و کیفر فرامی‌رسد، فرصت آماده‌سازی ساختگی و گریز ممکن است از میان رفته باشد.</p>
+<h3>ح. اخذ بدون امکان گریز</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَلَا فَوْتَ وَأُخِذُوا مِنْ مَكَانٍ قَرِيبٍ</blockquote>
+<p class="verse-translation">پس هیچ گریزی نیست و از مکانی نزدیک گرفته می‌شوند.</p>
+<p><strong class="arabic-inline">سبأ ۳۴:۵۱</strong></p>
+<p>«لا فوت» نفی بیرون‌رفتن، ازدست‌رفتن یا گریختن از دسترس را بیان می‌کند. آنان گرفته می‌شوند و راهی برای بیرون‌رفتن از قلمرو این اخذ ندارند.</p>
+<p>«مِنْ مَكَانٍ قَرِيبٍ» نزدیکی دسترسی و نبود فاصله امن را می‌رساند. اما تعبیر «نزدیک‌ترین نقطه به جان خود آنان» فراتر از لفظ آیه است و باید در صورت طرح، به‌عنوان تأمل معرفی شود.</p>
+<h3>ط. اتخاذ راه</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَنْ شَاءَ اتَّخَذَ إِلَىٰ رَبِّهِ سَبِيلًا</blockquote>
+<p class="verse-translation">پس هر کس بخواهد، به سوی پروردگارش راهی برای خود بگیرد.</p>
+<p><strong class="arabic-inline">المزمل ۷۳:۱۹</strong></p>
+<p>اتخاذ در این آیه درباره انتخاب و درپیش‌گرفتن راهی به سوی پروردگار است. این کاربرد نشان می‌دهد که اتخاذ ذاتاً منفی نیست.</p>
+<p>انسان راهی را برای خود می‌گیرد و آن را مسیر حرکت خویش قرار می‌دهد. «برساخت هویتی» ممکن است پیامد این انتخاب باشد، ولی ترجمه پایه همان «راهی در پیش گیرد» یا «راهی برای خود برگزیند» است.</p>
+<h3 class="derivative-target" id="usage-take-gods">ی. اتخاذ معبود</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">وَاتَّخَذُوا مِنْ دُونِ اللَّهِ آلِهَةً</blockquote>
+<p class="verse-translation">و جز آن معبود یگانه، معبودهایی برای خود گرفتند.</p>
+<p>در این ساخت، اتخاذ به معنای آفریدن واقعی یک خدا نیست؛ بلکه موجود، نیرو، شخص یا مفهومی را در جایگاه اله و معبود قراردادن است.</p>
+<p>این انتخاب می‌تواند مناسبات فکری، عبادی، اجتماعی و هویتی انسان را تغییر دهد، اما این پیامدها از معنای <strong class="arabic-inline">إله</strong> و شبکه کامل آیات به دست می‌آیند، نه از ریشه أ خ ذ به‌تنهایی.</p>
+<h3 class="derivative-target" id="usage-take-awliya">ک. اتخاذ اولیا</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">لَا تَتَّخِذُوا الْيَهُودَ وَالنَّصَارَىٰ أَوْلِيَاءَ</blockquote>
+<p class="verse-translation">یهود و نصاری را برای خود اولیا نگیرید.</p>
+<p><strong class="arabic-inline">المائده ۵:۵۱</strong></p>
+<p>در این آیه، مفعول دوم <strong class="arabic-inline">أولياء</strong> جایگاه و رابطه‌ای را نشان می‌دهد که گروهی در آن قرار داده می‌شوند. اتخاذ فقط دوست‌داشتن عادی یا رابطه اجتماعی عمومی نیست؛ موضوع اصلی، قرار دادن آنان در جایگاه «ولی» است.</p>
+<p>معنای دقیق ولی و شرایط تاریخی و سیاقی آیه باید در مطالعه ریشه و ل ي و آیات پیرامون بررسی شود. نباید اتخاذ را به‌تنهایی برای ساختن یک حکم فراگیر درباره تمام روابط انسانی کافی دانست.</p>
+<h3>ل. اتخاذ خلیل</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">وَاتَّخَذَ اللَّهُ إِبْرَاهِيمَ خَلِيلًا</blockquote>
+<p class="verse-translation">و آن معبود یگانه ابراهیم را خلیل گرفت.</p>
+<p><strong class="arabic-inline">النساء ۴:۱۲۵</strong></p>
+<p>در این ساخت، ابراهیم مفعول نخست و خلیلاً مفعول دوم است. فعل، ابراهیم را در جایگاه خلیل قرار می‌دهد.</p>
+<p>این نمونه نشان می‌دهد که اتخاذ همیشه به معنای ساختن چیزی باطل یا گرفتن برای رفع نیاز نیست. وقتی به آن معبود یگانه نسبت داده می‌شود، نباید «برای خود گرفتن» را مانند نیاز انسان به همراه و دوست تصور کرد.</p>
+<h3>م. اتخاذ خانه در مثال عنکبوت</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">مَثَلُ الَّذِينَ اتَّخَذُوا مِنْ دُونِ اللَّهِ أَوْلِيَاءَ كَمَثَلِ الْعَنْكَبُوتِ اتَّخَذَتْ بَيْتًا</blockquote>
+<p class="verse-translation">مثال کسانی که جز آن معبود یگانه اولیایی برای خود گرفتند، مانند عنکبوت است که خانه‌ای برای خود گرفت.</p>
+<p><strong class="arabic-inline">العنکبوت ۲۹:۴۱</strong></p>
+<p>تکرار <strong class="arabic-inline">اتخذوا</strong> و <strong class="arabic-inline">اتخذت</strong> رابطه مثالی را تقویت می‌کند. انسان‌ها تکیه‌گاه‌هایی برای خود می‌گیرند و عنکبوت خانه‌ای برای خود می‌گیرد؛ سپس آیه سستی خانه عنکبوت را آشکار می‌سازد.</p>
+<p>می‌توان گفت اتخاذ در اینجا فقط یک تصمیم ذهنی نیست؛ چیزی به‌عنوان تکیه‌گاه در زندگی قرار داده می‌شود. اما تعبیر «معماری واقعیت وجودی» از سطح مستقیم زبان فراتر می‌رود و بهتر است در تأمل مفهومی به کار رود.</p>
+</section>
+<section class="root-section" id="section-10">
+<h2>۱۰. بررسی مشتق‌های مهم در قرآن</h2>
+<h3 class="derivative-target" id="derivative-akhadha">أَخَذَ</h3>
+<p>این فعل گسترده‌ترین صورت ریشه است و بسته به سیاق می‌تواند چنین ترجمه شود:</p>
+<ul>
+<li>گرفت؛</li>
+<li>دریافت کرد؛</li>
+<li>ستاند؛</li>
+<li>بازداشت؛</li>
+<li>مؤاخذه کرد؛</li>
+<li>فروگرفت؛</li>
+<li>پذیرفت یا بر عهده گرفت.</li>
+</ul>
+<p>نباید یکی از این ترجمه‌ها به همه آیات تحمیل شود.</p>
+<h3 class="derivative-target" id="derivative-akhdh">أَخْذ</h3>
+<p>مصدر می‌تواند خودِ عمل گرفتن را بیان کند:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّ أَخْذَهُ أَلِيمٌ شَدِيدٌ</blockquote>
+<p class="verse-translation">گرفتن او دردناک و سخت است.</p>
+<p>در چنین سیاقی، «اخذ» معنای کیفری دارد. اما این معنا از نسبت آن به پروردگار، مفعول ستمکار و وصف‌های دردناک و سخت روشن می‌شود.</p>
+<h3 class="derivative-target" id="derivative-akhdhah">أَخْذَة</h3>
+<p>این صورت یک اخذ یا فروگرفتن مشخص را نشان می‌دهد:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَخَذَهُمْ أَخْذَةً رَابِيَةً</blockquote>
+<p class="verse-translation">پس آنان را گرفتنی افزون و سخت گرفت.</p>
+<p><strong class="arabic-inline">الحاقه ۶۹:۱۰</strong></p>
+<p>شدت از وصف <strong class="arabic-inline">رابية</strong> فهمیده می‌شود. بنابراین، ترجمه پایه «گرفتنی» یا «فروگرفتنی» است و سپس صفت شدت آن را کامل می‌کند.</p>
+<h3 class="derivative-target" id="derivative-ittakhadha">اتَّخَذَ</h3>
+<p>اتخاذ بر گرفتن چیزی برای خود یا قرار دادن آن در جایگاهی معین دلالت دارد.</p>
+<p>ساخت‌های آن متنوع‌اند:</p>
+<ul>
+<li>اتخاذ راه؛</li>
+<li>اتخاذ ولی؛</li>
+<li>اتخاذ خلیل؛</li>
+<li>اتخاذ معبود؛</li>
+<li>اتخاذ خانه؛</li>
+<li>اتخاذ عهد؛</li>
+<li>اتخاذ فرزند.</li>
+</ul>
+<p>در برخی موارد، اتخاذ به دو مفعول نیاز دارد؛ چیزی یا کسی گرفته می‌شود و در جایگاه دیگری قرار می‌گیرد. در برخی موارد، مفعول دوم از حرف اضافه یا ساخت جمله فهمیده می‌شود.</p>
+</section>
+<section class="root-section" id="section-11">
+<h2>۱۱. مشتق مربوط به وصف و فعل الهی</h2>
+<p>در قرآن، «آخِذ» به‌صورت وصف در این آیه آمده است:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">مَا مِنْ دَابَّةٍ إِلَّا هُوَ آخِذٌ بِنَاصِيَتِهَا إِنَّ رَبِّي عَلَىٰ صِرَاطٍ مُسْتَقِيمٍ</blockquote>
+<p class="verse-translation">هیچ جنبنده‌ای نیست مگر اینکه او گیرنده ناصیه آن است؛ همانا پروردگار من بر راهی مستقیم است.</p>
+<p><strong class="arabic-inline">هود ۱۱:۵۶</strong></p>
+<p><strong class="arabic-inline">ناصیه</strong> بخش پیشین سر یا موی جلوی پیشانی است. در زبان عربی، گرفتن ناصیه می‌تواند تصویری از مهار، اختیار و در دست‌داشتن جهت حرکت باشد.</p>
+<p>اما نباید جزئیات مربوط به مهار اسب یا چارپا را بدون شاهد قطعی به‌عنوان تنها منشأ تعبیر معرفی کرد. آیه در سطح بلاغی، احاطه و اختیار کامل آن معبود یگانه بر هر جنبنده را بیان می‌کند: هیچ موجودی بیرون از قلمرو و دسترس او نیست.</p>
+<p>این تعبیر نباید جسمانی فهمیده شود. «آخذ بناصيتها» به معنای داشتن دست جسمانی یا گرفتن مادی سر همه موجودات نیست. زبان، مالکیت، فرمان، احاطه و ناتوانی مخلوق از گریز از نظام او را نشان می‌دهد.</p>
+<p>ادامه آیه نیز مهم است:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">إِنَّ رَبِّي عَلَىٰ صِرَاطٍ مُسْتَقِيمٍ</blockquote>
+<p class="verse-translation">اختیار و احاطه او از عدالت، راستی و نظام مستقیم جدا نیست. ازاین‌رو، نباید اخذ الهی را به قدرت بی‌قاعده یا اراده خودسرانه تشبیه کرد.</p>
+</section>
+<section class="root-section" id="section-12">
+<h2>۱۲. نکات نحوی و ساختاری</h2>
+<h3>أَخَذَ با مفعول مستقیم</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">أَخَذَ الْقُرَىٰ</blockquote>
+<p class="verse-translation">آبادی‌ها را گرفت.</p>
+<p>مفعول مستقیم چیزی یا کسی است که در حوزه اخذ قرار می‌گیرد.</p>
+<h3>أَخَذَ بِـ</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">أَخَذَ بِرَأْسِ أَخِيهِ</blockquote>
+<p class="verse-translation">سر برادرش را گرفت.</p>
+<p>حرف <strong class="arabic-inline">بِـ</strong> موضع یا وسیله تماس را معرفی می‌کند. این ساخت می‌تواند گرفتن مستقیم و چسبیدن به چیزی را نشان دهد.</p>
+<p>اما در:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ</blockquote>
+<p class="verse-translation">حرف <strong class="arabic-inline">بِـ</strong> در «بقوة» کیفیت و حالت گرفتن را بیان می‌کند، نه مفعول فعل را. بنابراین، نباید همه ساخت‌های أَخَذَ بِـ را یکسان تحلیل کرد.</p>
+<h3>أَخَذَ مِنْ</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">أَخَذْنَا مِنْهُمْ مِيثَاقًا غَلِيظًا</blockquote>
+<p class="verse-translation">از آنان پیمانی استوار گرفتیم.</p>
+<p><strong class="arabic-inline">مِنْ</strong> طرفی را معرفی می‌کند که پیمان یا چیز دیگری از او گرفته می‌شود.</p>
+<h3>أَخَذَ عَلَىٰ</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">أَخَذْتُمْ عَلَىٰ ذَٰلِكُمْ إِصْرِي</blockquote>
+<p class="verse-translation">بار عهد مرا بر آن پذیرفتید.</p>
+<p>در اینجا، <strong class="arabic-inline">على</strong> چیزی را معرفی می‌کند که تعهد بر بنیاد آن پذیرفته شده است.</p>
+<h3>اتَّخَذَ با دو مفعول</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">اتَّخَذَ اللَّهُ إِبْرَاهِيمَ خَلِيلًا</blockquote>
+<p class="verse-translation">آن معبود یگانه ابراهیم را خلیل گرفت.</p>
+<p>ابراهیم مفعول نخست و خلیلاً جایگاهی است که برای او بیان شده است.</p>
+<h3>اتَّخَذَ مِنْ دُونِ</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">اتَّخَذُوا مِنْ دُونِ اللَّهِ آلِهَةً</blockquote>
+<p class="verse-translation">معبودهایی جز آن معبود یگانه برای خود گرفتند.</p>
+<p>«من دون» موجود یا مرجعی را نشان می‌دهد که جدا از مرجعیت آن معبود یگانه در جایگاه اله، ولی یا تکیه‌گاه قرار داده شده است.</p>
+</section>
+<section class="root-section" id="section-13">
+<h2>۱۳. أ خ ذ (أَخْذ) در مقایسه با أ ت ي (إِيتَاء)</h2>
+<p>ریشه <strong class="arabic-inline">أ ت ي</strong> در باب افعال، یعنی <strong class="arabic-inline">آتَىٰ</strong>، به دادن و رساندن چیزی به دیگری اشاره می‌کند.</p>
+<p>ریشه <strong class="arabic-inline">أ خ ذ</strong> به گرفتن و دریافت آن از سوی طرف مقابل اشاره دارد.</p>
+<p>این دو در آیه‌ای کنار هم آمده‌اند:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ</blockquote>
+<p class="verse-translation">آنچه به شما داده‌ایم، با قوت بگیرید.</p>
+<p>ایتاء جهت حرکت را از بخشنده به دریافت‌کننده نشان می‌دهد؛ اخذ جهت رابطه دریافت‌کننده با آنچه داده شده است.</p>
+<p>بااین‌حال، نباید گفت ایتاء همیشه «نرم و بسترآفرین» و اخذ همیشه «مقتدرانه و سنگین» است. این ارزش‌ها از سیاق می‌آیند. تفاوت بنیادی‌تر این است:</p>
+<p><strong class="arabic-inline">آتَىٰ:</strong> چیزی را رساند و داد. <strong class="arabic-inline">أَخَذَ:</strong> آن را گرفت و در حوزه خود وارد کرد.</p>
+</section>
+<section class="root-section" id="section-14">
+<h2>۱۴. أ خ ذ (أَخْذ) در مقایسه با ق ب ض (قَبْض)</h2>
+<p>ریشه <strong class="arabic-inline">ق ب ض</strong> با جمع‌کردن، در مشت گرفتن، محدودکردن و مقابل بسط قرارگرفتن پیوند دارد.</p>
+<p><strong class="arabic-inline">أَخَذَ</strong> عمومی‌تر است. ممکن است چیزی بدون مشت‌کردن یا فشردن گرفته شود. اخذ می‌تواند جسمانی، حقوقی، اخلاقی یا کیفری باشد.</p>
+<p>قبض بیشتر بر جمع‌شدن و محدودشدن در دست یا حوزه تأکید دارد؛ اخذ بر اصل گرفتن و واردکردن در حوزه فاعل.</p>
+<p>پس هر قبض نوعی گرفتن است، اما هر اخذ لزوماً قبض نیست.</p>
+</section>
+<section class="root-section" id="section-15">
+<h2>۱۵. أ خ ذ (أَخْذ) در مقایسه با ق ب ل (قَبُول)</h2>
+<p>ریشه <strong class="arabic-inline">ق ب ل</strong> در شاخه پذیرش بر ردنکردن و پذیرفتن چیزی که عرضه یا ارائه شده است تأکید دارد.</p>
+<p>ریشه <strong class="arabic-inline">أ خ ذ</strong> بر گرفتن و واردکردن چیزی در حوزه خود تمرکز دارد.</p>
+<p>این دو ممکن است در برخی سیاق‌ها به هم نزدیک شوند، اما یکسان نیستند. ممکن است انسان چیزی را بگیرد ولی آن را از نظر اخلاقی یا حقوقی نپذیرد؛ یا سخنی را بپذیرد بدون آنکه گرفتن جسمانی مطرح باشد.</p>
+<p>به‌طور خلاصه:</p>
+<p><strong class="arabic-inline">قَبِلَ:</strong> رد نکرد و پذیرفت. <strong class="arabic-inline">أَخَذَ:</strong> گرفت و در حوزه دسترسی یا رابطه خود قرار داد.</p>
+</section>
+<section class="root-section" id="section-16">
+<h2>۱۶. بحث تخصصی و تبصره ساختاری: عهد، کیفر و اتخاذ در شبکه قرآنی أ خ ذ</h2>
+<p>در چند مجموعه از آیات، ریشه أ خ ذ با واژه‌ها و ساخت‌هایی همراه می‌شود که نوع گرفتن را روشن می‌کنند. این هم‌نشینی‌ها به ما اجازه می‌دهند میان هسته عمومی ریشه و پیامدهای سیاقی آن فرق بگذاریم.</p>
+<p>در آیات مربوط به بنی‌اسرائیل، اخذ میثاق با رفع طور و فرمان <strong class="arabic-inline">خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ</strong> همراه شده است:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِذْ أَخَذْنَا مِيثَاقَكُمْ وَرَفَعْنَا فَوْقَكُمُ الطُّورَ خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ</blockquote>
+<p class="verse-reference">البقره ۲:۶۳</p>
+<p>این هم‌نشینی نشان می‌دهد که پیمان در این سیاق یک وعده عادی و بی‌اهمیت نیست. میثاق گرفته شده، طور بر فراز آنان قرار گرفته و از آنان خواسته شده است آنچه داده شده با قوت بگیرند.</p>
+<p>بااین‌حال، از خود این ساختار نمی‌توان با قطعیت نتیجه گرفت که کوه «تجسم وجودی بار پیمان» بوده است. چنین برداشتی می‌تواند یک تأمل ادبی یا مفهومی باشد، اما آیه صریحاً آن را بیان نمی‌کند. آنچه متن به‌روشنی نشان می‌دهد، جدیت میثاق، قدرت نشانه همراه آن و مسئولیت در برابر آنچه داده شده است.</p>
+<p>رفع طور در البقره ۲:۶۳ و ۲:۹۳ و الأعراف ۷:۱۷۱ با یادآوری پیمان همراه است. این تکرار می‌تواند نقش هشداردهنده و جدی‌کننده آن واقعه را نشان دهد. انسان‌ها با صحنه‌ای روبه‌رو شده‌اند که پیمان را از سطح سخن روزمره بیرون می‌آورد و سنگینی مسئولیتشان را آشکار می‌سازد.</p>
+<p>در مجموعه دیگری از آیات، اخذ کیفری با واژه‌هایی مانند <strong class="arabic-inline">بَغْتَةً</strong> و <strong class="arabic-inline">لَا فَوْتَ</strong> همراه است:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَخَذْنَاهُمْ بَغْتَةً وَهُمْ لَا يَشْعُرُونَ</blockquote>
+<p class="verse-reference">الأعراف ۷:۹۵</p>
+<p>و:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">فَلَا فَوْتَ وَأُخِذُوا مِنْ مَكَانٍ قَرِيبٍ</blockquote>
+<p class="verse-reference">سبأ ۳۴:۵۱</p>
+<p>در آیه نخست، بغتة ناگهانی‌بودن اخذ را نشان می‌دهد. در آیه دوم، لا فوت ناتوانی از گریز و بیرون‌رفتن از دسترس را بیان می‌کند. این اوصاف نشان می‌دهند که اخذ کیفری می‌تواند زمانی فرا رسد که امکان آماده‌سازی، تأخیر یا فرار از میان رفته است.</p>
+<p>اما نباید از این آیات نتیجه گرفت که هر اخذ الهی الزاماً «فعال‌شدن خودکار ریسمان‌های نامرئی اعمال» است. قرآن نتیجه را به اعمال و گناهان انسان‌ها پیوند می‌دهد، ولی هم‌زمان فاعلیت، علم و داوری آن معبود یگانه را نیز حفظ می‌کند. بنابراین، دقیق‌تر است گفته شود: آنان در نتیجه ظلم و کردار خود، در قلمرو کیفری قرار می‌گیرند که پروردگار بر اساس علم و عدالت خود آن را جاری می‌سازد.</p>
+<p>تعبیر <strong class="arabic-inline">مِنْ مَكَانٍ قَرِيبٍ</strong> نیز نزدیکی دسترسی و نبود فاصله امن را نشان می‌دهد. این تعبیر می‌تواند هراس‌انگیز و وجودی باشد، اما متن نمی‌گوید اخذ حتماً از «درون جان» یا «نزدیک‌ترین نقطه وجودی» صورت می‌گیرد. چنین توضیحی باید از ترجمه و تحلیل لغوی جدا بماند.</p>
+<p>در سوره عنکبوت، دو کاربرد اتخاذ در یک مثال با یکدیگر روبه‌رو می‌شوند:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar">مَثَلُ الَّذِينَ اتَّخَذُوا مِنْ دُونِ اللَّهِ أَوْلِيَاءَ كَمَثَلِ الْعَنْكَبُوتِ اتَّخَذَتْ بَيْتًا</blockquote>
+<p class="verse-reference">العنکبوت ۲۹:۴۱</p>
+<p>کسانی برای خود اولیایی جز آن معبود یگانه می‌گیرند و عنکبوت نیز خانه‌ای برای خود می‌گیرد. سپس ضعف خانه عنکبوت آشکار می‌شود.</p>
+<p>این تقارن نشان می‌دهد که اتخاذ فقط آگاهی ذهنی از وجود چیزی نیست. چیزی در جایگاه تکیه‌گاه، خانه، ولی یا مرجع قرار داده می‌شود و انسان رابطه عملی خود را بر آن بنا می‌کند. در این معنا، اتخاذ می‌تواند ساختاری و هویت‌ساز باشد؛ زیرا آنچه انسان به‌عنوان ولی، معبود یا راه برای خود می‌گیرد، جهت رفتار و اعتماد او را شکل می‌دهد.</p>
+<p>بااین‌حال، معنای پایه اتخاذ همچنان «برای خود گرفتن و در جایگاهی قرار دادن» است. تعبیرهایی مانند «معماری وجود» یا «ساخت واقعیت تکوینی» توضیح‌های تأملی‌اند و نباید جای تعریف لغوی را بگیرند.</p>
+<p>پس این سه مجموعه، سه کاربرد متفاوت ریشه را نشان می‌دهند:</p>
+<p>در اخذ میثاق، چیزی از انسان گرفته می‌شود و او در برابر عهد مسئول می‌گردد.</p>
+<p>در اخذ کیفری، انسان یا جامعه در نتیجه ستم و گناه گرفتار و فروگرفته می‌شود.</p>
+<p>در اتخاذ، فاعل چیزی را برای خود در جایگاه راه، ولی، معبود، دوست یا تکیه‌گاه قرار می‌دهد.</p>
+<p>هسته مشترک همه آن‌ها گرفتن و واردکردن در یک حوزه رابطه است، اما نوع حوزه را سیاق تعیین می‌کند: حوزه تعهد، حوزه کیفر یا حوزه انتخاب و وابستگی.</p>
+</section>
+<section class="root-section" id="section-17">
+<h2>۱۷. پیشنهادهای ترجمه برای فرقان</h2>
+<h3>أَخَذَ در کاربرد عمومی</h3>
+<p>گرفت دریافت کرد ستاند در اختیار آورد</p>
+<h3>أَخَذَ در سیاق جسمانی</h3>
+<p>گرفت به دست گرفت از آن موضع گرفت بازداشت، اگر سیاق بر محدودکردن شخص دلالت کند</p>
+<h3>أَخَذَ در سیاق پیمان</h3>
+<p>پیمان گرفت تعهد گرفت عهدی استوار از آنان گرفت</p>
+<h3>أَخَذَ در سیاق کیفر</h3>
+<p>فروگرفت مؤاخذه کرد در کیفر گرفت گرفت، با حفظ زبان مستقیم آیه</p>
+<p>«به بند کیفر کشید» ممکن است در نثر تفسیری مناسب باشد، اما در ترجمه پایه معنای افزوده دارد.</p>
+<h3>أَخْذ</h3>
+<p>گرفتن فروگرفتن مؤاخذه گرفتن کیفری، در سیاق عذاب</p>
+<h3>أَخْذَة</h3>
+<p>یک گرفتن فروگرفتنی گرفتنی سخت، اگر صفت یا سیاق آن را نشان دهد</p>
+<h3>خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ</h3>
+<p>آنچه به شما داده‌ایم با قوت بگیرید.</p>
+<p>یا در ترجمه توضیحی:</p>
+<p>آنچه به شما داده‌ایم با جدیت و استواری بگیرید.</p>
+<p>«با تمام توان چنگ زنید» تصویری‌تر است، اما ممکن است معنای جسمانی بیشتری از متن وارد کند.</p>
+<h3>اتَّخَذَ</h3>
+<p>برای خود گرفت برگزید در جایگاه معینی قرار داد به‌عنوان مرجع یا همراه خود گرفت در پیش گرفت، برای راه و روش</p>
+<h3>اتَّخَذَ إِلٰهًا</h3>
+<p>او را معبود خود گرفت. او را در جایگاه معبود قرار داد.</p>
+<h3>اتَّخَذَ وَلِيًّا</h3>
+<p>او را ولی خود گرفت. او را برای خود تکیه‌گاه و سرپرست قرار داد، بسته به معنای ولی در سیاق.</p>
+<h3>اتَّخَذَ سَبِيلًا</h3>
+<p>راهی در پیش گرفت. راهی برای خود برگزید.</p>
+<h3>هُوَ آخِذٌ بِنَاصِيَتِهَا</h3>
+<p>او ناصیه آن را در اختیار دارد.</p>
+<p>یا:</p>
+<p>او بر آن جنبنده اختیار و احاطه دارد.</p>
+<p>ترجمه نخست تصویر آیه را حفظ می‌کند و ترجمه دوم معنای توضیحی را روشن می‌سازد.</p>
+</section>
+<section class="root-section" id="section-18">
+<h2>۱۸. جمع‌بندی</h2>
+<p>ریشه أ خ ذ بر گرفتن و واردکردن شخص یا چیزی در حوزه دسترسی، اختیار، نگهداری، تعهد یا پیگیری فاعل دلالت دارد.</p>
+<p>این گرفتن می‌تواند کاملاً مادی باشد؛ مانند گرفتن سر و محاسن. می‌تواند دریافت و نگهداری باشد؛ مانند گرفتن آنچه داده شده است. می‌تواند حقوقی و اخلاقی باشد؛ مانند گرفتن پیمان. می‌تواند کیفری باشد؛ مانند فروگرفتن آبادی‌های ستمکار. و می‌تواند در باب افتعال به معنای چیزی را برای خود گرفتن و در جایگاه معینی قرار دادن باشد؛ مانند اتخاذ راه، ولی، خلیل یا معبود.</p>
+<p>خود ریشه همیشه معنای قدرت قهرآمیز، خشونت، تعهد وجودی یا کیفر تکوینی ندارد. این معانی در برخی آیات واقعی‌اند، اما از موضوع، ساخت نحوی، صفت‌ها و سیاق شناخته می‌شوند.</p>
+<p>در اخذ کیفری، قرآن گرفتن را با ظلم، گناه، ناگهانی‌بودن، شدت و نبود گریز پیوند می‌دهد. در اخذ میثاق، مسئولیت و الزام عهد برجسته می‌شود. در اتخاذ، چیزی در یک جایگاه عملی و رابطه‌ای برای فاعل قرار می‌گیرد.</p>
+<p>تعبیر «آخذ بناصيتها» احاطه و اختیار آن معبود یگانه بر همه جنبندگان را بیان می‌کند، بدون آنکه برای او جسم یا دست انسانی تصور شود. این اختیار نیز در همان آیه با صراط مستقیم همراه شده و از قدرت خودسرانه جدا گردیده است.</p>
+<p>کوتاه‌ترین بیان برای هسته این ریشه چنین است:</p>
+<p><strong class="arabic-inline">گرفتن چیزی و واردکردن آن در حوزه دسترسی، اختیار، نگهداری، مسئولیت یا رابطه فاعل؛ با معنای دقیق‌تری که هر سیاق قرآنی تعیین می‌کند.</strong></p>
+</section>
+</div>
 </div>
