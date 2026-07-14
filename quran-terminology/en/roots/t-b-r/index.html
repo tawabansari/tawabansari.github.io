@@ -13,258 +13,576 @@ permalink: /quran-terminology/en/roots/t-b-r/
   .root-study-page h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.05rem); line-height: 1.2; color: var(--root-text, #2f2a22); }
   .root-subtitle { color: var(--root-muted, #6d6255); max-width: 780px; margin: 1rem 0 0; font-size: 1.04rem; }
   .root-forms-card, .root-toc { background: linear-gradient(180deg, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent 82%), var(--root-panel, #fffdf7); border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 20px; padding: 1.35rem 1.55rem; margin: 1.55rem 0; }
+  .root-forms-card h2, .root-toc h2 { margin-top: 0; }
   .morphology-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
-  .morph-card { display: block; border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 16px; padding: 1rem; background: var(--root-section, #fffaf2); color: inherit; text-decoration: none; }
-  .morph-card-header { display: flex; justify-content: space-between; gap: 0.75rem; color: var(--root-muted, #6d6255); font-size: 0.88rem; margin-bottom: 0.55rem; }
-  .morph-form { font-weight: 800; font-size: 1.18rem; color: var(--root-accent-deep, #8b6423); margin-bottom: 0.4rem; }
+  .morph-card { display: block; min-width: 0; border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 16px; padding: 1rem; background: var(--root-section, #fffaf2); color: inherit; text-decoration: none; }
+  .morph-card-header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.35rem 0.75rem; color: var(--root-muted, #6d6255); font-size: 0.88rem; margin-bottom: 0.55rem; }
+  .morph-form { font-weight: 800; font-size: 1.28rem; color: var(--root-accent-deep, #8b6423); margin-bottom: 0.15rem; }
+  .morph-translit { color: var(--root-accent-deep, #8b6423); font-size: 0.88rem; font-style: italic; }
   .morph-note { color: var(--root-muted, #6d6255); margin-bottom: 0; font-size: 0.95rem; }
+  .morph-destination { color: var(--root-accent-deep, #8b6423); margin: 0.45rem 0 0; font-size: 0.86rem; font-weight: 700; }
   .root-toc ol { list-style-position: inside; padding-left: 0; margin: 0.75rem 0 0; columns: 2; column-gap: 2rem; }
   .root-toc li { margin: 0.28rem 0; break-inside: avoid; }
-  .root-section { background: var(--root-section, #fffaf2); border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 18px; padding: 1.5rem 1.6rem; margin: 1.55rem 0; }
+  .root-section { background: var(--root-section, #fffaf2); border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 18px; padding: 1.5rem 1.6rem; margin: 1.55rem 0; scroll-margin-top: 1.25rem; }
   .root-section h2 { margin: 0 0 1rem; color: var(--root-text, #2f2a22); font-size: 1.35rem; line-height: 1.35; }
   .root-section h2::before { content: ""; display: inline-block; width: 0.58rem; height: 0.58rem; border-radius: 999px; background: var(--root-accent, #b9852f); margin-right: 0.55rem; vertical-align: 0.08em; }
+  .root-section h3 { margin: 1.65rem 0 0.75rem; color: var(--root-accent-deep, #8b6423); font-size: 1.13rem; scroll-margin-top: 1.25rem; }
   .root-study-page p { margin: 0.85rem 0; }
   .root-study-page a { color: var(--root-accent-deep, #8b6423); text-decoration: none; border-bottom: 1px dotted currentColor; }
-  .root-study-page blockquote { margin: 1.35rem 0; padding: 1rem 1.25rem; border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 18px; background: linear-gradient(180deg, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent), var(--root-panel, #fffdf7); }
-  .root-study-page blockquote p { margin: 0.45rem 0; }
-  .root-study-page cite { display: block; color: var(--root-accent-deep, #8b6423); font-style: normal; font-weight: 700; margin-top: 0.5rem; }
+  .morph-card, .morph-card:hover { border-bottom-style: solid; }
+  .verse-block { margin: 1.35rem 0 0.65rem; padding: 1rem 1.25rem; border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 18px; background: linear-gradient(180deg, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent), var(--root-panel, #fffdf7); }
+  .arabic-quote { direction: rtl; text-align: center !important; font-size: 1.48rem; line-height: 2.5; margin: 0; color: var(--root-text, #2f2a22); unicode-bidi: isolate; }
+  .translation { text-align: center; color: var(--root-muted, #6d6255); margin-top: 0.45rem; }
+  .verse-ref { text-align: center; color: var(--root-accent-deep, #8b6423); font-weight: 700; margin-top: 0.25rem; }
   .arabic-large { font-size: 1.12em; line-height: 2.15; direction: rtl; unicode-bidi: isolate; }
-  @media (max-width: 760px) { .root-frame { padding: 1.25rem; border-radius: 20px; } .morphology-grid { grid-template-columns: 1fr; } .root-toc ol { columns: 1; } }
+  @media (max-width: 760px) { .root-study-page { padding: 1.5rem 0.75rem; } .root-frame { padding: 1.25rem; border-radius: 20px; } .morphology-grid { grid-template-columns: 1fr; } .root-toc ol { columns: 1; } .arabic-quote { font-size: 1.25rem; } }
 </style>
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en"><div class="root-frame">
+  <section class="root-hero"><div class="root-kicker">Qur'anic Root</div><h1>Qur'anic Root T B R</h1><p class="root-subtitle">Breaking apart and eliminating a body or order so that it loses the ability to continue in its previous form.</p></section>
+  <section class="root-forms-card" aria-labelledby="morphology-title"><h2 id="morphology-title">Qur'anic Derivative Cards</h2><div class="morphology-grid">
+  <a class="morph-card" href="#quran-tatbir-after-domination"><div class="morph-card-header"><span>Form II subjunctive imperfect, masculine plural</span><span>Al-Isra 17:7</span></div><div class="morph-form" dir="rtl" lang="ar">يُتَبِّرُوا</div><div class="morph-translit">yutabbiru</div><p class="morph-note">To completely break apart and destroy what they have overpowered.</p><p class="morph-destination">Related section: tatbir after domination</p></a>
+  <a class="morph-card" href="#quran-final-tatbir"><div class="morph-card-header"><span>Form II past verb, first-person plural</span><span>Al-Furqan 25:39</span></div><div class="morph-form" dir="rtl" lang="ar">تَبَّرْنَا</div><div class="morph-translit">tabbarna</div><p class="morph-note">We completely broke them apart and destroyed them.</p><p class="morph-destination">Related section: the final tatbir of peoples who rejected</p></a>
+  <a class="morph-card" href="#derivative-tatbir"><div class="morph-card-header"><span>Form II verbal noun</span><span>Al-Isra 17:7 and Al-Furqan 25:39</span></div><div class="morph-form" dir="rtl" lang="ar">تَتْبِيرًا</div><div class="morph-translit">tatbiran</div><p class="morph-note">Severe and comprehensive breaking apart and destruction.</p><p class="morph-destination">Related section: emphatic verbal noun and intensity</p></a>
+  <a class="morph-card" href="#quran-noah"><div class="morph-card-header"><span>Noun or form I verbal noun</span><span>Nuh 71:28</span></div><div class="morph-form" dir="rtl" lang="ar">تَبَارًا</div><div class="morph-translit">tabaran</div><p class="morph-note">Destruction and perishing.</p><p class="morph-destination">Related section: tabar in Noah's supplication</p></a>
+  <a class="morph-card" href="#quran-mutabbar"><div class="morph-card-header"><span>Form II passive participle</span><span>Al-A'raf 7:139</span></div><div class="morph-form" dir="rtl" lang="ar">مُتَبَّرٌ</div><div class="morph-translit">mutabbarun</div><p class="morph-note">Destroyed, bound to be broken apart, or condemned to destruction.</p><p class="morph-destination">Related section: an act that is batil and a condition bound for destruction</p></a>
+</div></section>
 
-<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
-  <div class="root-frame">
-    <section class="root-hero">
-      <div class="root-kicker">Qur'anic Root</div>
-      <h1>Qur'anic Root T B R</h1>
-      <p class="root-subtitle">Breaking, shattering, tearing apart, and destroying a body until its structure, continuity, and function disappear.</p>
-    </section>
+  <nav class="root-toc" aria-label="Article section list"><h2>Article Map</h2><ol><li><a href="#introduction">Short Introduction to the Root</a></li>
+          <li><a href="#forms">Important Forms and Derivatives</a></li>
+          <li><a href="#root-meaning">Semantic Core of the Root</a></li>
+          <li><a href="#material-image">Material Image of the Root</a></li>
+          <li><a href="#classical-usage">Use of the Root in Early Arabic</a></li>
+          <li><a href="#reception-history">History of Understanding, Misuse, or Semantic Restriction</a></li>
+          <li><a href="#methodology">Methodological Note</a></li>
+          <li><a href="#quranic-uses">Qur’anic Uses of the Root</a></li>
+          <li><a href="#quranic-derivatives">Important Qur’anic Derivatives</a></li>
+          <li><a href="#grammar">Grammatical and Structural Notes</a></li>
+          <li><a href="#near-roots">Comparison With Nearby Roots</a></li>
+          <li><a href="#exceptional-tibr">Exceptional Section: The Relation of Tibr to the Root’s Semantic Field</a></li>
+          <li><a href="#translation">Translation Suggestions for Forqan</a></li>
+          <li><a href="#summary">Summary</a></li></ol></nav>
+  <section id="introduction" class="root-section">
+<h2>Short Introduction to the Root</h2>
+<p>The root  moves in the field of breaking, shattering, tearing apart, and destroying. In this root, a person, thing, system, or body is damaged so severely that it loses its coherent form, its ability to remain, or the possibility of continuing its previous function.</p>
 
-    <section class="root-forms-card">
-      <h2>Important Forms</h2>
-      <div class="morphology-grid">
-        <a class="morph-card" href="#root-meaning"><div class="morph-card-header"><span>Root</span><span>T B R</span></div><div class="morph-form arabic-large">ت ب ر</div><p class="morph-note">Shattering a coherent body until its structure and possibility of continuation disappear.</p></a>
-        <a class="morph-card" href="#forms"><div class="morph-card-header"><span>Form II verb</span><span>tabbara</span></div><div class="morph-form arabic-large">تَبَّرَ</div><p class="morph-note">To break something apart, shatter it, and collapse its structure.</p></a>
-        <a class="morph-card" href="#human-tatbir"><div class="morph-card-header"><span>Imperfect verb</span><span>yutabbiru</span></div><div class="morph-form arabic-large">يُتَبِّرُوا</div><p class="morph-note">To shatter what has come under domination after overpowering it.</p></a>
-        <a class="morph-card" href="#noah"><div class="morph-card-header"><span>Noun / verbal noun</span><span>tabar</span></div><div class="morph-form arabic-large">تَبَار</div><p class="morph-note">Destruction, ruin, and an end in which the possibility of remaining disappears.</p></a>
-      </div>
-    </section>
+<p>Tatbir is not merely suffering loss or failing. Something may suffer loss while still preserving its structure and identity. In tatbir, the body itself—or the order that joined its parts into a continuous whole—is exposed to breaking and destruction.</p>
 
-    <nav class="root-toc">
-      <h2>Main Paths</h2>
-      <ol>
-        <li><a href="#root-meaning">Core Meaning</a></li>
-        <li><a href="#forms">Important Forms</a></li>
-        <li><a href="#linguistic-note">Linguistic Note</a></li>
-        <li><a href="#material-image">Material Image</a></li>
-        <li><a href="#historical-note">Classical Usage</a></li>
-        <li><a href="#quranic-uses">Qur'anic Uses</a></li>
-        <li><a href="#false-structure">False and Mutabbar Structure</a></li>
-        <li><a href="#human-tatbir">Human Tatbir After Domination</a></li>
-        <li><a href="#divine-tatbir">Tatbir Attributed to The God</a></li>
-        <li><a href="#noah">Tabar in Noah's Supplication</a></li>
-        <li><a href="#uluww">Tatbir and Uluww</a></li>
-        <li><a href="#final-tatbir">Human and Final Tatbir</a></li>
-        <li><a href="#similar-uses">Similar Uses</a></li>
-        <li><a href="#grammar">Grammar and Structure</a></li>
-        <li><a href="#near-roots">Nearby Roots</a></li>
-        <li><a href="#translation">Translation Suggestions</a></li>
-        <li><a href="#summary">Summary</a></li>
-      </ol>
-    </nav>
+<p>In a brief formulation, the core of this root may be expressed as:</p>
 
-    <section id="root-meaning" class="root-section">
-      <h2>Core Meaning</h2>
-      <p>The root <strong class="arabic-large">ت ب ر</strong> indicates breaking, shattering, tearing apart, and destroying something until its structure, continuity, and function disappear.</p>
-      <p>Tatbir is not merely suffering loss or being defeated. In this root, the body of something is broken in such a way that it can no longer continue its previous form, order, and function.</p>
-      <p>The semantic core may be summarized as shattering and disintegrating a coherent body until its structure and possibility of continuation disappear.</p>
-    </section>
+<p></p>
 
-    <section id="forms" class="root-section">
-      <h2>Important Forms</h2>
-      <p><strong class="arabic-large">تَبَّرَ</strong> is a form II verb: he shattered something, disintegrated it, collapsed its structure, or destroyed it completely.</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَكُلًّا تَبَّرْنَا تَتْبِيرًا</p><p>And We shattered the structure of each completely.</p><cite>Al-Furqan 25:39</cite></blockquote>
-      <p>Form II can indicate intensity, comprehensiveness, or causation. Here the issue is not limited damage; a body is brought to a condition in which it loses the ability to continue.</p>
-      <p><strong class="arabic-large">يُتَبِّرُوا</strong> is the subjunctive imperfect verb of form II:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَلِيُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا</p><p>And so that they may shatter completely whatever they overpowered.</p><cite>Al-Isra 17:7</cite></blockquote>
-      <p>The agents in this verse are human beings who, after overcoming and gaining control, destroy what has come under their power. Tatbir in this context has an outward and historical expression.</p>
-      <p><strong class="arabic-large">تَتْبِير</strong> is the verbal noun of form II: complete shattering, severe destruction, breaking the body apart, and collapsing the structure.</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَكُلًّا تَبَّرْنَا تَتْبِيرًا</p><p>And each We shattered completely.</p><cite>Al-Furqan 25:39</cite></blockquote>
-      <p>The verbal noun after a verb from the same root emphasizes the intensity and completeness of the act.</p>
-      <p><strong class="arabic-large">تَبَار</strong> is a noun or verbal noun indicating destruction, perishing, and an end in which structure and the possibility of remaining disappear:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا</p><p>And increase the wrongdoers in nothing except destruction.</p><cite>Nuh 71:28</cite></blockquote>
-      <p>Tabar here does not describe the act of breaking itself; it points more to the final condition and outcome of what is being destroyed.</p>
-      <p><strong class="arabic-large">مُتَبَّر</strong> is the passive participle of form II: something shattered, or something condemned to collapse and destruction.</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">إِنَّ هَٰؤُلَاءِ مُتَبَّرٌ مَا هُمْ فِيهِ وَبَاطِلٌ مَا كَانُوا يَعْمَلُونَ</p><p>Indeed, what these people are in is doomed to be shattered, and what they used to do is false.</p><cite>Al-A'raf 7:139</cite></blockquote>
-      <p>Mutabbar here points to a condition, system, or worship-practice that has no real possibility of lasting.</p>
-      <p><strong class="arabic-large">تِبْر</strong> in lexical Arabic is used for gold and silver before being minted or fashioned. It is used for material that has not yet taken an ordered form, a recognized mold, or a final structure.</p>
-      <p>This form, in the sense of raw metal, does not occur in the Qur'an. Its connection with the field of brokenness and formlessness can help clarify the image of the root, but it should not be treated as the definite origin of all Qur'anic uses.</p>
-    </section>
+</section>
 
-    <section id="linguistic-note" class="root-section">
-      <h2>Linguistic Note</h2>
-      <p>The core of <strong class="arabic-large">ت ب ر</strong> is removing the continuity and body of a thing by breaking and disintegrating it.</p>
-      <p>In tatbir, something may still have material parts, but it no longer exists as the same previous structure. Walls, people, or pieces may remain, but the order, form, and function that made them one body have disappeared.</p>
-      <p>For this reason, the root contains several nearby layers: breaking, shattering, scattering the parts, collapsing order, removing function, and destroying the possibility of continuation.</p>
-      <p>Not every break is tatbir. A vessel may crack and still remain a vessel. Tatbir occurs when the break removes its form and function.</p>
-      <p>This feature allows the root to function both in material destruction and in the collapse of human, religious, and social systems.</p>
-    </section>
+<section id="forms" class="root-section">
+<h2>Important Forms and Derivatives</h2>
+<p>The root  occurs six times in the Qur’an in four morphological forms.</p>
 
-    <section id="material-image" class="root-section">
-      <h2>Material Image</h2>
-      <p>The material image of <strong class="arabic-large">ت ب ر</strong> is a unified object shattered into pieces that no longer have the previous form or function.</p>
-      <p>One can imagine an earthen vessel that, after a blow, does not merely crack but disintegrates so much that it is no longer a vessel. Its material remains, but its body has disappeared.</p>
-      <p>The lexical use of tibr for raw gold and silver creates a similar image. Valuable material exists, but it has not yet entered the form of coin, ornament, or an ordered shape. This image can explain tatbir as returning an ordered body to a scattered and formless condition.</p>
-      <p>At the social level too, individuals and buildings may remain, while the system that connected them collapses. In that condition, tatbir is not merely the damage of a building; it is the disappearance of the organized form and the power of the structure to continue.</p>
-    </section>
+<h3 id="form-tabbara">تَبَّرَ (tabbara)</h3>
 
-    <section id="historical-note" class="root-section">
-      <h2>Classical Usage</h2>
-      <p>In classical Arabic, T B R was used for breaking, shattering, making something into small pieces, and destroying. The expression <strong class="arabic-large">تَبَّرَهُ تَتْبِيرًا</strong> indicates severe breaking and the removal of a thing's form and continuity.</p>
-      <p>The word tibr was also used for raw or unworked gold and silver. Its connection with the root may lie in formlessness, separation of pieces, or absence of a final mold.</p>
-      <p>Yet the Qur'anic use of the root is mainly in the field of destruction and structural collapse. The meaning of raw metal should not be imposed directly upon the verses.</p>
-    </section>
+<p> is a form II verb indicating breaking apart, reducing to pieces, destroying, or eliminating.</p>
 
-    <section id="quranic-uses" class="root-section">
-      <h2>Qur'anic Uses</h2>
-      <p>The Qur'anic uses of <strong class="arabic-large">ت ب ر</strong> stand in the field of structural collapse, the shattering of a false order, and the ending of a body's ability to continue. This collapse is sometimes seen through human action in history, and sometimes attributed to The God as the complete and final outcome of a people or system.</p>
-    </section>
+<p>In the Qur’an, this verb occurs in two forms:</p>
 
-    <section id="false-structure" class="root-section">
-      <h2>A Structure That Is False Within and Mutabbar in Outcome</h2>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">إِنَّ هَٰؤُلَاءِ مُتَبَّرٌ مَا هُمْ فِيهِ وَبَاطِلٌ مَا كَانُوا يَعْمَلُونَ</p><p>Indeed, what these people are in is doomed to be shattered, and what they used to do is false.</p><cite>Al-A'raf 7:139</cite></blockquote>
-      <p>In this verse, mutabbar and batil stand together, but they are not identical. Batil means that their act lacks truth, validity, and a sound foundation. Mutabbar means that the structure built upon that act has no power to remain and will finally break apart.</p>
-      <p>A system may be false in terms of truth while remaining socially present for a time. Being mutabbar shows that this outward durability is not true permanence.</p>
-      <p>The verse separates two layers: the epistemic layer, being false; and the structural and historical layer, being doomed to shattering.</p>
-    </section>
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلِيُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا</p></blockquote>
+<p class="translation">“And so that they may completely break apart whatever they overpowered.”</p>
+<p class="verse-ref">Al-Isra 17:7</p>
 
-    <section id="human-tatbir" class="root-section">
-      <h2>Human Tatbir After Domination</h2>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَلِيَدْخُلُوا الْمَسْجِدَ كَمَا دَخَلُوهُ أَوَّلَ مَرَّةٍ وَلِيُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا</p><p>And so that they may enter the Masjid as they entered it the first time, and shatter completely whatever they overpowered.</p><cite>Al-Isra 17:7</cite></blockquote>
-      <p>In this verse, the agents of tatbir are human beings who, after gaining access and domination, destroy existing structures.</p>
-      <p>The phrase <strong class="arabic-large">ما علوا</strong> can include what they overpowered or brought under their control. The order of the verse creates this image: entry and domination, gaining access to positions and structures, and tatbir of what has come under power.</p>
-      <p>In this context, tatbir has a more outward, material, and historical expression. Buildings, centers of power, and the existing arrangement are broken after domination.</p>
-      <p>Yet this verse should not be turned into a general and permanent permission to destroy cities or places of worship. It reports a punitive event in its particular context.</p>
-    </section>
+<p>And:</p>
 
-    <section id="divine-tatbir" class="root-section">
-      <h2>Tatbir Attributed to The God</h2>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَكُلًّا ضَرَبْنَا لَهُ الْأَمْثَالَ وَكُلًّا تَبَّرْنَا تَتْبِيرًا</p><p>And for each We set forth examples, and each We shattered completely.</p><cite>Al-Furqan 25:39</cite></blockquote>
-      <p>In this verse, the agent of tatbir is The God. Tatbir comes after explanation, warning, and the presentation of examples:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَكُلًّا ضَرَبْنَا لَهُ الْأَمْثَالَ</p><p>And for each We set forth examples.</p><cite>Al-Furqan 25:39</cite></blockquote>
-      <p>So destruction is not presented as an event without prior warning. Before it, there was clarification and warning.</p>
-      <p>When tatbir is attributed to The God, it does not describe only a limited material attack. It may include the complete collapse of a society, power, order, and its ability to continue.</p>
-      <p>Still, the difference between divine and human tatbir should not be turned into an absolute rule. Human tatbir may also go beyond buildings and collapse a social structure. Tatbir attributed to The God may also occur through natural, human, or historical causes.</p>
-      <p>The main difference lies in the agent and the scope of attribution: the human being is the direct and limited agent of a destruction, while tatbir attributed to The God states the complete and decisive outcome of a structure.</p>
-    </section>
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَكُلًّا تَبَّرْنَا تَتْبِيرًا</p></blockquote>
+<p class="translation">“And each We completely broke apart and destroyed.”</p>
+<p class="verse-ref">Al-Furqan 25:39</p>
 
-    <section id="noah" class="root-section">
-      <h2>Tabar in Noah's Supplication</h2>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا</p><p>And increase the wrongdoers in nothing except destruction.</p><cite>Nuh 71:28</cite></blockquote>
-      <p>This statement comes at the end of a long report of Noah's calling, the society's denial, and the persistence of a structure of wrongdoing.</p>
-      <p>Earlier, Noah says:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">إِنَّكَ إِنْ تَذَرْهُمْ يُضِلُّوا عِبَادَكَ وَلَا يَلِدُوا إِلَّا فَاجِرًا كَفَّارًا</p><p>If You leave them, they will mislead Your servants and will beget only wicked, covering deniers.</p><cite>Nuh 71:27</cite></blockquote>
-      <p>The issue is not merely the death of a few individuals. Noah speaks of a structure that reproduces misguidance and raises the next generation in the same direction.</p>
-      <p>For this reason, tabar can include, beyond the destruction of individuals, the collapse of an arrangement that continually reproduces wrongdoing and denial.</p>
-      <p>At the same time, <strong class="arabic-large">يلدوا</strong> should not be turned only into political or social reproduction. The verse also speaks of birth and upbringing. The structural meaning should remain beside the direct meaning, not replace it.</p>
-      <p>Nor should this supplication be treated as a general permission to ask for the destruction of every opponent. It is spoken at the end of a special situation after a long period of calling.</p>
-    </section>
+<h3 id="form-tatbir">تَتْبِير (tatbir)</h3>
 
-    <section id="uluww" class="root-section">
-      <h2>The Relation Between Tatbir and Uluww</h2>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَلِيُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا</p><p>And shatter completely whatever they overpowered.</p><cite>Al-Isra 17:7</cite></blockquote>
-      <p>In this structure, <strong class="arabic-large">علوا</strong> relates to what the overpowering force has gained domination over. Uluww here first indicates overcoming and standing above positions and structures.</p>
-      <p>The root <strong>ʿ L W</strong> in other verses can also indicate arrogant elevation and tyranny:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">إِنَّ فِرْعَوْنَ عَلَا فِي الْأَرْضِ</p><p>Indeed, Pharaoh exalted himself in the earth.</p><cite>Al-Qasas 28:4</cite></blockquote>
-      <p>There is a meaningful relation between arrogant uluww and the collapse of oppressive structures. A structure that places itself beyond limit and accountability prepares the ground for its own collapse.</p>
-      <p>Yet in the phrase <strong class="arabic-large">ما علوا</strong>, uluww is not directly the attribute of the destroyed structure. It is the act of the attacking force: what they gained control over. Therefore the phrase should not be translated as if everything built upon arrogant elevation is the direct grammatical object of tatbir in this verse.</p>
-      <p>This relation can be studied as a wider Qur'anic pattern, but it should not be presented as the direct meaning of <strong class="arabic-large">ما علوا</strong>.</p>
-    </section>
+<p> is the verbal noun of form II. It indicates the act of breaking apart, destroying, or reducing something to scattered pieces.</p>
 
-    <section id="final-tatbir" class="root-section">
-      <h2>Human Tatbir and Final Tatbir</h2>
-      <p>In Al-Isra 17:7, human beings are the direct agents of destruction:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَلِيُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا</p></blockquote>
-      <p>In Al-Furqan 25:39, tatbir is attributed to The God:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَكُلًّا تَبَّرْنَا تَتْبِيرًا</p></blockquote>
-      <p>In the first use, a particular outward historical act is highlighted: a force enters, overpowers, and destroys the structures under its control.</p>
-      <p>In the second use, the complete outcome of a people or system is at issue: after explanation and warning, the whole body of it reaches collapse.</p>
-      <p>Yet these two levels are not completely separate. Final tatbir may occur through human agents, and material destruction may lead to political and social collapse.</p>
-      <p>So the distinction can be stated this way: human tatbir is the direct and limited action of agents in history; tatbir attributed to The God is the attribution of the complete outcome and law of consequence to the final reference point.</p>
-    </section>
+<p>In both Qur’anic uses, the verbal noun follows a verb from the same root:</p>
 
-    <section id="similar-uses" class="root-section">
-      <h2>Similar Uses</h2>
-      <p><strong>Breaking a body and collapsing a system:</strong> In material use, a unified body is shattered. In social and religious use, the order and relation that made the parts into one body disappears. In both, the core is the same: the destruction of continuity and structural form.</p>
-      <p><strong>Tabar and tatbir:</strong> Tabar is more the state or outcome of destruction:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">إِلَّا تَبَارًا</p><p>Except destruction.</p></blockquote>
-      <p>Tatbir is the intense act of shattering:</p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">تَبَّرْنَا تَتْبِيرًا</p><p>We shattered completely.</p></blockquote>
-      <p><strong>Mutabbar and batil:</strong> Mutabbar means doomed to be shattered and destroyed. Batil means lacking truth and validity. Something may be batil yet still socially exist. Being mutabbar states its structural outcome.</p>
-      <p><strong>Material tatbir and structural tatbir:</strong> Destroying buildings and symbols of power is material tatbir. Collapsing order, authority, bonds, and the reproductive power of a system is structural tatbir.</p>
-      <p>These two can come together, but they are not identical. Destroying a few buildings does not always mean the complete collapse of a system, and the collapse of a system may occur without every building being shattered.</p>
-      <p><strong>Destruction of individuals and destruction of a reproducing system:</strong> In Noah's supplication, the society is one that transmits misguidance to the next generation. Tabar in this context can include the ending of that society's ability to continue and reproduce itself.</p>
-      <p>Still, this structural meaning should not erase the direct reference of the verses to individuals and generations.</p>
-      <p><strong>Cracking and complete tatbir:</strong> Not every crack, break, or damage is tatbir. Tatbir occurs when the body can no longer preserve its former form and function.</p>
-    </section>
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلِيُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا</p></blockquote>
 
-    <section id="grammar" class="root-section">
-      <h2>Grammar and Structure</h2>
-      <p><strong>Emphatic verbal noun:</strong></p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">تَبَّرْنَا تَتْبِيرًا</p><cite>Al-Furqan 25:39</cite></blockquote>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">يُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا</p><cite>Al-Isra 17:7</cite></blockquote>
-      <p>The verbal noun after a verb from the same root emphasizes intensity, comprehensiveness, and certainty.</p>
-      <p>In English this can be reflected as: We shattered completely; they shattered utterly; the structure was made to collapse entirely.</p>
-      <p><strong>The structure ma ʿalaw:</strong></p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">مَا عَلَوْا</p></blockquote>
-      <p>Here <strong class="arabic-large">ما</strong> points to what the attacking force gained mastery over.</p>
-      <p>Possible equivalents include: whatever they overpowered; what they brought under control; whatever they gained access over.</p>
-      <p>“Whatever they rose above” may preserve the literal image, but in English it can sound spatially awkward or value-laden. “Overpowered” is clearer.</p>
-      <p><strong>The structure mutabbar ma hum fihi:</strong></p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">مُتَبَّرٌ مَا هُمْ فِيهِ</p></blockquote>
-      <p>Mutabbar appears at the beginning of the sentence, foregrounding the judgment: what they are in, or what they insist upon, is doomed to destruction.</p>
-      <p>Suitable equivalents include: what they are in is condemned to be shattered; what they insist upon is doomed to collapse; the structure they inhabit will not endure.</p>
-      <p><strong>The structure la tazid... illa tabara:</strong></p>
-      <blockquote><p class="arabic-large" dir="rtl" lang="ar">وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا</p></blockquote>
-      <p><strong class="arabic-large">إلا</strong> restricts the result of increase: nothing should be increased for them except tabar.</p>
-      <p>Possible equivalents: increase the wrongdoers in nothing except destruction; increase only the collapse of the wrongdoers; bring their outcome only toward greater destruction.</p>
-    </section>
+<p>Al-Isra 17:7</p>
 
-    <section id="near-roots" class="root-section">
-      <h2>Nearby Roots</h2>
-      <p><strong>T B R and T B B:</strong> These two roots are close in sound and outcome, but their images differ. <strong>T B B</strong> indicates failure, loss, and the fruitlessness of effort or result. <strong>T B R</strong> indicates shattering and disintegrating the body and structure itself.</p>
-      <p>The difference can be pictured this way: in tabab, the line of function and result reaches a dead end. In tatbir, the vessel and body of the structure shatter and collapse. In tabab, the tool may still apparently exist but produce no result. In tatbir, the structure itself loses the ability to remain in its previous form.</p>
-      <p><strong>T B R and K S R:</strong> Kasr indicates breaking, but not every breaking is total destruction. Kasr: something broke. Tatbir: it broke in such a way that its form and function disappeared.</p>
-      <p><strong>T B R and F T T:</strong> Fatt emphasizes crushing and making something into tiny pieces. Tatbir includes fragmentation, but also the complete destruction of the structure and its ability to continue.</p>
-      <p><strong>T B R and D M R:</strong> Damar indicates extensive ruin and severe destruction. Tatbir highlights the shattering and disintegration of the body; damar focuses on broad devastation and elimination.</p>
-      <p><strong>T B R and H L K:</strong> Halak indicates the perishing of a being or community. Tatbir shows more of the manner of collapse: breaking, shattering, and loss of structure.</p>
-      <p><strong>T B R and B Ṭ L:</strong> Batil indicates invalidity and falsehood. Tatbir indicates structural destruction. In Al-A'raf 7:139, batil means wrong in truth and validity; mutabbar means doomed to destruction in structure and duration.</p>
-      <p><strong>T B R and Q Ṭ ʿ:</strong> Qatʿ indicates cutting a bond and ending connection. Tatbir focuses on shattering the whole body. Bonds may be cut in tatbir, but that is only part of the act.</p>
-      <p><strong>T B R and Ṣ D ʿ:</strong> Ṣadʿ indicates splitting and cracking. Tasaḍḍuʿ may be the beginning of collapse, but tatbir goes beyond a crack and indicates the disappearance of structure.</p>
-      <p><strong>T B R and Ḥ Ṭ M:</strong> Ḥaṭm indicates breaking and crushing through pressure or impact. Ḥaṭm preserves the image of blow and crushing more directly; tatbir emphasizes complete destruction of the body and its structural outcome.</p>
-      <p><strong>T B R and N Q Ḍ:</strong> Naqḍ indicates undoing something previously tied or made firm. Tatbir focuses on shattering and destroying that structure. Naqḍ: the bonds were undone. Tatbir: the body broke apart and its function disappeared.</p>
-      <p><strong>T B R and ʿ L W:</strong> Uluww indicates rising, domination, or arrogant elevation. In Al-Isra 17:7, uluww relates to the agents' domination and gaining access to positions; tatbir is the act that occurs after this domination.</p>
-      <p>In other contexts, arrogant uluww can create oppressive structures. Such structures may eventually be exposed to collapse, but this relation must be understood from the whole set of verses, not only from the phrase <strong class="arabic-large">ما علوا</strong>.</p>
-    </section>
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَكُلًّا تَبَّرْنَا تَتْبِيرًا</p></blockquote>
 
-    <section id="translation" class="root-section">
-      <h2>Translation Suggestions for Forqan</h2>
-      <p>For <strong class="arabic-large">تَبَّرَ</strong>: shattered; broke apart; crushed and disintegrated; collapsed its structure; destroyed completely; tore its body apart.</p>
-      <p>For <strong class="arabic-large">تَتْبِير</strong>: complete shattering; crushing and disintegration; collapsing the structure; complete destruction; removing the body and function.</p>
-      <p>For <strong class="arabic-large">تَبَار</strong>: destruction; ruin; collapse; destructive outcome; complete disappearance.</p>
-      <p>For <strong class="arabic-large">مُتَبَّر</strong>: doomed to be shattered; condemned to destruction; structurally collapsible; destroyed; unstable and disintegrating.</p>
-      <p>For <strong class="arabic-large">مُتَبَّرٌ مَا هُمْ فِيهِ</strong>: what they are in is doomed to be shattered; what they insist upon is doomed to collapse; the structure they inhabit will not endure; their condition is condemned to collapse.</p>
-      <p>For <strong class="arabic-large">وَلِيُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا</strong>: and so that they may shatter completely whatever they overpowered; and so that they may collapse the structure of whatever they brought under control; and whatever they gained access over, they crush and disintegrate.</p>
-      <p>For <strong class="arabic-large">وَكُلًّا تَبَّرْنَا تَتْبِيرًا</strong>: and We crushed and disintegrated the structure of each completely; and each We shattered utterly; and the body of each We collapsed completely.</p>
-      <p>For <strong class="arabic-large">وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا</strong>: and increase the wrongdoers in nothing except destruction; and increase only the collapse of the wrongdoers; and for the wrongdoers increase nothing except a destructive outcome.</p>
-    </section>
+<p>Al-Furqan 25:39</p>
 
-    <section id="summary" class="root-section">
-      <h2>Summary</h2>
-      <p>The root <strong class="arabic-large">ت ب ر</strong> indicates breaking, shattering, and disintegrating a body until its structure, continuity, and function disappear. Its material image is a unified object turned into scattered pieces, no longer holding its previous form.</p>
-      <p>In the Qur'an, this root is used for the shattering of false structures, the destruction of what comes under domination after overpowering, the complete ruin of denying communities, and the ending of an arrangement that reproduces wrongdoing and misguidance.</p>
-      <p>Human tatbir can refer to the direct destruction of buildings and symbols of power. Tatbir attributed to The God states the complete and decisive outcome of a people or structure, even if that outcome occurs through human and historical causes.</p>
-      <p>T B R is close to T B B, kasr, fatt, damar, halak, batil, qatʿ, ṣadʿ, and ḥaṭm, but it is identical with none of them. In tabab, the benefit and result of effort reach a dead end; in tatbir, the body and vessel of the structure itself are shattered and lose the power to continue.</p>
-    </section>
-  </div>
-</div>
+<p>This construction highlights the intensity and comprehensiveness of the act.</p>
+
+<h3 id="form-tabar">تَبَار (tabar)</h3>
+
+<p> is a noun or form I verbal noun indicating destruction, perishing, and a ruined outcome:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا</p></blockquote>
+<p class="translation">“And increase the wrongdoers in nothing except destruction.”</p>
+<p class="verse-ref">Nuh 71:28</p>
+
+<p>Here, tabar places greater emphasis on the state or outcome of destruction than on the manner of breaking.</p>
+
+<h3 id="form-mutabbar">مُتَبَّر (mutabbar)</h3>
+
+<p> is the passive participle of form II: something broken apart, destroyed, or exposed to a certain destructive end:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِنَّ هَٰؤُلَاءِ مُتَبَّرٌ مَا هُمْ فِيهِ وَبَاطِلٌ مَا كَانُوا يَعْمَلُونَ</p></blockquote>
+<p class="translation">“What these people are in is surely bound to be broken apart, and what they were doing is batil.”</p>
+<p class="verse-ref">Al-A’raf 7:139</p>
+
+<h3 id="non-quranic-forms">Non-Qur’anic Forms</h3>
+
+<p>In Arabic, the form I verb  is also recorded with the meaning of perishing or passing away, but this verb does not occur in this form in the Qur’an.</p>
+
+<p>The word  is also used for unworked gold, broken gold, or metal that has not yet been coined or fashioned. This word does not occur in the Qur’an and should not be imposed directly upon the ayat.</p>
+
+</section>
+
+<section id="root-meaning" class="root-section">
+<h2>Semantic Core of the Root</h2>
+<p>The central meaning of  is breaking apart and eliminating the body or order that holds the parts of something together as a durable whole.</p>
+
+<p>In tatbir, the issue is not merely that something is damaged or loses part of its function. The breaking is severe enough that its previous form, internal order, or capacity to continue is lost.</p>
+
+<p>This meaning can appear materially: buildings, centers, and things destroyed after being overpowered. It can also be used at a social, religious, or historical level: a system that appears to remain standing but whose structure and possibility of continuation are eventually broken apart.</p>
+
+<p>Yet not every political change, social weakness, or loss of credibility of an idea should automatically be called tatbir. This root is more intense and emphasizes the real destruction or collapse of the body itself.</p>
+
+</section>
+
+<section id="material-image" class="root-section">
+<h2>Material Image of the Root</h2>
+<p>The material image of this root is a coherent object broken and scattered so thoroughly that it can no longer preserve its previous form and function.</p>
+
+<p>One may picture an earthen vessel that has not merely cracked but has become pieces whose sum is no longer a usable vessel. Its material may still remain, but its body, coherence, and function have disappeared.</p>
+
+<p>This image also accords with one lexical use of . Tibr is used of raw, broken, or unworked gold; the valuable material exists, but it is not—or is no longer—within a fashioned and ordered structure.</p>
+
+<p>This connection can help explain the root’s imaginal field, but it should not be presented as the certain origin of all its meanings. The clearer lexical evidence is that  means to break, reduce to pieces, and destroy something.</p>
+
+<p>At the social level, people, buildings, or material elements may remain while the bond and system that turned them into an active body disappears. Such a use is a natural extension of the root’s material image, provided that the text and context support it.</p>
+
+</section>
+
+<section id="classical-usage" class="root-section">
+<h2>Use of the Root in Early Arabic</h2>
+<p>In Arabic lexical sources, the verb  is used for breaking something, breaking it into pieces, crushing it, and destroying it. The form I  also indicates perishing and passing away.</p>
+
+<p> is recorded with the meaning of destruction and perishing, and  is used of something broken and destroyed.</p>
+
+<p>The word  was commonly used of unworked gold, broken gold, particles of gold, and at times silver or metal before being fashioned or coined. In some reports, it is also used for pieces of broken glass.</p>
+
+<p>The exact relation between the meaning of unworked metal and the meaning of destroying requires caution. One may say that both are connected with a state of being in pieces, unfashioned, or without a complete form, but a definite historical account of the root’s semantic development should not be built from this resemblance.</p>
+
+<p>The Qur’anic use of the root clearly stands in the field of destruction, breaking apart, and a ruined outcome, not in the meaning of unworked metal.</p>
+
+</section>
+
+<section id="reception-history" class="root-section">
+<h2>History of Understanding, Misuse, or Semantic Restriction</h2>
+<p>Some translations render the derivatives of  only as “destroy.” This is correct with respect to the result, but it weakens the image of breaking and shattering present in the root’s lexical structure.</p>
+
+<p>At the other extreme, translations such as “We caused their structure to collapse” may clarify the social and systemic dimension of the ayat, but when used in direct translation they may replace the Qur’anic wording with an analytical meaning.  can include structural collapse, but the word itself is not merely a political or sociological term.</p>
+
+<p>The phrase  is also sometimes translated as though it meant only that their “belief” or “religion” was wrong. The ayah then says separately:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَبَاطِلٌ مَا كَانُوا يَعْمَلُونَ</p></blockquote>
+
+<p>For this reason,  and  should not be translated as entirely identical. Batil highlights lack of truth and validity, while mutabbar indicates that what they are in is bound for destruction.</p>
+
+<p>Nor should the historical use in Al-Isra 17:7 be turned into a general ruling to destroy cities, buildings, or places of worship. The ayah describes a punitive event in its own context, not an unrestricted and permanent command for destruction.</p>
+
+</section>
+
+<section id="methodology" class="root-section">
+<h2>Methodological Note</h2>
+<p>When examining this root, lexical meaning, contextual use, and structural reflection must be distinguished.</p>
+
+<p>The recorded lexical meaning includes breaking, reducing to pieces, destroying, and perishing.</p>
+
+<p>Contextual use may concern material devastation after domination, the destruction of peoples who rejected, the outcome of a system of worship, or Noah’s supplication concerning the wrongdoers.</p>
+
+<p>Structural reflection draws from these uses the thought that a system may preserve its material parts for a time while losing its coherence and ability to reproduce itself. This reflection can be useful, but it should not be presented as the direct dictionary meaning of .</p>
+
+<p>Likewise, not every break or injury should be called tatbir. Tatbir indicates severe and destructive breaking. A crack, weakness, or limited loss is not necessarily tatbir so long as it has not eliminated the primary body and function.</p>
+
+</section>
+
+<section id="quranic-uses" class="root-section">
+<h2>Qur’anic Uses of the Root</h2>
+<h3 id="quran-mutabbar">What Is Batil and Has a Destructible Outcome</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِنَّ هَٰؤُلَاءِ مُتَبَّرٌ مَا هُمْ فِيهِ وَبَاطِلٌ مَا كَانُوا يَعْمَلُونَ</p></blockquote>
+<p class="translation">“What these people are in is surely bound to be broken apart, and what they were doing is batil.”</p>
+<p class="verse-ref">Al-A’raf 7:139</p>
+
+<p>This ayah comes after the people who remained devoted to their idols were observed. Moses states two separate judgments about their condition.</p>
+
+<p>First, : what they are in is destroyed or bound for destruction.</p>
+
+<p>Second, : what they were doing is batil.</p>
+
+<p>The two statements are related, but they are not complete synonyms. Being batil judges the truth and validity of the action. Being mutabbar concerns the durability and outcome of what they are in.</p>
+
+<p>An action or system may be batil with respect to truth while continuing in a society for some time.  shows that its outward continuation does not mean true permanence.</p>
+
+<h3 id="quran-tatbir-after-domination">Tatbir After Domination</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلِيَدْخُلُوا الْمَسْجِدَ كَمَا دَخَلُوهُ أَوَّلَ مَرَّةٍ وَلِيُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا</p></blockquote>
+<p class="translation">“And so that they may enter the masjid as they entered it the first time, and completely break apart whatever they overpowered.”</p>
+<p class="verse-ref">Al-Isra 17:7</p>
+
+<p>The subject of  is those who enter, prevail, and devastate what they have brought under their control.</p>
+
+<p>The phrase  refers to what they have overpowered or risen over. In this context, ‘uluw is directly the action of the attacking agents, not a moral description of the things destroyed.</p>
+
+<p>Tatbir in this ayah has an outward and historical manifestation. Entry, domination, and destruction stand beside one another. The translation should therefore preserve the image of severe devastation.</p>
+
+<p>Yet the ayah should not be turned into a general permission to destroy places of worship or cities. Reporting a historical and punitive outcome is not the same as establishing a general ethical rule for every time and group.</p>
+
+<h3 id="quran-final-tatbir">The Final Tatbir of Peoples Who Rejected</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَكُلًّا ضَرَبْنَا لَهُ الْأَمْثَالَ وَكُلًّا تَبَّرْنَا تَتْبِيرًا</p></blockquote>
+<p class="translation">“And for each We set forth examples, and each We completely broke apart and destroyed.”</p>
+<p class="verse-ref">Al-Furqan 25:39</p>
+
+<p>This ayah follows the mention of several peoples and figures who rejected. Its two parts are connected:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَكُلًّا ضَرَبْنَا لَهُ الْأَمْثَالَ</p></blockquote>
+<p class="translation">“And for each We set forth examples.”</p>
+
+<p>And then:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَكُلًّا تَبَّرْنَا تَتْبِيرًا</p></blockquote>
+
+<p>“And each We completely destroyed.”</p>
+
+<p>Tatbir is not introduced here without a preceding process. Before the outcome there were explanation, warning, and the setting forth of examples.</p>
+
+<p>The emphatic verbal noun  highlights the intensity and completeness of the destruction. “We completely broke them apart” conveys this feature better than “We harmed them.”</p>
+
+<h3 id="quran-noah">Tabar in Noah’s Supplication</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا</p></blockquote>
+
+<p>“And increase the wrongdoers in nothing except destruction.”</p>
+<p class="verse-ref">Nuh 71:28</p>
+
+<p>This supplication comes at the end of the long account of Noah’s calling. Before it, Noah says:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِنَّكَ إِنْ تَذَرْهُمْ يُضِلُّوا عِبَادَكَ وَلَا يَلِدُوا إِلَّا فَاجِرًا كَفَّارًا</p></blockquote>
+<p class="translation">“If You leave them, they will lead Your servants astray and will give birth to and raise none but a corrupt, deeply ungrateful one.”</p>
+<p class="verse-ref">Nuh 71:27</p>
+
+<p> in this context indicates destruction and perishing. The supplication does not speak only of the failure of a plan or limited loss; it asks for a destructive outcome for wrongdoers who persisted in leading others astray.</p>
+
+<p>The context can show that the matter also concerns the continuation and reproduction of wrongdoing, but the direct meaning of  should not be reduced only to political or cultural reproduction. The ayah still speaks of giving birth to and raising human beings.</p>
+
+<p>This supplication should not be made into a general model for cursing every opponent. Its setting is the conclusion of a particular and prolonged situation explained by the surah itself.</p>
+
+</section>
+
+<section id="quranic-derivatives" class="root-section">
+<h2>Important Qur’anic Derivatives</h2>
+<h3 id="derivative-mutabbar">مُتَبَّر (mutabbar)</h3>
+
+<p> is the passive participle of form II. The passive participle indicates that the subject has been exposed to an act or that its outcome is described as the product of that act.</p>
+
+<p>In Al-A’raf 7:139, the sentence does not say that only the people are bound for destruction. It says:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">مُتَبَّرٌ مَا هُمْ فِيهِ</p></blockquote>
+
+<p>The subject of the judgment is . This phrase can include the condition, system of worship, or way in which they are immersed.</p>
+
+<p>“What they are in is bound for destruction” preserves the structure of the ayah more closely. “Their religion is false” merges the second part of the ayah into the first and removes the difference between  and .</p>
+
+<h3 id="derivative-yutabbiru">يُتَبِّرُوا (yutabbiru)</h3>
+
+<p> is a subjunctive masculine plural imperfect verb in form II. The lam before it can express aim or result:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلِيُتَبِّرُوا</p></blockquote>
+
+<p>“And so that they may break apart.”</p>
+
+<p>Its subject is the same people who enter the masjid. This syntactic continuity is important.</p>
+
+<h3 id="derivative-tabbarna">تَبَّرْنَا (tabbarna)</h3>
+
+<p> is a form II past verb. The pronoun  identifies the subject.</p>
+
+<h3 id="derivative-tatbir">تَتْبِيرًا (tatbiran)</h3>
+
+<p>In both ayat in which the form II verb occurs, a verbal noun from the same root follows it:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">يُتَبِّرُوا … تَتْبِيرًا</p></blockquote>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">تَبَّرْنَا تَتْبِيرًا</p></blockquote>
+
+<p>This is an absolute or emphatic verbal noun and highlights the intensity or completeness of the act.</p>
+
+<p>In English, it can be reflected through expressions such as “completely,” “entirely,” or “thoroughly,” without requiring a separate and heavy translation of the Arabic verbal noun.</p>
+
+<h3 id="derivative-tabar">تَبَارًا (tabaran)</h3>
+
+<p> comes after  and restricts the result of the increase:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">لَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا</p></blockquote>
+
+<p>Nothing except tabar is to be added to them.</p>
+
+<p>In this construction, “nothing except destruction” is more natural than “nothing except breaking apart,” because tabar expresses the state or outcome of destruction more than the transitive act of breaking.</p>
+
+</section>
+
+<section id="grammar" class="root-section">
+<h2>Grammatical and Structural Notes</h2>
+<h3 id="grammar-emphatic-masdar">The Emphatic Verbal Noun</h3>
+
+<p>In the following two expressions, a verbal noun follows a verb from the same root:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلِيُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا</p></blockquote>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَكُلًّا تَبَّرْنَا تَتْبِيرًا</p></blockquote>
+
+<p>This construction highlights the intensity, comprehensiveness, or certainty of the act. Translating only “destroy” may convey the main meaning but loses part of the construction’s emphasis.</p>
+
+<p>Suitable renderings include “destroy completely,” “break apart entirely,” or “shatter thoroughly.”</p>
+
+<h3 id="grammar-ma-alaw">The Construction مَا عَلَوْا (ma ‘alaw)</h3>
+
+<p>In the expression:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">مَا عَلَوْا</p></blockquote>
+
+<p> refers to what the agents have overpowered.  is the action of those agents.</p>
+
+<p>Possible translations include “whatever they overpowered,” “what they brought under their control,” or “whatever they gained mastery over.”</p>
+
+<p>A wording such as “whatever they became superior over” may be confused with moral or evaluative superiority; “overpowered” is clearer.</p>
+
+<h3 id="grammar-mutabbar">The Construction مُتَبَّرٌ مَا هُمْ فِيهِ</h3>
+
+<p>In this sentence,  appears first and highlights the judgment.  identifies what the judgment concerns.</p>
+
+<p>A close translation is:</p>
+
+<p>“What they are in is bound for destruction.”</p>
+
+<p>“What they insist upon” is explanatory and may be inferred from context, but it is not the exact syntactic structure of the ayah.</p>
+
+<h3 id="grammar-restriction">The Construction لَا تَزِدْ … إِلَّا</h3>
+
+<p>In the expression:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا</p></blockquote>
+
+<p>the construction  restricts the result of the increase: nothing except destruction is to be added to them.</p>
+
+<p>“And increase the wrongdoers in nothing except destruction” preserves this structure closely.</p>
+
+</section>
+
+<section id="near-roots" class="root-section">
+<h2>Comparison With Nearby Roots</h2>
+<h3 id="compare-t-b-b">T B R compared with T B B: tatbir and tabab</h3>
+
+<p>The root  indicates loss, failure, and a harmful outcome. In tabab, a person, effort, plan, or support fails to reach success and beneficial result.</p>
+
+<p>The root  emphasizes breaking apart and destroying the body or order itself.</p>
+
+<p>The difference may be pictured in this way: in tabab, result and benefit reach a dead end; in tatbir, the vessel and structure that should continue are themselves broken apart.</p>
+
+<p>This difference is not absolute, because destruction of structure is also loss and tabab can lead to destruction. Yet the dominant images of the two roots differ.</p>
+
+<h3 id="compare-k-s-r">T B R compared with K S R: tatbir and breaking</h3>
+
+<p>The root  carries the general meaning of breaking. Something may break while retaining part of its form or function.</p>
+
+<p> indicates a more severe and destructive breaking, one that leads to the loss of the body or its continuity.</p>
+
+<p>Every tatbir is a kind of breaking, but not every kasr is necessarily tatbir.</p>
+
+<h3 id="compare-f-t-t">T B R compared with F T T: tatbir and crumbling</h3>
+
+<p>The root  emphasizes crushing and reducing to small pieces. Its image is material becoming small fragments.</p>
+
+<p> can include fragmentation, but its field extends to total destruction and the loss of structure.</p>
+
+<p>Fatt emphasizes the state of the pieces; tatbir emphasizes the destructive outcome of the body.</p>
+
+<h3 id="compare-d-m-r">T B R compared with D M R: tatbir and damar</h3>
+
+<p>The root  indicates severe devastation, extensive destruction, and elimination.</p>
+
+<p> preserves more clearly the image of breaking and shattering a body, while damar can indicate comprehensive devastation without equal emphasis on the fragmentation of parts.</p>
+
+<p>The boundary between them is not completely separate in every Arabic usage and should not be enlarged beyond the linguistic evidence.</p>
+
+<h3 id="compare-h-l-k">T B R compared with H L K: tatbir and halak</h3>
+
+<p>The root  indicates passing away and the ending of existence or the ability to remain.</p>
+
+<p>Halak more often expresses the result, while tatbir can show the manner or process of reaching that result through the image of breaking and shattering.</p>
+
+<p> is very close to halak in result, while  more strongly highlights the act of destruction.</p>
+
+<h3 id="compare-b-t-l">T B R compared with B T L: tatbir and butlan</h3>
+
+<p>The root  indicates lacking truth, being invalid, or being ineffective.</p>
+
+<p>The root  emphasizes destruction and the loss of the body or its continuity.</p>
+
+<p>In Al-A’raf 7:139, the Qur’an places the two beside one another: what they are in is , and what they do is . Their placement together shows that they should not be treated as complete synonyms.</p>
+
+<h3 id="compare-q-t-ayn">T B R compared with Q T ʿ: tatbir and cutting</h3>
+
+<p>The root  indicates cutting, separating, or ending a connection.</p>
+
+<p>In tatbir, the bonds among parts may be cut, but the action is not limited to severing one connection; the whole body or order is exposed to being broken apart.</p>
+
+<p>Cutting can be part of tatbir, but it is not its complete equivalent.</p>
+
+<h3 id="compare-s-d-ayn">T B R compared with S D ʿ: tatbir and splitting</h3>
+
+<p>The root  indicates splitting, cracking, or creating separation in a surface or body.</p>
+
+<p>A split may begin collapse, but it does not necessarily destroy the whole structure. Tatbir goes beyond a crack and conveys severe destruction of the body.</p>
+
+<h3 id="compare-h-t-m">T B R compared with H T M: tatbir and hatm</h3>
+
+<p>The root  is also close to severe breaking and crushing and preserves a clear image of impact, pressure, and fragmentation.</p>
+
+<p> and  overlap closely. In the Qur’anic uses under discussion, however, tatbir includes not only fragmentation but also the destructive outcome of a condition, people, or structure.</p>
+
+<p>No absolute boundary should be constructed between them; the difference lies more in their dominant image and contexts of use.</p>
+
+<h3 id="compare-n-q-d">T B R compared with N Q D: tatbir and naqḍ</h3>
+
+<p>The root  indicates undoing something previously tied, woven, or made firm. It can be used of a covenant, construction, or bond.</p>
+
+<p>In naqḍ, connection and firmness are undone. In tatbir, the body reaches destruction and brokenness.</p>
+
+<p>Naqḍ may weaken or open a structure; tatbir deprives it of the possibility of continuing in its previous form.</p>
+
+<h3 id="compare-ayn-l-w">T B R compared with ʿ L W: tatbir and ʿuluw</h3>
+
+<p>The root  indicates rising, being above, overpowering, or seeking superiority.</p>
+
+<p>In Al-Isra 17:7,  refers to the agents’ domination, and  is the action performed after this domination.</p>
+
+<p>In other contexts, ‘uluw can concern arrogance and seeking superiority, but this ethical meaning should not be imposed directly on  in this ayah.</p>
+
+</section>
+
+<section id="exceptional-tibr" class="root-section">
+<h2>Exceptional Section: The Relation of Tibr to the Root’s Semantic Field</h2>
+<p>The word  is used in Arabic for unworked gold, broken gold, particles of gold, or metal that has not yet been fashioned and coined.</p>
+
+<p>This word does not occur in the Qur’an, but etymologically it belongs to the family of .</p>
+
+<p>An imaginal connection can be seen between this use and the meaning of breaking or losing form: the material exists, but it is not within a fashioned, unified, or final form. In some definitions, tibr refers to particles or broken pieces of gold and silver.</p>
+
+<p>Yet one should not conclude that every Qur’anic use of  was directly formed from the image of gold or unworked metal. Lexical sources record several uses beside one another, but their historical order and exact relation have not been clearly established.</p>
+
+<p> is therefore useful for clarifying part of the root’s imaginal field, but it should not become the main axis for interpreting the ayat.</p>
+
+</section>
+
+<section id="translation" class="root-section">
+<h2>Translation Suggestions for Forqan</h2>
+<h3 id="translation-tabbara">تَبَّرَ (tabbara)</h3>
+
+<p>Depending on context:</p>
+
+<p>broke apart; crushed and shattered; destroyed; tore its body apart; or caused its structure to collapse.</p>
+
+<p>“Caused its structure to collapse” is explanatory and is not suitable in every context. For direct translation, “broke apart and destroyed” preserves a wider field.</p>
+
+<h3 id="translation-tatbir">تَتْبِير (tatbir)</h3>
+
+<p>Complete breaking apart; severe destruction; crushing and shattering; or eliminating completely.</p>
+
+<p>In an emphatic verbal-noun construction, its meaning is usually better reflected through an adverb of intensity:</p>
+
+<p>“broke apart entirely,” “destroyed completely,” or “shattered thoroughly.”</p>
+
+<h3 id="translation-tabar">تَبَار (tabar)</h3>
+
+<p>Destruction; perishing; a destructive outcome; or complete ruin.</p>
+
+<p>For Nuh 71:28, “destruction” is the most natural suggestion.</p>
+
+<h3 id="translation-mutabbar">مُتَبَّر (mutabbar)</h3>
+
+<p>Bound for destruction; bound to be broken apart; condemned to destruction; destroyed; or exposed to certain collapse.</p>
+
+<p>The choice between “destroyed” and “condemned to destruction” depends on the temporal reading of the construction. To preserve both possibilities, “bound for destruction” or “bound to be broken apart” is more cautious.</p>
+
+<h3 id="translation-mutabbar-phrase">مُتَبَّرٌ مَا هُمْ فِيهِ</h3>
+
+<p>Primary suggestion:</p>
+
+<p></p>
+
+<p>Other suggestions:</p>
+
+<p></p>
+
+<p></p>
+
+<p>The third is more explanatory and better suited to reflection than direct translation.</p>
+
+<h3 id="translation-yutabbiru">وَلِيُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا</h3>
+
+<p>Primary suggestion:</p>
+
+<p></p>
+
+<p>Other suggestions:</p>
+
+<p></p>
+
+<p></p>
+
+<h3 id="translation-tabbarna">وَكُلًّا تَبَّرْنَا تَتْبِيرًا</h3>
+
+<p>Primary suggestion:</p>
+
+<p></p>
+
+<p>Other suggestions:</p>
+
+<p></p>
+
+<p></p>
+
+<p>The third is more interpretive and is suitable only in an explanatory context.</p>
+
+<h3 id="translation-tabar-verse">وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا</h3>
+
+<p>Primary suggestion:</p>
+
+<p></p>
+
+<p>Other suggestions:</p>
+
+<p></p>
+
+<p></p>
+
+</section>
+
+<section id="summary" class="root-section">
+<h2>Summary</h2>
+<p>The root  in the Qur’an indicates destruction, breaking apart, and the loss of a body or order that previously possessed the ability to remain and continue. Its dominant image is something broken and scattered so thoroughly that it can no longer preserve its previous form and function.</p>
+
+<p>This root occurs six times in the Qur’an.  is used of a condition bound for destruction;  is used of agents who devastate after domination;  states the outcome of peoples who rejected; and  in Noah’s supplication points to the destruction of the wrongdoers.</p>
+
+<p>In Al-A’raf 7:139, being mutabbar and being batil appear beside one another, but they do not carry the same meaning. Being batil concerns lack of truth and validity; being mutabbar concerns an outcome of destruction and the instability of the structure.</p>
+
+<p>In Al-Isra 17:7, tatbir occurs after entry and domination. This ayah should not be turned into a general command for destruction.</p>
+
+<p>In Al-Furqan 25:39, the emphatic verbal noun  highlights the intensity and completeness of the destructive outcome. In Nuh 71:28,  likewise expresses a state or outcome of destruction.</p>
+
+<p>The root  overlaps with roots such as , and , but it is not completely identical with any of them.</p>
+
+<p>The distinctive feature of  is that it does not show loss or weakness only in the result; the body, coherence, or capacity of the structure itself to continue is exposed to breaking and destruction.</p>
+</section>
+</div></div>

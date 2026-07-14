@@ -1,281 +1,1064 @@
 ---
 layout: default
-title: The Qur'anic Root T B AYN
+title: Qur'anic Root T B AYN (T B ʿ)
 permalink: /quran-terminology/en/roots/t-b-ayn/
 ---
 
 <style>
-  .root-study-page .arabic-large {
-    font-size: 1.12em;
-    line-height: 2.15;
-  }
-
-  .root-study-page .translation,
-  .root-study-page .verse-ref {
-    text-align: center;
-  }
-
-  .root-study-page .translation {
-    margin-top: -0.45rem;
-  }
-
-  .root-study-page .verse-ref {
-    margin-top: -0.35rem;
-    font-size: 0.95rem;
-    opacity: 0.86;
-  }
-
-  .root-study-page .translit {
-    font-size: 0.92em;
-    opacity: 0.82;
-  }
-
-  .root-study-page .root-cross-card {
-    display: block;
-    margin: 1.25rem 0;
-    padding: 1rem 1.1rem;
-    border: 1px solid rgba(176, 141, 87, 0.38);
-    border-radius: 14px;
-    background: rgba(176, 141, 87, 0.08);
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .root-study-page .root-cross-card strong {
-    display: block;
-    color: #8b6423;
-    margin-bottom: 0.35rem;
-  }
-
-  body.dark-theme .root-study-page .root-cross-card strong {
-    color: #d6b05f;
-  }
+  main.container { width: 100%; max-width: 980px; box-sizing: border-box; }
+  .root-study-page { max-width: 980px; margin: 0 auto; padding: 3.5rem 1.25rem; line-height: 1.9; color: var(--root-text, #2f2a22); }
+  .root-study-page, .root-study-page * { box-sizing: border-box; }
+  .root-frame { background: radial-gradient(circle at top right, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent 34%), var(--root-card, #fffaf1); border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 26px; padding: 2.4rem; box-shadow: 0 22px 60px rgba(65, 46, 20, 0.10); }
+  .root-hero { border-bottom: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); padding-bottom: 1.65rem; margin-bottom: 2rem; }
+  .root-kicker { color: var(--root-accent-deep, #8b6423); font-size: 0.96rem; font-weight: 800; margin-bottom: 0.45rem; }
+  .root-study-page h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.05rem); line-height: 1.2; color: var(--root-text, #2f2a22); }
+  .root-subtitle { color: var(--root-muted, #6d6255); max-width: 780px; margin: 1rem 0 0; font-size: 1.04rem; }
+  .root-forms-card, .root-toc { background: linear-gradient(180deg, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent 82%), var(--root-panel, #fffdf7); border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 20px; padding: 1.35rem 1.55rem; margin: 1.55rem 0; }
+  .root-forms-card h2, .root-toc h2 { margin-top: 0; }
+  .morphology-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+  .morph-card { display: block; min-width: 0; border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 16px; padding: 1rem; background: var(--root-section, #fffaf2); color: inherit; text-decoration: none; }
+  .morph-card-header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.35rem 0.75rem; color: var(--root-muted, #6d6255); font-size: 0.88rem; margin-bottom: 0.55rem; }
+  .morph-form { font-weight: 800; font-size: 1.28rem; color: var(--root-accent-deep, #8b6423); margin-bottom: 0.15rem; }
+  .morph-translit { color: var(--root-accent-deep, #8b6423); font-size: 0.88rem; font-style: italic; }
+  .morph-note { color: var(--root-muted, #6d6255); margin-bottom: 0; font-size: 0.95rem; }
+  .morph-destination { color: var(--root-accent-deep, #8b6423); margin: 0.45rem 0 0; font-size: 0.86rem; font-weight: 700; }
+  .root-toc ol { list-style-position: inside; padding-left: 0; margin: 0.75rem 0 0; columns: 2; column-gap: 2rem; }
+  .root-toc li { margin: 0.28rem 0; break-inside: avoid; }
+  .root-section { background: var(--root-section, #fffaf2); border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 18px; padding: 1.5rem 1.6rem; margin: 1.55rem 0; scroll-margin-top: 1.25rem; }
+  .root-section h2 { margin: 0 0 1rem; color: var(--root-text, #2f2a22); font-size: 1.35rem; line-height: 1.35; }
+  .root-section h2::before { content: ""; display: inline-block; width: 0.58rem; height: 0.58rem; border-radius: 999px; background: var(--root-accent, #b9852f); margin-right: 0.55rem; vertical-align: 0.08em; }
+  .root-section h3 { margin: 1.65rem 0 0.75rem; color: var(--root-accent-deep, #8b6423); font-size: 1.13rem; scroll-margin-top: 1.25rem; }
+  .root-study-page p { margin: 0.85rem 0; }
+  .root-study-page a { color: var(--root-accent-deep, #8b6423); text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .morph-card, .morph-card:hover { border-bottom-style: solid; }
+  .verse-block { margin: 1.35rem 0 0.65rem; padding: 1rem 1.25rem; border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 18px; background: linear-gradient(180deg, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent), var(--root-panel, #fffdf7); }
+  .arabic-quote { direction: rtl; text-align: center !important; font-size: 1.48rem; line-height: 2.5; margin: 0; color: var(--root-text, #2f2a22); unicode-bidi: isolate; }
+  .translation { text-align: center; color: var(--root-muted, #6d6255); margin-top: 0.45rem; }
+  .verse-ref { text-align: center; color: var(--root-accent-deep, #8b6423); font-weight: 700; margin-top: 0.25rem; }
+  .arabic-large { font-size: 1.12em; line-height: 2.15; direction: rtl; unicode-bidi: isolate; }
+  @media (max-width: 760px) { .root-study-page { padding: 1.5rem 0.75rem; } .root-frame { padding: 1.25rem; border-radius: 20px; } .morphology-grid { grid-template-columns: 1fr; } .root-toc ol { columns: 1; } .arabic-quote { font-size: 1.25rem; } }
 </style>
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en"><div class="root-frame">
+  <section class="root-hero"><div class="root-kicker">Qur'anic Root</div><h1>Qur'anic Root T B AYN (T B ʿ)</h1><p class="root-subtitle">Taking a place behind a person, thing, trace, or path and continuing movement along its course.</p></section>
+  <section class="root-forms-card" aria-labelledby="morphology-title"><h2 id="morphology-title">Qur'anic Derivative Cards</h2><div class="morphology-grid">
+  <a class="morph-card" href="#quranic-derivatives-01"><div class="morph-card-header"><span>Form I verb</span><span>tabiʿa</span></div><div class="morph-form" dir="rtl" lang="ar">تَبِعَ</div><div class="morph-translit">tabiʿa</div><p class="morph-note">Came behind, followed, or took a position after something.</p><p class="morph-destination">Related section: voluntary following and involuntary sequence</p></a>
+  <a class="morph-card" href="#quranic-uses"><div class="morph-card-header"><span>Form VIII verb</span><span>ittabaʿa</span></div><div class="morph-form" dir="rtl" lang="ar">اتَّبَعَ</div><div class="morph-translit">ittabaʿa</div><p class="morph-note">Went after something, took its way, or followed it.</p><p class="morph-destination">Related section: the object of ittibaʿ and its ethical direction</p></a>
+  <a class="morph-card" href="#quranic-derivatives-02"><div class="morph-card-header"><span>Form IV verb</span><span>atbaʿa</span></div><div class="morph-form" dir="rtl" lang="ar">أَتْبَعَ</div><div class="morph-translit">atbaʿa</div><p class="morph-note">Went after, pursued, caught up, or brought one thing after another.</p><p class="morph-destination">Related section: pursuit, joining, and the order of consequences</p></a>
+  <a class="morph-card" href="#quranic-derivatives-04"><div class="morph-card-header"><span>Noun</span><span>tabaʿ</span></div><div class="morph-form" dir="rtl" lang="ar">تَبَع</div><div class="morph-translit">tabaʿ</div><p class="morph-note">A follower or a group of followers.</p><p class="morph-destination">Related section: the relation of followers and forerunners</p></a>
+  <a class="morph-card" href="#quranic-derivatives-04"><div class="morph-card-header"><span>Active participle</span><span>tābiʿ</span></div><div class="morph-form" dir="rtl" lang="ar">تَابِع</div><div class="morph-translit">tābiʿ</div><p class="morph-note">One who follows, a follower, or a dependent companion.</p><p class="morph-destination">Related section: nominal forms of following</p></a>
+  <a class="morph-card" href="#quranic-derivatives-05"><div class="morph-card-header"><span>Noun</span><span>tabīʿ</span></div><div class="morph-form" dir="rtl" lang="ar">تَبِيع</div><div class="morph-translit">tabīʿ</div><p class="morph-note">One who comes after a matter to claim, pursue, or demand accountability.</p><p class="morph-destination">Related section: following extended to pursuing a right</p></a>
+  <a class="morph-card" href="#quranic-derivatives-06"><div class="morph-card-header"><span>Dual form VI active participle</span><span>mutatabiʿayn</span></div><div class="morph-form" dir="rtl" lang="ar">مُتَتَابِعَيْن</div><div class="morph-translit">mutatabiʿayn</div><p class="morph-note">Two things that come consecutively without interruption.</p><p class="morph-destination">Related section: temporal continuity</p></a>
+  <a class="morph-card" href="#quranic-derivatives-07"><div class="morph-card-header"><span>Form VIII verbal noun</span><span>ittibaʿ</span></div><div class="morph-form" dir="rtl" lang="ar">اتِّبَاع</div><div class="morph-translit">ittibaʿ</div><p class="morph-note">The act of following, going after, or pursuing.</p><p class="morph-destination">Related section: doctrinal following and pursuing a claim</p></a>
+  <a class="morph-card" href="#quranic-derivatives-08"><div class="morph-card-header"><span>Form VIII passive participle</span><span>muttabaʿun</span></div><div class="morph-form" dir="rtl" lang="ar">مُتَّبَعُون</div><div class="morph-translit">muttabaʿun</div><p class="morph-note">Those who are pursued or followed.</p><p class="morph-destination">Related section: physical pursuit</p></a>
+</div></section>
 
-<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+  <nav class="root-toc" aria-label="Article section list"><h2>Article Map</h2><ol><li><a href="#introduction">Short Introduction to the Root</a></li>
+          <li><a href="#forms">Important Forms and Derivatives</a></li>
+          <li><a href="#root-meaning">Semantic Core of the Root</a></li>
+          <li><a href="#material-image">Material Image of the Root</a></li>
+          <li><a href="#classical-usage">Use of the Root in Early Arabic</a></li>
+          <li><a href="#reception-history">History of Understanding, Restriction, or Semantic Confusion</a></li>
+          <li><a href="#methodology">Methodological Note</a></li>
+          <li><a href="#quranic-uses">Qur’anic Uses of the Root</a></li>
+          <li><a href="#quranic-derivatives">Important Qur’anic Derivatives</a></li>
+          <li><a href="#grammar">Grammatical and Structural Notes</a></li>
+          <li><a href="#near-roots">Comparison With Nearby Roots</a></li>
+          <li><a href="#translation">Translation Suggestions for Forqan</a></li>
+          <li><a href="#summary">Summary</a></li></ol></nav>
+  <section id="introduction" class="root-section">
+<h2>Short Introduction to the Root</h2>
+<p>The root  moves in the field of following, going behind something, moving along its trace or path, and one thing coming after another.</p>
 
-  <div class="root-frame">
-    <section class="root-hero">
-      <div class="root-kicker">Qur'anic Root</div>
-      <h1>The Qur'anic Root T B AYN (T B ʿ)</h1>
-      <p class="root-subtitle">Following, pursuing, going behind something, and moving along the path of a forerunner</p>
-    </section>
+<p>In the root’s foundational image, something stands ahead and something else comes after it. At times this relation is spatial and movement-based, as when an army pursues a group. At times it is intellectual, religious, or social, as when someone follows guidance, a messenger, a way, desire, or assumption. At other times it is a relation between an act and what follows it, as when harm comes after charity or a curse follows a people in this world and the next.</p>
 
-    <section class="root-forms-card" id="forms-covered">
-      <h2>Important Forms from This Root</h2>
-      <div class="morphology-grid">
-        <a class="morph-card" href="#foundational-meaning">
-          <div class="morph-card-header">
-            <div class="morph-type">Root</div>
-            <div class="morph-used">Used in the Qur'an: Yes</div>
-          </div>
-          <div class="morph-form arabic-large">ت ب ع <span class="translit">(t-b-ʿ)</span></div>
-          <p class="morph-note">Following, pursuing, coming behind something, and moving along the path of a forerunner.</p>
-        </a>
+<p>, therefore, is not merely knowing, mental agreement, or hearing. In voluntary uses, the follower aligns direction with what stands ahead and continues along its course.</p>
 
-        <a class="morph-card" href="#important-forms-from-this-root">
-          <div class="morph-card-header">
-            <div class="morph-type">Verbal and Nominal Forms</div>
-            <div class="morph-used">Used in the Qur'an: Yes</div>
-          </div>
-          <div class="morph-form arabic-large">تبع / اتبع / يتبع / اتباع <span class="translit">(tabiʿa / ittabaʿa / yattabiʿu / ittibāʿ)</span></div>
-          <p class="morph-note">Following, taking a path, or placing oneself in the extension of a way.</p>
-        </a>
+<p>In a brief formulation, the root’s core may be expressed as:</p>
 
-        <a class="morph-card" href="#physical-pursuit">
-          <div class="morph-card-header">
-            <div class="morph-type">Pursuit</div>
-            <div class="morph-used">Used in the Qur'an: Yes</div>
-          </div>
-          <div class="morph-form arabic-large">أتبعهم / أتبعوهم <span class="translit">(atbaʿahum / atbaʿūhum)</span></div>
-          <p class="morph-note">Following or pursuing in a spatial and movement-based sense.</p>
-        </a>
+<p></p>
 
-        <a class="morph-card" href="#followers-and-leaders-on-the-day-of-resurrection">
-          <div class="morph-card-header">
-            <div class="morph-type">Followers and Those Followed</div>
-            <div class="morph-used">Used in the Qur'an: Yes</div>
-          </div>
-          <div class="morph-form arabic-large">الذين اتبعوا / الذين اتبعوا <span class="translit">(alladhīna ittabaʿū / alladhīna uttubiʿū)</span></div>
-          <p class="morph-note">The relationship between those who followed and those who were followed, especially in the scene of Resurrection.</p>
-        </a>
-      </div>
-    </section>
+</section>
 
-    <nav class="root-toc" aria-label="Article section list">
-      <h2>Usage map of this root</h2>
-      <ol>
-        <li><a href="#foundational-meaning">Foundational Meaning</a></li>
-        <li><a href="#important-forms-from-this-root">Important Forms from This Root</a></li>
-        <li><a href="#central-meaning">Central Meaning</a></li>
-        <li><a href="#material-image-of-the-root">Material Image of the Root</a></li>
-        <li><a href="#classical-arabic-note">Classical Arabic Note</a></li>
-        <li><a href="#following-guidance">Following Guidance</a></li>
-        <li><a href="#following-what-the-god-sent-down">Following What The God Sent Down</a></li>
-        <li><a href="#following-the-messenger-and-the-sent-down-light">Following the Messenger and the Sent-Down Light</a></li>
-        <li><a href="#following-satan">Following Satan</a></li>
-        <li><a href="#following-desire">Following Desire</a></li>
-        <li><a href="#following-assumption">Following Assumption</a></li>
-        <li><a href="#followers-and-leaders-on-the-day-of-resurrection">Followers and Leaders on the Day of Resurrection</a></li>
-        <li><a href="#physical-pursuit">Physical Pursuit</a></li>
-        <li><a href="#being-followed-by-consequence-or-effect">Being Followed by Consequence or Effect</a></li>
-        <li><a href="#following-with-ihsan">Following with Ihsan</a></li>
-        <li><a href="#important-distinctions">Important Distinctions</a></li>
-        <li><a href="#structural-note">Structural Note</a></li>
-        <li><a href="#difference-from-nearby-roots">Difference from Nearby Roots</a></li>
-        <li><a href="#forqan-translation-suggestions">Forqan Translation Suggestions</a></li>
-        <li><a href="#linguistic-summary">Linguistic Summary</a></li>
-      </ol>
-    </nav>
+<section id="forms" class="root-section">
+<h2>Important Forms and Derivatives</h2>
+<p>The root  occurs in the Qur’an in a variety of verbal and nominal forms. Its principal forms include:</p>
 
-    <section class="root-section" id="foundational-meaning">
-      <h2>Foundational Meaning</h2>
-      <p>The root <strong class="arabic-large">ت ب ع</strong> <span class="translit">(t-b-ʿ)</span> fundamentally points to following, pursuing, coming behind something, and moving along the path of a forerunner. In this root, something stands ahead and something else comes after it: sometimes by choice, sometimes by habit, sometimes through deception, and sometimes as consequence and pursuit.</p>
-    </section>
-    <section class="root-section" id="important-forms-from-this-root">
-      <h2>Important Forms from This Root</h2>
-      <p>Important Qur’anic forms of this root include <strong class="arabic-large">تبع</strong> <span class="translit">(tabiʿa)</span>, <strong class="arabic-large">يتبع</strong> <span class="translit">(yattabiʿu / yatbaʿu)</span>, <strong class="arabic-large">اتبع</strong> <span class="translit">(ittabaʿa)</span>, <strong class="arabic-large">يتبعون</strong> <span class="translit">(yattabiʿūn)</span>, <strong class="arabic-large">اتبعوا</strong> <span class="translit">(ittabaʿū)</span>, <strong class="arabic-large">اتباع</strong> <span class="translit">(ittibāʿ)</span>, <strong class="arabic-large">أتباع</strong> <span class="translit">(atbāʿ)</span>, <strong class="arabic-large">متبع</strong> <span class="translit">(muttabiʿ)</span>, <strong class="arabic-large">تابع</strong> <span class="translit">(tābiʿ)</span>, <strong class="arabic-large">اتبعهم</strong> <span class="translit">(ittabaʿahum)</span>, <strong class="arabic-large">أتبعهم</strong> <span class="translit">(atbaʿahum)</span>, and <strong class="arabic-large">أتبعوا</strong> <span class="translit">(utbiʿū / atbaʿū, according to form and reading context)</span>. The simple verb <strong class="arabic-large">تبع</strong> <span class="translit">(tabiʿa)</span> is close to following or pursuing. Form VIII, <strong class="arabic-large">اتبع</strong> <span class="translit">(ittabaʿa)</span>, is especially important in the Qur’an and often points to accepted following, taking a path, or placing oneself in the extension of a way. <strong class="arabic-large">اتباع</strong> <span class="translit">(ittibāʿ)</span> is the verbal noun of following. <strong class="arabic-large">أتباع</strong> <span class="translit">(atbāʿ)</span> are followers or those who come behind. <strong class="arabic-large">أتبع</strong> <span class="translit">(atbaʿa)</span> in some contexts points to following after, pursuing, or setting out behind someone.</p>
-    </section>
-    <section class="root-section" id="central-meaning">
-      <h2>Central Meaning</h2>
-      <p>The linguistic core of <strong class="arabic-large">ت ب ع</strong> <span class="translit">(t-b-ʿ)</span> is posterior movement along the path of a forerunner. This root is not simply “obedience.” Obedience is more closely tied to accepting a command, but <strong class="arabic-large">اتباع</strong> <span class="translit">(ittibāʿ)</span> carries an image of movement: someone or something has gone ahead, and the human being walks behind it. The followed thing can be guidance, revelation, the Messenger, light, desire, Satan, assumption, forefathers, or false leaders. Therefore, the value of following does not come from the root itself; it comes from what the human being follows.</p>
-    </section>
-    <section class="root-section" id="material-image-of-the-root">
-      <h2>Material Image of the Root</h2>
-      <p>The material image of this root is shadow-like movement behind a guide, a footprint, a caravan, or a living being that has gone ahead. One may imagine an animal following its young or its owner, or a group moving along the path of its leader. In this image, the follower does not merely stand in place and think; the follower enters a path, takes steps, and aligns direction with the one or the thing ahead.</p>
-    </section>
-    <section class="root-section" id="classical-arabic-note">
-      <h2>Classical Arabic Note</h2>
-      <p>In classical Arabic usage, <strong class="arabic-large">ت ب ع</strong> <span class="translit">(t-b-ʿ)</span> is connected with coming behind, following, pursuing, joining, and continuing the path of another. Sometimes it is used for physical movement, and sometimes for social, intellectual, or religious following. In the final version, if a reliable witness from pre-Islamic poetry or early Arabic usage is found, it can be added.</p>
-    </section>
-    <section class="root-section" id="following-guidance">
-      <h2>Following Guidance</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">قُلْنَا اهْبِطُوا مِنْهَا جَمِيعًا ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّي هُدًى فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</blockquote>
-      <p class="translation">We said: Descend from it, all together. Then if guidance comes to you from Me, whoever follows My guidance: no fear shall be upon them, nor shall they grieve.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-038' | relative_url }}">Al-Baqarah 2:38</a></p>
-      <p>In this ayah, <strong class="arabic-large">تبع هداي</strong> <span class="translit">(tabiʿa hudāya)</span> means following the guidance of The God. Guidance is not only heard or known; it must be followed. The human being must place himself within its path.</p>
-      <p>The same meaning appears in Ta-Ha:</p>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَنِ اتَّبَعَ هُدَايَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ</blockquote>
-      <p class="translation">So whoever follows My guidance will not go astray and will not be wretched.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/020-ta-ha/#ayah-123' | relative_url }}">Ta-Ha 20:123</a></p>
-      <p>In this ayah, following guidance has a result: neither misguidance nor wretchedness. Following guidance is therefore not merely a mental belief; it is becoming aligned with guidance in life.</p>
-    </section>
-    <section class="root-section" id="following-what-the-god-sent-down">
-      <h2>Following What The God Sent Down</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">اتَّبِعُوا مَا أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ وَلَا تَتَّبِعُوا مِن دُونِهِ أَوْلِيَاءَ</blockquote>
-      <p class="translation">Follow what has been sent down to you from your Lord, and do not follow allies besides Him.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/007-al-araf/#ayah-003' | relative_url }}">Al-A'raf 7:3</a></p>
-      <p>In this ayah, the object of following is clear: <strong class="arabic-large">ما أنزل إليكم من ربكم</strong> <span class="translit">(mā unzila ilaykum min rabbikum)</span>, what has been sent down to you from your Lord. The Qur’an makes revelation the criterion of following. A human being must not follow every forerunner, tradition, power, or social authority; what has been sent down from The God must be the measure of the path.</p>
-      <p>The same principle appears in the critique of blind following of forefathers:</p>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِذَا قِيلَ لَهُمُ اتَّبِعُوا مَا أَنزَلَ اللَّهُ قَالُوا بَلْ نَتَّبِعُ مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا</blockquote>
-      <p class="translation">And when it is said to them, “Follow what The God has sent down,” they say, “Rather, we follow what we found our forefathers upon.”</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/031-luqman/#ayah-021' | relative_url }}">Luqman 31:21</a></p>
-      <p>In this ayah, two kinds of following stand opposite one another: following revelation and following the inherited way of forefathers. The Qur’an does not reject the past merely because it is past. The problem begins when the past takes the place of revelation and the human being hands his path over to it.</p>
-    </section>
-    <section class="root-section" id="following-the-messenger-and-the-sent-down-light">
-      <h2>Following the Messenger and the Sent-Down Light</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">الَّذِينَ يَتَّبِعُونَ الرَّسُولَ النَّبِيَّ الْأُمِّيَّ</blockquote>
-      <p class="translation">Those who follow the Messenger, the unlettered Prophet.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/007-al-araf/#ayah-157' | relative_url }}">Al-A'raf 7:157</a></p>
-      <p>In the same ayah it says:</p>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَاتَّبَعُوا النُّورَ الَّذِي أُنزِلَ مَعَهُ</blockquote>
-      <p class="translation">And they followed the light that was sent down with him.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/007-al-araf/#ayah-157' | relative_url }}">Al-A'raf 7:157</a></p>
-      <p>This connection is very important. Following the Messenger in the Qur’an is not detached from the light sent down with him. The Messenger is not an independent forerunner set against The God; the Messenger carries the message and the path illuminated by divine light. Therefore, following the Messenger, in its depth, is becoming aligned with the message and the light he brought.</p>
-    </section>
-    <section class="root-section" id="following-satan">
-      <h2>Following Satan</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">يَا أَيُّهَا النَّاسُ كُلُوا مِمَّا فِي الْأَرْضِ حَلَالًا طَيِّبًا وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ</blockquote>
-      <p class="translation">O people, eat from what is in the earth, lawful and pure, and do not follow the footsteps of Satan.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-168' | relative_url }}">Al-Baqarah 2:168</a></p>
-      <p>The expression <strong class="arabic-large">خطوات الشيطان</strong> <span class="translit">(khuṭuwāt al-shayṭān)</span>, the footsteps of Satan, shows that following Satan is often step by step. The human being does not always fall through one large movement; small steps, gradual normalization, justification, and moral numbness can place him on Satan’s path.</p>
-      <p>In another ayah it says:</p>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ ۚ إِنَّهُ لَكُمْ عَدُوٌّ مُّبِينٌ</blockquote>
-      <p class="translation">And do not follow the footsteps of Satan; indeed, he is for you a clear enemy.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-208' | relative_url }}">Al-Baqarah 2:208</a></p>
-      <p>Following Satan here is following a gradual path. The danger is not only in obvious evil; it is in steps that slowly change the human being’s direction.</p>
-    </section>
-    <section class="root-section" id="following-desire">
-      <h2>Following Desire</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَا تَتَّبِعِ الْهَوَىٰ فَيُضِلَّكَ عَن سَبِيلِ اللَّهِ</blockquote>
-      <p class="translation">And do not follow desire, lest it misguide you from the way of The God.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/038-sad/#ayah-026' | relative_url }}">Sad 38:26</a></p>
-      <p><strong class="arabic-large">الهوى</strong> <span class="translit">(al-hawā)</span> here is unleashed desire and unrestrained pull. When the human being follows desire, desire sits in the position of the forerunner and the human being moves behind it. The result is departure from <strong class="arabic-large">سبيل الله</strong> <span class="translit">(sabīl Allāh)</span>, the way of The God. In this usage, <strong class="arabic-large">ت ب ع</strong> <span class="translit">(t-b-ʿ)</span> shows that the human being is always taking direction: either he follows guidance, or he follows desire.</p>
-    </section>
-    <section class="root-section" id="following-assumption">
-      <h2>Following Assumption</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِن يَتَّبِعُونَ إِلَّا الظَّنَّ وَمَا تَهْوَى الْأَنفُسُ</blockquote>
-      <p class="translation">They follow nothing but assumption and what the souls desire.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/053-an-najm/#ayah-023' | relative_url }}">An-Najm 53:23</a></p>
-      <p>In this ayah, following assumption is joined with what the souls desire. When assumption becomes the criterion of movement, it separates the human being from knowledge and guidance. Following without knowledge places the human being on a groundless path.</p>
-      <p>In another ayah it says:</p>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِن تُطِعْ أَكْثَرَ مَن فِي الْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ اللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا الظَّنَّ</blockquote>
-      <p class="translation">And if you obey most of those on the earth, they will misguide you from the way of The God. They follow nothing but assumption.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/006-al-anam/#ayah-116' | relative_url }}">Al-An'am 6:116</a></p>
-      <p>Here, being the majority is not the criterion of truth. If most people follow assumption, following them takes the human being out of the way of The God.</p>
-    </section>
-    <section class="root-section" id="followers-and-leaders-on-the-day-of-resurrection">
-      <h2>Followers and Leaders on the Day of Resurrection</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِذْ تَبَرَّأَ الَّذِينَ اتُّبِعُوا مِنَ الَّذِينَ اتَّبَعُوا وَرَأَوُا الْعَذَابَ وَتَقَطَّعَتْ بِهِمُ الْأَسْبَابُ</blockquote>
-      <p class="translation">When those who were followed disown those who followed, and they see the punishment, and the bonds between them are cut off.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-166' | relative_url }}">Al-Baqarah 2:166</a></p>
-      <p>In this ayah, there are two groups: those who were followed, and those who followed. In worldly life there was connection, trust, influence, and following between them. But on the Day of Resurrection these bonds are cut. The Qur’an shows that the follower cannot transfer responsibility for his direction onto the one he followed.</p>
-      <p>The continuation says:</p>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَقَالَ الَّذِينَ اتَّبَعُوا لَوْ أَنَّ لَنَا كَرَّةً فَنَتَبَرَّأَ مِنْهُمْ كَمَا تَبَرَّءُوا مِنَّا</blockquote>
-      <p class="translation">And those who followed said, “If only we had a return, we would disown them as they disowned us.”</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/002-al-baqarah/#ayah-167' | relative_url }}">Al-Baqarah 2:167</a></p>
-      <p>Here, blind following becomes regret. Following in worldly life is not merely an intellectual choice; it builds a bond of destiny. If that bond is upon falsehood, its end is disavowal and the cutting of ties.</p>
-    </section>
-    <section class="root-section" id="physical-pursuit">
-      <h2>Physical Pursuit</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعُوهُم مُّشْرِقِينَ</blockquote>
-      <p class="translation">So they pursued them at sunrise.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/026-ash-shuara/#ayah-060' | relative_url }}">Ash-Shu'ara 26:60</a></p>
-      <p>Here following has a clear spatial meaning: Pharaoh’s people set out after the Children of Israel. This usage shows the material layer of the root: moving behind a target.</p>
-      <p>In another ayah it says:</p>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِ فَغَشِيَهُم مِّنَ الْيَمِّ مَا غَشِيَهُمْ</blockquote>
-      <p class="translation">So Pharaoh pursued them with his soldiers, then there covered them from the sea that which covered them.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/020-ta-ha/#ayah-078' | relative_url }}">Ta-Ha 20:78</a></p>
-      <p>In this usage, following points to active pursuit. Pharaoh was not merely opposed; he moved, pursued, and perished on that same path.</p>
-    </section>
-    <section class="root-section" id="being-followed-by-consequence-or-effect">
-      <h2>Being Followed by Consequence or Effect</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَهُ الشَّيْطَانُ فَكَانَ مِنَ الْغَاوِينَ</blockquote>
-      <p class="translation">So Satan followed him, and he became of those who go astray.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/007-al-araf/#ayah-175' | relative_url }}">Al-A'raf 7:175</a></p>
-      <p>In this ayah, a person detaches himself from the signs, and Satan follows him. This usage shows that sometimes the human being follows falsehood, and sometimes, after separating from truth, falsehood and Satan come behind him and do not leave him alone.</p>
-      <p>About ʿĀd it says:</p>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَأُتْبِعُوا فِي هَٰذِهِ الدُّنْيَا لَعْنَةً وَيَوْمَ الْقِيَامَةِ</blockquote>
-      <p class="translation">And they were followed in this worldly life by a curse, and on the Day of Resurrection as well.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/011-hud/#ayah-060' | relative_url }}">Hud 11:60</a></p>
-      <p>Here following points to a consequence that comes behind the people. The curse, meaning distance from mercy, follows them as an effect and consequence. Thus <strong class="arabic-large">ت ب ع</strong> <span class="translit">(t-b-ʿ)</span> is not only the movement of a human being behind something; sometimes the effect of action moves behind the human being.</p>
-    </section>
-    <section class="root-section" id="following-with-ihsan">
-      <h2>Following with Ihsan</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَالَّذِينَ اتَّبَعُوهُم بِإِحْسَانٍ</blockquote>
-      <p class="translation">And those who followed them with ihsan.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/en/009-at-tawbah/#ayah-100' | relative_url }}">At-Tawbah 9:100</a></p>
-      <p>In this ayah, following is qualified by <strong class="arabic-large">إحسان</strong> <span class="translit">(iḥsān)</span>. Following the earlier righteous ones has value when it is with ihsan: goodness, carefulness, moral excellence, and rightness. This condition shows that the Qur’an does not make blind following the criterion; even in following the righteous, the quality of following matters.</p>
-    </section>
-    <section class="root-section" id="important-distinctions">
-      <h2>Important Distinctions</h2>
-      <p>Different usages of <strong class="arabic-large">ت ب ع</strong> <span class="translit">(t-b-ʿ)</span> must be distinguished. Following guidance means placing oneself on the path of The God’s guidance. Following revelation means taking what The God sent down as the criterion. Following the Messenger means becoming aligned with the message and the light sent down with him. Following forefathers becomes a problem when it replaces revelation. Following Satan is gradual and step by step. Following desire means desire becomes the forerunner. Following assumption means assumption takes the place of knowledge. Pharaoh’s pursuit shows the physical meaning of the root. Being followed by a curse or by Satan shows that consequences can also pursue the human being.</p>
-    </section>
-    <section class="root-section" id="structural-note">
-      <h2>Structural Note</h2>
-      <p>The object of the verb is very important in this root. <strong class="arabic-large">اتبع الهدى</strong> <span class="translit">(ittabaʿa al-hudā)</span> means he followed guidance. <strong class="arabic-large">اتبع الرسول</strong> <span class="translit">(ittabaʿa al-rasūl)</span> means he followed the Messenger in the path of the message. <strong class="arabic-large">اتبع ما أنزل الله</strong> <span class="translit">(ittabaʿa mā anzala Allāh)</span> means he made what The God sent down the criterion of movement. <strong class="arabic-large">اتبع الهوى</strong> <span class="translit">(ittabaʿa al-hawā)</span> means he made desire the forerunner. <strong class="arabic-large">اتبع خطوات الشيطان</strong> <span class="translit">(ittabaʿa khuṭuwāt al-shayṭān)</span> means he followed the gradual footsteps of Satan. <strong class="arabic-large">اتبع الظن</strong> <span class="translit">(ittabaʿa al-ẓann)</span> means he made assumption the criterion. The moral meaning of following becomes clear from what is being followed.</p>
-    </section>
-    <section class="root-section" id="difference-from-nearby-roots">
-      <h2>Difference from Nearby Roots</h2>
-      <p><strong class="arabic-large">ت ب ع</strong> <span class="translit">(t-b-ʿ)</span> differs from several nearby roots. <strong class="arabic-large">ط و ع</strong> <span class="translit">(ṭ-w-ʿ)</span> is closer to obedience, becoming compliant, and accepting a command; but <strong class="arabic-large">ت ب ع</strong> <span class="translit">(t-b-ʿ)</span> more strongly carries the image of moving behind a forerunner or path. <strong class="arabic-large">ق ف و</strong> <span class="translit">(q-f-w)</span> is close to following a trace, track, or something without knowledge, as in <strong class="arabic-large">ولا تقف ما ليس لك به علم</strong> <span class="translit">(wa lā taqfu mā laysa laka bihi ʿilm)</span> in <a class="quran-ref-link" href="{{ '/quran-reflection/en/017-al-isra/#ayah-036' | relative_url }}">Al-Isra 17:36</a>. <strong class="arabic-large">لحق</strong> <span class="translit">(l-ḥ-q)</span> points to reaching and joining, while following may continue without full arrival. <strong class="arabic-large">اقتدى</strong> <span class="translit">(iqtadā)</span> is close to taking someone as an example or leader. <strong class="arabic-large">سلك</strong> <span class="translit">(s-l-k)</span> points to entering and traversing a path, while following emphasizes that something or someone ahead has determined the direction. <strong class="arabic-large">مشى</strong> <span class="translit">(m-sh-y)</span> means walking, but following is walking behind something or in the extension of something.</p>
-    </section>
-    <section class="root-section" id="forqan-translation-suggestions">
-      <h2>Forqan Translation Suggestions</h2>
-      <p>For Forqan translation, <strong class="arabic-large">ت ب ع</strong> <span class="translit">(t-b-ʿ)</span> must be translated by context. <strong class="arabic-large">تبع</strong> <span class="translit">(tabiʿa)</span> and <strong class="arabic-large">اتبع</strong> <span class="translit">(ittabaʿa)</span> can be translated as “followed,” “pursued,” “took up,” “went behind,” “took his way,” or “went after it.” <strong class="arabic-large">اتبع الهدى</strong> <span class="translit">(ittabaʿa al-hudā)</span> is better rendered as “followed guidance” or “went in pursuit of guidance.” <strong class="arabic-large">اتبع الرسول</strong> <span class="translit">(ittabaʿa al-rasūl)</span> is “followed the Messenger,” but in explanation it must be connected to the message and the light sent down. <strong class="arabic-large">اتبع الهوى</strong> <span class="translit">(ittabaʿa al-hawā)</span> is “followed desire” or “followed his desire.” <strong class="arabic-large">اتبع خطوات الشيطان</strong> <span class="translit">(ittabaʿa khuṭuwāt al-shayṭān)</span> is “followed the footsteps of Satan.” <strong class="arabic-large">أتباع</strong> <span class="translit">(atbāʿ)</span> can be “followers” or “those who came behind.” <strong class="arabic-large">الذين اتبعوا</strong> <span class="translit">(alladhīna ittabaʿū)</span> means “those who followed,” while <strong class="arabic-large">الذين اتبعوا</strong> <span class="translit">(alladhīna uttubiʿū)</span>, according to passive reading and context, means “those who were followed”; in English the difference must be made clear through grammar. <strong class="arabic-large">أتبع</strong> <span class="translit">(atbaʿa)</span> in pursuit contexts is better translated as “followed,” “went after them,” or “pursued.”</p>
-    </section>
-    <section class="root-section" id="linguistic-summary">
-      <h2>Linguistic Summary</h2>
-      <p>Linguistic summary: the root <strong class="arabic-large">ت ب ع</strong> <span class="translit">(t-b-ʿ)</span> points to following, pursuing, going behind something, and continuing the path of a forerunner. Its material image is continuous movement behind a guide, caravan, footprint, or target. In the Qur’an, this root extends from following guidance and revelation to following the Messenger and the light, from following Satan and desire to following assumption and forefathers, and from the relationship between followers and leaders to physical pursuit and pursuing consequences. Its difference from obedience is that obedience focuses on accepting a command, while following emphasizes becoming aligned with and moving along the path of what is followed.</p>
-    </section>
-  </div>
-</div>
+<h3 id="forms-01">تَبِعَ (tabiʿa)</h3>
+
+<p>This is a form I verb indicating following, coming behind, or taking a position after something.</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَمَنْ تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</p></blockquote>
+<p class="translation">“Then whoever follows My guidance—no fear will be upon them, nor will they grieve.”</p>
+<p class="verse-ref">Al-Baqarah 2:38</p>
+
+<p>This form can describe voluntary human following, but at times it also expresses an involuntary sequence or something coming afterward:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">تَتْبَعُهَا الرَّادِفَةُ</p></blockquote>
+<p class="translation">“And the following one comes after it.”</p>
+<p class="verse-ref">An-Naziʿat 79:7</p>
+
+<h3 id="forms-02">اتَّبَعَ (ittabaʿa)</h3>
+
+<p>This is a form VIII verb and the most frequent form of this root in the Qur’an. It indicates going after something, taking its way, following it, or placing oneself along its course.</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">اتَّبِعُوا مَا أُنْزِلَ إِلَيْكُمْ مِنْ رَبِّكُمْ</p></blockquote>
+<p class="translation">“Follow what has been sent down to you from your Rabb.”</p>
+<p class="verse-ref">Al-Aʿraf 7:3</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلَا تَتَّبِعِ الْهَوَىٰ</p></blockquote>
+<p class="translation">“And do not follow desire.”</p>
+<p class="verse-ref">Sad 38:26</p>
+
+<p>The verb itself carries neither a positive nor a negative value. Its value becomes clear from the object, direction, and context of following.</p>
+
+<h3 id="forms-03">أَتْبَعَ (atbaʿa)</h3>
+
+<p>This is a form IV verb. In the Qur’an it can indicate going after someone, pursuing, catching up, or bringing one thing after another.</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِ</p></blockquote>
+<p class="translation">“Then Pharaoh went after them with his forces.”</p>
+<p class="verse-ref">Ta-Ha 20:78</p>
+
+<p>In some uses, the subject places one thing after another:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعْنَا بَعْضَهُمْ بَعْضًا</p></blockquote>
+<p class="translation">“Then We brought some of them after others.”</p>
+<p class="verse-ref">Al-Mu’minun 23:44</p>
+
+<p>There is overlap between  and the other forms of this root. A fixed causative or pursuit-based meaning should therefore not be imposed upon it in every ayah.</p>
+
+<h3 id="forms-04">تَبَع (tabaʿ)</h3>
+
+<p>This noun can refer to a follower or a group of followers. In the Qur’an, it is used both collectively and for a body of followers:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِنَّا كُنَّا لَكُمْ تَبَعًا</p></blockquote>
+<p class="translation">“We were followers of yours.”</p>
+<p class="verse-ref">Ibrahim 14:21</p>
+
+<p>The familiar plural  is known in Arabic, but this form does not occur in the text of the Qur’an.</p>
+
+<h3 id="forms-05">تَابِع (tābiʿ)</h3>
+
+<p>This active participle indicates one who follows or is a follower:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَمَا أَنْتَ بِتَابِعٍ قِبْلَتَهُمْ</p></blockquote>
+<p class="translation">“And you are not a follower of their qiblah.”</p>
+<p class="verse-ref">Al-Baqarah 2:145</p>
+
+<p>In An-Nur 24:31,  appears in the context of people attached to and accompanying a household.</p>
+
+<h3 id="forms-06">تَبِيع (tabīʿ)</h3>
+
+<p>This noun from the same family can indicate a pursuer, claimant, or someone who comes after a matter to demand and recover a right:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">ثُمَّ لَا تَجِدُوا لَكُمْ عَلَيْنَا بِهِ تَبِيعًا</p></blockquote>
+<p class="translation">“Then you will find no one for yourselves against Us to pursue and demand it.”</p>
+<p class="verse-ref">Al-Isra 17:69</p>
+
+<p>Here, the image of following extends to pursuing a claim or demanding accountability.</p>
+
+<h3 id="forms-07">مُتَتَابِعَيْن (mutatabiʿayn)</h3>
+
+<p>This is the dual active participle of form VI and indicates two months following one another without interruption:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ</p></blockquote>
+<p class="translation">“Then fasting two consecutive months.”</p>
+<p class="verse-ref">An-Nisa 4:92</p>
+
+<p>In this form, temporal succession without a gap is prominent.</p>
+
+<h3 id="forms-08">اتِّبَاع (ittibaʿ)</h3>
+
+<p>This is the verbal noun of form VIII and indicates the act of following, going after, or pursuing:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِلَّا اتِّبَاعَ الظَّنِّ</p></blockquote>
+<p class="translation">“Except following assumption.”</p>
+<p class="verse-ref">An-Nisa 4:157</p>
+
+<p>In Al-Baqarah 2:178,  concerns pursuing a right in a recognized and fitting manner, not doctrinally following a person.</p>
+
+<h3 id="forms-09">مُتَّبَعُون (muttabaʿun)</h3>
+
+<p>This is the passive participle of form VIII:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِنَّكُمْ مُتَّبَعُونَ</p></blockquote>
+<p class="translation">“You will surely be pursued.”</p>
+<p class="verse-ref">Ash-Shuʿara 26:52</p>
+
+<p>Here, those who leave at night will become the objects of pursuit.</p>
+
+</section>
+
+<section id="root-meaning" class="root-section">
+<h2>Semantic Core of the Root</h2>
+<p>The semantic core of  rests upon a relation between what is ahead and what comes after it. One stands farther forward, while another takes a place along its trace, direction, movement, or position.</p>
+
+<p>This relation is not always between two human beings. What is followed can be a person, way, guidance, revelation, book, light, reminder, shariʿah, command, approval, truth, falsehood, assumption, desire, passion, or the footsteps of Satan. Even a consequence can follow an act.</p>
+
+<p>For this reason, “following” is suitable in many ayat but does not convey the root’s entire field. In English, following may sometimes be understood only as an intellectual or obedient relation, while  also preserves the image of movement and coming afterward.</p>
+
+<p>Ittibaʿ is also not identical with obedience. A person may obey a command because it has been accepted or because the person submits to it. In ittibaʿ, the focus is on which person, way, or direction the human being places ahead and then moves along.</p>
+
+<p>The two fields can be joined in one behavior, but their images are not identical. The Qur’an at times places the two verbs beside one another:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَاتَّبِعُونِي وَأَطِيعُوا أَمْرِي</p></blockquote>
+<p class="translation">“Then follow me and obey my command.”</p>
+<p class="verse-ref">Ta-Ha 20:90</p>
+
+<p>Their appearance together shows that ittibaʿ and obedience overlap but are not the same word or image.</p>
+
+</section>
+
+<section id="material-image" class="root-section">
+<h2>Material Image of the Root</h2>
+<p>The root’s material image is movement behind a trace, footprint, caravan, guide, or living being that has gone ahead.</p>
+
+<p>One may picture a person moving ahead while another follows the first person’s footprints. The follower does not independently make a new direction; the existing path is continued. If the forerunner changes direction, the follower’s direction also changes so long as the relation of following continues.</p>
+
+<p>Lexical sources mention a tangible example in explaining this root:  can refer to a young calf in its first year that moves behind its mother. This use makes the root’s image clear: a living being whose movement and direction are aligned with the advance of another.</p>
+
+<p>The Qur’an makes the same image visible in the expression :</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ</p></blockquote>
+<p class="translation">“And do not follow the footsteps of Satan.”</p>
+<p class="verse-ref">Al-Baqarah 2:168</p>
+
+<p>The subject is not merely accepting a belief; it is placing one’s foot where another foot has been and continuing along a path.</p>
+
+<p>A second image is one thing coming after another:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">قَوْلٌ مَعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ مِنْ صَدَقَةٍ يَتْبَعُهَا أَذًى</p></blockquote>
+<p class="translation">“A fitting word and forgiveness are better than charity followed by harm.”</p>
+<p class="verse-ref">Al-Baqarah 2:263</p>
+
+<p>Here, harm does not decide to “follow” charity; it comes after it and accompanies its effect. This use shows that sequence, continuity, and coming afterward belong to the root’s core.</p>
+
+</section>
+
+<section id="classical-usage" class="root-section">
+<h2>Use of the Root in Early Arabic</h2>
+<p>In Arabic lexical sources,  and  are used of someone who walks behind another, or when another passes by and the person sets out along with him.</p>
+
+<p>This family is also used for several nearby fields: following a trace or track; catching up with someone who moved earlier; things coming one after another; accompanying and agreeing with someone in an act; pursuing something gradually; and claiming a right that remains attached to a person or property.</p>
+
+<p>The form  in Arabic is close to searching and pursuing step by step: a person follows something part by part or trace by trace. This form does not occur in the Qur’an, but it helps clarify the linguistic extension of the root.</p>
+
+<p>The form  is also used in Arabic for a consequence, liability, claim, or right that remains after an act or property. This use shows that the image of coming afterward extended from bodily movement to the relation between an act and its consequence.</p>
+
+<p>Lexical sources do not give one single account of the exact difference among , and . Some treat them as overlapping in certain uses, while others give  a more prominent sense of catching up, pursuing, or bringing one thing after another.</p>
+
+<p>Each Qur’anic use must therefore be examined within its own context; a mechanical meaning should not be imposed on it from morphological form alone.</p>
+
+</section>
+
+<section id="reception-history" class="root-section">
+<h2>History of Understanding, Restriction, or Semantic Confusion</h2>
+<p>One common restriction is to translate  always and only as “obedience.” In some contexts that may convey part of the result, but it reduces the image of moving after a person or path.</p>
+
+<p>For example:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَاتَّبِعُوهُ وَلَا تَتَّبِعُوا السُّبُلَ</p></blockquote>
+<p class="translation">“Then follow it, and do not follow the other ways.”</p>
+<p class="verse-ref">Al-Anʿam 6:153</p>
+
+<p>The image of one way and several ways is present in this ayah. “Obey” by itself does not convey this spatial and directional structure well.</p>
+
+<p>Another restriction is to make  always mean “caused to follow.” This form is causative in some ayat, but in others the subject itself goes after another:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَهُمْ فِرْعَوْنُ</p></blockquote>
+
+<p>“Then Pharaoh went after them.”</p>
+
+<p>Nor should  always be treated as conscious and approved following. The Qur’an uses the same verb for following desire, assumption, passion, Satan, falsehood, and Pharaoh’s command.</p>
+
+<p>Conversely, following the Messenger in the Qur’an should not be reduced merely to bodily accompaniment or personal attachment. In Al-Aʿraf 7:157, following the Messenger is placed beside following the light sent down with him:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">الَّذِينَ يَتَّبِعُونَ الرَّسُولَ النَّبِيَّ الْأُمِّيَّ</p></blockquote>
+
+<p>And then:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَاتَّبَعُوا النُّورَ الَّذِي أُنْزِلَ مَعَهُ</p></blockquote>
+
+<p>This pairing places following the Messenger in relation to the message and the sent-down light. Yet the root  by itself does not resolve every question concerning the Messenger’s authority; that discussion must be examined from the ayat as a whole.</p>
+
+</section>
+
+<section id="methodology" class="root-section">
+<h2>Methodological Note</h2>
+<p>Several kinds of relation must be distinguished when examining this root.</p>
+
+<p>First is , such as following guidance, revelation, a messenger, a way, desire, or assumption. In this use, a person places something ahead as a forerunner.</p>
+
+<p>Second is , such as Pharaoh and his forces moving after Moses and those with him.</p>
+
+<p>Third is , such as a later event coming after the first or two months placed consecutively.</p>
+
+<p>Fourth is , such as harm that follows charity or a curse placed after a people.</p>
+
+<p>Fifth is , as with  and , where the root is not limited to personal or doctrinal following.</p>
+
+<p>These uses extend from one shared image, but they should not all be covered by one fixed translation.</p>
+
+<p>The ethical value of ittibaʿ also does not come from the verb itself. What is followed and the direction of following determine whether it guides or misleads.</p>
+
+</section>
+
+<section id="quranic-uses" class="root-section">
+<h2>Qur’anic Uses of the Root</h2>
+<h3 id="quranic-uses-01">Following Guidance</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَإِمَّا يَأْتِيَنَّكُمْ مِنِّي هُدًى فَمَنْ تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</p></blockquote>
+<p class="translation">“Then if guidance comes to you from Me, whoever follows My guidance—no fear will be upon them, nor will they grieve.”</p>
+<p class="verse-ref">Al-Baqarah 2:38</p>
+
+<p>Guidance in this ayah is not something merely received or affirmed; the human being must take a place after it. The verb  forms a relation between the coming of guidance and human movement along its course.</p>
+
+<p>The same structure appears in Ta-Ha:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَمَنِ اتَّبَعَ هُدَايَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ</p></blockquote>
+<p class="translation">“Then whoever follows My guidance will neither go astray nor reach misery.”</p>
+<p class="verse-ref">Ta-Ha 20:123</p>
+
+<p>Following guidance here stands against dalal. Guidance shows the direction; ittibaʿ is human movement in that direction.</p>
+
+<h3 id="quranic-uses-02">Following What Has Been Sent Down</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">اتَّبِعُوا مَا أُنْزِلَ إِلَيْكُمْ مِنْ رَبِّكُمْ وَلَا تَتَّبِعُوا مِنْ دُونِهِ أَوْلِيَاءَ</p></blockquote>
+<p class="translation">“Follow what has been sent down to you from your Rabb, and do not follow protectors or authorities apart from Him.”</p>
+<p class="verse-ref">Al-Aʿraf 7:3</p>
+
+<p>The first object is : what has been sent down to you. In contrast stands following awliya apart from Him. The ayah places what has been sent down as the criterion of movement.</p>
+
+<p>The same contrast appears concerning inherited ancestral ways:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَإِذَا قِيلَ لَهُمُ اتَّبِعُوا مَا أَنْزَلَ اللَّهُ قَالُوا بَلْ نَتَّبِعُ مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا</p></blockquote>
+<p class="translation">“And when it is said to them, ‘Follow what The God has sent down,’ they say, ‘Rather, we follow what we found our fathers upon.’”</p>
+<p class="verse-ref">Luqman 31:21</p>
+
+<p>The ayah does not reject everything received from earlier generations merely because it is old. The contrast concerns the final criterion: does what was sent down stand ahead, or has inherited practice taken its place?</p>
+
+<h3 id="quranic-uses-03">Following the Book, Reminder, Shariʿah, and Way</h3>
+
+<p>The Qur’an does not restrict the object of ittibaʿ to one form:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَهَٰذَا كِتَابٌ أَنْزَلْنَاهُ مُبَارَكٌ فَاتَّبِعُوهُ</p></blockquote>
+<p class="translation">“And this is a blessed Book We have sent down; so follow it.”</p>
+<p class="verse-ref">Al-Anʿam 6:155</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِنَّمَا تُنْذِرُ مَنِ اتَّبَعَ الذِّكْرَ</p></blockquote>
+<p class="translation">“You warn only the one who follows the Reminder.”</p>
+<p class="verse-ref">Ya-Sin 36:11</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">ثُمَّ جَعَلْنَاكَ عَلَىٰ شَرِيعَةٍ مِنَ الْأَمْرِ فَاتَّبِعْهَا</p></blockquote>
+<p class="translation">“Then We placed you upon a clear way from the command; so follow it.”</p>
+<p class="verse-ref">Al-Jathiyah 45:18</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَاتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَيَّ</p></blockquote>
+<p class="translation">“And follow the way of one who turns back to Me.”</p>
+<p class="verse-ref">Luqman 31:15</p>
+
+<p>In each case, something is placed as a path, direction, or forerunner, and the addressee is told to align movement with it.</p>
+
+<h3 id="quranic-uses-04">Following the Messenger, Messengers, and Those Sent</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">الَّذِينَ يَتَّبِعُونَ الرَّسُولَ النَّبِيَّ الْأُمِّيَّ</p></blockquote>
+<p class="translation">“Those who follow the Messenger, the unlettered prophet.”</p>
+<p class="verse-ref">Al-Aʿraf 7:157</p>
+
+<p>The same ayah says:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَاتَّبَعُوا النُّورَ الَّذِي أُنْزِلَ مَعَهُ</p></blockquote>
+<p class="translation">“And they followed the light that was sent down with him.”</p>
+
+<p>These two phrases place following the Messenger and following the sent-down light within one structure. The Messenger carries and points to a path illuminated by the light sent down.</p>
+
+<p>Ya-Sin likewise says:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">اتَّبِعُوا الْمُرْسَلِينَ ۝ اتَّبِعُوا مَنْ لَا يَسْأَلُكُمْ أَجْرًا وَهُمْ مُهْتَدُونَ</p></blockquote>
+
+<p>“Follow those sent; follow those who ask no payment from you and are themselves guided.”</p>
+<p class="verse-ref">Ya-Sin 36:20–21</p>
+
+<p>In this context, not asking payment and being guided are signs that clarify the fitness of those being followed.</p>
+
+<h3 id="quranic-uses-05">Following the Prophet Beside Obedience</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَاتَّبِعُونِي وَأَطِيعُوا أَمْرِي</p></blockquote>
+<p class="translation">“Then follow me and obey my command.”</p>
+<p class="verse-ref">Ta-Ha 20:90</p>
+
+<p>Their placement together shows two related angles. Ittibaʿ creates an image of movement after the person; obedience focuses on accepting the person’s command.</p>
+
+<p>Another ayah says:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">أَلَّا تَتَّبِعَنِ أَفَعَصَيْتَ أَمْرِي</p></blockquote>
+<p class="translation">“Why did you not follow me? Did you disobey my command?”</p>
+<p class="verse-ref">Ta-Ha 20:93</p>
+
+<p>Failure to follow is linked in context with disobeying the command, while the two verbs retain their distinct structures.</p>
+
+<h3 id="quranic-uses-06">Following Satan and His Footsteps</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ</p></blockquote>
+<p class="translation">“And do not follow the footsteps of Satan.”</p>
+<p class="verse-ref">Al-Baqarah 2:168</p>
+
+<p>The expression  strengthens the root’s movement-based image. Satan is pictured as one who lays out a course or moves ahead, and the human being is prohibited from placing one foot after those footsteps.</p>
+
+<p>The expression by itself does not prove that every form of misguidance necessarily develops gradually in a psychological sense, but the image of footsteps contains the possibility of movement by stages.</p>
+
+<p>Another ayah makes Satan himself the object:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَيَتَّبِعُ كُلَّ شَيْطَانٍ مَرِيدٍ</p></blockquote>
+<p class="translation">“And he follows every rebellious satan.”</p>
+<p class="verse-ref">Al-Hajj 22:3</p>
+
+<p>Here, a person directly takes a misleading being or force as the one to be followed.</p>
+
+<h3 id="quranic-uses-07">Following Desire and Passions</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلَا تَتَّبِعِ الْهَوَىٰ فَيُضِلَّكَ عَنْ سَبِيلِ اللَّهِ</p></blockquote>
+<p class="translation">“And do not follow desire, lest it lead you away from the way of The God.”</p>
+<p class="verse-ref">Sad 38:26</p>
+
+<p>In this structure, desire takes the position ahead. Instead of measuring inclination against truth, the person receives direction from inclination.</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَإِنْ لَمْ يَسْتَجِيبُوا لَكَ فَاعْلَمْ أَنَّمَا يَتَّبِعُونَ أَهْوَاءَهُمْ</p></blockquote>
+<p class="translation">“Then if they do not respond to you, know that they only follow their own desires.”</p>
+<p class="verse-ref">Al-Qasas 28:50</p>
+
+<p>And:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَخَلَفَ مِنْ بَعْدِهِمْ خَلْفٌ أَضَاعُوا الصَّلَاةَ وَاتَّبَعُوا الشَّهَوَاتِ</p></blockquote>
+<p class="translation">“Then successors came after them who neglected salat and followed passions.”</p>
+<p class="verse-ref">Maryam 19:59</p>
+
+<p> and  are not one word, but in both cases an inward pull takes the position of forerunner.</p>
+
+<h3 id="quranic-uses-08">Following Assumption</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِنْ يَتَّبِعُونَ إِلَّا الظَّنَّ وَمَا تَهْوَى الْأَنْفُسُ</p></blockquote>
+<p class="translation">“They follow nothing except assumption and what the selves desire.”</p>
+<p class="verse-ref">An-Najm 53:23</p>
+
+<p>Assumption and the inclination of the selves are placed together. Assumption becomes the path of movement in place of knowledge and guidance.</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِنْ يَتَّبِعُونَ إِلَّا الظَّنَّ وَإِنَّ الظَّنَّ لَا يُغْنِي مِنَ الْحَقِّ شَيْئًا</p></blockquote>
+<p class="translation">“They follow nothing except assumption, while assumption does not suffice against truth in anything.”</p>
+<p class="verse-ref">An-Najm 53:28</p>
+
+<p>The issue is not merely that assumption exists in the mind; the issue is placing it in the position of criterion and forerunner.</p>
+
+<h3 id="quranic-uses-09">Following Truth and Falsehood</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">ذَٰلِكَ بِأَنَّ الَّذِينَ كَفَرُوا اتَّبَعُوا الْبَاطِلَ وَأَنَّ الَّذِينَ آمَنُوا اتَّبَعُوا الْحَقَّ مِنْ رَبِّهِمْ</p></blockquote>
+<p class="translation">“That is because those who committed kufr followed falsehood, while those who had iman followed the truth from their Rabb.”</p>
+<p class="verse-ref">Muhammad 47:3</p>
+
+<p>This ayah clearly shows that the act of following is neither positive nor negative in itself. The difference lies in what is followed: falsehood or truth from their Rabb.</p>
+
+<h3 id="quranic-uses-10">Following the Command and Way of Leaders</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَاتَّبَعُوا أَمْرَ فِرْعَوْنَ وَمَا أَمْرُ فِرْعَوْنَ بِرَشِيدٍ</p></blockquote>
+<p class="translation">“Then they followed Pharaoh’s command, while Pharaoh’s command was not rightly directed.”</p>
+<p class="verse-ref">Hud 11:97</p>
+
+<p>Here,  is placed ahead. The followers did not merely admire Pharaoh; they followed his direction and command.</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَقَالَ الَّذِينَ كَفَرُوا لِلَّذِينَ آمَنُوا اتَّبِعُوا سَبِيلَنَا</p></blockquote>
+<p class="translation">“And those who committed kufr said to those who had iman, ‘Follow our way.’”</p>
+<p class="verse-ref">Al-ʿAnkabut 29:12</p>
+
+<p>Ittibaʿ can express attachment to a person, a command, or a way that person presents.</p>
+
+<h3 id="quranic-uses-11">The Relation Between Those Followed and Those Who Followed</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِذْ تَبَرَّأَ الَّذِينَ اتُّبِعُوا مِنَ الَّذِينَ اتَّبَعُوا وَرَأَوُا الْعَذَابَ وَتَقَطَّعَتْ بِهِمُ الْأَسْبَابُ</p></blockquote>
+<p class="translation">“When those who were followed disown those who followed, and they see the punishment, and the bonds among them are cut.”</p>
+<p class="verse-ref">Al-Baqarah 2:166</p>
+
+<p>The ayah makes a clear distinction between two forms:</p>
+
+<p>: those who were followed.</p>
+
+<p>: those who followed.</p>
+
+<p>In this world, there was a relation of leadership, influence, and following between them. At judgment, the forerunners disown the followers, and the bonds that sustained the relation are cut.</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَقَالَ الَّذِينَ اتَّبَعُوا لَوْ أَنَّ لَنَا كَرَّةً فَنَتَبَرَّأَ مِنْهُمْ</p></blockquote>
+<p class="translation">“And those who followed say, ‘If only we had a return, then we would disown them.’”</p>
+<p class="verse-ref">Al-Baqarah 2:167</p>
+
+<p>The ayah does not remove the follower’s responsibility merely because a forerunner existed. Following is itself a direction and choice.</p>
+
+<h3 id="quranic-uses-12">Tabaʿ: Followers in Relation to Forerunners</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِنَّا كُنَّا لَكُمْ تَبَعًا فَهَلْ أَنْتُمْ مُغْنُونَ عَنَّا مِنْ عَذَابِ اللَّهِ مِنْ شَيْءٍ</p></blockquote>
+<p class="translation">“We were followers of yours; can you now ward anything of the punishment of The God away from us?”</p>
+<p class="verse-ref">Ibrahim 14:21</p>
+
+<p> here refers to the body of followers. They turn to those who had stood ahead of them in this world, but the relation of following cannot transfer or erase responsibility.</p>
+
+<p>The same construction appears in Ghafir 40:47.</p>
+
+<h3 id="quranic-uses-13">Following With Ihsan</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَالَّذِينَ اتَّبَعُوهُمْ بِإِحْسَانٍ</p></blockquote>
+<p class="translation">“And those who followed them with ihsan.”</p>
+<p class="verse-ref">At-Tawbah 9:100</p>
+
+<p>The qualifier  specifies the quality of following. The ayah does not treat every form of attaching oneself to earlier people as equal; the praised following is accompanied by ihsan.</p>
+
+<p>Yet  in this phrase does not lexically mean “criticizing” or “independent evaluation.” Its presence shows that the quality and manner of following matter, but the full meaning of ihsan should not be derived from  alone.</p>
+
+<h3 id="quranic-uses-14">Physical Pursuit</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعُوهُمْ مُشْرِقِينَ</p></blockquote>
+<p class="translation">“Then at sunrise they went after them.”</p>
+<p class="verse-ref">Ash-Shuʿara 26:60</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِ</p></blockquote>
+<p class="translation">“Then Pharaoh went after them with his forces.”</p>
+<p class="verse-ref">Ta-Ha 20:78</p>
+
+<p>In these uses, spatial and movement-based pursuit is clear. Pharaoh and those with him move behind a group that has already gone away from them.</p>
+
+<h3 id="quranic-uses-15">Following a Means or Route</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَ سَبَبًا</p></blockquote>
+<p class="translation">“Then he followed a means or route.”</p>
+<p class="verse-ref">Al-Kahf 18:85</p>
+
+<p>This expression occurs three times in the account of Dhu al-Qarnayn.  can include a route, means, or possibility of access. The verb shows that he took that means and moved along it.</p>
+
+<p>This use should not be translated only as “pursuing an enemy”; its object is not a person but a .</p>
+
+<h3 id="quranic-uses-16">A Human Being Followed by Satan or a Piercing Flame</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَهُ الشَّيْطَانُ فَكَانَ مِنَ الْغَاوِينَ</p></blockquote>
+<p class="translation">“Then Satan went after him, and he became one of those who went astray.”</p>
+<p class="verse-ref">Al-Aʿraf 7:175</p>
+
+<p>Here, Satan is the subject and the human being is the object of pursuit. The expression can convey Satan catching up, clinging, or going after him.</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَهُ شِهَابٌ ثَاقِبٌ</p></blockquote>
+<p class="translation">“Then a piercing flame follows him.”</p>
+<p class="verse-ref">As-Saffat 37:10</p>
+
+<p>Again, something comes after something else and follows it.</p>
+
+<h3 id="quranic-uses-17">An Act Followed by Its Consequence</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">ثُمَّ لَا يُتْبِعُونَ مَا أَنْفَقُوا مَنًّا وَلَا أَذًى</p></blockquote>
+<p class="translation">“Then they do not follow what they spent with reminders of generosity or harm.”</p>
+<p class="verse-ref">Al-Baqarah 2:262</p>
+
+<p>Reminders and harm can come after spending and attach themselves to it. Here the root expresses a relation between an act and a later consequence.</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَأُتْبِعُوا فِي هَٰذِهِ الدُّنْيَا لَعْنَةً وَيَوْمَ الْقِيَامَةِ</p></blockquote>
+<p class="translation">“And in this world a curse was made to follow them, and on the Day of Resurrection as well.”</p>
+<p class="verse-ref">Hud 11:60</p>
+
+<p>In this passive construction, the curse is presented as a consequence placed after them.</p>
+
+<p>Al-Qasas 28:42 uses an active construction:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَأَتْبَعْنَاهُمْ فِي هَٰذِهِ الدُّنْيَا لَعْنَةً</p></blockquote>
+<p class="translation">“And in this world We placed a curse after them.”</p>
+
+<p>The active and passive constructions both show the relation between a people and a consequence that comes after them and remains attached to them.</p>
+
+<h3 id="quranic-uses-18">Temporal Succession</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ</p></blockquote>
+
+<p>“Then fasting two consecutive months.”</p>
+<p class="verse-ref">An-Nisa 4:92</p>
+
+<p> indicates that the two months are intended to come one after another without interruption.</p>
+
+<p>Here, the root concerns neither following a person nor pursuing an enemy; temporal relation and continuity between two units are prominent.</p>
+
+<h3 id="quranic-uses-19">Ittibaʿ as Pursuing a Right</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَاتِّبَاعٌ بِالْمَعْرُوفِ وَأَدَاءٌ إِلَيْهِ بِإِحْسَانٍ</p></blockquote>
+<p class="translation">“Then pursuit should be in a recognized and fitting manner, and payment to him with ihsan.”</p>
+<p class="verse-ref">Al-Baqarah 2:178</p>
+
+<p>In this ayah,  concerns pursuing and claiming a right. The person entitled to the right should pursue it according to maʿruf, while the other party should pay it with ihsan.</p>
+
+<p>The general translation “following” is therefore unsuitable here. “Pursuit,” “claiming in a fitting manner,” or “following up the right according to maʿruf” is closer to context.</p>
+
+</section>
+
+<section id="quranic-derivatives" class="root-section">
+<h2>Important Qur’anic Derivatives</h2>
+<h3 id="quranic-derivatives-01">The Difference Between تَبِعَ and اتَّبَعَ</h3>
+
+<p>Both forms can indicate following and going after.</p>
+
+<p> is the root’s simpler form. In the Qur’an it occurs both for voluntary following:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَمَنْ تَبِعَ هُدَايَ</p></blockquote>
+
+<p>and for something coming after without volition:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">تَتْبَعُهَا الرَّادِفَةُ</p></blockquote>
+
+<p> has a very wide range and is used for following guidance, a messenger, desire, assumption, falsehood, truth, a way, and people.</p>
+
+<p>It cannot be said that  is in every case more conscious or deeper than . Such a difference may be felt in some contexts, but it does not emerge as a fixed rule from every Qur’anic use.</p>
+
+<h3 id="quranic-derivatives-02">The Difference Between أَتْبَعَ and اتَّبَعَ</h3>
+
+<p>In many Qur’anic uses,  highlights pursuit or direct and rapid movement after something:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَهُمْ فِرْعَوْنُ</p></blockquote>
+
+<p>But at times it is causative:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعْنَا بَعْضَهُمْ بَعْضًا</p></blockquote>
+
+<p>“We brought some of them after others.”</p>
+
+<p>In some ayat, its boundary with ordinary following is also narrow:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَ سَبَبًا</p></blockquote>
+
+<p>Form IV in this root can therefore both transitivize and express the subject’s own movement after something else.</p>
+
+<h3 id="quranic-derivatives-03">Passive اتُّبِعُوا and Active اتَّبَعُوا</h3>
+
+<p>The vocalization in Al-Baqarah 2:166 is very important:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">الَّذِينَ اتُّبِعُوا</p></blockquote>
+
+<p>“Those who were followed.”</p>
+
+<p>In contrast with:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">الَّذِينَ اتَّبَعُوا</p></blockquote>
+
+<p>“Those who followed.”</p>
+
+<p>Without vowel marks, the difference in vowel and doubling can be missed, but structurally and semantically the phrases identify two entirely different groups.</p>
+
+<h3 id="quranic-derivatives-04">تَبَع and تَابِع</h3>
+
+<p> can be a collective noun or a noun that includes one or more followers:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِنَّا كُنَّا لَكُمْ تَبَعًا</p></blockquote>
+
+<p> is the clearer active participle:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَمَا أَنْتَ بِتَابِعٍ قِبْلَتَهُمْ</p></blockquote>
+
+<p>The form  is a recognized Arabic plural, but it does not occur in the Qur’an.</p>
+
+<h3 id="quranic-derivatives-05">تَبِيع (tabīʿ)</h3>
+
+<p> comes from the image of someone going after a matter. In Al-Isra 17:69, claimant, pursuer, or one who demands accountability is more suitable than an ordinary “follower.”</p>
+
+<p>This use shows that pursuing a right and pursuing a consequence also lie within the root’s field.</p>
+
+<h3 id="quranic-derivatives-06">مُتَتَابِعَيْن</h3>
+
+<p>Form VI here shows a reciprocal or consecutive relation between two units. Two months stand one after another.</p>
+
+<p>Suitable translations include “consecutive,” “continuous,” or “one after another,” not “two following months” in the sense of followers.</p>
+
+<h3 id="quranic-derivatives-07">اتِّبَاع</h3>
+
+<p>The verbal noun  points to the act of following, while its object and context determine the precise meaning.</p>
+
+<p>In:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِلَّا اتِّبَاعَ الظَّنِّ</p></blockquote>
+
+<p>it means following assumption.</p>
+
+<p>In:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَاتِّبَاعٌ بِالْمَعْرُوفِ</p></blockquote>
+
+<p>it means pursuing and claiming according to maʿruf.</p>
+
+<h3 id="quranic-derivatives-08">مُتَّبَعُون</h3>
+
+<p> is a passive participle, not “followers”:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِنَّكُمْ مُتَّبَعُونَ</p></blockquote>
+
+<p>It means “you will be pursued” or “they will come after you.”</p>
+
+<p>This form should not be confused with , “those who follow.”</p>
+
+</section>
+
+<section id="grammar" class="root-section">
+<h2>Grammatical and Structural Notes</h2>
+<h3 id="grammar-01">The Importance of the Verb’s Object</h3>
+
+<p>With the root , the verb’s object or complement is very important for understanding its precise meaning:</p>
+
+<p>: followed guidance.</p>
+
+<p>: followed the Messenger.</p>
+
+<p>: followed what was sent down.</p>
+
+<p>: placed desire ahead as the forerunner.</p>
+
+<p>: made assumption the criterion of movement.</p>
+
+<p>: took a way and continued along it.</p>
+
+<p>: placed step after step.</p>
+
+<p>The verb itself does not change fundamentally; the object clarifies the kind of path.</p>
+
+<h3 id="grammar-02">اتَّبَعَ With a Direct Object</h3>
+
+<p>In most uses, what is followed comes without a preposition and as a direct object:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">اتَّبِعُوا مَا أُنْزِلَ</p></blockquote>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلَا تَتَّبِعِ الْهَوَىٰ</p></blockquote>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">اتَّبَعُوا الْحَقَّ</p></blockquote>
+
+<p>This structure shows direct proximity between follower and what is followed.</p>
+
+<h3 id="grammar-03">اتَّبَعَ With عَلَىٰ</h3>
+
+<p>In Moses’ conversation with the knowledgeable servant, it says:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">هَلْ أَتَّبِعُكَ عَلَىٰ أَنْ تُعَلِّمَنِ</p></blockquote>
+<p class="translation">“May I follow you on the basis that you teach me from what you have been taught?”</p>
+<p class="verse-ref">Al-Kahf 18:66</p>
+
+<p> clarifies the condition, basis, or aim of this accompaniment.</p>
+
+<h3 id="grammar-04">أَتْبَعَ With Two Objects</h3>
+
+<p>In constructions such as:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعْنَا بَعْضَهُمْ بَعْضًا</p></blockquote>
+
+<p>one group is placed after another. This construction reveals the causative capacity of form IV.</p>
+
+<p>The same pattern appears in:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَأَتْبَعْنَاهُمْ فِي هَٰذِهِ الدُّنْيَا لَعْنَةً</p></blockquote>
+
+<p>A curse is placed after them.</p>
+
+<h3 id="grammar-05">Passive أُتْبِعُوا</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَأُتْبِعُوا فِي هَٰذِهِ الدُّنْيَا لَعْنَةً</p></blockquote>
+
+<p>The agent is not mentioned in the passive construction; the focus is on the people after whom the curse came.</p>
+
+<h3 id="grammar-06">بِإِحْسَانٍ and بِالْمَعْرُوفِ</h3>
+
+<p>The qualifiers and prepositional phrases clarify the quality of the act:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">اتَّبَعُوهُمْ بِإِحْسَانٍ</p></blockquote>
+
+<p>Following with ihsan.</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَاتِّبَاعٌ بِالْمَعْرُوفِ</p></blockquote>
+
+<p>Pursuit according to maʿruf.</p>
+
+<p>The presence of  in both constructions does not make the two uses identical. One concerns following earlier people, while the other concerns pursuing a right.</p>
+
+<h3 id="grammar-07">لَا تَتَّبِعُوا السُّبُلَ</h3>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلَا تَتَّبِعُوا السُّبُلَ فَتَفَرَّقَ بِكُمْ عَنْ سَبِيلِهِ</p></blockquote>
+<p class="translation">“And do not follow the ways, lest they scatter you away from His way.”</p>
+<p class="verse-ref">Al-Anʿam 6:153</p>
+
+<p>The plural  stands against the singular . Following multiple ways is connected with being scattered from the principal way. The path image should be preserved in translation.</p>
+
+</section>
+
+<section id="near-roots" class="root-section">
+<h2>Comparison With Nearby Roots</h2>
+<h3 id="near-roots-01">T B ʿ Compared With T W ʿ: Ittibaʿ and Obedience</h3>
+
+<p>The root  moves in the field of accepting, being pliant and ready, and carrying out a command without compulsion. Obedience focuses more on a relation with command and compliance.</p>
+
+<p> preserves the image of taking a position after a person, way, or direction.</p>
+
+<p>A person who follows a Messenger may also obey the Messenger’s command, but linguistically one emphasizes movement along the course of a forerunner, while the other emphasizes acceptance of that person’s command.</p>
+
+<h3 id="near-roots-02">T B ʿ Compared With Q F W: Ittibaʿ and Qafw</h3>
+
+<p>The root  also indicates going after a trace and moving behind something. In:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِ عِلْمٌ</p></blockquote>
+
+<p>Al-Isra 17:36</p>
+
+<p>the nearby meaning is not following what one has no knowledge of.</p>
+
+<p> more clearly preserves the image of following a trace or track.  has a wider field and can include religious, social, intellectual, movement-based, and consequence-based following.</p>
+
+<p>The boundary is not absolute, but qafw is closer to following a trace.</p>
+
+<h3 id="near-roots-03">T B ʿ Compared With L H Q: Ittibaʿ and Catching Up</h3>
+
+<p>The root  indicates reaching someone or something ahead and joining it.</p>
+
+<p>Ittibaʿ can continue before reaching and throughout the movement. A person is after another even if the first has not yet been reached.</p>
+
+<p>Lahaq highlights the moment or result of joining; ittibaʿ highlights the route and relation of following.</p>
+
+<h3 id="near-roots-04">T B ʿ Compared With Q D W: Ittibaʿ and Iqtida</h3>
+
+<p>The root , in the form , indicates taking something as an example and shaping one’s behavior according to a model or leader.</p>
+
+<p>Ittibaʿ is broader. A person may pursue someone, follow a way, or bring one thing after another without necessarily taking it as a behavioral model.</p>
+
+<p>Iqtida places greater emphasis on emulation and taking a leader as an example.</p>
+
+<h3 id="near-roots-05">T B ʿ Compared With S L K: Ittibaʿ and Suluk</h3>
+
+<p>The root  indicates inserting or entering into a path, passage, or thread and traversing it.</p>
+
+<p>In suluk, the path itself and entry into it are prominent. In ittibaʿ, besides the path, something or someone stands ahead and determines the movement’s direction.</p>
+
+<p>A person may traverse a way, but when the same way, person, or command is taken as forerunner, the field of ittibaʿ becomes more prominent.</p>
+
+<h3 id="near-roots-06">T B ʿ Compared With M SH Y: Ittibaʿ and Walking</h3>
+
+<p>The root  expresses the act of walking and moving itself.</p>
+
+<p>Ittibaʿ is a relation between the one moving and something ahead. Every movement of following may involve walking, but not every act of walking follows something.</p>
+
+<h3 id="near-roots-07">T B ʿ Compared With R D F: Ittibaʿ and Ridf</h3>
+
+<p>The root  indicates coming behind, occupying the rear position, or arriving immediately after something.</p>
+
+<p>In:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">تَتْبَعُهَا الرَّادِفَةُ</p></blockquote>
+
+<p>the two fields stand together: the second event comes after the first and arrives from behind it.</p>
+
+<p>Ridf emphasizes the posterior position and being behind; ittibaʿ emphasizes the relation of coming after or moving along a trace.</p>
+
+<h3 id="near-roots-08">T B ʿ Compared With T L W: Ittibaʿ and Tilw</h3>
+
+<p>The root  indicates coming after something and also reading or reciting. In its primary image, one thing takes a position after another.</p>
+
+<p>Tilw and ittibaʿ overlap in sequence and coming afterward. Yet tilw in the Qur’an has also developed the particular field of reciting ayat and reading in succession; ittibaʿ more often indicates following a person, path, way, intellectual object, or consequence.</p>
+
+<h3 id="near-roots-09">T B ʿ Compared With T R D: Ittibaʿ and Pursuit</h3>
+
+<p>The root  is closer to driving away, expelling, and forcing something to move from behind.</p>
+
+<p>In pursuit with , the subject moves after the target or places something after it. In tard, pressure to drive the target away is more prominent.</p>
+
+<h3 id="near-roots-10">T B ʿ Compared With A TH R: Ittibaʿ and Following a Trace</h3>
+
+<p>The root  concerns a sign, remainder, trace, or mark that something leaves behind.</p>
+
+<p>Ittibaʿ can be following that same trace, but the root focuses on the act of following; athar is what makes such following possible.</p>
+
+</section>
+
+<section id="translation" class="root-section">
+<h2>Translation Suggestions for Forqan</h2>
+<h3 id="translation-01">تَبِعَ (tabiʿa)</h3>
+
+<p>Depending on context:</p>
+
+<p>followed; went after; came after it; or accompanied its course.</p>
+
+<p>For:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَمَنْ تَبِعَ هُدَايَ</p></blockquote>
+
+<p>A suitable suggestion is:</p>
+
+<p></p>
+
+<p>For:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">تَتْبَعُهَا الرَّادِفَةُ</p></blockquote>
+
+<p>A suitable suggestion is:</p>
+
+<p></p>
+
+<h3 id="translation-02">اتَّبَعَ (ittabaʿa)</h3>
+
+<p>Depending on the object:</p>
+
+<p>followed; took its way; went after it; or moved along its course.</p>
+
+<p>For guidance, revelation, a book, and a way, “follow” preserves the root’s image well.</p>
+
+<p>For people and messengers, “follow” is natural in English, while explanation should preserve the dimension of movement along their way.</p>
+
+<h3 id="translation-03">اتَّبَعَ الْهَوَىٰ</h3>
+
+<ul>
+  <li>followed desire</li>
+  <li>followed one’s own desire</li>
+  <li>placed desire ahead as the forerunner, as an explanatory rendering</li>
+</ul>
+
+<h3 id="translation-04">اتَّبَعَ الظَّنَّ</h3>
+
+<ul>
+  <li>followed assumption</li>
+  <li>proceeded according to assumption</li>
+  <li>made assumption the criterion of movement, as an explanatory rendering</li>
+</ul>
+
+<h3 id="translation-05">اتَّبَعَ الرَّسُولَ</h3>
+
+<ul>
+  <li>followed the Messenger</li>
+  <li>moved along the Messenger’s way, as an explanatory rendering</li>
+</ul>
+
+<p>For direct translation, “followed the Messenger” is natural and preserves the root’s image.</p>
+
+<h3 id="translation-06">أَتْبَعَ (atbaʿa)</h3>
+
+<p>Depending on construction:</p>
+
+<p>went after; pursued; followed; caught up with; placed something after another; or brought one thing after another.</p>
+
+<p>For:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَهُمْ فِرْعَوْنُ</p></blockquote>
+
+<p>Primary suggestion:</p>
+
+<p></p>
+
+<p>Or:</p>
+
+<p></p>
+
+<p>For:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعْنَا بَعْضَهُمْ بَعْضًا</p></blockquote>
+
+<p>Primary suggestion:</p>
+
+<p></p>
+
+<h3 id="translation-07">تَبَع (tabaʿ)</h3>
+
+<ul>
+  <li>follower</li>
+  <li>followers</li>
+  <li>those who follow, in a suitable context</li>
+</ul>
+
+<p>For:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِنَّا كُنَّا لَكُمْ تَبَعًا</p></blockquote>
+
+<p>Primary suggestion:</p>
+
+<p></p>
+
+<h3 id="translation-08">تَابِع (tābiʿ)</h3>
+
+<ul>
+  <li>follower</li>
+  <li>one who follows</li>
+  <li>dependent companion, in An-Nur 24:31 and according to context</li>
+</ul>
+
+<h3 id="translation-09">تَبِيع (tabīʿ)</h3>
+
+<ul>
+  <li>pursuer</li>
+  <li>claimant</li>
+  <li>one who demands accountability</li>
+  <li>one who comes after a matter to recover a right</li>
+</ul>
+
+<p>For Al-Isra 17:69:</p>
+
+<p></p>
+
+<h3 id="translation-10">مُتَتَابِعَيْن (mutatabiʿayn)</h3>
+
+<ul>
+  <li>two consecutive months</li>
+  <li>two successive months</li>
+  <li>two continuous months</li>
+</ul>
+
+<p>“Two consecutive months” is the most natural English rendering.</p>
+
+<h3 id="translation-11">اتِّبَاع (ittibaʿ)</h3>
+
+<p>Depending on context:</p>
+
+<p>following; going after; pursuit; claiming.</p>
+
+<p>For:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">إِلَّا اتِّبَاعَ الظَّنِّ</p></blockquote>
+
+<p></p>
+
+<p>For:</p>
+
+<blockquote class="verse-block"><p class="arabic-quote" dir="rtl" lang="ar">فَاتِّبَاعٌ بِالْمَعْرُوفِ</p></blockquote>
+
+<p></p>
+
+<h3 id="translation-12">مُتَّبَعُون (muttabaʿun)</h3>
+
+<ul>
+  <li>you will be pursued</li>
+  <li>they will come after you</li>
+  <li>you are those being followed, as a more literal rendering</li>
+</ul>
+
+<p>Natural suggestion:</p>
+
+<p></p>
+
+<h3 id="translation-13">الَّذِينَ اتُّبِعُوا and الَّذِينَ اتَّبَعُوا</h3>
+
+<p>:</p>
+
+<p>those who were followed; the forerunners who were followed.</p>
+
+<p>:</p>
+
+<p>those who followed; the followers.</p>
+
+<p>The difference between passive and active must remain fully clear in translation.</p>
+
+</section>
+
+<section id="summary" class="root-section">
+<h2>Summary</h2>
+<p>The root  indicates following, going after something, moving behind it, and one thing taking a position after another. Its foundational image is a relation between a forerunner and what comes along that person’s or thing’s route, trace, or direction.</p>
+
+<p>In the Qur’an, this root is not used only for religious following or obedience to a person. Guidance, revelation, a book, a messenger, light, reminder, shariʿah, way, truth, falsehood, desire, passion, assumption, command, fathers, and Satan’s footsteps can all be objects of ittibaʿ.</p>
+
+<p>The same root also expresses Pharaoh’s spatial pursuit, a piercing flame coming after something, peoples coming one after another, a curse remaining after a people, harm coming after charity, two consecutive months, and pursuing a right.</p>
+
+<p>The forms  and  have broad semantic overlap. In many ayat,  gives greater prominence to pursuit, catching up, or placing one thing after another, but this distinction is not uniform and mechanical in every context.</p>
+
+<p> is the Qur’anic form for a follower or followers; the familiar plural  does not occur in the Qur’an.  occurs in the context of pursuit and demand,  in the meaning of consecutiveness, and  for those who will be pursued.</p>
+
+<p>Ittibaʿ and obedience are also not identical. Obedience emphasizes accepting a command; ittibaʿ emphasizes movement along the course of a person, way, or direction that stands ahead. They can be joined within one relation but should not replace one another in every translation.</p>
+
+<p>The root  overlaps with roots such as , and , but its central feature is the follower’s relation to the person, thing, trace, or path that stands ahead.</p>
+</section>
+</div></div>

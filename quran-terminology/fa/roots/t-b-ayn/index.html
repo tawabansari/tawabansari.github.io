@@ -5,310 +5,1063 @@ permalink: /quran-terminology/fa/roots/t-b-ayn/
 ---
 
 <style>
-  .root-study-page .arabic-large {
-    font-size: 1.12em;
-    line-height: 2.15;
-  }
-
-  .root-study-page .translation,
-  .root-study-page .verse-ref {
-    text-align: center;
-  }
-
-  .root-study-page .translation {
-    margin-top: -0.45rem;
-  }
-
-  .root-study-page .verse-ref {
-    margin-top: -0.35rem;
-    font-size: 0.95rem;
-    opacity: 0.86;
-  }
-
-  .root-study-page .translit {
-    font-size: 0.92em;
-    opacity: 0.82;
-  }
-
-  .root-study-page .root-cross-card {
-    display: block;
-    margin: 1.25rem 0;
-    padding: 1rem 1.1rem;
-    border: 1px solid rgba(176, 141, 87, 0.38);
-    border-radius: 14px;
-    background: rgba(176, 141, 87, 0.08);
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .root-study-page .root-cross-card strong {
-    display: block;
-    color: #8b6423;
-    margin-bottom: 0.35rem;
-  }
-
-  body.dark-theme .root-study-page .root-cross-card strong {
-    color: #d6b05f;
-  }
+  main.container { width: 100%; max-width: 980px; box-sizing: border-box; }
+  .root-study-page { max-width: 980px; margin: 0 auto; padding: 3.5rem 1.25rem; line-height: 2.05; color: var(--root-text, #2f2a22); }
+  .root-study-page, .root-study-page * { box-sizing: border-box; }
+  .root-study-page.forqan-page-rtl, .root-study-page.forqan-page-rtl h1, .root-study-page.forqan-page-rtl h2, .root-study-page.forqan-page-rtl h3, .root-study-page.forqan-page-rtl p, .root-study-page.forqan-page-rtl li { direction: rtl; text-align: right; }
+  .root-frame { background: radial-gradient(circle at top right, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent 34%), var(--root-card, #fffaf1); border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 26px; padding: 2.4rem; box-shadow: 0 22px 60px rgba(65, 46, 20, 0.10); }
+  .root-hero { border-bottom: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); padding-bottom: 1.65rem; margin-bottom: 2rem; }
+  .root-kicker { color: var(--root-accent-deep, #8b6423); font-size: 0.96rem; font-weight: 800; margin-bottom: 0.45rem; }
+  .root-study-page h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.05rem); line-height: 1.4; color: var(--root-text, #2f2a22); }
+  .root-subtitle { color: var(--root-muted, #6d6255); max-width: 780px; margin: 1rem 0 0; font-size: 1.04rem; }
+  .root-forms-card, .root-toc { background: linear-gradient(180deg, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent 82%), var(--root-panel, #fffdf7); border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 20px; padding: 1.35rem 1.55rem; margin: 1.55rem 0; }
+  .root-forms-card h2, .root-toc h2 { margin-top: 0; }
+  .morphology-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+  .morph-card { display: block; min-width: 0; border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 16px; padding: 1rem; background: var(--root-section, #fffaf2); color: inherit; text-decoration: none; }
+  .morph-card-header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.35rem 0.75rem; color: var(--root-muted, #6d6255); font-size: 0.88rem; margin-bottom: 0.55rem; }
+  .morph-form { font-weight: 800; font-size: 1.28rem; color: var(--root-accent-deep, #8b6423); margin-bottom: 0.4rem; }
+  .morph-note { color: var(--root-muted, #6d6255); margin-bottom: 0; font-size: 0.95rem; }
+  .morph-destination { color: var(--root-accent-deep, #8b6423); margin: 0.45rem 0 0; font-size: 0.86rem; font-weight: 700; }
+  .root-toc ol { list-style-position: inside; padding-right: 0; margin: 0.75rem 0 0; columns: 2; column-gap: 2rem; }
+  .root-toc li { margin: 0.28rem 0; break-inside: avoid; }
+  .root-section { background: var(--root-section, #fffaf2); border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 18px; padding: 1.5rem 1.6rem; margin: 1.55rem 0; scroll-margin-top: 1.25rem; }
+  .root-section h2 { margin: 0 0 1rem; color: var(--root-text, #2f2a22); font-size: 1.35rem; line-height: 1.6; }
+  .root-section h2::before { content: ""; display: inline-block; width: 0.58rem; height: 0.58rem; border-radius: 999px; background: var(--root-accent, #b9852f); margin-left: 0.55rem; vertical-align: 0.08em; }
+  .root-section h3 { margin: 1.65rem 0 0.75rem; color: var(--root-accent-deep, #8b6423); font-size: 1.13rem; scroll-margin-top: 1.25rem; }
+  .root-study-page p { margin: 0.85rem 0; }
+  .root-study-page a { color: var(--root-accent-deep, #8b6423); text-decoration: none; border-bottom: 1px dotted currentColor; }
+  .morph-card, .morph-card:hover { border-bottom-style: solid; }
+  .arabic-quote { direction: rtl; text-align: center; font-size: 1.48rem; line-height: 2.5; margin: 1.4rem 0 0.65rem; padding: 1rem 1.25rem; border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 18px; background: linear-gradient(180deg, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent), var(--root-panel, #fffdf7); color: var(--root-text, #2f2a22); unicode-bidi: isolate; }
+  .arabic-quote p { margin: 0; text-align: center !important; }
+  .root-study-page .translation { text-align: center !important; color: var(--root-muted, #6d6255); margin-top: 0.45rem; }
+  .root-study-page .verse-ref { text-align: center !important; color: var(--root-accent-deep, #8b6423); font-weight: 700; margin-top: 0.25rem; }
+  .arabic-large { font-size: 1.12em; line-height: 2.15; direction: rtl; unicode-bidi: isolate; }
+  @media (max-width: 760px) { .root-study-page { padding: 1.5rem 0.75rem; } .root-frame { padding: 1.25rem; border-radius: 20px; } .morphology-grid { grid-template-columns: 1fr; } .root-toc ol { columns: 1; } .arabic-quote { font-size: 1.25rem; } }
 </style>
+<div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa"><div class="root-frame">
+  <section class="root-hero"><div class="root-kicker">ریشه قرآنی</div><h1>ریشه قرآنی ت ب ع</h1><p class="root-subtitle">قرار گرفتن در پیِ شخص، چیز، اثر یا مسیری و ادامه دادن حرکت در امتداد آن.</p></section>
+  <section class="root-forms-card" aria-labelledby="morphology-title"><h2 id="morphology-title">کارت‌های مشتق‌های قرآنی</h2><div class="morphology-grid">
+  <a class="morph-card" href="#quranic-derivatives-01"><div class="morph-card-header"><span>فعل ثلاثی مجرد</span><span>تَبِعَ</span></div><div class="morph-form" dir="rtl" lang="ar">تَبِعَ</div><p class="morph-note">پشت سر آمد، دنبال کرد یا پس از چیزی قرار گرفت.</p><p class="morph-destination">بخش مربوط: پیروی ارادی و دنبال‌آمدن غیرارادی</p></a>
+  <a class="morph-card" href="#quranic-uses"><div class="morph-card-header"><span>فعل باب افتعال</span><span>اتَّبَعَ</span></div><div class="morph-form" dir="rtl" lang="ar">اتَّبَعَ</div><p class="morph-note">در پی چیزی رفت، راه آن را گرفت یا از آن پیروی کرد.</p><p class="morph-destination">بخش مربوط: متعلق اتباع و جهت اخلاقی آن</p></a>
+  <a class="morph-card" href="#quranic-derivatives-02"><div class="morph-card-header"><span>فعل باب افعال</span><span>أَتْبَعَ</span></div><div class="morph-form" dir="rtl" lang="ar">أَتْبَعَ</div><p class="morph-note">در پی رفت، تعقیب کرد، به دنبال رسید یا چیزی را در پی چیز دیگری آورد.</p><p class="morph-destination">بخش مربوط: تعقیب، الحاق و ترتیب پیامدها</p></a>
+  <a class="morph-card" href="#quranic-derivatives-04"><div class="morph-card-header"><span>اسم</span><span>تَبَع</span></div><div class="morph-form" dir="rtl" lang="ar">تَبَع</div><p class="morph-note">پیرو یا گروه پیروان.</p><p class="morph-destination">بخش مربوط: رابطه پیروان و پیشروان</p></a>
+  <a class="morph-card" href="#quranic-derivatives-04"><div class="morph-card-header"><span>اسم فاعل</span><span>تَابِع</span></div><div class="morph-form" dir="rtl" lang="ar">تَابِع</div><p class="morph-note">دنبال‌کننده، پیرو یا همراه وابسته.</p><p class="morph-destination">بخش مربوط: صورت‌های اسمی پیروی</p></a>
+  <a class="morph-card" href="#quranic-derivatives-05"><div class="morph-card-header"><span>اسم</span><span>تَبِيع</span></div><div class="morph-form" dir="rtl" lang="ar">تَبِيع</div><p class="morph-note">کسی که در پی مطالبه، پیگیری یا بازخواست می‌آید.</p><p class="morph-destination">بخش مربوط: گسترش دنبال کردن به پیگیری حق</p></a>
+  <a class="morph-card" href="#quranic-derivatives-06"><div class="morph-card-header"><span>اسم فاعل باب تفاعل، تثنیه</span><span>مُتَتَابِعَيْن</span></div><div class="morph-form" dir="rtl" lang="ar">مُتَتَابِعَيْن</div><p class="morph-note">دو چیز که بی‌فاصله و پی‌درپی می‌آیند.</p><p class="morph-destination">بخش مربوط: پیوستگی زمانی</p></a>
+  <a class="morph-card" href="#quranic-derivatives-07"><div class="morph-card-header"><span>مصدر باب افتعال</span><span>اتِّبَاع</span></div><div class="morph-form" dir="rtl" lang="ar">اتِّبَاع</div><p class="morph-note">عمل دنبال کردن، پیروی یا پیگیری.</p><p class="morph-destination">بخش مربوط: اتباع اعتقادی و اتباع به معنای مطالبه</p></a>
+  <a class="morph-card" href="#quranic-derivatives-08"><div class="morph-card-header"><span>اسم مفعول باب افتعال</span><span>مُتَّبَعُون</span></div><div class="morph-form" dir="rtl" lang="ar">مُتَّبَعُون</div><p class="morph-note">کسانی که تعقیب یا دنبال می‌شوند.</p><p class="morph-destination">بخش مربوط: تعقیب فیزیکی</p></a>
+</div></section>
 
-<div class="forqan-page-rtl root-study-page" dir="rtl" lang="fa">
+  <nav class="root-toc" aria-label="فهرست بخش‌های مقاله"><h2>فهرست مقاله</h2><ol><li><a href="#introduction">معرفی کوتاه ریشه</a></li>
+          <li><a href="#forms">صورت‌ها و مشتق‌های مهم ریشه</a></li>
+          <li><a href="#root-meaning">هسته معنایی ریشه</a></li>
+          <li><a href="#material-image">تصویر مادی ریشه</a></li>
+          <li><a href="#classical-usage">کاربرد ریشه در عربی کهن</a></li>
+          <li><a href="#reception-history">تاریخچه فهم، محدودسازی یا خلط معنایی</a></li>
+          <li><a href="#methodology">تبصره روش‌شناختی</a></li>
+          <li><a href="#quranic-uses">کاربردهای قرآنی ریشه</a></li>
+          <li><a href="#quranic-derivatives">بررسی مشتق‌های مهم در قرآن</a></li>
+          <li><a href="#grammar">نکات نحوی و ساختاری</a></li>
+          <li><a href="#near-roots">مقایسه با ریشه‌های نزدیک</a></li>
+          <li><a href="#translation">پیشنهادهای ترجمه برای فرقان</a></li>
+          <li><a href="#summary">جمع‌بندی</a></li></ol></nav>
+  <section id="introduction" class="root-section">
+<h2>معرفی کوتاه ریشه</h2>
+<p>ریشه <strong class="arabic-large">ت ب ع</strong> در میدان دنبال کردن، پشت سر چیزی رفتن، در پی اثر یا مسیر آن حرکت کردن، و قرار گرفتن چیزی پس از چیز دیگر حرکت می‌کند.</p>
 
-  <div class="root-frame">
-    <section class="root-hero">
-      <div class="root-kicker">ریشه قرآنی</div>
-      <h1>ریشه قرآنی ت ب ع</h1>
-      <p class="root-subtitle">دنبال کردن، پی گرفتن، پشت سر چیزی رفتن، و هم‌مسیر شدن با یک پیشرو یا مسیر</p>
-    </section>
+<p>در تصویر بنیادین این ریشه، چیزی پیشاپیش قرار دارد و چیز دیگری در پی آن می‌آید. این رابطه گاهی حرکتی و مکانی است؛ مانند سپاهی که گروهی را تعقیب می‌کند. گاهی فکری، دینی یا اجتماعی است؛ مانند کسی که هدایت، رسول، راه، هوا یا گمان را دنبال می‌کند. گاهی نیز رابطه‌ای میان عمل و پیامد آن است؛ مانند صدقه‌ای که آزار در پی آن می‌آید، یا قومی که لعنت در دنیا و آخرت دنبالشان می‌کند.</p>
 
-    <section class="root-forms-card" id="forms-covered">
-      <h2>صورت‌های مهم این ریشه</h2>
-      <div class="morphology-grid">
-        <a class="morph-card" href="#root-meaning">
-          <div class="morph-card-header">
-            <div class="morph-type">ریشه</div>
-            <div class="morph-used">کاربرد قرآنی: بلی</div>
-          </div>
-          <div class="morph-form arabic-large">ت ب ع</div>
-          <p class="morph-note">دنبال کردن، پی گرفتن، پشت سر چیزی رفتن، و حرکت در امتداد مسیر یک پیشرو.</p>
-        </a>
+<p>بنابراین، <strong class="arabic-large">اتباع</strong> صرفاً دانستن، موافقت ذهنی یا شنیدن نیست. در کاربردهای ارادی، پیرو جهت خود را با چیزی که پیشاپیش قرار گرفته هماهنگ می‌کند و در امتداد آن حرکت می‌کند.</p>
 
-        <a class="morph-card" href="#important-forms">
-          <div class="morph-card-header">
-            <div class="morph-type">صورت‌های فعلی و اسمی</div>
-            <div class="morph-used">کاربرد قرآنی: بلی</div>
-          </div>
-          <div class="morph-form arabic-large">تبع، اتبع، يتبع، اتباع</div>
-          <p class="morph-note">پیروی، دنبال کردن، گرفتن یک مسیر، یا قرار دادن خود در امتداد یک راه.</p>
-        </a>
+<p>در عبارتی کوتاه، هسته این ریشه را می‌توان چنین بیان کرد:</p>
 
-        <a class="morph-card" href="#physical-pursuit">
-          <div class="morph-card-header">
-            <div class="morph-type">تعقیب</div>
-            <div class="morph-used">کاربرد قرآنی: بلی</div>
-          </div>
-          <div class="morph-form arabic-large">أتبعهم / أتبعوهم</div>
-          <p class="morph-note">دنبال کردن یا تعقیب کردن در معنای مکانی و حرکتی.</p>
-        </a>
+<p><strong class="arabic-large">قرار گرفتن در پیِ شخص، چیز، اثر یا مسیری و ادامه دادن حرکت در امتداد آن.</strong></p>
 
-        <a class="morph-card" href="#followers-leaders">
-          <div class="morph-card-header">
-            <div class="morph-type">پیروان و متبوعان</div>
-            <div class="morph-used">کاربرد قرآنی: بلی</div>
-          </div>
-          <div class="morph-form arabic-large">الذين اتبعوا / الذين اتبعوا</div>
-          <p class="morph-note">رابطه کسانی که پیروی کردند و کسانی که پیروی شدند، به‌ویژه در صحنه قیامت.</p>
-        </a>
-      </div>
-    </section>
+</section>
 
-    <nav class="root-toc" aria-label="فهرست بخش‌های مقاله">
-      <h2>فهرست کاربردهای این ریشه</h2>
-      <ol>
-        <li><a href="#root-meaning">معنای بنیادین</a></li>
-        <li><a href="#important-forms">صورت‌های مهم این ریشه</a></li>
-        <li><a href="#central-meaning">هسته زبانی</a></li>
-        <li><a href="#material-image">تصویر مادی ریشه</a></li>
-        <li><a href="#classical-usage">کاربرد عربی کلاسیک</a></li>
-        <li><a href="#following-guidance">پیروی از هدایت</a></li>
-        <li><a href="#following-revelation">پیروی از آنچه خدا نازل کرده است</a></li>
-        <li><a href="#following-messenger-light">پیروی از رسول و نور نازل‌شده</a></li>
-        <li><a href="#following-satan">پیروی از شیطان</a></li>
-        <li><a href="#following-desire">پیروی از هوا</a></li>
-        <li><a href="#following-assumption">پیروی از گمان</a></li>
-        <li><a href="#followers-leaders">رابطه پیروان و پیشوایان در قیامت</a></li>
-        <li><a href="#physical-pursuit">تعقیب فیزیکی</a></li>
-        <li><a href="#being-followed-by-consequence">دنبال شدن انسان توسط پیامد یا اثر</a></li>
-        <li><a href="#following-with-ihsan">اتباع با احسان</a></li>
-        <li><a href="#distinctions">تفکیک کاربردها</a></li>
-        <li><a href="#structure">نکته ساختاری</a></li>
-        <li><a href="#nearby-roots">تفکیک از ریشه‌های نزدیک</a></li>
-        <li><a href="#translation-method">پیشنهادهای ترجمه در فرقان</a></li>
-        <li><a href="#summary">جمع‌بندی زبانی</a></li>
-      </ol>
-    </nav>
+<section id="forms" class="root-section">
+<h2>صورت‌ها و مشتق‌های مهم ریشه</h2>
+<p>ریشه <strong class="arabic-large">ت ب ع</strong> در قرآن در صورت‌های فعلی و اسمی متنوعی آمده است. صورت‌های اصلی آن عبارت‌اند از:</p>
 
-    <section class="root-section" id="root-meaning">
-      <h2>معنای بنیادین</h2>
-      <p>ریشه ت ب ع در اصل به دنبال کردن، پی گرفتن، پشت سر چیزی رفتن، و حرکت در امتداد مسیر یک پیشرو دلالت دارد. در این ریشه، چیزی جلوتر قرار می‌گیرد و چیز دیگر پس از آن می‌آید؛ گاهی با انتخاب، گاهی با عادت، گاهی با فریب، و گاهی به صورت پیامد و تعقیب.</p>
-    </section>
-    <section class="root-section" id="important-forms">
-      <h2>صورت‌های مهم این ریشه</h2>
-      <p>صورت‌های مهم این ریشه در قرآن شامل تبع، يتبع، اتبع، يتبعون، اتبعوا، اتباع، أتباع، متبع، تابع، اتبعهم، أتبعهم و أتبعوا است. فعل ساده تبع بیشتر به دنبال کردن یا پیروی اشاره دارد. باب افتعال، یعنی اتبع، در قرآن بسیار مهم است و غالبا بر پیروی پذیرفته‌شده، گرفتن یک مسیر، یا قرار دادن خود در امتداد یک راه دلالت دارد. اتباع مصدر پیروی است. أتباع پیروان یا دنباله‌روان‌اند. أتبع در برخی سیاق‌ها به دنبال کردن، تعقیب کردن، یا روانه شدن پشت سر کسی اشاره دارد.</p>
-    </section>
-    <section class="root-section" id="central-meaning">
-      <h2>هسته زبانی</h2>
-      <p>هسته زبانی ت ب ع، حرکت پسینی در امتداد یک پیشرو است. این ریشه فقط «اطاعت» نیست. اطاعت بیشتر به پذیرش فرمان مربوط است، اما اتباع تصویر حرکت دارد: کسی یا چیزی جلو افتاده و انسان پشت سر آن راه می‌رود. متبوع می‌تواند هدایت، وحی، رسول، نور، هوا، شیطان، گمان، پدران، یا رهبران باطل باشد. بنابراین ارزش اتباع از خود ریشه به دست نمی‌آید؛ از چیزی به دست می‌آید که انسان دنبال می‌کند.</p>
-    </section>
-    <section class="root-section" id="material-image">
-      <h2>تصویر مادی ریشه</h2>
-      <p>تصویر مادی این ریشه، حرکت سایه‌به‌سایه پشت سر یک راهنما، رد پا، کاروان، یا موجود پیشرو است. مثلا حیوانی که پشت سر بچه یا صاحب خود می‌رود، یا گروهی که در مسیر رهبر خود حرکت می‌کنند. در این تصویر، پیرو فقط در جای خود نمی‌ایستد و فکر نمی‌کند؛ وارد مسیر می‌شود، قدم برمی‌دارد، و جهت خود را با پیشرو هماهنگ می‌کند.</p>
-    </section>
-    <section class="root-section" id="classical-usage">
-      <h2>کاربرد عربی کلاسیک</h2>
-      <p>در کاربرد عربی کلاسیک، ت ب ع با پشت سر آمدن، پیروی، تعقیب، پیوستن، و ادامه دادن مسیر دیگری پیوند دارد. گاهی در معنای حرکت فیزیکی به کار می‌رود، و گاهی در معنای پیروی اجتماعی، فکری یا دینی. در نسخه نهایی، اگر شاهد معتبر از شعر جاهلی یا کاربرد کهن عربی پیدا شود، می‌توان آن را افزود.</p>
-    </section>
-    <section class="root-section" id="following-guidance">
-      <h2>پیروی از هدایت</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">قُلْنَا اهْبِطُوا مِنْهَا جَمِيعًا ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّي هُدًى فَمَن تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</blockquote>
-      <p class="translation">گفتیم: همگی از آن فرود آیید؛ پس اگر از سوی من هدایتی برای شما آمد، هر کس هدایت مرا دنبال کند، نه ترسی بر آنان است و نه اندوهگین می‌شوند.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-038' | relative_url }}">البقرة ۲:۳۸</a></p>
+<h3 id="forms-01">تَبِعَ</h3>
 
-      <p>در این آیه، تبع هداي یعنی دنبال کردن هدایت خدا. هدایت فقط شنیده یا دانسته نمی‌شود؛ باید دنبال شود. انسان باید خود را در مسیر آن قرار دهد.</p>
+<p>فعل ثلاثی مجرد است و بر دنبال کردن، پشت سر آمدن یا پس از چیزی قرار گرفتن دلالت می‌کند.</p>
 
-      <p>همین معنا در طه آمده است:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَمَنْ تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</p></blockquote>
+<p class="translation">«پس هرکس هدایت مرا دنبال کند، نه ترسی بر آنان است و نه اندوهگین می‌شوند.»</p>
+<p class="verse-ref">بقره ۲:۳۸</p>
 
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَمَنِ اتَّبَعَ هُدَايَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ</blockquote>
-      <p class="translation">پس هر کس هدایت مرا دنبال کند، نه گمراه می‌شود و نه تیره‌بخت.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/020-ta-ha/#ayah-123' | relative_url }}">طه ۲۰:۱۲۳</a></p>
+<p>این صورت می‌تواند درباره پیروی ارادی انسان باشد، اما گاهی ترتیب و دنبال‌آمدن غیرارادی را نیز بیان می‌کند:</p>
 
-      <p>در این آیه، اتبع هدایت نتیجه دارد: نه ضلال و نه شقاوت. پس اتباع هدایت فقط باور ذهنی نیست؛ هم‌مسیر شدن با هدایت در زندگی است.</p>
-    </section>
-    <section class="root-section" id="following-revelation">
-      <h2>پیروی از آنچه خدا نازل کرده است</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">اتَّبِعُوا مَا أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ وَلَا تَتَّبِعُوا مِن دُونِهِ أَوْلِيَاءَ</blockquote>
-      <p class="translation">از آنچه از سوی پروردگارتان به سوی شما نازل شده پیروی کنید، و جز او از اولیا پیروی نکنید.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/007-al-araf/#ayah-003' | relative_url }}">الأعراف ۷:۳</a></p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>تَتْبَعُهَا الرَّادِفَةُ</p></blockquote>
+<p class="translation">«و آن دیگری در پی آن می‌آید.»</p>
+<p class="verse-ref">نازعات ۷۹:۷</p>
 
-      <p>در این آیه، متعلق اتباع روشن است: ما أنزل إليكم من ربكم. قرآن معیار پیروی را وحی قرار می‌دهد. انسان نباید هر پیشرو، سنت، قدرت یا مرجع اجتماعی را دنبال کند؛ باید آنچه از سوی خدا نازل شده معیار مسیر باشد.</p>
+<h3 id="forms-02">اتَّبَعَ</h3>
 
-      <p>همین اصل در نقد پیروی کور از پدران دیده می‌شود:</p>
+<p>فعل باب افتعال و پرکاربردترین صورت این ریشه در قرآن است. این صورت بر در پی چیزی رفتن، راه آن را گرفتن، از آن پیروی کردن یا خود را در امتداد آن قرار دادن دلالت می‌کند.</p>
 
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِذَا قِيلَ لَهُمُ اتَّبِعُوا مَا أَنزَلَ اللَّهُ قَالُوا بَلْ نَتَّبِعُ مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا</blockquote>
-      <p class="translation">و هنگامی که به آنان گفته شود از آنچه خدا نازل کرده پیروی کنید، می‌گویند: بلکه از آنچه پدران خود را بر آن یافته‌ایم پیروی می‌کنیم.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/031-luqman/#ayah-021' | relative_url }}">لقمان ۳۱:۲۱</a></p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>اتَّبِعُوا مَا أُنْزِلَ إِلَيْكُمْ مِنْ رَبِّكُمْ</p></blockquote>
+<p class="translation">«آنچه را از سوی پروردگارتان به سوی شما نازل شده دنبال کنید.»</p>
+<p class="verse-ref">اعراف ۷:۳</p>
 
-      <p>در این آیه، دو نوع اتباع روبه‌روی هم قرار می‌گیرد: پیروی از وحی و پیروی از میراث پدران. قرآن اصل گذشته را به خودی خود نفی نمی‌کند؛ مشکل آنجاست که گذشته جای وحی را بگیرد و انسان مسیر خود را به آن بسپارد.</p>
-    </section>
-    <section class="root-section" id="following-messenger-light">
-      <h2>پیروی از رسول و نور نازل‌شده</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">الَّذِينَ يَتَّبِعُونَ الرَّسُولَ النَّبِيَّ الْأُمِّيَّ</blockquote>
-      <p class="translation">کسانی که از رسول، پیامبر امی، پیروی می‌کنند.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/007-al-araf/#ayah-157' | relative_url }}">الأعراف ۷:۱۵۷</a></p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَلَا تَتَّبِعِ الْهَوَىٰ</p></blockquote>
+<p class="translation">«و هوا را دنبال مکن.»</p>
+<p class="verse-ref">ص ۳۸:۲۶</p>
 
-      <p>در همان آیه آمده است:</p>
+<p>خود فعل ارزش مثبت یا منفی ندارد. ارزش آن از متعلق، جهت و سیاق پیروی روشن می‌شود.</p>
 
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَاتَّبَعُوا النُّورَ الَّذِي أُنزِلَ مَعَهُ</blockquote>
-      <p class="translation">و از نوری که با او نازل شده پیروی کردند.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/007-al-araf/#ayah-157' | relative_url }}">الأعراف ۷:۱۵۷</a></p>
+<h3 id="forms-03">أَتْبَعَ</h3>
 
-      <p>این پیوند بسیار مهم است. پیروی از رسول در قرآن جدا از نوری که با او نازل شده نیست. رسول پیشرو مستقل در برابر خدا نیست؛ رسول حامل پیام و راهی است که نور الهی آن را روشن می‌کند. بنابراین اتباع رسول، در عمق خود، هم‌مسیر شدن با پیام و نوری است که او آورده است.</p>
-    </section>
-    <section class="root-section" id="following-satan">
-      <h2>پیروی از شیطان</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">يَا أَيُّهَا النَّاسُ كُلُوا مِمَّا فِي الْأَرْضِ حَلَالًا طَيِّبًا وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ</blockquote>
-      <p class="translation">ای مردم، از آنچه در زمین حلال و پاکیزه است بخورید، و گام‌های شیطان را دنبال نکنید.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-168' | relative_url }}">البقرة ۲:۱۶۸</a></p>
+<p>فعل باب افعال است. در قرآن می‌تواند بر در پی کسی رفتن، تعقیب کردن، به او رسیدن یا چیزی را در پی چیزی آوردن دلالت کند.</p>
 
-      <p>تعبیر خطوات الشيطان نشان می‌دهد که پیروی از شیطان غالبا گام‌به‌گام است. انسان با یک حرکت بزرگ سقوط نمی‌کند؛ قدم‌های کوچک، عادی‌سازی تدریجی، توجیه، و بی‌حسی اخلاقی می‌تواند او را در مسیر شیطان قرار دهد.</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِ</p></blockquote>
+<p class="translation">«پس فرعون با سپاهیانش در پی آنان رفت.»</p>
+<p class="verse-ref">طه ۲۰:۷۸</p>
 
-      <p>در آیه‌ای دیگر آمده است:</p>
+<p>در بعضی کاربردها، فاعل چیزی را در پی چیز دیگری قرار می‌دهد:</p>
 
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ ۚ إِنَّهُ لَكُمْ عَدُوٌّ مُّبِينٌ</blockquote>
-      <p class="translation">و گام‌های شیطان را دنبال نکنید؛ همانا او برای شما دشمنی آشکار است.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-208' | relative_url }}">البقرة ۲:۲۰۸</a></p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعْنَا بَعْضَهُمْ بَعْضًا</p></blockquote>
+<p class="translation">«پس برخی از آنان را در پی برخی دیگر آوردیم.»</p>
+<p class="verse-ref">مؤمنون ۲۳:۴۴</p>
 
-      <p>اتباع شیطان در اینجا دنبال کردن یک مسیر تدریجی است. خطر فقط در شر آشکار نیست؛ در قدم‌هایی است که آرام‌آرام جهت انسان را عوض می‌کند.</p>
-    </section>
-    <section class="root-section" id="following-desire">
-      <h2>پیروی از هوا</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَلَا تَتَّبِعِ الْهَوَىٰ فَيُضِلَّكَ عَن سَبِيلِ اللَّهِ</blockquote>
-      <p class="translation">و از هوا پیروی مکن، که تو را از راه خدا گمراه می‌کند.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/038-sad/#ayah-026' | relative_url }}">ص ۳۸:۲۶</a></p>
+<p>میان <strong class="arabic-large">أَتْبَعَ</strong> و دیگر صورت‌های این ریشه هم‌پوشانی وجود دارد. بنابراین، نباید در همه آیات برای آن یک معنای سببی یا تعقیبی ثابت ساخت.</p>
 
-      <p>هوا در اینجا میل رهاشده و کشش بی‌مهار است. وقتی انسان هوا را دنبال می‌کند، میل در جای پیشرو می‌نشیند و انسان پشت سر آن حرکت می‌کند. نتیجه آن خروج از سبيل الله است. در این کاربرد، ت ب ع نشان می‌دهد که انسان همیشه در حال جهت‌گیری است؛ یا هدایت را دنبال می‌کند، یا میل را.</p>
-    </section>
-    <section class="root-section" id="following-assumption">
-      <h2>پیروی از گمان</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِن يَتَّبِعُونَ إِلَّا الظَّنَّ وَمَا تَهْوَى الْأَنفُسُ</blockquote>
-      <p class="translation">آنان جز گمان و آنچه نفس‌ها می‌خواهند دنبال نمی‌کنند.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/053-an-najm/#ayah-023' | relative_url }}">النجم ۵۳:۲۳</a></p>
+<h3 id="forms-04">تَبَع</h3>
 
-      <p>در این آیه، اتباع ظن با خواهش نفس همراه شده است. گمان وقتی معیار حرکت شود، انسان را از علم و هدایت جدا می‌کند. پیروی بدون علم، انسان را در مسیر بی‌پایه قرار می‌دهد.</p>
+<p>اسم است و می‌تواند به پیرو یا گروهی از پیروان اشاره کند. این صورت در قرآن هم برای مفرد جمعی و هم برای گروه پیروان به کار رفته است:</p>
 
-      <p>در آیه‌ای دیگر آمده است:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِنَّا كُنَّا لَكُمْ تَبَعًا</p></blockquote>
+<p class="translation">«ما پیرو شما بودیم.»</p>
+<p class="verse-ref">ابراهیم ۱۴:۲۱</p>
 
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَإِن تُطِعْ أَكْثَرَ مَن فِي الْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ اللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا الظَّنَّ</blockquote>
-      <p class="translation">و اگر از بیشتر کسانی که در زمین‌اند اطاعت کنی، تو را از راه خدا گمراه می‌کنند؛ آنان جز گمان را دنبال نمی‌کنند.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/006-al-anam/#ayah-116' | relative_url }}">الأنعام ۶:۱۱۶</a></p>
+<p>صورت جمع مشهور <strong class="arabic-large">أَتْبَاع</strong> در زبان عربی شناخته شده است، اما این صورت در متن قرآن نیامده است.</p>
 
-      <p>اینجا اکثریت بودن معیار حق نیست. اگر بیشتر مردم گمان را دنبال کنند، پیروی از آنان انسان را از راه خدا بیرون می‌برد.</p>
-    </section>
-    <section class="root-section" id="followers-leaders">
-      <h2>رابطه پیروان و پیشوایان در قیامت</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">إِذْ تَبَرَّأَ الَّذِينَ اتُّبِعُوا مِنَ الَّذِينَ اتَّبَعُوا وَرَأَوُا الْعَذَابَ وَتَقَطَّعَتْ بِهِمُ الْأَسْبَابُ</blockquote>
-      <p class="translation">هنگامی که کسانی که پیروی شدند از کسانی که پیروی کردند بیزاری جویند، و عذاب را ببینند، و پیوندها از آنان بریده شود.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-166' | relative_url }}">البقرة ۲:۱۶۶</a></p>
+<h3 id="forms-05">تَابِع</h3>
 
-      <p>در این آیه، دو گروه داریم: کسانی که پیروی شدند، و کسانی که پیروی کردند. در دنیا میان این دو گروه پیوند، اعتماد، نفوذ و دنباله‌روی وجود داشت. اما در قیامت، این پیوندها قطع می‌شود. قرآن نشان می‌دهد که پیرو نمی‌تواند مسئولیت جهت‌گیری خود را به متبوع بسپارد.</p>
+<p>اسم فاعل است و بر کسی دلالت می‌کند که دنبال می‌کند یا پیرو است:</p>
 
-      <p>ادامه آیه می‌گوید:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَمَا أَنْتَ بِتَابِعٍ قِبْلَتَهُمْ</p></blockquote>
+<p class="translation">«و تو پیرو قبله آنان نیستی.»</p>
+<p class="verse-ref">بقره ۲:۱۴۵</p>
 
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَقَالَ الَّذِينَ اتَّبَعُوا لَوْ أَنَّ لَنَا كَرَّةً فَنَتَبَرَّأَ مِنْهُمْ كَمَا تَبَرَّءُوا مِنَّا</blockquote>
-      <p class="translation">و کسانی که پیروی کردند گفتند: کاش برای ما بازگشتی بود تا از آنان بیزاری جوییم، همان‌گونه که آنان از ما بیزاری جستند.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/002-al-baqarah/#ayah-167' | relative_url }}">البقرة ۲:۱۶۷</a></p>
+<p>در نور ۲۴:۳۱، <strong class="arabic-large">التَّابِعِينَ</strong> در سیاق کسانی آمده است که به خانواده یا خانه وابسته و همراه‌اند.</p>
 
-      <p>در اینجا، اتباع کور به حسرت تبدیل می‌شود. پیروی در دنیا فقط انتخاب فکری نیست؛ پیوند سرنوشتی می‌سازد. اگر این پیوند بر باطل باشد، پایانش بیزاری و بریدن اسباب است.</p>
-    </section>
-    <section class="root-section" id="physical-pursuit">
-      <h2>تعقیب فیزیکی</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعُوهُم مُّشْرِقِينَ</blockquote>
-      <p class="translation">پس هنگام برآمدن آفتاب آنان را دنبال کردند.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/026-ash-shuara/#ayah-060' | relative_url }}">الشعراء ۲۶:۶۰</a></p>
+<h3 id="forms-06">تَبِيع</h3>
 
-      <p>اینجا اتباع معنای روشن مکانی دارد: فرعونیان در پی بنی‌اسرائیل روانه شدند. این کاربرد، لایه مادی ریشه را نشان می‌دهد: حرکت پشت سر هدف.</p>
+<p>اسمی از همین خانواده است که می‌تواند بر دنبال‌کننده، مطالبه‌کننده یا کسی که در پی بازخواست و گرفتن حق می‌آید دلالت کند:</p>
 
-      <p>در آیه‌ای دیگر آمده است:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>ثُمَّ لَا تَجِدُوا لَكُمْ عَلَيْنَا بِهِ تَبِيعًا</p></blockquote>
+<p class="translation">«سپس برای خود در برابر ما کسی را نخواهید یافت که آن را پیگیری و مطالبه کند.»</p>
+<p class="verse-ref">اسراء ۱۷:۶۹</p>
 
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِ فَغَشِيَهُم مِّنَ الْيَمِّ مَا غَشِيَهُمْ</blockquote>
-      <p class="translation">پس فرعون با سپاهیانش آنان را دنبال کرد، پس از دریا آنچه آنان را پوشاند، پوشاند.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/020-ta-ha/#ayah-078' | relative_url }}">طه ۲۰:۷۸</a></p>
+<p>در این کاربرد، تصویر دنبال کردن به معنای پیگیری حق یا بازخواست گسترش یافته است.</p>
 
-      <p>در این کاربرد، اتباع به تعقیب فعال اشاره دارد. فرعون فقط مخالف نبود؛ حرکت کرد، دنبال کرد، و در همان مسیر به هلاکت رسید.</p>
-    </section>
-    <section class="root-section" id="being-followed-by-consequence">
-      <h2>دنبال شدن انسان توسط پیامد یا اثر</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">فَأَتْبَعَهُ الشَّيْطَانُ فَكَانَ مِنَ الْغَاوِينَ</blockquote>
-      <p class="translation">پس شیطان او را دنبال کرد، پس از گمراهان شد.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/007-al-araf/#ayah-175' | relative_url }}">الأعراف ۷:۱۷۵</a></p>
+<h3 id="forms-07">مُتَتَابِعَيْن</h3>
 
-      <p>در این آیه، شخصی از آیات جدا می‌شود و شیطان او را دنبال می‌کند. این کاربرد نشان می‌دهد که گاهی انسان دنبال باطل می‌رود، و گاهی پس از جدا شدن از حق، باطل و شیطان پشت سر او می‌آیند و او را رها نمی‌کنند.</p>
+<p>اسم فاعل باب تفاعل در حالت تثنیه است و بر دو ماه پی‌درپی و بدون گسست دلالت می‌کند:</p>
 
-      <p>درباره عاد آمده است:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ</p></blockquote>
+<p class="translation">«پس روزه دو ماه پی‌درپی.»</p>
+<p class="verse-ref">نساء ۴:۹۲</p>
 
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَأُتْبِعُوا فِي هَٰذِهِ الدُّنْيَا لَعْنَةً وَيَوْمَ الْقِيَامَةِ</blockquote>
-      <p class="translation">و در این دنیا لعنتی دنبالشان شد، و روز قیامت نیز.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/011-hud/#ayah-060' | relative_url }}">هود ۱۱:۶۰</a></p>
+<p>در این صورت، دنبال‌آمدن زمانی و بی‌فاصله برجسته است.</p>
 
-      <p>اینجا اتباع به پیامدی اشاره دارد که پشت سر قوم می‌آید. لعنت، یعنی دوری از رحمت، به عنوان اثر و پیامد، آنان را دنبال می‌کند. پس ت ب ع فقط حرکت انسان پشت سر چیزی نیست؛ گاهی اثرِ عمل، پشت سر انسان حرکت می‌کند.</p>
-    </section>
-    <section class="root-section" id="following-with-ihsan">
-      <h2>اتباع با احسان</h2>
-      <blockquote class="arabic-quote" dir="rtl" lang="ar">وَالَّذِينَ اتَّبَعُوهُم بِإِحْسَانٍ</blockquote>
-      <p class="translation">و کسانی که با احسان از آنان پیروی کردند.</p>
-      <p class="verse-ref"><a class="quran-ref-link" href="{{ '/quran-reflection/fa/009-at-tawbah/#ayah-100' | relative_url }}">التوبة ۹:۱۰۰</a></p>
+<h3 id="forms-08">اتِّبَاع</h3>
 
-      <p>در این آیه، اتباع با احسان مقید شده است. پیروی از پیشینیان وقتی ارزش دارد که با احسان، نیکی، سنجش و درستی همراه باشد. این قید نشان می‌دهد که قرآن پیروی کور را معیار نمی‌داند؛ حتی در پیروی از نیکان، کیفیت پیروی مهم است.</p>
-    </section>
-    <section class="root-section" id="distinctions">
-      <h2>تفکیک کاربردها</h2>
-      <p>باید میان کاربردهای ت ب ع فرق گذاشت. پیروی از هدایت یعنی قرار گرفتن در مسیر راهنمایی خدا. پیروی از وحی یعنی معیار گرفتن آنچه خدا نازل کرده است. پیروی از رسول یعنی هم‌مسیر شدن با پیام و نوری که با او نازل شده است. پیروی از پدران وقتی مشکل می‌شود که جای وحی را بگیرد. پیروی از شیطان تدریجی و گام‌به‌گام است. پیروی از هوا یعنی میل انسان پیشرو شود. پیروی از ظن یعنی گمان جای علم را بگیرد. تعقیب فرعون معنای فیزیکی ریشه را نشان می‌دهد. دنبال شدن توسط لعنت یا شیطان نشان می‌دهد که پیامدها نیز می‌توانند انسان را تعقیب کنند.</p>
-    </section>
-    <section class="root-section" id="structure">
-      <h2>نکته ساختاری</h2>
-      <p>از نظر ساختاری، متعلق فعل در این ریشه بسیار مهم است. «اتبع الهدى» یعنی هدایت را دنبال کرد. «اتبع الرسول» یعنی رسول را در مسیر پیام دنبال کرد. «اتبع ما أنزل الله» یعنی نازل‌شده الهی را معیار حرکت قرار داد. «اتبع الهوى» یعنی میل را پیشرو ساخت. «اتبع خطوات الشيطان» یعنی گام‌های تدریجی شیطان را دنبال کرد. «اتبع الظن» یعنی گمان را معیار کرد. معنای اخلاقی اتباع از متعلق آن روشن می‌شود.</p>
-    </section>
-    <section class="root-section" id="nearby-roots">
-      <h2>تفکیک از ریشه‌های نزدیک</h2>
-      <p>ت ب ع با چند ریشه نزدیک فرق دارد. ط و ع به اطاعت، نرم شدن و پذیرش فرمان نزدیک است؛ اما ت ب ع بیشتر تصویر حرکت پشت سر یک پیشرو یا مسیر را دارد. ق ف و به دنبال کردن اثر، رد یا چیزی بی‌علم نزدیک است؛ مانند «ولا تقف ما ليس لك به علم» در اسراء ۱۷:۳۶. لحق به رسیدن و ملحق شدن اشاره دارد؛ اما اتباع می‌تواند بدون رسیدن کامل هم دنبال کردن مسیر باشد. اقتدى به الگو گرفتن و پیشوا قرار دادن نزدیک است. سلك به وارد شدن در راه و پیمودن آن اشاره دارد؛ اما اتباع تأکید می‌کند که چیزی یا کسی پیشاپیش مسیر را تعیین کرده است. مشى راه رفتن است، اما اتباع راه رفتن پشت سر چیزی یا در امتداد چیزی است.</p>
-    </section>
-    <section class="root-section" id="translation-method">
-      <h2>پیشنهادهای ترجمه در فرقان</h2>
-      <p>برای ترجمه در فرقان، ت ب ع باید سیاق‌مند ترجمه شود. تبع و اتبع می‌تواند «دنبال کرد»، «پیروی کرد»، «پی گرفت»، «پشت سر رفت»، «راه او را گرفت»، یا «در پی آن رفت» ترجمه شود. اتبع الهدى بهتر است «هدایت را دنبال کرد» یا «در پی هدایت رفت» باشد. اتبع الرسول «از رسول پیروی کرد» است، اما در توضیح باید با پیام و نور نازل‌شده پیوند بخورد. اتبع الهوى «از هوا پیروی کرد» یا «میل خود را دنبال کرد» است. اتبع خطوات الشيطان «گام‌های شیطان را دنبال کرد» است. أتباع می‌تواند «پیروان» یا «دنباله‌روان» باشد. الذين اتبعوا «کسانی که پیروی کردند» و الذين اتبعوا «کسانی که پیروی شدند» ترجمه می‌شود؛ در فارسی باید با ساختار جمله یا توضیح کوتاه فرق آن روشن شود. أتبع در سیاق تعقیب، بهتر است «دنبال کرد»، «در پی آنان رفت»، یا «تعقیب کرد» ترجمه شود.</p>
-    </section>
-    <section class="root-section" id="summary">
-      <h2>جمع‌بندی زبانی</h2>
-      <p>جمع‌بندی زبانی: ریشه ت ب ع بر دنبال کردن، پی گرفتن، پشت سر چیزی رفتن، و ادامه دادن مسیر یک پیشرو دلالت دارد. تصویر مادی آن حرکت پیوسته پشت سر راهنما، کاروان، رد پا یا هدف است. در قرآن، این ریشه از پیروی از هدایت و وحی تا پیروی از رسول و نور، از پیروی از شیطان و هوا تا پیروی از گمان و پدران، و از رابطه پیروان و پیشوایان تا تعقیب فیزیکی و پیامدهای دنبال‌کننده گسترش می‌یابد. فرق آن با اطاعت این است که اطاعت بر پذیرش فرمان تمرکز دارد، اما اتباع بر هم‌مسیر شدن و حرکت در امتداد متبوع تأکید می‌کند.</p>
-    </section>
-  </div>
-</div>
+<p>مصدر باب افتعال است و بر عمل پیروی، دنبال کردن یا پیگیری دلالت می‌کند:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِلَّا اتِّبَاعَ الظَّنِّ</p></blockquote>
+<p class="translation">«جز دنبال کردن گمان.»</p>
+<p class="verse-ref">نساء ۴:۱۵۷</p>
+
+<p>در بقره ۲:۱۷۸، <strong class="arabic-large">فَاتِّبَاعٌ بِالْمَعْرُوفِ</strong> درباره پیگیری حق به شیوه پسندیده و شناخته‌شده آمده است، نه درباره پیروی اعتقادی از یک شخص.</p>
+
+<h3 id="forms-09">مُتَّبَعُون</h3>
+
+<p>اسم مفعول باب افتعال است:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِنَّكُمْ مُتَّبَعُونَ</p></blockquote>
+<p class="translation">«بی‌گمان شما تعقیب خواهید شد.»</p>
+<p class="verse-ref">شعراء ۲۶:۵۲</p>
+
+<p>در اینجا، کسانی که شبانه خارج می‌شوند، موضوع تعقیب قرار خواهند گرفت.</p>
+
+</section>
+
+<section id="root-meaning" class="root-section">
+<h2>هسته معنایی ریشه</h2>
+<p>هسته معنایی <strong class="arabic-large">ت ب ع</strong> بر رابطه‌ای میان پیشرو و آنچه پس از او می‌آید استوار است. یکی جلوتر قرار می‌گیرد و دیگری در امتداد اثر، جهت، حرکت یا موقعیت او قرار می‌گیرد.</p>
+
+<p>این رابطه همیشه میان دو انسان نیست. متبوع می‌تواند شخص، راه، هدایت، وحی، کتاب، نور، ذکر، شریعت، فرمان، رضوان، حق، باطل، گمان، هوا، شهوت یا گام‌های شیطان باشد. حتی یک پیامد نیز می‌تواند در پی عمل بیاید.</p>
+
+<p>ازاین‌رو، ترجمه «پیروی کردن» در بسیاری از آیات مناسب است، اما تمام میدان ریشه را منتقل نمی‌کند. «پیروی» در فارسی گاهی فقط رابطه‌ای فکری یا فرمان‌پذیرانه را به ذهن می‌آورد، در حالی که <strong class="arabic-large">ت ب ع</strong> تصویر حرکت و دنبال‌آمدن را نیز حفظ می‌کند.</p>
+
+<p>اتباع همچنین با اطاعت یکسان نیست. ممکن است انسان از فرمانی اطاعت کند، زیرا آن را پذیرفته یا در برابر آن تسلیم شده است. در اتباع، تمرکز بر این است که انسان کدام شخص، راه یا جهت را پیشاپیش خود قرار داده و در امتداد آن حرکت می‌کند.</p>
+
+<p>این دو میدان می‌توانند در یک رفتار جمع شوند، اما از نظر تصویری یکسان نیستند. قرآن نیز گاهی دو فعل را در کنار هم می‌آورد:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَاتَّبِعُونِي وَأَطِيعُوا أَمْرِي</p></blockquote>
+<p class="translation">«پس مرا دنبال کنید و از فرمانم اطاعت کنید.»</p>
+<p class="verse-ref">طه ۲۰:۹۰</p>
+
+<p>کنارهم‌آمدن این دو فعل نشان می‌دهد که اتباع و اطاعت هم‌پوشانی دارند، اما عیناً یک واژه و یک تصویر نیستند.</p>
+
+</section>
+
+<section id="material-image" class="root-section">
+<h2>تصویر مادی ریشه</h2>
+<p>تصویر مادی ریشه، حرکت در پیِ رد، قدم، کاروان، راهنما یا موجودی پیشرو است.</p>
+
+<p>انسانی را می‌توان تصور کرد که پیشاپیش حرکت می‌کند و دیگری رد پای او را می‌گیرد. پیرو جهت خود را مستقلاً از نو نمی‌سازد؛ مسیر موجود را ادامه می‌دهد. اگر پیشرو جهت عوض کند، پیرو نیز با ادامه همان نسبت، جهتش تغییر می‌کند.</p>
+
+<p>منابع لغوی برای توضیح این ریشه از نمونه‌ای ملموس یاد کرده‌اند: <strong class="arabic-large">تَبِيع</strong> به بچه گاوی گفته شده که در سال نخست پشت سر مادر خود حرکت می‌کند. این کاربرد تصویر ریشه را روشن می‌سازد: موجودی که حرکت و جهت خود را با پیشروی دیگری هماهنگ می‌کند.</p>
+
+<p>قرآن همین تصویر را در تعبیر <strong class="arabic-large">خُطُوَاتِ الشَّيْطَانِ</strong> آشکار می‌سازد:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ</p></blockquote>
+<p class="translation">«گام‌های شیطان را دنبال نکنید.»</p>
+<p class="verse-ref">بقره ۲:۱۶۸</p>
+
+<p>موضوع فقط پذیرش یک عقیده نیست؛ سخن از قرار دادن قدم در جای قدم و ادامه دادن یک مسیر است.</p>
+
+<p>تصویر دوم، دنبال‌آمدن چیزی پس از چیز دیگر است:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>قَوْلٌ مَعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ مِنْ صَدَقَةٍ يَتْبَعُهَا أَذًى</p></blockquote>
+<p class="translation">«گفتاری پسندیده و گذشت، بهتر از صدقه‌ای است که آزاری در پی آن می‌آید.»</p>
+<p class="verse-ref">بقره ۲:۲۶۳</p>
+
+<p>در اینجا آزار تصمیم نمی‌گیرد که از صدقه «پیروی» کند؛ بلکه پس از آن می‌آید و اثر آن را همراهی می‌کند. این کاربرد نشان می‌دهد که تقدم و تأخر، پیوستگی و دنبال‌آمدن، بخشی از هسته ریشه‌اند.</p>
+
+</section>
+
+<section id="classical-usage" class="root-section">
+<h2>کاربرد ریشه در عربی کهن</h2>
+<p>در منابع لغوی عربی، <strong class="arabic-large">تَبِعَهُ</strong> و <strong class="arabic-large">اتَّبَعَهُ</strong> برای کسی به کار رفته‌اند که پشت سر دیگری راه می‌رود، یا دیگری از کنار او می‌گذرد و او همراهش به راه می‌افتد.</p>
+
+<p>این خانواده همچنین برای چند میدان نزدیک به کار رفته است:</p>
+
+<p>دنبال کردن اثر و رد؛ رسیدن به کسی که پیش‌تر حرکت کرده؛ پی‌درپی آمدن چیزها؛ همراهی و موافقت با شخص در یک کار؛ پیگیری تدریجی چیزی؛ و مطالبه حقی که در پی شخص یا مال باقی مانده است.</p>
+
+<p>صورت <strong class="arabic-large">تَتَبَّعَ</strong> در عربی به جست‌وجو و پیگیری مرحله‌به‌مرحله نزدیک است: شخص چیزی را جزءبه‌جزء یا اثر به اثر دنبال می‌کند. این صورت در قرآن نیامده، اما برای شناخت گسترش زبانی ریشه مفید است.</p>
+
+<p>صورت <strong class="arabic-large">تَبِعَة</strong> نیز در عربی برای پیامد، مسئولیت، مطالبه یا حقی به کار رفته که در پی یک عمل یا مال باقی می‌ماند. این کاربرد نشان می‌دهد که تصویر دنبال‌آمدن از حرکت جسمانی به رابطه عمل و پیامد نیز گسترش یافته است.</p>
+
+<p>در منابع لغوی درباره تفاوت دقیق <strong class="arabic-large">تَبِعَ، اتَّبَعَ</strong> و <strong class="arabic-large">أَتْبَعَ</strong> یک نظر واحد وجود ندارد. بعضی آنها را در بخش‌هایی هم‌معنا دانسته‌اند و بعضی برای <strong class="arabic-large">أَتْبَعَ</strong> معنای رسیدن، تعقیب یا چیزی را در پی چیزی آوردن برجسته‌تر شمرده‌اند.</p>
+
+<p>بنابراین، کاربرد قرآنی هر صورت باید در سیاق خودش بررسی شود و نباید بر پایه باب صرفی به‌تنهایی معنایی مکانیکی بر آن تحمیل گردد.</p>
+
+</section>
+
+<section id="reception-history" class="root-section">
+<h2>تاریخچه فهم، محدودسازی یا خلط معنایی</h2>
+<p>یکی از محدودسازی‌های رایج این است که <strong class="arabic-large">اتباع</strong> همیشه فقط «اطاعت» ترجمه شود. این ترجمه در بعضی سیاق‌ها ممکن است بخشی از نتیجه را منتقل کند، اما تصویر حرکت در پیِ شخص یا مسیر را کاهش می‌دهد.</p>
+
+<p>برای نمونه:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَاتَّبِعُوهُ وَلَا تَتَّبِعُوا السُّبُلَ</p></blockquote>
+<p class="translation">«پس آن را دنبال کنید و راه‌های دیگر را دنبال نکنید.»</p>
+<p class="verse-ref">انعام ۶:۱۵۳</p>
+
+<p>در این آیه، تصویر راه و چند راه حضور دارد. «اطاعت کنید» به‌تنهایی این ساخت مکانی و جهتی را به‌خوبی نشان نمی‌دهد.</p>
+
+<p>محدودسازی دیگر این است که <strong class="arabic-large">أَتْبَعَ</strong> همیشه «سبب شد که دنبال کند» معنا شود. این باب در بعضی آیات معنای سببی دارد، اما در آیات دیگر خود فاعل در پیِ دیگری می‌رود:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعَهُمْ فِرْعَوْنُ</p></blockquote>
+
+<p>«پس فرعون در پی آنان رفت.»</p>
+
+<p>همچنین نباید <strong class="arabic-large">اتَّبَعَ</strong> را همیشه پیروی آگاهانه و تأییدشده دانست. قرآن همین فعل را درباره دنبال کردن هوا، گمان، شهوت، شیطان، باطل و فرمان فرعون نیز به کار می‌برد.</p>
+
+<p>از سوی دیگر، پیروی از رسول در قرآن نباید صرفاً به همراهی جسمانی یا وابستگی به شخصیت او کاهش یابد. در اعراف ۷:۱۵۷، پیروی از رسول در کنار پیروی از نوری قرار گرفته است که با او نازل شده:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>الَّذِينَ يَتَّبِعُونَ الرَّسُولَ النَّبِيَّ الْأُمِّيَّ</p></blockquote>
+
+<p>و سپس:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَاتَّبَعُوا النُّورَ الَّذِي أُنْزِلَ مَعَهُ</p></blockquote>
+
+<p>این هم‌نشینی، پیروی از رسول را در پیوند با رسالت، پیام و نور نازل‌شده قرار می‌دهد. بااین‌حال، خود ریشه <strong class="arabic-large">ت ب ع</strong> به‌تنهایی همه بحث‌های مربوط به مرجعیت رسول را حل نمی‌کند؛ آن بحث باید از مجموع آیات بررسی شود.</p>
+
+</section>
+
+<section id="methodology" class="root-section">
+<h2>تبصره روش‌شناختی</h2>
+<p>در بررسی این ریشه باید میان چند نوع رابطه تفاوت گذاشت.</p>
+
+<p>نخست،  است؛ مانند دنبال کردن هدایت، وحی، رسول، راه، هوا یا گمان. در این کاربرد، انسان چیزی را پیشرو خود قرار می‌دهد.</p>
+
+<p>دوم،  است؛ مانند حرکت فرعون و سپاهیانش در پی موسی و همراهان او.</p>
+
+<p>سوم،  است؛ مانند رخداد بعدی که در پی رخداد نخست می‌آید، یا دو ماهی که پی‌درپی قرار می‌گیرند.</p>
+
+<p>چهارم،  است؛ مانند آزاری که پس از صدقه می‌آید یا لعنتی که در پی یک قوم قرار داده می‌شود.</p>
+
+<p>پنجم،  است؛ مانند <strong class="arabic-large">تَبِيع</strong> و <strong class="arabic-large">فَاتِّبَاعٌ بِالْمَعْرُوفِ</strong>، که در آنها ریشه به تعقیب شخصی یا اعتقادی محدود نیست.</p>
+
+<p>این کاربردها از یک تصویر مشترک گسترش یافته‌اند، اما نباید همه با یک ترجمه ثابت پوشانده شوند.</p>
+
+<p>همچنین، ارزش اخلاقی اتباع از خود فعل به دست نمی‌آید. متعلق و جهت پیروی تعیین می‌کند که اتباع هدایت‌بخش یا گمراه‌کننده باشد.</p>
+
+</section>
+
+<section id="quranic-uses" class="root-section">
+<h2>کاربردهای قرآنی ریشه</h2>
+<h3 id="quranic-uses-01">پیروی از هدایت</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَإِمَّا يَأْتِيَنَّكُمْ مِنِّي هُدًى فَمَنْ تَبِعَ هُدَايَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ</p></blockquote>
+<p class="translation">«پس اگر از سوی من هدایتی برای شما آمد، هرکس هدایت مرا دنبال کند، نه ترسی بر آنان است و نه اندوهگین می‌شوند.»</p>
+<p class="verse-ref">بقره ۲:۳۸</p>
+
+<p>هدایت در این آیه چیزی نیست که تنها دریافت یا تصدیق شود؛ انسان باید در پی آن قرار گیرد. فعل <strong class="arabic-large">تَبِعَ</strong> رابطه‌ای میان آمدن هدایت و حرکت انسان در امتداد آن می‌سازد.</p>
+
+<p>همین ساخت در طه آمده است:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَمَنِ اتَّبَعَ هُدَايَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ</p></blockquote>
+<p class="translation">«پس هرکس هدایت مرا دنبال کند، نه گمراه می‌شود و نه به شقاوت می‌رسد.»</p>
+<p class="verse-ref">طه ۲۰:۱۲۳</p>
+
+<p>اتباع هدایت در اینجا در برابر ضلال قرار می‌گیرد. هدایت جهت را نشان می‌دهد و اتباع، حرکت انسان در همان جهت است.</p>
+
+<h3 id="quranic-uses-02">پیروی از آنچه نازل شده است</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>اتَّبِعُوا مَا أُنْزِلَ إِلَيْكُمْ مِنْ رَبِّكُمْ وَلَا تَتَّبِعُوا مِنْ دُونِهِ أَوْلِيَاءَ</p></blockquote>
+<p class="translation">«آنچه را از سوی پروردگارتان به سوی شما نازل شده دنبال کنید و جز او از سرپرستان و مراجع دیگری پیروی نکنید.»</p>
+<p class="verse-ref">اعراف ۷:۳</p>
+
+<p>متعلق نخست <strong class="arabic-large">ما أُنزل إليكم</strong> است: آنچه نازل شده. در برابر آن، پیروی از اولیایی جز او قرار می‌گیرد. آیه معیار حرکت را نازل‌شده الهی قرار می‌دهد.</p>
+
+<p>همین تقابل درباره میراث پدران دیده می‌شود:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَإِذَا قِيلَ لَهُمُ اتَّبِعُوا مَا أَنْزَلَ اللَّهُ قَالُوا بَلْ نَتَّبِعُ مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا</p></blockquote>
+<p class="translation">«و هنگامی که به آنان گفته شود آنچه را خدا نازل کرده دنبال کنید، می‌گویند: بلکه آنچه را پدران خود بر آن یافته‌ایم دنبال می‌کنیم.»</p>
+<p class="verse-ref">لقمان ۳۱:۲۱</p>
+
+<p>آیه هر آنچه از گذشتگان رسیده باشد را صرفاً به سبب قدیمی بودن نفی نمی‌کند. تقابل بر سر معیار نهایی است: آیا آنچه نازل شده پیشرو است، یا آنچه از پدران به ارث رسیده جای آن را گرفته است؟</p>
+
+<h3 id="quranic-uses-03">پیروی از کتاب، ذکر، شریعت و راه</h3>
+
+<p>قرآن متعلق اتباع را به یک صورت محدود نمی‌کند:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَهَٰذَا كِتَابٌ أَنْزَلْنَاهُ مُبَارَكٌ فَاتَّبِعُوهُ</p></blockquote>
+<p class="translation">«و این کتابی پربرکت است که آن را نازل کردیم؛ پس آن را دنبال کنید.»</p>
+<p class="verse-ref">انعام ۶:۱۵۵</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِنَّمَا تُنْذِرُ مَنِ اتَّبَعَ الذِّكْرَ</p></blockquote>
+<p class="translation">«تو تنها کسی را هشدار می‌دهی که ذکر را دنبال کند.»</p>
+<p class="verse-ref">یس ۳۶:۱۱</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>ثُمَّ جَعَلْنَاكَ عَلَىٰ شَرِيعَةٍ مِنَ الْأَمْرِ فَاتَّبِعْهَا</p></blockquote>
+<p class="translation">«سپس تو را بر راه و روشنی از امر قرار دادیم؛ پس آن را دنبال کن.»</p>
+<p class="verse-ref">جاثیه ۴۵:۱۸</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَاتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَيَّ</p></blockquote>
+<p class="translation">«و راه کسی را دنبال کن که به سوی من بازگشته است.»</p>
+<p class="verse-ref">لقمان ۳۱:۱۵</p>
+
+<p>در همه این موارد، چیزی به‌عنوان مسیر، جهت یا پیشرو قرار می‌گیرد و مخاطب مأمور می‌شود حرکت خود را با آن هماهنگ کند.</p>
+
+<h3 id="quranic-uses-04">پیروی از رسول، رسولان و پیام‌آوران</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>الَّذِينَ يَتَّبِعُونَ الرَّسُولَ النَّبِيَّ الْأُمِّيَّ</p></blockquote>
+<p class="translation">«کسانی که رسول، پیامبر امی را دنبال می‌کنند.»</p>
+<p class="verse-ref">اعراف ۷:۱۵۷</p>
+
+<p>در همان آیه آمده است:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَاتَّبَعُوا النُّورَ الَّذِي أُنْزِلَ مَعَهُ</p></blockquote>
+<p class="translation">«و نوری را که با او نازل شده دنبال کردند.»</p>
+
+<p>این دو عبارت پیروی از رسول و پیروی از نور نازل‌شده را در یک ساخت واحد قرار می‌دهند. رسول حامل و نشان‌دهنده مسیری است که نور نازل‌شده آن را روشن می‌کند.</p>
+
+<p>در یس نیز گفته می‌شود:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>اتَّبِعُوا الْمُرْسَلِينَ ۝ اتَّبِعُوا مَنْ لَا يَسْأَلُكُمْ أَجْرًا وَهُمْ مُهْتَدُونَ</p></blockquote>
+
+<p>«فرستادگان را دنبال کنید؛ کسانی را دنبال کنید که از شما مزدی نمی‌خواهند و خود راه‌یافته‌اند.»</p>
+<p class="verse-ref">یس ۳۶:۲۰–۲۱</p>
+
+<p>در این سیاق، بی‌مزد بودن و هدایت‌یافتگی از نشانه‌هایی‌اند که صلاحیت متبوع را روشن می‌کنند.</p>
+
+<h3 id="quranic-uses-05">پیروی از پیامبر در کنار اطاعت</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَاتَّبِعُونِي وَأَطِيعُوا أَمْرِي</p></blockquote>
+<p class="translation">«پس مرا دنبال کنید و فرمانم را اطاعت کنید.»</p>
+<p class="verse-ref">طه ۲۰:۹۰</p>
+
+<p>این کنارهم‌آمدن نشان می‌دهد که اتباع و اطاعت دو زاویه مرتبط دارند. اتباع تصویر حرکت در پی شخص را می‌سازد؛ اطاعت بر پذیرش فرمان او تمرکز دارد.</p>
+
+<p>در آیه‌ای دیگر:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>أَلَّا تَتَّبِعَنِ أَفَعَصَيْتَ أَمْرِي</p></blockquote>
+<p class="translation">«چرا مرا دنبال نکردی؟ آیا از فرمانم سرپیچی کردی؟»</p>
+<p class="verse-ref">طه ۲۰:۹۳</p>
+
+<p>عدم اتباع در سیاق به عصیان از امر پیوند خورده است، اما دو فعل همچنان ساخت‌های جداگانه خود را حفظ می‌کنند.</p>
+
+<h3 id="quranic-uses-06">پیروی از شیطان و گام‌های او</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَلَا تَتَّبِعُوا خُطُوَاتِ الشَّيْطَانِ</p></blockquote>
+<p class="translation">«و گام‌های شیطان را دنبال نکنید.»</p>
+<p class="verse-ref">بقره ۲:۱۶۸</p>
+
+<p>تعبیر  تصویر حرکتی ریشه را تقویت می‌کند. شیطان به‌عنوان یک مسیرساز یا پیشرو تصویر می‌شود و انسان از قرار دادن قدم خود در پی آن قدم‌ها بازداشته می‌شود.</p>
+
+<p>این تعبیر خود به‌تنهایی ثابت نمی‌کند که هر گمراهی الزاماً به صورت روان‌شناختی و تدریجی رخ می‌دهد، اما تصویر گام‌ها امکان حرکت مرحله‌به‌مرحله را در خود دارد.</p>
+
+<p>در آیه‌ای دیگر، موضوع خود شیطان است:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَيَتَّبِعُ كُلَّ شَيْطَانٍ مَرِيدٍ</p></blockquote>
+<p class="translation">«و هر شیطان سرکشی را دنبال می‌کند.»</p>
+<p class="verse-ref">حج ۲۲:۳</p>
+
+<p>در اینجا، انسان شخص یا نیروی گمراه‌کننده را مستقیماً به‌عنوان متبوع انتخاب می‌کند.</p>
+
+<h3 id="quranic-uses-07">پیروی از هوا و شهوت</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَلَا تَتَّبِعِ الْهَوَىٰ فَيُضِلَّكَ عَنْ سَبِيلِ اللَّهِ</p></blockquote>
+<p class="translation">«و هوا را دنبال مکن، که تو را از راه خدا گمراه می‌کند.»</p>
+<p class="verse-ref">ص ۳۸:۲۶</p>
+
+<p>در این ساخت، هوا جای پیشرو را می‌گیرد. انسان به جای آنکه میل را در برابر حق بسنجد، جهت حرکت خود را از آن می‌گیرد.</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَإِنْ لَمْ يَسْتَجِيبُوا لَكَ فَاعْلَمْ أَنَّمَا يَتَّبِعُونَ أَهْوَاءَهُمْ</p></blockquote>
+<p class="translation">«پس اگر به تو پاسخ ندادند، بدان که تنها هواهای خود را دنبال می‌کنند.»</p>
+<p class="verse-ref">قصص ۲۸:۵۰</p>
+
+<p>و:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَخَلَفَ مِنْ بَعْدِهِمْ خَلْفٌ أَضَاعُوا الصَّلَاةَ وَاتَّبَعُوا الشَّهَوَاتِ</p></blockquote>
+<p class="translation">«پس پس از آنان جانشینانی آمدند که صلات را ضایع کردند و شهوت‌ها را دنبال نمودند.»</p>
+<p class="verse-ref">مریم ۱۹:۵۹</p>
+
+<p> و  یک واژه نیستند، اما در هر دو، کشش درونی در موقعیت پیشرو قرار می‌گیرد.</p>
+
+<h3 id="quranic-uses-08">پیروی از گمان</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِنْ يَتَّبِعُونَ إِلَّا الظَّنَّ وَمَا تَهْوَى الْأَنْفُسُ</p></blockquote>
+<p class="translation">«آنان جز گمان و آنچه نفس‌ها میل دارند دنبال نمی‌کنند.»</p>
+<p class="verse-ref">نجم ۵۳:۲۳</p>
+
+<p>در این آیه، گمان و میل نفس در کنار هم قرار گرفته‌اند. گمان به‌جای علم و هدایت، مسیر حرکت می‌شود.</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِنْ يَتَّبِعُونَ إِلَّا الظَّنَّ وَإِنَّ الظَّنَّ لَا يُغْنِي مِنَ الْحَقِّ شَيْئًا</p></blockquote>
+<p class="translation">«آنان جز گمان را دنبال نمی‌کنند، در حالی که گمان هیچ چیزی را در برابر حق کفایت نمی‌کند.»</p>
+<p class="verse-ref">نجم ۵۳:۲۸</p>
+
+<p>مسئله صرف وجود گمان در ذهن نیست؛ مسئله قرار دادن آن در جای معیار و پیشرو است.</p>
+
+<h3 id="quranic-uses-09">پیروی از حق و باطل</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>ذَٰلِكَ بِأَنَّ الَّذِينَ كَفَرُوا اتَّبَعُوا الْبَاطِلَ وَأَنَّ الَّذِينَ آمَنُوا اتَّبَعُوا الْحَقَّ مِنْ رَبِّهِمْ</p></blockquote>
+<p class="translation">«این بدان سبب است که کسانی که کفر ورزیدند، باطل را دنبال کردند و کسانی که ایمان آوردند، حقی را که از سوی پروردگارشان بود دنبال نمودند.»</p>
+<p class="verse-ref">محمد ۴۷:۳</p>
+
+<p>این آیه به‌روشنی نشان می‌دهد که فعل اتباع فی‌نفسه نه مثبت است و نه منفی. تفاوت در متبوع است: باطل یا حقی که از سوی پروردگار آمده است.</p>
+
+<h3 id="quranic-uses-10">پیروی از فرمان و راه رهبران</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَاتَّبَعُوا أَمْرَ فِرْعَوْنَ وَمَا أَمْرُ فِرْعَوْنَ بِرَشِيدٍ</p></blockquote>
+<p class="translation">«پس فرمان فرعون را دنبال کردند، در حالی که فرمان فرعون راه‌یافته نبود.»</p>
+<p class="verse-ref">هود ۱۱:۹۷</p>
+
+<p>در این آیه،  پیشرو قرار گرفته است. پیروان تنها شخص فرعون را دوست نداشتند؛ جهت و فرمان او را دنبال کردند.</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَقَالَ الَّذِينَ كَفَرُوا لِلَّذِينَ آمَنُوا اتَّبِعُوا سَبِيلَنَا</p></blockquote>
+<p class="translation">«و کسانی که کفر ورزیدند به کسانی که ایمان آوردند گفتند: راه ما را دنبال کنید.»</p>
+<p class="verse-ref">عنکبوت ۲۹:۱۲</p>
+
+<p>اتباع می‌تواند وابستگی به شخص، فرمان یا راهی را بیان کند که او عرضه می‌کند.</p>
+
+<h3 id="quranic-uses-11">رابطه کسانی که پیروی شدند و کسانی که پیروی کردند</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِذْ تَبَرَّأَ الَّذِينَ اتُّبِعُوا مِنَ الَّذِينَ اتَّبَعُوا وَرَأَوُا الْعَذَابَ وَتَقَطَّعَتْ بِهِمُ الْأَسْبَابُ</p></blockquote>
+<p class="translation">«هنگامی که کسانی که مورد پیروی قرار گرفتند از کسانی که پیروی کردند بیزاری جویند، عذاب را ببینند و پیوندها میان آنان گسسته شود.»</p>
+<p class="verse-ref">بقره ۲:۱۶۶</p>
+
+<p>آیه میان دو صورت تمایز روشن می‌گذارد:</p>
+
+<p><strong class="arabic-large">الَّذِينَ اتُّبِعُوا</strong>: کسانی که مورد پیروی قرار گرفتند.</p>
+
+<p><strong class="arabic-large">الَّذِينَ اتَّبَعُوا</strong>: کسانی که پیروی کردند.</p>
+
+<p>در دنیا میان آنها رابطه رهبری، نفوذ و دنباله‌روی وجود داشت. در صحنه داوری، پیشروان از پیروان بیزاری می‌جویند و پیوندهایی که این رابطه را نگه می‌داشت گسسته می‌شود.</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَقَالَ الَّذِينَ اتَّبَعُوا لَوْ أَنَّ لَنَا كَرَّةً فَنَتَبَرَّأَ مِنْهُمْ</p></blockquote>
+<p class="translation">«و کسانی که پیروی کردند گفتند: کاش برای ما بازگشتی بود تا از آنان بیزاری جوییم.»</p>
+<p class="verse-ref">بقره ۲:۱۶۷</p>
+
+<p>آیه مسئولیت پیرو را با استناد به وجود پیشرو از میان نمی‌برد. پیروی خود یک جهت‌گیری و انتخاب است.</p>
+
+<h3 id="quranic-uses-12">تَبَع؛ پیروان در برابر پیشروان</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِنَّا كُنَّا لَكُمْ تَبَعًا فَهَلْ أَنْتُمْ مُغْنُونَ عَنَّا مِنْ عَذَابِ اللَّهِ مِنْ شَيْءٍ</p></blockquote>
+<p class="translation">«ما پیرو شما بودیم؛ آیا می‌توانید چیزی از عذاب خدا را از ما دفع کنید؟»</p>
+<p class="verse-ref">ابراهیم ۱۴:۲۱</p>
+
+<p><strong class="arabic-large">تَبَعًا</strong> در اینجا به گروه پیروان اشاره دارد. آنان به کسانی که در دنیا پیشروشان بودند مراجعه می‌کنند، اما رابطه اتباع توان انتقال یا حذف مسئولیت را ندارد.</p>
+
+<p>همین ساخت در غافر ۴۰:۴۷ نیز آمده است.</p>
+
+<h3 id="quranic-uses-13">پیروی با احسان</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَالَّذِينَ اتَّبَعُوهُمْ بِإِحْسَانٍ</p></blockquote>
+<p class="translation">«و کسانی که آنان را با احسان دنبال کردند.»</p>
+<p class="verse-ref">توبه ۹:۱۰۰</p>
+
+<p>قید <strong class="arabic-large">بِإِحْسَانٍ</strong> کیفیت اتباع را مشخص می‌کند. آیه هر شکلی از نسبت دادن خود به پیشینیان را یکسان نمی‌شمارد؛ اتباع مورد ستایش، با احسان همراه است.</p>
+
+<p>بااین‌حال،  در این عبارت از نظر لغوی به معنای «نقد کردن» یا «سنجش مستقل» نیست. می‌توان از قید آن فهمید که کیفیت و چگونگی پیروی اهمیت دارد، اما نباید معنای کامل احسان را تنها از ریشه <strong class="arabic-large">ت ب ع</strong> استخراج کرد.</p>
+
+<h3 id="quranic-uses-14">تعقیب فیزیکی</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعُوهُمْ مُشْرِقِينَ</p></blockquote>
+<p class="translation">«پس هنگام برآمدن آفتاب در پی آنان رفتند.»</p>
+<p class="verse-ref">شعراء ۲۶:۶۰</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِ</p></blockquote>
+<p class="translation">«پس فرعون با سپاهیانش در پی آنان رفت.»</p>
+<p class="verse-ref">طه ۲۰:۷۸</p>
+
+<p>در این موارد، تعقیب مکانی و حرکتی روشن است. فرعون و همراهانش پشت سر گروهی حرکت می‌کنند که پیش‌تر از آنان دور شده‌اند.</p>
+
+<h3 id="quranic-uses-15">دنبال کردن سبب یا مسیر</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعَ سَبَبًا</p></blockquote>
+<p class="translation">«پس راه یا وسیله‌ای را در پی گرفت.»</p>
+<p class="verse-ref">کهف ۱۸:۸۵</p>
+
+<p>این عبارت سه بار در داستان ذوالقرنین آمده است. <strong class="arabic-large">سَبَبًا</strong> می‌تواند راه، وسیله یا امکان دسترسی را دربر گیرد. فعل نشان می‌دهد که او آن سبب را گرفت و در امتدادش حرکت کرد.</p>
+
+<p>این کاربرد را نباید صرفاً «تعقیب دشمن» ترجمه کرد؛ متعلق آن شخص نیست، بلکه  است.</p>
+
+<h3 id="quranic-uses-16">دنبال شدن انسان توسط شیطان یا شهاب</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعَهُ الشَّيْطَانُ فَكَانَ مِنَ الْغَاوِينَ</p></blockquote>
+<p class="translation">«پس شیطان در پی او افتاد و او از گمراهان شد.»</p>
+<p class="verse-ref">اعراف ۷:۱۷۵</p>
+
+<p>در اینجا، شیطان فاعل و انسان موضوع تعقیب است. تعبیر می‌تواند رسیدن، ملازم شدن یا در پی افتادن شیطان را برساند.</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعَهُ شِهَابٌ ثَاقِبٌ</p></blockquote>
+<p class="translation">«پس شهابی نافذ در پی او می‌آید.»</p>
+<p class="verse-ref">صافات ۳۷:۱۰</p>
+
+<p>باز هم چیزی پس از چیزی قرار می‌گیرد و آن را دنبال می‌کند.</p>
+
+<h3 id="quranic-uses-17">دنبال شدن عمل توسط پیامد</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>ثُمَّ لَا يُتْبِعُونَ مَا أَنْفَقُوا مَنًّا وَلَا أَذًى</p></blockquote>
+<p class="translation">«سپس آنچه را انفاق کرده‌اند با منت و آزار دنبال نمی‌کنند.»</p>
+<p class="verse-ref">بقره ۲:۲۶۲</p>
+
+<p>منت و آزار ممکن است پس از انفاق بیایند و به آن ملحق شوند. ریشه در اینجا رابطه عمل و پیامد بعدی را بیان می‌کند.</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَأُتْبِعُوا فِي هَٰذِهِ الدُّنْيَا لَعْنَةً وَيَوْمَ الْقِيَامَةِ</p></blockquote>
+<p class="translation">«و در این دنیا لعنتی در پی آنان قرار داده شد و در روز قیامت نیز.»</p>
+<p class="verse-ref">هود ۱۱:۶۰</p>
+
+<p>در این ساخت مجهول، لعنت به‌عنوان پیامدی معرفی می‌شود که در پی آنان قرار گرفته است.</p>
+
+<p>در قصص ۲۸:۴۲ نیز ساخت فعال آمده است:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَأَتْبَعْنَاهُمْ فِي هَٰذِهِ الدُّنْيَا لَعْنَةً</p></blockquote>
+<p class="translation">«و در این دنیا لعنتی را در پی آنان قرار دادیم.»</p>
+
+<p>دو ساخت فعال و مجهول، رابطه میان قوم و پیامدی را نشان می‌دهند که پس از آنان می‌آید و همراهشان می‌ماند.</p>
+
+<h3 id="quranic-uses-18">پی‌درپی آمدن زمانی</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ</p></blockquote>
+
+<p>«پس روزه دو ماه پی‌درپی.»</p>
+<p class="verse-ref">نساء ۴:۹۲</p>
+
+<p><strong class="arabic-large">مُتَتَابِعَيْن</strong> بیان می‌کند که دو ماه باید یکی در پی دیگری و بدون گسست مورد نظر قرار گیرند.</p>
+
+<p>در اینجا، ریشه نه به پیروی از شخص مربوط است و نه به تعقیب دشمن؛ رابطه زمانی و استمرار میان دو واحد برجسته است.</p>
+
+<h3 id="quranic-uses-19">اتباع به معنای پیگیری حق</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَاتِّبَاعٌ بِالْمَعْرُوفِ وَأَدَاءٌ إِلَيْهِ بِإِحْسَانٍ</p></blockquote>
+<p class="translation">«پس پیگیری باید به شیوه پسندیده باشد و پرداخت به او با احسان انجام گیرد.»</p>
+<p class="verse-ref">بقره ۲:۱۷۸</p>
+
+<p>در این آیه، <strong class="arabic-large">اتِّبَاع</strong> به پیگیری حق و مطالبه آن مربوط است. صاحب حق باید آن را به معروف پیگیری کند و طرف دیگر نیز آن را با احسان بپردازد.</p>
+
+<p>بنابراین، ترجمه عمومی «پیروی کردن» در اینجا مناسب نیست. «پیگیری»، «مطالبه به معروف» یا «دنبال کردن حق به شیوه پسندیده» به سیاق نزدیک‌تر است.</p>
+
+</section>
+
+<section id="quranic-derivatives" class="root-section">
+<h2>بررسی مشتق‌های مهم در قرآن</h2>
+<h3 id="quranic-derivatives-01">تفاوت تَبِعَ و اتَّبَعَ</h3>
+
+<p>هر دو صورت می‌توانند بر دنبال کردن و پیروی دلالت کنند.</p>
+
+<p><strong class="arabic-large">تَبِعَ</strong> صورت ساده‌تر ریشه است و در قرآن هم درباره پیروی ارادی آمده است:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَمَنْ تَبِعَ هُدَايَ</p></blockquote>
+
+<p>و هم درباره دنبال‌آمدن غیرارادی:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>تَتْبَعُهَا الرَّادِفَةُ</p></blockquote>
+
+<p><strong class="arabic-large">اتَّبَعَ</strong> دامنه بسیار گسترده‌ای دارد و درباره پیروی از هدایت، رسول، هوا، گمان، باطل، حق، راه و اشخاص به کار رفته است.</p>
+
+<p>نمی‌توان گفت <strong class="arabic-large">اتَّبَعَ</strong> در همه موارد از <strong class="arabic-large">تَبِعَ</strong> آگاهانه‌تر یا عمیق‌تر است. چنین تفاوتی ممکن است در بعضی سیاق‌ها احساس شود، اما از همه کاربردهای قرآن به‌صورت یک قانون ثابت به دست نمی‌آید.</p>
+
+<h3 id="quranic-derivatives-02">تفاوت أَتْبَعَ و اتَّبَعَ</h3>
+
+<p><strong class="arabic-large">أَتْبَعَ</strong> در بسیاری از کاربردهای قرآنی حرکت تعقیبی یا دنبال‌آمدن سریع و مستقیم را برجسته می‌کند:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعَهُمْ فِرْعَوْنُ</p></blockquote>
+
+<p>اما گاهی معنای سببی دارد:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعْنَا بَعْضَهُمْ بَعْضًا</p></blockquote>
+
+<p>«برخی را در پی برخی دیگر آوردیم.»</p>
+
+<p>در بعضی آیات نیز مرز آن با دنبال کردن عادی باریک است:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعَ سَبَبًا</p></blockquote>
+
+<p>بنابراین، باب افعال در این ریشه هم می‌تواند متعدی‌ساز باشد و هم خود حرکت در پیِ چیز دیگری را بیان کند.</p>
+
+<h3 id="quranic-derivatives-03">مجهول اتُّبِعُوا و معلوم اتَّبَعُوا</h3>
+
+<p>در بقره ۲:۱۶۶ تفاوت ضبط بسیار مهم است:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>الَّذِينَ اتُّبِعُوا</p></blockquote>
+
+<p>«کسانی که مورد پیروی قرار گرفتند.»</p>
+
+<p>در برابر:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>الَّذِينَ اتَّبَعُوا</p></blockquote>
+
+<p>«کسانی که پیروی کردند.»</p>
+
+<p>تفاوت حرکت و تشدید در نوشتار بدون اعراب ممکن است نادیده بماند، اما از نظر ساخت و معنا دو گروه کاملاً متفاوت‌اند.</p>
+
+<h3 id="quranic-derivatives-04">تَبَع و تَابِع</h3>
+
+<p><strong class="arabic-large">تَبَع</strong> می‌تواند اسم جمعی یا اسمی باشد که یک یا چند پیرو را دربر گیرد:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِنَّا كُنَّا لَكُمْ تَبَعًا</p></blockquote>
+
+<p><strong class="arabic-large">تَابِع</strong> اسم فاعل روشن‌تر است:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَمَا أَنْتَ بِتَابِعٍ قِبْلَتَهُمْ</p></blockquote>
+
+<p>صورت <strong class="arabic-large">أَتْبَاع</strong> جمع شناخته‌شده عربی است، اما در قرآن نیامده است.</p>
+
+<h3 id="quranic-derivatives-05">تَبِيع</h3>
+
+<p><strong class="arabic-large">تَبِيع</strong> از تصویر کسی می‌آید که در پی موضوعی می‌رود. در اسراء ۱۷:۶۹، معنای مطالبه‌کننده، پیگیر یا بازخواست‌کننده مناسب‌تر از «پیرو» معمولی است.</p>
+
+<p>این کاربرد نشان می‌دهد که پیگیری حق و پیامد نیز در میدان ریشه قرار دارند.</p>
+
+<h3 id="quranic-derivatives-06">مُتَتَابِعَيْن</h3>
+
+<p>باب تفاعل در این صورت، رابطه متقابل یا پی‌درپی میان دو واحد را نشان می‌دهد. دو ماه یکی در پی دیگری قرار می‌گیرند.</p>
+
+<p>در ترجمه آن، «پی‌درپی»، «پیوسته» یا «متوالی» مناسب است؛ نه «دو ماه پیرو».</p>
+
+<h3 id="quranic-derivatives-07">اتِّبَاع</h3>
+
+<p>مصدر <strong class="arabic-large">اتِّبَاع</strong> به خود عمل دنبال کردن اشاره دارد، اما متعلق و سیاق معنای دقیقش را مشخص می‌کند.</p>
+
+<p>در:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِلَّا اتِّبَاعَ الظَّنِّ</p></blockquote>
+
+<p>به معنای دنبال کردن گمان است.</p>
+
+<p>در:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَاتِّبَاعٌ بِالْمَعْرُوفِ</p></blockquote>
+
+<p>به معنای پیگیری و مطالبه به شیوه معروف است.</p>
+
+<h3 id="quranic-derivatives-08">مُتَّبَعُون</h3>
+
+<p><strong class="arabic-large">مُتَّبَعُون</strong> اسم مفعول است، نه «پیروان»:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِنَّكُمْ مُتَّبَعُونَ</p></blockquote>
+
+<p>یعنی «شما مورد تعقیب قرار خواهید گرفت» یا «در پی شما خواهند آمد.»</p>
+
+<p>این صورت نباید با <strong class="arabic-large">مُتَّبِعُون</strong>، یعنی «دنبال‌کنندگان»، اشتباه شود.</p>
+
+</section>
+
+<section id="grammar" class="root-section">
+<h2>نکات نحوی و ساختاری</h2>
+<h3 id="grammar-01">اهمیت متعلق فعل</h3>
+
+<p>در ریشه <strong class="arabic-large">ت ب ع</strong>، مفعول یا متعلق فعل برای فهم معنای دقیق بسیار مهم است:</p>
+
+<p><strong class="arabic-large">اتَّبَعَ الهُدَىٰ</strong>: هدایت را دنبال کرد.</p>
+
+<p><strong class="arabic-large">اتَّبَعَ الرَّسُولَ</strong>: رسول را دنبال کرد.</p>
+
+<p><strong class="arabic-large">اتَّبَعَ مَا أُنْزِلَ</strong>: آنچه نازل شده را دنبال کرد.</p>
+
+<p><strong class="arabic-large">اتَّبَعَ الْهَوَىٰ</strong>: هوا را پیشرو خود قرار داد.</p>
+
+<p><strong class="arabic-large">اتَّبَعَ الظَّنَّ</strong>: گمان را معیار حرکت قرار داد.</p>
+
+<p><strong class="arabic-large">اتَّبَعَ سَبِيلًا</strong>: راهی را گرفت و ادامه داد.</p>
+
+<p><strong class="arabic-large">اتَّبَعَ خُطُوَاتٍ</strong>: قدم در پی قدم گذاشت.</p>
+
+<p>خود فعل تغییر بنیادی نمی‌کند؛ متعلق، نوع مسیر را روشن می‌سازد.</p>
+
+<h3 id="grammar-02">اتَّبَعَ با مفعول مستقیم</h3>
+
+<p>در بیشتر کاربردها، چیزی که دنبال می‌شود بدون حرف اضافه و به‌صورت مفعول مستقیم می‌آید:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>اتَّبِعُوا مَا أُنْزِلَ</p></blockquote>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَلَا تَتَّبِعِ الْهَوَىٰ</p></blockquote>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>اتَّبَعُوا الْحَقَّ</p></blockquote>
+
+<p>این ساخت نزدیکی مستقیم میان پیرو و متبوع را نشان می‌دهد.</p>
+
+<h3 id="grammar-03">اتَّبَعَ با عَلَىٰ</h3>
+
+<p>در گفت‌وگوی موسی با بنده دانا آمده است:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>هَلْ أَتَّبِعُكَ عَلَىٰ أَنْ تُعَلِّمَنِ</p></blockquote>
+<p class="translation">«آیا می‌توانم تو را دنبال کنم، بر این اساس که از آنچه آموخته شده‌ای به من بیاموزی؟»</p>
+<p class="verse-ref">کهف ۱۸:۶۶</p>
+
+<p><strong class="arabic-large">عَلَىٰ أَنْ</strong> شرط، مبنا یا غایت این همراهی را روشن می‌کند.</p>
+
+<h3 id="grammar-04">أَتْبَعَ با دو مفعول</h3>
+
+<p>در ساخت‌هایی مانند:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعْنَا بَعْضَهُمْ بَعْضًا</p></blockquote>
+
+<p>یک گروه در پی گروه دیگر قرار داده می‌شود. این ساخت ظرفیت سببی باب افعال را آشکار می‌کند.</p>
+
+<p>همین الگو در:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَأَتْبَعْنَاهُمْ فِي هَٰذِهِ الدُّنْيَا لَعْنَةً</p></blockquote>
+
+<p>دیده می‌شود: لعنت در پی آنان قرار داده می‌شود.</p>
+
+<h3 id="grammar-05">مجهول أُتْبِعُوا</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَأُتْبِعُوا فِي هَٰذِهِ الدُّنْيَا لَعْنَةً</p></blockquote>
+
+<p>فاعل در ساخت مجهول ذکر نشده و تمرکز بر قومی است که لعنت در پی آنان آمده است.</p>
+
+<h3 id="grammar-06">بِإِحْسَانٍ و بِالْمَعْرُوفِ</h3>
+
+<p>قیدها و جارومجرورها کیفیت عمل را روشن می‌کنند:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>اتَّبَعُوهُمْ بِإِحْسَانٍ</p></blockquote>
+
+<p>پیروی با احسان.</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَاتِّبَاعٌ بِالْمَعْرُوفِ</p></blockquote>
+
+<p>پیگیری به معروف.</p>
+
+<p>وجود  در هر دو ساخت به معنای یکسان بودن دو کاربرد نیست. یکی در سیاق پیروی از پیشینیان و دیگری در سیاق پیگیری حق آمده است.</p>
+
+<h3 id="grammar-07">لا تَتَّبِعُوا السُّبُلَ</h3>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَلَا تَتَّبِعُوا السُّبُلَ فَتَفَرَّقَ بِكُمْ عَنْ سَبِيلِهِ</p></blockquote>
+<p class="translation">«راه‌ها را دنبال نکنید که شما را از راه او پراکنده سازند.»</p>
+<p class="verse-ref">انعام ۶:۱۵۳</p>
+
+<p>جمع <strong class="arabic-large">السُّبُل</strong> در برابر مفرد <strong class="arabic-large">سَبِيلِهِ</strong> قرار گرفته است. اتباع راه‌های متعدد به پراکندگی از راه اصلی پیوند خورده است. تصویر مسیر در این آیه باید در ترجمه حفظ شود.</p>
+
+</section>
+
+<section id="near-roots" class="root-section">
+<h2>مقایسه با ریشه‌های نزدیک</h2>
+<h3 id="near-roots-01">ت ب ع (تَبَع) در مقایسه با ط و ع (طَوَع)؛ اتباع و اطاعت</h3>
+
+<p>ریشه  در میدان پذیرفتن، رام و آماده بودن، و انجام دادن فرمان بدون اکراه حرکت می‌کند.  بیشتر بر رابطه با امر، فرمان و فرمان‌پذیری تمرکز دارد.</p>
+
+<p>ریشه <strong class="arabic-large">ت ب ع</strong> تصویر قرار گرفتن در پیِ شخص، راه یا جهت را حفظ می‌کند.</p>
+
+<p>ممکن است کسی با دنبال کردن یک رسول، فرمان او را نیز اطاعت کند؛ اما از نظر زبانی، یکی حرکت در امتداد پیشرو و دیگری پذیرش امر او را برجسته می‌کند.</p>
+
+<h3 id="near-roots-02">ت ب ع (تَبَع) در مقایسه با ق ف و (قَفَو)؛ اتباع و قَفو</h3>
+
+<p>ریشه  نیز بر در پی اثر رفتن و پشت سر چیزی حرکت کردن دلالت دارد. در:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِ عِلْمٌ</p></blockquote>
+
+<p>اسراء ۱۷:۳۶</p>
+
+<p>معنای نزدیک، دنبال نکردن چیزی است که درباره آن علم وجود ندارد.</p>
+
+<p> تصویر دنبال کردن اثر و رد را روشن‌تر نگه می‌دارد. <strong class="arabic-large">اتباع</strong> میدان گسترده‌تری دارد و می‌تواند پیروی دینی، اجتماعی، فکری، حرکتی و پیامدی را دربر گیرد.</p>
+
+<p>مرز دو ریشه مطلق نیست، اما قفو به دنبال‌کردن اثر نزدیک‌تر است.</p>
+
+<h3 id="near-roots-03">ت ب ع (تَبَع) در مقایسه با ل ح ق (لَحِق)؛ اتباع و الحاق</h3>
+
+<p>ریشه  بر رسیدن به کسی یا چیزی که جلوتر است و به آن پیوستن دلالت دارد.</p>
+
+<p>اتباع می‌تواند پیش از رسیدن و در تمام مدت حرکت ادامه داشته باشد. شخص در پی دیگری است، حتی اگر هنوز به او نرسیده باشد.</p>
+
+<p>الحاق لحظه یا نتیجه پیوستن را برجسته می‌کند؛ اتباع مسیر و رابطه دنبال‌کردن را.</p>
+
+<h3 id="near-roots-04">ت ب ع (تَبَع) در مقایسه با ق د و (قَدَو)؛ اتباع و اقتدا</h3>
+
+<p>ریشه  در صورت  بر الگو قرار دادن و رفتار خود را مطابق نمونه یا پیشوا ساختن دلالت دارد.</p>
+
+<p>اتباع گسترده‌تر است. انسان می‌تواند کسی را تعقیب کند، از راهی پیروی نماید یا چیزی را پس از چیز دیگر بیاورد، بدون آنکه حتماً آن را الگوی رفتاری خود قرار داده باشد.</p>
+
+<p>اقتدا بر جنبه نمونه‌برداری و پیشواگیری تأکید بیشتری دارد.</p>
+
+<h3 id="near-roots-05">ت ب ع (تَبَع) در مقایسه با س ل ك (سَلَک)؛ اتباع و سلوک</h3>
+
+<p>ریشه  بر وارد کردن یا وارد شدن در راه، گذرگاه یا رشته و پیمودن آن دلالت دارد.</p>
+
+<p>در سلوک، خود راه و ورود در آن برجسته است. در اتباع، افزون بر مسیر، چیزی یا کسی پیشاپیش قرار دارد که جهت حرکت را تعیین می‌کند.</p>
+
+<p>ممکن است انسان راهی را بسلوکد، اما هنگامی که همان راه، شخص یا فرمانی را به‌عنوان پیشرو می‌گیرد، میدان اتباع برجسته‌تر می‌شود.</p>
+
+<h3 id="near-roots-06">ت ب ع (تَبَع) در مقایسه با م ش ي (مَشَی)؛ اتباع و راه رفتن</h3>
+
+<p>ریشه  خود عمل راه رفتن و حرکت کردن را بیان می‌کند.</p>
+
+<p>اتباع نوعی رابطه میان حرکت‌کننده و چیزی است که جلوتر قرار دارد. هر اتباع حرکتی ممکن است با مشی همراه باشد، اما هر راه رفتنی دنبال کردن چیزی نیست.</p>
+
+<h3 id="near-roots-07">ت ب ع (تَبَع) در مقایسه با ر د ف (رَدَف)؛ اتباع و رِدف</h3>
+
+<p>ریشه  بر پشت سر آمدن، در عقب قرار گرفتن یا بلافاصله پس از چیزی رسیدن دلالت دارد.</p>
+
+<p>در:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>تَتْبَعُهَا الرَّادِفَةُ</p></blockquote>
+
+<p>هر دو میدان کنار یکدیگر قرار گرفته‌اند: رخداد دوم در پی رخداد نخست می‌آید و از پشت آن می‌رسد.</p>
+
+<p>ردف بیشتر جایگاه پسینی و پشت سر بودن را برجسته می‌کند؛ اتباع رابطه دنبال‌آمدن یا حرکت در پی را.</p>
+
+<h3 id="near-roots-08">ت ب ع (تَبَع) در مقایسه با ت ل و (تَلَو)؛ اتباع و تلو</h3>
+
+<p>ریشه  بر پس از چیزی آمدن و نیز خواندن و تلاوت کردن دلالت دارد. در تصویر اصلی، چیزی در پی چیز دیگر قرار می‌گیرد.</p>
+
+<p>تلو و اتباع در ترتیب و دنبال‌آمدن هم‌پوشانی دارند. بااین‌حال، تلو در قرآن میدان خاص تلاوت آیات و خواندن پی‌درپی را نیز یافته است؛ اتباع بیشتر بر دنبال کردن شخص، مسیر، راه، متعلق فکری یا پیامد دلالت دارد.</p>
+
+<h3 id="near-roots-09">ت ب ع (تَبَع) در مقایسه با ط ر د (طَرَد)؛ اتباع و تعقیب</h3>
+
+<p>ریشه  بیشتر به راندن، دور کردن و به حرکت واداشتن از پشت نزدیک است.</p>
+
+<p>در تعقیب با <strong class="arabic-large">أَتْبَعَ</strong>، فاعل خود در پی هدف حرکت می‌کند یا چیزی را در پی آن قرار می‌دهد. در طرد، فشار برای دور کردن و راندن هدف برجسته‌تر است.</p>
+
+<h3 id="near-roots-10">ت ب ع (تَبَع) در مقایسه با أ ث ر (أَثَر)؛ اتباع و دنبال کردن اثر</h3>
+
+<p>ریشه  به نشانه، باقی‌مانده، رد و اثری مربوط است که چیزی از خود بر جا می‌گذارد.</p>
+
+<p>اتباع می‌تواند دنبال کردن همان اثر باشد، اما ریشه بر خود عمل دنبال کردن تمرکز دارد؛ اثر چیزی است که امکان این دنبال‌کردن را فراهم می‌سازد.</p>
+
+</section>
+
+<section id="translation" class="root-section">
+<h2>پیشنهادهای ترجمه برای فرقان</h2>
+<h3 id="translation-01">تَبِعَ</h3>
+
+<p>بسته به سیاق:</p>
+
+<p>دنبال کرد؛ پیروی کرد؛ در پی آمد؛ پس از آن آمد؛ یا همراه مسیر آن شد.</p>
+
+<p>برای:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَمَنْ تَبِعَ هُدَايَ</p></blockquote>
+
+<p>پیشنهاد مناسب:</p>
+
+<p></p>
+
+<p>برای:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>تَتْبَعُهَا الرَّادِفَةُ</p></blockquote>
+
+<p>پیشنهاد مناسب:</p>
+
+<p></p>
+
+<h3 id="translation-02">اتَّبَعَ</h3>
+
+<p>بسته به متعلق:</p>
+
+<p>دنبال کرد؛ پیروی کرد؛ راه آن را گرفت؛ در پی آن رفت؛ در امتداد آن حرکت کرد.</p>
+
+<p>برای هدایت، وحی، کتاب و راه، «دنبال کردن» تصویر ریشه را بهتر حفظ می‌کند.</p>
+
+<p>برای اشخاص و رسولان، «پیروی کردن» در فارسی طبیعی‌تر است، اما در توضیح باید بُعد حرکت در امتداد راه آنان حفظ شود.</p>
+
+<h3 id="translation-03">اتَّبَعَ الْهَوَىٰ</h3>
+
+<ul>
+  <li>هوا را دنبال کرد</li>
+  <li>از هوای خود پیروی کرد</li>
+  <li>میل خود را پیشرو قرار داد، به‌صورت توضیحی</li>
+</ul>
+
+<h3 id="translation-04">اتَّبَعَ الظَّنَّ</h3>
+
+<ul>
+  <li>گمان را دنبال کرد</li>
+  <li>از گمان پیروی کرد</li>
+  <li>گمان را معیار حرکت قرار داد، به‌صورت توضیحی</li>
+</ul>
+
+<h3 id="translation-05">اتَّبَعَ الرَّسُولَ</h3>
+
+<ul>
+  <li>رسول را دنبال کرد</li>
+  <li>از رسول پیروی کرد</li>
+  <li>در راه رسول حرکت کرد، به‌صورت توضیحی</li>
+</ul>
+
+<p>برای ترجمه مستقیم، «از رسول پیروی کرد» طبیعی‌تر است؛ «دنبال کرد» تصویر ریشه را روشن‌تر نگه می‌دارد.</p>
+
+<h3 id="translation-06">أَتْبَعَ</h3>
+
+<p>بسته به ساخت:</p>
+
+<p>در پی رفت؛ تعقیب کرد؛ دنبال کرد؛ به او رسید؛ در پی چیزی قرار داد؛ یا چیزی را پس از چیز دیگر آورد.</p>
+
+<p>برای:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعَهُمْ فِرْعَوْنُ</p></blockquote>
+
+<p>پیشنهاد اصلی:</p>
+
+<p></p>
+
+<p>یا:</p>
+
+<p></p>
+
+<p>برای:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَأَتْبَعْنَا بَعْضَهُمْ بَعْضًا</p></blockquote>
+
+<p>پیشنهاد اصلی:</p>
+
+<p></p>
+
+<h3 id="translation-07">تَبَع</h3>
+
+<ul>
+  <li>پیرو</li>
+  <li>پیروان</li>
+  <li>دنباله‌روان، در سیاق مناسب</li>
+</ul>
+
+<p>برای:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِنَّا كُنَّا لَكُمْ تَبَعًا</p></blockquote>
+
+<p>پیشنهاد اصلی:</p>
+
+<p></p>
+
+<h3 id="translation-08">تَابِع</h3>
+
+<ul>
+  <li>پیرو</li>
+  <li>دنبال‌کننده</li>
+  <li>همراه وابسته، در نور ۲۴:۳۱ و متناسب با سیاق</li>
+</ul>
+
+<h3 id="translation-09">تَبِيع</h3>
+
+<ul>
+  <li>پیگیر</li>
+  <li>مطالبه‌کننده</li>
+  <li>بازخواست‌کننده</li>
+  <li>کسی که در پی گرفتن حق می‌آید</li>
+</ul>
+
+<p>برای اسراء ۱۷:۶۹:</p>
+
+<p></p>
+
+<h3 id="translation-10">مُتَتَابِعَيْن</h3>
+
+<ul>
+  <li>دو ماه پی‌درپی</li>
+  <li>دو ماه متوالی</li>
+  <li>دو ماه پیوسته</li>
+</ul>
+
+<p>«پی‌درپی» طبیعی‌ترین برابر فارسی است.</p>
+
+<h3 id="translation-11">اتِّبَاع</h3>
+
+<p>بسته به سیاق:</p>
+
+<p>پیروی؛ دنبال کردن؛ پیگیری؛ مطالبه.</p>
+
+<p>برای:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>إِلَّا اتِّبَاعَ الظَّنِّ</p></blockquote>
+
+<p></p>
+
+<p>برای:</p>
+
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَاتِّبَاعٌ بِالْمَعْرُوفِ</p></blockquote>
+
+<p></p>
+
+<h3 id="translation-12">مُتَّبَعُون</h3>
+
+<ul>
+  <li>تعقیب خواهید شد</li>
+  <li>در پی شما خواهند آمد</li>
+  <li>شما دنبال‌شدگان هستید، به‌صورت لفظی‌تر</li>
+</ul>
+
+<p>پیشنهاد طبیعی:</p>
+
+<p></p>
+
+<h3 id="translation-13">الَّذِينَ اتُّبِعُوا و الَّذِينَ اتَّبَعُوا</h3>
+
+<p><strong class="arabic-large">الَّذِينَ اتُّبِعُوا</strong>:</p>
+
+<p>کسانی که مورد پیروی قرار گرفتند؛ پیشروان مورد پیروی.</p>
+
+<p><strong class="arabic-large">الَّذِينَ اتَّبَعُوا</strong>:</p>
+
+<p>کسانی که پیروی کردند؛ پیروان.</p>
+
+<p>در ترجمه باید تفاوت معلوم و مجهول کاملاً روشن بماند.</p>
+
+</section>
+
+<section id="summary" class="root-section">
+<h2>جمع‌بندی</h2>
+<p>ریشه <strong class="arabic-large">ت ب ع</strong> بر دنبال کردن، در پی چیزی رفتن، پشت سر آن حرکت کردن و قرار گرفتن چیزی پس از چیز دیگر دلالت دارد. تصویر بنیادین آن رابطه میان پیشرو و آن چیزی است که در امتداد مسیر، اثر یا جهت او می‌آید.</p>
+
+<p>در قرآن، این ریشه فقط درباره پیروی دینی یا اطاعت از یک شخص به کار نرفته است. هدایت، وحی، کتاب، رسول، نور، ذکر، شریعت، راه، حق، باطل، هوا، شهوت، گمان، فرمان، پدران و گام‌های شیطان همگی می‌توانند متعلق اتباع باشند.</p>
+
+<p>همین ریشه تعقیب مکانی فرعون، دنبال‌آمدن شهاب، در پی یکدیگر آمدن اقوام، همراه شدن لعنت با یک قوم، آمدن آزار پس از صدقه، روزه دو ماه پی‌درپی و پیگیری حق را نیز بیان می‌کند.</p>
+
+<p>صورت‌های <strong class="arabic-large">تَبِعَ</strong> و <strong class="arabic-large">اتَّبَعَ</strong> هم‌پوشانی معنایی گسترده دارند. صورت <strong class="arabic-large">أَتْبَعَ</strong> در بسیاری از آیات تعقیب، رسیدن یا چیزی را در پی چیز دیگر قرار دادن را برجسته می‌کند، اما این تفاوت در همه سیاق‌ها یکسان و مکانیکی نیست.</p>
+
+<p><strong class="arabic-large">تَبَع</strong> صورت قرآنی برای پیرو یا پیروان است؛ جمع مشهور <strong class="arabic-large">أَتْبَاع</strong> در قرآن نیامده است. <strong class="arabic-large">تَبِيع</strong> در سیاق پیگیری و مطالبه، <strong class="arabic-large">مُتَتَابِعَيْن</strong> در معنای پی‌درپی، و <strong class="arabic-large">مُتَّبَعُون</strong> در معنای کسانی که تعقیب خواهند شد به کار رفته‌اند.</p>
+
+<p>اتباع و اطاعت نیز یکسان نیستند. اطاعت بیشتر پذیرش فرمان را برجسته می‌کند؛ اتباع حرکت در امتداد شخص، راه یا جهتی را که پیشاپیش قرار گرفته است. این دو می‌توانند در یک رابطه جمع شوند، اما نباید در همه ترجمه‌ها جای یکدیگر بنشینند.</p>
+
+<p>ریشه <strong class="arabic-large">ت ب ع (تَبَع)</strong> با ریشه‌هایی چون <strong class="arabic-large">ط و ع (طَوَع)، ق ف و (قَفَو)، ل ح ق (لَحِق)، ق د و (قَدَو)، س ل ك (سَلَک)، م ش ي (مَشَی)، ر د ف (رَدَف)، ت ل و (تَلَو)، ط ر د (طَرَد)</strong> و <strong class="arabic-large">أ ث ر (أَثَر)</strong> هم‌پوشانی دارد، اما ویژگی مرکزی آن رابطه دنبال‌کننده با شخص، چیز، اثر یا مسیری است که پیش از او قرار گرفته است.</p>
+</section>
+</div></div>
