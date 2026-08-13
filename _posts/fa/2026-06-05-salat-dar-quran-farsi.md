@@ -4,6 +4,8 @@ title: "صلوة در قرآن چیست و چگونه برپا می‌شود؟"
 date: 2026-06-05
 lang: fa
 topic: salat
+permalink: /fa/articles/salat-in-the-quran/
+mirror: /en/articles/salat-in-the-quran/
 tags: [قرآن, صلوة, صلات, نماز, ذکر, وضو, رکوع, سجود]
 excerpt: "تأملی قرآن‌محور درباره معنای صلوة، ارکان آن، اوقات، آگاهی، خشوع، و نسبت آن با عمل زنده پیامبران."
 ---
@@ -13,6 +15,8 @@ excerpt: "تأملی قرآن‌محور درباره معنای صلوة، ار
 <div class="rtl" dir="rtl" markdown="1">
 
 **به نام آن معبود یگانه، خداوند فرابخشاینده و پروردگار فرامهربان**
+
+<p><a href="/en/articles/salat-in-the-quran/">English mirror: How Should We Establish Salat According to the Qur’an?</a></p>
 
 <h2 id="contents">فهرست مطالب</h2>
 - [واژه «نماز» از کجا آمده است؟](#namaz-word)

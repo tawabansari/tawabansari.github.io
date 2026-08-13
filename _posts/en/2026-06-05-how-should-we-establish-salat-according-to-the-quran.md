@@ -4,12 +4,16 @@ title: "How Should We Establish Salat According to the Qur’an?"
 date: 2026-06-05
 lang: en
 topic: salat
+permalink: /en/articles/salat-in-the-quran/
+mirror: /fa/articles/salat-in-the-quran/
 tags: [quran, salat, prayer, remembrance, worship, hadith]
 ---
 
 # How Should We Establish Salat According to the Qur’an?
 
 > This article uses “prayer-connection” to describe the Qur’anic concept commonly called Salat or prayer. The purpose is to avoid reducing the concept to mechanical recitation or inherited terminology.
+
+<p><a href="/fa/articles/salat-in-the-quran/">آیینه فارسی: صلوة در قرآن چیست و چگونه برپا می‌شود؟</a></p>
 
 ## Contents
 
