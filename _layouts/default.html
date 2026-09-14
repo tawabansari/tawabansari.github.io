@@ -3526,7 +3526,7 @@
 
   // Preserve semantic formatting without copying interactive controls or site styling.
   function copyContentNode(node) {
-    if (node.nodeType === Node.TEXT_NODE) return document.createTextNode(node.textContent);
+    if (node.nodeType === Node.TEXT_NODE) return document.createTextNode(node.textContent.replace(/\s+/g, ' '));
     if (node.nodeType !== Node.ELEMENT_NODE) return null;
     if (node.matches('summary,script,style,svg,.copy-section-text,.language-mirror-link,.section-toggle-button')) return null;
     const allowed = ['P','DIV','BR','STRONG','B','EM','I','UL','OL','LI','BLOCKQUOTE','H3','H4','H5','H6','A'];
@@ -3536,6 +3536,26 @@
     if (node.tagName === 'OL' && node.hasAttribute('start')) result.setAttribute('start', node.getAttribute('start'));
     node.childNodes.forEach(child => { const copy = copyContentNode(child); if (copy) result.appendChild(copy); });
     return result;
+  }
+
+  function trimCopyFormatting(content) {
+    const blocks = [content, ...content.querySelectorAll('p,div,blockquote,h3,h4,h5,h6,li,ul,ol')];
+    blocks.forEach(block => {
+      // Discard source indentation between blocks, but retain spaces around inline emphasis and links.
+      Array.from(block.childNodes).forEach(node => {
+        if (node.nodeType !== Node.TEXT_NODE || node.textContent.trim()) return;
+        const isBlock = sibling => sibling?.nodeType === Node.ELEMENT_NODE && /^(P|DIV|BLOCKQUOTE|H[1-6]|UL|OL|LI|BR)$/.test(sibling.tagName);
+        if (!node.previousSibling || !node.nextSibling || isBlock(node.previousSibling) || isBlock(node.nextSibling)) node.remove();
+      });
+      const walker = document.createTreeWalker(block, NodeFilter.SHOW_TEXT);
+      const texts = [];
+      while (walker.nextNode()) if (walker.currentNode.textContent) texts.push(walker.currentNode);
+      if (texts.length) {
+        texts[0].textContent = texts[0].textContent.trimStart();
+        texts[texts.length - 1].textContent = texts[texts.length - 1].textContent.trimEnd();
+      }
+    });
+    return content;
   }
 
   function copyPlainText(node) {
@@ -3566,7 +3586,12 @@
       content.appendChild(p);
     }
     const translation = ayahBlock.querySelector('.farsi-verse, .english-verse');
-    if (translation) content.appendChild(copyContentNode(translation));
+    if (translation) {
+      const translated = trimCopyFormatting(copyContentNode(translation));
+      translated.prepend(document.createTextNode(isFarsi ? 'ترجمه: «' : 'Translation: “'));
+      translated.appendChild(document.createTextNode(isFarsi ? '»' : '”'));
+      content.appendChild(translated);
+    }
     if (reflection) {
       reflection.childNodes.forEach(child => { const copy = copyContentNode(child); if (copy) content.appendChild(copy); });
     }
@@ -3577,6 +3602,7 @@
     link.href = location.origin + location.pathname + '#' + ayahBlock.id;
     link.textContent = link.href; link.dir = 'ltr';
     source.appendChild(link); content.appendChild(source);
+    trimCopyFormatting(content);
     return {
       text: copyPlainText(content).replace(/[ \t]+\n/g, '\n').replace(/\n[ \t]+/g, '\n').replace(/\n{3,}/g, '\n\n').trim(),
       html: content.outerHTML
