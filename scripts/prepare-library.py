@@ -86,7 +86,7 @@ def main():
         if url in redirects or url in ['/', '/en/', '/fa/', '/search/'] or url.endswith('/roots/') or url.endswith('/surahs/'):
             source=source.replace(' data-pagefind-body','')
         entry=pages.get(url)
-        if entry and entry['kind']=='Quran':
+        if entry and (entry['kind']=='Quran' or url.endswith('/surahs/')):
             source=source.replace('<script src="/assets/js/quran-navigation-data.js">','<script>window.FORQAN_READING_AVAILABILITY='+json.dumps(reading,separators=(',',':'))+';</script>\n<script src="/assets/js/quran-navigation-data.js">')
         if entry and 'data-pagefind-body' in source:
             records, selections = extract(entry, source)
