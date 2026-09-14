@@ -18,7 +18,7 @@ try {
       }
     }
     const added=await index.addCustomRecord({url:record.url,content:normalized,language:record.lang,
-      meta:{title:record.title,original:record.original,verse:record.verse||'',arabic:record.arabic||'',translation:record.translation||''},filters:{type:[record.kind]}});
+      meta:{passages:JSON.stringify(record.passages||[]),description:record.description||'',title:record.title,original:record.original,verse:record.verse||'',arabic:record.arabic||'',translation:record.translation||''},filters:{type:[record.kind]}});
     if(added.errors.length)throw Error(added.errors.join('\n'));
   }
   const written=await index.writeFiles({outputPath:path.join(site,'pagefind')});

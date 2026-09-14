@@ -35,6 +35,21 @@ def shorten(text,limit=300):
     if len(text)<=limit:return text
     return text[:limit].rsplit(' ',1)[0]+' …'
 
+def passages(node):
+    result=[]
+    def visit(el):
+        if el.tag in {'nav','header','footer','script','style','form','time','button'} or 'data-pagefind-ignore' in el.attrs:return
+        classes=el.attrs.get('class','').split()
+        if any(re.search(r'(^|[-_])(tags?|meta|date|breadcrumb|share|navigation)([-_]|$)',c) for c in classes):return
+        if el.tag in {'p','li'} and not any(e.tag in {'p','li'} for e in list(el.walk())[1:]):
+            text=clean(el)
+            if len(text)>35:result.append(dict(text=text,anchor=el.attrs.get('id','')))
+            return
+        for child in el.children:
+            if isinstance(child,Element):visit(child)
+    visit(node)
+    return result
+
 def extract(entry,source):
     root=Document(source).root
     main=root.first(lambda e:e.attrs.get('id')=='main-content')
@@ -57,11 +72,11 @@ def extract(entry,source):
                 records.append(dict(url=verse_url,title=name,original=verse,lang=lang,kind='Quran',verse=verse,arabic=arabic,translation=translation,roots=roots))
             reflection=' '.join(clean(e) for e in section.children if isinstance(e,Element) and e.attrs.get('data-type')=='reflection')
             if reflection.strip():
-                records.append(dict(url=url+'?in=reflection#'+section.attrs['id'],title=name,original=reflection,lang=lang,kind='Reflection'))
+                records.append(dict(url=url+'?in=reflection#'+section.attrs['id'],title=name,original=reflection,passages=[p for e in section.children if isinstance(e,Element) and e.attrs.get('data-type')=='reflection' for p in passages(e)],lang=lang,kind='Reflection'))
             if arabic and translation:
                 features.append(dict(url=verse_url,title=name,arabic=shorten(arabic,260),excerpt=shorten(translation),lang=lang,kind=kind))
     else:
-        records.append(dict(url=url,title=title,original=clean(main),lang=lang,kind=kind))
+        records.append(dict(url=url,title=title,original=clean(main),passages=passages(main),description=next((e.attrs.get('content','') for e in root.walk() if e.tag=='meta' and e.attrs.get('name')=='description'),''),lang=lang,kind=kind))
         candidate=None
         if kind=='Roots':candidate=main.first(lambda e:e.has_class('root-subtitle'))
         elif kind in ('Articles','Terminology') and re.search(r'/(articles|quran-terminology|hadith-critique|quran-completeness)/[^/]+/$',url):

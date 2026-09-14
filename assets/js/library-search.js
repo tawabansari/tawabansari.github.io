@@ -1,4 +1,4 @@
-import {normalize,suggest,categoryOrder,excerpt} from './search-utils.mjs';
+import {normalize,suggest,categoryOrder,excerpt,selectPassage,highlightedParts} from './search-utils.mjs';
 
 const form=document.getElementById('archive-search-form');
 if(form){
@@ -21,7 +21,12 @@ if(form){
   function aliases(){return aliasPromise||(aliasPromise=new Promise((resolve,reject)=>{if(window.FORQAN_ROOT_SEARCH_DATA)return resolve(window.FORQAN_ROOT_SEARCH_DATA);const script=document.createElement('script');script.src='/assets/js/root-search-data.js';script.onload=()=>resolve(window.FORQAN_ROOT_SEARCH_DATA);script.onerror=reject;document.head.appendChild(script);}));}
   function href(value,highlight,kind){const url=new URL(value,location.origin);if(url.origin!==location.origin)return null;if(highlight)url.searchParams.set('highlight',highlight);if(kind==='Reflection')url.searchParams.set('in','reflection');return url.pathname+url.search+url.hash;}
   function card(record,container,raw){
-    const target=href(record.url,raw,record.kind);if(!target)return;
+    let passages=record.passages||[];
+    if(typeof passages==='string'){try{passages=JSON.parse(passages);}catch{passages=[];}}
+    const chosen=selectPassage(passages,raw,record.description,record.original||record.excerpt||'');
+    const destination=new URL(record.url,location.origin);
+    if(record.kind!=='Quran' && chosen.anchor)destination.hash=chosen.anchor;
+    const target=href(destination.href,raw,record.kind);if(!target)return;
     const article=document.createElement('article');article.className='search-result';
     const meta=document.createElement('small');meta.textContent=(labels[record.kind]||labels.Guide)+' · '+(fa?'فارسی':'English');article.appendChild(meta);
     const heading=document.createElement('h3'),link=document.createElement('a');link.href=target;link.textContent=record.title;heading.appendChild(link);article.appendChild(heading);
@@ -29,8 +34,8 @@ if(form){
       const arabic=document.createElement('p');arabic.className='verse-arabic';arabic.lang='ar';arabic.dir='rtl';arabic.textContent=record.arabic;article.appendChild(arabic);
       if(record.translation){const translation=document.createElement('p');translation.className='verse-translation';translation.lang=language.value;translation.dir=fa?'rtl':'ltr';translation.textContent=record.translation;article.appendChild(translation);}
     }else{
-      const body=record.original||record.excerpt;
-      if(body){const p=document.createElement('p');p.textContent=excerpt(body,raw,280);article.appendChild(p);}
+      const body=chosen.text;
+      if(body){const p=document.createElement('p');for(const part of highlightedParts(excerpt(body,raw,280),raw)){if(part.match){const mark=document.createElement('mark');mark.textContent=part.text;p.append(mark);}else p.append(document.createTextNode(part.text));}article.appendChild(p);}
     }
     if(record.rootMatch){const note=document.createElement('small');note.textContent=fa?'تطبیق با ریشهٔ نشانه‌گذاری‌شده در متن آیه':'Matched an annotated root in the verse text';article.appendChild(note);}
     container.appendChild(article);
@@ -48,7 +53,7 @@ if(form){
         while(cursor<found.length&&added<5){
           const batch=found.slice(cursor,cursor+5-added);cursor+=batch.length;
           const records=await Promise.all(batch.map(r=>r.data()));if(token!==generation)return;
-          records.forEach(r=>{const key=new URL(r.url,location.origin).pathname+new URL(r.url,location.origin).hash;if(seen.has(key))return;seen.add(key);added++;card({url:r.url,title:r.meta.title,kind,original:r.meta.original,verse:r.meta.verse,arabic:r.meta.arabic,translation:r.meta.translation},list,raw);});
+          records.forEach(r=>{const key=new URL(r.url,location.origin).pathname+new URL(r.url,location.origin).hash;if(seen.has(key))return;seen.add(key);added++;card({url:r.url,title:r.meta.title,kind,original:r.meta.original,passages:r.meta.passages,description:r.meta.description,verse:r.meta.verse,arabic:r.meta.arabic,translation:r.meta.translation},list,raw);});
         }
         button.hidden=cursor>=found.length;
         if(!list.children.length)section.hidden=true;

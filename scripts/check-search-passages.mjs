@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {selectPassage,highlightedParts,excerpt} from '../assets/js/search-utils.mjs';
+const passages=[{text:'Prayer is mentioned in this introduction.',anchor:'intro'},{text:'The discussion connects prayer and charity with responsibility.',anchor:'relevant'}];
+assert.equal(selectPassage(passages,'prayer charity').anchor,'relevant');
+assert.equal(selectPassage(passages,'unmatched','Article description').text,'Article description');
+assert.equal(selectPassage([{text:'An introduction discussing charity.',anchor:'intro'}],'charity').anchor,'intro');
+const original='ایمان و كِتاب';
+const parts=highlightedParts(original,'ايمان کتاب');
+assert.equal(parts.map(p=>p.text).join(''),original);
+assert.equal(parts.filter(p=>p.match).length,2);
+assert.ok(excerpt('Prayer '+('background '.repeat(70))+'prayer and charity belong together.','prayer charity').includes('charity'));
+console.log('Passed passage relevance, introduction eligibility, description fallback, normalized highlighting and excerpt windows.');

@@ -37,12 +37,31 @@ export function categoryOrder(query, type) {
   return ['Quran','Roots','Terminology','Articles','Reflection','Guide'];
 }
 export function excerpt(original, query, max=240) {
-  // Select an original-text window around the first matching token; never display normalized quotations.
-  const tokens=normalize(query).split(' ').filter(Boolean);
+  const tokens=normalize(query).split(' ').filter(Boolean),phrase=normalize(query);
   const words=String(original).split(/\s+/);
-  const match=words.findIndex(w=>tokens.some(t=>normalize(w).includes(t)));
-  const start=Math.max(0,match-8);
-  let out='',end=start;
-  while(end<words.length && (out.length+words[end].length<max || end===start)){out+=(out?' ':'')+words[end++];}
-  return (start?'… ':'')+out+(end<words.length?' …':'');
+  const starts=new Set([0]);
+  words.forEach((word,i)=>{if(tokens.some(t=>normalize(word).includes(t)))starts.add(Math.max(0,i-8));});
+  let best='',bestScore=-1;
+  for(const start of starts){
+    let out='',end=start;
+    while(end<words.length && (out.length+words[end].length<max || end===start))out+=(out?' ':'')+words[end++];
+    const normalized=normalize(out),score=tokens.filter(t=>normalized.includes(t)).length*10+(phrase&&normalized.includes(phrase)?20:0);
+    if(score>bestScore){bestScore=score;best=(start?'… ':'')+out+(end<words.length?' …':'');}
+  }
+  return best;
+}
+
+export function selectPassage(passages, query, description='', original='') {
+  const tokens=[...new Set(normalize(query).split(' ').filter(Boolean))], phrase=normalize(query);
+  let best=null,score=0;
+  for(const passage of passages){
+    const text=normalize(passage.text),hits=tokens.filter(t=>text.includes(t)).length;
+    const rank=hits*10+(phrase&&text.includes(phrase)?20:0);
+    if(rank>score){best=passage;score=rank;}
+  }
+  return best || {text:description || passages[0]?.text || original,anchor:''};
+}
+export function highlightedParts(text, query) {
+  const tokens=normalize(query).split(' ').filter(Boolean);
+  return String(text).split(/(\s+)/).map(text=>({text,match:tokens.some(t=>normalize(text).includes(t))}));
 }

@@ -53,6 +53,14 @@ def main():
                 used.add(anchor)
                 return '<'+m[1]+m[2]+' id="'+anchor+'">'
             region = re.sub(r'<(h[23])([^>]*)>',heading_id,region)
+            number[0] = 0
+            def passage_id(m):
+                if re.search(r'\bid=',m[2]): return m[0]
+                number[0] += 1; anchor = 'search-passage-'+str(number[0])
+                while anchor in used: anchor += '-'
+                used.add(anchor)
+                return '<'+m[1]+m[2]+' id="'+anchor+'">'
+            region = re.sub(r'<(p|li)([^>]*)>',passage_id,region)
             source = source[:start]+region+source[end:]
         parsed = Page(source)
         title = ' '.join(''.join(parsed.heading or parsed.title).split()).split(' | ')[0]
