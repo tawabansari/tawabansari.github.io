@@ -1,0 +1,17 @@
+{
+  "name": "forqan-library-tools",
+  "private": true,
+  "scripts": {
+    "build": "bundle exec jekyll build && pnpm run build:library",
+    "preview": "pnpm run build && python3 -m http.server 4000 --bind 127.0.0.1 --directory _site",
+    "build:library": "python3 scripts/prepare-library.py _site && node scripts/build-search.mjs _site",
+    "check": "python3 scripts/check-library.py _site && node scripts/check-search.mjs _site"
+  },
+  "devDependencies": {
+    "pagefind": "1.5.2"
+  },
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=24"
+  }
+}

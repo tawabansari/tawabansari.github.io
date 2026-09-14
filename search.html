@@ -1,0 +1,24 @@
+---
+layout: default
+title: Search Forqan
+permalink: /search/
+---
+<section class="library-search-page">
+  <p class="library-eyebrow">THE FORQAN ARCHIVE</p>
+  <h1>Search the library <span lang="fa" dir="rtl">جستجو در فرقان</span></h1>
+  <p class="search-intro">Find a verse, explore a root, or search inside a study.</p>
+  <form class="library-search-form" id="archive-search-form" action="/search/" role="search">
+    <label class="visually-hidden" for="archive-query">Search query / عبارت جستجو</label>
+    <input id="archive-query" type="search" name="q" placeholder="A verse, word, root, or topic…" autocomplete="off" dir="auto">
+    <button type="submit">Search / جستجو</button>
+  </form>
+  <div class="search-filters">
+    <label>Language / زبان <select id="search-language" name="lang" form="archive-search-form"><option value="en">English</option><option value="fa">فارسی</option></select></label>
+    <label>Section / بخش <select id="search-type" name="type" form="archive-search-form"><option value="">All / همه</option><option value="Quran">Qur’an / قرآن</option><option value="Roots">Roots / ریشه‌ها</option><option value="Articles">Articles / مقاله‌ها</option></select></label>
+  </div>
+  <p id="search-status" role="status" aria-live="polite">Search published pages in the archive.</p>
+  <div id="search-results"></div>
+  <button id="search-more" class="library-more" type="button" hidden>More results / نتیجه‌های بیشتر</button>
+  <noscript>Search needs JavaScript. You can still browse <a href="/quran-reflection/en/surahs/">Qur’an</a>, <a href="/quran-terminology/en/roots/">Roots</a>, and <a href="/en/articles/">Articles</a>.</noscript>
+</section>
+<script type="module" src="/assets/js/library-search.js"></script>

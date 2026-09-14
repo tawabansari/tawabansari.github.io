@@ -37,3 +37,15 @@ defaults:
       path: ""
     values:
       sitemap: true
+
+# Local build tools and working files are never published.
+exclude:
+  - vendor
+  - node_modules
+  - scripts
+  - package.json
+  - pnpm-lock.yaml
+  - pnpm-workspace.yaml
+  - PREVIEW.md
+  - tmp_build_shrb_root.rb
+  - '**/*.forqan-editor-backup-*'
