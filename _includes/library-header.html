@@ -9,7 +9,7 @@
   {% assign english_url = page.url %}{% assign farsi_url = page.url | replace_first: '/en/', '/fa/' %}
 {% endif %}
 <header class="site-header library-header" data-pagefind-ignore>
-  <a class="library-home-link" href="/" aria-label="{% if section_lang == 'fa' %}خانه{% else %}Home{% endif %}" title="{% if section_lang == 'fa' %}خانه{% else %}Home{% endif %}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m3 10 9-7 9 7M5 9v11h14V9M9 20v-7h6v7"/></svg></a>
+  <a class="library-home-link" href="{% if page.url == '/' %}/{% else %}/{{ section_lang }}/{% endif %}" aria-label="{% if section_lang == 'fa' %}خانه{% else %}Home{% endif %}" title="{% if section_lang == 'fa' %}خانه{% else %}Home{% endif %}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m3 10 9-7 9 7M5 9v11h14V9M9 20v-7h6v7"/></svg></a>
   <nav class="library-primary" aria-label="{% if section_lang == 'fa' %}بخش‌های اصلی{% else %}Main sections{% endif %}">
     <a href="/quran-reflection/{{ section_lang }}/surahs/" {% if page.url contains '/quran-reflection/' %}aria-current="true"{% endif %}>{% if section_lang == 'fa' %}قرآن{% else %}Qur’an{% endif %}</a>
     <a href="/quran-terminology/{{ section_lang }}/roots/" {% if page.url contains '/roots/' %}aria-current="true"{% endif %}>{% if section_lang == 'fa' %}ریشه‌ها{% else %}Roots{% endif %}</a>

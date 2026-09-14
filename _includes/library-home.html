@@ -1,0 +1,64 @@
+{% assign home_lang = page.home_language %}
+{% assign copy = site.data.home[home_lang] %}
+<section class="library-home"{% if home_lang %} lang="{{ home_lang }}" dir="{% if home_lang == 'fa' %}rtl{% else %}ltr{% endif %}" data-home-language="{{ home_lang }}"{% endif %}>
+{% if home_lang %}
+  <div class="library-welcome">
+    <p class="library-eyebrow">{{ copy.eyebrow }}</p>
+    <h1>{{ copy.heading }}<br><span>{{ copy.emphasis }}</span></h1>
+    <p class="library-description">{{ copy.description }}</p>
+  </div>
+  <form class="library-search-form" action="/search/" role="search">
+    <label for="home-search" class="visually-hidden">{{ copy.search }}</label>
+    <input id="home-search" name="q" type="search" placeholder="{{ copy.placeholder }}" autocomplete="off" dir="auto">
+    <input name="lang" type="hidden" value="{{ home_lang }}">
+    <button type="submit">{{ copy.search }}</button>
+  </form>
+  <p class="library-search-hint">{{ copy.try }} <a href="/search/?q=2%3A2&amp;lang={{ home_lang }}">{{ copy.reference }}</a> · <a href="/search/?q={{ copy.example | url_encode }}&amp;lang={{ home_lang }}">{{ copy.example }}</a></p>
+  <div class="library-destinations">
+    {% for item in copy.sections %}<section class="library-destination"><h2 class="destination-heading"><a href="{{ item.url }}" lang="{{ home_lang }}">{{ item.title }}</a></h2><p>{{ item.description }}</p></section>{% endfor %}
+  </div>
+{% else %}
+  <div class="library-welcome">
+    <p class="library-eyebrow">READ · REFLECT · EXPLORE</p>
+    <h1>Let the Qur’an<br><span>speak for itself.</span></h1>
+    <p class="library-welcome-fa" lang="fa" dir="rtl">قرآن را با خود قرآن بخوانیم</p>
+    <p class="library-description">Translation, reflection, Qur’anic roots, concepts, and essays.<br>Explore the archive in English and فارسی.</p>
+  </div>
+  <form class="library-search-form" action="/search/" role="search">
+    <label for="home-search" class="visually-hidden">Search Forqan</label>
+    <input id="home-search" name="q" type="search" placeholder="A verse, word, root, or topic…" autocomplete="off" dir="auto">
+    <button type="submit">Search</button>
+  </form>
+  <p class="library-search-hint">Try <a href="/search/?q=2%3A2">2:2</a>, <a href="/search/?q=iman">iman</a>, or <a href="/search/?q=ایمان&amp;lang=fa" lang="fa">ایمان</a></p>
+  <div class="library-destinations">
+    <section class="library-destination"><h2 class="destination-heading"><a href="/quran-reflection/en/surahs/" lang="en">Qur’an</a><a href="/quran-reflection/fa/surahs/" lang="fa" dir="rtl">قرآن</a></h2><p>Read by surah and verse, with translation and reflection.</p></section>
+    <section class="library-destination"><h2 class="destination-heading"><a href="/quran-terminology/en/roots/" lang="en">Roots</a><a href="/quran-terminology/fa/roots/" lang="fa" dir="rtl">ریشه‌ها</a></h2><p>Explore word families and their meanings in the Qur’an.</p></section>
+    <section class="library-destination"><h2 class="destination-heading"><a href="/en/quran-terminology/" lang="en">Qur’an Terminology</a><a href="/fa/quran-terminology/" lang="fa" dir="rtl">مفاهیم قرآنی</a></h2><p>Study Qur’anic concepts through their meaning and context.</p></section>
+    <section class="library-destination"><h2 class="destination-heading"><a href="/en/articles/" lang="en">Articles</a><a href="/fa/articles/" lang="fa" dir="rtl">مقاله‌ها</a></h2><p>Essays, longer studies, and notes for deeper reflection.</p></section>
+  </div>
+{% endif %}
+  <div id="library-continue" class="library-continue" hidden></div>
+{% if home_lang %}
+  <nav class="library-foundation-links" aria-label="{{ copy.foundation }}"><a href="/{{ home_lang }}/introduction/">{{ copy.introduction }}</a><a href="/quran-reflection/{{ home_lang }}/methodology/">{{ copy.methodology }}</a></nav>
+{% else %}
+  <nav class="library-foundation-links" aria-label="Introduction and methodology">
+    <div><a href="/en/introduction/">Introduction</a><span aria-hidden="true">·</span><a href="/fa/introduction/" lang="fa" dir="rtl">آشنایی با قرآن</a></div>
+    <div><a href="/quran-reflection/en/methodology/">Methodology</a><span aria-hidden="true">·</span><a href="/quran-reflection/fa/methodology/" lang="fa" dir="rtl">روش ترجمه و تأمل</a></div>
+  </nav>
+{% endif %}
+  <section class="archive-feature" id="archive-feature" data-feature-fixed-language="{{ home_lang }}" aria-labelledby="feature-heading">
+{% if home_lang %}
+    <div class="feature-topline"><p class="library-eyebrow">{{ copy.selected }}</p></div>
+{% else %}
+    <div class="feature-topline"><p class="library-eyebrow">Selected Reading <span lang="fa" dir="rtl">گزیده‌ای از مطالب</span></p><div class="feature-languages" aria-label="Selection language"><button type="button" data-feature-language="en" aria-pressed="true">English</button><button type="button" data-feature-language="fa" aria-pressed="false" lang="fa">فارسی</button></div></div>
+{% endif %}
+    <div id="feature-content" class="feature-content" aria-live="polite" aria-atomic="true"><!-- ARCHIVE_FEATURE --></div>
+{% if home_lang %}
+    <div class="feature-bottom"><div class="feature-position" aria-label="{{ copy.selection_type }}">{% for kind in copy.kinds %}<span data-feature-kind="{{ kind[0] }}">{{ kind[1] }}</span>{% endfor %}</div><button id="feature-next" type="button">{{ copy.another }}</button></div>
+{% else %}
+    <div class="feature-bottom"><div class="feature-position" aria-label="Selection type"><span data-feature-kind="Quran">Verse</span><span data-feature-kind="Roots">Root</span><span data-feature-kind="Terminology">Concept</span><span data-feature-kind="Articles">Article</span><span data-feature-kind="Reflection">Ta’wil</span></div><button id="feature-next" type="button">Another selection</button></div>
+{% endif %}
+  </section>
+</section>
+
+<script src="/assets/js/library-feature.js" defer></script>

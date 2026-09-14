@@ -11,7 +11,8 @@ import {normalize as normalizeSearch} from './search-utils.mjs';
     spacing.addEventListener('change', () => { document.body.dataset.readingSpacing = spacing.value; try { localStorage.setItem('forqan-spacing', spacing.value); } catch (_) {} });
   }
   const continuation = document.getElementById('library-continue');
-  if (continuation) ['en', 'fa'].forEach(lang => {
+  const homeLanguage=document.querySelector('[data-home-language]')?.dataset.homeLanguage;
+  if (continuation) (homeLanguage ? [homeLanguage] : ['en', 'fa']).forEach(lang => {
     try {
       const saved = JSON.parse(localStorage.getItem('forqan-last-reading-page-' + lang));
       if (!saved || !saved.url || !saved.title) return;

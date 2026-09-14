@@ -2373,7 +2373,7 @@
 
 
 {% assign forqan_show_pathway = true %}
-{% if page.url == "/" %}
+{% if page.url == "/" or page.home_language %}
   {% assign forqan_show_pathway = false %}
 {% endif %}
 

@@ -131,9 +131,13 @@ def main():
     (out/'search-records.json').write_text(json.dumps(search_records,ensure_ascii=False,separators=(',',':')))
     (out/'features.json').write_text(json.dumps(features,ensure_ascii=False,separators=(',',':')))
     # Render a real selection before JavaScript runs; feature rotation enhances it.
-    first=next(f for f in features if f['kind']=='Quran' and f['lang']=='en')
-    feature_html='<h2 id="feature-heading">'+html.escape(first['title'])+'</h2><p class="feature-arabic" lang="ar" dir="rtl">'+html.escape(first['arabic'])+'</p><p class="feature-excerpt"><span class="excerpt-label">Excerpt</span>'+html.escape(first['excerpt'])+'</p><a class="feature-read" href="'+html.escape(first['url'])+'">Read this verse</a>'
-    home=site/'index.html';home.write_text(home.read_text().replace('<!-- ARCHIVE_FEATURE -->',feature_html))
+    for home_url,lang in [('/', 'en'),('/en/', 'en'),('/fa/', 'fa')]:
+        first=next(f for f in features if f['kind']=='Quran' and f['lang']==lang)
+        label='گزیده' if lang=='fa' else 'Excerpt'
+        read='مطالعه این آیه' if lang=='fa' else 'Read this verse'
+        feature_html='<h2 id="feature-heading">'+html.escape(first['title'])+'</h2><p class="feature-arabic" lang="ar" dir="rtl">'+html.escape(first['arabic'])+'</p><p class="feature-excerpt"><span class="excerpt-label">'+label+'</span>'+html.escape(first['excerpt'])+'</p><a class="feature-read" href="'+html.escape(first['url'])+'">'+read+'</a>'
+        home=site/(home_url.strip('/')+'/index.html' if home_url!='/' else 'index.html')
+        home.write_text(home.read_text().replace('<!-- ARCHIVE_FEATURE -->',feature_html))
     print('Prepared',len(pages),'published pages; excluded',len(redirects),'redirect pages from search.')
     print('Unpublished index destinations:', json.dumps(unavailable))
 

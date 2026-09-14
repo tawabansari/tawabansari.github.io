@@ -1,0 +1,94 @@
+{
+  "en": {
+    "eyebrow": "READ · REFLECT · EXPLORE",
+    "heading": "Let the Qur’an",
+    "emphasis": "speak for itself.",
+    "description": "Translation, reflection, Qur’anic roots, concepts, and essays.",
+    "search": "Search",
+    "placeholder": "A verse, word, root, or topic…",
+    "reference": "2:2",
+    "example": "iman",
+    "foundation": "Introduction and methodology",
+    "introduction": "Introduction",
+    "methodology": "Methodology",
+    "selected": "Selected Reading",
+    "selection_type": "Selection type",
+    "another": "Another selection",
+    "try": "Try",
+    "kinds": {
+      "Quran": "Verse",
+      "Roots": "Root",
+      "Terminology": "Concept",
+      "Articles": "Article",
+      "Reflection": "Ta’wil"
+    },
+    "sections": [
+      {
+        "title": "Qur’an",
+        "description": "Read by surah and verse, with translation and reflection.",
+        "url": "/quran-reflection/en/surahs/"
+      },
+      {
+        "title": "Roots",
+        "description": "Explore word families and their meanings in the Qur’an.",
+        "url": "/quran-terminology/en/roots/"
+      },
+      {
+        "title": "Qur’an Terminology",
+        "description": "Study Qur’anic concepts through their meaning and context.",
+        "url": "/en/quran-terminology/"
+      },
+      {
+        "title": "Articles",
+        "description": "Essays, longer studies, and notes for deeper reflection.",
+        "url": "/en/articles/"
+      }
+    ]
+  },
+  "fa": {
+    "eyebrow": "بخوانیم · تأمل کنیم · پژوهش کنیم",
+    "heading": "قرآن را",
+    "emphasis": "با خود قرآن بخوانیم",
+    "description": "ترجمه و تأمل در قرآن، ریشه‌های واژگان، مفاهیم و مقاله‌ها.",
+    "search": "جستجو",
+    "placeholder": "آیه، واژه، ریشه یا موضوع…",
+    "reference": "۲:۲",
+    "example": "ایمان",
+    "foundation": "آشنایی و روش کار",
+    "introduction": "آشنایی با قرآن",
+    "methodology": "روش ترجمه و تأمل",
+    "selected": "گزیده‌ای از مطالب",
+    "selection_type": "نوع مطلب",
+    "another": "گزیده‌ای دیگر",
+    "try": "برای نمونه:",
+    "kinds": {
+      "Quran": "آیه",
+      "Roots": "ریشه",
+      "Terminology": "مفهوم",
+      "Articles": "مقاله",
+      "Reflection": "تأویل"
+    },
+    "sections": [
+      {
+        "title": "قرآن",
+        "description": "مطالعه بر اساس سوره و آیه، همراه با ترجمه و تأمل.",
+        "url": "/quran-reflection/fa/surahs/"
+      },
+      {
+        "title": "ریشه‌ها",
+        "description": "بررسی خانواده‌های واژگان و معنای آن‌ها در قرآن.",
+        "url": "/quran-terminology/fa/roots/"
+      },
+      {
+        "title": "مفاهیم قرآنی",
+        "description": "مطالعهٔ مفاهیم قرآنی با توجه به معنا و سیاق آن‌ها.",
+        "url": "/fa/quran-terminology/"
+      },
+      {
+        "title": "مقاله‌ها",
+        "description": "مقاله‌ها، پژوهش‌ها و یادداشت‌هایی برای تأمل بیشتر.",
+        "url": "/fa/articles/"
+      }
+    ]
+  }
+}

@@ -75,6 +75,9 @@ def extract(entry,source):
                 records.append(dict(url=url+'?in=reflection#'+section.attrs['id'],title=name,original=reflection,passages=[p for e in section.children if isinstance(e,Element) and e.attrs.get('data-type')=='reflection' for p in passages(e)],lang=lang,kind='Reflection'))
             if arabic and translation:
                 features.append(dict(url=verse_url,title=name,arabic=shorten(arabic,260),excerpt=shorten(translation),lang=lang,kind=kind))
+            if reflection.strip():
+                excerpt_node=next((p for e in section.children if isinstance(e,Element) and e.attrs.get('data-type')=='reflection' for p in passages(e)),None)
+                if excerpt_node: features.append(dict(url=url+'?in=reflection#'+section.attrs['id'],title=name,excerpt=shorten(excerpt_node['text']),lang=lang,kind='Reflection'))
     else:
         records.append(dict(url=url,title=title,original=clean(main),passages=passages(main),description=next((e.attrs.get('content','') for e in root.walk() if e.tag=='meta' and e.attrs.get('name')=='description'),''),lang=lang,kind=kind))
         candidate=None

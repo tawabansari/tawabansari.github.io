@@ -137,3 +137,6 @@ body .surah-index-page #surahSearch[hidden]{display:none!important}
 .verse-picker .verse-picker-options button:hover,.verse-picker .verse-picker-options button:focus-visible{background:var(--lib-soft)}
 .verse-picker summary:focus-visible{outline:2px solid var(--lib-gold);outline-offset:2px}
 @media(max-width:359px){.verse-picker-field:first-child{grid-column:1/-1}}
+body .container .library-home[lang="fa"] .library-welcome h1{font-family:Vazirmatn,sans-serif;line-height:1.65;letter-spacing:normal;font-weight:600}
+.library-home[lang="fa"] .library-eyebrow{letter-spacing:normal}
+.library-home[data-home-language] .library-foundation-links{flex-wrap:wrap}
