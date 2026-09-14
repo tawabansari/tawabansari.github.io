@@ -1,0 +1,788 @@
+[
+  {
+    "url": "/en/articles/salat-in-the-quran/",
+    "collections": [
+      "terminology",
+      "reflections",
+      "salat"
+    ],
+    "concept": "Salat",
+    "description": "The meaning, foundations, and practice of Salat in the Qur’an.",
+    "related": [
+      "/en/quran-terminology/taqwa/",
+      "/en/quran-terminology/shukr-in-the-quran/"
+    ],
+    "format": "study",
+    "aliases": [
+      "Salat",
+      "Salah",
+      "Prayer",
+      "صلات",
+      "صلاة",
+      "صلوة",
+      "نماز"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/malik-owner-of-judgment/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Malik",
+    "description": "Why final judgment belongs to God, and the limits of human judgment.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/al-mubin-and-the-clear-delivery/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Al-Mubin",
+    "description": "Al-Mubin in the Qur’an and its relationship to the Messenger’s clear delivery.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/takabbur-istikbar-taghut-shaytan/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Arrogance and Istikbar",
+    "description": "Arrogance, Iblis’s refusal, and the relationship between power and moral responsibility.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/kafir/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Kafir / Kufr",
+    "related": [
+      "/en/quran-terminology/iman/",
+      "/en/quran-terminology/shukr-in-the-quran/"
+    ],
+    "description": "Kufr in relation to knowledge, conscious rejection, faith, and gratitude.",
+    "format": "study",
+    "aliases": [
+      "Kafir",
+      "Kufr",
+      "کافر",
+      "كافر",
+      "کفر"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/allah-means-the-god/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Allah",
+    "description": "The meaning of Allah and the relationship between language and divine oneness.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/sultan-logic-in-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Sultan",
+    "description": "An examination of sultan as evidence, authority, and reasoning in the Qur’an.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/covenant-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Covenant",
+    "description": "Covenant and the moral responsibilities of promises, agreements, and commitments.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/satan-and-taghut/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Satan and Taghut",
+    "description": "The place of Satan and Taghut in the field of human freedom and moral choice.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/taqwa/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Taqwa",
+    "description": "The meaning of taqwa through worship, justice, and responsible conduct.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/divine-decree-and-human-choice/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Qada and Qadar",
+    "description": "Human choice and responsibility within divine decree and the limits of life.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/darb-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Darb",
+    "description": "An examination of darb and competing readings of An-Nisa 4:34.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/iman/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Iman",
+    "related": [
+      "/en/quran-terminology/kafir/",
+      "/en/articles/mumin-or-muslim/"
+    ],
+    "description": "Faith, trust, and responsibility beyond inherited religious identity.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/no-compulsion-and-delivery/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "No Compulsion in Religion",
+    "description": "Freedom of belief and the Messenger’s responsibility to deliver the message.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/ghayb/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Ghayb",
+    "description": "Faith in the unseen and its relationship to knowledge, revelation, and guidance.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/sealing-heart-guidance-misguidance/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Sealing of the Heart",
+    "description": "The sealing of hearts in relation to human choices, guidance, and misguidance.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/shahid-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Shahid",
+    "description": "Qur’anic witness and testimony, compared with later uses of shahid.",
+    "format": "study"
+  },
+  {
+    "url": "/en/quran-terminology/huruf-muqattaat/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Disconnected Letters",
+    "description": "The disconnected letters and the limits of claims about their meaning.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/no-compulsion-and-delivery/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "اکراه در دین",
+    "description": "آزادی عقیده و مسئولیت پیامبر در ابلاغ پیام.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/ghayb/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "غیب",
+    "description": "ایمان به غیب و نسبت آن با شناخت، وحی و هدایت.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/allah-khodavand-parvardegar/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "الله",
+    "description": "بررسی الله، خداوند و پروردگار و الهیات تنزیهی در زبان قرآن.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/takabbur-istikbar-taghut-shaytan/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "تکبر و استکبار",
+    "description": "تکبر، سرپیچی ابلیس و نسبت قدرت با مسئولیت اخلاقی.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/darb-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "ضرب",
+    "description": "بررسی ضرب و خوانش‌های متفاوت از آیهٔ ۳۴ سورهٔ نساء.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/iman/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "ایمان",
+    "related": [
+      "/fa/quran-terminology/kafir/",
+      "/fa/articles/mumin-or-muslim/"
+    ],
+    "description": "ایمان، اعتماد و مسئولیت فراتر از هویت مذهبی موروثی.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/kafir/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "کافر / کفر",
+    "related": [
+      "/fa/quran-terminology/iman/",
+      "/fa/quran-terminology/shukr-in-the-quran/"
+    ],
+    "description": "کفر در نسبت با آگاهی، انکار آگاهانه، ایمان و شکر.",
+    "format": "study",
+    "aliases": [
+      "Kafir",
+      "Kufr",
+      "کافر",
+      "كافر",
+      "کفر"
+    ]
+  },
+  {
+    "url": "/fa/quran-terminology/divine-decree-and-human-choice/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "قضا و قدر",
+    "description": "اختیار و مسئولیت انسان در چارچوب قضا و قدر و محدودیت‌های زندگی.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/taqwa/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "تقوا",
+    "description": "معنای تقوا در نسبت با عبادت، عدالت و رفتار مسئولانه.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/sultan-logic-in-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "سلطان",
+    "description": "بررسی سلطان در نسبت با برهان، حجیت و منطق در قرآن.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/satan-and-taghut/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "شیطان و طاغوت",
+    "description": "جایگاه شیطان و طاغوت در میدان آزادی و انتخاب اخلاقی انسان.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/covenant-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "عهد",
+    "description": "عهد و مسئولیت اخلاقی در پیمان‌ها، قراردادها و تعهدها.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/al-mubin-and-the-clear-delivery/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "المبین",
+    "description": "المبین در قرآن و نسبت آن با بلاغ روشن پیامبر.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/malik-yawm-ad-din/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "مالک",
+    "description": "چرا داوری نهایی از آن خداست و حدود داوری انسان چیست؟",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/huruf-muqattaat/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "حروف مقطعات",
+    "description": "حروف مقطعات و حدود ادعای شناخت معنای آن‌ها.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/shahid-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "شهید",
+    "description": "شهادت و گواهی در قرآن و مقایسهٔ آن با کاربردهای متأخر شهید.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/sealing-heart-guidance-misguidance/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "ختم قلب",
+    "description": "ختم قلب در نسبت با انتخاب انسان، هدایت و گمراهی.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/articles/salat-in-the-quran/",
+    "collections": [
+      "terminology",
+      "reflections",
+      "salat"
+    ],
+    "concept": "صلوة",
+    "description": "معنا، ارکان و برپایی صلوة در قرآن.",
+    "related": [
+      "/fa/quran-terminology/taqwa/",
+      "/fa/quran-terminology/shukr-in-the-quran/"
+    ],
+    "format": "study",
+    "aliases": [
+      "Salat",
+      "Salah",
+      "Prayer",
+      "صلات",
+      "صلاة",
+      "صلوة",
+      "نماز"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/shukr-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Shukr",
+    "description": "Shukr as a responsible response to blessing beyond verbal thanks.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/quran-terminology/shukr-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "شکر",
+    "description": "شکر به‌عنوان پاسخ مسئولانه به نعمت، فراتر از سپاس زبانی.",
+    "format": "study"
+  },
+  {
+    "url": "/en/articles/polygamy-in-quran/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "A Qur’an-centered study of polygamy through the context of orphans, justice, marital covenant, and the prevention of harm.",
+    "related": [
+      "/en/articles/quranic-marriage/",
+      "/en/quran-terminology/darb-in-the-quran/"
+    ],
+    "format": "essay"
+  },
+  {
+    "url": "/en/articles/book-of-riba-beyond-interest/",
+    "collections": [
+      "terminology",
+      "reflections"
+    ],
+    "concept": "Riba",
+    "description": "Riba through money, debt, ownership, risk, and economic justice.",
+    "related": [
+      "/en/articles/zakat-and-its-historical-distortion/",
+      "/en/articles/dependency-economy-and-human-freedom/"
+    ],
+    "format": "study",
+    "aliases": [
+      "Riba",
+      "ربا"
+    ]
+  },
+  {
+    "url": "/en/hadith-critique/husayn-is-from-me-and-i-am-from-husayn/",
+    "collections": [
+      "hadith"
+    ],
+    "order": 5,
+    "description": "A Qur’an-centered examination of the famous report in light of “my life and my death are for God,” distinguishing between a rejected legislative meaning and a possible moral-historical reading.",
+    "format": "essay"
+  },
+  {
+    "url": "/en/hadith-critique/when-quranic-silence-is-filled-with-reports/",
+    "collections": [
+      "hadith"
+    ],
+    "order": 1,
+    "description": "A Qur’an-centered critique of filling Qur’anic silence with Isra’iliyyat, asbab al-nuzul, exegetical stories, stoning, signs of the Hour, and the report tradition’s inability to say “we do not know.”",
+    "format": "essay"
+  },
+  {
+    "url": "/en/hadith-critique/khayr-al-qurun-hadith/",
+    "collections": [
+      "hadith"
+    ],
+    "order": 2,
+    "description": "A Qur’an-centered critique of the famous “best generations” report, measured against early Muslim history and the internal tensions of the hadith tradition.",
+    "format": "essay"
+  },
+  {
+    "url": "/en/hadith-critique/takfir-majority-sahaba-sunni-hadith/",
+    "collections": [
+      "hadith"
+    ],
+    "order": 3,
+    "description": "A Qur’an-centered critique of the famous “do not return after me as unbelievers” report in Sahih Muslim and Bukhari, read against the early Muslim civil wars.",
+    "format": "essay"
+  },
+  {
+    "url": "/en/hadith-critique/double-standards-in-salvation/",
+    "collections": [
+      "hadith"
+    ],
+    "order": 4,
+    "description": "A Qur’anic examination of double standards in salvation, reports of release from the Fire, and claims about faith, righteous action, divine will, and God’s covenant.",
+    "format": "essay"
+  },
+  {
+    "url": "/en/quran-completeness/personal-responsibility-and-quran-completeness/",
+    "collections": [
+      "completeness"
+    ],
+    "order": 2,
+    "description": "Why following statements whose truth we do not know with certainty does not release a person from responsibility before the Qur’an and The God.",
+    "format": "essay"
+  },
+  {
+    "url": "/en/quran-completeness/linguistics-of-revelation-and-human-reports/",
+    "collections": [
+      "completeness"
+    ],
+    "order": 3,
+    "description": "A linguistic and structural comparison between the Qur’an and human religious reports, showing why the challenge to produce speech equal to the Qur’an is not merely about composing religious or spiritual text.",
+    "format": "essay"
+  },
+  {
+    "url": "/en/quran-completeness/quran-and-hadith-transmitters/",
+    "collections": [
+      "completeness"
+    ],
+    "order": 1,
+    "description": "Why trust in the Qur’an does not depend on absolute trust in Hadith, and why Qur’anic transmission is not equal to Hadith transmission.",
+    "format": "essay"
+  },
+  {
+    "url": "/en/articles/quranic-marriage/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "A reflection on marriage, human needs, and spiritual maturity through sound judgment, transparency, fidelity, financial responsibility, and justice.",
+    "related": [
+      "/en/articles/polygamy-in-quran/",
+      "/en/quran-terminology/covenant-in-the-quran/"
+    ],
+    "format": "essay"
+  },
+  {
+    "url": "/en/articles/zakat-and-its-historical-distortion/",
+    "collections": [
+      "terminology",
+      "reflections",
+      "zakat"
+    ],
+    "concept": "Zakat",
+    "description": "Zakat, purification, and the historical development of religious taxation.",
+    "related": [
+      "/en/articles/book-of-riba-beyond-interest/",
+      "/en/quran-terminology/shukr-in-the-quran/"
+    ],
+    "format": "study",
+    "aliases": [
+      "Zakat",
+      "Zakah",
+      "زکات",
+      "زكاة"
+    ]
+  },
+  {
+    "url": "/en/articles/dependency-economy-and-human-freedom/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "An essay on human freedom in the face of economic, bodily, food, financial, and digital dependency, and on its relation to riba, zakat, inflation, debt, health, and the attention economy.",
+    "format": "essay"
+  },
+  {
+    "url": "/en/articles/haste-and-end-times-in-the-quran/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "A Qur’an-centered critique of apocalyptic haste in religious and political life, the transfer of responsibility to a future savior, and the sacrifice of living human beings to claims about the unseen.",
+    "format": "essay"
+  },
+  {
+    "url": "/en/articles/mumin-or-muslim/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "A Qur’an-centered study of the distinction between faith and submission, the criterion of salvation, the place of the People of the Book and the Sabians, the Abrahamic horizon, and the return from religious labels to faith, righteous action, and human responsibility before Al-Illah.",
+    "format": "study"
+  },
+  {
+    "url": "/en/articles/cutting-the-thiefs-hand-in-the-quran/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "A Qur’an-centered reading of Al-Ma’idah 5:38, examining whether cutting the hands means bodily amputation or removing the access, tools, and power that enable theft.",
+    "format": "essay"
+  },
+  {
+    "url": "/en/articles/obeying-the-messenger-and-hadith-authority/",
+    "collections": [
+      "completeness"
+    ],
+    "order": 4,
+    "description": "A study of whether the Qur’anic commands to obey the Messenger mean independent Hadith authority beside the Qur’an, or whether obedience to the Prophet is understood within the frame of revelation, message, and the delivery of God’s verses.",
+    "format": "essay"
+  },
+  {
+    "url": "/en/articles/why-human-corruption-only-on-earth/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "A linguistic and philosophical critique of interpreting the Seven Heavens as atmospheric layers, exploring the limits of human agency and the status of vicegerency.",
+    "format": "essay"
+  },
+  {
+    "url": "/en/articles/garden-of-eden-growth-and-evolution/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "A Qur’an-centered reflection on Adam’s garden, error, repentance, descent, choice, and the difference between Adam’s return and the logic of Iblis.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/articles/quranic-marriage/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "تأملی درباره نکاح قرآنی به‌عنوان راهی برای عبور از نیازهای زیستی به سوی سکینه، کرامت، مسئولیت و بلوغ معنوی.",
+    "related": [
+      "/fa/articles/polygamy-in-quran/",
+      "/fa/quran-terminology/covenant-in-the-quran/"
+    ],
+    "format": "essay"
+  },
+  {
+    "url": "/fa/articles/polygamy-in-quran/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "بررسی چندهمسری بر اساس زمینه آیات یتیمان، عدالت، پیمان ازدواج، و جلوگیری از ظلم در خانواده.",
+    "related": [
+      "/fa/articles/quranic-marriage/",
+      "/fa/quran-terminology/darb-in-the-quran/"
+    ],
+    "format": "essay"
+  },
+  {
+    "url": "/fa/articles/cutting-the-thiefs-hand-in-the-quran/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "بررسی قرآن‌محور آیه سرقت در مائده، معنای قطع و ید، تفاوت سرقت با محاربه، و امکان فهم حکم به‌عنوان قطع دسترسی، ابزار و قدرت سرقت.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/articles/book-of-riba-beyond-interest/",
+    "collections": [
+      "terminology",
+      "reflections"
+    ],
+    "concept": "ربا",
+    "description": "ربا در نسبت با پول، قرض، مالکیت، خطرپذیری و عدالت اقتصادی.",
+    "related": [
+      "/fa/articles/zakat-and-its-historical-distortion/",
+      "/fa/articles/dependency-economy-and-human-freedom/"
+    ],
+    "format": "study",
+    "aliases": [
+      "Riba",
+      "ربا"
+    ]
+  },
+  {
+    "url": "/fa/hadith-critique/husayn-is-from-me-and-i-am-from-husayn/",
+    "collections": [
+      "hadith"
+    ],
+    "order": 5,
+    "description": "سنجش حدیث مشهور «حسین از من است و من از حسینم» با آیه روشن «زندگی و مرگ من برای خداست»، و تفکیک میان معنای مردود تشریعی و معنای قابل فهم مکتبی و تاریخی.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/hadith-critique/when-quranic-silence-is-filled-with-reports/",
+    "collections": [
+      "hadith"
+    ],
+    "order": 1,
+    "description": "نقدی قرآن‌محور بر پر کردن سکوت قرآن با اسرائیلیات، شأن نزول، قصه‌های تفسیری، رجم، علائم قیامت، و ناتوانی میراث روایی از گفتن «نمی‌دانیم».",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/hadith-critique/khayr-al-qurun-hadith/",
+    "collections": [
+      "hadith"
+    ],
+    "order": 2,
+    "description": "سنجش حدیث مشهور «خیر الناس قرني» با معیار قرآن، تاریخ جنگ‌ها و شکاف‌های نسل‌های نخست، و تعارض‌های درونی میراث حدیثی.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/hadith-critique/takfir-majority-sahaba-sunni-hadith/",
+    "collections": [
+      "hadith"
+    ],
+    "order": 3,
+    "description": "سنجش روایت مشهور «لا ترجعوا بعدي كفارًا» در صحیح مسلم و بخاری با جنگ‌های داخلی نخستین مسلمانان و نشان دادن تعارض درونی میراث حدیثی.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/hadith-critique/double-standards-in-salvation/",
+    "collections": [
+      "hadith"
+    ],
+    "order": 4,
+    "description": "نقد معیار دوگانه در ضمانت نجات گروهی؛ سنجش روایت‌های خروج از آتش و عقاید کلامی با آیات قرآن درباره ایمان، عمل صالح، مشیت و عهد الهی.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/quran-completeness/personal-responsibility-and-quran-completeness/",
+    "collections": [
+      "completeness"
+    ],
+    "order": 2,
+    "description": "چرا پیروی از سخنانی که به صحت آنها علم یقینی نداریم، انسان را از مسئولیت در برابر قرآن و خداوند رها نمی‌کند.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/quran-completeness/linguistics-of-revelation-and-human-reports/",
+    "collections": [
+      "completeness"
+    ],
+    "order": 3,
+    "description": "بررسی تفاوت ساختاری و زبان‌شناختی قرآن با روایت‌های بشری، و اینکه چرا چالش آوردن سخنی هم‌سنگ قرآن فقط به تولید متن دینی یا معنوی محدود نیست.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/quran-completeness/quran-and-hadith-transmitters/",
+    "collections": [
+      "completeness"
+    ],
+    "order": 1,
+    "description": "چرا اعتماد به قرآن وابسته به اعتماد مطلق به حدیث نیست، و چرا انتقال قرآن با انتقال حدیث هم‌تراز نیست.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/articles/zakat-and-its-historical-distortion/",
+    "collections": [
+      "terminology",
+      "reflections",
+      "zakat"
+    ],
+    "concept": "زکات",
+    "description": "زکات، تزکیه و تحول تاریخی مالیات دینی.",
+    "related": [
+      "/fa/articles/book-of-riba-beyond-interest/",
+      "/fa/quran-terminology/shukr-in-the-quran/"
+    ],
+    "format": "study",
+    "aliases": [
+      "Zakat",
+      "Zakah",
+      "زکات",
+      "زكاة"
+    ]
+  },
+  {
+    "url": "/fa/articles/dependency-economy-and-human-freedom/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "مقاله‌ای درباره آزادی انسان در برابر وابستگی اقتصادی، جسمی، غذایی، مالی و دیجیتال؛ و نسبت این مسئله با ربا، زکات، تورم، قرض، سلامت و اقتصاد توجه.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/articles/haste-and-end-times-in-the-quran/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "نقدی قرآن‌محور بر شتاب‌زدگی آخرالزمانی در زندگی دینی و سیاسی، انتظار منجی، مسئولیت انسان، عدالت، عمل صالح، و خطر قربانی‌کردن انسان زنده در برابر خبرهای غیبی.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/articles/mumin-or-muslim/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "رساله‌ای قرآن‌محور درباره تفاوت ایمان و تسلیم، معیار نجات، جایگاه اهل کتاب و صابئین، افق ابراهیمی، و بازگشت از برچسب‌های مذهبی به حقیقت ایمان، عمل صالح و مسئولیت انسان در برابر آن معبود یگانه.",
+    "format": "study"
+  },
+  {
+    "url": "/fa/articles/obeying-the-messenger-and-hadith-authority/",
+    "collections": [
+      "completeness"
+    ],
+    "order": 4,
+    "description": "بررسی این پرسش که آیا فرمان‌های قرآن درباره اطاعت از رسول، به معنای حجیت مستقل حدیث در کنار قرآن است، یا اطاعت از پیامبر در چارچوب پیام وحی و رساندن آیات خدا فهمیده می‌شود.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/articles/why-human-corruption-only-on-earth/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "بررسی تفاوت زبانی قرآن در نسبت دادن فساد به زمین و تسبیح به آسمان‌ها، و نقد علمی و متنی فرضیه انطباق هفت آسمان بر لایه‌های اتمسفر در پرتو داستان خلافت.",
+    "format": "essay"
+  },
+  {
+    "url": "/fa/articles/garden-of-eden-growth-and-evolution/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "تأملی قرآن‌محور درباره باغ آغازین آدم، خطا، توبه، هبوط، اختیار، و تفاوت راه آدم با منطق ابلیس.",
+    "format": "essay"
+  }
+]

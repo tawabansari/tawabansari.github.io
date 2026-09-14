@@ -10,7 +10,7 @@ const {index,errors}=await pagefind.createIndex();
 if(errors.length||!index)throw Error(errors.join('\n'));
 try {
   for(const record of records){
-    const normalized=normalize(record.title+' '+record.original);
+    const normalized=normalize((record.kind==='Quran'?'':record.title+' ')+record.original);
     // Count documents, not repeated occurrences within one very long study.
     for(const token of new Set(normalized.split(' '))){
       if(token.length>=4&&token.length<=24&&/^\p{L}+$/u.test(token)){
@@ -18,12 +18,13 @@ try {
       }
     }
     const added=await index.addCustomRecord({url:record.url,content:normalized,language:record.lang,
-      meta:{title:record.title,original:record.original,verse:record.verse||''},filters:{type:[record.kind]}});
+      meta:{title:record.title,original:record.original,verse:record.verse||'',arabic:record.arabic||'',translation:record.translation||''},filters:{type:[record.kind]}});
     if(added.errors.length)throw Error(added.errors.join('\n'));
   }
   const written=await index.writeFiles({outputPath:path.join(site,'pagefind')});
   if(written.errors.length)throw Error(written.errors.join('\n'));
   for(const [lang,map] of Object.entries(vocabulary))await fs.writeFile(path.join(site,`assets/data/vocabulary-${lang}.json`),JSON.stringify([...map].filter(([,n])=>n>=2).sort((a,b)=>b[1]-a[1]).slice(0,12000)));
+  await fs.writeFile(path.join(site,'assets/data/verses.json'),JSON.stringify(records.filter(r=>r.kind==='Quran')));
   await fs.unlink(input); // Intermediate index input, not a public download.
   console.log(`Indexed ${records.length} records, including ${records.filter(r=>r.kind==='Quran').length} individual Qur’an passages. Original wording is retained in result excerpts.`);
 } finally {await pagefind.close();}

@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 from html.parser import HTMLParser
 from library_content import extract
+from library_collections import prepare as prepare_collections
 
 class Page(HTMLParser):
     def __init__(self, source):
@@ -73,6 +74,7 @@ def main():
         if candidate not in pages:
             candidate = re.sub(r'-(en|fa)/$', '-'+other+'/', candidate)
         if candidate in pages and candidate != url: entry['translation']=candidate
+    prepare_collections(site,pages,sources,redirects)
     reading = {}
     for entry in pages.values():
         if entry['kind']=='Quran':

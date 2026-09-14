@@ -2350,6 +2350,9 @@
   </style>
   <link rel="stylesheet" href="{{ "/assets/css/library.css" | relative_url }}">
   <script type="module" src="{{ "/assets/js/library.js" | relative_url }}"></script>
+  <link rel="stylesheet" href="{{ "/assets/css/collections.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/verse-typography.css" | relative_url }}">
+  <script type="module" src="{{ "/assets/js/collections.js" | relative_url }}"></script>
   <script type="module" src="{{ "/assets/js/library-navigation.mjs" | relative_url }}"></script>
 </head>
 
@@ -2406,6 +2409,7 @@
     {% assign forqan_intro_label = "Introduction to Qur’an" %}
   {% endif %}
 
+  {% unless page.collection_directory %}
   <div class="forqan-pathway-shell">
     <nav class="forqan-pathway" aria-label="{% if forqan_is_fa %}مسیر صفحه{% else %}Page pathway{% endif %}" dir="{{ forqan_path_dir }}" lang="{{ forqan_path_lang }}">
       <a href="/">{{ forqan_home_label }}</a>
@@ -2426,6 +2430,11 @@
           <span class="forqan-pathway-current" aria-current="page">{{ page.title | default: forqan_reflection_label | escape }}</span>
         {% endif %}
 
+      {% elsif page.url contains "/en/quran-terminology/" or page.url contains "/fa/quran-terminology/" %}
+        <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+        <a href="/{{ forqan_path_lang }}/quran-terminology/">{% if forqan_is_fa %}مفاهیم قرآنی{% else %}Qur’an Terminology{% endif %}</a>
+        <span class="forqan-pathway-separator" aria-hidden="true">›</span>
+        <span class="forqan-pathway-current" aria-current="page">{{ page.title | escape }}</span>
       {% elsif page.url contains "/quran-terminology/" %}
         <span class="forqan-pathway-separator" aria-hidden="true">›</span>
         <a href="{{ forqan_section_url }}">{{ forqan_section_label }}</a>
@@ -2468,6 +2477,7 @@
 
     <div class="forqan-return-context" id="forqan-return-context" dir="{{ forqan_path_dir }}" lang="{{ forqan_path_lang }}" hidden></div>
   </div>
+  {% endunless %}
 {% endif %}
 
 

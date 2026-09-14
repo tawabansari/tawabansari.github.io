@@ -13,6 +13,7 @@
   <nav class="library-primary" aria-label="{% if section_lang == 'fa' %}بخش‌های اصلی{% else %}Main sections{% endif %}">
     <a href="/quran-reflection/{{ section_lang }}/surahs/" {% if page.url contains '/quran-reflection/' %}aria-current="true"{% endif %}>{% if section_lang == 'fa' %}قرآن{% else %}Qur’an{% endif %}</a>
     <a href="/quran-terminology/{{ section_lang }}/roots/" {% if page.url contains '/roots/' %}aria-current="true"{% endif %}>{% if section_lang == 'fa' %}ریشه‌ها{% else %}Roots{% endif %}</a>
+    <a href="/{{ section_lang }}/quran-terminology/"><span class="nav-term-full">{% if section_lang == 'fa' %}مفاهیم قرآنی{% else %}Terminology{% endif %}</span><span class="nav-term-short">{% if section_lang == 'fa' %}مفاهیم{% else %}Concepts{% endif %}</span></a>
     <a href="/{{ section_lang }}/articles/" {% if page.url contains '/articles/' %}aria-current="true"{% endif %}>{% if section_lang == 'fa' %}مقاله‌ها{% else %}Articles{% endif %}</a>
   </nav>
   <div class="library-utilities">

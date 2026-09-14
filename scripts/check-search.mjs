@@ -14,7 +14,7 @@ globalThis.fetch=async input=>{
   try {return new Response(await fs.readFile(file),{headers:{'Content-Type':file.endsWith('.json')?'application/json':'application/octet-stream'}});}catch{return new Response('',{status:404});}
 };
 const engine=await import(pathToFileURL(path.join(site,'pagefind/pagefind.js')));
-for(const [lang,q,type] of [['en','justice','Articles'],['en','trust','Roots'],['en','Allah','Quran'],['fa','ایمان','Roots'],['fa','قرآن','Articles']]){
+for(const [lang,q,type] of [['en','zakat','Terminology'],['fa','زکات','Terminology'],['en','justice','Articles'],['en','trust','Roots'],['en','Moses','Quran'],['fa','ایمان','Roots'],['fa','قرآن','Articles']]){
  language=lang;
  await engine.destroy();
  await engine.options({basePath:'http://localhost/pagefind/',noWorker:true});
@@ -27,6 +27,21 @@ for(const [lang,q,type] of [['en','justice','Articles'],['en','trust','Roots'],[
  if(type==='Quran')assert(first.url.includes('#ayah-'),'Quran results must open individual passages');
  console.log(`${lang} / ${type} / ${q}: ${found.results.length} results; ${first.url}`);
 }
+await engine.destroy();
+
+language='en';
+await engine.options({basePath:'http://localhost/pagefind/',noWorker:true});
+const verseOnly=await engine.search('contradiction',{filters:{type:'Quran'}});
+const verseRecords=await Promise.all(verseOnly.results.map(r=>r.data()));
+assert(!verseRecords.some(r=>r.url.endsWith('/002-al-baqarah/#ayah-002')),'Commentary must not make 2:2 a direct verse match');
+const reflections=await engine.search('contradiction',{filters:{type:'Reflection'}});
+const reflectionRecords=await Promise.all(reflections.results.map(r=>r.data()));
+assert(reflectionRecords.some(r=>new URL(r.url).pathname.endsWith('/002-al-baqarah/')&&new URL(r.url).hash==='#ayah-002'),'Commentary remains searchable separately');
+const directVerses=JSON.parse(await fs.readFile(path.join(site,'assets/data/verses.json'),'utf8'));
+const salat=directVerses.find(v=>v.lang==='en'&&v.url.endsWith('/002-al-baqarah/#ayah-003'));
+assert(salat.roots.includes('sad-l-w'));
+assert(salat.original.includes('Salat')&&!salat.original.includes('Jihad'));
+console.log('Passed direct verse / ta’wil separation and annotated Salat root coverage.');
 await engine.destroy();
 
 language='fa';
@@ -43,8 +58,8 @@ const vocabulary=JSON.parse(await fs.readFile(path.join(site,'assets/data/vocabu
 assert.equal(suggest('justcie',vocabulary),'justice');
 assert.equal(suggest('justice',vocabulary),null);
 assert.equal(suggest('ktb',vocabulary),null);
-assert.deepEqual(categoryOrder('faith',''),['Quran','Articles','Roots','Guide']);
-assert.equal(categoryOrder('a m n','')[0],'Roots');
+assert.deepEqual(categoryOrder('faith',''),['Quran','Roots','Terminology','Articles','Reflection','Guide']);
+assert.equal(categoryOrder('a m n','')[0],'Quran');
 assert.deepEqual(categoryOrder('faith','Articles'),['Articles']);
 const original='This is an unchanged excerpt with ایمان and عربي words.';
 assert(excerpt(original,'ايمان').includes('ایمان'));
