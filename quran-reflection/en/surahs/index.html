@@ -881,13 +881,14 @@ body.dark-theme .landing-card {
     const query = input.value;
     let visible = 0;
     indexedCards.forEach(entry => {
-      const show = matches(entry, query);
+      const publishedOnly = document.getElementById('published-only')?.checked ?? true;
+      const show = matches(entry, query) && (!publishedOnly || !entry.card.hasAttribute('data-unpublished-url'));
       entry.card.hidden = !show;
       if (show) visible += 1;
     });
     const lang = locale.startsWith('fa') ? 'fa' : 'en';
     const copy = messages[lang];
-    count.textContent = !query.trim() ? copy.all : (visible ? copy.some(visible) : copy.none);
+    count.textContent = visible ? copy.some(visible) : copy.none;
   }
 
   input.addEventListener('input', update);

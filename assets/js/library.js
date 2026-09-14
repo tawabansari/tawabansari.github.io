@@ -47,13 +47,15 @@ import {normalize as normalizeSearch} from './search-utils.mjs';
       const hero=root.querySelector('.root-index-hero,.surah-index-tools');(hero||root.firstElementChild).insertAdjacentElement('afterend',controls);
       const search=root.querySelector('.root-search,#surahSearch');
       function filter(){
+        // The surah search applies publication and text filters together.
+        if(root.classList.contains('surah-index-page'))return;
         root.querySelectorAll('.unpublished-entry').forEach(e=>e.classList.toggle('availability-hidden',check.checked));
         root.querySelectorAll('.root-letter-group').forEach(group=>{group.classList.toggle('availability-hidden',check.checked && !group.querySelector('li:not(.unpublished-entry)'));});
         const counter=root.querySelector('#surahSearchCount');
         if(counter){const visible=Array.from(root.querySelectorAll('.landing-card')).filter(e=>!e.classList.contains('availability-hidden') && e.style.display!=='none' && !e.hidden);counter.textContent=visible.length+(fa?' سوره':' surahs shown');}
       }
       check.addEventListener('change',()=>{filter();if(search)search.dispatchEvent(new Event('input'));});
-      if(search)search.addEventListener('input',()=>setTimeout(filter,100));
+      if(search && !root.classList.contains('surah-index-page'))search.addEventListener('input',()=>setTimeout(filter,100));
       filter();if(search)search.dispatchEvent(new Event('input'));
     }
     return;
