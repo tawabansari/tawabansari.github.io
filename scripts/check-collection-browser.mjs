@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import {browse,initial} from '../assets/js/collection-browser.mjs';
+const rows=Array.from({length:105},(_,i)=>({search:`Study ${i} ${i===104?'Salat prayer صلوة':''}`,initial:i<60?'A':'B'}));
+assert.equal(browse(rows).visible.length,12);
+assert.equal(browse(rows,{page:9}).visible.length,9);
+assert.equal(browse(rows,{page:999}).page,9);
+assert.equal(browse(rows,{page:-2}).page,1);
+assert.equal(browse(rows,{page:NaN}).page,1);
+assert.equal(browse(rows,{query:'prayer'}).visible[0],rows[104]);
+assert.equal(browse(rows,{letter:'B'}).total,45);
+assert.equal(browse(rows,{letter:'A',query:'prayer'}).total,0);
+assert.equal(browse(rows,{size:10,page:11}).visible.length,5);
+assert.equal(browse([{search:'ایمان کافر',initial:'آ'}],{query:'ايمان كافر',letter:'ا'}).total,1);
+assert.equal(initial('آ'),'ا');
+assert.equal(browse(rows,{query:'not found'}).pages,1);
+console.log('Passed 105-entry pagination, whole-collection filtering, letter filtering, Persian/Arabic normalization, and invalid page handling.');
+
+assert.equal(browse(rows,{size:24}).visible.length,24);
+assert.equal(browse(rows,{size:24,page:5}).visible.length,9);
+assert.equal(browse(rows.slice(0,21),{size:24}).pages,1);
+console.log('Passed 24-entry concept pages and single-page display for 21 concepts.');
