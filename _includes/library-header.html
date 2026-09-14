@@ -18,7 +18,7 @@
   </nav>
   <div class="library-utilities">
     <a class="library-search-link" href="/search/?lang={{ section_lang }}">{% if section_lang == 'fa' %}جستجو{% else %}Search{% endif %}</a>
-    <span class="language-switcher" role="group" aria-label="{% if section_lang == 'fa' %}زبان سایت{% else %}Website language{% endif %}"><span class="language-switcher-label">{% if section_lang == 'fa' %}زبان{% else %}Language{% endif %}</span><a data-language="en" href="{{ english_url }}" lang="en">EN</a><span aria-hidden="true">/</span><a data-language="fa" href="{{ farsi_url }}" lang="fa">فارسی</a></span>
+    <span class="language-switcher" role="group" aria-label="{% if section_lang == 'fa' %}زبان سایت{% else %}Website language{% endif %}"><a data-language="en" href="{{ english_url }}" lang="en">EN</a><span aria-hidden="true">/</span><a data-language="fa" href="{{ farsi_url }}" lang="fa">فارسی</a></span>
     <div class="visible-reading-controls" role="group" aria-label="{% if section_lang == 'fa' %}ابزارهای مطالعه{% else %}Reading controls{% endif %}">
       <button id="zoom-out" type="button" title="{% if section_lang == 'fa' %}کوچک‌تر{% else %}Decrease text size{% endif %}" aria-label="{% if section_lang == 'fa' %}کوچک‌تر{% else %}Decrease text size{% endif %}">A−</button>
       <button id="zoom-in" type="button" title="{% if section_lang == 'fa' %}بزرگ‌تر{% else %}Increase text size{% endif %}" aria-label="{% if section_lang == 'fa' %}بزرگ‌تر{% else %}Increase text size{% endif %}">A+</button>

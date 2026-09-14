@@ -136,7 +136,4 @@ body .surah-index-page #surahSearch[hidden]{display:none!important}
 .verse-picker .verse-picker-options button{display:block;width:100%;background:var(--lib-surface);color:var(--lib-text);text-align:start;border:0;border-radius:4px;padding:.6rem;min-height:44px}
 .verse-picker .verse-picker-options button:hover,.verse-picker .verse-picker-options button:focus-visible{background:var(--lib-soft)}
 .verse-picker summary:focus-visible{outline:2px solid var(--lib-gold);outline-offset:2px}
-body .library-header .language-switcher{border:1px solid var(--lib-line);border-radius:8px;padding:.2rem .5rem;display:inline-flex;align-items:center;gap:.3rem}
-.language-switcher-label{font-size:.7rem;color:var(--lib-muted)}
-@media(max-width:600px){body .library-header .language-switcher{position:relative;padding:.6rem .3rem .05rem;gap:.2rem}body .library-header .language-switcher-label{position:absolute;top:-.45rem;inset-inline-start:.4rem;background:var(--lib-bg);padding:0 .15rem;font-size:.65rem}body .library-header .language-switcher a{font-size:.8rem!important;min-height:32px}}
 @media(max-width:359px){.verse-picker-field:first-child{grid-column:1/-1}}
