@@ -87,8 +87,9 @@ import {normalize as normalizeSearch} from './search-utils.mjs';
   try { anchor=document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch (_) {}
   if(highlight){
     const tokens=normalizeSearch(highlight).split(' ').filter(Boolean);
-    const target=paragraphs.find(p=>tokens.every(t=>normalizeSearch(p.textContent).includes(t))) || paragraphs.find(p=>tokens.some(t=>normalizeSearch(p.textContent).includes(t)));
+    const searchParagraphs=new URLSearchParams(location.search).get('in')==='reflection'?paragraphs.filter(p=>p.closest('details[data-type="reflection"]')&&(!anchor||anchor.contains(p))):paragraphs;
+    const target=searchParagraphs.find(p=>tokens.every(t=>normalizeSearch(p.textContent).includes(t))) || searchParagraphs.find(p=>tokens.some(t=>normalizeSearch(p.textContent).includes(t)));
     if(target)target.classList.add('library-found');
-    if(anchor||target)reveal(anchor||target);
+    if(new URLSearchParams(location.search).get('in')==='reflection'){const reflection=anchor?.querySelector('details[data-type="reflection"]');if(target||reflection||anchor)reveal(target||reflection||anchor);if(reflection)reflection.open=true;}else if(anchor||target)reveal(anchor||target);
   } else if(anchor) reveal(anchor);
 }());

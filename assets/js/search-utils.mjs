@@ -34,9 +34,7 @@ export function suggest(query, vocabulary) {
 }
 export function categoryOrder(query, type) {
   if(type)return [type];
-  // Explicit three-letter roots precede general language matches.
-  if(/^(?:[\p{L}]\s+){2}[\p{L}]$/u.test(normalize(query)))return ['Roots','Quran','Articles','Guide'];
-  return ['Quran','Articles','Roots','Guide'];
+  return ['Quran','Roots','Terminology','Articles','Reflection','Guide'];
 }
 export function excerpt(original, query, max=240) {
   // Select an original-text window around the first matching token; never display normalized quotations.

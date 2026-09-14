@@ -47,7 +47,7 @@ assert '<!-- ARCHIVE_FEATURE -->' not in home
 assert 'feature-heading' in home
 features=json.loads((site/'assets/data/features.json').read_text())
 for lang in ['en','fa']:
-    for kind in ['Quran','Roots','Articles']:
+    for kind in ['Quran','Roots','Terminology','Articles']:
         pool=[f for f in features if f['lang']==lang and f['kind']==kind]
         assert len(pool)>1,(lang,kind)
         for item in pool:

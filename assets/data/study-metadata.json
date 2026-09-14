@@ -1,0 +1,9 @@
+---
+layout: null
+---
+[
+{% assign documents = site.pages | concat: site.posts %}
+{% for document in documents %}
+{"url":{{ document.url | jsonify }},"title":{{ document.title | jsonify }},"description":{{ document.description | default: '' | jsonify }},"date":{{ document.date | date: '%Y-%m-%d' | jsonify }},"updated":{{ document.last_modified_at | date: '%Y-%m-%d' | jsonify }}}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

@@ -46,18 +46,25 @@ def extract(entry,source):
             if not section.has_class('ayah-block') or not section.attrs.get('id'):continue
             heading=section.first(lambda e:e.tag in ['h2','h3'])
             name=clean(heading) or title
-            original=clean(section)
             verse_url=url+'#'+section.attrs['id']
-            records.append(dict(url=verse_url,title=name,original=original,lang=lang,kind=kind,verse=' '.join(clean(e) for e in section.walk() if e.has_class('arabic-text') or e.has_class('english-verse') or e.has_class('farsi-verse'))))
-            arabic=clean(section.first(lambda e:e.has_class('arabic-text')))
-            translation=clean(section.first(lambda e:e.has_class('english-verse' if lang=='en' else 'farsi-verse')))
+            # Only direct children hold the verse itself; quotations inside ta'wil stay there.
+            verse_nodes=[e for e in section.children if isinstance(e,Element) and any(e.has_class(c) for c in ('arabic-text','english-verse','farsi-verse'))]
+            arabic=' '.join(clean(e) for e in verse_nodes if e.has_class('arabic-text'))
+            translation=' '.join(clean(e) for e in verse_nodes if e.has_class('english-verse') or e.has_class('farsi-verse'))
+            verse=' '.join(v for v in (arabic,translation) if v)
+            roots=sorted({e.attrs['data-learn-more'].rstrip('/').split('/')[-1] for node in verse_nodes for e in node.walk() if '/roots/' in e.attrs.get('data-learn-more','')})
+            if verse:
+                records.append(dict(url=verse_url,title=name,original=verse,lang=lang,kind='Quran',verse=verse,arabic=arabic,translation=translation,roots=roots))
+            reflection=' '.join(clean(e) for e in section.children if isinstance(e,Element) and e.attrs.get('data-type')=='reflection')
+            if reflection.strip():
+                records.append(dict(url=url+'?in=reflection#'+section.attrs['id'],title=name,original=reflection,lang=lang,kind='Reflection'))
             if arabic and translation:
                 features.append(dict(url=verse_url,title=name,arabic=shorten(arabic,260),excerpt=shorten(translation),lang=lang,kind=kind))
     else:
         records.append(dict(url=url,title=title,original=clean(main),lang=lang,kind=kind))
         candidate=None
         if kind=='Roots':candidate=main.first(lambda e:e.has_class('root-subtitle'))
-        elif kind=='Articles' and re.search(r'/(articles|hadith-critique|quran-completeness)/[^/]+/$',url):
+        elif kind in ('Articles','Terminology') and re.search(r'/(articles|quran-terminology|hadith-critique|quran-completeness)/[^/]+/$',url):
             candidate=main.first(lambda e:e.tag=='p' and len(clean(e))>100 and not any(e.has_class(c) for c in ['arabic-text','arabic-quote','tags']))
         if candidate:
             features.append(dict(url=url,title=title,excerpt=shorten(clean(candidate)),lang=lang,kind=kind))
