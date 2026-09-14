@@ -97,3 +97,11 @@ body .library-header .visible-reading-controls #theme-toggle-btn{font-size:1.2re
   .library-foundation-links{flex-direction:column;gap:.8rem;padding:1.25rem 0}
   .library-foundation-links a{font-size:.9rem}
 }
+/* Balanced original and translated names in both surah directories. */
+body .container .surah-index-page .landing-card{white-space:normal;overflow:visible;flex-wrap:wrap;gap:.6rem 1rem}
+.surah-index-page .surah-labels{display:flex;flex:1 1 12rem;flex-wrap:wrap;align-items:baseline;gap:.3rem .6rem;min-width:0}
+body .container .surah-index-page .surah-labels h2,
+body .container .surah-index-page .surah-labels .surah-meaning{flex:0 1 auto;font-size:1.3rem;font-weight:700;line-height:1.65;color:var(--lib-text);opacity:1;overflow:visible;white-space:normal;text-overflow:clip;margin:0}
+.surah-index-page .surah-labels .surah-meaning::before{content:'·';padding-inline-end:.6rem;color:var(--lib-muted);font-weight:400}
+body .container .surah-index-page .verse-count{font-size:.875rem;font-weight:400;color:var(--lib-muted);margin-inline-start:auto;white-space:nowrap}
+@media(max-width:600px){.surah-index-page .surah-labels{flex-direction:column;gap:.15rem}.surah-index-page .surah-labels .surah-meaning::before{content:none}body .container .surah-index-page .surah-labels h2,body .container .surah-index-page .surah-labels .surah-meaning{font-size:1.2rem}}
