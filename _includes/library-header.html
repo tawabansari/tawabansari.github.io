@@ -1,0 +1,34 @@
+{% assign section_lang = ui_lang | default: 'en' %}
+{% assign english_url = '/en/' %}
+{% assign farsi_url = '/fa/' %}
+{% if page.translation %}
+  {% if section_lang == 'fa' %}{% assign english_url = page.translation %}{% assign farsi_url = page.url %}{% else %}{% assign english_url = page.url %}{% assign farsi_url = page.translation %}{% endif %}
+{% elsif page.url contains '/fa/' %}
+  {% assign english_url = page.url | replace_first: '/fa/', '/en/' %}{% assign farsi_url = page.url %}
+{% elsif page.url contains '/en/' %}
+  {% assign english_url = page.url %}{% assign farsi_url = page.url | replace_first: '/en/', '/fa/' %}
+{% endif %}
+<header class="site-header library-header" data-pagefind-ignore>
+  <a class="library-home-link" href="/" aria-label="{% if section_lang == 'fa' %}خانه{% else %}Home{% endif %}" title="{% if section_lang == 'fa' %}خانه{% else %}Home{% endif %}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m3 10 9-7 9 7M5 9v11h14V9M9 20v-7h6v7"/></svg></a>
+  <nav class="library-primary" aria-label="{% if section_lang == 'fa' %}بخش‌های اصلی{% else %}Main sections{% endif %}">
+    <a href="/quran-reflection/{{ section_lang }}/surahs/" {% if page.url contains '/quran-reflection/' %}aria-current="true"{% endif %}>{% if section_lang == 'fa' %}قرآن{% else %}Qur’an{% endif %}</a>
+    <a href="/quran-terminology/{{ section_lang }}/roots/" {% if page.url contains '/roots/' %}aria-current="true"{% endif %}>{% if section_lang == 'fa' %}ریشه‌ها{% else %}Roots{% endif %}</a>
+    <a href="/{{ section_lang }}/articles/" {% if page.url contains '/articles/' %}aria-current="true"{% endif %}>{% if section_lang == 'fa' %}مقاله‌ها{% else %}Articles{% endif %}</a>
+  </nav>
+  <div class="library-utilities">
+    <a class="library-search-link" href="/search/?lang={{ section_lang }}">{% if section_lang == 'fa' %}جستجو{% else %}Search{% endif %}</a>
+    <span class="language-switcher"><a data-language="en" href="{{ english_url }}" lang="en">EN</a><span aria-hidden="true">/</span><a data-language="fa" href="{{ farsi_url }}" lang="fa">فارسی</a></span>
+    <div class="visible-reading-controls" role="group" aria-label="{% if section_lang == 'fa' %}ابزارهای مطالعه{% else %}Reading controls{% endif %}">
+      <button id="zoom-out" type="button" title="{% if section_lang == 'fa' %}کوچک‌تر{% else %}Decrease text size{% endif %}" aria-label="{% if section_lang == 'fa' %}کوچک‌تر{% else %}Decrease text size{% endif %}">A−</button>
+      <button id="zoom-in" type="button" title="{% if section_lang == 'fa' %}بزرگ‌تر{% else %}Increase text size{% endif %}" aria-label="{% if section_lang == 'fa' %}بزرگ‌تر{% else %}Increase text size{% endif %}">A+</button>
+      <button id="theme-toggle-btn" type="button" title="{% if section_lang == 'fa' %}تغییر رنگ زمینه{% else %}Switch theme{% endif %}" aria-label="{% if section_lang == 'fa' %}تغییر رنگ زمینه{% else %}Switch theme{% endif %}"><span class="theme-icon-dark" aria-hidden="true">☾</span><span class="theme-icon-light" aria-hidden="true">☀</span></button>
+    </div>
+    <button class="site-menu-toggle" id="site-menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="{% if section_lang == 'fa' %}منو{% else %}More navigation{% endif %}">☰</button>
+  </div>
+  <nav class="site-menu" id="site-menu" aria-label="More navigation" hidden>
+    <a href="/{{ section_lang }}/introduction/">{% if section_lang == 'fa' %}آشنایی با قرآن{% else %}Introduction to Qur’an{% endif %}</a>
+    <a href="/quran-reflection/{{ section_lang }}/methodology/">{% if section_lang == 'fa' %}روش ترجمه و تأمل{% else %}Translation methodology{% endif %}</a>
+    <a href="/{{ section_lang }}/">{% if section_lang == 'fa' %}بخش فارسی{% else %}English library{% endif %}</a>
+    <div class="menu-spacing"><label for="reading-spacing">{% if section_lang == 'fa' %}فاصله خطوط{% else %}Line spacing{% endif %}</label><select id="reading-spacing"><option value="normal">{% if section_lang == 'fa' %}معمولی{% else %}Normal{% endif %}</option><option value="relaxed">{% if section_lang == 'fa' %}بازتر{% else %}Relaxed{% endif %}</option></select></div>
+  </nav>
+</header>

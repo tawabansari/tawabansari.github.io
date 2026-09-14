@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+{% assign ui_lang = page.lang | default: "en" %}
+{% if page.url contains '/fa/' or page.url == '/fa/' %}{% assign ui_lang = "fa" %}{% endif %}
+<html lang="{{ ui_lang }}">
 <head>
   <meta name="msvalidate.01" content="DB2AFB7FC5DEB9CD39DF6F16D8539A4E" />
   <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | escape }}">
+  <link rel="canonical" href="{{ page.redirect_to | default: page.url | absolute_url }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script>
@@ -100,20 +104,6 @@
     body.lang-fa .details-content,
     body.lang-fa .farsi-verse {
       font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
-    }
-
-    body .container,
-    body .container h1,
-    body .container h2,
-    body .container h3,
-    body .container h4,
-    body .container p,
-    body .container li,
-    body .container span,
-    body .container div,
-    body .container details,
-    body .container summary {
-      font-size: var(--zoom-factor) !important;
     }
 
     /* ONE-LINE SURAH HEADER */
@@ -531,18 +521,6 @@
     body .container details[data-type="cross-reference"] > p,
     body .container details[data-type="cross-reference"] .details-content > p {
       line-height: 1.85;
-    }
-
-    /* ZOOM-RESPONSIVE CARD GRIDS */
-    body .container .card-grid,
-    body .container [class*="grid"],
-    body .container [class*="-grid"] {
-      display: grid !important;
-      grid-template-columns: repeat(
-        auto-fill,
-        minmax(calc(18rem * (var(--zoom-factor) / 100%)), 1fr)
-      ) !important;
-      gap: 1.25rem !important;
     }
 
     /* HEADER */
@@ -2370,6 +2348,9 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="{{ "/assets/css/library.css" | relative_url }}">
+  <script type="module" src="{{ "/assets/js/library.js" | relative_url }}"></script>
+  <script type="module" src="{{ "/assets/js/library-navigation.mjs" | relative_url }}"></script>
 </head>
 
 <body class="lang-{% if page.url contains '/fa/' %}fa{% else %}en{% endif %}">
@@ -2384,138 +2365,8 @@
 
 <div class="reading-progress" aria-hidden="true"></div>
 
-<header class="site-header">
-
-  {% assign english_url = "/en/" %}
-  {% assign farsi_url = "/fa/" %}
-
-  {% if page.translation %}
-    {% if page.lang == "fa" %}
-      {% assign english_url = page.translation %}
-      {% assign farsi_url = page.url %}
-    {% elsif page.lang == "en" %}
-      {% assign english_url = page.url %}
-      {% assign farsi_url = page.translation %}
-    {% endif %}
-  {% else %}
-    {% if page.url contains "/fa/" %}
-      {% assign english_url = page.url | replace_first: "/fa/", "/en/" %}
-      {% assign farsi_url = page.url %}
-    {% elsif page.url contains "/en/" %}
-      {% assign english_url = page.url %}
-      {% assign farsi_url = page.url | replace_first: "/en/", "/fa/" %}
-    {% endif %}
-  {% endif %}
-
-  <div class="header-left">
-    <a class="site-home-button" href="/" aria-label="Home" title="Home">
-      <span aria-hidden="true">⌂</span>
-    </a>
-
-    <button class="site-menu-toggle" id="site-menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open site menu" title="Menu">☰</button>
-
-    <span class="language-switcher">
-      <a href="{{ english_url }}" aria-label="English mirror">English</a>
-      <span class="language-divider" aria-hidden="true">|</span>
-      <a href="{{ farsi_url }}" lang="fa" dir="rtl" aria-label="Farsi mirror">فارسی</a>
-    </span>
-
-    <div class="site-menu" id="site-menu" hidden>
-      {% if page.url contains "/fa/" %}
-      <a href="/">
-        خانه
-        <small>صفحه آغازین و ورودی زبان‌ها</small>
-      </a>
-      <a href="/fa/" lang="fa" dir="rtl">
-        بخش فارسی
-        <small>ترجمه، تأمل، مقاله‌ها و واژه‌شناسی</small>
-      </a>
-      <a href="/quran-reflection/fa/surahs/" lang="fa" dir="rtl">
-        فهرست سوره‌ها
-        <small>مرور قرآن بر اساس سوره و آیه</small>
-      </a>
-      <a href="/quran-reflection/fa/methodology/" lang="fa" dir="rtl">
-        روش ترجمه و تأمل
-        <small>روش کار در ترجمه و تأمل قرآن</small>
-      </a>
-      <a href="/quran-terminology/fa/roots/" lang="fa" dir="rtl">
-        ریشه‌های قرآنی
-        <small>جستجوی ریشه‌ها و واژه‌های قرآنی</small>
-      </a>
-      <a href="/fa/articles/" lang="fa" dir="rtl">
-        مقاله‌های فارسی
-        <small>نوشتارها و تأمل‌های موضوعی</small>
-      </a>
-      <a href="/">
-        آشنایی با قرآن
-        <small>درباره این پروژه و آغاز آن</small>
-      </a>
-      <a href="/en/">
-        English Section
-        <small>Switch to the English side of the archive</small>
-      </a>
-      {% else %}
-      <a href="/">
-        Home
-        <small>Introduction and language entry points</small>
-      </a>
-      <a href="/en/">
-        English Section
-        <small>Qur’an reflection and English articles</small>
-      </a>
-      <a href="/quran-reflection/en/surahs/">
-        Qur’an Surah Index
-        <small>Browse translation and reflection by surah</small>
-      </a>
-      <a href="/quran-reflection/en/methodology/">
-        Methodology
-        <small>Translation and reflection method</small>
-      </a>
-      <a href="/quran-terminology/en/roots/">
-        Qur’anic Roots
-        <small>Search the Qur’anic root index</small>
-      </a>
-      <a href="/en/articles/">
-        English Articles
-        <small>Thematic reflections and essays</small>
-      </a>
-      <a href="/">
-        Introduction to Qur’an
-        <small>About this project and its beginning</small>
-      </a>
-      <a href="/fa/" lang="fa" dir="rtl">
-        بخش فارسی
-        <small>رفتن به بخش فارسی سایت</small>
-      </a>
-      {% endif %}
-    </div>
-  </div>
-
-  <nav class="site-nav">
-    <button class="theme-toggle-button text-zoom-btn" id="zoom-out" type="button" aria-label="Decrease text size">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="11" cy="11" r="8"></circle>
-        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        <line x1="8" y1="11" x2="14" y2="11"></line>
-      </svg>
-    </button>
-
-    <button class="theme-toggle-button text-zoom-btn" id="zoom-in" type="button" aria-label="Increase text size">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="11" cy="11" r="8"></circle>
-        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        <line x1="11" y1="8" x2="11" y2="14"></line>
-        <line x1="8" y1="11" x2="14" y2="11"></line>
-      </svg>
-    </button>
-
-    <button class="theme-toggle-button" id="theme-toggle-btn" type="button" aria-label="Switch theme">
-      <span class="theme-icon-dark">🌙</span>
-      <span class="theme-icon-light">☀️</span>
-    </button>
-  </nav>
-
-</header>
+<a class="skip-link" href="#main-content">{% if ui_lang == 'fa' %}رفتن به محتوا{% else %}Skip to content{% endif %}</a>
+{% include library-header.html %}
 
 
 {% assign forqan_show_pathway = true %}
@@ -2631,7 +2482,7 @@
   </div>
 </div>
 
-<main class="container">
+<main class="container" id="main-content" data-pagefind-body>
   {{ content }}
 </main>
 
@@ -2640,8 +2491,8 @@
 </button>
 
 <footer class="site-footer">
-  <p>© {{ site.time | date: "%Y" }} Forqan Archive.</p>
-  <p>Free to share and distribute for non-commercial purposes with attribution.</p>
+  <p>© {{ site.time | date: "%Y" }} {% if ui_lang == 'fa' %}آرشیو فرقان{% else %}Forqan Archive{% endif %}.</p>
+  <p>{% if ui_lang == 'fa' %}بازنشر غیرتجاری با ذکر منبع آزاد است.{% else %}Free to share and distribute for non-commercial purposes with attribution.{% endif %}</p>
 </footer>
 
 {% if page.url contains "/quran-reflection/" %}
@@ -2650,7 +2501,8 @@
 
 <script>
   const themeButton = document.getElementById('theme-toggle-btn');
-  const savedTheme = localStorage.getItem('forqan-theme');
+  let savedTheme = null;
+  try { savedTheme = localStorage.getItem('forqan-theme'); } catch (e) {}
   const siteMenuButton = document.getElementById('site-menu-toggle');
   const siteMenu = document.getElementById('site-menu');
 
@@ -2658,7 +2510,7 @@
     if (!siteMenuButton || !siteMenu) return;
     siteMenu.hidden = !open;
     siteMenuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
-    siteMenuButton.setAttribute('aria-label', open ? 'Close site menu' : 'Open site menu');
+    siteMenuButton.setAttribute('aria-label', document.documentElement.lang === 'fa' ? (open ? 'بستن منو' : 'باز کردن منو') : (open ? 'Close site menu' : 'Open site menu'));
   }
 
   if (siteMenuButton && siteMenu) {
@@ -2748,15 +2600,16 @@
   const zoomOutBtn = document.getElementById('zoom-out');
 
   const zoomLevels = ['85%', '92%', '100%', '115%', '130%'];
-  let currentZoomIndex = parseInt(localStorage.getItem('forqan-zoom-index'), 10);
+  let currentZoomIndex = 2;
+  try { currentZoomIndex = parseInt(localStorage.getItem('forqan-zoom-index'), 10); } catch (e) {}
 
   if (Number.isNaN(currentZoomIndex)) currentZoomIndex = 2;
   if (currentZoomIndex < 0) currentZoomIndex = 0;
   if (currentZoomIndex > 4) currentZoomIndex = 4;
 
   function applyZoom() {
-    document.body.style.setProperty('--zoom-factor', zoomLevels[currentZoomIndex]);
-    localStorage.setItem('forqan-zoom-index', currentZoomIndex);
+    document.documentElement.style.fontSize = zoomLevels[currentZoomIndex];
+    try { localStorage.setItem('forqan-zoom-index', currentZoomIndex); } catch (e) {}
 
     zoomOutBtn.style.opacity = currentZoomIndex === 0 ? '0.35' : '1';
     zoomInBtn.style.opacity = currentZoomIndex === 4 ? '0.35' : '1';
@@ -3336,7 +3189,8 @@
       });
     }
 
-    const indexedSurahs = data.map(surah => {
+    const readingAvailable = window.FORQAN_READING_AVAILABILITY && window.FORQAN_READING_AVAILABILITY[lang];
+    const indexedSurahs = data.filter(surah => !readingAvailable || readingAvailable[surah.slug]).map(surah => {
       const haystack = [
         surah.number,
         pad3(surah.number),
@@ -3460,6 +3314,7 @@
     }
 
     function navigateToAyah(surah, ayah) {
+      if (readingAvailable && !(readingAvailable[surah.slug] || []).includes('ayah-' + pad3(ayah))) return;
       const targetUrl = ayahUrl(surah, ayah);
       const targetPath = new URL(targetUrl, window.location.origin).pathname;
 
@@ -3519,6 +3374,7 @@
 
       for (let ayah = 1; ayah <= selectedSurah.ayahs; ayah++) {
         if (raw && !String(ayah).includes(raw)) continue;
+        if (readingAvailable && !(readingAvailable[selectedSurah.slug] || []).includes('ayah-' + pad3(ayah))) continue;
         const button = document.createElement('button');
         button.className = 'quran-nav-ayah';
         button.type = 'button';
@@ -3544,7 +3400,7 @@
       if (!wrapper.children.length) {
         const empty = document.createElement('p');
         empty.className = 'quran-nav-empty';
-        empty.textContent = isFarsi ? 'چنین آیه‌ای در این سوره نیست.' : 'No verse with that number in this surah.';
+        empty.textContent = isFarsi ? 'چنین آیه‌ای در این سوره نیست.' : 'No published verse with that number in this surah.';
         ayahList.appendChild(empty);
       } else {
         ayahList.appendChild(wrapper);
@@ -4571,7 +4427,7 @@
     }
 
     function rootSlugFromLink(link) {
-      return (link && link.getAttribute('href') || '').split('/').filter(Boolean).pop() || '';
+      return (link && (link.getAttribute('href') || link.dataset.unpublishedUrl) || '').split('/').filter(Boolean).pop() || '';
     }
 
     const enrichedData = (window.FORQAN_ROOT_SEARCH_DATA && window.FORQAN_ROOT_SEARCH_DATA.entries) || {};
@@ -4653,8 +4509,8 @@
     function updateStatus(visible, query) {
       if (!query.trim()) {
         status.textContent = isFarsi
-          ? '۱۶۰۸ ریشه آماده جستجو است.'
-          : '1,608 roots ready to search.';
+          ? visible + ' ریشه در فهرست نمایش داده می‌شود.'
+          : visible + ' roots shown. Search a root, word, or meaning.';
       } else if (visible) {
         status.textContent = isFarsi
           ? visible + ' ریشه پیدا شد. نزدیک‌ترین نتیجه‌ها اول آمده‌اند.'
@@ -4675,11 +4531,13 @@
       const bestScore = scoredItems.reduce(function (max, scored) {
         return Math.max(max, scored.score);
       }, 0);
-      const minimumVisibleScore = bestScore >= 5 ? bestScore : Math.max(1, bestScore - 1);
+      const minimumVisibleScore = 1;
+      const publishedOnly = document.getElementById('published-only');
 
       scoredItems.forEach(function (scored) {
         const entry = scored.entry;
-        const matches = scored.score > 0 && (!query.trim() || scored.score >= minimumVisibleScore);
+        const available = !entry.item.querySelector('[aria-disabled="true"]');
+        const matches = scored.score > 0 && (!publishedOnly || !publishedOnly.checked || available) && (!query.trim() || scored.score >= minimumVisibleScore);
         entry.item.classList.toggle('root-filter-hidden', !matches);
         entry.item.classList.toggle('root-priority-match', matches && query.trim() && scored.score === bestScore);
         entry.item.style.order = query.trim() && matches ? String((10 - scored.score) * 10000 + entry.index) : '';
@@ -4697,6 +4555,15 @@
         if (!query) setGroupCollapsed(group, true);
       });
 
+      let ranked = rootPage.querySelector('.root-search-results');
+      if (!ranked) { ranked = document.createElement('ul'); ranked.className = 'root-search-results'; tools.insertAdjacentElement('afterend', ranked); }
+      ranked.replaceChildren();
+      rootPage.toggleAttribute('data-searching', !!query.trim());
+      if (query.trim()) {
+        scoredItems.filter(s => !s.entry.item.classList.contains('root-filter-hidden')).sort((a,b) => b.score-a.score || a.entry.index-b.entry.index).forEach(s => {
+          const item = s.entry.item.cloneNode(true); item.style.order = ''; item.classList.remove('availability-hidden'); ranked.appendChild(item);
+        });
+      }
       emptyMessage.classList.toggle('show', !anyVisible);
       updateStatus(visibleCount, query);
     }
