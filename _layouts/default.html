@@ -3243,7 +3243,7 @@
     trigger.className = 'quran-nav-trigger';
     trigger.type = 'button';
     trigger.textContent = '☰';
-    labelButton(trigger, isFarsi ? 'جستجوی سوره یا آیه' : 'Find surah or verse');
+    labelButton(trigger, isFarsi ? 'انتخاب سوره و آیه' : 'Select surah and verse');
 
     const header = document.querySelector('.surah-header-block');
     if (header) {
@@ -3259,7 +3259,7 @@
     const floatingTrigger = trigger.cloneNode(true);
     floatingTrigger.className = 'quran-nav-trigger quran-nav-floating-trigger';
     floatingTrigger.textContent = '☰';
-    labelButton(floatingTrigger, isFarsi ? 'جستجوی قرآن' : 'Find surah or verse');
+    labelButton(floatingTrigger, isFarsi ? 'انتخاب سوره و آیه' : 'Select surah and verse');
     document.body.appendChild(floatingTrigger);
 
     const backdrop = document.createElement('div');
@@ -3494,28 +3494,93 @@
 
   initQuranNavigator();
 
-  function copyToClipboard(button, text) {
-    navigator.clipboard.writeText(text).then(function () {
+  function copyToClipboard(button, text, html) {
+    const writePlain = () => navigator.clipboard.writeText(text);
+    const write = html && window.ClipboardItem && navigator.clipboard.write
+      ? navigator.clipboard.write([new ClipboardItem({
+          'text/plain': new Blob([text], { type: 'text/plain' }),
+          'text/html': new Blob([html], { type: 'text/html' })
+        })]).catch(writePlain)
+      : writePlain();
+    write.then(function () {
       const originalText = button.textContent;
       button.textContent = '✓';
-
-      setTimeout(function () {
-        button.textContent = originalText;
-      }, 1200);
+      setTimeout(function () { button.textContent = originalText; }, 1200);
+    }).catch(function () {
+      const originalText = button.textContent;
+      button.textContent = '!';
+      setTimeout(function () { button.textContent = originalText; }, 1200);
     });
   }
 
   function getAyahReference(ayahBlock) {
-    const pageTitle = document.querySelector('h1')
-      ? cleanText(document.querySelector('h1').textContent)
-      : document.title;
+    const isFarsi = document.body.classList.contains('lang-fa');
+    let pageTitle = cleanText(document.querySelector('h1')?.textContent || document.title);
+    if (isFarsi) pageTitle = pageTitle.replace(/^سوره\s+ال/, 'سوره ');
+    const surah = getCurrentSurahNumberFromPath();
+    const ayah = getAyahNumberFromBlock(ayahBlock);
+    let reference = surah && ayah ? surah + ':' + ayah : '';
+    if (isFarsi) reference = reference.replace(/\d/g, d => '۰۱۲۳۴۵۶۷۸۹'[Number(d)]);
+    return pageTitle + (reference ? ' — ' + reference : '');
+  }
 
-    const ayahHeading = ayahBlock.querySelector('.ayah-title, h2');
-    const ayahTitle = ayahHeading
-      ? cleanText(ayahHeading.childNodes[0].textContent)
-      : '';
+  // Preserve semantic formatting without copying interactive controls or site styling.
+  function copyContentNode(node) {
+    if (node.nodeType === Node.TEXT_NODE) return document.createTextNode(node.textContent);
+    if (node.nodeType !== Node.ELEMENT_NODE) return null;
+    if (node.matches('summary,script,style,svg,.copy-section-text,.language-mirror-link,.section-toggle-button')) return null;
+    const allowed = ['P','DIV','BR','STRONG','B','EM','I','UL','OL','LI','BLOCKQUOTE','H3','H4','H5','H6','A'];
+    const result = document.createElement(allowed.includes(node.tagName) ? node.tagName.toLowerCase() : 'span');
+    if (node.tagName === 'A' && /^https?:$/.test(new URL(node.href, location.href).protocol)) result.href = node.href;
+    if (node.getAttribute('dir') === 'rtl' || node.getAttribute('dir') === 'ltr') result.dir = node.getAttribute('dir');
+    if (node.tagName === 'OL' && node.hasAttribute('start')) result.setAttribute('start', node.getAttribute('start'));
+    node.childNodes.forEach(child => { const copy = copyContentNode(child); if (copy) result.appendChild(copy); });
+    return result;
+  }
 
-    return pageTitle + (ayahTitle ? ' — ' + ayahTitle : '');
+  function copyPlainText(node) {
+    if (node.nodeType === Node.TEXT_NODE) return node.textContent.replace(/\s+/g, ' ');
+    if (node.nodeType !== Node.ELEMENT_NODE) return '';
+    if (node.tagName === 'BR') return '\n';
+    const text = Array.from(node.childNodes).map(copyPlainText).join('');
+    if (node.tagName === 'LI') {
+      const list = node.parentElement;
+      const index = Array.from(list.children).indexOf(node) + Number(list.getAttribute('start') || 1);
+      return (list.tagName === 'OL' ? index + '. ' : '• ') + text.trim() + '\n';
+    }
+    return /^(P|DIV|BLOCKQUOTE|H[1-6]|UL|OL)$/.test(node.tagName) ? '\n\n' + text.trim() + '\n\n' : text;
+  }
+
+  function buildAyahCopy(ayahBlock, reflection, sectionTitle) {
+    const isFarsi = document.body.classList.contains('lang-fa');
+    const content = document.createElement('div');
+    content.dir = isFarsi ? 'rtl' : 'ltr';
+    content.lang = isFarsi ? 'fa' : 'en';
+    const heading = document.createElement('p');
+    heading.textContent = (reflection ? sectionTitle + ' — ' : '') + getAyahReference(ayahBlock);
+    content.appendChild(heading);
+    const arabic = ayahBlock.querySelector('.arabic-text');
+    if (arabic) {
+      const p = document.createElement('p');
+      p.dir = 'rtl'; p.lang = 'ar'; p.textContent = cleanText(arabic.textContent);
+      content.appendChild(p);
+    }
+    const translation = ayahBlock.querySelector('.farsi-verse, .english-verse');
+    if (translation) content.appendChild(copyContentNode(translation));
+    if (reflection) {
+      reflection.childNodes.forEach(child => { const copy = copyContentNode(child); if (copy) content.appendChild(copy); });
+    }
+    const source = document.createElement('p');
+    source.appendChild(document.createTextNode(isFarsi ? 'منبع:' : 'Source:'));
+    source.appendChild(document.createElement('br'));
+    const link = document.createElement('a');
+    link.href = location.origin + location.pathname + '#' + ayahBlock.id;
+    link.textContent = link.href; link.dir = 'ltr';
+    source.appendChild(link); content.appendChild(source);
+    return {
+      text: copyPlainText(content).replace(/[ \t]+\n/g, '\n').replace(/\n[ \t]+/g, '\n').replace(/\n{3,}/g, '\n\n').trim(),
+      html: content.outerHTML
+    };
   }
 
   document.querySelectorAll('.ayah-block[id]').forEach(function (ayahBlock) {
@@ -3530,35 +3595,8 @@
     labelButton(textButton, document.body.classList.contains('lang-fa') ? 'کپی متن آیه' : 'Copy verse text');
 
     textButton.addEventListener('click', function () {
-      const arabicElement = ayahBlock.querySelector('.arabic-text');
-      const translationElement = ayahBlock.querySelector(
-        '.farsi-verse, .english-verse'
-      );
-
-      const arabic = arabicElement
-        ? cleanText(arabicElement.textContent)
-        : '';
-
-      const translation = translationElement
-        ? cleanText(translationElement.textContent)
-        : '';
-
-      const source =
-        window.location.origin +
-        window.location.pathname +
-        '#' +
-        ayahBlock.id;
-
-      const copiedText =
-        getAyahReference(ayahBlock) +
-        '\n\n' +
-        arabic +
-        '\n\n' +
-        translation +
-        '\n\nSource:\n' +
-        source;
-
-      copyToClipboard(textButton, copiedText);
+      const copy = buildAyahCopy(ayahBlock);
+      copyToClipboard(textButton, copy.text, copy.html);
     });
 
     const linkButton = document.createElement('button');
@@ -3582,8 +3620,8 @@
     const ayahNavButton = document.createElement('button');
     ayahNavButton.className = 'ayah-quran-nav-button';
     ayahNavButton.type = 'button';
-    ayahNavButton.appendChild(createSearchIcon());
-    labelButton(ayahNavButton, document.body.classList.contains('lang-fa') ? 'جستجوی سوره یا آیه' : 'Find surah or verse');
+    ayahNavButton.textContent = '☰';
+    labelButton(ayahNavButton, document.body.classList.contains('lang-fa') ? 'انتخاب سوره و آیه' : 'Select surah and verse');
     ayahNavButton.addEventListener('click', function () {
       if (typeof window.openForqanQuranNavigator === 'function') {
         window.openForqanQuranNavigator(ayahNavButton);
@@ -3655,7 +3693,7 @@
       sectionCopyButton.className = 'copy-section-text';
       sectionCopyButton.type = 'button';
       sectionCopyButton.textContent = '⧉';
-      labelButton(sectionCopyButton, document.body.classList.contains('lang-fa') ? 'کپی متن این بخش' : 'Copy section text');
+      labelButton(sectionCopyButton, document.body.classList.contains('lang-fa') ? 'کپی آیه، ترجمه و تأمل' : 'Copy verse, translation and reflection');
 
       sectionCopyButton.addEventListener('click', function (event) {
         event.preventDefault();
@@ -3664,30 +3702,8 @@
         const ayahBlock = detailsBlock.closest('.ayah-block');
         if (!ayahBlock) return;
 
-        const clonedBlock = detailsBlock.cloneNode(true);
-        clonedBlock
-          .querySelectorAll('.copy-section-text, .language-mirror-link, .section-toggle-button')
-          .forEach(function (button) {
-            button.remove();
-          });
-
-        const sectionText = cleanText(clonedBlock.textContent);
-        const source =
-          window.location.origin +
-          window.location.pathname +
-          '#' +
-          ayahBlock.id;
-
-        const copiedText =
-          sectionTitle +
-          ' — ' +
-          getAyahReference(ayahBlock) +
-          '\n\n' +
-          sectionText +
-          '\n\nSource:\n' +
-          source;
-
-        copyToClipboard(sectionCopyButton, copiedText);
+        const copy = buildAyahCopy(ayahBlock, detailsBlock, sectionTitle);
+        copyToClipboard(sectionCopyButton, copy.text, copy.html);
       });
 
     }

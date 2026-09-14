@@ -63,7 +63,8 @@ import {normalize as normalizeSearch} from './search-utils.mjs';
   const study=main.querySelector('article,.root-study-page,.forqan-page-ltr,.forqan-page-rtl');
   if(!study || location.pathname==='/search/')return;
   const headings=Array.from(study.querySelectorAll('h2,h3')).filter(h=>h.textContent.trim() && !h.closest('nav'));
-  if(headings.length>=3){
+  const isSurahPage=/^\/quran-reflection\/(?:fa|en)\/\d{3}-[^/]+\/$/.test(location.pathname);
+  if(!isSurahPage && headings.length>=3){
     const contents=document.createElement('details');contents.className='library-toc';contents.dataset.pagefindIgnore='';
     const summary=document.createElement('summary');summary.textContent=fa?'در این مطالعه':'In this study';contents.appendChild(summary);
     const list=document.createElement('ol');
@@ -79,7 +80,7 @@ import {normalize as normalizeSearch} from './search-utils.mjs';
     const input=document.createElement('input');input.type='search';input.placeholder=fa?'جستجو در این مطالعه…':'Find in this study…';input.setAttribute('aria-label',input.placeholder);input.dir='auto';
     const button=document.createElement('button');button.type='submit';button.textContent=fa?'بعدی':'Find next';
     const status=document.createElement('span');status.className='library-find-status';status.setAttribute('role','status');
-    form.append(input,button,status);const toc=study.querySelector('.library-toc');(toc||study.querySelector('h1')||study.firstElementChild).insertAdjacentElement('afterend',form);
+    form.append(input,button,status);const toc=study.querySelector('.library-toc');const title=study.querySelector('h1');const hero=title?.closest('header,.root-hero,.surah-header-block');(toc||hero||title||study.firstElementChild).insertAdjacentElement('afterend',form);
     let matches=[],index=-1,last='';
     const normalize=normalizeSearch;
     form.addEventListener('submit',e=>{e.preventDefault();const q=normalize(input.value.trim());study.querySelectorAll('.library-found').forEach(p=>p.classList.remove('library-found'));if(!q){status.textContent='';return;}if(q!==last){matches=paragraphs.filter(p=>normalize(p.textContent).includes(q));index=-1;last=q;}if(!matches.length){status.textContent=fa?'نتیجه‌ای نیست':'No matches';return;}index=(index+1)%matches.length;matches[index].classList.add('library-found');reveal(matches[index]);status.textContent=(index+1)+' / '+matches.length;});
