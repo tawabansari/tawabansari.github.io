@@ -2381,6 +2381,9 @@
   <link rel="stylesheet" href="{{ "/assets/css/verse-typography.css" | relative_url }}">
   <script type="module" src="{{ "/assets/js/collections.js" | relative_url }}"></script>
   <script type="module" src="{{ "/assets/js/library-navigation.mjs" | relative_url }}"></script>
+<link rel="stylesheet" href="/assets/css/reading-panel.css">
+<script>if(window.self!==window.top && new URLSearchParams(location.search).get('reading-panel')==='1')document.documentElement.classList.add('study-embedded');</script>
+<script type="module" src="/assets/js/reading-panel.mjs"></script>
 </head>
 
 <body class="lang-{% if page.url contains '/fa/' %}fa{% else %}en{% endif %}">

@@ -1,0 +1,16 @@
+.study-reading-panel{position:fixed;inset:0 0 0 auto;margin:0;width:min(850px,85vw);max-width:100vw;height:100dvh;max-height:100dvh;padding:0;border:0;border-inline-start:1px solid var(--lib-line);background:var(--lib-bg);color:var(--lib-text);box-shadow:-12px 0 50px #0003;overflow:hidden}
+.study-reading-panel[open]{display:flex;flex-direction:column}
+.study-reading-panel::backdrop{background:#0005}
+.study-panel-toolbar{display:flex;align-items:center;gap:.65rem;flex-wrap:wrap;padding:.8rem 1rem;border-bottom:1px solid var(--lib-line);flex-shrink:0}
+.study-panel-toolbar h2{font-family:inherit;font-weight:600;font-size:1rem;line-height:1.5;margin:0;flex:1 1 10rem;overflow-wrap:anywhere}
+.study-panel-toolbar button,.study-panel-toolbar a{font:inherit;font-size:.85rem;color:var(--lib-text);background:var(--lib-surface);border:1px solid var(--lib-line);border-radius:6px;padding:.6rem;min-height:44px;cursor:pointer;text-decoration:none;box-sizing:border-box}
+.study-panel-toolbar [hidden]{display:none}
+.study-panel-toolbar :focus-visible{outline:2px solid var(--lib-gold);outline-offset:2px}
+.study-reading-panel iframe{border:0;width:100%;flex:1;min-height:0;background:var(--lib-bg)}
+.study-reading-panel iframe[hidden]{display:none}
+.study-panel-status{padding:1rem}
+html.study-embedded .library-header,html.study-embedded .site-footer,html.study-embedded .forqan-pathway-shell,html.study-embedded .breadcrumbs,html.study-embedded .quran-nav-floating-trigger{display:none!important}
+html.study-embedded body .container{max-width:100%;margin:0 auto;padding:1.25rem;box-sizing:border-box}
+html.study-embedded body .post{padding:0;box-shadow:none;border:0}
+html.study-embedded{scroll-padding-top:1rem}
+@media(max-width:720px){.study-reading-panel{width:100vw}.study-panel-toolbar{padding:.6rem;padding-top:max(.6rem,env(safe-area-inset-top))}.study-panel-toolbar h2{flex-basis:100%;order:-1}.study-reading-panel{padding-bottom:env(safe-area-inset-bottom);box-sizing:border-box}}
