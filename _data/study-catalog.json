@@ -784,5 +784,55 @@
     ],
     "description": "تأملی قرآن‌محور درباره باغ آغازین آدم، خطا، توبه، هبوط، اختیار، و تفاوت راه آدم با منطق ابلیس.",
     "format": "essay"
+  },
+  {
+    "url": "/fa/quran-terminology/lan-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "لعنت",
+    "description": "بررسی مفهوم لعنت در قرآن؛ طرد از رحمت الهی در پیوند با اختیار انسان، هدایت و گمراهی، سختی دل، توبه و اصلاح.",
+    "format": "study",
+    "aliases": [
+      "لعنت",
+      "لعن",
+      "ل ع ن",
+      "Laʿn",
+      "Lan",
+      "La'n",
+      "Curse",
+      "Cursing"
+    ],
+    "related": [
+      "/fa/quran-terminology/sealing-heart-guidance-misguidance/",
+      "/fa/quran-terminology/divine-decree-and-human-choice/",
+      "/fa/quran-terminology/kafir/",
+      "/fa/quran-terminology/covenant-in-the-quran/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/lan-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Laʿn (Curse)",
+    "description": "A study of laʿn in the Qur’an: exclusion from divine mercy, human choice, guidance and misguidance, hardness of heart, repentance, and reform.",
+    "format": "study",
+    "aliases": [
+      "لعنت",
+      "لعن",
+      "ل ع ن",
+      "Laʿn",
+      "Lan",
+      "La'n",
+      "Curse",
+      "Cursing"
+    ],
+    "related": [
+      "/en/quran-terminology/sealing-heart-guidance-misguidance/",
+      "/en/quran-terminology/divine-decree-and-human-choice/",
+      "/en/quran-terminology/kafir/",
+      "/en/quran-terminology/covenant-in-the-quran/"
+    ]
   }
 ]
