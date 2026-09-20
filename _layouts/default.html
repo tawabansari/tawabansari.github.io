@@ -176,6 +176,33 @@
       margin-bottom: 1.8rem;
     }
 
+    /* Translation links stay quiet until the reader interacts with them. */
+    body .container :is(.farsi-verse, .english-verse) a,
+    body .container :is(.farsi-verse, .english-verse) a:visited {
+      color: inherit;
+      font-weight: 600;
+      text-decoration: none;
+      text-underline-offset: 0.2em;
+      text-decoration-thickness: 1px;
+    }
+
+    body .container :is(.farsi-verse, .english-verse) a:hover,
+    body .container :is(.farsi-verse, .english-verse) a:focus-visible {
+      color: #80602e;
+      text-decoration: underline;
+    }
+
+    body .container :is(.farsi-verse, .english-verse) a:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+
+    body.dark-theme .container :is(.farsi-verse, .english-verse) a:hover,
+    body.dark-theme .container :is(.farsi-verse, .english-verse) a:focus-visible {
+      color: #d6b26d;
+    }
+
     /* INTERACTIVE ARABIC WORDS */
     .word-link {
       appearance: none;
