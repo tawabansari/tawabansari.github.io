@@ -3904,6 +3904,7 @@
     if (data.rootMeaning) lines.push(labels.rootMeaning + ': ' + data.rootMeaning);
     if (data.contextMeaning) lines.push(labels.contextMeaning + ': ' + data.contextMeaning);
     if (data.learnMoreUrl) lines.push(labels.source + ': ' + data.learnMoreUrl);
+    if (data.conceptUrl) lines.push((data.isFarsi ? 'مطالعهٔ مفهوم' : 'Concept study') + ': ' + data.conceptUrl);
 
     return lines.filter(Boolean).join('\n');
   }
@@ -4007,6 +4008,7 @@
     const rootMeaning = target.dataset.rootMeaning || '';
     const contextMeaning = target.dataset.context || '';
     const learnMore = target.dataset.learnMore || '';
+    const concept = target.dataset.conceptUrl || '';
 
     popover.dir = isFarsi ? 'rtl' : 'ltr';
     popoverContent.replaceChildren();
@@ -4066,6 +4068,7 @@
 
     const actions = document.createElement('div');
     actions.className = 'root-popover-actions';
+    const conceptUrl = concept ? new URL(concept, window.location.origin).href : '';
 
     if (learnMoreUrl) {
       const learnMoreLink = document.createElement('a');
@@ -4078,6 +4081,14 @@
       actions.appendChild(learnMoreLink);
     }
 
+    if (conceptUrl) {
+      const conceptLink = document.createElement('a');
+      conceptLink.className = 'root-popover-link';
+      conceptLink.href = concept;
+      conceptLink.textContent = isFarsi ? 'مطالعهٔ مفهوم ←' : 'Concept study →';
+      actions.appendChild(conceptLink);
+    }
+
     const popoverText = getRootPopoverText({
       isFarsi: isFarsi,
       word: word,
@@ -4085,7 +4096,8 @@
       root: root,
       rootMeaning: rootMeaning,
       contextMeaning: contextMeaning,
-      learnMoreUrl: learnMoreUrl
+      learnMoreUrl: learnMoreUrl,
+      conceptUrl: conceptUrl
     });
 
     const copyTextButton = createRootPopoverActionButton(
