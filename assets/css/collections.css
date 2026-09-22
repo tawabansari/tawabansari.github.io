@@ -1,4 +1,16 @@
 /* Shared collection surfaces use the site's reading and theme preferences. */
+.reference-pending{font:400 .8em/1.5 Vazirmatn,sans-serif;color:var(--lib-muted);white-space:normal}
+a[data-unpublished-reference]{cursor:default;text-decoration:none!important}
+.legacy-passage-anchor{scroll-margin-top:calc(var(--library-header-height,140px) + 1rem)}
+.study-preview{position:fixed;z-index:10020;box-sizing:border-box;width:min(29rem,calc(100vw - 1.5rem));max-height:min(32rem,80dvh);overflow:auto;padding:1.2rem;margin:0;border:1px solid var(--lib-line);border-radius:10px;background:var(--lib-surface);color:var(--lib-text);box-shadow:0 12px 40px #0003;text-align:start;font-size:1rem;line-height:1.8}
+body .container .study-preview h3{font-family:inherit;font-size:1.1rem;font-weight:600;line-height:1.7;margin:.7rem 0;color:var(--lib-text);clear:both}
+body .container .study-preview .study-preview-summary{white-space:pre-line;font-size:1rem;color:var(--lib-text);margin:.7rem 0 1rem;overflow-wrap:anywhere}
+.study-preview-close{float:inline-end;min-height:44px;padding:.35rem .65rem;font:inherit;font-size:.9rem;border:1px solid var(--lib-line);border-radius:5px;background:var(--lib-bg);color:var(--lib-text);cursor:pointer}
+body .container .study-preview a.study-preview-read{display:inline-flex;align-items:center;min-height:44px;padding:.35rem 0;color:var(--lib-gold);font-weight:600;text-decoration:underline;text-underline-offset:.25em}
+.study-preview :focus-visible{outline:2px solid var(--lib-gold);outline-offset:3px}
+dialog.study-preview{inset:auto 0 0;margin:0 auto;max-height:80dvh;padding-bottom:max(1.2rem,env(safe-area-inset-bottom));border-radius:14px 14px 0 0}
+dialog.study-preview::backdrop{background:#0006}
+@media print{.study-preview,.reference-pending{display:none!important}}
 .collection-directory,.study-context,.study-related{color:var(--lib-text);font-size:1rem;line-height:1.7}
 .collection-directory *,.study-context *,.study-related *{box-sizing:border-box}
 .collection-directory{max-width:1000px;margin:auto}

@@ -3,7 +3,7 @@ import json
 import re
 from pathlib import Path
 from html import escape as esc
-from library_content import Document, clean, shorten
+from library_content import Document, clean, shorten, passages
 
 COLLECTIONS = {
  'terminology': ('quran-terminology', 'Qur’an Terminology', 'مفاهیم قرآنی', 'Conceptual studies of Qur’anic terms and ideas.', 'مطالعهٔ مفاهیم و اصطلاحات در قرآن.'),
@@ -56,6 +56,14 @@ def prepare(site,pages,sources,redirects):
             paragraph=main.first(lambda e:e.tag=='p' and len(clean(e))>90 and not e.has_class('tags')) if main else None
             description=clean(paragraph)
         item['description']=shorten(description or '',280)
+        main=Document(sources[url][1]).root.first(lambda e:e.attrs.get('id')=='main-content')
+        opening=next((p['text'] for p in passages(main) if len(p['text'])>110), '') if main else ''
+        summary=description or ''
+        if opening and opening not in summary and summary not in opening:
+            summary+='\n\n'+opening
+        elif opening and len(opening)>len(summary):
+            summary=opening
+        item['preview']=shorten(summary.strip(),650)
         if 'terminology' in item['collections']:
             pages[url]['kind']='Terminology'
             item.setdefault('concept',item['title'])
@@ -77,7 +85,7 @@ def prepare(site,pages,sources,redirects):
         searchable=' '.join([item['title'],item.get('concept',''),item['description'],aliases])
         first=(concept or item['title']).strip()[0]
         description='' if concept else '<p>'+esc(item['description'])+'</p>'
-        return f'<li class="study-row" data-search="{esc(searchable,quote=True)}" data-initial="{esc(first,quote=True)}" id="study-{url.strip("/").split("/")[-1]}"><h2><a data-study-link href="{url}" title="{esc(item["title"],quote=True)}">{heading}</a></h2>{description}</li>'
+        return f'<li class="study-row" data-search="{esc(searchable,quote=True)}" data-initial="{esc(first,quote=True)}" id="study-{url.strip("/").split("/")[-1]}"><h2><a data-study-link href="{url}" title="{esc(item["title"],quote=True)}" data-preview-title="{esc(item["title"],quote=True)}" data-preview-summary="{esc(item["preview"],quote=True)}">{heading}</a></h2>{description}</li>'
     for lang in ('en','fa'):
         urls=[('/'+lang+'/articles/','hub')]+[(route(k,lang),k) for k in COLLECTIONS]
         for url,key in urls:

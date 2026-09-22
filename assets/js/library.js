@@ -30,10 +30,10 @@ import {normalize as normalizeSearch} from './search-utils.mjs';
   const fa = document.documentElement.lang === 'fa';
   const main = document.getElementById('main-content');
   if (!main) return;
-  function reveal(target) {
+  function reveal(target, scroll=true) {
     let parent=target.parentElement;
     while(parent){if(parent.tagName==='DETAILS')parent.open=true;parent=parent.parentElement;}
-    target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+    if(scroll)target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
   }
   const isDirectory=/\/(roots|surahs)\/$/.test(location.pathname);
   if (isDirectory) {
@@ -89,11 +89,12 @@ import {normalize as normalizeSearch} from './search-utils.mjs';
   const highlight=new URLSearchParams(location.search).get('highlight');
   let anchor=null;
   try { anchor=document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch (_) {}
+  if(anchor?.classList.contains('legacy-passage-anchor'))anchor=anchor.parentElement;
   if(highlight){
     const tokens=normalizeSearch(highlight).split(' ').filter(Boolean);
     const searchParagraphs=new URLSearchParams(location.search).get('in')==='reflection'?paragraphs.filter(p=>p.closest('details[data-type="reflection"]')&&(!anchor||anchor===p||anchor.contains(p))):paragraphs;
     const target=(anchor && searchParagraphs.includes(anchor) ? anchor : null) || searchParagraphs.find(p=>tokens.every(t=>normalizeSearch(p.textContent).includes(t))) || searchParagraphs.find(p=>tokens.some(t=>normalizeSearch(p.textContent).includes(t)));
     if(target)target.classList.add('library-found');
-    if(new URLSearchParams(location.search).get('in')==='reflection'){const reflection=anchor?.querySelector('details[data-type="reflection"]');if(target||reflection||anchor)reveal(target||reflection||anchor);if(reflection)reflection.open=true;}else if(anchor||target)reveal(anchor||target);
-  } else if(anchor) reveal(anchor);
+    if(new URLSearchParams(location.search).get('in')==='reflection'){const reflection=anchor?.querySelector('details[data-type="reflection"]');if(target||reflection||anchor)reveal(target||reflection||anchor,!isSurahPage || !location.hash);if(reflection)reflection.open=true;}else if(anchor||target)reveal(anchor||target,!isSurahPage || !location.hash);
+  } else if(anchor) reveal(anchor,!isSurahPage);
 }());

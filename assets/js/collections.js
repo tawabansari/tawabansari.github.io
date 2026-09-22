@@ -1,4 +1,5 @@
 import {browse,initial} from './collection-browser.mjs';
+import {initStudyPreviews} from './study-preview.mjs';
 (function () {
   'use strict';
   const directory = document.querySelector('.collection-directory');
@@ -23,6 +24,7 @@ import {browse,initial} from './collection-browser.mjs';
       const letters=[...new Set(rows.map(r=>initial(r.initial)))];
       function button(text,action){const b=document.createElement('button');b.type='button';b.textContent=text;b.addEventListener('click',action);return b;}
       function render(write=false){
+        directory.dispatchEvent(new Event('collection-render'));
         const view=browse(rows,{query:input.value,letter,page,size});page=view.page;
         rows.forEach(r=>r.element.hidden=!view.visible.includes(r));
         status.textContent=fa?`${view.total} نتیجه · صفحهٔ ${page} از ${view.pages}`:`${view.total} results · Page ${page} of ${view.pages}`;
@@ -44,7 +46,9 @@ import {browse,initial} from './collection-browser.mjs';
       form.addEventListener('submit',e=>{e.preventDefault();page=1;render(true);});input.addEventListener('input',()=>{page=1;render(true);});reset.addEventListener('click',()=>{input.value='';letter='';page=1;render(true);input.focus();});
       window.addEventListener('popstate',restore);window.addEventListener('pageshow',e=>{if(e.persisted)restore();});restore();
     }
+    initStudyPreviews(directory);
     directory.addEventListener('click', function (event) {
+      if(event.defaultPrevented)return;
       const link = event.target.closest('a[data-study-link]');
       if (!link) return;
       const row = link.closest('.study-row');

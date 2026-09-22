@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 from html.parser import HTMLParser
 from library_content import extract
+from library_enrichment import stable_anchors, unavailable_references
 from library_collections import prepare as prepare_collections
 
 class Page(HTMLParser):
@@ -42,26 +43,7 @@ def main():
         redirect = re.search(r'<meta[^>]+http-equiv=["\x27]refresh["\x27][^>]+content=["\x27][^"\x27]*url=([^"\x27]+)', source, re.I)
         if redirect:
             redirects[url] = html.unescape(redirect[1]); sources[url] = (path, source); continue
-        # Add stable heading anchors only to the generated content region.
-        if 'id="main-content"' in source:
-            start = source.index('id="main-content"'); end = source.index('</main>',start)
-            region = source[start:end]; used = set(re.findall(r'\bid="([^"]+)"',source)); number = [0]
-            def heading_id(m):
-                if re.search(r'\bid=',m[2]): return m[0]
-                number[0] += 1; anchor = 'study-section-'+str(number[0])
-                while anchor in used: anchor += '-'
-                used.add(anchor)
-                return '<'+m[1]+m[2]+' id="'+anchor+'">'
-            region = re.sub(r'<(h[23])([^>]*)>',heading_id,region)
-            number[0] = 0
-            def passage_id(m):
-                if re.search(r'\bid=',m[2]): return m[0]
-                number[0] += 1; anchor = 'search-passage-'+str(number[0])
-                while anchor in used: anchor += '-'
-                used.add(anchor)
-                return '<'+m[1]+m[2]+' id="'+anchor+'">'
-            region = re.sub(r'<(p|li)([^>]*)>',passage_id,region)
-            source = source[:start]+region+source[end:]
+        source = stable_anchors(source)
         parsed = Page(source)
         title = ' '.join(''.join(parsed.heading or parsed.title).split()).split(' | ')[0]
         if '/roots/' in url and not url.endswith('/roots/'): kind = 'Roots'
@@ -125,6 +107,8 @@ def main():
                 return '<a'+attrs+'>'+inner+'<span class="availability-label" data-pagefind-ignore>'+label+'</span></a>'
             source=re.sub(r'<a([^>]*href="[^"]+"[^>]*)>(.*?)</a>',availability,source,flags=re.S)
             unavailable[url]=len(missing)
+        if entry:
+            source=unavailable_references(source,url,entry['lang'],pages,redirects)
         path.write_text(source)
     out=site/'assets/data'; out.mkdir(parents=True,exist_ok=True)
     (out/'library.json').write_text(json.dumps({'pages':list(pages.values()),'redirects':redirects},ensure_ascii=False,separators=(',',':')))

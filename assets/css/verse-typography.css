@@ -1,8 +1,9 @@
 /* A shared Quran-capable font for explicitly marked verse text, never Persian prose.
    This changes presentation only, not Quranic spelling or the indexed source text. */
 body .container :is(.arabic-text,.arabic-quote,.quran-quote,.quran-text,.ayah-arabic,.verse-arabic,.feature-arabic),
-body .container :is(.arabic-text,.arabic-quote,.quran-quote,.quran-text,.ayah-arabic,.verse-arabic,.feature-arabic) :is(.word-link,span,strong,em){
-  font-family:"Amiri Quran",serif!important;
+body .container :is(.arabic-text,.arabic-quote,.quran-quote,.quran-text,.ayah-arabic,.verse-arabic,.feature-arabic) :is(.word-link,span,strong,em),
+.root-popover-word{
+  font-family:"Amiri Quran Colored","Amiri Quran",serif!important;
   font-synthesis:none;
   font-style:normal;
   letter-spacing:normal!important;

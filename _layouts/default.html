@@ -148,18 +148,6 @@
       text-wrap: balance;
     }
 
-    body .container .arabic-text.forqan-font-reset,
-    body .container .arabic-text.forqan-font-reset .word-link,
-    .root-popover-word.forqan-font-reset {
-      font-family: "Amiri Quran", Amiri, "Scheherazade New", serif !important;
-    }
-
-    body .container .arabic-text.forqan-font-colored,
-    body .container .arabic-text.forqan-font-colored .word-link,
-    .root-popover-word.forqan-font-colored {
-      font-family: "Amiri Quran Colored", "Amiri Quran", Amiri, "Scheherazade New", serif !important;
-    }
-
     body .container .farsi-verse {
       direction: rtl;
       text-align: center;
@@ -1182,11 +1170,9 @@
     }
 
     .ayah-block.link-highlight {
-      background: rgba(176, 141, 87, 0.13);
-      border-radius: 12px;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      transition: background 1.8s ease;
+      background: rgba(176, 141, 87, 0.07);
+      box-shadow: 0 0 0 1px rgba(176, 141, 87, 0.38);
+      border-radius: 8px;
     }
 
     /* DARK THEME */
@@ -1358,7 +1344,7 @@
     }
 
     body.dark-theme .ayah-block.link-highlight {
-      background: rgba(214, 178, 109, 0.16);
+      background: rgba(214, 178, 109, 0.08);
     }
 
     body.dark-theme .ayah-block details {
@@ -2575,31 +2561,6 @@
     });
   }
 
-  function refreshArabicFont() {
-    const arabicElements = document.querySelectorAll('.arabic-text, .root-popover-word');
-    if (!arabicElements.length) return;
-
-    arabicElements.forEach(function (element) {
-      element.classList.remove('forqan-font-colored');
-      element.classList.add('forqan-font-reset');
-      void element.offsetHeight;
-    });
-
-    window.setTimeout(function () {
-      arabicElements.forEach(function (element) {
-        element.classList.remove('forqan-font-reset');
-        element.classList.add('forqan-font-colored');
-        void element.offsetHeight;
-      });
-    }, 80);
-
-    window.setTimeout(function () {
-      arabicElements.forEach(function (element) {
-        element.classList.remove('forqan-font-colored');
-      });
-    }, 420);
-  }
-
   function applyForqanTheme(theme) {
     if (theme !== 'dark' && theme !== 'light') theme = 'light';
 
@@ -2622,18 +2583,10 @@
 
   applyForqanTheme(savedTheme === 'dark' ? 'dark' : 'light');
 
-  if (document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(refreshArabicFont);
-  } else {
-    window.addEventListener('load', refreshArabicFont);
-  }
-
   if (themeButton) {
     themeButton.addEventListener('click', function () {
       var nextTheme = document.body.classList.contains('dark-theme') ? 'light' : 'dark';
       applyForqanTheme(nextTheme);
-      refreshArabicFont();
-      window.setTimeout(refreshArabicFont, 180);
     });
   }
 
@@ -2792,67 +2745,40 @@
     }
 
     function restoreReadingPositionIfNeeded() {
-      if (!isReadingPage) return false;
-
       const savedReading = readSavedReading();
-      if (!savedReading) return false;
-
-      const savedBase = (savedReading.fallbackUrl || savedReading.url || '').split('#')[0];
+      const savedBase = (savedReading?.fallbackUrl || savedReading?.url || '').split('#')[0];
       const currentBase = window.location.pathname + window.location.search;
-      if (savedBase !== currentBase) return false;
-
-      let restored = false;
-
-      function restore() {
-        if (window.location.hash) {
-          const rawHash = window.location.hash.slice(1);
-          let targetId = rawHash;
-
-          try {
-            targetId = decodeURIComponent(rawHash);
-          } catch (e) {}
-
-          const target = document.getElementById(targetId);
+      // Native history owns Back/Forward restoration, including the reading panel.
+      if (performance.getEntriesByType('navigation')[0]?.type === 'back_forward') return Promise.resolve();
+      if (!window.location.hash && savedBase !== currentBase) return Promise.resolve();
+      return import('/assets/js/reading-position.mjs').then(({ afterReadingLayout }) =>
+        afterReadingLayout(() => {
+          let target;
+          try { target = document.getElementById(decodeURIComponent(window.location.hash.slice(1))); } catch (_) {}
           if (target) {
-            target.scrollIntoView({ behavior: 'auto', block: 'start' });
-            restored = true;
-            return;
+            for (let parent = target; parent; parent = parent.parentElement) {
+              if (parent.tagName === 'DETAILS') parent.open = true;
+            }
+            target.scrollIntoView({ behavior: 'instant', block: 'start' });
+          } else if (!window.location.hash && typeof savedReading?.scrollY === 'number') {
+            window.scrollTo({ top: savedReading.scrollY, left: 0, behavior: 'instant' });
           }
-        }
-
-        if (typeof savedReading.scrollY === 'number' && savedReading.scrollY > 0) {
-          window.scrollTo({ top: savedReading.scrollY, left: 0, behavior: 'auto' });
-          restored = true;
-        }
-      }
-
-      window.setTimeout(restore, 80);
-      window.setTimeout(restore, 350);
-      window.setTimeout(restore, 900);
-
-      return true;
+        })
+      );
     }
 
     if (isReadingPage) {
-      const attemptedRestore = restoreReadingPositionIfNeeded();
       let saveTimer = null;
-      let allowSaving = !attemptedRestore;
-
-      if (attemptedRestore) {
-        window.setTimeout(function () {
-          allowSaving = true;
-          saveReadingPosition();
-        }, 1400);
-      }
+      let allowSaving = false;
+      restoreReadingPositionIfNeeded().catch(() => {}).finally(() => {
+        allowSaving = true;
+        saveReadingPosition();
+      });
 
       function scheduleSaveReadingPosition() {
         if (!allowSaving) return;
         if (saveTimer) window.clearTimeout(saveTimer);
         saveTimer = window.setTimeout(saveReadingPosition, 160);
-      }
-
-      if (!attemptedRestore) {
-        window.setTimeout(saveReadingPosition, 500);
       }
 
       window.addEventListener('scroll', scheduleSaveReadingPosition, { passive: true });
@@ -3807,39 +3733,21 @@
   });
 
   function highlightLinkedAyah() {
-    if (!window.location.hash) return;
-
-    let targetId = window.location.hash.slice(1);
-
-    try {
-      targetId = decodeURIComponent(targetId);
-    } catch (error) {}
-
-    const target = document.getElementById(targetId);
-    if (!target) return;
-
-    if (target.tagName && target.tagName.toLowerCase() === 'details') {
-      target.open = true;
-
-      window.setTimeout(function () {
-        target.scrollIntoView({ behavior: 'auto', block: 'start' });
-      }, 90);
+    let target;
+    try { target = document.getElementById(decodeURIComponent(window.location.hash.slice(1))); } catch (_) {}
+    const selected = target?.closest('.ayah-block');
+    document.querySelectorAll('.ayah-block.link-highlight').forEach(verse => {
+      if (verse !== selected) verse.classList.remove('link-highlight');
+    });
+    if (!selected) return;
+    // Only paint changes: no padding, width, or timed removal.
+    selected.classList.add('link-highlight');
+    for (let parent = target; parent; parent = parent.parentElement) {
+      if (parent.tagName === 'DETAILS') parent.open = true;
     }
-
-    const highlightTarget = target.classList.contains('ayah-block')
-      ? target
-      : target.closest('.ayah-block');
-
-    if (!highlightTarget) return;
-
-    highlightTarget.classList.add('link-highlight');
-
-    setTimeout(function () {
-      highlightTarget.classList.remove('link-highlight');
-    }, 2600);
   }
 
-  window.addEventListener('load', highlightLinkedAyah);
+  highlightLinkedAyah();
   window.addEventListener('hashchange', highlightLinkedAyah);
 
 
@@ -4099,6 +4007,13 @@
     const actions = document.createElement('div');
     actions.className = 'root-popover-actions';
     const conceptUrl = concept ? new URL(concept, window.location.origin).href : '';
+
+    if (target.dataset.unpublishedLearnMore || target.dataset.unpublishedConceptUrl) {
+      const pending = document.createElement('span');
+      pending.className = 'reference-pending';
+      pending.textContent = isFarsi ? 'مطالعهٔ مرتبط هنوز منتشر نشده' : 'Related study not yet published';
+      actions.appendChild(pending);
+    }
 
     if (learnMoreUrl) {
       const learnMoreLink = document.createElement('a');
