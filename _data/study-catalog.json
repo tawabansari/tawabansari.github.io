@@ -834,5 +834,37 @@
       "/en/quran-terminology/kafir/",
       "/en/quran-terminology/covenant-in-the-quran/"
     ]
+  },
+  {
+    "url": "/fa/articles/how-countries-and-nations-took-shape/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "بررسی شکل‌گیری کشورها و هویت ملی، نقش زبان، آموزش و فرهنگ، و تفاوت دولت و ملت امروزی با دیار و تعلق انسان در قرآن.",
+    "format": "essay",
+    "aliases": [
+      "کشور",
+      "ملت",
+      "ملی‌گرایی",
+      "نشنلیزم",
+      "دیار",
+      "هویت ملی"
+    ]
+  },
+  {
+    "url": "/en/articles/how-countries-and-nations-took-shape/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "How countries and national identities took shape through government, language, education, and culture, with a Qur’anic reflection on homes, displacement, and belonging.",
+    "format": "essay",
+    "aliases": [
+      "Country",
+      "Nation",
+      "Nationalism",
+      "Nation-state",
+      "Diyar",
+      "National identity"
+    ]
   }
 ]
