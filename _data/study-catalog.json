@@ -866,5 +866,55 @@
       "Diyar",
       "National identity"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/gabriel-and-the-spirit-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "جبریل و روح",
+    "description": "بررسی جبریل، روح امین، روح القدس و ملائکه در قرآن؛ تفاوت ماموریت و ماهیت، مفرد و جمع، و مرز میان تصریح آیات و تفسیر.",
+    "format": "study",
+    "aliases": [
+      "جبریل",
+      "جبرییل",
+      "جبرئیل",
+      "Gabriel",
+      "Jibril",
+      "Jibreel",
+      "روح",
+      "Ruh",
+      "Rūḥ",
+      "Holy Spirit",
+      "Trustworthy Spirit"
+    ],
+    "related": [
+      "/fa/hadith-critique/when-quranic-silence-is-filled-with-reports/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/gabriel-and-the-spirit-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Gabriel and the Spirit",
+    "description": "A Qur’anic study of Gabriel, the Trustworthy Spirit, the Holy Spirit, and the angels: mission and nature, singular and plural, and the boundary between the text and interpretation.",
+    "format": "study",
+    "aliases": [
+      "جبریل",
+      "جبرییل",
+      "جبرئیل",
+      "Gabriel",
+      "Jibril",
+      "Jibreel",
+      "روح",
+      "Ruh",
+      "Rūḥ",
+      "Holy Spirit",
+      "Trustworthy Spirit"
+    ],
+    "related": [
+      "/en/hadith-critique/when-quranic-silence-is-filled-with-reports/"
+    ]
   }
 ]
