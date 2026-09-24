@@ -916,5 +916,49 @@
     "related": [
       "/en/hadith-critique/when-quranic-silence-is-filled-with-reports/"
     ]
+  },
+  {
+    "url": "/fa/hadith-critique/rajm-quran-or-hadith/",
+    "collections": [
+      "hadith",
+      "reflections"
+    ],
+    "description": "نقد حکم رجم در فقه روایی با بررسی قانون زنا در سوره نور، لعان، نصف مجازات در نساء، روایت آیه رجم و ادعای نسخ تلاوت و بقای حکم.",
+    "format": "essay",
+    "aliases": [
+      "رجم",
+      "سنگسار",
+      "Rajm",
+      "Stoning",
+      "Zina",
+      "زنا",
+      "لعان",
+      "Li‘an"
+    ],
+    "related": [
+      "/fa/hadith-critique/when-quranic-silence-is-filled-with-reports/"
+    ]
+  },
+  {
+    "url": "/en/hadith-critique/rajm-quran-or-hadith/",
+    "collections": [
+      "hadith",
+      "reflections"
+    ],
+    "description": "A Qur’an-centered critique of stoning through Al-Nur’s law on zina, reciprocal oaths, half the punishment in Al-Nisa, the stoning-verse report, and abrogation of recitation.",
+    "format": "essay",
+    "aliases": [
+      "رجم",
+      "سنگسار",
+      "Rajm",
+      "Stoning",
+      "Zina",
+      "زنا",
+      "لعان",
+      "Li‘an"
+    ],
+    "related": [
+      "/en/hadith-critique/when-quranic-silence-is-filled-with-reports/"
+    ]
   }
 ]
