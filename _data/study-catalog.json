@@ -1014,5 +1014,59 @@
     "related": [
       "/en/hadith-critique/when-quranic-silence-is-filled-with-reports/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/naskh-in-the-quran/",
+    "collections": [
+      "terminology",
+      "completeness"
+    ],
+    "concept": "نسخ",
+    "description": "بررسی نسخ در کاربردهای قرآن، تفاوت تخفیف و پایان حکم با ادعای بی‌اعتبار شدن آیات، و سنجش گزارش‌های بیرونی در برابر قرآن.",
+    "format": "study",
+    "aliases": [
+      "نسخ",
+      "ناسخ",
+      "منسوخ",
+      "ناسخ و منسوخ",
+      "ن س خ",
+      "Naskh",
+      "Abrogation",
+      "Abrogated verses"
+    ],
+    "related": [
+      "/fa/hadith-critique/rajm-quran-or-hadith/",
+      "/fa/articles/obeying-the-messenger-and-hadith-authority/",
+      "/fa/quran-terminology/al-mubin-and-the-clear-delivery/",
+      "/fa/quran-terminology/no-compulsion-and-delivery/",
+      "/fa/hadith-critique/when-quranic-silence-is-filled-with-reports/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/naskh-in-the-quran/",
+    "collections": [
+      "terminology",
+      "completeness"
+    ],
+    "concept": "Naskh",
+    "description": "Naskh in Qur’anic usage: distinguishing expressly stated changes and relief from claims that existing verses have lost their authority.",
+    "format": "study",
+    "aliases": [
+      "نسخ",
+      "ناسخ",
+      "منسوخ",
+      "ناسخ و منسوخ",
+      "ن س خ",
+      "Naskh",
+      "Abrogation",
+      "Abrogated verses"
+    ],
+    "related": [
+      "/en/hadith-critique/rajm-quran-or-hadith/",
+      "/en/articles/obeying-the-messenger-and-hadith-authority/",
+      "/en/quran-terminology/al-mubin-and-the-clear-delivery/",
+      "/en/quran-terminology/no-compulsion-and-delivery/",
+      "/en/hadith-critique/when-quranic-silence-is-filled-with-reports/"
+    ]
   }
 ]
