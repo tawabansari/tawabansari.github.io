@@ -1,5 +1,17 @@
 # Forqan local library preview
 
+## Search relevance and recovery
+
+Search now shows verse matches first (literal matches ahead of clearly labeled root/concept connections), then roots matched through a recognized root name or word form. Remaining studies, ta’wil, and incidental root mentions share a relevance-ranked group. Dedicated concept aliases and exact titles lead that group. Result counts link directly to each group.
+
+Global search uses the existing study catalog aliases and paired concept names. Verse expansion uses existing word-level root/concept annotations, not inferred theological relationships. `_data/search-root-aliases.json` adds reviewed spellings to the existing morphology registry; ordinary English/Persian root glosses do not automatically earn root priority. Authored verse text and translations are unchanged.
+
+The “All studies” filter includes both articles and terminology. Old `type=Articles` links remain compatible. Numeric, named, and ranged verse references are supported, and quoted queries request an exact phrase without alias expansion. Excerpts follow the engine’s actual word matches, including English word families.
+
+The build emits versioned, language-specific search catalogs tied to the generated Pagefind entry. A dedicated worker detects failed index downloads even when Pagefind catches them internally. Searches check for a new deployment and retry a failed load once with a fresh worker. Persistent failures show a retry control rather than an apparently successful partial result. Catalog metadata permits ranking without downloading every matching long study.
+
+`scripts/check-search-ranking.mjs` checks the real generated index in separate English/Persian processes, including Naskh/2:106, spelling aliases, root priority, filters, verse references, and excerpts. `scripts/check-search-recovery.mjs` covers deployment changes and failed downloads. Both run in `pnpm run check`.
+
 Local branch: `codex/article-collections`. No commits, push, or deployment are required to preview.
 
 ## Build and preview

@@ -4,6 +4,7 @@ records,features=extract(dict(kind='Quran',lang='en',url='/test/',title='Test'),
 verse,reflection=records
 assert verse['kind']=='Quran' and verse['original']=='صلوة Establish Salat.'
 assert verse['roots']==['sad-l-w']
+assert verse['words'][0]['text']=='صلوة' and verse['words'][0]['root']=='sad-l-w'
 assert reflection['kind']=='Reflection' and 'banking' in reflection['original'] and 'اقتباس' in reflection['original']
 assert 'banking' not in verse['original'] and 'Unrelated' not in reflection['original']
 assert features[0]['excerpt']=='Establish Salat.'

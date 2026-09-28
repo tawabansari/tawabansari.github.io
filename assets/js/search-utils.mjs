@@ -51,12 +51,13 @@ export function excerpt(original, query, max=240) {
   return best;
 }
 
-export function selectPassage(passages, query, description='', original='') {
+export function selectPassage(passages, query, description='', original='', locations=[]) {
   const tokens=[...new Set(normalize(query).split(' ').filter(Boolean))], phrase=normalize(query);
   let best=null,score=0;
   for(const passage of passages){
     const text=normalize(passage.text),hits=tokens.filter(t=>text.includes(t)).length;
-    const rank=hits*10+(phrase&&text.includes(phrase)?20:0);
+    const actual=locations.filter(position=>position>=passage.start&&position<passage.end).length;
+    const rank=actual*100+hits*10+(phrase&&text.includes(phrase)?20:0);
     if(rank>score){best=passage;score=rank;}
   }
   return best || {text:description || passages[0]?.text || original,anchor:''};

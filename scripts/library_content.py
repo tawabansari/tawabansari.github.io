@@ -68,8 +68,16 @@ def extract(entry,source):
             translation=' '.join(clean(e) for e in verse_nodes if e.has_class('english-verse') or e.has_class('farsi-verse'))
             verse=' '.join(v for v in (arabic,translation) if v)
             roots=sorted({e.attrs['data-learn-more'].rstrip('/').split('/')[-1] for node in verse_nodes for e in node.walk() if '/roots/' in e.attrs.get('data-learn-more','')})
+            words=[]
+            for node in verse_nodes:
+                for word in node.walk():
+                    if not word.has_class('word-link'): continue
+                    root_url=word.attrs.get('data-learn-more','')
+                    words.append(dict(text=clean(word),transliteration=word.attrs.get('data-transliteration',''),
+                                      root=root_url.rstrip('/').split('/')[-1] if '/roots/' in root_url else '',
+                                      concept=word.attrs.get('data-concept-url','')))
             if verse:
-                records.append(dict(url=verse_url,title=name,original=verse,lang=lang,kind='Quran',verse=verse,arabic=arabic,translation=translation,roots=roots))
+                records.append(dict(url=verse_url,title=name,original=verse,lang=lang,kind='Quran',verse=verse,arabic=arabic,translation=translation,roots=roots,words=words))
             reflection=' '.join(clean(e) for e in section.children if isinstance(e,Element) and e.attrs.get('data-type')=='reflection')
             if reflection.strip():
                 records.append(dict(url=url+'?in=reflection#'+section.attrs['id'],title=name,original=reflection,passages=[p for e in section.children if isinstance(e,Element) and e.attrs.get('data-type')=='reflection' for p in passages(e)],lang=lang,kind='Reflection'))

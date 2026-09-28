@@ -1,134 +1,159 @@
-import {normalize,suggest,categoryOrder,excerpt,selectPassage,highlightedParts} from './search-utils.mjs';
+import {normalize,suggest,excerpt,selectPassage,highlightedParts} from './search-utils.mjs';
+import {rankResults,parseReference,referenceResults} from './search-ranking.mjs';
+import {SearchClient} from './search-client.mjs';
 
-const form=document.getElementById('archive-search-form');
-if(form){
-  const query=document.getElementById('archive-query'),language=document.getElementById('search-language'),type=document.getElementById('search-type');
-  const status=document.getElementById('search-status'),results=document.getElementById('search-results');
-  document.getElementById('search-more').hidden=true;
-  const params=new URLSearchParams(location.search);
-  query.value=params.get('q')||'';
-  language.value=params.get('lang')==='fa'||(!params.has('lang')&&/[\u0600-\u06ff]/.test(query.value))?'fa':'en';
-  type.value=['Quran','Roots','Terminology','Articles','Reflection'].includes(params.get('type'))?params.get('type'):'';
-  document.documentElement.lang=language.value;
-  const fa=language.value==='fa';results.dir=fa?'rtl':'ltr';
-  const labels=fa?{Quran:'متن آیات و ترجمه',Reflection:'تأویل و تأمل',Terminology:'مفاهیم قرآنی',Articles:'مقاله‌ها',Roots:'ریشه‌ها',Guide:'راهنما',Exact:'تطبیق دقیق عنوان'}:{Quran:'Verse text and translations',Reflection:'Ta’wil and reflections',Terminology:'Qur’an Terminology',Articles:'Articles',Roots:'Roots',Guide:'Guides',Exact:'Exact title match'};
-  let generation=0,timer,enginePromise,manifestPromise,aliasPromise,vocabPromise,versesPromise;
-  let failedGroups=0;
-  const json=url=>fetch(url).then(r=>{if(!r.ok)throw Error('Could not load '+url);return r.json();});
-  const manifest=()=>manifestPromise||(manifestPromise=json('/assets/data/library.json'));
-  const verses=()=>versesPromise||(versesPromise=json('/assets/data/verses.json').catch(error=>{versesPromise=null;throw error;}));
-  const engine=()=>enginePromise||(enginePromise=import('/pagefind/pagefind.js').then(async pf=>{await pf.options({excerptLength:35});return pf;}));
-  function aliases(){return aliasPromise||(aliasPromise=new Promise((resolve,reject)=>{if(window.FORQAN_ROOT_SEARCH_DATA)return resolve(window.FORQAN_ROOT_SEARCH_DATA);const script=document.createElement('script');script.src='/assets/js/root-search-data.js';script.onload=()=>resolve(window.FORQAN_ROOT_SEARCH_DATA);script.onerror=reject;document.head.appendChild(script);}));}
-  function href(value,highlight,kind){const url=new URL(value,location.origin);if(url.origin!==location.origin)return null;if(highlight)url.searchParams.set('highlight',highlight);if(kind==='Reflection')url.searchParams.set('in','reflection');return url.pathname+url.search+url.hash;}
-  function card(record,container,raw){
-    let passages=record.passages||[];
-    if(typeof passages==='string'){try{passages=JSON.parse(passages);}catch{passages=[];}}
-    const chosen=selectPassage(passages,raw,record.description,record.original||record.excerpt||'');
-    const destination=new URL(record.url,location.origin);
-    if(record.kind!=='Quran' && chosen.anchor)destination.hash=chosen.anchor;
-    const target=href(destination.href,raw,record.kind);if(!target)return;
-    const article=document.createElement('article');article.className='search-result';
-    const meta=document.createElement('small');meta.textContent=(labels[record.kind]||labels.Guide)+' · '+(fa?'فارسی':'English');article.appendChild(meta);
-    const heading=document.createElement('h3'),link=document.createElement('a');link.href=target;link.textContent=record.title;heading.appendChild(link);article.appendChild(heading);
-    if(record.kind==='Quran' && record.arabic){
-      const arabic=document.createElement('p');arabic.className='verse-arabic';arabic.lang='ar';arabic.dir='rtl';arabic.textContent=record.arabic;article.appendChild(arabic);
-      if(record.translation){const translation=document.createElement('p');translation.className='verse-translation';translation.lang=language.value;translation.dir=fa?'rtl':'ltr';translation.textContent=record.translation;article.appendChild(translation);}
-    }else{
-      const body=chosen.text;
-      if(body){const p=document.createElement('p');for(const part of highlightedParts(excerpt(body,raw,280),raw)){if(part.match){const mark=document.createElement('mark');mark.textContent=part.text;p.append(mark);}else p.append(document.createTextNode(part.text));}article.appendChild(p);}
+const form = document.getElementById('archive-search-form');
+if (form) {
+  const query = document.getElementById('archive-query'), language = document.getElementById('search-language');
+  const type = document.getElementById('search-type'), status = document.getElementById('search-status');
+  const results = document.getElementById('search-results'), jump = document.getElementById('search-result-navigation');
+  const params = new URLSearchParams(location.search);
+  query.value = params.get('q') || '';
+  language.value = params.get('lang') === 'fa' || (!params.has('lang') && /[\u0600-\u06ff]/.test(query.value)) ? 'fa' : 'en';
+  const selected = params.get('type') === 'Articles' ? 'Studies' : params.get('type');
+  type.value = ['Quran','Roots','Terminology','Studies','Reflection'].includes(selected) ? selected : '';
+  const lang = language.value, fa = lang === 'fa';
+  const text = (en,faText) => fa ? faText : en;
+  document.documentElement.lang = lang;
+  results.dir = jump.dir = fa ? 'rtl' : 'ltr';
+  const labels = {
+    Quran:text('Verse text and translations','متن آیات و ترجمه'),
+    Roots:text('Root study','مطالعهٔ ریشه'),
+    MatchedRoots:text('Matching roots','ریشه‌های مطابق'),
+    Relevant:text('Studies and other matches','مطالعات و دیگر نتیجه‌های مرتبط'),
+    Terminology:text('Qur’an Terminology','مفاهیم قرآنی'),
+    Articles:text('Article','مقاله'),
+    Reflection:text('Ta’wil and reflection','تأویل و تأمل'),
+    Guide:text('Guide','راهنما')
+  };
+  const client = new SearchClient(lang);
+  let generation = 0, timer, vocabulary;
+  const canonical = value => {
+    const url = new URL(value,location.origin);
+    if (url.origin !== location.origin) throw Error('Invalid search destination');
+    return url;
+  };
+  function card(record,fragment,raw) {
+    const data = fragment.meta;
+    let passages;
+    try {passages = JSON.parse(data.passages || '[]');} catch {passages = [];}
+    const locations = record.hit?.words || [];
+    const chosen = selectPassage(passages,raw,data.description,data.original,locations);
+    // Use words actually matched by Pagefind, including English word families.
+    const indexedWords = (fragment.content || '').split(/\s+/);
+    const matchedTerms = [...new Set(locations.map(n=>indexedWords[n]).filter(Boolean))];
+    const displayQuery = matchedTerms.length ? matchedTerms.join(' ') : raw;
+    const url = canonical(record.url);
+    if (record.kind !== 'Quran' && chosen.anchor) url.hash = chosen.anchor;
+    if (raw) url.searchParams.set('highlight',raw);
+    if (record.kind === 'Reflection') url.searchParams.set('in','reflection');
+    const article = document.createElement('article');article.className = 'search-result';
+    article.dataset.kind = record.kind;article.dataset.match = record.reason || 'text';
+    const meta = document.createElement('small');meta.textContent = labels[record.kind]+' · '+text('English','فارسی');
+    article.append(meta);
+    const heading = document.createElement('h3'), link = document.createElement('a');
+    link.href = url.pathname+url.search+url.hash;link.textContent = record.title;heading.append(link);article.append(heading);
+    if (record.kind === 'Quran') {
+      const arabic = document.createElement('p');arabic.className = 'verse-arabic';arabic.lang = 'ar';arabic.dir = 'rtl';arabic.textContent = data.arabic;
+      const translation = document.createElement('p');translation.className = 'verse-translation';translation.lang = lang;translation.textContent = data.translation;
+      article.append(arabic,translation);
+    } else if (chosen.text) {
+      const p = document.createElement('p');
+      for (const part of highlightedParts(excerpt(chosen.text,displayQuery,280),displayQuery)) {
+        if (part.match) {const mark = document.createElement('mark');mark.textContent = part.text;p.append(mark);}
+        else p.append(document.createTextNode(part.text));
+      }
+      article.append(p);
     }
-    if(record.rootMatch){const note=document.createElement('small');note.textContent=fa?'تطبیق با ریشهٔ نشانه‌گذاری‌شده در متن آیه':'Matched an annotated root in the verse text';article.appendChild(note);}
-    container.appendChild(article);
-  }
-  function group(kind){const section=document.createElement('section');section.className='search-result-group';const h=document.createElement('h2');h.textContent=labels[kind];section.appendChild(h);const list=document.createElement('div');section.appendChild(list);results.appendChild(section);return {section,list};}
-  async function renderGroup(kind,found,quick,raw,token,pinned){
-    if(!found.length&&!quick.length)return;
-    const {section,list}=group(kind);let cursor=0;const seen=new Set(pinned);
-    quick.forEach(r=>{if(!seen.has(r.url)){seen.add(r.url);card(r,list,raw);}});
-    const button=document.createElement('button');button.className='library-more';button.type='button';button.textContent=fa?'نتیجه‌های بیشتر در این بخش':'More '+labels[kind].toLowerCase();section.appendChild(button);
-    async function load(){
-      button.disabled=true;const checkpoint=cursor;
-      try{
-        let added=0;
-        while(cursor<found.length&&added<5){
-          const batch=found.slice(cursor,cursor+5-added);cursor+=batch.length;
-          const records=await Promise.all(batch.map(r=>r.data()));if(token!==generation)return;
-          records.forEach(r=>{const key=new URL(r.url,location.origin).pathname+new URL(r.url,location.origin).hash;if(seen.has(key))return;seen.add(key);added++;card({url:r.url,title:r.meta.title,kind,original:r.meta.original,passages:r.meta.passages,description:r.meta.description,verse:r.meta.verse,arabic:r.meta.arabic,translation:r.meta.translation},list,raw);});
-        }
-        button.hidden=cursor>=found.length;
-        if(!list.children.length)section.hidden=true;
-      }catch(error){cursor=checkpoint;if(token===generation){failedGroups++;section.hidden=false;button.textContent=fa?'بارگذاری انجام نشد؛ تلاش دوباره':'Could not load results. Retry';button.hidden=false;}}
-      finally{button.disabled=false;}
+    if (record.reason) {
+      const note = document.createElement('small');note.className = 'result-section';
+      note.textContent = record.reason === 'root'
+        ? text(record.kind === 'Quran' ? 'Matched an annotated root in the verse' : 'Matched the root or one of its word forms',record.kind === 'Quran' ? 'تطبیق با ریشهٔ نشانه‌گذاری‌شده در آیه' : 'تطبیق با ریشه یا یکی از صورت‌های واژه')
+        : text(record.kind === 'Quran' ? 'Linked to this concept in the verse annotations' : 'Matched a concept name or alternative term',record.kind === 'Quran' ? 'پیوند با این مفهوم در نشانه‌گذاری آیه' : 'تطبیق با نام مفهوم یا نام دیگر آن');
+      article.append(note);
     }
-    button.addEventListener('click',load);await load();
+    return article;
   }
-  async function correction(raw,token){
-    if(type.value==='Roots')return;
-    const vocabulary=await (vocabPromise||(vocabPromise=json('/assets/data/vocabulary-'+language.value+'.json')));
-    if(token!==generation)return;
-    const proposed=suggest(raw,vocabulary);if(!proposed)return;
-    const pf=await engine();const check=await pf.search(proposed,{filters:type.value?{type:type.value}:{}});
-    if(token!==generation||!check.results.length)return;
-    const box=document.createElement('p');box.className='search-suggestion';box.append(document.createTextNode(fa?'آیا منظورتان این بود؟ ':'Did you mean '));
-    const button=document.createElement('button');button.type='button';button.textContent=proposed;button.addEventListener('click',()=>{query.value=proposed;run();query.focus();});box.appendChild(button);results.prepend(box);
+  function failure(token) {
+    if (token !== generation) return;
+    results.replaceChildren();jump.replaceChildren();
+    status.textContent = text('Search could not finish loading. Please retry.','بارگذاری جستجو کامل نشد. دوباره تلاش کنید.');
+    const retry = document.createElement('button');retry.type = 'button';retry.className = 'library-more';retry.textContent = text('Retry search','تلاش دوباره');
+    retry.addEventListener('click',run);results.append(retry);
   }
-  async function run(){
-    const token=++generation;failedGroups=0;results.replaceChildren();
-    const raw=query.value.trim(),q=normalize(raw);
-    const url=new URL('/search/',location.origin);if(raw)url.searchParams.set('q',raw);url.searchParams.set('lang',language.value);if(type.value)url.searchParams.set('type',type.value);history.replaceState(null,'',url.pathname+url.search);
-    if(!q){status.textContent=fa?'یک واژه، موضوع یا شماره آیه وارد کنید.':'Enter a word, topic, or verse reference. Try 2:2 or justice.';return;}
-    status.textContent=fa?'در حال جستجو…':'Searching…';
-    try{
-      const data=await manifest();if(token!==generation)return;
-      const published=data.pages.filter(p=>p.lang===language.value&&(!type.value||p.kind===type.value));
-      const reference=q.match(/^(\d{1,3})\s*:\s*(\d{1,3})$/);
-      if(reference){
-        const surah=published.find(p=>p.kind==='Quran'&&Number(p.url.match(/\/(\d{3})-/)?.[1])===Number(reference[1]));
-        const anchor=surah?.anchors?.find(id=>new RegExp('^ayah-0*'+Number(reference[2])+'$').test(id));
-        if(anchor){const matched=(await verses()).find(v=>v.lang===language.value&&v.url===surah.url+'#'+anchor);if(token!==generation)return;const {list}=group('Quran');card(matched||{...surah,url:surah.url+'#'+anchor},list,'');status.textContent=fa?'آیه پیدا شد.':'Verse found.';}
-        else {status.textContent=fa?'این آیه هنوز در آرشیو منتشر نشده است.':'This verse is not yet published in the archive.';if(surah){const {list}=group('Quran');card(surah,list,'');}}return;
-      }
-      const order=categoryOrder(raw,type.value);
-      const pinned=new Set();
-      const pf=await engine();if(token!==generation)return;
-      const searches=await Promise.all(order.map(async kind=>{
-        try{return {kind,found:(await pf.search(q,{filters:{type:kind}})).results};}
-        catch(error){return {kind,found:[],failed:true};}
-      }));
-      if(token!==generation)return;
-      let rootMatches=[],rootVerses=[];
-      if(order.includes('Roots')||order.includes('Quran')){
-        try{const rootData=await aliases();if(token!==generation)return;
-          const matches=new Set(Object.entries(rootData.entries||{}).filter(([slug,terms])=>normalize(slug)===q||terms.some(t=>normalize(t)===q)).map(([slug])=>slug));
-          rootMatches=published.filter(p=>p.kind==='Roots'&&matches.has(p.url.split('/').filter(Boolean).pop()));
-          // Expand only explicit root forms, using annotations in the Arabic verse itself.
-          const rootForm=/^[\u0600-\u06ff]{3,4}$/.test(q.replace(/\s/g,''))||/^(?:[a-z]+[ -]){2,3}[a-z]+$/i.test(raw.trim());
-          if(rootForm&&matches.size&&order.includes('Quran'))rootVerses=(await verses()).filter(v=>v.lang===language.value&&v.roots.some(r=>matches.has(r))).map(v=>({...v,rootMatch:true}));
-
-        }catch(_){/* Full text search remains available if optional aliases fail. */}
-      }
-      for(const {kind,found,failed} of searches){
-        if(token!==generation)return;
-        if(failed){
-          failedGroups++;
-          const {section}=group(kind);const retry=document.createElement('button');retry.type='button';retry.className='library-more';retry.textContent=fa?'بارگذاری این بخش انجام نشد؛ تلاش دوباره':'This section could not load. Retry';retry.addEventListener('click',run);section.appendChild(retry);
-        }
-        // Exact titles stay within their category, never above verse-text matches.
-        const exact=published.filter(p=>p.kind===kind&&kind!=='Quran'&&normalize(p.title)===q);
-        const quick=kind==='Roots'?[...exact,...rootMatches]:kind==='Quran'?rootVerses:exact;
-        await renderGroup(kind,found,quick,raw,token,pinned);
-      }
-      if(token!==generation)return;
-      const hasResults=results.querySelector('.search-result');
-      status.textContent=hasResults?(fa?'نتایج در مطالب منتشرشدهٔ این مجموعه.':'Results from published content in this archive.'):(fa?'نتیجه‌ای پیدا نشد. واژه‌ای کوتاه‌تر یا زبان دیگر را امتحان کنید.':'No results. Try a shorter phrase or the other language.');
-      if(type.value)status.textContent=hasResults?(fa?'نتیجه‌های مرتبط در بخش انتخاب‌شده.':'Relevant results in your selected category.') : status.textContent;
-      if(failedGroups)status.textContent=fa?'بعضی بخش‌ها بارگذاری نشدند؛ از دکمهٔ تلاش دوباره استفاده کنید.':'Some sections could not load. Use their Retry buttons.';
-      if(!hasResults&&!failedGroups)await correction(raw,token).catch(()=>{});
-    }catch(error){if(token!==generation)return;status.textContent=fa?'جستجو در دسترس نیست. دوباره تلاش کنید.':'Search could not load. Please try again.';const retry=document.createElement('button');retry.type='button';retry.className='library-more';retry.textContent=fa?'تلاش دوباره':'Retry search';retry.addEventListener('click',run);results.appendChild(retry);enginePromise=null;manifestPromise=null;vocabPromise=null;aliasPromise=null;}
+  async function render(records,raw,token) {
+    const groups = ['Quran','MatchedRoots','Relevant'].map(bucket=>({bucket,items:records.filter(r=>r.bucket===bucket)})).filter(g=>g.items.length);
+    // Fetch first-screen excerpts together, before exposing an incomplete list.
+    const first = groups.flatMap(g=>g.items.slice(0,5));
+    const fragments = await client.records(first.map(r=>r.id));
+    if (token !== generation) return;
+    const cached = new Map(fragments.map(r=>[r.id,r]));
+    for (const {bucket,items} of groups) {
+      const section = document.createElement('section');section.className = 'search-result-group';section.id = 'results-'+bucket;
+      const heading = document.createElement('h2');heading.textContent = labels[bucket]+' ('+items.length.toLocaleString(lang)+')';
+      const list = document.createElement('div');section.append(heading,list);
+      const nav = document.createElement('a');nav.href = '#'+section.id;nav.textContent = labels[bucket]+' · '+items.length.toLocaleString(lang);jump.append(nav);
+      let cursor = Math.min(5,items.length);
+      for (const record of items.slice(0,cursor)) list.append(card(record,cached.get(record.id),raw));
+      const more = document.createElement('button');more.type = 'button';more.className = 'library-more';more.textContent = text('More results in this section','نتیجه‌های بیشتر در این بخش');more.hidden = cursor >= items.length;
+      more.addEventListener('click',async()=>{
+        more.disabled = true;
+        try {
+          const next = items.slice(cursor,cursor+10);
+          const loaded = await client.records(next.map(r=>r.id));
+          if (token !== generation) return;
+          next.forEach((r,i)=>list.append(card(r,loaded[i],raw)));
+          cursor += next.length;more.hidden = cursor >= items.length;
+        } catch {client.reset();failure(token);}
+        finally {more.disabled = false;}
+      });
+      section.append(more);results.append(section);
+    }
   }
-  form.addEventListener('submit',e=>{e.preventDefault();clearTimeout(timer);run();});
-  query.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(run,250);});
+  async function correction(raw,token) {
+    if (type.value === 'Roots') return;
+    vocabulary ||= client.json('/assets/data/vocabulary-'+lang+'.json').catch(error=>{vocabulary=null;throw error;});
+    const proposed = suggest(raw,await vocabulary);
+    if (!proposed || token !== generation) return;
+    const hits = await client.search(proposed);
+    if (token !== generation || !rankResults(hits,client.catalog,proposed,type.value).length) return;
+    const box = document.createElement('p');box.className = 'search-suggestion';box.append(document.createTextNode(text('Did you mean ','آیا منظورتان این بود؟ ')));
+    const button = document.createElement('button');button.type = 'button';button.textContent = proposed;
+    button.addEventListener('click',()=>{query.value=proposed;run();query.focus();});box.append(button);results.append(box);
+  }
+  async function run() {
+    const token = ++generation, raw = query.value.trim();
+    results.replaceChildren();jump.replaceChildren();
+    const url = new URL('/search/',location.origin);
+    if (raw) url.searchParams.set('q',raw);
+    url.searchParams.set('lang',lang);if (type.value) url.searchParams.set('type',type.value);
+    history.replaceState(null,'',url.pathname+url.search);
+    if (!normalize(raw)) {status.textContent=text('Enter a word, topic, or verse reference. Try 2:106 or naskh.','یک واژه، موضوع یا شماره آیه وارد کنید؛ مثلاً ۲:۱۰۶ یا نسخ.');return;}
+    status.textContent = text('Searching…','در حال جستجو…');
+    try {
+      const exact = /^\s*".+"\s*$/.test(raw);
+      const hits = await client.search(exact ? '"'+normalize(raw)+'"' : normalize(raw));
+      if (token !== generation) return;
+      const reference = parseReference(raw,client.catalog.surahs);
+      const records = reference ? referenceResults(reference,client.catalog) : rankResults(hits,client.catalog,raw,type.value);
+      if (reference) {
+        status.textContent = !reference.valid ? text('That verse reference is not valid.','این شمارهٔ آیه معتبر نیست.')
+          : !records.length ? text('These verses are not yet published in the archive.','این آیات هنوز در مجموعه منتشر نشده‌اند.')
+          : text(`${records.length} published verse${records.length===1?'':'s'} found.`,`${records.length.toLocaleString('fa')} آیهٔ منتشرشده پیدا شد.`);
+      } else status.textContent = records.length ? text(`${records.length} results in published content.`,`${records.length.toLocaleString('fa')} نتیجه در مطالب منتشرشده.`)
+        : text('No results. Try another term or the other language.','نتیجه‌ای پیدا نشد. واژه‌ای دیگر یا زبان دیگر را امتحان کنید.');
+      if (records.length) await render(records,reference?'':raw,token);
+      else if (!reference && !exact) await correction(raw,token);
+    } catch {failure(token);}
+  }
+  form.addEventListener('submit',event=>{event.preventDefault();clearTimeout(timer);run();});
+  query.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(run,350);});
   type.addEventListener('change',()=>{clearTimeout(timer);run();});
-  language.addEventListener('change',()=>{const u=new URL('/search/',location.origin);u.searchParams.set('q',query.value);u.searchParams.set('lang',language.value);if(type.value)u.searchParams.set('type',type.value);try{localStorage.setItem('forqan-language',language.value);}catch(_){}location.assign(u.pathname+u.search);});
+  language.addEventListener('change',()=>{
+    const url = new URL('/search/',location.origin);url.searchParams.set('q',query.value);url.searchParams.set('lang',language.value);
+    if (type.value) url.searchParams.set('type',type.value);
+    try {localStorage.setItem('forqan-language',language.value);} catch {}
+    location.assign(url.pathname+url.search);
+  });
   run();
 }

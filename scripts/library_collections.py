@@ -67,6 +67,7 @@ def prepare(site,pages,sources,redirects):
         if 'terminology' in item['collections']:
             pages[url]['kind']='Terminology'
             item.setdefault('concept',item['title'])
+        pages[url].update({key:item.get(key,default) for key,default in [('concept',''),('aliases',[]),('collections',[]),('description','')]})
         if info.get('date') and not re.fullmatch(r'\d{4}-\d{2}-\d{2}',info['date']):raise ValueError('Invalid date: '+url)
     def members(key,lang):
         rows=[i for i in entries.values() if i['lang']==lang and key in i['collections']]

@@ -104,7 +104,16 @@
     ],
     "concept": "Satan and Taghut",
     "description": "The place of Satan and Taghut in the field of human freedom and moral choice.",
-    "format": "study"
+    "format": "study",
+    "aliases": [
+      "Satan",
+      "Shaytan",
+      "Shaitan",
+      "شیطان",
+      "شيطان",
+      "Taghut",
+      "طاغوت"
+    ]
   },
   {
     "url": "/en/quran-terminology/taqwa/",
@@ -303,7 +312,16 @@
     ],
     "concept": "شیطان و طاغوت",
     "description": "جایگاه شیطان و طاغوت در میدان آزادی و انتخاب اخلاقی انسان.",
-    "format": "study"
+    "format": "study",
+    "aliases": [
+      "Satan",
+      "Shaytan",
+      "Shaitan",
+      "شیطان",
+      "شيطان",
+      "Taghut",
+      "طاغوت"
+    ]
   },
   {
     "url": "/fa/quran-terminology/covenant-in-the-quran/",
@@ -1032,7 +1050,9 @@
       "ن س خ",
       "Naskh",
       "Abrogation",
-      "Abrogated verses"
+      "Abrogated verses",
+      "Abrogated",
+      "Abrogate"
     ],
     "related": [
       "/fa/hadith-critique/rajm-quran-or-hadith/",
@@ -1059,7 +1079,9 @@
       "ن س خ",
       "Naskh",
       "Abrogation",
-      "Abrogated verses"
+      "Abrogated verses",
+      "Abrogated",
+      "Abrogate"
     ],
     "related": [
       "/en/hadith-critique/rajm-quran-or-hadith/",
