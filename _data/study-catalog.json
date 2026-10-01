@@ -1090,5 +1090,77 @@
       "/en/quran-terminology/no-compulsion-and-delivery/",
       "/en/hadith-critique/when-quranic-silence-is-filled-with-reports/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/din-islam-and-shariah-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "دین، اسلام و شریعت",
+    "description": "بررسی نسبت دین، اسلام و شریعت در قرآن؛ تفاوت بندگی، تسلیم، راه مقرر و هویت مذهبی، با تفکیک شواهد قرآنی از بحث اکادمیک و تاریخی.",
+    "format": "study",
+    "aliases": [
+      "دین",
+      "دين",
+      "اسلام",
+      "إسلام",
+      "شریعت",
+      "شريعة",
+      "شرعة",
+      "Dīn",
+      "Din",
+      "Deen",
+      "Islām",
+      "Islam",
+      "Sharīʿah",
+      "Sharia",
+      "Shariah",
+      "Religion",
+      "Surrender",
+      "Prescribed way"
+    ],
+    "related": [
+      "/fa/articles/mumin-or-muslim/",
+      "/fa/quran-terminology/iman/",
+      "/fa/quran-terminology/kafir/",
+      "/fa/quran-terminology/naskh-in-the-quran/",
+      "/fa/quran-terminology/no-compulsion-and-delivery/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/din-islam-and-shariah-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Dīn, Islām, and Sharīʿah",
+    "description": "Dīn, surrender, and the prescribed way in Qur’anic usage: distinguishing devotion and responsibility from communal labels, with a separate discussion of academic definitions and historical identity.",
+    "format": "study",
+    "aliases": [
+      "دین",
+      "دين",
+      "اسلام",
+      "إسلام",
+      "شریعت",
+      "شريعة",
+      "شرعة",
+      "Dīn",
+      "Din",
+      "Deen",
+      "Islām",
+      "Islam",
+      "Sharīʿah",
+      "Sharia",
+      "Shariah",
+      "Religion",
+      "Surrender",
+      "Prescribed way"
+    ],
+    "related": [
+      "/en/articles/mumin-or-muslim/",
+      "/en/quran-terminology/iman/",
+      "/en/quran-terminology/kafir/",
+      "/en/quran-terminology/naskh-in-the-quran/",
+      "/en/quran-terminology/no-compulsion-and-delivery/"
+    ]
   }
 ]
