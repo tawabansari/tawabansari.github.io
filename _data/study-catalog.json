@@ -1120,6 +1120,7 @@
       "Prescribed way"
     ],
     "related": [
+      "/fa/articles/paradise-is-not-a-sectarian-monopoly/",
       "/fa/articles/mumin-or-muslim/",
       "/fa/quran-terminology/iman/",
       "/fa/quran-terminology/kafir/",
@@ -1156,11 +1157,66 @@
       "Prescribed way"
     ],
     "related": [
+      "/en/articles/paradise-is-not-a-sectarian-monopoly/",
       "/en/articles/mumin-or-muslim/",
       "/en/quran-terminology/iman/",
       "/en/quran-terminology/kafir/",
       "/en/quran-terminology/naskh-in-the-quran/",
       "/en/quran-terminology/no-compulsion-and-delivery/"
+    ]
+  },
+  {
+    "url": "/fa/articles/paradise-is-not-a-sectarian-monopoly/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "بررسی انحصار نجات در پرتو قرآن؛ نسبت ایمان، کردار، اهل کتاب، تفاوت شریعت‌ها و مسئولیت انسان در برابر حقیقتی که به او رسیده است.",
+    "format": "study",
+    "aliases": [
+      "بهشت",
+      "نجات",
+      "اهل کتاب",
+      "شریعت",
+      "انحصار نجات",
+      "Paradise",
+      "Salvation",
+      "People of the Book",
+      "Sectarian monopoly"
+    ],
+    "related": [
+      "/fa/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/fa/hadith-critique/double-standards-in-salvation/",
+      "/fa/quran-terminology/iman/",
+      "/fa/quran-terminology/kafir/",
+      "/fa/quran-terminology/naskh-in-the-quran/",
+      "/fa/articles/mumin-or-muslim/"
+    ]
+  },
+  {
+    "url": "/en/articles/paradise-is-not-a-sectarian-monopoly/",
+    "collections": [
+      "reflections"
+    ],
+    "description": "A Qur’anic examination of claims to exclusive salvation: faith, conduct, the People of the Book, differing religious laws, and responsibility for the truth that reaches each person.",
+    "format": "study",
+    "aliases": [
+      "بهشت",
+      "نجات",
+      "اهل کتاب",
+      "شریعت",
+      "انحصار نجات",
+      "Paradise",
+      "Salvation",
+      "People of the Book",
+      "Sectarian monopoly"
+    ],
+    "related": [
+      "/en/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/en/hadith-critique/double-standards-in-salvation/",
+      "/en/quran-terminology/iman/",
+      "/en/quran-terminology/kafir/",
+      "/en/quran-terminology/naskh-in-the-quran/",
+      "/en/articles/mumin-or-muslim/"
     ]
   }
 ]
