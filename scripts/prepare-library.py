@@ -8,6 +8,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from library_content import extract
 from library_enrichment import stable_anchors, unavailable_references
+from verse_references import verse_references
 from library_collections import prepare as prepare_collections
 
 class Page(HTMLParser):
@@ -108,6 +109,7 @@ def main():
             source=re.sub(r'<a([^>]*href="[^"]+"[^>]*)>(.*?)</a>',availability,source,flags=re.S)
             unavailable[url]=len(missing)
         if entry:
+            source=verse_references(source,entry['lang'])
             source=unavailable_references(source,url,entry['lang'],pages,redirects)
         path.write_text(source)
     out=site/'assets/data'; out.mkdir(parents=True,exist_ok=True)

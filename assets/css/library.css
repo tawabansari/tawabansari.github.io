@@ -141,3 +141,9 @@ body .surah-index-page #surahSearch[hidden]{display:none!important}
 body .container .library-home[lang="fa"] .library-welcome h1{font-family:Vazirmatn,sans-serif;line-height:1.65;letter-spacing:normal;font-weight:600}
 .library-home[lang="fa"] .library-eyebrow{letter-spacing:normal}
 .library-home[data-home-language] .library-foundation-links{flex-wrap:wrap}
+
+/* Complete verse numbers stay LTR inside Persian prose, with theme-aware links. */
+body .container a.verse-citation[href]{color:var(--lib-gold);text-decoration:underline;text-underline-offset:.2em;text-decoration-thickness:.06em}
+body .container a.verse-citation[href]:hover{color:var(--lib-text);text-decoration-thickness:.12em}
+body .container a.verse-citation[href]:focus-visible{outline:2px solid var(--lib-gold);outline-offset:3px}
+.verse-citation bdi{white-space:nowrap;unicode-bidi:isolate}
