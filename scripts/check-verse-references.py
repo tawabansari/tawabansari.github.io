@@ -29,3 +29,16 @@ assert verse_references(source,'en').count('data-verse-citation=')==4
 
 protected='<pre>'+source+'</pre>'
 assert verse_references(protected,'en')==protected
+
+# Biblical chapter/verse numbers must not become Qur'an citations, even in
+# cross-reference containers or after a mention of the Qur'an.
+for lang, sample in [
+    ('fa', '<p class="cross-reference">ایوب ۱:۶ و ۲:۱</p>'),
+    ('fa', '<p class="cross-reference">اول پادشاهان ۲۲:۱۹ تا ۲۲:۲۲</p>'),
+    ('fa', '<p class="cross-reference">تثنیه ۱۴:۱</p>'),
+    ('en', '<p class="cross-reference">Job 1:6–12 and 2:1–6</p>'),
+    ('en', '<p class="cross-reference">1 Kings 22:19–22</p>'),
+    ('en', '<p>The Qur’an is compared with Job 38:7.</p>'),
+]:
+    assert verse_references(wrap(sample), lang) == wrap(sample), sample
+print('Passed Biblical citation exclusions in Persian and English.')

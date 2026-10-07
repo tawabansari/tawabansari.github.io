@@ -111,7 +111,7 @@ def verse_references(source, lang):
                 # Subsequent citations in a compact reference list inherit its context.
                 ref_list = bool(re.fullmatch(r'[\s()\[\]،,؛;وand0-9۰-۹٠-٩:：–—−-]*', data))
                 quran_context = bool(re.search(r"(?:قرآن|آیات|آیه|Qur[’']?an|verses?)", before[-100:], re.I))
-                other_source = bool(re.search(r'(?:Genesis|Exodus|Leviticus|Numbers|Deuteronomy|Matthew|Mark|Luke|John|Romans|Corinthians|پیدایش|خروج|لاویان|متی|لوقا|یوحنا|بخاری|مسلم|Bukhari|Sahih)', before[-100:], re.I))
+                other_source = bool(re.search(r'(?:Genesis|Exodus|Leviticus|Numbers|Deuteronomy|Job|Kings|Matthew|Mark|Luke|John|Romans|Corinthians|پیدایش|خروج|لاویان|تثنیه|ایوب|پادشاهان|متی|لوقا|یوحنا|بخاری|مسلم|Bukhari|Sahih)', before[-100:], re.I))
                 return render(m) if not other_source and (citation_context or named or ref_list or quran_context) else m[0]
             replacement = REF.sub(replace, data)
             if replacement != data:self.edits.append((self.source_offset(), self.source_offset()+len(data), replacement))
