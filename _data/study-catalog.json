@@ -1218,5 +1218,57 @@
       "/en/quran-terminology/naskh-in-the-quran/",
       "/en/articles/mumin-or-muslim/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/qibla-wajh-and-hanif-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "قبله",
+    "description": "بررسی قبله در پیوند با وجه، حنیفیت و راه ابراهیم؛ نسبت کعبه و مسجدالحرام با جهت‌گیری فکری، بندگی، تقوا و بازسازی معنای بیت.",
+    "format": "study",
+    "aliases": [
+      "قبله",
+      "قبلة",
+      "Qibla",
+      "Qiblah",
+      "وجه",
+      "Wajh",
+      "حنیف",
+      "Hanif",
+      "کعبه",
+      "Kaaba"
+    ],
+    "related": [
+      "/fa/articles/salat-in-the-quran/",
+      "/fa/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/fa/quran-terminology/no-compulsion-and-delivery/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/qibla-wajh-and-hanif-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Qibla",
+    "description": "Qibla in relation to wajh, hanif devotion, and Abraham’s way: the Kaaba as a physical sign of intellectual and spiritual orientation, and the recovery of the House’s meaning.",
+    "format": "study",
+    "aliases": [
+      "قبله",
+      "قبلة",
+      "Qibla",
+      "Qiblah",
+      "وجه",
+      "Wajh",
+      "حنیف",
+      "Hanif",
+      "کعبه",
+      "Kaaba"
+    ],
+    "related": [
+      "/en/articles/salat-in-the-quran/",
+      "/en/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/en/quran-terminology/no-compulsion-and-delivery/"
+    ]
   }
 ]
