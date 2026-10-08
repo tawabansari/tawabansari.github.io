@@ -1270,5 +1270,59 @@
       "/en/quran-terminology/din-islam-and-shariah-in-the-quran/",
       "/en/quran-terminology/no-compulsion-and-delivery/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/intercession-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "شفاعت",
+    "description": "پژوهشی شش‌بخشی درباره شفاعت، اذن، علم و عدالت الهی؛ مسئولیت انسان، پیوند مستقیم با خداوند و آزمون نظریه جفت‌شوندگی تکوینی اعمال.",
+    "format": "study",
+    "aliases": [
+      "شفاعت",
+      "شفیع",
+      "شفع",
+      "اذن",
+      "Intercession",
+      "Shafaah",
+      "Shafaʿah",
+      "Shafāʿah",
+      "Shafi",
+      "Divine permission"
+    ],
+    "related": [
+      "/fa/quran-terminology/sealing-heart-guidance-misguidance/",
+      "/fa/quran-terminology/divine-decree-and-human-choice/",
+      "/fa/quran-terminology/malik-yawm-ad-din/",
+      "/fa/articles/paradise-is-not-a-sectarian-monopoly/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/intercession-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Intercession",
+    "description": "A six-part study of intercession, divine permission and justice, personal responsibility, direct prayer, and the hypothesis of actions joining supporting causes within God’s created order.",
+    "format": "study",
+    "aliases": [
+      "شفاعت",
+      "شفیع",
+      "شفع",
+      "اذن",
+      "Intercession",
+      "Shafaah",
+      "Shafaʿah",
+      "Shafāʿah",
+      "Shafi",
+      "Divine permission"
+    ],
+    "related": [
+      "/en/quran-terminology/sealing-heart-guidance-misguidance/",
+      "/en/quran-terminology/divine-decree-and-human-choice/",
+      "/en/quran-terminology/malik-owner-of-judgment/",
+      "/en/articles/paradise-is-not-a-sectarian-monopoly/"
+    ]
   }
 ]
