@@ -1,22 +1,9 @@
 import {readFile} from 'node:fs/promises';
 import {prepareDocument} from './document.mjs';
-import {selectVerses} from '../../assets/js/pdf-selection.mjs';
+import {pdfFilename} from '../../assets/js/pdf-catalog.mjs';
+export {selectDocument} from '../../assets/js/pdf-catalog.mjs';
 
-export function selectDocument(input, pages) {
-  if (!input || typeof input.path !== 'string' || input.path.length > 500 || !/^\/(?:en|fa|quran-terminology|quran-reflection)\/[a-z0-9/-]+\/$/.test(input.path)) throw Error('Invalid path');
-  if (input.reflection !== undefined) throw Error('Verse exports always include reflection');
-  if (input.allowPartial !== undefined && typeof input.allowPartial !== 'boolean') throw Error('Invalid partial selection');
-  const entry = pages.find(page => page.url === input.path);
-  if (!entry || !['en','fa'].includes(entry.lang)) throw Error('Unpublished page');
-  if (entry.kind === 'Quran') {
-    const selection = selectVerses(input, entry.anchors || []);
-    if (selection.scope === 'range' && selection.missing.length && input.allowPartial !== true) throw Error('Confirm omitted unpublished verses');
-    return {...entry, ...selection};
-  } else if (!['Articles','Terminology','Roots'].includes(entry.kind) || /\/(?:articles|roots|quran-terminology|hadith-critique|quran-completeness|salat|zakat)\/$/.test(input.path) || input.verse || input.scope || input.from !== undefined || input.to !== undefined) throw Error('Select a study');
-  return {...entry};
-}
-
-export async function renderPDF(browser, selection, {siteOrigin, publicOrigin = siteOrigin}) {
+export async function renderPDF(browser, selection, {siteOrigin, publicOrigin = siteOrigin, stylesheet, fetchSource = fetch}) {
   const context = await browser.newContext({locale:selection.lang, serviceWorkers:'block'});
   const page = await context.newPage();
   const deadline = setTimeout(() => context.close().catch(() => {}), selection.ids?.length > 1 ? 180000 : 60000);
@@ -24,7 +11,7 @@ export async function renderPDF(browser, selection, {siteOrigin, publicOrigin = 
   const documentURL = new URL(selection.url, publicOrigin);
   if (selection.ids?.length === 1) documentURL.hash = selection.ids[0];
   try {
-    const response = await fetch(source, {redirect:'error', signal:AbortSignal.timeout(20000)});
+    const response = await fetchSource(source, {redirect:'error', signal:AbortSignal.timeout(20000)});
     if (!response.ok) throw Error('Source unavailable');
     const html = await response.text();
     if (html.length > 15000000) throw Error('Document too large');
@@ -39,7 +26,7 @@ export async function renderPDF(browser, selection, {siteOrigin, publicOrigin = 
     await page.emulateMedia({media:'print', colorScheme:'light', reducedMotion:'reduce'});
     await page.goto(source.href, {waitUntil:'domcontentloaded',timeout:20000});
     await page.evaluate(prepareDocument, {...selection, sourceURL:documentURL.href, html});
-    const css = (await readFile(new URL('./document.css', import.meta.url), 'utf8')).replaceAll('__ORIGIN__', siteOrigin);
+    const css = (stylesheet ?? await readFile(new URL('./document.css', import.meta.url), 'utf8')).replaceAll('__ORIGIN__', siteOrigin);
     await page.evaluate(cssText => {
       const style = document.createElement('style'); style.textContent = cssText; document.head.append(style);
     }, css);
@@ -54,8 +41,6 @@ export async function renderPDF(browser, selection, {siteOrigin, publicOrigin = 
     const bytes = await page.pdf({format:'A4', preferCSSPageSize:true, printBackground:true, tagged:true, outline:true, timeout:selection.ids?.length > 1 ? 120000 : 30000,
       displayHeaderFooter:true, headerTemplate:'<span></span>',
       footerTemplate:'<div style="font-family:Arial,sans-serif;font-size:9px;color:#666;width:100%;text-align:center"><span class="pageNumber"></span> / <span class="totalPages"></span></div>'});
-    const slug = selection.url.split('/').filter(Boolean).at(-1);
-    const suffix = selection.scope === 'chapter' ? '-published-verses' : selection.ids?.length === 1 ? '-'+selection.ids[0] : selection.ids?.length ? `-verses-${selection.from}-${selection.to}` : '';
-    return {bytes, filename:`forqan-${selection.lang}-${slug}${suffix}.pdf`};
+    return {bytes, filename:pdfFilename(selection)};
   } finally { clearTimeout(deadline); await context.close(); }
 }

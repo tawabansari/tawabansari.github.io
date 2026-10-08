@@ -34,7 +34,9 @@ async function serveStatic(req, res, pathname) {
   if (!file.startsWith(siteDirectory + path.sep) || relative.includes('\0')) { res.writeHead(403).end(); return; }
   try {
     let bytes = await readFile(file);
-    if (file.endsWith('.html')) bytes = Buffer.from(bytes.toString().replace(/<meta name="forqan-pdf-endpoint" content="[^"]*">/, '<meta name="forqan-pdf-endpoint" content="/api/pdf">'));
+    if (file.endsWith('.html')) bytes = Buffer.from(bytes.toString()
+      .replace(/<meta name="forqan-pdf-endpoint" content="[^"]*">/, '<meta name="forqan-pdf-endpoint" content="/api/pdf">')
+      .replace(/<meta name="forqan-pdf-fallback" content="[^"]*">/, '<meta name="forqan-pdf-fallback" content="true">'));
     res.writeHead(200, {'Content-Type':mime[path.extname(file)] || 'application/octet-stream','Cache-Control':'no-store'});
     res.end(req.method === 'HEAD' ? undefined : bytes);
   } catch { res.writeHead(404).end('Not found'); }

@@ -1,6 +1,7 @@
 import {selectVerses, numberRanges} from './pdf-selection.mjs';
+import {createPDFClient} from './pdf-request.mjs';
 
-// Only enabled when a PDF service is configured (or injected by the local preview).
+// An HTTPS service is primary; the optional browser renderer is the fallback.
 export function pdfEndpoint(value, base) {
   try {
     if (!value) return null;
@@ -13,8 +14,12 @@ export function pdfEndpoint(value, base) {
 
 function init() {
   const endpoint = pdfEndpoint(document.querySelector('meta[name="forqan-pdf-endpoint"]')?.content, location.href);
+  const fallback = document.querySelector('meta[name="forqan-pdf-fallback"]')?.content === 'true';
+  let storage;
+  try { storage = window.localStorage; } catch {}
+  const download = createPDFClient({storage});
   const main = document.getElementById('main-content');
-  if (!endpoint || !main || !window.HTMLDialogElement) return;
+  if ((!endpoint && !fallback) || !main || !window.HTMLDialogElement) return;
   const lang = document.documentElement.lang === 'fa' ? 'fa' : 'en', fa = lang === 'fa';
   const num = n => new Intl.NumberFormat(lang, {useGrouping:false}).format(n);
   const verses = [...main.querySelectorAll('.ayah-block[id]')];
@@ -124,19 +129,15 @@ function init() {
   save.addEventListener('click', async () => {
     if (!selection || save.disabled) return;
     release(); const request = new AbortController(); controller = request;
-    const timeout = setTimeout(() => request.abort(), 210000);
+    const timeout = setTimeout(() => request.abort(), 600000);
     save.disabled = scope.disabled = acknowledge.disabled = true;
     status.textContent = fa ? 'در حال آماده‌سازی PDF… مجموعه‌های بزرگ ممکن است کمی زمان ببرند.' : 'Preparing your PDF… Larger selections may take a little longer.';
     try {
-      const response = await fetch(endpoint, {method:'POST', credentials:'omit', signal:request.signal,
-        headers:{'Content-Type':'application/json'}, body:JSON.stringify(selection)});
-      if (!response.ok || !response.headers.get('content-type')?.startsWith('application/pdf')) throw Error('PDF unavailable');
-      const blob = await response.blob();
-      if (!blob.size || (await blob.slice(0,5).text()) !== '%PDF-') throw Error('Invalid PDF');
+      const {blob,filename} = await download(selection,{endpoint,fallback,signal:request.signal});
       if (!dialog.open || controller !== request) return;
       downloadURL = URL.createObjectURL(blob);
       const link = document.createElement('a'); link.href = downloadURL;
-      link.download = response.headers.get('content-disposition')?.match(/filename="([a-zA-Z0-9._-]+)"/)?.[1] || `forqan-${lang}.pdf`;
+      link.download = filename;
       link.textContent = fa ? 'دریافت دوبارهٔ فایل PDF' : 'Download the PDF again';
       status.replaceChildren(document.createTextNode(fa ? 'فایل آماده است. ' : 'Your PDF is ready. '), link);
       link.click();

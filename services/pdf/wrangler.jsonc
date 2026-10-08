@@ -1,0 +1,11 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "forqan-pdf",
+  "main": "cloudflare.mjs",
+  "compatibility_date": "2026-10-07",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "browser": {"binding": "BROWSER"},
+  "vars": {"SITE_ORIGIN": "https://forqan.co"},
+  "rules": [{"type":"Text", "globs":["**/*.css"], "fallthrough":true}]
+}

@@ -1,5 +1,5 @@
 // Parse the source as an inert document; only cleaned content enters the renderer.
-export function prepareDocument({ids, scope, from, to, missing = [], title, lang, sourceURL, html}) {
+export function prepareDocument({ids, scope, from, to, missing = [], title, lang, sourceURL, html}, document = globalThis.document) {
   const sourceDocument = html ? new DOMParser().parseFromString(html, 'text/html') : document;
   const main = sourceDocument.getElementById('main-content');
   if (!main) throw Error('Content not found');

@@ -3,8 +3,9 @@ description: Qur’an translation, Qur’an-by-Qur’an reflection, Qur’anic r
 url: "https://forqan.co"
 baseurl: ""
 
-# Set to the hosted PDF service URL after deployment. Empty keeps it off publicly.
+# Set the hosted primary URL after deployment. Both options off keeps downloads hidden.
 pdf_endpoint: ""
+pdf_fallback: false
 
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/

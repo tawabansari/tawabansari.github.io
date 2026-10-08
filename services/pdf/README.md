@@ -13,13 +13,54 @@ pnpm run build
 pnpm run preview:pdf
 ```
 
-Open `http://127.0.0.1:4003`. This preview serves `_site` and injects the local service endpoint into its responses. A plain static preview does not enable PDF downloads. On systems with Chrome already installed, `PDF_BROWSER_PATH` can point to that executable instead of installing Chromium.
+Open `http://127.0.0.1:4003`. This preview serves `_site` and enables the local service plus the browser fallback. A plain static preview respects the production configuration. On systems with Chrome already installed, `PDF_BROWSER_PATH` can point to that executable instead of installing Chromium.
 
 Each article/root study has a Download PDF button; every verse has its own PDF button. The verse dialog offers this verse, a range within the chapter, or all published verses. All three include Arabic, the page-language translation, and reflection; Cross-References are always excluded. A range containing unpublished verses requires explicit confirmation and lists the omitted verses in the PDF. Missing reflections are labeled. Multi-verse documents have a linked contents list and preserve Qur’anic order. An article includes its full body and collapsed sections. PDFs use A4 paper, embedded fonts, source links, attribution, and page numbers. The light document style is independent of the reader's screen theme or font-size settings.
 
-## Hosting (not deployed)
+## Free primary and automatic browser fallback (not deployed)
 
-GitHub Pages cannot execute this service. Run `node services/pdf/server.mjs` on a separate Node host with Chromium and its OS dependencies. It needs this service directory, `assets/js/pdf-selection.mjs` (preserving its relative path), and the `playwright` dependency, not a copy of `_site`. Configure:
+`cloudflare.mjs` adapts the Chromium renderer to Cloudflare Workers + Browser Run.
+`wrangler.jsonc` declares its browser binding and permitted site origin. It does not
+subscribe to a paid plan. Cloudflare currently provides 10 browser minutes per day
+on the free plan, shared across the account, with three concurrent browsers and
+one new browser per 20 seconds. See the official [limits](https://developers.cloudflare.com/browser-run/limits/).
+
+The same download action first calls `pdf_endpoint`. Quota/rate-limit responses,
+server failures, network failures, and timeouts automatically continue in a local
+Web Worker. A quota response's Retry-After is remembered on that device, so later
+downloads use the fallback until the primary can be tried again. Request validation
+errors do not bypass the service. Closing the dialog cancels the request or terminates
+local rendering; it cannot create a late duplicate download.
+
+The fallback is built by `scripts/build-pdf-client.mjs`, loaded only when needed,
+and generates selectable text with embedded Vazirmatn and Amiri fonts. Both engines
+use the same published-content catalog, selection validation, document cleaner,
+opening text, and filenames. They generate PDFs on demand and do not store them.
+Long documents render in small sequential workers and are merged into one file with continuous page numbers and working verse destinations. Page breaks can differ. The browser renderer uses regular Amiri: all Qur’anic marks
+remain, but its font engine cannot embed the colored Amiri font. Large chapter
+exports also depend on the phone's available memory. Physical iPhone testing is
+required before release; desktop mobile emulation cannot establish those limits.
+
+Deployment sequence:
+
+1. Publish the built site catalog and browser assets with `pdf_endpoint: ""` and
+   `pdf_fallback: false`, keeping the feature hidden while hosting is set up.
+2. Sign into the intended Cloudflare account with `pnpm exec wrangler login`.
+3. Deploy with `pnpm exec wrangler deploy --config services/pdf/wrangler.jsonc`.
+   Keep the account on the free plan. Test real Persian/English requests, including
+   long selections, and inspect Worker CPU/memory usage before enabling downloads.
+4. Set `pdf_endpoint` to the returned HTTPS workers.dev URL plus `/api/pdf`, set
+   `pdf_fallback: true`, and rebuild/deploy GitHub Pages.
+5. Verify real primary downloads and a forced 429 fallback on desktop and iPhone.
+
+Credentials belong in Cloudflare's CLI/account, never in Jekyll or browser code.
+The endpoint accepts only catalogued pages and verse IDs. An Origin check is not
+authentication: a non-browser caller can forge it and consume the small free quota.
+Cloudflare's browser limits bound that usage; the client fallback remains available.
+
+## Alternative Node host
+
+GitHub Pages cannot execute this service. Run `node services/pdf/server.mjs` on a separate Node host with Chromium and its OS dependencies. It needs this service directory, `assets/js/pdf-selection.mjs` and `assets/js/pdf-catalog.mjs` (preserving their relative paths), and the `playwright` dependency, not a copy of `_site`. Configure:
 
 - `SITE_ORIGIN=https://forqan.co`: the only site the renderer can read.
 - `PUBLIC_ORIGIN=https://forqan.co`: canonical source links printed in PDFs.
@@ -29,8 +70,15 @@ GitHub Pages cannot execute this service. Run `node services/pdf/server.mjs` on 
 
 Put it behind HTTPS and a per-client request limiter at the host/proxy. The process limits rendering to two simultaneous jobs and 60 seconds per single-study/verse job or 180 seconds for multiple verses; excess work returns a retryable response. An Origin check does not stop non-browser callers, so platform rate limiting is required before public launch. Only existing catalog entries and published verse IDs are accepted; arbitrary URLs, HTML, redirects, and external asset requests are rejected. Images must be hosted on the site, or the export fails visibly rather than silently dropping them.
 
-Then set `_config.yml`'s `pdf_endpoint` to the service's HTTPS `/api/pdf` URL and rebuild/deploy the site. Until that is configured the public site's buttons stay hidden. No API secret belongs in Jekyll configuration or browser code. Confirm that the production renderer has sandboxing and the required Chromium dependencies on the chosen host.
+Then set `_config.yml`'s `pdf_endpoint` to the service's HTTPS `/api/pdf` URL and rebuild/deploy the site. Enable `pdf_fallback` for automatic local recovery. With neither configured, the public site's buttons stay hidden. No API secret belongs in Jekyll configuration or browser code. Confirm that the production renderer has sandboxing and the required Chromium dependencies on the chosen host.
 
 ## Checks
 
 `node scripts/check-pdf-download.mjs` checks request restrictions and bilingual integration after a build. `pnpm run check:pdf` generates representative PDFs and validates the cleaned export document using Chromium. Visually inspect Persian text, Arabic diacritics, mixed-direction paragraphs, tables, page breaks, and long reflections in the generated files under the OS temp directory. A real iPhone download/save check remains part of release review.
+
+`node scripts/check-pdf-failover.mjs` tests recovery, cooldown expiry, cancellation,
+validation errors, and corrupt responses. `node scripts/check-pdf-cloudflare.mjs`
+tests the Cloudflare handler without a live account. `pnpm run check:pdf:fallback`
+forces quota failures and exports both languages, including whole published chapters,
+while checking that later requests bypass the limited service. Outputs are in
+`/tmp/forqan-pdf-fallback` unless `PDF_TEST_OUTPUT` is set.
