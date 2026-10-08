@@ -1,5 +1,9 @@
 # Forqan local library preview
 
+## Direct PDF download preview
+
+After building, run `pnpm run preview:pdf` and open `http://127.0.0.1:4003` to review on-demand article and verse downloads. The PDF preview requires Chromium (`pnpm exec playwright install chromium`, or set `PDF_BROWSER_PATH` to an installed Chrome executable). Each verse button offers a single verse, a range, or all published verses in the chapter. Every verse export includes Arabic, the page-language translation, and reflection, and excludes the Cross-References section. Missing verses require confirmation for range exports; multi-verse PDFs have a linked contents list. Persian/Arabic fonts are embedded; the PDF has selectable text, source links, and page numbers. See `services/pdf/README.md` for the renderer and hosting setup. This is local only until a separate PDF service is hosted and `pdf_endpoint` is configured; ordinary GitHub Pages cannot generate the PDFs itself.
+
 ## Search relevance and recovery
 
 Search now shows verse matches first (literal matches ahead of clearly labeled root/concept connections), then roots matched through a recognized root name or word form. Remaining studies, ta’wil, and incidental root mentions share a relevance-ranked group. Dedicated concept aliases and exact titles lead that group. Result counts link directly to each group.

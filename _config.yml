@@ -3,6 +3,9 @@ description: Qur’an translation, Qur’an-by-Qur’an reflection, Qur’anic r
 url: "https://forqan.co"
 baseurl: ""
 
+# Set to the hosted PDF service URL after deployment. Empty keeps it off publicly.
+pdf_endpoint: ""
+
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
 
@@ -43,6 +46,7 @@ exclude:
   - vendor
   - node_modules
   - scripts
+  - services
   - package.json
   - pnpm-lock.yaml
   - pnpm-workspace.yaml

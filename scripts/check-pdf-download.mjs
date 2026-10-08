@@ -1,0 +1,43 @@
+import assert from 'node:assert/strict';
+import {readFileSync,existsSync} from 'node:fs';
+import {selectDocument} from '../services/pdf/render.mjs';
+import {pdfEndpoint} from '../assets/js/pdf-download.mjs';
+import {selectVerses,numberRanges} from '../assets/js/pdf-selection.mjs';
+const pages = JSON.parse(readFileSync('_site/assets/data/library.json','utf8')).pages;
+const configured = readFileSync('_config.yml','utf8').match(/^pdf_endpoint:\s*"([^"]*)"/m)?.[1];
+assert.notEqual(configured,undefined);
+assert.equal(existsSync('_site/services/pdf/server.mjs'),false,'Backend code must not be published with Jekyll');
+for (const lang of ['en','fa']) {
+  const study = `/${lang}/quran-terminology/naskh-in-the-quran/`;
+  assert.equal(selectDocument({path:study},pages).lang,lang);
+  const chapter = `/quran-reflection/${lang}/002-al-baqarah/`;
+  assert.deepEqual(selectDocument({path:chapter,verse:'ayah-106'},pages).ids,['ayah-106']);
+  assert.equal(selectDocument({path:chapter,scope:'range',from:3,to:12},pages).ids.length,10);
+  const all = selectDocument({path:chapter,scope:'chapter'},pages);
+  assert.ok(all.ids.length > 100);
+  assert.equal(all.ids.at(0),'ayah-001');
+  assert.equal(all.ids.at(-1),pages.find(p => p.url === chapter).anchors.filter(a => /^ayah-\d{3}$/.test(a)).sort().at(-1));
+  for (const input of [{scope:'range',from:12,to:3},{scope:'range',from:'3',to:12},{scope:'range',from:0,to:12},{scope:'range',from:1,to:287},{scope:'range',from:280,to:286},{scope:'invalid'}]) assert.throws(() => selectDocument({path:chapter,...input},pages));
+  for (const input of [{path:chapter},{path:chapter,verse:'ayah-999'},{path:chapter,verse:'ayah-106',reflection:'yes'},{path:study,verse:'ayah-106'}]) assert.throws(() => selectDocument(input,pages));
+  const html = readFileSync(`_site${study}index.html`,'utf8');
+  assert.ok(html.includes('/assets/js/pdf-download.mjs'));
+  if (!configured) assert.ok(html.includes('name="forqan-pdf-endpoint" content=""'), 'Production feature must remain off before service deployment');
+  else assert.ok(pdfEndpoint(configured,'https://forqan.co/'));
+}
+// Sparse and unordered catalogs must not silently fill gaps or duplicate verses.
+const sparse = [{url:'/quran-reflection/fa/002-al-baqarah/',kind:'Quran',lang:'fa',anchors:['ayah-012','other','ayah-003','ayah-004','ayah-004']}];
+const range = {path:sparse[0].url,scope:'range',from:3,to:12};
+assert.throws(() => selectDocument(range,sparse),/Confirm/);
+const partial = selectDocument({...range,allowPartial:true},sparse);
+assert.deepEqual(partial.ids,['ayah-003','ayah-004','ayah-012']);
+assert.deepEqual(partial.missing,[5,6,7,8,9,10,11]);
+assert.deepEqual(selectVerses({scope:'chapter'},sparse[0].anchors).ids,partial.ids);
+assert.equal(numberRanges([1,2,3,5,7,8]),'1–3, 5, 7–8');
+assert.equal(numberRanges([3,4,5],'fa'),'۳–۵');
+for (const value of ['https://elsewhere.test/en/articles/a/','/en/quran-terminology/','/en/articles/','/en/not-published/','/en/../secret/','/en/articles/%2e%2e/','//forqan.co/en/articles/a/','/en/articles/a/?secret=1']) assert.throws(() => selectDocument({path:value},pages));
+assert.equal(pdfEndpoint('', 'https://forqan.co/'),null);
+assert.equal(pdfEndpoint('http://evil.test/api/pdf','https://forqan.co/'),null);
+assert.equal(pdfEndpoint('javascript:alert(1)','https://forqan.co/'),null);
+assert.equal(pdfEndpoint('/api/pdf','http://127.0.0.1:4003/'),'http://127.0.0.1:4003/api/pdf');
+assert.equal(pdfEndpoint('https://pdf.forqan.co/api/pdf','https://forqan.co/'),'https://pdf.forqan.co/api/pdf');
+console.log('Passed PDF request restrictions, single/range/chapter selection, gaps and ordering, endpoint validation, and bilingual integration.');

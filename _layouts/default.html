@@ -2370,6 +2370,9 @@
 <link rel="stylesheet" href="/assets/css/reading-panel.css">
 <script>if(window.self!==window.top && new URLSearchParams(location.search).get('reading-panel')==='1')document.documentElement.classList.add('study-embedded');</script>
 <script type="module" src="/assets/js/reading-panel.mjs"></script>
+<meta name="forqan-pdf-endpoint" content="{{ site.pdf_endpoint | escape }}">
+<link rel="stylesheet" href="/assets/css/pdf-download.css">
+<script type="module" src="/assets/js/pdf-download.mjs"></script>
 </head>
 
 <body class="lang-{% if page.url contains '/fa/' %}fa{% else %}en{% endif %}">
