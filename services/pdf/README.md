@@ -17,7 +17,11 @@ Open `http://127.0.0.1:4003`. This preview serves `_site` and enables the local 
 
 Each article/root study has a Download PDF button; every verse has its own PDF button. The verse dialog offers this verse, a range within the chapter, or all published verses. All three include Arabic, the page-language translation, and reflection; Cross-References are always excluded. A range containing unpublished verses requires explicit confirmation and lists the omitted verses in the PDF. Missing reflections are labeled. Multi-verse documents have a linked contents list and preserve Qur’anic order. An article includes its full body and collapsed sections. PDFs use A4 paper, embedded fonts, source links, attribution, and page numbers. The light document style is independent of the reader's screen theme or font-size settings.
 
-## Free primary and automatic browser fallback (not deployed)
+## Free primary and automatic browser fallback
+
+Production endpoint: `https://forqan-pdf.ansaritawab.workers.dev/api/pdf`.
+Deployed to the existing Cloudflare account on its free plan. The site's
+`pdf_endpoint` and `pdf_fallback` settings enable the primary and automatic recovery.
 
 `cloudflare.mjs` adapts the Chromium renderer to Cloudflare Workers + Browser Run.
 `wrangler.jsonc` declares its browser binding and permitted site origin. It does not
@@ -38,8 +42,8 @@ use the same published-content catalog, selection validation, document cleaner,
 opening text, and filenames. They generate PDFs on demand and do not store them.
 Long documents render in small sequential workers and are merged into one file with continuous page numbers and working verse destinations. Page breaks can differ. The browser renderer uses regular Amiri: all Qur’anic marks
 remain, but its font engine cannot embed the colored Amiri font. Large chapter
-exports also depend on the phone's available memory. Physical iPhone testing is
-required before release; desktop mobile emulation cannot establish those limits.
+exports also depend on the phone's available memory. Physical iPhone download/save
+testing is the remaining device review; desktop mobile emulation cannot establish those limits.
 
 Deployment sequence:
 
@@ -52,6 +56,11 @@ Deployment sequence:
 4. Set `pdf_endpoint` to the returned HTTPS workers.dev URL plus `/api/pdf`, set
    `pdf_fallback: true`, and rebuild/deploy GitHub Pages.
 5. Verify real primary downloads and a forced 429 fallback on desktop and iPhone.
+
+The live Chromium renderer has been checked with Persian and English verse PDFs
+and a full published Persian chapter. Fetches use `redirect: 'manual'` and reject
+non-success responses, because the Workers runtime does not support `redirect: 'error'`.
+Runtime errors log only the processing stage and a bounded message for diagnosis.
 
 Credentials belong in Cloudflare's CLI/account, never in Jekyll or browser code.
 The endpoint accepts only catalogued pages and verse IDs. An Origin check is not

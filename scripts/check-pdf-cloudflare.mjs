@@ -16,7 +16,7 @@ try {
   const pages=[{url:'/en/articles/example/',title:'Example',kind:'Articles',lang:'en'}];
   const input={path:pages[0].url};
   const request=(data=input,headers={},method='POST')=>new Request(url,{method,headers:{Origin:origin,'Content-Type':'application/json',...headers},...(method==='POST'?{body:JSON.stringify(data)}:{})});
-  const catalog=async()=>Response.json({pages});
+  const catalog=async(url,options)=>{assert.equal(options.redirect,'manual');return Response.json({pages});};
   let closed=0,rendered=0;
   const handler=createHandler({fetcher:catalog,launchBrowser:async()=>({close:async()=>closed++}),render:async(browser,selection)=>{rendered++;assert.equal(selection.url,pages[0].url);return {bytes:new TextEncoder().encode('%PDF-test'),filename:'forqan-en-example.pdf'};}});
   let response=await handler(request(),{SITE_ORIGIN:origin});
@@ -27,6 +27,8 @@ try {
   assert.equal((await handler(request({path:'https://bad.example'}),{})).status,400);
   assert.equal((await handler(request({path:'x'.repeat(3000)}),{})).status,413);
   assert.equal(rendered,1);
+  const redirected=createHandler({fetcher:async()=>new Response(null,{status:302,headers:{Location:'https://bad.example'}}),launchBrowser:async()=>{throw Error('Must not follow a redirected catalog');}});
+  assert.equal((await redirected(request(),{})).status,503);
   for (const [message,status,reason] of [['Browser time limit exceeded',429,'daily-limit'],['429 too many sessions',429,'busy'],['Connection failed',503,'unavailable']]) {
     const failing=createHandler({fetcher:catalog,launchBrowser:async()=>{throw Error(message);}});
     response=await failing(request(),{});

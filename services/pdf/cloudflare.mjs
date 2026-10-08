@@ -32,19 +32,22 @@ export function createHandler({launchBrowser = launch, render = renderPDF, fetch
       }
       input = JSON.parse(body + decoder.decode());
     } catch { return reply('Invalid request',400); }
-    let browser;
+    let browser, stage = 'catalog';
     try {
-      const response = await fetcher(`${origin}/assets/data/pdf-catalog.json`,{redirect:'error'});
+      const response = await fetcher(`${origin}/assets/data/pdf-catalog.json`,{redirect:'manual'});
       if (!response.ok) throw Error('Catalog unavailable');
       let selection;
       try { selection = selectDocument(input,(await response.json()).pages); }
       catch { return reply('Select a published study or verse',400); }
+      stage = 'browser';
       browser = await launchBrowser(env.BROWSER);
+      stage = 'render';
       const result = await render(browser,selection,{siteOrigin:origin,publicOrigin:origin,stylesheet,fetchSource:fetcher});
       return reply(result.bytes,200,{'Content-Type':'application/pdf',
         'Content-Disposition':`attachment; filename="${result.filename}"`});
     } catch (error) {
       const message = String(error?.message || error);
+      console.error('PDF generation failed', {stage, message:message.slice(0,500)});
       const daily = /time limit exceeded|daily|for today/i.test(message);
       const limited = daily || error?.status === 429 || /429|too many|rate limit|concurrent/i.test(message);
       const retry = daily ? Math.ceil((new Date().setUTCHours(24,0,0,0)-Date.now())/1000) : 30;

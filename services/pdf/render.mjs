@@ -11,7 +11,7 @@ export async function renderPDF(browser, selection, {siteOrigin, publicOrigin = 
   const documentURL = new URL(selection.url, publicOrigin);
   if (selection.ids?.length === 1) documentURL.hash = selection.ids[0];
   try {
-    const response = await fetchSource(source, {redirect:'error', signal:AbortSignal.timeout(20000)});
+    const response = await fetchSource(source, {redirect:'manual', signal:AbortSignal.timeout(20000)});
     if (!response.ok) throw Error('Source unavailable');
     const html = await response.text();
     if (html.length > 15000000) throw Error('Document too large');
