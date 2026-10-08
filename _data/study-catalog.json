@@ -1324,5 +1324,61 @@
       "/en/quran-terminology/malik-owner-of-judgment/",
       "/en/articles/paradise-is-not-a-sectarian-monopoly/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/imamah-in-the-quran/",
+    "collections": [
+      "terminology",
+      "reflections"
+    ],
+    "concept": "امامت",
+    "description": "بررسی امام و امامت در کاربردهای قرآن؛ جایگاه ابراهیم، تفاوت پیشوایی و حقانیت، عهد الهی و نسب، و مسئله رهبری پس از محمد.",
+    "format": "study",
+    "aliases": [
+      "امامت",
+      "امام",
+      "ائمه",
+      "ابراهیم",
+      "Imamah",
+      "Imama",
+      "Imamate",
+      "Imam",
+      "Abraham",
+      "Ibrahim",
+      "Leadership"
+    ],
+    "related": [
+      "/fa/quran-terminology/qibla-wajh-and-hanif-in-the-quran/",
+      "/fa/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/fa/articles/paradise-is-not-a-sectarian-monopoly/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/imamah-in-the-quran/",
+    "collections": [
+      "terminology",
+      "reflections"
+    ],
+    "concept": "Imamah",
+    "description": "A Qur’anic study of imamah, Abraham’s example, leadership and legitimacy, divine covenant and ancestry, and the question of leadership after Muhammad.",
+    "format": "study",
+    "aliases": [
+      "امامت",
+      "امام",
+      "ائمه",
+      "ابراهیم",
+      "Imamah",
+      "Imama",
+      "Imamate",
+      "Imam",
+      "Abraham",
+      "Ibrahim",
+      "Leadership"
+    ],
+    "related": [
+      "/en/quran-terminology/qibla-wajh-and-hanif-in-the-quran/",
+      "/en/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/en/articles/paradise-is-not-a-sectarian-monopoly/"
+    ]
   }
 ]
