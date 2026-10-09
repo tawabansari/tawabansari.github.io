@@ -1,16 +1,8 @@
 import {selectVerses, numberRanges} from './pdf-selection.mjs';
 import {createPDFClient} from './pdf-request.mjs';
+import {pdfEndpoint} from './pdf-settings.mjs';
 
-// An HTTPS service is primary; the optional browser renderer is the fallback.
-export function pdfEndpoint(value, base) {
-  try {
-    if (!value) return null;
-    const url = new URL(value, base);
-    if (url.protocol !== 'https:' && !(url.protocol === 'http:' && ['localhost', '127.0.0.1', '[::1]'].includes(url.hostname))) return null;
-    if (url.username || url.password) return null;
-    return url.href;
-  } catch { return null; }
-}
+export {pdfEndpoint} from './pdf-settings.mjs';
 
 function init() {
   const endpoint = pdfEndpoint(document.querySelector('meta[name="forqan-pdf-endpoint"]')?.content, location.href);

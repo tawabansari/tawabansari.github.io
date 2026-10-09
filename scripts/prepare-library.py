@@ -40,7 +40,7 @@ def main():
         if 'pagefind' in path.parts: continue
         source = path.read_text(); rel = path.relative_to(site).as_posix()
         url = '/' + (rel[:-10] if rel.endswith('index.html') else rel)
-        if '<main class="container"' not in source: continue
+        if not re.search(r'<main\b[^>]*\bid="main-content"',source): continue
         redirect = re.search(r'<meta[^>]+http-equiv=["\x27]refresh["\x27][^>]+content=["\x27][^"\x27]*url=([^"\x27]+)', source, re.I)
         if redirect:
             redirects[url] = html.unescape(redirect[1]); sources[url] = (path, source); continue

@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {browse,initial} from '../assets/js/collection-browser.mjs';
+import {browse,initial,availableLetters} from '../assets/js/collection-browser.mjs';
 const rows=Array.from({length:105},(_,i)=>({title:`Study ${i}`,search:`Study ${i} ${i===104?'Salat prayer صلوة':''}`,initial:i<60?'A':'B'}));
 assert.equal(browse(rows).visible.length,105);
 assert.equal(browse(rows,{query:'prayer'}).visible[0],rows[104]);
@@ -19,4 +19,29 @@ assert.deepEqual(browse(dated).visible,dated,'Suggested editorial order is prese
 assert.equal(dated[0].title,'Zebra','Sorting must not change the original reading order');
 assert.deepEqual(browse([{title:'زکات',search:'زکات'},{title:'ایمان',search:'ایمان'},{title:'آیه',search:'آیه'}],{sort:'alphabetical',lang:'fa'}).visible.map(r=>r.title),['ایمان','آیه','زکات']);
 assert.equal(browse(rows,{sort:'alphabetical'}).visible.at(-1),rows[104]);
-console.log('Passed all 105 titles, whole-directory search, Persian/Arabic normalization, natural alphabetical order, newest/undated order, and unchanged editorial order.');
+const formats=[{title:'Salat',search:'Salat prayer',format:'book'},{title:'Prayer',search:'Prayer and faith',format:'essay'},{title:'Faith',search:'Faith',format:'study'}];
+assert.deepEqual(browse(formats,{format:'book',query:'prayer'}).visible,[formats[0]]);
+assert.equal(browse(formats,{format:'essay',query:'Salat'}).total,0);
+assert.equal(browse(formats,{format:'all'}).total,3);
+const directory=Array.from({length:105},(_,i)=>({title:`${i<60?'Alpha':'Beta'} ${i}`,search:`Study ${i} prayer`,format:i%2?'book':'essay'}));
+assert.deepEqual(availableLetters(directory),['a','b']);
+assert.equal(browse(directory,{letter:'B'}).total,45);
+assert.equal(browse(directory,{letter:'B',query:'prayer',format:'book'}).total,22);
+assert.equal(browse(directory,{letter:'B',query:'absent'}).total,0);
+assert.equal(browse(directory,{letter:''}).total,105);
+assert.deepEqual(browse(directory,{letter:'B'}).visible,directory.slice(60),'Letter filtering preserves editorial order');
+const persian=[
+  {title:'«آیات»',initial:'«',search:'آیات قرآن'},
+  {title:'إِیمان',search:'ایمان'},
+  {title:'كِتاب',search:'کتاب'},
+  {title:'یقین',search:'یقین'},
+  {title:'يُوسف',search:'یوسف'}
+];
+assert.deepEqual(availableLetters(persian,'fa'),['ا','ک','ی']);
+assert.deepEqual(browse(persian,{letter:'آ'}).visible,persian.slice(0,2));
+assert.equal(browse(persian,{letter:'ک'}).visible[0],persian[2]);
+assert.equal(browse(persian,{letter:'ي'}).total,2);
+assert.deepEqual(availableLetters(persian,'fa'),['ا','ک','ی'],'Filtering never removes choices from the directory');
+assert.equal(initial(null),'');
+assert.equal(browse(persian,{letter:'ا',query:'قرآن'}).total,1);
+console.log('Passed 105-title browsing, letter/text/type combinations, Persian/Arabic initials, title punctuation, and preserved reading order.');

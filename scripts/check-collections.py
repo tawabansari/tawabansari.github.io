@@ -2,7 +2,9 @@
 import json,sys
 from pathlib import Path
 from library_content import Document,clean
-from library_collections import alphabet
+from library_collections import alphabet,preview_topics
+fixture=Document('<main><nav><h2>Navigation title</h2></nav><h2>Contents</h2><h2>1. Introduction</h2><h2>First topic</h2><blockquote><h2>Quoted heading</h2></blockquote><h2>Second topic</h2><h2>Third topic</h2><h2>Fourth topic</h2><h2>Conclusion</h2></main>').root
+assert preview_topics(fixture)==['First topic','Third topic','Fourth topic']
 site=Path(sys.argv[1] if len(sys.argv)>1 else '_site')
 data=json.loads((site/'assets/data/collections.json').read_text())
 entries={e['url']:e for e in data['studies']}
@@ -23,7 +25,10 @@ for collection in data['collections']:
         assert entries[url]['title'] == link.attrs.get('title') or entries[url]['title'] in clean(link),url
         seen.add(url)
         assert link.attrs.get('data-preview-summary')==entries[url]['preview'],url
-        assert len(entries[url]['preview'])<=421,url
+        assert len(entries[url]['preview'])<=601,url
+        assert entries[url]['format'] in ('book','study','essay'),url
+        assert json.loads(link.attrs['data-preview-topics'])==entries[url]['topics'],url
+        assert len(entries[url]['topics'])<=3,url
     starts=[e for e in root.walk() if e.has_class('study-start')]
     assert len(starts)==int('/quran-completeness/' in collection['url'] or '/hadith-critique/' in collection['url']),collection['url']
     if '/quran-terminology/' in collection['url']:
@@ -32,6 +37,7 @@ for collection in data['collections']:
         assert concepts==sorted(concepts,key=lambda c:alphabet(c,lang))
         for slug in ('salat-in-the-quran','zakat-and-its-historical-distortion','book-of-riba-beyond-interest'):
             assert '/'+lang+'/articles/'+slug+'/' in urls
+            assert entries['/'+lang+'/articles/'+slug+'/']['format']=='book'
 assert seen==set(entries),'Study absent from all collections'
 for lang in ('en','fa'):
     other='fa' if lang=='en' else 'en'

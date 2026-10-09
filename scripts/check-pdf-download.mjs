@@ -4,6 +4,8 @@ import {selectDocument} from '../services/pdf/render.mjs';
 import {pdfEndpoint} from '../assets/js/pdf-download.mjs';
 import {selectVerses,numberRanges} from '../assets/js/pdf-selection.mjs';
 const pages = JSON.parse(readFileSync('_site/assets/data/library.json','utf8')).pages;
+const collections=JSON.parse(readFileSync('_site/assets/data/collections.json','utf8'));
+for(const study of collections.studies) assert.equal(selectDocument({path:study.url},pages).url,study.url,'Every preview download must select a published study');
 const configured = readFileSync('_config.yml','utf8').match(/^pdf_endpoint:\s*"([^"]*)"/m)?.[1];
 assert.notEqual(configured,undefined);
 assert.equal(existsSync('_site/services/pdf/server.mjs'),false,'Backend code must not be published with Jekyll');

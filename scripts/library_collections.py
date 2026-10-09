@@ -3,13 +3,13 @@ import json
 import re
 from pathlib import Path
 from html import escape as esc
-from library_content import Document, clean, shorten
+from library_content import Document, Element, clean, shorten
 
 COLLECTIONS = {
  'terminology': ('quran-terminology', 'Qur’an Terminology', 'مفاهیم قرآنی', 'Conceptual studies of Qur’anic terms and ideas.', 'مطالعهٔ مفاهیم و اصطلاحات در قرآن.'),
  'completeness': ('quran-completeness', 'Qur’an Completeness', 'کامل بودن قرآن', 'Studies of the Qur’an’s authority, preservation, and sufficiency.', 'مطالعات دربارهٔ مرجعیت، حفظ و کفایت قرآن.'),
  'hadith': ('hadith-critique', 'Hadith Critique', 'نقد حدیث', 'Examinations of reports and inherited claims through the Qur’an.', 'بررسی روایت‌ها و باورهای موروثی در پرتو قرآن.'),
- 'reflections': ('articles/reflections', 'Articles and Reflections', 'مقاله‌ها و تأملات', 'Independent essays and longer studies.', 'مقاله‌ها و پژوهش‌های مستقل.'),
+ 'reflections': ('articles/reflections', 'Books and Articles', 'کتاب‌ها و مقاله‌ها', 'Books, independent essays, and in-depth studies.', 'کتاب‌ها، مقاله‌ها و پژوهش‌های مستقل.'),
  'salat': ('salat', 'Salat', 'صلوة', 'Studies of Salat in the Qur’an.', 'مطالعات صلوة در قرآن.'),
  'zakat': ('zakat', 'Zakat', 'زکات', 'Studies of Zakat in the Qur’an.', 'مطالعات زکات در قرآن.')
 }
@@ -18,6 +18,25 @@ MAIN = ('terminology', 'completeness', 'hadith', 'reflections')
 def label(key,lang): return COLLECTIONS[key][2 if lang=='fa' else 1]
 def route(key,lang): return '/'+lang+'/'+COLLECTIONS[key][0]+'/'
 def text(lang,en,fa): return fa if lang=='fa' else en
+FORMATS = {'book': ('Book','کتاب'), 'study': ('Study','پژوهش'), 'essay': ('Article','مقاله')}
+
+def preview_topics(main):
+    """Use actual section headings, excluding navigation and quoted material."""
+    headings=[]
+    def visit(node):
+        if node.tag in {'nav','header','footer','aside','blockquote','script','style'} or 'data-pagefind-ignore' in node.attrs:return
+        if node.tag=='h2':
+            heading=clean(node)
+            normalized=re.sub(r'^[\d۰-۹٠-٩.،:؛)\s-]+','',heading).casefold()
+            if not re.match(r'^(contents|table of contents|introduction|conclusion|references|related reading|مقدمه|فهرست|نتیجه|جمع‌بندی|منابع|مطالعهٔ مرتبط)(?:\b|[ :؛])',normalized) and 5<len(heading)<220:
+                if heading not in headings:headings.append(heading)
+            return
+        for child in node.children:
+            if isinstance(child,Element):visit(child)
+    if main:visit(main)
+    # Spread the three sample topics across the study rather than only its opening.
+    selected=headings if len(headings)<=3 else [headings[0],headings[len(headings)//2],headings[-1]]
+    return [shorten(heading,150) for heading in selected]
 def alphabet(value,lang):
     value=re.sub(r'[\u064b-\u065f\u0670\u0640]', '',value).translate(str.maketrans({'ي':'ی','ى':'ی','ك':'ک','آ':'ا','أ':'ا','إ':'ا'})).casefold()
     if lang=='fa':
@@ -49,6 +68,12 @@ def prepare(site,pages,sources,redirects):
         pages[url]['title']=item['title']
         item['date']=info.get('date') or ''
         item['updated']=info.get('updated') or ''
+        main=Document(sources[url][1]).root.first(lambda e:e.attrs.get('id')=='main-content')
+        item.setdefault('format','study' if 'terminology' in item['collections'] else 'essay')
+        if item['format'] not in FORMATS:raise ValueError('Invalid study format: '+url)
+        item['topics']=item.get('topics') or preview_topics(main)
+        if not isinstance(item['topics'],list) or any(not isinstance(topic,str) for topic in item['topics']):raise ValueError('Invalid preview topics: '+url)
+        item['topics']=item['topics'][:3]
         # A layout edit never becomes a revision date.
         description=item.get('description') or info.get('description')
         if not description:
@@ -57,7 +82,7 @@ def prepare(site,pages,sources,redirects):
             description=clean(paragraph)
         item['description']=shorten(description or '',280)
         # A preview is a standalone abstract, not the abstract plus the opening.
-        item['preview']=shorten((item.get('summary') or description or '').strip(),420)
+        item['preview']=shorten((item.get('summary') or info.get('description') or description or '').strip(),600)
         if 'terminology' in item['collections']:
             pages[url]['kind']='Terminology'
             item.setdefault('concept',item['title'])
@@ -79,14 +104,16 @@ def prepare(site,pages,sources,redirects):
         aliases=' '.join(item.get('aliases',[]))
         searchable=' '.join([item['title'],item.get('concept',''),item['description'],aliases])
         first=(concept or item['title']).strip()[0]
-        badge='<span class="study-start">'+text(lang,'Suggested starting point','پیشنهاد برای شروع')+'</span>' if start else ''
-        return f'<li class="study-row" data-search="{esc(searchable,quote=True)}" data-title="{esc(concept or item["title"],quote=True)}" data-date="{esc(item["date"],quote=True)}" data-initial="{esc(first,quote=True)}" id="study-{url.strip("/").split("/")[-1]}">{badge}<div class="study-card-heading"><h2><a data-study-link href="{url}" title="{esc(item["title"],quote=True)}" data-preview-title="{esc(item["title"],quote=True)}" data-preview-summary="{esc(item["preview"],quote=True)}">{heading}</a></h2></div></li>'
+        badge='<span class="study-start">'+text(lang,'Suggested start','پیشنهاد برای شروع')+'</span>' if start else ''
+        format_label=FORMATS[item['format']][lang=='fa']
+        meta=f'<div class="study-card-meta"><span class="study-format">{format_label}</span>{badge}</div>'
+        return f'<li class="study-row" data-search="{esc(searchable,quote=True)}" data-format="{item["format"]}" data-title="{esc(concept or item["title"],quote=True)}" data-date="{esc(item["date"],quote=True)}" data-initial="{esc(first,quote=True)}" id="study-{url.strip("/").split("/")[-1]}"><div class="study-card-heading"><h2><a data-study-link href="{url}" title="{esc(item["title"],quote=True)}" data-preview-title="{esc(item["title"],quote=True)}" data-preview-format="{format_label}" data-preview-topics="{esc(json.dumps(item["topics"],ensure_ascii=False),quote=True)}" data-preview-summary="{esc(item["preview"],quote=True)}"><span class="study-card-title">{heading}</span></a></h2>{meta}</div></li>'
     for lang in ('en','fa'):
         urls=[('/'+lang+'/articles/','hub')]+[(route(k,lang),k) for k in COLLECTIONS]
         for url,key in urls:
             if url not in sources:raise ValueError('Missing collection page: '+url)
-            title=text(lang,'Articles','مقاله‌ها') if key=='hub' else label(key,lang)
-            intro=text(lang,'Browse a collection, or explore independent articles and reflections.','یک مجموعه را انتخاب کنید یا مقاله‌ها و تأملات مستقل را بخوانید.') if key=='hub' else COLLECTIONS[key][4 if lang=='fa' else 3]
+            title=text(lang,'Books & Articles','کتاب‌ها و مقاله‌ها') if key=='hub' else label(key,lang)
+            intro=text(lang,'Browse a collection, or explore books, articles, and independent studies.','یک مجموعه را انتخاب کنید یا کتاب‌ها، مقاله‌ها و پژوهش‌های مستقل را بخوانید.') if key=='hub' else COLLECTIONS[key][4 if lang=='fa' else 3]
             if key=='completeness':
                 intro=text(lang,'Explore the Qur’an’s authority and transmission, the distinction between revelation and reports, personal responsibility, and naskh.','مطالعهٔ مرجعیت و انتقال قرآن، تفاوت وحی و روایت، مسئولیت فردی و مسئلهٔ نسخ.')
             elif key=='hadith':

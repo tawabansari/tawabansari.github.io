@@ -1,15 +1,17 @@
+import {bindStudyPDF} from './study-pdf.mjs';
 // Desktop previews occupy their own column. Titles always remain real links.
 export function initStudyPreviews(directory){
   const layout=directory?.querySelector('.collection-layout');
   if(!layout || typeof HTMLDialogElement==='undefined')return;
   const fa=directory.lang==='fa',wide=matchMedia('(min-width: 1100px)');
-  let panel,origin,trigger,openTimer,suppressFocus=false;
+  let panel,origin,trigger,openTimer,releasePDF,suppressFocus=false;
   const rail=document.createElement('aside');rail.className='study-preview-rail';rail.setAttribute('aria-label',fa?'پیش‌نمایش نوشته':'Study preview');
   const placeholder=document.createElement('p');placeholder.className='study-preview-placeholder';placeholder.textContent=fa?'برای دیدن خلاصه، روی عنوان مکث کنید یا دکمهٔ اطلاعات را بزنید.':'Pause over a title or select its information button to preview the study.';
   rail.appendChild(placeholder);layout.appendChild(rail);directory.classList.add('has-study-previews');
   function close(returnFocus=false){
     clearTimeout(openTimer);
     if(!panel)return;
+    releasePDF?.();releasePDF=null;
     const oldTrigger=trigger;
     origin?.closest('.study-row')?.classList.remove('is-previewed');
     origin?.closest('.study-row')?.querySelector('.study-preview-toggle')?.setAttribute('aria-expanded','false');
@@ -21,20 +23,32 @@ export function initStudyPreviews(directory){
     clearTimeout(openTimer);
     if(origin===link&&panel){if(focus){trigger=control;panel.querySelector('.study-preview-read').focus({preventScroll:true});}return;}
     // Do not replace a panel while its links are being used with the keyboard.
-    if(!focus&&panel?.contains(document.activeElement))return;
+    if(!focus&&(panel?.contains(document.activeElement)||panel?.querySelector('[aria-busy="true"]')))return;
     close();origin=link;trigger=control;
     const modal=!wide.matches;
     panel=document.createElement(modal?'dialog':'section');panel.className='study-preview';panel.dir=fa?'rtl':'ltr';panel.lang=directory.lang;
     panel.id='study-preview';panel.setAttribute('aria-labelledby','study-preview-title');
     const heading=document.createElement('div');heading.className='study-preview-heading';
-    const caption=document.createElement('span');caption.textContent=fa?'پیش‌نمایش':'Preview';
+    const caption=document.createElement('span');caption.textContent=link.dataset.previewFormat||(fa?'پیش‌نمایش':'Preview');
     const dismiss=document.createElement('button');dismiss.type='button';dismiss.className='study-preview-close';dismiss.textContent=fa?'بستن':'Close';dismiss.addEventListener('click',()=>close(true));
     heading.append(caption,dismiss);
     const title=document.createElement('h3');title.id='study-preview-title';title.textContent=link.dataset.previewTitle;
     const summary=document.createElement('p');summary.className='study-preview-summary';summary.textContent=link.dataset.previewSummary;
-    const full=document.createElement('a');full.className='study-preview-read';full.href=link.href;full.textContent=fa?'مطالعهٔ کامل':'Read full study';
+    const topics=document.createElement('div');topics.className='study-preview-topics';
+    const headings=JSON.parse(link.dataset.previewTopics||'[]');
+    if(headings.length){
+      const label=document.createElement('h4');label.textContent=fa?'از موضوعات این نوشته':'Topics in this study';
+      const list=document.createElement('ul');
+      for(const heading of headings){const li=document.createElement('li');li.textContent=heading;list.appendChild(li);}
+      topics.append(label,list);
+    }
+    const full=document.createElement('a');full.className='study-preview-read';full.href=link.href;full.textContent=fa?'خواندن':'Read';
     full.dataset.studyLink='';full.dataset.studyAnchor=link.closest('.study-row').id;
-    panel.append(heading,title,summary,full);
+    const actions=document.createElement('div');actions.className='study-preview-actions';
+    const pdf=document.createElement('button');pdf.type='button';pdf.className='study-preview-download';pdf.textContent=fa?'دانلود PDF':'Download PDF';
+    const status=document.createElement('p');status.className='study-preview-status';status.setAttribute('role','status');
+    actions.append(full,pdf);panel.append(heading,title,summary,topics,actions,status);
+    releasePDF=bindStudyPDF(pdf,status,new URL(link.href).pathname,directory.lang);
     link.closest('.study-row').classList.add('is-previewed');
     link.closest('.study-row').querySelector('.study-preview-toggle').setAttribute('aria-expanded','true');
     if(modal){

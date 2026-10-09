@@ -2413,7 +2413,7 @@
     {% assign forqan_surah_index_label = "فهرست سوره‌ها" %}
     {% assign forqan_methodology_label = "روش ترجمه و تأمل" %}
     {% assign forqan_roots_label = "ریشه‌های قرآنی" %}
-    {% assign forqan_articles_label = "مقاله‌ها" %}
+    {% assign forqan_articles_label = "کتاب‌ها و مقاله‌ها" %}
     {% assign forqan_intro_label = "آشنایی با قرآن کریم" %}
   {% else %}
     {% assign forqan_path_dir = "ltr" %}
@@ -2425,7 +2425,7 @@
     {% assign forqan_surah_index_label = "Surah Index" %}
     {% assign forqan_methodology_label = "Methodology" %}
     {% assign forqan_roots_label = "Qur’anic Roots" %}
-    {% assign forqan_articles_label = "Articles" %}
+    {% assign forqan_articles_label = "Books & Articles" %}
     {% assign forqan_intro_label = "Introduction to Qur’an" %}
   {% endif %}
 
@@ -2512,7 +2512,7 @@
   </div>
 </div>
 
-<main class="container" id="main-content" data-pagefind-body>
+<main class="container{% if page.collection_directory %} collection-container{% endif %}" id="main-content" data-pagefind-body>
   {{ content }}
 </main>
 

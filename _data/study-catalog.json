@@ -12,7 +12,7 @@
       "/en/quran-terminology/taqwa/",
       "/en/quran-terminology/shukr-in-the-quran/"
     ],
-    "format": "study",
+    "format": "book",
     "aliases": [
       "Salat",
       "Salah",
@@ -390,7 +390,7 @@
       "/fa/quran-terminology/taqwa/",
       "/fa/quran-terminology/shukr-in-the-quran/"
     ],
-    "format": "study",
+    "format": "book",
     "aliases": [
       "Salat",
       "Salah",
@@ -439,11 +439,17 @@
     ],
     "concept": "Riba",
     "description": "Riba through money, debt, ownership, risk, and economic justice.",
+    "summary": "A Qur’an-centered study of riba, money, debt, banking, inflation, ownership, risk, speculation, and social justice.",
+    "topics": [
+      "Value Before Abstract Money",
+      "Banking and Credit Money",
+      "Riba in the Qur’an"
+    ],
     "related": [
       "/en/articles/zakat-and-its-historical-distortion/",
       "/en/articles/dependency-economy-and-human-freedom/"
     ],
-    "format": "study",
+    "format": "book",
     "aliases": [
       "Riba",
       "ربا"
@@ -546,7 +552,7 @@
       "/en/articles/book-of-riba-beyond-interest/",
       "/en/quran-terminology/shukr-in-the-quran/"
     ],
-    "format": "study",
+    "format": "book",
     "aliases": [
       "Zakat",
       "Zakah",
@@ -651,11 +657,16 @@
     ],
     "concept": "ربا",
     "description": "ربا در نسبت با پول، قرض، مالکیت، خطرپذیری و عدالت اقتصادی.",
+    "topics": [
+      "ارزش پیش از پول انتزاعی",
+      "بانکداری و پول اعتباری",
+      "ربا در قرآن"
+    ],
     "related": [
       "/fa/articles/zakat-and-its-historical-distortion/",
       "/fa/articles/dependency-economy-and-human-freedom/"
     ],
-    "format": "study",
+    "format": "book",
     "aliases": [
       "Riba",
       "ربا"
@@ -746,7 +757,7 @@
       "/fa/articles/book-of-riba-beyond-interest/",
       "/fa/quran-terminology/shukr-in-the-quran/"
     ],
-    "format": "study",
+    "format": "book",
     "aliases": [
       "Zakat",
       "Zakah",
