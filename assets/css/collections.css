@@ -2,14 +2,17 @@
 .reference-pending{font:400 .8em/1.5 Vazirmatn,sans-serif;color:var(--lib-muted);white-space:normal}
 a[data-unpublished-reference]{cursor:default;text-decoration:none!important}
 .legacy-passage-anchor{scroll-margin-top:calc(var(--library-header-height,140px) + 1rem)}
-.study-preview{position:fixed;z-index:10020;box-sizing:border-box;width:min(29rem,calc(100vw - 1.5rem));max-height:min(32rem,80dvh);overflow:auto;padding:1.2rem;margin:0;border:1px solid var(--lib-line);border-radius:10px;background:var(--lib-surface);color:var(--lib-text);box-shadow:0 12px 40px #0003;text-align:start;font-size:1rem;line-height:1.8}
-body .container .study-preview h3{font-family:inherit;font-size:1.1rem;font-weight:600;line-height:1.7;margin:.7rem 0;color:var(--lib-text);clear:both}
+.study-preview{box-sizing:border-box;width:100%;max-height:calc(100dvh - var(--library-header-height,140px) - 2rem);overflow:auto;padding:1rem;margin:0;border:1px solid var(--lib-line);border-radius:8px;background:var(--lib-surface);color:var(--lib-text);text-align:start;font-size:1rem;line-height:1.8}
+body .container .study-preview h3{font-family:inherit;font-size:1.1rem;font-weight:600;line-height:1.7;margin:.7rem 0;color:var(--lib-text)}
 body .container .study-preview .study-preview-summary{white-space:pre-line;font-size:1rem;color:var(--lib-text);margin:.7rem 0 1rem;overflow-wrap:anywhere}
-.study-preview-close{float:inline-end;min-height:44px;padding:.35rem .65rem;font:inherit;font-size:.9rem;border:1px solid var(--lib-line);border-radius:5px;background:var(--lib-bg);color:var(--lib-text);cursor:pointer}
+.study-preview-heading{display:flex;justify-content:space-between;align-items:center;gap:.75rem;color:var(--lib-muted);font-size:.875rem}
+.study-preview-close{min-height:44px;padding:.35rem .65rem;font:inherit;font-size:.9rem;border:1px solid var(--lib-line);border-radius:5px;background:var(--lib-bg);color:var(--lib-text);cursor:pointer}
 body .container .study-preview a.study-preview-read{display:inline-flex;align-items:center;min-height:44px;padding:.35rem 0;color:var(--lib-gold);font-weight:600;text-decoration:underline;text-underline-offset:.25em}
 .study-preview :focus-visible{outline:2px solid var(--lib-gold);outline-offset:3px}
-dialog.study-preview{inset:auto 0 0;margin:0 auto;max-height:80dvh;padding-bottom:max(1.2rem,env(safe-area-inset-bottom));border-radius:14px 14px 0 0}
+dialog.study-preview{position:fixed;inset:auto 0 0;margin:0 auto;width:min(34rem,100%);max-height:80dvh;padding-bottom:max(1rem,env(safe-area-inset-bottom));border-radius:14px 14px 0 0;box-shadow:0 -6px 30px #0003}
 dialog.study-preview::backdrop{background:#0006}
+.study-preview-rail{display:none;min-width:0}
+.study-preview-placeholder{color:var(--lib-muted);font-size:.9rem;line-height:1.8;margin:0;padding:1rem;border-inline-start:2px solid var(--lib-line)}
 @media print{.study-preview,.reference-pending{display:none!important}}
 .collection-directory,.study-context,.study-related{color:var(--lib-text);font-size:1rem;line-height:1.7}
 .collection-directory *,.study-context *,.study-related *{box-sizing:border-box}
@@ -69,7 +72,7 @@ body .container .destination-heading a[lang=fa]{font-family:Vazirmatn,sans-serif
 .collection-browser-controls form{display:flex;align-items:center;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .collection-browser-controls input{flex:1 1 12rem;min-width:0;border:1px solid var(--lib-line);border-radius:6px;padding:.65rem;background:var(--lib-surface);color:var(--lib-text);font:inherit;font-size:max(16px,1rem)}
 .collection-browser-controls button,.collection-pagination button{font:inherit;font-size:.9rem;background:var(--lib-surface);color:var(--lib-text);border:1px solid var(--lib-line);border-radius:5px;min-width:44px;min-height:44px;padding:.4rem .7rem;cursor:pointer}
-.collection-alphabet,.collection-pagination{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem}.collection-pagination{justify-content:center;margin:1.2rem 0}.collection-pagination[hidden],.study-row[hidden]{display:none!important}
+.collection-alphabet{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;margin:.7rem 0 1rem}.collection-alphabet[hidden],.study-row[hidden]{display:none!important}
 .collection-browser-controls button[aria-pressed=true],.collection-pagination button[aria-current]{background:var(--lib-soft);border-color:var(--lib-gold);color:var(--lib-gold)}
 .collection-pagination button:disabled{opacity:.45;cursor:default}.collection-result-count{font-size:.9rem;color:var(--lib-muted)}
 .collection-directory[data-collection=terminology] .study-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.65rem;margin:1rem 0}
@@ -79,3 +82,33 @@ body .container .destination-heading a[lang=fa]{font-family:Vazirmatn,sans-serif
 .study-row{padding:.8rem 0}.study-row p{font-size:.95rem;margin:.2rem 0}
 @media(max-width:800px){.collection-directory[data-collection=terminology] .study-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:400px){.collection-directory[data-collection=terminology] .study-list{grid-template-columns:1fr}.collection-browser-controls form label{width:100%}}
+
+/* Browsable title directories with an independent, non-overlapping preview. */
+.collection-browse-tools{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:.6rem 1rem;margin:.6rem 0 1rem}
+.collection-browse-tools .collection-result-count{margin:0}
+.collection-browse-tools label{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;font-size:.9rem;max-width:100%}
+.collection-browse-tools select{font:inherit;font-size:max(16px,.9rem);min-height:44px;max-width:100%;padding:.4rem .6rem;border:1px solid var(--lib-line);border-radius:5px;background:var(--lib-surface);color:var(--lib-text)}
+.collection-alphabet a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:.3rem .55rem;border:1px solid var(--lib-line);border-radius:5px;color:var(--lib-gold);text-decoration:none;background:var(--lib-surface)}
+.collection-alphabet span{font-size:.9rem;color:var(--lib-muted)}
+.collection-layout{min-width:0}
+body .container .collection-layout .study-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start;gap:.65rem;list-style:none;margin:0;padding:0;min-width:0}
+body .container .collection-layout .study-row{min-width:0;padding:.85rem 1rem;border:1px solid var(--lib-line);border-radius:6px;background:var(--lib-surface)}
+.study-card-heading{display:flex;align-items:center;justify-content:space-between;gap:.35rem}
+body .container .study-card-heading h2{flex:1;min-width:0;margin:0;font-size:1.05rem;line-height:1.8}
+body .container .study-card-heading h2 a{padding:0;min-height:44px;display:flex;align-items:center;color:var(--lib-gold)}
+.study-preview-toggle{display:inline-flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;min-height:44px;border:0;border-radius:50%;background:transparent;color:var(--lib-muted);cursor:pointer}
+.study-preview-toggle:hover,.study-preview-toggle:focus-visible{background:var(--lib-soft);color:var(--lib-gold)}
+.study-preview-toggle:focus-visible,.collection-browse-tools select:focus-visible{outline:2px solid var(--lib-gold);outline-offset:2px}
+body .container .collection-layout .study-row.is-previewed{border-color:var(--lib-gold)}
+.study-start{display:block;color:var(--lib-muted);font-size:.8rem;margin-bottom:.3rem}
+.collection-empty{color:var(--lib-muted);line-height:1.8}
+@media(min-width:1100px){
+ .collection-directory.has-study-previews{max-width:1200px}
+ .has-study-previews .collection-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(17rem,20rem);gap:1.5rem;align-items:start}
+ .study-preview-rail{display:block;position:sticky;top:calc(var(--library-header-height,140px) + 1rem)}
+ .collection-empty{grid-column:1;grid-row:1}
+ .study-preview-rail{grid-column:2;grid-row:1}
+}
+@media(max-width:600px){body .container .collection-layout .study-list{grid-template-columns:minmax(0,1fr)}body .container .collection-directory[data-collection=terminology] .study-list{grid-template-columns:repeat(2,minmax(0,1fr))}body .container .collection-layout .study-row{padding:.6rem .65rem}}
+@media(max-width:380px){body .container .collection-directory[data-collection=terminology] .study-list{grid-template-columns:minmax(0,1fr)}}
+@media print{.study-preview-rail,.study-preview-toggle,.collection-browser-controls{display:none!important}.has-study-previews .collection-layout{display:block}}

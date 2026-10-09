@@ -16,10 +16,16 @@ for collection in data['collections']:
     assert 'forqan-pathway-shell' not in source[source.index('<body'):],collection['url']
     assert 'data-pagefind-body' not in source
     assert '<!-- STUDY_COLLECTION -->' not in source
+    assert 'collection-pagination' not in source,collection['url']
+    assert root.first(lambda e:e.has_class('collection-layout')),collection['url']
     for url,link in zip(urls,links):
         assert url in entries,url
         assert entries[url]['title'] == link.attrs.get('title') or entries[url]['title'] in clean(link),url
         seen.add(url)
+        assert link.attrs.get('data-preview-summary')==entries[url]['preview'],url
+        assert len(entries[url]['preview'])<=421,url
+    starts=[e for e in root.walk() if e.has_class('study-start')]
+    assert len(starts)==int('/quran-completeness/' in collection['url'] or '/hadith-critique/' in collection['url']),collection['url']
     if '/quran-terminology/' in collection['url']:
         lang=collection['url'].split('/')[1]
         concepts=[entries[u]['concept'] for u in urls]

@@ -2,85 +2,92 @@ import {browse,initial} from './collection-browser.mjs';
 import {initStudyPreviews} from './study-preview.mjs';
 (function () {
   'use strict';
-  const directory = document.querySelector('.collection-directory');
-  const key = 'forqan-collection-context';
-  if (directory) {
+  const directory=document.querySelector('.collection-directory');
+  const key='forqan-collection-context';
+  if(directory){
     const list=directory.querySelector('.study-list');
     if(list){
       const fa=directory.lang==='fa',concepts=directory.dataset.collection==='terminology';
-      const rows=Array.from(list.children).map(element=>({element,search:element.dataset.search,initial:element.dataset.initial}));
+      const reflections=directory.dataset.collection==='reflections';
+      const defaultSort=concepts?'alphabetical':reflections?'newest':'suggested';
+      const sorts=concepts?['alphabetical']:reflections?['newest','alphabetical']:['suggested','alphabetical'];
+      const rows=Array.from(list.children).map(element=>({element,...element.dataset}));
       const controls=directory.querySelector('.collection-browser-controls');
-      const pagination=directory.querySelector('.collection-pagination');
       const form=document.createElement('form');form.setAttribute('role','search');
       const label=document.createElement('label');label.htmlFor='collection-filter';label.textContent=fa?(concepts?'یافتن مفهوم':'یافتن نوشته'):(concepts?'Find a concept':'Find a study');
       const input=document.createElement('input');input.id='collection-filter';input.type='search';input.dir='auto';input.autocomplete='off';
       const reset=document.createElement('button');reset.type='button';reset.textContent=fa?'پاک کردن':'Clear';
       form.append(label,input,reset);controls.appendChild(form);
-      const alphabet=document.createElement('nav');alphabet.className='collection-alphabet';alphabet.setAttribute('aria-label',fa?'فیلتر الفبایی':'Filter by first letter');
+      const tools=document.createElement('div');tools.className='collection-browse-tools';controls.appendChild(tools);
+      const status=directory.querySelector('.collection-count');status.className='collection-result-count';status.setAttribute('role','status');tools.appendChild(status);
+      const select=document.createElement('select');select.id='collection-sort';
+      for(const value of sorts){const option=document.createElement('option');option.value=value;option.textContent=({alphabetical:fa?'الفبایی':'Alphabetical',newest:fa?'تازه‌ترین‌ها':'Newest first',suggested:fa?'ترتیب پیشنهادی مطالعه':'Suggested reading order'})[value];select.appendChild(option);}
+      if(!concepts){const sortLabel=document.createElement('label');sortLabel.htmlFor=select.id;sortLabel.textContent=fa?'ترتیب:':'Sort:';sortLabel.appendChild(select);tools.appendChild(sortLabel);}
+      const alphabet=document.createElement('nav');alphabet.className='collection-alphabet';alphabet.setAttribute('aria-label',fa?'رفتن به حرف':'Jump to a letter');
       if(concepts)controls.appendChild(alphabet);
-      const status=document.createElement('p');status.className='collection-result-count';status.setAttribute('role','status');controls.appendChild(status);
-      let letter='',page=1;
-      const size=concepts?24:10;
-      const letters=[...new Set(rows.map(r=>initial(r.initial)))];
-      function button(text,action){const b=document.createElement('button');b.type='button';b.textContent=text;b.addEventListener('click',action);return b;}
+      const empty=document.createElement('p');empty.className='collection-empty';empty.textContent=fa?'نوشته‌ای پیدا نشد. عبارت دیگری را امتحان کنید یا جستجو را پاک کنید.':'No studies found. Try another term or clear your search.';empty.hidden=true;list.after(empty);
+      const number=n=>n.toLocaleString(fa?'fa':'en');
+      function writeURL(){
+        const url=new URL(location.href);url.hash='';
+        for(const name of ['q','sort','page','letter'])url.searchParams.delete(name);
+        if(input.value.trim())url.searchParams.set('q',input.value.trim());
+        if(select.value!==defaultSort)url.searchParams.set('sort',select.value);
+        history.replaceState(null,'',url.pathname+url.search);
+      }
       function render(write=false){
         directory.dispatchEvent(new Event('collection-render'));
-        const view=browse(rows,{query:input.value,letter,page,size});page=view.page;
-        rows.forEach(r=>r.element.hidden=!view.visible.includes(r));
-        status.textContent=fa?`${view.total} نتیجه · صفحهٔ ${page} از ${view.pages}`:`${view.total} results · Page ${page} of ${view.pages}`;
+        const view=browse(rows,{query:input.value,sort:select.value,lang:directory.lang});
+        const visible=new Set(view.visible);
+        rows.forEach(row=>{row.element.hidden=!visible.has(row);});
+        for(const row of view.visible)list.appendChild(row.element);
+        status.textContent=input.value.trim()?(fa?`${number(view.total)} نتیجه از ${number(rows.length)} نوشته`:`${number(view.total)} of ${number(rows.length)} studies`):(fa?`${number(rows.length)} نوشته`:`${number(rows.length)} studies`);
+        empty.hidden=view.total>0;
         alphabet.replaceChildren();
-        if(concepts)for(const value of ['',...letters]){const b=button(value?value.toLocaleUpperCase():fa?'همه':'All',()=>{letter=value;page=1;render(true);Array.from(alphabet.children).find(x=>x.dataset.letter===value)?.focus();});b.dataset.letter=value;b.setAttribute('aria-pressed',String(letter===value));alphabet.appendChild(b);}
-        pagination.replaceChildren();pagination.hidden=view.pages<=1;
-        function go(n){page=n;render(true);input.focus({preventScroll:true});controls.scrollIntoView({block:'start'});}
-        const prev=button(fa?'قبلی':'Previous',()=>go(page-1));prev.disabled=page===1;pagination.appendChild(prev);
-        const numbers=[...new Set([1,page-1,page,page+1,view.pages])].filter(n=>n>=1&&n<=view.pages).sort((a,b)=>a-b);
-        let previous=0;
-        for(const n of numbers){if(previous&&n>previous+1){const dots=document.createElement('span');dots.textContent='…';pagination.appendChild(dots);}const b=button(String(n),()=>go(n));b.setAttribute('aria-label',(fa?'صفحهٔ ':'Page ')+n);if(n===page)b.setAttribute('aria-current','page');pagination.appendChild(b);previous=n;}
-        const next=button(fa?'بعدی':'Next',()=>go(page+1));next.disabled=page===view.pages;pagination.appendChild(next);
-        if(write){const url=new URL(location.href);url.hash='';for(const k of ['q','letter','page'])url.searchParams.delete(k);if(input.value.trim())url.searchParams.set('q',input.value.trim());if(letter)url.searchParams.set('letter',letter);if(page>1)url.searchParams.set('page',String(page));history.replaceState(null,'',url.pathname+url.search);}
+        if(concepts){
+          const prompt=document.createElement('span');prompt.textContent=fa?'رفتن به حرف:':'Jump to:';alphabet.appendChild(prompt);
+          const letters=new Map();for(const row of view.visible){const letter=initial(row.initial);if(!letters.has(letter))letters.set(letter,row);}
+          for(const [letter,row] of letters){
+            const jump=document.createElement('a');jump.href='#'+row.element.id;jump.textContent=letter.toLocaleUpperCase(directory.lang);
+            jump.addEventListener('click',event=>{if(event.button||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();history.replaceState(null,'',location.pathname+location.search+jump.hash);row.element.scrollIntoView({block:'start'});row.element.querySelector('[data-study-link]').focus({preventScroll:true});});
+            alphabet.appendChild(jump);
+          }
+          alphabet.hidden=view.total===0;
+        }
+        if(write)writeURL();
       }
-      function restore(){const params=new URLSearchParams(location.search);input.value=params.get('q')||'';letter=concepts&&letters.includes(initial(params.get('letter')||''))?initial(params.get('letter')):'';page=Number(params.get('page')||1);render();
-        const target=rows.find(r=>'#'+r.element.id===location.hash);
-        if(target){const view=browse(rows,{query:input.value,letter,page,size});const position=view.filtered.indexOf(target);if(position>=0){page=Math.floor(position/size)+1;render();target.element.scrollIntoView({block:'start'});}}
+      function restore(){
+        const params=new URLSearchParams(location.search);input.value=params.get('q')||'';
+        select.value=sorts.includes(params.get('sort'))?params.get('sort'):defaultSort;render();
+        // Older letter-filtered URLs still reach the corresponding title.
+        const letter=initial(params.get('letter')||'');
+        const visible=browse(rows,{query:input.value,sort:select.value,lang:directory.lang}).visible;
+        const target=visible.find(row=>'#'+row.element.id===location.hash)||(concepts&&letter?visible.find(row=>initial(row.initial)===letter):null);
+        if(target)target.element.scrollIntoView({block:'start'});
       }
-      form.addEventListener('submit',e=>{e.preventDefault();page=1;render(true);});input.addEventListener('input',()=>{page=1;render(true);});reset.addEventListener('click',()=>{input.value='';letter='';page=1;render(true);input.focus();});
-      window.addEventListener('popstate',restore);window.addEventListener('pageshow',e=>{if(e.persisted)restore();});restore();
+      form.addEventListener('submit',event=>{event.preventDefault();render(true);});
+      input.addEventListener('input',()=>render(true));select.addEventListener('change',()=>render(true));
+      reset.addEventListener('click',()=>{input.value='';render(true);input.focus();});
+      window.addEventListener('popstate',restore);window.addEventListener('pageshow',event=>{if(event.persisted)restore();});restore();
     }
     initStudyPreviews(directory);
-    directory.addEventListener('click', function (event) {
+    directory.addEventListener('click',event=>{
       if(event.defaultPrevented)return;
-      const link = event.target.closest('a[data-study-link]');
-      if (!link) return;
-      const row = link.closest('.study-row');
-      try {
-        sessionStorage.setItem(key, JSON.stringify({
-          study: new URL(link.href).pathname,
-          list: location.pathname,
-          search: location.search,
-          anchor: row.id,
-          at: Date.now()
-        }));
-      } catch (_) {}
+      const link=event.target.closest('a[data-study-link]');if(!link)return;
+      const anchor=link.dataset.studyAnchor||link.closest('.study-row')?.id;if(!anchor)return;
+      try{sessionStorage.setItem(key,JSON.stringify({study:new URL(link.href).pathname,list:location.pathname,search:location.search,anchor,at:Date.now()}));}catch(_){}
     });
-    // Native history restores scrolling; an explicit return link uses the row anchor.
-    if (location.hash.startsWith('#study-')) {
-      const row = document.getElementById(location.hash.slice(1));
-      const link = row && row.querySelector('a[data-study-link]');
-      if (link) link.focus({preventScroll:true});
-    }
+    if(location.hash.startsWith('#study-'))document.getElementById(location.hash.slice(1))?.querySelector('a[data-study-link]')?.focus({preventScroll:true});
   }
-  const back = document.querySelector('.study-back');
-  if (!back) return;
-  try {
-    const context = JSON.parse(sessionStorage.getItem(key) || 'null');
-    const referrer = document.referrer ? new URL(document.referrer) : null;
-    if (context && context.study === location.pathname && Date.now() - context.at < 1800000 &&
-        /^\/(en|fa)\/(quran-terminology|quran-completeness|hadith-critique|articles\/reflections|salat|zakat)\/$/.test(context.list) &&
-        /^study-[a-z0-9-]+$/.test(context.anchor) && referrer &&
-        referrer.origin === location.origin && referrer.pathname === context.list) {
-      const saved=new URLSearchParams(context.search||'');const safe=new URLSearchParams();for(const name of ['q','letter','page'])if(saved.has(name))safe.set(name,saved.get(name));
-      back.href = context.list + (safe.size?'?'+safe.toString():'') + '#' + context.anchor;
-      back.hidden = false;
+  const back=document.querySelector('.study-back');if(!back)return;
+  try{
+    const context=JSON.parse(sessionStorage.getItem(key)||'null');
+    const referrer=document.referrer?new URL(document.referrer):null;
+    if(context&&context.study===location.pathname&&Date.now()-context.at<1800000&&
+      /^\/(en|fa)\/(quran-terminology|quran-completeness|hadith-critique|articles\/reflections|salat|zakat)\/$/.test(context.list)&&
+      /^study-[a-z0-9-]+$/.test(context.anchor)&&referrer&&referrer.origin===location.origin&&referrer.pathname===context.list){
+      const saved=new URLSearchParams(context.search||''),safe=new URLSearchParams();
+      for(const name of ['q','sort','letter','page'])if(saved.has(name))safe.set(name,saved.get(name));
+      back.href=context.list+(safe.size?'?'+safe.toString():'')+'#'+context.anchor;back.hidden=false;
     }
-  } catch (_) {}
+  }catch(_){}
 }());

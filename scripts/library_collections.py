@@ -3,7 +3,7 @@ import json
 import re
 from pathlib import Path
 from html import escape as esc
-from library_content import Document, clean, shorten, passages
+from library_content import Document, clean, shorten
 
 COLLECTIONS = {
  'terminology': ('quran-terminology', 'Qur’an Terminology', 'مفاهیم قرآنی', 'Conceptual studies of Qur’anic terms and ideas.', 'مطالعهٔ مفاهیم و اصطلاحات در قرآن.'),
@@ -56,14 +56,8 @@ def prepare(site,pages,sources,redirects):
             paragraph=main.first(lambda e:e.tag=='p' and len(clean(e))>90 and not e.has_class('tags')) if main else None
             description=clean(paragraph)
         item['description']=shorten(description or '',280)
-        main=Document(sources[url][1]).root.first(lambda e:e.attrs.get('id')=='main-content')
-        opening=next((p['text'] for p in passages(main) if len(p['text'])>110), '') if main else ''
-        summary=description or ''
-        if opening and opening not in summary and summary not in opening:
-            summary+='\n\n'+opening
-        elif opening and len(opening)>len(summary):
-            summary=opening
-        item['preview']=shorten(summary.strip(),650)
+        # A preview is a standalone abstract, not the abstract plus the opening.
+        item['preview']=shorten((item.get('summary') or description or '').strip(),420)
         if 'terminology' in item['collections']:
             pages[url]['kind']='Terminology'
             item.setdefault('concept',item['title'])
@@ -79,20 +73,24 @@ def prepare(site,pages,sources,redirects):
         links=[f'<a href="/{lang}/articles/"'+(' aria-current="page"' if active=='hub' else '')+'>'+text(lang,'All collections','همهٔ مجموعه‌ها')+'</a>']
         links += [f'<a href="{route(k,lang)}"'+(' aria-current="page"' if active==k else '')+'>'+label(k,lang)+'</a>' for k in MAIN]
         return '<nav class="collection-nav" aria-label="'+text(lang,'Writing collections','مجموعه‌های نوشته‌ها')+'">'+''.join(links)+'</nav>'
-    def row(item,key):
+    def row(item,key,start=False):
         lang=item['lang'];url=item['url'];concept=item.get('concept') if key=='terminology' else None
         heading=esc(concept or item['title'])
         aliases=' '.join(item.get('aliases',[]))
         searchable=' '.join([item['title'],item.get('concept',''),item['description'],aliases])
         first=(concept or item['title']).strip()[0]
-        description='' if concept else '<p>'+esc(item['description'])+'</p>'
-        return f'<li class="study-row" data-search="{esc(searchable,quote=True)}" data-initial="{esc(first,quote=True)}" id="study-{url.strip("/").split("/")[-1]}"><h2><a data-study-link href="{url}" title="{esc(item["title"],quote=True)}" data-preview-title="{esc(item["title"],quote=True)}" data-preview-summary="{esc(item["preview"],quote=True)}">{heading}</a></h2>{description}</li>'
+        badge='<span class="study-start">'+text(lang,'Suggested starting point','پیشنهاد برای شروع')+'</span>' if start else ''
+        return f'<li class="study-row" data-search="{esc(searchable,quote=True)}" data-title="{esc(concept or item["title"],quote=True)}" data-date="{esc(item["date"],quote=True)}" data-initial="{esc(first,quote=True)}" id="study-{url.strip("/").split("/")[-1]}">{badge}<div class="study-card-heading"><h2><a data-study-link href="{url}" title="{esc(item["title"],quote=True)}" data-preview-title="{esc(item["title"],quote=True)}" data-preview-summary="{esc(item["preview"],quote=True)}">{heading}</a></h2></div></li>'
     for lang in ('en','fa'):
         urls=[('/'+lang+'/articles/','hub')]+[(route(k,lang),k) for k in COLLECTIONS]
         for url,key in urls:
             if url not in sources:raise ValueError('Missing collection page: '+url)
             title=text(lang,'Articles','مقاله‌ها') if key=='hub' else label(key,lang)
             intro=text(lang,'Browse a collection, or explore independent articles and reflections.','یک مجموعه را انتخاب کنید یا مقاله‌ها و تأملات مستقل را بخوانید.') if key=='hub' else COLLECTIONS[key][4 if lang=='fa' else 3]
+            if key=='completeness':
+                intro=text(lang,'Explore the Qur’an’s authority and transmission, the distinction between revelation and reports, personal responsibility, and naskh.','مطالعهٔ مرجعیت و انتقال قرآن، تفاوت وحی و روایت، مسئولیت فردی و مسئلهٔ نسخ.')
+            elif key=='hadith':
+                intro=text(lang,'Begin with the approach to examining reports, then explore studies of particular narrations and claims.','از روش بررسی روایت‌ها آغاز کنید، سپس نقد روایت‌ها و ادعاهای مشخص را بخوانید.')
             body=f'<section class="collection-directory" lang="{lang}" dir="'+('rtl' if lang=='fa' else 'ltr')+f'" data-collection="{key}">{nav(lang,key)}<header class="collection-heading"><h1>{title}</h1><p>{intro}</p></header>'
             if key=='hub':
                 body+='<div class="collection-grid">'
@@ -102,8 +100,7 @@ def prepare(site,pages,sources,redirects):
                 body+='</div><p class="dedicated-studies">'+text(lang,'Dedicated studies: ','مطالعات ویژه: ')+ ' · '.join(f'<a href="{route(k,lang)}">{label(k,lang)}</a>' for k in ('salat','zakat'))+'</p>'
             else:
                 rows=members(key,lang)
-                order=text(lang,'Alphabetical by concept','به ترتیب الفبای مفاهیم') if key=='terminology' else text(lang,'Newest dated studies first; undated studies follow alphabetically.','نوشته‌های تاریخ‌دار از تازه به قدیم؛ سپس نوشته‌های بدون تاریخ به ترتیب الفبا.') if key=='reflections' else text(lang,'Suggested reading order','ترتیب پیشنهادی مطالعه')
-                body+=f'<p class="collection-count">{len(rows)} '+text(lang,'studies','نوشته')+' · '+order+'</p><div class="collection-browser-controls"></div><ol class="study-list">'+''.join(row(i,key) for i in rows)+'</ol><nav class="collection-pagination" aria-label="'+text(lang,'Pagination','صفحه‌ها')+'"></nav>'
+                body+=f'<p class="collection-count">{len(rows)} '+text(lang,'studies','نوشته')+'</p><div class="collection-browser-controls"></div><div class="collection-layout"><ol class="study-list">'+''.join(row(item,key,start=n==0 and key in ('completeness','hadith')) for n,item in enumerate(rows))+'</ol></div>'
             body+='</section>'
             path,source=sources[url]
             source=source.replace('<!-- STUDY_COLLECTION -->',body).replace(' data-pagefind-body','')
