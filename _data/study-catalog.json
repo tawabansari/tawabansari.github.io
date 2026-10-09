@@ -1380,5 +1380,65 @@
       "/en/quran-terminology/din-islam-and-shariah-in-the-quran/",
       "/en/articles/paradise-is-not-a-sectarian-monopoly/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/hajj-in-the-quran/",
+    "collections": [
+      "terminology",
+      "reflections"
+    ],
+    "concept": "حج",
+    "description": "پژوهشی در حج از منظر قرآن؛ راه حنیف ابراهیم، جایگاه بیت، سنجش مناسک، مرجعیت دینی، مسئولیت اجتماعی و حقوق مردم.",
+    "format": "study",
+    "aliases": [
+      "حج",
+      "حج ابراهیمی",
+      "عمره",
+      "مناسک",
+      "Hajj",
+      "Haj",
+      "Pilgrimage",
+      "Umrah",
+      "Abraham",
+      "Ibrahim"
+    ],
+    "related": [
+      "/fa/articles/salat-in-the-quran/",
+      "/fa/quran-terminology/qibla-wajh-and-hanif-in-the-quran/",
+      "/fa/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/fa/quran-terminology/imamah-in-the-quran/",
+      "/fa/quran-terminology/no-compulsion-and-delivery/",
+      "/fa/quran-terminology/iman/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/hajj-in-the-quran/",
+    "collections": [
+      "terminology",
+      "reflections"
+    ],
+    "concept": "Hajj",
+    "description": "A Qur’anic study of hajj, Abraham’s undivided devotion, the House and its rites, religious authority, social responsibility, and people’s rights.",
+    "format": "study",
+    "aliases": [
+      "حج",
+      "حج ابراهیمی",
+      "عمره",
+      "مناسک",
+      "Hajj",
+      "Haj",
+      "Pilgrimage",
+      "Umrah",
+      "Abraham",
+      "Ibrahim"
+    ],
+    "related": [
+      "/en/articles/salat-in-the-quran/",
+      "/en/quran-terminology/qibla-wajh-and-hanif-in-the-quran/",
+      "/en/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/en/quran-terminology/imamah-in-the-quran/",
+      "/en/quran-terminology/no-compulsion-and-delivery/",
+      "/en/quran-terminology/iman/"
+    ]
   }
 ]
