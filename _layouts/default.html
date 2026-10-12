@@ -2578,6 +2578,8 @@
   }
 
   function applyForqanTheme(theme) {
+    // Tabsira owns the embedded reader appearance. Standalone controls remain independent.
+    if (window.self !== window.top && window.FORQAN_EMBED_THEME) theme = window.FORQAN_EMBED_THEME;
     if (theme !== 'dark' && theme !== 'light') theme = 'light';
 
     document.documentElement.setAttribute('data-forqan-theme', theme);
