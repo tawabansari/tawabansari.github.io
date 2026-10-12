@@ -1,0 +1,34 @@
+/* Embedded Tabsira canvas. Keep Forqan's authored typography and interaction. */
+html.tabsira-embedded{
+ --lib-bg:#faf7f0;--lib-surface:#fffdf8;--lib-text:#293d35;--lib-muted:#72766c;--lib-gold:#a88449;--lib-line:#e5dfd2;--lib-soft:#f0ede3;
+ --embed-wash:color-mix(in srgb,var(--lib-gold) 7%,transparent);
+ --root-bg:var(--lib-bg);--root-card:var(--lib-surface);--root-panel:var(--lib-surface);--root-section:var(--embed-wash);--root-text:var(--lib-text);--root-muted:var(--lib-muted);--root-soft:var(--lib-soft);--root-border:var(--lib-line);--root-border-soft:var(--lib-line);--root-accent:var(--lib-gold);--root-accent-deep:var(--lib-gold);--root-shadow:none;
+ scrollbar-color:var(--lib-line) transparent;scrollbar-width:thin;
+}
+html.tabsira-embedded[data-forqan-theme="dark"]{
+ --lib-bg:#151c19;--lib-surface:#1c2621;--lib-text:#e1e4db;--lib-muted:#adb6aa;--lib-gold:#cfaf78;--lib-line:#37453b;--lib-soft:#252f28;
+}
+html.tabsira-embedded,html.tabsira-embedded body,html.tabsira-embedded body .container,html.tabsira-embedded body .post{
+ background:transparent!important;color:var(--lib-text);box-shadow:none!important;
+}
+html.tabsira-embedded body .container{padding:20px;max-width:100%;margin:0}
+html.tabsira-embedded body .post{margin:0;max-width:none}
+html.tabsira-embedded body .container :is(h1,h2,h3,h4,p,li,.arabic-text,.word-link){color:var(--lib-text)}
+html.tabsira-embedded body .container :is(a,.ayah-title a,.surah-meaning){color:var(--lib-gold)}
+html.tabsira-embedded body .container :is(.ayah-block,.ayah-card){background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0;padding-inline:0}
+html.tabsira-embedded body .container .ayah-block{padding-block:24px;margin-block:16px}
+html.tabsira-embedded body .container .ayah-block+.ayah-block{border-top:1px solid color-mix(in srgb,var(--lib-line) 55%,transparent)!important}
+html.tabsira-embedded body .container .ayah-block details{
+ background:linear-gradient(110deg,var(--embed-wash),transparent 85%)!important;border:0!important;border-radius:10px;box-shadow:none!important;color:var(--lib-text);
+}
+html.tabsira-embedded body.lang-fa .container .ayah-block details{background:linear-gradient(250deg,var(--embed-wash),transparent 85%)!important}
+html.tabsira-embedded body .container .ayah-block details[data-type="cross-reference"]{background:color-mix(in srgb,var(--lib-soft) 40%,transparent)!important}
+html.tabsira-embedded body .container .ayah-block details>summary{color:var(--lib-gold)}
+html.tabsira-embedded body .container .ayah-block details[open]{background:color-mix(in srgb,var(--lib-surface) 65%,transparent)!important}
+html.tabsira-embedded body :is(.root-popover,.quran-nav-modal,.quran-nav-panel,.verse-picker-panel){background:var(--lib-surface)!important;color:var(--lib-text)!important;border-color:var(--lib-line)!important}
+html.tabsira-embedded body :is(button:not(.word-link),input,select,.verse-picker summary){background:var(--lib-soft);color:var(--lib-text);border-color:var(--lib-line);box-shadow:none}
+html.tabsira-embedded body :is(.word-link,.ayah-title){background:transparent}
+html.tabsira-embedded body .container :is(blockquote,.arabic-box,.verse-box,.quran-box,.quote-box,pre,code){background:var(--embed-wash);color:var(--lib-text);border-color:var(--lib-gold);box-shadow:none}
+html.tabsira-embedded body :is(.surah-count,.surah-header-separator,.root-popover-label,.library-find-status){color:var(--lib-muted)}
+html.tabsira-embedded :focus-visible{outline:2px solid var(--lib-gold)!important;outline-offset:3px}
+@media(max-width:480px){html.tabsira-embedded body .container{padding:16px 8px}}
