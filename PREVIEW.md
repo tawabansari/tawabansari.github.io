@@ -92,3 +92,23 @@ At wide desktop sizes a reserved side column shows the selected study’s standa
 The homepage entrance is Books & Articles / کتاب‌ها و مقاله‌ها, shortened to Books / کتاب‌ها in the phone header. Study types are editorial catalog metadata, not inferred from PDF page counts. Salat, Zakat and The Book of Riba are marked as books in both languages; other catalogued studies and articles retain their distinct types.
 
 Review English and Persian directories, letter selection, ordering, combined filters, preview-to-study navigation and returning to the same title. The automated browser-logic test exercises all 105 entries and ordering with missing dates. Physical-phone appearance remains for user review before publishing.
+
+
+## Search-engine discovery
+
+The complete build now runs `scripts/prepare-discovery.py` after library enrichment.
+It retains only canonical, indexable library pages from Jekyll's sitemap, preserving
+Jekyll's authored dates and sitemap exclusions. Public copies of verse `units/*.html`
+become immediate redirects to their published chapter and first verse; the authored
+fragments and chapter content are unchanged. Do not serve the raw Jekyll output alone.
+
+Pages with a generic site description receive a description based on their existing
+catalog entry, root subtitle, visible paragraph, or published chapter coverage.
+Explicit page descriptions take precedence. Reciprocal published English/Persian
+pairs receive hreflang links; the bilingual home is the x-default home. The internal
+search interface uses noindex,follow, while the underlying studies remain indexable.
+
+`python3 scripts/check-discovery.py _site` validates sitemap destinations, canonical
+links, reciprocal languages, descriptions, and fragment redirects, and runs in the
+normal check command. These changes improve discovery signals; indexing and AI
+citations still depend on search engines and are not guaranteed.
