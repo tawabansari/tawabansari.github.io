@@ -3804,6 +3804,8 @@
   let rootPopoverHoverTimer = null;
 
   function canPreviewRootPopoverOnHover() {
+    // Keep the discussion reader quiet until a word is explicitly activated.
+    if (document.documentElement.classList.contains('tabsira-embedded')) return false;
     return window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   }
 
