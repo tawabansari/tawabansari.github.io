@@ -27,6 +27,13 @@
         }
       } catch (e) {}
 
+      // Embedded readers may choose their theme without changing the main site's preference.
+      var embedParams = new URLSearchParams(location.search);
+      var embedTheme = embedParams.get('tabsira-theme');
+      if (window.self !== window.top && embedParams.get('reading-panel') === '1' && (embedTheme === 'dark' || embedTheme === 'light')) {
+        window.FORQAN_EMBED_THEME = embedTheme;
+        theme = embedTheme;
+      }
       var html = document.documentElement;
       html.setAttribute('data-forqan-theme', theme);
       html.setAttribute('data-theme', theme);
@@ -2579,13 +2586,21 @@
     document.body.classList.toggle('light-theme', theme !== 'dark');
 
     try {
-      localStorage.setItem('forqan-theme', theme);
+      if (!window.FORQAN_EMBED_THEME) localStorage.setItem('forqan-theme', theme);
     } catch (e) {}
 
     window.dispatchEvent(new CustomEvent('forqan-theme-change', { detail: { theme: theme } }));
   }
 
-  applyForqanTheme(savedTheme === 'dark' ? 'dark' : 'light');
+  applyForqanTheme(window.FORQAN_EMBED_THEME || (savedTheme === 'dark' ? 'dark' : 'light'));
+  if (window.FORQAN_EMBED_THEME) {
+    window.addEventListener('message', function (event) {
+      if (event.source !== window.parent || !['https://tabsira.forqan.co', 'http://127.0.0.1:5173', 'http://127.0.0.1:8787'].includes(event.origin)) return;
+      if (event.data?.type !== 'tabsira-theme' || !['light','dark'].includes(event.data.theme)) return;
+      window.FORQAN_EMBED_THEME = event.data.theme;
+      applyForqanTheme(event.data.theme);
+    });
+  }
 
   if (themeButton) {
     themeButton.addEventListener('click', function () {
