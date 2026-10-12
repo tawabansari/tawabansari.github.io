@@ -1,0 +1,18 @@
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const listeners={},sent=[],clicks={};
+const parent={postMessage:(data,origin)=>sent.push({data,origin})};
+const location={href:'https://forqan.co/quran-reflection/fa/001-al-fatihah/?reading-panel=1#ayah-002',origin:'https://forqan.co',pathname:'/quran-reflection/fa/001-al-fatihah/',search:'?reading-panel=1'};
+const window={self:{},top:parent,parent,FORQAN_EMBED_THEME:'dark',addEventListener:(type,cb)=>listeners[type]=cb};
+vm.runInNewContext(readFileSync('assets/js/tabsira-reader.mjs','utf8'),{window,location,document:{addEventListener:(type,cb)=>clicks[type]=cb},URL});
+const message={source:parent,origin:'https://tabsira.forqan.co',data:{type:'tabsira-theme',theme:'dark'}};
+listeners.message({...message,origin:'https://evil.example'});assert.equal(sent.length,0);
+listeners.message({...message,source:{}});assert.equal(sent.length,0);
+listeners.message(message);assert.equal(sent.length,1);assert.equal(sent[0].origin,message.origin);
+listeners.message(message);assert.equal(sent.length,1,'theme replies must not cause a message loop');
+location.href='https://forqan.co/quran-reflection/fa/001-al-fatihah/?reading-panel=1#ayah-003';listeners.hashchange();assert.equal(sent.length,2);
+const link={href:'https://forqan.co/quran-reflection/fa/002-al-baqarah/',target:'',hasAttribute:()=>false};
+clicks.click({target:{closest:()=>link}});const url=new URL(link.href);assert.equal(url.searchParams.get('tabsira-theme'),'dark');assert.equal(url.searchParams.get('reading-panel'),'1');
+link.href='https://example.com/';clicks.click({target:{closest:()=>link}});assert.equal(link.href,'https://example.com/');
+console.log('Reader bridge: trusted origin/source, loop prevention, verse navigation and theme-preserving links passed.');

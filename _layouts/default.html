@@ -30,9 +30,11 @@
       // Embedded readers may choose their theme without changing the main site's preference.
       var embedParams = new URLSearchParams(location.search);
       var embedTheme = embedParams.get('tabsira-theme');
-      if (window.self !== window.top && embedParams.get('reading-panel') === '1' && (embedTheme === 'dark' || embedTheme === 'light')) {
+      try { if (window.self !== window.top && !embedTheme) embedTheme = sessionStorage.getItem('tabsira-reader-theme'); } catch (e) {}
+      if (window.self !== window.top && (embedTheme === 'dark' || embedTheme === 'light')) {
         window.FORQAN_EMBED_THEME = embedTheme;
-        document.documentElement.classList.add('tabsira-embedded');
+        try { sessionStorage.setItem('tabsira-reader-theme', embedTheme); } catch (e) {}
+        document.documentElement.classList.add('tabsira-embedded', 'study-embedded');
         theme = embedTheme;
       }
       var html = document.documentElement;
@@ -2379,6 +2381,7 @@
 <link rel="stylesheet" href="/assets/css/tabsira-reader.css">
 <script>if(window.self!==window.top && new URLSearchParams(location.search).get('reading-panel')==='1')document.documentElement.classList.add('study-embedded');</script>
 <script type="module" src="/assets/js/reading-panel.mjs"></script>
+<script type="module" src="/assets/js/tabsira-reader.mjs"></script>
 <meta name="forqan-pdf-endpoint" content="{{ site.pdf_endpoint | escape }}">
 <meta name="forqan-pdf-fallback" content="{{ site.pdf_fallback | default: false }}">
 <link rel="stylesheet" href="/assets/css/pdf-download.css">
@@ -2595,11 +2598,13 @@
   }
 
   applyForqanTheme(window.FORQAN_EMBED_THEME || (savedTheme === 'dark' ? 'dark' : 'light'));
-  if (window.FORQAN_EMBED_THEME) {
+  if (window.self !== window.top) {
     window.addEventListener('message', function (event) {
       if (event.source !== window.parent || !['https://tabsira.forqan.co', 'http://127.0.0.1:5173', 'http://127.0.0.1:8787'].includes(event.origin)) return;
       if (event.data?.type !== 'tabsira-theme' || !['light','dark'].includes(event.data.theme)) return;
       window.FORQAN_EMBED_THEME = event.data.theme;
+      document.documentElement.classList.add('tabsira-embedded', 'study-embedded');
+      try { sessionStorage.setItem('tabsira-reader-theme', event.data.theme); } catch (e) {}
       applyForqanTheme(event.data.theme);
     });
   }
