@@ -34,3 +34,6 @@ html.tabsira-embedded :focus-visible{outline:2px solid var(--lib-gold)!important
 @media(max-width:480px){html.tabsira-embedded body .container{padding:16px 8px}}
 html.tabsira-embedded body :is(.pdf-download-button,.language-mirror-link,.quran-gooya-link,.copy-section-text,.section-toggle-button,.ayah-quran-nav-button,.copy-ayah-link,.copy-ayah-text){background:var(--lib-soft)!important;color:var(--lib-text)!important;border-color:var(--lib-line)!important;box-shadow:none!important}
 html.tabsira-embedded body :is(.pdf-download-dialog,.pdf-download-dialog input,.pdf-download-dialog select){background:var(--lib-surface);color:var(--lib-text);border-color:var(--lib-line)}
+
+/* The host owns appearance; hide duplicate controls only inside Tabsira. */
+html.tabsira-embedded :is(#theme-toggle-btn,#zoom-in,#zoom-out,.library-reading-controls){display:none!important}
