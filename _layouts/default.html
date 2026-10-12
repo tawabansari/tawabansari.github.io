@@ -1662,15 +1662,15 @@
     @media (max-width: 720px) {
       .root-popover {
         position: fixed !important;
-        top: auto !important;
+        top: var(--root-popover-top, auto) !important;
         left: max(12px, env(safe-area-inset-left)) !important;
         right: max(12px, env(safe-area-inset-right)) !important;
-        bottom: max(12px, env(safe-area-inset-bottom)) !important;
+        bottom: var(--root-popover-bottom, max(12px, env(safe-area-inset-bottom))) !important;
 
         width: auto !important;
         min-width: 0 !important;
         max-width: none !important;
-        max-height: min(72dvh, 560px) !important;
+        max-height: var(--root-popover-height, min(72dvh, 560px)) !important;
 
         margin: 0 !important;
         padding: 1rem 1rem 1.1rem !important;
@@ -3902,14 +3902,37 @@
   }
 
   function positionRootPopover(target) {
+    // Keep the original verse available for reading and word-to-word hovering.
+    // Shrink the scrollable note instead of letting a tall note cover its source.
+    const verse = target.closest('.arabic-text');
+    const sourceRect = verse ? verse.getBoundingClientRect() : target.getBoundingClientRect();
+    const translation = verse && verse.nextElementSibling;
+    const sourceBottom = translation && translation.matches('.farsi-verse,.english-verse')
+      ? Math.max(sourceRect.bottom, translation.getBoundingClientRect().bottom)
+      : sourceRect.bottom;
+    const margin = 12;
+    const gap = 10;
+    const below = Math.max(0, window.innerHeight - margin - sourceBottom - gap);
+    const above = Math.max(0, sourceRect.top - gap - margin);
+    const useBelow = below >= 160 || below >= above;
+    const available = useBelow ? below : above;
+
+    popover.style.removeProperty('--root-popover-top');
+    popover.style.removeProperty('--root-popover-bottom');
+    popover.style.removeProperty('--root-popover-height');
+    popover.style.maxHeight = '';
+
     if (window.matchMedia('(max-width: 720px)').matches) {
       popover.style.left = '';
       popover.style.top = '';
+      popover.style.setProperty('--root-popover-height', Math.min(available, window.innerHeight * 0.72, 560) + 'px');
+      if (!useBelow) {
+        popover.style.setProperty('--root-popover-top', margin + 'px');
+        popover.style.setProperty('--root-popover-bottom', 'auto');
+      }
       return;
     }
 
-    const margin = 10;
-    const gap = 10;
     const targetRect = target.getBoundingClientRect();
     const popoverRect = popover.getBoundingClientRect();
     const hasRoomRight =
@@ -3940,6 +3963,16 @@
     }
 
     if (top < margin) top = margin;
+
+    if (left < sourceRect.right && left + popoverRect.width > sourceRect.left &&
+        top < sourceBottom && top + popoverRect.height > sourceRect.top) {
+      const style = window.getComputedStyle(popover);
+      const frame = parseFloat(style.paddingTop) + parseFloat(style.paddingBottom) +
+        parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+      popover.style.maxHeight = Math.max(0, available - frame) + 'px';
+      const height = popover.getBoundingClientRect().height;
+      top = useBelow ? sourceBottom + gap : sourceRect.top - gap - height;
+    }
 
     popover.style.left = left + 'px';
     popover.style.top = top + 'px';
@@ -4103,6 +4136,7 @@
     popoverContent.appendChild(actions);
 
     popover.classList.add('show');
+    popover.scrollTop = 0;
     popover.setAttribute('aria-hidden', 'false');
     document.body.classList.add('root-popover-open');
 
@@ -4238,8 +4272,7 @@
     function () {
       if (
         activeWord &&
-        popover.classList.contains('show') &&
-        !window.matchMedia('(max-width: 720px)').matches
+        popover.classList.contains('show')
       ) {
         positionRootPopover(activeWord);
       }
