@@ -150,6 +150,11 @@ function init() {
     if (verse) {
       const actions = document.createElement('span'); actions.className = 'pdf-verse-actions'; actions.dataset.pagefindIgnore = '';
       target.querySelectorAll('.copy-ayah-text,.copy-ayah-link,.ayah-quran-nav-button,.quran-gooya-link,.pdf-download-button').forEach(control => actions.append(control));
+      const reference = document.createElement('span'); reference.className = 'ayah-reference';
+      reference.dir = fa ? 'rtl' : 'ltr'; actions.dir = reference.dir;
+      reference.append(...target.childNodes);
+      target.append(reference);
+      target.classList.add('ayah-toolbar');
       target.append(actions);
     }
   }

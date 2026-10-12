@@ -12,6 +12,13 @@ body .ayah-title .pdf-download-button {
   margin-inline-start: .45rem; padding: 0; vertical-align: middle; direction: ltr;
 }
 .pdf-verse-actions { display: inline-flex; flex-wrap: wrap; align-items: center; gap: .45rem; vertical-align: middle; margin-inline-start: .45rem; }
+body .container .ayah-toolbar {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  direction: ltr; gap: .4rem .75rem; font-size: .9rem !important;
+  font-weight: 600; line-height: 1.5; margin-bottom: .65rem;
+}
+.ayah-toolbar .ayah-reference { white-space: nowrap; text-align: left; }
+body .ayah-toolbar .pdf-verse-actions { margin: 0 0 0 auto; justify-content: flex-end; }
 body .ayah-title .pdf-verse-actions > * { margin-inline: 0; }
 .pdf-download-button svg { width: .85rem; height: .85rem; stroke: currentColor; stroke-width: 1.6; fill: none; flex-shrink: 0; }
 body .ayah-title .pdf-download-button:hover { border-color: var(--lib-gold, #9a793c); color: var(--lib-gold, #806028); }
