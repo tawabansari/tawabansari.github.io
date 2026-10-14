@@ -13,7 +13,7 @@ excerpt: "A Qur’anic reflection on Malik, Owner of Judgment, and why final jud
 
 <article class="forqan-article" dir="ltr" lang="en">
 
-<p class="opening">By Name of The God The Merciful The Compassionate</p>
+<p class="opening">In the name of The God, the Entirely Merciful, the Especially Merciful.</p>
 
 <nav class="toc" aria-label="Table of contents">
   <p><strong>Table of Contents</strong></p>

@@ -21,7 +21,7 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
 
 <article class="forqan-article quran-terminology-article" dir="ltr" lang="en">
 
-  <p class="opening">By name of The God The Merciful The Compassionate</p>
+  <p class="opening">In the name of The God, the Entirely Merciful, the Especially Merciful.</p>
 
   <section class="article-hero">
     <p class="kicker">Qur’an Terminology</p>

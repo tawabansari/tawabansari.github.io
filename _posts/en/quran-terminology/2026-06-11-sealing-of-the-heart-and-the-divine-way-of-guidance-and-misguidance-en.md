@@ -21,7 +21,7 @@ excerpt: "A Quran-centered reflection on the sealing of the heart, guidance and 
 
 <article class="forqan-article" dir="ltr" lang="en">
 
-  <p>By Name of The God The Merciful The Compassionate.</p>
+  <p>In the name of The God, the Entirely Merciful, the Especially Merciful.</p>
 
   <h1>The Sealing of the Heart and the Divine Way of Guidance and Misguidance</h1>
 

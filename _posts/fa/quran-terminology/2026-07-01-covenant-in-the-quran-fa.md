@@ -23,7 +23,7 @@ excerpt: "بررسی جایگاه عهد و میثاق در قرآن؛ از می
 
 <article class="forqan-article quran-terminology-article" dir="rtl" lang="fa">
 
-  <p class="opening">به نام آن معبود یگانه، خداوند فرابخشاینده و پروردگار فرامهربان</p>
+  <p class="opening">به نام آن معبود یگانه؛ فرارحمن، با رحمت فراگیر؛ فرارحیم، با رحمت ویژه.</p>
 
   <section class="article-hero">
     <p class="kicker">واژه‌شناسی قرآن</p>

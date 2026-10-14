@@ -10,7 +10,7 @@ excerpt: "A Qur'an-centered study of polygamy through the context of orphans, ju
 
 <div class="ltr" dir="ltr" markdown="1">
 
-**By Name of The God The Merciful The Compassionate.**
+**In the name of The God, the Entirely Merciful, the Especially Merciful.**
 
 <h2 id="contents">Contents</h2>
 

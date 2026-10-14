@@ -44,6 +44,7 @@ defaults:
 
 # Local build tools and working files are never published.
 exclude:
+  - AGENTS.md
   - vendor
   - node_modules
   - scripts

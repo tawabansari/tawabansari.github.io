@@ -22,7 +22,7 @@ excerpt: "بررسی ریشه ض-ر-ب در قرآن و این پرسش که د�
 
 <article class="forqan-article quran-terminology-article" dir="rtl" lang="fa">
 
-  <p class="opening">به نام آن معبود یگانه، فرا رحمان، و فرا رحیم</p>
+  <p class="opening">به نام آن معبود یگانه؛ فرارحمن، با رحمت فراگیر؛ فرارحیم، با رحمت ویژه.</p>
 
   <section class="article-hero">
     <p class="kicker">واژه‌شناسی قرآن</p>

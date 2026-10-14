@@ -21,7 +21,7 @@ excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s du
 
 <article class="forqan-article" dir="ltr" lang="en">
 
-  <p>By Name of The God The Merciful The Compassionate.</p>
+  <p>In the name of The God, the Entirely Merciful, the Especially Merciful.</p>
 
   <h1>There Is No Compulsion in Religion; the Messenger’s Duty Is Delivery</h1>
 

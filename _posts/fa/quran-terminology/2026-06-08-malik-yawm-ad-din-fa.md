@@ -13,7 +13,7 @@ excerpt: "تأملی قرآنی درباره عبارت «مالک روز دین
 
 <article class="forqan-article" dir="rtl" lang="fa">
 
-<p class="opening">به نام آن معبود یگانه خداوند فرابخشاینده و پروردگار فرامهربان</p>
+<p class="opening">به نام آن معبود یگانه؛ فرارحمن، با رحمت فراگیر؛ فرارحیم، با رحمت ویژه.</p>
 
 <nav class="toc" aria-label="فهرست مطالب">
   <p><strong>فهرست مطالب</strong></p>

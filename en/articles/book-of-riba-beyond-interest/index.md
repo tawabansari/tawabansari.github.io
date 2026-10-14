@@ -144,7 +144,7 @@ tags:
     <p class="subtitle">Money, debt, banking, inflation, ownership, risk, speculation, and Qur'anic justice.</p>
   </header>
 
-  <p class="opening">By name of The God The Merciful The Compassionate</p>
+  <p class="opening">In the name of The God, the Entirely Merciful, the Especially Merciful.</p>
 
   <nav class="riba-toc" aria-label="Table of contents">
     <a href="#intro">Introduction</a>

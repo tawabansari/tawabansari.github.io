@@ -10,7 +10,7 @@ excerpt: "A Qur'an-centered reflection on Satan, Taghut, choice, the self, and s
 permalink: /en/quran-terminology/satan-and-taghut/
 ---
 <div class="ltr" dir="ltr">
-<p>In the name of The-God, The-Merciful, The-Compassionate</p>
+<p>In the name of The God, the Entirely Merciful, the Especially Merciful.</p>
 <p>One of the heavy questions in understanding the human being and the Qur'an is this: if The God is The-Merciful and The-Compassionate, why did He create a world in which Satan, whispering, Taghut, deception, falling, and misguidance are possible? Why did He place the creature in a field of danger and then ask from him faith, taqwa, ihsan, and truthfulness? If The God is absolute good, why did He not remove the possibility of evil and deviation from the beginning?</p>
 <p>The answer to this question lies in the reality of choice. If a being could only do good, and no real possibility of error, transgression, selfishness, arrogance, or disobedience stood before him, then his goodness would no longer be a moral choice. Such a being acts correctly, but not through inner struggle, not through consciously preferring truth over falsehood, and not through victory over the self. He is more like a being that only executes one path according to its own structure.</p>
 <p>To bring the meaning closer, suppose a human being creates a very advanced artificial intelligence. If this system only takes in data and always produces the correct, just, and compassionate answer, one can say it was well designed; but one cannot say it possesses moral choice. It has not stood between good and evil, has not experienced whispering, has not preferred its own interest over truth and then returned from it. It only executes the program placed within it.</p>

@@ -29,7 +29,7 @@ tags: [quran, salat, prayer, remembrance, worship, hadith]
 - [What Must Not Happen in the Prayer-Connection](#what-must-not-happen-in-the-prayer-connection)
 - [So How Should We Pray?](#so-how-should-we-pray)
 
-**By Name of The God The Merciful The Compassionate**
+**In the name of The God, the Entirely Merciful, the Especially Merciful.**
 
 In understanding the Qur’anic prayer-connection, one of the first mistakes—especially among Persian speakers—is translating “establishing the prayer-connection” as “reading prayer.” This incomplete translation changes the meaning from its root. The Qur’an does not use the Persian word “namaz” for this act of worship, nor does it use the verb “to read.” What the Qur’an says is to establish the prayer-connection, not to read prayer.
 

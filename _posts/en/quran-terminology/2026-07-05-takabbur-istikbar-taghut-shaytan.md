@@ -140,7 +140,7 @@ padding: 0.68rem 0.8rem;
 <h1>Arrogance and Istikbar; Taghut and the Character of Satan</h1>
 <p class="subtitle">A Qur’an-centered reading of the fall of Iblis, the disease of istikbar, the boundary of Satan’s power, and the danger of Satanic logic becoming alive inside the human being.</p>
 </header>
-<p class="opening">By Name of The God The Merciful The Compassionate.</p>
+<p class="opening">In the name of The God, the Entirely Merciful, the Especially Merciful.</p>
 <nav class="forqan-terminology-toc" aria-label="Article table of contents">
 <a href="#opening-scene">The Foundational Scene of Moral Fall</a>
 <a href="#creation-material">Creation Material and the Error of Making It the Standard</a>

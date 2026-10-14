@@ -12,7 +12,7 @@ excerpt: "A Qur’anic and linguistic explanation of why Allah is not a proper n
 
 <article class="forqan-article" dir="ltr" lang="en">
 
-<p class="opening">By Name of The God The Merciful The Compassionate</p>
+<p class="opening">In the name of The God, the Entirely Merciful, the Especially Merciful.</p>
 
 <nav class="toc" aria-label="Table of contents">
   <p><strong>Table of Contents</strong></p>
@@ -113,15 +113,15 @@ excerpt: "A Qur’anic and linguistic explanation of why Allah is not a proper n
 
 <p>For this reason, in the Forqan project, the English opening is written as:</p>
 
-<p class="opening">By Name of The God The Merciful The Compassionate</p>
+<p class="opening">In the name of The God, the Entirely Merciful, the Especially Merciful.</p>
 
 <p>This wording is intentional.</p>
 
 <p><strong>The God</strong> translates Allah as meaning, not merely as sound.</p>
 
-<p><strong>The Merciful</strong> points to <strong>Al-Rahman</strong> (The Merciful, whose mercy encompasses creation).</p>
+<p><strong>the Entirely Merciful</strong> renders <strong>Al-Rahman</strong>, whose mercy encompasses creation.</p>
 
-<p><strong>The Compassionate</strong> points to <strong>Al-Rahim</strong> (The Compassionate, whose mercy is intimate, continuous, and sustaining).</p>
+<p><strong>the Especially Merciful</strong> renders <strong>Al-Rahim</strong>, whose special mercy is intimate, continuous, and sustaining.</p>
 
 <p>These are not casual adjectives. They are divine names. They point toward realities greater than human language can fully contain.</p>
 

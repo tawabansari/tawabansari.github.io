@@ -72,7 +72,7 @@ export function prepareDocument({ids, scope, from, to, missing = [], title, lang
     basmala.textContent = 'بسم الله الرحمن الرحیم';
     const translation = document.createElement('p'); translation.className = 'pdf-basmala-translation';
     translation.lang = lang; translation.dir = direction;
-    translation.textContent = fa ? 'به نام آن معبود یگانه فرابخشاینده و فرامهربان' : 'By Name of The-God The-Merciful The-Compassionate';
+    translation.textContent = fa ? 'به نام آن معبود یگانه؛ فرارحمن، با رحمت فراگیر؛ فرارحیم، با رحمت ویژه.' : 'In the name of The God, the Entirely Merciful, the Especially Merciful.';
     opening.append(basmala, translation); document.body.append(opening);
   }
   const brand = document.createElement('p'); brand.className = 'pdf-brand'; brand.textContent = lang === 'fa' ? 'فرقان · مطالعه و تأمل در قرآن' : 'Forqan · Qur’an study and reflection';

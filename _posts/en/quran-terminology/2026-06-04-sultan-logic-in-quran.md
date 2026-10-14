@@ -10,7 +10,7 @@ excerpt: "A Qur'an-centered reflection on the word sultan as articulate authorit
 permalink: /en/quran-terminology/sultan-logic-in-quran/
 ---
 <div class="ltr" dir="ltr">
-<p><strong>In the name of The-God, The-Merciful, The-Compassionate</strong></p>
+<p><strong>In the name of The God, the Entirely Merciful, the Especially Merciful.</strong></p>
 <p>The Qur'an, in <a href="/quran-reflection/en/030-ar-rum/035/">Ar-Rum 30:35</a>, challenges the intellectual structure of those who fracture religion into sects and inherited claims:</p>
 <blockquote>
 <p><strong>أَمْ أَنزَلْنَا عَلَيْهِمْ سُلْطَـٰنًا فَهُوَ يَتَكَلَّمُ بِمَا كَانُوا۟ بِهِۦ يُشْرِكُونَ</strong></p>

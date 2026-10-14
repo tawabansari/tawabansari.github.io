@@ -14,7 +14,7 @@ excerpt: "تأملی قرآن‌محور درباره معنای صلوة، ار
 
 <div class="rtl" dir="rtl" markdown="1">
 
-**به نام آن معبود یگانه، خداوند فرابخشاینده و پروردگار فرامهربان**
+**به نام آن معبود یگانه؛ فرارحمن، با رحمت فراگیر؛ فرارحیم، با رحمت ویژه.**
 
 <p><a href="/en/articles/salat-in-the-quran/">English mirror: How Should We Establish Salat According to the Qur’an?</a></p>
 

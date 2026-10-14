@@ -22,7 +22,7 @@ excerpt: "A Qur’an-centered reflection on qada and qadar, free will, determini
 
 <article class="forqan-article quran-terminology-article" dir="ltr" lang="en">
 
-  <p class="opening">By name of The One Worshiped God, The Overflowingly Merciful, The Ever-Merciful</p>
+  <p class="opening">In the name of The God, the Entirely Merciful, the Especially Merciful.</p>
 
   <section class="article-hero">
     <p class="kicker">Qur’an Terminology</p>
