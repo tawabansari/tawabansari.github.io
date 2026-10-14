@@ -1,14 +1,23 @@
 .reader-mode-toolbar { display:flex; justify-content:center; gap:.35rem; margin:0 0 1.2rem; position:sticky; top:var(--library-header-height,80px); z-index:20; padding:.5rem; background:var(--lib-bg,#faf9f6); border-radius:.6rem; }
 .reader-mode-toolbar button { font:inherit; font-size:.9rem; padding:.45rem 1rem; border:1px solid var(--lib-line,#bbb); border-radius:999px; background:transparent; color:inherit; cursor:pointer; }
-/* Follow the auto-hiding site header instead of leaving a bar over mid-page text. */
-.reader-mode-toolbar { transition:top .22s ease; }
-body:has(.library-header.header-away):not(:has(.library-header :focus-visible)) .reader-mode-toolbar { top:0; }
+/* Keep the reading selector in step with the auto-hiding site header. */
+.reader-mode-toolbar { transition:transform .22s ease, opacity .22s ease; }
+body:has(.library-header.header-away):not(:has(.library-header :focus-visible)) .reader-mode-toolbar:not(:has(:focus-visible)) {
+  transform:translateY(calc(-100% - var(--library-header-height,80px)));
+  opacity:0; visibility:hidden; pointer-events:none;
+}
 @media (prefers-reduced-motion:reduce) { .reader-mode-toolbar { transition:none; } }
+body .ayah-toolbar .pdf-verse-actions { direction:ltr; }
+.ayah-reference .verse-permalink { display:inline-flex; align-items:center; max-width:100%; gap:.2em; color:inherit; text-decoration:none; }
+.verse-reference-chapter { min-width:0; overflow:hidden; text-overflow:ellipsis; }
+.verse-reference-number { flex-shrink:0; color:var(--lib-gold,#9a793c); text-decoration:underline; text-underline-offset:.2em; }
 @media (max-width:600px) {
-  body .container .ayah-toolbar { gap:.5rem; }
-  body .ayah-toolbar .ayah-reference { flex-basis:100%; }
-  body .ayah-toolbar .pdf-verse-actions { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:.25rem; width:100%; margin:0; }
-  body .container .ayah-toolbar .pdf-verse-actions > * { box-sizing:border-box; width:100%!important; min-width:0!important; height:44px!important; min-height:44px!important; margin:0!important; padding:0!important; }
+  body .container .ayah-toolbar { flex-wrap:nowrap; gap:.35rem; }
+  body .ayah-toolbar .ayah-reference { flex:1 1 auto; min-width:0; overflow:hidden; text-overflow:ellipsis; font-size:.75rem; }
+  body .ayah-toolbar .pdf-verse-actions { display:flex; flex-wrap:nowrap; flex:0 0 auto; gap:.15rem; width:auto; margin:0; }
+  body .container .ayah-toolbar .pdf-verse-actions > * { box-sizing:border-box; width:clamp(1.9rem,9vw,2.75rem)!important; min-width:0!important; height:44px!important; min-height:44px!important; margin:0!important; padding:0!important; }
+  body .ayah-toolbar .quran-gooya-link { font-size:.65rem!important; }
+  body .ayah-toolbar .pdf-download-button svg { display:none; }
   .reader-mode-toolbar button { min-height:44px; }
 }
 .reader-mode-toolbar button[aria-pressed="true"] { border-color:var(--lib-gold,#9a793c); background:var(--lib-soft,rgba(154,121,60,.14)); font-weight:700; }

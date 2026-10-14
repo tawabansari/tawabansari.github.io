@@ -50,6 +50,21 @@ function init() {
     if (!heading) return;
     const reference = heading.querySelector('.ayah-reference');
     if (reference) {
+      if (!reference.querySelector('a')) {
+        const permalink = document.createElement('a');
+        permalink.href = '#' + verse.id;
+        const label = reference.textContent.trim();
+        const parts = /^(.*?)\s+([0-9۰-۹٠-٩]+:[0-9۰-۹٠-٩]+)$/.exec(label);
+        permalink.className = 'verse-permalink';
+        if (parts) {
+          const chapter = document.createElement('span');
+          chapter.className = 'verse-reference-chapter'; chapter.textContent = parts[1];
+          const number = document.createElement('span');
+          number.className = 'verse-reference-number'; number.textContent = parts[2];
+          permalink.append(chapter, ' ', number);
+        } else permalink.textContent = label;
+        reference.replaceChildren(permalink);
+      }
       const number = document.createElement('a');
       number.className = 'reading-verse-number';
       number.href = '#' + verse.id;
@@ -67,7 +82,13 @@ function init() {
     link.textContent = '✎';
     const label = fa ? 'نوشتن تبصره دربارهٔ این آیه' : 'Write a reflection on Tabsira';
     link.setAttribute('aria-label', label); link.title = label;
-    (heading.querySelector('.pdf-verse-actions') || heading).append(link);
+    const actions = heading.querySelector('.pdf-verse-actions') || heading;
+    actions.querySelector('.copy-ayah-link')?.remove();
+    actions.append(link);
+    // Match visual and keyboard order, with verse search always at the far right.
+    const search = actions.querySelector('.ayah-quran-nav-button');
+    if (search) actions.append(search);
+    if (reference) reference.title = reference.textContent.trim();
   });
 }
 
