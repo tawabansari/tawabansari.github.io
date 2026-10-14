@@ -2386,6 +2386,8 @@
 <meta name="forqan-pdf-fallback" content="{{ site.pdf_fallback | default: false }}">
 <link rel="stylesheet" href="/assets/css/pdf-download.css">
 <script type="module" src="/assets/js/pdf-download.mjs"></script>
+<link rel="stylesheet" href="/assets/css/reader-mode.css">
+<script type="module" src="/assets/js/reader-mode.mjs"></script>
 </head>
 
 <body class="lang-{% if page.url contains '/fa/' %}fa{% else %}en{% endif %}">
@@ -3801,6 +3803,7 @@
 
   let activeWord = null;
   let rootPopoverPinned = false;
+  let restoringRootFocus = false;
   let rootPopoverHoverTimer = null;
 
   function canPreviewRootPopoverOnHover() {
@@ -3903,7 +3906,9 @@
       activeWord.setAttribute('aria-expanded', 'false');
 
       if (returnFocus) {
-        activeWord.focus();
+        restoringRootFocus = true;
+        activeWord.focus({preventScroll: true});
+        restoringRootFocus = false;
       }
     }
 
@@ -3989,6 +3994,7 @@
 
   function openRootPopover(target, options) {
     const settings = options || {};
+    if (restoringRootFocus || (rootPopoverPinned && !settings.pinned)) return;
     rootPopoverPinned = Boolean(settings.pinned);
     clearRootPopoverHoverTimer();
 

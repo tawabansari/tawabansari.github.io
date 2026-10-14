@@ -1,0 +1,24 @@
+.reader-mode-toolbar { display:flex; justify-content:center; gap:.35rem; margin:0 0 1.2rem; position:sticky; top:var(--library-header-height,80px); z-index:20; padding:.5rem; background:var(--lib-bg,#faf9f6); border-radius:.6rem; }
+.reader-mode-toolbar button { font:inherit; font-size:.9rem; padding:.45rem 1rem; border:1px solid var(--lib-line,#bbb); border-radius:999px; background:transparent; color:inherit; cursor:pointer; }
+.reader-mode-toolbar button[aria-pressed="true"] { border-color:var(--lib-gold,#9a793c); background:var(--lib-soft,rgba(154,121,60,.14)); font-weight:700; }
+body.dark-theme .reader-mode-toolbar { background:var(--lib-bg,#0f172a); }
+body .container .tabsira-reflection-link { display:inline-flex; align-items:center; justify-content:center; min-width:2.5rem; min-height:2rem; border:1px solid var(--lib-line,#bbb); border-radius:999px; font:inherit; font-size:1.1rem!important; text-decoration:none; color:inherit; background:var(--lib-soft,transparent); }
+.reader-mode-toolbar button:focus-visible,.tabsira-reflection-link:focus-visible { outline:2px solid var(--lib-gold,#9a793c); outline-offset:3px; }
+body.quran-reading-mode .container :is(.forqan-page-ltr,.forqan-page-rtl) { max-width:48rem; margin-inline:auto; }
+html body.quran-reading-mode .container .ayah-block { border:0!important; border-radius:0!important; background:transparent!important; box-shadow:none!important; padding:.55rem 0!important; margin:0!important; scroll-margin-top:5rem; }
+html body.quran-reading-mode .container .ayah-block + .ayah-block { border-top:0!important; }
+body.quran-reading-mode .ayah-block > details,
+body.quran-reading-mode .ayah-block .pdf-verse-actions,
+body.quran-reading-mode .ayah-block .tabsira-reflection-link { display:none!important; }
+.reading-verse-number { display:none; }
+body.quran-reading-mode .reading-verse-number { display:inline; text-decoration:none; border:0; }
+body.quran-reading-mode .ayah-title:has(.reading-verse-number) .ayah-reference { display:none; }
+body.quran-reading-mode .container .ayah-title { font-size:.75rem!important; opacity:.75; margin-bottom:0; }
+body.quran-reading-mode .container .arabic-text { font-size:calc(var(--zoom-factor) * 1.548)!important; margin:.15rem 0!important; text-align:right; }
+body.quran-reading-mode .container .farsi-verse { font-size:calc(var(--zoom-factor) * 1.045)!important; }
+body.quran-reading-mode .container .english-verse { font-size:calc(var(--zoom-factor) * 1.026)!important; }
+body.quran-reading-mode .container :is(.farsi-verse,.english-verse) { margin:.15rem 0 .4rem!important; line-height:1.85!important; text-align:start; }
+body.quran-reading-mode .container .word-link { border:0!important; text-decoration:none!important; }
+@media print { .reader-mode-toolbar,.tabsira-reflection-link { display:none!important; } }
+
+:is(.study-embedded,.tabsira-embedded) .reader-mode-toolbar { top:0; }
