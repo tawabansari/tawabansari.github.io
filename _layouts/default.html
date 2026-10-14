@@ -5,6 +5,7 @@
 <head>
   <meta name="msvalidate.01" content="DB2AFB7FC5DEB9CD39DF6F16D8539A4E" />
   <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="/assets/brand/forqan-logo.png">
   <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
   <meta name="description" data-description-source="{% if page.description or page.excerpt %}page{% else %}site{% endif %}" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | escape }}">
   <link rel="canonical" href="{{ page.redirect_to | default: page.url | absolute_url }}">
@@ -2371,7 +2372,7 @@
       }
     }
   </style>
-  <link rel="stylesheet" href="{{ "/assets/css/library.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/library.css?v=forqan-brand-1" | relative_url }}">
   <script type="module" src="{{ "/assets/js/library.js" | relative_url }}"></script>
   <link rel="stylesheet" href="{{ "/assets/css/collections.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/verse-typography.css" | relative_url }}">

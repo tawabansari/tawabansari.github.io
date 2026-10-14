@@ -3,6 +3,7 @@
 <section class="library-home"{% if home_lang %} lang="{{ home_lang }}" dir="{% if home_lang == 'fa' %}rtl{% else %}ltr{% endif %}" data-home-language="{{ home_lang }}"{% endif %}>
 {% if home_lang %}
   <div class="library-welcome">
+    <span class="forqan-logo forqan-welcome-logo" role="img" aria-label="Forqan — فرقان"></span>
     <p class="library-eyebrow">{{ copy.eyebrow }}</p>
     <h1>{{ copy.heading }}<br><span>{{ copy.emphasis }}</span></h1>
     <p class="library-description">{{ copy.description }}</p>
@@ -19,6 +20,7 @@
   </div>
 {% else %}
   <div class="library-welcome">
+    <span class="forqan-logo forqan-welcome-logo" role="img" aria-label="Forqan — فرقان"></span>
     <p class="library-eyebrow">READ · REFLECT · EXPLORE</p>
     <h1>Let the Qur’an<br><span>speak for itself.</span></h1>
     <p class="library-welcome-fa" lang="fa" dir="rtl">قرآن را با خود قرآن بخوانیم</p>
