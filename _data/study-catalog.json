@@ -1451,5 +1451,63 @@
       "/en/quran-terminology/no-compulsion-and-delivery/",
       "/en/quran-terminology/iman/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/sabr-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "صبر",
+    "description": "پژوهشی در معنای صبر، پایداری و خویشتن‌داری در قرآن؛ نسبت آن با حق، شکر، تقوا، بخشایش و مقاومت در برابر ستم، همراه با نمایه همه ۹۳ آیه این ریشه.",
+    "format": "study",
+    "aliases": [
+      "صبر",
+      "صبّار",
+      "پایداری",
+      "خویشتن‌داری",
+      "Sabr",
+      "Ṣabr",
+      "Patience",
+      "Steadfastness",
+      "Perseverance",
+      "Self-restraint"
+    ],
+    "related": [
+      "/fa/quran-terminology/shukr-in-the-quran/",
+      "/fa/quran-terminology/kafir/",
+      "/fa/quran-terminology/taqwa/",
+      "/fa/quran-terminology/iman/",
+      "/fa/quran-terminology/covenant-in-the-quran/",
+      "/fa/quran-terminology/imamah-in-the-quran/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/sabr-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Ṣabr (Patience)",
+    "description": "A study of patience, steadfastness, and self-restraint in the Qur’an: truth, gratitude, forgiveness, resistance to oppression, and an index of all 93 verses containing the root ṣ-b-r.",
+    "format": "study",
+    "aliases": [
+      "صبر",
+      "صبّار",
+      "پایداری",
+      "خویشتن‌داری",
+      "Sabr",
+      "Ṣabr",
+      "Patience",
+      "Steadfastness",
+      "Perseverance",
+      "Self-restraint"
+    ],
+    "related": [
+      "/en/quran-terminology/shukr-in-the-quran/",
+      "/en/quran-terminology/kafir/",
+      "/en/quran-terminology/taqwa/",
+      "/en/quran-terminology/iman/",
+      "/en/quran-terminology/covenant-in-the-quran/",
+      "/en/quran-terminology/imamah-in-the-quran/"
+    ]
   }
 ]
