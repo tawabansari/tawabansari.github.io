@@ -1509,5 +1509,75 @@
       "/en/quran-terminology/covenant-in-the-quran/",
       "/en/quran-terminology/imamah-in-the-quran/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/life-and-death-in-the-quran/",
+    "collections": [
+      "terminology",
+      "reflections"
+    ],
+    "concept": "حیات و موت",
+    "description": "بررسی قرآنی و فلسفی حیات و موت، نفس و توفی، خواب، برزخ و زندگی نزد پروردگار؛ با تفکیک شواهد قرآنی از امکان‌های فلسفی درباره آگاهی.",
+    "format": "study",
+    "aliases": [
+      "حیات",
+      "موت",
+      "زندگی",
+      "مرگ",
+      "وفات",
+      "توفی",
+      "نفس",
+      "آگاهی پس از مرگ",
+      "Life",
+      "Death",
+      "Hayat",
+      "Mawt",
+      "Nafs",
+      "Tawaffi",
+      "Consciousness",
+      "Afterlife",
+      "Barzakh"
+    ],
+    "related": [
+      "/fa/quran-terminology/shahid-in-the-quran/",
+      "/fa/quran-terminology/sabr-in-the-quran/",
+      "/fa/quran-terminology/ghayb/",
+      "/fa/quran-terminology/covenant-in-the-quran/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/life-and-death-in-the-quran/",
+    "collections": [
+      "terminology",
+      "reflections"
+    ],
+    "concept": "Life and Death",
+    "description": "A Qur’anic and philosophical inquiry into life, death, the self, sleep, and life with God, distinguishing scriptural evidence from possibilities concerning awareness.",
+    "format": "study",
+    "aliases": [
+      "حیات",
+      "موت",
+      "زندگی",
+      "مرگ",
+      "وفات",
+      "توفی",
+      "نفس",
+      "آگاهی پس از مرگ",
+      "Life",
+      "Death",
+      "Hayat",
+      "Mawt",
+      "Nafs",
+      "Tawaffi",
+      "Consciousness",
+      "Afterlife",
+      "Barzakh"
+    ],
+    "related": [
+      "/en/quran-terminology/shahid-in-the-quran/",
+      "/en/quran-terminology/sabr-in-the-quran/",
+      "/en/quran-terminology/ghayb/",
+      "/en/quran-terminology/covenant-in-the-quran/"
+    ]
   }
 ]
