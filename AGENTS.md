@@ -12,3 +12,7 @@ Preserve this wording, capitalization, spelling, and punctuation. In Persian, wr
 Existing inline links may wrap parts of the translation, but the rendered sentence must remain exactly the approved text. Preserve the Arabic original. This rule standardizes the complete basmala translation; it does not authorize rewriting other verses or general lexical/theological explanations of individual words.
 
 When changing shared rendering or PDF code, verify that both language outputs still use these exact sentences. Search existing source content for older complete basmala translations when adding or importing articles.
+
+## Verse ranges in reflections
+
+When supplied reflection text cites a range of verses, expand it into individually written surah-and-verse references in both Persian and English so each verse can be referenced separately. Link each reference to its own verified, installed verse anchor. If a verse is not yet available on the site, retain its individual reference as plain text rather than inventing a destination. Apply this also to the accompanying cross-reference entry when it repeats the range.
