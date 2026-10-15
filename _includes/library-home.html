@@ -24,7 +24,7 @@
     <p class="library-eyebrow">READ · REFLECT · EXPLORE</p>
     <h1>Let the Qur’an<br><span>speak for itself.</span></h1>
     <p class="library-welcome-fa" lang="fa" dir="rtl">قرآن را با خود قرآن بخوانیم</p>
-    <p class="library-description">Translation, reflection, Qur’anic roots, concepts, and essays.<br>Explore the archive in English and فارسی.</p>
+    <p class="library-description">Independent Quran research, translation and reflection in Persian and English. Explore Arabic roots, concepts and thematic studies, with public discussion through Tabsira.<br>Explore the archive in English and فارسی.</p>
   </div>
   <form class="library-search-form" action="/search/" role="search">
     <label for="home-search" class="visually-hidden">Search Forqan</label>
@@ -41,9 +41,13 @@
 {% endif %}
   <div id="library-continue" class="library-continue" hidden></div>
 {% if home_lang %}
-  <nav class="library-foundation-links" aria-label="{{ copy.foundation }}"><a href="/{{ home_lang }}/introduction/">{{ copy.introduction }}</a><a href="/quran-reflection/{{ home_lang }}/methodology/">{{ copy.methodology }}</a></nav>
+  <nav class="library-foundation-links" aria-label="{{ copy.foundation }}"><a href="/{{ home_lang }}/about/">{{ copy.about }}</a>
+    <a href="https://tabsira.forqan.co/{{ home_lang }}">{{ copy.discussion }}</a>
+    <a href="/{{ home_lang }}/introduction/">{{ copy.introduction }}</a><a href="/quran-reflection/{{ home_lang }}/methodology/">{{ copy.methodology }}</a></nav>
 {% else %}
-  <nav class="library-foundation-links" aria-label="Introduction and methodology">
+  <nav class="library-foundation-links" aria-label="About Forqan and methodology">
+    <span><a href="/en/about/">About Forqan</a> · <a href="/fa/about/" lang="fa" dir="rtl">دربارهٔ فرقان</a></span>
+    <span><a href="https://tabsira.forqan.co/en">Discuss on Tabsira</a> · <a href="https://tabsira.forqan.co/fa" lang="fa" dir="rtl">گفت‌وگو در تبصره</a></span>
     <div><a href="/en/introduction/">Introduction</a><span aria-hidden="true">·</span><a href="/fa/introduction/" lang="fa" dir="rtl">آشنایی با قرآن</a></div>
     <div><a href="/quran-reflection/en/methodology/">Methodology</a><span aria-hidden="true">·</span><a href="/quran-reflection/fa/methodology/" lang="fa" dir="rtl">روش ترجمه و تأمل</a></div>
   </nav>

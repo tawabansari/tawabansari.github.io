@@ -1,9 +1,9 @@
 {
   "en": {
-    "eyebrow": "READ · REFLECT · EXPLORE",
+    "eyebrow": "Independent Quran research, translation and reflection",
     "heading": "Let the Qur’an",
     "emphasis": "speak for itself.",
-    "description": "Translation, reflection, Qur’anic roots, concepts, and essays.",
+    "description": "Forqan is a personally maintained, independent educational project for studying the Quran in Persian and English. It brings together verse-by-verse translation and reflection, Quranic Arabic roots, concepts, and thematic articles.",
     "search": "Search",
     "placeholder": "A verse, word, root, or topic…",
     "reference": "2:2",
@@ -43,13 +43,15 @@
         "description": "Books, essays, and in-depth studies for further reflection.",
         "url": "/en/articles/"
       }
-    ]
+    ],
+    "about": "About Forqan",
+    "discussion": "Visit Tabsira"
   },
   "fa": {
-    "eyebrow": "بخوانیم · تأمل کنیم · پژوهش کنیم",
+    "eyebrow": "پژوهش مستقل، ترجمه و تأمل در قرآن",
     "heading": "قرآن را",
     "emphasis": "با خود قرآن بخوانیم",
-    "description": "ترجمه و تأمل در قرآن، ریشه‌های واژگان، مفاهیم و مقاله‌ها.",
+    "description": "فرقان پروژه‌ای آموزشی، مستقل و شخصی برای مطالعهٔ قرآن به زبان‌های فارسی و انگلیسی است. ترجمه و تأمل آیه‌به‌آیه، ریشه‌های واژگان عربی قرآن، مفاهیم و مقاله‌های موضوعی در اینجا کنار هم قرار می‌گیرند.",
     "search": "جستجو",
     "placeholder": "آیه، واژه، ریشه یا موضوع…",
     "reference": "۲:۲",
@@ -89,6 +91,8 @@
         "description": "کتاب‌ها، مقاله‌ها و پژوهش‌هایی برای تأمل بیشتر.",
         "url": "/fa/articles/"
       }
-    ]
+    ],
+    "about": "دربارهٔ فرقان",
+    "discussion": "ورود به تبصره"
   }
 }
