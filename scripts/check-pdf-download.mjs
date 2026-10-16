@@ -19,7 +19,9 @@ for (const lang of ['en','fa']) {
   assert.ok(all.ids.length > 100);
   assert.equal(all.ids.at(0),'ayah-001');
   assert.equal(all.ids.at(-1),pages.find(p => p.url === chapter).anchors.filter(a => /^ayah-\d{3}$/.test(a)).sort().at(-1));
-  for (const input of [{scope:'range',from:12,to:3},{scope:'range',from:'3',to:12},{scope:'range',from:0,to:12},{scope:'range',from:1,to:287},{scope:'range',from:280,to:286},{scope:'invalid'}]) assert.throws(() => selectDocument({path:chapter,...input},pages));
+  assert.deepEqual(selectDocument({path:chapter,scope:'range',from:280,to:286},pages).ids,
+    Array.from({length:7},(_,i)=>`ayah-${280+i}`), 'The completed Baqarah ending is available for export');
+  for (const input of [{scope:'range',from:12,to:3},{scope:'range',from:'3',to:12},{scope:'range',from:0,to:12},{scope:'range',from:1,to:287},{scope:'invalid'}]) assert.throws(() => selectDocument({path:chapter,...input},pages));
   for (const input of [{path:chapter},{path:chapter,verse:'ayah-999'},{path:chapter,verse:'ayah-106',reflection:'yes'},{path:study,verse:'ayah-106'}]) assert.throws(() => selectDocument(input,pages));
   const html = readFileSync(`_site${study}index.html`,'utf8');
   assert.ok(html.includes('/assets/js/pdf-download.mjs'));

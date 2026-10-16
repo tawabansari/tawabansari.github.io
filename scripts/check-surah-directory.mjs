@@ -29,7 +29,8 @@ for (const lang of ['en', 'fa']) {
   assert.equal(visible().length, published.length);
   check.checked = false; update(); assert.equal(visible().length, 114);
   input.value = 'imran'; update(); assert.ok(visible().length > 0);
-  check.checked = true; update(); assert.equal(visible().length, 0);
+  const publishedMatches = visible().filter(c => published.includes(c));
+  check.checked = true; update(); assert.deepEqual(visible(), publishedMatches);
   input.value = 'fatiha'; update(); assert.equal(visible().length, 1);
   input.value = ''; update(); assert.equal(visible().length, published.length);
   console.log(`${lang}: publication toggle, search, and clearing search passed (${published.length} published).`);

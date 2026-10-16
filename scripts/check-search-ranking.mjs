@@ -79,7 +79,11 @@ if (!lang) {
   }
   assert.equal(referenceResults(parseReference('2:104–106',catalog.surahs),catalog).length,3);
   assert.equal(parseReference('2:287',catalog.surahs).valid,false);
-  assert.equal(referenceResults(parseReference('3:1',catalog.surahs),catalog).length,0);
+  // Publication changes as chapters are added; test absence using a sparse catalog.
+  const imranStart = parseReference('3:1',catalog.surahs);
+  const publishedImranStart = catalog.records.filter(r=>r.kind==='Quran' && r.chapter===3 && r.verseNumber===1);
+  assert.deepEqual(referenceResults(imranStart,catalog).map(r=>r.id),publishedImranStart.map(r=>r.id));
+  assert.equal(referenceResults(imranStart,{...catalog,records:catalog.records.filter(r=>r.chapter!==3)}).length,0);
   // Stem matches must select a real matching paragraph, not a generic description.
   if (lang==='en') {
     const result = await search('abrogated');
