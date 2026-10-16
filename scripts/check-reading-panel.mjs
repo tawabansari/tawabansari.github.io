@@ -1,9 +1,15 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {studyURL} from '../assets/js/reading-panel.mjs';
+import {studyURL,isReadingReference} from '../assets/js/reading-panel.mjs';
 const base='https://forqan.co/quran-reflection/en/002-al-baqarah/';
-for(const path of ['/quran-terminology/en/roots/a-m-n/','/fa/articles/quranic-marriage/','/en/salat/','/fa/quran-terminology/iman/','/search/','/quran-reflection/en/002-al-baqarah/','/quran-terminology/fa/roots/','/en/','/about.html'])assert.equal(studyURL(path,base)?.pathname,path);
-for(const path of ['https://other.example/en/articles/a/','javascript:alert(1)','/assets/book.pdf','/assets/data.json','mailto:hello@example.org','tel:123'])assert.equal(studyURL(path,base),null);
+for(const path of ['/quran-terminology/en/roots/a-m-n/','/fa/articles/quranic-marriage/','/en/salat/','/fa/quran-terminology/iman/','/quran-reflection/en/002-al-baqarah/'])assert.equal(studyURL(path,base)?.pathname,path);
+for(const path of ['https://other.example/en/articles/a/','javascript:alert(1)','/assets/book.pdf','/assets/data.json','mailto:hello@example.org','tel:123','/search/','/quran-terminology/fa/roots/','/en/','/about.html','/en/articles/','/en/quran-terminology/','/quran-reflection/en/surahs/'])assert.equal(studyURL(path,base),null);
+// A reading destination alone must never capture global navigation or directory cards.
+const reference={href:'/quran-reflection/en/004-an-nisa/#ayah-006',closest:selector=>selector==='#main-content,.root-popover'?{}:null};
+assert.equal(isReadingReference(reference,'https://forqan.co/en/articles/quranic-marriage/'),true);
+assert.equal(isReadingReference(reference,'https://forqan.co/en/articles/'),false);
+assert.equal(isReadingReference({...reference,closest:()=>null},base),false);
+assert.equal(isReadingReference({...reference,closest:()=>({})},base),false);
 const clean=studyURL('/en/articles/example/?reading-panel=1&highlight=prayer#part',base);
 assert.equal(clean.searchParams.has('reading-panel'),false);assert.equal(clean.searchParams.get('highlight'),'prayer');assert.equal(clean.hash,'#part');
 for(const lang of ['en','fa']){

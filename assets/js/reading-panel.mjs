@@ -1,14 +1,22 @@
 import {afterReadingLayout} from './reading-position.mjs';
-// Internal pages stay connected to the reader's place; original anchors remain real links.
+// Only references between reading pages use the panel; site navigation stays native.
 export function studyURL(value, base) {
   try {
     const url=new URL(value,base);
     if(url.origin!==new URL(base).origin)return null;
     if(!['http:','https:'].includes(url.protocol))return null;
-    // Files and downloads retain the browser's native handling.
-    if(/\.[^/]+$/.test(url.pathname) && !/\.html?$/i.test(url.pathname))return null;
+    const readingPage = /^\/quran-reflection\/(en|fa)\/\d{3}-[^/]+\/?$/.test(url.pathname)
+      || /^\/quran-terminology\/(en|fa)\/roots\/[^/]+\/?$/.test(url.pathname)
+      || /^\/(en|fa)\/(articles|quran-terminology|hadith-critique|quran-completeness)\/[^/]+(?:\/[^/]+)*\/?$/.test(url.pathname)
+      || /^\/(en|fa)\/(salat|zakat)\/?$/.test(url.pathname);
+    if(!readingPage || /\.[^/]+$/.test(url.pathname))return null;
     url.searchParams.delete('reading-panel');return url;
   }catch{return null;}
+}
+export function isReadingReference(link, base) {
+  if(!studyURL(base,base) || !studyURL(link.href,base))return false;
+  if(!link.closest('#main-content,.root-popover'))return false;
+  return !link.closest('nav,header,footer,.breadcrumbs,.forqan-pathway-shell,.study-context,.mirror-link,.language-mirror-link,.language-switcher,[data-language],[hreflang],[data-panel-open]');
 }
 function init(){
   if(window.self!==window.top || !window.HTMLDialogElement)return;
@@ -61,6 +69,11 @@ function init(){
           const link=event.target.closest?.('a[href]');if(!link || event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||link.hasAttribute('download'))return;
           const destination=new URL(link.href,item.url);
           if(!['http:','https:'].includes(destination.protocol))return;
+          if(destination.origin===new URL(item.url).origin && destination.pathname!==new URL(item.url).pathname && !isReadingReference(link,item.url)){
+            event.preventDefault();event.stopImmediatePropagation();
+            destination.searchParams.delete('reading-panel');
+            window.location.assign(destination.href);return;
+          }
           const next=studyURL(link.href,item.url);
           event.preventDefault();event.stopImmediatePropagation();
           if(next && next.pathname===new URL(item.url).pathname && next.hash){
@@ -80,6 +93,7 @@ function init(){
     const link=event.target.closest?.('a[href]');
     if(link){const target=new URL(link.href,location.href);if(['http:','https:'].includes(target.protocol)&&target.origin!==location.origin){link.target='_blank';link.rel='noopener';}}
     if(!link||link.hasAttribute('data-panel-open')||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||link.hasAttribute('download'))return;
+    if(!isReadingReference(link,location.href))return;
     const url=studyURL(link.href,location.href);if(!url)return;
     if(url.pathname===location.pathname && url.search===location.search)return;
     event.preventDefault();event.stopImmediatePropagation();
