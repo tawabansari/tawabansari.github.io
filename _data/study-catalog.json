@@ -1602,5 +1602,27 @@
       "/fa/quran-terminology/divine-decree-and-human-choice/",
       "/fa/quran-terminology/intercession-in-the-quran/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/salawat-in-the-quran/",
+    "collections": [
+      "terminology",
+      "reflections",
+      "salat",
+      "hadith"
+    ],
+    "concept": "صلوات فرستادن",
+    "description": "پژوهشی درباره صلوات فرستادن، تفاوت صلاة خداوند و بندگان، ارزش دعا برای پیامبر و حدود الزام به تکرار عبارت دعایی پس از نام؛ همراه با بررسی روایت ترمذی و شواهد تاریخی و نسخه‌شناختی.",
+    "format": "study",
+    "aliases": [
+      "صلوات",
+      "صلوات بر پیامبر",
+      "Salawat",
+      "صلی الله علیه وسلم"
+    ],
+    "related": [
+      "/fa/articles/salat-in-the-quran/",
+      "/fa/quran-terminology/sabr-in-the-quran/"
+    ]
   }
 ]
