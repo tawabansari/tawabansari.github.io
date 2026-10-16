@@ -58,6 +58,11 @@ body .container .salat-study .arabic {
   font-size: calc(var(--zoom-factor, 100%) * 1.25) !important;
 }
 .salat-study .translation { direction: rtl; text-align: start; font-family: inherit; }
+.salat-study[lang="en"] { line-height: 1.85; }
+.salat-study[lang="en"] .translation { direction: ltr; }
+.salat-study[lang="en"] h1 { line-height: 1.3; }
+.salat-study[lang="en"] h2,
+.salat-study[lang="en"] h3 { line-height: 1.45; }
 .salat-study .verse-ref { font-size: .95em; }
 .salat-study .verse-citation { display: inline; white-space: normal; }
 .salat-study .verse-citation bdi { white-space: nowrap; }

@@ -1,872 +1,568 @@
 ---
-layout: post
-title: "How Should We Establish Salat According to the Qur’an?"
-date: 2026-06-05
-lang: en
-topic: salat
-permalink: /en/articles/salat-in-the-quran/
-mirror: /fa/articles/salat-in-the-quran/
-tags: [quran, salat, prayer, remembrance, worship, hadith]
+layout: "default"
+title: "Salat in the Qur’an: Meaning, Practice, and the Life of Prayer"
+date: "2026-06-05"
+updated: "2026-10-15"
+lang: "en"
+dir: "ltr"
+topic: "salat"
+permalink: "/en/articles/salat-in-the-quran/"
+mirror: "/fa/articles/salat-in-the-quran/"
+tags: ["quran", "salat", "prayer", "remembrance", "worship", "hadith"]
+description: "A full study of Salat in the Qur’an: its meaning and purpose, practical instructions, the transmission of prayer, and the limits of religious obligation."
+excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practical instructions, the transmission of prayer, and the limits of religious obligation."
 ---
-
-# How Should We Establish Salat According to the Qur’an?
-
-> This article uses “prayer-connection” to describe the Qur’anic concept commonly called Salat or prayer. The purpose is to avoid reducing the concept to mechanical recitation or inherited terminology.
-
-<p><a href="/fa/articles/salat-in-the-quran/">آیینه فارسی: صلوة در قرآن چیست و چگونه برپا می‌شود؟</a></p>
-
-## Contents
-
-- [The Meaning of the Prayer-Connection Itself](#the-meaning-of-the-prayer-connection-itself)
-- [Essence Before Form](#essence-before-form)
-- [The Purpose of the Prayer-Connection](#the-purpose-of-the-prayer-connection)
-- [What the Qur’an Shows About the Prayer-Connection](#what-the-quran-shows-about-the-prayer-connection)
-- [The Prayer-Connection Did Not Begin With the Final Prophet](#the-prayer-connection-did-not-begin-with-the-final-prophet)
-- [One Example: Reciting the Opening Chapter Behind the Leader](#one-example-reciting-the-opening-chapter-behind-the-leader)
-- [The Qur’an Clearly Gives the Foundations](#the-quran-clearly-gives-the-foundations)
-- [The Times of the Prayer-Connection](#the-times-of-the-prayer-connection)
-- [Living Practice and Written Reports Are Not the Same](#living-practice-and-written-reports-are-not-the-same)
-- [What Must Not Happen in the Prayer-Connection](#what-must-not-happen-in-the-prayer-connection)
-- [So How Should We Pray?](#so-how-should-we-pray)
-
-**In the name of The God, the Entirely Merciful, the Especially Merciful.**
-
-In understanding the Qur’anic prayer-connection, one of the first mistakes—especially among Persian speakers—is translating “establishing the prayer-connection” as “reading prayer.” This incomplete translation changes the meaning from its root. The Qur’an does not use the Persian word “namaz” for this act of worship, nor does it use the verb “to read.” What the Qur’an says is to establish the prayer-connection, not to read prayer.
-
-When The-God says:
-
-> Establish the prayer-connection, give the purifying contribution, and bow with those who bow.  
-> **Qur’an 2:43**
-
-The word used here means establishing, upholding, making firm, and keeping something standing. This is a living and continuous act, not a momentary act like “reading.” If the Qur’an had meant “read,” it could have used words such as “read” or “say,” but it did not.
-
-So the first correction is this:
-
-**The prayer-connection in the Qur’an is not something to be “read.” It is something to be established.**
-
-But what is “namaz”? Where did this term come from?
-
-“Namaz” is a Persian word that existed in Iranian languages before Islam. It carried meanings such as reverence, bending, and a form of humble gesture. Later, this word was used to translate the Qur’anic term for prayer-connection. But over time, this translation pushed the meaning toward an outward and repetitive ritual act, while the Qur’anic concept is much deeper and wider. This is the point where a translation, instead of carrying the meaning, limited it.
-
-## The Meaning of the Prayer-Connection Itself
-
-The second step is to understand the word itself.
-
-Over time, the prayer-connection has been reduced to “supplication,” “sending blessings,” or “reciting certain phrases.” But when we return to the Qur’an itself, this meaning alone is not enough.
-
-The-God says:
-
-> Indeed, The-God and His angels perform the prayer-connection upon the Prophet. O you who believe, perform the prayer-connection upon him and submit with full submission.  
-> **Qur’an 33:56**
-
-Here we must pause.
-
-If this term simply means “sending greetings,” what does that mean when applied to The-God? Does The-God “recite greetings”? Do the angels merely repeat a sentence?
-
-The verse itself shows that the prayer-connection is an act, not merely the saying of a phrase. It is an act that comes from The-God, the angels, and the believers. But at every level, its reality is one: entering a path, connecting to it, and aligning with it.
-
-If the common translations were correct, and if “The-God and His angels perform the prayer-connection upon the Prophet” only meant “sending greetings” or “saying peace,” then The-God could easily have used clear and direct expressions in Arabic. For example, He could have said that The-God and His angels “send peace upon the Prophet.” If the meaning were supplication, He could have said “they pray for him.” If the meaning were asking mercy for him, He could have said that directly.
-
-These expressions are known and clear. They contain no ambiguity. But the Qur’an does not use any of them. Instead, it uses this specific word. And in the same verse, it mentions peace separately by saying, “and submit with full submission.” This separation shows that the prayer-connection is not the same as peace-greeting, nor is it merely supplication. It is an independent act beyond those meanings. The Qur’an deliberately chose a specific word for it. If the intended meaning were those simple and common meanings, it could have stated them plainly and without complexity.
-
-The peak of this meaning appears in a verse that takes the discussion far beyond a narrow legalistic framework. The-God says:
-
-> Do you not see that whoever is in the heavens and the earth glorifies The-God, and the birds with wings spread? Each has known its own prayer-connection and its glorification. And The-God knows what they do.  
-> **Qur’an 24:41**
-
-The importance of this verse is that it removes the prayer-connection from the narrow prison of purely legalistic understanding. When the Qur’an says that the bird also knows its own prayer-connection, it becomes clear that the root meaning is not limited to a few fixed human body movements.
-
-A bird does not perform human bowing in the legal sense. It does not perform human prostration in the technical sense. It does not recite verbally the way we do. Yet the Qur’an still attributes a prayer-connection to it.
-
-This means that, in its deeper sense, the prayer-connection is each being entering the awareness-giving orbit of its own creation, knowing its relation to its Lord, and doing what it was created to do in a state of glorification and submission.
-
-From here, the prayer-connection is no longer merely a closed religious ritual. It becomes a way of entering the living network of existence and knowing one’s place before The-God.
-
-The human prayer-connection, within this greater horizon, is the special and conscious form of this universal law.
-
-## Essence Before Form
-
-The verses about the prayer-connection during fear and movement are among the strongest Qur’anic proofs that, in the logic of revelation, essence comes before form.
-
-The-God says:
-
-> When you travel through the land, there is no blame upon you if you shorten the prayer-connection, if you fear that those who reject the truth may harm you. Indeed, the rejecters are a clear enemy to you.  
-> **Qur’an 4:101**
-
-Then He says:
-
-> When you are secure, establish the prayer-connection. Indeed, the prayer-connection has been prescribed for the believers at appointed times.  
-> **Qur’an 4:103**
-
-And in another verse He says:
-
-> Guard the prayer-connections, and the middle prayer-connection, and stand before The-God with devotion. But if you are afraid, then on foot or riding. Then when you are safe, remember The-God as He taught you what you did not know.  
-> **Qur’an 2:238–239**
-
-These verses close the door to rigidity. If fixed outward form were the absolute essence of the prayer-connection, The-God would never have allowed a person to establish it while afraid, moving, walking, or riding.
-
-This flexibility shows that the core of the prayer-connection is that the connection and remembrance must not be cut off. It is not about being trapped inside a form that can only be performed under normal conditions.
-
-In safety, it takes its fuller and calmer form. But in fear and movement, the essence remains, even if the form changes.
-
-This is one of the clearest Qur’anic proofs that, in the logic of revelation, the prayer-connection is a living connection that must be preserved. It is not a dry form whose essence disappears when its outward shape changes.
-
-## The Purpose of the Prayer-Connection
-
-Another verse is decisive for understanding the purpose of the prayer-connection:
-
-> Indeed, I am The-God. There is no deity except Me. So worship Me and establish the prayer-connection for My remembrance.  
-> **Qur’an 20:14**
-
-Here the purpose is stated clearly: remembrance.
-
-But this needs explanation. In the Qur’an, remembrance is not merely repeating words. It is living awareness, conscious presence, and real connection.
-
-Another verse says:
-
-> Recite what has been revealed to you from the Book, and establish the prayer-connection. Indeed, the prayer-connection restrains from indecency and wrongdoing. And the remembrance of The-God is greater. And The-God knows what you do.  
-> **Qur’an 29:45**
-
-This verse gives a practical criterion: the prayer-connection must have an effect.
-
-If what we are doing does not restrain us from corruption, then we must reconsider our understanding.
-
-The meaning of remembrance in the Qur’an is not merely repeating a fixed phrase or reciting a formula. It is a kind of re-awakening: returning human awareness to a truth that a person is constantly in danger of forgetting.
-
-When The-God says, “Establish the prayer-connection for My remembrance,” it does not mean: establish it only to repeat a few sentences. It means: establish it so that you do not forget your relationship with The-God, with truth, with responsibility, and with your place in this world.
-
-From this angle, the prayer-connection is a living and repeated reminder. It is a conscious return. In modern language, we could call it a daily “update” for the soul and direction of the human being, so that one is saved from heedlessness, inner scattering, and losing the path.
-
-But if this same prayer-connection becomes empty of this truth and falls into mechanical repetition without presence, then it loses its Qur’anic function.
-
-The Qur’an has given a clear measure for whether this connection is succeeding or failing:
-
-> Indeed, the prayer-connection restrains from indecency and wrongdoing.  
-> **Qur’an 29:45**
-
-So if this living reminder cannot affect a person’s behavior, ethics, and choices, and cannot restrain them from evil, then we must honestly say that the process of connection has not been performed properly. What remains may be the outward form of the prayer-connection, but it is not its spirit.
-
-## What the Qur’an Shows About the Prayer-Connection
-
-From all these verses, it becomes clear that the prayer-connection means establishing a living, conscious, and continuous relationship with The-God, in the path of truth, with presence, remembrance, and real effect in life.
-
-The fact that this concept was later limited to “supplication” or “sending blessings” is more the result of not understanding the depth of the word than a complete explanation of it.
-
-Even in some historical reports, we see that early Muslims themselves had questions about the nature of the prayer-connection. This shows that, from the beginning, this concept required deep understanding.
-
-But the important point is this: we do not rely on those reports to prove the reality of the prayer-connection. We return to the Qur’an itself. The Qur’an is sufficient for guidance, and it is the final criterion.
-
-For example, in earlier commentary traditions on Qur’an 33:56, several different explanations were given. Some said that The-God’s prayer-connection upon the Prophet means His praise of him among the angels, while the angels’ prayer-connection means supplication for the Prophet. Others explained it as mercy. Others explained it as blessing or honoring.
-
-When one word in one verse receives so many different explanations — praise, mercy, supplication, blessing, honoring — this itself shows that early commentators did not reach one fixed and certain understanding of its exact meaning. Each one explained it from a particular angle.
-
-The same situation appears in other early commentaries. Some said The-God’s prayer-connection means mercy. Others said it means praise. The angels’ prayer-connection was sometimes explained as seeking forgiveness.
-
-Then, when believers are commanded to perform the prayer-connection upon the Prophet, we again see difference in explanation. In some reports, the companions ask the Prophet in effect: “We know how to greet you with peace, but how do we perform the prayer-connection upon you?”
-
-That question itself is important. It shows that even among those closest to the Prophet, the prayer-connection was not simply obvious as “saying one fixed sentence.” It needed explanation.
-
-The more important point is that the answers preserved in those reports are usually presented as teaching a phrase, not as defining the nature of the prayer-connection itself.
-
-Instead of explaining what the prayer-connection truly is, the discussion moved toward what words should be said.
-
-This is exactly the shift that gradually happened over time: from an act to a phrase.
-
-That shift shows how the original understanding of the prayer-connection was gradually simplified and reduced to verbal formulas.
-
-Still, mentioning these reports is not for proving religion or deciding the final meaning of the prayer-connection. Their value is that they show that the earliest generations themselves were engaged with this concept and did not receive it as something fully closed, simple, and self-evident.
-
-So when we face the question today — “What is the prayer-connection?” — the right path is not to choose one scattered opinion from history over another.
-
-The right path is to return to the source that used the word in the first place.
-
-The Qur’an itself is the final criterion for understanding the word it established.
-
-And when the Qur’an connects the prayer-connection with standing, bowing, prostration, remembrance, and effect in life, it becomes clear that we are dealing with a living structure of connection, not merely a sentence to be repeated.
-
-## The Prayer-Connection Did Not Begin With the Final Prophet
-
-The third step is to make this point clear: the prayer-connection was not a new phenomenon that began in the time of the final Prophet.
-
-The-God says about Jesus:
-
-> He made me blessed wherever I may be, and He instructed me in the prayer-connection and the purifying contribution as long as I live.  
-> **Qur’an 19:31**
-
-And about Abraham:
-
-> My Lord, make me one who establishes the prayer-connection, and from my descendants as well. Our Lord, accept my prayer.  
-> **Qur’an 14:40**
-
-And about Ishmael:
-
-> He used to command his family to the prayer-connection and the purifying contribution, and he was pleasing to his Lord.  
-> **Qur’an 19:55**
-
-These verses show that the prayer-connection is a deeply rooted prophetic tradition. The final Prophet did not invent something from himself. He continued the same path.
-
-But now we reach one of the most important questions — a question often used as pressure against the Qur’an:
-
-If written reports attributed to the Prophet did not exist, and if the Qur’an alone were sufficient, then where would the details of the prayer-connection come from?
-
-Those who build religion on those reports often take a gap in their own understanding and present it as a gap in the Qur’an.
-
-They say: because what they do today — with all its details — is not written in the Qur’an exactly as they practice it, therefore the Qur’an must be incomplete and in need of another source.
-
-But this argument is upside down from the beginning.
-
-Instead of measuring their practice by the Qur’an, they measure the Qur’an by their practice.
-
-Even if we look carefully at the very sources they present as the answer — the written reports attributed to the Prophet, even in the most trusted collections — we do not find one unified, explicit, and disagreement-free system for the basic pillars of the prayer-connection.
-
-They do not give, in a single clear and consistent way, the exact number of units, one fixed structure of establishment, or one final form of bowing and prostration beyond dispute.
-
-Rather, in many cases, those very reports produced minor differences, varied interpretations, and later secondary obligations. These matters were not foundational to the act itself, but over time they became centers of disagreement and even conflict.
-
-This shows that what is presented as “the completion of details” did not actually produce one clear and unified system.
-
-So when we turn to those reports, we are not facing a precise, unified, and certain system whose details came clearly from a divine source. We are facing a collection of understandings, narrations, and historical interpretations that formed over time and became subject to disagreement.
-
-## One Example: Reciting the Opening Chapter Behind the Leader
-
-This disagreement can be seen clearly in one specific example, not from the margins, but from within the prayer-connection itself: the issue of reciting the opening chapter of the Qur’an behind the prayer leader.
-
-The Qur’an gives a simple and clear principle:
-
-> Recite whatever is made easy for you from the Qur’an.  
-> **Qur’an 73:20**
-
-This verse establishes recitation within the prayer-connection, but it leaves it flexible, within what is made easy. It does not turn it into a system of complicated and conflicting obligations.
-
-Yet in this one issue, three major legal schools reached three completely different and even contradictory conclusions.
-
-One school said that reciting the opening chapter is required in every unit, whether one is praying alone or behind a leader. According to this view, if a person does not recite it, the prayer is invalid.
-
-Another school said the exact opposite: the follower behind the leader should not recite anything, and the leader’s recitation is enough for everyone. This view even used a Qur’anic verse as support:
-
-> When the Qur’an is recited, listen to it and remain silent, so that you may receive mercy.  
-> **Qur’an 7:204**
-
-A third school took a middle path and said recitation for the follower is optional: in quiet prayers, the person may recite; in loud prayers, it is better to listen.
-
-So what happened?
-
-In one single issue, three different rulings formed:
-
-In one school, if you do not recite the opening chapter, your prayer is invalid.
-
-In another school, if you do recite behind the leader, your prayer may be treated as wrong.
-
-In the third school, both possibilities are allowed.
-
-This means that a Muslim can be told in one school that their prayer is invalid, while the same action is treated in another school as a condition for the prayer’s validity.
-
-This is not a minor difference. This is contradiction inside the core of the act.
-
-This example clearly shows that what is presented as “completing the details through reports” did not lead to one certain and unified system. It did not remove disagreement. It became a source of disagreement.
-
-The Qur’an gives a simple and broad principle: recite whatever is made easy from the Qur’an.
-
-But later legal systems, relying on reports and interpretations, divided this simple principle into three contradictory rulings: required, forbidden, and optional.
-
-So we must ask ourselves:
-
-If early legal scholars could not agree even on such a basic part of the prayer-connection — whether the opening chapter should be recited behind the leader or not — how can any single later report be treated as the absolute criterion of religion?
-
-And beyond that, how can heavy rulings be issued based on these disagreement-prone collections? How can people be declared outside faith, or accused of abandoning religion, on the basis of material that was itself subject to disagreement?
-
-At this point, the issue is no longer merely legal disagreement.
-
-The issue is assigning certainty to something whose very nature was historically uncertain and disputed.
-
-These disagreements show that these details were not preserved as one single, decisive, and unified text.
-
-## The Qur’an Clearly Gives the Foundations
-
-In contrast, the Qur’an has clearly stated the essential foundations of the prayer-connection.
-
-For example, regarding purification before it, The-God says:
-
-> O you who believe, when you rise for the prayer-connection, wash your faces and your hands up to the elbows, and wipe your heads and your feet up to the ankles.  
-> **Qur’an 5:6**
-
-Regarding bowing and prostration, He says:
-
-> O you who believe, bow, prostrate, worship your Lord, and do good, so that you may succeed.  
-> **Qur’an 22:77**
-
-Regarding standing, He says:
-
-> Stand before The-God with devotion.  
-> **Qur’an 2:238**
-
-In the Arabic language itself, the word used for “establishing” comes from a root connected to making something stand, such as a pillar, a post, or a tent.
-
-A tent only has meaning as long as its central support stands. It becomes shelter, and a person lives under its shade. But if that support collapses, the tent is no longer a shelter. It becomes nothing more than cloth fallen on the ground.
-
-When the Qur’an speaks of establishing the prayer-connection, it uses this same logic.
-
-The prayer-connection is not something that is merely performed and then finished. It is something that must be established so that life can take shape under its shade.
-
-You establish the prayer-connection so that you may stand within it, remain within it, and live under its shelter.
-
-Here the fundamental difference becomes clear:
-
-In the Qur’anic logic, the prayer-connection is an environment, not a passing duty.
-
-It is a structure, not a moment.
-
-And if this structure is not established, what remains may be only repeated movements and words, not the establishment of the prayer-connection.
-
-## The Times of the Prayer-Connection
-
-Just as we saw in the case of fear and movement that form follows essence, the Qur’an keeps the same logic when it speaks about time.
-
-Regarding the times of the prayer-connection, the Qur’an clearly establishes the principle. But it expresses the timing through windows of time and signs of day and night, not through the later technical schedule of legal manuals.
-
-The Qur’an first states that the prayer-connection is appointed by time. It is not random or loose. It is to be established at known and appointed times:
-
-> Indeed, the prayer-connection has been prescribed for the believers at appointed times.  
-> **Qur’an 4:103**
-
-But this verse gives the principle of time. To understand the actual windows of time, we must place other verses beside it.
-
-One of the most important verses in this discussion is:
-
-> Establish the prayer-connection from the decline of the sun until the darkness of the night, and the recitation of dawn. Indeed, the recitation of dawn is witnessed.  
-> **Qur’an 17:78**
-
-In this verse, three important elements appear:
-
-- The decline of the sun.
-
-- The darkness of the night.
-
-- The recitation of dawn.
-
-From here, two major readings emerged.
-
-Some have said that this verse points to three main time windows: one after the sun’s decline, one in the night, and one at dawn. When this is read together with other verses that mention the two ends of the day and parts of the night, they conclude that the Qur’an identifies three main times, not five separate and independent times.
-
-The verse commonly placed beside this one is:
-
-> Establish the prayer-connection at the two ends of the day and in parts of the night. Indeed, good deeds remove bad deeds. That is a reminder for those who remember.  
-> **Qur’an 11:114**
-
-Those who understand three times from the Qur’an usually say:
-
-- The first end of the day is dawn.
-
-- The second end of the day is the later part of the day.
-
-- The parts of the night include the beginning of the night.
-
-Another verse used in this reading is:
-
-> So glorify The-God when you enter the evening and when you enter the morning. And to Him belongs praise in the heavens and the earth, and in the late afternoon, and when you reach midday.  
-> **Qur’an 30:17–18**
-
-From these verses, some see four time signs that, in practice, return to three larger windows: morning, midday, and evening/night.
-
-Accordingly, they say that the Qur’an speaks of three main times, even though more prayer-connections may be performed within those windows, or some may be joined together.
-
-In this view, the Qur’an does not explicitly name five independent times in direct language. Instead, it presents three large time zones, which were later expanded in practical tradition.
-
-## The Five-Time Reading
-
-Another group, from these same verses and from combining them with one another, inferred five times.
-
-Their argument is that although the Qur’an does not list the later legal names in the order found in legal manuals, it gives time markers in a way that together covers five occasions.
-
-They say that in the verse, “Establish the prayer-connection from the decline of the sun until the darkness of the night, and the recitation of dawn,” dawn is one independent time. The span after the sun’s decline until before sunset includes two sections. And from sunset until the darkness of night includes two more sections.
-
-They also add this verse:
-
-> O you who believe, let those whom your right hands possess and those among you who have not reached maturity ask your permission at three times: before the dawn prayer-connection, when you put aside your clothing at midday, and after the night prayer-connection. These are three private times for you. After them there is no blame upon you or upon them. They move about among you, some of you among others. Thus The-God makes the signs clear for you. And The-God is Knowing, Wise.  
-> **Qur’an 24:58**
-
-Those who support five times from the Qur’an focus on the fact that the Qur’an explicitly names the dawn prayer-connection and the night prayer-connection. Then, by combining this with the decline of the sun, the darkness of the night, and the two ends of the day, they say that midday, afternoon, and sunset can also be derived.
-
-They also refer to this verse:
-
-> Be patient over what they say, and glorify your Lord with praise before sunrise and before its setting, and in parts of the night glorify Him, and at the edges of the day, so that you may be pleased.  
-> **Qur’an 20:130**
-
-In this reading:
-
-- “Before sunrise” points to dawn.
-
-- “Before its setting” points to the afternoon period.
-
-- “Parts of the night” points to sunset and night.
-
-- “Edges of the day” points to other parts of the day.
-
-But honesty requires us to say that these verses, in their wording, do not provide the final legal schedule exactly in the later technical form. That division comes from placing the verses together and from the practical tradition of the community.
-
-So why do some say three times while others say five?
-
-Because the first group focuses more on the large time windows in the Qur’an and says that the direct text shows three main ranges.
-
-The second group says that when those same windows are read with greater detail and combined with other verses, they can be separated into five occasions.
-
-Therefore, the disagreement is mostly about the level of separation, not about the principle that the prayer-connection is tied to time.
-
-One reads the Qur’an at a broad level and sees three times.
-
-The other reads the same verses with more detailed separation and infers five times.
-
-The important point is that both groups take their foundation from the Qur’an, not from the assumption that the Qur’an is silent.
-
-So what must be made clear is this:
-
-The Qur’an establishes beyond ambiguity that the prayer-connection is time-bound. Its times are also taken from the Qur’anic verses themselves. But whether these times are understood as three large windows or five separated occasions is a matter of reading and interpretation.
-
-Therefore, once again, we see that the Qur’an gives the foundation. The differences arise mostly at the level of later organization and detailed arrangement, not in the original divine legislation.
-
-## Time Windows, Not Sectarian Micromanagement
-
-In the discussion of the times of the prayer-connection, if we pay attention to the Qur’an’s own language, we see that the Qur’an does not define the times like a legal manual, through exact points and counted labels.
-
-Instead, it expresses them as limits and time ranges.
-
-It does not say: perform the prayer-connection at this exact minute, with this numbered slot.
-
-Rather, it builds the time framework and places the human being inside that framework.
-
-From here, we can understand that dividing these ranges into five specific occasions in the history of the community was a structural choice for organization. It was not an explicit number that the Qur’an made a condition of acceptance.
-
-In other words, the community separated these limits into five parts in order to perform them with more precision and order. This may be useful and organizing. But turning it into an absolute boundary that invalidates every other form would require a text that the Qur’an does not provide in that manner.
-
-Here, we only point to the principle of ease.
-
-Therefore, if someone establishes the prayer-connection within the Qur’anic framework — within these time limits — but does so in three occasions, for example by joining some prayer-connections together, it cannot be easily said that such a person has left the Qur’anic framework.
-
-The Qur’an itself sets the vital minimum and places the principle on capacity and the removal of hardship:
-
-> The-God does not burden any soul beyond its capacity.  
-> **Qur’an 2:286**
-
-And:
-
-> The-God does not wish to place hardship upon you.  
-> **Qur’an 5:6**
-
-So in the logic of the Qur’an, the times of the prayer-connection form an open and living system. Its limits are clear, but the form of performance within those limits is left to reason, social order, and human capacity.
-
-It is not a closed mold where every minor departure means departure from religion.
-
-## Awareness in the Prayer-Connection
-
-Regarding awareness in the prayer-connection, The-God says:
-
-> O you who believe, do not approach the prayer-connection while you are intoxicated, until you know what you are saying.  
-> **Qur’an 4:43**
-
-The Qur’an has also spoken about what should be recited within the prayer-connection. The-God says:
-
-> Establish the prayer-connection from the decline of the sun until the darkness of the night, and the recitation of dawn. Indeed, the recitation of dawn is witnessed.  
-> **Qur’an 17:78**
-
-And He also says:
-
-> Recite whatever is made easy for you from the Qur’an.  
-> **Qur’an 73:20**
-
-From all these verses, it becomes clear that what should be recited in the prayer-connection is the Qur’an itself.
-
-It is not that the Qur’an remained silent on this matter and others later came to define the main content.
-
-Of course, the Qur’an does not name one specific chapter as exclusively and compulsorily required for all situations and all units. Rather, it establishes the principle of Qur’an recitation and whatever is made easy.
-
-This also agrees with the spirit of ease and removal of hardship in the religion.
-
-The Qur’an also does not only say what should be recited. It even gives a measure for how loudly or quietly it should be recited:
-
-> Do not raise your voice too loudly in your prayer-connection, and do not make it too quiet, but seek a way between them.  
-> **Qur’an 17:110**
-
-This verse clearly shows that, contrary to the disputes of later legal thinkers and report-based systems, even the tone and level of voice in the prayer-connection were not left completely undefined.
-
-The Qur’an accepts neither excess in loudness nor excess in quietness. It makes the middle way the measure.
-
-Here again we see that the principle itself is present in the Qur’an, but not in a way that creates obsession and sectarianism. It comes as a clear and balanced criterion.
-
-So, in summary, the Qur’an has stated:
-
-- purification before the prayer-connection,
-
-- standing, bowing, and prostration,
-
-- that the prayer-connection is tied to appointed times,
-
-- remembrance and awareness as its spirit,
-
-- that what is recited in it should come from the Qur’an,
-
-- and even the measure of voice: not too loud and not too quiet, but balanced.
-
-Therefore, the essential foundations of the prayer-connection, and an important part of its content, are present in the Qur’an itself.
-
-## Living Practice and Written Reports Are Not the Same
-
-The Prophet also established the prayer-connection according to these same Qur’anic instructions.
-
-People learned from him, not through complicated written texts, but through living practice within the community. This is what was transmitted as continuous practical inheritance.
-
-When people object and say, “If the Qur’an did not explain every technical detail like a legal manual, then how do we know how to establish the prayer-connection?” we must distinguish between two things:
-
-One is the living practice that continued within the community.
-
-The other is written individual reports from later transmission.
-
-These two are never the same.
-
-The prayer-connection, as a living bodily act, belongs to the kind of inheritance that communities carry through practice. It is not the kind of information that can only be known through scattered written reports.
-
-The same is true of pilgrimage and many of its rites. These were known among people even before Islam. The Prophet did not come to invent the original act from nothing. He purified it from corruption, removed its distortions, and returned it to the foundation of divine unity.
-
-In the same way, as we saw earlier, the prayer-connection was an Abrahamic inheritance and a known prophetic practice. The Prophet of Islam did not construct it from nothing. Rather, under the light of new revelation, he corrected it, purified it, and re-established it upon truth.
-
-This is where reliance on continuous practical inheritance becomes meaningful.
-
-By continuous practical inheritance, we do not mean that everything people do becomes divine proof. Rather, we mean that a bodily and communal act of worship is transmitted in its basic practical form through shared life and direct observation, not through isolated reports written later.
-
-A child does not learn the prayer-connection from books of reports.
-
-A child learns it by seeing, standing, bowing, prostrating, and joining the community.
-
-That is the logic of practical transmission.
-
-Therefore, the Prophet did not take the practical details of the prayer-connection from books of reports, because those books were written later. He established it within the living and known Abrahamic practice, under Qur’anic guidance. The community then received it from him as practice.
-
-The essential difference is this:
-
-- Living practice is a continuing exercise within the community.
-
-- Written reports, at best, are uncertain historical reports about the past.
-
-- The first belongs to life and observation.
-
-- The second belongs to narration and transmission.
-
-The great mistake is to treat these two as the same, and then imagine that if later written reports are removed, the original practice itself collapses.
-
-## What the Qur’an Does Not Say
-
-But there is a very important point:
-
-Nowhere in the Qur’an does it say:
-
-If you do not perform this exact technical form, your prayer-connection is invalid.
-
-Nowhere does it say:
-
-A specific number of units, with one fixed and unchangeable form, is the condition of acceptance.
-
-In contrast, the Qur’an repeats another principle many times:
-
-> The-God does not burden any soul beyond its capacity.  
-> **Qur’an 2:286**
-
-And:
-
-> The-God does not wish to place hardship upon you.  
-> **Qur’an 5:6**
-
-So if we gather the whole discussion together, the prayer-connection in the Qur’an is:
-
-- an act to be established, not merely read,
-
-- a living connection, not the repetition of a series of rituals and body movements,
-
-- clear in its foundations, but flexible in details,
-
-- for remembrance and presence, not performance,
-
-- and placed within the framework of ease and human capacity.
-
-## What Must Not Happen in the Prayer-Connection
-
-The Qur’an does not only tell us what should be done in the prayer-connection. It also makes clear what must not happen within it.
-
-This part is extremely important, because many deviations begin exactly here: the outward act remains, but the spirit of the act is lost.
-
-The first Qur’anic warning is about the condition that empties the prayer-connection from within: intoxication of awareness.
-
-The-God says:
-
-> O you who believe, do not approach the prayer-connection while you are in a state of impaired awareness, until you know what you are saying; nor in a state requiring full purification, except when merely passing through, until you wash yourselves. Indeed, The-God is Pardoning, Forgiving.  
-> **Qur’an 4:43**
-
-Here, the word usually translated as intoxication should not be limited only to drunkenness from alcohol. Its root meaning points to a closing, blocking, or covering of perception.
-
-It means a state in which human awareness is disrupted, and the ability to discern, focus, and be present is lost.
-
-This blockage can come from outside causes, such as alcohol or substances. But it can also come from inner causes: anger, anxiety, mental obsession, drowning in imagination, extreme exhaustion, or even sleepiness.
-
-The verse itself gives the criterion:
-
-Until you know what you are saying.
-
-So the main issue is not alcohol alone. The main issue is the loss of awareness.
-
-If a person stands in the prayer-connection while their mind is trapped in worldly distraction, while they do not know what they are saying, what they are reciting, or before Whom they stand, then in the Qur’anic sense they are in a state of impaired awareness.
-
-Not the intoxication of alcohol, but the intoxication of heedlessness.
-
-This verse is not merely a legal rule. It is a deep measure for evaluating the prayer-connection:
-
-**A prayer-connection without awareness is not truly a prayer-connection.**
-
-And this is exactly where many prayer-connections become empty from within, without the person even realizing it.
-
-## Purity of Body and Purity of Awareness
-
-The second warning in the same verse concerns purity.
-
-After warning believers not to approach the prayer-connection in a state of impaired awareness, The-God immediately says that a person should not approach it in a state requiring full purification until they wash themselves.
-
-This shows that, in the logic of the Qur’an, the prayer-connection does not only require mental presence and awareness. It is also connected to bodily purity.
-
-Just as covered and disrupted awareness empties the prayer-connection from within, lack of bodily purity also prevents proper entry into this state.
-
-So in this one verse, the Qur’an places two foundational conditions side by side:
-
-purity of awareness, and purity of the body.
-
-A person must know what they are saying, and they must stand before The-God in a purified state.
-
-From here, it becomes clear that the Qur’anic prayer-connection is neither a purely physical movement nor a purely mental remembrance. It is a state in which the human being enters the field of connection with The-God through both awareness and purity.
-
-## Heedlessness Inside the Prayer-Connection
-
-The third warning concerns heedlessness within the prayer-connection:
-
-> Woe to those who perform the prayer-connection — those who are heedless of their prayer-connection.  
-> **Qur’an 107:4–5**
-
-Notice carefully: the verse does not say, “Woe to those who abandon the prayer-connection.”
-
-It says:
-
-Woe to those who perform it.
-
-But which performers?
-
-Those who are heedless of their own prayer-connection.
-
-This means the outward act exists, but presence and awareness have disappeared.
-
-This is exactly the fall of the prayer-connection from remembrance into habit.
-
-## Showing Off
-
-The fourth warning concerns showing off in the prayer-connection:
-
-> Those who show off.  
-> **Qur’an 107:6**
-
-They perform the prayer-connection, but not for The-God.
-
-They perform it to be seen.
-
-Here, the prayer-connection changes from a true connection into a social performance.
-
-This is where worship becomes a tool of identity, image, and judgment over others.
-
-## When the Prayer-Connection Has No Effect on Behavior
-
-The fifth warning concerns the cutting off of the prayer-connection from actual conduct:
-
-> Indeed, the prayer-connection restrains from indecency and wrongdoing.  
-> **Qur’an 29:45**
-
-This verse is a criterion.
-
-If the prayer-connection does not restrain a person from corruption, then the prayer-connection has failed in its function.
-
-Here the Qur’an indirectly tells us that a prayer-connection without effect is not the true prayer-connection, even if its outward form is performed.
-
-## When the Prayer-Connection Becomes Heavy
-
-The sixth warning concerns the prayer-connection becoming heavy when humble presence is absent:
-
-> Indeed, it is heavy except upon those with humble presence.  
-> **Qur’an 2:45**
-
-This means that if the prayer-connection has become heavy, exhausting, and empty of life, the problem is not in the prayer-connection itself.
-
-The problem is the absence of humble presence and connection.
-
-What should have been a shelter becomes a burden.
-
-And this is a sign that the inner connection has been cut.
-
-## The Qur’an Identifies How the Prayer-Connection Is Ruined
-
-From all these verses, it becomes clear that the Qur’an does not define the prayer-connection merely as a set of movements.
-
-It also identifies the ways it becomes corrupted:
-
-- prayer-connection without awareness is rejected in meaning,
-
-- prayer-connection with heedlessness is warned against,
-
-- prayer-connection done for display is worthless,
-
-- prayer-connection without effect on behavior is incomplete,
-
-- prayer-connection without humble presence becomes heavy and lifeless.
-
-This means the Qur’an has not only explained how to perform the prayer-connection. It has also explained how the prayer-connection is ruined.
-
-And perhaps this part is the most important of all, because many people perform the prayer-connection while bringing into it the very things the Qur’an warned against.
-
-## So How Should We Pray?
-
-Establishing the prayer-connection was not a new and unprecedented act.
-
-Before Prophet Muhammad, the People of the Book, the upright God-oriented believers, and other God-conscious communities already had forms of worship, standing, bowing, prostration, supplication, glorification, and devotion. The Qur’an itself confirms this.
-
-About Abraham, it says:
-
-My Lord, make me one who establishes the prayer-connection, and from my descendants as well.
-
-About Jesus, it says:
-
-He instructed me in the prayer-connection and the purifying contribution as long as I live.
-
-About Ishmael, it says:
-
-He used to command his family to the prayer-connection and the purifying contribution.
-
-So the prayer-connection was not a new invention of the Prophet of Islam. He did not come to create a completely unknown act of worship from zero. He came to correct, purify, and re-establish the living Abrahamic and divine tradition in the light of the Qur’an and upon the foundation of divine unity.
-
-The Qur’an is not silent about the prayer-connection. On the contrary, the Qur’an gives its main foundations. What the Qur’an does not give are the later sectarian and binding details. And whatever The-God has not made binding, we have no right to make binding upon people in the name of The-God.
-
-The Qur’anic foundations of the prayer-connection are these:
-
-### 1. Purity and Washing
-
-The Qur’an says:
-
-O you who believe, when you rise for the prayer-connection, wash your faces and your hands up to the elbows, and wipe your heads and your feet up to the ankles.
-
-So the prayer-connection is joined with bodily purity and readiness.
-
-### 2. Standing Before The-God
-
-The Qur’an says:
-
-Stand before The-God with humility and obedience.
-
-So standing, presence, humility, and orientation toward The-God are among the foundations of the prayer-connection.
-
-### 3. Bowing and Prostration
-
-The Qur’an says:
-
-O you who believe, bow, prostrate, worship your Lord.
-
-So bowing and prostration are present in the Qur’an. No one can honestly say that the Qur’an says nothing about the practical form of the prayer-connection.
-
-### 4. Remembrance of The-God
-
-The Qur’an says:
-
-Establish the prayer-connection for My remembrance.
-
-So the spirit of the prayer-connection is remembrance: a living remembrance of The-God, not the empty repetition of words without presence.
-
-### 5. Awareness in Speech
-
-The Qur’an says:
-
-Do not approach the prayer-connection while your awareness is impaired, until you know what you are saying.
-
-So the prayer-connection must be performed with understanding, mental presence, and awareness. If a person does not know what they are saying, the spirit of the prayer-connection is lost.
-
-### 6. Recitation From the Qur’an
-
-The Qur’an says:
-
-Recite whatever is made easy for you from the Qur’an.
-
-So the main content of recitation in the prayer-connection is the Qur’an itself. But the Qur’an does not restrict this to one specific chapter in every unit and every situation.
-
-### 7. Appointed Times
-
-The Qur’an says:
-
-The prayer-connection has been prescribed for the believers at appointed times.
-
-It also speaks of dawn, the decline of the sun, the darkness of night, the two ends of the day, and parts of the night.
-
-So the principle that the prayer-connection is tied to appointed times is Qur’anic. But exactly how these times are divided into numbered occasions belongs to the level of arrangement and detail, not to the boundary between faith and disbelief.
-
-### 8. Balance in Voice
-
-The Qur’an says:
-
-Do not make your prayer-connection too loud, and do not make it too quiet; seek a way between them.
-
-So even the principle of balance in voice is found in the Qur’an.
-
-Now let us use a simple example.
-
-Imagine The-God says: prepare food.
-
-Then He says the necessary ingredients are pure water, fire, a vessel, clean grain, herbs, salt, and cleanliness.
-
-In this example, “preparing food” is like establishing the prayer-connection. The necessary ingredients are like the Qur’anic foundations of the prayer-connection: washing, standing, bowing, prostration, remembrance, recitation, time, awareness, and humble presence.
-
-Now the Prophet of Islam, using these necessary ingredients, prepared five complete and beautiful meals. In other words, with these Qur’anic foundations, he established and organized five daily prayer-connections within his community.
-
-These five forms may be among the best and most complete ways of establishing the prayer-connection, just as the Prophet’s food may be the purest, healthiest, and most nourishing food.
-
-But the important difference is this: if The-God has said, “These are the necessary ingredients,” we have no right to say that whoever does not prepare the exact same dish, in the exact same form, and in the exact same order, has not prepared food at all.
-
-What matters is that the food is good: pure, healthy, life-giving, and beneficial.
-
-The same is true of the prayer-connection. What matters is that it returns the human being to the remembrance of The-God, restrains them from indecency and wrongdoing, trains the self, and brings the person closer to mindfulness of The-God.
-
-The Qur’an gives the criterion this way:
-
-Indeed, the prayer-connection restrains from indecency and wrongdoing.
-
-So if someone performs the outward form of prayer precisely, but remains a liar, an oppressor, arrogant, performative, treacherous, and merciless, then their food may have the appearance of food, but it has not become a healing remedy.
-
-The prayer-connection must heal. It must change the human being from within.
-
-So if the Prophet prepared “soup” with these necessary ingredients, not everyone is forced to eat that exact soup unless The-God Himself made that exact form binding. Someone else, within their own tradition and law, may prepare another food with the same essential ingredients.
-
-That means a Jew, a Christian, an upright God-oriented believer, or a Sabian-like believer, if they worship upon the axis of The-God, purity, standing, bowing, prostration, remembrance, supplication, recitation, and mindfulness of The-God, it cannot be said that the essence of the prayer-connection is completely absent from them.
-
-Our mistake is that we have imagined the Qur’anic prayer-connection to belong only to “Muslims” in the later sectarian and identity-based sense.
-
-But the Qur’an speaks of the prayer-connection before Prophet Muhammad as well. Abraham had the prayer-connection. Ishmael had the prayer-connection. Jesus had the prayer-connection. The Children of Israel were commanded to the prayer-connection and the purifying contribution.
-
-So the prayer-connection is a broader Abrahamic and divine reality, not the private property of one historical sect.
-
-Even the first community of the Prophet is described in the Qur’an more often as believers, not as “Muslims” in today’s later religious-identity sense. A believer is someone who believes in The-God, the Hereafter, revelation, righteous action, and moral responsibility.
-
-In that horizon, the Prophet’s community was a front of faith, not a closed sectarian religion like the later structures that developed over time.
-
-Therefore, the final answer is this:
-
-The Qur’an did not leave the prayer-connection vague. The Qur’an gave its main foundations. But the Qur’an did not turn the prayer-connection into a dry, sectarian, numerical, and inflexible mold.
-
-The Prophet established the best and most complete example of the prayer-connection within his community. But we have no right to make every detail that the Qur’an did not make binding into an obligation upon all human beings in the name of The-God.
-
-The-God gave the necessary ingredients.
-
-The Prophet prepared the best food with those ingredients.
-
-But the final criterion is that the food must be pure, life-giving, and healing.
-
-Likewise, the prayer-connection must restrain the human being from indecency and wrongdoing, and must draw the person toward mindfulness, humble presence, remembrance of The-God, and reform of life.
-
-If the prayer-connection does not have this effect, then even if its form is complete, its spirit is deficient.
-
-And if the prayer-connection, with the same Qur’anic foundations, brings a person toward remembrance of The-God, purity, humble presence, and mindfulness, then it cannot be declared invalid merely because it differs in sectarian details.
+<link rel="stylesheet" href="{{ "/assets/css/salat-study.css" | relative_url }}">
+<article class="forqan-article salat-study" lang="en" dir="ltr">
+<header class="article-hero"><p class="kicker" data-pagefind-ignore>Qur’anic Concepts · Salat</p>
+<h1 data-source-line="1">Salat in the Qur’an: Meaning, Practice, and the Life of Prayer</h1>
+</header>
+<div class="opening"><p class="arabic" lang="ar" dir="rtl">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+<p data-source-line="3">In the name of The God, the Entirely Merciful, the Especially Merciful.</p></div>
+<span id="contents" class="legacy-anchor" aria-hidden="true"></span>
+<h2 id="introduction" data-source-line="5">Introduction: What Does It Mean to Establish Prayer?</h2>
+<p id="passage-006" data-source-line="6">Every day, millions of Muslims wash, face the direction of prayer, recite from the Qur’an, bow, and prostrate. When the prayer ends, they return to work, family, and the demands of ordinary life. These familiar acts are usually what people picture when they hear <a href="/quran-terminology/en/roots/sad-l-w/">Salat</a> (the Qur’anic term commonly translated as prayer, whose meaning varies with its context). Yet the Qur’an commands believers to establish Salat. What does that command ask of us? Is its purpose fulfilled when a scheduled observance is completed, or should the worship we establish continue to shape our lives after we leave the prayer mat?</p>
+<p id="passage-007" data-source-line="7">English expressions such as “say your prayers” or “perform the prayer” can describe a complete act of worship. Neither expression necessarily reduces prayer to spoken words or bodily movements. Still, familiar language can conceal a question we have stopped asking: what makes an observance a living practice of devotion? The Qur’anic language of establishing prayer points toward setting it up, sustaining it, and keeping it present in life. In <bdi dir="ltr">20:14</bdi>, prayer is established for the remembrance of God; in <bdi dir="ltr">29:45</bdi>, it restrains indecency and wrongdoing. We need to understand how a practice with a beginning and an end can nurture remembrance that lasts throughout the day.</p>
+<p id="passage-008" data-source-line="8">Other uses of the same word make the question more demanding. In <bdi dir="ltr">33:56</bdi>, the verb related to Salat is used of God and the angels in relation to the Prophet, and believers are called to respond. In <bdi dir="ltr">24:41</bdi>, creatures, including birds, have their own Salat and glorification of God. God plainly does not perform the worship of a servant, and birds do not follow the human sequence of recitation and prayer cycles. Yet human prayer is associated with purification, standing, bowing, prostration, speech, and appointed times. How are these uses related? We must examine them before deciding that a single English word—whether “prayer,” “supplication,” “blessing,” or “support”—adequately explains every occurrence.</p>
+<p id="passage-009" data-source-line="9">Recognizing that wider range of meaning does not remove ritual prayer from the Qur’an. The text addresses an identifiable bodily practice. It gives instructions for purification in <bdi dir="ltr">5:6</bdi>, calls for the safeguarding of prayers and standing before God in <bdi dir="ltr">2:238</bdi>, <bdi dir="ltr">2:239</bdi>, and describes congregational worship under threat in <bdi dir="ltr">4:102</bdi>. These are practical instructions with real participants and circumstances. Anyone claiming that the Qur’an says nothing about how prayer is performed must first account for these passages.</p>
+<p id="passage-010" data-source-line="10">Salat also predates Muhammad. Abraham asks that he and some of his descendants become people who establish it (<bdi dir="ltr">14:40</bdi>). Ishmael enjoins prayer and obligatory giving upon his household (<bdi dir="ltr">19:55</bdi>). Jesus speaks of being charged with them throughout his life (<bdi dir="ltr">19:31</bdi>), and Moses and his people receive a command to establish prayer (<bdi dir="ltr">10:87</bdi>). These passages place Salat within the lives of earlier prophets. They do not establish that every prophet used precisely the same number of prayer cycles or the same details of performance as Muslims today.</p>
+<p id="passage-011" data-source-line="11">Fasting offers a useful comparison. In <bdi dir="ltr">2:183</bdi>, it is prescribed for believers as it was for those before them. Despite that earlier history, subsequent verses explain its boundaries: when to begin and end the fast, eating and drinking, marital intimacy, illness, and travel. A familiar practice can still receive explicit divine instruction. We should therefore gather the passages about prayer and ask what they prescribe, rather than assuming that every inherited detail must already be obligatory and that the Qur’an is deficient if it does not confirm it.</p>
+<p id="passage-012" data-source-line="12">This brings us to a common objection to treating the Qur’an as sufficient guidance: “Without hadith, how would you know the number of prayer cycles, the order of bowing and prostration, or what to recite?” Hadith are transmitted reports about the Prophet’s words and actions. A rak‘ah (one cycle of standing, recitation, bowing, and prostration) is a unit in the familiar Muslim prayer. These questions deserve answers. But sometimes the objection assumes what it needs to establish: that every detail required by a particular legal school is already a binding command of God, and that the Qur’an must endorse each one.</p>
+<p id="passage-013" data-source-line="13">Why begin with that assumption? Our families and communities teach us beliefs and practices before we can examine their grounds. Those teachings should be tested against the Qur’an. If the text gives a command, we follow it. If we draw a conclusion from its verses, we explain the reasoning. If we inherit a custom, we must establish its authority before calling departure from it disobedience to God. Familiarity is not a substitute for that work.</p>
+<p id="passage-014" data-source-line="14">Longstanding disagreements over prayer make this distinction important. One school requires a person praying behind a leader to recite the opening chapter, while another discourages that recitation. Jurists also differ over washing or wiping the feet, the opening invocation, audible and quiet recitation, and particular conditions of validity. These disagreements vary in both scope and consequence, and each position must be reported accurately. But if the sources are said to have settled every detail conclusively, why do those who use them reach different rulings? What justifies treating a disputed interpretation as God’s indisputable command?</p>
+<p id="passage-015" data-source-line="15">Disagreement itself is no offence. Readers can understand a verse differently and reach different conclusions about its application. The difficulty arises when an interpretation is presented with the authority of revelation. The account of the Israelites and the cow in <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-067"><bdi dir="ltr">2:67</bdi></a>, <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-068"><bdi dir="ltr">2:68</bdi></a>, <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-069"><bdi dir="ltr">2:69</bdi></a>, <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-070"><bdi dir="ltr">2:70</bdi></a>, <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-071"><bdi dir="ltr">2:71</bdi></a> shows a command becoming harder to fulfil as repeated questions lead to further specifications. The story concerns evasion and reluctance, rather than a prohibition on sincere inquiry. It invites a question about prayer as well: can preoccupation with additional conditions divert attention from the worship they are supposed to serve?</p>
+<p id="passage-016" data-source-line="16">The question about prayer cycles also requires attention to how practices are learned. A child often learns to pray by watching, joining in, asking questions, and being corrected. The child may know the sequence long before hearing the name of a hadith collection. Prayer has been passed on through communal life as well as through books. Learning a recognizable practice does not, by itself, require granting hadith independent legislative authority. Equally, transmission through practice alone does not prove that every inherited detail is an unchangeable obligation for every person in every circumstance.</p>
+<p id="passage-017" data-source-line="17">Following a form of worship and making that form compulsory for everyone are different acts. We can continue the familiar prayers without declaring every variation invalid. Where the Qur’an gives a clear command, believers are accountable to it. Where an alleged requirement cannot be established from the verses, communal preference cannot simply fill the gap and acquire God’s name. In <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-111"><bdi dir="ltr">2:111</bdi></a>, claimants are asked for proof; in <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-078"><bdi dir="ltr">2:78</bdi></a>, knowledge of the Book is distinguished from assumptions about it. Our own claims must face the same scrutiny.</p>
+<p id="passage-018" data-source-line="18">The inquiry begins with the Qur’an’s uses of Salat, then turns to its instructions about prayer. It considers how the practice has been transmitted, examines disputed legal requirements, and returns to a practical question: how can someone who takes the Qur’an as the standard of religious guidance establish prayer faithfully?</p>
+<p id="passage-019" data-source-line="19">Prayer deserves understanding, attention, and humility. Its bodily form matters, and so do the remembrance and moral responsibility it is meant to cultivate. The task is to identify the grounds of each claim made about it. A school’s prestige or a custom’s age cannot replace evidence from the Book that guides the inquiry.</p>
+<h2 id="research-questions" data-source-line="20">The Questions This Study Addresses</h2>
+<p id="passage-021" data-source-line="21">1. What does Salat mean in the Qur’an, and what does establishing it require beyond completing an observance?</p>
+<p id="passage-022" data-source-line="22">2. How does ritual prayer, with its recitation and movements, relate to the word’s broader range of uses?</p>
+<p id="passage-023" data-source-line="23">3. If the Qur’an is sufficient for guidance, how do we learn the prayer cycles and the practical sequence?</p>
+<p id="passage-024" data-source-line="24">4. What does prayer among the earlier prophets tell us about its history—and what does it leave unknown?</p>
+<p id="passage-025" data-source-line="25">5. What does the Qur’an prescribe about preparation, speech, bodily action, timing, and exceptional circumstances?</p>
+<p id="passage-026" data-source-line="26">6. How does transmission through communal practice differ from accepting hadith as an independent source of binding law?</p>
+<p id="passage-027" data-source-line="27">7. What do disagreements over recitation, purification, and validity show about claims of legal certainty?</p>
+<p id="passage-028" data-source-line="28">8. Does the absence of a specified detail establish a deficiency in the Qur’an, or leave room for choice within its commands?</p>
+<p id="passage-029" data-source-line="29">9. How can we pray faithfully without turning reform into another catalogue of compulsory details and invalidating conditions?</p>
+<h2 id="methodology" data-source-line="30">Method: Our Interpretations Must Remain Answerable to the Text</h2>
+<p id="passage-031" data-source-line="31">A word’s meaning must be examined within its sentences. Who acts, toward whom, with which accompanying words, and in what situation? A servant’s worship of God, the Prophet’s Salat for others, and God’s Salat upon His servants cannot all be explained by one undifferentiated English expression. Their shared vocabulary calls for comparison, while their different contexts require distinctions. This study reads each passage in its setting before relating it to others.</p>
+<p id="passage-032" data-source-line="32">The Qur’an is taken here as the standard of religious guidance and obligation. Reasoning and reflection help us understand its statements, but do not give us permission to legislate in God’s name. The conclusions we draw remain interpretations whose grounds must be shown. Knowledge of Arabic is an essential tool in that work; the standing of a scholar does not replace the evidence offered. Forqan’s approach is discussed more fully in its account of translation and reflection:</p>
+<p class="related-link" id="passage-033" data-source-line="33"><a href="/quran-reflection/en/methodology/">The Forqan approach to translation and reflection</a></p>
+<p id="passage-034" data-source-line="34">Three categories will recur: a command stated in the Qur’an; an inference drawn from its passages; and a practice learned through observation and communal instruction. All three can contribute to understanding. Confusion arises when an inference or custom is presented as revelation and placed beyond examination. A practice may be useful and worth following without every detail becoming obligatory for every believer.</p>
+<p id="passage-035" data-source-line="35">Hadith and legal opinions are examined here as evidence of the positions under discussion, rather than accepted as independent grounds for legislation. Have they produced a single, conclusive prescription for every detail? What supports a claim that a different performance must be invalid? Fair criticism requires precision: calling an act obligatory, discouraged, or invalidating makes three different claims. They must not be blurred to strengthen an argument.</p>
+<h2 id="key-findings" data-source-line="36">The Main Findings</h2>
+<p id="passage-037" data-source-line="37">In human worship, Salat involves turning to God in devotion, prayer, and remembrance. Establishing it means giving that worship a sustained place in action and allowing its effects to reach everyday life. Ritual prayer is a concrete, regularly observed expression of it. The broader uses of the word do not make ritual prayer dispensable; they show why human ritual cannot define every occurrence. This understanding comes from the passages and their purposes, not from treating “connection” as the word’s settled literal meaning.</p>
+<p id="passage-038" data-source-line="38">The Qur’an addresses both the purpose and the practice of prayer. Remembrance of God and restraint from wrongdoing stand alongside purification, standing, bowing, prostration, speech, timing, and communal worship. Purpose does not make form unnecessary. Equally, careful performance of movements cannot by itself establish that their purpose has been fulfilled.</p>
+<p id="passage-039" data-source-line="39">Prayer appears in the lives of prophets before Muhammad. The Qur’an addresses an existing practice, commands its establishment, directs its purpose, and supplies practical instructions. This continuity establishes an earlier history, while leaving the precise ritual details of each earlier community to be demonstrated separately.</p>
+<p id="passage-040" data-source-line="40">The Qur’an does not provide an explicit table assigning two, four, four, three, and four cycles to the five daily prayers. That familiar arrangement is learned through Muslim communal practice and instruction. It can be followed without treating every associated report or school-specific rule as a direct command of God. Knowing a method, practising it, and claiming that God accepts no alternative are distinct matters.</p>
+<p id="passage-041" data-source-line="41">A clear Qur’anic command remains binding within the method followed here. Where the text does not establish a particular requirement, personal or communal choices must not be turned into divine law merely through repetition or longevity. Every claim that an act is compulsory—or that its omission invalidates prayer—needs evidence.</p>
+<p id="passage-042" data-source-line="42">Disagreements among jurists show that recourse to reports has not settled every practical detail unanimously. The response need not be abandonment of worship. It can be a return to the Qur’an as the standard, together with candour about the difference between revelation and human understanding. The following sections develop that argument and end with practical guidance.</p>
+<span id="the-meaning-of-the-prayer-connection-itself" class="legacy-anchor" aria-hidden="true"></span>
+<h2 id="meaning-of-salat" data-source-line="43">Part One: Salat and the Meaning of Establishing It</h2>
+<h3 id="namaz-word" data-source-line="44">1. Beyond Completing an Observance</h3>
+<p id="passage-045" data-source-line="45">The Qur’an commands:</p>
+<blockquote class="quran-quote">
+<div id="quote-046" data-source-line="46"><p class="arabic" lang="ar" dir="rtl">«وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱرْكَعُوا۟ مَعَ ٱلرَّٰكِعِينَ»</p><p class="verse-ref">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-043"><bdi dir="ltr">2:43</bdi></a>)</p></div>
+<p class="translation" id="passage-047" data-source-line="47">“Establish prayer, give zakat, and bow with those who bow.”</p></blockquote>
+<p id="passage-048" data-source-line="48">The verb translated as “establish” belongs to the Arabic root q-w-m, associated with standing, setting upright, and maintaining. A root alone does not settle the meaning of a command: we must also ask what is being established and what the other passages say about it. Here, establishing prayer includes performing an actual act of worship. Its safeguarding and stated purposes help explain how that worship is to remain established in life. Zakat (giving associated with purification and growth) is a distinct duty placed beside it.</p>
+<p id="passage-049" data-source-line="49">“Saying a prayer” can mean much more than pronouncing a sentence, just as “performing prayer” can include sincere devotion. There is no need to blame an ordinary expression for every misunderstanding. The problem arises when our attention stops at getting the words and movements done. The Qur’an also calls for persistence, care, humility, and moral effect. Familiar language should leave us open to those demands.</p>
+<p id="passage-050" data-source-line="50">Consider putting up a tent. Fabric and poles are necessary, but only their proper arrangement produces a shelter. A shelter imagined without them would be no shelter at all. Prayer likewise has real elements: standing, recitation, bowing, and prostration. They cannot be discarded in pursuit of a supposedly deeper meaning. Yet assembling them while losing remembrance and devotion does not fulfil the whole purpose. The analogy illustrates the relationship between means and purpose; it is not an etymological definition of the verse.</p>
+<p id="passage-051" data-source-line="51">To establish prayer is therefore to make room for worship, undertake it, sustain it, and keep it attentive to God. Talking about justice does not establish justice; similarly, naming a practice or reproducing its outward form cannot guarantee its fulfilment. The range of the root behind “establish” is examined in the separate study below:</p>
+<p class="related-link" id="passage-052" data-source-line="52"><a href="/quran-terminology/en/roots/q-w-m/">The root q-w-m: standing and establishing</a></p>
+<h3 id="human-salat" data-source-line="53">2. Salat as Human Worship</h3>
+<p id="passage-054" data-source-line="54">One way to describe Salat in human life is a conscious, worshipful relationship with the Lord. This does not imply a physical link or a change in God. Prayer does not make Him notice a servant of whom He was previously unaware. It is the worshipper who returns from distraction to remembrance. Supplication, praise, the request for guidance, and acts of humility give expression to that return.</p>
+<p id="passage-055" data-source-line="55">This description rests on the purposes and actions associated with prayer. In <bdi dir="ltr">20:14</bdi>, it is established for God’s remembrance; in <bdi dir="ltr">29:45</bdi>, it restrains wrongdoing; in <bdi dir="ltr">4:43</bdi>, worshippers must know what they are saying; and in <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-043"><bdi dir="ltr">2:43</bdi></a>, they are commanded to bow with others. Together these passages describe a purposeful practice with speech and action. Counting movements cannot exhaust its meaning.</p>
+<p id="passage-056" data-source-line="56">“Relationship” or “connection” is an interpretive description here, not a proven literal derivation of Salat. The Arabic word for connection comes from a different root. Nor do similarities to words associated with fire or heat establish that prayer derives from heating or straightening wood or metal. Such linguistic proposals would need evidence of their own. The starting point for this inquiry is how the Qur’an actually uses the word.</p>
+<p id="passage-057" data-source-line="57">Good conduct cannot simply replace prayer. Helping someone in need, telling the truth, and acting justly accord with its purpose, but the Qur’an repeatedly places prayer and giving beside each other as distinct responsibilities. Prayer does not release us from other people’s rights, and generosity does not cancel the command to worship. They should strengthen each other in the same life.</p>
+<h3 id="salawat" data-source-line="58">3. God’s Salat, the Angels’ Salat, and the Prophet’s Prayer for Others</h3>
+<p id="passage-059" data-source-line="59">The word’s use extends beyond a human being’s worship of God:</p>
+<blockquote class="quran-quote">
+<div id="quote-060" data-source-line="60"><p class="arabic" lang="ar" dir="rtl">«إِنَّ ٱللَّهَ وَمَلَٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى ٱلنَّبِىِّ يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ صَلُّوا۟ عَلَيْهِ وَسَلِّمُوا۟ تَسْلِيمًا»</p><p class="verse-ref">(<bdi dir="ltr">33:56</bdi>)</p></div>
+<p class="translation" id="passage-061" data-source-line="61">“God and His angels bestow Salat upon the Prophet. You who believe, offer Salat for him and greet him with a full greeting of peace.”</p></blockquote>
+<p id="passage-062" data-source-line="62">Here Salat expresses a gracious regard whose precise character depends on who acts. Retaining the term allows that question to remain open while the passages are examined; it cannot mean that God performs a servant’s ritual prayer. The closing phrase has been rendered as a greeting of peace. Its relationship to greeting and submission is a further interpretive question, deserving separate treatment alongside the wider study of salawat (the plural form of Salat).</p>
+<p id="passage-063" data-source-line="63">God neither worships another being nor petitions a higher power to benefit the Prophet. His action therefore differs from a servant’s supplication. The shared verb invites us to look for a meaningful relationship among these uses, perhaps involving care and the bestowal or seeking of good. It does not justify assuming in advance that the same English definition fits every agent. Another passage identifies an effect of divine Salat:</p>
+<blockquote class="quran-quote">
+<div id="quote-064" data-source-line="64"><p class="arabic" lang="ar" dir="rtl">«هُوَ ٱلَّذِى يُصَلِّى عَلَيْكُمْ وَمَلَٰٓئِكَتُهُۥ لِيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ وَكَانَ بِٱلْمُؤْمِنِينَ رَحِيمًا»</p><p class="verse-ref">(<bdi dir="ltr">33:43</bdi>)</p></div>
+<p class="translation" id="passage-065" data-source-line="65">“He is the One who bestows Salat upon you, and His angels do so, to bring you out of darkness into light. He is merciful toward the believers.”</p></blockquote>
+<p id="passage-066" data-source-line="66">In this passage, the action is associated with guidance from darkness into light. It cannot be reduced to an ineffectual verbal formula. Yet knowing an action’s stated effect does not give us complete knowledge of its nature or manner. For the present inquiry, the essential point is that Salat does not always name the familiar human ritual.</p>
+<p id="passage-067" data-source-line="67">The Prophet is also instructed to offer Salat for other people:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-068" data-source-line="68">«خُذْ مِنْ أَمْوَٰلِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ إِنَّ صَلَوٰتَكَ سَكَنٌ لَّهُمْ وَٱللَّهُ سَمِيعٌ عَلِيمٌ»</p>
+<p class="verse-ref" data-source-line="69">(<bdi dir="ltr">9:103</bdi>)</p>
+<p class="translation" id="passage-070" data-source-line="70">“Take a charitable contribution from their wealth, by which you cleanse them and help them grow, and pray for them. Your prayer is a source of reassurance for them. God is hearing and knowing.”</p></blockquote>
+<p id="passage-071" data-source-line="71">The Prophet’s action here is directed toward the good of those being purified and helped to grow; prayer and the seeking of good belong naturally to this relationship. Its stated effect is reassurance. In <bdi dir="ltr">9:99</bdi>, the Messenger’s prayers are associated with drawing near to God in a passage that ends with divine mercy. In <bdi dir="ltr">9:84</bdi>, prayer over certain deceased people and standing at their graves are prohibited. These settings support an understanding involving supplication, concern, and benevolence. They cannot all be recast as military support or the establishment of government without further evidence.</p>
+<p id="passage-072" data-source-line="72">In <bdi dir="ltr">2:157</bdi>, the steadfast receive salawat from their Lord, with mercy mentioned alongside it. This helps us explore its relationship to divine care, mercy, and guidance. Merely placing two words together proves neither complete identity nor complete separation of meaning. These passages establish the range of usage relevant here; the full relationship between divine, angelic, and human Salat requires its own study.</p>
+<h3 id="creatures" data-source-line="73">4. The Prayer of Other Creatures</h3>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-074" data-source-line="74">«أَلَمْ تَرَ أَنَّ ٱللَّهَ يُسَبِّحُ لَهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱلطَّيْرُ صَٰٓفَّٰتٍ كُلٌّ قَدْ عَلِمَ صَلَاتَهُۥ وَتَسْبِيحَهُۥ وَٱللَّهُ عَلِيمٌۢ بِمَا يَفْعَلُونَ»</p>
+<p class="verse-ref" data-source-line="75">(<bdi dir="ltr">24:41</bdi>)</p>
+<p class="translation" id="passage-076" data-source-line="76">“Have you not seen that all who are in the heavens and the earth glorify God, as do the birds with wings outspread? Each knows its prayer and glorification, and God knows what they do.”</p></blockquote>
+<p id="passage-077" data-source-line="77">Birds do not stand in human prayer rows or repeat our words and cycles, yet the Qur’an attributes Salat to them. Human ritual therefore cannot define the word’s entire range. In one reading of this verse, each creature knows its own prayer and glorification; in another, the knowledge is attributed to God. That difference does not remove the attribution of prayer to creatures.</p>
+<p id="passage-078" data-source-line="78">The passage invites humility about the limits of human experience. We worship through language, thought, and the movements of our bodies. Why assume these are the only possible forms of a creature’s relationship with its Lord? The Qur’an tells us of their prayer without explaining its mechanism. It opens a wider horizon without supplying a definitive theory of the consciousness or cognitive capacities of every creature.</p>
+<span id="the-quran-identifies-how-the-prayer-connection-is-ruined" class="legacy-anchor" aria-hidden="true"></span>
+<h3 id="name-and-reality" data-source-line="79">5. Calling Something Prayer Does Not Guarantee Its Worth</h3>
+<p id="passage-080" data-source-line="80">We must also distinguish the name of an observance from its proper fulfilment. The Qur’an can call a practice Salat while condemning what those performing it have made of it:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-081" data-source-line="81">«وَمَا كَانَ صَلَاتُهُمْ عِندَ ٱلْبَيْتِ إِلَّا مُكَآءً وَتَصْدِيَةً فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ»</p>
+<p class="verse-ref" data-source-line="82">(<bdi dir="ltr">8:35</bdi>)</p>
+<p class="translation" id="passage-083" data-source-line="83">“Their prayer at the House was nothing but whistling and clapping. So taste the punishment for your rejection.”</p></blockquote>
+<p id="passage-084" data-source-line="84">The preceding verse concerns people who barred others from the Sacred Mosque. Their activity at the House is then called “their prayer” and condemned. The name does not confer approval. Chapter 107 similarly calls certain people worshippers while reproaching their conduct. We can therefore criticize a degraded form of prayer without denying that an outward observance has taken place.</p>
+<p id="passage-085" data-source-line="85">In human worship directed to God, Salat involves prayerful devotion, and establishing it means sustaining that worship properly. When directed toward another, supplication, goodwill, and gracious care become relevant according to the agent and context. The prayer of other creatures extends beyond the familiar human form. The uses belong to one family of words, but do not all describe an identical action.</p>
+<span id="the-prayer-connection-did-not-begin-with-the-final-prophet" class="legacy-anchor" aria-hidden="true"></span>
+<h2 id="not-new-with-final-prophet" data-source-line="86">Part Two: Prayer in the Lives of Earlier Prophets</h2>
+<p id="passage-087" data-source-line="87">The Qur’an records Abraham’s prayer:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-088" data-source-line="88">«رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى رَبَّنَا وَتَقَبَّلْ دُعَآءِ»</p>
+<p class="verse-ref" data-source-line="89">(<bdi dir="ltr">14:40</bdi>)</p>
+<p class="translation" id="passage-090" data-source-line="90">“My Lord, make me one who establishes prayer, and some of my descendants as well. Our Lord, accept my supplication.”</p></blockquote>
+<p id="passage-091" data-source-line="91">Abraham asks to become a person who sustains prayer and for that worship to continue among his descendants. In <bdi dir="ltr">14:37</bdi>, settling some of his family near the Sacred House is also linked to establishing it. The Qur’an thus places this practice well before Muhammad’s mission and the legal schools that arose later.</p>
+<p id="passage-092" data-source-line="92">Of Ishmael, it says:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-093" data-source-line="93">«وَكَانَ يَأْمُرُ أَهْلَهُۥ بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ وَكَانَ عِندَ رَبِّهِۦ مَرْضِيًّا»</p>
+<p class="verse-ref" data-source-line="94">(<bdi dir="ltr">19:55</bdi>)</p>
+<p class="translation" id="passage-095" data-source-line="95">“He used to enjoin prayer and zakat upon his household, and he was pleasing to his Lord.”</p></blockquote>
+<p id="passage-096" data-source-line="96">Jesus says:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-097" data-source-line="97">«وَجَعَلَنِى مُبَارَكًا أَيْنَ مَا كُنتُ وَأَوْصَٰنِى بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ مَا دُمْتُ حَيًّا»</p>
+<p class="verse-ref" data-source-line="98">(<bdi dir="ltr">19:31</bdi>)</p>
+<p class="translation" id="passage-099" data-source-line="99">“He has made me blessed wherever I may be, and has enjoined prayer and zakat upon me for as long as I live.”</p></blockquote>
+<p id="passage-100" data-source-line="100">In <bdi dir="ltr">10:87</bdi>, Moses and his brother are instructed to provide dwellings for their people, make their houses a direction of prayer, and establish Salat. In <bdi dir="ltr">21:73</bdi>, the revelation given to earlier leaders brings together good deeds, prayer, and giving. In <bdi dir="ltr">3:39</bdi>, Zechariah is standing in prayer in the sanctuary. These are explicit descriptions of worship and command within the Qur’an’s accounts of earlier prophets.</p>
+<p id="passage-101" data-source-line="101">Salat did not first appear as an unprecedented practice with Muhammad. Knowledge of its existence is therefore not dependent on reports written after him. Muhammad was himself commanded to establish it, and believers worshipped with him. The congregational practice described in <bdi dir="ltr">4:102</bdi> is evidence within the Qur’an itself.</p>
+<p id="passage-102" data-source-line="102">A shared practice does not establish identical ritual details across all prophetic communities. The verses do not specify a uniform number of cycles, wording, or sequence for every period. They establish the presence and continuity of prayer. Particular claims about its earlier forms need their own evidence, just as present instructions must be read in their own settings.</p>
+<p id="passage-103" data-source-line="103">This history also prevents any later legal school from claiming exclusive ownership of prayer. Yet age alone does not establish the correctness of an inherited practice. The Qur’an speaks both of establishing prayer and of neglecting it. What people have done in its name must therefore be examined rather than approved merely for being old.</p>
+<h3 id="fasting-comparison" data-source-line="104">A Comparison with Fasting</h3>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-105" data-source-line="105">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ»</p>
+<p class="verse-ref" data-source-line="106">(<bdi dir="ltr">2:183</bdi>)</p>
+<p class="translation" id="passage-107" data-source-line="107">“You who believe, fasting has been prescribed for you as it was prescribed for those before you, so that you may become mindful of God.”</p></blockquote>
+<p id="passage-108" data-source-line="108">The Qur’an acknowledges fasting’s earlier history and then gives practical instructions. In <bdi dir="ltr">2:184</bdi>, <bdi dir="ltr">2:185</bdi> it addresses the days of fasting, illness, travel, making up missed days, and Ramadan. In <bdi dir="ltr">2:187</bdi> it sets boundaries for eating and drinking, marital intimacy at night, and retreat in the mosques. An established practice can still be explained and regulated through revelation.</p>
+<p id="passage-109" data-source-line="109">This raises an important question: why assume that every unstated detail of prayer is a concealed obligation? The answer cannot be to insert preferred numbers or rules into verses that do not contain them. We must identify what the Qur’an actually requires. It need not discuss prayer and fasting at identical lengths, but a difference in detail does not itself authorize anyone to supply new laws in God’s name.</p>
+<p id="passage-110" data-source-line="110">A practice’s familiarity can explain why every movement is not defined from the beginning. People who know what bowing is do not need an account of every joint angle to understand a command to bow. That does not establish every detail taught by a later school as an unstated divine instruction. Using shared language and experience to understand a command differs from adding another obligation to it.</p>
+<p id="passage-111" data-source-line="111">Prayer, pilgrimage, and the direction of worship all connect believers with the earlier prophets, particularly Abraham. These are real observances with real practices, but their purpose is not the exclusive possession of a sect. The related studies below examine that connection through Hajj (pilgrimage to the Sacred House) and qibla (the direction faced in prayer):</p>
+<p class="related-link" id="passage-112" data-source-line="112"><a href="/en/quran-terminology/hajj-in-the-quran/">Hajj in the Qur’an</a></p>
+<p class="related-link" id="passage-113" data-source-line="113"><a href="/en/quran-terminology/qibla-wajh-and-hanif-in-the-quran/">Qibla, Wajh, and Hanif in the Qur’an</a></p>
+<span id="the-purpose-of-the-prayer-connection" class="legacy-anchor" aria-hidden="true"></span>
+<h2 id="purpose-of-salat" data-source-line="114">Part Three: What Prayer Should Awaken in Us</h2>
+<span id="4-remembrance-of-the-god" class="legacy-anchor" aria-hidden="true"></span>
+<h3 id="remembrance" data-source-line="115">1. Remembrance and Our Relationship with God</h3>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-116" data-source-line="116">«إِنَّنِىٓ أَنَا ٱللَّهُ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدْنِى وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ»</p>
+<p class="verse-ref" data-source-line="117">(<bdi dir="ltr">20:14</bdi>)</p>
+<p class="translation" id="passage-118" data-source-line="118">“Indeed, I am God. There is no deity except Me. So worship Me and establish prayer for My remembrance.”</p></blockquote>
+<p id="passage-119" data-source-line="119">The purpose is stated within the command: remembrance of God. <a href="/quran-terminology/en/roots/dh-k-r/">Dhikr</a> (remembrance, including bringing God consciously to mind) interrupts the narrowing of life around immediate desires and fears. Work, rivalry, anger, and anxiety can make the next gain or loss seem like the whole of reality. Prayer gives us occasion to remember that we do not own the world or other people. Our abilities and possessions carry responsibilities, and our wishes are not the final measure of right and wrong.</p>
+<p id="passage-120" data-source-line="120">Words can begin that remembrance, and repetition can help sustain it. What we understand clearly today may be forgotten tomorrow under the pressure of habit. The problem begins when repeating a phrase replaces attention to what it means. A person can ask for guidance while thinking only of finishing, or speak of service to God while remaining governed by self-interest.</p>
+<p id="passage-121" data-source-line="121">Recitation and understanding should work together. Each return to prayer offers an opportunity to reconsider the direction of our lives. Nothing is added to God’s knowledge by this reminder. It is our awareness that needs renewal, because we repeatedly lose sight of what we already know.</p>
+<p id="passage-122" data-source-line="122">In <bdi dir="ltr">4:103</bdi>, remembrance is commanded after prayer has ended. A ritual has a beginning and an end; remembrance need not end with it. Sustaining prayer in life does not mean bowing and prostrating without interruption. It means allowing a recurring act of worship to influence the choices made during the rest of the day.</p>
+<span id="when-the-prayer-connection-has-no-effect-on-behavior" class="legacy-anchor" aria-hidden="true"></span>
+<h3 id="no-effect-on-behavior" data-source-line="123">2. Restraint from Indecency and Wrongdoing</h3>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-124" data-source-line="124">«ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَٰبِ وَأَقِمِ ٱلصَّلَوٰةَ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ»</p>
+<p class="verse-ref" data-source-line="125">(<bdi dir="ltr">29:45</bdi>)</p>
+<p class="translation" id="passage-126" data-source-line="126">“Recite what has been revealed to you of the Book and establish prayer. Prayer restrains indecency and wrongdoing, and the remembrance of God is greater. God knows what you do.”</p></blockquote>
+<p id="passage-127" data-source-line="127">Recitation, prayer, moral restraint, and remembrance appear together in this verse. Prayer should do more than provide the satisfaction of completing a duty. It should bring God and responsibility to mind when we are tempted to lie, oppress, or humiliate someone. A living awareness of that responsibility makes it harder to violate another person’s rights with an undisturbed conscience.</p>
+<p id="passage-128" data-source-line="128">This does not make every worshipper immediately free from error. People fail, repent, and try to repair what they have done. What conflicts with prayer’s purpose is persistence in wrongdoing accompanied by complacency about the ritual. Someone who counts every cycle carefully but never reckons with the rights they have violated has reason to reconsider their understanding of worship.</p>
+<p id="passage-129" data-source-line="129">Imagine two people in the same prayer row. Afterward, one approaches a person they have wronged, acknowledges it, and begins making amends. The other remains meticulous about hand placement while continuing to deceive people. The question is why prayer’s stated moral effect has become less important to the second person than its finer outward details. The form of worship should lead toward its purpose, rather than provide cover for avoiding it.</p>
+<p id="passage-130" data-source-line="130">We need not claim knowledge of God’s final judgment to recognize this failure. The verse itself provides a standard: prayer restrains indecency and wrongdoing. We can examine conduct against that standard while acknowledging how much of another person’s inner life remains unknown to us.</p>
+<h3 id="shuayb" data-source-line="131">3. Why Shuayb’s People Objected to His Prayer</h3>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-132" data-source-line="132">«قَالُوا۟ يَٰشُعَيْبُ أَصَلَوٰتُكَ تَأْمُرُكَ أَن نَّتْرُكَ مَا يَعْبُدُ ءَابَآؤُنَآ أَوْ أَن نَّفْعَلَ فِىٓ أَمْوَٰلِنَا مَا نَشَٰٓؤُا۟ إِنَّكَ لَأَنتَ ٱلْحَلِيمُ ٱلرَّشِيدُ»</p>
+<p class="verse-ref" data-source-line="133">(<bdi dir="ltr">11:87</bdi>)</p>
+<p class="translation" id="passage-134" data-source-line="134">“They said, ‘Shuayb, does your prayer command you that we should abandon what our ancestors worshipped, or cease doing whatever we wish with our wealth? You are certainly the forbearing and rightly guided one!’”</p></blockquote>
+<p id="passage-135" data-source-line="135">These words follow Shuayb’s condemnation of short measure, the withholding of people’s due, and economic corruption. His opponents connected his prayer with his challenge to their inherited worship and financial conduct. Their response is mocking, but the objection reveals that his devotion had consequences beyond a private ritual.</p>
+<p id="passage-136" data-source-line="136">The verse does not define Salat as an economic system. It shows worship reaching into conduct. A person who bows before the Lord cannot treat other people’s rights as irrelevant. Here, the defence of unrestricted control over wealth accompanies loyalty to ancestral objects of worship; Shuayb challenges both.</p>
+<p id="passage-137" data-source-line="137">The same moral danger remains familiar. Religious observance can win trust that is later exploited in business or public office. An account of prayer must be able to recognize that abuse. If it concentrates entirely on finger positions or the pronunciation of a formula, it overlooks a serious corruption of worship.</p>
+<span id="what-must-not-happen-in-the-prayer-connection" class="legacy-anchor" aria-hidden="true"></span>
+<span id="heedlessness-inside-the-prayer-connection" class="legacy-anchor" aria-hidden="true"></span>
+<span id="showing-off" class="legacy-anchor" aria-hidden="true"></span>
+<h3 id="heedlessness" data-source-line="138">4. The Warning to Worshippers in Chapter 107</h3>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-139" data-source-line="139">«أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ»</p>
+<p class="arabic" lang="ar" dir="rtl" id="quote-140" data-source-line="140">«فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ»</p>
+<p class="arabic" lang="ar" dir="rtl" id="quote-141" data-source-line="141">«وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ»</p>
+<p class="arabic" lang="ar" dir="rtl" id="quote-142" data-source-line="142">«فَوَيْلٌ لِّلْمُصَلِّينَ»</p>
+<p class="arabic" lang="ar" dir="rtl" id="quote-143" data-source-line="143">«ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ»</p>
+<p class="arabic" lang="ar" dir="rtl" id="quote-144" data-source-line="144">«ٱلَّذِينَ هُمْ يُرَآءُونَ»</p>
+<p class="arabic" lang="ar" dir="rtl" id="quote-145" data-source-line="145">«وَيَمْنَعُونَ ٱلْمَاعُونَ»</p>
+<p class="verse-ref" data-source-line="146">(<bdi dir="ltr">107:1</bdi>, <bdi dir="ltr">107:2</bdi>, <bdi dir="ltr">107:3</bdi>, <bdi dir="ltr">107:4</bdi>, <bdi dir="ltr">107:5</bdi>, <bdi dir="ltr">107:6</bdi>, <bdi dir="ltr">107:7</bdi>)</p>
+<p class="translation" id="passage-147" data-source-line="147">“Have you seen the one who denies the religion? That is the one who pushes the orphan away and does not encourage feeding the poor. So woe to those who pray—those who are heedless of their prayer, who make a display of themselves and withhold practical help.”</p></blockquote>
+<p id="passage-148" data-source-line="148">The chapter begins with treatment of the orphan and the poor, then turns to people who pray for show and withhold help. That connection matters. Its warning cannot be exhausted by momentary distraction during prayer. The people described are heedless of their prayer while making an outward display and refusing assistance to others.</p>
+<p id="passage-149" data-source-line="149">A worshipper whose mind wanders, who regrets the distraction and tries to recover attention, differs from someone who uses worship to be admired while neglecting responsibility. Reducing this chapter to ordinary lapses of concentration obscures its larger concern: maintaining religious appearances while losing their purpose.</p>
+<p id="passage-150" data-source-line="150">In <bdi dir="ltr">19:59</bdi>, neglect of prayer appears alongside following desires. In <bdi dir="ltr">70:22</bdi>, <bdi dir="ltr">70:23</bdi>, <bdi dir="ltr">70:24</bdi>, <bdi dir="ltr">70:25</bdi>, <bdi dir="ltr">70:26</bdi>, <bdi dir="ltr">70:27</bdi>, <bdi dir="ltr">70:28</bdi>, <bdi dir="ltr">70:29</bdi>, <bdi dir="ltr">70:30</bdi>, <bdi dir="ltr">70:31</bdi>, <bdi dir="ltr">70:32</bdi>, <bdi dir="ltr">70:33</bdi>, <bdi dir="ltr">70:34</bdi>, <bdi dir="ltr">70:35</bdi>, the description of worshippers begins with constancy in prayer, proceeds through the rights of the needy, accountability, trustworthiness, fidelity, and truthful testimony, then returns to safeguarding prayer. These responsibilities belong within the portrait of worshippers. They cannot be postponed until every ritual detail has been debated.</p>
+<span id="when-the-prayer-connection-becomes-heavy" class="legacy-anchor" aria-hidden="true"></span>
+<h3 id="heavy-without-khushu" data-source-line="151">5. Humility, Steadfastness, and Continuity</h3>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-152" data-source-line="152">«قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ»</p>
+<p class="arabic" lang="ar" dir="rtl" id="quote-153" data-source-line="153">«ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَٰشِعُونَ»</p>
+<p class="verse-ref" data-source-line="154">(<bdi dir="ltr">23:1</bdi>, <bdi dir="ltr">23:2</bdi>)</p>
+<p class="translation" id="passage-155" data-source-line="155">“The believers have indeed prospered: those who are humble in their prayer.”</p></blockquote>
+<p id="passage-156" data-source-line="156">The first quality named here is <a href="/quran-terminology/en/roots/kh-sh-ayn/">khushu‘</a> (humble, attentive submission). How a person is present in prayer matters alongside the action itself. Words and movements should express a turning away from arrogance before God. Their repetition alone cannot supply that humility.</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-157" data-source-line="157">«وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ»</p>
+<p class="arabic" lang="ar" dir="rtl" id="quote-158" data-source-line="158">«ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا۟ رَبِّهِمْ وَأَنَّهُمْ إِلَيْهِ رَٰجِعُونَ»</p>
+<p class="verse-ref" data-source-line="159">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-045"><bdi dir="ltr">2:45</bdi></a>, <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-046"><bdi dir="ltr">2:46</bdi></a>)</p>
+<p class="translation" id="passage-160" data-source-line="160">“Seek help through steadfastness and prayer. It is indeed burdensome except for the humble—those who are assured that they will meet their Lord and that to Him they will return.”</p></blockquote>
+<p id="passage-161" data-source-line="161">Humility is linked here to meeting the Lord and returning to Him. It reaches beyond lowering the head or changing the voice. The worshipper recognizes a truth and an accountability greater than personal wishes or judgments. Approaching prayer merely as an item to complete differs from approaching it with that awareness of one’s place and final return.</p>
+<p id="passage-162" data-source-line="162"><a href="/quran-terminology/en/roots/sad-b-r/">Sabr</a> (steadfastness and patient perseverance) stands beside prayer. Knowing the right direction does not remove the effort required to remain faithful to it. Prayer renews remembrance; perseverance helps carry it into action under pressure. Another passage makes that continuity explicit:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-163" data-source-line="163">«وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ وَٱصْطَبِرْ عَلَيْهَا لَا نَسْـَٔلُكَ رِزْقًا نَّحْنُ نَرْزُقُكَ وَٱلْعَٰقِبَةُ لِلتَّقْوَىٰ»</p>
+<p class="verse-ref" data-source-line="164">(<bdi dir="ltr">20:132</bdi>)</p>
+<p class="translation" id="passage-165" data-source-line="165">“Enjoin prayer upon your household and persevere in it. We do not ask you for provision; We provide for you. The good outcome belongs to mindfulness of God.”</p></blockquote>
+<p id="passage-166" data-source-line="166">Prayer cannot be established through one day’s enthusiasm alone. It needs persistence in hardship as well as ease. But persistence should not become an excuse for burdens beyond what God has required. The verse reminds us that God provides for His servants; He does not depend on their provision. Worship meets no deficiency in Him. It is the worshipper who needs its discipline, renewal, and guidance. <a href="/quran-terminology/en/roots/w-q-y/">Taqwa</a> (watchful responsibility toward God and avoidance of wrongdoing) describes the orientation associated here with the good outcome.</p>
+<p id="passage-167" data-source-line="167">The distinction between steadfastness on a right course and passive submission to oppression is explored in the related study:</p>
+<p class="related-link" id="passage-168" data-source-line="168"><a href="/en/quran-terminology/sabr-in-the-quran/">Sabr in the Qur’an: Perseverance and Its Moral Worth</a></p>
+<h3 id="salat-and-zakat" data-source-line="169">6. Prayer and Giving</h3>
+<p id="passage-170" data-source-line="170">Prayer and zakat repeatedly appear together, including in the accounts of earlier prophets. Turning to God does not release us from responsibility for other people or for what we possess. Worship cannot substitute for generosity and respect for rights; generosity cannot erase the command to establish prayer.</p>
+<p id="passage-171" data-source-line="171"><a href="/quran-terminology/en/roots/z-k-w/">Zakat</a> has associations with purification and growth, and its relationship to charitable contributions, spending, and historical institutions deserves separate study. The point here is that prayer alongside the deliberate withholding of people’s due presents an incomplete life of devotion. Forqan’s study of zakat examines that wider question:</p>
+<p class="related-link" id="passage-172" data-source-line="172"><a href="/en/articles/zakat-and-its-historical-distortion/">Zakat and Its Historical Distortion</a></p>
+<span id="what-the-quran-shows-about-the-prayer-connection" class="legacy-anchor" aria-hidden="true"></span>
+<span id="the-quran-clearly-gives-the-foundations" class="legacy-anchor" aria-hidden="true"></span>
+<h2 id="quranic-foundations" data-source-line="173">Part Four: The Qur’an’s Practical Instructions for Prayer</h2>
+<p id="passage-174" data-source-line="174">The Qur’an addresses more than the general idea of worship. It speaks about preparation, the body, speech, congregation, timing, and danger. These instructions do not amount to a reproduction of every later legal manual. Each must be recognized at the level of detail the text supplies, with careful separation between what it states and what we infer.</p>
+<span id="purity-of-body-and-purity-of-awareness" class="legacy-anchor" aria-hidden="true"></span>
+<span id="1-purity-and-washing" class="legacy-anchor" aria-hidden="true"></span>
+<h3 id="purity-body-awareness" data-source-line="175">1. Purification and Bodily Preparation</h3>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-176" data-source-line="176">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»</p>
+<p class="verse-ref" data-source-line="177">(<bdi dir="ltr">5:6</bdi>)</p>
+<p class="translation" id="passage-178" data-source-line="178">“You who believe, when you rise for prayer, wash your faces and your hands to the elbows, and wipe your heads and your feet to the ankles. If you are in a state of major ritual impurity, purify yourselves. If you are ill or travelling, or one of you has come from relieving himself, or you have had contact with women and cannot find water, turn to clean earth and wipe your faces and hands with it. God does not intend to place you in hardship; He intends to purify you and complete His favour upon you, so that you may be grateful.”</p></blockquote>
+<p id="passage-179" data-source-line="179">This passage names parts of the body, distinguishes washing from wiping, and gives an alternative when water cannot be found. Wudu (the prescribed washing and wiping before prayer) is therefore a practical concern within the Qur’an. An account of Salat as an exclusively inward experience cannot simply set these instructions aside.</p>
+<p id="passage-180" data-source-line="180">The rendering above follows the reading that prescribes wiping the feet. Whether the feet are grammatically connected to washing or wiping is disputed, with different recitations and syntactic analyses involved. Those arguments are discussed in Part Seven. “Contact with women” is also disputed: whether it refers to ordinary touch or sexual intimacy affects rulings on purification. These disagreements concern how to understand particular instructions; they do not mean that the Qur’an contains no instruction about preparation.</p>
+<p id="passage-181" data-source-line="181">The end of the verse belongs with its beginning. God’s stated purpose is purification without imposing hardship. The prescribed alternative, tayammum (purification using clean earth when the stated conditions apply), shows that access to water is not to become an impasse. It also shows that ritual purity cannot be explained entirely as hygienic washing. The passage addresses the body, religious preparation, and actual human limitations together.</p>
+<p id="passage-182" data-source-line="182">Attention in prayer does not dispense with bodily preparation, and bodily cleanliness does not supply humility or understanding. The Qur’an addresses a whole person, with a body and a mind, whose circumstances may include illness or a lack of water.</p>
+<span id="2-standing-before-the-god" class="legacy-anchor" aria-hidden="true"></span>
+<span id="3-bowing-and-prostration" class="legacy-anchor" aria-hidden="true"></span>
+<h3 id="standing-bowing-prostration" data-source-line="183">2. Standing, Bowing, and Prostration</h3>
+<p id="passage-184" data-source-line="184">In <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-043"><bdi dir="ltr">2:43</bdi></a>, establishing prayer is accompanied by bowing with those who bow. Another passage commands:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-185" data-source-line="185">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱرْكَعُوا۟ وَٱسْجُدُوا۟ وَٱعْبُدُوا۟ رَبَّكُمْ وَٱفْعَلُوا۟ ٱلْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ»</p>
+<p class="verse-ref" data-source-line="186">(<bdi dir="ltr">22:77</bdi>)</p>
+<p class="translation" id="passage-187" data-source-line="187">“You who believe, bow, prostrate, worship your Lord, and do good, so that you may prosper.”</p></blockquote>
+<p id="passage-188" data-source-line="188">Bowing, prostration, worship, and good conduct appear together. Ruku‘ (bowing) and sujud (prostration) are bodily expressions of devotion. They cannot all be recast as names for political or economic activity, especially alongside passages about prayer in a sanctuary, groups of worshippers, and prayer under threat. The body participates in worship just as the voice does.</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-189" data-source-line="189">«حَٰفِظُوا۟ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلْوُسْطَىٰ وَقُومُوا۟ لِلَّهِ قَٰنِتِينَ»</p>
+<p class="verse-ref" data-source-line="190">(<bdi dir="ltr">2:238</bdi>)</p>
+<p class="translation" id="passage-191" data-source-line="191">“Guard the prayers and the middle prayer, and stand before God in devout obedience.”</p></blockquote>
+<p id="passage-192" data-source-line="192">Standing before God accompanies the safeguarding of prayers. Standing is not the entire meaning of establishing prayer, but it is part of its actual performance. The phrase “in devout obedience” also gives that posture a direction. Outward standing alone does not disclose whether a person seeks God or an audience’s admiration.</p>
+<p id="passage-193" data-source-line="193">The commands to bow and prostrate do not specify the number of cycles in every prayer. Conversely, the absence of such a table does not remove those commands. The Qur’an gives practical instruction without reproducing every specification found in later jurisprudence.</p>
+<span id="awareness-in-the-prayer-connection" class="legacy-anchor" aria-hidden="true"></span>
+<span id="5-awareness-in-speech" class="legacy-anchor" aria-hidden="true"></span>
+<h3 id="loss-of-awareness" data-source-line="194">3. Speech, Recitation, and Understanding</h3>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-195" data-source-line="195">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا»</p>
+<p class="verse-ref" data-source-line="196">(<bdi dir="ltr">4:43</bdi>)</p>
+<p class="translation" id="passage-197" data-source-line="197">“You who believe, do not approach prayer while intoxicated until you know what you are saying, nor in a state of major ritual impurity—except when passing through—until you have washed yourselves. If you are ill or travelling, or one of you has come from relieving himself, or you have had contact with women and cannot find water, turn to clean earth and wipe your faces and hands. God is pardoning and forgiving.”</p></blockquote>
+<p id="passage-198" data-source-line="198">The passage presupposes speech in prayer and requires awareness of it. It prohibits approaching prayer while intoxicated until the person knows what they are saying. It also addresses major ritual impurity, washing, and the alternative involving clean earth. Both awareness and bodily preparation belong to the setting of worship.</p>
+<p id="passage-199" data-source-line="199">A broader lesson for the quality of prayer follows: we should learn what the words we recite mean. Someone who has repeated them for years can still ask what they are requesting of God. Yet ordinary distraction must not be equated with intoxication to manufacture another rule of invalidity. The verse names a particular condition. Its concern for awareness can guide us without silently changing the subject of its prohibition.</p>
+<p id="passage-200" data-source-line="200">Chapter 73 discusses Qur’anic recitation in the setting of worship at night:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-201" data-source-line="201">«إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌ مِّنَ ٱلَّذِينَ مَعَكَ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ وَءَاخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ وَءَاخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا وَٱسْتَغْفِرُوا۟ ٱللَّهَ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌۢ»</p>
+<p class="verse-ref" data-source-line="202">(<bdi dir="ltr">73:20</bdi>)</p>
+<p class="translation" id="passage-203" data-source-line="203">“Your Lord knows that you stand for nearly two-thirds of the night, or half of it, or a third, as does a group of those with you. God measures the night and the day. He knew that you would not be able to keep count of it, so He turned toward you in mercy. Recite, then, whatever is manageable of the Qur’an. He knew that some of you would be ill, others travelling through the land seeking God’s bounty, and others fighting in God’s cause. So recite whatever is manageable of it, establish prayer, give zakat, and lend God a good loan. Whatever good you send ahead for yourselves, you will find it with God, better and greater in reward. Seek God’s forgiveness. God is forgiving and merciful.”</p></blockquote>
+<p id="passage-204" data-source-line="204">The passage begins with night vigil and the difficulty of measuring its duration. It names illness, travel for livelihood, and fighting, and twice directs people to recite what is manageable. Two points follow. The Qur’an itself supplies material for worshipful recitation. It also takes human capacity and the demands of life seriously; illness, work, and danger are not treated as irrelevant to devotion.</p>
+<p id="passage-205" data-source-line="205">This passage alone cannot settle every question about recitation in the daily prayers or the duties of someone praying behind a leader. Its opening concern is the night vigil. What it does establish is a relationship between Qur’anic recitation, worship, and accommodation to circumstances. In <bdi dir="ltr">17:78</bdi>, the dawn recitation also appears with the command to establish prayer. Together these passages rule out the claim that the Qur’an gives no guidance at all about what is recited in worship.</p>
+<span id="6-recitation-from-the-quran" class="legacy-anchor" aria-hidden="true"></span>
+<p id="passage-206" data-source-line="206">Al-Fatihah (the Opening, the Qur’an’s first chapter) brings together praise, service to God, the seeking of help, and a request for guidance. Its recitation fits the purposes of prayer. That is a different claim from saying that the Qur’an explicitly makes this particular chapter a condition of validity in every cycle, for every worshipper, in every congregational situation. That detailed requirement is not stated there. The disagreements over it will be examined below.</p>
+<span id="8-balance-in-voice" class="legacy-anchor" aria-hidden="true"></span>
+<h3 id="voice" data-source-line="208">4. The Voice in Prayer</h3>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-209" data-source-line="209">«قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ أَيًّا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا»</p>
+<p class="verse-ref" data-source-line="210">(<bdi dir="ltr">17:110</bdi>)</p>
+<p class="translation" id="passage-211" data-source-line="211">“Say: Call upon God, or call upon the All-Merciful; whichever you call upon, to Him belong the most beautiful names. Do not be excessively loud in your prayer or make it too quiet; seek a way between them.”</p></blockquote>
+<p id="passage-212" data-source-line="212">The passage addresses both the names by which God is invoked and the voice used in prayer. It directs the worshipper toward a middle course. Greater volume does not itself indicate deeper devotion, and quietness does not automatically establish humility. The manner of speaking should suit the worship it serves.</p>
+<p id="passage-213" data-source-line="213">A congregation may need to hear its leader’s recitation; a person praying alone faces different circumstances. An appropriate manner can take account of both. The verse does not provide a catalogue declaring every departure from a school’s customary volume invalid. Claims about additional compulsory details require their own justification.</p>
+<h3 id="essence-before-form" data-source-line="214">5. Prayer in Danger and While Moving</h3>
+<p id="passage-215" data-source-line="215">After the command to safeguard prayers in <bdi dir="ltr">2:238</bdi>, the next verse says:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-216" data-source-line="216">«فَإِنْ خِفْتُمْ فَرِجَالًا أَوْ رُكْبَانًا فَإِذَآ أَمِنتُمْ فَٱذْكُرُوا۟ ٱللَّهَ كَمَا عَلَّمَكُم مَّا لَمْ تَكُونُوا۟ تَعْلَمُونَ»</p>
+<p class="verse-ref" data-source-line="217">(<bdi dir="ltr">2:239</bdi>)</p>
+<p class="translation" id="passage-218" data-source-line="218">“If you are afraid, then on foot or riding. When you are safe, remember God as He taught you what you did not know.”</p></blockquote>
+<p id="passage-219" data-source-line="219">Danger can make an ordinary standing observance impossible. The passage permits worship on foot or while riding, taking life and safety into account. When circumstances prevent the familiar form, insistence on that form must not become a reason to abandon worship altogether.</p>
+<p id="passage-220" data-source-line="220">Chapter 4 describes prayer under threat in greater detail:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-221" data-source-line="221">«وَإِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَقْصُرُوا۟ مِنَ ٱلصَّلَوٰةِ إِنْ خِفْتُمْ أَن يَفْتِنَكُمُ ٱلَّذِينَ كَفَرُوٓا۟ إِنَّ ٱلْكَٰفِرِينَ كَانُوا۟ لَكُمْ عَدُوًّا مُّبِينًا»</p>
+<p class="verse-ref" data-source-line="222">(<bdi dir="ltr">4:101</bdi>)</p>
+<p class="translation" id="passage-223" data-source-line="223">“When you travel through the land, there is no blame upon you for shortening prayer if you fear that those who reject faith may attack you. Those who reject faith have indeed been an open enemy to you.”</p></blockquote>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-224" data-source-line="224">«وَإِذَا كُنتَ فِيهِمْ فَأَقَمْتَ لَهُمُ ٱلصَّلَوٰةَ فَلْتَقُمْ طَآئِفَةٌ مِّنْهُم مَّعَكَ وَلْيَأْخُذُوٓا۟ أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا۟ فَلْيَكُونُوا۟ مِن وَرَآئِكُمْ وَلْتَأْتِ طَآئِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا۟ فَلْيُصَلُّوا۟ مَعَكَ وَلْيَأْخُذُوا۟ حِذْرَهُمْ وَأَسْلِحَتَهُمْ وَدَّ ٱلَّذِينَ كَفَرُوا۟ لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ فَيَمِيلُونَ عَلَيْكُمْ مَّيْلَةً وَٰحِدَةً وَلَا جُنَاحَ عَلَيْكُمْ إِن كَانَ بِكُمْ أَذًى مِّن مَّطَرٍ أَوْ كُنتُم مَّرْضَىٰٓ أَن تَضَعُوٓا۟ أَسْلِحَتَكُمْ وَخُذُوا۟ حِذْرَكُمْ إِنَّ ٱللَّهَ أَعَدَّ لِلْكَٰفِرِينَ عَذَابًا مُّهِينًا»</p>
+<p class="verse-ref" data-source-line="225">(<bdi dir="ltr">4:102</bdi>)</p>
+<p class="translation" id="passage-226" data-source-line="226">“When you are among them and lead them in prayer, let a group of them stand with you and take their weapons. When they have prostrated, let them move behind you, and let another group who have not yet prayed come and pray with you, taking their precautions and weapons. Those who reject faith wish that you would neglect your weapons and equipment, so that they could fall upon you in a single assault. There is no blame upon you for setting down your weapons if you are troubled by rain or are ill, but take precautions. God has prepared a humiliating punishment for those who reject faith.”</p></blockquote>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-227" data-source-line="227">«فَإِذَا قَضَيْتُمُ ٱلصَّلَوٰةَ فَٱذْكُرُوا۟ ٱللَّهَ قِيَٰمًا وَقُعُودًا وَعَلَىٰ جُنُوبِكُمْ فَإِذَا ٱطْمَأْنَنتُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ إِنَّ ٱلصَّلَوٰةَ كَانَتْ عَلَى ٱلْمُؤْمِنِينَ كِتَٰبًا مَّوْقُوتًا»</p>
+<p class="verse-ref" data-source-line="228">(<bdi dir="ltr">4:103</bdi>)</p>
+<p class="translation" id="passage-229" data-source-line="229">“When you have completed the prayer, remember God standing, sitting, and on your sides. When you are secure, establish prayer. Prayer has been prescribed for believers at appointed times.”</p></blockquote>
+<p id="passage-230" data-source-line="230">These passages form a connected account involving travel, fear of attack, groups of worshippers, weapons, standing, and prostration. Verse <bdi dir="ltr">4:102</bdi> distinguishes those who have already prayed from those who have not. It addresses an identifiable observance that can be completed. An interpretation reducing Salat entirely to a general social activity must explain these details.</p>
+<p id="passage-231" data-source-line="231">The congregational arrangement is adapted to danger. One group prays while another maintains protection, and their roles change. Even rain and illness are considered in the instruction about weapons. Worship remains required while actual risks and limitations shape its performance.</p>
+<p id="passage-232" data-source-line="232">Verse <bdi dir="ltr">4:102</bdi> does not state a complete schedule of prayer cycles. It does not specify how many each group performs or provide totals for ordinary daily prayers. It establishes congregational worship and an arrangement for danger. Likewise, <bdi dir="ltr">4:101</bdi> addresses shortening prayer in a setting of travel and fear of attack; all later rulings about every kind of journey cannot simply be read into that sentence.</p>
+<p id="passage-233" data-source-line="233">The conclusion of the passage matters equally. After prayer, people are to remember God standing, sitting, and lying down. When security returns, they are to establish prayer, which has appointed times. The observance ends, but remembrance continues. Prayer should influence the life to which the worshipper returns.</p>
+<p id="passage-234" data-source-line="234">Accommodation in danger does not abolish instructions for ordinary circumstances. It shows that prayer has a form while its performance also responds to the worshipper’s situation. Making worship harder than God requires is not evidence of greater faithfulness to Him.</p>
+<p id="passage-235" data-source-line="235">Human capacity is also addressed in a general principle:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-236" data-source-line="236">«لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ»</p>
+<p class="verse-ref" data-source-line="237">(<bdi dir="ltr">2:286</bdi>)</p>
+<p class="translation" id="passage-238" data-source-line="238">“God does not burden any soul beyond its capacity. It has to its credit what it has earned, and against it what it has incurred. Our Lord, do not take us to task if we forget or make a mistake. Our Lord, do not lay upon us a burden like the one You laid upon those before us. Our Lord, do not burden us with what we have no strength to bear. Pardon us, forgive us, and have mercy on us. You are our protector, so help us against the people who reject faith.”</p></blockquote>
+<p id="passage-239" data-source-line="239">Capacity limits responsibility; it does not provide an excuse to evade it. Someone genuinely unable to stand or perform a customary movement cannot be treated as if they possessed the ability of a healthy person. This verse does not separately describe every form of prayer during illness. The accommodation follows from its general principle. Worship should remain possible, and the worshipper should assess their abilities honestly.</p>
+<span id="the-times-of-the-prayer-connection" class="legacy-anchor" aria-hidden="true"></span>
+<span id="the-five-time-reading" class="legacy-anchor" aria-hidden="true"></span>
+<span id="time-windows-not-sectarian-micromanagement" class="legacy-anchor" aria-hidden="true"></span>
+<span id="7-appointed-times" class="legacy-anchor" aria-hidden="true"></span>
+<h3 id="times-of-salat" data-source-line="240">6. Prayer Times: What Is Stated and What Is Inferred?</h3>
+<p id="passage-241" data-source-line="241">Verse <bdi dir="ltr">4:103</bdi> establishes that prayer has appointed times. It is not left entirely to the moment when we happen to feel devotional. To understand those times, however, we must read the relevant passages together rather than attach the familiar names of prayers to every temporal expression in advance.</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-242" data-source-line="242">«أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًا»</p>
+<p class="verse-ref" data-source-line="243">(<bdi dir="ltr">17:78</bdi>)</p>
+<p class="translation" id="passage-244" data-source-line="244">“Establish prayer from the sun’s decline until the darkness of night, and the dawn recitation. The dawn recitation is indeed witnessed.”</p></blockquote>
+<p id="passage-245" data-source-line="245">The verse gives an interval from the sun’s decline to the darkness of night and separately mentions dawn recitation. The interpretation of duluk (the sun’s movement or decline in this passage) affects where that interval begins. Read as its decline from the zenith, it begins around midday; read as sunset, it begins later. The verse itself does not assign a named prayer and number of cycles to every subdivision of the interval.</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-246" data-source-line="246">«وَأَقِمِ ٱلصَّلَوٰةَ طَرَفَىِ ٱلنَّهَارِ وَزُلَفًا مِّنَ ٱلْلَّيْلِ إِنَّ ٱلْحَسَنَٰتِ يُذْهِبْنَ ٱلسَّيِّـَٔاتِ ذَٰلِكَ ذِكْرَىٰ لِلذَّٰكِرِينَ»</p>
+<p class="verse-ref" data-source-line="247">(<bdi dir="ltr">11:114</bdi>)</p>
+<p class="translation" id="passage-248" data-source-line="248">“Establish prayer at the two ends of the day and in the near portions of the night. Good deeds remove bad deeds. This is a reminder for those who remember.”</p></blockquote>
+<p id="passage-249" data-source-line="249">Here the instruction names the two ends of the day and portions of the night. Turning those expressions into an exact schedule or a specified total of prayers requires an argument. The closing statement also connects prayer with good deeds and remembrance. Its concern extends beyond identifying a clock time.</p>
+<p id="passage-250" data-source-line="250">Another verse explicitly names two prayers:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-251" data-source-line="251">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لِيَسْتَـْٔذِنكُمُ ٱلَّذِينَ مَلَكَتْ أَيْمَٰنُكُمْ وَٱلَّذِينَ لَمْ يَبْلُغُوا۟ ٱلْحُلُمَ مِنكُمْ ثَلَٰثَ مَرَّٰتٍ مِّن قَبْلِ صَلَوٰةِ ٱلْفَجْرِ وَحِينَ تَضَعُونَ ثِيَابَكُم مِّنَ ٱلظَّهِيرَةِ وَمِنۢ بَعْدِ صَلَوٰةِ ٱلْعِشَآءِ ثَلَٰثُ عَوْرَٰتٍ لَّكُمْ لَيْسَ عَلَيْكُمْ وَلَا عَلَيْهِمْ جُنَاحٌۢ بَعْدَهُنَّ طَوَّٰفُونَ عَلَيْكُم بَعْضُكُمْ عَلَىٰ بَعْضٍ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْـَٔايَٰتِ وَٱللَّهُ عَلِيمٌ حَكِيمٌ»</p>
+<p class="verse-ref" data-source-line="252">(<bdi dir="ltr">24:58</bdi>)</p>
+<p class="translation" id="passage-253" data-source-line="253">“You who believe, let those whom your right hands possess and those among you who have not reached puberty ask your permission on three occasions: before the dawn prayer, when you put aside your clothes at midday, and after the night prayer. These are three times of privacy for you. Outside them, there is no blame upon you or them as you move about attending to one another. In this way God makes the signs clear to you. God is knowing and wise.”</p></blockquote>
+<p id="passage-254" data-source-line="254">The dawn prayer, Fajr, and the night prayer, Isha, are recognizable points in the household’s day. They mark two of its periods of privacy. But three occasions for requesting entry do not establish that there are three prayers. Midday is identified by putting aside clothing, without an explicit prayer name. Counting periods of privacy cannot settle the number of daily prayers.</p>
+<p id="passage-255" data-source-line="255">Other passages call for glorifying God at various times:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-256" data-source-line="256">«فَسُبْحَٰنَ ٱللَّهِ حِينَ تُمْسُونَ وَحِينَ تُصْبِحُونَ»</p>
+<p class="arabic" lang="ar" dir="rtl" id="quote-257" data-source-line="257">«وَلَهُ ٱلْحَمْدُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَعَشِيًّا وَحِينَ تُظْهِرُونَ»</p>
+<p class="verse-ref" data-source-line="258">(<bdi dir="ltr">30:17</bdi>, <bdi dir="ltr">30:18</bdi>)</p>
+<p class="translation" id="passage-259" data-source-line="259">“So glorify God when you enter the evening and when you enter the morning. To Him belongs praise in the heavens and the earth, in the late afternoon, and when you enter midday.”</p></blockquote>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-260" data-source-line="260">«فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ غُرُوبِهَا وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ»</p>
+<p class="verse-ref" data-source-line="261">(<bdi dir="ltr">20:130</bdi>)</p>
+<p class="translation" id="passage-262" data-source-line="262">“Be steadfast in the face of what they say, and glorify your Lord with praise before the rising of the sun and before its setting. Glorify Him during portions of the night and at the edges of the day, so that you may be content.”</p></blockquote>
+<p id="passage-263" data-source-line="263">Remembrance and glorification belong throughout the day and night. Prayer can be a particularly clear expression of them. Yet a command to glorify God at a time is not automatically a prescription for a separate obligatory prayer with a fixed number of cycles. The move from one claim to the other requires evidence.</p>
+<p id="passage-264" data-source-line="264">A reading in terms of three broad periods identifies dawn, the middle and later part of the day, and the period from sunset into night. Others draw such a division from the two ends of the day and portions of the night in <bdi dir="ltr">11:114</bdi>. These are attempts to relate the temporal signs to one another. The passages do not explicitly announce that the total number of obligatory prayers is exactly three.</p>
+<p id="passage-265" data-source-line="265">A five-prayer reading combines the passages with the familiar practice. Dawn supplies one occasion; the period after midday is associated with Dhuhr (the noon prayer) and Asr (the afternoon prayer); sunset into night is associated with Maghrib (the sunset prayer) and Isha. References to glorification before sunset and during the night are also used to explain this arrangement. This can show how the familiar prayers fit the temporal indications. Dividing an interval into two distinct prayers, however, cannot be established merely by counting words; knowledge of the communal practice also contributes.</p>
+<p id="passage-266" data-source-line="266">Three questions must remain separate: how many prayers are performed, how many time periods accommodate them, and how many cycles each contains. Five prayers performed within three periods are not the same as three prayers. Combining the noon and afternoon prayers, or the sunset and night prayers, does not by itself eliminate one of them. Nor does identifying a time determine its number of cycles. Much confusion comes from treating these questions as interchangeable.</p>
+<p id="passage-267" data-source-line="267">Verse <bdi dir="ltr">2:238</bdi> also names al-Salat al-wusta (the middle prayer) and commands its safeguarding. The description “middle” alone neither names the afternoon prayer nor supplies the total number of daily prayers. Further reasoning is needed before a particular schedule can be attributed to that wording.</p>
+<p id="passage-268" data-source-line="268">The Qur’an clearly gives prayer a temporal structure. Dawn and night prayers are named, and other passages identify times and intervals. The five daily prayers are also recognizable within Muslim practice and can be examined alongside those passages. We should therefore distinguish the text’s explicit statements, interpretations of its timing language, and the inherited arrangement used to put prayer into practice.</p>
+<h3 id="qibla" data-source-line="269">7. The Direction of Prayer</h3>
+<p id="passage-270" data-source-line="270">In <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-144"><bdi dir="ltr">2:144</bdi></a>, <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-149"><bdi dir="ltr">2:149</bdi></a>, and <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-150"><bdi dir="ltr">2:150</bdi></a>, worshippers are directed toward the Sacred Mosque. The qibla (the direction faced in prayer) has a practical spatial meaning. It cannot be made so abstract that direction disappears, nor can it confine God to the place toward which people face. Turning that way responds to a command; it does not locate God’s being in one part of the world.</p>
+<p id="passage-271" data-source-line="271">The surrounding account also concerns following guidance and belonging to Abraham’s way. In <bdi dir="ltr">10:87</bdi>, making houses a direction of prayer accompanies the command to establish Salat. Bodily orientation and faithful commitment can therefore be related without either cancelling the other.</p>
+<p id="passage-272" data-source-line="272">The separate study of qibla explores that relationship in detail. For the present purpose, direction is a real feature of prayer, while the worth of worship cannot be measured by bodily orientation alone:</p>
+<p class="related-link" id="passage-273" data-source-line="273"><a href="/en/quran-terminology/qibla-wajh-and-hanif-in-the-quran/">Qibla, Wajh, and Hanif in the Qur’an</a></p>
+<h3 id="congregation" data-source-line="274">8. Congregation and the Shared Life of Worship</h3>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-275" data-source-line="275">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ»</p>
+<p class="arabic" lang="ar" dir="rtl" id="quote-276" data-source-line="276">«فَإِذَا قُضِيَتِ ٱلصَّلَوٰةُ فَٱنتَشِرُوا۟ فِى ٱلْأَرْضِ وَٱبْتَغُوا۟ مِن فَضْلِ ٱللَّهِ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ»</p>
+<p class="verse-ref" data-source-line="277">(<bdi dir="ltr">62:9</bdi>, <bdi dir="ltr">62:10</bdi>)</p>
+<p class="translation" id="passage-278" data-source-line="278">“You who believe, when the call to prayer is made on Friday, hasten to the remembrance of God and leave trade. That is better for you, if you know. When the prayer is completed, disperse through the land, seek God’s bounty, and remember God often, so that you may prosper.”</p></blockquote>
+<p id="passage-279" data-source-line="279">These verses describe a public beginning and ending to prayer. People are called, leave their trade, and gather for remembrance. When worship concludes, they may return to their work and seek provision. Prayer makes a place for remembrance within economic and communal life, and that remembrance should accompany people back into their daily activities.</p>
+<p id="passage-280" data-source-line="280">Congregation requires coordination. Listening, moving together, and respecting other worshippers help make it possible. A shared arrangement need not become a claim that every difference is hostility toward God. The Qur’an calls people together for remembrance. Anyone turning that gathering into a tribunal against other people’s worship must justify the judgments they make.</p>
+<p id="passage-281" data-source-line="281">Taken together, these passages provide substantial practical guidance: bodily preparation, speech and recitation, standing, bowing, prostration, timing, direction, congregation, and accommodation to human circumstances. The absence of some later legal details cannot erase the guidance that is actually present.</p>
+<span id="what-the-quran-does-not-say" class="legacy-anchor" aria-hidden="true"></span>
+<h2 id="limits-of-obligation" data-source-line="283">Part Five: Unspecified Details and the Limits of Religious Obligation</h2>
+<p id="passage-284" data-source-line="284">Having examined the practical instructions, we should also identify what the Qur’an does not specify. No verse separately assigns a number of cycles to each of the five familiar daily prayers. Nor does it provide a comprehensive manual of every invocation, hand position, finger movement, distance between the feet, or condition of invalidity found in legal works. We should acknowledge that absence rather than force inherited specifications into passages that do not state them.</p>
+<p id="passage-285" data-source-line="285">Why should this absence establish a deficiency in the Book? That conclusion assumes God intended to make every such detail obligatory in precisely its inherited form. If this is assumed before reading, the absence will naturally appear as a gap. Starting with the Qur’an changes the question: which elements are commanded, and which details of implementation have not been made compulsory?</p>
+<p id="passage-286" data-source-line="286">The Qur’an asks:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-287" data-source-line="287">«أَفَغَيْرَ ٱللَّهِ أَبْتَغِى حَكَمًا وَهُوَ ٱلَّذِىٓ أَنزَلَ إِلَيْكُمُ ٱلْكِتَٰبَ مُفَصَّلًا وَٱلَّذِينَ ءَاتَيْنَٰهُمُ ٱلْكِتَٰبَ يَعْلَمُونَ أَنَّهُۥ مُنَزَّلٌ مِّن رَّبِّكَ بِٱلْحَقِّ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ»</p>
+<p class="verse-ref" data-source-line="288">(<bdi dir="ltr">6:114</bdi>)</p>
+<p class="translation" id="passage-289" data-source-line="289">“Shall I seek a judge other than God, when He is the One who has sent down to you the Book explained in detail? Those to whom We have given the Book know that it has been sent down from your Lord in truth. So do not be among those who doubt.”</p></blockquote>
+<p id="passage-290" data-source-line="290">The Book functions here as a standard of judgment. Its being explained in detail need not mean that every ordinary movement or decision has a separate instruction. Guidance can define responsibility while leaving choices within its boundaries. Its sufficiency does not require the elimination of human judgment in practical life.</p>
+<p id="passage-291" data-source-line="291">A congregation, for example, needs an arrangement people can learn and follow: when to begin, how to move with the leader, and how to teach newcomers. Agreeing on a common method is reasonable. But the need for coordination does not establish that God has imposed every detail of that method on all people everywhere. Organizing and teaching worship do not automatically create divine law.</p>
+<p id="passage-292" data-source-line="292">Where examination of the passages does not establish a binding requirement, choices remain within the Qur’an’s commands. Someone declaring a particular hand position or formula a condition of valid prayer must demonstrate that requirement. The burden is not on everyone else to find a separate verse rejecting each proposed addition. Neither the age nor the popularity of a practice supplies the missing proof.</p>
+<p id="passage-293" data-source-line="293">This leaves no licence to disregard the instructions that do exist. Purification, standing, bowing, prostration, speech, and timing remain features addressed in the text. The distinction concerns additional details for which an obligation has not been established. Faithfulness to a command and judgment about its unspecified implementation can coexist.</p>
+<h3 id="amani" data-source-line="294">Inherited Assumptions and Knowledge of the Book</h3>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-295" data-source-line="295">«وَمِنْهُمْ أُمِّيُّونَ لَا يَعْلَمُونَ ٱلْكِتَٰبَ إِلَّآ أَمَانِىَّ وَإِنْ هُمْ إِلَّا يَظُنُّونَ»</p>
+<p class="verse-ref" data-source-line="296">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-078"><bdi dir="ltr">2:78</bdi></a>)</p>
+<p class="translation" id="passage-297" data-source-line="297">“Among them are people without knowledge of the Book; they know it only through amani, and they do no more than suppose.”</p></blockquote>
+<p id="passage-298" data-source-line="298">The contrast in <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-078"><bdi dir="ltr">2:78</bdi></a> is between knowing the Book and relying on supposition. <a href="/quran-terminology/en/roots/m-n-y/">Amani</a> (wishes or suppositions; in another interpretation, recitations without understanding) is examined more fully in Forqan’s reflection on this verse. The issue relevant here is familiar: a person can repeat something as religion for years without knowing whether it comes from the Book or from what others have said about it.</p>
+<p id="passage-299" data-source-line="299">Someone may have been told as a child that a movement invalidates prayer. Years later they repeat the rule as confidently as if it were an explicit verse, although they have never examined its basis. Repetition has taken the place of evidence. A family or school’s practice is not itself the problem; the problem is forgetting its source and giving an inherited judgment the authority of God’s speech.</p>
+<p id="passage-300" data-source-line="300">When people claim exclusive entry into Paradise, the Qur’an responds:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-301" data-source-line="301">«وَقَالُوا۟ لَن يَدْخُلَ ٱلْجَنَّةَ إِلَّا مَن كَانَ هُودًا أَوْ نَصَٰرَىٰ تِلْكَ أَمَانِيُّهُمْ قُلْ هَاتُوا۟ بُرْهَٰنَكُمْ إِن كُنتُمْ صَٰدِقِينَ»</p>
+<p class="verse-ref" data-source-line="302">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-111"><bdi dir="ltr">2:111</bdi></a>)</p>
+<p class="translation" id="passage-303" data-source-line="303">“They say, ‘No one will enter the Garden unless they are Jews or Christians.’ Those are their wishes. Say: Bring your proof, if you are truthful.”</p></blockquote>
+<p id="passage-304" data-source-line="304">The immediate subject is an exclusive claim about salvation. Its demand for proof also provides a discipline for religious claims more broadly. Someone declaring another person’s worship invalid must do more than appeal to what is familiar within their own school. The same challenge applies to us: does our conclusion follow from the verses and their setting, or have we dressed an earlier assumption in Qur’anic language?</p>
+<p id="passage-305" data-source-line="305">Forqan’s reflections on these two passages examine knowledge, inherited assumptions, and the demand for proof:</p>
+<p class="related-link" id="passage-306" data-source-line="306"><a href="/quran-reflection/en/002-al-baqarah/#ayah-078">Reflection on 2:78</a></p>
+<p class="related-link" id="passage-307" data-source-line="307"><a href="/quran-reflection/en/002-al-baqarah/#ayah-111">Reflection on 2:111</a></p>
+<p id="passage-308" data-source-line="308">The Qur’an also warns against attributing invented rulings to God:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-309" data-source-line="309">«وَلَا تَقُولُوا۟ لِمَا تَصِفُ أَلْسِنَتُكُمُ ٱلْكَذِبَ هَٰذَا حَلَٰلٌ وَهَٰذَا حَرَامٌ لِّتَفْتَرُوا۟ عَلَى ٱللَّهِ ٱلْكَذِبَ إِنَّ ٱلَّذِينَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ لَا يُفْلِحُونَ»</p>
+<p class="verse-ref" data-source-line="310">(<bdi dir="ltr">16:116</bdi>)</p>
+<p class="translation" id="passage-311" data-source-line="311">“Do not say, on the basis of the falsehood your tongues describe, ‘This is lawful and that is forbidden,’ inventing a lie against God. Those who invent lies against God do not prosper.”</p></blockquote>
+<p id="passage-312" data-source-line="312">People can reason about religion, offer interpretations, and learn practices from one another. Their judgments must remain distinguishable from God’s commands. Verse <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-079"><bdi dir="ltr">2:79</bdi></a> also condemns writing something and claiming that it comes from God. An honest interpretive mistake is not the same as deliberate fabrication. Yet attaching a religious name to a conclusion does not turn human reasoning into revelation.</p>
+<p id="passage-313" data-source-line="313">The issue is not simply how difficult an added condition is. Even an easy detail cannot be called a divine obligation without evidence. A person may choose a method as a private precaution. Making that precaution compulsory for others, or using it to invalidate their prayer, is a further claim requiring its own grounds.</p>
+<span id="living-practice-and-written-reports-are-not-the-same" class="legacy-anchor" aria-hidden="true"></span>
+<h2 id="living-practice-written-reports" data-source-line="314">Part Six: How Is Prayer Learned?</h2>
+<h3 id="four-answers" data-source-line="315">1. Four Parts of the Answer</h3>
+<p id="passage-316" data-source-line="316">The question “If the Qur’an is sufficient, where do we learn prayer?” now has four connected answers.</p>
+<p id="passage-317" data-source-line="317">First, the Qur’an’s uses of Salat extend beyond the familiar human ritual, so the ritual cannot define every occurrence of the word.</p>
+<p id="passage-318" data-source-line="318">Second, the Qur’an gives practical guidance about human prayer, including preparation, timing, bodily action, speech, and exceptional circumstances.</p>
+<p id="passage-319" data-source-line="319">Third, inherited requirements cannot serve as an unquestioned checklist against which the completeness of the Qur’an is judged.</p>
+<p id="passage-320" data-source-line="320">Fourth, prayer has been transmitted through participation, observation, and teaching in communal life, as well as through written accounts.</p>
+<p id="passage-321" data-source-line="321">The fourth point needs care. Learning an action does not prove the divine authority of every detail in the lesson. We can learn what bowing looks like without treating everything the teacher does as a command of God. Similarly, learning Arabic from people does not make every Arabic sentence revelation. A community can teach a practice without making every custom compulsory.</p>
+<h3 id="living-practice" data-source-line="322">2. Learning Through a Living Practice</h3>
+<p id="passage-323" data-source-line="323">A child standing beside worshippers watches them rise, bow, and prostrate. The child joins in, makes mistakes, asks questions, and gradually learns the words and sequence. This learning begins through participation. Later study of legal or hadith literature may influence it, but the first knowledge of prayer need not depend on reading either.</p>
+<p id="passage-324" data-source-line="324">That process continues within families and congregations. Prayer is a public practice repeated daily. By tawatur ‘amali (widespread transmission through repeated communal practice), this study means learning through sustained observation, participation, and instruction, rather than dependence on a single person’s report of a past event. Rejecting independent legislative authority for hadith does not require rejecting shared memory and practical knowledge.</p>
+<p id="passage-325" data-source-line="325">The Qur’an itself describes prayer within Muhammad’s community. A group stands with him in <bdi dir="ltr">4:102</bdi>; people are called to worship in <bdi dir="ltr">62:9</bdi>; and preparation when rising for prayer is addressed in <bdi dir="ltr">5:6</bdi>. These passages establish the existence of an identifiable shared practice without requiring later reports to establish that basic fact.</p>
+<p id="passage-326" data-source-line="326">This does not mean that communal prayer developed in isolation from hadith and jurisprudence. People learned from families, prayer leaders, scholars, and legal traditions; those influences interacted. The point is that knowledge of a public practice cannot be confined to hadith books. Neither the historical influence of jurisprudence nor communal familiarity alone establishes a right to impose additional obligations alongside the Qur’an.</p>
+<h3 id="rakahs" data-source-line="327">3. The Number of Prayer Cycles</h3>
+<p id="passage-328" data-source-line="328">The familiar obligatory daily prayers comprise two cycles at dawn, four at noon, four in the afternoon, three at sunset, and four at night: seventeen in total. This ordinary arrangement is shared by the major Islamic schools. Disagreements arise over additional prayers, travel, combining prayers, and particular circumstances. Criticism should not falsely imply that the major schools disagree even about this familiar total.</p>
+<p id="passage-329" data-source-line="329">A person can learn and follow that arrangement through Muslim practice. Setting aside hadith as an independent legislative authority does not require inventing a new ritual. The familiar prayer can be established attentively and examined against Qur’anic guidance, with the basis of each claimed requirement considered honestly.</p>
+<p id="passage-330" data-source-line="330">Does the prevalence of seventeen cycles, by itself, establish that God rejects every variation in number or form? It shows how people commonly worship. A claim that God accepts no alternative needs further justification. One can choose the established arrangement for one’s own prayer without claiming that simple difference from it proves another person’s worship unacceptable.</p>
+<p id="passage-331" data-source-line="331">Practical transmission must also be described at the right level. The existence of prayer, its widely shared form, and details found only in particular schools are different kinds of claim. A custom confined to one community cannot be described as universal practice. Recognizing those distinctions protects the inquiry from treating every inherited habit as equally established.</p>
+<h3 id="text-and-practice" data-source-line="332">4. Are the Qur’an and Prayer Transmitted in the Same Way?</h3>
+<p id="passage-333" data-source-line="333">Both have lived within communities and passed between generations. But what is transmitted differs. The Qur’an is a text whose words are recited, memorized, written, and compared across copies. Prayer is an action whose movements and order are learned through observation and practice. Examining every detail of an action is not identical to comparing a text word for word.</p>
+<p id="passage-334" data-source-line="334">Their shared communal transmission is significant, but it does not make every form of evidence interchangeable. Attention to living practice does not place every report attributed to the Prophet on the same footing as the Qur’an. The involvement of human transmitters alone cannot establish equal authority for all things transmitted.</p>
+<p id="passage-335" data-source-line="335">Forqan’s separate study examines the argument that the transmitters of the Qur’an and of hadith must be treated as equivalent:</p>
+<p class="related-link" id="passage-336" data-source-line="336"><a href="/en/quran-completeness/quran-and-hadith-transmitters/">The Transmission of the Qur’an and Hadith</a></p>
+<h3 id="reports-and-obligation" data-source-line="337">5. Reports, Authenticity, and Obligation</h3>
+<p id="passage-338" data-source-line="338">Someone who claims that hadith alone supplies the number and form of prayer can be asked to identify the relevant reports and explain exactly what each establishes. What is stated in a report, and what is supplied by prior familiarity with the practice? This asks about the basis of knowledge, rather than inviting a competition over collections or the number of quotations assembled.</p>
+<p id="passage-339" data-source-line="339">Reports about prayer cycles, travel, recitation, and performance certainly exist. Nor must all the information appear in one report: several may be considered together. Even then, their existence does not prove that communal knowledge depended exclusively on those reports. A report may describe an already familiar practice.</p>
+<p id="passage-340" data-source-line="340">A further question concerns authority. Even if a report accurately describes an action, what establishes that every detail is obligatory for everyone in every circumstance? “The Prophet did this” and “only this performance is valid” are different claims. The passage from description to obligation and exclusivity needs an argument.</p>
+<p id="passage-341" data-source-line="341">Calling a report sahih (judged authentic within a method of hadith criticism) does not settle that further question. The classification concerns the report’s assessed reliability. It is not itself a Qur’anic grant of independent legislative authority. The issue is the basis of a religious requirement, not whether narrators deserve personal respect.</p>
+<p id="passage-342" data-source-line="342">The Messenger himself must also be distinguished from later reports attributed to him. Obedience to the Messenger cannot simply be equated with unconditional acceptance of every report in a collection, without examining attribution and meaning. The related study considers that distinction in detail:</p>
+<p class="related-link" id="passage-343" data-source-line="343"><a href="/en/articles/obeying-the-messenger-and-hadith-authority/">Obeying the Messenger and the Authority of Hadith</a></p>
+<p id="passage-344" data-source-line="344">The answer is therefore practical as well as methodological. The Qur’an supplies the commands and standards; communal practice supplies a recognizable way of performing prayer; reason and reflection help examine that practice against the text. These forms of learning need not turn every inherited detail into a divine obligation. Prayer can continue without making acceptance of hadith as an independent source of legislation a prerequisite for knowing how to worship.</p>
+<h2 id="juristic-differences" data-source-line="345">Part Seven: Examining Claims of Legal Certainty</h2>
+<p id="passage-346" data-source-line="346">The next question concerns the claim that hadith and jurisprudence have supplied a complete and conclusive account of details absent from the Qur’an. We need not survey the entire history of Islamic law to examine it. Several ordinary matters of prayer and purification reveal genuine differences among jurists.</p>
+<p id="passage-347" data-source-line="347">Disagreement alone does not prove that every position is wrong. People also differ in interpreting the Qur’an. The question is what warrants presenting a disputed judgment as God’s certain command. A jurist can reason, teach, and defend a conclusion. However extensive that learning, it remains answerable to evidence and criticism.</p>
+<span id="one-example-reciting-the-opening-chapter-behind-the-leader" class="legacy-anchor" aria-hidden="true"></span>
+<h3 id="fatihah-behind-leader" data-source-line="348">1. Reciting the Opening Chapter Behind a Prayer Leader</h3>
+<p id="passage-349" data-source-line="349">Reciting al-Fatihah in congregation is an everyday issue. In the Shafi‘i school, a follower is generally required to recite it, with qualifications for situations such as arriving late in a cycle. The widely held Hanafi position treats recitation behind the leader as makruh tahrimi (prohibitively discouraged), in both audible and quiet prayers. Maliki jurists recommend a follower’s recitation in quiet prayers and discourage it in audible ones. In the Hanbali school, it is recommended in quiet prayers and during the leader’s pauses, but discouraged while the leader is reciting aloud.</p>
+<p class="source-citation">Sources: <a id="source-call-1" href="#source-1" aria-label="Source 1">1</a></p>
+<p id="passage-350" data-source-line="350">These are substantially different directions for a worshipper. Yet they must not be exaggerated. The widely held Hanafi position does not say that a follower’s recitation of al-Fatihah automatically invalidates the prayer. The classification is prohibitively discouraged. Even with that distinction maintained, an obligation to recite and a direction to refrain are meaningfully different instructions.</p>
+<p id="passage-351" data-source-line="351">The practical question is simple: should I recite or remain silent behind the leader? Different schools give different answers while appealing to reports and legal reasoning. That challenges the claim that those methods have removed all uncertainty about every detail. It does not, by itself, establish that every answer is false. Anyone claiming final certainty for one answer still needs to demonstrate its grounds.</p>
+<p id="passage-352" data-source-line="352">One Qur’anic passage frequently invoked in this discussion says:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-353" data-source-line="353">«وَإِذَا قُرِئَ ٱلْقُرْءَانُ فَٱسْتَمِعُوا۟ لَهُۥ وَأَنصِتُوا۟ لَعَلَّكُمْ تُرْحَمُونَ»</p>
+<p class="verse-ref" data-source-line="354">(<bdi dir="ltr">7:204</bdi>)</p>
+<p class="translation" id="passage-355" data-source-line="355">“When the Qur’an is recited, listen to it and remain silent, so that you may receive mercy.”</p></blockquote>
+<p id="passage-356" data-source-line="356">That instruction leaves questions about its application to particular circumstances. What if the follower cannot hear? What happens during a pause? Is this particular chapter exclusively required from every follower in every cycle? Citing one sentence cannot settle all those matters without interpretation. Likewise, <bdi dir="ltr">73:20</bdi> permits reciting what is manageable within a passage about night worship. A ruling about a follower in daily congregational prayer must explain how the passages support it.</p>
+<p id="passage-357" data-source-line="357">Both attentive recitation and attentive listening have value, and the congregation needs a workable arrangement. A further claim—that departure from one arrangement is divinely declared to invalidate prayer—must be separately established. Worshippers should understand what they recite and hear; those giving legal guidance should make clear where the text ends and their interpretation begins.</p>
+<h3 id="audible-and-quiet" data-source-line="358">2. Audible and Quiet Recitation</h3>
+<p id="passage-359" data-source-line="359">In familiar practice, dawn prayer and the first two cycles of sunset and night prayers are recited aloud, while noon and afternoon prayers are quiet. The significant disagreements are not chiefly about the existence of this pattern. They concern particular parts of recitation and the degree of obligation attached to the pattern. Two people may perform prayer similarly while receiving different rulings about what happens if they depart from it.</p>
+<p id="passage-360" data-source-line="360">Maliki and Hanbali jurists classify audible and quiet recitation in their customary places as recommended practices. Shafi‘i jurisprudence likewise recommends audible recitation in its place for the leader and the person praying alone. In Hanafi jurisprudence, maintaining the assigned audible and quiet recitation is obligatory for the leader. Thus a shared manner of performance does not necessarily entail agreement about the consequences of leaving it.</p>
+<p class="source-citation">Sources: <a id="source-call-2" href="#source-2" aria-label="Source 2">2</a></p>
+<p id="passage-361" data-source-line="361">The basmala (the invocation “In the name of The God, the Entirely Merciful, the Especially Merciful.”) supplies another example. Shafi‘i jurists recommend saying it aloud in audible prayers. Hanafi and Hanbali practice favours saying it quietly. The well-known Maliki position discourages beginning recitation with it in obligatory prayer. These differences concern a phrase within a repeated public observance, rather than an obscure event rarely witnessed.</p>
+<p class="source-citation">Sources: <a id="source-call-3" href="#source-3" aria-label="Source 3">3</a>, <a id="source-call-4" href="#source-4" aria-label="Source 4">4</a></p>
+<p id="passage-362" data-source-line="362">Verse <bdi dir="ltr">17:110</bdi> directs the worshipper toward a middle course in the voice used for prayer. A claim that further specifications bind everyone, or that departure from them invalidates prayer, needs justification. Examining these differences should help identify the grounds of a ruling, rather than leave the worshipper anxious about every variation.</p>
+<p id="passage-363" data-source-line="363">Whether the opening invocation should be audible can be debated on its evidence. Audible recitation in one congregation and quiet recitation in another do not themselves determine faith or rejection. A preferred manner, an obligation, and a condition of validity are separate claims. Their different consequences require different arguments.</p>
+<h3 id="washing-and-wiping" data-source-line="364">3. Washing or Wiping the Feet</h3>
+<p id="passage-365" data-source-line="365">In <bdi dir="ltr">5:6</bdi>, the face and hands follow the command to wash; the head follows the command to wipe; and the feet are named afterward. The recognized recitations include both arjulakum and arjulikum, forms with different grammatical case endings. Those favouring wiping connect the feet to the head and the nearer verb. Those requiring washing connect them to the face and hands. More than one syntactic account is offered even for the first form. A case ending alone does not settle the entire argument.</p>
+<p class="source-citation">Sources: <a id="source-call-5" href="#source-5" aria-label="Source 5">5</a></p>
+<p id="passage-366" data-source-line="366">This study’s rendering favours wiping because the position of the feet after the head and the command to wipe supports that reading. It nevertheless acknowledges the linguistic arguments offered for washing. Accepting those arguments does not automatically make someone dishonest or ignorant. An interpretive preference should be defended through the text and its grammar, without treating God’s favour as the exclusive possession of those who agree with it.</p>
+<p id="passage-367" data-source-line="367">People who wash and people who wipe should each be able to explain their understanding. This does not make two different readings an identical, undisputed instruction. It means that disagreement over a phrase cannot by itself justify a final judgment on another person’s faith. Hostility toward a different community does not make either performance more devoted.</p>
+<p id="passage-368" data-source-line="368">The passage ends with purification and the removal of hardship. That does not eliminate the need for linguistic investigation, but it gives no warrant for humiliation and exclusion. Moving from “I understand the instruction this way” to “members of another community cannot worship acceptably” introduces a much larger claim that needs its own evidence.</p>
+<h3 id="ablution-differences" data-source-line="369">4. What Invalidates Purification or Prayer?</h3>
+<p id="passage-370" data-source-line="370">Physical contact also receives different rulings. In Shafi‘i jurisprudence, direct skin contact between a man and a woman outside the permanently prohibited degrees of marriage invalidates purification under the school’s specified conditions; spouses are included, and desire is not required. Hanafi jurisprudence does not treat ordinary touch alone as invalidating it. In other schools, desire and the character of the contact affect the ruling.</p>
+<p class="source-citation">Sources: <a id="source-call-6" href="#source-6" aria-label="Source 6">6</a></p>
+<p id="passage-371" data-source-line="371">The disagreement concerns the expression rendered as “contact with women” in <bdi dir="ltr">5:6</bdi> and <bdi dir="ltr">4:43</bdi>: does it mean ordinary touch or refer indirectly to sexual intimacy? Language and context must be examined. The practical effect is considerable. A contact that leaves one person’s purification unaffected under their school’s rules may require another to repeat it before praying.</p>
+<p id="passage-372" data-source-line="372">These disputes therefore concern more than the position of hands during worship. They can affect whether a person is considered prepared to begin. It is not enough to say that jurists have ruled. We need to know what the verse states and how the reasoning moves from that statement to the claimed consequence.</p>
+<p id="passage-373" data-source-line="373">Other disputed details include hand placement, finger movement, particular invocations, and bodily movement during prayer. They do not all invalidate prayer in every school, and must not be listed as though they do. Wherever invalidity is claimed, the same question applies: is it established by a clear Qur’anic instruction or by the interpretive rules of a particular school?</p>
+<p id="passage-374" data-source-line="374">None of this makes complete, deliberate abandonment of prayer equivalent to a difference in finger or hand placement. Treating those as the same both diminishes the command to worship and gives disputed details a weight not established for them in the Qur’an.</p>
+<h3 id="travel" data-source-line="375">5. Additional Prayers, Travel, and Shortening</h3>
+<p id="passage-376" data-source-line="376">The familiar seventeen daily cycles were discussed in Part Six. Questions about voluntary prayers, Witr (an additional prayer ending with an odd number of cycles), shortening during travel, and combining prayers are distinct. Agreement over the familiar daily pattern does not remove those disputes, just as disputes over additional rulings do not make the basic practice unknown.</p>
+<p id="passage-377" data-source-line="377">Verse <bdi dir="ltr">4:101</bdi> addresses shortening prayer during travel in a setting of fear of attack, followed by a congregational arrangement for danger. Detailed rules about travel distance, length of stay, and when shortening is compulsory or optional each require an account of their basis. They cannot all simply be attributed to the wording of that verse.</p>
+<p id="passage-378" data-source-line="378">Voluntary worship also needs to be distinguished from compulsory duty. A person may gladly pray more often for remembrance. Requiring everyone else to perform that same number in the same form, on pain of sin, is a different act. Repetition and affection for a practice do not by themselves change its status from voluntary to obligatory.</p>
+<h3 id="validity-and-acceptance" data-source-line="379">6. Legal Validity, Moral Effect, and Acceptance by God</h3>
+<p id="passage-380" data-source-line="380">Three questions should be distinguished. Has a person prayed according to a particular school’s rules? Has the worship benefited their intentions and conduct? Has God accepted it? The first can be answered within that school’s framework. Conduct gives some evidence relevant to the second. Final certainty about the third belongs to God’s knowledge.</p>
+<p id="passage-381" data-source-line="381">A jurist may explain why a prayer does not meet the criteria of their school. That does not immediately establish that God has rejected the worshipper. Equally, a critic concerned with the ethical purpose of prayer must not presume to judge someone’s entire worship from one visible fault. We have standards for examining conduct, but do not know every intention or circumstance.</p>
+<p id="passage-382" data-source-line="382">This distinction leaves room for firm criticism. The position defended here is that neither a school nor an individual has independent authority to legislate in God’s name. Their conclusions remain open to examination. People can benefit from expertise while asking where a ruling comes from, how it follows from the text, and how certain it really is.</p>
+<h3 id="cow-narrative" data-source-line="383">7. The Israelites and the Cow</h3>
+<p id="passage-384" data-source-line="384">The account in chapter 2 illustrates how people’s response to a command can make its fulfilment harder:</p>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-385" data-source-line="385">«وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦٓ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تَذْبَحُوا۟ بَقَرَةً قَالُوٓا۟ أَتَتَّخِذُنَا هُزُوًا قَالَ أَعُوذُ بِٱللَّهِ أَنْ أَكُونَ مِنَ ٱلْجَٰهِلِينَ»</p>
+<p class="verse-ref" data-source-line="386">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-067"><bdi dir="ltr">2:67</bdi></a>)</p>
+<p class="translation" id="passage-387" data-source-line="387">“When Moses said to his people, ‘God commands you to slaughter a cow,’ they said, ‘Are you making fun of us?’ He said, ‘I seek refuge in God from being one of the ignorant.’”</p></blockquote>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-388" data-source-line="388">«قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا فَارِضٌ وَلَا بِكْرٌ عَوَانٌۢ بَيْنَ ذَٰلِكَ فَٱفْعَلُوا۟ مَا تُؤْمَرُونَ»</p>
+<p class="verse-ref" data-source-line="389">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-068"><bdi dir="ltr">2:68</bdi></a>)</p>
+<p class="translation" id="passage-390" data-source-line="390">“They said, ‘Call upon your Lord for us to make clear what it is.’ He said, ‘He says it is a cow neither old nor young, but between the two. So do what you are commanded.’”</p></blockquote>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-391" data-source-line="391">«قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا لَوْنُهَا قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ صَفْرَآءُ فَاقِعٌ لَّوْنُهَا تَسُرُّ ٱلنَّٰظِرِينَ»</p>
+<p class="verse-ref" data-source-line="392">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-069"><bdi dir="ltr">2:69</bdi></a>)</p>
+<p class="translation" id="passage-393" data-source-line="393">“They said, ‘Call upon your Lord for us to make clear its colour.’ He said, ‘He says it is a yellow cow, bright in colour, pleasing to those who look at it.’”</p></blockquote>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-394" data-source-line="394">«قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ إِنَّ ٱلْبَقَرَ تَشَٰبَهَ عَلَيْنَا وَإِنَّآ إِن شَآءَ ٱللَّهُ لَمُهْتَدُونَ»</p>
+<p class="verse-ref" data-source-line="395">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-070"><bdi dir="ltr">2:70</bdi></a>)</p>
+<p class="translation" id="passage-396" data-source-line="396">“They said, ‘Call upon your Lord for us to make clear what it is. The cattle seem alike to us, and, if God wills, we shall be guided.’”</p></blockquote>
+<blockquote class="quran-quote">
+<p class="arabic" lang="ar" dir="rtl" id="quote-397" data-source-line="397">«قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا ذَلُولٌ تُثِيرُ ٱلْأَرْضَ وَلَا تَسْقِى ٱلْحَرْثَ مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا قَالُوا۟ ٱلْـَٰٔنَ جِئْتَ بِٱلْحَقِّ فَذَبَحُوهَا وَمَا كَادُوا۟ يَفْعَلُونَ»</p>
+<p class="verse-ref" data-source-line="398">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-071"><bdi dir="ltr">2:71</bdi></a>)</p>
+<p class="translation" id="passage-399" data-source-line="399">“He said, ‘He says it is a cow not trained to plough the earth or water the fields, sound and without a mark.’ They said, ‘Now you have brought the truth.’ So they slaughtered it, though they nearly failed to do so.”</p></blockquote>
+<p id="passage-400" data-source-line="400">The initial command did not specify age, colour, and the other later features. Repeated questions were followed by answers that narrowed the choice. Moses urged them to act, yet hesitation continued. Even after the explanations, they nearly failed to comply. The problem was therefore more than missing information; their disposition toward the command obstructed action.</p>
+<p id="passage-401" data-source-line="401">The story does not condemn questions asked to understand. Such questions can make action possible. The danger appears when inquiry becomes a means of delay, or when a command seems insufficiently religious until it has accumulated enough qualifications to become difficult. Greater complication is not automatically greater faithfulness.</p>
+<p id="passage-402" data-source-line="402">Prayer can face a similar displacement of attention. Anxiety about hand placement, finger movements, and minor variations may grow while concern about showing off or wronging others fades. Details intended to assist worship can come to dominate it. The practice should cultivate devotion rather than trap the worshipper in an endless search for additional restrictions.</p>
+<p id="passage-403" data-source-line="403">The analogy has an important limit: in the account of the cow, the later specifications are conveyed by Moses as commands from God. They are not equivalent to a jurist’s inferences. The comparison concerns evasion, unnecessary difficulty, and the displacement of priorities. It must not collapse the distinction between divine instruction and a human legal opinion.</p>
+<p id="passage-404" data-source-line="404">Forqan’s reflections on the account examine its relationship to responsibility and evasion:</p>
+<p class="related-link" id="passage-405" data-source-line="405"><a href="/quran-reflection/en/002-al-baqarah/#ayah-067">Reflection on 2:67</a></p>
+<p class="related-link" id="passage-406" data-source-line="406"><a href="/quran-reflection/en/002-al-baqarah/#ayah-071">Reflection on 2:71</a></p>
+<h3 id="unity" data-source-line="407">8. Unity Without Concealing Disagreement</h3>
+<p id="passage-408" data-source-line="408">Unity cannot be created simply by identifying one disputed position with religion itself and excluding everyone else. Nor can every disagreement be dismissed as inconsequential; some concern obligation and validity and affect daily life. What is needed is clarity about the standard of judgment and about the status of human interpretation.</p>
+<p id="passage-409" data-source-line="409">In the examples considered, reports and legal reasoning have not always produced a single answer. Different reports or different readings of them can lead to different instructions. When those instructions become boundaries of communal belonging, prayer may divide people whom it brings together physically. It is not reasonable to attribute that fragmentation automatically to the Qur’an and then treat the disputed additions as proof of its insufficiency.</p>
+<p id="passage-410" data-source-line="410">People can stand in one prayer row while differing in some details. Congregational worship needs order and mutual respect; claims made in God’s name need evidence. Considering one’s own practice preferable does not itself authorize a final judgment on another person’s faith or acceptance before God.</p>
+<p id="passage-411" data-source-line="411">The governing principle of this study remains that the Qur’an is the standard for worship and religious obligation. A legal tradition’s history and learning do not place it above that standard. Where we disagree over a verse, we should present our reasons. Where a requirement is inferred rather than explicitly stated, that distinction should remain visible.</p>
+<span id="so-how-should-we-pray" class="legacy-anchor" aria-hidden="true"></span>
+<h2 id="how-should-we-pray" data-source-line="413">Part Eight: Putting Prayer into Practice</h2>
+<p id="passage-414" data-source-line="414">After examining these questions, a practical concern remains. Must someone suspend familiar prayer until every legal disagreement is resolved, or invent a new ritual to avoid relying on hadith? Neither follows. A recognizable prayer can be performed with purification, time, direction, standing, recitation, bowing, prostration, and remembrance. The worshipper can also distinguish Qur’anic instructions from the details learned through communal practice. Learning from a tradition need not mean surrendering responsibility for examining its claims.</p>
+<h3 id="practical-preparation" data-source-line="415">1. Begin with Attention and Preparation</h3>
+<p id="passage-416" data-source-line="416">Set aside time and remember why you are approaching worship. Prayer should be more than something crossed off a daily list. It offers an occasion to turn to the Lord with attention and humility. That intention does not require an elaborate ceremonial formula; it requires awareness of whom you address and what you say.</p>
+<p id="passage-417" data-source-line="417">Observe the preparation described in <bdi dir="ltr">5:6</bdi>: washing the face and hands, wiping the head, attending to the instruction about the feet, purification from major ritual impurity, and the alternative involving clean earth under the stated conditions. This study favours wiping the feet while acknowledging the arguments for washing. That disagreement neither cancels preparation nor authorizes judgment on another person’s faith. Act on an understanding for which you have grounds, and take the command seriously.</p>
+<p id="passage-418" data-source-line="418">Take <bdi dir="ltr">4:43</bdi> seriously as well: do not approach prayer while intoxicated until you know what you are saying. At the same time, do not demand an impossible state of flawless concentration before beginning. Prayer itself can help gather a distracted mind. Ordinary lapses that a person tries to correct are not the same as a state in which they do not know what they are saying. They should not be turned into a constant fear of invalidity.</p>
+<h3 id="practical-times" data-source-line="419">2. Give Prayer Its Time and Direction</h3>
+<p id="passage-420" data-source-line="420">Do not leave prayer entirely to whatever time happens to remain after everything else. The Qur’an describes it as an observance with appointed times. Make room for it within the day, just as work, family, and livelihood have their place. Its timing connects worship to the rhythm of day and night rather than indefinite postponement.</p>
+<p id="passage-421" data-source-line="421">Someone who has learned the five daily prayers can continue that familiar arrangement: dawn, noon, afternoon, sunset, and night, ordinarily comprising two, four, four, three, and four cycles. These numbers are not being extracted from a verse that does not contain them. They are the established practical arrangement being followed. Its relationship to the Qur’an’s temporal indications was considered above.</p>
+<p id="passage-422" data-source-line="422">Face toward the Sacred Mosque in accordance with the instruction about direction. The qibla gives worship a shared orientation; it does not confine God to a place. When danger or other limitations arise, consider the instructions and principles relevant to those circumstances. A healthy person’s secure situation cannot be assumed of every worshipper.</p>
+<h3 id="practical-rakah" data-source-line="423">3. A Familiar Prayer Cycle</h3>
+<p id="passage-424" data-source-line="424">A practical description can now be given. A worshipper who is able stands and begins with takbir (declaring God’s greatness), then recites. The worshipper bows, stands upright again, prostrates, sits, and prostrates a second time, rising for the next cycle when required. Intermediate and final sittings, invocations, supplications, and ending with a greeting of peace also belong to this customary form. This describes a learned practice, without claiming that one verse specifies every number and transition.</p>
+<p id="passage-425" data-source-line="425">Standing, bowing, prostration, and speech are present in the Qur’an. The two prostrations within a cycle and the number of cycles in each prayer are drawn here from communal practice. That distinction should remain explicit. A worshipper can follow a familiar observance while being honest about how its details are known.</p>
+<p id="passage-426" data-source-line="426">Al-Fatihah can be recited, together with other Qur’anic passages. Its praise, service, appeal for help, and request for guidance deserve attention rather than hurried repetition. Asking for guidance entails a willingness to reconsider our beliefs and conduct. It is difficult to mean that request while assuming we can never be mistaken.</p>
+<p id="passage-427" data-source-line="427">During bowing and prostration, one can glorify God, praise Him, and seek His help. Familiar invocations consistent with devotion to God and the Qur’an’s meaning can serve that worship. The question concerns a further claim: has the Qur’an made these exact words, repetitions, and sequences compulsory conditions for every worshipper? Where such a requirement has not been established, a learned invocation must remain distinguishable from a divine obligation.</p>
+<p id="passage-428" data-source-line="428">Prayer therefore remains possible without granting hadith independent legislative authority. Its form can be learned through observation and instruction, while its purpose and the limits of obligation are examined through the Qur’an. What requires scrutiny is the claim that one inherited arrangement is exclusively valid in every detail.</p>
+<h3 id="practical-congregation" data-source-line="429">4. Recitation and Congregation</h3>
+<p id="passage-430" data-source-line="430">When praying alone, recite attentively and at an appropriate volume. Loudness does not prove attentiveness, and quietness does not prove humility. Understanding what you say matters: the words should engage the worshipper rather than merely pass through the voice.</p>
+<p id="passage-431" data-source-line="431">In congregation, attentive listening and coordination with others become especially important. Listen when you hear the leader reciting, and preserve the gathering’s order. If your understanding leads you to recite as well, do not turn it into competition in volume or disturbance of others. A disagreement about recitation need not become hostility within the prayer row.</p>
+<p id="passage-432" data-source-line="432">Coordination does not require treating a school as incapable of error. People can worship together without declaring every preference of the group uniquely binding. Differences such as folding the hands or leaving them at the sides should not eclipse the worshippers’ shared purpose.</p>
+<h3 id="capacity" data-source-line="433">5. Pray Within Real Human Capacity</h3>
+<p id="passage-434" data-source-line="434">The Qur’an permits prayer on foot or riding in danger and describes a different congregational arrangement under threat. Maintaining worship therefore does not always depend on performing every movement in an unvarying way. The principle of capacity also means that a person genuinely unable to stand or move normally is not required to accomplish the impossible. This follows from the general principle, rather than from a claim that every form of prayer during illness is individually detailed in the text.</p>
+<p id="passage-435" data-source-line="435">Do what is within your ability while sustaining devotion to God. Illness, disability, and danger should not make worship inaccessible or become grounds for blaming someone for a limitation they cannot remove. The commands address actual human beings, whose bodies and circumstances are not always healthy, comfortable, or secure.</p>
+<h3 id="after-prayer" data-source-line="436">6. Prayer Ends; Responsibility Continues</h3>
+<p id="passage-437" data-source-line="437">After the closing greeting, we return to people’s rights, family responsibilities, entrusted matters, work, and difficult decisions. The end of a prayer does not end service to God. The verses about Friday prayer connect its conclusion with seeking provision and continuing remembrance. Worship should prepare us to live responsibly among others.</p>
+<p id="passage-438" data-source-line="438">If we have asked for guidance, we should remain willing to hear evidence. If we have praised the Lord of all worlds, we should not act as though we own another person’s dignity. If we have placed our forehead on the ground, we should not forget humility when meeting someone vulnerable. These actions do not replace prayer; they reveal something of its effect upon us.</p>
+<p id="passage-439" data-source-line="439">This brings us back to the difference between completing an observance and establishing a life of prayer. The ritual begins and ends, but its attentive, sustained practice should affect what follows. Repeated returns to God are meant to shape choices and conduct. Good works do not cancel prayer, and prayer does not cancel responsibility for good works and other people’s rights.</p>
+<h2 id="answers" data-source-line="441">Returning to the Opening Questions</h2>
+<h3 id="answer-1" data-source-line="442">1. What Is Salat, and What Does Establishing It Require?</h3>
+<p id="passage-443" data-source-line="443">In human worship, Salat involves turning to the Lord in prayer, humility, and devotion. Establishing it means sustaining that worship attentively, keeping remembrance alive, and allowing it to influence conduct. Its other uses—for God, the angels, the Prophet, and creatures—show why the word cannot always be reduced to the human ritual. Within human prayer, both the real observance and its stated purpose matter.</p>
+<h3 id="answer-2" data-source-line="444">2. Where Does Ritual Prayer Fit?</h3>
+<p id="passage-445" data-source-line="445">Prayer with standing, recitation, bowing, and prostration is a concrete, organized observance at appointed times. An exclusively inward or social interpretation cannot make these actions disappear. Equally, their performance without attention to remembrance and moral responsibility does not exhaust what establishing prayer asks of the worshipper.</p>
+<h3 id="answer-3" data-source-line="446">3. How Do We Learn Its Cycles and Sequence?</h3>
+<p id="passage-447" data-source-line="447">The Qur’an supplies instructions about preparation, time, direction, bodily action, speech, and other aspects of worship. The familiar practical arrangement—including five daily prayers ordinarily comprising seventeen cycles—is learned through communal instruction. Sufficiency for guidance does not require dispensing with language, reason, experience, or teaching. It requires examining claims that those means of learning independently create obligations in God’s name.</p>
+<h3 id="answer-4" data-source-line="448">4. What Does Prayer Before Muhammad Establish?</h3>
+<p id="passage-449" data-source-line="449">The Qur’an places prayer in the lives of Abraham, Ishmael, Jesus, Moses, and other prophets. Its existence therefore does not begin with Muhammad or depend solely on later accounts. That continuity does not establish identical numbers, wording, and ritual details in every earlier community. Those are additional historical claims requiring evidence.</p>
+<h3 id="answer-5" data-source-line="450">5. Which Details Does the Qur’an Specify?</h3>
+<p id="passage-451" data-source-line="451">It addresses purification, timing, direction, standing, bowing, prostration, speech, recitation, remembrance, congregation, and prayer under threat. It does not explicitly prescribe each daily prayer’s cycle count, every invocation and repetition, hand placement, or the complete catalogues of invalidating conditions in legal manuals. Both the guidance it gives and the limits of its specifications should be acknowledged.</p>
+<h3 id="answer-6" data-source-line="452">6. How Does Practical Transmission Differ from Hadith Authority?</h3>
+<p id="passage-453" data-source-line="453">Practical transmission occurs through repeated participation, observation, and teaching. A hadith is a transmitted report about words or actions. The two have influenced each other historically, but are not identical. Learning prayer through communal life does not require accepting hadith as an independent source of legislation. Nor does widespread practice alone prove that every detail is a divine, unchangeable obligation.</p>
+<h3 id="answer-7" data-source-line="454">7. What Do Legal Disagreements Demonstrate?</h3>
+<p id="passage-455" data-source-line="455">They show that reports and legal methods have not produced unanimity about every detail. Reciting al-Fatihah behind the leader provides a clear example: required in one school, prohibitively discouraged in another. This does not establish that all opinions are false or scholarly work worthless. It challenges the claim that a disputed judgment can be treated as God’s unquestionable command without examining its evidence.</p>
+<h3 id="answer-8" data-source-line="456">8. How Should Unspecified Details Be Treated?</h3>
+<p id="passage-457" data-source-line="457">When examination of the verses does not establish a particular requirement, it should not be imposed in God’s name. A recognizable, orderly method can be chosen within the Qur’an’s commands without declaring every other method invalid. Whoever claims an additional obligation, sin, or condition of invalidity bears responsibility for demonstrating it.</p>
+<h3 id="answer-9" data-source-line="458">9. What Should We Do in Practice?</h3>
+<p id="passage-459" data-source-line="459">Establish prayer with preparation, time, direction, standing, recitation, bowing, prostration, and remembrance. Understand what you say, respect the congregation, and remain attentive to its order. Familiar practice can be maintained without making every detail a certain divine command or creating another system of compulsory additions. Afterward, safeguard remembrance from hypocrisy, oppression, and the violation of other people’s rights.</p>
+<h2 id="conclusion" data-source-line="460">Conclusion: Establishing Prayer Without Claiming Ownership of It</h2>
+<p id="passage-461" data-source-line="461">This study began with two questions: what does Salat mean in the Qur’an, and can prayer be known and established without accepting hadith as an independent source of legislation? The passages present human Salat as prayerful devotion, with an actual, organized observance at appointed times. They also give it a purpose that reaches beyond movements and words: remembrance of God and restraint from wrongdoing. Other uses of the word extend its range beyond human ritual.</p>
+<p id="passage-462" data-source-line="462">The Qur’an provides practical guidance about purification, awareness, bodily action, time, direction, congregation, and danger. Many later specifications are not prescribed there at the same level of detail. If all those specifications are first assumed to be divine obligations, their absence will make the Book appear deficient by definition. The argument of this study is that the alleged obligations themselves must instead be tested against the Qur’an.</p>
+<p id="passage-463" data-source-line="463">That examination need not erase shared practical knowledge. Communities teach prayer through seeing, participating, and instructing. This inheritance can sustain an orderly observance, while the authority of its particular details remains open to inquiry. A report’s classification as authentic likewise does not, by itself, resolve the separate question of legislative authority. Knowing a method, preferring it, and requiring it from everyone remain different claims.</p>
+<p id="passage-464" data-source-line="464">The legal disagreements considered here were not reasons to withdraw prayer from believers’ lives. They showed where judgments about performance can become judgments over other people’s worship. Scholarly opinions about recitation, purification, posture, and invocations deserve examination on their evidence. Age, prestige, and religious vocabulary do not remove the need to explain their grounds and limits.</p>
+<p id="passage-465" data-source-line="465">A return to the Qur’an can protect prayer from becoming a habit emptied of meaning and from accumulating requirements whose authority has not been established. Bodily form and purpose belong together: bowing and prostration are real, remembrance is real, communal order matters, and so does the worshipper’s awareness. Devotion before God cannot be fulfilled through indifference toward His servants.</p>
+<p id="passage-466" data-source-line="466">The task is to establish prayer with understanding and responsibility. Stand with awareness of whom you address, recite with attention to meaning, and carry remembrance into the life that follows. Remain faithful to clear commands, candid about your own choices, and careful not to substitute a school’s judgment for God’s knowledge of another person.</p>
+<p id="passage-467" data-source-line="467">Prayer should draw us beyond self-importance rather than give it a sacred appearance. Its repeated observance can nourish humility and service throughout life. The prayer we complete should never become the point at which we stop remembering God.</p>
+<p id="passage-468" data-source-line="468">God knows best.</p>
+<section class="academic-sources"><h2 id="sources">Sources for Legal Positions and Variant Recitations</h2><ol>
+<li id="source-1"><a href="https://www.dar-alifta.org/ar/fatwa/details/16823/قراءة-المأموم-الفاتحة-في-الصلاة-الجهرية">Egypt’s Dar al-Ifta, “A follower’s recitation of al-Fatihah in audible prayer”: positions of the four legal schools.</a> <a class="footnote-back" href="#source-call-1" aria-label="Return to reference 1">↩</a></li>
+<li id="source-2"><a href="https://dar-alifta.org/ar/fatwa/details/18144/بيان-مذاهب-الفقهاء-في-جهر-وإسرار-المصلي-في-الصلاة">Egypt’s Dar al-Ifta, “The jurists’ positions on audible and quiet recitation in prayer,” with references to the schools’ legal works.</a> <a class="footnote-back" href="#source-call-2" aria-label="Return to reference 2">↩</a></li>
+<li id="source-3"><a href="https://www.islamweb.net/ar/library/content/14/1779/فرع-مذاهب-العلماء-في-الجهر-ببسم-الله-الرحمن-الرحيم">Al-Nawawi, al-Majmu‘, Book of Prayer: the discussion of reciting the basmala aloud.</a> <a class="footnote-back" href="#source-call-3" aria-label="Return to reference 3">↩</a></li>
+<li id="source-4"><a href="https://www.dar-alifta.org/ar/fatwa/details/16418/حكم-ترك-البسملة-في-الفاتحة-والسورة-في-الصلاة">Egypt’s Dar al-Ifta, “Omitting the basmala from al-Fatihah and the following chapter in prayer.”</a> <a class="footnote-back" href="#source-call-4" aria-label="Return to reference 4">↩</a></li>
+<li id="source-5"><a href="https://quran.ksu.edu.sa/tafseer/qortobi/sura5-aya6.html">Al-Qurtubi, commentary on 5:6: the variant recitations and grammatical interpretations of the word for “your feet.”</a> <a class="footnote-back" href="#source-call-5" aria-label="Return to reference 5">↩</a></li>
+<li id="source-6"><a href="https://www.aliftaa.jo/research-fatwas/1895/Questions2.aspx?Id=109">Jordan’s General Iftaa Department, fatwa 1895: juristic disagreement over whether touching one’s wife invalidates purification.</a> <a class="footnote-back" href="#source-call-6" aria-label="Return to reference 6">↩</a></li>
+</ol></section>
+</article>
