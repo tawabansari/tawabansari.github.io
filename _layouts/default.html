@@ -3876,6 +3876,7 @@
     if (data.root) lines.push(labels.root + ': ' + data.root);
     if (data.rootMeaning) lines.push(labels.rootMeaning + ': ' + data.rootMeaning);
     if (data.contextMeaning) lines.push(labels.contextMeaning + ': ' + data.contextMeaning);
+    if (data.rootNote) lines.push(data.rootNote);
     if (data.learnMoreUrl) lines.push(labels.source + ': ' + data.learnMoreUrl);
     if (data.conceptUrl) lines.push((data.isFarsi ? 'مطالعهٔ مفهوم' : 'Concept study') + ': ' + data.conceptUrl);
 
@@ -4016,6 +4017,7 @@
     const root = target.dataset.root || '';
     const rootMeaning = target.dataset.rootMeaning || '';
     const contextMeaning = target.dataset.context || '';
+    const rootNote = target.dataset.rootNote || '';
     const learnMore = target.dataset.learnMore || '';
     const concept = target.dataset.conceptUrl || '';
 
@@ -4055,6 +4057,13 @@
           contextMeaning
         )
       );
+    }
+
+    if (rootNote) {
+      const note = document.createElement('div');
+      note.className = 'root-popover-value';
+      note.textContent = rootNote;
+      popoverContent.appendChild(note);
     }
 
     /* Backward-compatible fallback for older data-popup content */
@@ -4111,6 +4120,7 @@
       transliteration: transliteration,
       root: root,
       rootMeaning: rootMeaning,
+      rootNote: rootNote,
       contextMeaning: contextMeaning,
       learnMoreUrl: learnMoreUrl,
       conceptUrl: conceptUrl
