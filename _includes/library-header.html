@@ -24,6 +24,7 @@
       <button id="zoom-in" type="button" title="{% if section_lang == 'fa' %}بزرگ‌تر{% else %}Increase text size{% endif %}" aria-label="{% if section_lang == 'fa' %}بزرگ‌تر{% else %}Increase text size{% endif %}">A+</button>
       <button id="theme-toggle-btn" type="button" title="{% if section_lang == 'fa' %}تغییر رنگ زمینه{% else %}Switch theme{% endif %}" aria-label="{% if section_lang == 'fa' %}تغییر رنگ زمینه{% else %}Switch theme{% endif %}"><span class="theme-icon-dark" aria-hidden="true">☾</span><span class="theme-icon-light" aria-hidden="true">☀</span></button>
     </div>
+    <a class="sibling-site-link" href="https://tabsira.forqan.co/{{ section_lang }}">{% if section_lang == 'fa' %}تبصره{% else %}Tabsira{% endif %} <span aria-hidden="true">↗</span></a>
     <button class="site-menu-toggle" id="site-menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="{% if section_lang == 'fa' %}منو{% else %}More navigation{% endif %}">☰</button>
   </div>
   <nav class="site-menu" id="site-menu" aria-label="More navigation" hidden>
