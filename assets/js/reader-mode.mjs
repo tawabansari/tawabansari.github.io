@@ -98,7 +98,7 @@ function init() {
       if (!summary) continue;
       const group = document.createElement('div'); group.className = 'verse-discussion-group';
       const isReflection = panel.dataset.type === 'reflection';
-      const title = isReflection ? (fa ? 'تأمل ما در این آیه' : 'Our Reflection on this Verse') : summary.childNodes[0].textContent.trim();
+      const title = isReflection ? (fa ? 'تأمل ما در این آیه' : 'Our Verse Reflection') : summary.childNodes[0].textContent.trim();
       const toggle = document.createElement('button'); toggle.type='button'; toggle.className='verse-panel-toggle';
       toggle.setAttribute('aria-controls',panel.id);
       if (isReflection) toggle.classList.add('reflection-primary-toggle');
