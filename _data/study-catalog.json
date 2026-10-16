@@ -1579,5 +1579,26 @@
       "/en/quran-terminology/ghayb/",
       "/en/quran-terminology/covenant-in-the-quran/"
     ]
+  },
+  {
+    "url": "/fa/hadith-critique/trials-and-the-good-life-in-the-quran/",
+    "collections": [
+      "hadith",
+      "terminology"
+    ],
+    "concept": "ابتلاء و حیات طیبه؛ آزمون و وعده نیکی در قرآن",
+    "description": "بررسی قرآنی روایت «دنیا زندان مؤمن و بهشت کافر است»، با تفکیک برداشت‌های آن و تبیین نسبت ایمان با زندگی پاکیزه، نعمت، آزمون و مسئولیت اجتماعی.",
+    "format": "study",
+    "aliases": [
+      "دنیا زندان مؤمن و بهشت کافر",
+      "آزمون",
+      "ابتلاء",
+      "حیات طیبه"
+    ],
+    "related": [
+      "/fa/quran-terminology/sabr-in-the-quran/",
+      "/fa/quran-terminology/divine-decree-and-human-choice/",
+      "/fa/quran-terminology/intercession-in-the-quran/"
+    ]
   }
 ]
