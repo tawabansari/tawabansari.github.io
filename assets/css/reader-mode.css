@@ -42,3 +42,18 @@ body.quran-reading-mode .container .word-link { border:0!important; text-decorat
 @media print { .reader-mode-toolbar,.tabsira-reflection-link { display:none!important; } }
 
 :is(.study-embedded,.tabsira-embedded) .reader-mode-toolbar { top:0; }
+
+/* Compact controls stay available even when their panels are closed. */
+.verse-discussion-tools{display:flex;align-items:center;flex-wrap:wrap;gap:.35rem 1rem;margin:.7rem 0;direction:inherit}
+.verse-discussion-group{display:flex;align-items:center;flex-wrap:wrap;gap:.3rem}
+body .container .verse-discussion-tools button,body .container .verse-discussion-tools a{margin:0!important;min-height:40px;min-width:36px;font-size:.85rem!important}
+body .container .verse-discussion-tools .verse-panel-toggle{width:auto;max-width:none;padding:.25rem .1rem;background:none;border:0;color:var(--lib-gold,#9a793c);font:inherit;font-weight:600;cursor:pointer}
+html body .container .ayah-block details.compact-verse-panel{margin:0!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
+html body .container .ayah-block details.compact-verse-panel>summary{display:none!important}
+html body .container .ayah-block details.compact-verse-panel[open]{border-top:1px solid var(--lib-line,#bbb)!important;padding-top:.65rem!important;margin-top:.5rem!important}
+html body .container .ayah-block details.compact-verse-panel .details-content{padding:.3rem 0!important}
+body.quran-reading-mode .verse-discussion-tools{display:none!important}
+body .container .verse-print-button{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--lib-line,#bbb);border-radius:999px;background:var(--lib-soft,transparent);color:inherit;width:2.5rem;height:2rem;cursor:pointer}
+.verse-print-button svg{width:1rem;height:1rem}
+.verse-panel-toggle:focus-visible,.verse-print-button:focus-visible{outline:2px solid var(--lib-gold);outline-offset:3px}
+@media print{.verse-discussion-tools{display:none!important}}

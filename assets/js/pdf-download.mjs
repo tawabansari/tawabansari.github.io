@@ -1,5 +1,6 @@
 import {selectVerses, numberRanges} from './pdf-selection.mjs';
 import {createPDFClient} from './pdf-request.mjs';
+import {printVerses} from './verse-print.mjs';
 import {pdfEndpoint} from './pdf-settings.mjs';
 
 export {pdfEndpoint} from './pdf-settings.mjs';
@@ -54,7 +55,7 @@ function init() {
   const partial = dialog.querySelector('.pdf-partial'), acknowledge = partial.querySelector('input');
   const summary = dialog.querySelector('.pdf-summary'), missing = dialog.querySelector('.pdf-missing');
   const reflectionNote = dialog.querySelector('.pdf-reflection-note');
-  let selection, currentVerse, controller, focusOrigin, downloadURL;
+  let selection, currentVerse, controller, focusOrigin, downloadURL, action = 'pdf';
   if (verses.length) for (let n = 1; n <= total; n++) {
     from.add(new Option(num(n), String(n))); to.add(new Option(num(n), String(n)));
   }
@@ -102,12 +103,16 @@ function init() {
   scope.addEventListener('change', () => { acknowledge.checked = false; updateSelection(); });
   acknowledge.addEventListener('change', updateSelection);
 
-  function open(button, verse) {
+  function open(button, verse, purpose = 'pdf') {
+    action = purpose;
+    const actionLabel = action === 'print' ? (fa ? 'چاپ' : 'Print') : (fa ? 'دریافت PDF' : 'Download PDF');
+    dialog.querySelector('h2').textContent = save.textContent = actionLabel;
+    partial.lastChild.textContent = action === 'print' ? (fa ? ' چاپ فقط آیات منتشرشده در این بازه' : ' Print only published verses in this range') : (fa ? ' دریافت فقط آیات منتشرشده در این بازه' : ' Download only published verses in this range');
     release(); focusOrigin = button; currentVerse = verse;
     scope.hidden = !verse;
     dialog.querySelector('.pdf-selection').textContent = verse ? chapterName : study.querySelector('h1')?.textContent.trim() || document.title.split(' | ')[0];
     dialog.querySelector('.pdf-includes').textContent = verse
-      ? (fa ? 'متن عربی، ترجمهٔ فارسی و تأمل ما. بدون بخش ارجاعات متقابل.' : 'Arabic text, English translation, and Our Reflection. Cross-references are excluded.')
+      ? action === 'print' ? (fa ? 'متن عربی، ترجمهٔ فارسی، تأمل ما و ارجاعات متقابل.' : 'Arabic text, English translation, Our Reflection, and cross-references.') : (fa ? 'متن عربی، ترجمهٔ فارسی و تأمل ما. بدون بخش ارجاعات متقابل.' : 'Arabic text, English translation, and Our Reflection. Cross-references are excluded.')
       : (fa ? 'نسخه‌ای خوانا از متن کامل برای ذخیره و مطالعه، با متن قابل انتخاب.' : 'A clean copy of the full study to save and read, with selectable text.');
     if (verse) {
       const n = Number(verse.id.slice(5)); from.value = to.value = String(n);
@@ -120,6 +125,17 @@ function init() {
   }
   save.addEventListener('click', async () => {
     if (!selection || save.disabled) return;
+    if (action === 'print') {
+      save.disabled = true;
+      status.textContent = fa ? 'در حال آماده‌سازی چاپ…' : 'Preparing print…';
+      try {
+        await printVerses(selection, {lang, title:chapterName, anchors});
+        status.textContent = fa ? 'نسخهٔ چاپ در زبانهٔ جداگانه باز شد.' : 'The print copy opened in a separate tab.';
+      } catch {
+        status.textContent = fa ? 'چاپ باز نشد. اجازهٔ باز شدن پنجرهٔ جدید را بدهید و دوباره تلاش کنید.' : 'Printing could not open. Allow pop-ups and try again.';
+      } finally { save.disabled = false; }
+      return;
+    }
     release(); const request = new AbortController(); controller = request;
     const timeout = setTimeout(() => request.abort(), 600000);
     save.disabled = scope.disabled = acknowledge.disabled = true;
@@ -155,6 +171,11 @@ function init() {
       reference.append(...target.childNodes);
       target.append(reference);
       target.classList.add('ayah-toolbar');
+      const print = document.createElement('button'); print.type = 'button'; print.className = 'verse-print-button';
+      print.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 9V3h12v6M6 17H3V9h18v8h-3M6 14h12v7H6z"/></svg>';
+      print.title = fa ? 'چاپ آیه یا مجموعه‌ای از آیات' : 'Print this verse or a selection';
+      print.setAttribute('aria-label',print.title); print.setAttribute('aria-haspopup','dialog');
+      print.addEventListener('click',()=>open(print,verse,'print')); actions.append(print);
       target.append(actions);
     }
   }

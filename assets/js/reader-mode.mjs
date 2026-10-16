@@ -84,7 +84,26 @@ function init() {
     link.setAttribute('aria-label', label); link.title = label;
     const actions = heading.querySelector('.pdf-verse-actions') || heading;
     actions.querySelector('.copy-ayah-link')?.remove();
-    actions.append(link);
+    const tools = document.createElement('div'); tools.className = 'verse-discussion-tools';
+    tools.dataset.pagefindIgnore = '';
+    const panels = [...verse.querySelectorAll(':scope > details[data-type]')];
+    for (const panel of panels) {
+      const summary = panel.querySelector('summary');
+      if (!summary) continue;
+      const group = document.createElement('div'); group.className = 'verse-discussion-group';
+      const title = summary.childNodes[0].textContent.trim();
+      const toggle = document.createElement('button'); toggle.type='button'; toggle.className='verse-panel-toggle';
+      toggle.setAttribute('aria-controls',panel.id);
+      const refresh = () => { toggle.textContent = title + (panel.open ? ' −' : ' +'); toggle.setAttribute('aria-expanded',String(panel.open)); };
+      toggle.addEventListener('click',()=>{panel.open=!panel.open;refresh();});
+      panel.addEventListener('toggle',refresh); refresh(); group.append(toggle);
+      summary.querySelectorAll('.language-mirror-link,.copy-section-text').forEach(control=>group.append(control));
+      if (panel.dataset.type === 'reflection') group.append(link);
+      panel.classList.add('compact-verse-panel');
+      tools.append(group);
+    }
+    if (!tools.contains(link)) tools.append(link);
+    if (panels.length) panels[0].before(tools); else verse.append(tools);
     // Match visual and keyboard order, with verse search always at the far right.
     const search = actions.querySelector('.ayah-quran-nav-button');
     if (search) actions.append(search);
