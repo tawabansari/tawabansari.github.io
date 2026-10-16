@@ -1642,5 +1642,23 @@
       "/fa/quran-terminology/salawat-in-the-quran/",
       "/fa/articles/salat-in-the-quran/"
     ]
+  },
+  {
+    "url": "/en/hadith-critique/tirmidhi-3546-salawat-and-stinginess/",
+    "collections": [
+      "hadith",
+      "reflections"
+    ],
+    "description": "Does mentioning Muhammad without a blessing formula justify calling someone stingy? A Qur’anic examination of Tirmidhi 3546, respect for all messengers, and the difference between prayer and a writing convention.",
+    "format": "essay",
+    "aliases": [
+      "Tirmidhi 3546",
+      "Salawat",
+      "Salat upon the Prophet",
+      "Blessing formula"
+    ],
+    "related": [
+      "/en/articles/salat-in-the-quran/"
+    ]
   }
 ]
