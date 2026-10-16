@@ -1,18 +1,20 @@
 import {afterReadingLayout} from './reading-position.mjs';
-// Same-origin studies stay connected to the verse; original anchors remain real links.
+// Internal pages stay connected to the reader's place; original anchors remain real links.
 export function studyURL(value, base) {
   try {
     const url=new URL(value,base);
     if(url.origin!==new URL(base).origin)return null;
-    if(!(/^\/quran-terminology\/(en|fa)\/roots\/[^/]+\//.test(url.pathname)||/^\/(en|fa)\/(articles|quran-terminology|hadith-critique|quran-completeness|salat|zakat)\//.test(url.pathname)))return null;
+    if(!['http:','https:'].includes(url.protocol))return null;
+    // Files and downloads retain the browser's native handling.
+    if(/\.[^/]+$/.test(url.pathname) && !/\.html?$/i.test(url.pathname))return null;
     url.searchParams.delete('reading-panel');return url;
   }catch{return null;}
 }
 function init(){
-  if(window.self!==window.top || !/^\/quran-reflection\/(en|fa)\/\d/.test(location.pathname) || !window.HTMLDialogElement)return;
+  if(window.self!==window.top || !window.HTMLDialogElement)return;
   const fa=document.documentElement.lang.startsWith('fa');
   const dialog=document.createElement('dialog');dialog.className='study-reading-panel';dialog.setAttribute('aria-labelledby','study-panel-title');dialog.dir=fa?'rtl':'ltr';
-  dialog.innerHTML=`<header class="study-panel-toolbar"><button type="button" data-panel-back>${fa?'قبلی':'Back'}</button><h2 id="study-panel-title">${fa?'مطالعه':'Study'}</h2><a data-panel-open target="_blank" rel="noopener">${fa?'باز کردن در زبانهٔ جدید':'Open in new tab'}</a><button type="button" data-panel-close>${fa?'بازگشت به آیه':'Close'}</button></header><p class="study-panel-status" role="status"></p><iframe title="${fa?'متن مطالعه':'Study content'}"></iframe>`;
+  dialog.innerHTML=`<header class="study-panel-toolbar"><button type="button" data-panel-back>${fa?'قبلی':'Back'}</button><h2 id="study-panel-title">${fa?'مطالعه':'Study'}</h2><a data-panel-open target="_blank" rel="noopener">${fa?'باز کردن در زبانهٔ جدید':'Open in new tab'}</a><button type="button" data-panel-close>${fa?'بازگشت به متن':'Close'}</button></header><p class="study-panel-status" role="status"></p><iframe title="${fa?'متن مطالعه':'Study content'}"></iframe>`;
   document.body.append(dialog);
   const frame=dialog.querySelector('iframe'),status=dialog.querySelector('[role=status]'),title=dialog.querySelector('h2'),external=dialog.querySelector('[data-panel-open]'),back=dialog.querySelector('[data-panel-back]'),close=dialog.querySelector('[data-panel-close]');
   let stack=[],focusOrigin,scrollPosition=0,token=0,loadTimer,historyId,oldOverflow;
@@ -43,7 +45,7 @@ function init(){
         const doc=frame.contentDocument;
         if(doc?.URL==='about:blank')return;
         clearTimeout(loadTimer);
-        if(!doc?.querySelector('#main-content[data-pagefind-filter]')){failed();return;}
+        if(!doc?.querySelector('#main-content')){failed();return;}
         title.textContent=doc.querySelector('main h1')?.textContent || item.title;
         frame.title=title.textContent;
         (item.openDetails||[]).forEach(id=>{const node=doc.getElementById(id);if(node?.tagName==='DETAILS')node.open=true;});
@@ -57,11 +59,13 @@ function init(){
         // Never nest panels. Related studies replace this frame, retaining a small back stack.
         doc.addEventListener('click',event=>{
           const link=event.target.closest?.('a[href]');if(!link || event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||link.hasAttribute('download'))return;
+          const destination=new URL(link.href,item.url);
+          if(!['http:','https:'].includes(destination.protocol))return;
           const next=studyURL(link.href,item.url);
           event.preventDefault();event.stopImmediatePropagation();
           if(next && next.pathname===new URL(item.url).pathname && next.hash){
             let anchor;try{anchor=doc.getElementById(decodeURIComponent(next.hash.slice(1)));}catch{}
-            if(anchor){for(let parent=anchor.parentElement;parent;parent=parent.parentElement)if(parent.tagName==='DETAILS')parent.open=true;anchor.scrollIntoView();return;}
+            if(anchor){for(let parent=anchor;parent;parent=parent.parentElement)if(parent.tagName==='DETAILS')parent.open=true;anchor.scrollIntoView();return;}
           }
           if(next){remember();stack.push({url:next.href,title:link.textContent.trim()});load(stack.at(-1));}
           else {const target=new URL(link.href,item.url);if(['http:','https:','mailto:','tel:'].includes(target.protocol))window.open(target.href,'_blank','noopener');}
@@ -73,9 +77,11 @@ function init(){
     }catch{clearTimeout(loadTimer);failed();}
   }
   document.addEventListener('click',event=>{
-    const link=event.target.closest?.('a[href]');if(!link||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||link.hasAttribute('download'))return;
-    if(!link.closest('.ayah-block,.root-popover,#main-content'))return;
+    const link=event.target.closest?.('a[href]');
+    if(link){const target=new URL(link.href,location.href);if(['http:','https:'].includes(target.protocol)&&target.origin!==location.origin){link.target='_blank';link.rel='noopener';}}
+    if(!link||link.hasAttribute('data-panel-open')||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||link.hasAttribute('download'))return;
     const url=studyURL(link.href,location.href);if(!url)return;
+    if(url.pathname===location.pathname && url.search===location.search)return;
     event.preventDefault();event.stopImmediatePropagation();
     focusOrigin=link;scrollPosition=window.scrollY;oldOverflow=document.body.style.overflow;
     stack=[{url:url.href,title:link.textContent.trim()}];historyId=Date.now();history.pushState({...history.state,studyPanel:historyId},'',location.href);
