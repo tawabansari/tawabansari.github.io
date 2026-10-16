@@ -384,11 +384,12 @@
       "reflections",
       "salat"
     ],
-    "concept": "صلوة",
-    "description": "معنا، ارکان و برپایی صلوة در قرآن.",
+    "concept": "صلاة",
+    "description": "پژوهشی درباره معنای صلاة و اقامه آن، فرمان‌های قرآن درباره نماز، انتقال عملی عبادت و سنجش اختلاف‌های فقهی؛ با راهنمای برپایی نماز و حفظ پیوند آن با یاد خدا و حقوق مردم.",
     "related": [
-      "/fa/quran-terminology/taqwa/",
-      "/fa/quran-terminology/shukr-in-the-quran/"
+      "/fa/quran-terminology/sabr-in-the-quran/",
+      "/fa/quran-terminology/hajj-in-the-quran/",
+      "/fa/quran-terminology/qibla-wajh-and-hanif-in-the-quran/"
     ],
     "format": "book",
     "aliases": [
