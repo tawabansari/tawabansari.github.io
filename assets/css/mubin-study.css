@@ -1,0 +1,86 @@
+.mubin-study {
+  --mubin-accent: #8b6423;
+  --mubin-soft: #fffaf1;
+  --mubin-quote: #fffdf7;
+  --mubin-text: #293343;
+  --mubin-line: rgba(148, 114, 55, .28);
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1.2rem 3rem;
+  color: var(--mubin-text);
+  text-align: start;
+  line-height: 2.15;
+  overflow-wrap: anywhere;
+}
+.mubin-study .article-hero {
+  padding: 1.5rem;
+  margin-bottom: 1.7rem;
+  border: 1px solid var(--mubin-line);
+  border-radius: 16px;
+  background: var(--mubin-soft);
+}
+.mubin-study .kicker,
+.mubin-study h1,
+.mubin-study h2,
+.mubin-study h3,
+.mubin-study a { color: var(--mubin-accent); }
+.mubin-study h1 { margin: .5rem 0; line-height: 1.5; }
+body .container .mubin-study h1 { font-size: calc(var(--zoom-factor, 100%) * 2) !important; }
+body .container .mubin-study h2 { font-size: calc(var(--zoom-factor, 100%) * 1.4) !important; }
+.mubin-study h2 {
+  margin: 2.8rem 0 1.2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--mubin-line);
+  line-height: 1.65;
+}
+.mubin-study h3 { margin: 2rem 0 1rem; line-height: 1.7; }
+.mubin-study p { margin: 1em 0; }
+.mubin-study [id] { scroll-margin-top: 7rem; }
+.mubin-study .legacy-anchor { display: block; height: 0; }
+.mubin-study a { text-decoration: underline; text-underline-offset: .2em; }
+.mubin-study a:focus-visible { outline: 2px solid var(--mubin-accent); outline-offset: 4px; }
+.mubin-study .opening { margin: 1.7rem 0; text-align: center; font-weight: 700; }
+.mubin-study .opening .arabic { text-align: center; }
+body .container .mubin-study .quran-quote {
+  margin: 1.6rem 0;
+  padding: 1.2rem 1.4rem;
+  background: var(--mubin-quote);
+  border: 1px solid var(--mubin-line);
+  border-inline-start: 4px solid var(--mubin-accent);
+  border-radius: 12px;
+  direction: inherit;
+  font-family: inherit !important;
+  line-height: inherit !important;
+}
+.mubin-study .arabic { direction: rtl; text-align: right; line-height: 2.3; }
+body .container .mubin-study .arabic {
+  font-family: "Amiri Quran Colored", "Amiri Quran", serif !important;
+  font-size: calc(var(--zoom-factor, 100%) * 1.25) !important;
+}
+.mubin-study .translation { direction: rtl; text-align: start; font-family: inherit; }
+.mubin-study[lang="en"] { line-height: 1.85; }
+.mubin-study[lang="en"] .translation { direction: ltr; }
+.mubin-study[lang="en"] h1 { line-height: 1.3; }
+.mubin-study[lang="en"] h2,
+.mubin-study[lang="en"] h3 { line-height: 1.45; }
+.mubin-study .verse-ref { font-size: .95em; }
+.mubin-study .verse-citation { display: inline; white-space: normal; }
+.mubin-study .verse-citation bdi { white-space: nowrap; }
+.mubin-study .source-citation { margin-top: -.4rem; font-size: .85em; }
+.mubin-study .academic-sources li { margin: 1rem 0; }
+.mubin-study .footnote-back { margin-inline-start: .5em; }
+body.dark-theme .mubin-study,
+html[data-theme="dark"] .mubin-study,
+html[data-forqan-theme="dark"] .mubin-study {
+  --mubin-accent: #d6b05f;
+  --mubin-soft: #172033;
+  --mubin-quote: #0f172a;
+  --mubin-text: #e5e7eb;
+  --mubin-line: rgba(214, 176, 95, .32);
+}
+@media (max-width: 640px) {
+  .mubin-study { padding: 0 .5rem 2rem; }
+  .mubin-study .article-hero,
+  body .container .mubin-study .quran-quote { padding: 1rem; }
+  body .container .mubin-study h1 { font-size: calc(var(--zoom-factor, 100%) * 1.65) !important; }
+}
