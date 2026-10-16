@@ -1624,5 +1624,23 @@
       "/fa/articles/salat-in-the-quran/",
       "/fa/quran-terminology/sabr-in-the-quran/"
     ]
+  },
+  {
+    "url": "/fa/hadith-critique/tirmidhi-3546-salawat-and-stinginess/",
+    "collections": [
+      "hadith",
+      "reflections"
+    ],
+    "description": "نقد استناد به روایت ترمذی ۳۵۴۶ برای بخیل شمردن کسی که پس از نام محمد عبارت دعایی نمی‌آورد؛ با بررسی تلاوت قرآن، حرمت همه رسولان و تفاوت ترک دعا با ننوشتن یک عبارت.",
+    "format": "essay",
+    "aliases": [
+      "ترمذی ۳۵۴۶",
+      "حدیث بخیل",
+      "نگفتن صلوات"
+    ],
+    "related": [
+      "/fa/quran-terminology/salawat-in-the-quran/",
+      "/fa/articles/salat-in-the-quran/"
+    ]
   }
 ]
