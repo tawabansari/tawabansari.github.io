@@ -2536,7 +2536,7 @@
 </button>
 
 <footer class="site-footer">
-  <p><a href="https://tabsira.forqan.co/{{ ui_lang }}">{% if ui_lang == 'fa' %}گفت‌وگو در تبصره{% else %}Discuss on Tabsira{% endif %} <span aria-hidden="true">↗</span></a></p>
+  <p><a href="https://tabsira.forqan.co/{{ ui_lang }}">{% if ui_lang == 'fa' %}تبصره — گفت‌وگو{% else %}Tabsira — Discussions{% endif %} <span aria-hidden="true">↗</span></a></p>
   <p>© {{ site.time | date: "%Y" }} {% if ui_lang == 'fa' %}آرشیو فرقان{% else %}Forqan Archive{% endif %}.</p>
   <p>{% if ui_lang == 'fa' %}بازنشر غیرتجاری با ذکر منبع آزاد است.{% else %}Free to share and distribute for non-commercial purposes with attribution.{% endif %}</p>
 </footer>
@@ -2568,6 +2568,7 @@
 
     siteMenu.addEventListener('click', function (event) {
       event.stopPropagation();
+      if (event.target.closest('a')) setSiteMenu(false);
     });
 
     document.addEventListener('click', function () {
@@ -2575,8 +2576,9 @@
     });
 
     window.addEventListener('keydown', function (event) {
-      if (event.key === 'Escape') {
+      if (event.key === 'Escape' && !siteMenu.hidden) {
         setSiteMenu(false);
+        siteMenuButton.focus();
       }
     });
   }
