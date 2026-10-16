@@ -1,4 +1,4 @@
-import {prepareDocument} from './export-document.mjs';
+import {prepareDocument} from './export-document.mjs?v=reflection-focus-2';
 import {selectVerses} from './pdf-selection.mjs';
 
 export async function printVerses(request, {lang, title, anchors}) {

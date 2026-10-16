@@ -12,7 +12,12 @@ export function prepareDocument({includeCrossReferences = false, ids, scope, fro
     // Include only the three requested components, independent of on-screen collapsed state.
     for (const selector of ['.ayah-title,h2', '.arabic-text', fa ? '.farsi-verse' : '.english-verse', 'details[data-type="reflection"]', ...(includeCrossReferences ? ['details[data-type="cross-reference"]'] : [])]) {
       const part = original.querySelector(selector);
-      if (part) block.append(part.cloneNode(true));
+      if (part) {
+        const clone = part.cloneNode(true);
+        // Cross-references are exported separately, including when nested in a reflection.
+        if (clone.matches('details[data-type="reflection"]')) clone.querySelectorAll('details[data-type="cross-reference"]').forEach(node => node.remove());
+        block.append(clone);
+      }
     }
     const reflection = block.querySelector('details[data-type="reflection"]');
     if (!reflection?.querySelector('.details-content')?.textContent.trim()) {

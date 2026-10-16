@@ -1,6 +1,6 @@
 import {selectVerses, numberRanges} from './pdf-selection.mjs';
 import {createPDFClient} from './pdf-request.mjs';
-import {printVerses} from './verse-print.mjs';
+import {printVerses} from './verse-print.mjs?v=reflection-focus-2';
 import {pdfEndpoint} from './pdf-settings.mjs';
 
 export {pdfEndpoint} from './pdf-settings.mjs';

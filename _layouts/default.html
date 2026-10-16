@@ -2386,9 +2386,9 @@
 <meta name="forqan-pdf-endpoint" content="{{ site.pdf_endpoint | escape }}">
 <meta name="forqan-pdf-fallback" content="{{ site.pdf_fallback | default: false }}">
 <link rel="stylesheet" href="/assets/css/pdf-download.css">
-<script type="module" src="/assets/js/pdf-download.mjs?v=compact-print-1"></script>
-<link rel="stylesheet" href="/assets/css/reader-mode.css?v=compact-print-1">
-<script type="module" src="/assets/js/reader-mode.mjs?v=compact-print-1"></script>
+<script type="module" src="/assets/js/pdf-download.mjs?v=reflection-focus-2"></script>
+<link rel="stylesheet" href="/assets/css/reader-mode.css?v=reflection-focus-2">
+<script type="module" src="/assets/js/reader-mode.mjs?v=reflection-focus-2"></script>
 </head>
 
 <body class="lang-{% if page.url contains '/fa/' %}fa{% else %}en{% endif %}">
@@ -3516,7 +3516,7 @@
   function copyContentNode(node) {
     if (node.nodeType === Node.TEXT_NODE) return document.createTextNode(node.textContent.replace(/\s+/g, ' '));
     if (node.nodeType !== Node.ELEMENT_NODE) return null;
-    if (node.matches('summary,script,style,svg,.copy-section-text,.language-mirror-link,.section-toggle-button')) return null;
+    if (node.matches('details[data-type="cross-reference"],summary,script,style,svg,.copy-section-text,.language-mirror-link,.section-toggle-button')) return null;
     const allowed = ['P','DIV','BR','STRONG','B','EM','I','UL','OL','LI','BLOCKQUOTE','H3','H4','H5','H6','A'];
     const result = document.createElement(allowed.includes(node.tagName) ? node.tagName.toLowerCase() : 'span');
     if (node.tagName === 'A' && /^https?:$/.test(new URL(node.href, location.href).protocol)) result.href = node.href;

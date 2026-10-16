@@ -87,13 +87,21 @@ function init() {
     const tools = document.createElement('div'); tools.className = 'verse-discussion-tools';
     tools.dataset.pagefindIgnore = '';
     const panels = [...verse.querySelectorAll(':scope > details[data-type]')];
+    const reflection = panels.find(panel => panel.dataset.type === 'reflection');
     for (const panel of panels) {
+      if (panel.dataset.type === 'cross-reference' && reflection) {
+        panel.classList.add('reflection-cross-references');
+        reflection.append(panel);
+        continue;
+      }
       const summary = panel.querySelector('summary');
       if (!summary) continue;
       const group = document.createElement('div'); group.className = 'verse-discussion-group';
-      const title = summary.childNodes[0].textContent.trim();
+      const isReflection = panel.dataset.type === 'reflection';
+      const title = isReflection ? (fa ? 'تأمل ما در این آیه' : 'Our Reflection on this Verse') : summary.childNodes[0].textContent.trim();
       const toggle = document.createElement('button'); toggle.type='button'; toggle.className='verse-panel-toggle';
       toggle.setAttribute('aria-controls',panel.id);
+      if (isReflection) toggle.classList.add('reflection-primary-toggle');
       const refresh = () => { toggle.textContent = title + (panel.open ? ' −' : ' +'); toggle.setAttribute('aria-expanded',String(panel.open)); };
       toggle.addEventListener('click',()=>{panel.open=!panel.open;refresh();});
       panel.addEventListener('toggle',refresh); refresh(); group.append(toggle);
@@ -108,6 +116,21 @@ function init() {
     const search = actions.querySelector('.ayah-quran-nav-button');
     if (search) actions.append(search);
     if (reference) reference.title = reference.textContent.trim();
+  });
+
+  function revealLinkedSection() {
+    const target = document.getElementById(location.hash.slice(1));
+    if (!target?.closest('.ayah-block')) return;
+    for (let node = target; node; node = node.parentElement) {
+      if (node.matches('details')) node.open = true;
+    }
+  }
+  window.addEventListener('hashchange', revealLinkedSection);
+  revealLinkedSection();
+  document.querySelectorAll('.ayah-quran-nav-button,.quran-nav-trigger').forEach(button => {
+    button.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M9 5h12M9 12h12M9 19h12M3 3h1v4M3 10h2v2H3v2h2M3 17h2v4H3m0-2h2"/></svg>';
+    button.title = fa ? 'فهرست سوره‌ها و آیات' : 'Surah and verse list';
+    button.setAttribute('aria-label', button.title);
   });
 }
 

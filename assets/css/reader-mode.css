@@ -57,3 +57,12 @@ body .container .verse-print-button{display:inline-flex;align-items:center;justi
 .verse-print-button svg{width:1rem;height:1rem}
 .verse-panel-toggle:focus-visible,.verse-print-button:focus-visible{outline:2px solid var(--lib-gold);outline-offset:3px}
 @media print{.verse-discussion-tools{display:none!important}}
+
+/* Emphasize the invitation to reflect without enlarging the controls. */
+body .container .verse-discussion-tools .reflection-primary-toggle{padding:.25rem .65rem;border:1px solid color-mix(in srgb,var(--lib-gold,#9a793c) 45%,transparent);border-radius:999px;background:color-mix(in srgb,var(--lib-gold,#9a793c) 13%,transparent);font-weight:700;color:var(--lib-gold,#9a793c)}
+body .container .verse-discussion-tools .reflection-primary-toggle:hover,body .container .verse-discussion-tools .reflection-primary-toggle[aria-expanded="true"]{background:color-mix(in srgb,var(--lib-gold,#9a793c) 22%,transparent)}
+html body .container .ayah-block details.reflection-cross-references{margin:.8rem 0 0!important;padding:.6rem 0 0!important;border:0!important;border-top:1px solid var(--lib-line,#bbb)!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
+html body .container .ayah-block details.reflection-cross-references>summary{display:flex;align-items:center;gap:.4rem;padding:0!important;min-height:40px;font-size:.85rem!important;font-weight:500;color:var(--lib-muted,#64748b);background:transparent!important}
+html body .container .ayah-block details.reflection-cross-references>summary::after{display:none}
+html body .container .ayah-block details.reflection-cross-references>summary .section-toggle-button{margin:0;min-width:32px;min-height:32px;width:32px;height:32px;background:transparent;border:0}
+.quran-nav-trigger svg,.ayah-quran-nav-button svg{width:1.1rem;height:1.1rem;display:block;margin:auto}
