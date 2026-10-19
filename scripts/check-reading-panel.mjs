@@ -10,6 +10,18 @@ assert.equal(isReadingReference(reference,'https://forqan.co/en/articles/quranic
 assert.equal(isReadingReference(reference,'https://forqan.co/en/articles/'),false);
 assert.equal(isReadingReference({...reference,closest:()=>null},base),false);
 assert.equal(isReadingReference({...reference,closest:()=>({})},base),false);
+// Introduction and standalone verse references are added only on desktop.
+const verseReference={...reference,href:'/quran-reflection/fa/002-al-baqarah/285/'};
+for(const source of ['/fa/introduction/','/quran-reflection/fa/002-al-baqarah/062/','/fa/articles/quranic-marriage/','/quran-terminology/fa/roots/a-m-n/']){
+ const sourceURL=new URL(source,base).href;
+ assert.equal(isReadingReference(verseReference,sourceURL,true),true);
+ assert.equal(isReadingReference(verseReference,sourceURL,false),false);
+ assert.equal(isReadingReference({...verseReference,closest:()=>({})},sourceURL,true),false);
+}
+assert.equal(isReadingReference(reference,new URL('/fa/introduction/',base).href,true),true);
+assert.equal(isReadingReference(reference,new URL('/fa/introduction/',base).href,false),false);
+assert.equal(isReadingReference(reference,new URL('/quran-reflection/fa/002-al-baqarah/062/',base).href,true),true);
+assert.equal(isReadingReference(reference,new URL('/quran-reflection/fa/002-al-baqarah/062/',base).href,false),false);
 const clean=studyURL('/en/articles/example/?reading-panel=1&highlight=prayer#part',base);
 assert.equal(clean.searchParams.has('reading-panel'),false);assert.equal(clean.searchParams.get('highlight'),'prayer');assert.equal(clean.hash,'#part');
 for(const lang of ['en','fa']){

@@ -1,6 +1,7 @@
 import {afterReadingLayout} from './reading-position.mjs';
 // Only references between reading pages use the panel; site navigation stays native.
-export function studyURL(value, base) {
+const desktopReading = () => typeof window!=='undefined' && window.matchMedia('(min-width:721px)').matches;
+export function studyURL(value, base, desktop = desktopReading()) {
   try {
     const url=new URL(value,base);
     if(url.origin!==new URL(base).origin)return null;
@@ -8,13 +9,16 @@ export function studyURL(value, base) {
     const readingPage = /^\/quran-reflection\/(en|fa)\/\d{3}-[^/]+\/?$/.test(url.pathname)
       || /^\/quran-terminology\/(en|fa)\/roots\/[^/]+\/?$/.test(url.pathname)
       || /^\/(en|fa)\/(articles|quran-terminology|hadith-critique|quran-completeness)\/[^/]+(?:\/[^/]+)*\/?$/.test(url.pathname)
-      || /^\/(en|fa)\/(salat|zakat)\/?$/.test(url.pathname);
+      || /^\/(en|fa)\/(salat|zakat)\/?$/.test(url.pathname)
+      // Extend reading references on desktop without changing phone navigation.
+      || (desktop && (/^\/(en|fa)\/introduction\/?$/.test(url.pathname)
+        || /^\/quran-reflection\/(en|fa)\/\d{3}-[^/]+\/\d{3}\/?$/.test(url.pathname)));
     if(!readingPage || /\.[^/]+$/.test(url.pathname))return null;
     url.searchParams.delete('reading-panel');return url;
   }catch{return null;}
 }
-export function isReadingReference(link, base) {
-  if(!studyURL(base,base) || !studyURL(link.href,base))return false;
+export function isReadingReference(link, base, desktop = desktopReading()) {
+  if(!studyURL(base,base,desktop) || !studyURL(link.href,base,desktop))return false;
   if(!link.closest('#main-content,.root-popover'))return false;
   return !link.closest('nav,header,footer,.breadcrumbs,.forqan-pathway-shell,.study-context,.mirror-link,.language-mirror-link,.language-switcher,[data-language],[hreflang],[data-panel-open]');
 }
