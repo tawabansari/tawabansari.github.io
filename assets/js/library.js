@@ -65,7 +65,7 @@ import {normalize as normalizeSearch} from './search-utils.mjs';
   if(!study || location.pathname==='/search/')return;
   const headings=Array.from(study.querySelectorAll('h2,h3')).filter(h=>h.textContent.trim() && !h.closest('nav'));
   const isSurahPage=/^\/quran-reflection\/(?:fa|en)\/\d{3}-[^/]+\/$/.test(location.pathname);
-  if(!isSurahPage && headings.length>=3){
+  if(!isSurahPage && study.dataset.studyToc!=='false' && headings.length>=3){
     const contents=document.createElement('details');contents.className='library-toc';contents.dataset.pagefindIgnore='';
     const summary=document.createElement('summary');summary.textContent=fa?'در این مطالعه':'In this study';contents.appendChild(summary);
     const list=document.createElement('ol');
