@@ -1,0 +1,2377 @@
+{
+  "date": "2026-10-19",
+  "translations": {
+    "fa": "به نام آن معبود یگانه؛ فرارحمن، با رحمت فراگیر؛ فرارحیم، با رحمت ویژه.",
+    "en": "In the name of The God, the Entirely Merciful, the Especially Merciful."
+  },
+  "box_templates": {
+    "fa": [
+      {
+        "data-context": "به نام؛ «بِـ» حرف جر است و «اسم» به نام، شناسه یا نشانه‌ای برای شناخت اشاره دارد. در این عبارت، آغاز کردن با نام و یاد آن معبود یگانه.",
+        "data-root": "س م و / و س م",
+        "data-root-meaning": "بالا آوردن به سطح شناخت، و نشانه‌گذاری برای تشخیص",
+        "data-learn-more": "/quran-terminology/fa/roots/w-s-m/"
+      },
+      {
+        "data-root": "ا ل ه",
+        "data-root-meaning": "در خوانش زبانی ما، «الله» با «إله» و ریشه ا ل ه پیوند دارد. «إله» یعنی معبود؛ آن‌که انسان به سوی او توجه، پناه و بندگی می‌برد. پیشوند «الـ» واژه را معرفه می‌سازد و «الإله» را به معنای «آن معبود» نزدیک می‌کند. از ادغام این ساخت، صورت «الله» پدید آمده است.",
+        "data-context": "«الله» در این خوانش فقط یک اسم خاصِ غیرقابل ترجمه نیست، بلکه عنوانی مقامی برای حقیقت یگانه و شایسته مطلق بندگی است. از همین رو، در ترجمه فرقان آن را «آن معبود یگانه» می‌آوریم.",
+        "data-learn-more": "/quran-terminology/fa/roots/a-l-h/"
+      },
+      {
+        "data-root": "ر ح م",
+        "data-root-meaning": "رحمت، مراقبت و پیوند پرورنده",
+        "data-context": "رحمت فراگیر، سرشار و همه‌پوش آن معبود یگانه",
+        "data-learn-more": "/quran-terminology/fa/roots/r-h-m/"
+      },
+      {
+        "data-root": "ر ح م",
+        "data-root-meaning": "رحمت، مراقبت و پیوند پرورنده",
+        "data-context": "رحمت پایدار، نزدیک و ویژه‌ای که در هدایت و رشد جاری می‌شود",
+        "data-learn-more": "/quran-terminology/fa/roots/r-h-m/"
+      }
+    ],
+    "en": [
+      {
+        "data-transliteration": "bismi",
+        "data-context": "In the name; bi is a preposition and ism means a name, identifier, or identifying sign. Here, beginning an act in the name and remembrance of The God.",
+        "data-root": "S M W / W S M",
+        "data-root-meaning": "Raising into the level of recognition, and marking for identification",
+        "data-learn-more": "/quran-terminology/en/roots/w-s-m/"
+      },
+      {
+        "data-transliteration": "Allahi",
+        "data-root": "A L H",
+        "data-root-meaning": "In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah.",
+        "data-context": "In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”",
+        "data-learn-more": "/quran-terminology/en/roots/a-l-h/"
+      },
+      {
+        "data-transliteration": "al-Rahmani",
+        "data-root": "R H M",
+        "data-root-meaning": "Mercy, womb-like care, protection, and nurturing connection",
+        "data-context": "The all-encompassing, overflowing, and universal mercy of The God",
+        "data-learn-more": "/quran-terminology/en/roots/r-h-m/"
+      },
+      {
+        "data-transliteration": "al-Rahimi",
+        "data-root": "R H M",
+        "data-root-meaning": "Mercy, womb-like care, protection, and nurturing connection",
+        "data-context": "The enduring, near, and relational mercy that accompanies guidance and growth",
+        "data-learn-more": "/quran-terminology/en/roots/r-h-m/"
+      }
+    ]
+  },
+  "sources": {
+    "Allah_Rahman_Rahim": "Al-Baqarah opening, copied exactly in each language",
+    "Bism_root_and_definition": "Al-Baqarah 2:33; context adapted from plural names to bi + ism",
+    "translation_markup": "Existing approved Al-Fatihah translation links; rendered text exactly matches user-approved sentences"
+  },
+  "occurrences": [
+    {
+      "file": "quran-reflection/fa/001-al-fatihah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/003-al-imran/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/008-al-anfal/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/010-yunus/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/013-ar-rad/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/014-ibrahim/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/015-al-hijr/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/016-an-nahl/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/017-al-isra/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/018-al-kahf/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/019-maryam/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/021-al-anbiya/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/022-al-hajj/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/023-al-muminun/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/024-an-nur/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/025-al-furqan/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/026-ash-shuara/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/027-an-naml/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/027-an-naml/units/030.html",
+      "language": "fa",
+      "kind": "27:30"
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/030-ar-rum/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/031-luqman/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/032-as-sajdah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/034-saba/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/035-fatir/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/036-ya-sin/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/037-as-saffat/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/038-sad/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/039-az-zumar/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/040-ghafir/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/041-fussilat/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/042-ash-shura/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/043-az-zukhruf/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/044-ad-dukhan/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/045-al-jathiyah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/046-al-ahqaf/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/047-muhammad/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/048-al-fath/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/049-al-hujurat/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/050-qaf/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/051-adh-dhariyat/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/052-at-tur/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/053-an-najm/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/054-al-qamar/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/055-ar-rahman/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/056-al-waqiah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/057-al-hadid/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/058-al-mujadilah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/059-al-hashr/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/060-al-mumtahanah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/061-as-saff/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/062-al-jumuah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/063-al-munafiqun/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/064-at-taghabun/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/065-at-talaq/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/066-at-tahrim/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/067-al-mulk/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/068-al-qalam/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/069-al-haqqah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/070-al-maarij/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/071-nuh/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/072-al-jinn/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/073-al-muzzammil/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/074-al-muddaththir/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/075-al-qiyamah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/076-al-insan/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/077-al-mursalat/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/078-an-naba/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/079-an-naziat/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/080-abasa/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/081-at-takwir/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/082-al-infitar/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/083-al-mutaffifin/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/084-al-inshiqaq/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/085-al-buruj/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/086-at-tariq/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/087-al-ala/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/088-al-ghashiyah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/089-al-fajr/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/090-al-balad/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/091-ash-shams/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/092-al-layl/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/093-ad-duha/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/094-ash-sharh/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/095-at-tin/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/096-al-alaq/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/097-al-qadr/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/098-al-bayyinah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/099-az-zalzalah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/100-al-adiyat/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/101-al-qariah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/102-at-takathur/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/103-al-asr/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/104-al-humazah/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/105-al-fil/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/106-quraysh/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/107-al-maun/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/108-al-kawthar/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/109-al-kafirun/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/110-an-nasr/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/111-al-masad/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/112-al-ikhlas/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/113-al-falaq/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/fa/114-an-nas/index.html",
+      "language": "fa",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/001-al-fatihah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/003-al-imran/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/008-al-anfal/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/010-yunus/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/011-hud/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/013-ar-rad/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/014-ibrahim/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/015-al-hijr/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/016-an-nahl/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/017-al-isra/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/018-al-kahf/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/019-maryam/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/021-al-anbiya/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/022-al-hajj/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/023-al-muminun/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/024-an-nur/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/025-al-furqan/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/026-ash-shuara/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/027-an-naml/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/027-an-naml/units/030.html",
+      "language": "en",
+      "kind": "27:30"
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/030-ar-rum/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/031-luqman/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/032-as-sajdah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/034-saba/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/035-fatir/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/036-ya-sin/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/037-as-saffat/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/038-sad/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/039-az-zumar/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/040-ghafir/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/041-fussilat/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/042-ash-shura/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/043-az-zukhruf/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/044-ad-dukhan/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/045-al-jathiyah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/046-al-ahqaf/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/047-muhammad/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/048-al-fath/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/049-al-hujurat/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/050-qaf/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/051-adh-dhariyat/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/052-at-tur/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/053-an-najm/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/054-al-qamar/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/055-ar-rahman/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/056-al-waqiah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/057-al-hadid/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/058-al-mujadilah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/059-al-hashr/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/060-al-mumtahanah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/061-as-saff/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/062-al-jumuah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/063-al-munafiqun/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/064-at-taghabun/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/065-at-talaq/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/066-at-tahrim/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/067-al-mulk/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/068-al-qalam/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/069-al-haqqah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/070-al-maarij/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/071-nuh/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/072-al-jinn/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/073-al-muzzammil/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/074-al-muddaththir/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/075-al-qiyamah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/076-al-insan/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/077-al-mursalat/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/078-an-naba/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/079-an-naziat/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/080-abasa/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/081-at-takwir/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/082-al-infitar/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/083-al-mutaffifin/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/084-al-inshiqaq/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/085-al-buruj/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/086-at-tariq/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/087-al-ala/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/088-al-ghashiyah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/089-al-fajr/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/090-al-balad/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/091-ash-shams/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/092-al-layl/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/093-ad-duha/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/094-ash-sharh/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/095-at-tin/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/096-al-alaq/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/097-al-qadr/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/098-al-bayyinah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/099-az-zalzalah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/100-al-adiyat/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/101-al-qariah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/102-at-takathur/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/103-al-asr/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/104-al-humazah/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/105-al-fil/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/106-quraysh/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/107-al-maun/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/108-al-kawthar/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/109-al-kafirun/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/110-an-nasr/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/111-al-masad/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/112-al-ikhlas/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/113-al-falaq/index.html",
+      "language": "en",
+      "kind": "opening"
+    },
+    {
+      "file": "quran-reflection/en/114-an-nas/index.html",
+      "language": "en",
+      "kind": "opening"
+    }
+  ],
+  "files": [
+    {
+      "path": "quran-reflection/fa/001-al-fatihah/index.html",
+      "before_sha256": "c4a143780a83f11e7f05a260439e4bd698e7f87f8ccd578d546fc7129943733c",
+      "after_sha256": "81c4e51867b25e7eeacd52fcca10c13a6998b08e0102f125410f1a0d70c20fa3"
+    },
+    {
+      "path": "quran-reflection/fa/002-al-baqarah/index.html",
+      "before_sha256": "23f312add813c84773064288496fdcd1ae8f587ee580a5e16350a32edf527e27",
+      "after_sha256": "77276c353503de3838d9fbf0128994f6c98cd02c788ce645210607944eab097b"
+    },
+    {
+      "path": "quran-reflection/fa/003-al-imran/index.html",
+      "before_sha256": "2d3281355995e96b6e74173355d640cb4591d86351aa3be8f8ce492165a23e4b",
+      "after_sha256": "a1417301b0999052f6705669d333b2a6b33c0ad7972922b4fa51684cd3359e59"
+    },
+    {
+      "path": "quran-reflection/fa/004-an-nisa/index.html",
+      "before_sha256": "954afd3daea7949cb489c5a41725e3001e4a920b66812ac59550cceea531e8c6",
+      "after_sha256": "f466cf02309d2b38ee032e021fcc4526fff67730d4d3c335ca810f2ffdfb5302"
+    },
+    {
+      "path": "quran-reflection/fa/005-al-maidah/index.html",
+      "before_sha256": "b9792994caf52762e63bf52084f04cd680fd5a0c789136a4750b98c234fba1d7",
+      "after_sha256": "50a3ff72a8bfef63f2bf0d5e52c220f9fb02bbe67d59c0e5a559d3e1b9c1ea24"
+    },
+    {
+      "path": "quran-reflection/fa/006-al-anam/index.html",
+      "before_sha256": "4124928b97bac6ec472f511dccaaec766ab53f258de85af60953fdead81d2078",
+      "after_sha256": "ebaf10dc25aff7b166257bd00717a63fc61046ccbd475db734a6c7bfda7538ca"
+    },
+    {
+      "path": "quran-reflection/fa/007-al-araf/index.html",
+      "before_sha256": "b3e2cd1e9041f1a1760ef5fa32ddc504253217bd94fab00ac3099616299b2a81",
+      "after_sha256": "59f65b2b18dda90d5ea7efcb072ff9858b91471702006bae4a906c5241378488"
+    },
+    {
+      "path": "quran-reflection/fa/008-al-anfal/index.html",
+      "before_sha256": "6d5290e93ae1ce1ba2db3da4ef500468dc1aeaa40fbbb13e499c3286d5aa7954",
+      "after_sha256": "8e3ac42ffe944349015c916de1b6643d13a12d7ba293b1b5046cdd32d5783d36"
+    },
+    {
+      "path": "quran-reflection/fa/010-yunus/index.html",
+      "before_sha256": "d97ac3105ec8cfcb178acf8c3d3c08fd3ec9b4cb7c4c62dc1b1f0701913da00e",
+      "after_sha256": "6a7302232575ab8a1d6d6c0d2f3ccea9f8a7038570dfa4fca98991a5667f5d2c"
+    },
+    {
+      "path": "quran-reflection/fa/011-hud/index.html",
+      "before_sha256": "0cafd25bb9dadd1863546606c71e992b61dd0c4368168db45cea1700d66f7b9b",
+      "after_sha256": "fbbe1d37ebc0f5c7a008c1cf3dc888a37ed3e97576c5c14bd9d84ea788432df3"
+    },
+    {
+      "path": "quran-reflection/fa/012-yusuf/index.html",
+      "before_sha256": "59dd12e0f6da98fcbebc6b934cb8994050b730b79eef23b35f8cd91bceea712e",
+      "after_sha256": "c3c6b8c2f8934025771ca4caa3109a9e4a6402856bbed7dc7fb1fde1819ec4d7"
+    },
+    {
+      "path": "quran-reflection/fa/013-ar-rad/index.html",
+      "before_sha256": "a18df382527d7b298e81a6363cb16a9865af50515bcac7b87d1fbb5e45c8bb55",
+      "after_sha256": "85e61e20ffa12685291e141acee76bc9f4a9c7cdb9a78c0683edf2d669991bac"
+    },
+    {
+      "path": "quran-reflection/fa/014-ibrahim/index.html",
+      "before_sha256": "54c0db2fb83bd14ac6c42a5b176765182946452a686be6c15d4e24daa6a2d92b",
+      "after_sha256": "f3d5b8369908a367894c64d6cd7a7bbb463f740c71202471deee712f06d42022"
+    },
+    {
+      "path": "quran-reflection/fa/015-al-hijr/index.html",
+      "before_sha256": "5a2063a2a20f7e0fb2bec713c8933ca279216452f4ea6861f9b0689c0507f347",
+      "after_sha256": "2cb7c71c119eb2bfa1569ff4ad2c0de3d1ed8913be23b2b837ba970dcdf81b51"
+    },
+    {
+      "path": "quran-reflection/fa/016-an-nahl/index.html",
+      "before_sha256": "485b19bf0cf120e26ee3f8a87e7c82827c89b1fadc4a42362f67d729494ecbf1",
+      "after_sha256": "a472d9a27ae4dc745dc8e2e2902b2949e3187a78973ff132d38ae42b194065fa"
+    },
+    {
+      "path": "quran-reflection/fa/017-al-isra/index.html",
+      "before_sha256": "de42c6ed7989ccbadb540ac09d2d1bda118ca54a347b51c171329d095b357ea1",
+      "after_sha256": "9b2f7c692c18a6fde0bd3f241291084039cfeba5e0eb53b35300e807fc0ddab2"
+    },
+    {
+      "path": "quran-reflection/fa/018-al-kahf/index.html",
+      "before_sha256": "4236b4f3479e4ba3f74f0dd95c711438bdd0a4786862da8aa3ce2f0747ffbe76",
+      "after_sha256": "8ee0cee96986ed6896a8517d326243fc77ace10c64bf0f87785cafde72ca0956"
+    },
+    {
+      "path": "quran-reflection/fa/019-maryam/index.html",
+      "before_sha256": "cb1c2e5e453eecc380b6fe52b4d697772df176146dd956287e6d4d60a72eec17",
+      "after_sha256": "eca925f97b16939c5e1da30de58493c3294e9c0a737282d2035476f356e6fb11"
+    },
+    {
+      "path": "quran-reflection/fa/020-ta-ha/index.html",
+      "before_sha256": "7de8f13d42ec6e1cb30d368d377f9c27f2cc40d51b72f34ac7b699802b2a0bc6",
+      "after_sha256": "94d43dff9f9492044716b67dbf6f0f7f8a72ec0e2021a01837e78253f1c18278"
+    },
+    {
+      "path": "quran-reflection/fa/021-al-anbiya/index.html",
+      "before_sha256": "a47492316fb21af72b0cc789afa01b801b77d8f6e4c19796f19f88a90fdf06f2",
+      "after_sha256": "1fcad1dd1d545edd1ff1f275cb482c24da68e42c4dbeba1e410a55876f949517"
+    },
+    {
+      "path": "quran-reflection/fa/022-al-hajj/index.html",
+      "before_sha256": "4bd9d100a223f4655dd54f047c941a06263aa2cdb0f1bba69cf996cd93d190b5",
+      "after_sha256": "af2492bf07540c56560a40eb1ef72011dc72fbd293834afc8f8dc9dd31be3c04"
+    },
+    {
+      "path": "quran-reflection/fa/023-al-muminun/index.html",
+      "before_sha256": "24db30625d03a75844479754f95ff94676c3112528cc955eaba714c3106e6a3e",
+      "after_sha256": "abc15f1ed1ea59fe4ab88bcd6b1ff9b7b012b63ffb287c5267a0ac473081f6bb"
+    },
+    {
+      "path": "quran-reflection/fa/024-an-nur/index.html",
+      "before_sha256": "2342bf2675b96ac45faecb56a1113d05f83e962a081b2fc7b451025667b0e41d",
+      "after_sha256": "645b543260ec4b025524936e6d30ce89e8fc41e7cddf2dfdb880116aab972ca1"
+    },
+    {
+      "path": "quran-reflection/fa/025-al-furqan/index.html",
+      "before_sha256": "bec090b75c3686dd2c408ad6c89f5108972711e05071fed5ec1a2031b84f922e",
+      "after_sha256": "428dd0afc17c52f0dbf0785af96552be885673c6072eabe67eea41e0b40b8f1c"
+    },
+    {
+      "path": "quran-reflection/fa/026-ash-shuara/index.html",
+      "before_sha256": "bdd2687d3d4122ca0f51058d4190cbfd2252d92227a13c6d7cbad015612a6bad",
+      "after_sha256": "0899d665c0fb27324fd9fb8af719d3fc086e8d1d69960c55bd73ab0191ba5700"
+    },
+    {
+      "path": "quran-reflection/fa/027-an-naml/index.html",
+      "before_sha256": "679c9641de5337ffa55c62fd4c9fe6c7b450295f9b0b78cbe44e44562bda6418",
+      "after_sha256": "7b234f8a398ad1d083b636fb3ec795372d8d833ebf4fb69cdd51e3a22bde287f"
+    },
+    {
+      "path": "quran-reflection/fa/027-an-naml/units/030.html",
+      "before_sha256": "0875c4dae4c35341e6d887dadaade05b5fb22b3b85ef430a8fceb02004047b03",
+      "after_sha256": "52b64867808ad4c89587bb335665a967b5d28564821b541965ca2d3ad4e13348"
+    },
+    {
+      "path": "quran-reflection/fa/028-al-qasas/index.html",
+      "before_sha256": "e21d8063f5ce2bb0779d63e202211b45f5e650f8e68958532ab706d176b9e249",
+      "after_sha256": "b0bb6540baad1d046e368be893e85d844a51ac62646d0c6cc988fde047c3469c"
+    },
+    {
+      "path": "quran-reflection/fa/029-al-ankabut/index.html",
+      "before_sha256": "72365ae3b2a81be00e8e89165f03dcaeff9964b5eb25a16882642a1f0ec86af2",
+      "after_sha256": "f1e3d82274588103af87686522ab5552d424efbef0bd488d1a9c878db8107fe7"
+    },
+    {
+      "path": "quran-reflection/fa/030-ar-rum/index.html",
+      "before_sha256": "2a89732db14ddc181c1a6db659818454ba8728797167cdb60b1f8452f16ca0c2",
+      "after_sha256": "4dff1d5728b273927c3531455b09080f16ae6c3ca24c45589521178be93e440a"
+    },
+    {
+      "path": "quran-reflection/fa/031-luqman/index.html",
+      "before_sha256": "99afe8c5647eed4654a1f1e6ed357c62a9c0dc2c2f57ba886166aaaed6aeef33",
+      "after_sha256": "94b710ce2e0ba673e7e1c4064f2cbec5c5b35a1d060632692c4844ee25812d6c"
+    },
+    {
+      "path": "quran-reflection/fa/032-as-sajdah/index.html",
+      "before_sha256": "febbe0b00e8510bac749d68e80fa533c7389f8bf86a91c148bbd1eec9bc06d0e",
+      "after_sha256": "c39c974d45158d0a3244e90366f6cf800bb2e10044df9a6f51b842acb890a29c"
+    },
+    {
+      "path": "quran-reflection/fa/033-al-ahzab/index.html",
+      "before_sha256": "930b0e4f4b890c3cd3825b2ecc6ea38a53b53df271e3e253156f9e506384ae8c",
+      "after_sha256": "ba5c6e3b6d497252986dae4efb25e18fc5aa8d9bfe964d51059dabac21355111"
+    },
+    {
+      "path": "quran-reflection/fa/034-saba/index.html",
+      "before_sha256": "cd38b6f15b56befacd91978bb78ab38ade51cae2aada22c1de85f73e3fdba6d3",
+      "after_sha256": "aa9ee329fd8d803b70225486257d54643edb8f4d3c4465898d7b08618f89bd61"
+    },
+    {
+      "path": "quran-reflection/fa/035-fatir/index.html",
+      "before_sha256": "847b80bdc1d54448c03a4d5302f6b25424694f1940e2a2006ee3a47b5cc895dd",
+      "after_sha256": "8da2a62837bb6f5175c49cc58d825a53d9f9fc2059fd1573f1345de69ccd8830"
+    },
+    {
+      "path": "quran-reflection/fa/036-ya-sin/index.html",
+      "before_sha256": "aa3d761e49017ea1f03423207db6c3d326e3101e219999bebbfa34dfffee7a70",
+      "after_sha256": "690dfd6209fde86a707440132f5015efdbe75862d4e0c3e733093209562591b9"
+    },
+    {
+      "path": "quran-reflection/fa/037-as-saffat/index.html",
+      "before_sha256": "a5cc2810e7f6f548dba52a2f9261ad5ac3f4ce5ccb52b1d7a08fff6b91c945ee",
+      "after_sha256": "076bf158cce4b5d9bc0380146020cb2bbc851d6564abf843aa41aa2a4cc2372a"
+    },
+    {
+      "path": "quran-reflection/fa/038-sad/index.html",
+      "before_sha256": "f64f2ffa427a9541bb8fef3c41c0d58f348e5c3ce792db8ebc93bb4afb5aff61",
+      "after_sha256": "9566858fdf37fd03d0fc3ec06c7c2dee415e4e0efea57184879c035e57a6df72"
+    },
+    {
+      "path": "quran-reflection/fa/039-az-zumar/index.html",
+      "before_sha256": "d3a06b27d77324c10bccf1df5be71c2dc24acf6915c87c46da6d3be65f1895c0",
+      "after_sha256": "a383cadf873942d93c466094a241814a4a28aa19b1c447f8049c4603adb5c635"
+    },
+    {
+      "path": "quran-reflection/fa/040-ghafir/index.html",
+      "before_sha256": "ca31c95780c9cb266a73690fc2429a3864cbe35e2e44bdba34e3a00c340140ab",
+      "after_sha256": "e738d6299208fe1a5781fe34efce3f96291b10fb389538809b463ceab5823eaa"
+    },
+    {
+      "path": "quran-reflection/fa/041-fussilat/index.html",
+      "before_sha256": "d57a37601c29f137f4154e8e8e63490fb1f179e7cdac6575fea84c920da8c40b",
+      "after_sha256": "11370e3e0ec8963c0bc61938e913fca78330876ba13bed553afb912bdcb4725e"
+    },
+    {
+      "path": "quran-reflection/fa/042-ash-shura/index.html",
+      "before_sha256": "8e10693db5c5b9b6a27e472b97002de6c4c742632f68385fa31c3bb1ee495986",
+      "after_sha256": "db41b51477ac10e47d957b83dbbc331680481682d81d03283fdf881b062037a0"
+    },
+    {
+      "path": "quran-reflection/fa/043-az-zukhruf/index.html",
+      "before_sha256": "8aa5f449e14dcfb8e1724ee42e5f179c1509854ad09fe5d5bbe8c996980742c0",
+      "after_sha256": "3f4744a8b9790c83d4d910034eb62c5fa67ad7057b55095c765402da6fd950f2"
+    },
+    {
+      "path": "quran-reflection/fa/044-ad-dukhan/index.html",
+      "before_sha256": "1eb05c89a3ff6b87a4715472051afa5d6748644407d5907ddd0de5cfc0da4f68",
+      "after_sha256": "ac9d4c92ca7735de70c63413a3926869d9d25665c582be57caddb70f5d36b6d3"
+    },
+    {
+      "path": "quran-reflection/fa/045-al-jathiyah/index.html",
+      "before_sha256": "1e35ae1de8df914bd0f874f43aedc76af20ee1fdd9f8e06b84c34f5fb605c71d",
+      "after_sha256": "4c3fb9f038a971a486ff73120b910f9f3cf5c7e44446453cb0103ca853d169c6"
+    },
+    {
+      "path": "quran-reflection/fa/046-al-ahqaf/index.html",
+      "before_sha256": "28dcb2c821f2b81a9e4a056f6fe3e223cba11692cc1e3a287ea64a39a44d58f1",
+      "after_sha256": "2ce96fc51f7b1740c0462b3e3237d6ce45296c3d4a4240daf3686a2b583a4cf7"
+    },
+    {
+      "path": "quran-reflection/fa/047-muhammad/index.html",
+      "before_sha256": "44b5837ece2e9b88a65f292ea442654727f240d5684bfb915a266a8eeaccf170",
+      "after_sha256": "80109c704695afe6d59a8808d7c8e4072711242d8f80c2734a16e56178fba7e6"
+    },
+    {
+      "path": "quran-reflection/fa/048-al-fath/index.html",
+      "before_sha256": "7dedc8db3a81edad5e36d65054e8b51d0ce4db11f18e1112711a0d144f8d7153",
+      "after_sha256": "d021688f397a0de88484c4b5a52ab1ac219e8b80f0bc3a90ff180e24ceed3a0c"
+    },
+    {
+      "path": "quran-reflection/fa/049-al-hujurat/index.html",
+      "before_sha256": "e7105b82da3df4d6328913a5dd91c26df4556fd5cd9d501b7d7097e5eccdbdd6",
+      "after_sha256": "b3060f7d0ed48f1f9c111d44703c313c33f2e5ba1518b640886dc654bb4d919d"
+    },
+    {
+      "path": "quran-reflection/fa/050-qaf/index.html",
+      "before_sha256": "03edf89976069e544b2a219cfdfc642df76f6bc5206aad81391a58bc19d47755",
+      "after_sha256": "257a39b02618cb2121bc63896bee20c5df269b2ff25e94e9fb642d2a2a3acdb9"
+    },
+    {
+      "path": "quran-reflection/fa/051-adh-dhariyat/index.html",
+      "before_sha256": "152e2d47932714000d31a9e602c3a058b21853017c620c57664229afbc03b58a",
+      "after_sha256": "622e9f41b606746253d626f358898bc42126387ee5edb0074a1147651674ee85"
+    },
+    {
+      "path": "quran-reflection/fa/052-at-tur/index.html",
+      "before_sha256": "59de93301a8547a0cd209aa1c30d222adb6db70591a38180b34ded7bda24a80d",
+      "after_sha256": "ba47b780b1e7d3e3e7f5ec81512e8ede3fbc3f0e147be65ab727e003c84bf032"
+    },
+    {
+      "path": "quran-reflection/fa/053-an-najm/index.html",
+      "before_sha256": "5b18e00266bd8578efa56c2b7259b7edb69864f551e38d9e63e51f18a4d6515d",
+      "after_sha256": "a698a917c040482b1d3386b7eaa20a9451961fe210bc60b6e0808e8248a45682"
+    },
+    {
+      "path": "quran-reflection/fa/054-al-qamar/index.html",
+      "before_sha256": "bf45997bb268a9ef059847f756b2837d1394a5dd076aa71624ab52c6b6e5665e",
+      "after_sha256": "c337ff036767693f8d69b0c31c11247cad988c19ce2d806163b7689b756f39a2"
+    },
+    {
+      "path": "quran-reflection/fa/055-ar-rahman/index.html",
+      "before_sha256": "f976116d9773073230c143ae0b3158d8e51cd133b54ac1b58de1eff7a2940181",
+      "after_sha256": "b4874c733747e2fad4172e7c41d468b5ac88ff6db08c1bb359014849b915c6be"
+    },
+    {
+      "path": "quran-reflection/fa/056-al-waqiah/index.html",
+      "before_sha256": "b346f2d4203082a8a0eb2e839dded236071c100a12d5c918a64e920ae13ae916",
+      "after_sha256": "f5c6e176d2658e9624023015219d37dc9abc7cea781aab1b25f361181c336566"
+    },
+    {
+      "path": "quran-reflection/fa/057-al-hadid/index.html",
+      "before_sha256": "e5229bb4a8303fa3157eee7376325b203256364e3088e66e8ce816d4c2cdcafb",
+      "after_sha256": "928387d36555d6d4e86f49bb506e223484dfed9d79b726836256df0a2f3a0919"
+    },
+    {
+      "path": "quran-reflection/fa/058-al-mujadilah/index.html",
+      "before_sha256": "e60d3e0ee9c9109507d5fba7886d2d4f1488ff3e35c327144613e9ef085b5480",
+      "after_sha256": "5f01b73d68d0a0123d6d720332f6590e8b8dd512c05f27577d629f151a404be4"
+    },
+    {
+      "path": "quran-reflection/fa/059-al-hashr/index.html",
+      "before_sha256": "530869ed24b76490c7636d8a489570363d0c01d81a32af1b675415db945beafa",
+      "after_sha256": "ee506dc6ad6314d58bce4dd42e8e9a1caf912c15343c1883da8894f42203acef"
+    },
+    {
+      "path": "quran-reflection/fa/060-al-mumtahanah/index.html",
+      "before_sha256": "c824ce98523fb1adf2599cffa4d188c33381dea29f8561310d603cf9f1acb0b9",
+      "after_sha256": "6ad017faca2ac14352c220f9f78c2269d7664a9ca734db0c6efb3f37f72002d8"
+    },
+    {
+      "path": "quran-reflection/fa/061-as-saff/index.html",
+      "before_sha256": "504d6d4fbd248d27ce31e0de1f05c99eed208bcf08b1c664489187f8acf30b70",
+      "after_sha256": "3bddc04277d0d86784a936b9616d7c63b6fd886ff1f92536f3f54684000f9eda"
+    },
+    {
+      "path": "quran-reflection/fa/062-al-jumuah/index.html",
+      "before_sha256": "94087731c403a661d03b241196a46f58147e636192993b811b5ef0bac159d673",
+      "after_sha256": "96d961e65d72644a2f952a7b03a10f2a459bf7295a31f1bedb8114f88164b579"
+    },
+    {
+      "path": "quran-reflection/fa/063-al-munafiqun/index.html",
+      "before_sha256": "3f2558193be5753e86e52b61a8b605e85876e4517ce947926219a15e249492b5",
+      "after_sha256": "65863b4e02edca66a1561526744a876b5b39920ac0d9a5695b41a950a78cb76d"
+    },
+    {
+      "path": "quran-reflection/fa/064-at-taghabun/index.html",
+      "before_sha256": "938559a5a9d001197afa98de33697674922ae9670e013adfad2a775907cf7967",
+      "after_sha256": "1ca7894b2e98a5032a711acfe7761da6bc19affbef2bfa057ead2e82c5d2129c"
+    },
+    {
+      "path": "quran-reflection/fa/065-at-talaq/index.html",
+      "before_sha256": "85726eebc9c9f026b49a8be23db92d01dfb68cfb2bf6d6ec3779302c07f217c6",
+      "after_sha256": "2f0c7e9b0677f82e381969919b38b5d6938adca678d7af433d729db56eec316f"
+    },
+    {
+      "path": "quran-reflection/fa/066-at-tahrim/index.html",
+      "before_sha256": "3f6480b9c9c6146e1c4a52e6775e7ca65e5f86040f4428d5b5e681dd7c9ead6a",
+      "after_sha256": "8d856e0a95c93d3a8a1a04971b4a9d6e018be6999cf501ed98273c721afd32e9"
+    },
+    {
+      "path": "quran-reflection/fa/067-al-mulk/index.html",
+      "before_sha256": "9f8d89826037b4bee43e11b44eb34abe81f0103f4f02bc51fb731c7f49cd9610",
+      "after_sha256": "633a77ebde5ffe11bf995b849758563dc84c46b002eeeec4c0d87dcaa56351ed"
+    },
+    {
+      "path": "quran-reflection/fa/068-al-qalam/index.html",
+      "before_sha256": "641a4f73cec73ec6727803453141d35b352a453836962effc0ce847d16704947",
+      "after_sha256": "6b60ed9d732b0ef84ae130899ab81f52c4023b14092cffc937cdd6c667db41b0"
+    },
+    {
+      "path": "quran-reflection/fa/069-al-haqqah/index.html",
+      "before_sha256": "f7e8f9e3b95f985e74af93b8074ad29c031215bf3742b12926a735cd4d2d05b6",
+      "after_sha256": "a02042768278bc38c2fc98d344e340cf2a30add803787742367e7317b4ea794e"
+    },
+    {
+      "path": "quran-reflection/fa/070-al-maarij/index.html",
+      "before_sha256": "6237fbf2992f34d9d1fb5a87e63bae9c1743fac1ea7eb7b106fe0289b25fc1f6",
+      "after_sha256": "d14c4aad40cf53bd334f517edc2baabe2e47365eea083718632f85b7d96278d4"
+    },
+    {
+      "path": "quran-reflection/fa/071-nuh/index.html",
+      "before_sha256": "735a999661c1efc792ac26e5db2bd8628882bdd3ea69b04e07fb237b7c2d8240",
+      "after_sha256": "ec87e0e6c73443b2c964c2be3193bf5bc6ac71f88c510fb6d6f97b12a7de34e6"
+    },
+    {
+      "path": "quran-reflection/fa/072-al-jinn/index.html",
+      "before_sha256": "e406ad3eee66fa112cf151528601a1c36df8dfaa880a5496ccab1f0f01a3e0f1",
+      "after_sha256": "52f5a0a9de95ad44fab9cc8c3ed1defcefa906f3839f8ee0b23264c5ebf523f8"
+    },
+    {
+      "path": "quran-reflection/fa/073-al-muzzammil/index.html",
+      "before_sha256": "7f08374609ef8a91ccc17a0ad0c93f44d45b196fffc9cf6636052aa27c5befab",
+      "after_sha256": "4d4a47da8cb902123427a4af098349a9d23787aef2517175af1c0354ab84d14a"
+    },
+    {
+      "path": "quran-reflection/fa/074-al-muddaththir/index.html",
+      "before_sha256": "1a1e73909012c2f101330fd2a828802c376ee78ecbf48c15d2f49f6f06bfcff6",
+      "after_sha256": "500027eacc395f3a34df405a234b93c91d3b26e4bfa16a15df995597656f9e49"
+    },
+    {
+      "path": "quran-reflection/fa/075-al-qiyamah/index.html",
+      "before_sha256": "9fdc6f1c20986a8394d4a4ee9278135f693769ed00da5f95734c901eb258c68a",
+      "after_sha256": "fbe9f04c90a0ac3ce177f6e171ed933592f4757bdcff546bd8f7cd28f12e3201"
+    },
+    {
+      "path": "quran-reflection/fa/076-al-insan/index.html",
+      "before_sha256": "b60dda6ce600dedc6a0e4cbca0405be91a1a2f5e7592ccd65cf3a73feb87cbac",
+      "after_sha256": "da7ea1267bcf1068d1eabe8b66313e21f13372adaa747f24067e8a2347f27d59"
+    },
+    {
+      "path": "quran-reflection/fa/077-al-mursalat/index.html",
+      "before_sha256": "fbedcbf13d5157c8802911a69f3edc0acf75e1e6509f5fac99a5f514feefb539",
+      "after_sha256": "f130e1e87d9f7532ce68708f9bff95d9b37a67bd70d49ee7cb6bfe4ba7d43c93"
+    },
+    {
+      "path": "quran-reflection/fa/078-an-naba/index.html",
+      "before_sha256": "7a09912cbeee6cba947c957c593b228c3fbd9f1cd7857b68e0dd95c8d993b86d",
+      "after_sha256": "61552064e2237af6e97f89f01a42e876ee80b6c46f14ec8abf363e1bed779adc"
+    },
+    {
+      "path": "quran-reflection/fa/079-an-naziat/index.html",
+      "before_sha256": "affa9758cd915c4e7c76adddbfa4f06520fa2993188e4301f8c8485bcee2eb38",
+      "after_sha256": "790c1183f46adf7bb393b541849ae4df5da28b10f7e70a30f849ab75f44c2914"
+    },
+    {
+      "path": "quran-reflection/fa/080-abasa/index.html",
+      "before_sha256": "29199d6854d8d12df6aa60418fee680a61a0833d01b57e6a88ff4da5e65c75a4",
+      "after_sha256": "6e6552aa318ebe02914a26d43652d067c6756a783c42a1a9bff87c0290aacf74"
+    },
+    {
+      "path": "quran-reflection/fa/081-at-takwir/index.html",
+      "before_sha256": "5942b2fabc76de42c8cfab02373f74f5d141759912c948a49927084c4f39d0d9",
+      "after_sha256": "b7e83a6c03647c14d85e77f27a18a3fd275a2112a37d9d565654c1d861d62479"
+    },
+    {
+      "path": "quran-reflection/fa/082-al-infitar/index.html",
+      "before_sha256": "313096ba5b10a8ce0c9503e9d4cbb7157b7079e2e9cba724d5e86df9c05b56ac",
+      "after_sha256": "ebd363987546abc7c87f9004cdf2c81dc79a1ebb93ae78eb8cff5af1682e20b6"
+    },
+    {
+      "path": "quran-reflection/fa/083-al-mutaffifin/index.html",
+      "before_sha256": "83e1311bf90df7cb8e97f7f0fe337eb0616694170a49b34ede777293595701f6",
+      "after_sha256": "e98c6b4ac261882bd4e7190d62427e126e49e4e058c57f965b558cc22132e6e0"
+    },
+    {
+      "path": "quran-reflection/fa/084-al-inshiqaq/index.html",
+      "before_sha256": "d9b56a91ccddb26de5ea100c2807c5bfc1d4745e23b055a82ef9da6380d25e8b",
+      "after_sha256": "94f3527c957126c1f96a5bfbaa1e7b0f5022aaa435538527c9a79f6d3ae7457f"
+    },
+    {
+      "path": "quran-reflection/fa/085-al-buruj/index.html",
+      "before_sha256": "63a22ea635a121b47ebe08e4e3830b42ec4cc4237d6d200273d5371fdc62295b",
+      "after_sha256": "ef471c286e1a3478de2f71dbab620df8efd6a6e83cba726ca7d3e9635010ce18"
+    },
+    {
+      "path": "quran-reflection/fa/086-at-tariq/index.html",
+      "before_sha256": "14360c2ce339a6963dbacfc94594e68c6594c9dd241199bb9c8c690b47f61f90",
+      "after_sha256": "2795acd7283c7f3f115ab97652dbca358f64990d9b7cdc2637e2b60ea3d698bd"
+    },
+    {
+      "path": "quran-reflection/fa/087-al-ala/index.html",
+      "before_sha256": "6facf16328a890966f6520b95fdab54281be972fe94c033b808001a1cc410cfb",
+      "after_sha256": "38aab2f7abd8489bf9182b3eed5f259028990f72952bac6c0bec85facc1b8937"
+    },
+    {
+      "path": "quran-reflection/fa/088-al-ghashiyah/index.html",
+      "before_sha256": "b990f5ae866312aa2c85cf7b656f643552861e3f5876409b81c8bdfdebf23ba2",
+      "after_sha256": "e756350d304373439b96fec5ceb098a8e0b9d7ea2ded0a00678bf89c93f12671"
+    },
+    {
+      "path": "quran-reflection/fa/089-al-fajr/index.html",
+      "before_sha256": "51c50f7a6d23f3c482d8f24dc11513060ca5af9a3d72323c3f1638e1c3159a94",
+      "after_sha256": "dc77e7b9a5823ccb6027ca05d34be92c618409219ffead4609619d0e67d9b469"
+    },
+    {
+      "path": "quran-reflection/fa/090-al-balad/index.html",
+      "before_sha256": "b94166310ed3d389b51b2cb4d86e07507d82d0778250eaf070a636cb01bec575",
+      "after_sha256": "616151bd2ff63ef00e2e6b3ea31951eebd0597ab2b296e5eb6f25b698beb841b"
+    },
+    {
+      "path": "quran-reflection/fa/091-ash-shams/index.html",
+      "before_sha256": "39fda4f48d98c3df05f725294ff5ea29364c0a65d93649c55141916314a47c6b",
+      "after_sha256": "a5c148cbf695c81db288c55131cdd115ae2e83e84ed2490e79312e7caf34152f"
+    },
+    {
+      "path": "quran-reflection/fa/092-al-layl/index.html",
+      "before_sha256": "f3e9ac6aa42b92670d7a9253b2e165cb65b29b6ad903dae5da39b7fc630dccb6",
+      "after_sha256": "66ccd36db5ae9100f4887339fce5a05866d5bb9f8d4726954f6dab08d7c6870c"
+    },
+    {
+      "path": "quran-reflection/fa/093-ad-duha/index.html",
+      "before_sha256": "878a8985f46d443c8e401b6baf1ecff9270c8b35feb3abeddf7c0a3aef4cb260",
+      "after_sha256": "e9e27d8c1df359553f1f38ea2555a5498789fd8c3d3f6fa31a2c3aec6b7b3496"
+    },
+    {
+      "path": "quran-reflection/fa/094-ash-sharh/index.html",
+      "before_sha256": "2a42433d954c991107cbd2a4e58375a6ec0b1e201a39f134c5fddc4233bd31ec",
+      "after_sha256": "777c1ca9d833fd1fd7be04001176ba03748d4c619289c9fd2d994ff246596da4"
+    },
+    {
+      "path": "quran-reflection/fa/095-at-tin/index.html",
+      "before_sha256": "6a806647e1882b1c6dfebaafb513ff0d4e57c39b1b7b63198f8ca122b3c2280a",
+      "after_sha256": "96a69cffa05b23bb5885a187b0f63e14313f267fa6bb1ef56b638f46c8e88cbd"
+    },
+    {
+      "path": "quran-reflection/fa/096-al-alaq/index.html",
+      "before_sha256": "61ecbe6d9033859fd4c9b09102a6a7609828dde79b64b7a0d44230819c4d2133",
+      "after_sha256": "2cd1a47eeb70f10202603474df31ca0922e121d1ec980fd51ca9f6f221e02bd6"
+    },
+    {
+      "path": "quran-reflection/fa/097-al-qadr/index.html",
+      "before_sha256": "3b63ac60fbe442dbfc6c2a6362b402e9134e230e32e63f1a1183d1ebb7d9e41c",
+      "after_sha256": "7a3553a235f4b7e7ae7595a81833a76140141c5056a54d4f7ed6f6a4dcd4f17e"
+    },
+    {
+      "path": "quran-reflection/fa/098-al-bayyinah/index.html",
+      "before_sha256": "f4514b0c2c7dfe6d8f83384b9277319236ece78923ae643f851f634aacf34756",
+      "after_sha256": "b39c2aef3a26b158a16a1d2d2a2f2d336992a42ebd9b2ba744324f7d846601c2"
+    },
+    {
+      "path": "quran-reflection/fa/099-az-zalzalah/index.html",
+      "before_sha256": "87153988fcf5fa2784ce1b434372ed1005959cd51dd11edeae9f21b1b520ca71",
+      "after_sha256": "aa7c4c47cace24c255fccf0ba73a9a4f665a53f4859f207cfc2b1507af302d9f"
+    },
+    {
+      "path": "quran-reflection/fa/100-al-adiyat/index.html",
+      "before_sha256": "af1fed9f26e034f74bec1548ba7afdea55168d38e05356fe46020f4609ddf187",
+      "after_sha256": "82e58e0e9289a4c3168dd6a3f01b000763476523eff9fa9191f3e1d92da4c822"
+    },
+    {
+      "path": "quran-reflection/fa/101-al-qariah/index.html",
+      "before_sha256": "86d163b91389460bdec0318ad876b887d4a5d9e03c89694b672deceb260c3e21",
+      "after_sha256": "8bfc0449c998a40f4c9aa83a87ac7cb849b975de879b5e46ed127fcc42cdf82c"
+    },
+    {
+      "path": "quran-reflection/fa/102-at-takathur/index.html",
+      "before_sha256": "915d7dc53708d3ae88a49db3b0927bc4247bb6afa7d400253ebfccd16aedccfa",
+      "after_sha256": "4a561fadd44799459afdc59bddd2316825e82f8a5c36452a1a7ddae3a8d04738"
+    },
+    {
+      "path": "quran-reflection/fa/103-al-asr/index.html",
+      "before_sha256": "b909c00a3a698eef6ba937f09a93e1be858cb0ecff4e386878dd95d25521d4c9",
+      "after_sha256": "848a949dff794716de29105b2b42251b52757fe5a24af8a0e9e274b2093dc96d"
+    },
+    {
+      "path": "quran-reflection/fa/104-al-humazah/index.html",
+      "before_sha256": "a65a1f9d39a4a0489bc0d79a870d40e0f39d0e048947c441950472a8a38b1f11",
+      "after_sha256": "7894ace1c403eee62308f7cd829ecf26f1269ba7c27455ae6f64ef4b86e674fc"
+    },
+    {
+      "path": "quran-reflection/fa/105-al-fil/index.html",
+      "before_sha256": "40a15c77d8dee2b6917481c1e583a6bfd4d26fc9313572a65d421130f90f070d",
+      "after_sha256": "aecfd924471c26e80ce025dcc84d4e81196db598264591f9e3cd688c56c8d11c"
+    },
+    {
+      "path": "quran-reflection/fa/106-quraysh/index.html",
+      "before_sha256": "e4b4e5800fe1fcc64a9db19c488e6f5d1760af8ae2b46a990191e2d6b1af761f",
+      "after_sha256": "69723457ee08f2eba7708393226685fb2ade821a5c3f04906fb386e93efb88e7"
+    },
+    {
+      "path": "quran-reflection/fa/107-al-maun/index.html",
+      "before_sha256": "dca78073a75e7e75e42b8d0b84ace820eb652c54d9e403e15fdda616f86f00f3",
+      "after_sha256": "daa3836adc2fc99e2eeba0c04f19ffa8f8e20d738eb7f0c5d61862d8d4f924d0"
+    },
+    {
+      "path": "quran-reflection/fa/108-al-kawthar/index.html",
+      "before_sha256": "3c7692f5f89414c9d28cae0fd6b48213092985960b172afa1442c952fb45f349",
+      "after_sha256": "e94fd599099747e01b28086a72f52f16b9229b97a47118d87bd2ad9a442fddc1"
+    },
+    {
+      "path": "quran-reflection/fa/109-al-kafirun/index.html",
+      "before_sha256": "e52741f25d8903e3e5a6376bed1c70e418ee8a066b3d332afd4044d97fda0ad0",
+      "after_sha256": "f0ab8cb8196375f87f55ff89629ad05348f20ee4e0462092efceb85ec709dead"
+    },
+    {
+      "path": "quran-reflection/fa/110-an-nasr/index.html",
+      "before_sha256": "dfd10ee7acb3ac54f49c93674d3a521a5b58b4f040efd4199440d23c1d954c6f",
+      "after_sha256": "7faeb34c7205bd2e193013c9afc630aca2486aca492332511393d5d8820ba486"
+    },
+    {
+      "path": "quran-reflection/fa/111-al-masad/index.html",
+      "before_sha256": "eac60f83564cc8aeb7f39aea20cf3f1cea8592521e5bbede442449d0930dd5f9",
+      "after_sha256": "1a4fdbf9adf18acd17986d68fcd1b88c9e1e2941cdbb4f12842ed9f2239c3fa4"
+    },
+    {
+      "path": "quran-reflection/fa/112-al-ikhlas/index.html",
+      "before_sha256": "9e310bc0de3f8048aab70efb7eb256e247d0a60bc27fa9ea7950eaa94fce347c",
+      "after_sha256": "7cd3eb081515e2c6790cf010f347ba20ffc47b013c0511b01695162efde33404"
+    },
+    {
+      "path": "quran-reflection/fa/113-al-falaq/index.html",
+      "before_sha256": "99ac452d69c156b7aa25e5d1d08f53be9001ea487e0dd5fbbd16869c68653577",
+      "after_sha256": "92b0edc73ec767c07fc4ba8cea789d0e481128808db2678c1b0a620af96b2eff"
+    },
+    {
+      "path": "quran-reflection/fa/114-an-nas/index.html",
+      "before_sha256": "208675fd75a71f2f330ca6ed200303c14aff28cdb861dbbc2586a31c17cac0b8",
+      "after_sha256": "3b4c0fc706d9594860238d2c020cd769661f11c9681384e295aada8d45159336"
+    },
+    {
+      "path": "quran-reflection/en/001-al-fatihah/index.html",
+      "before_sha256": "ce1f31c4b4e2bf13d16172d1e43ef350483c6e2778bb40edf5f24bdac535670b",
+      "after_sha256": "9756ccbc64edc60a3678f70c8501f39fd7a72bb515496abf53f61be39b2278d7"
+    },
+    {
+      "path": "quran-reflection/en/002-al-baqarah/index.html",
+      "before_sha256": "aa304af8001b3be156de18bc40f2577d9752d1ae01ce88e3a04755fc97f58a94",
+      "after_sha256": "3c3f676da7f54c709e64da02d2a02625ecee4688f6a45b0b5eb0e11302231ce1"
+    },
+    {
+      "path": "quran-reflection/en/003-al-imran/index.html",
+      "before_sha256": "3d96b27425f8f5e8e405b77c645e38eda017fff631f4e43f4417874240abbcd3",
+      "after_sha256": "13a3489799a167fa2f6e5aa923916cbd7cde615f7a4dbefa46d0a6679537452c"
+    },
+    {
+      "path": "quran-reflection/en/004-an-nisa/index.html",
+      "before_sha256": "d719876759b238e30d2b80fbc9d209400c70b464d6ccdeb6a9f3d3bcbae442fc",
+      "after_sha256": "7a1653443c55f52734a851c04baa8e045764b2a50b64f8327d6fecd30b1f38e3"
+    },
+    {
+      "path": "quran-reflection/en/005-al-maidah/index.html",
+      "before_sha256": "9458a731ca9beca05fa19b6b8b55016c90d38e910415572b8dd2e4f103214459",
+      "after_sha256": "50177bdf4352a40e376f9dc34fdeaad8f56e8858358eafa198415c0f03a37b00"
+    },
+    {
+      "path": "quran-reflection/en/006-al-anam/index.html",
+      "before_sha256": "02afdf6d7b5c26306c6904301ac49b6a1857ded573eb069131b08d21fb750901",
+      "after_sha256": "0d2e0befcaeecbd82fd99c6a7bbef0d0016f5cc6deeb5e3911ec9c3dc4d99fcd"
+    },
+    {
+      "path": "quran-reflection/en/007-al-araf/index.html",
+      "before_sha256": "e941709fec252259f5b8454048875efbd200e2aa0b5e22fc4551c46b790baad1",
+      "after_sha256": "d07e664b23a212cbb0e8d14c9618d650b45a936e503ea9a8db948eb97f67485b"
+    },
+    {
+      "path": "quran-reflection/en/008-al-anfal/index.html",
+      "before_sha256": "5b9d83a5173bbe76fbfe5a1d4a43465cd7303290a91cb522c3ed58e219984587",
+      "after_sha256": "05663a172c8c4845fb273edfcf6d9ea7bedfb6687b9c753ba0b08e9e446d13e0"
+    },
+    {
+      "path": "quran-reflection/en/010-yunus/index.html",
+      "before_sha256": "6da8e665313866e6bdd661130a1d1040aa23c1c3c9f9344fb073cc7a67c1582f",
+      "after_sha256": "3b3061694696026e586aeb71a00ca5edfbe2c8e6d09f2c178ecbb132b83c109f"
+    },
+    {
+      "path": "quran-reflection/en/011-hud/index.html",
+      "before_sha256": "bef7b87b4bcd662a60a890effe8e6683de02f9e9a5e37a00ec3cb6ca5583b13e",
+      "after_sha256": "45990d97896e99d2924c0492165dad81b28173f19690c46f24d79a16958013a8"
+    },
+    {
+      "path": "quran-reflection/en/012-yusuf/index.html",
+      "before_sha256": "eef673a4a88f77a6e07b033bd297ec5e0e9b16a5801556e69cd1771fbc4f645d",
+      "after_sha256": "d2f69e373e9b1b728ae14a4d94662b8b763ca5d5b6972f412cea02bf1c0d0c9f"
+    },
+    {
+      "path": "quran-reflection/en/013-ar-rad/index.html",
+      "before_sha256": "9e17ee1be54f4ba78a0ace117ab705191b89c3eb81d919f75cf4e0f4838287c2",
+      "after_sha256": "dafe8c7ef3cc86a8c783666ae563cf3cef00dfb3181e00755a5cb7dd3e9c4db2"
+    },
+    {
+      "path": "quran-reflection/en/014-ibrahim/index.html",
+      "before_sha256": "3390d9bc62531939d61a8db7db78007d652b278496eb1ec64a32fbdae0e8fe1f",
+      "after_sha256": "301bfa2754337ade220f89eb434efb25b03e1aad20f1a591b9cb034834423adb"
+    },
+    {
+      "path": "quran-reflection/en/015-al-hijr/index.html",
+      "before_sha256": "2200043b171fe79611337a8b645b1f74e014505f7b1cfafcfe86ac395b11659e",
+      "after_sha256": "6854472f86be85b491f469822eb174e979349178c215e37a3d9392ee74598268"
+    },
+    {
+      "path": "quran-reflection/en/016-an-nahl/index.html",
+      "before_sha256": "00c9359c07df2f4ab372b974b55dff92a05f5179d4236a3387e36f639cfc7835",
+      "after_sha256": "a984529ca0f203bfe3bd8af4f3a24f47db6dc4d595587d82a5f3fdcc4dfe1ee7"
+    },
+    {
+      "path": "quran-reflection/en/017-al-isra/index.html",
+      "before_sha256": "da455c99aa7ae580d688c1179a3a7f01813a79f1b24924cd8a808cf3ecea1a6e",
+      "after_sha256": "a34b44735e25cee9594421f23e411068799550e1bf51ae720094bae1938d242a"
+    },
+    {
+      "path": "quran-reflection/en/018-al-kahf/index.html",
+      "before_sha256": "4d8833afa6893d2ddaa32e119de7864ab5a4178b4d3f1a4a7646d8da8bb23aca",
+      "after_sha256": "52baef64a6c304f19d01059d7544e69113a5e82da4bea4db368d308f82ec63dd"
+    },
+    {
+      "path": "quran-reflection/en/019-maryam/index.html",
+      "before_sha256": "5927e8ec6a99c5334cb170d5f6277e480eac8660c22becf0d51c8b0711fd4230",
+      "after_sha256": "86d6528eacce276f7c803397899da361f7b10ae4146e20ac8fa3e136a2bac5cc"
+    },
+    {
+      "path": "quran-reflection/en/020-ta-ha/index.html",
+      "before_sha256": "b9806e57260c77d2eb4c061ba1d8506aa70145716ecdfb2290b1c9bb69ee0d8a",
+      "after_sha256": "1cbac59df8f91ab27fc18ea1f3369278732cc8c86f6389972fbd7d8f6bc14ffa"
+    },
+    {
+      "path": "quran-reflection/en/021-al-anbiya/index.html",
+      "before_sha256": "fe0c1aa352e7aad3c86ac97462b49288bb7f6951b9a3b6b6bc7a0ceaff19a073",
+      "after_sha256": "f7913f5941e059d4293693bb54cf83fd759cb91a3528e650613c7e4a3ba3b95e"
+    },
+    {
+      "path": "quran-reflection/en/022-al-hajj/index.html",
+      "before_sha256": "bbb889f7ecfcbfeac408c6c37a72ea6e3a9d918eb9c65f72466211316ed3518f",
+      "after_sha256": "60dcb02605d57f7aadccf2255b66af38cf545277f1a6ce801943a0a95c6b8ec7"
+    },
+    {
+      "path": "quran-reflection/en/023-al-muminun/index.html",
+      "before_sha256": "b61050035c0d729412b7ea59c7b84156a3a5e3eaf3421d1f2533a0bbb6594cdd",
+      "after_sha256": "ebbc749fbe70a930b4a4cd90a9afdf7233e7498abff1010b84be8f499e404b75"
+    },
+    {
+      "path": "quran-reflection/en/024-an-nur/index.html",
+      "before_sha256": "67b789b82b2a9d0185f835ebcc7e8bbed882c799a0de185388b4000e87929828",
+      "after_sha256": "9bc86d2da4ac42540f1aa73dae6d4a43ff01c25b1c00e53e0095f4844e5599b3"
+    },
+    {
+      "path": "quran-reflection/en/025-al-furqan/index.html",
+      "before_sha256": "45826a1628773cf65e1350da8bc07bf2871547960a3ecd6fdecaa51a0d217583",
+      "after_sha256": "ab2a40d84b01076afc4fed5dc77e180a7c9a3e86b42e80424deb279b31c8f575"
+    },
+    {
+      "path": "quran-reflection/en/026-ash-shuara/index.html",
+      "before_sha256": "4353f532b6e2355f6913647c072085e25ef84e7cf4eb6db1a6f5b995c776e265",
+      "after_sha256": "893fd31a1cf17f0ba68dd6ce8dcb17e64b6b66653092250e64d8f7568559a1de"
+    },
+    {
+      "path": "quran-reflection/en/027-an-naml/index.html",
+      "before_sha256": "f8db9e27fe9452b3b4c4edab4f6c515885724af325eb0713d70f410437e57eb2",
+      "after_sha256": "c132f17a5885a71bf3e518887a4facb77bf278f474654dcf40a074c23e5b481f"
+    },
+    {
+      "path": "quran-reflection/en/027-an-naml/units/030.html",
+      "before_sha256": "012ef8b8941638a6e64fb2438d595623a273d6723b7aa61132cb150915b1ff1f",
+      "after_sha256": "cd0d4547ce51d7021e0417d9813789310c4596254153377bbd8a332e53199b03"
+    },
+    {
+      "path": "quran-reflection/en/028-al-qasas/index.html",
+      "before_sha256": "454674da7e1457900d3a9c126c204a9a688dd208c83e8db08ef726f2851c864d",
+      "after_sha256": "1b2bfe0b123adf504bf3892af674d2122b09fdc4d80ae76a46feba9c00a6f446"
+    },
+    {
+      "path": "quran-reflection/en/029-al-ankabut/index.html",
+      "before_sha256": "3b442d513beac743ed7a1fdf64548ef8914984c582b27a1ef260a449f21c40bc",
+      "after_sha256": "aa77e5b42595bd13f45ba30f92c5eec6bd52cd3f459dc336c83262b11dd81988"
+    },
+    {
+      "path": "quran-reflection/en/030-ar-rum/index.html",
+      "before_sha256": "ba19395840f2e22155e1969285d1b7b3c2ebd3d46eda6977f74afc3e3aa367b2",
+      "after_sha256": "f51c24cdd97700cbb26ec5514ba60c559eed4bf4d50fc3e38aee08af06387aae"
+    },
+    {
+      "path": "quran-reflection/en/031-luqman/index.html",
+      "before_sha256": "0601d242d89e96c7c26cb07dd4512cc3881a1101aa676f00986d57bf643d2c94",
+      "after_sha256": "49cf95d34da2ece05c11d14c8b74b0896d94a42bdd55f10ced12f9481663d7ef"
+    },
+    {
+      "path": "quran-reflection/en/032-as-sajdah/index.html",
+      "before_sha256": "ab3fa6a9c9820e032b7b8376204be7bd84d5ffad9b0bb14454dfb60e31fa1370",
+      "after_sha256": "4c08b6ffe0176f0deb26dd0193bac728e2c08a62884b28095c959b46c65d1038"
+    },
+    {
+      "path": "quran-reflection/en/033-al-ahzab/index.html",
+      "before_sha256": "85a0b9675a766e2fbe94e341d07619154ebb5e00128826219e2445fe14473fd5",
+      "after_sha256": "c91a68c8051136539a11c581bc2b94699726db180a1782d25c5d2c18be73376b"
+    },
+    {
+      "path": "quran-reflection/en/034-saba/index.html",
+      "before_sha256": "ae522f68092abee3c70306762f25ef8fb311da55b20ea37cce1c0657631bf34d",
+      "after_sha256": "bad424680397c4084f2b86294616e8525f4a15054c06e20b642c5bb73f41005c"
+    },
+    {
+      "path": "quran-reflection/en/035-fatir/index.html",
+      "before_sha256": "930f45037c7a523b049ee52009458d5a86b190416cb81cd81942430c670e37fa",
+      "after_sha256": "76e234d2d39c81d7791ad0ab4804831970dc8a13e0e8176c5658b720f5efa9c6"
+    },
+    {
+      "path": "quran-reflection/en/036-ya-sin/index.html",
+      "before_sha256": "97337eaf9a8a72cf965b82ee1c7835fc9a37808c5395df5fae4129da66c95d3b",
+      "after_sha256": "b47f69582d246060661a35b0912a8f64bccfca80d655fbbf08d1fe1bffba4e4f"
+    },
+    {
+      "path": "quran-reflection/en/037-as-saffat/index.html",
+      "before_sha256": "6444842e4bdd474032988033ce635deac4c6d8f80ce4e4eba908b38ebf13dc4f",
+      "after_sha256": "3bf88a0dd886d586d1c52b76fb0995ec56821cd7da622e7ae46cae7ab34a9333"
+    },
+    {
+      "path": "quran-reflection/en/038-sad/index.html",
+      "before_sha256": "2bbfb3430e6ac18641da6b08933ea954d35342e8a0fb47fa4478b3a458a983ab",
+      "after_sha256": "224e3f220280af7bfcf21432c36f1d4249b482321dc0a6467136473d21f6eee1"
+    },
+    {
+      "path": "quran-reflection/en/039-az-zumar/index.html",
+      "before_sha256": "ecc83d77338313afa924529dab0b5686e1c126ebcdcb5466647f727728368994",
+      "after_sha256": "f866a25d6368cba2f7cc5aef5f60d8b1efc222e14149f9ad098a66210902d592"
+    },
+    {
+      "path": "quran-reflection/en/040-ghafir/index.html",
+      "before_sha256": "eaa7e6ee54aefef06dde1afcb18b0608357191deded17352baa279dd133309d2",
+      "after_sha256": "7f0a5780c09a3f43a285a15af761fd08a6947635a27c6fd88455031d8b171db3"
+    },
+    {
+      "path": "quran-reflection/en/041-fussilat/index.html",
+      "before_sha256": "2beed5802671c6a088f458666ed37add9da5d835f7e763aba5f3170bdc2d79ed",
+      "after_sha256": "7fecca27742958871b84a7d267f433e472e4473c4b579c4d27acda70a7b157f4"
+    },
+    {
+      "path": "quran-reflection/en/042-ash-shura/index.html",
+      "before_sha256": "af9bd357e36e6aa8f07ac6e1f72ba6ecd9dca97bfc42568d3ecb24977ca79c1b",
+      "after_sha256": "a785b267cddf4127055a618296382cb028c03f6d4dbf607936df98a338bc7eaa"
+    },
+    {
+      "path": "quran-reflection/en/043-az-zukhruf/index.html",
+      "before_sha256": "af9faea6b7c5962bd2e0c30a96deab986f31e960de609bfe680a2942ebce7c7f",
+      "after_sha256": "475639d76ea6776412f189744adada79910cd511f81029820bdd75d7e9bd9b44"
+    },
+    {
+      "path": "quran-reflection/en/044-ad-dukhan/index.html",
+      "before_sha256": "4ccb9e9f56b61a7c6f8ae2305f4f75d7f3472738a16c740783577bdd83de7e85",
+      "after_sha256": "0a6dcc554426314313e5fc72cc5fc5731db367488e0449946c7c8da1f75de8d1"
+    },
+    {
+      "path": "quran-reflection/en/045-al-jathiyah/index.html",
+      "before_sha256": "9d0432b372c6ef618262509a33a2896fc1bfd735537c23531df3fa78c4c273d1",
+      "after_sha256": "1f867b30fadec8e9fbc342d346a3557a821b9d7e2c2d8edb436a10ad0b39970e"
+    },
+    {
+      "path": "quran-reflection/en/046-al-ahqaf/index.html",
+      "before_sha256": "bd776dbe5be579cacc2facf0048d13ae55911fac32dc7fb1d3fe846886a03819",
+      "after_sha256": "143a90f775da49768d3e1c70f45ca19fb371bd6629e56da941634d2d7994ae99"
+    },
+    {
+      "path": "quran-reflection/en/047-muhammad/index.html",
+      "before_sha256": "3fd1127985fd0cafa6422b8babdee010a7a1b010785863c79fbf9072cd6cbced",
+      "after_sha256": "abba34325031d6eea21032e91b0f01b99f9dbc3dab8dbdf2e6672e78ebe7a614"
+    },
+    {
+      "path": "quran-reflection/en/048-al-fath/index.html",
+      "before_sha256": "3a858109de64bbca6803c3285248e76a520adc0817d504f2d4b4619f26fa3194",
+      "after_sha256": "d75219308523d2698254ff5464376a1d9b6a34ceb8f649f9ab0883403ee5843e"
+    },
+    {
+      "path": "quran-reflection/en/049-al-hujurat/index.html",
+      "before_sha256": "d0b2c5390c89190ffca19642b27af13f77e9e299ac38e28d0d4ef89a6980a6ed",
+      "after_sha256": "5b75ab2a50ffea90fd3dc2d3ba81d1963af569f3af062b4c60ced7196c046ba4"
+    },
+    {
+      "path": "quran-reflection/en/050-qaf/index.html",
+      "before_sha256": "838f33ed98a619060de5598e325400bcb0fc3f4a79504f4ac2b762150cb1281e",
+      "after_sha256": "157ad568ad17cae8029807bf302fc6fbcc1e280ccdffac10845dde5a4db154ef"
+    },
+    {
+      "path": "quran-reflection/en/051-adh-dhariyat/index.html",
+      "before_sha256": "f126b47bcee984ddcd2eb0bc19959273d958e5e5ad633e91252fb38228bc1f2f",
+      "after_sha256": "60d909bbdd595cc2aa9b6d134eb0a47f9abc80a1479086ac4abbfacf0c4c7b62"
+    },
+    {
+      "path": "quran-reflection/en/052-at-tur/index.html",
+      "before_sha256": "02c434fd986bc24fac2bb49a1a06a17d42b90c6a58b213968c219766ae4e23cd",
+      "after_sha256": "85ef74787711b36e993de82d8e4e232fbe09e48a957518b5a68fad9667cf641e"
+    },
+    {
+      "path": "quran-reflection/en/053-an-najm/index.html",
+      "before_sha256": "e4c66851d3936287700b2776210b73167e7ea5ecf1970de14f03bffeb7e12ed2",
+      "after_sha256": "24c668ee76b3e2ae0a0bc794bd4702ca5cd30ab8f34f7424f0af516558588b0f"
+    },
+    {
+      "path": "quran-reflection/en/054-al-qamar/index.html",
+      "before_sha256": "7de4b80f03c77524fabe258859b190488c231a3a6f1a8baa578b280cd5ab07bd",
+      "after_sha256": "80faa7e6a176c1e985e87263ca2d7e53fa651c89f6e848a8117936d90e02508e"
+    },
+    {
+      "path": "quran-reflection/en/055-ar-rahman/index.html",
+      "before_sha256": "bf335b6399c3b47406aee4398fab2520167bdef4f751f9a5d9b193a2de497720",
+      "after_sha256": "dd0719529009c538e5224842a714ab8c738c5ae3e5e45a5d185982d9ec931f64"
+    },
+    {
+      "path": "quran-reflection/en/056-al-waqiah/index.html",
+      "before_sha256": "fda50f6fb296920baab720592530eebbb22111b217532cc9fd0cad2c362df565",
+      "after_sha256": "d87d70655f827800a4affdb6821bb2c841f47ba4fe777bdea7968d63e462abbc"
+    },
+    {
+      "path": "quran-reflection/en/057-al-hadid/index.html",
+      "before_sha256": "012e815bde929ceb39c8dc734e064a7c7325d3291da36786feb4425d4df0b0c6",
+      "after_sha256": "119ba16b23199bb8b65bd720a09f483180b0dffbc8a4155aab2579e804e4a7c9"
+    },
+    {
+      "path": "quran-reflection/en/058-al-mujadilah/index.html",
+      "before_sha256": "b563a52e92add73331f00a5fe9a7a71eca902c3c91fc74815118c1349a21e05b",
+      "after_sha256": "7203086a0f665b007c0faf072df6e58b5db5cba38822dc4de7a4e4dc613d5eef"
+    },
+    {
+      "path": "quran-reflection/en/059-al-hashr/index.html",
+      "before_sha256": "4c9675376f6b59a94fa0fa8835f289ff310b6af99f8017869dd9c0c0e4cf2461",
+      "after_sha256": "ddaba85abc99e3e58d37a966fdeba0fba587f5ebd50cbfc5e25526fa2cd3c1ba"
+    },
+    {
+      "path": "quran-reflection/en/060-al-mumtahanah/index.html",
+      "before_sha256": "8c18bfbe987c1784b8209faff619bafde8161518511b7c9e2a30424e991fcc5a",
+      "after_sha256": "e39b5c7cd4010527f31fd1dfe4ac54cff45463505abc82b77f2a9fec05081eb3"
+    },
+    {
+      "path": "quran-reflection/en/061-as-saff/index.html",
+      "before_sha256": "647d5f09c0aa125f10f70ee071a934b191dc50bbaf6977125b309cd6f1e58894",
+      "after_sha256": "70956a0c70b1209ef0f5b4cb62366df6a1711a4fe2fed2b1e6114e641833f869"
+    },
+    {
+      "path": "quran-reflection/en/062-al-jumuah/index.html",
+      "before_sha256": "a0562fd4df4019f68760482196d6987fd254330ff1aae0fedd9a32f7e759c650",
+      "after_sha256": "d728c8a483ff8f0dc771d5499acd51f1ece579ccde552a05995604289ad9de5d"
+    },
+    {
+      "path": "quran-reflection/en/063-al-munafiqun/index.html",
+      "before_sha256": "67c6f67b6533eea35dd070ccb09498e5775149601b626a277ebfe119783e1df5",
+      "after_sha256": "e3413ddcad519ccd2846c18eb8d3d9fb4c1a263f05234eea15f7d5cea24256f5"
+    },
+    {
+      "path": "quran-reflection/en/064-at-taghabun/index.html",
+      "before_sha256": "a3644fe0e50389188385b59f12f9a17046c642a3f20053cfee055f3120b2ae32",
+      "after_sha256": "452f92a4ba50600a29039a607ee7bef2ee7b91eb107166cf7d05fe8666b6e7a4"
+    },
+    {
+      "path": "quran-reflection/en/065-at-talaq/index.html",
+      "before_sha256": "d336d6dbc3290573370f00b2d255872b6150e69deee540730a2045126b0486e9",
+      "after_sha256": "244b8c7ad54a99f591df595ee6b7167fcd6d8c72c5a6f851c49859c6df5d3d71"
+    },
+    {
+      "path": "quran-reflection/en/066-at-tahrim/index.html",
+      "before_sha256": "3e2d0ff3823043e17773a76ed4d3e858bdabac6e4a177eddb553fcc00d8e2445",
+      "after_sha256": "d4dcca3e8d078ac922a67ffb38ad911b404fc8a474900b11044a27d3ee38c71e"
+    },
+    {
+      "path": "quran-reflection/en/067-al-mulk/index.html",
+      "before_sha256": "90273dfeef20169d5c5a9b8d0c9bbb9621b2e4feb5b6a155f80a718cb358ef06",
+      "after_sha256": "d3808eb09f821fdc7e456f879ba3da4d74d7e51fd0c5e933194cd2f1a3468839"
+    },
+    {
+      "path": "quran-reflection/en/068-al-qalam/index.html",
+      "before_sha256": "fc349660a8ed734a327248e1436f29a9958359fdf50f3f1e0f46daaf3c95f3ca",
+      "after_sha256": "198cb51fbb8d0f06ef26335afcc78c7b6eca457f60f2171b5f1bff96f37fa382"
+    },
+    {
+      "path": "quran-reflection/en/069-al-haqqah/index.html",
+      "before_sha256": "9c332bf6f7a9d81ca8de017b553c001da9a9252fe73a9553581d3fc84e395c32",
+      "after_sha256": "70426a2488d22fb6c84d0d4e62f8bea5505152648426a1d18d8e230423c12c44"
+    },
+    {
+      "path": "quran-reflection/en/070-al-maarij/index.html",
+      "before_sha256": "d42c1b4e5a1a661d231787f9ba45918b82a297df639f2e2f7adce3c993ee2478",
+      "after_sha256": "baf661bd51fe419be454800a0f2703b4c57b6ae11b986fd0ec34a76e826b3eb1"
+    },
+    {
+      "path": "quran-reflection/en/071-nuh/index.html",
+      "before_sha256": "495322078513808f8613a06d7a1db018e99fd1405bb4b214cac0d21f1111b06c",
+      "after_sha256": "145d97fbf3a649b19193d1bdda5e8a591c1db09a695e4078810c86f1ec72948c"
+    },
+    {
+      "path": "quran-reflection/en/072-al-jinn/index.html",
+      "before_sha256": "87a90cf961d2bc60d0d922f4d06fd7d495d738677b3e855633dde5e2cd7f880e",
+      "after_sha256": "fc8eabc240fb42722aed5f46d2d437b791a772d013888da1492cd8a57827dd39"
+    },
+    {
+      "path": "quran-reflection/en/073-al-muzzammil/index.html",
+      "before_sha256": "1ecd47b4533f0a5f62b833726b7d2910fc99f5f69bd941fe069fb27145e6703b",
+      "after_sha256": "3d7063fe1ba4e14c75002a4043642430f22344bfeb6b9d5eabde7b9144b1b828"
+    },
+    {
+      "path": "quran-reflection/en/074-al-muddaththir/index.html",
+      "before_sha256": "f692af93026b0322ffd7b050d395f2f315b078de7fa4c738b66df174bc48bd48",
+      "after_sha256": "0027d7fcd8c125988c7953892322b130d32884cb6fc7ba37e9e4747173afd654"
+    },
+    {
+      "path": "quran-reflection/en/075-al-qiyamah/index.html",
+      "before_sha256": "3faa87295af16d64452ddbf554f0baf0245f7cda67f57bd7011a177cd15c7da2",
+      "after_sha256": "e8acf14f4108074f047dd455a182aa0708384a4da5553691374d9e8ac2db95e0"
+    },
+    {
+      "path": "quran-reflection/en/076-al-insan/index.html",
+      "before_sha256": "caf674cf9849a8eeba028f36c7433449e9fd6c205ed1eee15ecbc9f633394475",
+      "after_sha256": "7877e87d623f5fcde95878f0415b05ed61d8f6753a457c2207d7464237022737"
+    },
+    {
+      "path": "quran-reflection/en/077-al-mursalat/index.html",
+      "before_sha256": "99cdbb92e027fc05811fe432796d68fd2b4b34a1ad9d5ea65712b0ad68ca3b37",
+      "after_sha256": "fb0a8e036028f9ae9f89ab8af4cff38c0f48a0e1f6f9ab5ddae8ac83422c2589"
+    },
+    {
+      "path": "quran-reflection/en/078-an-naba/index.html",
+      "before_sha256": "3484af2cbdd4aa8c9710be6de8dfc02ed3c436e70f9f8fa5c30874a61782b705",
+      "after_sha256": "154d5ec7959081f24086cbd1f5daf1f6fcb0d1e45374cdc7bda8da45d3bd7564"
+    },
+    {
+      "path": "quran-reflection/en/079-an-naziat/index.html",
+      "before_sha256": "dee5feae7b8e5ca1d0074648d5841786eac676710e9ec0983c7121c6e4c0818f",
+      "after_sha256": "c9cbd1efc2c42c313db640d9556c6dc304a8b282f3e83e925edf19f3eb0393cb"
+    },
+    {
+      "path": "quran-reflection/en/080-abasa/index.html",
+      "before_sha256": "ead5f724ad81dd33e4c0daa5da5b6989fb12796e2ed13a2cc02ed126c635decf",
+      "after_sha256": "73ffe046c8b9b841e485bec985c02ab2ce4d93f5e0781c824ef7bfc3bf8fc7ac"
+    },
+    {
+      "path": "quran-reflection/en/081-at-takwir/index.html",
+      "before_sha256": "430cba2bc8b4356e3b4eaa77488ab7408190a73b2d4ac39c17a82fd6bd36a0c1",
+      "after_sha256": "6e89aac5ab2f9d91e30534c2836f7744dbbabceadb4f5dbea6b73b3fde078d6b"
+    },
+    {
+      "path": "quran-reflection/en/082-al-infitar/index.html",
+      "before_sha256": "a6da263115a24e8019d93e9de710148d13023b04a07220e5634d4f7fb82c2fd4",
+      "after_sha256": "cb10c502ca7248c1151717f30e10eec57287036ea7eb2a7e09d426a05ec97ca0"
+    },
+    {
+      "path": "quran-reflection/en/083-al-mutaffifin/index.html",
+      "before_sha256": "c984f36f59f80493064bc1cddbf6f3ddec4c71afc093faf9545fcecc0db2da29",
+      "after_sha256": "2ca2a11eaa0ac4b069fcadc639dcca9e40de6b24b8e0f04cfc0497054287d98d"
+    },
+    {
+      "path": "quran-reflection/en/084-al-inshiqaq/index.html",
+      "before_sha256": "6826625a41058c8523117121d3ad8bac9276c3e11866254f1861627dfe508c66",
+      "after_sha256": "4dafb03ccca855a95dcbf3d227ccfaf9156432b6eea06ca2eae16be1fb012ae9"
+    },
+    {
+      "path": "quran-reflection/en/085-al-buruj/index.html",
+      "before_sha256": "a7a99cdcbe8ff5d86712a0c51d7d88f83d759d2377f7debab8f73d73277f3c7e",
+      "after_sha256": "5d2929468ff8ac66c804886a69ef2bd741b342354a401e1871f6892ecc89f10a"
+    },
+    {
+      "path": "quran-reflection/en/086-at-tariq/index.html",
+      "before_sha256": "304eac57b1ae66806c556299dc01be491fb2fb71e994fb3151e33f4972b2083b",
+      "after_sha256": "41439eb1881310e7969c639f6fa646bdb35f4076bb8f8a531d0db79ef89d6b2a"
+    },
+    {
+      "path": "quran-reflection/en/087-al-ala/index.html",
+      "before_sha256": "d97990d61d065efdc5e895697ced9a906564ee1fb655878465b31cbf2e72abb4",
+      "after_sha256": "923f8de7c095a13507cab44f895e176fe9fb147315c57854a693ae8da0650e96"
+    },
+    {
+      "path": "quran-reflection/en/088-al-ghashiyah/index.html",
+      "before_sha256": "ab76c7d71336162e22b63bf872ba08998a2623828f0305fe016aa22910f97c3f",
+      "after_sha256": "247b059e371ec4d663e4e61850f78460a3703a45bfe8ab126fa9d0b6591e5a49"
+    },
+    {
+      "path": "quran-reflection/en/089-al-fajr/index.html",
+      "before_sha256": "7a0a5d61146e91225cf4f56ff67d915b7b4f2ee68d861b2515f7dd1092e9d4f7",
+      "after_sha256": "d09302c8fca5c665c40778b497ad47e1707e7a504985efb6d1d079c1f65f8893"
+    },
+    {
+      "path": "quran-reflection/en/090-al-balad/index.html",
+      "before_sha256": "68c0f1c640887276abdd7ae5657e75a8c917512e3f08c40bf82fbf1dfcf51461",
+      "after_sha256": "6ecbf15ee7d7127916df5bfa052389fc755844846047055e4bc217e9604a948d"
+    },
+    {
+      "path": "quran-reflection/en/091-ash-shams/index.html",
+      "before_sha256": "0424af1776071795aeed94cbce5acd9afb9345c7671b12bdbf0328db3a1e87a2",
+      "after_sha256": "cafe900d824e6ce39cd51302c1f3b8c9a164f215d5d18e6f988c57f304af5549"
+    },
+    {
+      "path": "quran-reflection/en/092-al-layl/index.html",
+      "before_sha256": "f256ca53299c6877fee366e34ada160c3c38ead934739d5d875267051caf3e6b",
+      "after_sha256": "81ca0eb4a7898bdf52e263474a3c5c44969d0d5e2e4b9af3960d1fbcc9aaad21"
+    },
+    {
+      "path": "quran-reflection/en/093-ad-duha/index.html",
+      "before_sha256": "3d01af0898cd3bf6990ecb55eeedc5f94301f83081c00ff292f2237810330a0a",
+      "after_sha256": "799c771a6b9edd14d75d840d9bb8794a5e4970196e8d07028a82ef7e9a18fbb5"
+    },
+    {
+      "path": "quran-reflection/en/094-ash-sharh/index.html",
+      "before_sha256": "7defb39887485dda659a1f1267bf6ff720a63a9b1d46b32de3da9d19b09618ca",
+      "after_sha256": "71d5408f8f6c3279f885101b2fb917d12f1bd146b07b2b766dde35ae970075e9"
+    },
+    {
+      "path": "quran-reflection/en/095-at-tin/index.html",
+      "before_sha256": "9a0604a5fc48b1ea704f4cffd57eadd79bfd7d52110d88088f58725d386a0fff",
+      "after_sha256": "1055d7f1e567017008a92a5e85de7887b6c5b4a1a59d257940b7ea547ee05f3c"
+    },
+    {
+      "path": "quran-reflection/en/096-al-alaq/index.html",
+      "before_sha256": "a0dcd6cea9bd2fd853cdb3fb1615749c5b029b13eabd0746c3be75a22bf0b663",
+      "after_sha256": "aee7632d0c78f1ba2024cb4a759c696156fc13d1ffccfde57bcb7aa620485e2e"
+    },
+    {
+      "path": "quran-reflection/en/097-al-qadr/index.html",
+      "before_sha256": "bb948a8d780286323b84fba9651b6a40a08dd380ae97b2210d83e730fcfb793f",
+      "after_sha256": "f6db59539ad7d92aaee900078717b2a096620e14a8523892c798123365064d3c"
+    },
+    {
+      "path": "quran-reflection/en/098-al-bayyinah/index.html",
+      "before_sha256": "c4e5bebf68dd581ab76c39ef305362cfb95bac2a6d9ed8676be2d81b0dd8ceec",
+      "after_sha256": "5bf68f3c41003641daf201da024b7cee605206d26299d602788970b238760888"
+    },
+    {
+      "path": "quran-reflection/en/099-az-zalzalah/index.html",
+      "before_sha256": "6f09c9381a75765e408dfe7bd731155446677010f1d1ecfafcd3f55a359eebe5",
+      "after_sha256": "39b7fa543220ece8e64f0180ef87cd5119fb2bc0b98caff539d397a069023e83"
+    },
+    {
+      "path": "quran-reflection/en/100-al-adiyat/index.html",
+      "before_sha256": "94c3e150eb55b76d72cb032892f7115efa5260e62e11f92f3100de8e7a71fb39",
+      "after_sha256": "aa4ba17749bb7f710e7cf36b35336e0645784b194ed0b8fb0b8f1004f2290f61"
+    },
+    {
+      "path": "quran-reflection/en/101-al-qariah/index.html",
+      "before_sha256": "0553b88f96c096fef292d56484598e67d6d3af7f35a4f61a747a7f6114b7a367",
+      "after_sha256": "71559f9b2de223b23fd4bbe0854c668a27ac42fd862bfffc753eff6c918e2e49"
+    },
+    {
+      "path": "quran-reflection/en/102-at-takathur/index.html",
+      "before_sha256": "02d7d423e64a53a9c958a9eaf689fc9aabca3ec6581ce6296f6c13c6b9c4062e",
+      "after_sha256": "0afa0dac22366134cc433d4ac49a47232ec84113f930b5b98ada36d202021fbd"
+    },
+    {
+      "path": "quran-reflection/en/103-al-asr/index.html",
+      "before_sha256": "5ce2a30afc5cdbaebc4b56c72b8df470b623c9b8d70a74896c8d9bc11dd54a78",
+      "after_sha256": "0e75e223853ff77ff889600f2cc8935438f6103ed349efc5d2d024d95a2152a2"
+    },
+    {
+      "path": "quran-reflection/en/104-al-humazah/index.html",
+      "before_sha256": "23cd1d26cca5024bb9d7c357aaefb0455387c69be91cf17fda4eaa10a786ea7f",
+      "after_sha256": "161b52a37c8ba9708c0f9af82ce5163b22c3e2566398fdce4f09756e655da2fc"
+    },
+    {
+      "path": "quran-reflection/en/105-al-fil/index.html",
+      "before_sha256": "7b2d4ccc4d7d74807002bf231b43d666bae39b3c936b270c8ef4c4b3f7a5212b",
+      "after_sha256": "8a4052414d6685d65b3582682e227be362d61dd3a61ee63fe043d6077cbff4ed"
+    },
+    {
+      "path": "quran-reflection/en/106-quraysh/index.html",
+      "before_sha256": "190ab90355bfaacb94ea7e54c9404421a562e1a5287addd334b71cb5ed36f7f6",
+      "after_sha256": "aba3f613dffee29c0485797e953fba5c98fcf668603171b9feadfa382e25aea3"
+    },
+    {
+      "path": "quran-reflection/en/107-al-maun/index.html",
+      "before_sha256": "90e226b422e11ae6531577c94b9b49d769db132db6cea76d2e3ffb5143e5fe36",
+      "after_sha256": "57fdf918fd67e793feae9a4240a35d7e96f215b871beb42ddef6097c4f6f4b7f"
+    },
+    {
+      "path": "quran-reflection/en/108-al-kawthar/index.html",
+      "before_sha256": "28b8c5670ec9c133f7c59f056ff6bf17ac8725d002552eca7da113a15f173022",
+      "after_sha256": "149f55b28a6feb7c90c2a29f228a001e54ffe79a292ab950cdb7f35c82ee343a"
+    },
+    {
+      "path": "quran-reflection/en/109-al-kafirun/index.html",
+      "before_sha256": "7ae24c62bba5455cc19a6de2783923d0c87817aa0e5431f0b85de9cb286b3f4b",
+      "after_sha256": "d5a17e7f92054e8b4669fafb64d21e418ecded61bc81281b69661fb560a2ef9c"
+    },
+    {
+      "path": "quran-reflection/en/110-an-nasr/index.html",
+      "before_sha256": "0bd50aeddd814523ec0e41868214123c174ff72ac01b99f3bce0766e392c5397",
+      "after_sha256": "cc30c0c8a14882e67057ffe96b028618efe02eb241c78379de208221b7f53772"
+    },
+    {
+      "path": "quran-reflection/en/111-al-masad/index.html",
+      "before_sha256": "39919a7eb54ecd01ac000ad7caedfcaf4f6226da7abe2cd4d5db83335d4b7878",
+      "after_sha256": "8846d052dd1cda2609f18dd307615827ff467177512e9aee7340669525143ee0"
+    },
+    {
+      "path": "quran-reflection/en/112-al-ikhlas/index.html",
+      "before_sha256": "d4b4e03a6a6041d19a6e3114d31a971896c3ffd2b8c37d121ba5a64bb68b916e",
+      "after_sha256": "28d9ab5142ee961834eac6131219e80d5a1feed4bf172aff9f7e0fcd25b517c9"
+    },
+    {
+      "path": "quran-reflection/en/113-al-falaq/index.html",
+      "before_sha256": "3c2d48cb1f985dcb1e80e9a56759d1e19b0b635e6005fc15932e002e3eca54bc",
+      "after_sha256": "460ea42e096da924c691b7d2f62a59030fced36dbf5f537d8e3e8569792d9b29"
+    },
+    {
+      "path": "quran-reflection/en/114-an-nas/index.html",
+      "before_sha256": "1026ec091d4b8c1afc9245b6817afa2563e015dff4a655c597837d0f7e4dc747",
+      "after_sha256": "3afb25ed79c8129abfda80db1cf6927a4209b9c60d267329745d653d792bbd54"
+    }
+  ],
+  "scope": "All Quran reflection basmalas, including Al-Fatihah 1:1, Al-Baqarah opening and Al-Naml 27:30. No new opening in Al-Tawbah.",
+  "counts": {
+    "opening_basmalas_per_language": 113,
+    "embedded_basmalas_per_language": 1,
+    "word_boxes_per_language": 456,
+    "total_word_boxes": 912,
+    "files_changed": 228
+  },
+  "verification": {
+    "stage": "Before installation",
+    "all_box_templates_match": true,
+    "exact_approved_translations": true,
+    "all_root_links_exist": true,
+    "Arabic_preserved": true,
+    "all_other_content_preserved": true,
+    "no_build_or_browser_tests": true
+  },
+  "installation": {
+    "status": "installed locally",
+    "committed": false,
+    "pushed": false,
+    "post_installation_tests_run": false
+  }
+}
