@@ -76,7 +76,7 @@ import {normalize as normalizeSearch} from './search-utils.mjs';
     const title=study.querySelector('h1');const hero=title?.closest('header,.root-hero,.surah-header-block');(hero||title||study.firstElementChild).insertAdjacentElement('afterend',contents);
   }
   const paragraphs=Array.from(study.querySelectorAll('p,li')).filter(p=>!p.closest('.library-toc,nav') && !p.querySelector('p,li') && p.textContent.trim().length>15);
-  if(paragraphs.length>10){
+  if(study.dataset.studyFind!=='false' && paragraphs.length>10){
     const form=document.createElement('form');form.className='library-find';form.dataset.pagefindIgnore='';
     const input=document.createElement('input');input.type='search';input.placeholder=fa?'جستجو در این مطالعه…':'Find in this study…';input.setAttribute('aria-label',input.placeholder);input.dir='auto';
     const button=document.createElement('button');button.type='submit';button.textContent=fa?'بعدی':'Find next';
