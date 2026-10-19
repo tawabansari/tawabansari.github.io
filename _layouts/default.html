@@ -1715,7 +1715,20 @@
     }
 
 
-    /* ROOT INDEX HYBRID TOOLS — scoped only to roots index pages */
+    // Mobile browser controls and the keyboard can resize the visible viewport
+  // without changing the layout viewport used by desktop positioning.
+  if (window.visualViewport) {
+    const repositionMobileRoot = function () {
+      if (window.matchMedia('(max-width: 720px)').matches &&
+          activeWord && popover.classList.contains('show')) {
+        positionRootPopover(activeWord);
+      }
+    };
+    window.visualViewport.addEventListener('resize', repositionMobileRoot, { passive: true });
+    window.visualViewport.addEventListener('scroll', repositionMobileRoot, { passive: true });
+  }
+
+  /* ROOT INDEX HYBRID TOOLS — scoped only to roots index pages */
     .root-index-page {
       max-width: 1040px;
       margin: 0 auto;
@@ -3944,11 +3957,17 @@
     if (window.matchMedia('(max-width: 720px)').matches) {
       popover.style.left = '';
       popover.style.top = '';
-      popover.style.setProperty('--root-popover-height', Math.min(available, window.innerHeight * 0.72, 560) + 'px');
-      if (!useBelow) {
-        popover.style.setProperty('--root-popover-top', margin + 'px');
-        popover.style.setProperty('--root-popover-bottom', 'auto');
-      }
+      // Phones use a bottom sheet within the visible screen, independent of
+      // the verse's position. Desktop's source-avoiding placement stays below.
+      const viewport = window.visualViewport;
+      const visibleHeight = viewport ? viewport.height : window.innerHeight;
+      const visibleBottom = viewport ? viewport.offsetTop + viewport.height : window.innerHeight;
+      const obscuredBottom = Math.max(0, window.innerHeight - visibleBottom);
+      popover.style.setProperty('--root-popover-top', 'auto');
+      popover.style.setProperty('--root-popover-bottom',
+        'calc(' + obscuredBottom + 'px + max(12px, env(safe-area-inset-bottom)))');
+      popover.style.setProperty('--root-popover-height',
+        Math.max(0, Math.min(visibleHeight * 0.72, visibleHeight - margin * 2, 560)) + 'px');
       return;
     }
 
@@ -4308,6 +4327,19 @@
     },
     { passive: true }
   );
+
+  // Mobile browser controls and the keyboard can resize the visible viewport
+  // without changing the layout viewport used by desktop positioning.
+  if (window.visualViewport) {
+    const repositionMobileRoot = function () {
+      if (window.matchMedia('(max-width: 720px)').matches &&
+          activeWord && popover.classList.contains('show')) {
+        positionRootPopover(activeWord);
+      }
+    };
+    window.visualViewport.addEventListener('resize', repositionMobileRoot, { passive: true });
+    window.visualViewport.addEventListener('scroll', repositionMobileRoot, { passive: true });
+  }
 
   /* ROOT INDEX HYBRID TOOLS — scoped only to roots index pages */
   (function () {
