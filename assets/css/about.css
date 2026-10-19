@@ -73,6 +73,27 @@ body.dark-theme .forqan-about {
   --about-card: linear-gradient(90deg, rgba(214, 178, 109, .13), rgba(23, 32, 51, .92) 44%, rgba(214, 178, 109, .06));
   box-shadow: 0 12px 34px rgba(0, 0, 0, .18), inset 0 1px 0 rgba(255, 255, 255, .05);
 }
+.forqan-about .about-prayer {
+  margin-top: 3rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  border: 1px solid var(--about-border);
+  border-radius: 2rem 2rem .75rem .75rem;
+  background: linear-gradient(180deg, var(--about-soft), transparent 18rem);
+}
+.forqan-about .about-prayer h2 { text-align: center; }
+.forqan-about .prayer-introduction { margin-bottom: 2rem; }
+.forqan-about .prayer-pair { margin-block: 0 1.8rem; break-inside: avoid; }
+.forqan-about .prayer-pair:last-child { margin-bottom: 0; }
+.forqan-about .prayer-arabic {
+  font-family: "Amiri Quran Colored", "Amiri Quran", serif;
+  font-size: clamp(1.45rem, 3vw, 1.8rem);
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2.2;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+.forqan-about .prayer-translation { text-align: center; margin-bottom: 0; line-height: 1.9; }
 @media (max-width: 720px) {
   .forqan-about { width: calc(100% - 1.5rem); margin-block: 1.5rem 3rem; border-radius: 1.1rem; line-height: 1.85; }
   .forqan-about[dir="rtl"] { line-height: 1.95; }
