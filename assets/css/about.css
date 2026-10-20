@@ -44,6 +44,20 @@
 .forqan-about .about-lead { font-size: 1.2rem; color: var(--about-accent); font-weight: 650; }
 .forqan-about section { margin-top: 2rem; padding-top: 1.6rem; border-top: 1px solid var(--about-border); scroll-margin-top: 6rem; }
 .forqan-about h2 { margin: 0 0 1rem; color: var(--about-accent); font-size: 1.35rem; line-height: 1.5; }
+.about-overview > section:not(.about-prayer) > h2 {
+  text-align: center;
+  text-wrap: balance;
+}
+.about-overview > section:not(.about-prayer) > h2::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 2px;
+  margin: .65rem auto 0;
+  border-radius: 2px;
+  background: var(--about-accent);
+  opacity: .7;
+}
 .forqan-about p { margin: 0 0 1rem; color: var(--about-text); }
 .forqan-about li { margin-block: .5rem; }
 .forqan-about a { color: var(--about-accent); text-underline-offset: .25em; text-decoration-thickness: 1px; }
