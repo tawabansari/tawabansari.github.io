@@ -660,15 +660,15 @@
   "a-s-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-s-f/",
-      "title": "ریشهٔ أ س ف",
-      "summary": "اندوه و دریغ شدید، و در برخی سیاق‌ها خشمِ همراه آن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ س ف",
+      "summary": "اندوه، دریغ یا برآشفتگی شدید در برابر امری ناگوار؛ حالتی که می‌تواند از فقدان و ناکامی برخیزد یا در واکنش به رفتار ناپسند به صورت خشم آشکار شود. در قرآن، أَسَف و أَسِف در سیاق‌های انسانی بر اندوه عمیق، آزردگی یا خشم دلالت دارند و آسَفَ در کاربرد الهی به خشمگین ساختن مربوط است. تعیین معنای دقیق هر صورت به ساختمان جمله، متعلق احساس و سیاق آیه وابسته است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-s-f/",
-      "title": "The Root A S F",
-      "summary": "Deep sorrow or regret, and in some contexts anger accompanying it.",
-      "status": "preliminary"
+      "title": "Qur’anic Root أ س ف",
+      "summary": "Intense grief, sorrow or agitation at an unwelcome matter: a state that may arise from loss or an unfulfilled desire, or appear as anger in response to objectionable conduct. In the Qur’an, أَسَف and أَسِف in human settings denote deep grief, distress or anger; آسَفَ in the divine occurrence concerns provoking to anger. The precise meaning of each form depends on the sentence’s structure, the object of the feeling and the verse’s context.",
+      "status": "published"
     }
   },
   "a-s-n": {
