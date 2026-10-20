@@ -86,15 +86,15 @@
   "a-d-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-d-d/",
-      "title": "ریشهٔ أ د د",
-      "summary": "إدّ: امری بسیار سنگین، هولناک و ناپسند؛ در کاربردهای دیگر، صدای شدید نیز مطرح است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ د د",
+      "summary": "إِدّ، وصف امری بسیار بزرگ، سخت، شگفت یا هولناک است که در سیاق نکوهش می‌تواند به کاری به‌شدت ناروا و تکان‌دهنده اشاره کند. شاخه‌های دیگر ریشه با شدت نیرو، صدا و بعضی حرکات ارتباط دارند، اما این معانی در مریم ۱۹:۸۹ جای وصف هولناکی را نمی‌گیرند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-d-d/",
-      "title": "The Root A D D",
-      "summary": "Idd: something grievous, shocking, or abhorrent; other uses concern a loud, intense sound.",
-      "status": "preliminary"
+      "title": "Qur’anic Root A D D",
+      "summary": "idd describes something exceptionally great, difficult, astonishing, or appalling; in a condemnatory context, it can characterize something profoundly wrongful and shocking. Other branches concern intensity of strength, sound, and certain movements, but these meanings do not replace the description of horror in Maryam 19:89.",
+      "status": "published"
     }
   },
   "a-d-m": {

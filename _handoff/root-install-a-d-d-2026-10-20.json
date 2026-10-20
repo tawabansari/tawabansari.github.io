@@ -1,0 +1,162 @@
+{
+  "root": "أ د د",
+  "slug": "a-d-d",
+  "date": "2026-10-20",
+  "status": "installed locally",
+  "files": [
+    "quran-terminology/fa/roots/a-d-d/index.html",
+    "quran-terminology/en/roots/a-d-d/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/019-maryam/units/089.html",
+    "quran-reflection/en/019-maryam/units/089.html",
+    "_handoff/root-install-a-d-d-2026-10-20.json"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/a2967b98-6290-49ba-8970-768aa3053bd7/Pasted text.txt",
+  "source_blocks_per_language": 248,
+  "sections_per_language": 7,
+  "morphology_cards_per_language": 9,
+  "quranic_occurrences": [
+    "19:89"
+  ],
+  "corpus_token": "19:89:4",
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/019-maryam/units/089.html",
+      "verse": "19:89",
+      "boxes": 1,
+      "brief": "بسیار هولناک و ناروا؛ وصف امری بزرگ و تکان‌دهنده. در این آیه، وصف ادعای نسبت دادن فرزند به رحمان."
+    },
+    {
+      "file": "quran-reflection/en/019-maryam/units/089.html",
+      "verse": "19:89",
+      "boxes": 1,
+      "brief": "profoundly appalling and wrongful; describing a grave and shocking matter. In this verse, it qualifies the claim attributing a child to Al-Raḥmān."
+    }
+  ],
+  "Allah_boxes_present_in_target_verse": 0,
+  "persian_edits": [
+    {
+      "block": 16,
+      "before": "این صورت‌ها در قرآن نیامده‌اند. تنها «إِدًّا» در مریم ۱۹:۸۹ حضور دارد.",
+      "after": "به‌جز «إِدّ»، که به صورت منصوب «إِدًّا» در مریم ۱۹:۸۹ آمده، دیگر صورت‌های این فهرست در قرآن نیامده‌اند."
+    },
+    {
+      "block": 45,
+      "before": "در مریم ۱۹:۸۹، سخن از ادعایی درباره خداوند است؛ نه سیل، جنگ، بیماری یا رخدادی جسمانی.",
+      "after": "در مریم ۱۹:۸۹، سخن از ادعایی درباره آن معبود یگانه است؛ نه سیل، جنگ، بیماری یا رخدادی جسمانی."
+    },
+    {
+      "block": 49,
+      "before": "ابن فارس در *مقاییس اللغة*، بیتی را در همین زمینه نقل می‌کند:",
+      "after": "ابن فارس در *مقاییس اللغة*، بیتی را در همین زمینه با ضبط «شِرَّةً» نقل می‌کند. صورت «شِدَّةً» که در زیر می‌آید، در *لسان العرب* ثبت شده است. شاعر و زمان دقیق سرایش در این نقل‌ها مشخص نیست:"
+    },
+    {
+      "block": 52,
+      "before": "در این شاهد، «أَدًّا» کنار «شِدَّةً» آمده و میدان نیروی جسمانی و سختی را بیان می‌کند.",
+      "after": "در صورت نقل‌شده در اینجا، «أَدًّا» کنار «شِدَّةً» آمده و میدان نیروی جسمانی و سختی را بیان می‌کند. در ضبط «شِرَّةً» نیز تندی، شور و نیروی سرکش برجسته است؛ این اختلاف ضبط، معنای «أَدّ» به عنوان نیرو را تغییر نمی‌دهد."
+    },
+    {
+      "block": 91,
+      "before": "برای شناخت مصداق گویندگان، باید آیات پیش و پس و دیگر آیات مربوط به نسبت دادن فرزند به خداوند بررسی شوند.",
+      "after": "برای شناخت مصداق گویندگان، باید آیات پیش و پس و دیگر آیات مربوط به نسبت دادن فرزند به آن معبود یگانه بررسی شوند."
+    },
+    {
+      "block": 95,
+      "before": "در آیات دیگر قرآن، نسبت دادن فرزند به خداوند در زمینه‌های متفاوت مطرح شده است؛ از جمله در بقره ۲:۱۱۶، توبه ۹:۳۰، یونس ۱۰:۶۸ و آیات مربوط به نسبت دادن دختران یا فرشتگان به خداوند.",
+      "after": "در آیات دیگر قرآن، نسبت دادن فرزند به آن معبود یگانه در زمینه‌های متفاوت مطرح شده است؛ از جمله در بقره ۲:۱۱۶، توبه ۹:۳۰، یونس ۱۰:۶۸ و آیات مربوط به نسبت دادن دختران یا فرشتگان به آن معبود یگانه."
+    },
+    {
+      "block": 140,
+      "before": "پس «إِدّ» در اینجا وصف بزرگی و ناروایی ادعایی توحیدی است؛ نه نام یک حادثه طبیعی.",
+      "after": "پس «إِدّ» در اینجا وصف بزرگی و ناروایی ادعای نسبت‌دادن فرزند به رحمان است؛ نه نام یک حادثه طبیعی."
+    },
+    {
+      "block": 156,
+      "before": "این آیه، در ادامه رد نسبت فرزند به خداوند، جایگاه آفریدگان را بیان می‌کند.",
+      "after": "این آیه، در ادامه رد نسبت فرزند به آن معبود یگانه، جایگاه آفریدگان را بیان می‌کند."
+    },
+    {
+      "block": 157,
+      "before": "از این جهت، هولناکی ادعای پیشین در شبکه‌ای از آیات مربوط به یگانگی خداوند و نسبت آفریدگان با او قرار گرفته است.",
+      "after": "از این جهت، هولناکی ادعای پیشین در شبکه‌ای از آیات مربوط به یگانگی آن معبود یگانه و نسبت آفریدگان با او قرار گرفته است."
+    },
+    {
+      "block": 184,
+      "before": "در مریم ۱۹:۸۹، «إِدّ» درباره ادعایی مربوط به خداوند به کار رفته است.",
+      "after": "در مریم ۱۹:۸۹، «إِدّ» درباره ادعایی مربوط به آن معبود یگانه به کار رفته است."
+    },
+    {
+      "block": 185,
+      "before": "در کهف ۱۸:۷۱ و ۱۸:۷۴، واژه‌های دیگر در واکنش موسی به رخدادهایی مشخص آمده‌اند.",
+      "after": "در کهف ۱۸:۷۱ و کهف ۱۸:۷۴، واژه‌های دیگر در واکنش موسی به رخدادهایی مشخص آمده‌اند."
+    }
+  ],
+  "corrections": [
+    "Excepted the attested idd/iddan from the list’s blanket statement that its forms do not occur in the Qur’an.",
+    "Corrected the erroneous characterization of attributing a child as a monotheistic claim; identified the actual claim explicitly.",
+    "Preserved the supplied shiddah poetic reading attested in Lisān al-ʿArab, distinguished it from shirrah in Ibn Fāris, and qualified the unknown authorship and date.",
+    "Repeated the Al-Kahf chapter name so both 18:71 and 18:74 receive separate verified verse links.",
+    "Applied established Persian divine naming outside Arabic quotations."
+  ],
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=Add",
+      "use": "Single masculine singular indefinite accusative adjective at 19:89:4; corroborated against cached QAC morphology."
+    },
+    {
+      "url": "https://arabiclexicon.hawramani.com/أدد/",
+      "use": "Primary lexicon transcriptions: Lisān al-ʿArab, Al-Muḥkam, Al-Ṣiḥāḥ and Tāj al-ʿArūs; lexical branches, plurals, verb vocalizations, and the shiddah poetic reading."
+    },
+    {
+      "url": "https://quranpedia.app/uloom/maqayees/w/a2d0.html",
+      "use": "Ibn Fāris: intensity/greatness and the separate bolting branch; strength poem with shirrah rather than shiddah."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura19-aya89.html",
+      "use": "Al-Ṭabarī: meaning and context of iddan, and the anonymous rajaz witness combining nukr, dāhiyah, idd, and imr."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura19-aya89.html",
+      "use": "Al-Qurṭubī: severity, lexical comparisons, and the reported awd connection."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/b/3687/14?lang=ar",
+      "use": "Al-Rāghib’s Al-Mufradāt: proposed semantic connection between idd and the camel’s reverberating moan and clamor."
+    }
+  ],
+  "original_sha256": {
+    "quran-terminology/fa/roots/a-d-d/index.html": null,
+    "quran-terminology/en/roots/a-d-d/index.html": null,
+    "_data/quran-root-studies.json": "abcb2ffd00999cd8085135906a3248c316528af653a369bd947f4635ab4dd8ce",
+    "quran-reflection/fa/019-maryam/units/089.html": "e043f71c4bffb744f4f04e84a578601ace48d0f6ba9999ffa5108fa10c98fd42",
+    "quran-reflection/en/019-maryam/units/089.html": "c047213bbae38fa21ffc41407143defd49ea8846181d42b1a0691930d5968e8d"
+  },
+  "protected_sha256": {
+    "AGENTS.md": "73e9d17b8a07b275e364c8c715088c44fd5f3614afe09cf877ed1c186ecdac91",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "verification": {
+    "stage": "before installation",
+    "all_248_source_blocks_rendered_per_language": true,
+    "all_12_Arabic_quotes_preserved_exactly": true,
+    "ten_full_Quranic_quotations_match_installed_verses": true,
+    "single_accusative_adjective_occurrence_confirmed_at_19_89_4": true,
+    "seven_sections_nine_cards_23_subheadings_per_language": true,
+    "unique_ids_and_resolved_navigation": true,
+    "individually_verified_verse_targets": 22,
+    "verified_existing_related_root_targets": 14,
+    "no_Persian_digits_or_letters_in_English": true,
+    "only_a_d_d_registry_record_changed": true,
+    "only_two_a_d_d_popovers_changed": true,
+    "verse_Arabic_translations_and_other_boxes_unchanged": true,
+    "preexisting_changes_preserved": true,
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false,
+    "standalone_preview": "Passed before installation: Persian light-mode morphology cards and strength/poetry section; English dark-mode Qur’anic quotations and translations. Local preview tab and server closed.",
+    "whitespace_check": "Passed before installation for intended tracked diff and prepared new/changed lines; preexisting Tanzil copyright whitespace preserved."
+  },
+  "installation_method": "Prepared files validated before atomic replacement; no post-installation tests."
+}
