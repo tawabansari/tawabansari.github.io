@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-20",
+  "root": "ك ف أ",
+  "slug": "k-f-a",
+  "source_attachment": "/Users/tawab/.codex/attachments/e6c2cfcc-05b9-48d5-af8c-ee22caf9c69e/Pasted text.txt",
+  "content_blocks_per_language": 325,
+  "main_sections": 11,
+  "cards_per_language": 7,
+  "quranic_occurrences": 1,
+  "quranic_location": "112:4:4",
+  "content_changes": [
+    "Standardized Persian explanatory references to the true God as آن معبود یگانه; Arabic quotations preserved.",
+    "Created a full English conceptual mirror, with language-specific translation guidance."
+  ],
+  "index_entries": "Existing k-f-a destinations in both root indexes verified; unchanged.",
+  "registry": "Only k-f-a changed from preliminary to published, with the supplied brief definition.",
+  "verse_metadata": "Only the two k-f-a boxes in 112:4: removed obsolete preliminary note and installed supplied brief meaning; word, root, URL, verse Arabic, translations, and other context unchanged.",
+  "sources": [
+    {
+      "work": "Quranic Arabic Corpus morphology 0.4",
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=kfA",
+      "location": "112:4:4:1"
+    },
+    {
+      "work": "Maqāyīs al-Lughah, K F ʾ",
+      "reference": "https://github.com/OpenITI/0400AH/blob/master/data/0395IbnFarisQazwini/0395IbnFarisQazwini.MucjamMaqayis/0395IbnFarisQazwini.MucjamMaqayis.Shamela0021710-ara1#L36932"
+    },
+    {
+      "work": "Al-Ṣiḥāḥ, K F ʾ",
+      "reference": "https://github.com/OpenITI/0400AH/blob/master/data/0393IbnHammadJawhari/0393IbnHammadJawhari.SihahTajLugha/0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1#L1993"
+    },
+    {
+      "work": "Poem attributed to Al-Nābighah al-Dhubyānī",
+      "url": "https://www.aldiwan.net/poem2003.html"
+    },
+    {
+      "work": "Dīwān Ḥassān ibn Thābit, poem and surrounding context",
+      "url": "https://ablibrary.net/book_content/b/14694/66?lang=ar"
+    }
+  ],
+  "files": [
+    "_data/quran-root-studies.json",
+    "quran-reflection/en/112-al-ikhlas/units/004.html",
+    "quran-reflection/fa/112-al-ikhlas/units/004.html",
+    "quran-terminology/en/roots/k-f-a/index.html",
+    "quran-terminology/fa/roots/k-f-a/index.html"
+  ],
+  "original_sha256": {
+    "_data/quran-root-studies.json": "4aba78155893f152c74134f293ff9de148dece70632399e300c57966f6ba1685",
+    "quran-reflection/en/112-al-ikhlas/units/004.html": "70b94c1ca56a3eac7aa29caa4238f40b787ddcddbdc2ac8d70675b3afadf412f",
+    "quran-reflection/fa/112-al-ikhlas/units/004.html": "e19ee31a5d9fd6f5b1e9a010b3a2d09cc3cf164d2228f204501c289b74774b3b",
+    "quran-terminology/en/roots/k-f-a/index.html": null,
+    "quran-terminology/fa/roots/k-f-a/index.html": null
+  },
+  "index_sha256": {
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50"
+  },
+  "verification": {
+    "stage": "before installation",
+    "all_325_source_blocks_preserved_in_each_language": true,
+    "persian_changes_only_standard_divine_name": true,
+    "arabic_quotes_preserved_exactly": true,
+    "sole_quranic_occurrence_confirmed": true,
+    "unique_ids_and_resolved_cards_and_contents": true,
+    "verse_targets_individually_verified": 14,
+    "existing_root_index_targets_verified": true,
+    "no_persian_digits_in_english": true,
+    "verse_arabic_translations_and_context_unchanged": true,
+    "only_two_root_popovers_metadata_updated": true,
+    "other_registry_entries_unchanged": true,
+    "standalone_preview": "English light and Persian dark inspected before installation with current shared CSS.",
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false
+  },
+  "installation": {
+    "status": "installed locally",
+    "committed": false,
+    "pushed": false,
+    "post_installation_tests_run": false
+  }
+}

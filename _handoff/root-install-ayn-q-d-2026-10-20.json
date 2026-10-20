@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-20",
+  "root": "ع ق د",
+  "slug": "ayn-q-d",
+  "source_attachment": "/Users/tawab/.codex/attachments/93eddd22-ae08-4e3e-80b1-8552a56dca64/Pasted text.txt",
+  "content_blocks_per_language": 373,
+  "main_sections": 11,
+  "cards_per_language": 9,
+  "quranic_occurrences": 7,
+  "quranic_verses": 7,
+  "quranic_morphological_groups": 4,
+  "content_changes": [
+    "Corrected the sand term and Dhū al-Rummah quotation from عُقَد to عَقِد; documented the alternate عَقَد vocalization and distinguished these from عُقَد, the plural of knot. Refined the fragment translation to dusk and a singular sand formation.",
+    "Qualified the main-text form count as the Ḥafṣ transmission and attributed the reported recitation variants to named readers.",
+    "Standardized Persian explanatory references to the true God as آن معبود یگانه; all Qur’anic Arabic quotations preserved.",
+    "Full English conceptual mirror, adapting the modern psychological-complex discussion for English readers."
+  ],
+  "persian_edits": [
+    {
+      "block": 7,
+      "before": "ریشه «ع ق د» در قرآن **هفت بار، در هفت آیه و چهار گروه صرفی** آمده است:",
+      "after": "ریشه «ع ق د» در متن رایج قرآن به روایت حفص **هفت بار، در هفت آیه و چهار گروه صرفی** آمده است:"
+    },
+    {
+      "block": 9,
+      "before": "صورت‌های دیگری نیز در زبان عربی شناخته شده‌اند، اما در قرآن به همین صورت‌ها نیامده‌اند:",
+      "after": "صورت‌های دیگری نیز در زبان عربی شناخته شده‌اند، اما در متن مورد بررسی قرآن به روایت حفص، به همین صورت‌های واژه‌نامه‌ای نیامده‌اند:"
+    },
+    {
+      "block": 20,
+      "before": "در زبان عربی، «حَلَّ الْعُقْدَةَ» به معنای گشودن گره است. همین تقابل در قرآن نیز دیده می‌شود؛ جایی که موسی از خداوند می‌خواهد گرهی از زبان او گشوده شود.",
+      "after": "در زبان عربی، «حَلَّ الْعُقْدَةَ» به معنای گشودن گره است. همین تقابل در قرآن نیز دیده می‌شود؛ جایی که موسی از آن معبود یگانه می‌خواهد گرهی از زبان او گشوده شود."
+    },
+    {
+      "block": 38,
+      "before": "### عُقَد الرمال؛ توده‌های به‌هم‌پیوسته ریگ",
+      "after": "### عَقِدُ الرَّمْلِ؛ توده‌های انباشته ریگ"
+    },
+    {
+      "block": 39,
+      "before": "در زبان عربی، «عُقَدُ الرَّمْلِ» برای توده‌های انباشته و به‌هم‌پیوسته ریگ نیز ثبت شده است.",
+      "after": "در زبان عربی، «عَقِدُ الرَّمْلِ» برای ریگ‌های انباشته و روی‌هم‌آمده ثبت شده است. این صورت با «عُقَد»، جمع «عُقْدَة» به معنای گره، تفاوت دارد."
+    },
+    {
+      "block": 41,
+      "before": "> بَيْنَ النَّهَارِ وَبَيْنَ اللَّيْلِ مِنْ عُقَدٍ  \n> عَلَى جَوَانِبِهِ الْأَسْبَاطُ وَالْهَدَبُ",
+      "after": "> بَيْنَ النَّهَارِ وَبَيْنَ اللَّيْلِ مِنْ عَقِدٍ  \n> عَلَى جَوَانِبِهِ الْأَسْبَاطُ وَالْهَدَبُ"
+    },
+    {
+      "block": 42,
+      "before": "«در میان روز و شب، کنار توده‌هایی از ریگ انباشته؛ که بر اطرافشان گیاهان سبط و شاخه‌وبرگ‌های باریک روییده‌اند.»",
+      "after": "«هنگام گذار روز به شب، از توده‌ای ریگ انباشته؛ که بر کناره‌های آن گیاهان سبط و برگ‌های باریک روییده‌اند.»"
+    },
+    {
+      "block": 43,
+      "before": "در این بیت، «عقد» به توده‌های ریگ اشاره دارد که بر هم انباشته شده‌اند.",
+      "after": "در این بیت، «عَقِد» به ریگ‌هایی اشاره دارد که بر هم انباشته شده‌اند."
+    },
+    {
+      "block": 45,
+      "before": "در شرح دیوان ذو الرمة، اختلاف ضبطی نیز برای حرکت قاف در «عقد» گزارش شده است.",
+      "after": "در شرح دیوان ذو الرمة، «عَقِد» با کسره قاف آمده و ضبط «عَقَد» با فتحه قاف نیز گزارش شده است؛ این اختلاف با «عُقَد»، جمع گره، یکی نیست."
+    },
+    {
+      "block": 57,
+      "before": "«ای کسانی که ایمان آورده‌اید، به پیمان‌ها و قراردادها وفا کنید. چهارپایان دام برای شما حلال شده‌اند، مگر آنچه بر شما خوانده می‌شود؛ و در حالی که در احرام هستید، شکار را برای خود حلال مشمارید. بی‌گمان خداوند آنچه را بخواهد حکم می‌کند.»",
+      "after": "«ای کسانی که ایمان آورده‌اید، به پیمان‌ها و قراردادها وفا کنید. چهارپایان دام برای شما حلال شده‌اند، مگر آنچه بر شما خوانده می‌شود؛ و در حالی که در احرام هستید، شکار را برای خود حلال مشمارید. بی‌گمان آن معبود یگانه آنچه را بخواهد حکم می‌کند.»"
+    },
+    {
+      "block": 69,
+      "before": "در توضیحات کهن این آیه، هم عهدهای مربوط به خداوند و هم قراردادها و پیمان‌های میان مردم مطرح شده‌اند.",
+      "after": "در توضیحات کهن این آیه، هم عهدهای مربوط به آن معبود یگانه و هم قراردادها و پیمان‌های میان مردم مطرح شده‌اند."
+    },
+    {
+      "block": 86,
+      "before": "«خداوند شما را به سبب سخنان بی‌قصد و بی‌اعتبار در سوگندهایتان بازخواست نمی‌کند؛ اما شما را به سبب سوگندهایی که استوار بسته‌اید بازخواست می‌کند. پس کفاره آن خوراک دادن به ده نیازمند، از خوراک میانه‌ای است که به خانواده‌های خود می‌دهید، یا پوشاندن آنان، یا آزاد کردن یک برده. و کسی که توان آن را نیابد، سه روز روزه بگیرد. این کفاره سوگندهای شماست هنگامی که سوگند خورده‌اید. و سوگندهای خود را پاس بدارید. خداوند این‌گونه آیات خود را برایتان روشن می‌سازد، باشد که سپاس گزارید.»",
+      "after": "«آن معبود یگانه شما را به سبب سخنان بی‌قصد و بی‌اعتبار در سوگندهایتان بازخواست نمی‌کند؛ اما شما را به سبب سوگندهایی که استوار بسته‌اید بازخواست می‌کند. پس کفاره آن خوراک دادن به ده نیازمند، از خوراک میانه‌ای است که به خانواده‌های خود می‌دهید، یا پوشاندن آنان، یا آزاد کردن یک برده. و کسی که توان آن را نیابد، سه روز روزه بگیرد. این کفاره سوگندهای شماست هنگامی که سوگند خورده‌اید. و سوگندهای خود را پاس بدارید. آن معبود یگانه این‌گونه آیات خود را برایتان روشن می‌سازد، باشد که سپاس گزارید.»"
+    },
+    {
+      "block": 108,
+      "before": "در این آیه، علاوه بر صورت «عَقَّدْتُمُ»، قرائت‌هایی با ساخت «عَقَدْتُمُ» و «عَاقَدْتُمُ» نیز شناخته شده‌اند.",
+      "after": "در این آیه، علاوه بر صورت «عَقَّدْتُمُ»، قرائت «عَقَدْتُمُ» با تخفیف قاف از حمزه، کسائی و شعبه از عاصم، و «عَاقَدْتُمُ» با الف از ابن عامر گزارش شده است."
+    },
+    {
+      "block": 115,
+      "before": "«و برای هر کس، در آنچه پدر و مادر و نزدیکان بر جای گذاشته‌اند، وارثانی قرار داده‌ایم؛ و کسانی را که سوگندها و پیمان‌های شما با آنان پیوند بسته است، سهمشان را بدهید. بی‌گمان خداوند بر هر چیزی گواه است.»",
+      "after": "«و برای هر کس، در آنچه پدر و مادر و نزدیکان بر جای گذاشته‌اند، وارثانی قرار داده‌ایم؛ و کسانی را که سوگندها و پیمان‌های شما با آنان پیوند بسته است، سهمشان را بدهید. بی‌گمان آن معبود یگانه بر هر چیزی گواه است.»"
+    },
+    {
+      "block": 138,
+      "before": "همچنین قرائت «عَاقَدَتْ أَيْمَانُكُمْ» در برابر «عَقَدَتْ أَيْمَانُكُمْ» گزارش شده است. صورت باب مفاعله می‌تواند جنبه متقابل پیمان را روشن‌تر سازد.",
+      "after": "همچنین در میان قرائت‌های هفت‌گانه، نافع، ابن کثیر، ابوعمرو و ابن عامر «عَاقَدَتْ أَيْمَانُكُمْ» را در برابر «عَقَدَتْ أَيْمَانُكُمْ» خوانده‌اند. صورت باب مفاعله می‌تواند جنبه متقابل پیمان را روشن‌تر سازد."
+    },
+    {
+      "block": 149,
+      "before": "«و بر شما گناهی نیست در آنچه به کنایه از خواستگاری زنان بیان کنید یا در دل‌های خود پنهان بدارید. خداوند می‌داند که آنان را یاد خواهید کرد؛ اما پنهانی با آنان وعده و قرار نگذارید، مگر آنکه سخنی پسندیده بگویید. و تا هنگامی که مدت مقرر به پایان نرسیده است، برای بستن پیوند نکاح تصمیم قطعی و اقدام نکنید. و بدانید که خداوند از آنچه در درون خود دارید آگاه است؛ پس از او پروا کنید. و بدانید که خداوند آمرزنده و بردبار است.»",
+      "after": "«و بر شما گناهی نیست در آنچه به کنایه از خواستگاری زنان بیان کنید یا در دل‌های خود پنهان بدارید. آن معبود یگانه می‌داند که آنان را یاد خواهید کرد؛ اما پنهانی با آنان وعده و قرار نگذارید، مگر آنکه سخنی پسندیده بگویید. و تا هنگامی که مدت مقرر به پایان نرسیده است، برای بستن پیوند نکاح تصمیم قطعی و اقدام نکنید. و بدانید که آن معبود یگانه از آنچه در درون خود دارید آگاه است؛ پس از او پروا کنید. و بدانید که آن معبود یگانه آمرزنده و بردبار است.»"
+    },
+    {
+      "block": 167,
+      "before": "«و اگر پیش از آنکه با آنان آمیزش کرده باشید طلاقشان دهید، در حالی که برایشان مهری تعیین کرده‌اید، پس نیمی از آنچه مقرر کرده‌اید بر عهده شماست؛ مگر اینکه خود زنان از حقشان درگذرند، یا کسی که اختیار عقد نکاح در دست اوست گذشت کند. و اینکه از حق خود درگذرید به تقوا نزدیک‌تر است. و بخشندگی را میان خود فراموش نکنید. بی‌گمان خداوند به آنچه انجام می‌دهید بیناست.»",
+      "after": "«و اگر پیش از آنکه با آنان آمیزش کرده باشید طلاقشان دهید، در حالی که برایشان مهری تعیین کرده‌اید، پس نیمی از آنچه مقرر کرده‌اید بر عهده شماست؛ مگر اینکه خود زنان از حقشان درگذرند، یا کسی که اختیار عقد نکاح در دست اوست گذشت کند. و اینکه از حق خود درگذرید به تقوا نزدیک‌تر است. و بخشندگی را میان خود فراموش نکنید. بی‌گمان آن معبود یگانه به آنچه انجام می‌دهید بیناست.»"
+    },
+    {
+      "block": 193,
+      "before": "در آیات پیشین، موسی از خداوند می‌خواهد سینه‌اش را گشاده و کارش را آسان سازد. در آیه بعد نیز هدف درخواست خود را روشن می‌کند.",
+      "after": "در آیات پیشین، موسی از آن معبود یگانه می‌خواهد سینه‌اش را گشاده و کارش را آسان سازد. در آیه بعد نیز هدف درخواست خود را روشن می‌کند."
+    },
+    {
+      "block": 216,
+      "before": "در بعضی توضیحات نحوی، «من» به معنای تبعیض دانسته شده است؛ یعنی موسی از خداوند می‌خواهد گرهی از زبان او گشوده شود.",
+      "after": "در بعضی توضیحات نحوی، «من» به معنای تبعیض دانسته شده است؛ یعنی موسی از آن معبود یگانه می‌خواهد گرهی از زبان او گشوده شود."
+    },
+    {
+      "block": 276,
+      "before": "عهد در آیات گوناگون می‌تواند به فرمان، تعهد یا پیمانی مربوط باشد که خداوند یا انسان برقرار ساخته است.",
+      "after": "عهد در آیات گوناگون می‌تواند به فرمان، تعهد یا پیمانی مربوط باشد که آن معبود یگانه یا انسان برقرار ساخته است."
+    }
+  ],
+  "index_entries": "Existing ayn-q-d destinations in both indexes verified and unchanged.",
+  "registry": "Only ayn-q-d changed from preliminary to published; all other records, including k-f-a and sad-m-d, retained.",
+  "verse_metadata": {
+    "description": "Only the fourteen ayn-q-d boxes at the seven occurrences: removed obsolete preliminary notes and installed a brief definition extracted verbatim from the article conclusion. Arabic, verse translations, root assignments, URLs, and context unchanged.",
+    "boxes": [
+      {
+        "file": "quran-reflection/fa/113-al-falaq/units/004.html",
+        "words": [
+          "العُقَدِ"
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/002-al-baqarah/units/235.html",
+        "words": [
+          "عُقدَةَ"
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/002-al-baqarah/units/237.html",
+        "words": [
+          "عُقدَةُ"
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/004-an-nisa/units/033.html",
+        "words": [
+          "عَقَدَت"
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/020-ta-ha/units/027.html",
+        "words": [
+          "عُقدَةً"
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/005-al-maidah/units/001.html",
+        "words": [
+          "بِالعُقودِ"
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/005-al-maidah/units/089.html",
+        "words": [
+          "عَقَّدتُمُ"
+        ]
+      },
+      {
+        "file": "quran-reflection/en/113-al-falaq/units/004.html",
+        "words": [
+          "العُقَدِ"
+        ]
+      },
+      {
+        "file": "quran-reflection/en/002-al-baqarah/units/235.html",
+        "words": [
+          "عُقدَةَ"
+        ]
+      },
+      {
+        "file": "quran-reflection/en/002-al-baqarah/units/237.html",
+        "words": [
+          "عُقدَةُ"
+        ]
+      },
+      {
+        "file": "quran-reflection/en/004-an-nisa/units/033.html",
+        "words": [
+          "عَقَدَت"
+        ]
+      },
+      {
+        "file": "quran-reflection/en/020-ta-ha/units/027.html",
+        "words": [
+          "عُقدَةً"
+        ]
+      },
+      {
+        "file": "quran-reflection/en/005-al-maidah/units/001.html",
+        "words": [
+          "بِالعُقودِ"
+        ]
+      },
+      {
+        "file": "quran-reflection/en/005-al-maidah/units/089.html",
+        "words": [
+          "عَقَّدتُمُ"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "work": "Quranic Arabic Corpus morphology 0.4",
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=Eqd"
+    },
+    {
+      "work": "Maqāyīs al-Lughah, ʿ Q D",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0395IbnFarisQazwini/0395IbnFarisQazwini.MucjamMaqayis/0395IbnFarisQazwini.MucjamMaqayis.Shamela0021710-ara1#L26658"
+    },
+    {
+      "work": "Al-Ṣiḥāḥ, ʿ Q D",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0393IbnHammadJawhari/0393IbnHammadJawhari.SihahTajLugha/0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1#L12388"
+    },
+    {
+      "work": "Mufradāt, ʿ Q D",
+      "url": "https://github.com/OpenITI/0525AH/blob/master/data/0502RaghibIsbahani/0502RaghibIsbahani.Mufradat/0502RaghibIsbahani.Mufradat.Shamela0023636-ara1#L16217"
+    },
+    {
+      "work": "Al-ʿAyn, Ruʾbah verse attribution",
+      "url": "https://ablibrary.net/book_content/b/1490/140?lang=ar"
+    },
+    {
+      "work": "Dhū al-Rummah, Dīwān with al-Bāhilī commentary, line 12",
+      "url": "https://usul.ai/ar/t/sharh-diwan-dhi-rumma/26"
+    },
+    {
+      "work": "Al-Tibyān, readings of 5:89",
+      "url": "https://www.greattafsirs.com/Tafsir_Library.aspx?AyahNo=89&FromMainTafsir=1&LanguageID=1&MadhabNo=4&SoraNo=5&TafsirNo=39"
+    },
+    {
+      "work": "Al-Wāḥidī, Al-Basīṭ, readings of 4:33",
+      "url": "https://tafsir.app/albaseet/4/33"
+    }
+  ],
+  "additional_early_witness_search": "Independently searched pre-Qur’anic poetic usage; found the camel epithet عَقْد attributed to al-Nābighah and transmitted by Al-ʿAyn/Al-Ṣiḥāḥ. Not inserted into the supplied article; its two Islamic-period poems remain explicitly dated and are not presented as pre-Islamic.",
+  "files": [
+    "_data/quran-root-studies.json",
+    "quran-reflection/en/002-al-baqarah/units/235.html",
+    "quran-reflection/en/002-al-baqarah/units/237.html",
+    "quran-reflection/en/004-an-nisa/units/033.html",
+    "quran-reflection/en/005-al-maidah/units/001.html",
+    "quran-reflection/en/005-al-maidah/units/089.html",
+    "quran-reflection/en/020-ta-ha/units/027.html",
+    "quran-reflection/en/113-al-falaq/units/004.html",
+    "quran-reflection/fa/002-al-baqarah/units/235.html",
+    "quran-reflection/fa/002-al-baqarah/units/237.html",
+    "quran-reflection/fa/004-an-nisa/units/033.html",
+    "quran-reflection/fa/005-al-maidah/units/001.html",
+    "quran-reflection/fa/005-al-maidah/units/089.html",
+    "quran-reflection/fa/020-ta-ha/units/027.html",
+    "quran-reflection/fa/113-al-falaq/units/004.html",
+    "quran-terminology/en/roots/ayn-q-d/index.html",
+    "quran-terminology/fa/roots/ayn-q-d/index.html"
+  ],
+  "original_sha256": {
+    "_data/quran-root-studies.json": "274fe6927401434ba2c661c0a11763a319fd15253465a507ab992a777dc625fe",
+    "quran-reflection/en/002-al-baqarah/units/235.html": "29f8fdbef0ab2f8f6d3abf0f28603467edaaed8872b39689733b330bd61d7e77",
+    "quran-reflection/en/002-al-baqarah/units/237.html": "43f3a4bfd6ac2cf3b3c665d219039086959360a305e5667bc32c570cd454e96a",
+    "quran-reflection/en/004-an-nisa/units/033.html": "6171ff4cd9df58094951ef36623f25379ded9b40f94254c7dc8c4ca977a91fd4",
+    "quran-reflection/en/005-al-maidah/units/001.html": "1af7373f67cbefb844c02d3d292abc283709c3a6247c4d709ff846b9e1831dd1",
+    "quran-reflection/en/005-al-maidah/units/089.html": "f35f62d825e82b1b9a4a345e4a66333cd73460e2cba73c8b8c00211d6b8bbef9",
+    "quran-reflection/en/020-ta-ha/units/027.html": "8e46dd03f458d6025f1e85fd6f79530e09730136ab212a9194b9b5e6dfdde18e",
+    "quran-reflection/en/113-al-falaq/units/004.html": "c725e17bfa3e7e2a9a1c7ac25db0caaa476019a7b3aa65718987442acc55bd86",
+    "quran-reflection/fa/002-al-baqarah/units/235.html": "2bd0839c68b6b5d288e6eecd12451c4468a0dcbca52c11c96f26acc591dd463a",
+    "quran-reflection/fa/002-al-baqarah/units/237.html": "30a656022dfa21448ea90f1df79dadfdc4a60aa1fa052da310916d749c33c68c",
+    "quran-reflection/fa/004-an-nisa/units/033.html": "9c5ca19fa1f2703f8b482e5559834c4568a7caea4a0d01c8f45ac07bbc0e5eb2",
+    "quran-reflection/fa/005-al-maidah/units/001.html": "5ca334b085c06ee6dee3b96ed631098cdac35bd83ab06f6ab26e7fedefad831a",
+    "quran-reflection/fa/005-al-maidah/units/089.html": "fa902cdf9123bef08fa982b1afeaab20cb8e866658402caf133ce1afca8378ba",
+    "quran-reflection/fa/020-ta-ha/units/027.html": "fcdd7249d8c36566fe0e6b15f506781debb752a7e601c2bf00c3682fc4141202",
+    "quran-reflection/fa/113-al-falaq/units/004.html": "399d2a27228e430bc51c0101ab635501cc74595f6ba68ecc5c80ddfa47dda0d6",
+    "quran-terminology/en/roots/ayn-q-d/index.html": null,
+    "quran-terminology/fa/roots/ayn-q-d/index.html": null
+  },
+  "index_sha256": {
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50"
+  },
+  "verification": {
+    "stage": "before installation",
+    "all_373_source_blocks_preserved_in_each_language": true,
+    "persian_changes_documented": true,
+    "all_8_quranic_quotations_preserved_exactly": true,
+    "two_poems_preserved_except_verified_sand_vocalization": true,
+    "seven_quranic_occurrences_confirmed": true,
+    "unique_ids_and_resolved_cards_and_contents": true,
+    "verse_targets_individually_verified": 20,
+    "existing_root_index_targets_verified": true,
+    "no_persian_characters_or_digits_in_english": true,
+    "verse_arabic_translations_and_context_unchanged": true,
+    "only_fourteen_root_popovers_metadata_updated": true,
+    "other_registry_entries_unchanged": true,
+    "standalone_preview": "Inspected English dark with the full 5:89 quotation, and Persian light with form cards and the corrected Dhū al-Rummah quotation, before installation using current shared CSS.",
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false
+  },
+  "installation": {
+    "status": "installed locally",
+    "committed": false,
+    "pushed": false,
+    "post_installation_tests_run": false
+  }
+}

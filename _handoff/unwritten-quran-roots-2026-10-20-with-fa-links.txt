@@ -1,0 +1,1221 @@
+FORQAN — ROOT WRITING CHECKLIST WITH PERSIAN LINKS
+Original list: 2026-10-20 | Local status updated: 2026-10-20
+Original entries: 1,209 | Awaiting full study now: 1,205 | Completed locally since the original list: 4
+
+All entries and their original order are retained from the list previously supplied.
+Each URL is the verified Persian destination from the website's root index.
+Status reflects the current local website files. Public links reflect the latest deployed version.
+A root without a full study may show a placeholder or an unavailable page.
+B Y T remains included because its existing page is only a placeholder.
+
+No. | Arabic root | Transliteration | Placeholder / slug | Persian link | Current local status
+------------------------------------------------------------------------------------------------------------------------
+0001 | أ ب ب | A B B | a-b-b | https://forqan.co/quran-terminology/fa/roots/a-b-b/ | Awaiting full study
+0002 | أ ب ق | A B Q | a-b-q | https://forqan.co/quran-terminology/fa/roots/a-b-q/ | Awaiting full study
+0003 | أ ب ل | A B L | a-b-l | https://forqan.co/quran-terminology/fa/roots/a-b-l/ | Awaiting full study
+0004 | أ ب ي | A B Y | a-b-y | https://forqan.co/quran-terminology/fa/roots/a-b-y/ | Awaiting full study
+0005 | أ ث ث | A TH TH | a-th-th | https://forqan.co/quran-terminology/fa/roots/a-th-th/ | Awaiting full study
+0006 | أ ث ر | A TH R | a-th-r | https://forqan.co/quran-terminology/fa/roots/a-th-r/ | Awaiting full study
+0007 | أ ث ل | A TH L | a-th-l | https://forqan.co/quran-terminology/fa/roots/a-th-l/ | Awaiting full study
+0008 | أ ج ج | A J J | a-j-j | https://forqan.co/quran-terminology/fa/roots/a-j-j/ | Awaiting full study
+0009 | أ ج ل | A J L | a-j-l | https://forqan.co/quran-terminology/fa/roots/a-j-l/ | Awaiting full study
+0010 | أ خ و | A KH W | a-kh-w | https://forqan.co/quran-terminology/fa/roots/a-kh-w/ | Awaiting full study
+0011 | أ د د | A D D | a-d-d | https://forqan.co/quran-terminology/fa/roots/a-d-d/ | Awaiting full study
+0012 | أ د ي | A D Y | a-d-y | https://forqan.co/quran-terminology/fa/roots/a-d-y/ | Awaiting full study
+0013 | أ ذ ي | A DH Y | a-dh-y | https://forqan.co/quran-terminology/fa/roots/a-dh-y/ | Awaiting full study
+0014 | أ ر ب | A R B | a-r-b | https://forqan.co/quran-terminology/fa/roots/a-r-b/ | Awaiting full study
+0015 | أ ر ك | A R K | a-r-k | https://forqan.co/quran-terminology/fa/roots/a-r-k/ | Awaiting full study
+0016 | أ ز ر | A Z R | a-z-r | https://forqan.co/quran-terminology/fa/roots/a-z-r/ | Awaiting full study
+0017 | أ ز ز | A Z Z | a-z-z | https://forqan.co/quran-terminology/fa/roots/a-z-z/ | Awaiting full study
+0018 | أ ز ف | A Z F | a-z-f | https://forqan.co/quran-terminology/fa/roots/a-z-f/ | Awaiting full study
+0019 | أ س س | A S S | a-s-s | https://forqan.co/quran-terminology/fa/roots/a-s-s/ | Awaiting full study
+0020 | أ س ف | A S F | a-s-f | https://forqan.co/quran-terminology/fa/roots/a-s-f/ | Awaiting full study
+0021 | أ س ن | A S N | a-s-n | https://forqan.co/quran-terminology/fa/roots/a-s-n/ | Awaiting full study
+0022 | أ س و | A S W | a-s-w | https://forqan.co/quran-terminology/fa/roots/a-s-w/ | Awaiting full study
+0023 | أ ش ر | A SH R | a-sh-r | https://forqan.co/quran-terminology/fa/roots/a-sh-r/ | Awaiting full study
+0024 | أ ص ر | A Ṣ R | a-sad-r | https://forqan.co/quran-terminology/fa/roots/a-sad-r/ | Awaiting full study
+0025 | أ ص ل | A Ṣ L | a-sad-l | https://forqan.co/quran-terminology/fa/roots/a-sad-l/ | Awaiting full study
+0026 | أ ف ف | A F F | a-f-f | https://forqan.co/quran-terminology/fa/roots/a-f-f/ | Awaiting full study
+0027 | أ ف ق | A F Q | a-f-q | https://forqan.co/quran-terminology/fa/roots/a-f-q/ | Awaiting full study
+0028 | أ ف ك | A F K | a-f-k | https://forqan.co/quran-terminology/fa/roots/a-f-k/ | Awaiting full study
+0029 | أ ف ل | A F L | a-f-l | https://forqan.co/quran-terminology/fa/roots/a-f-l/ | Awaiting full study
+0030 | أ ل ت | A L T | a-l-t | https://forqan.co/quran-terminology/fa/roots/a-l-t/ | Awaiting full study
+0031 | أ ل ل | A L L | a-l-l | https://forqan.co/quran-terminology/fa/roots/a-l-l/ | Awaiting full study
+0032 | أ ل و | A L W | a-l-w | https://forqan.co/quran-terminology/fa/roots/a-l-w/ | Awaiting full study
+0033 | أ م ت | A M T | a-m-t | https://forqan.co/quran-terminology/fa/roots/a-m-t/ | Awaiting full study
+0034 | أ م د | A M D | a-m-d | https://forqan.co/quran-terminology/fa/roots/a-m-d/ | Awaiting full study
+0035 | أ م س | A M S | a-m-s | https://forqan.co/quran-terminology/fa/roots/a-m-s/ | Awaiting full study
+0036 | أ م ل | A M L | a-m-l | https://forqan.co/quran-terminology/fa/roots/a-m-l/ | Awaiting full study
+0037 | أ م و | A M W | a-m-w | https://forqan.co/quran-terminology/fa/roots/a-m-w/ | Awaiting full study
+0038 | أ ن ث | A N TH | a-n-th | https://forqan.co/quran-terminology/fa/roots/a-n-th/ | Awaiting full study
+0039 | أ ن ف | A N F | a-n-f | https://forqan.co/quran-terminology/fa/roots/a-n-f/ | Awaiting full study
+0040 | أ ن م | A N M | a-n-m | https://forqan.co/quran-terminology/fa/roots/a-n-m/ | Awaiting full study
+0041 | أ ن ي | A N Y | a-n-y | https://forqan.co/quran-terminology/fa/roots/a-n-y/ | Awaiting full study
+0042 | أ و ب | A W B | a-w-b | https://forqan.co/quran-terminology/fa/roots/a-w-b/ | Awaiting full study
+0043 | أ و د | A W D | a-w-d | https://forqan.co/quran-terminology/fa/roots/a-w-d/ | Awaiting full study
+0044 | أ و ن | A W N | a-w-n | https://forqan.co/quran-terminology/fa/roots/a-w-n/ | Awaiting full study
+0045 | أ و ه | A W H | a-w-h2 | https://forqan.co/quran-terminology/fa/roots/a-w-h2/ | Awaiting full study
+0046 | أ و ي | A W Y | a-w-y | https://forqan.co/quran-terminology/fa/roots/a-w-y/ | Awaiting full study
+0047 | أ ي ك | A Y K | a-y-k | https://forqan.co/quran-terminology/fa/roots/a-y-k/ | Awaiting full study
+0048 | أ ي م | A Y M | a-y-m | https://forqan.co/quran-terminology/fa/roots/a-y-m/ | Awaiting full study
+0049 | ب أ ر | B A R | b-a-r | https://forqan.co/quran-terminology/fa/roots/b-a-r/ | Awaiting full study
+0050 | ب ت ر | B T R | b-t-r | https://forqan.co/quran-terminology/fa/roots/b-t-r/ | Awaiting full study
+0051 | ب ت ك | B T K | b-t-k | https://forqan.co/quran-terminology/fa/roots/b-t-k/ | Awaiting full study
+0052 | ب ت ل | B T L | b-t-l | https://forqan.co/quran-terminology/fa/roots/b-t-l/ | Awaiting full study
+0053 | ب ج س | B J S | b-j-s | https://forqan.co/quran-terminology/fa/roots/b-j-s/ | Awaiting full study
+0054 | ب ح ث | B Ḥ TH | b-h-th | https://forqan.co/quran-terminology/fa/roots/b-h-th/ | Awaiting full study
+0055 | ب خ س | B KH S | b-kh-s | https://forqan.co/quran-terminology/fa/roots/b-kh-s/ | Awaiting full study
+0056 | ب خ ع | B KH AYN (B KH ʿ) | b-kh-ayn | https://forqan.co/quran-terminology/fa/roots/b-kh-ayn/ | Awaiting full study
+0057 | ب خ ل | B KH L | b-kh-l | https://forqan.co/quran-terminology/fa/roots/b-kh-l/ | Awaiting full study
+0058 | ب د أ | B D A | b-d-a | https://forqan.co/quran-terminology/fa/roots/b-d-a/ | Awaiting full study
+0059 | ب د ر | B D R | b-d-r | https://forqan.co/quran-terminology/fa/roots/b-d-r/ | Awaiting full study
+0060 | ب د ن | B D N | b-d-n | https://forqan.co/quran-terminology/fa/roots/b-d-n/ | Awaiting full study
+0061 | ب ذ ر | B DH R | b-dh-r | https://forqan.co/quran-terminology/fa/roots/b-dh-r/ | Awaiting full study
+0062 | ب ر ج | B R J | b-r-j | https://forqan.co/quran-terminology/fa/roots/b-r-j/ | Awaiting full study
+0063 | ب ر ح | B R Ḥ | b-r-h | https://forqan.co/quran-terminology/fa/roots/b-r-h/ | Awaiting full study
+0064 | ب ر د | B R D | b-r-d | https://forqan.co/quran-terminology/fa/roots/b-r-d/ | Awaiting full study
+0065 | ب ر ز | B R Z | b-r-z | https://forqan.co/quran-terminology/fa/roots/b-r-z/ | Awaiting full study
+0066 | ب ر ز خ | B R Z KH | b-r-z-kh | https://forqan.co/quran-terminology/fa/roots/b-r-z-kh/ | Awaiting full study
+0067 | ب ر ص | B R Ṣ | b-r-sad | https://forqan.co/quran-terminology/fa/roots/b-r-sad/ | Awaiting full study
+0068 | ب ر ك | B R K | b-r-k | https://forqan.co/quran-terminology/fa/roots/b-r-k/ | Awaiting full study
+0069 | ب ر م | B R M | b-r-m | https://forqan.co/quran-terminology/fa/roots/b-r-m/ | Awaiting full study
+0070 | ب ز غ | B Z GH | b-z-gh | https://forqan.co/quran-terminology/fa/roots/b-z-gh/ | Awaiting full study
+0071 | ب س ر | B S R | b-s-r | https://forqan.co/quran-terminology/fa/roots/b-s-r/ | Awaiting full study
+0072 | ب س س | B S S | b-s-s | https://forqan.co/quran-terminology/fa/roots/b-s-s/ | Awaiting full study
+0073 | ب س ط | B S Ṭ | b-s-tt | https://forqan.co/quran-terminology/fa/roots/b-s-tt/ | Awaiting full study
+0074 | ب س ق | B S Q | b-s-q | https://forqan.co/quran-terminology/fa/roots/b-s-q/ | Awaiting full study
+0075 | ب س م | B S M | b-s-m | https://forqan.co/quran-terminology/fa/roots/b-s-m/ | Awaiting full study
+0076 | ب ض ع | B Ḍ AYN (B Ḍ ʿ) | b-dad-ayn | https://forqan.co/quran-terminology/fa/roots/b-dad-ayn/ | Awaiting full study
+0077 | ب ط أ | B Ṭ A | b-tt-a | https://forqan.co/quran-terminology/fa/roots/b-tt-a/ | Awaiting full study
+0078 | ب ط ر | B Ṭ R | b-tt-r | https://forqan.co/quran-terminology/fa/roots/b-tt-r/ | Awaiting full study
+0079 | ب ط ش | B Ṭ SH | b-tt-sh | https://forqan.co/quran-terminology/fa/roots/b-tt-sh/ | Awaiting full study
+0080 | ب ط ن | B Ṭ N | b-tt-n | https://forqan.co/quran-terminology/fa/roots/b-tt-n/ | Awaiting full study
+0081 | ب ع ث ر | B ʿ TH R | b-ayn-th-r | https://forqan.co/quran-terminology/fa/roots/b-ayn-th-r/ | Awaiting full study
+0082 | ب ع ر | B AYN R (B ʿ R) | b-ayn-r | https://forqan.co/quran-terminology/fa/roots/b-ayn-r/ | Awaiting full study
+0083 | ب ع ل | B AYN L (B ʿ L) | b-ayn-l | https://forqan.co/quran-terminology/fa/roots/b-ayn-l/ | Awaiting full study
+0084 | ب غ ت | B GH T | b-gh-t | https://forqan.co/quran-terminology/fa/roots/b-gh-t/ | Awaiting full study
+0085 | ب غ ض | B GH Ḍ | b-gh-dad | https://forqan.co/quran-terminology/fa/roots/b-gh-dad/ | Awaiting full study
+0086 | ب غ ل | B GH L | b-gh-l | https://forqan.co/quran-terminology/fa/roots/b-gh-l/ | Awaiting full study
+0087 | ب ق ع | B Q AYN (B Q ʿ) | b-q-ayn | https://forqan.co/quran-terminology/fa/roots/b-q-ayn/ | Awaiting full study
+0088 | ب ق ي | B Q Y | b-q-y | https://forqan.co/quran-terminology/fa/roots/b-q-y/ | Awaiting full study
+0089 | ب ك ي | B K Y | b-k-y | https://forqan.co/quran-terminology/fa/roots/b-k-y/ | Awaiting full study
+0090 | ب ل ع | B L AYN (B L ʿ) | b-l-ayn | https://forqan.co/quran-terminology/fa/roots/b-l-ayn/ | Awaiting full study
+0091 | ب ن ن | B N N | b-n-n | https://forqan.co/quran-terminology/fa/roots/b-n-n/ | Awaiting full study
+0092 | ب ه ت | B H T | b-h2-t | https://forqan.co/quran-terminology/fa/roots/b-h2-t/ | Awaiting full study
+0093 | ب ه ج | B H J | b-h2-j | https://forqan.co/quran-terminology/fa/roots/b-h2-j/ | Awaiting full study
+0094 | ب ه ل | B H L | b-h2-l | https://forqan.co/quran-terminology/fa/roots/b-h2-l/ | Awaiting full study
+0095 | ب ه م | B H M | b-h2-m | https://forqan.co/quran-terminology/fa/roots/b-h2-m/ | Awaiting full study
+0096 | ب و ر | B W R | b-w-r | https://forqan.co/quran-terminology/fa/roots/b-w-r/ | Awaiting full study
+0097 | ب و ل | B W L | b-w-l | https://forqan.co/quran-terminology/fa/roots/b-w-l/ | Awaiting full study
+0098 | ب ي ت | B Y T | b-y-t | https://forqan.co/quran-terminology/fa/roots/b-y-t/ | Awaiting full study
+0099 | ب ي د | B Y D | b-y-d | https://forqan.co/quran-terminology/fa/roots/b-y-d/ | Awaiting full study
+0100 | ب ي ض | B Y Ḍ | b-y-dad | https://forqan.co/quran-terminology/fa/roots/b-y-dad/ | Awaiting full study
+0101 | ث ب ت | TH B T | th-b-t | https://forqan.co/quran-terminology/fa/roots/th-b-t/ | Awaiting full study
+0102 | ث ب ر | TH B R | th-b-r | https://forqan.co/quran-terminology/fa/roots/th-b-r/ | Awaiting full study
+0103 | ث ب ط | TH B Ṭ | th-b-tt | https://forqan.co/quran-terminology/fa/roots/th-b-tt/ | Awaiting full study
+0104 | ث ب ي | TH B Y | th-b-y | https://forqan.co/quran-terminology/fa/roots/th-b-y/ | Awaiting full study
+0105 | ث ج ج | TH J J | th-j-j | https://forqan.co/quran-terminology/fa/roots/th-j-j/ | Awaiting full study
+0106 | ث خ ن | TH KH N | th-kh-n | https://forqan.co/quran-terminology/fa/roots/th-kh-n/ | Awaiting full study
+0107 | ث ر ب | TH R B | th-r-b | https://forqan.co/quran-terminology/fa/roots/th-r-b/ | Awaiting full study
+0108 | ث ر ي | TH R Y | th-r-y | https://forqan.co/quran-terminology/fa/roots/th-r-y/ | Awaiting full study
+0109 | ث ع ب | TH AYN B (TH ʿ B) | th-ayn-b | https://forqan.co/quran-terminology/fa/roots/th-ayn-b/ | Awaiting full study
+0110 | ث ق ب | TH Q B | th-q-b | https://forqan.co/quran-terminology/fa/roots/th-q-b/ | Awaiting full study
+0111 | ث ق ف | TH Q F | th-q-f | https://forqan.co/quran-terminology/fa/roots/th-q-f/ | Awaiting full study
+0112 | ث ق ل | TH Q L | th-q-l | https://forqan.co/quran-terminology/fa/roots/th-q-l/ | Awaiting full study
+0113 | ث ل ث | TH L TH | th-l-th | https://forqan.co/quran-terminology/fa/roots/th-l-th/ | Awaiting full study
+0114 | ث ل ل | TH L L | th-l-l | https://forqan.co/quran-terminology/fa/roots/th-l-l/ | Awaiting full study
+0115 | ث ن ي | TH N Y | th-n-y | https://forqan.co/quran-terminology/fa/roots/th-n-y/ | Awaiting full study
+0116 | ث و ي | TH W Y | th-w-y | https://forqan.co/quran-terminology/fa/roots/th-w-y/ | Awaiting full study
+0117 | ث ي ب | TH Y B | th-y-b | https://forqan.co/quran-terminology/fa/roots/th-y-b/ | Awaiting full study
+0118 | ج أ ر | J A R | j-a-r | https://forqan.co/quran-terminology/fa/roots/j-a-r/ | Awaiting full study
+0119 | ج ب ب | J B B | j-b-b | https://forqan.co/quran-terminology/fa/roots/j-b-b/ | Awaiting full study
+0120 | ج ب ت | J B T | j-b-t | https://forqan.co/quran-terminology/fa/roots/j-b-t/ | Awaiting full study
+0121 | ج ب ر | J B R | j-b-r | https://forqan.co/quran-terminology/fa/roots/j-b-r/ | Awaiting full study
+0122 | ج ب ل | J B L | j-b-l | https://forqan.co/quran-terminology/fa/roots/j-b-l/ | Awaiting full study
+0123 | ج ب ن | J B N | j-b-n | https://forqan.co/quran-terminology/fa/roots/j-b-n/ | Awaiting full study
+0124 | ج ب ه | J B H | j-b-h2 | https://forqan.co/quran-terminology/fa/roots/j-b-h2/ | Awaiting full study
+0125 | ج ب ي | J B Y | j-b-y | https://forqan.co/quran-terminology/fa/roots/j-b-y/ | Awaiting full study
+0126 | ج ث ث | J TH TH | j-th-th | https://forqan.co/quran-terminology/fa/roots/j-th-th/ | Awaiting full study
+0127 | ج ث م | J TH M | j-th-m | https://forqan.co/quran-terminology/fa/roots/j-th-m/ | Awaiting full study
+0128 | ج ث و | J TH W | j-th-w | https://forqan.co/quran-terminology/fa/roots/j-th-w/ | Awaiting full study
+0129 | ج ح د | J Ḥ D | j-h-d | https://forqan.co/quran-terminology/fa/roots/j-h-d/ | Awaiting full study
+0130 | ج د ث | J D TH | j-d-th | https://forqan.co/quran-terminology/fa/roots/j-d-th/ | Awaiting full study
+0131 | ج د د | J D D | j-d-d | https://forqan.co/quran-terminology/fa/roots/j-d-d/ | Awaiting full study
+0132 | ج د ر | J D R | j-d-r | https://forqan.co/quran-terminology/fa/roots/j-d-r/ | Awaiting full study
+0133 | ج د ل | J D L | j-d-l | https://forqan.co/quran-terminology/fa/roots/j-d-l/ | Awaiting full study
+0134 | ج ذ ذ | J DH DH | j-dh-dh | https://forqan.co/quran-terminology/fa/roots/j-dh-dh/ | Awaiting full study
+0135 | ج ذ ع | J DH AYN (J DH ʿ) | j-dh-ayn | https://forqan.co/quran-terminology/fa/roots/j-dh-ayn/ | Awaiting full study
+0136 | ج ذ و | J DH W | j-dh-w | https://forqan.co/quran-terminology/fa/roots/j-dh-w/ | Awaiting full study
+0137 | ج ر ح | J R Ḥ | j-r-h | https://forqan.co/quran-terminology/fa/roots/j-r-h/ | Awaiting full study
+0138 | ج ر د | J R D | j-r-d | https://forqan.co/quran-terminology/fa/roots/j-r-d/ | Awaiting full study
+0139 | ج ر ر | J R R | j-r-r | https://forqan.co/quran-terminology/fa/roots/j-r-r/ | Awaiting full study
+0140 | ج ر ز | J R Z | j-r-z | https://forqan.co/quran-terminology/fa/roots/j-r-z/ | Awaiting full study
+0141 | ج ر ع | J R AYN (J R ʿ) | j-r-ayn | https://forqan.co/quran-terminology/fa/roots/j-r-ayn/ | Awaiting full study
+0142 | ج ر ف | J R F | j-r-f | https://forqan.co/quran-terminology/fa/roots/j-r-f/ | Awaiting full study
+0143 | ج ر م | J R M | j-r-m | https://forqan.co/quran-terminology/fa/roots/j-r-m/ | Awaiting full study
+0144 | ج ز أ | J Z A | j-z-a | https://forqan.co/quran-terminology/fa/roots/j-z-a/ | Awaiting full study
+0145 | ج ز ع | J Z AYN (J Z ʿ) | j-z-ayn | https://forqan.co/quran-terminology/fa/roots/j-z-ayn/ | Awaiting full study
+0146 | ج س د | J S D | j-s-d | https://forqan.co/quran-terminology/fa/roots/j-s-d/ | Awaiting full study
+0147 | ج س س | J S S | j-s-s | https://forqan.co/quran-terminology/fa/roots/j-s-s/ | Awaiting full study
+0148 | ج س م | J S M | j-s-m | https://forqan.co/quran-terminology/fa/roots/j-s-m/ | Awaiting full study
+0149 | ج ف أ | J F A | j-f-a | https://forqan.co/quran-terminology/fa/roots/j-f-a/ | Awaiting full study
+0150 | ج ف ن | J F N | j-f-n | https://forqan.co/quran-terminology/fa/roots/j-f-n/ | Awaiting full study
+0151 | ج ف و | J F W | j-f-w | https://forqan.co/quran-terminology/fa/roots/j-f-w/ | Awaiting full study
+0152 | ج ل ب | J L B | j-l-b | https://forqan.co/quran-terminology/fa/roots/j-l-b/ | Awaiting full study
+0153 | ج ل د | J L D | j-l-d | https://forqan.co/quran-terminology/fa/roots/j-l-d/ | Awaiting full study
+0154 | ج ل س | J L S | j-l-s | https://forqan.co/quran-terminology/fa/roots/j-l-s/ | Awaiting full study
+0155 | ج ل ل | J L L | j-l-l | https://forqan.co/quran-terminology/fa/roots/j-l-l/ | Awaiting full study
+0156 | ج ل و | J L W | j-l-w | https://forqan.co/quran-terminology/fa/roots/j-l-w/ | Awaiting full study
+0157 | ج م ح | J M Ḥ | j-m-h | https://forqan.co/quran-terminology/fa/roots/j-m-h/ | Awaiting full study
+0158 | ج م د | J M D | j-m-d | https://forqan.co/quran-terminology/fa/roots/j-m-d/ | Awaiting full study
+0159 | ج م ل | J M L | j-m-l | https://forqan.co/quran-terminology/fa/roots/j-m-l/ | Awaiting full study
+0160 | ج م م | J M M | j-m-m | https://forqan.co/quran-terminology/fa/roots/j-m-m/ | Awaiting full study
+0161 | ج ن ب | J N B | j-n-b | https://forqan.co/quran-terminology/fa/roots/j-n-b/ | Awaiting full study
+0162 | ج ن د | J N D | j-n-d | https://forqan.co/quran-terminology/fa/roots/j-n-d/ | Awaiting full study
+0163 | ج ن ف | J N F | j-n-f | https://forqan.co/quran-terminology/fa/roots/j-n-f/ | Awaiting full study
+0164 | ج ن ي | J N Y | j-n-y | https://forqan.co/quran-terminology/fa/roots/j-n-y/ | Awaiting full study
+0165 | ج ه د | J H D | j-h2-d | https://forqan.co/quran-terminology/fa/roots/j-h2-d/ | Awaiting full study
+0166 | ج ه ز | J H Z | j-h2-z | https://forqan.co/quran-terminology/fa/roots/j-h2-z/ | Awaiting full study
+0167 | ج و د | J W D | j-w-d | https://forqan.co/quran-terminology/fa/roots/j-w-d/ | Awaiting full study
+0168 | ج و ر | J W R | j-w-r | https://forqan.co/quran-terminology/fa/roots/j-w-r/ | Awaiting full study
+0169 | ج و ز | J W Z | j-w-z | https://forqan.co/quran-terminology/fa/roots/j-w-z/ | Awaiting full study
+0170 | ج و س | J W S | j-w-s | https://forqan.co/quran-terminology/fa/roots/j-w-s/ | Awaiting full study
+0171 | ج و ف | J W F | j-w-f | https://forqan.co/quran-terminology/fa/roots/j-w-f/ | Awaiting full study
+0172 | ج و و | J W W | j-w-w | https://forqan.co/quran-terminology/fa/roots/j-w-w/ | Awaiting full study
+0173 | ج ي ب | J Y B | j-y-b | https://forqan.co/quran-terminology/fa/roots/j-y-b/ | Awaiting full study
+0174 | ج ي د | J Y D | j-y-d | https://forqan.co/quran-terminology/fa/roots/j-y-d/ | Awaiting full study
+0175 | ح ب ب | Ḥ B B | h-b-b | https://forqan.co/quran-terminology/fa/roots/h-b-b/ | Awaiting full study
+0176 | ح ب ر | Ḥ B R | h-b-r | https://forqan.co/quran-terminology/fa/roots/h-b-r/ | Awaiting full study
+0177 | ح ب س | Ḥ B S | h-b-s | https://forqan.co/quran-terminology/fa/roots/h-b-s/ | Awaiting full study
+0178 | ح ب ط | Ḥ B Ṭ | h-b-tt | https://forqan.co/quran-terminology/fa/roots/h-b-tt/ | Awaiting full study
+0179 | ح ب ك | Ḥ B K | h-b-k | https://forqan.co/quran-terminology/fa/roots/h-b-k/ | Awaiting full study
+0180 | ح ب ل | Ḥ B L | h-b-l | https://forqan.co/quran-terminology/fa/roots/h-b-l/ | Awaiting full study
+0181 | ح ت م | Ḥ T M | h-t-m | https://forqan.co/quran-terminology/fa/roots/h-t-m/ | Awaiting full study
+0182 | ح ث ث | Ḥ TH TH | h-th-th | https://forqan.co/quran-terminology/fa/roots/h-th-th/ | Awaiting full study
+0183 | ح ج ب | Ḥ J B | h-j-b | https://forqan.co/quran-terminology/fa/roots/h-j-b/ | Awaiting full study
+0184 | ح ج ز | Ḥ J Z | h-j-z | https://forqan.co/quran-terminology/fa/roots/h-j-z/ | Awaiting full study
+0185 | ح د ب | Ḥ D B | h-d-b | https://forqan.co/quran-terminology/fa/roots/h-d-b/ | Awaiting full study
+0186 | ح د د | Ḥ D D | h-d-d | https://forqan.co/quran-terminology/fa/roots/h-d-d/ | Awaiting full study
+0187 | ح د ق | Ḥ D Q | h-d-q | https://forqan.co/quran-terminology/fa/roots/h-d-q/ | Awaiting full study
+0188 | ح ر ب | Ḥ R B | h-r-b | https://forqan.co/quran-terminology/fa/roots/h-r-b/ | Awaiting full study
+0189 | ح ر ج | Ḥ R J | h-r-j | https://forqan.co/quran-terminology/fa/roots/h-r-j/ | Awaiting full study
+0190 | ح ر د | Ḥ R D | h-r-d | https://forqan.co/quran-terminology/fa/roots/h-r-d/ | Awaiting full study
+0191 | ح ر ر | Ḥ R R | h-r-r | https://forqan.co/quran-terminology/fa/roots/h-r-r/ | Awaiting full study
+0192 | ح ر س | Ḥ R S | h-r-s | https://forqan.co/quran-terminology/fa/roots/h-r-s/ | Awaiting full study
+0193 | ح ر ض | Ḥ R Ḍ | h-r-dad | https://forqan.co/quran-terminology/fa/roots/h-r-dad/ | Awaiting full study
+0194 | ح ر ق | Ḥ R Q | h-r-q | https://forqan.co/quran-terminology/fa/roots/h-r-q/ | Awaiting full study
+0195 | ح ر ك | Ḥ R K | h-r-k | https://forqan.co/quran-terminology/fa/roots/h-r-k/ | Awaiting full study
+0196 | ح ر ي | Ḥ R Y | h-r-y | https://forqan.co/quran-terminology/fa/roots/h-r-y/ | Awaiting full study
+0197 | ح ز ب | Ḥ Z B | h-z-b | https://forqan.co/quran-terminology/fa/roots/h-z-b/ | Awaiting full study
+0198 | ح س ر | Ḥ S R | h-s-r | https://forqan.co/quran-terminology/fa/roots/h-s-r/ | Awaiting full study
+0199 | ح س س | Ḥ S S | h-s-s | https://forqan.co/quran-terminology/fa/roots/h-s-s/ | Awaiting full study
+0200 | ح س م | Ḥ S M | h-s-m | https://forqan.co/quran-terminology/fa/roots/h-s-m/ | Awaiting full study
+0201 | ح ش ر | Ḥ SH R | h-sh-r | https://forqan.co/quran-terminology/fa/roots/h-sh-r/ | Awaiting full study
+0202 | ح ص ب | Ḥ Ṣ B | h-sad-b | https://forqan.co/quran-terminology/fa/roots/h-sad-b/ | Awaiting full study
+0203 | ح ص ح ص | Ḥ Ṣ Ḥ Ṣ | h-sad-h-sad | https://forqan.co/quran-terminology/fa/roots/h-sad-h-sad/ | Awaiting full study
+0204 | ح ص د | Ḥ Ṣ D | h-sad-d | https://forqan.co/quran-terminology/fa/roots/h-sad-d/ | Awaiting full study
+0205 | ح ص ر | Ḥ Ṣ R | h-sad-r | https://forqan.co/quran-terminology/fa/roots/h-sad-r/ | Awaiting full study
+0206 | ح ص ل | Ḥ Ṣ L | h-sad-l | https://forqan.co/quran-terminology/fa/roots/h-sad-l/ | Awaiting full study
+0207 | ح ص ن | Ḥ Ṣ N | h-sad-n | https://forqan.co/quran-terminology/fa/roots/h-sad-n/ | Awaiting full study
+0208 | ح ص ي | Ḥ Ṣ Y | h-sad-y | https://forqan.co/quran-terminology/fa/roots/h-sad-y/ | Awaiting full study
+0209 | ح ض ض | Ḥ Ḍ Ḍ | h-dad-dad | https://forqan.co/quran-terminology/fa/roots/h-dad-dad/ | Awaiting full study
+0210 | ح ط ب | Ḥ Ṭ B | h-tt-b | https://forqan.co/quran-terminology/fa/roots/h-tt-b/ | Awaiting full study
+0211 | ح ظ ر | Ḥ Ẓ R | h-zha-r | https://forqan.co/quran-terminology/fa/roots/h-zha-r/ | Awaiting full study
+0212 | ح ظ ظ | Ḥ Ẓ Ẓ | h-zha-zha | https://forqan.co/quran-terminology/fa/roots/h-zha-zha/ | Awaiting full study
+0213 | ح ف د | Ḥ F D | h-f-d | https://forqan.co/quran-terminology/fa/roots/h-f-d/ | Awaiting full study
+0214 | ح ف ر | Ḥ F R | h-f-r | https://forqan.co/quran-terminology/fa/roots/h-f-r/ | Awaiting full study
+0215 | ح ف ظ | Ḥ F Ẓ | h-f-zha | https://forqan.co/quran-terminology/fa/roots/h-f-zha/ | Awaiting full study
+0216 | ح ف ف | Ḥ F F | h-f-f | https://forqan.co/quran-terminology/fa/roots/h-f-f/ | Awaiting full study
+0217 | ح ف و | Ḥ F W | h-f-w | https://forqan.co/quran-terminology/fa/roots/h-f-w/ | Awaiting full study
+0218 | ح ق ب | Ḥ Q B | h-q-b | https://forqan.co/quran-terminology/fa/roots/h-q-b/ | Awaiting full study
+0219 | ح ق ف | Ḥ Q F | h-q-f | https://forqan.co/quran-terminology/fa/roots/h-q-f/ | Awaiting full study
+0220 | ح ل ف | Ḥ L F | h-l-f | https://forqan.co/quran-terminology/fa/roots/h-l-f/ | Awaiting full study
+0221 | ح ل ق | Ḥ L Q | h-l-q | https://forqan.co/quran-terminology/fa/roots/h-l-q/ | Awaiting full study
+0222 | ح ل ق م | Ḥ L Q M | h-l-q-m | https://forqan.co/quran-terminology/fa/roots/h-l-q-m/ | Awaiting full study
+0223 | ح ل ل | Ḥ L L | h-l-l | https://forqan.co/quran-terminology/fa/roots/h-l-l/ | Awaiting full study
+0224 | ح ل م | Ḥ L M | h-l-m | https://forqan.co/quran-terminology/fa/roots/h-l-m/ | Awaiting full study
+0225 | ح ل ي | Ḥ L Y | h-l-y | https://forqan.co/quran-terminology/fa/roots/h-l-y/ | Awaiting full study
+0226 | ح م أ | Ḥ M A | h-m-a | https://forqan.co/quran-terminology/fa/roots/h-m-a/ | Awaiting full study
+0227 | ح م ر | Ḥ M R | h-m-r | https://forqan.co/quran-terminology/fa/roots/h-m-r/ | Awaiting full study
+0228 | ح م ل | Ḥ M L | h-m-l | https://forqan.co/quran-terminology/fa/roots/h-m-l/ | Awaiting full study
+0229 | ح م م | Ḥ M M | h-m-m | https://forqan.co/quran-terminology/fa/roots/h-m-m/ | Awaiting full study
+0230 | ح م ي | Ḥ M Y | h-m-y | https://forqan.co/quran-terminology/fa/roots/h-m-y/ | Awaiting full study
+0231 | ح ن ث | Ḥ N TH | h-n-th | https://forqan.co/quran-terminology/fa/roots/h-n-th/ | Awaiting full study
+0232 | ح ن ج ر | Ḥ N J R | h-n-j-r | https://forqan.co/quran-terminology/fa/roots/h-n-j-r/ | Awaiting full study
+0233 | ح ن ذ | Ḥ N DH | h-n-dh | https://forqan.co/quran-terminology/fa/roots/h-n-dh/ | Awaiting full study
+0234 | ح ن ك | Ḥ N K | h-n-k | https://forqan.co/quran-terminology/fa/roots/h-n-k/ | Awaiting full study
+0235 | ح ن ن | Ḥ N N | h-n-n | https://forqan.co/quran-terminology/fa/roots/h-n-n/ | Awaiting full study
+0236 | ح و ب | Ḥ W B | h-w-b | https://forqan.co/quran-terminology/fa/roots/h-w-b/ | Awaiting full study
+0237 | ح و ت | Ḥ W T | h-w-t | https://forqan.co/quran-terminology/fa/roots/h-w-t/ | Awaiting full study
+0238 | ح و ج | Ḥ W J | h-w-j | https://forqan.co/quran-terminology/fa/roots/h-w-j/ | Awaiting full study
+0239 | ح و ذ | Ḥ W DH | h-w-dh | https://forqan.co/quran-terminology/fa/roots/h-w-dh/ | Awaiting full study
+0240 | ح و ر | Ḥ W R | h-w-r | https://forqan.co/quran-terminology/fa/roots/h-w-r/ | Awaiting full study
+0241 | ح و ز | Ḥ W Z | h-w-z | https://forqan.co/quran-terminology/fa/roots/h-w-z/ | Awaiting full study
+0242 | ح و ش | Ḥ W SH | h-w-sh | https://forqan.co/quran-terminology/fa/roots/h-w-sh/ | Awaiting full study
+0243 | ح ي ث | Ḥ Y TH | h-y-th | https://forqan.co/quran-terminology/fa/roots/h-y-th/ | Awaiting full study
+0244 | ح ي د | Ḥ Y D | h-y-d | https://forqan.co/quran-terminology/fa/roots/h-y-d/ | Awaiting full study
+0245 | ح ي ر | Ḥ Y R | h-y-r | https://forqan.co/quran-terminology/fa/roots/h-y-r/ | Awaiting full study
+0246 | ح ي ص | Ḥ Y Ṣ | h-y-sad | https://forqan.co/quran-terminology/fa/roots/h-y-sad/ | Awaiting full study
+0247 | ح ي ض | Ḥ Y Ḍ | h-y-dad | https://forqan.co/quran-terminology/fa/roots/h-y-dad/ | Awaiting full study
+0248 | ح ي ف | Ḥ Y F | h-y-f | https://forqan.co/quran-terminology/fa/roots/h-y-f/ | Awaiting full study
+0249 | ح ي ق | Ḥ Y Q | h-y-q | https://forqan.co/quran-terminology/fa/roots/h-y-q/ | Awaiting full study
+0250 | خ ب أ | KH B A | kh-b-a | https://forqan.co/quran-terminology/fa/roots/kh-b-a/ | Awaiting full study
+0251 | خ ب ت | KH B T | kh-b-t | https://forqan.co/quran-terminology/fa/roots/kh-b-t/ | Awaiting full study
+0252 | خ ب ث | KH B TH | kh-b-th | https://forqan.co/quran-terminology/fa/roots/kh-b-th/ | Awaiting full study
+0253 | خ ب ر | KH B R | kh-b-r | https://forqan.co/quran-terminology/fa/roots/kh-b-r/ | Awaiting full study
+0254 | خ ب ز | KH B Z | kh-b-z | https://forqan.co/quran-terminology/fa/roots/kh-b-z/ | Awaiting full study
+0255 | خ ب ط | KH B Ṭ | kh-b-tt | https://forqan.co/quran-terminology/fa/roots/kh-b-tt/ | Awaiting full study
+0256 | خ ب ل | KH B L | kh-b-l | https://forqan.co/quran-terminology/fa/roots/kh-b-l/ | Awaiting full study
+0257 | خ ب و | KH B W | kh-b-w | https://forqan.co/quran-terminology/fa/roots/kh-b-w/ | Awaiting full study
+0258 | خ ت ر | KH T R | kh-t-r | https://forqan.co/quran-terminology/fa/roots/kh-t-r/ | Awaiting full study
+0259 | خ د د | KH D D | kh-d-d | https://forqan.co/quran-terminology/fa/roots/kh-d-d/ | Awaiting full study
+0260 | خ د ن | KH D N | kh-d-n | https://forqan.co/quran-terminology/fa/roots/kh-d-n/ | Awaiting full study
+0261 | خ ذ ل | KH DH L | kh-dh-l | https://forqan.co/quran-terminology/fa/roots/kh-dh-l/ | Awaiting full study
+0262 | خ ر د ل | KH R D L | kh-r-d-l | https://forqan.co/quran-terminology/fa/roots/kh-r-d-l/ | Awaiting full study
+0263 | خ ر ر | KH R R | kh-r-r | https://forqan.co/quran-terminology/fa/roots/kh-r-r/ | Awaiting full study
+0264 | خ ر ص | KH R Ṣ | kh-r-sad | https://forqan.co/quran-terminology/fa/roots/kh-r-sad/ | Awaiting full study
+0265 | خ ر ط م | KH R Ṭ M | kh-r-tt-m | https://forqan.co/quran-terminology/fa/roots/kh-r-tt-m/ | Awaiting full study
+0266 | خ ر ق | KH R Q | kh-r-q | https://forqan.co/quran-terminology/fa/roots/kh-r-q/ | Awaiting full study
+0267 | خ ز ن | KH Z N | kh-z-n | https://forqan.co/quran-terminology/fa/roots/kh-z-n/ | Awaiting full study
+0268 | خ س ف | KH S F | kh-s-f | https://forqan.co/quran-terminology/fa/roots/kh-s-f/ | Awaiting full study
+0269 | خ ش ب | KH SH B | kh-sh-b | https://forqan.co/quran-terminology/fa/roots/kh-sh-b/ | Awaiting full study
+0270 | خ ص ف | KH Ṣ F | kh-sad-f | https://forqan.co/quran-terminology/fa/roots/kh-sad-f/ | Awaiting full study
+0271 | خ ص م | KH Ṣ M | kh-sad-m | https://forqan.co/quran-terminology/fa/roots/kh-sad-m/ | Awaiting full study
+0272 | خ ض د | KH Ḍ D | kh-dad-d | https://forqan.co/quran-terminology/fa/roots/kh-dad-d/ | Awaiting full study
+0273 | خ ض ر | KH Ḍ R | kh-dad-r | https://forqan.co/quran-terminology/fa/roots/kh-dad-r/ | Awaiting full study
+0274 | خ ض ع | KH Ḍ AYN (KH Ḍ ʿ) | kh-dad-ayn | https://forqan.co/quran-terminology/fa/roots/kh-dad-ayn/ | Awaiting full study
+0275 | خ ط ب | KH Ṭ B | kh-tt-b | https://forqan.co/quran-terminology/fa/roots/kh-tt-b/ | Awaiting full study
+0276 | خ ط ط | KH Ṭ Ṭ | kh-tt-tt | https://forqan.co/quran-terminology/fa/roots/kh-tt-tt/ | Awaiting full study
+0277 | خ ط و | KH Ṭ W | kh-tt-w | https://forqan.co/quran-terminology/fa/roots/kh-tt-w/ | Awaiting full study
+0278 | خ ف ت | KH F T | kh-f-t | https://forqan.co/quran-terminology/fa/roots/kh-f-t/ | Awaiting full study
+0279 | خ ف ض | KH F Ḍ | kh-f-dad | https://forqan.co/quran-terminology/fa/roots/kh-f-dad/ | Awaiting full study
+0280 | خ ف ي | KH F Y | kh-f-y | https://forqan.co/quran-terminology/fa/roots/kh-f-y/ | Awaiting full study
+0281 | خ ل ط | KH L Ṭ | kh-l-tt | https://forqan.co/quran-terminology/fa/roots/kh-l-tt/ | Awaiting full study
+0282 | خ ل ع | KH L AYN (KH L ʿ) | kh-l-ayn | https://forqan.co/quran-terminology/fa/roots/kh-l-ayn/ | Awaiting full study
+0283 | خ ل ل | KH L L | kh-l-l | https://forqan.co/quran-terminology/fa/roots/kh-l-l/ | Awaiting full study
+0284 | خ م د | KH M D | kh-m-d | https://forqan.co/quran-terminology/fa/roots/kh-m-d/ | Awaiting full study
+0285 | خ م ر | KH M R | kh-m-r | https://forqan.co/quran-terminology/fa/roots/kh-m-r/ | Awaiting full study
+0286 | خ م س | KH M S | kh-m-s | https://forqan.co/quran-terminology/fa/roots/kh-m-s/ | Awaiting full study
+0287 | خ م ص | KH M Ṣ | kh-m-sad | https://forqan.co/quran-terminology/fa/roots/kh-m-sad/ | Awaiting full study
+0288 | خ م ط | KH M Ṭ | kh-m-tt | https://forqan.co/quran-terminology/fa/roots/kh-m-tt/ | Awaiting full study
+0289 | خ ن ز ر | KH N Z R | kh-n-z-r | https://forqan.co/quran-terminology/fa/roots/kh-n-z-r/ | Awaiting full study
+0290 | خ ن ق | KH N Q | kh-n-q | https://forqan.co/quran-terminology/fa/roots/kh-n-q/ | Awaiting full study
+0291 | خ و ر | KH W R | kh-w-r | https://forqan.co/quran-terminology/fa/roots/kh-w-r/ | Awaiting full study
+0292 | خ و ض | KH W Ḍ | kh-w-dad | https://forqan.co/quran-terminology/fa/roots/kh-w-dad/ | Awaiting full study
+0293 | خ و ل | KH W L | kh-w-l | https://forqan.co/quran-terminology/fa/roots/kh-w-l/ | Awaiting full study
+0294 | خ و ن | KH W N | kh-w-n | https://forqan.co/quran-terminology/fa/roots/kh-w-n/ | Awaiting full study
+0295 | خ و ي | KH W Y | kh-w-y | https://forqan.co/quran-terminology/fa/roots/kh-w-y/ | Awaiting full study
+0296 | خ ي ب | KH Y B | kh-y-b | https://forqan.co/quran-terminology/fa/roots/kh-y-b/ | Awaiting full study
+0297 | خ ي ط | KH Y Ṭ | kh-y-tt | https://forqan.co/quran-terminology/fa/roots/kh-y-tt/ | Awaiting full study
+0298 | خ ي ل | KH Y L | kh-y-l | https://forqan.co/quran-terminology/fa/roots/kh-y-l/ | Awaiting full study
+0299 | خ ي م | KH Y M | kh-y-m | https://forqan.co/quran-terminology/fa/roots/kh-y-m/ | Awaiting full study
+0300 | د أ ب | D A B | d-a-b | https://forqan.co/quran-terminology/fa/roots/d-a-b/ | Awaiting full study
+0301 | د ب ر | D B R | d-b-r | https://forqan.co/quran-terminology/fa/roots/d-b-r/ | Awaiting full study
+0302 | د ث ر | D TH R | d-th-r | https://forqan.co/quran-terminology/fa/roots/d-th-r/ | Awaiting full study
+0303 | د ح ر | D Ḥ R | d-h-r | https://forqan.co/quran-terminology/fa/roots/d-h-r/ | Awaiting full study
+0304 | د ح ض | D Ḥ Ḍ | d-h-dad | https://forqan.co/quran-terminology/fa/roots/d-h-dad/ | Awaiting full study
+0305 | د ح و | D Ḥ W | d-h-w | https://forqan.co/quran-terminology/fa/roots/d-h-w/ | Awaiting full study
+0306 | د خ ر | D KH R | d-kh-r | https://forqan.co/quran-terminology/fa/roots/d-kh-r/ | Awaiting full study
+0307 | د خ ن | D KH N | d-kh-n | https://forqan.co/quran-terminology/fa/roots/d-kh-n/ | Awaiting full study
+0308 | د ر ج | D R J | d-r-j | https://forqan.co/quran-terminology/fa/roots/d-r-j/ | Awaiting full study
+0309 | د ر ر | D R R | d-r-r | https://forqan.co/quran-terminology/fa/roots/d-r-r/ | Awaiting full study
+0310 | د ر س | D R S | d-r-s | https://forqan.co/quran-terminology/fa/roots/d-r-s/ | Awaiting full study
+0311 | د ر ك | D R K | d-r-k | https://forqan.co/quran-terminology/fa/roots/d-r-k/ | Awaiting full study
+0312 | د ر ه م | D R H M | d-r-h2-m | https://forqan.co/quran-terminology/fa/roots/d-r-h2-m/ | Awaiting full study
+0313 | د ر ي | D R Y | d-r-y | https://forqan.co/quran-terminology/fa/roots/d-r-y/ | Awaiting full study
+0314 | د س ر | D S R | d-s-r | https://forqan.co/quran-terminology/fa/roots/d-s-r/ | Awaiting full study
+0315 | د س س | D S S | d-s-s | https://forqan.co/quran-terminology/fa/roots/d-s-s/ | Awaiting full study
+0316 | د س و | D S W | d-s-w | https://forqan.co/quran-terminology/fa/roots/d-s-w/ | Awaiting full study
+0317 | د ع ع | D AYN AYN (D ʿ ʿ) | d-ayn-ayn | https://forqan.co/quran-terminology/fa/roots/d-ayn-ayn/ | Awaiting full study
+0318 | د ف أ | D F A | d-f-a | https://forqan.co/quran-terminology/fa/roots/d-f-a/ | Awaiting full study
+0319 | د ف ع | D F AYN (D F ʿ) | d-f-ayn | https://forqan.co/quran-terminology/fa/roots/d-f-ayn/ | Awaiting full study
+0320 | د ف ق | D F Q | d-f-q | https://forqan.co/quran-terminology/fa/roots/d-f-q/ | Awaiting full study
+0321 | د ك ك | D K K | d-k-k | https://forqan.co/quran-terminology/fa/roots/d-k-k/ | Awaiting full study
+0322 | د ل ك | D L K | d-l-k | https://forqan.co/quran-terminology/fa/roots/d-l-k/ | Awaiting full study
+0323 | د ل و | D L W | d-l-w | https://forqan.co/quran-terminology/fa/roots/d-l-w/ | Awaiting full study
+0324 | د م د م | D M D M | d-m-d-m | https://forqan.co/quran-terminology/fa/roots/d-m-d-m/ | Awaiting full study
+0325 | د م ر | D M R | d-m-r | https://forqan.co/quran-terminology/fa/roots/d-m-r/ | Awaiting full study
+0326 | د م ع | D M AYN (D M ʿ) | d-m-ayn | https://forqan.co/quran-terminology/fa/roots/d-m-ayn/ | Awaiting full study
+0327 | د م غ | D M GH | d-m-gh | https://forqan.co/quran-terminology/fa/roots/d-m-gh/ | Awaiting full study
+0328 | د ن ر | D N R | d-n-r | https://forqan.co/quran-terminology/fa/roots/d-n-r/ | Awaiting full study
+0329 | د ه ر | D H R | d-h2-r | https://forqan.co/quran-terminology/fa/roots/d-h2-r/ | Awaiting full study
+0330 | د ه ق | D H Q | d-h2-q | https://forqan.co/quran-terminology/fa/roots/d-h2-q/ | Awaiting full study
+0331 | د ه م | D H M | d-h2-m | https://forqan.co/quran-terminology/fa/roots/d-h2-m/ | Awaiting full study
+0332 | د ه ن | D H N | d-h2-n | https://forqan.co/quran-terminology/fa/roots/d-h2-n/ | Awaiting full study
+0333 | د ه ي | D H Y | d-h2-y | https://forqan.co/quran-terminology/fa/roots/d-h2-y/ | Awaiting full study
+0334 | د و ل | D W L | d-w-l | https://forqan.co/quran-terminology/fa/roots/d-w-l/ | Awaiting full study
+0335 | د و م | D W M | d-w-m | https://forqan.co/quran-terminology/fa/roots/d-w-m/ | Awaiting full study
+0336 | ذ أ ب | DH A B | dh-a-b | https://forqan.co/quran-terminology/fa/roots/dh-a-b/ | Awaiting full study
+0337 | ذ أ م | DH A M | dh-a-m | https://forqan.co/quran-terminology/fa/roots/dh-a-m/ | Awaiting full study
+0338 | ذ ب ب | DH B B | dh-b-b | https://forqan.co/quran-terminology/fa/roots/dh-b-b/ | Awaiting full study
+0339 | ذ ب ذ ب | DH B DH B | dh-b-dh-b | https://forqan.co/quran-terminology/fa/roots/dh-b-dh-b/ | Awaiting full study
+0340 | ذ خ ر | DH KH R | dh-kh-r | https://forqan.co/quran-terminology/fa/roots/dh-kh-r/ | Awaiting full study
+0341 | ذ ر أ | DH R A | dh-r-a | https://forqan.co/quran-terminology/fa/roots/dh-r-a/ | Awaiting full study
+0342 | ذ ر ع | DH R AYN (DH R ʿ) | dh-r-ayn | https://forqan.co/quran-terminology/fa/roots/dh-r-ayn/ | Awaiting full study
+0343 | ذ ر و | DH R W | dh-r-w | https://forqan.co/quran-terminology/fa/roots/dh-r-w/ | Awaiting full study
+0344 | ذ ع ن | DH AYN N (DH ʿ N) | dh-ayn-n | https://forqan.co/quran-terminology/fa/roots/dh-ayn-n/ | Awaiting full study
+0345 | ذ ق ن | DH Q N | dh-q-n | https://forqan.co/quran-terminology/fa/roots/dh-q-n/ | Awaiting full study
+0346 | ذ ك و | DH K W | dh-k-w | https://forqan.co/quran-terminology/fa/roots/dh-k-w/ | Awaiting full study
+0347 | ذ م م | DH M M | dh-m-m | https://forqan.co/quran-terminology/fa/roots/dh-m-m/ | Awaiting full study
+0348 | ذ ن ب | DH N B | dh-n-b | https://forqan.co/quran-terminology/fa/roots/dh-n-b/ | Awaiting full study
+0349 | ذ ه ل | DH H L | dh-h2-l | https://forqan.co/quran-terminology/fa/roots/dh-h2-l/ | Awaiting full study
+0350 | ذ و د | DH W D | dh-w-d | https://forqan.co/quran-terminology/fa/roots/dh-w-d/ | Awaiting full study
+0351 | ذ و ق | DH W Q | dh-w-q | https://forqan.co/quran-terminology/fa/roots/dh-w-q/ | Awaiting full study
+0352 | ذ ي ع | DH Y AYN (DH Y ʿ) | dh-y-ayn | https://forqan.co/quran-terminology/fa/roots/dh-y-ayn/ | Awaiting full study
+0353 | ر أ س | R A S | r-a-s | https://forqan.co/quran-terminology/fa/roots/r-a-s/ | Awaiting full study
+0354 | ر ب ص | R B Ṣ | r-b-sad | https://forqan.co/quran-terminology/fa/roots/r-b-sad/ | Awaiting full study
+0355 | ر ب ط | R B Ṭ | r-b-tt | https://forqan.co/quran-terminology/fa/roots/r-b-tt/ | Awaiting full study
+0356 | ر ت ع | R T AYN (R T ʿ) | r-t-ayn | https://forqan.co/quran-terminology/fa/roots/r-t-ayn/ | Awaiting full study
+0357 | ر ت ق | R T Q | r-t-q | https://forqan.co/quran-terminology/fa/roots/r-t-q/ | Awaiting full study
+0358 | ر ت ل | R T L | r-t-l | https://forqan.co/quran-terminology/fa/roots/r-t-l/ | Awaiting full study
+0359 | ر ج أ | R J A | r-j-a | https://forqan.co/quran-terminology/fa/roots/r-j-a/ | Awaiting full study
+0360 | ر ج ج | R J J | r-j-j | https://forqan.co/quran-terminology/fa/roots/r-j-j/ | Awaiting full study
+0361 | ر ج س | R J S | r-j-s | https://forqan.co/quran-terminology/fa/roots/r-j-s/ | Awaiting full study
+0362 | ر ج ف | R J F | r-j-f | https://forqan.co/quran-terminology/fa/roots/r-j-f/ | Awaiting full study
+0363 | ر ج ل | R J L | r-j-l | https://forqan.co/quran-terminology/fa/roots/r-j-l/ | Awaiting full study
+0364 | ر ج م | R J M | r-j-m | https://forqan.co/quran-terminology/fa/roots/r-j-m/ | Awaiting full study
+0365 | ر ج و | R J W | r-j-w | https://forqan.co/quran-terminology/fa/roots/r-j-w/ | Awaiting full study
+0366 | ر ح ب | R Ḥ B | r-h-b | https://forqan.co/quran-terminology/fa/roots/r-h-b/ | Awaiting full study
+0367 | ر ح ق | R Ḥ Q | r-h-q | https://forqan.co/quran-terminology/fa/roots/r-h-q/ | Awaiting full study
+0368 | ر ح ل | R Ḥ L | r-h-l | https://forqan.co/quran-terminology/fa/roots/r-h-l/ | Awaiting full study
+0369 | ر خ و | R KH W | r-kh-w | https://forqan.co/quran-terminology/fa/roots/r-kh-w/ | Awaiting full study
+0370 | ر د أ | R D A | r-d-a | https://forqan.co/quran-terminology/fa/roots/r-d-a/ | Awaiting full study
+0371 | ر د ف | R D F | r-d-f | https://forqan.co/quran-terminology/fa/roots/r-d-f/ | Awaiting full study
+0372 | ر د م | R D M | r-d-m | https://forqan.co/quran-terminology/fa/roots/r-d-m/ | Awaiting full study
+0373 | ر د ي | R D Y | r-d-y | https://forqan.co/quran-terminology/fa/roots/r-d-y/ | Awaiting full study
+0374 | ر ذ ل | R DH L | r-dh-l | https://forqan.co/quran-terminology/fa/roots/r-dh-l/ | Awaiting full study
+0375 | ر س خ | R S KH | r-s-kh | https://forqan.co/quran-terminology/fa/roots/r-s-kh/ | Awaiting full study
+0376 | ر س س | R S S | r-s-s | https://forqan.co/quran-terminology/fa/roots/r-s-s/ | Awaiting full study
+0377 | ر س و | R S W | r-s-w | https://forqan.co/quran-terminology/fa/roots/r-s-w/ | Awaiting full study
+0378 | ر ش د | R SH D | r-sh-d | https://forqan.co/quran-terminology/fa/roots/r-sh-d/ | Awaiting full study
+0379 | ر ص د | R Ṣ D | r-sad-d | https://forqan.co/quran-terminology/fa/roots/r-sad-d/ | Awaiting full study
+0380 | ر ص ص | R Ṣ Ṣ | r-sad-sad | https://forqan.co/quran-terminology/fa/roots/r-sad-sad/ | Awaiting full study
+0381 | ر ض ع | R Ḍ AYN (R Ḍ ʿ) | r-dad-ayn | https://forqan.co/quran-terminology/fa/roots/r-dad-ayn/ | Awaiting full study
+0382 | ر ط ب | R Ṭ B | r-tt-b | https://forqan.co/quran-terminology/fa/roots/r-tt-b/ | Awaiting full study
+0383 | ر ع ب | R AYN B (R ʿ B) | r-ayn-b | https://forqan.co/quran-terminology/fa/roots/r-ayn-b/ | Awaiting full study
+0384 | ر غ م | R GH M | r-gh-m | https://forqan.co/quran-terminology/fa/roots/r-gh-m/ | Awaiting full study
+0385 | ر ف ت | R F T | r-f-t | https://forqan.co/quran-terminology/fa/roots/r-f-t/ | Awaiting full study
+0386 | ر ف ث | R F TH | r-f-th | https://forqan.co/quran-terminology/fa/roots/r-f-th/ | Awaiting full study
+0387 | ر ف د | R F D | r-f-d | https://forqan.co/quran-terminology/fa/roots/r-f-d/ | Awaiting full study
+0388 | ر ف ر ف | R F R F | r-f-r-f | https://forqan.co/quran-terminology/fa/roots/r-f-r-f/ | Awaiting full study
+0389 | ر ف ق | R F Q | r-f-q | https://forqan.co/quran-terminology/fa/roots/r-f-q/ | Awaiting full study
+0390 | ر ق ب | R Q B | r-q-b | https://forqan.co/quran-terminology/fa/roots/r-q-b/ | Awaiting full study
+0391 | ر ق د | R Q D | r-q-d | https://forqan.co/quran-terminology/fa/roots/r-q-d/ | Awaiting full study
+0392 | ر ق ق | R Q Q | r-q-q | https://forqan.co/quran-terminology/fa/roots/r-q-q/ | Awaiting full study
+0393 | ر ق م | R Q M | r-q-m | https://forqan.co/quran-terminology/fa/roots/r-q-m/ | Awaiting full study
+0394 | ر ق ي | R Q Y | r-q-y | https://forqan.co/quran-terminology/fa/roots/r-q-y/ | Awaiting full study
+0395 | ر ك ب | R K B | r-k-b | https://forqan.co/quran-terminology/fa/roots/r-k-b/ | Awaiting full study
+0396 | ر ك د | R K D | r-k-d | https://forqan.co/quran-terminology/fa/roots/r-k-d/ | Awaiting full study
+0397 | ر ك ز | R K Z | r-k-z | https://forqan.co/quran-terminology/fa/roots/r-k-z/ | Awaiting full study
+0398 | ر ك س | R K S | r-k-s | https://forqan.co/quran-terminology/fa/roots/r-k-s/ | Awaiting full study
+0399 | ر ك ض | R K Ḍ | r-k-dad | https://forqan.co/quran-terminology/fa/roots/r-k-dad/ | Awaiting full study
+0400 | ر ك م | R K M | r-k-m | https://forqan.co/quran-terminology/fa/roots/r-k-m/ | Awaiting full study
+0401 | ر ك ن | R K N | r-k-n | https://forqan.co/quran-terminology/fa/roots/r-k-n/ | Awaiting full study
+0402 | ر م ح | R M Ḥ | r-m-h | https://forqan.co/quran-terminology/fa/roots/r-m-h/ | Awaiting full study
+0403 | ر م د | R M D | r-m-d | https://forqan.co/quran-terminology/fa/roots/r-m-d/ | Awaiting full study
+0404 | ر م ز | R M Z | r-m-z | https://forqan.co/quran-terminology/fa/roots/r-m-z/ | Awaiting full study
+0405 | ر م ض | R M Ḍ | r-m-dad | https://forqan.co/quran-terminology/fa/roots/r-m-dad/ | Awaiting full study
+0406 | ر م م | R M M | r-m-m | https://forqan.co/quran-terminology/fa/roots/r-m-m/ | Awaiting full study
+0407 | ر م ن | R M N | r-m-n | https://forqan.co/quran-terminology/fa/roots/r-m-n/ | Awaiting full study
+0408 | ر م ي | R M Y | r-m-y | https://forqan.co/quran-terminology/fa/roots/r-m-y/ | Awaiting full study
+0409 | ر ه ط | R H Ṭ | r-h2-tt | https://forqan.co/quran-terminology/fa/roots/r-h2-tt/ | Awaiting full study
+0410 | ر ه ق | R H Q | r-h2-q | https://forqan.co/quran-terminology/fa/roots/r-h2-q/ | Awaiting full study
+0411 | ر ه ن | R H N | r-h2-n | https://forqan.co/quran-terminology/fa/roots/r-h2-n/ | Awaiting full study
+0412 | ر ه و | R H W | r-h2-w | https://forqan.co/quran-terminology/fa/roots/r-h2-w/ | Awaiting full study
+0413 | ر و ض | R W Ḍ | r-w-dad | https://forqan.co/quran-terminology/fa/roots/r-w-dad/ | Awaiting full study
+0414 | ر و ع | R W AYN (R W ʿ) | r-w-ayn | https://forqan.co/quran-terminology/fa/roots/r-w-ayn/ | Awaiting full study
+0415 | ر و غ | R W GH | r-w-gh | https://forqan.co/quran-terminology/fa/roots/r-w-gh/ | Awaiting full study
+0416 | ر ي ش | R Y SH | r-y-sh | https://forqan.co/quran-terminology/fa/roots/r-y-sh/ | Awaiting full study
+0417 | ر ي ع | R Y AYN (R Y ʿ) | r-y-ayn | https://forqan.co/quran-terminology/fa/roots/r-y-ayn/ | Awaiting full study
+0418 | ر ي ن | R Y N | r-y-n | https://forqan.co/quran-terminology/fa/roots/r-y-n/ | Awaiting full study
+0419 | ز ب د | Z B D | z-b-d | https://forqan.co/quran-terminology/fa/roots/z-b-d/ | Awaiting full study
+0420 | ز ب ر | Z B R | z-b-r | https://forqan.co/quran-terminology/fa/roots/z-b-r/ | Awaiting full study
+0421 | ز ب ن | Z B N | z-b-n | https://forqan.co/quran-terminology/fa/roots/z-b-n/ | Awaiting full study
+0422 | ز ج ج | Z J J | z-j-j | https://forqan.co/quran-terminology/fa/roots/z-j-j/ | Awaiting full study
+0423 | ز ج ر | Z J R | z-j-r | https://forqan.co/quran-terminology/fa/roots/z-j-r/ | Awaiting full study
+0424 | ز ج و | Z J W | z-j-w | https://forqan.co/quran-terminology/fa/roots/z-j-w/ | Awaiting full study
+0425 | ز ح ف | Z Ḥ F | z-h-f | https://forqan.co/quran-terminology/fa/roots/z-h-f/ | Awaiting full study
+0426 | ز خ ر ف | Z KH R F | z-kh-r-f | https://forqan.co/quran-terminology/fa/roots/z-kh-r-f/ | Awaiting full study
+0427 | ز ر ب | Z R B | z-r-b | https://forqan.co/quran-terminology/fa/roots/z-r-b/ | Awaiting full study
+0428 | ز ر ق | Z R Q | z-r-q | https://forqan.co/quran-terminology/fa/roots/z-r-q/ | Awaiting full study
+0429 | ز ر ي | Z R Y | z-r-y | https://forqan.co/quran-terminology/fa/roots/z-r-y/ | Awaiting full study
+0430 | ز ع م | Z AYN M (Z ʿ M) | z-ayn-m | https://forqan.co/quran-terminology/fa/roots/z-ayn-m/ | Awaiting full study
+0431 | ز ف ر | Z F R | z-f-r | https://forqan.co/quran-terminology/fa/roots/z-f-r/ | Awaiting full study
+0432 | ز ف ف | Z F F | z-f-f | https://forqan.co/quran-terminology/fa/roots/z-f-f/ | Awaiting full study
+0433 | ز ق م | Z Q M | z-q-m | https://forqan.co/quran-terminology/fa/roots/z-q-m/ | Awaiting full study
+0434 | ز ل ز ل | Z L Z L | z-l-z-l | https://forqan.co/quran-terminology/fa/roots/z-l-z-l/ | Awaiting full study
+0435 | ز ل ف | Z L F | z-l-f | https://forqan.co/quran-terminology/fa/roots/z-l-f/ | Awaiting full study
+0436 | ز ل ق | Z L Q | z-l-q | https://forqan.co/quran-terminology/fa/roots/z-l-q/ | Awaiting full study
+0437 | ز م ر | Z M R | z-m-r | https://forqan.co/quran-terminology/fa/roots/z-m-r/ | Awaiting full study
+0438 | ز م ل | Z M L | z-m-l | https://forqan.co/quran-terminology/fa/roots/z-m-l/ | Awaiting full study
+0439 | ز م ه ر | Z M H R | z-m-h2-r | https://forqan.co/quran-terminology/fa/roots/z-m-h2-r/ | Awaiting full study
+0440 | ز ن م | Z N M | z-n-m | https://forqan.co/quran-terminology/fa/roots/z-n-m/ | Awaiting full study
+0441 | ز ن ي | Z N Y | z-n-y | https://forqan.co/quran-terminology/fa/roots/z-n-y/ | Awaiting full study
+0442 | ز ه د | Z H D | z-h2-d | https://forqan.co/quran-terminology/fa/roots/z-h2-d/ | Awaiting full study
+0443 | ز ه ر | Z H R | z-h2-r | https://forqan.co/quran-terminology/fa/roots/z-h2-r/ | Awaiting full study
+0444 | ز ه ق | Z H Q | z-h2-q | https://forqan.co/quran-terminology/fa/roots/z-h2-q/ | Awaiting full study
+0445 | ز و د | Z W D | z-w-d | https://forqan.co/quran-terminology/fa/roots/z-w-d/ | Awaiting full study
+0446 | ز و ر | Z W R | z-w-r | https://forqan.co/quran-terminology/fa/roots/z-w-r/ | Awaiting full study
+0447 | ز و ل | Z W L | z-w-l | https://forqan.co/quran-terminology/fa/roots/z-w-l/ | Awaiting full study
+0448 | ز ي ت | Z Y T | z-y-t | https://forqan.co/quran-terminology/fa/roots/z-y-t/ | Awaiting full study
+0449 | ز ي غ | Z Y GH | z-y-gh | https://forqan.co/quran-terminology/fa/roots/z-y-gh/ | Awaiting full study
+0450 | ز ي ل | Z Y L | z-y-l | https://forqan.co/quran-terminology/fa/roots/z-y-l/ | Awaiting full study
+0451 | ز ي ن | Z Y N | z-y-n | https://forqan.co/quran-terminology/fa/roots/z-y-n/ | Awaiting full study
+0452 | س أ م | S A M | s-a-m | https://forqan.co/quran-terminology/fa/roots/s-a-m/ | Awaiting full study
+0453 | س ب أ | S B A | s-b-a | https://forqan.co/quran-terminology/fa/roots/s-b-a/ | Awaiting full study
+0454 | س ب ب | S B B | s-b-b | https://forqan.co/quran-terminology/fa/roots/s-b-b/ | Awaiting full study
+0455 | س ب ع | S B AYN (S B ʿ) | s-b-ayn | https://forqan.co/quran-terminology/fa/roots/s-b-ayn/ | Awaiting full study
+0456 | س ب غ | S B GH | s-b-gh | https://forqan.co/quran-terminology/fa/roots/s-b-gh/ | Awaiting full study
+0457 | س ت ت | S T T | s-t-t | https://forqan.co/quran-terminology/fa/roots/s-t-t/ | Awaiting full study
+0458 | س ت ر | S T R | s-t-r | https://forqan.co/quran-terminology/fa/roots/s-t-r/ | Awaiting full study
+0459 | س ج ر | S J R | s-j-r | https://forqan.co/quran-terminology/fa/roots/s-j-r/ | Awaiting full study
+0460 | س ج ل | S J L | s-j-l | https://forqan.co/quran-terminology/fa/roots/s-j-l/ | Awaiting full study
+0461 | س ج ن | S J N | s-j-n | https://forqan.co/quran-terminology/fa/roots/s-j-n/ | Awaiting full study
+0462 | س ج و | S J W | s-j-w | https://forqan.co/quran-terminology/fa/roots/s-j-w/ | Awaiting full study
+0463 | س ح ت | S Ḥ T | s-h-t | https://forqan.co/quran-terminology/fa/roots/s-h-t/ | Awaiting full study
+0464 | س ح ق | S Ḥ Q | s-h-q | https://forqan.co/quran-terminology/fa/roots/s-h-q/ | Awaiting full study
+0465 | س ح ل | S Ḥ L | s-h-l | https://forqan.co/quran-terminology/fa/roots/s-h-l/ | Awaiting full study
+0466 | س خ ط | S KH Ṭ | s-kh-tt | https://forqan.co/quran-terminology/fa/roots/s-kh-tt/ | Awaiting full study
+0467 | س د د | S D D | s-d-d | https://forqan.co/quran-terminology/fa/roots/s-d-d/ | Awaiting full study
+0468 | س د ر | S D R | s-d-r | https://forqan.co/quran-terminology/fa/roots/s-d-r/ | Awaiting full study
+0469 | س د س | S D S | s-d-s | https://forqan.co/quran-terminology/fa/roots/s-d-s/ | Awaiting full study
+0470 | س د ي | S D Y | s-d-y | https://forqan.co/quran-terminology/fa/roots/s-d-y/ | Awaiting full study
+0471 | س ر ب | S R B | s-r-b | https://forqan.co/quran-terminology/fa/roots/s-r-b/ | Awaiting full study
+0472 | س ر ب ل | S R B L | s-r-b-l | https://forqan.co/quran-terminology/fa/roots/s-r-b-l/ | Awaiting full study
+0473 | س ر ج | S R J | s-r-j | https://forqan.co/quran-terminology/fa/roots/s-r-j/ | Awaiting full study
+0474 | س ر ح | S R Ḥ | s-r-h | https://forqan.co/quran-terminology/fa/roots/s-r-h/ | Awaiting full study
+0475 | س ر د | S R D | s-r-d | https://forqan.co/quran-terminology/fa/roots/s-r-d/ | Awaiting full study
+0476 | س ر د ق | S R D Q | s-r-d-q | https://forqan.co/quran-terminology/fa/roots/s-r-d-q/ | Awaiting full study
+0477 | س ر ع | S R AYN (S R ʿ) | s-r-ayn | https://forqan.co/quran-terminology/fa/roots/s-r-ayn/ | Awaiting full study
+0478 | س ر ف | S R F | s-r-f | https://forqan.co/quran-terminology/fa/roots/s-r-f/ | Awaiting full study
+0479 | س ر ق | S R Q | s-r-q | https://forqan.co/quran-terminology/fa/roots/s-r-q/ | Awaiting full study
+0480 | س ر م د | S R M D | s-r-m-d | https://forqan.co/quran-terminology/fa/roots/s-r-m-d/ | Awaiting full study
+0481 | س ر ي | S R Y | s-r-y | https://forqan.co/quran-terminology/fa/roots/s-r-y/ | Awaiting full study
+0482 | س ط ح | S Ṭ Ḥ | s-tt-h | https://forqan.co/quran-terminology/fa/roots/s-tt-h/ | Awaiting full study
+0483 | س ط ر | S Ṭ R | s-tt-r | https://forqan.co/quran-terminology/fa/roots/s-tt-r/ | Awaiting full study
+0484 | س ط و | S Ṭ W | s-tt-w | https://forqan.co/quran-terminology/fa/roots/s-tt-w/ | Awaiting full study
+0485 | س ع د | S AYN D (S ʿ D) | s-ayn-d | https://forqan.co/quran-terminology/fa/roots/s-ayn-d/ | Awaiting full study
+0486 | س ع ر | S AYN R (S ʿ R) | s-ayn-r | https://forqan.co/quran-terminology/fa/roots/s-ayn-r/ | Awaiting full study
+0487 | س غ ب | S GH B | s-gh-b | https://forqan.co/quran-terminology/fa/roots/s-gh-b/ | Awaiting full study
+0488 | س ف ح | S F Ḥ | s-f-h | https://forqan.co/quran-terminology/fa/roots/s-f-h/ | Awaiting full study
+0489 | س ف ر | S F R | s-f-r | https://forqan.co/quran-terminology/fa/roots/s-f-r/ | Awaiting full study
+0490 | س ف ع | S F AYN (S F ʿ) | s-f-ayn | https://forqan.co/quran-terminology/fa/roots/s-f-ayn/ | Awaiting full study
+0491 | س ف ل | S F L | s-f-l | https://forqan.co/quran-terminology/fa/roots/s-f-l/ | Awaiting full study
+0492 | س ف ن | S F N | s-f-n | https://forqan.co/quran-terminology/fa/roots/s-f-n/ | Awaiting full study
+0493 | س ق ط | S Q Ṭ | s-q-tt | https://forqan.co/quran-terminology/fa/roots/s-q-tt/ | Awaiting full study
+0494 | س ق ف | S Q F | s-q-f | https://forqan.co/quran-terminology/fa/roots/s-q-f/ | Awaiting full study
+0495 | س ق م | S Q M | s-q-m | https://forqan.co/quran-terminology/fa/roots/s-q-m/ | Awaiting full study
+0496 | س ك ب | S K B | s-k-b | https://forqan.co/quran-terminology/fa/roots/s-k-b/ | Awaiting full study
+0497 | س ك ت | S K T | s-k-t | https://forqan.co/quran-terminology/fa/roots/s-k-t/ | Awaiting full study
+0498 | س ك ر | S K R | s-k-r | https://forqan.co/quran-terminology/fa/roots/s-k-r/ | Awaiting full study
+0499 | س ل ب | S L B | s-l-b | https://forqan.co/quran-terminology/fa/roots/s-l-b/ | Awaiting full study
+0500 | س ل ح | S L Ḥ | s-l-h | https://forqan.co/quran-terminology/fa/roots/s-l-h/ | Awaiting full study
+0501 | س ل خ | S L KH | s-l-kh | https://forqan.co/quran-terminology/fa/roots/s-l-kh/ | Awaiting full study
+0502 | س ل س ل | S L S L | s-l-s-l | https://forqan.co/quran-terminology/fa/roots/s-l-s-l/ | Awaiting full study
+0503 | س ل ط | S L Ṭ | s-l-tt | https://forqan.co/quran-terminology/fa/roots/s-l-tt/ | Awaiting full study
+0504 | س ل ف | S L F | s-l-f | https://forqan.co/quran-terminology/fa/roots/s-l-f/ | Awaiting full study
+0505 | س ل ق | S L Q | s-l-q | https://forqan.co/quran-terminology/fa/roots/s-l-q/ | Awaiting full study
+0506 | س ل ك | S L K | s-l-k | https://forqan.co/quran-terminology/fa/roots/s-l-k/ | Awaiting full study
+0507 | س ل ل | S L L | s-l-l | https://forqan.co/quran-terminology/fa/roots/s-l-l/ | Awaiting full study
+0508 | س م د | S M D | s-m-d | https://forqan.co/quran-terminology/fa/roots/s-m-d/ | Awaiting full study
+0509 | س م ر | S M R | s-m-r | https://forqan.co/quran-terminology/fa/roots/s-m-r/ | Awaiting full study
+0510 | س م ك | S M K | s-m-k | https://forqan.co/quran-terminology/fa/roots/s-m-k/ | Awaiting full study
+0511 | س م م | S M M | s-m-m | https://forqan.co/quran-terminology/fa/roots/s-m-m/ | Awaiting full study
+0512 | س م ن | S M N | s-m-n | https://forqan.co/quran-terminology/fa/roots/s-m-n/ | Awaiting full study
+0513 | س ن ب ل | S N B L | s-n-b-l | https://forqan.co/quran-terminology/fa/roots/s-n-b-l/ | Awaiting full study
+0514 | س ن د | S N D | s-n-d | https://forqan.co/quran-terminology/fa/roots/s-n-d/ | Awaiting full study
+0515 | س ن م | S N M | s-n-m | https://forqan.co/quran-terminology/fa/roots/s-n-m/ | Awaiting full study
+0516 | س ن ن | S N N | s-n-n | https://forqan.co/quran-terminology/fa/roots/s-n-n/ | Awaiting full study
+0517 | س ن ه | S N H | s-n-h2 | https://forqan.co/quran-terminology/fa/roots/s-n-h2/ | Awaiting full study
+0518 | س ن و | S N W | s-n-w | https://forqan.co/quran-terminology/fa/roots/s-n-w/ | Awaiting full study
+0519 | س ه ر | S H R | s-h2-r | https://forqan.co/quran-terminology/fa/roots/s-h2-r/ | Awaiting full study
+0520 | س ه ل | S H L | s-h2-l | https://forqan.co/quran-terminology/fa/roots/s-h2-l/ | Awaiting full study
+0521 | س ه م | S H M | s-h2-m | https://forqan.co/quran-terminology/fa/roots/s-h2-m/ | Awaiting full study
+0522 | س ه و | S H W | s-h2-w | https://forqan.co/quran-terminology/fa/roots/s-h2-w/ | Awaiting full study
+0523 | س و ح | S W Ḥ | s-w-h | https://forqan.co/quran-terminology/fa/roots/s-w-h/ | Awaiting full study
+0524 | س و د | S W D | s-w-d | https://forqan.co/quran-terminology/fa/roots/s-w-d/ | Awaiting full study
+0525 | س و ط | S W Ṭ | s-w-tt | https://forqan.co/quran-terminology/fa/roots/s-w-tt/ | Awaiting full study
+0526 | س و ع | S W AYN (S W ʿ) | s-w-ayn | https://forqan.co/quran-terminology/fa/roots/s-w-ayn/ | Awaiting full study
+0527 | س و غ | S W GH | s-w-gh | https://forqan.co/quran-terminology/fa/roots/s-w-gh/ | Awaiting full study
+0528 | س و ق | S W Q | s-w-q | https://forqan.co/quran-terminology/fa/roots/s-w-q/ | Awaiting full study
+0529 | س و ل | S W L | s-w-l | https://forqan.co/quran-terminology/fa/roots/s-w-l/ | Awaiting full study
+0530 | س ي ب | S Y B | s-y-b | https://forqan.co/quran-terminology/fa/roots/s-y-b/ | Awaiting full study
+0531 | س ي ح | S Y Ḥ | s-y-h | https://forqan.co/quran-terminology/fa/roots/s-y-h/ | Awaiting full study
+0532 | س ي ر | S Y R | s-y-r | https://forqan.co/quran-terminology/fa/roots/s-y-r/ | Awaiting full study
+0533 | س ي ل | S Y L | s-y-l | https://forqan.co/quran-terminology/fa/roots/s-y-l/ | Awaiting full study
+0534 | ش أ م | SH A M | sh-a-m | https://forqan.co/quran-terminology/fa/roots/sh-a-m/ | Awaiting full study
+0535 | ش أ ن | SH A N | sh-a-n | https://forqan.co/quran-terminology/fa/roots/sh-a-n/ | Awaiting full study
+0536 | ش ت ت | SH T T | sh-t-t | https://forqan.co/quran-terminology/fa/roots/sh-t-t/ | Awaiting full study
+0537 | ش ت و | SH T W | sh-t-w | https://forqan.co/quran-terminology/fa/roots/sh-t-w/ | Awaiting full study
+0538 | ش ح ح | SH Ḥ Ḥ | sh-h-h | https://forqan.co/quran-terminology/fa/roots/sh-h-h/ | Awaiting full study
+0539 | ش ح م | SH Ḥ M | sh-h-m | https://forqan.co/quran-terminology/fa/roots/sh-h-m/ | Awaiting full study
+0540 | ش ح ن | SH Ḥ N | sh-h-n | https://forqan.co/quran-terminology/fa/roots/sh-h-n/ | Awaiting full study
+0541 | ش خ ص | SH KH Ṣ | sh-kh-sad | https://forqan.co/quran-terminology/fa/roots/sh-kh-sad/ | Awaiting full study
+0542 | ش ر ح | SH R Ḥ | sh-r-h | https://forqan.co/quran-terminology/fa/roots/sh-r-h/ | Awaiting full study
+0543 | ش ر د | SH R D | sh-r-d | https://forqan.co/quran-terminology/fa/roots/sh-r-d/ | Awaiting full study
+0544 | ش ر ذ م | SH R DH M | sh-r-dh-m | https://forqan.co/quran-terminology/fa/roots/sh-r-dh-m/ | Awaiting full study
+0545 | ش ر ط | SH R Ṭ | sh-r-tt | https://forqan.co/quran-terminology/fa/roots/sh-r-tt/ | Awaiting full study
+0546 | ش ر ع | SH R AYN (SH R ʿ) | sh-r-ayn | https://forqan.co/quran-terminology/fa/roots/sh-r-ayn/ | Awaiting full study
+0547 | ش ط أ | SH Ṭ A | sh-tt-a | https://forqan.co/quran-terminology/fa/roots/sh-tt-a/ | Awaiting full study
+0548 | ش ط ط | SH Ṭ Ṭ | sh-tt-tt | https://forqan.co/quran-terminology/fa/roots/sh-tt-tt/ | Awaiting full study
+0549 | ش ع ب | SH AYN B (SH ʿ B) | sh-ayn-b | https://forqan.co/quran-terminology/fa/roots/sh-ayn-b/ | Awaiting full study
+0550 | ش ع ل | SH AYN L (SH ʿ L) | sh-ayn-l | https://forqan.co/quran-terminology/fa/roots/sh-ayn-l/ | Awaiting full study
+0551 | ش غ ف | SH GH F | sh-gh-f | https://forqan.co/quran-terminology/fa/roots/sh-gh-f/ | Awaiting full study
+0552 | ش غ ل | SH GH L | sh-gh-l | https://forqan.co/quran-terminology/fa/roots/sh-gh-l/ | Awaiting full study
+0553 | ش ف ق | SH F Q | sh-f-q | https://forqan.co/quran-terminology/fa/roots/sh-f-q/ | Awaiting full study
+0554 | ش ف ه | SH F H | sh-f-h2 | https://forqan.co/quran-terminology/fa/roots/sh-f-h2/ | Awaiting full study
+0555 | ش ف و | SH F W | sh-f-w | https://forqan.co/quran-terminology/fa/roots/sh-f-w/ | Awaiting full study
+0556 | ش ف ي | SH F Y | sh-f-y | https://forqan.co/quran-terminology/fa/roots/sh-f-y/ | Awaiting full study
+0557 | ش ق و | SH Q W | sh-q-w | https://forqan.co/quran-terminology/fa/roots/sh-q-w/ | Awaiting full study
+0558 | ش ك س | SH K S | sh-k-s | https://forqan.co/quran-terminology/fa/roots/sh-k-s/ | Awaiting full study
+0559 | ش ك ك | SH K K | sh-k-k | https://forqan.co/quran-terminology/fa/roots/sh-k-k/ | Awaiting full study
+0560 | ش ك ل | SH K L | sh-k-l | https://forqan.co/quran-terminology/fa/roots/sh-k-l/ | Awaiting full study
+0561 | ش ك و | SH K W | sh-k-w | https://forqan.co/quran-terminology/fa/roots/sh-k-w/ | Awaiting full study
+0562 | ش م ت | SH M T | sh-m-t | https://forqan.co/quran-terminology/fa/roots/sh-m-t/ | Awaiting full study
+0563 | ش م خ | SH M KH | sh-m-kh | https://forqan.co/quran-terminology/fa/roots/sh-m-kh/ | Awaiting full study
+0564 | ش م ز | SH M Z | sh-m-z | https://forqan.co/quran-terminology/fa/roots/sh-m-z/ | Awaiting full study
+0565 | ش م س | SH M S | sh-m-s | https://forqan.co/quran-terminology/fa/roots/sh-m-s/ | Awaiting full study
+0566 | ش م ل | SH M L | sh-m-l | https://forqan.co/quran-terminology/fa/roots/sh-m-l/ | Awaiting full study
+0567 | ش ن أ | SH N A | sh-n-a | https://forqan.co/quran-terminology/fa/roots/sh-n-a/ | Awaiting full study
+0568 | ش ه ب | SH H B | sh-h2-b | https://forqan.co/quran-terminology/fa/roots/sh-h2-b/ | Awaiting full study
+0569 | ش ه ر | SH H R | sh-h2-r | https://forqan.co/quran-terminology/fa/roots/sh-h2-r/ | Awaiting full study
+0570 | ش ه ق | SH H Q | sh-h2-q | https://forqan.co/quran-terminology/fa/roots/sh-h2-q/ | Awaiting full study
+0571 | ش ه و | SH H W | sh-h2-w | https://forqan.co/quran-terminology/fa/roots/sh-h2-w/ | Awaiting full study
+0572 | ش و ب | SH W B | sh-w-b | https://forqan.co/quran-terminology/fa/roots/sh-w-b/ | Awaiting full study
+0573 | ش و ر | SH W R | sh-w-r | https://forqan.co/quran-terminology/fa/roots/sh-w-r/ | Awaiting full study
+0574 | ش و ظ | SH W Ẓ | sh-w-zha | https://forqan.co/quran-terminology/fa/roots/sh-w-zha/ | Awaiting full study
+0575 | ش و ك | SH W K | sh-w-k | https://forqan.co/quran-terminology/fa/roots/sh-w-k/ | Awaiting full study
+0576 | ش و ي | SH W Y | sh-w-y | https://forqan.co/quran-terminology/fa/roots/sh-w-y/ | Awaiting full study
+0577 | ش ي ب | SH Y B | sh-y-b | https://forqan.co/quran-terminology/fa/roots/sh-y-b/ | Awaiting full study
+0578 | ش ي خ | SH Y KH | sh-y-kh | https://forqan.co/quran-terminology/fa/roots/sh-y-kh/ | Awaiting full study
+0579 | ش ي د | SH Y D | sh-y-d | https://forqan.co/quran-terminology/fa/roots/sh-y-d/ | Awaiting full study
+0580 | ش ي ع | SH Y AYN (SH Y ʿ) | sh-y-ayn | https://forqan.co/quran-terminology/fa/roots/sh-y-ayn/ | Awaiting full study
+0581 | ص ب ب | Ṣ B B | sad-b-b | https://forqan.co/quran-terminology/fa/roots/sad-b-b/ | Awaiting full study
+0582 | ص ب ح | Ṣ B Ḥ | sad-b-h | https://forqan.co/quran-terminology/fa/roots/sad-b-h/ | Awaiting full study
+0583 | ص ب و | Ṣ B W | sad-b-w | https://forqan.co/quran-terminology/fa/roots/sad-b-w/ | Awaiting full study
+0584 | ص خ خ | Ṣ KH KH | sad-kh-kh | https://forqan.co/quran-terminology/fa/roots/sad-kh-kh/ | Awaiting full study
+0585 | ص خ ر | Ṣ KH R | sad-kh-r | https://forqan.co/quran-terminology/fa/roots/sad-kh-r/ | Awaiting full study
+0586 | ص د د | Ṣ D D | sad-d-d | https://forqan.co/quran-terminology/fa/roots/sad-d-d/ | Awaiting full study
+0587 | ص د ع | Ṣ D AYN (Ṣ D ʿ) | sad-d-ayn | https://forqan.co/quran-terminology/fa/roots/sad-d-ayn/ | Awaiting full study
+0588 | ص د ف | Ṣ D F | sad-d-f | https://forqan.co/quran-terminology/fa/roots/sad-d-f/ | Awaiting full study
+0589 | ص د ي | Ṣ D Y | sad-d-y | https://forqan.co/quran-terminology/fa/roots/sad-d-y/ | Awaiting full study
+0590 | ص ر ح | Ṣ R Ḥ | sad-r-h | https://forqan.co/quran-terminology/fa/roots/sad-r-h/ | Awaiting full study
+0591 | ص ر خ | Ṣ R KH | sad-r-kh | https://forqan.co/quran-terminology/fa/roots/sad-r-kh/ | Awaiting full study
+0592 | ص ر ر | Ṣ R R | sad-r-r | https://forqan.co/quran-terminology/fa/roots/sad-r-r/ | Awaiting full study
+0593 | ص ر ص ر | Ṣ R Ṣ R | sad-r-sad-r | https://forqan.co/quran-terminology/fa/roots/sad-r-sad-r/ | Awaiting full study
+0594 | ص ر ع | Ṣ R AYN (Ṣ R ʿ) | sad-r-ayn | https://forqan.co/quran-terminology/fa/roots/sad-r-ayn/ | Awaiting full study
+0595 | ص ر ف | Ṣ R F | sad-r-f | https://forqan.co/quran-terminology/fa/roots/sad-r-f/ | Awaiting full study
+0596 | ص ر م | Ṣ R M | sad-r-m | https://forqan.co/quran-terminology/fa/roots/sad-r-m/ | Awaiting full study
+0597 | ص ع د | Ṣ AYN D (Ṣ ʿ D) | sad-ayn-d | https://forqan.co/quran-terminology/fa/roots/sad-ayn-d/ | Awaiting full study
+0598 | ص ع ر | Ṣ AYN R (Ṣ ʿ R) | sad-ayn-r | https://forqan.co/quran-terminology/fa/roots/sad-ayn-r/ | Awaiting full study
+0599 | ص غ ر | Ṣ GH R | sad-gh-r | https://forqan.co/quran-terminology/fa/roots/sad-gh-r/ | Awaiting full study
+0600 | ص غ و | Ṣ GH W | sad-gh-w | https://forqan.co/quran-terminology/fa/roots/sad-gh-w/ | Awaiting full study
+0601 | ص ف د | Ṣ F D | sad-f-d | https://forqan.co/quran-terminology/fa/roots/sad-f-d/ | Awaiting full study
+0602 | ص ف ص ف | Ṣ F Ṣ F | sad-f-sad-f | https://forqan.co/quran-terminology/fa/roots/sad-f-sad-f/ | Awaiting full study
+0603 | ص ف ف | Ṣ F F | sad-f-f | https://forqan.co/quran-terminology/fa/roots/sad-f-f/ | Awaiting full study
+0604 | ص ف ن | Ṣ F N | sad-f-n | https://forqan.co/quran-terminology/fa/roots/sad-f-n/ | Awaiting full study
+0605 | ص ك ك | Ṣ K K | sad-k-k | https://forqan.co/quran-terminology/fa/roots/sad-k-k/ | Awaiting full study
+0606 | ص ل ب | Ṣ L B | sad-l-b | https://forqan.co/quran-terminology/fa/roots/sad-l-b/ | Awaiting full study
+0607 | ص ل د | Ṣ L D | sad-l-d | https://forqan.co/quran-terminology/fa/roots/sad-l-d/ | Awaiting full study
+0608 | ص ل ص ل | Ṣ L Ṣ L | sad-l-sad-l | https://forqan.co/quran-terminology/fa/roots/sad-l-sad-l/ | Awaiting full study
+0609 | ص م ت | Ṣ M T | sad-m-t | https://forqan.co/quran-terminology/fa/roots/sad-m-t/ | Awaiting full study
+0610 | ص م د | Ṣ M D | sad-m-d | https://forqan.co/quran-terminology/fa/roots/sad-m-d/ | Full study installed locally
+0611 | ص م ع | Ṣ M AYN (Ṣ M ʿ) | sad-m-ayn | https://forqan.co/quran-terminology/fa/roots/sad-m-ayn/ | Awaiting full study
+0612 | ص ن ع | Ṣ N AYN (Ṣ N ʿ) | sad-n-ayn | https://forqan.co/quran-terminology/fa/roots/sad-n-ayn/ | Awaiting full study
+0613 | ص ن م | Ṣ N M | sad-n-m | https://forqan.co/quran-terminology/fa/roots/sad-n-m/ | Awaiting full study
+0614 | ص ن و | Ṣ N W | sad-n-w | https://forqan.co/quran-terminology/fa/roots/sad-n-w/ | Awaiting full study
+0615 | ص ه ر | Ṣ H R | sad-h2-r | https://forqan.co/quran-terminology/fa/roots/sad-h2-r/ | Awaiting full study
+0616 | ص و ت | Ṣ W T | sad-w-t | https://forqan.co/quran-terminology/fa/roots/sad-w-t/ | Awaiting full study
+0617 | ص و ر | Ṣ W R | sad-w-r | https://forqan.co/quran-terminology/fa/roots/sad-w-r/ | Awaiting full study
+0618 | ص و ع | Ṣ W AYN (Ṣ W ʿ) | sad-w-ayn | https://forqan.co/quran-terminology/fa/roots/sad-w-ayn/ | Awaiting full study
+0619 | ص و ف | Ṣ W F | sad-w-f | https://forqan.co/quran-terminology/fa/roots/sad-w-f/ | Awaiting full study
+0620 | ص و م | Ṣ W M | sad-w-m | https://forqan.co/quran-terminology/fa/roots/sad-w-m/ | Awaiting full study
+0621 | ص ي ح | Ṣ Y Ḥ | sad-y-h | https://forqan.co/quran-terminology/fa/roots/sad-y-h/ | Awaiting full study
+0622 | ص ي د | Ṣ Y D | sad-y-d | https://forqan.co/quran-terminology/fa/roots/sad-y-d/ | Awaiting full study
+0623 | ص ي ص | Ṣ Y Ṣ | sad-y-sad | https://forqan.co/quran-terminology/fa/roots/sad-y-sad/ | Awaiting full study
+0624 | ص ي ف | Ṣ Y F | sad-y-f | https://forqan.co/quran-terminology/fa/roots/sad-y-f/ | Awaiting full study
+0625 | ض أ ن | Ḍ A N | dad-a-n | https://forqan.co/quran-terminology/fa/roots/dad-a-n/ | Awaiting full study
+0626 | ض ب ح | Ḍ B Ḥ | dad-b-h | https://forqan.co/quran-terminology/fa/roots/dad-b-h/ | Awaiting full study
+0627 | ض ج ع | Ḍ J AYN (Ḍ J ʿ) | dad-j-ayn | https://forqan.co/quran-terminology/fa/roots/dad-j-ayn/ | Awaiting full study
+0628 | ض ح ك | Ḍ Ḥ K | dad-h-k | https://forqan.co/quran-terminology/fa/roots/dad-h-k/ | Awaiting full study
+0629 | ض ح و | Ḍ Ḥ W | dad-h-w | https://forqan.co/quran-terminology/fa/roots/dad-h-w/ | Awaiting full study
+0630 | ض د د | Ḍ D D | dad-d-d | https://forqan.co/quran-terminology/fa/roots/dad-d-d/ | Awaiting full study
+0631 | ض ر ع | Ḍ R AYN (Ḍ R ʿ) | dad-r-ayn | https://forqan.co/quran-terminology/fa/roots/dad-r-ayn/ | Awaiting full study
+0632 | ض ع ف | Ḍ AYN F (Ḍ ʿ F) | dad-ayn-f | https://forqan.co/quran-terminology/fa/roots/dad-ayn-f/ | Awaiting full study
+0633 | ض غ ث | Ḍ GH TH | dad-gh-th | https://forqan.co/quran-terminology/fa/roots/dad-gh-th/ | Awaiting full study
+0634 | ض غ ن | Ḍ GH N | dad-gh-n | https://forqan.co/quran-terminology/fa/roots/dad-gh-n/ | Awaiting full study
+0635 | ض ف د ع | Ḍ F D ʿ | dad-f-d-ayn | https://forqan.co/quran-terminology/fa/roots/dad-f-d-ayn/ | Awaiting full study
+0636 | ض م ر | Ḍ M R | dad-m-r | https://forqan.co/quran-terminology/fa/roots/dad-m-r/ | Awaiting full study
+0637 | ض م م | Ḍ M M | dad-m-m | https://forqan.co/quran-terminology/fa/roots/dad-m-m/ | Awaiting full study
+0638 | ض ن ك | Ḍ N K | dad-n-k | https://forqan.co/quran-terminology/fa/roots/dad-n-k/ | Awaiting full study
+0639 | ض ن ن | Ḍ N N | dad-n-n | https://forqan.co/quran-terminology/fa/roots/dad-n-n/ | Awaiting full study
+0640 | ض ه أ | Ḍ H A | dad-h2-a | https://forqan.co/quran-terminology/fa/roots/dad-h2-a/ | Awaiting full study
+0641 | ض ي ر | Ḍ Y R | dad-y-r | https://forqan.co/quran-terminology/fa/roots/dad-y-r/ | Awaiting full study
+0642 | ض ي ز | Ḍ Y Z | dad-y-z | https://forqan.co/quran-terminology/fa/roots/dad-y-z/ | Awaiting full study
+0643 | ض ي ف | Ḍ Y F | dad-y-f | https://forqan.co/quran-terminology/fa/roots/dad-y-f/ | Awaiting full study
+0644 | ض ي ق | Ḍ Y Q | dad-y-q | https://forqan.co/quran-terminology/fa/roots/dad-y-q/ | Awaiting full study
+0645 | ط ف أ | Ṭ F A | tt-f-a | https://forqan.co/quran-terminology/fa/roots/tt-f-a/ | Awaiting full study
+0646 | ط ف ف | Ṭ F F | tt-f-f | https://forqan.co/quran-terminology/fa/roots/tt-f-f/ | Awaiting full study
+0647 | ط ف ق | Ṭ F Q | tt-f-q | https://forqan.co/quran-terminology/fa/roots/tt-f-q/ | Awaiting full study
+0648 | ط ف ل | Ṭ F L | tt-f-l | https://forqan.co/quran-terminology/fa/roots/tt-f-l/ | Awaiting full study
+0649 | ط ل ب | Ṭ L B | tt-l-b | https://forqan.co/quran-terminology/fa/roots/tt-l-b/ | Awaiting full study
+0650 | ط ل ح | Ṭ L Ḥ | tt-l-h | https://forqan.co/quran-terminology/fa/roots/tt-l-h/ | Awaiting full study
+0651 | ط ل ق | Ṭ L Q | tt-l-q | https://forqan.co/quran-terminology/fa/roots/tt-l-q/ | Awaiting full study
+0652 | ط ل ل | Ṭ L L | tt-l-l | https://forqan.co/quran-terminology/fa/roots/tt-l-l/ | Awaiting full study
+0653 | ط م أ ن | Ṭ M A N | tt-m-a-n | https://forqan.co/quran-terminology/fa/roots/tt-m-a-n/ | Awaiting full study
+0654 | ط م ث | Ṭ M TH | tt-m-th | https://forqan.co/quran-terminology/fa/roots/tt-m-th/ | Awaiting full study
+0655 | ط م س | Ṭ M S | tt-m-s | https://forqan.co/quran-terminology/fa/roots/tt-m-s/ | Awaiting full study
+0656 | ط م م | Ṭ M M | tt-m-m | https://forqan.co/quran-terminology/fa/roots/tt-m-m/ | Awaiting full study
+0657 | ط و د | Ṭ W D | tt-w-d | https://forqan.co/quran-terminology/fa/roots/tt-w-d/ | Awaiting full study
+0658 | ط و ر | Ṭ W R | tt-w-r | https://forqan.co/quran-terminology/fa/roots/tt-w-r/ | Awaiting full study
+0659 | ط و ق | Ṭ W Q | tt-w-q | https://forqan.co/quran-terminology/fa/roots/tt-w-q/ | Awaiting full study
+0660 | ط و ل | Ṭ W L | tt-w-l | https://forqan.co/quran-terminology/fa/roots/tt-w-l/ | Awaiting full study
+0661 | ط و ي | Ṭ W Y | tt-w-y | https://forqan.co/quran-terminology/fa/roots/tt-w-y/ | Awaiting full study
+0662 | ط ي ر | Ṭ Y R | tt-y-r | https://forqan.co/quran-terminology/fa/roots/tt-y-r/ | Awaiting full study
+0663 | ط ي ن | Ṭ Y N | tt-y-n | https://forqan.co/quran-terminology/fa/roots/tt-y-n/ | Awaiting full study
+0664 | ظ ع ن | Ẓ AYN N (Ẓ ʿ N) | zha-ayn-n | https://forqan.co/quran-terminology/fa/roots/zha-ayn-n/ | Awaiting full study
+0665 | ظ ف ر | Ẓ F R | zha-f-r | https://forqan.co/quran-terminology/fa/roots/zha-f-r/ | Awaiting full study
+0666 | ظ م أ | Ẓ M A | zha-m-a | https://forqan.co/quran-terminology/fa/roots/zha-m-a/ | Awaiting full study
+0667 | ع ب أ | AYN B A (ʿ B A) | ayn-b-a | https://forqan.co/quran-terminology/fa/roots/ayn-b-a/ | Awaiting full study
+0668 | ع ب ث | AYN B TH (ʿ B TH) | ayn-b-th | https://forqan.co/quran-terminology/fa/roots/ayn-b-th/ | Awaiting full study
+0669 | ع ب ر | AYN B R (ʿ B R) | ayn-b-r | https://forqan.co/quran-terminology/fa/roots/ayn-b-r/ | Awaiting full study
+0670 | ع ب س | AYN B S (ʿ B S) | ayn-b-s | https://forqan.co/quran-terminology/fa/roots/ayn-b-s/ | Awaiting full study
+0671 | ع ب ق ر | ʿ B Q R | ayn-b-q-r | https://forqan.co/quran-terminology/fa/roots/ayn-b-q-r/ | Awaiting full study
+0672 | ع ت ب | AYN T B (ʿ T B) | ayn-t-b | https://forqan.co/quran-terminology/fa/roots/ayn-t-b/ | Awaiting full study
+0673 | ع ت د | AYN T D (ʿ T D) | ayn-t-d | https://forqan.co/quran-terminology/fa/roots/ayn-t-d/ | Awaiting full study
+0674 | ع ت ق | AYN T Q (ʿ T Q) | ayn-t-q | https://forqan.co/quran-terminology/fa/roots/ayn-t-q/ | Awaiting full study
+0675 | ع ت ل | AYN T L (ʿ T L) | ayn-t-l | https://forqan.co/quran-terminology/fa/roots/ayn-t-l/ | Awaiting full study
+0676 | ع ت و | AYN T W (ʿ T W) | ayn-t-w | https://forqan.co/quran-terminology/fa/roots/ayn-t-w/ | Awaiting full study
+0677 | ع ث ر | AYN TH R (ʿ TH R) | ayn-th-r | https://forqan.co/quran-terminology/fa/roots/ayn-th-r/ | Awaiting full study
+0678 | ع ج ب | AYN J B (ʿ J B) | ayn-j-b | https://forqan.co/quran-terminology/fa/roots/ayn-j-b/ | Awaiting full study
+0679 | ع ج ز | AYN J Z (ʿ J Z) | ayn-j-z | https://forqan.co/quran-terminology/fa/roots/ayn-j-z/ | Awaiting full study
+0680 | ع ج ف | AYN J F (ʿ J F) | ayn-j-f | https://forqan.co/quran-terminology/fa/roots/ayn-j-f/ | Awaiting full study
+0681 | ع ج م | AYN J M (ʿ J M) | ayn-j-m | https://forqan.co/quran-terminology/fa/roots/ayn-j-m/ | Awaiting full study
+0682 | ع ذ ر | AYN DH R (ʿ DH R) | ayn-dh-r | https://forqan.co/quran-terminology/fa/roots/ayn-dh-r/ | Awaiting full study
+0683 | ع ر ب | AYN R B (ʿ R B) | ayn-r-b | https://forqan.co/quran-terminology/fa/roots/ayn-r-b/ | Awaiting full study
+0684 | ع ر ج | AYN R J (ʿ R J) | ayn-r-j | https://forqan.co/quran-terminology/fa/roots/ayn-r-j/ | Awaiting full study
+0685 | ع ر ج ن | ʿ R J N | ayn-r-j-n | https://forqan.co/quran-terminology/fa/roots/ayn-r-j-n/ | Awaiting full study
+0686 | ع ر ر | AYN R R (ʿ R R) | ayn-r-r | https://forqan.co/quran-terminology/fa/roots/ayn-r-r/ | Awaiting full study
+0687 | ع ر ش | AYN R SH (ʿ R SH) | ayn-r-sh | https://forqan.co/quran-terminology/fa/roots/ayn-r-sh/ | Awaiting full study
+0688 | ع ر م | AYN R M (ʿ R M) | ayn-r-m | https://forqan.co/quran-terminology/fa/roots/ayn-r-m/ | Awaiting full study
+0689 | ع ر و | AYN R W (ʿ R W) | ayn-r-w | https://forqan.co/quran-terminology/fa/roots/ayn-r-w/ | Awaiting full study
+0690 | ع ر ي | AYN R Y (ʿ R Y) | ayn-r-y | https://forqan.co/quran-terminology/fa/roots/ayn-r-y/ | Awaiting full study
+0691 | ع ز ب | AYN Z B (ʿ Z B) | ayn-z-b | https://forqan.co/quran-terminology/fa/roots/ayn-z-b/ | Awaiting full study
+0692 | ع ز ر | AYN Z R (ʿ Z R) | ayn-z-r | https://forqan.co/quran-terminology/fa/roots/ayn-z-r/ | Awaiting full study
+0693 | ع ز ل | AYN Z L (ʿ Z L) | ayn-z-l | https://forqan.co/quran-terminology/fa/roots/ayn-z-l/ | Awaiting full study
+0694 | ع ز م | AYN Z M (ʿ Z M) | ayn-z-m | https://forqan.co/quran-terminology/fa/roots/ayn-z-m/ | Awaiting full study
+0695 | ع ز و | AYN Z W (ʿ Z W) | ayn-z-w | https://forqan.co/quran-terminology/fa/roots/ayn-z-w/ | Awaiting full study
+0696 | ع س ر | AYN S R (ʿ S R) | ayn-s-r | https://forqan.co/quran-terminology/fa/roots/ayn-s-r/ | Awaiting full study
+0697 | ع س ع س | ʿ S ʿ S | ayn-s-ayn-s | https://forqan.co/quran-terminology/fa/roots/ayn-s-ayn-s/ | Awaiting full study
+0698 | ع س ل | AYN S L (ʿ S L) | ayn-s-l | https://forqan.co/quran-terminology/fa/roots/ayn-s-l/ | Awaiting full study
+0699 | ع س ي | AYN S Y (ʿ S Y) | ayn-s-y | https://forqan.co/quran-terminology/fa/roots/ayn-s-y/ | Awaiting full study
+0700 | ع ش ر | AYN SH R (ʿ SH R) | ayn-sh-r | https://forqan.co/quran-terminology/fa/roots/ayn-sh-r/ | Awaiting full study
+0701 | ع ش و | AYN SH W (ʿ SH W) | ayn-sh-w | https://forqan.co/quran-terminology/fa/roots/ayn-sh-w/ | Awaiting full study
+0702 | ع ص ب | AYN Ṣ B (ʿ Ṣ B) | ayn-sad-b | https://forqan.co/quran-terminology/fa/roots/ayn-sad-b/ | Awaiting full study
+0703 | ع ص ف | AYN Ṣ F (ʿ Ṣ F) | ayn-sad-f | https://forqan.co/quran-terminology/fa/roots/ayn-sad-f/ | Awaiting full study
+0704 | ع ص م | AYN Ṣ M (ʿ Ṣ M) | ayn-sad-m | https://forqan.co/quran-terminology/fa/roots/ayn-sad-m/ | Awaiting full study
+0705 | ع ض د | AYN Ḍ D (ʿ Ḍ D) | ayn-dad-d | https://forqan.co/quran-terminology/fa/roots/ayn-dad-d/ | Awaiting full study
+0706 | ع ض ض | AYN Ḍ Ḍ (ʿ Ḍ Ḍ) | ayn-dad-dad | https://forqan.co/quran-terminology/fa/roots/ayn-dad-dad/ | Awaiting full study
+0707 | ع ض ل | AYN Ḍ L (ʿ Ḍ L) | ayn-dad-l | https://forqan.co/quran-terminology/fa/roots/ayn-dad-l/ | Awaiting full study
+0708 | ع ض و | AYN Ḍ W (ʿ Ḍ W) | ayn-dad-w | https://forqan.co/quran-terminology/fa/roots/ayn-dad-w/ | Awaiting full study
+0709 | ع ط ف | AYN Ṭ F (ʿ Ṭ F) | ayn-tt-f | https://forqan.co/quran-terminology/fa/roots/ayn-tt-f/ | Awaiting full study
+0710 | ع ط ل | AYN Ṭ L (ʿ Ṭ L) | ayn-tt-l | https://forqan.co/quran-terminology/fa/roots/ayn-tt-l/ | Awaiting full study
+0711 | ع ط و | AYN Ṭ W (ʿ Ṭ W) | ayn-tt-w | https://forqan.co/quran-terminology/fa/roots/ayn-tt-w/ | Awaiting full study
+0712 | ع ف ر | AYN F R (ʿ F R) | ayn-f-r | https://forqan.co/quran-terminology/fa/roots/ayn-f-r/ | Awaiting full study
+0713 | ع ف ف | AYN F F (ʿ F F) | ayn-f-f | https://forqan.co/quran-terminology/fa/roots/ayn-f-f/ | Awaiting full study
+0714 | ع ق د | AYN Q D (ʿ Q D) | ayn-q-d | https://forqan.co/quran-terminology/fa/roots/ayn-q-d/ | Full study installed locally
+0715 | ع ق ر | AYN Q R (ʿ Q R) | ayn-q-r | https://forqan.co/quran-terminology/fa/roots/ayn-q-r/ | Awaiting full study
+0716 | ع ق م | AYN Q M (ʿ Q M) | ayn-q-m | https://forqan.co/quran-terminology/fa/roots/ayn-q-m/ | Awaiting full study
+0717 | ع ل ق | AYN L Q (ʿ L Q) | ayn-l-q | https://forqan.co/quran-terminology/fa/roots/ayn-l-q/ | Awaiting full study
+0718 | ع ل و | AYN L W (ʿ L W) | ayn-l-w | https://forqan.co/quran-terminology/fa/roots/ayn-l-w/ | Awaiting full study
+0719 | ع م د | AYN M D (ʿ M D) | ayn-m-d | https://forqan.co/quran-terminology/fa/roots/ayn-m-d/ | Awaiting full study
+0720 | ع م ق | AYN M Q (ʿ M Q) | ayn-m-q | https://forqan.co/quran-terminology/fa/roots/ayn-m-q/ | Awaiting full study
+0721 | ع م م | AYN M M (ʿ M M) | ayn-m-m | https://forqan.co/quran-terminology/fa/roots/ayn-m-m/ | Awaiting full study
+0722 | ع ن ب | AYN N B (ʿ N B) | ayn-n-b | https://forqan.co/quran-terminology/fa/roots/ayn-n-b/ | Awaiting full study
+0723 | ع ن ت | AYN N T (ʿ N T) | ayn-n-t | https://forqan.co/quran-terminology/fa/roots/ayn-n-t/ | Awaiting full study
+0724 | ع ن د | AYN N D (ʿ N D) | ayn-n-d | https://forqan.co/quran-terminology/fa/roots/ayn-n-d/ | Awaiting full study
+0725 | ع ن ق | AYN N Q (ʿ N Q) | ayn-n-q | https://forqan.co/quran-terminology/fa/roots/ayn-n-q/ | Awaiting full study
+0726 | ع ن ك ب | ʿ N K B | ayn-n-k-b | https://forqan.co/quran-terminology/fa/roots/ayn-n-k-b/ | Awaiting full study
+0727 | ع ن و | AYN N W (ʿ N W) | ayn-n-w | https://forqan.co/quran-terminology/fa/roots/ayn-n-w/ | Awaiting full study
+0728 | ع ه ن | AYN H N (ʿ H N) | ayn-h2-n | https://forqan.co/quran-terminology/fa/roots/ayn-h2-n/ | Awaiting full study
+0729 | ع و ج | AYN W J (ʿ W J) | ayn-w-j | https://forqan.co/quran-terminology/fa/roots/ayn-w-j/ | Awaiting full study
+0730 | ع و د | AYN W D (ʿ W D) | ayn-w-d | https://forqan.co/quran-terminology/fa/roots/ayn-w-d/ | Awaiting full study
+0731 | ع و ر | AYN W R (ʿ W R) | ayn-w-r | https://forqan.co/quran-terminology/fa/roots/ayn-w-r/ | Awaiting full study
+0732 | ع و ق | AYN W Q (ʿ W Q) | ayn-w-q | https://forqan.co/quran-terminology/fa/roots/ayn-w-q/ | Awaiting full study
+0733 | ع و ل | AYN W L (ʿ W L) | ayn-w-l | https://forqan.co/quran-terminology/fa/roots/ayn-w-l/ | Awaiting full study
+0734 | ع و م | AYN W M (ʿ W M) | ayn-w-m | https://forqan.co/quran-terminology/fa/roots/ayn-w-m/ | Awaiting full study
+0735 | ع ي ب | AYN Y B (ʿ Y B) | ayn-y-b | https://forqan.co/quran-terminology/fa/roots/ayn-y-b/ | Awaiting full study
+0736 | ع ي ر | AYN Y R (ʿ Y R) | ayn-y-r | https://forqan.co/quran-terminology/fa/roots/ayn-y-r/ | Awaiting full study
+0737 | ع ي ش | AYN Y SH (ʿ Y SH) | ayn-y-sh | https://forqan.co/quran-terminology/fa/roots/ayn-y-sh/ | Awaiting full study
+0738 | ع ي ل | AYN Y L (ʿ Y L) | ayn-y-l | https://forqan.co/quran-terminology/fa/roots/ayn-y-l/ | Awaiting full study
+0739 | ع ي ي | AYN Y Y (ʿ Y Y) | ayn-y-y | https://forqan.co/quran-terminology/fa/roots/ayn-y-y/ | Awaiting full study
+0740 | غ ب ر | GH B R | gh-b-r | https://forqan.co/quran-terminology/fa/roots/gh-b-r/ | Awaiting full study
+0741 | غ ب ن | GH B N | gh-b-n | https://forqan.co/quran-terminology/fa/roots/gh-b-n/ | Awaiting full study
+0742 | غ د ر | GH D R | gh-d-r | https://forqan.co/quran-terminology/fa/roots/gh-d-r/ | Awaiting full study
+0743 | غ د ق | GH D Q | gh-d-q | https://forqan.co/quran-terminology/fa/roots/gh-d-q/ | Awaiting full study
+0744 | غ د و | GH D W | gh-d-w | https://forqan.co/quran-terminology/fa/roots/gh-d-w/ | Awaiting full study
+0745 | غ ر ر | GH R R | gh-r-r | https://forqan.co/quran-terminology/fa/roots/gh-r-r/ | Awaiting full study
+0746 | غ ر ف | GH R F | gh-r-f | https://forqan.co/quran-terminology/fa/roots/gh-r-f/ | Awaiting full study
+0747 | غ ر م | GH R M | gh-r-m | https://forqan.co/quran-terminology/fa/roots/gh-r-m/ | Awaiting full study
+0748 | غ ر و | GH R W | gh-r-w | https://forqan.co/quran-terminology/fa/roots/gh-r-w/ | Awaiting full study
+0749 | غ ز ل | GH Z L | gh-z-l | https://forqan.co/quran-terminology/fa/roots/gh-z-l/ | Awaiting full study
+0750 | غ ز و | GH Z W | gh-z-w | https://forqan.co/quran-terminology/fa/roots/gh-z-w/ | Awaiting full study
+0751 | غ س ل | GH S L | gh-s-l | https://forqan.co/quran-terminology/fa/roots/gh-s-l/ | Awaiting full study
+0752 | غ ص ب | GH Ṣ B | gh-sad-b | https://forqan.co/quran-terminology/fa/roots/gh-sad-b/ | Awaiting full study
+0753 | غ ص ص | GH Ṣ Ṣ | gh-sad-sad | https://forqan.co/quran-terminology/fa/roots/gh-sad-sad/ | Awaiting full study
+0754 | غ ض ض | GH Ḍ Ḍ | gh-dad-dad | https://forqan.co/quran-terminology/fa/roots/gh-dad-dad/ | Awaiting full study
+0755 | غ ط ش | GH Ṭ SH | gh-tt-sh | https://forqan.co/quran-terminology/fa/roots/gh-tt-sh/ | Awaiting full study
+0756 | غ ط و | GH Ṭ W | gh-tt-w | https://forqan.co/quran-terminology/fa/roots/gh-tt-w/ | Awaiting full study
+0757 | غ ل ب | GH L B | gh-l-b | https://forqan.co/quran-terminology/fa/roots/gh-l-b/ | Awaiting full study
+0758 | غ ل ظ | GH L Ẓ | gh-l-zha | https://forqan.co/quran-terminology/fa/roots/gh-l-zha/ | Awaiting full study
+0759 | غ ل ق | GH L Q | gh-l-q | https://forqan.co/quran-terminology/fa/roots/gh-l-q/ | Awaiting full study
+0760 | غ ل ل | GH L L | gh-l-l | https://forqan.co/quran-terminology/fa/roots/gh-l-l/ | Awaiting full study
+0761 | غ ل م | GH L M | gh-l-m | https://forqan.co/quran-terminology/fa/roots/gh-l-m/ | Awaiting full study
+0762 | غ ل و | GH L W | gh-l-w | https://forqan.co/quran-terminology/fa/roots/gh-l-w/ | Awaiting full study
+0763 | غ ل ي | GH L Y | gh-l-y | https://forqan.co/quran-terminology/fa/roots/gh-l-y/ | Awaiting full study
+0764 | غ م ر | GH M R | gh-m-r | https://forqan.co/quran-terminology/fa/roots/gh-m-r/ | Awaiting full study
+0765 | غ م ز | GH M Z | gh-m-z | https://forqan.co/quran-terminology/fa/roots/gh-m-z/ | Awaiting full study
+0766 | غ م ض | GH M Ḍ | gh-m-dad | https://forqan.co/quran-terminology/fa/roots/gh-m-dad/ | Awaiting full study
+0767 | غ ن م | GH N M | gh-n-m | https://forqan.co/quran-terminology/fa/roots/gh-n-m/ | Awaiting full study
+0768 | غ ن ي | GH N Y | gh-n-y | https://forqan.co/quran-terminology/fa/roots/gh-n-y/ | Awaiting full study
+0769 | غ و ث | GH W TH | gh-w-th | https://forqan.co/quran-terminology/fa/roots/gh-w-th/ | Awaiting full study
+0770 | غ و ر | GH W R | gh-w-r | https://forqan.co/quran-terminology/fa/roots/gh-w-r/ | Awaiting full study
+0771 | غ و ص | GH W Ṣ | gh-w-sad | https://forqan.co/quran-terminology/fa/roots/gh-w-sad/ | Awaiting full study
+0772 | غ و ط | GH W Ṭ | gh-w-tt | https://forqan.co/quran-terminology/fa/roots/gh-w-tt/ | Awaiting full study
+0773 | غ و ل | GH W L | gh-w-l | https://forqan.co/quran-terminology/fa/roots/gh-w-l/ | Awaiting full study
+0774 | غ و ي | GH W Y | gh-w-y | https://forqan.co/quran-terminology/fa/roots/gh-w-y/ | Awaiting full study
+0775 | غ ي ث | GH Y TH | gh-y-th | https://forqan.co/quran-terminology/fa/roots/gh-y-th/ | Awaiting full study
+0776 | غ ي ض | GH Y Ḍ | gh-y-dad | https://forqan.co/quran-terminology/fa/roots/gh-y-dad/ | Awaiting full study
+0777 | غ ي ظ | GH Y Ẓ | gh-y-zha | https://forqan.co/quran-terminology/fa/roots/gh-y-zha/ | Awaiting full study
+0778 | ف أ ي | F A Y | f-a-y | https://forqan.co/quran-terminology/fa/roots/f-a-y/ | Awaiting full study
+0779 | ف ت أ | F T A | f-t-a | https://forqan.co/quran-terminology/fa/roots/f-t-a/ | Awaiting full study
+0780 | ف ت ر | F T R | f-t-r | https://forqan.co/quran-terminology/fa/roots/f-t-r/ | Awaiting full study
+0781 | ف ت ق | F T Q | f-t-q | https://forqan.co/quran-terminology/fa/roots/f-t-q/ | Awaiting full study
+0782 | ف ت ل | F T L | f-t-l | https://forqan.co/quran-terminology/fa/roots/f-t-l/ | Awaiting full study
+0783 | ف ت ي | F T Y | f-t-y | https://forqan.co/quran-terminology/fa/roots/f-t-y/ | Awaiting full study
+0784 | ف ج ج | F J J | f-j-j | https://forqan.co/quran-terminology/fa/roots/f-j-j/ | Awaiting full study
+0785 | ف ج و | F J W | f-j-w | https://forqan.co/quran-terminology/fa/roots/f-j-w/ | Awaiting full study
+0786 | ف ح ش | F Ḥ SH | f-h-sh | https://forqan.co/quran-terminology/fa/roots/f-h-sh/ | Awaiting full study
+0787 | ف خ ر | F KH R | f-kh-r | https://forqan.co/quran-terminology/fa/roots/f-kh-r/ | Awaiting full study
+0788 | ف ر ت | F R T | f-r-t | https://forqan.co/quran-terminology/fa/roots/f-r-t/ | Awaiting full study
+0789 | ف ر ث | F R TH | f-r-th | https://forqan.co/quran-terminology/fa/roots/f-r-th/ | Awaiting full study
+0790 | ف ر ج | F R J | f-r-j | https://forqan.co/quran-terminology/fa/roots/f-r-j/ | Awaiting full study
+0791 | ف ر ح | F R Ḥ | f-r-h | https://forqan.co/quran-terminology/fa/roots/f-r-h/ | Awaiting full study
+0792 | ف ر د | F R D | f-r-d | https://forqan.co/quran-terminology/fa/roots/f-r-d/ | Awaiting full study
+0793 | ف ر ر | F R R | f-r-r | https://forqan.co/quran-terminology/fa/roots/f-r-r/ | Awaiting full study
+0794 | ف ر ط | F R Ṭ | f-r-tt | https://forqan.co/quran-terminology/fa/roots/f-r-tt/ | Awaiting full study
+0795 | ف ر ع | F R AYN (F R ʿ) | f-r-ayn | https://forqan.co/quran-terminology/fa/roots/f-r-ayn/ | Awaiting full study
+0796 | ف ر غ | F R GH | f-r-gh | https://forqan.co/quran-terminology/fa/roots/f-r-gh/ | Awaiting full study
+0797 | ف ر ه | F R H | f-r-h2 | https://forqan.co/quran-terminology/fa/roots/f-r-h2/ | Awaiting full study
+0798 | ف ر ي | F R Y | f-r-y | https://forqan.co/quran-terminology/fa/roots/f-r-y/ | Awaiting full study
+0799 | ف ز ز | F Z Z | f-z-z | https://forqan.co/quran-terminology/fa/roots/f-z-z/ | Awaiting full study
+0800 | ف ز ع | F Z AYN (F Z ʿ) | f-z-ayn | https://forqan.co/quran-terminology/fa/roots/f-z-ayn/ | Awaiting full study
+0801 | ف س ح | F S Ḥ | f-s-h | https://forqan.co/quran-terminology/fa/roots/f-s-h/ | Awaiting full study
+0802 | ف س ر | F S R | f-s-r | https://forqan.co/quran-terminology/fa/roots/f-s-r/ | Awaiting full study
+0803 | ف ش ل | F SH L | f-sh-l | https://forqan.co/quran-terminology/fa/roots/f-sh-l/ | Awaiting full study
+0804 | ف ص ح | F Ṣ Ḥ | f-sad-h | https://forqan.co/quran-terminology/fa/roots/f-sad-h/ | Awaiting full study
+0805 | ف ص ل | F Ṣ L | f-sad-l | https://forqan.co/quran-terminology/fa/roots/f-sad-l/ | Awaiting full study
+0806 | ف ص م | F Ṣ M | f-sad-m | https://forqan.co/quran-terminology/fa/roots/f-sad-m/ | Awaiting full study
+0807 | ف ض ح | F Ḍ Ḥ | f-dad-h | https://forqan.co/quran-terminology/fa/roots/f-dad-h/ | Awaiting full study
+0808 | ف ض ض | F Ḍ Ḍ | f-dad-dad | https://forqan.co/quran-terminology/fa/roots/f-dad-dad/ | Awaiting full study
+0809 | ف ض و | F Ḍ W | f-dad-w | https://forqan.co/quran-terminology/fa/roots/f-dad-w/ | Awaiting full study
+0810 | ف ط ر | F Ṭ R | f-tt-r | https://forqan.co/quran-terminology/fa/roots/f-tt-r/ | Awaiting full study
+0811 | ف ظ ظ | F Ẓ Ẓ | f-zha-zha | https://forqan.co/quran-terminology/fa/roots/f-zha-zha/ | Awaiting full study
+0812 | ف ق د | F Q D | f-q-d | https://forqan.co/quran-terminology/fa/roots/f-q-d/ | Awaiting full study
+0813 | ف ق ر | F Q R | f-q-r | https://forqan.co/quran-terminology/fa/roots/f-q-r/ | Awaiting full study
+0814 | ف ق ه | F Q H | f-q-h2 | https://forqan.co/quran-terminology/fa/roots/f-q-h2/ | Awaiting full study
+0815 | ف ك ر | F K R | f-k-r | https://forqan.co/quran-terminology/fa/roots/f-k-r/ | Awaiting full study
+0816 | ف ك ه | F K H | f-k-h2 | https://forqan.co/quran-terminology/fa/roots/f-k-h2/ | Awaiting full study
+0817 | ف ل ك | F L K | f-l-k | https://forqan.co/quran-terminology/fa/roots/f-l-k/ | Awaiting full study
+0818 | ف ل ن | F L N | f-l-n | https://forqan.co/quran-terminology/fa/roots/f-l-n/ | Awaiting full study
+0819 | ف ن د | F N D | f-n-d | https://forqan.co/quran-terminology/fa/roots/f-n-d/ | Awaiting full study
+0820 | ف ن ن | F N N | f-n-n | https://forqan.co/quran-terminology/fa/roots/f-n-n/ | Awaiting full study
+0821 | ف ن ي | F N Y | f-n-y | https://forqan.co/quran-terminology/fa/roots/f-n-y/ | Awaiting full study
+0822 | ف ه م | F H M | f-h2-m | https://forqan.co/quran-terminology/fa/roots/f-h2-m/ | Awaiting full study
+0823 | ف و ت | F W T | f-w-t | https://forqan.co/quran-terminology/fa/roots/f-w-t/ | Awaiting full study
+0824 | ف و ج | F W J | f-w-j | https://forqan.co/quran-terminology/fa/roots/f-w-j/ | Awaiting full study
+0825 | ف و ر | F W R | f-w-r | https://forqan.co/quran-terminology/fa/roots/f-w-r/ | Awaiting full study
+0826 | ف و ز | F W Z | f-w-z | https://forqan.co/quran-terminology/fa/roots/f-w-z/ | Awaiting full study
+0827 | ف و ض | F W Ḍ | f-w-dad | https://forqan.co/quran-terminology/fa/roots/f-w-dad/ | Awaiting full study
+0828 | ف و ه | F W H | f-w-h2 | https://forqan.co/quran-terminology/fa/roots/f-w-h2/ | Awaiting full study
+0829 | ف ي أ | F Y A | f-y-a | https://forqan.co/quran-terminology/fa/roots/f-y-a/ | Awaiting full study
+0830 | ف ي ض | F Y Ḍ | f-y-dad | https://forqan.co/quran-terminology/fa/roots/f-y-dad/ | Awaiting full study
+0831 | ف ي ل | F Y L | f-y-l | https://forqan.co/quran-terminology/fa/roots/f-y-l/ | Awaiting full study
+0832 | ق ب ح | Q B Ḥ | q-b-h | https://forqan.co/quran-terminology/fa/roots/q-b-h/ | Awaiting full study
+0833 | ق ب ر | Q B R | q-b-r | https://forqan.co/quran-terminology/fa/roots/q-b-r/ | Awaiting full study
+0834 | ق ب س | Q B S | q-b-s | https://forqan.co/quran-terminology/fa/roots/q-b-s/ | Awaiting full study
+0835 | ق ب ض | Q B Ḍ | q-b-dad | https://forqan.co/quran-terminology/fa/roots/q-b-dad/ | Awaiting full study
+0836 | ق ت ر | Q T R | q-t-r | https://forqan.co/quran-terminology/fa/roots/q-t-r/ | Awaiting full study
+0837 | ق ح م | Q Ḥ M | q-h-m | https://forqan.co/quran-terminology/fa/roots/q-h-m/ | Awaiting full study
+0838 | ق د ح | Q D Ḥ | q-d-h | https://forqan.co/quran-terminology/fa/roots/q-d-h/ | Awaiting full study
+0839 | ق د د | Q D D | q-d-d | https://forqan.co/quran-terminology/fa/roots/q-d-d/ | Awaiting full study
+0840 | ق د و | Q D W | q-d-w | https://forqan.co/quran-terminology/fa/roots/q-d-w/ | Awaiting full study
+0841 | ق ذ ف | Q DH F | q-dh-f | https://forqan.co/quran-terminology/fa/roots/q-dh-f/ | Awaiting full study
+0842 | ق ر أ | Q R A | q-r-a | https://forqan.co/quran-terminology/fa/roots/q-r-a/ | Awaiting full study
+0843 | ق ر ح | Q R Ḥ | q-r-h | https://forqan.co/quran-terminology/fa/roots/q-r-h/ | Awaiting full study
+0844 | ق ر ش | Q R SH | q-r-sh | https://forqan.co/quran-terminology/fa/roots/q-r-sh/ | Awaiting full study
+0845 | ق ر ط س | Q R Ṭ S | q-r-tt-s | https://forqan.co/quran-terminology/fa/roots/q-r-tt-s/ | Awaiting full study
+0846 | ق ر ع | Q R AYN (Q R ʿ) | q-r-ayn | https://forqan.co/quran-terminology/fa/roots/q-r-ayn/ | Awaiting full study
+0847 | ق ر ف | Q R F | q-r-f | https://forqan.co/quran-terminology/fa/roots/q-r-f/ | Awaiting full study
+0848 | ق ر ن | Q R N | q-r-n | https://forqan.co/quran-terminology/fa/roots/q-r-n/ | Awaiting full study
+0849 | ق س ر | Q S R | q-s-r | https://forqan.co/quran-terminology/fa/roots/q-s-r/ | Awaiting full study
+0850 | ق س س | Q S S | q-s-s | https://forqan.co/quran-terminology/fa/roots/q-s-s/ | Awaiting full study
+0851 | ق س ط | Q S Ṭ | q-s-tt | https://forqan.co/quran-terminology/fa/roots/q-s-tt/ | Awaiting full study
+0852 | ق س ط س | Q S Ṭ S | q-s-tt-s | https://forqan.co/quran-terminology/fa/roots/q-s-tt-s/ | Awaiting full study
+0853 | ق س م | Q S M | q-s-m | https://forqan.co/quran-terminology/fa/roots/q-s-m/ | Awaiting full study
+0854 | ق ش ع ر | Q SH ʿ R | q-sh-ayn-r | https://forqan.co/quran-terminology/fa/roots/q-sh-ayn-r/ | Awaiting full study
+0855 | ق ص د | Q Ṣ D | q-sad-d | https://forqan.co/quran-terminology/fa/roots/q-sad-d/ | Awaiting full study
+0856 | ق ص ر | Q Ṣ R | q-sad-r | https://forqan.co/quran-terminology/fa/roots/q-sad-r/ | Awaiting full study
+0857 | ق ص ص | Q Ṣ Ṣ | q-sad-sad | https://forqan.co/quran-terminology/fa/roots/q-sad-sad/ | Awaiting full study
+0858 | ق ص ف | Q Ṣ F | q-sad-f | https://forqan.co/quran-terminology/fa/roots/q-sad-f/ | Awaiting full study
+0859 | ق ص م | Q Ṣ M | q-sad-m | https://forqan.co/quran-terminology/fa/roots/q-sad-m/ | Awaiting full study
+0860 | ق ص و | Q Ṣ W | q-sad-w | https://forqan.co/quran-terminology/fa/roots/q-sad-w/ | Awaiting full study
+0861 | ق ض ب | Q Ḍ B | q-dad-b | https://forqan.co/quran-terminology/fa/roots/q-dad-b/ | Awaiting full study
+0862 | ق ض ض | Q Ḍ Ḍ | q-dad-dad | https://forqan.co/quran-terminology/fa/roots/q-dad-dad/ | Awaiting full study
+0863 | ق ط ر | Q Ṭ R | q-tt-r | https://forqan.co/quran-terminology/fa/roots/q-tt-r/ | Awaiting full study
+0864 | ق ط ط | Q Ṭ Ṭ | q-tt-tt | https://forqan.co/quran-terminology/fa/roots/q-tt-tt/ | Awaiting full study
+0865 | ق ط ف | Q Ṭ F | q-tt-f | https://forqan.co/quran-terminology/fa/roots/q-tt-f/ | Awaiting full study
+0866 | ق ط م ر | Q Ṭ M R | q-tt-m-r | https://forqan.co/quran-terminology/fa/roots/q-tt-m-r/ | Awaiting full study
+0867 | ق ع ر | Q AYN R (Q ʿ R) | q-ayn-r | https://forqan.co/quran-terminology/fa/roots/q-ayn-r/ | Awaiting full study
+0868 | ق ف ل | Q F L | q-f-l | https://forqan.co/quran-terminology/fa/roots/q-f-l/ | Awaiting full study
+0869 | ق ل د | Q L D | q-l-d | https://forqan.co/quran-terminology/fa/roots/q-l-d/ | Awaiting full study
+0870 | ق ل ع | Q L AYN (Q L ʿ) | q-l-ayn | https://forqan.co/quran-terminology/fa/roots/q-l-ayn/ | Awaiting full study
+0871 | ق ل م | Q L M | q-l-m | https://forqan.co/quran-terminology/fa/roots/q-l-m/ | Awaiting full study
+0872 | ق ل ي | Q L Y | q-l-y | https://forqan.co/quran-terminology/fa/roots/q-l-y/ | Awaiting full study
+0873 | ق م ح | Q M Ḥ | q-m-h | https://forqan.co/quran-terminology/fa/roots/q-m-h/ | Awaiting full study
+0874 | ق م ر | Q M R | q-m-r | https://forqan.co/quran-terminology/fa/roots/q-m-r/ | Awaiting full study
+0875 | ق م ص | Q M Ṣ | q-m-sad | https://forqan.co/quran-terminology/fa/roots/q-m-sad/ | Awaiting full study
+0876 | ق م ط ر | Q M Ṭ R | q-m-tt-r | https://forqan.co/quran-terminology/fa/roots/q-m-tt-r/ | Awaiting full study
+0877 | ق م ع | Q M AYN (Q M ʿ) | q-m-ayn | https://forqan.co/quran-terminology/fa/roots/q-m-ayn/ | Awaiting full study
+0878 | ق م ل | Q M L | q-m-l | https://forqan.co/quran-terminology/fa/roots/q-m-l/ | Awaiting full study
+0879 | ق ن ط | Q N Ṭ | q-n-tt | https://forqan.co/quran-terminology/fa/roots/q-n-tt/ | Awaiting full study
+0880 | ق ن ط ر | Q N Ṭ R | q-n-tt-r | https://forqan.co/quran-terminology/fa/roots/q-n-tt-r/ | Awaiting full study
+0881 | ق ن ع | Q N AYN (Q N ʿ) | q-n-ayn | https://forqan.co/quran-terminology/fa/roots/q-n-ayn/ | Awaiting full study
+0882 | ق ن و | Q N W | q-n-w | https://forqan.co/quran-terminology/fa/roots/q-n-w/ | Awaiting full study
+0883 | ق ن ي | Q N Y | q-n-y | https://forqan.co/quran-terminology/fa/roots/q-n-y/ | Awaiting full study
+0884 | ق ه ر | Q H R | q-h2-r | https://forqan.co/quran-terminology/fa/roots/q-h2-r/ | Awaiting full study
+0885 | ق و ب | Q W B | q-w-b | https://forqan.co/quran-terminology/fa/roots/q-w-b/ | Awaiting full study
+0886 | ق و ت | Q W T | q-w-t | https://forqan.co/quran-terminology/fa/roots/q-w-t/ | Awaiting full study
+0887 | ق و س | Q W S | q-w-s | https://forqan.co/quran-terminology/fa/roots/q-w-s/ | Awaiting full study
+0888 | ق و ع | Q W AYN (Q W ʿ) | q-w-ayn | https://forqan.co/quran-terminology/fa/roots/q-w-ayn/ | Awaiting full study
+0889 | ق ي ض | Q Y Ḍ | q-y-dad | https://forqan.co/quran-terminology/fa/roots/q-y-dad/ | Awaiting full study
+0890 | ق ي ل | Q Y L | q-y-l | https://forqan.co/quran-terminology/fa/roots/q-y-l/ | Awaiting full study
+0891 | ك أ س | K A S | k-a-s | https://forqan.co/quran-terminology/fa/roots/k-a-s/ | Awaiting full study
+0892 | ك ب ب | K B B | k-b-b | https://forqan.co/quran-terminology/fa/roots/k-b-b/ | Awaiting full study
+0893 | ك ب ت | K B T | k-b-t | https://forqan.co/quran-terminology/fa/roots/k-b-t/ | Awaiting full study
+0894 | ك ب د | K B D | k-b-d | https://forqan.co/quran-terminology/fa/roots/k-b-d/ | Awaiting full study
+0895 | ك ب ك ب | K B K B | k-b-k-b | https://forqan.co/quran-terminology/fa/roots/k-b-k-b/ | Awaiting full study
+0896 | ك ث ب | K TH B | k-th-b | https://forqan.co/quran-terminology/fa/roots/k-th-b/ | Awaiting full study
+0897 | ك د ح | K D Ḥ | k-d-h | https://forqan.co/quran-terminology/fa/roots/k-d-h/ | Awaiting full study
+0898 | ك د ر | K D R | k-d-r | https://forqan.co/quran-terminology/fa/roots/k-d-r/ | Awaiting full study
+0899 | ك د ي | K D Y | k-d-y | https://forqan.co/quran-terminology/fa/roots/k-d-y/ | Awaiting full study
+0900 | ك ر ب | K R B | k-r-b | https://forqan.co/quran-terminology/fa/roots/k-r-b/ | Awaiting full study
+0901 | ك ر ر | K R R | k-r-r | https://forqan.co/quran-terminology/fa/roots/k-r-r/ | Awaiting full study
+0902 | ك ر س | K R S | k-r-s | https://forqan.co/quran-terminology/fa/roots/k-r-s/ | Awaiting full study
+0903 | ك ر م | K R M | k-r-m | https://forqan.co/quran-terminology/fa/roots/k-r-m/ | Awaiting full study
+0904 | ك ر ه | K R H | k-r-h2 | https://forqan.co/quran-terminology/fa/roots/k-r-h2/ | Awaiting full study
+0905 | ك س د | K S D | k-s-d | https://forqan.co/quran-terminology/fa/roots/k-s-d/ | Awaiting full study
+0906 | ك س ف | K S F | k-s-f | https://forqan.co/quran-terminology/fa/roots/k-s-f/ | Awaiting full study
+0907 | ك س ل | K S L | k-s-l | https://forqan.co/quran-terminology/fa/roots/k-s-l/ | Awaiting full study
+0908 | ك س و | K S W | k-s-w | https://forqan.co/quran-terminology/fa/roots/k-s-w/ | Awaiting full study
+0909 | ك ش ط | K SH Ṭ | k-sh-tt | https://forqan.co/quran-terminology/fa/roots/k-sh-tt/ | Awaiting full study
+0910 | ك ش ف | K SH F | k-sh-f | https://forqan.co/quran-terminology/fa/roots/k-sh-f/ | Awaiting full study
+0911 | ك ظ م | K Ẓ M | k-zha-m | https://forqan.co/quran-terminology/fa/roots/k-zha-m/ | Awaiting full study
+0912 | ك ع ب | K AYN B (K ʿ B) | k-ayn-b | https://forqan.co/quran-terminology/fa/roots/k-ayn-b/ | Awaiting full study
+0913 | ك ف أ | K F A | k-f-a | https://forqan.co/quran-terminology/fa/roots/k-f-a/ | Full study installed locally
+0914 | ك ف ت | K F T | k-f-t | https://forqan.co/quran-terminology/fa/roots/k-f-t/ | Awaiting full study
+0915 | ك ف ف | K F F | k-f-f | https://forqan.co/quran-terminology/fa/roots/k-f-f/ | Awaiting full study
+0916 | ك ف ل | K F L | k-f-l | https://forqan.co/quran-terminology/fa/roots/k-f-l/ | Awaiting full study
+0917 | ك ل أ | K L A | k-l-a | https://forqan.co/quran-terminology/fa/roots/k-l-a/ | Awaiting full study
+0918 | ك ل ب | K L B | k-l-b | https://forqan.co/quran-terminology/fa/roots/k-l-b/ | Awaiting full study
+0919 | ك ل ح | K L Ḥ | k-l-h | https://forqan.co/quran-terminology/fa/roots/k-l-h/ | Awaiting full study
+0920 | ك ل ف | K L F | k-l-f | https://forqan.co/quran-terminology/fa/roots/k-l-f/ | Awaiting full study
+0921 | ك ل و | K L W | k-l-w | https://forqan.co/quran-terminology/fa/roots/k-l-w/ | Awaiting full study
+0922 | ك م ل | K M L | k-m-l | https://forqan.co/quran-terminology/fa/roots/k-m-l/ | Awaiting full study
+0923 | ك م م | K M M | k-m-m | https://forqan.co/quran-terminology/fa/roots/k-m-m/ | Awaiting full study
+0924 | ك م ه | K M H | k-m-h2 | https://forqan.co/quran-terminology/fa/roots/k-m-h2/ | Awaiting full study
+0925 | ك ن د | K N D | k-n-d | https://forqan.co/quran-terminology/fa/roots/k-n-d/ | Awaiting full study
+0926 | ك ن ز | K N Z | k-n-z | https://forqan.co/quran-terminology/fa/roots/k-n-z/ | Awaiting full study
+0927 | ك ن س | K N S | k-n-s | https://forqan.co/quran-terminology/fa/roots/k-n-s/ | Awaiting full study
+0928 | ك ن ن | K N N | k-n-n | https://forqan.co/quran-terminology/fa/roots/k-n-n/ | Awaiting full study
+0929 | ك ه ف | K H F | k-h2-f | https://forqan.co/quran-terminology/fa/roots/k-h2-f/ | Awaiting full study
+0930 | ك ه ل | K H L | k-h2-l | https://forqan.co/quran-terminology/fa/roots/k-h2-l/ | Awaiting full study
+0931 | ك ه ن | K H N | k-h2-n | https://forqan.co/quran-terminology/fa/roots/k-h2-n/ | Awaiting full study
+0932 | ك و ب | K W B | k-w-b | https://forqan.co/quran-terminology/fa/roots/k-w-b/ | Awaiting full study
+0933 | ك و ر | K W R | k-w-r | https://forqan.co/quran-terminology/fa/roots/k-w-r/ | Awaiting full study
+0934 | ك و ك ب | K W K B | k-w-k-b | https://forqan.co/quran-terminology/fa/roots/k-w-k-b/ | Awaiting full study
+0935 | ك و ي | K W Y | k-w-y | https://forqan.co/quran-terminology/fa/roots/k-w-y/ | Awaiting full study
+0936 | ك ي د | K Y D | k-y-d | https://forqan.co/quran-terminology/fa/roots/k-y-d/ | Awaiting full study
+0937 | ك ي ن | K Y N | k-y-n | https://forqan.co/quran-terminology/fa/roots/k-y-n/ | Awaiting full study
+0938 | ل أ ل أ | L A L A | l-a-l-a | https://forqan.co/quran-terminology/fa/roots/l-a-l-a/ | Awaiting full study
+0939 | ل ب ب | L B B | l-b-b | https://forqan.co/quran-terminology/fa/roots/l-b-b/ | Awaiting full study
+0940 | ل ب ث | L B TH | l-b-th | https://forqan.co/quran-terminology/fa/roots/l-b-th/ | Awaiting full study
+0941 | ل ب د | L B D | l-b-d | https://forqan.co/quran-terminology/fa/roots/l-b-d/ | Awaiting full study
+0942 | ل ب ن | L B N | l-b-n | https://forqan.co/quran-terminology/fa/roots/l-b-n/ | Awaiting full study
+0943 | ل ج أ | L J A | l-j-a | https://forqan.co/quran-terminology/fa/roots/l-j-a/ | Awaiting full study
+0944 | ل ج ج | L J J | l-j-j | https://forqan.co/quran-terminology/fa/roots/l-j-j/ | Awaiting full study
+0945 | ل ح د | L Ḥ D | l-h-d | https://forqan.co/quran-terminology/fa/roots/l-h-d/ | Awaiting full study
+0946 | ل ح ف | L Ḥ F | l-h-f | https://forqan.co/quran-terminology/fa/roots/l-h-f/ | Awaiting full study
+0947 | ل ح ق | L Ḥ Q | l-h-q | https://forqan.co/quran-terminology/fa/roots/l-h-q/ | Awaiting full study
+0948 | ل ح م | L Ḥ M | l-h-m | https://forqan.co/quran-terminology/fa/roots/l-h-m/ | Awaiting full study
+0949 | ل ح ن | L Ḥ N | l-h-n | https://forqan.co/quran-terminology/fa/roots/l-h-n/ | Awaiting full study
+0950 | ل ح ي | L Ḥ Y | l-h-y | https://forqan.co/quran-terminology/fa/roots/l-h-y/ | Awaiting full study
+0951 | ل د د | L D D | l-d-d | https://forqan.co/quran-terminology/fa/roots/l-d-d/ | Awaiting full study
+0952 | ل د ن | L D N | l-d-n | https://forqan.co/quran-terminology/fa/roots/l-d-n/ | Awaiting full study
+0953 | ل ذ ذ | L DH DH | l-dh-dh | https://forqan.co/quran-terminology/fa/roots/l-dh-dh/ | Awaiting full study
+0954 | ل ز ب | L Z B | l-z-b | https://forqan.co/quran-terminology/fa/roots/l-z-b/ | Awaiting full study
+0955 | ل ز م | L Z M | l-z-m | https://forqan.co/quran-terminology/fa/roots/l-z-m/ | Awaiting full study
+0956 | ل س ن | L S N | l-s-n | https://forqan.co/quran-terminology/fa/roots/l-s-n/ | Awaiting full study
+0957 | ل ط ف | L Ṭ F | l-tt-f | https://forqan.co/quran-terminology/fa/roots/l-tt-f/ | Awaiting full study
+0958 | ل ظ ي | L Ẓ Y | l-zha-y | https://forqan.co/quran-terminology/fa/roots/l-zha-y/ | Awaiting full study
+0959 | ل ع ب | L AYN B (L ʿ B) | l-ayn-b | https://forqan.co/quran-terminology/fa/roots/l-ayn-b/ | Awaiting full study
+0960 | ل غ ب | L GH B | l-gh-b | https://forqan.co/quran-terminology/fa/roots/l-gh-b/ | Awaiting full study
+0961 | ل غ و | L GH W | l-gh-w | https://forqan.co/quran-terminology/fa/roots/l-gh-w/ | Awaiting full study
+0962 | ل ف ت | L F T | l-f-t | https://forqan.co/quran-terminology/fa/roots/l-f-t/ | Awaiting full study
+0963 | ل ف ح | L F Ḥ | l-f-h | https://forqan.co/quran-terminology/fa/roots/l-f-h/ | Awaiting full study
+0964 | ل ف ظ | L F Ẓ | l-f-zha | https://forqan.co/quran-terminology/fa/roots/l-f-zha/ | Awaiting full study
+0965 | ل ف ف | L F F | l-f-f | https://forqan.co/quran-terminology/fa/roots/l-f-f/ | Awaiting full study
+0966 | ل ف و | L F W | l-f-w | https://forqan.co/quran-terminology/fa/roots/l-f-w/ | Awaiting full study
+0967 | ل ق ب | L Q B | l-q-b | https://forqan.co/quran-terminology/fa/roots/l-q-b/ | Awaiting full study
+0968 | ل ق ح | L Q Ḥ | l-q-h | https://forqan.co/quran-terminology/fa/roots/l-q-h/ | Awaiting full study
+0969 | ل ق ط | L Q Ṭ | l-q-tt | https://forqan.co/quran-terminology/fa/roots/l-q-tt/ | Awaiting full study
+0970 | ل ق ف | L Q F | l-q-f | https://forqan.co/quran-terminology/fa/roots/l-q-f/ | Awaiting full study
+0971 | ل ق م | L Q M | l-q-m | https://forqan.co/quran-terminology/fa/roots/l-q-m/ | Awaiting full study
+0972 | ل م ح | L M Ḥ | l-m-h | https://forqan.co/quran-terminology/fa/roots/l-m-h/ | Awaiting full study
+0973 | ل م س | L M S | l-m-s | https://forqan.co/quran-terminology/fa/roots/l-m-s/ | Awaiting full study
+0974 | ل م م | L M M | l-m-m | https://forqan.co/quran-terminology/fa/roots/l-m-m/ | Awaiting full study
+0975 | ل ه ب | L H B | l-h2-b | https://forqan.co/quran-terminology/fa/roots/l-h2-b/ | Awaiting full study
+0976 | ل ه ث | L H TH | l-h2-th | https://forqan.co/quran-terminology/fa/roots/l-h2-th/ | Awaiting full study
+0977 | ل ه م | L H M | l-h2-m | https://forqan.co/quran-terminology/fa/roots/l-h2-m/ | Awaiting full study
+0978 | ل ه و | L H W | l-h2-w | https://forqan.co/quran-terminology/fa/roots/l-h2-w/ | Awaiting full study
+0979 | ل و ت | L W T | l-w-t | https://forqan.co/quran-terminology/fa/roots/l-w-t/ | Awaiting full study
+0980 | ل و ح | L W Ḥ | l-w-h | https://forqan.co/quran-terminology/fa/roots/l-w-h/ | Awaiting full study
+0981 | ل و ذ | L W DH | l-w-dh | https://forqan.co/quran-terminology/fa/roots/l-w-dh/ | Awaiting full study
+0982 | ل و م | L W M | l-w-m | https://forqan.co/quran-terminology/fa/roots/l-w-m/ | Awaiting full study
+0983 | ل و ي | L W Y | l-w-y | https://forqan.co/quran-terminology/fa/roots/l-w-y/ | Awaiting full study
+0984 | ل ي ت | L Y T | l-y-t | https://forqan.co/quran-terminology/fa/roots/l-y-t/ | Awaiting full study
+0985 | ل ي س | L Y S | l-y-s | https://forqan.co/quran-terminology/fa/roots/l-y-s/ | Awaiting full study
+0986 | ل ي ن | L Y N | l-y-n | https://forqan.co/quran-terminology/fa/roots/l-y-n/ | Awaiting full study
+0987 | م أ ي | M A Y | m-a-y | https://forqan.co/quran-terminology/fa/roots/m-a-y/ | Awaiting full study
+0988 | م ت ن | M T N | m-t-n | https://forqan.co/quran-terminology/fa/roots/m-t-n/ | Awaiting full study
+0989 | م ج د | M J D | m-j-d | https://forqan.co/quran-terminology/fa/roots/m-j-d/ | Awaiting full study
+0990 | م ج س | M J S | m-j-s | https://forqan.co/quran-terminology/fa/roots/m-j-s/ | Awaiting full study
+0991 | م ح ص | M Ḥ Ṣ | m-h-sad | https://forqan.co/quran-terminology/fa/roots/m-h-sad/ | Awaiting full study
+0992 | م ح ل | M Ḥ L | m-h-l | https://forqan.co/quran-terminology/fa/roots/m-h-l/ | Awaiting full study
+0993 | م ح ن | M Ḥ N | m-h-n | https://forqan.co/quran-terminology/fa/roots/m-h-n/ | Awaiting full study
+0994 | م ح و | M Ḥ W | m-h-w | https://forqan.co/quran-terminology/fa/roots/m-h-w/ | Awaiting full study
+0995 | م خ ر | M KH R | m-kh-r | https://forqan.co/quran-terminology/fa/roots/m-kh-r/ | Awaiting full study
+0996 | م خ ض | M KH Ḍ | m-kh-dad | https://forqan.co/quran-terminology/fa/roots/m-kh-dad/ | Awaiting full study
+0997 | م د ن | M D N | m-d-n | https://forqan.co/quran-terminology/fa/roots/m-d-n/ | Awaiting full study
+0998 | م ر ج | M R J | m-r-j | https://forqan.co/quran-terminology/fa/roots/m-r-j/ | Awaiting full study
+0999 | م ر ح | M R Ḥ | m-r-h | https://forqan.co/quran-terminology/fa/roots/m-r-h/ | Awaiting full study
+1000 | م ر د | M R D | m-r-d | https://forqan.co/quran-terminology/fa/roots/m-r-d/ | Awaiting full study
+1001 | م ر ر | M R R | m-r-r | https://forqan.co/quran-terminology/fa/roots/m-r-r/ | Awaiting full study
+1002 | م ر و | M R W | m-r-w | https://forqan.co/quran-terminology/fa/roots/m-r-w/ | Awaiting full study
+1003 | م ز ج | M Z J | m-z-j | https://forqan.co/quran-terminology/fa/roots/m-z-j/ | Awaiting full study
+1004 | م ز ق | M Z Q | m-z-q | https://forqan.co/quran-terminology/fa/roots/m-z-q/ | Awaiting full study
+1005 | م ز ن | M Z N | m-z-n | https://forqan.co/quran-terminology/fa/roots/m-z-n/ | Awaiting full study
+1006 | م س ح | M S Ḥ | m-s-h | https://forqan.co/quran-terminology/fa/roots/m-s-h/ | Awaiting full study
+1007 | م س خ | M S KH | m-s-kh | https://forqan.co/quran-terminology/fa/roots/m-s-kh/ | Awaiting full study
+1008 | م س د | M S D | m-s-d | https://forqan.co/quran-terminology/fa/roots/m-s-d/ | Awaiting full study
+1009 | م س ك | M S K | m-s-k | https://forqan.co/quran-terminology/fa/roots/m-s-k/ | Awaiting full study
+1010 | م س و | M S W | m-s-w | https://forqan.co/quran-terminology/fa/roots/m-s-w/ | Awaiting full study
+1011 | م ش ج | M SH J | m-sh-j | https://forqan.co/quran-terminology/fa/roots/m-sh-j/ | Awaiting full study
+1012 | م ض غ | M Ḍ GH | m-dad-gh | https://forqan.co/quran-terminology/fa/roots/m-dad-gh/ | Awaiting full study
+1013 | م ض ي | M Ḍ Y | m-dad-y | https://forqan.co/quran-terminology/fa/roots/m-dad-y/ | Awaiting full study
+1014 | م ط ر | M Ṭ R | m-tt-r | https://forqan.co/quran-terminology/fa/roots/m-tt-r/ | Awaiting full study
+1015 | م ط و | M Ṭ W | m-tt-w | https://forqan.co/quran-terminology/fa/roots/m-tt-w/ | Awaiting full study
+1016 | م ع ز | M AYN Z (M ʿ Z) | m-ayn-z | https://forqan.co/quran-terminology/fa/roots/m-ayn-z/ | Awaiting full study
+1017 | م ع ن | M ʿ N | m-ayn-n | https://forqan.co/quran-terminology/fa/roots/m-ayn-n/ | Awaiting full study
+1018 | م ع ي | M AYN Y (M ʿ Y) | m-ayn-y | https://forqan.co/quran-terminology/fa/roots/m-ayn-y/ | Awaiting full study
+1019 | م ق ت | M Q T | m-q-t | https://forqan.co/quran-terminology/fa/roots/m-q-t/ | Awaiting full study
+1020 | م ك ث | M K TH | m-k-th | https://forqan.co/quran-terminology/fa/roots/m-k-th/ | Awaiting full study
+1021 | م ك ر | M K R | m-k-r | https://forqan.co/quran-terminology/fa/roots/m-k-r/ | Awaiting full study
+1022 | م ك ن | M K N | m-k-n | https://forqan.co/quran-terminology/fa/roots/m-k-n/ | Awaiting full study
+1023 | م ك و | M K W | m-k-w | https://forqan.co/quran-terminology/fa/roots/m-k-w/ | Awaiting full study
+1024 | م ل أ | M L A | m-l-a | https://forqan.co/quran-terminology/fa/roots/m-l-a/ | Awaiting full study
+1025 | م ل ح | M L Ḥ | m-l-h | https://forqan.co/quran-terminology/fa/roots/m-l-h/ | Awaiting full study
+1026 | م ل ق | M L Q | m-l-q | https://forqan.co/quran-terminology/fa/roots/m-l-q/ | Awaiting full study
+1027 | م ل و | M L W | m-l-w | https://forqan.co/quran-terminology/fa/roots/m-l-w/ | Awaiting full study
+1028 | م ه د | M H D | m-h2-d | https://forqan.co/quran-terminology/fa/roots/m-h2-d/ | Awaiting full study
+1029 | م ه ل | M H L | m-h2-l | https://forqan.co/quran-terminology/fa/roots/m-h2-l/ | Awaiting full study
+1030 | م ه ن | M H N | m-h2-n | https://forqan.co/quran-terminology/fa/roots/m-h2-n/ | Awaiting full study
+1031 | م و ج | M W J | m-w-j | https://forqan.co/quran-terminology/fa/roots/m-w-j/ | Awaiting full study
+1032 | م و ر | M W R | m-w-r | https://forqan.co/quran-terminology/fa/roots/m-w-r/ | Awaiting full study
+1033 | م ي د | M Y D | m-y-d | https://forqan.co/quran-terminology/fa/roots/m-y-d/ | Awaiting full study
+1034 | م ي ر | M Y R | m-y-r | https://forqan.co/quran-terminology/fa/roots/m-y-r/ | Awaiting full study
+1035 | م ي ز | M Y Z | m-y-z | https://forqan.co/quran-terminology/fa/roots/m-y-z/ | Awaiting full study
+1036 | م ي ل | M Y L | m-y-l | https://forqan.co/quran-terminology/fa/roots/m-y-l/ | Awaiting full study
+1037 | ن أ ي | N A Y | n-a-y | https://forqan.co/quran-terminology/fa/roots/n-a-y/ | Awaiting full study
+1038 | ن ب ز | N B Z | n-b-z | https://forqan.co/quran-terminology/fa/roots/n-b-z/ | Awaiting full study
+1039 | ن ب ط | N B Ṭ | n-b-tt | https://forqan.co/quran-terminology/fa/roots/n-b-tt/ | Awaiting full study
+1040 | ن ب ع | N B AYN (N B ʿ) | n-b-ayn | https://forqan.co/quran-terminology/fa/roots/n-b-ayn/ | Awaiting full study
+1041 | ن ت ق | N T Q | n-t-q | https://forqan.co/quran-terminology/fa/roots/n-t-q/ | Awaiting full study
+1042 | ن ث ر | N TH R | n-th-r | https://forqan.co/quran-terminology/fa/roots/n-th-r/ | Awaiting full study
+1043 | ن ج د | N J D | n-j-d | https://forqan.co/quran-terminology/fa/roots/n-j-d/ | Awaiting full study
+1044 | ن ج م | N J M | n-j-m | https://forqan.co/quran-terminology/fa/roots/n-j-m/ | Awaiting full study
+1045 | ن ح ب | N Ḥ B | n-h-b | https://forqan.co/quran-terminology/fa/roots/n-h-b/ | Awaiting full study
+1046 | ن ح ت | N Ḥ T | n-h-t | https://forqan.co/quran-terminology/fa/roots/n-h-t/ | Awaiting full study
+1047 | ن ح س | N Ḥ S | n-h-s | https://forqan.co/quran-terminology/fa/roots/n-h-s/ | Awaiting full study
+1048 | ن ح ل | N Ḥ L | n-h-l | https://forqan.co/quran-terminology/fa/roots/n-h-l/ | Awaiting full study
+1049 | ن خ ر | N KH R | n-kh-r | https://forqan.co/quran-terminology/fa/roots/n-kh-r/ | Awaiting full study
+1050 | ن خ ل | N KH L | n-kh-l | https://forqan.co/quran-terminology/fa/roots/n-kh-l/ | Awaiting full study
+1051 | ن د م | N D M | n-d-m | https://forqan.co/quran-terminology/fa/roots/n-d-m/ | Awaiting full study
+1052 | ن د ي | N D Y | n-d-y | https://forqan.co/quran-terminology/fa/roots/n-d-y/ | Awaiting full study
+1053 | ن ز ع | N Z AYN (N Z ʿ) | n-z-ayn | https://forqan.co/quran-terminology/fa/roots/n-z-ayn/ | Awaiting full study
+1054 | ن ز غ | N Z GH | n-z-gh | https://forqan.co/quran-terminology/fa/roots/n-z-gh/ | Awaiting full study
+1055 | ن ز ف | N Z F | n-z-f | https://forqan.co/quran-terminology/fa/roots/n-z-f/ | Awaiting full study
+1056 | ن س أ | N S A | n-s-a | https://forqan.co/quran-terminology/fa/roots/n-s-a/ | Awaiting full study
+1057 | ن س ب | N S B | n-s-b | https://forqan.co/quran-terminology/fa/roots/n-s-b/ | Awaiting full study
+1058 | ن س ر | N S R | n-s-r | https://forqan.co/quran-terminology/fa/roots/n-s-r/ | Awaiting full study
+1059 | ن س ف | N S F | n-s-f | https://forqan.co/quran-terminology/fa/roots/n-s-f/ | Awaiting full study
+1060 | ن س ل | N S L | n-s-l | https://forqan.co/quran-terminology/fa/roots/n-s-l/ | Awaiting full study
+1061 | ن ش أ | N SH A | n-sh-a | https://forqan.co/quran-terminology/fa/roots/n-sh-a/ | Awaiting full study
+1062 | ن ش ر | N SH R | n-sh-r | https://forqan.co/quran-terminology/fa/roots/n-sh-r/ | Awaiting full study
+1063 | ن ش ز | N SH Z | n-sh-z | https://forqan.co/quran-terminology/fa/roots/n-sh-z/ | Awaiting full study
+1064 | ن ش ط | N SH Ṭ | n-sh-tt | https://forqan.co/quran-terminology/fa/roots/n-sh-tt/ | Awaiting full study
+1065 | ن ص ب | N Ṣ B | n-sad-b | https://forqan.co/quran-terminology/fa/roots/n-sad-b/ | Awaiting full study
+1066 | ن ص ت | N Ṣ T | n-sad-t | https://forqan.co/quran-terminology/fa/roots/n-sad-t/ | Awaiting full study
+1067 | ن ص ح | N Ṣ Ḥ | n-sad-h | https://forqan.co/quran-terminology/fa/roots/n-sad-h/ | Awaiting full study
+1068 | ن ص ف | N Ṣ F | n-sad-f | https://forqan.co/quran-terminology/fa/roots/n-sad-f/ | Awaiting full study
+1069 | ن ص ي | N Ṣ Y | n-sad-y | https://forqan.co/quran-terminology/fa/roots/n-sad-y/ | Awaiting full study
+1070 | ن ض ج | N Ḍ J | n-dad-j | https://forqan.co/quran-terminology/fa/roots/n-dad-j/ | Awaiting full study
+1071 | ن ض خ | N Ḍ KH | n-dad-kh | https://forqan.co/quran-terminology/fa/roots/n-dad-kh/ | Awaiting full study
+1072 | ن ض د | N Ḍ D | n-dad-d | https://forqan.co/quran-terminology/fa/roots/n-dad-d/ | Awaiting full study
+1073 | ن ض ر | N Ḍ R | n-dad-r | https://forqan.co/quran-terminology/fa/roots/n-dad-r/ | Awaiting full study
+1074 | ن ط ح | N Ṭ Ḥ | n-tt-h | https://forqan.co/quran-terminology/fa/roots/n-tt-h/ | Awaiting full study
+1075 | ن ط ف | N Ṭ F | n-tt-f | https://forqan.co/quran-terminology/fa/roots/n-tt-f/ | Awaiting full study
+1076 | ن ط ق | N Ṭ Q | n-tt-q | https://forqan.co/quran-terminology/fa/roots/n-tt-q/ | Awaiting full study
+1077 | ن ع ج | N AYN J (N ʿ J) | n-ayn-j | https://forqan.co/quran-terminology/fa/roots/n-ayn-j/ | Awaiting full study
+1078 | ن ع س | N AYN S (N ʿ S) | n-ayn-s | https://forqan.co/quran-terminology/fa/roots/n-ayn-s/ | Awaiting full study
+1079 | ن ع ق | N AYN Q (N ʿ Q) | n-ayn-q | https://forqan.co/quran-terminology/fa/roots/n-ayn-q/ | Awaiting full study
+1080 | ن ع ل | N AYN L (N ʿ L) | n-ayn-l | https://forqan.co/quran-terminology/fa/roots/n-ayn-l/ | Awaiting full study
+1081 | ن غ ض | N GH Ḍ | n-gh-dad | https://forqan.co/quran-terminology/fa/roots/n-gh-dad/ | Awaiting full study
+1082 | ن ف ث | N F TH | n-f-th | https://forqan.co/quran-terminology/fa/roots/n-f-th/ | Full study installed locally
+1083 | ن ف ح | N F Ḥ | n-f-h | https://forqan.co/quran-terminology/fa/roots/n-f-h/ | Awaiting full study
+1084 | ن ف خ | N F KH | n-f-kh | https://forqan.co/quran-terminology/fa/roots/n-f-kh/ | Awaiting full study
+1085 | ن ف د | N F D | n-f-d | https://forqan.co/quran-terminology/fa/roots/n-f-d/ | Awaiting full study
+1086 | ن ف ذ | N F DH | n-f-dh | https://forqan.co/quran-terminology/fa/roots/n-f-dh/ | Awaiting full study
+1087 | ن ف ر | N F R | n-f-r | https://forqan.co/quran-terminology/fa/roots/n-f-r/ | Awaiting full study
+1088 | ن ف ش | N F SH | n-f-sh | https://forqan.co/quran-terminology/fa/roots/n-f-sh/ | Awaiting full study
+1089 | ن ف ل | N F L | n-f-l | https://forqan.co/quran-terminology/fa/roots/n-f-l/ | Awaiting full study
+1090 | ن ف ي | N F Y | n-f-y | https://forqan.co/quran-terminology/fa/roots/n-f-y/ | Awaiting full study
+1091 | ن ق ب | N Q B | n-q-b | https://forqan.co/quran-terminology/fa/roots/n-q-b/ | Awaiting full study
+1092 | ن ق ذ | N Q DH | n-q-dh | https://forqan.co/quran-terminology/fa/roots/n-q-dh/ | Awaiting full study
+1093 | ن ق ر | N Q R | n-q-r | https://forqan.co/quran-terminology/fa/roots/n-q-r/ | Awaiting full study
+1094 | ن ق ع | N Q AYN (N Q ʿ) | n-q-ayn | https://forqan.co/quran-terminology/fa/roots/n-q-ayn/ | Awaiting full study
+1095 | ن ق م | N Q M | n-q-m | https://forqan.co/quran-terminology/fa/roots/n-q-m/ | Awaiting full study
+1096 | ن ك ب | N K B | n-k-b | https://forqan.co/quran-terminology/fa/roots/n-k-b/ | Awaiting full study
+1097 | ن ك ث | N K TH | n-k-th | https://forqan.co/quran-terminology/fa/roots/n-k-th/ | Awaiting full study
+1098 | ن ك ح | N K Ḥ | n-k-h | https://forqan.co/quran-terminology/fa/roots/n-k-h/ | Awaiting full study
+1099 | ن ك د | N K D | n-k-d | https://forqan.co/quran-terminology/fa/roots/n-k-d/ | Awaiting full study
+1100 | ن ك س | N K S | n-k-s | https://forqan.co/quran-terminology/fa/roots/n-k-s/ | Awaiting full study
+1101 | ن ك ص | N K Ṣ | n-k-sad | https://forqan.co/quran-terminology/fa/roots/n-k-sad/ | Awaiting full study
+1102 | ن ك ف | N K F | n-k-f | https://forqan.co/quran-terminology/fa/roots/n-k-f/ | Awaiting full study
+1103 | ن م ل | N M L | n-m-l | https://forqan.co/quran-terminology/fa/roots/n-m-l/ | Awaiting full study
+1104 | ن م م | N M M | n-m-m | https://forqan.co/quran-terminology/fa/roots/n-m-m/ | Awaiting full study
+1105 | ن ه ج | N H J | n-h2-j | https://forqan.co/quran-terminology/fa/roots/n-h2-j/ | Awaiting full study
+1106 | ن ه ي | N H Y | n-h2-y | https://forqan.co/quran-terminology/fa/roots/n-h2-y/ | Awaiting full study
+1107 | ن و أ | N W A | n-w-a | https://forqan.co/quran-terminology/fa/roots/n-w-a/ | Awaiting full study
+1108 | ن و ب | N W B | n-w-b | https://forqan.co/quran-terminology/fa/roots/n-w-b/ | Awaiting full study
+1109 | ن و ش | N W SH | n-w-sh | https://forqan.co/quran-terminology/fa/roots/n-w-sh/ | Awaiting full study
+1110 | ن و ص | N W Ṣ | n-w-sad | https://forqan.co/quran-terminology/fa/roots/n-w-sad/ | Awaiting full study
+1111 | ن و ق | N W Q | n-w-q | https://forqan.co/quran-terminology/fa/roots/n-w-q/ | Awaiting full study
+1112 | ن و م | N W M | n-w-m | https://forqan.co/quran-terminology/fa/roots/n-w-m/ | Awaiting full study
+1113 | ن و ن | N W N | n-w-n | https://forqan.co/quran-terminology/fa/roots/n-w-n/ | Awaiting full study
+1114 | ن و ي | N W Y | n-w-y | https://forqan.co/quran-terminology/fa/roots/n-w-y/ | Awaiting full study
+1115 | ه ا ء | H A A | h2-a-a | https://forqan.co/quran-terminology/fa/roots/h2-a-a/ | Awaiting full study
+1116 | ه ا ت | H A T | h2-a-t | https://forqan.co/quran-terminology/fa/roots/h2-a-t/ | Awaiting full study
+1117 | ه ب و | H B W | h2-b-w | https://forqan.co/quran-terminology/fa/roots/h2-b-w/ | Awaiting full study
+1118 | ه ج د | H J D | h2-j-d | https://forqan.co/quran-terminology/fa/roots/h2-j-d/ | Awaiting full study
+1119 | ه ج ر | H J R | h2-j-r | https://forqan.co/quran-terminology/fa/roots/h2-j-r/ | Awaiting full study
+1120 | ه ج ع | H J AYN (H J ʿ) | h2-j-ayn | https://forqan.co/quran-terminology/fa/roots/h2-j-ayn/ | Awaiting full study
+1121 | ه د د | H D D | h2-d-d | https://forqan.co/quran-terminology/fa/roots/h2-d-d/ | Awaiting full study
+1122 | ه د م | H D M | h2-d-m | https://forqan.co/quran-terminology/fa/roots/h2-d-m/ | Awaiting full study
+1123 | ه د ه د | H D H D | h2-d-h2-d | https://forqan.co/quran-terminology/fa/roots/h2-d-h2-d/ | Awaiting full study
+1124 | ه ر ب | H R B | h2-r-b | https://forqan.co/quran-terminology/fa/roots/h2-r-b/ | Awaiting full study
+1125 | ه ر ع | H R AYN (H R ʿ) | h2-r-ayn | https://forqan.co/quran-terminology/fa/roots/h2-r-ayn/ | Awaiting full study
+1126 | ه ز ز | H Z Z | h2-z-z | https://forqan.co/quran-terminology/fa/roots/h2-z-z/ | Awaiting full study
+1127 | ه ز ل | H Z L | h2-z-l | https://forqan.co/quran-terminology/fa/roots/h2-z-l/ | Awaiting full study
+1128 | ه ز م | H Z M | h2-z-m | https://forqan.co/quran-terminology/fa/roots/h2-z-m/ | Awaiting full study
+1129 | ه ش ش | H SH SH | h2-sh-sh | https://forqan.co/quran-terminology/fa/roots/h2-sh-sh/ | Awaiting full study
+1130 | ه ش م | H SH M | h2-sh-m | https://forqan.co/quran-terminology/fa/roots/h2-sh-m/ | Awaiting full study
+1131 | ه ض م | H Ḍ M | h2-dad-m | https://forqan.co/quran-terminology/fa/roots/h2-dad-m/ | Awaiting full study
+1132 | ه ط ع | H Ṭ AYN (H Ṭ ʿ) | h2-tt-ayn | https://forqan.co/quran-terminology/fa/roots/h2-tt-ayn/ | Awaiting full study
+1133 | ه ل ع | H L AYN (H L ʿ) | h2-l-ayn | https://forqan.co/quran-terminology/fa/roots/h2-l-ayn/ | Awaiting full study
+1134 | ه ل ك | H L K | h2-l-k | https://forqan.co/quran-terminology/fa/roots/h2-l-k/ | Awaiting full study
+1135 | ه ل ل | H L L | h2-l-l | https://forqan.co/quran-terminology/fa/roots/h2-l-l/ | Awaiting full study
+1136 | ه ل م | H L M | h2-l-m | https://forqan.co/quran-terminology/fa/roots/h2-l-m/ | Awaiting full study
+1137 | ه م د | H M D | h2-m-d | https://forqan.co/quran-terminology/fa/roots/h2-m-d/ | Awaiting full study
+1138 | ه م ر | H M R | h2-m-r | https://forqan.co/quran-terminology/fa/roots/h2-m-r/ | Awaiting full study
+1139 | ه م س | H M S | h2-m-s | https://forqan.co/quran-terminology/fa/roots/h2-m-s/ | Awaiting full study
+1140 | ه م م | H M M | h2-m-m | https://forqan.co/quran-terminology/fa/roots/h2-m-m/ | Awaiting full study
+1141 | ه م ن | H M N | h2-m-n | https://forqan.co/quran-terminology/fa/roots/h2-m-n/ | Awaiting full study
+1142 | ه ن أ | H N A | h2-n-a | https://forqan.co/quran-terminology/fa/roots/h2-n-a/ | Awaiting full study
+1143 | ه و ر | H W R | h2-w-r | https://forqan.co/quran-terminology/fa/roots/h2-w-r/ | Awaiting full study
+1144 | ه ي أ | H Y A | h2-y-a | https://forqan.co/quran-terminology/fa/roots/h2-y-a/ | Awaiting full study
+1145 | ه ي ت | H Y T | h2-y-t | https://forqan.co/quran-terminology/fa/roots/h2-y-t/ | Awaiting full study
+1146 | ه ي ج | H Y J | h2-y-j | https://forqan.co/quran-terminology/fa/roots/h2-y-j/ | Awaiting full study
+1147 | ه ي ل | H Y L | h2-y-l | https://forqan.co/quran-terminology/fa/roots/h2-y-l/ | Awaiting full study
+1148 | ه ي م | H Y M | h2-y-m | https://forqan.co/quran-terminology/fa/roots/h2-y-m/ | Awaiting full study
+1149 | ه ي م ن | H Y M N | h2-y-m-n | https://forqan.co/quran-terminology/fa/roots/h2-y-m-n/ | Awaiting full study
+1150 | و أ د | W A D | w-a-d | https://forqan.co/quran-terminology/fa/roots/w-a-d/ | Awaiting full study
+1151 | و أ ل | W A L | w-a-l | https://forqan.co/quran-terminology/fa/roots/w-a-l/ | Awaiting full study
+1152 | و ب ر | W B R | w-b-r | https://forqan.co/quran-terminology/fa/roots/w-b-r/ | Awaiting full study
+1153 | و ب ق | W B Q | w-b-q | https://forqan.co/quran-terminology/fa/roots/w-b-q/ | Awaiting full study
+1154 | و ب ل | W B L | w-b-l | https://forqan.co/quran-terminology/fa/roots/w-b-l/ | Awaiting full study
+1155 | و ت د | W T D | w-t-d | https://forqan.co/quran-terminology/fa/roots/w-t-d/ | Awaiting full study
+1156 | و ت ر | W T R | w-t-r | https://forqan.co/quran-terminology/fa/roots/w-t-r/ | Awaiting full study
+1157 | و ت ن | W T N | w-t-n | https://forqan.co/quran-terminology/fa/roots/w-t-n/ | Awaiting full study
+1158 | و ث ن | W TH N | w-th-n | https://forqan.co/quran-terminology/fa/roots/w-th-n/ | Awaiting full study
+1159 | و ج ب | W J B | w-j-b | https://forqan.co/quran-terminology/fa/roots/w-j-b/ | Awaiting full study
+1160 | و ج س | W J S | w-j-s | https://forqan.co/quran-terminology/fa/roots/w-j-s/ | Awaiting full study
+1161 | و ج ف | W J F | w-j-f | https://forqan.co/quran-terminology/fa/roots/w-j-f/ | Awaiting full study
+1162 | و ج ل | W J L | w-j-l | https://forqan.co/quran-terminology/fa/roots/w-j-l/ | Awaiting full study
+1163 | و ح ش | W Ḥ SH | w-h-sh | https://forqan.co/quran-terminology/fa/roots/w-h-sh/ | Awaiting full study
+1164 | و ح ي | W Ḥ Y | w-h-y | https://forqan.co/quran-terminology/fa/roots/w-h-y/ | Awaiting full study
+1165 | و د ع | W D AYN (W D ʿ) | w-d-ayn | https://forqan.co/quran-terminology/fa/roots/w-d-ayn/ | Awaiting full study
+1166 | و د ق | W D Q | w-d-q | https://forqan.co/quran-terminology/fa/roots/w-d-q/ | Awaiting full study
+1167 | و د ي | W D Y | w-d-y | https://forqan.co/quran-terminology/fa/roots/w-d-y/ | Awaiting full study
+1168 | و ذ ر | W DH R | w-dh-r | https://forqan.co/quran-terminology/fa/roots/w-dh-r/ | Awaiting full study
+1169 | و ر ث | W R TH | w-r-th | https://forqan.co/quran-terminology/fa/roots/w-r-th/ | Awaiting full study
+1170 | و ر د | W R D | w-r-d | https://forqan.co/quran-terminology/fa/roots/w-r-d/ | Awaiting full study
+1171 | و ر ق | W R Q | w-r-q | https://forqan.co/quran-terminology/fa/roots/w-r-q/ | Awaiting full study
+1172 | و ز ر | W Z R | w-z-r | https://forqan.co/quran-terminology/fa/roots/w-z-r/ | Awaiting full study
+1173 | و ز ع | W Z AYN (W Z ʿ) | w-z-ayn | https://forqan.co/quran-terminology/fa/roots/w-z-ayn/ | Awaiting full study
+1174 | و س ق | W S Q | w-s-q | https://forqan.co/quran-terminology/fa/roots/w-s-q/ | Awaiting full study
+1175 | و س ل | W S L | w-s-l | https://forqan.co/quran-terminology/fa/roots/w-s-l/ | Awaiting full study
+1176 | و س ن | W S N | w-s-n | https://forqan.co/quran-terminology/fa/roots/w-s-n/ | Awaiting full study
+1177 | و ص ب | W Ṣ B | w-sad-b | https://forqan.co/quran-terminology/fa/roots/w-sad-b/ | Awaiting full study
+1178 | و ص د | W Ṣ D | w-sad-d | https://forqan.co/quran-terminology/fa/roots/w-sad-d/ | Awaiting full study
+1179 | و ص ف | W Ṣ F | w-sad-f | https://forqan.co/quran-terminology/fa/roots/w-sad-f/ | Awaiting full study
+1180 | و ض ع | W Ḍ AYN (W Ḍ ʿ) | w-dad-ayn | https://forqan.co/quran-terminology/fa/roots/w-dad-ayn/ | Awaiting full study
+1181 | و ض ن | W Ḍ N | w-dad-n | https://forqan.co/quran-terminology/fa/roots/w-dad-n/ | Awaiting full study
+1182 | و ط أ | W Ṭ A | w-tt-a | https://forqan.co/quran-terminology/fa/roots/w-tt-a/ | Awaiting full study
+1183 | و ط ر | W Ṭ R | w-tt-r | https://forqan.co/quran-terminology/fa/roots/w-tt-r/ | Awaiting full study
+1184 | و ط ن | W Ṭ N | w-tt-n | https://forqan.co/quran-terminology/fa/roots/w-tt-n/ | Awaiting full study
+1185 | و ع ي | W AYN Y (W ʿ Y) | w-ayn-y | https://forqan.co/quran-terminology/fa/roots/w-ayn-y/ | Awaiting full study
+1186 | و ف د | W F D | w-f-d | https://forqan.co/quran-terminology/fa/roots/w-f-d/ | Awaiting full study
+1187 | و ف ر | W F R | w-f-r | https://forqan.co/quran-terminology/fa/roots/w-f-r/ | Awaiting full study
+1188 | و ف ض | W F Ḍ | w-f-dad | https://forqan.co/quran-terminology/fa/roots/w-f-dad/ | Awaiting full study
+1189 | و ف ق | W F Q | w-f-q | https://forqan.co/quran-terminology/fa/roots/w-f-q/ | Awaiting full study
+1190 | و ق ت | W Q T | w-q-t | https://forqan.co/quran-terminology/fa/roots/w-q-t/ | Awaiting full study
+1191 | و ق ذ | W Q DH | w-q-dh | https://forqan.co/quran-terminology/fa/roots/w-q-dh/ | Awaiting full study
+1192 | و ق ر | W Q R | w-q-r | https://forqan.co/quran-terminology/fa/roots/w-q-r/ | Awaiting full study
+1193 | و ق ع | W Q AYN (W Q ʿ) | w-q-ayn | https://forqan.co/quran-terminology/fa/roots/w-q-ayn/ | Awaiting full study
+1194 | و ق ف | W Q F | w-q-f | https://forqan.co/quran-terminology/fa/roots/w-q-f/ | Awaiting full study
+1195 | و ك أ | W K A | w-k-a | https://forqan.co/quran-terminology/fa/roots/w-k-a/ | Awaiting full study
+1196 | و ك د | W K D | w-k-d | https://forqan.co/quran-terminology/fa/roots/w-k-d/ | Awaiting full study
+1197 | و ك ز | W K Z | w-k-z | https://forqan.co/quran-terminology/fa/roots/w-k-z/ | Awaiting full study
+1198 | و ك ل | W K L | w-k-l | https://forqan.co/quran-terminology/fa/roots/w-k-l/ | Awaiting full study
+1199 | و ل ج | W L J | w-l-j | https://forqan.co/quran-terminology/fa/roots/w-l-j/ | Awaiting full study
+1200 | و ن ي | W N Y | w-n-y | https://forqan.co/quran-terminology/fa/roots/w-n-y/ | Awaiting full study
+1201 | و ه ب | W H B | w-h2-b | https://forqan.co/quran-terminology/fa/roots/w-h2-b/ | Awaiting full study
+1202 | و ه ج | W H J | w-h2-j | https://forqan.co/quran-terminology/fa/roots/w-h2-j/ | Awaiting full study
+1203 | و ه ن | W H N | w-h2-n | https://forqan.co/quran-terminology/fa/roots/w-h2-n/ | Awaiting full study
+1204 | و ه ي | W H Y | w-h2-y | https://forqan.co/quran-terminology/fa/roots/w-h2-y/ | Awaiting full study
+1205 | ي أ س | Y A S | y-a-s | https://forqan.co/quran-terminology/fa/roots/y-a-s/ | Awaiting full study
+1206 | ي ق ظ | Y Q Ẓ | y-q-zha | https://forqan.co/quran-terminology/fa/roots/y-q-zha/ | Awaiting full study
+1207 | ي م م | Y M M | y-m-m | https://forqan.co/quran-terminology/fa/roots/y-m-m/ | Awaiting full study
+1208 | ي م ن | Y M N | y-m-n | https://forqan.co/quran-terminology/fa/roots/y-m-n/ | Awaiting full study
+1209 | ي ن ع | Y N AYN (Y N ʿ) | y-n-ayn | https://forqan.co/quran-terminology/fa/roots/y-n-ayn/ | Awaiting full study

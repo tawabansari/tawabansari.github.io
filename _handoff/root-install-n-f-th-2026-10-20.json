@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-20",
+  "root": "ن ف ث",
+  "slug": "n-f-th",
+  "source_attachment": "/Users/tawab/.codex/attachments/8eee713c-6657-46da-a3dd-3a06fc7fe313/Pasted text.txt",
+  "content_blocks_per_language": 252,
+  "main_sections": 8,
+  "cards_per_language": 8,
+  "quranic_occurrences": 1,
+  "quranic_location": "113:4:3:2",
+  "content_changes": [
+    "Corrected the morphology discussion from doubling sīn to doubling fāʾ in نَفَّاثَات.",
+    "Standardized Persian explanatory references to the true God as آن معبود یگانه; Arabic quotations preserved.",
+    "Full English conceptual mirror, adapting translation proposals and gender-neutral wording for English readers."
+  ],
+  "persian_edits": [
+    {
+      "block": 8,
+      "before": "این عبارت در سوره‌ای آمده که با پناه بردن به خداوند آغاز می‌شود و سپس از شر آنچه آفریده شده، شر تاریکی فرارسنده، شر نفاثات در گره‌ها و شر حسود هنگام حسدورزی سخن می‌گوید.",
+      "after": "این عبارت در سوره‌ای آمده که با پناه بردن به آن معبود یگانه آغاز می‌شود و سپس از شر آنچه آفریده شده، شر تاریکی فرارسنده، شر نفاثات در گره‌ها و شر حسود هنگام حسدورزی سخن می‌گوید."
+    },
+    {
+      "block": 68,
+      "before": "«شر» به بدی یا زیانی اشاره دارد که انسان از آن به خداوند پناه می‌برد.",
+      "after": "«شر» به بدی یا زیانی اشاره دارد که انسان از آن به آن معبود یگانه پناه می‌برد."
+    },
+    {
+      "block": 76,
+      "before": "با این حال، نباید از تشدید سین یا ساخت مبالغه نتیجه گرفت که نفث حتما با قدرت جسمانی زیاد انجام می‌شود.",
+      "after": "با این حال، نباید از تشدید فاء یا ساخت مبالغه نتیجه گرفت که نفث حتما با قدرت جسمانی زیاد انجام می‌شود."
+    },
+    {
+      "block": 161,
+      "before": "آیه از انسان می‌خواهد که از شر این عمل یا عاملان آن به خداوند پناه ببرد.",
+      "after": "آیه از انسان می‌خواهد که از شر این عمل یا عاملان آن به آن معبود یگانه پناه ببرد."
+    }
+  ],
+  "index_entries": "Existing n-f-th destinations in both indexes verified and unchanged.",
+  "registry": "Only n-f-th changed from preliminary to published; all other entries, including the three previously installed roots, retained.",
+  "verse_metadata": {
+    "description": "Only the two n-f-th boxes in 113:4: removed obsolete preliminary notes and installed a brief definition extracted verbatim from the article conclusion. Verse Arabic, verse translations, root assignments, URLs, and all other boxes, including ayn-q-d, unchanged.",
+    "boxes": [
+      {
+        "file": "quran-reflection/fa/113-al-falaq/units/004.html",
+        "words": [
+          "النَّفّٰثٰتِ"
+        ]
+      },
+      {
+        "file": "quran-reflection/en/113-al-falaq/units/004.html",
+        "words": [
+          "النَّفّٰثٰتِ"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "work": "Quranic Arabic Corpus morphology 0.4",
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=nfv"
+    },
+    {
+      "work": "Maqāyīs al-Lughah, N F TH",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0395IbnFarisQazwini/0395IbnFarisQazwini.MucjamMaqayis/0395IbnFarisQazwini.MucjamMaqayis.Shamela0021710-ara1#L41586"
+    },
+    {
+      "work": "Al-Ṣiḥāḥ, N F TH",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0393IbnHammadJawhari/0393IbnHammadJawhari.SihahTajLugha/0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1#L7371"
+    },
+    {
+      "work": "Mufradāt, N F TH",
+      "url": "https://github.com/OpenITI/0525AH/blob/master/data/0502RaghibIsbahani/0502RaghibIsbahani.Mufradat/0502RaghibIsbahani.Mufradat.Shamela0023636-ara1#L23641"
+    },
+    {
+      "work": "Al-Iqtiḍāb fī Sharḥ Adab al-Kitāb, poem attribution and referent",
+      "url": "https://arabic-keyboard.info/books/ar/read-book/الاقتضاب-في-شرح-أدب-الكتاب"
+    },
+    {
+      "work": "Transmitted Hudhalī poetic witness and attribution variation",
+      "url": "https://uqu.edu.sa/App/Poetry/Poems/6477"
+    },
+    {
+      "work": "Tāj al-ʿArūs, N F TH",
+      "url": "https://almntqim.com/٣٩٦٧_تاج-العروس-الزبيدي-ج-٣/٢٧٢_الصفحةنفث"
+    }
+  ],
+  "early_witness_review": "Checked the supplied early Hudhalī poetic witness independently; retained its documented attribution and wording variations without assigning a certain date to the particular verse.",
+  "unlinked_lexical_comparison": "T F L has no verified root-index destination and does not occur as a Qur’anic root in the corpus; retained its full lexical comparison without inventing a link.",
+  "files": [
+    "_data/quran-root-studies.json",
+    "quran-reflection/en/113-al-falaq/units/004.html",
+    "quran-reflection/fa/113-al-falaq/units/004.html",
+    "quran-terminology/en/roots/n-f-th/index.html",
+    "quran-terminology/fa/roots/n-f-th/index.html"
+  ],
+  "original_sha256": {
+    "_data/quran-root-studies.json": "cacf271a300823b2cddd010b44b18ac9ac63c7f5a584147900df1e81a251a641",
+    "quran-reflection/en/113-al-falaq/units/004.html": "c5fb32af9c23224c433c0563a904678ce4183ba374e53af467ea1ed4e0629b42",
+    "quran-reflection/fa/113-al-falaq/units/004.html": "38d0a99ee53a47e00c53b0aea4d3cb48f95b718c1d9da51e3dffc15f4b51487f",
+    "quran-terminology/en/roots/n-f-th/index.html": null,
+    "quran-terminology/fa/roots/n-f-th/index.html": null
+  },
+  "index_sha256": {
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50"
+  },
+  "verification": {
+    "stage": "before installation",
+    "all_252_source_blocks_preserved_in_each_language": true,
+    "persian_changes_only_doubling_letter_and_standard_divine_name": true,
+    "all_arabic_quotations_preserved_exactly": true,
+    "sole_quranic_occurrence_and_form_confirmed": true,
+    "unique_ids_and_resolved_cards_and_contents": true,
+    "verse_targets_individually_verified": 6,
+    "existing_root_index_targets_verified": true,
+    "no_invented_tfl_link": true,
+    "no_persian_characters_or_digits_in_english": true,
+    "verse_arabic_translations_and_other_root_boxes_unchanged": true,
+    "only_two_root_popovers_metadata_updated": true,
+    "other_registry_entries_unchanged": true,
+    "standalone_preview": "Inspected English dark with the complete poetic quotation, its translation and attribution discussion, and Persian light with all eight morphology cards before installation using current shared CSS.",
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false
+  },
+  "installation": {
+    "status": "installed locally",
+    "committed": false,
+    "pushed": false,
+    "post_installation_tests_run": false
+  }
+}

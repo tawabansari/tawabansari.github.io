@@ -1,0 +1,1219 @@
+FORQAN — ROOTS AWAITING A FULL STUDY
+Snapshot: 2026-10-20
+Total: 1,209 root-index entries
+
+These entries have preliminary descriptions but no completed full study.
+Ordered as in the Persian root index. Related or disputed root variants remain separate index entries.
+B Y T is included because its existing page is only a placeholder.
+
+No. | Arabic root | Transliteration | Slug
+------------------------------------------------------------------------
+0001 | أ ب ب | A B B | a-b-b
+0002 | أ ب ق | A B Q | a-b-q
+0003 | أ ب ل | A B L | a-b-l
+0004 | أ ب ي | A B Y | a-b-y
+0005 | أ ث ث | A TH TH | a-th-th
+0006 | أ ث ر | A TH R | a-th-r
+0007 | أ ث ل | A TH L | a-th-l
+0008 | أ ج ج | A J J | a-j-j
+0009 | أ ج ل | A J L | a-j-l
+0010 | أ خ و | A KH W | a-kh-w
+0011 | أ د د | A D D | a-d-d
+0012 | أ د ي | A D Y | a-d-y
+0013 | أ ذ ي | A DH Y | a-dh-y
+0014 | أ ر ب | A R B | a-r-b
+0015 | أ ر ك | A R K | a-r-k
+0016 | أ ز ر | A Z R | a-z-r
+0017 | أ ز ز | A Z Z | a-z-z
+0018 | أ ز ف | A Z F | a-z-f
+0019 | أ س س | A S S | a-s-s
+0020 | أ س ف | A S F | a-s-f
+0021 | أ س ن | A S N | a-s-n
+0022 | أ س و | A S W | a-s-w
+0023 | أ ش ر | A SH R | a-sh-r
+0024 | أ ص ر | A Ṣ R | a-sad-r
+0025 | أ ص ل | A Ṣ L | a-sad-l
+0026 | أ ف ف | A F F | a-f-f
+0027 | أ ف ق | A F Q | a-f-q
+0028 | أ ف ك | A F K | a-f-k
+0029 | أ ف ل | A F L | a-f-l
+0030 | أ ل ت | A L T | a-l-t
+0031 | أ ل ل | A L L | a-l-l
+0032 | أ ل و | A L W | a-l-w
+0033 | أ م ت | A M T | a-m-t
+0034 | أ م د | A M D | a-m-d
+0035 | أ م س | A M S | a-m-s
+0036 | أ م ل | A M L | a-m-l
+0037 | أ م و | A M W | a-m-w
+0038 | أ ن ث | A N TH | a-n-th
+0039 | أ ن ف | A N F | a-n-f
+0040 | أ ن م | A N M | a-n-m
+0041 | أ ن ي | A N Y | a-n-y
+0042 | أ و ب | A W B | a-w-b
+0043 | أ و د | A W D | a-w-d
+0044 | أ و ن | A W N | a-w-n
+0045 | أ و ه | A W H | a-w-h2
+0046 | أ و ي | A W Y | a-w-y
+0047 | أ ي ك | A Y K | a-y-k
+0048 | أ ي م | A Y M | a-y-m
+0049 | ب أ ر | B A R | b-a-r
+0050 | ب ت ر | B T R | b-t-r
+0051 | ب ت ك | B T K | b-t-k
+0052 | ب ت ل | B T L | b-t-l
+0053 | ب ج س | B J S | b-j-s
+0054 | ب ح ث | B Ḥ TH | b-h-th
+0055 | ب خ س | B KH S | b-kh-s
+0056 | ب خ ع | B KH AYN (B KH ʿ) | b-kh-ayn
+0057 | ب خ ل | B KH L | b-kh-l
+0058 | ب د أ | B D A | b-d-a
+0059 | ب د ر | B D R | b-d-r
+0060 | ب د ن | B D N | b-d-n
+0061 | ب ذ ر | B DH R | b-dh-r
+0062 | ب ر ج | B R J | b-r-j
+0063 | ب ر ح | B R Ḥ | b-r-h
+0064 | ب ر د | B R D | b-r-d
+0065 | ب ر ز | B R Z | b-r-z
+0066 | ب ر ز خ | B R Z KH | b-r-z-kh
+0067 | ب ر ص | B R Ṣ | b-r-sad
+0068 | ب ر ك | B R K | b-r-k
+0069 | ب ر م | B R M | b-r-m
+0070 | ب ز غ | B Z GH | b-z-gh
+0071 | ب س ر | B S R | b-s-r
+0072 | ب س س | B S S | b-s-s
+0073 | ب س ط | B S Ṭ | b-s-tt
+0074 | ب س ق | B S Q | b-s-q
+0075 | ب س م | B S M | b-s-m
+0076 | ب ض ع | B Ḍ AYN (B Ḍ ʿ) | b-dad-ayn
+0077 | ب ط أ | B Ṭ A | b-tt-a
+0078 | ب ط ر | B Ṭ R | b-tt-r
+0079 | ب ط ش | B Ṭ SH | b-tt-sh
+0080 | ب ط ن | B Ṭ N | b-tt-n
+0081 | ب ع ث ر | B ʿ TH R | b-ayn-th-r
+0082 | ب ع ر | B AYN R (B ʿ R) | b-ayn-r
+0083 | ب ع ل | B AYN L (B ʿ L) | b-ayn-l
+0084 | ب غ ت | B GH T | b-gh-t
+0085 | ب غ ض | B GH Ḍ | b-gh-dad
+0086 | ب غ ل | B GH L | b-gh-l
+0087 | ب ق ع | B Q AYN (B Q ʿ) | b-q-ayn
+0088 | ب ق ي | B Q Y | b-q-y
+0089 | ب ك ي | B K Y | b-k-y
+0090 | ب ل ع | B L AYN (B L ʿ) | b-l-ayn
+0091 | ب ن ن | B N N | b-n-n
+0092 | ب ه ت | B H T | b-h2-t
+0093 | ب ه ج | B H J | b-h2-j
+0094 | ب ه ل | B H L | b-h2-l
+0095 | ب ه م | B H M | b-h2-m
+0096 | ب و ر | B W R | b-w-r
+0097 | ب و ل | B W L | b-w-l
+0098 | ب ي ت | B Y T | b-y-t
+0099 | ب ي د | B Y D | b-y-d
+0100 | ب ي ض | B Y Ḍ | b-y-dad
+0101 | ث ب ت | TH B T | th-b-t
+0102 | ث ب ر | TH B R | th-b-r
+0103 | ث ب ط | TH B Ṭ | th-b-tt
+0104 | ث ب ي | TH B Y | th-b-y
+0105 | ث ج ج | TH J J | th-j-j
+0106 | ث خ ن | TH KH N | th-kh-n
+0107 | ث ر ب | TH R B | th-r-b
+0108 | ث ر ي | TH R Y | th-r-y
+0109 | ث ع ب | TH AYN B (TH ʿ B) | th-ayn-b
+0110 | ث ق ب | TH Q B | th-q-b
+0111 | ث ق ف | TH Q F | th-q-f
+0112 | ث ق ل | TH Q L | th-q-l
+0113 | ث ل ث | TH L TH | th-l-th
+0114 | ث ل ل | TH L L | th-l-l
+0115 | ث ن ي | TH N Y | th-n-y
+0116 | ث و ي | TH W Y | th-w-y
+0117 | ث ي ب | TH Y B | th-y-b
+0118 | ج أ ر | J A R | j-a-r
+0119 | ج ب ب | J B B | j-b-b
+0120 | ج ب ت | J B T | j-b-t
+0121 | ج ب ر | J B R | j-b-r
+0122 | ج ب ل | J B L | j-b-l
+0123 | ج ب ن | J B N | j-b-n
+0124 | ج ب ه | J B H | j-b-h2
+0125 | ج ب ي | J B Y | j-b-y
+0126 | ج ث ث | J TH TH | j-th-th
+0127 | ج ث م | J TH M | j-th-m
+0128 | ج ث و | J TH W | j-th-w
+0129 | ج ح د | J Ḥ D | j-h-d
+0130 | ج د ث | J D TH | j-d-th
+0131 | ج د د | J D D | j-d-d
+0132 | ج د ر | J D R | j-d-r
+0133 | ج د ل | J D L | j-d-l
+0134 | ج ذ ذ | J DH DH | j-dh-dh
+0135 | ج ذ ع | J DH AYN (J DH ʿ) | j-dh-ayn
+0136 | ج ذ و | J DH W | j-dh-w
+0137 | ج ر ح | J R Ḥ | j-r-h
+0138 | ج ر د | J R D | j-r-d
+0139 | ج ر ر | J R R | j-r-r
+0140 | ج ر ز | J R Z | j-r-z
+0141 | ج ر ع | J R AYN (J R ʿ) | j-r-ayn
+0142 | ج ر ف | J R F | j-r-f
+0143 | ج ر م | J R M | j-r-m
+0144 | ج ز أ | J Z A | j-z-a
+0145 | ج ز ع | J Z AYN (J Z ʿ) | j-z-ayn
+0146 | ج س د | J S D | j-s-d
+0147 | ج س س | J S S | j-s-s
+0148 | ج س م | J S M | j-s-m
+0149 | ج ف أ | J F A | j-f-a
+0150 | ج ف ن | J F N | j-f-n
+0151 | ج ف و | J F W | j-f-w
+0152 | ج ل ب | J L B | j-l-b
+0153 | ج ل د | J L D | j-l-d
+0154 | ج ل س | J L S | j-l-s
+0155 | ج ل ل | J L L | j-l-l
+0156 | ج ل و | J L W | j-l-w
+0157 | ج م ح | J M Ḥ | j-m-h
+0158 | ج م د | J M D | j-m-d
+0159 | ج م ل | J M L | j-m-l
+0160 | ج م م | J M M | j-m-m
+0161 | ج ن ب | J N B | j-n-b
+0162 | ج ن د | J N D | j-n-d
+0163 | ج ن ف | J N F | j-n-f
+0164 | ج ن ي | J N Y | j-n-y
+0165 | ج ه د | J H D | j-h2-d
+0166 | ج ه ز | J H Z | j-h2-z
+0167 | ج و د | J W D | j-w-d
+0168 | ج و ر | J W R | j-w-r
+0169 | ج و ز | J W Z | j-w-z
+0170 | ج و س | J W S | j-w-s
+0171 | ج و ف | J W F | j-w-f
+0172 | ج و و | J W W | j-w-w
+0173 | ج ي ب | J Y B | j-y-b
+0174 | ج ي د | J Y D | j-y-d
+0175 | ح ب ب | Ḥ B B | h-b-b
+0176 | ح ب ر | Ḥ B R | h-b-r
+0177 | ح ب س | Ḥ B S | h-b-s
+0178 | ح ب ط | Ḥ B Ṭ | h-b-tt
+0179 | ح ب ك | Ḥ B K | h-b-k
+0180 | ح ب ل | Ḥ B L | h-b-l
+0181 | ح ت م | Ḥ T M | h-t-m
+0182 | ح ث ث | Ḥ TH TH | h-th-th
+0183 | ح ج ب | Ḥ J B | h-j-b
+0184 | ح ج ز | Ḥ J Z | h-j-z
+0185 | ح د ب | Ḥ D B | h-d-b
+0186 | ح د د | Ḥ D D | h-d-d
+0187 | ح د ق | Ḥ D Q | h-d-q
+0188 | ح ر ب | Ḥ R B | h-r-b
+0189 | ح ر ج | Ḥ R J | h-r-j
+0190 | ح ر د | Ḥ R D | h-r-d
+0191 | ح ر ر | Ḥ R R | h-r-r
+0192 | ح ر س | Ḥ R S | h-r-s
+0193 | ح ر ض | Ḥ R Ḍ | h-r-dad
+0194 | ح ر ق | Ḥ R Q | h-r-q
+0195 | ح ر ك | Ḥ R K | h-r-k
+0196 | ح ر ي | Ḥ R Y | h-r-y
+0197 | ح ز ب | Ḥ Z B | h-z-b
+0198 | ح س ر | Ḥ S R | h-s-r
+0199 | ح س س | Ḥ S S | h-s-s
+0200 | ح س م | Ḥ S M | h-s-m
+0201 | ح ش ر | Ḥ SH R | h-sh-r
+0202 | ح ص ب | Ḥ Ṣ B | h-sad-b
+0203 | ح ص ح ص | Ḥ Ṣ Ḥ Ṣ | h-sad-h-sad
+0204 | ح ص د | Ḥ Ṣ D | h-sad-d
+0205 | ح ص ر | Ḥ Ṣ R | h-sad-r
+0206 | ح ص ل | Ḥ Ṣ L | h-sad-l
+0207 | ح ص ن | Ḥ Ṣ N | h-sad-n
+0208 | ح ص ي | Ḥ Ṣ Y | h-sad-y
+0209 | ح ض ض | Ḥ Ḍ Ḍ | h-dad-dad
+0210 | ح ط ب | Ḥ Ṭ B | h-tt-b
+0211 | ح ظ ر | Ḥ Ẓ R | h-zha-r
+0212 | ح ظ ظ | Ḥ Ẓ Ẓ | h-zha-zha
+0213 | ح ف د | Ḥ F D | h-f-d
+0214 | ح ف ر | Ḥ F R | h-f-r
+0215 | ح ف ظ | Ḥ F Ẓ | h-f-zha
+0216 | ح ف ف | Ḥ F F | h-f-f
+0217 | ح ف و | Ḥ F W | h-f-w
+0218 | ح ق ب | Ḥ Q B | h-q-b
+0219 | ح ق ف | Ḥ Q F | h-q-f
+0220 | ح ل ف | Ḥ L F | h-l-f
+0221 | ح ل ق | Ḥ L Q | h-l-q
+0222 | ح ل ق م | Ḥ L Q M | h-l-q-m
+0223 | ح ل ل | Ḥ L L | h-l-l
+0224 | ح ل م | Ḥ L M | h-l-m
+0225 | ح ل ي | Ḥ L Y | h-l-y
+0226 | ح م أ | Ḥ M A | h-m-a
+0227 | ح م ر | Ḥ M R | h-m-r
+0228 | ح م ل | Ḥ M L | h-m-l
+0229 | ح م م | Ḥ M M | h-m-m
+0230 | ح م ي | Ḥ M Y | h-m-y
+0231 | ح ن ث | Ḥ N TH | h-n-th
+0232 | ح ن ج ر | Ḥ N J R | h-n-j-r
+0233 | ح ن ذ | Ḥ N DH | h-n-dh
+0234 | ح ن ك | Ḥ N K | h-n-k
+0235 | ح ن ن | Ḥ N N | h-n-n
+0236 | ح و ب | Ḥ W B | h-w-b
+0237 | ح و ت | Ḥ W T | h-w-t
+0238 | ح و ج | Ḥ W J | h-w-j
+0239 | ح و ذ | Ḥ W DH | h-w-dh
+0240 | ح و ر | Ḥ W R | h-w-r
+0241 | ح و ز | Ḥ W Z | h-w-z
+0242 | ح و ش | Ḥ W SH | h-w-sh
+0243 | ح ي ث | Ḥ Y TH | h-y-th
+0244 | ح ي د | Ḥ Y D | h-y-d
+0245 | ح ي ر | Ḥ Y R | h-y-r
+0246 | ح ي ص | Ḥ Y Ṣ | h-y-sad
+0247 | ح ي ض | Ḥ Y Ḍ | h-y-dad
+0248 | ح ي ف | Ḥ Y F | h-y-f
+0249 | ح ي ق | Ḥ Y Q | h-y-q
+0250 | خ ب أ | KH B A | kh-b-a
+0251 | خ ب ت | KH B T | kh-b-t
+0252 | خ ب ث | KH B TH | kh-b-th
+0253 | خ ب ر | KH B R | kh-b-r
+0254 | خ ب ز | KH B Z | kh-b-z
+0255 | خ ب ط | KH B Ṭ | kh-b-tt
+0256 | خ ب ل | KH B L | kh-b-l
+0257 | خ ب و | KH B W | kh-b-w
+0258 | خ ت ر | KH T R | kh-t-r
+0259 | خ د د | KH D D | kh-d-d
+0260 | خ د ن | KH D N | kh-d-n
+0261 | خ ذ ل | KH DH L | kh-dh-l
+0262 | خ ر د ل | KH R D L | kh-r-d-l
+0263 | خ ر ر | KH R R | kh-r-r
+0264 | خ ر ص | KH R Ṣ | kh-r-sad
+0265 | خ ر ط م | KH R Ṭ M | kh-r-tt-m
+0266 | خ ر ق | KH R Q | kh-r-q
+0267 | خ ز ن | KH Z N | kh-z-n
+0268 | خ س ف | KH S F | kh-s-f
+0269 | خ ش ب | KH SH B | kh-sh-b
+0270 | خ ص ف | KH Ṣ F | kh-sad-f
+0271 | خ ص م | KH Ṣ M | kh-sad-m
+0272 | خ ض د | KH Ḍ D | kh-dad-d
+0273 | خ ض ر | KH Ḍ R | kh-dad-r
+0274 | خ ض ع | KH Ḍ AYN (KH Ḍ ʿ) | kh-dad-ayn
+0275 | خ ط ب | KH Ṭ B | kh-tt-b
+0276 | خ ط ط | KH Ṭ Ṭ | kh-tt-tt
+0277 | خ ط و | KH Ṭ W | kh-tt-w
+0278 | خ ف ت | KH F T | kh-f-t
+0279 | خ ف ض | KH F Ḍ | kh-f-dad
+0280 | خ ف ي | KH F Y | kh-f-y
+0281 | خ ل ط | KH L Ṭ | kh-l-tt
+0282 | خ ل ع | KH L AYN (KH L ʿ) | kh-l-ayn
+0283 | خ ل ل | KH L L | kh-l-l
+0284 | خ م د | KH M D | kh-m-d
+0285 | خ م ر | KH M R | kh-m-r
+0286 | خ م س | KH M S | kh-m-s
+0287 | خ م ص | KH M Ṣ | kh-m-sad
+0288 | خ م ط | KH M Ṭ | kh-m-tt
+0289 | خ ن ز ر | KH N Z R | kh-n-z-r
+0290 | خ ن ق | KH N Q | kh-n-q
+0291 | خ و ر | KH W R | kh-w-r
+0292 | خ و ض | KH W Ḍ | kh-w-dad
+0293 | خ و ل | KH W L | kh-w-l
+0294 | خ و ن | KH W N | kh-w-n
+0295 | خ و ي | KH W Y | kh-w-y
+0296 | خ ي ب | KH Y B | kh-y-b
+0297 | خ ي ط | KH Y Ṭ | kh-y-tt
+0298 | خ ي ل | KH Y L | kh-y-l
+0299 | خ ي م | KH Y M | kh-y-m
+0300 | د أ ب | D A B | d-a-b
+0301 | د ب ر | D B R | d-b-r
+0302 | د ث ر | D TH R | d-th-r
+0303 | د ح ر | D Ḥ R | d-h-r
+0304 | د ح ض | D Ḥ Ḍ | d-h-dad
+0305 | د ح و | D Ḥ W | d-h-w
+0306 | د خ ر | D KH R | d-kh-r
+0307 | د خ ن | D KH N | d-kh-n
+0308 | د ر ج | D R J | d-r-j
+0309 | د ر ر | D R R | d-r-r
+0310 | د ر س | D R S | d-r-s
+0311 | د ر ك | D R K | d-r-k
+0312 | د ر ه م | D R H M | d-r-h2-m
+0313 | د ر ي | D R Y | d-r-y
+0314 | د س ر | D S R | d-s-r
+0315 | د س س | D S S | d-s-s
+0316 | د س و | D S W | d-s-w
+0317 | د ع ع | D AYN AYN (D ʿ ʿ) | d-ayn-ayn
+0318 | د ف أ | D F A | d-f-a
+0319 | د ف ع | D F AYN (D F ʿ) | d-f-ayn
+0320 | د ف ق | D F Q | d-f-q
+0321 | د ك ك | D K K | d-k-k
+0322 | د ل ك | D L K | d-l-k
+0323 | د ل و | D L W | d-l-w
+0324 | د م د م | D M D M | d-m-d-m
+0325 | د م ر | D M R | d-m-r
+0326 | د م ع | D M AYN (D M ʿ) | d-m-ayn
+0327 | د م غ | D M GH | d-m-gh
+0328 | د ن ر | D N R | d-n-r
+0329 | د ه ر | D H R | d-h2-r
+0330 | د ه ق | D H Q | d-h2-q
+0331 | د ه م | D H M | d-h2-m
+0332 | د ه ن | D H N | d-h2-n
+0333 | د ه ي | D H Y | d-h2-y
+0334 | د و ل | D W L | d-w-l
+0335 | د و م | D W M | d-w-m
+0336 | ذ أ ب | DH A B | dh-a-b
+0337 | ذ أ م | DH A M | dh-a-m
+0338 | ذ ب ب | DH B B | dh-b-b
+0339 | ذ ب ذ ب | DH B DH B | dh-b-dh-b
+0340 | ذ خ ر | DH KH R | dh-kh-r
+0341 | ذ ر أ | DH R A | dh-r-a
+0342 | ذ ر ع | DH R AYN (DH R ʿ) | dh-r-ayn
+0343 | ذ ر و | DH R W | dh-r-w
+0344 | ذ ع ن | DH AYN N (DH ʿ N) | dh-ayn-n
+0345 | ذ ق ن | DH Q N | dh-q-n
+0346 | ذ ك و | DH K W | dh-k-w
+0347 | ذ م م | DH M M | dh-m-m
+0348 | ذ ن ب | DH N B | dh-n-b
+0349 | ذ ه ل | DH H L | dh-h2-l
+0350 | ذ و د | DH W D | dh-w-d
+0351 | ذ و ق | DH W Q | dh-w-q
+0352 | ذ ي ع | DH Y AYN (DH Y ʿ) | dh-y-ayn
+0353 | ر أ س | R A S | r-a-s
+0354 | ر ب ص | R B Ṣ | r-b-sad
+0355 | ر ب ط | R B Ṭ | r-b-tt
+0356 | ر ت ع | R T AYN (R T ʿ) | r-t-ayn
+0357 | ر ت ق | R T Q | r-t-q
+0358 | ر ت ل | R T L | r-t-l
+0359 | ر ج أ | R J A | r-j-a
+0360 | ر ج ج | R J J | r-j-j
+0361 | ر ج س | R J S | r-j-s
+0362 | ر ج ف | R J F | r-j-f
+0363 | ر ج ل | R J L | r-j-l
+0364 | ر ج م | R J M | r-j-m
+0365 | ر ج و | R J W | r-j-w
+0366 | ر ح ب | R Ḥ B | r-h-b
+0367 | ر ح ق | R Ḥ Q | r-h-q
+0368 | ر ح ل | R Ḥ L | r-h-l
+0369 | ر خ و | R KH W | r-kh-w
+0370 | ر د أ | R D A | r-d-a
+0371 | ر د ف | R D F | r-d-f
+0372 | ر د م | R D M | r-d-m
+0373 | ر د ي | R D Y | r-d-y
+0374 | ر ذ ل | R DH L | r-dh-l
+0375 | ر س خ | R S KH | r-s-kh
+0376 | ر س س | R S S | r-s-s
+0377 | ر س و | R S W | r-s-w
+0378 | ر ش د | R SH D | r-sh-d
+0379 | ر ص د | R Ṣ D | r-sad-d
+0380 | ر ص ص | R Ṣ Ṣ | r-sad-sad
+0381 | ر ض ع | R Ḍ AYN (R Ḍ ʿ) | r-dad-ayn
+0382 | ر ط ب | R Ṭ B | r-tt-b
+0383 | ر ع ب | R AYN B (R ʿ B) | r-ayn-b
+0384 | ر غ م | R GH M | r-gh-m
+0385 | ر ف ت | R F T | r-f-t
+0386 | ر ف ث | R F TH | r-f-th
+0387 | ر ف د | R F D | r-f-d
+0388 | ر ف ر ف | R F R F | r-f-r-f
+0389 | ر ف ق | R F Q | r-f-q
+0390 | ر ق ب | R Q B | r-q-b
+0391 | ر ق د | R Q D | r-q-d
+0392 | ر ق ق | R Q Q | r-q-q
+0393 | ر ق م | R Q M | r-q-m
+0394 | ر ق ي | R Q Y | r-q-y
+0395 | ر ك ب | R K B | r-k-b
+0396 | ر ك د | R K D | r-k-d
+0397 | ر ك ز | R K Z | r-k-z
+0398 | ر ك س | R K S | r-k-s
+0399 | ر ك ض | R K Ḍ | r-k-dad
+0400 | ر ك م | R K M | r-k-m
+0401 | ر ك ن | R K N | r-k-n
+0402 | ر م ح | R M Ḥ | r-m-h
+0403 | ر م د | R M D | r-m-d
+0404 | ر م ز | R M Z | r-m-z
+0405 | ر م ض | R M Ḍ | r-m-dad
+0406 | ر م م | R M M | r-m-m
+0407 | ر م ن | R M N | r-m-n
+0408 | ر م ي | R M Y | r-m-y
+0409 | ر ه ط | R H Ṭ | r-h2-tt
+0410 | ر ه ق | R H Q | r-h2-q
+0411 | ر ه ن | R H N | r-h2-n
+0412 | ر ه و | R H W | r-h2-w
+0413 | ر و ض | R W Ḍ | r-w-dad
+0414 | ر و ع | R W AYN (R W ʿ) | r-w-ayn
+0415 | ر و غ | R W GH | r-w-gh
+0416 | ر ي ش | R Y SH | r-y-sh
+0417 | ر ي ع | R Y AYN (R Y ʿ) | r-y-ayn
+0418 | ر ي ن | R Y N | r-y-n
+0419 | ز ب د | Z B D | z-b-d
+0420 | ز ب ر | Z B R | z-b-r
+0421 | ز ب ن | Z B N | z-b-n
+0422 | ز ج ج | Z J J | z-j-j
+0423 | ز ج ر | Z J R | z-j-r
+0424 | ز ج و | Z J W | z-j-w
+0425 | ز ح ف | Z Ḥ F | z-h-f
+0426 | ز خ ر ف | Z KH R F | z-kh-r-f
+0427 | ز ر ب | Z R B | z-r-b
+0428 | ز ر ق | Z R Q | z-r-q
+0429 | ز ر ي | Z R Y | z-r-y
+0430 | ز ع م | Z AYN M (Z ʿ M) | z-ayn-m
+0431 | ز ف ر | Z F R | z-f-r
+0432 | ز ف ف | Z F F | z-f-f
+0433 | ز ق م | Z Q M | z-q-m
+0434 | ز ل ز ل | Z L Z L | z-l-z-l
+0435 | ز ل ف | Z L F | z-l-f
+0436 | ز ل ق | Z L Q | z-l-q
+0437 | ز م ر | Z M R | z-m-r
+0438 | ز م ل | Z M L | z-m-l
+0439 | ز م ه ر | Z M H R | z-m-h2-r
+0440 | ز ن م | Z N M | z-n-m
+0441 | ز ن ي | Z N Y | z-n-y
+0442 | ز ه د | Z H D | z-h2-d
+0443 | ز ه ر | Z H R | z-h2-r
+0444 | ز ه ق | Z H Q | z-h2-q
+0445 | ز و د | Z W D | z-w-d
+0446 | ز و ر | Z W R | z-w-r
+0447 | ز و ل | Z W L | z-w-l
+0448 | ز ي ت | Z Y T | z-y-t
+0449 | ز ي غ | Z Y GH | z-y-gh
+0450 | ز ي ل | Z Y L | z-y-l
+0451 | ز ي ن | Z Y N | z-y-n
+0452 | س أ م | S A M | s-a-m
+0453 | س ب أ | S B A | s-b-a
+0454 | س ب ب | S B B | s-b-b
+0455 | س ب ع | S B AYN (S B ʿ) | s-b-ayn
+0456 | س ب غ | S B GH | s-b-gh
+0457 | س ت ت | S T T | s-t-t
+0458 | س ت ر | S T R | s-t-r
+0459 | س ج ر | S J R | s-j-r
+0460 | س ج ل | S J L | s-j-l
+0461 | س ج ن | S J N | s-j-n
+0462 | س ج و | S J W | s-j-w
+0463 | س ح ت | S Ḥ T | s-h-t
+0464 | س ح ق | S Ḥ Q | s-h-q
+0465 | س ح ل | S Ḥ L | s-h-l
+0466 | س خ ط | S KH Ṭ | s-kh-tt
+0467 | س د د | S D D | s-d-d
+0468 | س د ر | S D R | s-d-r
+0469 | س د س | S D S | s-d-s
+0470 | س د ي | S D Y | s-d-y
+0471 | س ر ب | S R B | s-r-b
+0472 | س ر ب ل | S R B L | s-r-b-l
+0473 | س ر ج | S R J | s-r-j
+0474 | س ر ح | S R Ḥ | s-r-h
+0475 | س ر د | S R D | s-r-d
+0476 | س ر د ق | S R D Q | s-r-d-q
+0477 | س ر ع | S R AYN (S R ʿ) | s-r-ayn
+0478 | س ر ف | S R F | s-r-f
+0479 | س ر ق | S R Q | s-r-q
+0480 | س ر م د | S R M D | s-r-m-d
+0481 | س ر ي | S R Y | s-r-y
+0482 | س ط ح | S Ṭ Ḥ | s-tt-h
+0483 | س ط ر | S Ṭ R | s-tt-r
+0484 | س ط و | S Ṭ W | s-tt-w
+0485 | س ع د | S AYN D (S ʿ D) | s-ayn-d
+0486 | س ع ر | S AYN R (S ʿ R) | s-ayn-r
+0487 | س غ ب | S GH B | s-gh-b
+0488 | س ف ح | S F Ḥ | s-f-h
+0489 | س ف ر | S F R | s-f-r
+0490 | س ف ع | S F AYN (S F ʿ) | s-f-ayn
+0491 | س ف ل | S F L | s-f-l
+0492 | س ف ن | S F N | s-f-n
+0493 | س ق ط | S Q Ṭ | s-q-tt
+0494 | س ق ف | S Q F | s-q-f
+0495 | س ق م | S Q M | s-q-m
+0496 | س ك ب | S K B | s-k-b
+0497 | س ك ت | S K T | s-k-t
+0498 | س ك ر | S K R | s-k-r
+0499 | س ل ب | S L B | s-l-b
+0500 | س ل ح | S L Ḥ | s-l-h
+0501 | س ل خ | S L KH | s-l-kh
+0502 | س ل س ل | S L S L | s-l-s-l
+0503 | س ل ط | S L Ṭ | s-l-tt
+0504 | س ل ف | S L F | s-l-f
+0505 | س ل ق | S L Q | s-l-q
+0506 | س ل ك | S L K | s-l-k
+0507 | س ل ل | S L L | s-l-l
+0508 | س م د | S M D | s-m-d
+0509 | س م ر | S M R | s-m-r
+0510 | س م ك | S M K | s-m-k
+0511 | س م م | S M M | s-m-m
+0512 | س م ن | S M N | s-m-n
+0513 | س ن ب ل | S N B L | s-n-b-l
+0514 | س ن د | S N D | s-n-d
+0515 | س ن م | S N M | s-n-m
+0516 | س ن ن | S N N | s-n-n
+0517 | س ن ه | S N H | s-n-h2
+0518 | س ن و | S N W | s-n-w
+0519 | س ه ر | S H R | s-h2-r
+0520 | س ه ل | S H L | s-h2-l
+0521 | س ه م | S H M | s-h2-m
+0522 | س ه و | S H W | s-h2-w
+0523 | س و ح | S W Ḥ | s-w-h
+0524 | س و د | S W D | s-w-d
+0525 | س و ط | S W Ṭ | s-w-tt
+0526 | س و ع | S W AYN (S W ʿ) | s-w-ayn
+0527 | س و غ | S W GH | s-w-gh
+0528 | س و ق | S W Q | s-w-q
+0529 | س و ل | S W L | s-w-l
+0530 | س ي ب | S Y B | s-y-b
+0531 | س ي ح | S Y Ḥ | s-y-h
+0532 | س ي ر | S Y R | s-y-r
+0533 | س ي ل | S Y L | s-y-l
+0534 | ش أ م | SH A M | sh-a-m
+0535 | ش أ ن | SH A N | sh-a-n
+0536 | ش ت ت | SH T T | sh-t-t
+0537 | ش ت و | SH T W | sh-t-w
+0538 | ش ح ح | SH Ḥ Ḥ | sh-h-h
+0539 | ش ح م | SH Ḥ M | sh-h-m
+0540 | ش ح ن | SH Ḥ N | sh-h-n
+0541 | ش خ ص | SH KH Ṣ | sh-kh-sad
+0542 | ش ر ح | SH R Ḥ | sh-r-h
+0543 | ش ر د | SH R D | sh-r-d
+0544 | ش ر ذ م | SH R DH M | sh-r-dh-m
+0545 | ش ر ط | SH R Ṭ | sh-r-tt
+0546 | ش ر ع | SH R AYN (SH R ʿ) | sh-r-ayn
+0547 | ش ط أ | SH Ṭ A | sh-tt-a
+0548 | ش ط ط | SH Ṭ Ṭ | sh-tt-tt
+0549 | ش ع ب | SH AYN B (SH ʿ B) | sh-ayn-b
+0550 | ش ع ل | SH AYN L (SH ʿ L) | sh-ayn-l
+0551 | ش غ ف | SH GH F | sh-gh-f
+0552 | ش غ ل | SH GH L | sh-gh-l
+0553 | ش ف ق | SH F Q | sh-f-q
+0554 | ش ف ه | SH F H | sh-f-h2
+0555 | ش ف و | SH F W | sh-f-w
+0556 | ش ف ي | SH F Y | sh-f-y
+0557 | ش ق و | SH Q W | sh-q-w
+0558 | ش ك س | SH K S | sh-k-s
+0559 | ش ك ك | SH K K | sh-k-k
+0560 | ش ك ل | SH K L | sh-k-l
+0561 | ش ك و | SH K W | sh-k-w
+0562 | ش م ت | SH M T | sh-m-t
+0563 | ش م خ | SH M KH | sh-m-kh
+0564 | ش م ز | SH M Z | sh-m-z
+0565 | ش م س | SH M S | sh-m-s
+0566 | ش م ل | SH M L | sh-m-l
+0567 | ش ن أ | SH N A | sh-n-a
+0568 | ش ه ب | SH H B | sh-h2-b
+0569 | ش ه ر | SH H R | sh-h2-r
+0570 | ش ه ق | SH H Q | sh-h2-q
+0571 | ش ه و | SH H W | sh-h2-w
+0572 | ش و ب | SH W B | sh-w-b
+0573 | ش و ر | SH W R | sh-w-r
+0574 | ش و ظ | SH W Ẓ | sh-w-zha
+0575 | ش و ك | SH W K | sh-w-k
+0576 | ش و ي | SH W Y | sh-w-y
+0577 | ش ي ب | SH Y B | sh-y-b
+0578 | ش ي خ | SH Y KH | sh-y-kh
+0579 | ش ي د | SH Y D | sh-y-d
+0580 | ش ي ع | SH Y AYN (SH Y ʿ) | sh-y-ayn
+0581 | ص ب ب | Ṣ B B | sad-b-b
+0582 | ص ب ح | Ṣ B Ḥ | sad-b-h
+0583 | ص ب و | Ṣ B W | sad-b-w
+0584 | ص خ خ | Ṣ KH KH | sad-kh-kh
+0585 | ص خ ر | Ṣ KH R | sad-kh-r
+0586 | ص د د | Ṣ D D | sad-d-d
+0587 | ص د ع | Ṣ D AYN (Ṣ D ʿ) | sad-d-ayn
+0588 | ص د ف | Ṣ D F | sad-d-f
+0589 | ص د ي | Ṣ D Y | sad-d-y
+0590 | ص ر ح | Ṣ R Ḥ | sad-r-h
+0591 | ص ر خ | Ṣ R KH | sad-r-kh
+0592 | ص ر ر | Ṣ R R | sad-r-r
+0593 | ص ر ص ر | Ṣ R Ṣ R | sad-r-sad-r
+0594 | ص ر ع | Ṣ R AYN (Ṣ R ʿ) | sad-r-ayn
+0595 | ص ر ف | Ṣ R F | sad-r-f
+0596 | ص ر م | Ṣ R M | sad-r-m
+0597 | ص ع د | Ṣ AYN D (Ṣ ʿ D) | sad-ayn-d
+0598 | ص ع ر | Ṣ AYN R (Ṣ ʿ R) | sad-ayn-r
+0599 | ص غ ر | Ṣ GH R | sad-gh-r
+0600 | ص غ و | Ṣ GH W | sad-gh-w
+0601 | ص ف د | Ṣ F D | sad-f-d
+0602 | ص ف ص ف | Ṣ F Ṣ F | sad-f-sad-f
+0603 | ص ف ف | Ṣ F F | sad-f-f
+0604 | ص ف ن | Ṣ F N | sad-f-n
+0605 | ص ك ك | Ṣ K K | sad-k-k
+0606 | ص ل ب | Ṣ L B | sad-l-b
+0607 | ص ل د | Ṣ L D | sad-l-d
+0608 | ص ل ص ل | Ṣ L Ṣ L | sad-l-sad-l
+0609 | ص م ت | Ṣ M T | sad-m-t
+0610 | ص م د | Ṣ M D | sad-m-d
+0611 | ص م ع | Ṣ M AYN (Ṣ M ʿ) | sad-m-ayn
+0612 | ص ن ع | Ṣ N AYN (Ṣ N ʿ) | sad-n-ayn
+0613 | ص ن م | Ṣ N M | sad-n-m
+0614 | ص ن و | Ṣ N W | sad-n-w
+0615 | ص ه ر | Ṣ H R | sad-h2-r
+0616 | ص و ت | Ṣ W T | sad-w-t
+0617 | ص و ر | Ṣ W R | sad-w-r
+0618 | ص و ع | Ṣ W AYN (Ṣ W ʿ) | sad-w-ayn
+0619 | ص و ف | Ṣ W F | sad-w-f
+0620 | ص و م | Ṣ W M | sad-w-m
+0621 | ص ي ح | Ṣ Y Ḥ | sad-y-h
+0622 | ص ي د | Ṣ Y D | sad-y-d
+0623 | ص ي ص | Ṣ Y Ṣ | sad-y-sad
+0624 | ص ي ف | Ṣ Y F | sad-y-f
+0625 | ض أ ن | Ḍ A N | dad-a-n
+0626 | ض ب ح | Ḍ B Ḥ | dad-b-h
+0627 | ض ج ع | Ḍ J AYN (Ḍ J ʿ) | dad-j-ayn
+0628 | ض ح ك | Ḍ Ḥ K | dad-h-k
+0629 | ض ح و | Ḍ Ḥ W | dad-h-w
+0630 | ض د د | Ḍ D D | dad-d-d
+0631 | ض ر ع | Ḍ R AYN (Ḍ R ʿ) | dad-r-ayn
+0632 | ض ع ف | Ḍ AYN F (Ḍ ʿ F) | dad-ayn-f
+0633 | ض غ ث | Ḍ GH TH | dad-gh-th
+0634 | ض غ ن | Ḍ GH N | dad-gh-n
+0635 | ض ف د ع | Ḍ F D ʿ | dad-f-d-ayn
+0636 | ض م ر | Ḍ M R | dad-m-r
+0637 | ض م م | Ḍ M M | dad-m-m
+0638 | ض ن ك | Ḍ N K | dad-n-k
+0639 | ض ن ن | Ḍ N N | dad-n-n
+0640 | ض ه أ | Ḍ H A | dad-h2-a
+0641 | ض ي ر | Ḍ Y R | dad-y-r
+0642 | ض ي ز | Ḍ Y Z | dad-y-z
+0643 | ض ي ف | Ḍ Y F | dad-y-f
+0644 | ض ي ق | Ḍ Y Q | dad-y-q
+0645 | ط ف أ | Ṭ F A | tt-f-a
+0646 | ط ف ف | Ṭ F F | tt-f-f
+0647 | ط ف ق | Ṭ F Q | tt-f-q
+0648 | ط ف ل | Ṭ F L | tt-f-l
+0649 | ط ل ب | Ṭ L B | tt-l-b
+0650 | ط ل ح | Ṭ L Ḥ | tt-l-h
+0651 | ط ل ق | Ṭ L Q | tt-l-q
+0652 | ط ل ل | Ṭ L L | tt-l-l
+0653 | ط م أ ن | Ṭ M A N | tt-m-a-n
+0654 | ط م ث | Ṭ M TH | tt-m-th
+0655 | ط م س | Ṭ M S | tt-m-s
+0656 | ط م م | Ṭ M M | tt-m-m
+0657 | ط و د | Ṭ W D | tt-w-d
+0658 | ط و ر | Ṭ W R | tt-w-r
+0659 | ط و ق | Ṭ W Q | tt-w-q
+0660 | ط و ل | Ṭ W L | tt-w-l
+0661 | ط و ي | Ṭ W Y | tt-w-y
+0662 | ط ي ر | Ṭ Y R | tt-y-r
+0663 | ط ي ن | Ṭ Y N | tt-y-n
+0664 | ظ ع ن | Ẓ AYN N (Ẓ ʿ N) | zha-ayn-n
+0665 | ظ ف ر | Ẓ F R | zha-f-r
+0666 | ظ م أ | Ẓ M A | zha-m-a
+0667 | ع ب أ | AYN B A (ʿ B A) | ayn-b-a
+0668 | ع ب ث | AYN B TH (ʿ B TH) | ayn-b-th
+0669 | ع ب ر | AYN B R (ʿ B R) | ayn-b-r
+0670 | ع ب س | AYN B S (ʿ B S) | ayn-b-s
+0671 | ع ب ق ر | ʿ B Q R | ayn-b-q-r
+0672 | ع ت ب | AYN T B (ʿ T B) | ayn-t-b
+0673 | ع ت د | AYN T D (ʿ T D) | ayn-t-d
+0674 | ع ت ق | AYN T Q (ʿ T Q) | ayn-t-q
+0675 | ع ت ل | AYN T L (ʿ T L) | ayn-t-l
+0676 | ع ت و | AYN T W (ʿ T W) | ayn-t-w
+0677 | ع ث ر | AYN TH R (ʿ TH R) | ayn-th-r
+0678 | ع ج ب | AYN J B (ʿ J B) | ayn-j-b
+0679 | ع ج ز | AYN J Z (ʿ J Z) | ayn-j-z
+0680 | ع ج ف | AYN J F (ʿ J F) | ayn-j-f
+0681 | ع ج م | AYN J M (ʿ J M) | ayn-j-m
+0682 | ع ذ ر | AYN DH R (ʿ DH R) | ayn-dh-r
+0683 | ع ر ب | AYN R B (ʿ R B) | ayn-r-b
+0684 | ع ر ج | AYN R J (ʿ R J) | ayn-r-j
+0685 | ع ر ج ن | ʿ R J N | ayn-r-j-n
+0686 | ع ر ر | AYN R R (ʿ R R) | ayn-r-r
+0687 | ع ر ش | AYN R SH (ʿ R SH) | ayn-r-sh
+0688 | ع ر م | AYN R M (ʿ R M) | ayn-r-m
+0689 | ع ر و | AYN R W (ʿ R W) | ayn-r-w
+0690 | ع ر ي | AYN R Y (ʿ R Y) | ayn-r-y
+0691 | ع ز ب | AYN Z B (ʿ Z B) | ayn-z-b
+0692 | ع ز ر | AYN Z R (ʿ Z R) | ayn-z-r
+0693 | ع ز ل | AYN Z L (ʿ Z L) | ayn-z-l
+0694 | ع ز م | AYN Z M (ʿ Z M) | ayn-z-m
+0695 | ع ز و | AYN Z W (ʿ Z W) | ayn-z-w
+0696 | ع س ر | AYN S R (ʿ S R) | ayn-s-r
+0697 | ع س ع س | ʿ S ʿ S | ayn-s-ayn-s
+0698 | ع س ل | AYN S L (ʿ S L) | ayn-s-l
+0699 | ع س ي | AYN S Y (ʿ S Y) | ayn-s-y
+0700 | ع ش ر | AYN SH R (ʿ SH R) | ayn-sh-r
+0701 | ع ش و | AYN SH W (ʿ SH W) | ayn-sh-w
+0702 | ع ص ب | AYN Ṣ B (ʿ Ṣ B) | ayn-sad-b
+0703 | ع ص ف | AYN Ṣ F (ʿ Ṣ F) | ayn-sad-f
+0704 | ع ص م | AYN Ṣ M (ʿ Ṣ M) | ayn-sad-m
+0705 | ع ض د | AYN Ḍ D (ʿ Ḍ D) | ayn-dad-d
+0706 | ع ض ض | AYN Ḍ Ḍ (ʿ Ḍ Ḍ) | ayn-dad-dad
+0707 | ع ض ل | AYN Ḍ L (ʿ Ḍ L) | ayn-dad-l
+0708 | ع ض و | AYN Ḍ W (ʿ Ḍ W) | ayn-dad-w
+0709 | ع ط ف | AYN Ṭ F (ʿ Ṭ F) | ayn-tt-f
+0710 | ع ط ل | AYN Ṭ L (ʿ Ṭ L) | ayn-tt-l
+0711 | ع ط و | AYN Ṭ W (ʿ Ṭ W) | ayn-tt-w
+0712 | ع ف ر | AYN F R (ʿ F R) | ayn-f-r
+0713 | ع ف ف | AYN F F (ʿ F F) | ayn-f-f
+0714 | ع ق د | AYN Q D (ʿ Q D) | ayn-q-d
+0715 | ع ق ر | AYN Q R (ʿ Q R) | ayn-q-r
+0716 | ع ق م | AYN Q M (ʿ Q M) | ayn-q-m
+0717 | ع ل ق | AYN L Q (ʿ L Q) | ayn-l-q
+0718 | ع ل و | AYN L W (ʿ L W) | ayn-l-w
+0719 | ع م د | AYN M D (ʿ M D) | ayn-m-d
+0720 | ع م ق | AYN M Q (ʿ M Q) | ayn-m-q
+0721 | ع م م | AYN M M (ʿ M M) | ayn-m-m
+0722 | ع ن ب | AYN N B (ʿ N B) | ayn-n-b
+0723 | ع ن ت | AYN N T (ʿ N T) | ayn-n-t
+0724 | ع ن د | AYN N D (ʿ N D) | ayn-n-d
+0725 | ع ن ق | AYN N Q (ʿ N Q) | ayn-n-q
+0726 | ع ن ك ب | ʿ N K B | ayn-n-k-b
+0727 | ع ن و | AYN N W (ʿ N W) | ayn-n-w
+0728 | ع ه ن | AYN H N (ʿ H N) | ayn-h2-n
+0729 | ع و ج | AYN W J (ʿ W J) | ayn-w-j
+0730 | ع و د | AYN W D (ʿ W D) | ayn-w-d
+0731 | ع و ر | AYN W R (ʿ W R) | ayn-w-r
+0732 | ع و ق | AYN W Q (ʿ W Q) | ayn-w-q
+0733 | ع و ل | AYN W L (ʿ W L) | ayn-w-l
+0734 | ع و م | AYN W M (ʿ W M) | ayn-w-m
+0735 | ع ي ب | AYN Y B (ʿ Y B) | ayn-y-b
+0736 | ع ي ر | AYN Y R (ʿ Y R) | ayn-y-r
+0737 | ع ي ش | AYN Y SH (ʿ Y SH) | ayn-y-sh
+0738 | ع ي ل | AYN Y L (ʿ Y L) | ayn-y-l
+0739 | ع ي ي | AYN Y Y (ʿ Y Y) | ayn-y-y
+0740 | غ ب ر | GH B R | gh-b-r
+0741 | غ ب ن | GH B N | gh-b-n
+0742 | غ د ر | GH D R | gh-d-r
+0743 | غ د ق | GH D Q | gh-d-q
+0744 | غ د و | GH D W | gh-d-w
+0745 | غ ر ر | GH R R | gh-r-r
+0746 | غ ر ف | GH R F | gh-r-f
+0747 | غ ر م | GH R M | gh-r-m
+0748 | غ ر و | GH R W | gh-r-w
+0749 | غ ز ل | GH Z L | gh-z-l
+0750 | غ ز و | GH Z W | gh-z-w
+0751 | غ س ل | GH S L | gh-s-l
+0752 | غ ص ب | GH Ṣ B | gh-sad-b
+0753 | غ ص ص | GH Ṣ Ṣ | gh-sad-sad
+0754 | غ ض ض | GH Ḍ Ḍ | gh-dad-dad
+0755 | غ ط ش | GH Ṭ SH | gh-tt-sh
+0756 | غ ط و | GH Ṭ W | gh-tt-w
+0757 | غ ل ب | GH L B | gh-l-b
+0758 | غ ل ظ | GH L Ẓ | gh-l-zha
+0759 | غ ل ق | GH L Q | gh-l-q
+0760 | غ ل ل | GH L L | gh-l-l
+0761 | غ ل م | GH L M | gh-l-m
+0762 | غ ل و | GH L W | gh-l-w
+0763 | غ ل ي | GH L Y | gh-l-y
+0764 | غ م ر | GH M R | gh-m-r
+0765 | غ م ز | GH M Z | gh-m-z
+0766 | غ م ض | GH M Ḍ | gh-m-dad
+0767 | غ ن م | GH N M | gh-n-m
+0768 | غ ن ي | GH N Y | gh-n-y
+0769 | غ و ث | GH W TH | gh-w-th
+0770 | غ و ر | GH W R | gh-w-r
+0771 | غ و ص | GH W Ṣ | gh-w-sad
+0772 | غ و ط | GH W Ṭ | gh-w-tt
+0773 | غ و ل | GH W L | gh-w-l
+0774 | غ و ي | GH W Y | gh-w-y
+0775 | غ ي ث | GH Y TH | gh-y-th
+0776 | غ ي ض | GH Y Ḍ | gh-y-dad
+0777 | غ ي ظ | GH Y Ẓ | gh-y-zha
+0778 | ف أ ي | F A Y | f-a-y
+0779 | ف ت أ | F T A | f-t-a
+0780 | ف ت ر | F T R | f-t-r
+0781 | ف ت ق | F T Q | f-t-q
+0782 | ف ت ل | F T L | f-t-l
+0783 | ف ت ي | F T Y | f-t-y
+0784 | ف ج ج | F J J | f-j-j
+0785 | ف ج و | F J W | f-j-w
+0786 | ف ح ش | F Ḥ SH | f-h-sh
+0787 | ف خ ر | F KH R | f-kh-r
+0788 | ف ر ت | F R T | f-r-t
+0789 | ف ر ث | F R TH | f-r-th
+0790 | ف ر ج | F R J | f-r-j
+0791 | ف ر ح | F R Ḥ | f-r-h
+0792 | ف ر د | F R D | f-r-d
+0793 | ف ر ر | F R R | f-r-r
+0794 | ف ر ط | F R Ṭ | f-r-tt
+0795 | ف ر ع | F R AYN (F R ʿ) | f-r-ayn
+0796 | ف ر غ | F R GH | f-r-gh
+0797 | ف ر ه | F R H | f-r-h2
+0798 | ف ر ي | F R Y | f-r-y
+0799 | ف ز ز | F Z Z | f-z-z
+0800 | ف ز ع | F Z AYN (F Z ʿ) | f-z-ayn
+0801 | ف س ح | F S Ḥ | f-s-h
+0802 | ف س ر | F S R | f-s-r
+0803 | ف ش ل | F SH L | f-sh-l
+0804 | ف ص ح | F Ṣ Ḥ | f-sad-h
+0805 | ف ص ل | F Ṣ L | f-sad-l
+0806 | ف ص م | F Ṣ M | f-sad-m
+0807 | ف ض ح | F Ḍ Ḥ | f-dad-h
+0808 | ف ض ض | F Ḍ Ḍ | f-dad-dad
+0809 | ف ض و | F Ḍ W | f-dad-w
+0810 | ف ط ر | F Ṭ R | f-tt-r
+0811 | ف ظ ظ | F Ẓ Ẓ | f-zha-zha
+0812 | ف ق د | F Q D | f-q-d
+0813 | ف ق ر | F Q R | f-q-r
+0814 | ف ق ه | F Q H | f-q-h2
+0815 | ف ك ر | F K R | f-k-r
+0816 | ف ك ه | F K H | f-k-h2
+0817 | ف ل ك | F L K | f-l-k
+0818 | ف ل ن | F L N | f-l-n
+0819 | ف ن د | F N D | f-n-d
+0820 | ف ن ن | F N N | f-n-n
+0821 | ف ن ي | F N Y | f-n-y
+0822 | ف ه م | F H M | f-h2-m
+0823 | ف و ت | F W T | f-w-t
+0824 | ف و ج | F W J | f-w-j
+0825 | ف و ر | F W R | f-w-r
+0826 | ف و ز | F W Z | f-w-z
+0827 | ف و ض | F W Ḍ | f-w-dad
+0828 | ف و ه | F W H | f-w-h2
+0829 | ف ي أ | F Y A | f-y-a
+0830 | ف ي ض | F Y Ḍ | f-y-dad
+0831 | ف ي ل | F Y L | f-y-l
+0832 | ق ب ح | Q B Ḥ | q-b-h
+0833 | ق ب ر | Q B R | q-b-r
+0834 | ق ب س | Q B S | q-b-s
+0835 | ق ب ض | Q B Ḍ | q-b-dad
+0836 | ق ت ر | Q T R | q-t-r
+0837 | ق ح م | Q Ḥ M | q-h-m
+0838 | ق د ح | Q D Ḥ | q-d-h
+0839 | ق د د | Q D D | q-d-d
+0840 | ق د و | Q D W | q-d-w
+0841 | ق ذ ف | Q DH F | q-dh-f
+0842 | ق ر أ | Q R A | q-r-a
+0843 | ق ر ح | Q R Ḥ | q-r-h
+0844 | ق ر ش | Q R SH | q-r-sh
+0845 | ق ر ط س | Q R Ṭ S | q-r-tt-s
+0846 | ق ر ع | Q R AYN (Q R ʿ) | q-r-ayn
+0847 | ق ر ف | Q R F | q-r-f
+0848 | ق ر ن | Q R N | q-r-n
+0849 | ق س ر | Q S R | q-s-r
+0850 | ق س س | Q S S | q-s-s
+0851 | ق س ط | Q S Ṭ | q-s-tt
+0852 | ق س ط س | Q S Ṭ S | q-s-tt-s
+0853 | ق س م | Q S M | q-s-m
+0854 | ق ش ع ر | Q SH ʿ R | q-sh-ayn-r
+0855 | ق ص د | Q Ṣ D | q-sad-d
+0856 | ق ص ر | Q Ṣ R | q-sad-r
+0857 | ق ص ص | Q Ṣ Ṣ | q-sad-sad
+0858 | ق ص ف | Q Ṣ F | q-sad-f
+0859 | ق ص م | Q Ṣ M | q-sad-m
+0860 | ق ص و | Q Ṣ W | q-sad-w
+0861 | ق ض ب | Q Ḍ B | q-dad-b
+0862 | ق ض ض | Q Ḍ Ḍ | q-dad-dad
+0863 | ق ط ر | Q Ṭ R | q-tt-r
+0864 | ق ط ط | Q Ṭ Ṭ | q-tt-tt
+0865 | ق ط ف | Q Ṭ F | q-tt-f
+0866 | ق ط م ر | Q Ṭ M R | q-tt-m-r
+0867 | ق ع ر | Q AYN R (Q ʿ R) | q-ayn-r
+0868 | ق ف ل | Q F L | q-f-l
+0869 | ق ل د | Q L D | q-l-d
+0870 | ق ل ع | Q L AYN (Q L ʿ) | q-l-ayn
+0871 | ق ل م | Q L M | q-l-m
+0872 | ق ل ي | Q L Y | q-l-y
+0873 | ق م ح | Q M Ḥ | q-m-h
+0874 | ق م ر | Q M R | q-m-r
+0875 | ق م ص | Q M Ṣ | q-m-sad
+0876 | ق م ط ر | Q M Ṭ R | q-m-tt-r
+0877 | ق م ع | Q M AYN (Q M ʿ) | q-m-ayn
+0878 | ق م ل | Q M L | q-m-l
+0879 | ق ن ط | Q N Ṭ | q-n-tt
+0880 | ق ن ط ر | Q N Ṭ R | q-n-tt-r
+0881 | ق ن ع | Q N AYN (Q N ʿ) | q-n-ayn
+0882 | ق ن و | Q N W | q-n-w
+0883 | ق ن ي | Q N Y | q-n-y
+0884 | ق ه ر | Q H R | q-h2-r
+0885 | ق و ب | Q W B | q-w-b
+0886 | ق و ت | Q W T | q-w-t
+0887 | ق و س | Q W S | q-w-s
+0888 | ق و ع | Q W AYN (Q W ʿ) | q-w-ayn
+0889 | ق ي ض | Q Y Ḍ | q-y-dad
+0890 | ق ي ل | Q Y L | q-y-l
+0891 | ك أ س | K A S | k-a-s
+0892 | ك ب ب | K B B | k-b-b
+0893 | ك ب ت | K B T | k-b-t
+0894 | ك ب د | K B D | k-b-d
+0895 | ك ب ك ب | K B K B | k-b-k-b
+0896 | ك ث ب | K TH B | k-th-b
+0897 | ك د ح | K D Ḥ | k-d-h
+0898 | ك د ر | K D R | k-d-r
+0899 | ك د ي | K D Y | k-d-y
+0900 | ك ر ب | K R B | k-r-b
+0901 | ك ر ر | K R R | k-r-r
+0902 | ك ر س | K R S | k-r-s
+0903 | ك ر م | K R M | k-r-m
+0904 | ك ر ه | K R H | k-r-h2
+0905 | ك س د | K S D | k-s-d
+0906 | ك س ف | K S F | k-s-f
+0907 | ك س ل | K S L | k-s-l
+0908 | ك س و | K S W | k-s-w
+0909 | ك ش ط | K SH Ṭ | k-sh-tt
+0910 | ك ش ف | K SH F | k-sh-f
+0911 | ك ظ م | K Ẓ M | k-zha-m
+0912 | ك ع ب | K AYN B (K ʿ B) | k-ayn-b
+0913 | ك ف أ | K F A | k-f-a
+0914 | ك ف ت | K F T | k-f-t
+0915 | ك ف ف | K F F | k-f-f
+0916 | ك ف ل | K F L | k-f-l
+0917 | ك ل أ | K L A | k-l-a
+0918 | ك ل ب | K L B | k-l-b
+0919 | ك ل ح | K L Ḥ | k-l-h
+0920 | ك ل ف | K L F | k-l-f
+0921 | ك ل و | K L W | k-l-w
+0922 | ك م ل | K M L | k-m-l
+0923 | ك م م | K M M | k-m-m
+0924 | ك م ه | K M H | k-m-h2
+0925 | ك ن د | K N D | k-n-d
+0926 | ك ن ز | K N Z | k-n-z
+0927 | ك ن س | K N S | k-n-s
+0928 | ك ن ن | K N N | k-n-n
+0929 | ك ه ف | K H F | k-h2-f
+0930 | ك ه ل | K H L | k-h2-l
+0931 | ك ه ن | K H N | k-h2-n
+0932 | ك و ب | K W B | k-w-b
+0933 | ك و ر | K W R | k-w-r
+0934 | ك و ك ب | K W K B | k-w-k-b
+0935 | ك و ي | K W Y | k-w-y
+0936 | ك ي د | K Y D | k-y-d
+0937 | ك ي ن | K Y N | k-y-n
+0938 | ل أ ل أ | L A L A | l-a-l-a
+0939 | ل ب ب | L B B | l-b-b
+0940 | ل ب ث | L B TH | l-b-th
+0941 | ل ب د | L B D | l-b-d
+0942 | ل ب ن | L B N | l-b-n
+0943 | ل ج أ | L J A | l-j-a
+0944 | ل ج ج | L J J | l-j-j
+0945 | ل ح د | L Ḥ D | l-h-d
+0946 | ل ح ف | L Ḥ F | l-h-f
+0947 | ل ح ق | L Ḥ Q | l-h-q
+0948 | ل ح م | L Ḥ M | l-h-m
+0949 | ل ح ن | L Ḥ N | l-h-n
+0950 | ل ح ي | L Ḥ Y | l-h-y
+0951 | ل د د | L D D | l-d-d
+0952 | ل د ن | L D N | l-d-n
+0953 | ل ذ ذ | L DH DH | l-dh-dh
+0954 | ل ز ب | L Z B | l-z-b
+0955 | ل ز م | L Z M | l-z-m
+0956 | ل س ن | L S N | l-s-n
+0957 | ل ط ف | L Ṭ F | l-tt-f
+0958 | ل ظ ي | L Ẓ Y | l-zha-y
+0959 | ل ع ب | L AYN B (L ʿ B) | l-ayn-b
+0960 | ل غ ب | L GH B | l-gh-b
+0961 | ل غ و | L GH W | l-gh-w
+0962 | ل ف ت | L F T | l-f-t
+0963 | ل ف ح | L F Ḥ | l-f-h
+0964 | ل ف ظ | L F Ẓ | l-f-zha
+0965 | ل ف ف | L F F | l-f-f
+0966 | ل ف و | L F W | l-f-w
+0967 | ل ق ب | L Q B | l-q-b
+0968 | ل ق ح | L Q Ḥ | l-q-h
+0969 | ل ق ط | L Q Ṭ | l-q-tt
+0970 | ل ق ف | L Q F | l-q-f
+0971 | ل ق م | L Q M | l-q-m
+0972 | ل م ح | L M Ḥ | l-m-h
+0973 | ل م س | L M S | l-m-s
+0974 | ل م م | L M M | l-m-m
+0975 | ل ه ب | L H B | l-h2-b
+0976 | ل ه ث | L H TH | l-h2-th
+0977 | ل ه م | L H M | l-h2-m
+0978 | ل ه و | L H W | l-h2-w
+0979 | ل و ت | L W T | l-w-t
+0980 | ل و ح | L W Ḥ | l-w-h
+0981 | ل و ذ | L W DH | l-w-dh
+0982 | ل و م | L W M | l-w-m
+0983 | ل و ي | L W Y | l-w-y
+0984 | ل ي ت | L Y T | l-y-t
+0985 | ل ي س | L Y S | l-y-s
+0986 | ل ي ن | L Y N | l-y-n
+0987 | م أ ي | M A Y | m-a-y
+0988 | م ت ن | M T N | m-t-n
+0989 | م ج د | M J D | m-j-d
+0990 | م ج س | M J S | m-j-s
+0991 | م ح ص | M Ḥ Ṣ | m-h-sad
+0992 | م ح ل | M Ḥ L | m-h-l
+0993 | م ح ن | M Ḥ N | m-h-n
+0994 | م ح و | M Ḥ W | m-h-w
+0995 | م خ ر | M KH R | m-kh-r
+0996 | م خ ض | M KH Ḍ | m-kh-dad
+0997 | م د ن | M D N | m-d-n
+0998 | م ر ج | M R J | m-r-j
+0999 | م ر ح | M R Ḥ | m-r-h
+1000 | م ر د | M R D | m-r-d
+1001 | م ر ر | M R R | m-r-r
+1002 | م ر و | M R W | m-r-w
+1003 | م ز ج | M Z J | m-z-j
+1004 | م ز ق | M Z Q | m-z-q
+1005 | م ز ن | M Z N | m-z-n
+1006 | م س ح | M S Ḥ | m-s-h
+1007 | م س خ | M S KH | m-s-kh
+1008 | م س د | M S D | m-s-d
+1009 | م س ك | M S K | m-s-k
+1010 | م س و | M S W | m-s-w
+1011 | م ش ج | M SH J | m-sh-j
+1012 | م ض غ | M Ḍ GH | m-dad-gh
+1013 | م ض ي | M Ḍ Y | m-dad-y
+1014 | م ط ر | M Ṭ R | m-tt-r
+1015 | م ط و | M Ṭ W | m-tt-w
+1016 | م ع ز | M AYN Z (M ʿ Z) | m-ayn-z
+1017 | م ع ن | M ʿ N | m-ayn-n
+1018 | م ع ي | M AYN Y (M ʿ Y) | m-ayn-y
+1019 | م ق ت | M Q T | m-q-t
+1020 | م ك ث | M K TH | m-k-th
+1021 | م ك ر | M K R | m-k-r
+1022 | م ك ن | M K N | m-k-n
+1023 | م ك و | M K W | m-k-w
+1024 | م ل أ | M L A | m-l-a
+1025 | م ل ح | M L Ḥ | m-l-h
+1026 | م ل ق | M L Q | m-l-q
+1027 | م ل و | M L W | m-l-w
+1028 | م ه د | M H D | m-h2-d
+1029 | م ه ل | M H L | m-h2-l
+1030 | م ه ن | M H N | m-h2-n
+1031 | م و ج | M W J | m-w-j
+1032 | م و ر | M W R | m-w-r
+1033 | م ي د | M Y D | m-y-d
+1034 | م ي ر | M Y R | m-y-r
+1035 | م ي ز | M Y Z | m-y-z
+1036 | م ي ل | M Y L | m-y-l
+1037 | ن أ ي | N A Y | n-a-y
+1038 | ن ب ز | N B Z | n-b-z
+1039 | ن ب ط | N B Ṭ | n-b-tt
+1040 | ن ب ع | N B AYN (N B ʿ) | n-b-ayn
+1041 | ن ت ق | N T Q | n-t-q
+1042 | ن ث ر | N TH R | n-th-r
+1043 | ن ج د | N J D | n-j-d
+1044 | ن ج م | N J M | n-j-m
+1045 | ن ح ب | N Ḥ B | n-h-b
+1046 | ن ح ت | N Ḥ T | n-h-t
+1047 | ن ح س | N Ḥ S | n-h-s
+1048 | ن ح ل | N Ḥ L | n-h-l
+1049 | ن خ ر | N KH R | n-kh-r
+1050 | ن خ ل | N KH L | n-kh-l
+1051 | ن د م | N D M | n-d-m
+1052 | ن د ي | N D Y | n-d-y
+1053 | ن ز ع | N Z AYN (N Z ʿ) | n-z-ayn
+1054 | ن ز غ | N Z GH | n-z-gh
+1055 | ن ز ف | N Z F | n-z-f
+1056 | ن س أ | N S A | n-s-a
+1057 | ن س ب | N S B | n-s-b
+1058 | ن س ر | N S R | n-s-r
+1059 | ن س ف | N S F | n-s-f
+1060 | ن س ل | N S L | n-s-l
+1061 | ن ش أ | N SH A | n-sh-a
+1062 | ن ش ر | N SH R | n-sh-r
+1063 | ن ش ز | N SH Z | n-sh-z
+1064 | ن ش ط | N SH Ṭ | n-sh-tt
+1065 | ن ص ب | N Ṣ B | n-sad-b
+1066 | ن ص ت | N Ṣ T | n-sad-t
+1067 | ن ص ح | N Ṣ Ḥ | n-sad-h
+1068 | ن ص ف | N Ṣ F | n-sad-f
+1069 | ن ص ي | N Ṣ Y | n-sad-y
+1070 | ن ض ج | N Ḍ J | n-dad-j
+1071 | ن ض خ | N Ḍ KH | n-dad-kh
+1072 | ن ض د | N Ḍ D | n-dad-d
+1073 | ن ض ر | N Ḍ R | n-dad-r
+1074 | ن ط ح | N Ṭ Ḥ | n-tt-h
+1075 | ن ط ف | N Ṭ F | n-tt-f
+1076 | ن ط ق | N Ṭ Q | n-tt-q
+1077 | ن ع ج | N AYN J (N ʿ J) | n-ayn-j
+1078 | ن ع س | N AYN S (N ʿ S) | n-ayn-s
+1079 | ن ع ق | N AYN Q (N ʿ Q) | n-ayn-q
+1080 | ن ع ل | N AYN L (N ʿ L) | n-ayn-l
+1081 | ن غ ض | N GH Ḍ | n-gh-dad
+1082 | ن ف ث | N F TH | n-f-th
+1083 | ن ف ح | N F Ḥ | n-f-h
+1084 | ن ف خ | N F KH | n-f-kh
+1085 | ن ف د | N F D | n-f-d
+1086 | ن ف ذ | N F DH | n-f-dh
+1087 | ن ف ر | N F R | n-f-r
+1088 | ن ف ش | N F SH | n-f-sh
+1089 | ن ف ل | N F L | n-f-l
+1090 | ن ف ي | N F Y | n-f-y
+1091 | ن ق ب | N Q B | n-q-b
+1092 | ن ق ذ | N Q DH | n-q-dh
+1093 | ن ق ر | N Q R | n-q-r
+1094 | ن ق ع | N Q AYN (N Q ʿ) | n-q-ayn
+1095 | ن ق م | N Q M | n-q-m
+1096 | ن ك ب | N K B | n-k-b
+1097 | ن ك ث | N K TH | n-k-th
+1098 | ن ك ح | N K Ḥ | n-k-h
+1099 | ن ك د | N K D | n-k-d
+1100 | ن ك س | N K S | n-k-s
+1101 | ن ك ص | N K Ṣ | n-k-sad
+1102 | ن ك ف | N K F | n-k-f
+1103 | ن م ل | N M L | n-m-l
+1104 | ن م م | N M M | n-m-m
+1105 | ن ه ج | N H J | n-h2-j
+1106 | ن ه ي | N H Y | n-h2-y
+1107 | ن و أ | N W A | n-w-a
+1108 | ن و ب | N W B | n-w-b
+1109 | ن و ش | N W SH | n-w-sh
+1110 | ن و ص | N W Ṣ | n-w-sad
+1111 | ن و ق | N W Q | n-w-q
+1112 | ن و م | N W M | n-w-m
+1113 | ن و ن | N W N | n-w-n
+1114 | ن و ي | N W Y | n-w-y
+1115 | ه ا ء | H A A | h2-a-a
+1116 | ه ا ت | H A T | h2-a-t
+1117 | ه ب و | H B W | h2-b-w
+1118 | ه ج د | H J D | h2-j-d
+1119 | ه ج ر | H J R | h2-j-r
+1120 | ه ج ع | H J AYN (H J ʿ) | h2-j-ayn
+1121 | ه د د | H D D | h2-d-d
+1122 | ه د م | H D M | h2-d-m
+1123 | ه د ه د | H D H D | h2-d-h2-d
+1124 | ه ر ب | H R B | h2-r-b
+1125 | ه ر ع | H R AYN (H R ʿ) | h2-r-ayn
+1126 | ه ز ز | H Z Z | h2-z-z
+1127 | ه ز ل | H Z L | h2-z-l
+1128 | ه ز م | H Z M | h2-z-m
+1129 | ه ش ش | H SH SH | h2-sh-sh
+1130 | ه ش م | H SH M | h2-sh-m
+1131 | ه ض م | H Ḍ M | h2-dad-m
+1132 | ه ط ع | H Ṭ AYN (H Ṭ ʿ) | h2-tt-ayn
+1133 | ه ل ع | H L AYN (H L ʿ) | h2-l-ayn
+1134 | ه ل ك | H L K | h2-l-k
+1135 | ه ل ل | H L L | h2-l-l
+1136 | ه ل م | H L M | h2-l-m
+1137 | ه م د | H M D | h2-m-d
+1138 | ه م ر | H M R | h2-m-r
+1139 | ه م س | H M S | h2-m-s
+1140 | ه م م | H M M | h2-m-m
+1141 | ه م ن | H M N | h2-m-n
+1142 | ه ن أ | H N A | h2-n-a
+1143 | ه و ر | H W R | h2-w-r
+1144 | ه ي أ | H Y A | h2-y-a
+1145 | ه ي ت | H Y T | h2-y-t
+1146 | ه ي ج | H Y J | h2-y-j
+1147 | ه ي ل | H Y L | h2-y-l
+1148 | ه ي م | H Y M | h2-y-m
+1149 | ه ي م ن | H Y M N | h2-y-m-n
+1150 | و أ د | W A D | w-a-d
+1151 | و أ ل | W A L | w-a-l
+1152 | و ب ر | W B R | w-b-r
+1153 | و ب ق | W B Q | w-b-q
+1154 | و ب ل | W B L | w-b-l
+1155 | و ت د | W T D | w-t-d
+1156 | و ت ر | W T R | w-t-r
+1157 | و ت ن | W T N | w-t-n
+1158 | و ث ن | W TH N | w-th-n
+1159 | و ج ب | W J B | w-j-b
+1160 | و ج س | W J S | w-j-s
+1161 | و ج ف | W J F | w-j-f
+1162 | و ج ل | W J L | w-j-l
+1163 | و ح ش | W Ḥ SH | w-h-sh
+1164 | و ح ي | W Ḥ Y | w-h-y
+1165 | و د ع | W D AYN (W D ʿ) | w-d-ayn
+1166 | و د ق | W D Q | w-d-q
+1167 | و د ي | W D Y | w-d-y
+1168 | و ذ ر | W DH R | w-dh-r
+1169 | و ر ث | W R TH | w-r-th
+1170 | و ر د | W R D | w-r-d
+1171 | و ر ق | W R Q | w-r-q
+1172 | و ز ر | W Z R | w-z-r
+1173 | و ز ع | W Z AYN (W Z ʿ) | w-z-ayn
+1174 | و س ق | W S Q | w-s-q
+1175 | و س ل | W S L | w-s-l
+1176 | و س ن | W S N | w-s-n
+1177 | و ص ب | W Ṣ B | w-sad-b
+1178 | و ص د | W Ṣ D | w-sad-d
+1179 | و ص ف | W Ṣ F | w-sad-f
+1180 | و ض ع | W Ḍ AYN (W Ḍ ʿ) | w-dad-ayn
+1181 | و ض ن | W Ḍ N | w-dad-n
+1182 | و ط أ | W Ṭ A | w-tt-a
+1183 | و ط ر | W Ṭ R | w-tt-r
+1184 | و ط ن | W Ṭ N | w-tt-n
+1185 | و ع ي | W AYN Y (W ʿ Y) | w-ayn-y
+1186 | و ف د | W F D | w-f-d
+1187 | و ف ر | W F R | w-f-r
+1188 | و ف ض | W F Ḍ | w-f-dad
+1189 | و ف ق | W F Q | w-f-q
+1190 | و ق ت | W Q T | w-q-t
+1191 | و ق ذ | W Q DH | w-q-dh
+1192 | و ق ر | W Q R | w-q-r
+1193 | و ق ع | W Q AYN (W Q ʿ) | w-q-ayn
+1194 | و ق ف | W Q F | w-q-f
+1195 | و ك أ | W K A | w-k-a
+1196 | و ك د | W K D | w-k-d
+1197 | و ك ز | W K Z | w-k-z
+1198 | و ك ل | W K L | w-k-l
+1199 | و ل ج | W L J | w-l-j
+1200 | و ن ي | W N Y | w-n-y
+1201 | و ه ب | W H B | w-h2-b
+1202 | و ه ج | W H J | w-h2-j
+1203 | و ه ن | W H N | w-h2-n
+1204 | و ه ي | W H Y | w-h2-y
+1205 | ي أ س | Y A S | y-a-s
+1206 | ي ق ظ | Y Q Ẓ | y-q-zha
+1207 | ي م م | Y M M | y-m-m
+1208 | ي م ن | Y M N | y-m-n
+1209 | ي ن ع | Y N AYN (Y N ʿ) | y-n-ayn
