@@ -1,0 +1,263 @@
+{
+  "root": "أ ج ج",
+  "slug": "a-j-j",
+  "date": "2026-10-20",
+  "status": "installed locally; not committed or pushed",
+  "files": [
+    "quran-terminology/fa/roots/a-j-j/index.html",
+    "quran-terminology/en/roots/a-j-j/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/025-al-furqan/units/053.html",
+    "quran-reflection/fa/035-fatir/units/012.html",
+    "quran-reflection/fa/056-al-waqiah/units/070.html",
+    "quran-reflection/en/025-al-furqan/units/053.html",
+    "quran-reflection/en/035-fatir/units/012.html",
+    "quran-reflection/en/056-al-waqiah/units/070.html"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/a3eda8e3-bb0e-4785-95b9-becaa0937b75/Pasted text.txt",
+  "source_blocks_per_language": 295,
+  "sections_per_language": 7,
+  "morphology_cards_per_language": 11,
+  "quranic_occurrences": [
+    "25:53:10",
+    "35:12:11",
+    "56:70:4"
+  ],
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/025-al-furqan/units/053.html",
+      "verse": "25:53",
+      "position": 10,
+      "case": "nom",
+      "boxes": 1,
+      "brief": "بسیار شور و گزنده؛ وصف آب با شوری شدید و مزه ناخوشایند."
+    },
+    {
+      "file": "quran-reflection/fa/035-fatir/units/012.html",
+      "verse": "35:12",
+      "position": 11,
+      "case": "nom",
+      "boxes": 1,
+      "brief": "بسیار شور و گزنده؛ وصف آب با شوری شدید و مزه ناخوشایند."
+    },
+    {
+      "file": "quran-reflection/fa/056-al-waqiah/units/070.html",
+      "verse": "56:70",
+      "position": 4,
+      "case": "acc",
+      "boxes": 1,
+      "brief": "بسیار شور و گزنده؛ در واقعه ۵۶:۷۰، وصفی برای آب در یک فرض بیان‌شده."
+    },
+    {
+      "file": "quran-reflection/en/025-al-furqan/units/053.html",
+      "verse": "25:53",
+      "position": 10,
+      "case": "nom",
+      "boxes": 1,
+      "brief": "intensely salty and biting; describing water with intense salinity and an unpleasant taste."
+    },
+    {
+      "file": "quran-reflection/en/035-fatir/units/012.html",
+      "verse": "35:12",
+      "position": 11,
+      "case": "nom",
+      "boxes": 1,
+      "brief": "intensely salty and biting; describing water with intense salinity and an unpleasant taste."
+    },
+    {
+      "file": "quran-reflection/en/056-al-waqiah/units/070.html",
+      "verse": "56:70",
+      "position": 4,
+      "case": "acc",
+      "boxes": 1,
+      "brief": "intensely salty and biting; in Al-Wāqiʿah 56:70, describing water in a stated hypothetical situation."
+    }
+  ],
+  "Allah_boxes_present_in_target_verses": 0,
+  "persian_edits": [
+    {
+      "block": 8,
+      "before": "- **فرقان، ۲۵:۵۳:** «مِلْحٌ أُجَاجٌ»؛ آب بسیار شور، در برابر آب شیرین و گوارا.\n- **فاطر، ۳۵:۱۲:** «مِلْحٌ أُجَاجٌ»؛ آب بسیار شور، در مقایسه با آب شیرینی که نوشیدن آن آسان است.\n- **واقعه، ۵۶:۷۰:** «أُجَاجًا»؛ آبی بسیار شور که اگر خداوند بخواهد، می‌تواند به جای آب گوارا در اختیار انسان قرار گیرد.",
+      "after": "- **فرقان، ۲۵:۵۳:** «مِلْحٌ أُجَاجٌ»؛ آب بسیار شور، در برابر آب شیرین و گوارا.\n- **فاطر، ۳۵:۱۲:** «مِلْحٌ أُجَاجٌ»؛ آب بسیار شور، در مقایسه با آب شیرینی که نوشیدن آن آسان است.\n- **واقعه، ۵۶:۷۰:** «أُجَاجًا»؛ آبی بسیار شور که اگر آن معبود یگانه بخواهد، می‌تواند به جای آب گوارا در اختیار انسان قرار گیرد."
+    },
+    {
+      "block": 11,
+      "before": "از خانواده «أ ج ج» صورت‌های دیگری نیز ثبت شده‌اند، اما در قرآن به همین شکل‌ها نیامده‌اند:",
+      "after": "از خانواده «أ ج ج» صورت‌های زیر نیز ثبت شده‌اند؛ به‌جز «أُجاج» در وصف آب، دیگر صورت‌ها و کاربردهای این فهرست در قرآن نیامده‌اند:"
+    },
+    {
+      "block": 47,
+      "before": "«و گرما با شدتی سوزان و شعله‌وار می‌سوزاند.»",
+      "after": "«و گرما با شدتی سوزان و شعله‌وار سوزاند.»"
+    },
+    {
+      "block": 53,
+      "before": "رؤبة از شاعران دوره اموی است و این شاهد به دوره اسلامی تعلق دارد؛ نه به دوره جاهلی.",
+      "after": "رؤبة از شاعران دوره اموی و آغاز عباسی است و این شاهد به دوره اسلامی تعلق دارد؛ نه به دوره جاهلی."
+    },
+    {
+      "block": 115,
+      "before": "«و دو پهنه آب یکسان نیستند: این یکی شیرین و بسیار گواراست و نوشیدن آن آسان و خوشایند است؛ و آن دیگری بسیار شور و گزنده است. و از هر دو، گوشت تازه می‌خورید و زیورهایی بیرون می‌آورید که می‌پوشید؛ و کشتی‌ها را در آن می‌بینی که آب را می‌شکافند، تا از فضل خداوند روزی و بهره بجویید و باشد که سپاس گزارید.»",
+      "after": "«و دو پهنه آب یکسان نیستند: این یکی شیرین و بسیار گواراست و نوشیدن آن آسان و خوشایند است؛ و آن دیگری بسیار شور و گزنده است. و از هر دو، گوشت تازه می‌خورید و زیورهایی بیرون می‌آورید که می‌پوشید؛ و کشتی‌ها را در آن می‌بینی که آب را می‌شکافند، تا از فضل آن معبود یگانه روزی و بهره بجویید و باشد که سپاس گزارید.»"
+    },
+    {
+      "block": 154,
+      "before": "سپس می‌گوید اگر خداوند بخواهد، می‌تواند آن آب را أجاج قرار دهد.",
+      "after": "سپس می‌گوید اگر آن معبود یگانه بخواهد، می‌تواند آن آب را أجاج قرار دهد."
+    },
+    {
+      "block": 160,
+      "before": "«لَوْ نَشَاءُ» در این سیاق، قدرت خداوند را در تغییر وضعیت آب یادآوری می‌کند.",
+      "after": "«لَوْ نَشَاءُ» در این سیاق، قدرت آن معبود یگانه را در تغییر وضعیت آب یادآوری می‌کند."
+    },
+    {
+      "block": 194,
+      "before": "در سنت قرائت، این نام‌ها هم با همزه و هم بدون همزه خوانده شده‌اند.",
+      "after": "در قرائت‌های ده‌گانه، عاصم ــ از جمله در روایت حفص ــ این دو نام را با همزه، «يَأْجُوج» و «مَأْجُوج»، می‌خواند؛ دیگر قاریان ده‌گانه همزه را به الف بدل می‌کنند: «يَاجُوج» و «مَاجُوج». این اختلاف در هر دو موضع کهف ۱۸:۹۴ و انبیاء ۲۱:۹۶ برقرار است."
+    }
+  ],
+  "corrections": [
+    "Excepted ujāj describing water from the list of forms and uses absent from the Qur’an.",
+    "Matched the past tense of ḥarraqa in the Ruʾbah quotation when translating it.",
+    "Clarified that Ruʾbah lived in the Umayyad and early Abbasid periods; the example remains Islamic, not pre-Islamic.",
+    "Attributed the hamzated Yaʾjūj/Maʾjūj reading to ʿĀṣim, including Ḥafṣ, and hamzah-to-alif replacement to the other readers of the ten, at both 18:94 and 21:96.",
+    "Applied the established Persian divine naming convention outside Arabic quotations."
+  ],
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=Ajj",
+      "use": "Three occurrences of ujāj, corroborated against cached QAC: two nominative nouns and one accusative noun."
+    },
+    {
+      "url": "https://islamweb.net/ar/library/content/122/46/أجج",
+      "use": "Lisān al-ʿArab: both quoted poetic witnesses, additional Abū Dhuʾayb witness, lexical meanings and forms, and disputed Arabic derivation of the proper names."
+    },
+    {
+      "url": "https://arabiclexicon.hawramani.com/أجج/",
+      "use": "Primary Lisān, Ṣiḥāḥ, and Tāj al-ʿArūs entries: forms, lexical branches, figurative etymological proposal, and poetry wording."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/b/8369/454?lang=ar",
+      "use": "Al-Nuwayrī, Sharḥ Ṭayyibat al-Nashr: ʿĀṣim reads the two names with hamzah, other canonical readers with substitution."
+    },
+    {
+      "url": "https://quranpedia.app/books/b35101/s196.html",
+      "use": "Abū ʿAlī al-Fārisī, Al-Ḥujjah: same reading attribution at 21:96."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura18-aya94.html",
+      "use": "Al-Qurṭubī: conditional Arabic morphological analyses versus non-Arabic names."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura35-aya12.html",
+      "use": "Al-Qurṭubī: differing analyses of ornament extraction from the two waters."
+    },
+    {
+      "url": "https://ar.wikisource.org/wiki/سير_أعلام_النبلاء/روبة_بن_العجاج",
+      "use": "Al-Dhahabī, Siyar: Ruʾbah’s biography and death in 145 AH; primary biographical corroboration of the early Abbasid lifetime."
+    },
+    {
+      "url": "https://oceanservice.noaa.gov/education/tutorial_estuaries/est05_circulation.html",
+      "use": "NOAA primary explanation: fresh and saline waters may mix to different degrees while maintaining salinity gradients."
+    }
+  ],
+  "related_root_without_established_destination": "أ ج ن; retained as plain text, no new placeholder invented",
+  "proper_names_counted_separately": true,
+  "original_sha256": {
+    "quran-terminology/fa/roots/a-j-j/index.html": null,
+    "quran-terminology/en/roots/a-j-j/index.html": null,
+    "_data/quran-root-studies.json": "568e393e53c0fe1fa3268958cb20e8bd9815957de3e564ba90e3be65a883dba4",
+    "quran-reflection/fa/025-al-furqan/units/053.html": "5f683377c3b2bf18f300f8bf2ac5750ae770a9a2166b8685b024223f3b8515cd",
+    "quran-reflection/fa/035-fatir/units/012.html": "4549e6befa915b56dadabee6f8fd498cacbcef04bfd2553ae6053279224e0d00",
+    "quran-reflection/fa/056-al-waqiah/units/070.html": "bb7d712cf0177b823b035b9086b0f60f67140440f17c027108b06f17d7071b48",
+    "quran-reflection/en/025-al-furqan/units/053.html": "5a939510f9be96daa2b281ca1d1598c4acb46cd761e3aab7d7966475e43cb31e",
+    "quran-reflection/en/035-fatir/units/012.html": "350b8347a218bad57e9ab1dc91f7c52b6a161e5f217a1f81230571e76845d849",
+    "quran-reflection/en/056-al-waqiah/units/070.html": "513d386fbe2336fa12d4822ea7d9c7bd5257a6f4f7c6b9b2755dbfb8674dad05"
+  },
+  "protected_sha256": {
+    "AGENTS.md": "73e9d17b8a07b275e364c8c715088c44fd5f3614afe09cf877ed1c186ecdac91",
+    "_handoff/root-install-a-th-l-2026-10-20.json": "0edbd292afebbf02508d3af339fd182fa81805352cecc650bdfa1f4869b76696",
+    "_handoff/root-install-a-th-r-2026-10-20.json": "f356959140be035c62713c2ed7d4c7af03dfd796dd6c99deeb7cb6158898905f",
+    "quran-reflection/en/002-al-baqarah/units/157.html": "80e5eecd2d8266f23d400d766090d62b2ba40ae15dd808eb69ed09f93c9984b8",
+    "quran-reflection/en/005-al-maidah/units/046.html": "f8f56f06cbbd536ff11284ef1f75593f5c0c932cbebb77c43d79579c34a4a24a",
+    "quran-reflection/en/012-yusuf/units/091.html": "6ceb1110f63be556f174e5d95af894698288dac3aabb69fa8a76530c9abe55a3",
+    "quran-reflection/en/018-al-kahf/units/006.html": "d63b2b46c28caef56846032df9696080d06dc17e39f8e0885ca7d5f38d953ae2",
+    "quran-reflection/en/018-al-kahf/units/064.html": "2a8dc4b40dddbe3e06506d5065eae2db22653486f14048f11cdb8897a61e58bc",
+    "quran-reflection/en/018-al-kahf/units/094.html": "67e9d2b3bf065250125a57bebc3b222b47fcf0bc58414ffb4b72b8d99e021945",
+    "quran-reflection/en/020-ta-ha/units/072.html": "f5c5ed05218c70abe32951297dc2aa7382b7cb37dac438703425eda91a9d0184",
+    "quran-reflection/en/020-ta-ha/units/084.html": "c365d4026fafada6f3c4b12964c34b8bbbab6dc4b76b25fee3b3078cdf4270f9",
+    "quran-reflection/en/020-ta-ha/units/096.html": "2dc3367db3d277e3cf29e8c844a93fe401ea3e1b9b0ee308976489e55df803c8",
+    "quran-reflection/en/021-al-anbiya/units/096.html": "3dfe9b0de340d89f984a32edec08dd1691382b50ae919520a0d897e12f004055",
+    "quran-reflection/en/030-ar-rum/units/050.html": "81c854fc33b7aad314da5ebf8781047d69e04ae88802ca1b5f0219f688e84f58",
+    "quran-reflection/en/034-saba/units/016.html": "9fce087e7ca64f7057bc5bf5362c6d565aac22f758a4dde3ac8a2e10ae36dec3",
+    "quran-reflection/en/036-ya-sin/units/012.html": "b0e6155a2c83c2b691e02886f6319e293365f40b2024ad86e93b1d3dc4d4486f",
+    "quran-reflection/en/037-as-saffat/units/070.html": "5da47a22a4181153e51f7b1bf8c4029efab9f4e937539646bd5c771f952e7a03",
+    "quran-reflection/en/040-ghafir/units/021.html": "fc7771dfc2efad4cef89cc765298803503434cf1af9da688996efd4602085f48",
+    "quran-reflection/en/040-ghafir/units/082.html": "9fc8598d0c49aaccbb34234871b99730537ea7bb7a601fac153b68225c550993",
+    "quran-reflection/en/043-az-zukhruf/units/022.html": "4e28a561b1a8e5bf309e12e59fc8ff301f55e8a1dfc0d0c19e476e90a2a68d01",
+    "quran-reflection/en/043-az-zukhruf/units/023.html": "eaad23f34ec5aa709cb341754d2befe7ad579e2d3aad51a8c38a582a7baee420",
+    "quran-reflection/en/046-al-ahqaf/units/004.html": "d7b503f3a6eb6a4937a7adb3ff0a64d6bf7d0b5f7375ac3f3e42f4a1532e4efe",
+    "quran-reflection/en/048-al-fath/units/029.html": "280b9c79c2473ef4670c46a2642c638cc5ff8a4fdafb2dfae8a29d4457074d43",
+    "quran-reflection/en/057-al-hadid/units/027.html": "f2705c627427fc685f08242d3845c2d4c9319fb8a23a12965042bd06255d2168",
+    "quran-reflection/en/059-al-hashr/units/009.html": "c5d797f24cb52bbe073731726ddde3b4fbdd7ee09517187527b933b0f9354250",
+    "quran-reflection/en/074-al-muddaththir/units/024.html": "4d20d35324a55a677b228a5c22c551b882df4ff96edc57c6eaa86700b5b0486e",
+    "quran-reflection/en/079-an-naziat/units/038.html": "6366e92e1225ae35b0db5bd99f6c198edda604c6966981ab9fa1a21d01bf8823",
+    "quran-reflection/en/087-al-ala/units/016.html": "ff70a057c8e6f19fada0e8588a3574d66a5ed26b4e6e76688d0c59c9869a84cb",
+    "quran-reflection/fa/002-al-baqarah/units/157.html": "bbd6a224c3ee03de4522822027de0b224f3c53effc9ee1a9eabf1939f4537cf1",
+    "quran-reflection/fa/005-al-maidah/units/046.html": "a0d5b935090b859db0b6ff1880cc5bcb3f852928d9af888a70db734e3ce17f38",
+    "quran-reflection/fa/012-yusuf/units/091.html": "a249bad97e332c0363a44b10588814bab78a109fb2a4fb8da7a8b727b6894b15",
+    "quran-reflection/fa/018-al-kahf/units/006.html": "9774898402e3f84be88caa516408e69b98233a1f9e1523704e5c9bf0a3665a33",
+    "quran-reflection/fa/018-al-kahf/units/064.html": "320bf6484b9312fdf569a4b1e600ff1fc5605977bfa28b34f834041cdd48281f",
+    "quran-reflection/fa/018-al-kahf/units/094.html": "8951ba4df50e30ef129c5ac4ce87c838c626a7df235466a4e1531f263f577942",
+    "quran-reflection/fa/020-ta-ha/units/072.html": "da0a39afade59ed1000471222db6262edc63f83f122da09f7b487ad82bb7ddc2",
+    "quran-reflection/fa/020-ta-ha/units/084.html": "43e036e2d198574ec5e07aee1ad55482d50ef15223d6aefec7c9cab337ee4cf6",
+    "quran-reflection/fa/020-ta-ha/units/096.html": "b858b623697fe1aeca7126c4f76e4ebf1d05edda2a0fe9eb6e1f9098189a4766",
+    "quran-reflection/fa/021-al-anbiya/units/096.html": "ffc6060ff5248d9a11db03afe8f444009dd5536c24c1e6c748246cc8e3aeac25",
+    "quran-reflection/fa/030-ar-rum/units/050.html": "ede75e63ac31586293bafca018fb11543fd9dc521a5eccd2e0a8a76279f82ef7",
+    "quran-reflection/fa/034-saba/units/016.html": "fc650cdea04a9996183913a160efd46d3b7c0673acd991080c781b7ddf04487a",
+    "quran-reflection/fa/036-ya-sin/units/012.html": "d116a58ea89f52b2b23e9e8404203c26d8a08a2ba110dca677292a20881bd4e1",
+    "quran-reflection/fa/037-as-saffat/units/070.html": "105bb6f4fe796b0795389fcb128e401519af4e6a1f5054c308d955f20bfa015f",
+    "quran-reflection/fa/040-ghafir/units/021.html": "3d293715c5685f3cb10b5f504fdccf0188b030113741c8ff575be7894b7d6b89",
+    "quran-reflection/fa/040-ghafir/units/082.html": "75c1366bc49096984570b996943cac040d7c9bdb6bde815cf04533399e83c00e",
+    "quran-reflection/fa/043-az-zukhruf/units/022.html": "e1204947cd5be59ae0d42756b840c344253840f5360c28b0c9ac8a0d57e4f20d",
+    "quran-reflection/fa/043-az-zukhruf/units/023.html": "18db47cf0e8a7c7624feb9e4f8e554e93c11c2a5bddaaab5ace940fcff85db7e",
+    "quran-reflection/fa/046-al-ahqaf/units/004.html": "3961e1225194011032ff7cd9123557515c9cc7d6b1df5db40d7f43d7a5b49d0b",
+    "quran-reflection/fa/048-al-fath/units/029.html": "6a7c0f94c6f87fa520ee0671191958827d7156c3af207fd16644afb4ce900162",
+    "quran-reflection/fa/057-al-hadid/units/027.html": "eebed56464ef681173fcade151f7de0642cb67b22ec8654e088432cadfaa8374",
+    "quran-reflection/fa/059-al-hashr/units/009.html": "c535ed833c6fa667a2dbad7124a3e92a86f26f025c337aaabd69aa4ca025c183",
+    "quran-reflection/fa/074-al-muddaththir/units/024.html": "da56c8866a0d4e4493450e615c50b19155d54dba59c744f85ab649190977303a",
+    "quran-reflection/fa/079-an-naziat/units/038.html": "9e3990761373f8f3b160b374c6ee234e57c8863a713b868636056a1ba284dcea",
+    "quran-reflection/fa/087-al-ala/units/016.html": "a8e8460bfe1f82c6d3573965e07561fcabaee43afcbd7752d4ed52ba6fb2f701",
+    "quran-terminology/en/roots/a-th-l/index.html": "2a83959745ee4706ca8326e3f8c7e954aa57b9429e643418f8736686fc4104ae",
+    "quran-terminology/en/roots/a-th-r/index.html": "eee95dd76c2c15266fe5861eb45822563b1d6dbd87adcef41894623c9f057a49",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50",
+    "quran-terminology/fa/roots/a-th-l/index.html": "00c67e317dbc2ea14c4b7cc53d422dc79d277de734e8a5446567199e0e2db94f",
+    "quran-terminology/fa/roots/a-th-r/index.html": "cdfe4ad9340405aa8734a3a1b0ad68f56a9b03cab5ec3e75cf5b13fe6153cf6e",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "verification": {
+    "stage": "before installation",
+    "all_295_source_blocks_rendered_per_language": true,
+    "all_nine_Arabic_quotes_preserved_exactly": true,
+    "seven_full_Quranic_quotes_match_installed_verses": true,
+    "three_noun_occurrences_and_word_assignments_confirmed": true,
+    "two_nominatives_and_one_accusative_confirmed": true,
+    "proper_names_not_counted_as_established_root_occurrences": true,
+    "seven_sections_eleven_cards_32_subheadings_per_language": true,
+    "unique_ids_and_resolved_navigation": true,
+    "individually_verified_verse_targets": 14,
+    "verified_existing_related_root_targets": 12,
+    "no_Persian_digits_or_letters_in_English": true,
+    "only_a_j_j_registry_record_changed": true,
+    "only_six_a_j_j_popovers_changed": true,
+    "verse_Arabic_translations_and_other_boxes_unchanged": true,
+    "preexisting_changes_preserved": true,
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false,
+    "standalone_preview": "Inspected light Persian article and morphology cards, the amended Persian reading-variant explanation, and dark English poetry presentation with Arabic, transliteration, and translation; no layout issues observed.",
+    "git_diff_check_passed_before_installation": true
+  },
+  "report_file": "_handoff/root-install-a-j-j-2026-10-20.json"
+}

@@ -1,0 +1,2141 @@
+{
+  "root": "أ ج ل",
+  "slug": "a-j-l",
+  "date": "2026-10-20",
+  "status": "installed locally; not committed or pushed",
+  "files": [
+    "quran-terminology/fa/roots/a-j-l/index.html",
+    "quran-terminology/en/roots/a-j-l/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/002-al-baqarah/units/231.html",
+    "quran-reflection/fa/002-al-baqarah/units/232.html",
+    "quran-reflection/fa/002-al-baqarah/units/234.html",
+    "quran-reflection/fa/002-al-baqarah/units/235.html",
+    "quran-reflection/fa/002-al-baqarah/units/282.html",
+    "quran-reflection/fa/003-al-imran/units/145.html",
+    "quran-reflection/fa/004-an-nisa/units/077.html",
+    "quran-reflection/fa/005-al-maidah/units/032.html",
+    "quran-reflection/fa/006-al-anam/units/002.html",
+    "quran-reflection/fa/006-al-anam/units/060.html",
+    "quran-reflection/fa/006-al-anam/units/128.html",
+    "quran-reflection/fa/007-al-araf/units/034.html",
+    "quran-reflection/fa/007-al-araf/units/135.html",
+    "quran-reflection/fa/007-al-araf/units/185.html",
+    "quran-reflection/fa/010-yunus/units/011.html",
+    "quran-reflection/fa/010-yunus/units/049.html",
+    "quran-reflection/fa/011-hud/units/003.html",
+    "quran-reflection/fa/011-hud/units/104.html",
+    "quran-reflection/fa/013-ar-rad/units/002.html",
+    "quran-reflection/fa/013-ar-rad/units/038.html",
+    "quran-reflection/fa/014-ibrahim/units/010.html",
+    "quran-reflection/fa/014-ibrahim/units/044.html",
+    "quran-reflection/fa/015-al-hijr/units/005.html",
+    "quran-reflection/fa/016-an-nahl/units/061.html",
+    "quran-reflection/fa/017-al-isra/units/099.html",
+    "quran-reflection/fa/020-ta-ha/units/129.html",
+    "quran-reflection/fa/022-al-hajj/units/005.html",
+    "quran-reflection/fa/022-al-hajj/units/033.html",
+    "quran-reflection/fa/023-al-muminun/units/043.html",
+    "quran-reflection/fa/028-al-qasas/units/028.html",
+    "quran-reflection/fa/028-al-qasas/units/029.html",
+    "quran-reflection/fa/029-al-ankabut/units/005.html",
+    "quran-reflection/fa/029-al-ankabut/units/053.html",
+    "quran-reflection/fa/030-ar-rum/units/008.html",
+    "quran-reflection/fa/031-luqman/units/029.html",
+    "quran-reflection/fa/035-fatir/units/013.html",
+    "quran-reflection/fa/035-fatir/units/045.html",
+    "quran-reflection/fa/039-az-zumar/units/005.html",
+    "quran-reflection/fa/039-az-zumar/units/042.html",
+    "quran-reflection/fa/040-ghafir/units/067.html",
+    "quran-reflection/fa/042-ash-shura/units/014.html",
+    "quran-reflection/fa/046-al-ahqaf/units/003.html",
+    "quran-reflection/fa/063-al-munafiqun/units/010.html",
+    "quran-reflection/fa/063-al-munafiqun/units/011.html",
+    "quran-reflection/fa/065-at-talaq/units/002.html",
+    "quran-reflection/fa/065-at-talaq/units/004.html",
+    "quran-reflection/fa/071-nuh/units/004.html",
+    "quran-reflection/fa/077-al-mursalat/units/012.html",
+    "quran-reflection/en/002-al-baqarah/units/231.html",
+    "quran-reflection/en/002-al-baqarah/units/232.html",
+    "quran-reflection/en/002-al-baqarah/units/234.html",
+    "quran-reflection/en/002-al-baqarah/units/235.html",
+    "quran-reflection/en/002-al-baqarah/units/282.html",
+    "quran-reflection/en/003-al-imran/units/145.html",
+    "quran-reflection/en/004-an-nisa/units/077.html",
+    "quran-reflection/en/005-al-maidah/units/032.html",
+    "quran-reflection/en/006-al-anam/units/002.html",
+    "quran-reflection/en/006-al-anam/units/060.html",
+    "quran-reflection/en/006-al-anam/units/128.html",
+    "quran-reflection/en/007-al-araf/units/034.html",
+    "quran-reflection/en/007-al-araf/units/135.html",
+    "quran-reflection/en/007-al-araf/units/185.html",
+    "quran-reflection/en/010-yunus/units/011.html",
+    "quran-reflection/en/010-yunus/units/049.html",
+    "quran-reflection/en/011-hud/units/003.html",
+    "quran-reflection/en/011-hud/units/104.html",
+    "quran-reflection/en/013-ar-rad/units/002.html",
+    "quran-reflection/en/013-ar-rad/units/038.html",
+    "quran-reflection/en/014-ibrahim/units/010.html",
+    "quran-reflection/en/014-ibrahim/units/044.html",
+    "quran-reflection/en/015-al-hijr/units/005.html",
+    "quran-reflection/en/016-an-nahl/units/061.html",
+    "quran-reflection/en/017-al-isra/units/099.html",
+    "quran-reflection/en/020-ta-ha/units/129.html",
+    "quran-reflection/en/022-al-hajj/units/005.html",
+    "quran-reflection/en/022-al-hajj/units/033.html",
+    "quran-reflection/en/023-al-muminun/units/043.html",
+    "quran-reflection/en/028-al-qasas/units/028.html",
+    "quran-reflection/en/028-al-qasas/units/029.html",
+    "quran-reflection/en/029-al-ankabut/units/005.html",
+    "quran-reflection/en/029-al-ankabut/units/053.html",
+    "quran-reflection/en/030-ar-rum/units/008.html",
+    "quran-reflection/en/031-luqman/units/029.html",
+    "quran-reflection/en/035-fatir/units/013.html",
+    "quran-reflection/en/035-fatir/units/045.html",
+    "quran-reflection/en/039-az-zumar/units/005.html",
+    "quran-reflection/en/039-az-zumar/units/042.html",
+    "quran-reflection/en/040-ghafir/units/067.html",
+    "quran-reflection/en/042-ash-shura/units/014.html",
+    "quran-reflection/en/046-al-ahqaf/units/003.html",
+    "quran-reflection/en/063-al-munafiqun/units/010.html",
+    "quran-reflection/en/063-al-munafiqun/units/011.html",
+    "quran-reflection/en/065-at-talaq/units/002.html",
+    "quran-reflection/en/065-at-talaq/units/004.html",
+    "quran-reflection/en/071-nuh/units/004.html",
+    "quran-reflection/en/077-al-mursalat/units/012.html"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/a83cf0fe-7410-491b-b79e-75aabc6adf57/Pasted text.txt",
+  "source_blocks_per_language": 324,
+  "sections_per_language": 8,
+  "morphology_cards_per_language": 12,
+  "quranic_occurrences": 56,
+  "quranic_verses": 48,
+  "morphological_groups": {
+    "temporal_noun": 52,
+    "Form_II_verb": 2,
+    "passive_participle": 1,
+    "causal_noun": 1
+  },
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/231.html",
+      "verse": "2:231",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَجَلَهُنَّ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/232.html",
+      "verse": "2:232",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَجَلَهُنَّ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/234.html",
+      "verse": "2:234",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 13,
+          "word": "أَجَلَهُنَّ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/235.html",
+      "verse": "2:235",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 34,
+          "word": "أَجَلَهُ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/282.html",
+      "verse": "2:282",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "أَجَلٍ",
+          "branch": "debt",
+          "brief": "سررسید تعهد مالی؛ موعد مقرر برای پرداخت بدهی."
+        },
+        {
+          "position": 86,
+          "word": "أَجَلِهِ",
+          "branch": "debt",
+          "brief": "سررسید تعهد مالی؛ موعد مقرر برای پرداخت بدهی."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/003-al-imran/units/145.html",
+      "verse": "3:145",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 10,
+          "word": "مُؤَجَّلًا",
+          "branch": "participle",
+          "brief": "دارای موعد تعیین‌شده."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/077.html",
+      "verse": "4:77",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 36,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/032.html",
+      "verse": "5:32",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "أَجلِ",
+          "branch": "causal",
+          "brief": "از همین سبب؛ به همین دلیل."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/002.html",
+      "verse": "6:2",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "أَجَلًا",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        },
+        {
+          "position": 9,
+          "word": "وَأَجَلٌ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/060.html",
+      "verse": "6:60",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 13,
+          "word": "أَجَلٌ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/128.html",
+      "verse": "6:128",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "أَجَلَنَا",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        },
+        {
+          "position": 21,
+          "word": "أَجَّلتَ",
+          "branch": "appoint",
+          "brief": "برای چیزی موعد تعیین کرد یا آن را به موعدی موکول ساخت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/034.html",
+      "verse": "7:34",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَجَلٌ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        },
+        {
+          "position": 6,
+          "word": "أَجَلُهُم",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/135.html",
+      "verse": "7:135",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/185.html",
+      "verse": "7:185",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 18,
+          "word": "أَجَلُهُم",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/010-yunus/units/011.html",
+      "verse": "10:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 10,
+          "word": "أَجَلُهُم",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/010-yunus/units/049.html",
+      "verse": "10:49",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "أَجَلٌ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        },
+        {
+          "position": 17,
+          "word": "أَجَلُهُم",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/units/003.html",
+      "verse": "11:3",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 11,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/units/104.html",
+      "verse": "11:104",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "لِأَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/013-ar-rad/units/002.html",
+      "verse": "13:2",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 17,
+          "word": "لِأَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/013-ar-rad/units/038.html",
+      "verse": "13:38",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 20,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/014-ibrahim/units/010.html",
+      "verse": "14:10",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 16,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/014-ibrahim/units/044.html",
+      "verse": "14:44",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 12,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/015-al-hijr/units/005.html",
+      "verse": "15:5",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَجَلَها",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/016-an-nahl/units/061.html",
+      "verse": "16:61",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        },
+        {
+          "position": 18,
+          "word": "أَجَلُهُم",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/017-al-isra/units/099.html",
+      "verse": "17:99",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 16,
+          "word": "أَجَلًا",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/129.html",
+      "verse": "20:129",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "وَأَجَلٌ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/022-al-hajj/units/005.html",
+      "verse": "22:5",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 33,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/022-al-hajj/units/033.html",
+      "verse": "22:33",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/023-al-muminun/units/043.html",
+      "verse": "23:43",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَجَلَها",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/028.html",
+      "verse": "28:28",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "الأَجَلَينِ",
+          "branch": "dual",
+          "brief": "دو مدت مقرر؛ در این آیه، دو مدت قراردادی."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/029.html",
+      "verse": "28:29",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "الأَجَلَ",
+          "branch": "contract",
+          "brief": "مدت مقرر یک تعهد؛ دوره‌ای که به انجام می‌رسد."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/005.html",
+      "verse": "29:5",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "أَجَلَ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/053.html",
+      "verse": "29:53",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "أَجَلٌ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/030-ar-rum/units/008.html",
+      "verse": "30:8",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "وَأَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/031-luqman/units/029.html",
+      "verse": "31:29",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/035-fatir/units/013.html",
+      "verse": "35:13",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "لِأَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/035-fatir/units/045.html",
+      "verse": "35:45",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 16,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        },
+        {
+          "position": 20,
+          "word": "أَجَلُهُم",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/039-az-zumar/units/005.html",
+      "verse": "39:5",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 18,
+          "word": "لِأَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/039-az-zumar/units/042.html",
+      "verse": "39:42",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/040-ghafir/units/067.html",
+      "verse": "40:67",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 27,
+          "word": "أَجَلًا",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/042-ash-shura/units/014.html",
+      "verse": "42:14",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 17,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/046-al-ahqaf/units/003.html",
+      "verse": "46:3",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "وَأَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/063-al-munafiqun/units/010.html",
+      "verse": "63:10",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 16,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/063-al-munafiqun/units/011.html",
+      "verse": "63:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "أَجَلُها",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/065-at-talaq/units/002.html",
+      "verse": "65:2",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَجَلَهُنَّ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/065-at-talaq/units/004.html",
+      "verse": "65:4",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 17,
+          "word": "أَجَلُهُنَّ",
+          "branch": "pregnancy",
+          "brief": "پایان مدت انتظار زنان باردار، با زایمان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/071-nuh/units/004.html",
+      "verse": "71:4",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        },
+        {
+          "position": 10,
+          "word": "أَجَلَ",
+          "branch": "temporal",
+          "brief": "مدت یا موعد مقرر؛ در سیاق مناسب، پایان آن مدت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/077-al-mursalat/units/012.html",
+      "verse": "77:12",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أُجِّلَت",
+          "branch": "deferred",
+          "brief": "به روزی مقرر موکول شدند؛ برای آن موعدی تعیین شد."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/231.html",
+      "verse": "2:231",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَجَلَهُنَّ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/232.html",
+      "verse": "2:232",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَجَلَهُنَّ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/234.html",
+      "verse": "2:234",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 13,
+          "word": "أَجَلَهُنَّ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/235.html",
+      "verse": "2:235",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 34,
+          "word": "أَجَلَهُ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/282.html",
+      "verse": "2:282",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "أَجَلٍ",
+          "branch": "debt",
+          "brief": "The maturity of a financial obligation; the appointed time for repaying a debt."
+        },
+        {
+          "position": 86,
+          "word": "أَجَلِهِ",
+          "branch": "debt",
+          "brief": "The maturity of a financial obligation; the appointed time for repaying a debt."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/003-al-imran/units/145.html",
+      "verse": "3:145",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 10,
+          "word": "مُؤَجَّلًا",
+          "branch": "participle",
+          "brief": "Assigned an appointed time."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/077.html",
+      "verse": "4:77",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 36,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/032.html",
+      "verse": "5:32",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "أَجلِ",
+          "branch": "causal",
+          "brief": "For that reason; because of that."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/002.html",
+      "verse": "6:2",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "أَجَلًا",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        },
+        {
+          "position": 9,
+          "word": "وَأَجَلٌ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/060.html",
+      "verse": "6:60",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 13,
+          "word": "أَجَلٌ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/128.html",
+      "verse": "6:128",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "أَجَلَنَا",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        },
+        {
+          "position": 21,
+          "word": "أَجَّلتَ",
+          "branch": "appoint",
+          "brief": "Assigned something a time or deferred it to an appointed time."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/034.html",
+      "verse": "7:34",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَجَلٌ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        },
+        {
+          "position": 6,
+          "word": "أَجَلُهُم",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/135.html",
+      "verse": "7:135",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/185.html",
+      "verse": "7:185",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 18,
+          "word": "أَجَلُهُم",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/010-yunus/units/011.html",
+      "verse": "10:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 10,
+          "word": "أَجَلُهُم",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/010-yunus/units/049.html",
+      "verse": "10:49",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "أَجَلٌ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        },
+        {
+          "position": 17,
+          "word": "أَجَلُهُم",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/011-hud/units/003.html",
+      "verse": "11:3",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 11,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/011-hud/units/104.html",
+      "verse": "11:104",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "لِأَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/013-ar-rad/units/002.html",
+      "verse": "13:2",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 17,
+          "word": "لِأَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/013-ar-rad/units/038.html",
+      "verse": "13:38",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 20,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/014-ibrahim/units/010.html",
+      "verse": "14:10",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 16,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/014-ibrahim/units/044.html",
+      "verse": "14:44",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 12,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/015-al-hijr/units/005.html",
+      "verse": "15:5",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَجَلَها",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/016-an-nahl/units/061.html",
+      "verse": "16:61",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        },
+        {
+          "position": 18,
+          "word": "أَجَلُهُم",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/017-al-isra/units/099.html",
+      "verse": "17:99",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 16,
+          "word": "أَجَلًا",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/129.html",
+      "verse": "20:129",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "وَأَجَلٌ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/022-al-hajj/units/005.html",
+      "verse": "22:5",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 33,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/022-al-hajj/units/033.html",
+      "verse": "22:33",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/023-al-muminun/units/043.html",
+      "verse": "23:43",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَجَلَها",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/028.html",
+      "verse": "28:28",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "الأَجَلَينِ",
+          "branch": "dual",
+          "brief": "Two appointed periods; in this verse, two contractual periods."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/029.html",
+      "verse": "28:29",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "الأَجَلَ",
+          "branch": "contract",
+          "brief": "The appointed period of an undertaking; a term to be fulfilled."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/005.html",
+      "verse": "29:5",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "أَجَلَ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/053.html",
+      "verse": "29:53",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "أَجَلٌ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/030-ar-rum/units/008.html",
+      "verse": "30:8",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "وَأَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/031-luqman/units/029.html",
+      "verse": "31:29",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/035-fatir/units/013.html",
+      "verse": "35:13",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "لِأَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/035-fatir/units/045.html",
+      "verse": "35:45",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 16,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        },
+        {
+          "position": 20,
+          "word": "أَجَلُهُم",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/039-az-zumar/units/005.html",
+      "verse": "39:5",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 18,
+          "word": "لِأَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/039-az-zumar/units/042.html",
+      "verse": "39:42",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/040-ghafir/units/067.html",
+      "verse": "40:67",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 27,
+          "word": "أَجَلًا",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/042-ash-shura/units/014.html",
+      "verse": "42:14",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 17,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/046-al-ahqaf/units/003.html",
+      "verse": "46:3",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "وَأَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/063-al-munafiqun/units/010.html",
+      "verse": "63:10",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 16,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/063-al-munafiqun/units/011.html",
+      "verse": "63:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "أَجَلُها",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/065-at-talaq/units/002.html",
+      "verse": "65:2",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَجَلَهُنَّ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/065-at-talaq/units/004.html",
+      "verse": "65:4",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 17,
+          "word": "أَجَلُهُنَّ",
+          "branch": "pregnancy",
+          "brief": "The end of pregnant women’s waiting period, through childbirth."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/071-nuh/units/004.html",
+      "verse": "71:4",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "أَجَلٍ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        },
+        {
+          "position": 10,
+          "word": "أَجَلَ",
+          "branch": "temporal",
+          "brief": "An appointed period or time; where appropriate, the end of that period."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/077-al-mursalat/units/012.html",
+      "verse": "77:12",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أُجِّلَت",
+          "branch": "deferred",
+          "brief": "Were deferred to an appointed day; were assigned a time."
+        }
+      ]
+    }
+  ],
+  "Allah_boxes": [
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/231.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 4
+    },
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/232.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/234.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/235.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/282.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 6
+    },
+    {
+      "file": "quran-reflection/fa/003-al-imran/units/145.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/077.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/032.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/002.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/060.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/128.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/034.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/135.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/185.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/010-yunus/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/010-yunus/units/049.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/units/003.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/units/104.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/013-ar-rad/units/002.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/013-ar-rad/units/038.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/014-ibrahim/units/010.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/014-ibrahim/units/044.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/015-al-hijr/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/016-an-nahl/units/061.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/017-al-isra/units/099.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/129.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/022-al-hajj/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/022-al-hajj/units/033.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/023-al-muminun/units/043.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/028.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/029.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/053.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/030-ar-rum/units/008.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/031-luqman/units/029.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/035-fatir/units/013.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/035-fatir/units/045.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/039-az-zumar/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/039-az-zumar/units/042.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/040-ghafir/units/067.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/042-ash-shura/units/014.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/046-al-ahqaf/units/003.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/063-al-munafiqun/units/010.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/063-al-munafiqun/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/065-at-talaq/units/002.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/fa/065-at-talaq/units/004.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/071-nuh/units/004.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/077-al-mursalat/units/012.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/231.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 4
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/232.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/234.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/235.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/282.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 6
+    },
+    {
+      "file": "quran-reflection/en/003-al-imran/units/145.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/077.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/032.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/002.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/060.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/128.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/034.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/135.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/185.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/010-yunus/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/010-yunus/units/049.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/011-hud/units/003.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/011-hud/units/104.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/013-ar-rad/units/002.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/013-ar-rad/units/038.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/014-ibrahim/units/010.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/014-ibrahim/units/044.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/015-al-hijr/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/016-an-nahl/units/061.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/017-al-isra/units/099.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/129.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/022-al-hajj/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/022-al-hajj/units/033.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/023-al-muminun/units/043.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/028.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/029.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/053.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/030-ar-rum/units/008.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/031-luqman/units/029.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/035-fatir/units/013.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/035-fatir/units/045.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/039-az-zumar/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/039-az-zumar/units/042.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/040-ghafir/units/067.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/042-ash-shura/units/014.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/046-al-ahqaf/units/003.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/063-al-munafiqun/units/010.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/063-al-munafiqun/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/065-at-talaq/units/002.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/en/065-at-talaq/units/004.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/071-nuh/units/004.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/077-al-mursalat/units/012.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    }
+  ],
+  "persian_edits": [
+    {
+      "block": 58,
+      "before": "خوات بن جبیر از اشخاص دوره آغازین اسلام است. بنابراین، انتساب بیت به او، شاهدی از عربی قدیم فراهم می‌کند، اما نباید آن را شعر جاهلی معرفی کرد.",
+      "after": "خوات بن جبیر دوره جاهلی و آغاز اسلام را درک کرده است؛ اما انتساب این بیت یکدست نیست. در «مجاز القرآن» ابوعبیده، بیت به خنّوت نسبت داده شده و ابن‌بری نیز از حضور آن در بعضی روایت‌های شعر زهیر، در کنار نبودنش در روایت اصمعی، خبر می‌دهد. بنابراین، نام یک شاعر به‌تنهایی تاریخ سرایش این شاهد را پیش یا پس از اسلام قطعی نمی‌کند؛ ارزش آن در اینجا، نشان دادن کاربرد سببی «آجل» در نقل‌های عربی کهن است."
+    },
+    {
+      "block": 78,
+      "before": "«و هیچ نفسی را نرسد که جز به اذن خداوند بمیرد؛ این امری نوشته‌شده با موعدی مقرر است. و هر کس پاداش دنیا را بخواهد، از آن به او می‌دهیم؛ و هر کس پاداش آخرت را بخواهد، از آن به او می‌دهیم؛ و سپاسگزاران را پاداش خواهیم داد.»",
+      "after": "«و هیچ نفسی را نرسد که جز به اذن آن معبود یگانه بمیرد؛ این امری نوشته‌شده با موعدی مقرر است. و هر کس پاداش دنیا را بخواهد، از آن به او می‌دهیم؛ و هر کس پاداش آخرت را بخواهد، از آن به او می‌دهیم؛ و سپاسگزاران را پاداش خواهیم داد.»"
+    },
+    {
+      "block": 89,
+      "before": "«و خداوند هیچ نفسی را هنگامی که اجلش فرا رسد مهلت بیشتری نمی‌دهد؛ و خداوند از آنچه انجام می‌دهید آگاه است.»",
+      "after": "«و آن معبود یگانه هیچ نفسی را هنگامی که اجلش فرا رسد مهلت بیشتری نمی‌دهد؛ و آن معبود یگانه از آنچه انجام می‌دهید آگاه است.»"
+    },
+    {
+      "block": 99,
+      "before": "«تا از گناهانتان بیامرزد و شما را تا زمانی مقرر مهلت دهد. بی‌گمان هنگامی که موعد مقرر خداوند فرا رسد، به تأخیر انداخته نمی‌شود؛ اگر می‌دانستید.»",
+      "after": "«تا از گناهانتان بیامرزد و شما را تا زمانی مقرر مهلت دهد. بی‌گمان هنگامی که موعد مقرر آن معبود یگانه فرا رسد، به تأخیر انداخته نمی‌شود؛ اگر می‌دانستید.»"
+    },
+    {
+      "block": 148,
+      "before": "«گفت: این توافق میان من و تو باشد؛ هر یک از دو مدت را که به پایان رساندم، دیگر ادعایی علیه من نباشد؛ و خداوند بر آنچه می‌گوییم نگهبان و گواه است.»",
+      "after": "«گفت: این توافق میان من و تو باشد؛ هر یک از دو مدت را که به پایان رساندم، دیگر ادعایی علیه من نباشد؛ و آن معبود یگانه بر آنچه می‌گوییم نگهبان و گواه است.»"
+    },
+    {
+      "block": 170,
+      "before": "«و زنانی از شما که از حیض نومید شده‌اند، اگر درباره وضعیتشان تردید دارید، مدت انتظارشان سه ماه است؛ و نیز زنانی که حیض ندیده‌اند. و زنان باردار، پایان مدت انتظارشان آن است که بار خود را بر زمین بگذارند و فرزندشان را به دنیا آورند. و هر کس از خداوند پروا کند، خداوند در کارش آسانی قرار می‌دهد.»",
+      "after": "«و زنانی از شما که از حیض نومید شده‌اند، اگر درباره وضعیتشان تردید دارید، مدت انتظارشان سه ماه است؛ و نیز زنانی که حیض ندیده‌اند. و زنان باردار، پایان مدت انتظارشان آن است که بار خود را بر زمین بگذارند و فرزندشان را به دنیا آورند. و هر کس از آن معبود یگانه پروا کند، آن معبود یگانه در کارش آسانی قرار می‌دهد.»"
+    },
+    {
+      "block": 197,
+      "before": "«و به‌راستی پیش از تو رسولانی فرستادیم و برای آنان همسران و فرزندانی قرار دادیم؛ و هیچ رسولی را نرسد که جز به اذن خداوند نشانه‌ای بیاورد. برای هر موعدی، نوشته و تقدیری است.»",
+      "after": "«و به‌راستی پیش از تو رسولانی فرستادیم و برای آنان همسران و فرزندانی قرار دادیم؛ و هیچ رسولی را نرسد که جز به اذن آن معبود یگانه نشانه‌ای بیاورد. برای هر موعدی، نوشته و تقدیری است.»"
+    },
+    {
+      "block": 200,
+      "before": "در سیاق، سخن از رسولان، اذن خداوند و آمدن نشانه‌هاست.",
+      "after": "در سیاق، سخن از رسولان، اذن آن معبود یگانه و آمدن نشانه‌هاست."
+    },
+    {
+      "block": 251,
+      "before": "اما خود «قتل» از ریشه «ق ت ل» است و «حیات» و «احیا» نیز خانواده‌های دیگری دارند.",
+      "after": "اما خود «قتل» از ریشه «ق ت ل» است؛ «حیات» و «احیا» نیز هر دو از خانواده «ح ي ي» هستند و با خانواده «أ ج ل» تفاوت دارند."
+    },
+    {
+      "block": 268,
+      "before": "ممکن است اجلی نزد خداوند مقرر باشد، اما زمان دقیق آن برای انسان روشن نباشد.",
+      "after": "ممکن است اجلی نزد آن معبود یگانه مقرر باشد، اما زمان دقیق آن برای انسان روشن نباشد."
+    }
+  ],
+  "corrections": [
+    "Explained the disputed attribution of the causal ājil poem: Khawwāt in some lexicons, Al-Khinnawt in Abū ʿUbaydah, and its presence in some versions of Zuhayr; removed inference of a definite Islamic date solely from the attributed poet.",
+    "Clarified that ḥayāh and iḥyāʾ both belong to Ḥ Y Y, distinct from ʾ J L.",
+    "Applied the established Persian divine naming convention outside Arabic quotations."
+  ],
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=Ajl",
+      "use": "56 occurrences in four derived forms; cached morphology independently gives 48 verses and word positions."
+    },
+    {
+      "url": "https://arabiclexicon.hawramani.com/أجل/",
+      "use": "Primary Mufradāt, Maqāyīs, Ṣiḥāḥ and Lisān entries: duration and endpoint, causal ajl, distinct lexical branches, both poetic witnesses."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/6149/210",
+      "use": "Abū ʿUbaydah, Majāz al-Qurʾān: attribution to Al-Khannūt; editorial apparatus transmits Ibn Barrī’s report of the Zuhayr versions and lists conflicting attributions."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura2-aya231.html",
+      "use": "Al-Qurṭubī: approaching the waiting period’s end in 2:231 versus completion in 2:232."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura22-aya33.html",
+      "use": "Al-Qurṭubī: appointed term, benefits, and different contextual readings of maḥill."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura77-aya12.html",
+      "use": "Al-Ṭabarī: ujjilat as an appointment for the Messengers and the Day of Decision."
+    },
+    {
+      "url": "https://arabic-books.amuslim.org/التراجم%20والطبقات/Web/22659/002.htm",
+      "use": "Primary biographical name disambiguation: initial khāʾ has kasrah, doubled nūn has fatḥah; Al-Khinnawt."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura65-aya4.html",
+      "use": "Conventional Arabic orthography of 65:4 corroborates source quotation against installed Uthmanic spelling variants."
+    }
+  ],
+  "original_sha256": {
+    "quran-terminology/fa/roots/a-j-l/index.html": null,
+    "quran-terminology/en/roots/a-j-l/index.html": null,
+    "_data/quran-root-studies.json": "24f5c1f365eccd989af0af6fe6e42a6e3c4b190993d26e8f15e689b25c07425a",
+    "quran-reflection/fa/002-al-baqarah/units/231.html": "c21a5941edb65cc3537e9d3bfe6fa4d7fc6b96949fa6a4634ceeed1ad66e05d3",
+    "quran-reflection/fa/002-al-baqarah/units/232.html": "f00af1232acf408326ec06a7d6664d67c9d520ba6ff223a0e27e84d1915b4425",
+    "quran-reflection/fa/002-al-baqarah/units/234.html": "7255d77499f10da900f67d2e0442b3633a20a8803278dbdde8fc3b77823781fb",
+    "quran-reflection/fa/002-al-baqarah/units/235.html": "ebfee6620b9f4759ace1e3763401f30e1f1bc80d0dd41d6c227edc9a7cd71f99",
+    "quran-reflection/fa/002-al-baqarah/units/282.html": "a560f202cb0627cfa2b738dbc75ba93bdf7085fc2f4a684b9aceac788a82e68e",
+    "quran-reflection/fa/003-al-imran/units/145.html": "0629043cbe70310da9b540630bbc897cae96677c8b863d6d82b2446dedbb64df",
+    "quran-reflection/fa/004-an-nisa/units/077.html": "000ade17ce0e9c784c8a4a99012b56b57294665eb5a4d0b7a3daea7b50935e1e",
+    "quran-reflection/fa/005-al-maidah/units/032.html": "6c4096e65930db5401125145fb296fe056f2b9643291d4ae1f45cc701ac96a08",
+    "quran-reflection/fa/006-al-anam/units/002.html": "93d9642dc5d9011184209e7fedd35cfd3e89ed5a833ed70b6748f03569897c1b",
+    "quran-reflection/fa/006-al-anam/units/060.html": "69d2ce677dc82f6c485e5406ae54dda3f3e8f459a8f87c1f13f51daca6010c19",
+    "quran-reflection/fa/006-al-anam/units/128.html": "3034c0188ceb6b37ac61cf0bc062f1a582bccac59c1a3bb9c75cc96e893cd020",
+    "quran-reflection/fa/007-al-araf/units/034.html": "42fbc86abdb6723cb2d8d54d290629dd3cfaa3ebc7b198a3ddb4c5d3f284cf80",
+    "quran-reflection/fa/007-al-araf/units/135.html": "b75c7a277e6ad8a2e0983d04b5a1700fa462b92f95cf50166cc333028fc0dbc7",
+    "quran-reflection/fa/007-al-araf/units/185.html": "db0cc74b7d3c3d7deac461deb4c0ffcb1274f08e7805e6435deadd7f671d319f",
+    "quran-reflection/fa/010-yunus/units/011.html": "5337b834a4a2663f431788fe7f0d917fb418b29552cabb3191eef8b10032ca2e",
+    "quran-reflection/fa/010-yunus/units/049.html": "9636bc29b999e5c122aa16eff8b913b48190df051c53b11bae0d59545efd73e4",
+    "quran-reflection/fa/011-hud/units/003.html": "5b7d76bc3d5319d011f01bb9874cfb4cb7303703c1a1d793df7c0e25bf4ef5ab",
+    "quran-reflection/fa/011-hud/units/104.html": "8ba2fdc3fc460ec99187e5ac94da63ffaffdcd79de0f49f4049c5f9bd89d4cac",
+    "quran-reflection/fa/013-ar-rad/units/002.html": "00e608561662e675f8e3ec7b4b6e57fb57aad6a9f3c2f9abdd2d67c8e66d89c9",
+    "quran-reflection/fa/013-ar-rad/units/038.html": "590274723fb19a95e0884ed91018a1d2cb23e19502e7c1b4588b413c7f70af72",
+    "quran-reflection/fa/014-ibrahim/units/010.html": "a6c497ff0d5a261263636f59a32b73036d42230d2daab466068fb88df1cb7cf7",
+    "quran-reflection/fa/014-ibrahim/units/044.html": "b9e4c6ce959c6f380b65300a04c29cb8e31303b981b00411f0a9f1b12ba9e91b",
+    "quran-reflection/fa/015-al-hijr/units/005.html": "2f71251cbeb69b316afc60d15dffcd610a412afa1e294e9c8ed3af7b7af62707",
+    "quran-reflection/fa/016-an-nahl/units/061.html": "b3ba025414afb3f3e3ab10f6dfa092d00143b3f9cafc5d29cbc2bca9524e80cf",
+    "quran-reflection/fa/017-al-isra/units/099.html": "337aa2786814304d95e6e9cdb9052312370503d712f6a48ab65106c5273ee4c5",
+    "quran-reflection/fa/020-ta-ha/units/129.html": "a9ff377d30a98d5e203759a9c6efa93cd9b5798c575e0f8322129d81b932ed97",
+    "quran-reflection/fa/022-al-hajj/units/005.html": "a885f00bf75ef5def790944ae3ae253f5d6a92b15c7524d0e48d83c24f92486a",
+    "quran-reflection/fa/022-al-hajj/units/033.html": "9129e6c81f33115e2a71aee2795d611c2126c59fa3ef241e53cbc667df37cc89",
+    "quran-reflection/fa/023-al-muminun/units/043.html": "0e08a19401f6e98021d9ca0dcce5e4e5f96fb5d6dd93907a4467564e6c2426c9",
+    "quran-reflection/fa/028-al-qasas/units/028.html": "196451acebf26c588ca9169feb3939112cab765af8c4a1e173c9cd25b99ae934",
+    "quran-reflection/fa/028-al-qasas/units/029.html": "9b8b169a50262bd5a276d6c59db86cb7b38fb134bd2adea6f1e988f8de557fef",
+    "quran-reflection/fa/029-al-ankabut/units/005.html": "edf6a6ec5b79e9e44972a54a21752989907e4a14aed5d3b71987abdb6479e835",
+    "quran-reflection/fa/029-al-ankabut/units/053.html": "b8ce15de52301b1b668bce7e7de2cbc29501d7ae2eb2fef2ab0978bd3e1a93cf",
+    "quran-reflection/fa/030-ar-rum/units/008.html": "e7ee5bdc483a4ed3648cd3dc40ddccc07cd8495c0896f940f235919d42f8225c",
+    "quran-reflection/fa/031-luqman/units/029.html": "3a31918aad264a258670ceab0610975e6ed204b4e0f4fe2155f038aec9b70598",
+    "quran-reflection/fa/035-fatir/units/013.html": "8b03d552198384c00beed2bb0cfc112f5b197ec8650003cb066613bc23071e35",
+    "quran-reflection/fa/035-fatir/units/045.html": "8ceaea52ec9327ad3ca1b6a0637e1faf1f2aa3f65590834c2b76cb88c00cba29",
+    "quran-reflection/fa/039-az-zumar/units/005.html": "6e2c9445253e87d3ab37d0659c216bbb90eaa944c7488bd6821e2e1b95ed0bed",
+    "quran-reflection/fa/039-az-zumar/units/042.html": "fd6e551b46d43862c5a87fafa41fa45e9cd44cdb53d4df46a710bbc137caea68",
+    "quran-reflection/fa/040-ghafir/units/067.html": "8ad7a69f6336bac9ecc35246d38f094e5c016b917b3fc3c03cc07490e95f5db2",
+    "quran-reflection/fa/042-ash-shura/units/014.html": "d104f3c167c5910fefc60120f54783ff82e9026cab53aeae43ae858f862aecfd",
+    "quran-reflection/fa/046-al-ahqaf/units/003.html": "899647fcdc907d80d9b46efb0c7331967841aff818aaa8055cf5798dcf0b2148",
+    "quran-reflection/fa/063-al-munafiqun/units/010.html": "32656b91b82173135240b2d66f60a03ca1082063d21ed6abf1ba50ed598a6219",
+    "quran-reflection/fa/063-al-munafiqun/units/011.html": "dd3173f45881bf423f645c4906b405b37dd0dc53aa6852adbb45f2a64eb1fd16",
+    "quran-reflection/fa/065-at-talaq/units/002.html": "982dace5d9d2aab4bf4c2a9729a6d5d642c7d9c1e195da2bce7de18358a353ad",
+    "quran-reflection/fa/065-at-talaq/units/004.html": "f2b5863d706eb64a49e3c7294f0e8195c093ea0c4283af72c5f273b84425f05b",
+    "quran-reflection/fa/071-nuh/units/004.html": "9d97ba35f12043cb9fed990ee35ae6390df9edb5fe117db4f5bbb24e1cefc3de",
+    "quran-reflection/fa/077-al-mursalat/units/012.html": "2027145647ada83ffaf78a6c0f6824423984805f6b4d29d8ff784040d1e0f134",
+    "quran-reflection/en/002-al-baqarah/units/231.html": "a6109593bc4be819ccee2fb48f3b166ad7461a53eab4491d7e8b5342232eb7c6",
+    "quran-reflection/en/002-al-baqarah/units/232.html": "1ed5a6861b9da608ea778a7176e6833496b06a983ec02c24d59d029997d0aed7",
+    "quran-reflection/en/002-al-baqarah/units/234.html": "1c0d327416bac70d13198abdf139347e6da0743add01ace5a6c8b086f4052045",
+    "quran-reflection/en/002-al-baqarah/units/235.html": "0d5b5847fe90cd961bb824c5579ab331e085258d9e57683a2d743c6024a2c874",
+    "quran-reflection/en/002-al-baqarah/units/282.html": "d1a8a2c33572e3779c7623682464ca71dce6b1dd5bb9a23b1fb356a7b7666250",
+    "quran-reflection/en/003-al-imran/units/145.html": "e11aaf9a0bb748846720ee77d330fda61b8b70de392f8bd4c4bfb612ba5ff68e",
+    "quran-reflection/en/004-an-nisa/units/077.html": "4be72e453dcf6328dbb5d478285728dca5889fda8ad88312d339e50d35b186b0",
+    "quran-reflection/en/005-al-maidah/units/032.html": "0ba738f7998d80567f9855767ed04b12244d7b677c4b1ff17e0c6f6bdbb35d65",
+    "quran-reflection/en/006-al-anam/units/002.html": "21f1a33c10b5ef2a4cc77a096c9a0b75afaae1452cc0720b5e95f3603001c642",
+    "quran-reflection/en/006-al-anam/units/060.html": "043b93d80e4bb7068f062777cb53ecd158ae54027c4e0ceb83929dcf750aa8df",
+    "quran-reflection/en/006-al-anam/units/128.html": "8904587c5bfeae09b52c6ef15f033fc7b32177ec5d490073a83e0c5abb9290db",
+    "quran-reflection/en/007-al-araf/units/034.html": "a961f81100cf92a3acdb1c4ccff9b8b1260b58514958f790c7bee679f0f6a1ef",
+    "quran-reflection/en/007-al-araf/units/135.html": "d3f1545dab79605697b2f6ee3d8cb41cf8d790ac08b2ce454b8a7fbacf1de692",
+    "quran-reflection/en/007-al-araf/units/185.html": "054824c1b36f6b802ef06ef7e1e859b5d80ea8455408798433d0806d2711c110",
+    "quran-reflection/en/010-yunus/units/011.html": "7637118ab0dc7a7208eb170e9d144489d8a0dc0231b6f7c14211afa77a0671f9",
+    "quran-reflection/en/010-yunus/units/049.html": "6b28d8257dd310b37b08cd62d6fc2b1cea1d2a8a68affbb61b4a3378db5176f3",
+    "quran-reflection/en/011-hud/units/003.html": "5af3177326b151d0499c97e1f475407acf8f771864d750031aa0476a63af83ee",
+    "quran-reflection/en/011-hud/units/104.html": "5487fcfd84ed2ea58ce15492b53457245f24d279b10ccaaf82f4b5456e83af93",
+    "quran-reflection/en/013-ar-rad/units/002.html": "4ab259f8fb5993c04da38ea4fb06980b446f6b6d495cd551fdce26c754339476",
+    "quran-reflection/en/013-ar-rad/units/038.html": "5bcd22a0c48bac698531289a2885b57f531e08ada97d9eb43b93cfb5a6fbb94e",
+    "quran-reflection/en/014-ibrahim/units/010.html": "d051e50dbb7c4877b47c67f5e33b2823a584a10559c1ef5d3e7fe9995ef61dd0",
+    "quran-reflection/en/014-ibrahim/units/044.html": "cb4390edd78e3450981b4cc1759625862e40ed4baf674616ab2afc908f92cc07",
+    "quran-reflection/en/015-al-hijr/units/005.html": "c898f9a0d2da78cfdbcccd627a5f16b66abdfe225875e40a96760fefd2c69ab4",
+    "quran-reflection/en/016-an-nahl/units/061.html": "2f31c001bfc60cb6eda9ebca8c2fb053b599435cb57620d0415305d476cf343c",
+    "quran-reflection/en/017-al-isra/units/099.html": "971440c9ad2c5e5c1aae35eae3ddd767b27ca67f4f72580dc5c62f1f068a1e1c",
+    "quran-reflection/en/020-ta-ha/units/129.html": "e3f4d89532f99290363a99c5ceef38b30a2b8aa171bf679f60e6dedb473bbc00",
+    "quran-reflection/en/022-al-hajj/units/005.html": "f4a9480d78951a97bec53c120adc445be3c38c09d8295bc5a01184508f35db67",
+    "quran-reflection/en/022-al-hajj/units/033.html": "32a431bd3146683f8b7affbf1c797da4f83445ab111cc3860bb2aea5b1ef4d8b",
+    "quran-reflection/en/023-al-muminun/units/043.html": "a578bb20ac150df8ca8a295a33df537ba272b688ab29341f3f1261f0ea440425",
+    "quran-reflection/en/028-al-qasas/units/028.html": "7ee38448b7e5c16d202b8ba40b1c73520c217d3f3932dd2ec7c4b3e97a0721d7",
+    "quran-reflection/en/028-al-qasas/units/029.html": "29bee3fbedfeee7eca573fd98c9f9e369f937d1075e1c1754268ecb374278cce",
+    "quran-reflection/en/029-al-ankabut/units/005.html": "e1e40181782bde898ac1888291b29000890a1bd731fa70125b539bfb68b24a20",
+    "quran-reflection/en/029-al-ankabut/units/053.html": "d78e51bc6eaa3c66555abcca943b42ce2d576465b53d0c6ae26e0464cc05d022",
+    "quran-reflection/en/030-ar-rum/units/008.html": "29454890f333d87cfaca5db388a747b3395dfbaa68e0fd3667d59e464c68fa7e",
+    "quran-reflection/en/031-luqman/units/029.html": "a0149503ffd289f31bad12ca54cc612a9796681cfa52cc37f4e2abce6e5c5ec6",
+    "quran-reflection/en/035-fatir/units/013.html": "8ec0053ce328f9923a958055a04ac8c933aa7ced85a78bfe4c656d0f42ca8026",
+    "quran-reflection/en/035-fatir/units/045.html": "6bd39d3012be9aa6e517f53271beb9ffc96982010172bb4397b4b8d84d3c2ab8",
+    "quran-reflection/en/039-az-zumar/units/005.html": "a9b325edca813a0cc3bf99f542ceeb1003abd3011da0dd2fe8854ad14b183338",
+    "quran-reflection/en/039-az-zumar/units/042.html": "530d8fb9f4e7a871c35f060633f343475920bc4f9de37f08899644846ec21178",
+    "quran-reflection/en/040-ghafir/units/067.html": "772feb12be074f750d4e845c615a6610ca546181b8afea6956bf362bbf09ee24",
+    "quran-reflection/en/042-ash-shura/units/014.html": "432079fe177a7ed67f622de600def0bbebe58304c1700f5ae0f2222095347010",
+    "quran-reflection/en/046-al-ahqaf/units/003.html": "4365d1e0059c0f776f0914fdef993d0e1a3bd3576f441f5c19a12f2205308fb5",
+    "quran-reflection/en/063-al-munafiqun/units/010.html": "be583b202e870aacd56176d2247ab57a4b7f907abb28610e64a81b0dc15ba97d",
+    "quran-reflection/en/063-al-munafiqun/units/011.html": "960cb042a044fbe3b89ef28d80981c5277b9642ea283fe69c1a5f674f35bd619",
+    "quran-reflection/en/065-at-talaq/units/002.html": "20857e442849fbc7147733400724a20d8854b080fb58c96a5ea7c38df7b82be4",
+    "quran-reflection/en/065-at-talaq/units/004.html": "8d7069ca782a740b83e1ab64727fffc8067b8df0d446a3dd543e4133588bd0f4",
+    "quran-reflection/en/071-nuh/units/004.html": "c059a8deed8e291273931300831bfc42ffa0a7c5476b5afcee0b405fef480f83",
+    "quran-reflection/en/077-al-mursalat/units/012.html": "d06d59bf0141259709fe56a7706c0ba25aaebe53e5d598d946d7c42645cae8d8"
+  },
+  "protected_sha256": {
+    "AGENTS.md": "73e9d17b8a07b275e364c8c715088c44fd5f3614afe09cf877ed1c186ecdac91",
+    "_handoff/root-install-a-j-j-2026-10-20.json": "d4a3e58f8b39e625f3c20f9e1db4d12868f88cb81019c2c33287d294e0fdc450",
+    "_handoff/root-install-a-th-l-2026-10-20.json": "0edbd292afebbf02508d3af339fd182fa81805352cecc650bdfa1f4869b76696",
+    "_handoff/root-install-a-th-r-2026-10-20.json": "f356959140be035c62713c2ed7d4c7af03dfd796dd6c99deeb7cb6158898905f",
+    "quran-reflection/en/001-al-fatihah/index.html": "18cd51b454f0337fe85241055909aceb2f3b8c6452549f9fd8deb2db58e95b15",
+    "quran-reflection/en/002-al-baqarah/index.html": "3c3f676da7f54c709e64da02d2a02625ecee4688f6a45b0b5eb0e11302231ce1",
+    "quran-reflection/en/002-al-baqarah/units/157.html": "80e5eecd2d8266f23d400d766090d62b2ba40ae15dd808eb69ed09f93c9984b8",
+    "quran-reflection/en/005-al-maidah/units/046.html": "f8f56f06cbbd536ff11284ef1f75593f5c0c932cbebb77c43d79579c34a4a24a",
+    "quran-reflection/en/012-yusuf/units/091.html": "6ceb1110f63be556f174e5d95af894698288dac3aabb69fa8a76530c9abe55a3",
+    "quran-reflection/en/018-al-kahf/units/006.html": "d63b2b46c28caef56846032df9696080d06dc17e39f8e0885ca7d5f38d953ae2",
+    "quran-reflection/en/018-al-kahf/units/064.html": "2a8dc4b40dddbe3e06506d5065eae2db22653486f14048f11cdb8897a61e58bc",
+    "quran-reflection/en/020-ta-ha/units/072.html": "f5c5ed05218c70abe32951297dc2aa7382b7cb37dac438703425eda91a9d0184",
+    "quran-reflection/en/020-ta-ha/units/084.html": "c365d4026fafada6f3c4b12964c34b8bbbab6dc4b76b25fee3b3078cdf4270f9",
+    "quran-reflection/en/020-ta-ha/units/096.html": "2dc3367db3d277e3cf29e8c844a93fe401ea3e1b9b0ee308976489e55df803c8",
+    "quran-reflection/en/025-al-furqan/units/053.html": "e91f957fcc1a5acec60db568b97c761e2304e7b37ecbe8ba603cad20377725a8",
+    "quran-reflection/en/030-ar-rum/units/050.html": "81c854fc33b7aad314da5ebf8781047d69e04ae88802ca1b5f0219f688e84f58",
+    "quran-reflection/en/034-saba/units/016.html": "9fce087e7ca64f7057bc5bf5362c6d565aac22f758a4dde3ac8a2e10ae36dec3",
+    "quran-reflection/en/035-fatir/units/012.html": "f6817c219bdfd1871a04c8c254f546264d38ba1418377d638a3d0ea8f1bc767f",
+    "quran-reflection/en/036-ya-sin/units/012.html": "b0e6155a2c83c2b691e02886f6319e293365f40b2024ad86e93b1d3dc4d4486f",
+    "quran-reflection/en/037-as-saffat/units/070.html": "5da47a22a4181153e51f7b1bf8c4029efab9f4e937539646bd5c771f952e7a03",
+    "quran-reflection/en/040-ghafir/units/021.html": "fc7771dfc2efad4cef89cc765298803503434cf1af9da688996efd4602085f48",
+    "quran-reflection/en/040-ghafir/units/082.html": "9fc8598d0c49aaccbb34234871b99730537ea7bb7a601fac153b68225c550993",
+    "quran-reflection/en/043-az-zukhruf/units/022.html": "4e28a561b1a8e5bf309e12e59fc8ff301f55e8a1dfc0d0c19e476e90a2a68d01",
+    "quran-reflection/en/043-az-zukhruf/units/023.html": "eaad23f34ec5aa709cb341754d2befe7ad579e2d3aad51a8c38a582a7baee420",
+    "quran-reflection/en/046-al-ahqaf/units/004.html": "d7b503f3a6eb6a4937a7adb3ff0a64d6bf7d0b5f7375ac3f3e42f4a1532e4efe",
+    "quran-reflection/en/048-al-fath/units/029.html": "280b9c79c2473ef4670c46a2642c638cc5ff8a4fdafb2dfae8a29d4457074d43",
+    "quran-reflection/en/056-al-waqiah/units/070.html": "88622ce7ac819206d0a9600abc7b2f12e1721b89e11191e171d201e7f7a94a43",
+    "quran-reflection/en/057-al-hadid/units/027.html": "f2705c627427fc685f08242d3845c2d4c9319fb8a23a12965042bd06255d2168",
+    "quran-reflection/en/059-al-hashr/units/009.html": "c5d797f24cb52bbe073731726ddde3b4fbdd7ee09517187527b933b0f9354250",
+    "quran-reflection/en/074-al-muddaththir/units/024.html": "4d20d35324a55a677b228a5c22c551b882df4ff96edc57c6eaa86700b5b0486e",
+    "quran-reflection/en/079-an-naziat/units/038.html": "6366e92e1225ae35b0db5bd99f6c198edda604c6966981ab9fa1a21d01bf8823",
+    "quran-reflection/en/087-al-ala/units/016.html": "ff70a057c8e6f19fada0e8588a3574d66a5ed26b4e6e76688d0c59c9869a84cb",
+    "quran-reflection/fa/001-al-fatihah/index.html": "7da9c785b46e5a50ed604f9443f400fadef3b2108e062c53472214e65ba86d6f",
+    "quran-reflection/fa/002-al-baqarah/index.html": "77276c353503de3838d9fbf0128994f6c98cd02c788ce645210607944eab097b",
+    "quran-reflection/fa/002-al-baqarah/units/157.html": "bbd6a224c3ee03de4522822027de0b224f3c53effc9ee1a9eabf1939f4537cf1",
+    "quran-reflection/fa/005-al-maidah/units/046.html": "a0d5b935090b859db0b6ff1880cc5bcb3f852928d9af888a70db734e3ce17f38",
+    "quran-reflection/fa/012-yusuf/units/091.html": "a249bad97e332c0363a44b10588814bab78a109fb2a4fb8da7a8b727b6894b15",
+    "quran-reflection/fa/018-al-kahf/units/006.html": "9774898402e3f84be88caa516408e69b98233a1f9e1523704e5c9bf0a3665a33",
+    "quran-reflection/fa/018-al-kahf/units/064.html": "320bf6484b9312fdf569a4b1e600ff1fc5605977bfa28b34f834041cdd48281f",
+    "quran-reflection/fa/020-ta-ha/units/072.html": "da0a39afade59ed1000471222db6262edc63f83f122da09f7b487ad82bb7ddc2",
+    "quran-reflection/fa/020-ta-ha/units/084.html": "43e036e2d198574ec5e07aee1ad55482d50ef15223d6aefec7c9cab337ee4cf6",
+    "quran-reflection/fa/020-ta-ha/units/096.html": "b858b623697fe1aeca7126c4f76e4ebf1d05edda2a0fe9eb6e1f9098189a4766",
+    "quran-reflection/fa/025-al-furqan/units/053.html": "0c404eeff994f1efe157ae4017ddb7b946a74b208f2b2c3d229640d66b43b4b2",
+    "quran-reflection/fa/030-ar-rum/units/050.html": "ede75e63ac31586293bafca018fb11543fd9dc521a5eccd2e0a8a76279f82ef7",
+    "quran-reflection/fa/034-saba/units/016.html": "fc650cdea04a9996183913a160efd46d3b7c0673acd991080c781b7ddf04487a",
+    "quran-reflection/fa/035-fatir/units/012.html": "774955f5b658dbe0888942d62aee945f98e1e2882e97aa3831e92e30b4b5fca9",
+    "quran-reflection/fa/036-ya-sin/units/012.html": "d116a58ea89f52b2b23e9e8404203c26d8a08a2ba110dca677292a20881bd4e1",
+    "quran-reflection/fa/037-as-saffat/units/070.html": "105bb6f4fe796b0795389fcb128e401519af4e6a1f5054c308d955f20bfa015f",
+    "quran-reflection/fa/040-ghafir/units/021.html": "3d293715c5685f3cb10b5f504fdccf0188b030113741c8ff575be7894b7d6b89",
+    "quran-reflection/fa/040-ghafir/units/082.html": "75c1366bc49096984570b996943cac040d7c9bdb6bde815cf04533399e83c00e",
+    "quran-reflection/fa/043-az-zukhruf/units/022.html": "e1204947cd5be59ae0d42756b840c344253840f5360c28b0c9ac8a0d57e4f20d",
+    "quran-reflection/fa/043-az-zukhruf/units/023.html": "18db47cf0e8a7c7624feb9e4f8e554e93c11c2a5bddaaab5ace940fcff85db7e",
+    "quran-reflection/fa/046-al-ahqaf/units/004.html": "3961e1225194011032ff7cd9123557515c9cc7d6b1df5db40d7f43d7a5b49d0b",
+    "quran-reflection/fa/048-al-fath/units/029.html": "6a7c0f94c6f87fa520ee0671191958827d7156c3af207fd16644afb4ce900162",
+    "quran-reflection/fa/056-al-waqiah/units/070.html": "9d30949e468598daf8371b331b1ac2c39755420fc92632945076edb90760c000",
+    "quran-reflection/fa/057-al-hadid/units/027.html": "eebed56464ef681173fcade151f7de0642cb67b22ec8654e088432cadfaa8374",
+    "quran-reflection/fa/059-al-hashr/units/009.html": "c535ed833c6fa667a2dbad7124a3e92a86f26f025c337aaabd69aa4ca025c183",
+    "quran-reflection/fa/074-al-muddaththir/units/024.html": "da56c8866a0d4e4493450e615c50b19155d54dba59c744f85ab649190977303a",
+    "quran-reflection/fa/079-an-naziat/units/038.html": "9e3990761373f8f3b160b374c6ee234e57c8863a713b868636056a1ba284dcea",
+    "quran-reflection/fa/087-al-ala/units/016.html": "a8e8460bfe1f82c6d3573965e07561fcabaee43afcbd7752d4ed52ba6fb2f701",
+    "quran-terminology/en/roots/a-j-j/index.html": "964c58afbc78139eb0ba69b1b4265d41d12b5e0f2dd86ef08ae6b4f672a08999",
+    "quran-terminology/en/roots/a-th-l/index.html": "2a83959745ee4706ca8326e3f8c7e954aa57b9429e643418f8736686fc4104ae",
+    "quran-terminology/en/roots/a-th-r/index.html": "eee95dd76c2c15266fe5861eb45822563b1d6dbd87adcef41894623c9f057a49",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50",
+    "quran-terminology/fa/roots/a-j-j/index.html": "0f67ee605694c4e2f591f635688c58714839267db61609db0fd6c3fcd866706b",
+    "quran-terminology/fa/roots/a-th-l/index.html": "00c67e317dbc2ea14c4b7cc53d422dc79d277de734e8a5446567199e0e2db94f",
+    "quran-terminology/fa/roots/a-th-r/index.html": "cdfe4ad9340405aa8734a3a1b0ad68f56a9b03cab5ec3e75cf5b13fe6153cf6e",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "verification": {
+    "stage": "before installation",
+    "all_324_source_blocks_rendered_per_language": true,
+    "all_13_Arabic_quotes_preserved_exactly": true,
+    "all_11_full_Quranic_quotes_match_installed_verses": true,
+    "56_occurrences_in_48_verses_and_four_derivational_groups_confirmed": true,
+    "eight_sections_twelve_cards_33_subheadings_per_language": true,
+    "unique_ids_and_resolved_navigation": true,
+    "individually_verified_verse_targets": 56,
+    "verified_existing_related_root_targets": 14,
+    "no_Persian_digits_or_letters_in_English": true,
+    "only_a_j_l_registry_record_changed": true,
+    "112_root_boxes_matched_to_corpus_word_positions": true,
+    "only_112_a_j_l_popovers_changed": true,
+    "temporal_causal_active_passive_and_participle_meanings_separated": true,
+    "verse_Arabic_translations_and_other_boxes_unchanged": true,
+    "88_canonical_Allah_boxes_confirmed_unchanged": true,
+    "preexisting_changes_preserved": true,
+    "Fatihah_and_Baqarah_through_160_untouched": true,
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false,
+    "standalone_preview": "Inspected Persian light article and morphology cards, the full 5:32 quotation and translation, and English dark poetry presentation with transliteration and translation; no layout issues observed.",
+    "git_diff_check_passed_before_installation": true,
+    "orthographic_normalization": "The installed Uthmanic spellings of al-lāʾī, thalāthah, and ulāt in 65:4 were explicitly normalized for comparison; the supplied Arabic quotation was preserved unchanged and corroborated against the conventional spelling in Al-Ṭabarī."
+  },
+  "report_file": "_handoff/root-install-a-j-l-2026-10-20.json"
+}

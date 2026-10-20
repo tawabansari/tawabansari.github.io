@@ -1,0 +1,196 @@
+{
+  "root": "أ ث ل",
+  "slug": "a-th-l",
+  "date": "2026-10-20",
+  "status": "installed locally; not committed or pushed",
+  "files": [
+    "quran-terminology/fa/roots/a-th-l/index.html",
+    "quran-terminology/en/roots/a-th-l/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/034-saba/units/016.html",
+    "quran-reflection/en/034-saba/units/016.html"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/c0de2ec3-5948-402a-a67c-0b9aaa2a1d35/Pasted text.txt",
+  "source_blocks_per_language": 243,
+  "sections_per_language": 7,
+  "morphology_cards_per_language": 9,
+  "quranic_occurrences": [
+    "34:16"
+  ],
+  "corpus_token": "34:16:12",
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/034-saba/units/016.html",
+      "verse": "34:16",
+      "boxes": 1,
+      "brief": "و درختان گز؛ درختی نزدیک به طرفاء، دارای چوب سودمند، که در این آیه از پوشش گیاهی باغ‌های جایگزین سبأ است."
+    },
+    {
+      "file": "quran-reflection/en/034-saba/units/016.html",
+      "verse": "34:16",
+      "boxes": 1,
+      "brief": "and tamarisk trees; a tree resembling ṭarfāʾ, with useful wood, forming part of the vegetation of Sabaʾ’s replacement gardens in this verse."
+    }
+  ],
+  "Allah_boxes_present_in_target_verse": 0,
+  "persian_edits": [
+    {
+      "block": 9,
+      "before": "«پس روی گرداندند؛ آنگاه سیل عَرِم را بر آنان فرستادیم و به جای آن دو باغشان، دو باغ دیگر به آنان دادیم که دارای میوه و محصولی ناخوشایند از خَمْط، درختان گز، و اندکی درخت سدر بودند.»",
+      "after": "«پس روی گرداندند؛ آنگاه سیل عَرِم را بر آنان فرستادیم و به جای آن دو باغشان، دو باغ دیگر به آنان دادیم؛ باغ‌هایی دارای محصولی تلخ و ناخوشایند از خَمْط، و درختان گز، و اندکی درخت سدر.»"
+    },
+    {
+      "block": 17,
+      "before": "این صورت‌ها در قرآن نیامده‌اند. بنابراین، در پژوهش قرآنی از آنها برای شناخت میدان معنایی ریشه استفاده می‌شود، نه برای افزودن معانی تازه به تنها کاربرد قرآنی آن.",
+      "after": "به‌جز اسم «أَثْل»، دیگر صورت‌های این فهرست در قرآن نیامده‌اند. بنابراین، در پژوهش قرآنی از آنها برای شناخت میدان معنایی ریشه استفاده می‌شود، نه برای افزودن معانی تازه به تنها کاربرد قرآنی آن."
+    },
+    {
+      "block": 44,
+      "before": "اما در گزارش‌های دقیق‌تر لغوی، برای آن میوه‌های کوچک و سرخ‌رنگ نیز ذکر شده است.",
+      "after": "اما در برخی گزارش‌های لغوی، برای آن میوه‌های کوچک و سرخ‌رنگ نیز ذکر شده است."
+    },
+    {
+      "block": 108,
+      "before": "«پس روی گرداندند؛ آنگاه سیل عَرِم را بر آنان فرستادیم و به جای آن دو باغشان، دو باغ دیگر به آنان دادیم که دارای میوه و محصولی ناخوشایند از خَمْط، درختان گز، و اندکی درخت سدر بودند.»",
+      "after": "«پس روی گرداندند؛ آنگاه سیل عَرِم را بر آنان فرستادیم و به جای آن دو باغشان، دو باغ دیگر به آنان دادیم؛ باغ‌هایی دارای محصولی تلخ و ناخوشایند از خَمْط، و درختان گز، و اندکی درخت سدر.»"
+    },
+    {
+      "block": 121,
+      "before": "همچنین در زبان آیه، «خمط» با «أُكُل» همراه شده است؛ یعنی محصول یا خوراک. درباره ساخت نحوی «أُكُلٍ خَمْطٍ» و بعضی اختلاف‌های قرائت آن نیز بحث وجود دارد.",
+      "after": "همچنین در زبان آیه، «خمط» با «أُكُل» همراه شده است؛ یعنی محصول یا خوراک. در قرائت حفص از عاصم، «أُكُلٍ خَمْطٍ» با تنوین «أُكُل» خوانده می‌شود؛ اما ابوعمرو آن را بدون تنوین و به صورت اضافه، «أُكُلِ خَمْطٍ»، می‌خواند. درباره تحلیل نحویِ وصف یا بدل در صورت تنوین‌دار و رابطه اضافی در صورت دیگر، در تفسیر قرطبی بحث شده است."
+    },
+    {
+      "block": 132,
+      "before": "پس نکته آیه این نیست که خداوند درخت گز را آفریده‌ای بد معرفی کرده است؛ بلکه این درخت در کنار خمط و سدر اندک، بخشی از تصویر دگرگونی باغ‌های سبأ شده است.",
+      "after": "پس نکته آیه این نیست که آن معبود یگانه درخت گز را آفریده‌ای بد معرفی کرده است؛ بلکه این درخت در کنار خمط و سدر اندک، بخشی از تصویر دگرگونی باغ‌های سبأ شده است."
+    },
+    {
+      "block": 138,
+      "before": "در مقابل، برای أثل شمار یا مقدار مشخصی بیان نشده است.",
+      "after": "در ظاهر ترکیب، «قلیل» به سدر مربوط است و برای أثل شمار یا مقدار مستقلی بیان نشده است؛ البته قرطبی احتمال بازگشت این وصف به مجموع خمط، أثل و سدر را نیز مطرح می‌کند."
+    },
+    {
+      "block": 212,
+      "before": "«پس روی گرداندند؛ آنگاه سیل عَرِم را بر آنان فرستادیم و به جای آن دو باغشان، دو باغ دیگر به آنان دادیم که دارای میوه و محصولی ناخوشایند از خَمْط، درختان گز، و اندکی درخت سدر بودند.»",
+      "after": "«پس روی گرداندند؛ آنگاه سیل عَرِم را بر آنان فرستادیم و به جای آن دو باغشان، دو باغ دیگر به آنان دادیم؛ باغ‌هایی دارای محصولی تلخ و ناخوشایند از خَمْط، و درختان گز، و اندکی درخت سدر.»"
+    }
+  ],
+  "corrections": [
+    "Excepted the attested noun athl from the statement that the listed lexical forms are absent from the Qur’an.",
+    "Separated bitter khamṭ produce from tamarisk and sidr in the three repeated proposed verse translations, preventing the modifier from appearing to describe every tree’s produce.",
+    "Replaced the unsupported ranking of red-fruit lexical reports as more precise with a neutral description of some lexical reports.",
+    "Attributed tanwīn in ukulin khamṭin to Ḥafṣ from ʿĀṣim and the genitive construction ukuli khamṭin to Abū ʿAmr; identified the grammatical alternatives discussed by Al-Qurṭubī.",
+    "Qualified the scope of qalīl: apparent reference to sidr, with Al-Qurṭubī’s alternative collective interpretation noted.",
+    "Applied the established Persian divine naming convention outside Arabic quotations."
+  ],
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=Avl",
+      "use": "One occurrence: 34:16:12, corroborated against cached QAC morphology as an indefinite masculine genitive noun."
+    },
+    {
+      "url": "https://arabiclexicon.hawramani.com/أثل/?book=3",
+      "use": "Primary entries from Lisān al-ʿArab, Al-Qāmūs, Maqāyīs, and Lane: botanical descriptions, lexical forms, tree plurals, red-fruit report, household goods and property, both poetic witnesses."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura34-aya16.html",
+      "use": "Al-Qurṭubī: Abū ʿAmr’s genitive construction, tanwīn analyses, separate plant names, and possible collective scope of qalīl."
+    },
+    {
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:828051-1",
+      "use": "Kew: accepted Tamarix aphylla, Tamaricaceae placement, and native range including Arabia."
+    },
+    {
+      "url": "https://mpns.science.kew.org/mpns-portal/drugDetail?drugName=athl",
+      "use": "Kew MPNS search result associates the vernacular name athl with Tamarix aphylla; detailed page unavailable."
+    },
+    {
+      "url": "https://keyserver.lucidcentral.org/weeds/data/03080008-0301-4c05-8c0e-0c0f040b0803/media/Html/tamarix_aphylla.htm",
+      "use": "Botanical identification account: foliage, flowers, capsules and seeds, drought and salt tolerance; historical common names not confined to one taxon."
+    },
+    {
+      "url": "https://islamport.com/l/adb/5516/15.htm",
+      "use": "Classical commentary Sharḥ al-Muʿallaqāt al-Tisʿ: athlah as family origin and honor, with muʾaththal poetic witness."
+    }
+  ],
+  "original_sha256": {
+    "quran-terminology/fa/roots/a-th-l/index.html": null,
+    "quran-terminology/en/roots/a-th-l/index.html": null,
+    "_data/quran-root-studies.json": "5805c91f8279dfb63ba8f6b8e80a403e06b61cd1b3f2a28ab3cc2c21aff0e038",
+    "quran-reflection/fa/034-saba/units/016.html": "d491d1d44fb26b2d05443b41933e52a51f8e3814e867d5882983cacdbb933f6b",
+    "quran-reflection/en/034-saba/units/016.html": "6fc31c9269a7bc42203116528bf819107d184f163a7306c51e8fff96646e378c"
+  },
+  "protected_sha256": {
+    "AGENTS.md": "73e9d17b8a07b275e364c8c715088c44fd5f3614afe09cf877ed1c186ecdac91",
+    "_handoff/root-install-a-th-r-2026-10-20.json": "f356959140be035c62713c2ed7d4c7af03dfd796dd6c99deeb7cb6158898905f",
+    "quran-reflection/en/005-al-maidah/units/046.html": "f8f56f06cbbd536ff11284ef1f75593f5c0c932cbebb77c43d79579c34a4a24a",
+    "quran-reflection/en/012-yusuf/units/091.html": "6ceb1110f63be556f174e5d95af894698288dac3aabb69fa8a76530c9abe55a3",
+    "quran-reflection/en/018-al-kahf/units/006.html": "d63b2b46c28caef56846032df9696080d06dc17e39f8e0885ca7d5f38d953ae2",
+    "quran-reflection/en/018-al-kahf/units/064.html": "2a8dc4b40dddbe3e06506d5065eae2db22653486f14048f11cdb8897a61e58bc",
+    "quran-reflection/en/020-ta-ha/units/072.html": "f5c5ed05218c70abe32951297dc2aa7382b7cb37dac438703425eda91a9d0184",
+    "quran-reflection/en/020-ta-ha/units/084.html": "c365d4026fafada6f3c4b12964c34b8bbbab6dc4b76b25fee3b3078cdf4270f9",
+    "quran-reflection/en/020-ta-ha/units/096.html": "2dc3367db3d277e3cf29e8c844a93fe401ea3e1b9b0ee308976489e55df803c8",
+    "quran-reflection/en/030-ar-rum/units/050.html": "81c854fc33b7aad314da5ebf8781047d69e04ae88802ca1b5f0219f688e84f58",
+    "quran-reflection/en/036-ya-sin/units/012.html": "b0e6155a2c83c2b691e02886f6319e293365f40b2024ad86e93b1d3dc4d4486f",
+    "quran-reflection/en/037-as-saffat/units/070.html": "5da47a22a4181153e51f7b1bf8c4029efab9f4e937539646bd5c771f952e7a03",
+    "quran-reflection/en/040-ghafir/units/021.html": "fc7771dfc2efad4cef89cc765298803503434cf1af9da688996efd4602085f48",
+    "quran-reflection/en/040-ghafir/units/082.html": "9fc8598d0c49aaccbb34234871b99730537ea7bb7a601fac153b68225c550993",
+    "quran-reflection/en/043-az-zukhruf/units/022.html": "4e28a561b1a8e5bf309e12e59fc8ff301f55e8a1dfc0d0c19e476e90a2a68d01",
+    "quran-reflection/en/043-az-zukhruf/units/023.html": "eaad23f34ec5aa709cb341754d2befe7ad579e2d3aad51a8c38a582a7baee420",
+    "quran-reflection/en/046-al-ahqaf/units/004.html": "d7b503f3a6eb6a4937a7adb3ff0a64d6bf7d0b5f7375ac3f3e42f4a1532e4efe",
+    "quran-reflection/en/048-al-fath/units/029.html": "280b9c79c2473ef4670c46a2642c638cc5ff8a4fdafb2dfae8a29d4457074d43",
+    "quran-reflection/en/057-al-hadid/units/027.html": "f2705c627427fc685f08242d3845c2d4c9319fb8a23a12965042bd06255d2168",
+    "quran-reflection/en/059-al-hashr/units/009.html": "c5d797f24cb52bbe073731726ddde3b4fbdd7ee09517187527b933b0f9354250",
+    "quran-reflection/en/074-al-muddaththir/units/024.html": "4d20d35324a55a677b228a5c22c551b882df4ff96edc57c6eaa86700b5b0486e",
+    "quran-reflection/en/079-an-naziat/units/038.html": "6366e92e1225ae35b0db5bd99f6c198edda604c6966981ab9fa1a21d01bf8823",
+    "quran-reflection/en/087-al-ala/units/016.html": "ff70a057c8e6f19fada0e8588a3574d66a5ed26b4e6e76688d0c59c9869a84cb",
+    "quran-reflection/fa/005-al-maidah/units/046.html": "a0d5b935090b859db0b6ff1880cc5bcb3f852928d9af888a70db734e3ce17f38",
+    "quran-reflection/fa/012-yusuf/units/091.html": "a249bad97e332c0363a44b10588814bab78a109fb2a4fb8da7a8b727b6894b15",
+    "quran-reflection/fa/018-al-kahf/units/006.html": "9774898402e3f84be88caa516408e69b98233a1f9e1523704e5c9bf0a3665a33",
+    "quran-reflection/fa/018-al-kahf/units/064.html": "320bf6484b9312fdf569a4b1e600ff1fc5605977bfa28b34f834041cdd48281f",
+    "quran-reflection/fa/020-ta-ha/units/072.html": "da0a39afade59ed1000471222db6262edc63f83f122da09f7b487ad82bb7ddc2",
+    "quran-reflection/fa/020-ta-ha/units/084.html": "43e036e2d198574ec5e07aee1ad55482d50ef15223d6aefec7c9cab337ee4cf6",
+    "quran-reflection/fa/020-ta-ha/units/096.html": "b858b623697fe1aeca7126c4f76e4ebf1d05edda2a0fe9eb6e1f9098189a4766",
+    "quran-reflection/fa/030-ar-rum/units/050.html": "ede75e63ac31586293bafca018fb11543fd9dc521a5eccd2e0a8a76279f82ef7",
+    "quran-reflection/fa/036-ya-sin/units/012.html": "d116a58ea89f52b2b23e9e8404203c26d8a08a2ba110dca677292a20881bd4e1",
+    "quran-reflection/fa/037-as-saffat/units/070.html": "105bb6f4fe796b0795389fcb128e401519af4e6a1f5054c308d955f20bfa015f",
+    "quran-reflection/fa/040-ghafir/units/021.html": "3d293715c5685f3cb10b5f504fdccf0188b030113741c8ff575be7894b7d6b89",
+    "quran-reflection/fa/040-ghafir/units/082.html": "75c1366bc49096984570b996943cac040d7c9bdb6bde815cf04533399e83c00e",
+    "quran-reflection/fa/043-az-zukhruf/units/022.html": "e1204947cd5be59ae0d42756b840c344253840f5360c28b0c9ac8a0d57e4f20d",
+    "quran-reflection/fa/043-az-zukhruf/units/023.html": "18db47cf0e8a7c7624feb9e4f8e554e93c11c2a5bddaaab5ace940fcff85db7e",
+    "quran-reflection/fa/046-al-ahqaf/units/004.html": "3961e1225194011032ff7cd9123557515c9cc7d6b1df5db40d7f43d7a5b49d0b",
+    "quran-reflection/fa/048-al-fath/units/029.html": "6a7c0f94c6f87fa520ee0671191958827d7156c3af207fd16644afb4ce900162",
+    "quran-reflection/fa/057-al-hadid/units/027.html": "eebed56464ef681173fcade151f7de0642cb67b22ec8654e088432cadfaa8374",
+    "quran-reflection/fa/059-al-hashr/units/009.html": "c535ed833c6fa667a2dbad7124a3e92a86f26f025c337aaabd69aa4ca025c183",
+    "quran-reflection/fa/074-al-muddaththir/units/024.html": "da56c8866a0d4e4493450e615c50b19155d54dba59c744f85ab649190977303a",
+    "quran-reflection/fa/079-an-naziat/units/038.html": "9e3990761373f8f3b160b374c6ee234e57c8863a713b868636056a1ba284dcea",
+    "quran-reflection/fa/087-al-ala/units/016.html": "a8e8460bfe1f82c6d3573965e07561fcabaee43afcbd7752d4ed52ba6fb2f701",
+    "quran-terminology/en/roots/a-th-r/index.html": "eee95dd76c2c15266fe5861eb45822563b1d6dbd87adcef41894623c9f057a49",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50",
+    "quran-terminology/fa/roots/a-th-r/index.html": "cdfe4ad9340405aa8734a3a1b0ad68f56a9b03cab5ec3e75cf5b13fe6153cf6e",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "verification": {
+    "stage": "before installation",
+    "all_243_source_blocks_rendered_per_language": true,
+    "all_seven_Arabic_quotes_preserved_exactly": true,
+    "five_full_Quranic_quotations_match_installed_verses": true,
+    "single_genitive_noun_occurrence_confirmed_at_34_16_12": true,
+    "seven_sections_nine_cards_25_subheadings_per_language": true,
+    "unique_ids_and_resolved_navigation": true,
+    "individually_verified_verse_targets": 6,
+    "verified_existing_related_root_targets": 10,
+    "no_Persian_digits_or_letters_in_English": true,
+    "only_a_th_l_registry_record_changed": true,
+    "only_two_a_th_l_popovers_changed": true,
+    "verse_Arabic_translations_and_other_boxes_unchanged": true,
+    "preexisting_changes_preserved": true,
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false,
+    "standalone_preview": "Inspected Persian light presentation, proposed Qur’anic translation, English dark presentation, and poetry with transliteration and translation; no layout issues observed.",
+    "git_diff_check_passed_before_installation": true
+  },
+  "report_file": "_handoff/root-install-a-th-l-2026-10-20.json"
+}

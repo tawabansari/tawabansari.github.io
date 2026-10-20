@@ -1,0 +1,809 @@
+{
+  "root": "أ ث ر",
+  "slug": "a-th-r",
+  "date": "2026-10-20",
+  "status": "installed locally",
+  "files": [
+    "quran-terminology/fa/roots/a-th-r/index.html",
+    "quran-terminology/en/roots/a-th-r/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/005-al-maidah/units/046.html",
+    "quran-reflection/fa/012-yusuf/units/091.html",
+    "quran-reflection/fa/018-al-kahf/units/006.html",
+    "quran-reflection/fa/018-al-kahf/units/064.html",
+    "quran-reflection/fa/020-ta-ha/units/072.html",
+    "quran-reflection/fa/020-ta-ha/units/084.html",
+    "quran-reflection/fa/020-ta-ha/units/096.html",
+    "quran-reflection/fa/030-ar-rum/units/050.html",
+    "quran-reflection/fa/036-ya-sin/units/012.html",
+    "quran-reflection/fa/037-as-saffat/units/070.html",
+    "quran-reflection/fa/040-ghafir/units/021.html",
+    "quran-reflection/fa/040-ghafir/units/082.html",
+    "quran-reflection/fa/043-az-zukhruf/units/022.html",
+    "quran-reflection/fa/043-az-zukhruf/units/023.html",
+    "quran-reflection/fa/046-al-ahqaf/units/004.html",
+    "quran-reflection/fa/048-al-fath/units/029.html",
+    "quran-reflection/fa/057-al-hadid/units/027.html",
+    "quran-reflection/fa/059-al-hashr/units/009.html",
+    "quran-reflection/fa/074-al-muddaththir/units/024.html",
+    "quran-reflection/fa/079-an-naziat/units/038.html",
+    "quran-reflection/fa/087-al-ala/units/016.html",
+    "quran-reflection/en/005-al-maidah/units/046.html",
+    "quran-reflection/en/012-yusuf/units/091.html",
+    "quran-reflection/en/018-al-kahf/units/006.html",
+    "quran-reflection/en/018-al-kahf/units/064.html",
+    "quran-reflection/en/020-ta-ha/units/072.html",
+    "quran-reflection/en/020-ta-ha/units/084.html",
+    "quran-reflection/en/020-ta-ha/units/096.html",
+    "quran-reflection/en/030-ar-rum/units/050.html",
+    "quran-reflection/en/036-ya-sin/units/012.html",
+    "quran-reflection/en/037-as-saffat/units/070.html",
+    "quran-reflection/en/040-ghafir/units/021.html",
+    "quran-reflection/en/040-ghafir/units/082.html",
+    "quran-reflection/en/043-az-zukhruf/units/022.html",
+    "quran-reflection/en/043-az-zukhruf/units/023.html",
+    "quran-reflection/en/046-al-ahqaf/units/004.html",
+    "quran-reflection/en/048-al-fath/units/029.html",
+    "quran-reflection/en/057-al-hadid/units/027.html",
+    "quran-reflection/en/059-al-hashr/units/009.html",
+    "quran-reflection/en/074-al-muddaththir/units/024.html",
+    "quran-reflection/en/079-an-naziat/units/038.html",
+    "quran-reflection/en/087-al-ala/units/016.html"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/9ed48bf3-215a-4439-a87b-3d7ac099ca6e/Pasted text.txt",
+  "source_blocks_per_language": 297,
+  "sections_per_language": 8,
+  "morphology_cards_per_language": 12,
+  "quranic_occurrences": 21,
+  "quranic_verses": 21,
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/046.html",
+      "verse": "5:46",
+      "token": 3,
+      "word": "ءاثٰرِهِم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "نشانه‌ها، ردپاها، بازمانده‌ها یا پیامدها."
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/091.html",
+      "verse": "12:91",
+      "token": 4,
+      "word": "ءاثَرَكَ",
+      "branch": "preference",
+      "boxes": 1,
+      "brief": "ترجیح دادن و مقدم داشتنِ چیزی یا کسی بر دیگری."
+    },
+    {
+      "file": "quran-reflection/fa/018-al-kahf/units/006.html",
+      "verse": "18:6",
+      "token": 5,
+      "word": "ءاثٰرِهِم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "نشانه‌ها، ردپاها، بازمانده‌ها یا پیامدها."
+    },
+    {
+      "file": "quran-reflection/fa/018-al-kahf/units/064.html",
+      "verse": "18:64",
+      "token": 8,
+      "word": "ءاثارِهِما",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "نشانه‌ها، ردپاها، بازمانده‌ها یا پیامدها."
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/072.html",
+      "verse": "20:72",
+      "token": 3,
+      "word": "نُؤثِرَكَ",
+      "branch": "preference",
+      "boxes": 1,
+      "brief": "ترجیح دادن و مقدم داشتنِ چیزی یا کسی بر دیگری."
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/084.html",
+      "verse": "20:84",
+      "token": 5,
+      "word": "أَثَرى",
+      "branch": "singular",
+      "boxes": 1,
+      "brief": "نشان، ردپا یا بازماندهٔ چیزی؛ بسته به سیاق."
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/096.html",
+      "verse": "20:96",
+      "token": 10,
+      "word": "أَثَرِ",
+      "branch": "singular",
+      "boxes": 1,
+      "brief": "نشان، ردپا یا بازماندهٔ چیزی؛ بسته به سیاق."
+    },
+    {
+      "file": "quran-reflection/fa/030-ar-rum/units/050.html",
+      "verse": "30:50",
+      "token": 3,
+      "word": "ءاثٰرِ",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "نشانه‌ها، ردپاها، بازمانده‌ها یا پیامدها."
+    },
+    {
+      "file": "quran-reflection/fa/036-ya-sin/units/012.html",
+      "verse": "36:12",
+      "token": 8,
+      "word": "وَءاثٰرَهُم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "نشانه‌ها، ردپاها، بازمانده‌ها یا پیامدها."
+    },
+    {
+      "file": "quran-reflection/fa/037-as-saffat/units/070.html",
+      "verse": "37:70",
+      "token": 3,
+      "word": "ءاثٰرِهِم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "نشانه‌ها، ردپاها، بازمانده‌ها یا پیامدها."
+    },
+    {
+      "file": "quran-reflection/fa/040-ghafir/units/021.html",
+      "verse": "40:21",
+      "token": 18,
+      "word": "وَءاثارًا",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "نشانه‌ها، ردپاها، بازمانده‌ها یا پیامدها."
+    },
+    {
+      "file": "quran-reflection/fa/040-ghafir/units/082.html",
+      "verse": "40:82",
+      "token": 17,
+      "word": "وَءاثارًا",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "نشانه‌ها، ردپاها، بازمانده‌ها یا پیامدها."
+    },
+    {
+      "file": "quran-reflection/fa/043-az-zukhruf/units/022.html",
+      "verse": "43:22",
+      "token": 10,
+      "word": "ءاثٰرِهِم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "نشانه‌ها، ردپاها، بازمانده‌ها یا پیامدها."
+    },
+    {
+      "file": "quran-reflection/fa/043-az-zukhruf/units/023.html",
+      "verse": "43:23",
+      "token": 20,
+      "word": "ءاثٰرِهِم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "نشانه‌ها، ردپاها، بازمانده‌ها یا پیامدها."
+    },
+    {
+      "file": "quran-reflection/fa/046-al-ahqaf/units/004.html",
+      "verse": "46:4",
+      "token": 24,
+      "word": "أَثٰرَةٍ",
+      "branch": "knowledge",
+      "boxes": 1,
+      "brief": "بازمانده یا نشانه‌ای از دانش."
+    },
+    {
+      "file": "quran-reflection/fa/048-al-fath/units/029.html",
+      "verse": "48:29",
+      "token": 23,
+      "word": "أَثَرِ",
+      "branch": "singular",
+      "boxes": 1,
+      "brief": "نشان، ردپا یا بازماندهٔ چیزی؛ بسته به سیاق."
+    },
+    {
+      "file": "quran-reflection/fa/057-al-hadid/units/027.html",
+      "verse": "57:27",
+      "token": 4,
+      "word": "ءاثٰرِهِم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "نشانه‌ها، ردپاها، بازمانده‌ها یا پیامدها."
+    },
+    {
+      "file": "quran-reflection/fa/059-al-hashr/units/009.html",
+      "verse": "59:9",
+      "token": 18,
+      "word": "وَيُؤثِرونَ",
+      "branch": "preference",
+      "boxes": 1,
+      "brief": "ترجیح دادن و مقدم داشتنِ چیزی یا کسی بر دیگری."
+    },
+    {
+      "file": "quran-reflection/fa/074-al-muddaththir/units/024.html",
+      "verse": "74:24",
+      "token": 6,
+      "word": "يُؤثَرُ",
+      "branch": "transmission",
+      "boxes": 1,
+      "brief": "نقل می‌شود؛ از دیگری بازگو می‌گردد."
+    },
+    {
+      "file": "quran-reflection/fa/079-an-naziat/units/038.html",
+      "verse": "79:38",
+      "token": 1,
+      "word": "وَءاثَرَ",
+      "branch": "preference",
+      "boxes": 1,
+      "brief": "ترجیح دادن و مقدم داشتنِ چیزی یا کسی بر دیگری."
+    },
+    {
+      "file": "quran-reflection/fa/087-al-ala/units/016.html",
+      "verse": "87:16",
+      "token": 2,
+      "word": "تُؤثِرونَ",
+      "branch": "preference",
+      "boxes": 1,
+      "brief": "ترجیح دادن و مقدم داشتنِ چیزی یا کسی بر دیگری."
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/046.html",
+      "verse": "5:46",
+      "token": 3,
+      "word": "ءاثٰرِهِم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "Traces, footprints, remnants, or consequences."
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/091.html",
+      "verse": "12:91",
+      "token": 4,
+      "word": "ءاثَرَكَ",
+      "branch": "preference",
+      "boxes": 1,
+      "brief": "Preferring or giving precedence to one thing or person over another."
+    },
+    {
+      "file": "quran-reflection/en/018-al-kahf/units/006.html",
+      "verse": "18:6",
+      "token": 5,
+      "word": "ءاثٰرِهِم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "Traces, footprints, remnants, or consequences."
+    },
+    {
+      "file": "quran-reflection/en/018-al-kahf/units/064.html",
+      "verse": "18:64",
+      "token": 8,
+      "word": "ءاثارِهِما",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "Traces, footprints, remnants, or consequences."
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/072.html",
+      "verse": "20:72",
+      "token": 3,
+      "word": "نُؤثِرَكَ",
+      "branch": "preference",
+      "boxes": 1,
+      "brief": "Preferring or giving precedence to one thing or person over another."
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/084.html",
+      "verse": "20:84",
+      "token": 5,
+      "word": "أَثَرى",
+      "branch": "singular",
+      "boxes": 1,
+      "brief": "A mark, footprint, or remnant, depending on context."
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/096.html",
+      "verse": "20:96",
+      "token": 10,
+      "word": "أَثَرِ",
+      "branch": "singular",
+      "boxes": 1,
+      "brief": "A mark, footprint, or remnant, depending on context."
+    },
+    {
+      "file": "quran-reflection/en/030-ar-rum/units/050.html",
+      "verse": "30:50",
+      "token": 3,
+      "word": "ءاثٰرِ",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "Traces, footprints, remnants, or consequences."
+    },
+    {
+      "file": "quran-reflection/en/036-ya-sin/units/012.html",
+      "verse": "36:12",
+      "token": 8,
+      "word": "وَءاثٰرَهُم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "Traces, footprints, remnants, or consequences."
+    },
+    {
+      "file": "quran-reflection/en/037-as-saffat/units/070.html",
+      "verse": "37:70",
+      "token": 3,
+      "word": "ءاثٰرِهِم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "Traces, footprints, remnants, or consequences."
+    },
+    {
+      "file": "quran-reflection/en/040-ghafir/units/021.html",
+      "verse": "40:21",
+      "token": 18,
+      "word": "وَءاثارًا",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "Traces, footprints, remnants, or consequences."
+    },
+    {
+      "file": "quran-reflection/en/040-ghafir/units/082.html",
+      "verse": "40:82",
+      "token": 17,
+      "word": "وَءاثارًا",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "Traces, footprints, remnants, or consequences."
+    },
+    {
+      "file": "quran-reflection/en/043-az-zukhruf/units/022.html",
+      "verse": "43:22",
+      "token": 10,
+      "word": "ءاثٰرِهِم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "Traces, footprints, remnants, or consequences."
+    },
+    {
+      "file": "quran-reflection/en/043-az-zukhruf/units/023.html",
+      "verse": "43:23",
+      "token": 20,
+      "word": "ءاثٰرِهِم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "Traces, footprints, remnants, or consequences."
+    },
+    {
+      "file": "quran-reflection/en/046-al-ahqaf/units/004.html",
+      "verse": "46:4",
+      "token": 24,
+      "word": "أَثٰرَةٍ",
+      "branch": "knowledge",
+      "boxes": 1,
+      "brief": "A remnant or trace of knowledge."
+    },
+    {
+      "file": "quran-reflection/en/048-al-fath/units/029.html",
+      "verse": "48:29",
+      "token": 23,
+      "word": "أَثَرِ",
+      "branch": "singular",
+      "boxes": 1,
+      "brief": "A mark, footprint, or remnant, depending on context."
+    },
+    {
+      "file": "quran-reflection/en/057-al-hadid/units/027.html",
+      "verse": "57:27",
+      "token": 4,
+      "word": "ءاثٰرِهِم",
+      "branch": "plural",
+      "boxes": 1,
+      "brief": "Traces, footprints, remnants, or consequences."
+    },
+    {
+      "file": "quran-reflection/en/059-al-hashr/units/009.html",
+      "verse": "59:9",
+      "token": 18,
+      "word": "وَيُؤثِرونَ",
+      "branch": "preference",
+      "boxes": 1,
+      "brief": "Preferring or giving precedence to one thing or person over another."
+    },
+    {
+      "file": "quran-reflection/en/074-al-muddaththir/units/024.html",
+      "verse": "74:24",
+      "token": 6,
+      "word": "يُؤثَرُ",
+      "branch": "transmission",
+      "boxes": 1,
+      "brief": "Is transmitted or retold from another."
+    },
+    {
+      "file": "quran-reflection/en/079-an-naziat/units/038.html",
+      "verse": "79:38",
+      "token": 1,
+      "word": "وَءاثَرَ",
+      "branch": "preference",
+      "boxes": 1,
+      "brief": "Preferring or giving precedence to one thing or person over another."
+    },
+    {
+      "file": "quran-reflection/en/087-al-ala/units/016.html",
+      "verse": "87:16",
+      "token": 2,
+      "word": "تُؤثِرونَ",
+      "branch": "preference",
+      "boxes": 1,
+      "brief": "Preferring or giving precedence to one thing or person over another."
+    }
+  ],
+  "Allah_boxes": [
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/046.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/091.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/018-al-kahf/units/006.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/018-al-kahf/units/064.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/072.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/084.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/096.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/030-ar-rum/units/050.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/036-ya-sin/units/012.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/037-as-saffat/units/070.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/040-ghafir/units/021.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/040-ghafir/units/082.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/043-az-zukhruf/units/022.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/043-az-zukhruf/units/023.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/046-al-ahqaf/units/004.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/048-al-fath/units/029.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/fa/057-al-hadid/units/027.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/059-al-hashr/units/009.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/074-al-muddaththir/units/024.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/079-an-naziat/units/038.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/087-al-ala/units/016.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/046.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/091.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/018-al-kahf/units/006.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/018-al-kahf/units/064.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/072.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/084.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/096.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/030-ar-rum/units/050.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/036-ya-sin/units/012.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/037-as-saffat/units/070.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/040-ghafir/units/021.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/040-ghafir/units/082.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/043-az-zukhruf/units/022.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/043-az-zukhruf/units/023.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/046-al-ahqaf/units/004.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/048-al-fath/units/029.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/en/057-al-hadid/units/027.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/059-al-hashr/units/009.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/074-al-muddaththir/units/024.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/079-an-naziat/units/038.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/087-al-ala/units/016.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    }
+  ],
+  "persian_edits": [
+    {
+      "block": 10,
+      "before": "صورت‌های اسمی در مائده ۵:۴۶، کهف ۱۸:۶ و ۱۸:۶۴، طه ۲۰:۸۴ و ۲۰:۹۶، روم ۳۰:۵۰، یس ۳۶:۱۲، صافات ۳۷:۷۰، غافر ۴۰:۲۱ و ۴۰:۸۲، زخرف ۴۳:۲۲ و ۴۳:۲۳، فتح ۴۸:۲۹ و حدید ۵۷:۲۷ آمده‌اند.",
+      "after": "صورت‌های اسمی در مائده ۵:۴۶، کهف ۱۸:۶ و کهف ۱۸:۶۴، طه ۲۰:۸۴ و طه ۲۰:۹۶، روم ۳۰:۵۰، یس ۳۶:۱۲، صافات ۳۷:۷۰، غافر ۴۰:۲۱ و غافر ۴۰:۸۲، زخرف ۴۳:۲۲ و ۴۳:۲۳، فتح ۴۸:۲۹ و حدید ۵۷:۲۷ آمده‌اند."
+    },
+    {
+      "block": 35,
+      "before": "«گفتند چه می‌خواهی؟ گفتم تا صبح به خوشی می‌گذرانم؛ و این را بر دیگر کارها مقدم می‌دارم.»",
+      "after": "«گفتند چه می‌خواهی؟ گفتم: پیش از هر چیز، تا صبح به دل‌خوشی بگذرانم.»"
+    },
+    {
+      "block": 36,
+      "before": "در این بیت، تعبیر «آثر ذي أثير» در توضیحات لغوی با مقدم داشتن و برگزیدن ارتباط دارد.",
+      "after": "در این بیت، «آثر ذي أثير» تعبیری ثابت است که لغویان آن را به «پیش از هر چیز» و مقدم داشتن یک کار توضیح داده‌اند. این ترکیب را نباید بدون توجه به ساخت آن، همان فعل صرف‌شدهٔ «آثَرَ» در باب إفعال دانست."
+    },
+    {
+      "block": 99,
+      "before": "در زخرف ۴۳:۲۲–۲۳، تکیه بر راه پدران به عنوان پاسخ به دعوت و نقد پیامبران مطرح می‌شود.",
+      "after": "در زخرف ۴۳:۲۲ و زخرف ۴۳:۲۳، تکیه بر راه پدران به عنوان پاسخ به دعوت و نقد پیامبران مطرح می‌شود."
+    },
+    {
+      "block": 120,
+      "before": "«پس به آثار رحمت خداوند بنگر که چگونه زمین را پس از مردنش زنده می‌کند. بی‌گمان همان خداوند زنده‌کننده مردگان است و او بر هر چیزی تواناست.»",
+      "after": "«پس به آثار رحمت آن معبود یگانه بنگر که چگونه زمین را پس از مردنش زنده می‌کند. بی‌گمان همان آن معبود یگانه زنده‌کننده مردگان است و او بر هر چیزی تواناست.»"
+    },
+    {
+      "block": 121,
+      "before": "در این آیه، آثار به رحمت خداوند نسبت داده شده‌اند.",
+      "after": "در این آیه، آثار به رحمت آن معبود یگانه نسبت داده شده‌اند."
+    },
+    {
+      "block": 126,
+      "before": "در برخی قرائت‌های معتبر، این واژه به صورت مفرد «أَثَرِ رَحْمَتِ اللَّهِ» نیز خوانده شده است. مفرد یا جمع بودن، میدان اصلی معنا را در این آیه تغییر نمی‌دهد.",
+      "after": "در قرائت‌های هفتگانه، نافع، ابن‌کثیر، ابوعمرو و شعبه از عاصم این واژه را به صورت مفرد «أَثَرِ رَحْمَتِ اللَّهِ» خوانده‌اند؛ ابن‌عامر، حفص از عاصم، حمزه و کسایی آن را جمع خوانده‌اند. مفرد یا جمع بودن، میدان اصلی معنا را در این آیه تغییر نمی‌دهد."
+    },
+    {
+      "block": 143,
+      "before": "حدود مسئولیت، علم خداوند و ثبت اعمال موضوع‌هایی‌اند که از مجموعه آیات مربوط به حساب و جزا شناخته می‌شوند.",
+      "after": "حدود مسئولیت، علم آن معبود یگانه و ثبت اعمال موضوع‌هایی‌اند که از مجموعه آیات مربوط به حساب و جزا شناخته می‌شوند."
+    },
+    {
+      "block": 164,
+      "before": "بنابراین، نباید هر ادعای سامری درباره آنچه دیده یا گرفته، بدون بررسی، گزارش مستقیم خداوند درباره واقعیت بیرونی رخداد شمرده شود.",
+      "after": "بنابراین، نباید هر ادعای سامری درباره آنچه دیده یا گرفته، بدون بررسی، گزارش مستقیم آن معبود یگانه درباره واقعیت بیرونی رخداد شمرده شود."
+    },
+    {
+      "block": 183,
+      "before": "«بگو: آیا به آنچه جز خداوند می‌خوانید اندیشیده‌اید؟ به من نشان دهید چه چیزی از زمین آفریده‌اند، یا چه سهمی در آسمان‌ها دارند؟ اگر راست می‌گویید، کتابی پیش از این یا بازمانده‌ای از دانش بیاورید.»",
+      "after": "«بگو: آیا به آنچه جز آن معبود یگانه می‌خوانید اندیشیده‌اید؟ به من نشان دهید چه چیزی از زمین آفریده‌اند، یا چه سهمی در آسمان‌ها دارند؟ اگر راست می‌گویید، کتابی پیش از این یا بازمانده‌ای از دانش بیاورید.»"
+    },
+    {
+      "block": 190,
+      "before": "در بعضی قرائت‌های نقل‌شده نیز صورت «أَثَرَة» آمده است. این اختلاف، با میدان بازمانده و نشان باقی‌مانده از دانش ارتباط دارد.",
+      "after": "قرطبی صورت «أَثَرَة» با فتح همزه و ثاء و بدون الفِ پس از ثاء را از سُلَمی، حسن و ابورجاء گزارش می‌کند. این نقلِ قرائت را باید از صورت «أَثَارَة» در قرائت رایج جدا شناخت؛ گزارش‌های دیگری نیز با حرکت‌های متفاوت نقل شده‌اند. این صورت‌ها با میدان بازمانده، نقل یا بهره‌ای از دانش توضیح داده شده‌اند."
+    },
+    {
+      "block": 208,
+      "before": "«گفتند: به خدا سوگند، خداوند تو را بر ما برتری داده است، و ما به‌راستی خطاکار بوده‌ایم.»",
+      "after": "«گفتند: به آن معبود یگانه سوگند، آن معبود یگانه تو را بر ما برتری داده است، و ما به‌راستی خطاکار بوده‌ایم.»"
+    },
+    {
+      "block": 209,
+      "before": "در این آیه، برادران یوسف به برتری‌ای اعتراف می‌کنند که خداوند به یوسف بخشیده است.",
+      "after": "در این آیه، برادران یوسف به برتری‌ای اعتراف می‌کنند که آن معبود یگانه به یوسف بخشیده است."
+    },
+    {
+      "block": 212,
+      "before": "فاعل جمله خداوند است و مفعول آن یوسف.",
+      "after": "فاعل جمله آن معبود یگانه است و مفعول آن یوسف."
+    },
+    {
+      "block": 269,
+      "before": "در صافات ۳۷:۷۰ و زخرف ۴۳:۲۲–۲۳، «در پی راه آنان رفتن» یا «پیروی از راه پیشینیان» مناسب است. اما نباید خودِ «اثر» را در همه این موارد به معنای دین و شریعت گرفت.",
+      "after": "در صافات ۳۷:۷۰ و زخرف ۴۳:۲۲ و زخرف ۴۳:۲۳، «در پی راه آنان رفتن» یا «پیروی از راه پیشینیان» مناسب است. اما نباید خودِ «اثر» را در همه این موارد به معنای دین و شریعت گرفت."
+    },
+    {
+      "block": 271,
+      "before": "در روم ۳۰:۵۰، «آثار رحمت خداوند» معنای آیه را حفظ می‌کند؛ رویش گیاهان و زنده شدن زمین، مصداق این آثار در سیاق‌اند.",
+      "after": "در روم ۳۰:۵۰، «آثار رحمت آن معبود یگانه» معنای آیه را حفظ می‌کند؛ رویش گیاهان و زنده شدن زمین، مصداق این آثار در سیاق‌اند."
+    },
+    {
+      "block": 278,
+      "before": "در یوسف ۱۲:۹۱، «خداوند تو را بر ما برتری داده است» مناسب است.",
+      "after": "در یوسف ۱۲:۹۱، «آن معبود یگانه تو را بر ما برتری داده است» مناسب است."
+    }
+  ],
+  "corrections": [
+    "Explained āthara dhī athīr in the ʿUrwah verse as a fixed expression meaning before anything else; distinguished its construction from the inflected Form IV verb.",
+    "Attributed singular and plural readings in Al-Rūm 30:50 within the seven readings.",
+    "Attributed the reported atharah reading in Al-Aḥqāf 46:4 to Al-Sulamī, Al-Ḥasan and Abū Rajāʾ and distinguished other reported vocalizations.",
+    "Expanded both ranges of Al-Zukhruf 43:22–23 into individually written and verified references; repeated chapter names for previously bare verse references in the occurrence list.",
+    "Applied the established Persian divine naming convention outside Arabic quotations."
+  ],
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=Avr",
+      "use": "21 occurrences, four derivational categories, and word positions; corroborated with cached corpus."
+    },
+    {
+      "url": "https://www.islamweb.net/ar/library/content/124/47/باب-الهمزة-والثاء-وما-يثلثهما",
+      "use": "Ibn Fāris, Maqāyīs: three lexical fields and the ʿUrwah idiom."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/b/14292/179?lang=ar",
+      "use": "Abū Hilāl al-ʿAskarī, Jamharat al-Amthāl: precedence and resolve explanations of the fixed idiom."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura30-aya50.html",
+      "use": "Attributed singular/plural readings in 30:50."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura46-aya4.html",
+      "use": "Reported atharah vocalization; transmitted knowledge, remnant and writing analyses; Al-Aʿshā quotation."
+    },
+    {
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0393IbnHammadJawhari/0393IbnHammadJawhari.SihahTajLugha/0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1",
+      "use": "Cached Al-Ṣiḥāḥ: distinctions between athar, transmission, preference and istiʾthār; both poetic witnesses."
+    }
+  ],
+  "original_sha256": {
+    "quran-terminology/fa/roots/a-th-r/index.html": null,
+    "quran-terminology/en/roots/a-th-r/index.html": null,
+    "_data/quran-root-studies.json": "9695c0afb04910786a748ee3a0f0cadee0a343607cb4cd3f727603b6a9e7fb77",
+    "quran-reflection/fa/005-al-maidah/units/046.html": "cb1e53b2fba203b0402c5bec7414a7f1505180dbd7da991a78ac0d4a92094eeb",
+    "quran-reflection/fa/012-yusuf/units/091.html": "817de31c85311846b69ef284dff7482d87d3fc1540295fb5d5f4afcb19c21231",
+    "quran-reflection/fa/018-al-kahf/units/006.html": "4b7d7b7042aaf4afe14e7997a6b1325b36abf330809356e5c0172e746aa1ccd8",
+    "quran-reflection/fa/018-al-kahf/units/064.html": "651dead5b40489f817a600ec02c7e0ca875647d16d177465bf580dd939ff63f7",
+    "quran-reflection/fa/020-ta-ha/units/072.html": "766f114a71044fdcb6ffad9ad59cb720bf50d00503ace4033269ad33088e75f1",
+    "quran-reflection/fa/020-ta-ha/units/084.html": "0a43d88102af1f762e79e6a892c85b10aff7335f255f12981d3e1aaa33a2c0ec",
+    "quran-reflection/fa/020-ta-ha/units/096.html": "1a2ce5c9253bdab5f4801624047b79c5fcd986068c7238df0cda2aab1ce50a74",
+    "quran-reflection/fa/030-ar-rum/units/050.html": "4fcc011b32380c433b42c13285fa4df4d871973848c0c692ce70a71ec92eed58",
+    "quran-reflection/fa/036-ya-sin/units/012.html": "8ded357f71490af3627c3db46ce1189e2f32bb0534b9c5fbabc28b7d9c74e0db",
+    "quran-reflection/fa/037-as-saffat/units/070.html": "ea42b444c29448ed04d5c00637215b7c5193b32ce838c706a2ee3c4b64e4dead",
+    "quran-reflection/fa/040-ghafir/units/021.html": "07f40bc2ebda3149e7f559954c6d11e64bee79f671a88237c611420d7e8b69bf",
+    "quran-reflection/fa/040-ghafir/units/082.html": "1bc5e45721f191342c850cf5146a93edd494f1ed8270b7f87e839fb5d2b06b21",
+    "quran-reflection/fa/043-az-zukhruf/units/022.html": "3cbb7e37d4bb4093518ba6569c119b22961c660062556c15578d1f6925d6a61c",
+    "quran-reflection/fa/043-az-zukhruf/units/023.html": "832aaf459e04e431865bae42482edbacc6f5de6a7216f364c6b4bec422e8ff49",
+    "quran-reflection/fa/046-al-ahqaf/units/004.html": "6d507ab08466fb512657faa8ad06c7297e993e8f58798f4dd050f3a58a1088d2",
+    "quran-reflection/fa/048-al-fath/units/029.html": "d56cbdf842c196ef1fad9bc337641230c3f23cb2e5e4908d61da7197ee764687",
+    "quran-reflection/fa/057-al-hadid/units/027.html": "3643c3ab3ac008bcc9221b6452334b34af6563ac25adf8cea1d71d31425ff80c",
+    "quran-reflection/fa/059-al-hashr/units/009.html": "a44d3cd7e887884202bcd2b2d7109e5e1786dadd8ca0459167bdb7e896a0a520",
+    "quran-reflection/fa/074-al-muddaththir/units/024.html": "cf00804f88fae380f69c4e3fcf6e41b6591680230150493bfcdaf2cdb2906d45",
+    "quran-reflection/fa/079-an-naziat/units/038.html": "4a9b9799d187963bb71c18488b5a4663b01566fd4b11dcf6c2b7c41c30703952",
+    "quran-reflection/fa/087-al-ala/units/016.html": "a8573aacde8c8eac3d9172eb586a37ddf30371ee9d532f964b3f050a451146ba",
+    "quran-reflection/en/005-al-maidah/units/046.html": "ac36ea829e41e42f353b216d5beca554492e01fe4ba6c7574880313d10bce8dd",
+    "quran-reflection/en/012-yusuf/units/091.html": "12407b6c4883b0fc17edf4b172657f581afe2a7003d96a227a0d68c4edef47e7",
+    "quran-reflection/en/018-al-kahf/units/006.html": "8e3b1e0775c0c276dbbb13ca5da5c472b4fcd1a2ec88cf410226160f293058e9",
+    "quran-reflection/en/018-al-kahf/units/064.html": "130d1ade3fb8d3ba55cb1a13c9ec370ba8406f656e85cfb2fbdf7d2f21a4458e",
+    "quran-reflection/en/020-ta-ha/units/072.html": "6168283878b387c2b82bd26b0dfad5372757b44bdb4e2b8da535014ce2ade6c8",
+    "quran-reflection/en/020-ta-ha/units/084.html": "5180f25b659e71d5df40d2f7bb6389796783fede65f434c9690a35fc71acb06a",
+    "quran-reflection/en/020-ta-ha/units/096.html": "bb0b1295f4fb71a482bd1fc8bf973eb724da951c66779e42ee70673ff31afdca",
+    "quran-reflection/en/030-ar-rum/units/050.html": "7dd39c4ac3dcd81c85527fbf847ce5f1bb21b3817b111dde97c6616a3a593ac2",
+    "quran-reflection/en/036-ya-sin/units/012.html": "12ddf255fad163500212fa7e0810507b8cebf289f602acab1e4424adcd9e9fc5",
+    "quran-reflection/en/037-as-saffat/units/070.html": "02483e63e34742b557e002840b02e6ef39cfba05270d3db28bcc52fc4729155a",
+    "quran-reflection/en/040-ghafir/units/021.html": "6472d993335ea6c6cd4f7ede2aec6093976183d8a7fcf87a4de41ea02681b840",
+    "quran-reflection/en/040-ghafir/units/082.html": "2c3c1b59baa4388870f3c4bb7d1835965efa1305963de7a2318ed7208d908a51",
+    "quran-reflection/en/043-az-zukhruf/units/022.html": "29b7edb51cd04d5f05da184ac28cbc7ea846d5f1aa82813e3bd538417055ffa6",
+    "quran-reflection/en/043-az-zukhruf/units/023.html": "a1d24bc5ea6be485624e58b90392e5f9cd0aa0e651ce3ad8557d9a5e11ae6ece",
+    "quran-reflection/en/046-al-ahqaf/units/004.html": "17353c0ad6c0dad885749dbb2cc0a1314216572e567c32233f05fe472c8480d1",
+    "quran-reflection/en/048-al-fath/units/029.html": "a621905d1da9fd0b0fd691e9bf8befdef2305843add95b19b6ace93c2ee3cd0b",
+    "quran-reflection/en/057-al-hadid/units/027.html": "f6aff8e5f3d0a8622fe46f9c59722946806a70fdb08689e409bd1612e12d2004",
+    "quran-reflection/en/059-al-hashr/units/009.html": "873aed57d04ffe402a150c9b7c17f9facd499c452d403590f9ff9b021d54d62c",
+    "quran-reflection/en/074-al-muddaththir/units/024.html": "1e1abd04326587a0b572b469c057cf90e9783029f209629a77da1652b033f03d",
+    "quran-reflection/en/079-an-naziat/units/038.html": "85f1074f973aa2c13987d8cbf464de082bee2b0d385f46ad66b4c6a33c25f5b3",
+    "quran-reflection/en/087-al-ala/units/016.html": "e2af7cf52812952e5748b75c12d8251616df114de0b7b426941d43e8d62507b9"
+  },
+  "protected_sha256": {
+    "AGENTS.md": "73e9d17b8a07b275e364c8c715088c44fd5f3614afe09cf877ed1c186ecdac91",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "verification": {
+    "stage": "before installation",
+    "all_297_source_blocks_rendered_per_language": true,
+    "all_15_Arabic_quotes_preserved_exactly": true,
+    "all_13_Quranic_quotes_match_installed_verses": true,
+    "21_occurrences_and_four_derivational_categories_confirmed": true,
+    "eight_sections_twelve_cards_26_subheadings_per_language": true,
+    "semantic_table_with_three_columns_and_four_data_rows_per_language": true,
+    "unique_ids_and_resolved_navigation": true,
+    "individually_verified_verse_targets": 42,
+    "verified_existing_related_root_targets": 14,
+    "no_Persian_digits_or_letters_in_English": true,
+    "only_a_th_r_registry_record_changed": true,
+    "42_root_boxes_matched_to_corpus_word_positions": true,
+    "only_42_a_th_r_popovers_changed": true,
+    "root_meanings_separated_by_lexical_branch": true,
+    "verse_Arabic_translations_and_other_boxes_unchanged": true,
+    "canonical_Allah_boxes_confirmed": true,
+    "protected_files_preserved": true,
+    "no_Fatihah_or_Baqarah_verse_files_edited": true,
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false,
+    "standalone_preview": "Persian RTL light-theme frequency table and individually linked references; English LTR dark-theme poetry, Arabic isolation, transliteration and translation inspected. Temporary browser and server closed before installation.",
+    "Quranic_orthography": "Verified against installed Uthmani verses with explicit handling of hamzah seats, dagger-alif life spelling, and omitted repeated ya in revival verbs; supplied Arabic quotations preserved exactly.",
+    "git_diff_check_before_installation": "passed"
+  }
+}
