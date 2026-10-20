@@ -1,0 +1,3416 @@
+{
+  "root": "أ خ و",
+  "slug": "a-kh-w",
+  "date": "2026-10-20",
+  "status": "installed locally; not committed or pushed",
+  "files": [
+    "quran-terminology/fa/roots/a-kh-w/index.html",
+    "quran-terminology/en/roots/a-kh-w/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/002-al-baqarah/units/178.html",
+    "quran-reflection/fa/002-al-baqarah/units/220.html",
+    "quran-reflection/fa/003-al-imran/units/103.html",
+    "quran-reflection/fa/003-al-imran/units/156.html",
+    "quran-reflection/fa/003-al-imran/units/168.html",
+    "quran-reflection/fa/004-an-nisa/units/011.html",
+    "quran-reflection/fa/004-an-nisa/units/012.html",
+    "quran-reflection/fa/004-an-nisa/units/023.html",
+    "quran-reflection/fa/004-an-nisa/units/176.html",
+    "quran-reflection/fa/005-al-maidah/units/025.html",
+    "quran-reflection/fa/005-al-maidah/units/030.html",
+    "quran-reflection/fa/005-al-maidah/units/031.html",
+    "quran-reflection/fa/006-al-anam/units/087.html",
+    "quran-reflection/fa/007-al-araf/units/038.html",
+    "quran-reflection/fa/007-al-araf/units/065.html",
+    "quran-reflection/fa/007-al-araf/units/073.html",
+    "quran-reflection/fa/007-al-araf/units/085.html",
+    "quran-reflection/fa/007-al-araf/units/111.html",
+    "quran-reflection/fa/007-al-araf/units/142.html",
+    "quran-reflection/fa/007-al-araf/units/150.html",
+    "quran-reflection/fa/007-al-araf/units/151.html",
+    "quran-reflection/fa/007-al-araf/units/202.html",
+    "quran-reflection/fa/009-at-tawbah/units/011.html",
+    "quran-reflection/fa/009-at-tawbah/units/023.html",
+    "quran-reflection/fa/009-at-tawbah/units/024.html",
+    "quran-reflection/fa/010-yunus/units/087.html",
+    "quran-reflection/fa/011-hud/units/050.html",
+    "quran-reflection/fa/011-hud/units/061.html",
+    "quran-reflection/fa/011-hud/units/084.html",
+    "quran-reflection/fa/012-yusuf/units/005.html",
+    "quran-reflection/fa/012-yusuf/units/007.html",
+    "quran-reflection/fa/012-yusuf/units/008.html",
+    "quran-reflection/fa/012-yusuf/units/058.html",
+    "quran-reflection/fa/012-yusuf/units/059.html",
+    "quran-reflection/fa/012-yusuf/units/063.html",
+    "quran-reflection/fa/012-yusuf/units/064.html",
+    "quran-reflection/fa/012-yusuf/units/065.html",
+    "quran-reflection/fa/012-yusuf/units/069.html",
+    "quran-reflection/fa/012-yusuf/units/070.html",
+    "quran-reflection/fa/012-yusuf/units/076.html",
+    "quran-reflection/fa/012-yusuf/units/077.html",
+    "quran-reflection/fa/012-yusuf/units/087.html",
+    "quran-reflection/fa/012-yusuf/units/089.html",
+    "quran-reflection/fa/012-yusuf/units/090.html",
+    "quran-reflection/fa/012-yusuf/units/100.html",
+    "quran-reflection/fa/015-al-hijr/units/047.html",
+    "quran-reflection/fa/017-al-isra/units/027.html",
+    "quran-reflection/fa/019-maryam/units/028.html",
+    "quran-reflection/fa/019-maryam/units/053.html",
+    "quran-reflection/fa/020-ta-ha/units/030.html",
+    "quran-reflection/fa/020-ta-ha/units/040.html",
+    "quran-reflection/fa/020-ta-ha/units/042.html",
+    "quran-reflection/fa/023-al-muminun/units/045.html",
+    "quran-reflection/fa/024-an-nur/units/031.html",
+    "quran-reflection/fa/024-an-nur/units/061.html",
+    "quran-reflection/fa/025-al-furqan/units/035.html",
+    "quran-reflection/fa/026-ash-shuara/units/036.html",
+    "quran-reflection/fa/026-ash-shuara/units/106.html",
+    "quran-reflection/fa/026-ash-shuara/units/124.html",
+    "quran-reflection/fa/026-ash-shuara/units/142.html",
+    "quran-reflection/fa/026-ash-shuara/units/161.html",
+    "quran-reflection/fa/027-an-naml/units/045.html",
+    "quran-reflection/fa/028-al-qasas/units/011.html",
+    "quran-reflection/fa/028-al-qasas/units/034.html",
+    "quran-reflection/fa/028-al-qasas/units/035.html",
+    "quran-reflection/fa/029-al-ankabut/units/036.html",
+    "quran-reflection/fa/033-al-ahzab/units/005.html",
+    "quran-reflection/fa/033-al-ahzab/units/018.html",
+    "quran-reflection/fa/033-al-ahzab/units/055.html",
+    "quran-reflection/fa/038-sad/units/023.html",
+    "quran-reflection/fa/043-az-zukhruf/units/048.html",
+    "quran-reflection/fa/046-al-ahqaf/units/021.html",
+    "quran-reflection/fa/049-al-hujurat/units/010.html",
+    "quran-reflection/fa/049-al-hujurat/units/012.html",
+    "quran-reflection/fa/050-qaf/units/013.html",
+    "quran-reflection/fa/058-al-mujadilah/units/022.html",
+    "quran-reflection/fa/059-al-hashr/units/010.html",
+    "quran-reflection/fa/059-al-hashr/units/011.html",
+    "quran-reflection/fa/070-al-maarij/units/012.html",
+    "quran-reflection/fa/080-abasa/units/034.html",
+    "quran-reflection/en/002-al-baqarah/units/178.html",
+    "quran-reflection/en/002-al-baqarah/units/220.html",
+    "quran-reflection/en/003-al-imran/units/103.html",
+    "quran-reflection/en/003-al-imran/units/156.html",
+    "quran-reflection/en/003-al-imran/units/168.html",
+    "quran-reflection/en/004-an-nisa/units/011.html",
+    "quran-reflection/en/004-an-nisa/units/012.html",
+    "quran-reflection/en/004-an-nisa/units/023.html",
+    "quran-reflection/en/004-an-nisa/units/176.html",
+    "quran-reflection/en/005-al-maidah/units/025.html",
+    "quran-reflection/en/005-al-maidah/units/030.html",
+    "quran-reflection/en/005-al-maidah/units/031.html",
+    "quran-reflection/en/006-al-anam/units/087.html",
+    "quran-reflection/en/007-al-araf/units/038.html",
+    "quran-reflection/en/007-al-araf/units/065.html",
+    "quran-reflection/en/007-al-araf/units/073.html",
+    "quran-reflection/en/007-al-araf/units/085.html",
+    "quran-reflection/en/007-al-araf/units/111.html",
+    "quran-reflection/en/007-al-araf/units/142.html",
+    "quran-reflection/en/007-al-araf/units/150.html",
+    "quran-reflection/en/007-al-araf/units/151.html",
+    "quran-reflection/en/007-al-araf/units/202.html",
+    "quran-reflection/en/009-at-tawbah/units/011.html",
+    "quran-reflection/en/009-at-tawbah/units/023.html",
+    "quran-reflection/en/009-at-tawbah/units/024.html",
+    "quran-reflection/en/010-yunus/units/087.html",
+    "quran-reflection/en/011-hud/units/050.html",
+    "quran-reflection/en/011-hud/units/061.html",
+    "quran-reflection/en/011-hud/units/084.html",
+    "quran-reflection/en/012-yusuf/units/005.html",
+    "quran-reflection/en/012-yusuf/units/007.html",
+    "quran-reflection/en/012-yusuf/units/008.html",
+    "quran-reflection/en/012-yusuf/units/058.html",
+    "quran-reflection/en/012-yusuf/units/059.html",
+    "quran-reflection/en/012-yusuf/units/063.html",
+    "quran-reflection/en/012-yusuf/units/064.html",
+    "quran-reflection/en/012-yusuf/units/065.html",
+    "quran-reflection/en/012-yusuf/units/069.html",
+    "quran-reflection/en/012-yusuf/units/070.html",
+    "quran-reflection/en/012-yusuf/units/076.html",
+    "quran-reflection/en/012-yusuf/units/077.html",
+    "quran-reflection/en/012-yusuf/units/087.html",
+    "quran-reflection/en/012-yusuf/units/089.html",
+    "quran-reflection/en/012-yusuf/units/090.html",
+    "quran-reflection/en/012-yusuf/units/100.html",
+    "quran-reflection/en/015-al-hijr/units/047.html",
+    "quran-reflection/en/017-al-isra/units/027.html",
+    "quran-reflection/en/019-maryam/units/028.html",
+    "quran-reflection/en/019-maryam/units/053.html",
+    "quran-reflection/en/020-ta-ha/units/030.html",
+    "quran-reflection/en/020-ta-ha/units/040.html",
+    "quran-reflection/en/020-ta-ha/units/042.html",
+    "quran-reflection/en/023-al-muminun/units/045.html",
+    "quran-reflection/en/024-an-nur/units/031.html",
+    "quran-reflection/en/024-an-nur/units/061.html",
+    "quran-reflection/en/025-al-furqan/units/035.html",
+    "quran-reflection/en/026-ash-shuara/units/036.html",
+    "quran-reflection/en/026-ash-shuara/units/106.html",
+    "quran-reflection/en/026-ash-shuara/units/124.html",
+    "quran-reflection/en/026-ash-shuara/units/142.html",
+    "quran-reflection/en/026-ash-shuara/units/161.html",
+    "quran-reflection/en/027-an-naml/units/045.html",
+    "quran-reflection/en/028-al-qasas/units/011.html",
+    "quran-reflection/en/028-al-qasas/units/034.html",
+    "quran-reflection/en/028-al-qasas/units/035.html",
+    "quran-reflection/en/029-al-ankabut/units/036.html",
+    "quran-reflection/en/033-al-ahzab/units/005.html",
+    "quran-reflection/en/033-al-ahzab/units/018.html",
+    "quran-reflection/en/033-al-ahzab/units/055.html",
+    "quran-reflection/en/038-sad/units/023.html",
+    "quran-reflection/en/043-az-zukhruf/units/048.html",
+    "quran-reflection/en/046-al-ahqaf/units/021.html",
+    "quran-reflection/en/049-al-hujurat/units/010.html",
+    "quran-reflection/en/049-al-hujurat/units/012.html",
+    "quran-reflection/en/050-qaf/units/013.html",
+    "quran-reflection/en/058-al-mujadilah/units/022.html",
+    "quran-reflection/en/059-al-hashr/units/010.html",
+    "quran-reflection/en/059-al-hashr/units/011.html",
+    "quran-reflection/en/070-al-maarij/units/012.html",
+    "quran-reflection/en/080-abasa/units/034.html"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/371bd717-b5c1-4ded-ad6e-6700b53a4393/Pasted text.txt",
+  "source_blocks_per_language": 319,
+  "sections_per_language": 8,
+  "morphology_cards_per_language": 12,
+  "quranic_occurrences": 96,
+  "quranic_verses": 80,
+  "quranic_surahs": 31,
+  "morphological_groups": {
+    "akh_including_dual_and_ikhwan": 75,
+    "ukht_including_dual_and_plural": 14,
+    "ikhwah": 7
+  },
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/178.html",
+      "verse": "2:178",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/220.html",
+      "verse": "2:220",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 13,
+          "word": "فَإِخوٰنُكُم",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/003-al-imran/units/103.html",
+      "verse": "3:103",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "إِخوٰنًا",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/003-al-imran/units/156.html",
+      "verse": "3:156",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "لِإِخوٰنِهِم",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/003-al-imran/units/168.html",
+      "verse": "3:168",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "لِإِخوٰنِهِم",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/011.html",
+      "verse": "4:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 46,
+          "word": "إِخوَةٌ",
+          "branch": "ikhwah",
+          "brief": "برادران؛ در سیاق مناسب، خواهران و برادران یا اعضای یک پیوند ایمانی."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/012.html",
+      "verse": "4:12",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 58,
+          "word": "أَخٌ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        },
+        {
+          "position": 60,
+          "word": "أُختٌ",
+          "branch": "sister",
+          "brief": "خواهر؛ در کاربرد مجازی، همتای مؤنث یا عضو همان مجموعه."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/023.html",
+      "verse": "4:23",
+      "boxes": 5,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "وَأَخَوٰتُكُم",
+          "branch": "sisters",
+          "brief": "خواهران."
+        },
+        {
+          "position": 9,
+          "word": "الأَخِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        },
+        {
+          "position": 11,
+          "word": "الأُختِ",
+          "branch": "sister",
+          "brief": "خواهر؛ در کاربرد مجازی، همتای مؤنث یا عضو همان مجموعه."
+        },
+        {
+          "position": 15,
+          "word": "وَأَخَوٰتُكُم",
+          "branch": "milk_sisters",
+          "brief": "خواهران از راه رضاع؛ نوع پیوند از قید رضاع در آیه فهمیده می‌شود."
+        },
+        {
+          "position": 45,
+          "word": "الأُختَينِ",
+          "branch": "two_sisters",
+          "brief": "دو خواهر."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/176.html",
+      "verse": "4:176",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "أُختٌ",
+          "branch": "sister",
+          "brief": "خواهر؛ در کاربرد مجازی، همتای مؤنث یا عضو همان مجموعه."
+        },
+        {
+          "position": 35,
+          "word": "إِخوَةً",
+          "branch": "ikhwah",
+          "brief": "برادران؛ در سیاق مناسب، خواهران و برادران یا اعضای یک پیوند ایمانی."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/025.html",
+      "verse": "5:25",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "وَأَخى",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/030.html",
+      "verse": "5:30",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/031.html",
+      "verse": "5:31",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 11,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        },
+        {
+          "position": 22,
+          "word": "أَخى",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/087.html",
+      "verse": "6:87",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "وَإِخوٰنِهِم",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/038.html",
+      "verse": "7:38",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 18,
+          "word": "أُختَها",
+          "branch": "sister_group",
+          "brief": "امت هم‌پیوند یا هم‌راه؛ گروهی مرتبط در رفتار یا سرنوشت."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/065.html",
+      "verse": "7:65",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "برادرِ قوم؛ در این سیاق، بیانگر پیوند قومی یا اجتماعی با مخاطبان، نه هم‌دینی همه آنان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/073.html",
+      "verse": "7:73",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "برادرِ قوم؛ در این سیاق، بیانگر پیوند قومی یا اجتماعی با مخاطبان، نه هم‌دینی همه آنان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/085.html",
+      "verse": "7:85",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "برادرِ قوم؛ در این سیاق، بیانگر پیوند قومی یا اجتماعی با مخاطبان، نه هم‌دینی همه آنان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/111.html",
+      "verse": "7:111",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "وَأَخاهُ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/142.html",
+      "verse": "7:142",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "لِأَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/150.html",
+      "verse": "7:150",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 20,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/151.html",
+      "verse": "7:151",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "وَلِأَخى",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/202.html",
+      "verse": "7:202",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 1,
+          "word": "وَإِخوٰنُهُم",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/011.html",
+      "verse": "9:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "فَإِخوٰنُكُم",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/023.html",
+      "verse": "9:23",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "وَإِخوٰنَكُم",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/024.html",
+      "verse": "9:24",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "وَإِخوٰنُكُم",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/010-yunus/units/087.html",
+      "verse": "10:87",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "وَأَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/units/050.html",
+      "verse": "11:50",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "برادرِ قوم؛ در این سیاق، بیانگر پیوند قومی یا اجتماعی با مخاطبان، نه هم‌دینی همه آنان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/units/061.html",
+      "verse": "11:61",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "برادرِ قوم؛ در این سیاق، بیانگر پیوند قومی یا اجتماعی با مخاطبان، نه هم‌دینی همه آنان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/units/084.html",
+      "verse": "11:84",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "برادرِ قوم؛ در این سیاق، بیانگر پیوند قومی یا اجتماعی با مخاطبان، نه هم‌دینی همه آنان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/005.html",
+      "verse": "12:5",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "إِخوَتِكَ",
+          "branch": "ikhwah",
+          "brief": "برادران؛ در سیاق مناسب، خواهران و برادران یا اعضای یک پیوند ایمانی."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/007.html",
+      "verse": "12:7",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "وَإِخوَتِهِ",
+          "branch": "ikhwah",
+          "brief": "برادران؛ در سیاق مناسب، خواهران و برادران یا اعضای یک پیوند ایمانی."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/008.html",
+      "verse": "12:8",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "وَأَخوهُ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/058.html",
+      "verse": "12:58",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "إِخوَةُ",
+          "branch": "ikhwah",
+          "brief": "برادران؛ در سیاق مناسب، خواهران و برادران یا اعضای یک پیوند ایمانی."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/059.html",
+      "verse": "12:59",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "بِأَخٍ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/063.html",
+      "verse": "12:63",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 12,
+          "word": "أَخانا",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/064.html",
+      "verse": "12:64",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/065.html",
+      "verse": "12:65",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "أَخانا",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/069.html",
+      "verse": "12:69",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "أَخاهُ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        },
+        {
+          "position": 11,
+          "word": "أَخوكَ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/070.html",
+      "verse": "12:70",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/076.html",
+      "verse": "12:76",
+      "boxes": 3,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        },
+        {
+          "position": 10,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        },
+        {
+          "position": 17,
+          "word": "أَخاهُ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/077.html",
+      "verse": "12:77",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "أَخٌ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/087.html",
+      "verse": "12:87",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "وَأَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/089.html",
+      "verse": "12:89",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "وَأَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/090.html",
+      "verse": "12:90",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "أَخى",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/100.html",
+      "verse": "12:100",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 37,
+          "word": "إِخوَتى",
+          "branch": "ikhwah",
+          "brief": "برادران؛ در سیاق مناسب، خواهران و برادران یا اعضای یک پیوند ایمانی."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/015-al-hijr/units/047.html",
+      "verse": "15:47",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "إِخوٰنًا",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/017-al-isra/units/027.html",
+      "verse": "17:27",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "إِخوٰنَ",
+          "branch": "devil_associates",
+          "brief": "برادران شیاطین؛ همراهی یا همانندی در رفتار و جهت‌گیری، نه نسب زیستی."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/019-maryam/units/028.html",
+      "verse": "19:28",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 1,
+          "word": "يٰأُختَ",
+          "branch": "sister",
+          "brief": "خواهر؛ در کاربرد مجازی، همتای مؤنث یا عضو همان مجموعه."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/019-maryam/units/053.html",
+      "verse": "19:53",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَخاهُ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/030.html",
+      "verse": "20:30",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "أَخِى",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/040.html",
+      "verse": "20:40",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أُختُكَ",
+          "branch": "sister",
+          "brief": "خواهر؛ در کاربرد مجازی، همتای مؤنث یا عضو همان مجموعه."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/042.html",
+      "verse": "20:42",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "وَأَخوكَ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/023-al-muminun/units/045.html",
+      "verse": "23:45",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "وَأَخاهُ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/024-an-nur/units/031.html",
+      "verse": "24:31",
+      "boxes": 3,
+      "tokens": [
+        {
+          "position": 35,
+          "word": "إِخوٰنِهِنَّ",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        },
+        {
+          "position": 38,
+          "word": "إِخوٰنِهِنَّ",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        },
+        {
+          "position": 41,
+          "word": "أَخَوٰتِهِنَّ",
+          "branch": "sisters",
+          "brief": "خواهران."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/024-an-nur/units/061.html",
+      "verse": "24:61",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 28,
+          "word": "إِخوٰنِكُم",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        },
+        {
+          "position": 31,
+          "word": "أَخَوٰتِكُم",
+          "branch": "sisters",
+          "brief": "خواهران."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/025-al-furqan/units/035.html",
+      "verse": "25:35",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "أَخاهُ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/026-ash-shuara/units/036.html",
+      "verse": "26:36",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "وَأَخاهُ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/026-ash-shuara/units/106.html",
+      "verse": "26:106",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "أَخوهُم",
+          "branch": "community",
+          "brief": "برادرِ قوم؛ در این سیاق، بیانگر پیوند قومی یا اجتماعی با مخاطبان، نه هم‌دینی همه آنان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/026-ash-shuara/units/124.html",
+      "verse": "26:124",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "أَخوهُم",
+          "branch": "community",
+          "brief": "برادرِ قوم؛ در این سیاق، بیانگر پیوند قومی یا اجتماعی با مخاطبان، نه هم‌دینی همه آنان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/026-ash-shuara/units/142.html",
+      "verse": "26:142",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "أَخوهُم",
+          "branch": "community",
+          "brief": "برادرِ قوم؛ در این سیاق، بیانگر پیوند قومی یا اجتماعی با مخاطبان، نه هم‌دینی همه آنان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/026-ash-shuara/units/161.html",
+      "verse": "26:161",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "أَخوهُم",
+          "branch": "community",
+          "brief": "برادرِ قوم؛ در این سیاق، بیانگر پیوند قومی یا اجتماعی با مخاطبان، نه هم‌دینی همه آنان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/027-an-naml/units/045.html",
+      "verse": "27:45",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَخاهُم",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/011.html",
+      "verse": "28:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "لِأُختِهِ",
+          "branch": "sister",
+          "brief": "خواهر؛ در کاربرد مجازی، همتای مؤنث یا عضو همان مجموعه."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/034.html",
+      "verse": "28:34",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 1,
+          "word": "وَأَخى",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/035.html",
+      "verse": "28:35",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "بِأَخيكَ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/036.html",
+      "verse": "29:36",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "برادرِ قوم؛ در این سیاق، بیانگر پیوند قومی یا اجتماعی با مخاطبان، نه هم‌دینی همه آنان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/005.html",
+      "verse": "33:5",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 11,
+          "word": "فَإِخوٰنُكُم",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/018.html",
+      "verse": "33:18",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "لِإِخوٰنِهِم",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/055.html",
+      "verse": "33:55",
+      "boxes": 3,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "إِخوٰنِهِنَّ",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        },
+        {
+          "position": 12,
+          "word": "إِخوٰنِهِنَّ",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        },
+        {
+          "position": 15,
+          "word": "أَخَوٰتِهِنَّ",
+          "branch": "sisters",
+          "brief": "خواهران."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/038-sad/units/023.html",
+      "verse": "38:23",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخى",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/043-az-zukhruf/units/048.html",
+      "verse": "43:48",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "أُختِها",
+          "branch": "sister_sign",
+          "brief": "نشانه هم‌خانواده یا همانند؛ نشانه‌ای دیگر از همان مجموعه."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/046-al-ahqaf/units/021.html",
+      "verse": "46:21",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "أَخا",
+          "branch": "community",
+          "brief": "برادرِ قوم؛ در این سیاق، بیانگر پیوند قومی یا اجتماعی با مخاطبان، نه هم‌دینی همه آنان."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/049-al-hujurat/units/010.html",
+      "verse": "49:10",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "إِخوَةٌ",
+          "branch": "ikhwah",
+          "brief": "برادران؛ در سیاق مناسب، خواهران و برادران یا اعضای یک پیوند ایمانی."
+        },
+        {
+          "position": 6,
+          "word": "أَخَوَيكُم",
+          "branch": "two_brothers",
+          "brief": "دو برادر؛ در این آیه، دو طرفِ پیوند ایمانی که باید میانشان اصلاح شود."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/049-al-hujurat/units/012.html",
+      "verse": "49:12",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 23,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/050-qaf/units/013.html",
+      "verse": "50:13",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "وَإِخوٰنُ",
+          "branch": "lut_community",
+          "brief": "برادران؛ در اینجا، گروه هم‌پیوند اجتماعی و تاریخی با لوط."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/058-al-mujadilah/units/022.html",
+      "verse": "58:22",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "إِخوٰنَهُم",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/059-al-hashr/units/010.html",
+      "verse": "59:10",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "وَلِإِخوٰنِنَا",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/059-al-hashr/units/011.html",
+      "verse": "59:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "لِإِخوٰنِهِمُ",
+          "branch": "brothers",
+          "brief": "برادران، دوستان نزدیک یا همراهان در یک پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/070-al-maarij/units/012.html",
+      "verse": "70:12",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "وَأَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/080-abasa/units/034.html",
+      "verse": "80:34",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "برادر؛ در سیاق مناسب، هم‌قوم یا هم‌پیوند."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/178.html",
+      "verse": "2:178",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/220.html",
+      "verse": "2:220",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 13,
+          "word": "فَإِخوٰنُكُم",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/003-al-imran/units/103.html",
+      "verse": "3:103",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "إِخوٰنًا",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/003-al-imran/units/156.html",
+      "verse": "3:156",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "لِإِخوٰنِهِم",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/003-al-imran/units/168.html",
+      "verse": "3:168",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "لِإِخوٰنِهِم",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/011.html",
+      "verse": "4:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 46,
+          "word": "إِخوَةٌ",
+          "branch": "ikhwah",
+          "brief": "Brothers; where context warrants, sisters and brothers or members of a bond of faith."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/012.html",
+      "verse": "4:12",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 58,
+          "word": "أَخٌ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        },
+        {
+          "position": 60,
+          "word": "أُختٌ",
+          "branch": "sister",
+          "brief": "Sister; figuratively, a feminine counterpart or member of the same set."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/023.html",
+      "verse": "4:23",
+      "boxes": 5,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "وَأَخَوٰتُكُم",
+          "branch": "sisters",
+          "brief": "Sisters."
+        },
+        {
+          "position": 9,
+          "word": "الأَخِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        },
+        {
+          "position": 11,
+          "word": "الأُختِ",
+          "branch": "sister",
+          "brief": "Sister; figuratively, a feminine counterpart or member of the same set."
+        },
+        {
+          "position": 15,
+          "word": "وَأَخَوٰتُكُم",
+          "branch": "milk_sisters",
+          "brief": "Sisters through nursing; the verse’s nursing qualification identifies the relationship."
+        },
+        {
+          "position": 45,
+          "word": "الأُختَينِ",
+          "branch": "two_sisters",
+          "brief": "Two sisters."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/176.html",
+      "verse": "4:176",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "أُختٌ",
+          "branch": "sister",
+          "brief": "Sister; figuratively, a feminine counterpart or member of the same set."
+        },
+        {
+          "position": 35,
+          "word": "إِخوَةً",
+          "branch": "ikhwah",
+          "brief": "Brothers; where context warrants, sisters and brothers or members of a bond of faith."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/025.html",
+      "verse": "5:25",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "وَأَخى",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/030.html",
+      "verse": "5:30",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/031.html",
+      "verse": "5:31",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 11,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        },
+        {
+          "position": 22,
+          "word": "أَخى",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/087.html",
+      "verse": "6:87",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "وَإِخوٰنِهِم",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/038.html",
+      "verse": "7:38",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 18,
+          "word": "أُختَها",
+          "branch": "sister_group",
+          "brief": "An affiliated or associated community; a group related in conduct or fate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/065.html",
+      "verse": "7:65",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "Their people’s brother; here, a communal or social bond with the audience, not shared faith among them all."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/073.html",
+      "verse": "7:73",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "Their people’s brother; here, a communal or social bond with the audience, not shared faith among them all."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/085.html",
+      "verse": "7:85",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "Their people’s brother; here, a communal or social bond with the audience, not shared faith among them all."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/111.html",
+      "verse": "7:111",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "وَأَخاهُ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/142.html",
+      "verse": "7:142",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "لِأَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/150.html",
+      "verse": "7:150",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 20,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/151.html",
+      "verse": "7:151",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "وَلِأَخى",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/202.html",
+      "verse": "7:202",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 1,
+          "word": "وَإِخوٰنُهُم",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/011.html",
+      "verse": "9:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "فَإِخوٰنُكُم",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/023.html",
+      "verse": "9:23",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "وَإِخوٰنَكُم",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/024.html",
+      "verse": "9:24",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "وَإِخوٰنُكُم",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/010-yunus/units/087.html",
+      "verse": "10:87",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "وَأَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/011-hud/units/050.html",
+      "verse": "11:50",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "Their people’s brother; here, a communal or social bond with the audience, not shared faith among them all."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/011-hud/units/061.html",
+      "verse": "11:61",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "Their people’s brother; here, a communal or social bond with the audience, not shared faith among them all."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/011-hud/units/084.html",
+      "verse": "11:84",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "Their people’s brother; here, a communal or social bond with the audience, not shared faith among them all."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/005.html",
+      "verse": "12:5",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "إِخوَتِكَ",
+          "branch": "ikhwah",
+          "brief": "Brothers; where context warrants, sisters and brothers or members of a bond of faith."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/007.html",
+      "verse": "12:7",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "وَإِخوَتِهِ",
+          "branch": "ikhwah",
+          "brief": "Brothers; where context warrants, sisters and brothers or members of a bond of faith."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/008.html",
+      "verse": "12:8",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "وَأَخوهُ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/058.html",
+      "verse": "12:58",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "إِخوَةُ",
+          "branch": "ikhwah",
+          "brief": "Brothers; where context warrants, sisters and brothers or members of a bond of faith."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/059.html",
+      "verse": "12:59",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "بِأَخٍ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/063.html",
+      "verse": "12:63",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 12,
+          "word": "أَخانا",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/064.html",
+      "verse": "12:64",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/065.html",
+      "verse": "12:65",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "أَخانا",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/069.html",
+      "verse": "12:69",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "أَخاهُ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        },
+        {
+          "position": 11,
+          "word": "أَخوكَ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/070.html",
+      "verse": "12:70",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/076.html",
+      "verse": "12:76",
+      "boxes": 3,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        },
+        {
+          "position": 10,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        },
+        {
+          "position": 17,
+          "word": "أَخاهُ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/077.html",
+      "verse": "12:77",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "أَخٌ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/087.html",
+      "verse": "12:87",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "وَأَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/089.html",
+      "verse": "12:89",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "وَأَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/090.html",
+      "verse": "12:90",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "أَخى",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/100.html",
+      "verse": "12:100",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 37,
+          "word": "إِخوَتى",
+          "branch": "ikhwah",
+          "brief": "Brothers; where context warrants, sisters and brothers or members of a bond of faith."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/015-al-hijr/units/047.html",
+      "verse": "15:47",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "إِخوٰنًا",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/017-al-isra/units/027.html",
+      "verse": "17:27",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "إِخوٰنَ",
+          "branch": "devil_associates",
+          "brief": "Brothers of the devils: association or similarity in conduct and orientation, not biological descent."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/019-maryam/units/028.html",
+      "verse": "19:28",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 1,
+          "word": "يٰأُختَ",
+          "branch": "sister",
+          "brief": "Sister; figuratively, a feminine counterpart or member of the same set."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/019-maryam/units/053.html",
+      "verse": "19:53",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَخاهُ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/030.html",
+      "verse": "20:30",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "أَخِى",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/040.html",
+      "verse": "20:40",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أُختُكَ",
+          "branch": "sister",
+          "brief": "Sister; figuratively, a feminine counterpart or member of the same set."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/042.html",
+      "verse": "20:42",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "وَأَخوكَ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/023-al-muminun/units/045.html",
+      "verse": "23:45",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "وَأَخاهُ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/024-an-nur/units/031.html",
+      "verse": "24:31",
+      "boxes": 3,
+      "tokens": [
+        {
+          "position": 35,
+          "word": "إِخوٰنِهِنَّ",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        },
+        {
+          "position": 38,
+          "word": "إِخوٰنِهِنَّ",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        },
+        {
+          "position": 41,
+          "word": "أَخَوٰتِهِنَّ",
+          "branch": "sisters",
+          "brief": "Sisters."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/024-an-nur/units/061.html",
+      "verse": "24:61",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 28,
+          "word": "إِخوٰنِكُم",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        },
+        {
+          "position": 31,
+          "word": "أَخَوٰتِكُم",
+          "branch": "sisters",
+          "brief": "Sisters."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/025-al-furqan/units/035.html",
+      "verse": "25:35",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "أَخاهُ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/026-ash-shuara/units/036.html",
+      "verse": "26:36",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "وَأَخاهُ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/026-ash-shuara/units/106.html",
+      "verse": "26:106",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "أَخوهُم",
+          "branch": "community",
+          "brief": "Their people’s brother; here, a communal or social bond with the audience, not shared faith among them all."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/026-ash-shuara/units/124.html",
+      "verse": "26:124",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "أَخوهُم",
+          "branch": "community",
+          "brief": "Their people’s brother; here, a communal or social bond with the audience, not shared faith among them all."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/026-ash-shuara/units/142.html",
+      "verse": "26:142",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "أَخوهُم",
+          "branch": "community",
+          "brief": "Their people’s brother; here, a communal or social bond with the audience, not shared faith among them all."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/026-ash-shuara/units/161.html",
+      "verse": "26:161",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "أَخوهُم",
+          "branch": "community",
+          "brief": "Their people’s brother; here, a communal or social bond with the audience, not shared faith among them all."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/027-an-naml/units/045.html",
+      "verse": "27:45",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَخاهُم",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/011.html",
+      "verse": "28:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "لِأُختِهِ",
+          "branch": "sister",
+          "brief": "Sister; figuratively, a feminine counterpart or member of the same set."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/034.html",
+      "verse": "28:34",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 1,
+          "word": "وَأَخى",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/035.html",
+      "verse": "28:35",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "بِأَخيكَ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/036.html",
+      "verse": "29:36",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخاهُم",
+          "branch": "community",
+          "brief": "Their people’s brother; here, a communal or social bond with the audience, not shared faith among them all."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/005.html",
+      "verse": "33:5",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 11,
+          "word": "فَإِخوٰنُكُم",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/018.html",
+      "verse": "33:18",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "لِإِخوٰنِهِم",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/055.html",
+      "verse": "33:55",
+      "boxes": 3,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "إِخوٰنِهِنَّ",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        },
+        {
+          "position": 12,
+          "word": "إِخوٰنِهِنَّ",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        },
+        {
+          "position": 15,
+          "word": "أَخَوٰتِهِنَّ",
+          "branch": "sisters",
+          "brief": "Sisters."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/038-sad/units/023.html",
+      "verse": "38:23",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "أَخى",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/043-az-zukhruf/units/048.html",
+      "verse": "43:48",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "أُختِها",
+          "branch": "sister_sign",
+          "brief": "A related or comparable sign; another sign in the same set."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/046-al-ahqaf/units/021.html",
+      "verse": "46:21",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "أَخا",
+          "branch": "community",
+          "brief": "Their people’s brother; here, a communal or social bond with the audience, not shared faith among them all."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/049-al-hujurat/units/010.html",
+      "verse": "49:10",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "إِخوَةٌ",
+          "branch": "ikhwah",
+          "brief": "Brothers; where context warrants, sisters and brothers or members of a bond of faith."
+        },
+        {
+          "position": 6,
+          "word": "أَخَوَيكُم",
+          "branch": "two_brothers",
+          "brief": "Two brothers; here, two parties to a bond of faith who should be reconciled."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/049-al-hujurat/units/012.html",
+      "verse": "49:12",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 23,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/050-qaf/units/013.html",
+      "verse": "50:13",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "وَإِخوٰنُ",
+          "branch": "lut_community",
+          "brief": "Brothers; here, a group socially and historically affiliated with Lūṭ."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/058-al-mujadilah/units/022.html",
+      "verse": "58:22",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 19,
+          "word": "إِخوٰنَهُم",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/059-al-hashr/units/010.html",
+      "verse": "59:10",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "وَلِإِخوٰنِنَا",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/059-al-hashr/units/011.html",
+      "verse": "59:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "لِإِخوٰنِهِمُ",
+          "branch": "brothers",
+          "brief": "Brothers, close friends, or associates in a bond."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/070-al-maarij/units/012.html",
+      "verse": "70:12",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "وَأَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/080-abasa/units/034.html",
+      "verse": "80:34",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "أَخيهِ",
+          "branch": "brother",
+          "brief": "Brother; where context warrants, a fellow member of one’s people or an associate."
+        }
+      ]
+    }
+  ],
+  "Allah_boxes": [
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/178.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/220.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/fa/003-al-imran/units/103.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/fa/003-al-imran/units/156.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/fa/003-al-imran/units/168.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/012.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/023.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/176.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/025.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/030.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/031.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/087.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/038.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/065.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/073.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/085.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/111.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/142.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/150.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/151.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/202.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/023.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/024.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/fa/010-yunus/units/087.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/units/050.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/units/061.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/units/084.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/007.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/008.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/058.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/059.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/063.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/064.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/065.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/069.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/070.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/076.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/077.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/087.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/089.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/090.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/100.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/015-al-hijr/units/047.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/017-al-isra/units/027.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/019-maryam/units/028.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/019-maryam/units/053.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/030.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/040.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/042.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/023-al-muminun/units/045.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/024-an-nur/units/031.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/024-an-nur/units/061.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/025-al-furqan/units/035.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/026-ash-shuara/units/036.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/026-ash-shuara/units/106.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/026-ash-shuara/units/124.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/026-ash-shuara/units/142.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/026-ash-shuara/units/161.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/027-an-naml/units/045.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/034.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/035.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/036.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/018.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/055.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/038-sad/units/023.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/043-az-zukhruf/units/048.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/046-al-ahqaf/units/021.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/049-al-hujurat/units/010.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/049-al-hujurat/units/012.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/050-qaf/units/013.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/058-al-mujadilah/units/022.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 5
+    },
+    {
+      "file": "quran-reflection/fa/059-al-hashr/units/010.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/059-al-hashr/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/070-al-maarij/units/012.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/080-abasa/units/034.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/178.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/220.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/en/003-al-imran/units/103.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/en/003-al-imran/units/156.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/en/003-al-imran/units/168.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/012.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/023.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/176.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/025.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/030.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/031.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/087.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/038.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/065.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/073.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/085.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/111.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/142.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/150.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/151.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/202.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/023.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/024.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/en/010-yunus/units/087.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/011-hud/units/050.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/011-hud/units/061.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/011-hud/units/084.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/007.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/008.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/058.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/059.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/063.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/064.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/065.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/069.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/070.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/076.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/077.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/087.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/089.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/090.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/100.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/015-al-hijr/units/047.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/017-al-isra/units/027.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/019-maryam/units/028.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/019-maryam/units/053.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/030.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/040.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/042.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/023-al-muminun/units/045.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/024-an-nur/units/031.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/024-an-nur/units/061.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/025-al-furqan/units/035.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/026-ash-shuara/units/036.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/026-ash-shuara/units/106.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/026-ash-shuara/units/124.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/026-ash-shuara/units/142.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/026-ash-shuara/units/161.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/027-an-naml/units/045.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/034.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/035.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/036.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/018.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/055.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/038-sad/units/023.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/043-az-zukhruf/units/048.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/046-al-ahqaf/units/021.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/049-al-hujurat/units/010.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/049-al-hujurat/units/012.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/050-qaf/units/013.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/058-al-mujadilah/units/022.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 5
+    },
+    {
+      "file": "quran-reflection/en/059-al-hashr/units/010.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/059-al-hashr/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/070-al-maarij/units/012.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/080-abasa/units/034.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    }
+  ],
+  "persian_edits": [
+    {
+      "block": 23,
+      "before": "در حالت اضافه، به‌ویژه هنگامی که به اسم آشکار یا ضمیر متصل شود، ممکن است به صورت‌های «أَخُو»، «أَخَا» و «أَخِي» بیاید.",
+      "after": "در کاربرد مشهور اسم‌های پنج‌گانه، هنگامی که «أخ» مفرد و غیرمصغّر باشد و به اسمی غیر از یاء متکلم اضافه شود، با واو در رفع، الف در نصب و یاء در جر می‌آید: «أَخُو»، «أَخَا» و «أَخِي»."
+    },
+    {
+      "block": 24,
+      "before": "برای نمونه، «أَخُوكَ» در حالت رفع، «أَخَاكَ» در حالت نصب و «أَخِيكَ» در حالت جر شناخته شده‌اند.",
+      "after": "برای نمونه، «أَخُوكَ» در حالت رفع، «أَخَاكَ» در حالت نصب و «أَخِيكَ» در حالت جر شناخته شده‌اند. اما در «أَخِي» به معنای «برادر من»، یاء ضمیر متکلم است و اعراب واژه با حرکت‌های مقدّر تحلیل می‌شود؛ این کاربرد را نباید با یاء اعرابی در «أَخِيكَ» یکی دانست."
+    },
+    {
+      "block": 68,
+      "before": "موسی از خداوند می‌خواهد هارون را همراه او قرار دهد و در طه ۲۰:۳۰ می‌گوید:",
+      "after": "موسی از آن معبود یگانه می‌خواهد هارون را همراه او قرار دهد و در طه ۲۰:۳۰ می‌گوید:"
+    },
+    {
+      "block": 101,
+      "before": "در نساء ۴:۱۱، ۴:۱۲ و ۴:۱۷۶، واژه‌های «إخوة»، «أخ» و «أخت» در موضوع میراث آمده‌اند.",
+      "after": "در نساء ۴:۱۱، نساء ۴:۱۲ و نساء ۴:۱۷۶، واژه‌های «إخوة»، «أخ» و «أخت» در موضوع میراث آمده‌اند."
+    },
+    {
+      "block": 126,
+      "before": "در همین سوره، نوح در شعراء ۲۶:۱۰۶، هود در ۲۶:۱۲۴ و صالح در ۲۶:۱۴۲ با تعبیر «أخوهم» معرفی شده‌اند.",
+      "after": "در همین سوره، نوح در شعراء ۲۶:۱۰۶، هود در شعراء ۲۶:۱۲۴ و صالح در شعراء ۲۶:۱۴۲ با تعبیر «أخوهم» معرفی شده‌اند."
+    },
+    {
+      "block": 152,
+      "before": "«مؤمنان با یکدیگر برادرند؛ پس میان دو برادر خود آشتی برقرار کنید و از خداوند پروا کنید، باشد که مشمول رحمت شوید.»",
+      "after": "«مؤمنان با یکدیگر برادرند؛ پس میان دو برادر خود آشتی برقرار کنید و از آن معبود یگانه پروا کنید، باشد که مشمول رحمت شوید.»"
+    },
+    {
+      "block": 163,
+      "before": "«و همگی به ریسمان خداوند چنگ زنید و پراکنده نشوید. و نعمت خداوند را بر خود یاد کنید، آن هنگام که دشمن یکدیگر بودید، پس دل‌هایتان را به هم پیوند داد و به نعمت او برادر شدید. و بر لبه گودالی از آتش بودید، پس شما را از آن نجات داد. خداوند این‌گونه آیات خود را برایتان روشن می‌سازد، باشد که هدایت شوید.»",
+      "after": "«و همگی به ریسمان آن معبود یگانه چنگ زنید و پراکنده نشوید. و نعمت آن معبود یگانه را بر خود یاد کنید، آن هنگام که دشمن یکدیگر بودید، پس دل‌هایتان را به هم پیوند داد و به نعمت او برادر شدید. و بر لبه گودالی از آتش بودید، پس شما را از آن نجات داد. آن معبود یگانه این‌گونه آیات خود را برایتان روشن می‌سازد، باشد که هدایت شوید.»"
+    },
+    {
+      "block": 173,
+      "before": "«آنان را به نام پدرانشان بخوانید؛ این نزد خداوند عادلانه‌تر است. و اگر پدرانشان را نمی‌شناسید، آنان برادران دینی و وابستگان شما هستند. و در آنچه از روی خطا انجام داده‌اید گناهی بر شما نیست، بلکه آنچه دل‌هایتان آگاهانه قصد کرده‌اند مورد نظر است؛ و خداوند آمرزنده و مهربان است.»",
+      "after": "«آنان را به نام پدرانشان بخوانید؛ این نزد آن معبود یگانه عادلانه‌تر است. و اگر پدرانشان را نمی‌شناسید، آنان برادران دینی و وابستگان شما هستند. و در آنچه از روی خطا انجام داده‌اید گناهی بر شما نیست، بلکه آنچه دل‌هایتان آگاهانه قصد کرده‌اند مورد نظر است؛ و آن معبود یگانه آمرزنده و مهربان است.»"
+    },
+    {
+      "block": 209,
+      "before": "در حشر ۵۹:۱۱ نیز منافقان گروهی از کافران را «إخوانهم» معرفی کرده‌اند. این کاربرد در زمینه همکاری و وعده حمایت آمده است؛ نه پیوند ایمانی میان تمام آنان.",
+      "after": "در حشر ۵۹:۱۱ نیز قرآن گروهی از کافران اهل کتاب را «برادرانِ» منافقان می‌خواند و وعده حمایت منافقان به آنان را نقل می‌کند. این کاربرد در زمینه همکاری و وعده حمایت آمده است؛ نه پیوند ایمانی میان تمام آنان."
+    },
+    {
+      "block": 289,
+      "before": "«پس به نعمت خداوند برادر شدید.»",
+      "after": "«پس به نعمت آن معبود یگانه برادر شدید.»"
+    }
+  ],
+  "corrections": [
+    "Specified the conditions for wāw/alif/yāʾ case inflection of akh and distinguished the possessive yāʾ in akhī from case-marking yāʾ in akhīka.",
+    "Clarified that 59:11 is the Qur’an’s description of the hypocrites’ relationship with a group of disbelieving People of the Book, not a quoted declaration by the hypocrites naming them brothers.",
+    "Repeated the chapter names at 4:11, 4:12, 4:176 and 26:106, 26:124, 26:142 so every reference is independently linked.",
+    "Applied the established Persian divine naming convention outside Arabic quotations."
+  ],
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=Axw",
+      "use": "96 noun occurrences in three lemma groups; cached morphology corroborates 80 verses, 31 surahs and all word positions."
+    },
+    {
+      "url": "https://arabiclexicon.hawramani.com/أخ/",
+      "use": "Al-Rāghib, Al-Mufradāt: familial, nursing and broader relational uses; ukht and figurative examples."
+    },
+    {
+      "url": "https://www.islamweb.net/ar/library/content/124/65/باب-الهمزة-والخاء-وما-معهما-في-الثلاثي",
+      "use": "Ibn Fāris, Maqāyīs: proposed hamzah/wāw relationship, distinguished from established morphological classification."
+    },
+    {
+      "url": "https://tafsir.app/albaseet/3/103",
+      "use": "Al-Wāḥidī, Al-Basīṭ: Abū Ḥātim rejects an absolute kinship/friendship division between ikhwah and ikhwān."
+    },
+    {
+      "url": "https://www.masaha.org/book/view/2504/page/326",
+      "use": "ʿAbbās Ḥasan, Al-Naḥw al-Wāfī: the case of the special nouns annexed to first-person yāʾ."
+    },
+    {
+      "url": "https://khzanah.com/books/759?pageIndex=101",
+      "use": "Al-Zamakhsharī, Al-Mufaṣṣal: the special nouns with first-person yāʾ and the omitted final radical."
+    },
+    {
+      "url": "https://kutub.nur.nu/Arabic-Language/Shudhur-al-dhahab-sharh.pdf",
+      "use": "Ibn Hishām, Sharḥ Shudhūr al-Dhahab with editorial apparatus: poem wording, exhortation, Miskīn attribution and cross-reference to Khizānat al-Adab."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura59-aya11.html",
+      "use": "Exact 59:11 wording and the narrative description of brotherhood and promised support."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura19-aya28.html",
+      "use": "Al-Ṭabarī: alternative identities and readings of sister of Hārūn."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura43-aya48.html",
+      "use": "Al-Qurṭubī: ukht as similarity and relationship among signs."
+    }
+  ],
+  "original_sha256": {
+    "quran-terminology/fa/roots/a-kh-w/index.html": null,
+    "quran-terminology/en/roots/a-kh-w/index.html": null,
+    "_data/quran-root-studies.json": "0fcbc25c69457b90e4cb4b24216ca0f8ce97cbacbe025ea023b3ec9bf009850f",
+    "quran-reflection/fa/002-al-baqarah/units/178.html": "71fa0bb5eb00080009790e2d96197e9a0d16b29613a565428cbb4293158818dd",
+    "quran-reflection/fa/002-al-baqarah/units/220.html": "9b2ad0af13d398663d8284c0ebb8572d3c1894fc28c469b95f8112189768ee88",
+    "quran-reflection/fa/003-al-imran/units/103.html": "63db7adfa09910f7dc9701004754916fa08f493db250e3f44bf173bb92da6ea1",
+    "quran-reflection/fa/003-al-imran/units/156.html": "1c53505658efdf63b6f26257eec8d2c0631396413aede8328dfd637e0f52d9fa",
+    "quran-reflection/fa/003-al-imran/units/168.html": "5387b4eec04de44fae3bfcd08fcf5df54eb2f0532d4071d4dcfc02ca2c0dc797",
+    "quran-reflection/fa/004-an-nisa/units/011.html": "ba9e52e9d09a0fb2c563fce0bf7f640e77af7969669a913f098467ee70eacc83",
+    "quran-reflection/fa/004-an-nisa/units/012.html": "ed928f49e6e983d8ef6b51909ace7634324f3697f9de185120be700a76c7c407",
+    "quran-reflection/fa/004-an-nisa/units/023.html": "8521218641971e0207e2390e4849b5b2c8bbc48b284b1f82a4a785da429690d6",
+    "quran-reflection/fa/004-an-nisa/units/176.html": "ae24993a8a4ffd9f6c7fc6a134e24209f5b7b6353cfb79d7f406010315bce993",
+    "quran-reflection/fa/005-al-maidah/units/025.html": "9689014d53a980b4acd98b7678a6cb80d76da86db699893e74ec49408f1de5dd",
+    "quran-reflection/fa/005-al-maidah/units/030.html": "fc5fd0b7705c4bcd0e6bec41943f541d70507c5c0322281702ea32fe23053522",
+    "quran-reflection/fa/005-al-maidah/units/031.html": "bec45e0af2c28dd8fb551618f4cf608d345e8151d51cef5378858cac25b4f4e8",
+    "quran-reflection/fa/006-al-anam/units/087.html": "830fefdede3fb125eff72209be2a09b5d604737fe5a050784ce186b82e245fa2",
+    "quran-reflection/fa/007-al-araf/units/038.html": "569c47bbc50e846cd659ee4164eafba5e0fa064ce86448d5dd41eba5788b92dc",
+    "quran-reflection/fa/007-al-araf/units/065.html": "8df9b1e3b99d5199de24ef84726c05e38940f39d4961399c2465f32f3e9c40dc",
+    "quran-reflection/fa/007-al-araf/units/073.html": "f4146cca941cb582b073bad1fb747fea38c5062c74cbe0cc61f94b020b415894",
+    "quran-reflection/fa/007-al-araf/units/085.html": "ea37ba4777fc41f7b74eb5918b9f53bd4ae5173506fb5b951751bf413796fc3b",
+    "quran-reflection/fa/007-al-araf/units/111.html": "183eb35d65703b13f27b209251df8dd5f75c4adc449fe14d94f20e54358c69c6",
+    "quran-reflection/fa/007-al-araf/units/142.html": "c65ad190b5904299a6a4376b9a386877043dd23e376d98ff58f6700fbc3e6d95",
+    "quran-reflection/fa/007-al-araf/units/150.html": "1d49e83e3cfe42ea70a386a75c71df5c943ca80551925abb9e18a5e350507435",
+    "quran-reflection/fa/007-al-araf/units/151.html": "d33e48713528e398b078330af07ea81b166e682c7a857f78fde4aee88dd1da20",
+    "quran-reflection/fa/007-al-araf/units/202.html": "0bdb3011f64971abc9564bd0f96bc4cccff75798861c12b33b826d53fe4e0102",
+    "quran-reflection/fa/009-at-tawbah/units/011.html": "bfb3ac63fd9ca6374e51b3012b21cf1fedfdd867e0d5b0a64ce9ee6bc44f1149",
+    "quran-reflection/fa/009-at-tawbah/units/023.html": "4e16b295c2a0fb8a36888c4c569646fee7ee8811db0b7ba9c36e2a5ac10f32a4",
+    "quran-reflection/fa/009-at-tawbah/units/024.html": "723a0cb68071b397dce5fa747f420d3113302c358984c2e7118d3fedfa7b984d",
+    "quran-reflection/fa/010-yunus/units/087.html": "a55f9fefca9ef0fe1cd4857fddb1861025fe6305c77526299b1a2fb12dd47280",
+    "quran-reflection/fa/011-hud/units/050.html": "95228fa4289d179a1a6e363e1769bf2d2770d4a50ad024065f159b5e7e8846d4",
+    "quran-reflection/fa/011-hud/units/061.html": "6cf7ee54698a51f6a194460b02ac786aa66b64615594f8b440bb37bca87f5637",
+    "quran-reflection/fa/011-hud/units/084.html": "8f08b544bca018398727a0531064f6f58240e64f237da922133eab900fe291f8",
+    "quran-reflection/fa/012-yusuf/units/005.html": "97997a11ac438e6e34d949c4b43d237779fab96c2951f9cebcd22a911512be0d",
+    "quran-reflection/fa/012-yusuf/units/007.html": "3613f43ca9e554dc1a60329b6dab18f068e765392b7be8413d60a3c8ebb0016e",
+    "quran-reflection/fa/012-yusuf/units/008.html": "842e0a11eb21783efb86b0e5cd5e82fb0c29773b1ca90b93f6de447fd7c875c1",
+    "quran-reflection/fa/012-yusuf/units/058.html": "2cc0d9d3657c0e6bf4293fa1db83840865709373785f950087ddf6062d4b3b5b",
+    "quran-reflection/fa/012-yusuf/units/059.html": "48bee10893cd463c92c576483f26e8bcf4cb18b62643754b3bc59fa1dadc99cf",
+    "quran-reflection/fa/012-yusuf/units/063.html": "61bafae79ca3e881f0fdd7ae37359df6b6de3a2e5fc68633a69728bcd665a989",
+    "quran-reflection/fa/012-yusuf/units/064.html": "2ffcdef9659ce12d03c58ef991ea4da63ab47657218a61841f077eb582b92edd",
+    "quran-reflection/fa/012-yusuf/units/065.html": "465eb7c3baa99371676dc8c2650c16eb17c737e040af050b92a46e587b7a4651",
+    "quran-reflection/fa/012-yusuf/units/069.html": "45c421148e1122a7bc9ad66cf9ebbe39a536a28c4048d7d01f5af88b4e6928f7",
+    "quran-reflection/fa/012-yusuf/units/070.html": "f4de3ff0a951720613938f308efaf17b6ca956a905fcdfd6ebfc019bc61355c4",
+    "quran-reflection/fa/012-yusuf/units/076.html": "311ef788438a435c1e869f067af14ca36fe8374a859eec90c064d506f20d6c13",
+    "quran-reflection/fa/012-yusuf/units/077.html": "042fa7112ac4cf738bc9e5d6fdc960c889dcfbf4a429b5662c23164ae2123d87",
+    "quran-reflection/fa/012-yusuf/units/087.html": "af5718a2a7fe18220d7b634f267fc9a58f71fcacbe2f171e5a12b163ab3868c9",
+    "quran-reflection/fa/012-yusuf/units/089.html": "0af5909bdd8e331faa09084bf1a196db4a9ebef6dce767dddf9b3577ffa95717",
+    "quran-reflection/fa/012-yusuf/units/090.html": "c86e2d637b3807c51d8b82ba910d4c3d68cd268de5018713a75e5abe534be1b7",
+    "quran-reflection/fa/012-yusuf/units/100.html": "434d823eba7950b687adb49e5fb65217c29595f45db1f1061086fd84e49711ad",
+    "quran-reflection/fa/015-al-hijr/units/047.html": "2b33462a4fabf94587e4b12a978f9a7060f64c99cb6f4f992e2bb2bbe1d9d444",
+    "quran-reflection/fa/017-al-isra/units/027.html": "60d9eaae80beb23e4f5f9a6219c70f852d5329d888c20d92d358de61b4b3ece4",
+    "quran-reflection/fa/019-maryam/units/028.html": "b4b7b96c5694f9b3397d1df938f5ea11543ac39ac289bdebfdb4a00da8b670c7",
+    "quran-reflection/fa/019-maryam/units/053.html": "2ec1a084066ce892eeade6a047b601153bdc95a3ffdd4120d3859b979bf67d53",
+    "quran-reflection/fa/020-ta-ha/units/030.html": "3c43196cef59bb38145acf38a79314e6e1833a767dce045dca43c1ee3881b804",
+    "quran-reflection/fa/020-ta-ha/units/040.html": "270af00e1d3df2d39a1663dd410c9ade8280df4b174c92edcc92fa2ee9e6e1bc",
+    "quran-reflection/fa/020-ta-ha/units/042.html": "eb9ad395a66a753e7ce220e47c8957b8dbb1b952e8ac2e062482295c23ac0f2f",
+    "quran-reflection/fa/023-al-muminun/units/045.html": "54c1e6dc116849a6c3997e1e85b2f7d3254927cee596679645857102a442e282",
+    "quran-reflection/fa/024-an-nur/units/031.html": "3bc4cad764b4db6f7d1a85e02c33e134366ce7b0559a686d61d432230cd1ba58",
+    "quran-reflection/fa/024-an-nur/units/061.html": "2a6984cddce2e434b6203347a262cf4cf7ea066464ec4cfc630e87dce381ad34",
+    "quran-reflection/fa/025-al-furqan/units/035.html": "bed4cebeca0d7b46744847ceea12cf1db4bcd23c6ea9b484bbf98d179b6abb8d",
+    "quran-reflection/fa/026-ash-shuara/units/036.html": "982a18a77fce85c924fb13e306eae88e9c93ba086610a6cd75d9fe3639a5a5a0",
+    "quran-reflection/fa/026-ash-shuara/units/106.html": "49ebabc4caacdc6bf67ff291c61d0447c610b3d8bb53174fda3932dae3451a2a",
+    "quran-reflection/fa/026-ash-shuara/units/124.html": "55c13d1db7bac5824a37752406a1270355c3ace0550c97f028601006aef53ee3",
+    "quran-reflection/fa/026-ash-shuara/units/142.html": "b474ae6a09bd62109a1635c1b5eff764337e9c39f173fa52052f920309985734",
+    "quran-reflection/fa/026-ash-shuara/units/161.html": "aaf9c9bc3ef957209fd142bc6d819e075a4c4ed295be6bf232b21eb4b9339bbc",
+    "quran-reflection/fa/027-an-naml/units/045.html": "1056fb6e77305342f4b7b0f810de39276e89e14b8e8e678b34d30c39ff7d881c",
+    "quran-reflection/fa/028-al-qasas/units/011.html": "a350dea844152bc9f932c737c27daa03a1b100a3f18d5c688e0733444c01898e",
+    "quran-reflection/fa/028-al-qasas/units/034.html": "1594ad0a6d2efe87f3e73f3926cbad9cf194285ac7622a72943ab37aa12c0f65",
+    "quran-reflection/fa/028-al-qasas/units/035.html": "c193e01683cb3a7a504b9da7412d5928172fdc39812aba0d43433306bb43fd94",
+    "quran-reflection/fa/029-al-ankabut/units/036.html": "32d312ff6a0f1241e92beb66f84ad0b339fc578dddf5dbe1c1ff1c4180fa93df",
+    "quran-reflection/fa/033-al-ahzab/units/005.html": "7f3367548e42654f60a05a136bec7f1be49c6ab5fe6faa4ba40c4fd231d62ee1",
+    "quran-reflection/fa/033-al-ahzab/units/018.html": "907de67e29b830d35fdf9af30cdc9c7ebfebc9982ed4f375e1f9716f7b8c5ac3",
+    "quran-reflection/fa/033-al-ahzab/units/055.html": "06eba28c864c95a47fdb1434d37a3eaa0efaa5c045ff63d516eee47b316b314f",
+    "quran-reflection/fa/038-sad/units/023.html": "147dcb9e9aa6730481832b54463a41545e8112a62ed5d92615061c24f4eb8485",
+    "quran-reflection/fa/043-az-zukhruf/units/048.html": "35054ba3837704d3a7c21a4a9d2d6cfc229b4082bf45c001534037385f7207fe",
+    "quran-reflection/fa/046-al-ahqaf/units/021.html": "e131584a3ec817fca5d2b6d3dcc0599d6978feb9c189f7b227b9fd90d22d7336",
+    "quran-reflection/fa/049-al-hujurat/units/010.html": "01c000dd97c46778eff6d45405ca3e2f6664b46e47c3b1b347838ee048b5428f",
+    "quran-reflection/fa/049-al-hujurat/units/012.html": "90876d4552af71c2564d0ad4be57d69c7f404ce98354dca497e38c5de12f31e4",
+    "quran-reflection/fa/050-qaf/units/013.html": "baa72c3378b937cf5a6149b3ffecb2d772e2cf113f5b2cb043d54c50a7693638",
+    "quran-reflection/fa/058-al-mujadilah/units/022.html": "8104b3d2475999f9e377222d33158f399248497f21d5a9fb2389c8bf1c372c3c",
+    "quran-reflection/fa/059-al-hashr/units/010.html": "378fe2933c88310abbcf09bca01b7333448267fe86de4f290adbf11dd1db24a4",
+    "quran-reflection/fa/059-al-hashr/units/011.html": "f0e10bf5dfb8f9b51e161b830790fba6cfb64828bc275636bc7c06db2abde083",
+    "quran-reflection/fa/070-al-maarij/units/012.html": "2874dfbdcbf121daede8ae692e99d5a8c0dd149d231d75a990395a9351e6c96a",
+    "quran-reflection/fa/080-abasa/units/034.html": "74fae98edbc757f9968dfbf00a981733118c4dce2ffd255282d55b6bf0fb90a4",
+    "quran-reflection/en/002-al-baqarah/units/178.html": "4aebf2495bbdb842bf71f7e5b91033d95b4b170504676eb9a7c9a6868a44f9b5",
+    "quran-reflection/en/002-al-baqarah/units/220.html": "6c1bf4643ba884b05c6b609d9b46df6be218670e1501a5c7bfb3749fddb7e7d9",
+    "quran-reflection/en/003-al-imran/units/103.html": "02e4f89d1069ef0e8c8eea8e027197b7c337e40d204e28042c3179432464892e",
+    "quran-reflection/en/003-al-imran/units/156.html": "0196ba9d1325bbd88b88ee39edd824cf936898c023166f639fa82378a56f61ae",
+    "quran-reflection/en/003-al-imran/units/168.html": "b785077ae12b0d4ac4bdae9608bb7a4a1655642a230248026058f75f0afe044b",
+    "quran-reflection/en/004-an-nisa/units/011.html": "34949126fa2d37a31c2c0d3cffd1a198378ab8d2cefa254ec53a750f70d56bb8",
+    "quran-reflection/en/004-an-nisa/units/012.html": "dfd5355dc088415ed1fa0b0049d2ba524434db223fa758c32661b5f1434c37ca",
+    "quran-reflection/en/004-an-nisa/units/023.html": "77504f4d1d7315852d38ba2e5520f6e585aa4d2d0405cf367bf37109534bb018",
+    "quran-reflection/en/004-an-nisa/units/176.html": "43b4ea15aea898d1ab100c10af5fbea91e96e10586a1af8671b2de22badaea08",
+    "quran-reflection/en/005-al-maidah/units/025.html": "f18095abcb23c4514735666dfcf444f2428112df095f681011a93db943619ece",
+    "quran-reflection/en/005-al-maidah/units/030.html": "1f826d44de9feede1c59488c9eed018bb24716adbf67318ced1c05ab20909435",
+    "quran-reflection/en/005-al-maidah/units/031.html": "55eb286890fcda156d6cc0b40bf05ad062460d738326f6e3859df20848d10521",
+    "quran-reflection/en/006-al-anam/units/087.html": "1569b478abedc446658bbe72226ffee63331cab76f9419ea7c47f3cae632bbef",
+    "quran-reflection/en/007-al-araf/units/038.html": "18e173fdb153a2fe973939b53921b21ca5fef6cb51ee4a9d1ccfb575fd12091a",
+    "quran-reflection/en/007-al-araf/units/065.html": "c4648a72edc850e34ac2791717d0794dd471eaa1a8f7d50fa5efed338e8c4fb8",
+    "quran-reflection/en/007-al-araf/units/073.html": "b1dc65417f869ede15ce7f9e4b95d952092f2439679dc08ddd939486af29f40d",
+    "quran-reflection/en/007-al-araf/units/085.html": "0df449b8b48bbbea618107f933d594bd62f5c63172e520bd476ef563955758d9",
+    "quran-reflection/en/007-al-araf/units/111.html": "a7a4e8525c516d2661eb31836ac5d2fcf987cbd250d03add2a4e90200b2bb4b8",
+    "quran-reflection/en/007-al-araf/units/142.html": "53f6389c1f8b1428839c656b08549326e88a7759d46f6b93e48be7ba5e0aae06",
+    "quran-reflection/en/007-al-araf/units/150.html": "161c87ffa44e37d8e14d7aec15aa811f8d37933249b6fadf7502bcfdf11542af",
+    "quran-reflection/en/007-al-araf/units/151.html": "d67f9c98b40795c7d1b456b2ca0b44691b3900c71d6625fc86df0bf8e59b5244",
+    "quran-reflection/en/007-al-araf/units/202.html": "5f19eca9c241e81d4d9da4007c2e0060bfaaaf5fd957e29706d0ea21b1d22b4c",
+    "quran-reflection/en/009-at-tawbah/units/011.html": "fdec336f907ef3e6cdab127c718dc287272e3154858a8322317563941b5e043e",
+    "quran-reflection/en/009-at-tawbah/units/023.html": "9c9926d95509acf4be34a1abd0d951975fa19b412618acf0e4f5ca48e2e3bf33",
+    "quran-reflection/en/009-at-tawbah/units/024.html": "10748eddf88ceeaf94c605f16678624c8d19770afefa939db7eb2f81ebde71ee",
+    "quran-reflection/en/010-yunus/units/087.html": "f58823c586c015ac9c32911e8ac6a401bf07dc38a752fd638ce973e82918aa85",
+    "quran-reflection/en/011-hud/units/050.html": "9f0257368c1c211d879646478add6452843d010d5564a2681d06e7da77521d64",
+    "quran-reflection/en/011-hud/units/061.html": "5636576e95644a7195550c32009c45ce201d2f2daae2cdf2875c2501ee3f61a7",
+    "quran-reflection/en/011-hud/units/084.html": "df5f0b928699eb6793b60cde2042b161aa53d4bbf8c5d499cc4076e0b067d04d",
+    "quran-reflection/en/012-yusuf/units/005.html": "0147de19ed8a8d4c5034807d7e2e1346f18eef0897f403f5615e6e341f7eef84",
+    "quran-reflection/en/012-yusuf/units/007.html": "a63c23acb645a478dd24c35cf10800043b817946e1c2741f2a8b4af0b57904c6",
+    "quran-reflection/en/012-yusuf/units/008.html": "3dcb8464227a54790ddffa059f071b564a1b0a9421c8eddcf6ecf7ac9e069974",
+    "quran-reflection/en/012-yusuf/units/058.html": "896e653e26f9e6d807adfa4a28578fab2ff188a9962ac1e01dec853ad96de16e",
+    "quran-reflection/en/012-yusuf/units/059.html": "484ae360b765c0b2eb14f3333b6ed1665b0567332c7425c36a34a9a09dec0f76",
+    "quran-reflection/en/012-yusuf/units/063.html": "32dd764bd7d1441929a0a31fdb8eefa8db195ba88c0e39d25e8028d30470af22",
+    "quran-reflection/en/012-yusuf/units/064.html": "5a3e8c0d5dcfffcf82f0d5baea794db585cc697f2f6e20c52d06e69862b66906",
+    "quran-reflection/en/012-yusuf/units/065.html": "3ef3c9c3e4e8147a449a82910fe270fd8894ec139c068e123a7d39e47e1bb1e8",
+    "quran-reflection/en/012-yusuf/units/069.html": "a1d8e91fba4ec24b8b02ddd1587a95c303f6e1e7fe7ef9a12f5b1c64211dcf84",
+    "quran-reflection/en/012-yusuf/units/070.html": "03ffc8aad92edf79f11bcc50f01d55edad8958f6560e792f9f9dae65afb15b14",
+    "quran-reflection/en/012-yusuf/units/076.html": "8f8d97d024244992a2ed2c02471f56ff1ac810ecf38d5d764b244529330c8ddc",
+    "quran-reflection/en/012-yusuf/units/077.html": "5088d0e01218bb404e0ebf016df09ec42fdd7d45ec1886d6f423d3c1626989e6",
+    "quran-reflection/en/012-yusuf/units/087.html": "1a0328a9b93225dd7ba319a239ac0b8105ec38b5f744d85ff1517a0f2d239dd9",
+    "quran-reflection/en/012-yusuf/units/089.html": "c08f4c9c6d72d4465daad049426ae709f19275022caf499c1c763108bb585ac0",
+    "quran-reflection/en/012-yusuf/units/090.html": "04822533c18777bf9872da75c47bc9bc0b5f8df4de7d6bb51166a1ca1053d96e",
+    "quran-reflection/en/012-yusuf/units/100.html": "c4295e814b5347c089afa5e110cb6608c00b41746eca8d746fccb0e447107a5b",
+    "quran-reflection/en/015-al-hijr/units/047.html": "b3e0a8e33900f4251e979a738d720d22bb9be77205b0bc95e00ecce0e5d8a83f",
+    "quran-reflection/en/017-al-isra/units/027.html": "53ba3fe138d166d035e346e48a4c4e5e504232149d6fde09b3696366e988caf0",
+    "quran-reflection/en/019-maryam/units/028.html": "5864c24d069729ca9dd3776d798c47693d7918f3312150fc9d2bdd44305babc4",
+    "quran-reflection/en/019-maryam/units/053.html": "66381832e2ac7b2d6a706352b90f676c463330eedeae8d9e22ef5a8576e3ab09",
+    "quran-reflection/en/020-ta-ha/units/030.html": "83487d5963d27639e2933994499b2a1832a2e0934f120fbf9bc743dcb11737f2",
+    "quran-reflection/en/020-ta-ha/units/040.html": "014dd5ed6a5fc7ee7f009dbbae87543d094911df41232c6d5c53b17d405868ea",
+    "quran-reflection/en/020-ta-ha/units/042.html": "ac430df6e6283c24c7cc70890f7c1ee7a074459bf12c9c7b4746d3ffb48bd169",
+    "quran-reflection/en/023-al-muminun/units/045.html": "421b61e888f86fd9cc96fa9e027618112141f75f4211d8bd9f2e79ca43aa04d6",
+    "quran-reflection/en/024-an-nur/units/031.html": "03fab060b73154ecc087f8cb9e15f7e5fc54f550f60c45ec17cbb5640661d4ee",
+    "quran-reflection/en/024-an-nur/units/061.html": "dcfcff873717ecddfbb994cf004579b18d80bfa6eca8ee3d8ff0e6cf7071743a",
+    "quran-reflection/en/025-al-furqan/units/035.html": "c3573f8a9662655133318cf910ba975dae93888cdebaad49f02f13aeef7ba058",
+    "quran-reflection/en/026-ash-shuara/units/036.html": "cd64220d9715b31a64ffae35dc30fd400043f727b6ade1b1744c35dfa70b2124",
+    "quran-reflection/en/026-ash-shuara/units/106.html": "ca9569f8ee60fc45f6848e2400f5bf00685c73ae66cff3ab585435e22503cc3d",
+    "quran-reflection/en/026-ash-shuara/units/124.html": "2b806bfe08b8ecf38e75c88d9a784807a12751c5623e88d0335c5032da3c90b5",
+    "quran-reflection/en/026-ash-shuara/units/142.html": "ac30c97e3910d5820d380f4202b17c0b7a712d3264644d1145e94ddcc78d21e7",
+    "quran-reflection/en/026-ash-shuara/units/161.html": "84b66f44affb32502e33d0f165c36dc3eb41fd1f88a226d449b6a99e8fe051be",
+    "quran-reflection/en/027-an-naml/units/045.html": "106f48d51c03137a9eeb862b4b99da8b9d7b337b3858ff510724451ebfc2d064",
+    "quran-reflection/en/028-al-qasas/units/011.html": "993feb1c9af36fc506f7148ce8ffb35c83d3593249aae4e401aaeb2b6e23bf3a",
+    "quran-reflection/en/028-al-qasas/units/034.html": "7ef383c38b406135dd0677c702a0c8df8e53e15fc639076afd44d434e4fb68aa",
+    "quran-reflection/en/028-al-qasas/units/035.html": "712551f9cdd1e1da5c1b726871926aa68e4b88d8d1c463f2b72e7e3f6d6cd8a1",
+    "quran-reflection/en/029-al-ankabut/units/036.html": "1afdc36c7b57850563d7e1df112d1bfd977f12378e438c32b91968daeb9f129d",
+    "quran-reflection/en/033-al-ahzab/units/005.html": "1d5e0332f3515df0358fc4d938d6d2212531dd41e92a3bd482b87d37d8f5fb2e",
+    "quran-reflection/en/033-al-ahzab/units/018.html": "4d285de96c2cac36f0debb99667fe52cf1a2a580a28768eb985afe1f6d890313",
+    "quran-reflection/en/033-al-ahzab/units/055.html": "3bffa39fcc23e2eb77eb90fd94bf38834aa0df5749fdc2d593bd517cee77e5ae",
+    "quran-reflection/en/038-sad/units/023.html": "1fa512bed3bda982bd98c4a17db4b4164279edfcad096ca3b4001b350d1260dc",
+    "quran-reflection/en/043-az-zukhruf/units/048.html": "c38d8f74129fa3c8e74e38ef1e9c2065b6bb558dd1a355eb692a442391130a61",
+    "quran-reflection/en/046-al-ahqaf/units/021.html": "0ec491aa9dd92dfc0384695edeac7c5b90e32ea6ddeae2db3e323f1ab4c999fe",
+    "quran-reflection/en/049-al-hujurat/units/010.html": "d23e3a7e80eafc01070a01d77ff609303acb8e6d3f69eb84e6f39fdb275cbb04",
+    "quran-reflection/en/049-al-hujurat/units/012.html": "3e87b6442fcef1eb4e13e1c64f5dc5e184d34968107183f193e4bb04fc4396f3",
+    "quran-reflection/en/050-qaf/units/013.html": "b4afb864f47f014070f2025006b26036c84a1338f137288abb64231e21733f74",
+    "quran-reflection/en/058-al-mujadilah/units/022.html": "fbe2c89258ff21b1451f622440f69c0e0aebfd5813218d7f08bcc8042e18fd75",
+    "quran-reflection/en/059-al-hashr/units/010.html": "caaa21bb7ad07e5797871025dba01a0e4be20587043a2233290372b28894dcf2",
+    "quran-reflection/en/059-al-hashr/units/011.html": "8bf055bdd8fbc4267ff73ecd7bff7cbfbbd01c9271cef52b3dfa11c4654cccce",
+    "quran-reflection/en/070-al-maarij/units/012.html": "3320e8f4901f73ac73ae069354aa9d1c3812afe5d415546235ac846be9cd3253",
+    "quran-reflection/en/080-abasa/units/034.html": "12809a6e04039e267199eced89793b5d8e4129246dfc2485445a6ee2c16dfc21"
+  },
+  "protected_sha256": {
+    "AGENTS.md": "73e9d17b8a07b275e364c8c715088c44fd5f3614afe09cf877ed1c186ecdac91",
+    "quran-reflection/en/001-al-fatihah/index.html": "18cd51b454f0337fe85241055909aceb2f3b8c6452549f9fd8deb2db58e95b15",
+    "quran-reflection/en/002-al-baqarah/index.html": "508930d1372832da50892ef78a0502ec1addf6dfb5ad7e3b6771d0e8ff44bfed",
+    "quran-reflection/en/002-al-baqarah/units/001.html": "bb0311f7a7ad6242e66ec0a0e43576e0350ffa5982bfc55d21241a67145f118c",
+    "quran-reflection/en/002-al-baqarah/units/002.html": "62d4949b4e4fc7a9013c9f747364f338daf7fcbfe8478cde0ff213887fd6efb8",
+    "quran-reflection/en/002-al-baqarah/units/003.html": "1cbcda606ed589d751746008830526f81260638dee62098d973ba227e23715f4",
+    "quran-reflection/en/002-al-baqarah/units/004.html": "25d5708edc08d0a70fb244caadcdd27fe35ea2f453875265889ee9c9f7a17c28",
+    "quran-reflection/en/002-al-baqarah/units/005.html": "d7abe4818bd99120aedf5fc7c24133ef38efbb58e1d58b23025bc7e5baf7d433",
+    "quran-reflection/en/002-al-baqarah/units/006.html": "16f40ff6f8e89ccf90d401fbd1410b57295dced20ffaa7b0382f25e015653c38",
+    "quran-reflection/en/002-al-baqarah/units/007.html": "72015f73fa918c3198bc8934a2d4546c975e3d36290180b832adc4bfb5138726",
+    "quran-reflection/fa/001-al-fatihah/index.html": "7da9c785b46e5a50ed604f9443f400fadef3b2108e062c53472214e65ba86d6f",
+    "quran-reflection/fa/002-al-baqarah/index.html": "7e1bf21975435301b41bf1f59ddc0017e64e4576e79844c7dbaf954815e8901d",
+    "quran-reflection/fa/002-al-baqarah/units/001.html": "5fb9704a9272ff6c0298f38255d63c69db5e982d03379af6e9b338e248611005",
+    "quran-reflection/fa/002-al-baqarah/units/002.html": "1734de3de01876be748951ffa820df129174460a2b28a0a1da73bc5fb10b8a85",
+    "quran-reflection/fa/002-al-baqarah/units/003.html": "f075430c3bc84ec206dbf0a3caba71d78687d690e54e606747e5cb27abf30f40",
+    "quran-reflection/fa/002-al-baqarah/units/004.html": "06c67c449eea6540cda5cc9428c125bba27b1737479b8d93fa06d01541b11900",
+    "quran-reflection/fa/002-al-baqarah/units/005.html": "cade56ad027673ed6df1202e4f6c9eb32ee51be94d76c98d67863e369bf72ab5",
+    "quran-reflection/fa/002-al-baqarah/units/006.html": "06f36979cc0dc086fe1d5cc9b17a8f9d8057fc7cb248f3d09c1d775cfd3a8056",
+    "quran-reflection/fa/002-al-baqarah/units/007.html": "a12a0d12ebbedf1587788fab99e6026a75b175f5af96bf3ee1a1fec4c496c481",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "verification": {
+    "stage": "before installation",
+    "all_319_source_blocks_rendered_per_language": true,
+    "all_12_Arabic_quotes_preserved_exactly": true,
+    "all_11_full_Quranic_quotes_match_installed_verses": true,
+    "96_noun_occurrences_in_80_verses_31_surahs_and_three_lemma_groups_confirmed": true,
+    "eight_sections_twelve_cards_32_subheadings_per_language": true,
+    "semantic_table_with_three_columns_and_three_data_rows_per_language": true,
+    "unique_ids_and_resolved_navigation": true,
+    "individually_verified_verse_targets": 66,
+    "verified_existing_related_root_targets": 8,
+    "no_Persian_digits_or_letters_in_English": true,
+    "only_a_kh_w_registry_record_changed": true,
+    "192_root_boxes_matched_to_corpus_word_positions": true,
+    "only_192_a_kh_w_popovers_changed": true,
+    "brother_sister_dual_plural_and_contextual_meanings_distinguished": true,
+    "verse_Arabic_translations_and_other_boxes_unchanged": true,
+    "114_canonical_Allah_boxes_confirmed_unchanged": true,
+    "preexisting_changes_preserved": true,
+    "Fatihah_and_Baqarah_through_160_untouched": true,
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false,
+    "standalone_preview": "Inspected the Persian light article and frequency table, and English dark case-inflection discussion, poetry, transliteration, and translation; no layout issues observed.",
+    "git_diff_check_passed_before_installation": true,
+    "both_existing_root_index_entries_verified_unique_and_unchanged": true
+  },
+  "report_file": "_handoff/root-install-a-kh-w-2026-10-20.json"
+}
