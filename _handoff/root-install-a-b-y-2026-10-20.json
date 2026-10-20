@@ -1,0 +1,456 @@
+{
+  "root": "أ ب ي",
+  "slug": "a-b-y",
+  "date": "2026-10-20",
+  "status": "installed locally",
+  "files": [
+    "quran-terminology/fa/roots/a-b-y/index.html",
+    "quran-terminology/en/roots/a-b-y/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/002-al-baqarah/units/282.html",
+    "quran-reflection/fa/009-at-tawbah/units/008.html",
+    "quran-reflection/fa/009-at-tawbah/units/032.html",
+    "quran-reflection/fa/015-al-hijr/units/031.html",
+    "quran-reflection/fa/017-al-isra/units/089.html",
+    "quran-reflection/fa/017-al-isra/units/099.html",
+    "quran-reflection/fa/018-al-kahf/units/077.html",
+    "quran-reflection/fa/020-ta-ha/units/056.html",
+    "quran-reflection/fa/020-ta-ha/units/116.html",
+    "quran-reflection/fa/025-al-furqan/units/050.html",
+    "quran-reflection/fa/033-al-ahzab/units/072.html",
+    "quran-reflection/en/002-al-baqarah/units/282.html",
+    "quran-reflection/en/009-at-tawbah/units/008.html",
+    "quran-reflection/en/009-at-tawbah/units/032.html",
+    "quran-reflection/en/015-al-hijr/units/031.html",
+    "quran-reflection/en/017-al-isra/units/089.html",
+    "quran-reflection/en/017-al-isra/units/099.html",
+    "quran-reflection/en/018-al-kahf/units/077.html",
+    "quran-reflection/en/020-ta-ha/units/056.html",
+    "quran-reflection/en/020-ta-ha/units/116.html",
+    "quran-reflection/en/025-al-furqan/units/050.html",
+    "quran-reflection/en/033-al-ahzab/units/072.html"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/54c36109-7d5e-4a22-9a87-3bde7e0f72d4/Pasted text.txt",
+  "source_blocks_per_language": 287,
+  "sections_per_language": 8,
+  "morphology_cards_per_language": 10,
+  "quranic_occurrences": 13,
+  "quranic_verses": 12,
+  "surahs": 8,
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/282.html",
+      "boxes": 2,
+      "brief": "خودداری، نپذیرفتن و سر باز زدن؛ انگیزه و ارزش اخلاقی این خودداری به موضوع، فاعل و سیاق وابسته است."
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/008.html",
+      "boxes": 1,
+      "brief": "خودداری، نپذیرفتن و سر باز زدن؛ انگیزه و ارزش اخلاقی این خودداری به موضوع، فاعل و سیاق وابسته است."
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/032.html",
+      "boxes": 1,
+      "brief": "خودداری، نپذیرفتن و سر باز زدن؛ انگیزه و ارزش اخلاقی این خودداری به موضوع، فاعل و سیاق وابسته است."
+    },
+    {
+      "file": "quran-reflection/fa/015-al-hijr/units/031.html",
+      "boxes": 1,
+      "brief": "خودداری، نپذیرفتن و سر باز زدن؛ انگیزه و ارزش اخلاقی این خودداری به موضوع، فاعل و سیاق وابسته است."
+    },
+    {
+      "file": "quran-reflection/fa/017-al-isra/units/089.html",
+      "boxes": 1,
+      "brief": "خودداری، نپذیرفتن و سر باز زدن؛ انگیزه و ارزش اخلاقی این خودداری به موضوع، فاعل و سیاق وابسته است."
+    },
+    {
+      "file": "quran-reflection/fa/017-al-isra/units/099.html",
+      "boxes": 1,
+      "brief": "خودداری، نپذیرفتن و سر باز زدن؛ انگیزه و ارزش اخلاقی این خودداری به موضوع، فاعل و سیاق وابسته است."
+    },
+    {
+      "file": "quran-reflection/fa/018-al-kahf/units/077.html",
+      "boxes": 1,
+      "brief": "خودداری، نپذیرفتن و سر باز زدن؛ انگیزه و ارزش اخلاقی این خودداری به موضوع، فاعل و سیاق وابسته است."
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/056.html",
+      "boxes": 1,
+      "brief": "خودداری، نپذیرفتن و سر باز زدن؛ انگیزه و ارزش اخلاقی این خودداری به موضوع، فاعل و سیاق وابسته است."
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/116.html",
+      "boxes": 1,
+      "brief": "خودداری، نپذیرفتن و سر باز زدن؛ انگیزه و ارزش اخلاقی این خودداری به موضوع، فاعل و سیاق وابسته است."
+    },
+    {
+      "file": "quran-reflection/fa/025-al-furqan/units/050.html",
+      "boxes": 1,
+      "brief": "خودداری، نپذیرفتن و سر باز زدن؛ انگیزه و ارزش اخلاقی این خودداری به موضوع، فاعل و سیاق وابسته است."
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/072.html",
+      "boxes": 1,
+      "brief": "خودداری، نپذیرفتن و سر باز زدن؛ انگیزه و ارزش اخلاقی این خودداری به موضوع، فاعل و سیاق وابسته است."
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/282.html",
+      "boxes": 2,
+      "brief": "Refusing, declining, or withholding acceptance; the motive and moral value depend on the object, subject, and context."
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/008.html",
+      "boxes": 1,
+      "brief": "Refusing, declining, or withholding acceptance; the motive and moral value depend on the object, subject, and context."
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/032.html",
+      "boxes": 1,
+      "brief": "Refusing, declining, or withholding acceptance; the motive and moral value depend on the object, subject, and context."
+    },
+    {
+      "file": "quran-reflection/en/015-al-hijr/units/031.html",
+      "boxes": 1,
+      "brief": "Refusing, declining, or withholding acceptance; the motive and moral value depend on the object, subject, and context."
+    },
+    {
+      "file": "quran-reflection/en/017-al-isra/units/089.html",
+      "boxes": 1,
+      "brief": "Refusing, declining, or withholding acceptance; the motive and moral value depend on the object, subject, and context."
+    },
+    {
+      "file": "quran-reflection/en/017-al-isra/units/099.html",
+      "boxes": 1,
+      "brief": "Refusing, declining, or withholding acceptance; the motive and moral value depend on the object, subject, and context."
+    },
+    {
+      "file": "quran-reflection/en/018-al-kahf/units/077.html",
+      "boxes": 1,
+      "brief": "Refusing, declining, or withholding acceptance; the motive and moral value depend on the object, subject, and context."
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/056.html",
+      "boxes": 1,
+      "brief": "Refusing, declining, or withholding acceptance; the motive and moral value depend on the object, subject, and context."
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/116.html",
+      "boxes": 1,
+      "brief": "Refusing, declining, or withholding acceptance; the motive and moral value depend on the object, subject, and context."
+    },
+    {
+      "file": "quran-reflection/en/025-al-furqan/units/050.html",
+      "boxes": 1,
+      "brief": "Refusing, declining, or withholding acceptance; the motive and moral value depend on the object, subject, and context."
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/072.html",
+      "boxes": 1,
+      "brief": "Refusing, declining, or withholding acceptance; the motive and moral value depend on the object, subject, and context."
+    }
+  ],
+  "Allah_boxes": [
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/282.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 6
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/008.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/032.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/015-al-hijr/units/031.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/017-al-isra/units/089.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/017-al-isra/units/099.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/018-al-kahf/units/077.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/056.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/020-ta-ha/units/116.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/025-al-furqan/units/050.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/072.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/282.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 6
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/008.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/032.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/015-al-hijr/units/031.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/017-al-isra/units/089.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/017-al-isra/units/099.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/018-al-kahf/units/077.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/056.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/020-ta-ha/units/116.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/025-al-furqan/units/050.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/072.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    }
+  ],
+  "protected_occurrence": "Al-Baqarah 2:34 remains unchanged in both languages; no protected surah content edited.",
+  "persian_edits": [
+    {
+      "block": 4,
+      "before": "در قرآن، همین فعل برای سرپیچی ابلیس از سجده، خودداری فرعون از پذیرفتن نشانه‌ها، امتناع مردم از انجام مسئولیتی اجتماعی، نپذیرفتن مهمان‌نوازی، و نپذیرفتن امانت از سوی آسمان‌ها و زمین و کوه‌ها آمده است. از سوی دیگر، قرآن این فعل را درباره خداوند نیز به کار برده است؛ آنجا که می‌گوید خداوند جز کامل ساختن نور خود چیزی را نمی‌پذیرد.",
+      "after": "در قرآن، همین فعل برای سرپیچی ابلیس از سجده، خودداری فرعون از پذیرفتن نشانه‌ها، امتناع مردم از انجام مسئولیتی اجتماعی، نپذیرفتن مهمان‌نوازی، و نپذیرفتن امانت از سوی آسمان‌ها و زمین و کوه‌ها آمده است. از سوی دیگر، قرآن این فعل را درباره آن معبود یگانه نیز به کار برده است؛ آنجا که می‌گوید آن معبود یگانه جز کامل ساختن نور خود چیزی را نمی‌پذیرد."
+    },
+    {
+      "block": 9,
+      "before": "- **أَبَىٰ:** خودداری کرد یا نپذیرفت؛ در بقره ۲:۳۴، حجر ۱۵:۳۱، طه ۲۰:۵۶ و طه ۲۰:۱۱۶.\n- **فَأَبَىٰ:** پس خودداری کرد؛ در اسراء ۱۷:۸۹، اسراء ۱۷:۹۹ و فرقان ۲۵:۵۰.\n- **وَأَبَىٰ:** و خودداری کرد؛ در طه ۲۰:۵۶.\n- **وَتَأْبَىٰ:** و نمی‌پذیرند؛ در توبه ۹:۸، درباره دل‌های گروهی از پیمان‌شکنان.\n- **وَيَأْبَى:** و نمی‌پذیرد؛ در توبه ۹:۳۲، درباره خداوند.\n- **لَا يَأْبَ:** خودداری نکند؛ دو بار در بقره ۲:۲۸۲، درباره نویسنده سند و گواهان.\n- **فَأَبَوْا:** پس آنان خودداری کردند؛ در کهف ۱۸:۷۷.\n- **فَأَبَيْنَ:** پس آنها نپذیرفتند؛ در احزاب ۳۳:۷۲، درباره آسمان‌ها، زمین و کوه‌ها.",
+      "after": "- **أَبَىٰ:** خودداری کرد یا نپذیرفت؛ در بقره ۲:۳۴، حجر ۱۵:۳۱ و طه ۲۰:۱۱۶.\n- **فَأَبَىٰ:** پس خودداری کرد؛ در اسراء ۱۷:۸۹، اسراء ۱۷:۹۹ و فرقان ۲۵:۵۰.\n- **وَأَبَىٰ:** و خودداری کرد؛ در طه ۲۰:۵۶.\n- **وَتَأْبَىٰ:** و نمی‌پذیرند؛ در توبه ۹:۸، درباره دل‌های گروهی از پیمان‌شکنان.\n- **وَيَأْبَى:** و نمی‌پذیرد؛ در توبه ۹:۳۲، درباره آن معبود یگانه.\n- **لَا يَأْبَ:** خودداری نکند؛ دو بار در بقره ۲:۲۸۲، درباره نویسنده سند و گواهان.\n- **فَأَبَوْا:** پس آنان خودداری کردند؛ در کهف ۱۸:۷۷.\n- **فَأَبَيْنَ:** پس آنها نپذیرفتند؛ در احزاب ۳۳:۷۲، درباره آسمان‌ها، زمین و کوه‌ها."
+    },
+    {
+      "block": 34,
+      "before": "«تبار من به مردانی بلندهمت و سرفراز می‌رسد؛ کسانی که خواری را نمی‌پذیرفتند و در شمار مردمان ستم‌ناپذیر بودند.»",
+      "after": "«مرا مردانی سرفراز از أمان پرورانده‌اند؛ ستم‌ناپذیرانی از میان گروهی که زیر بار خواری نمی‌روند.»"
+    },
+    {
+      "block": 43,
+      "before": "> وَقَبْلَكَ مَا هَابَ الرِّجَالُ ظُلَامَتِي  \n> وَفَقَّأْتُ عَيْنَ الْأَشْوَسِ الْأَبْيَانِ",
+      "after": "> وَقَبْلَكَ مَا هَابَ الرِّجَالُ ظُلَامَتِي  \n> وَفَقَّأْتُ عَيْنَ الْأَشْوَسِ الْأَبَيَانِ"
+    },
+    {
+      "block": 44,
+      "before": "«پیش از تو نیز مردان از ستمگری من نمی‌ترسیدند؛ و چشم مردی سرکش و سخت‌سر را از میان برده‌ام.»",
+      "after": "«پیش از تو نیز مردان از ستم کردن بر من بیم داشتند؛ و چشم آن مردِ کج‌نگاهِ سرسخت را کور کرده‌ام.»"
+    },
+    {
+      "block": 45,
+      "before": "در این بیت، «الأبيان» وصف کسی است که بسیار سرسخت است و به آسانی زیر بار دیگری نمی‌رود.",
+      "after": "در این بیت، «الأَبَيَان» با حرکت باء، وصف کسی است که بسیار سرسخت است و به آسانی زیر بار دیگری نمی‌رود."
+    },
+    {
+      "block": 52,
+      "before": "همچنین در کاربرد دامداری، شتر ماده‌ای که آمیزش یا آبستن شدن را نمی‌پذیرد، با صورتی از همین خانواده وصف شده است.",
+      "after": "همچنین در کاربرد دامداری، «آبِيَة» و جمع آن «أَوَابِي» برای شتران ماده‌ای ثبت شده که پس از جفت‌گیری هنوز آبستن نشده‌اند؛ در گزارش ابوعمرو، این نام تا نخستین آبستنی به کار می‌رود. این کاربرد را نباید به تصمیم آگاهانهٔ حیوان برای نپذیرفتن آبستنی تبدیل کرد."
+    },
+    {
+      "block": 74,
+      "before": "اگر خودِ إباء به معنای تکبر یا کفر بود، نیازی نبود در تحلیل لغوی همه این مفاهیم را به یک واژه منتقل کنیم.",
+      "after": "در تحلیل لغوی، «أَبَىٰ» خودداری را بیان می‌کند و دو تعبیر دیگر، تکبر و کفر ابلیس را در این سیاق روشن می‌سازند؛ صرف همراهی آنها دلیل مترادف بودنشان نیست."
+    },
+    {
+      "block": 154,
+      "before": "در اسراء ۱۷:۹۹ نیز پس از طرح قدرت خداوند بر آفرینش دوباره انسان و تعیین اجل، از خودداری ستمگران و اصرار آنان بر کفر سخن آمده است.",
+      "after": "در اسراء ۱۷:۹۹ نیز پس از طرح قدرت آن معبود یگانه بر آفرینش دوباره انسان و تعیین اجل، از خودداری ستمگران و اصرار آنان بر کفر سخن آمده است."
+    },
+    {
+      "block": 174,
+      "before": "«می‌خواهند نور خداوند را با دهان‌های خود خاموش کنند، اما خداوند جز آنکه نور خود را کامل گرداند نمی‌پذیرد، هرچند کافران آن را ناخوش بدارند.»",
+      "after": "«می‌خواهند نور آن معبود یگانه را با دهان‌های خود خاموش کنند، اما آن معبود یگانه جز آنکه نور خود را کامل گرداند نمی‌پذیرد، هرچند کافران آن را ناخوش بدارند.»"
+    },
+    {
+      "block": 176,
+      "before": "در اینجا فاعل «يَأْبَى» خود خداوند است.",
+      "after": "در اینجا فاعل «يَأْبَى» خود آن معبود یگانه است."
+    },
+    {
+      "block": 178,
+      "before": "در آیه، خواست مخالفان برای خاموش کردن نور خداوند در برابر آنچه خداوند درباره کامل شدن نور خود مقرر می‌کند قرار گرفته است.",
+      "after": "در آیه، خواست مخالفان برای خاموش کردن نور آن معبود یگانه در برابر آنچه آن معبود یگانه درباره کامل شدن نور خود مقرر می‌کند قرار گرفته است."
+    },
+    {
+      "block": 180,
+      "before": "در فارسی، «خداوند جز کامل کردن نور خود چیزی را نمی‌پذیرد» این ساخت را به خوبی منتقل می‌کند.",
+      "after": "در فارسی، «آن معبود یگانه جز کامل کردن نور خود چیزی را نمی‌پذیرد» این ساخت را به خوبی منتقل می‌کند."
+    },
+    {
+      "block": 181,
+      "before": "در ترجمه روان‌تر نیز می‌توان گفت: «اما خداوند نور خود را کامل خواهد ساخت.»",
+      "after": "در ترجمه روان‌تر نیز می‌توان گفت: «اما آن معبود یگانه نور خود را کامل خواهد ساخت.»"
+    },
+    {
+      "block": 183,
+      "before": "نسبت دادن إباء به خداوند در این آیه به معنای خودداری ناشی از ترس، خشم انسانی یا ناتوانی در انتخاب نیست.",
+      "after": "نسبت دادن إباء به آن معبود یگانه در این آیه به معنای خودداری ناشی از ترس، خشم انسانی یا ناتوانی در انتخاب نیست."
+    },
+    {
+      "block": 185,
+      "before": "بنابراین، معنای پایه امتناع حفظ می‌شود، اما ویژگی‌های روانی انسان نباید به صورت خودکار به خداوند منتقل شوند.",
+      "after": "بنابراین، معنای پایه امتناع حفظ می‌شود، اما ویژگی‌های روانی انسان نباید به صورت خودکار به آن معبود یگانه منتقل شوند."
+    },
+    {
+      "block": 213,
+      "before": "در توبه ۹:۳۲، هر دو خانواده در یک آیه آمده‌اند: خداوند جز کامل کردن نور خود را نمی‌پذیرد، هرچند کافران آن را ناخوش بدارند.",
+      "after": "در توبه ۹:۳۲، هر دو خانواده در یک آیه آمده‌اند: آن معبود یگانه جز کامل کردن نور خود را نمی‌پذیرد، هرچند کافران آن را ناخوش بدارند."
+    },
+    {
+      "block": 234,
+      "before": "همچنین نسبت دادن إباء به خداوند در توبه ۹:۳۲، روشن‌ترین شاهدی است که مانع می‌شود کفر را جزء ثابت معنای این ریشه بدانیم.",
+      "after": "همچنین نسبت دادن إباء به آن معبود یگانه در توبه ۹:۳۲، روشن‌ترین شاهدی است که مانع می‌شود کفر را جزء ثابت معنای این ریشه بدانیم."
+    },
+    {
+      "block": 260,
+      "before": "در توبه ۹:۳۲، «اما خداوند جز آنکه نور خود را کامل سازد نمی‌پذیرد» به ساخت امتناع و استثنا نزدیک‌تر است.",
+      "after": "در توبه ۹:۳۲، «اما آن معبود یگانه جز آنکه نور خود را کامل سازد نمی‌پذیرد» به ساخت امتناع و استثنا نزدیک‌تر است."
+    },
+    {
+      "block": 277,
+      "before": "در کاربردهای مربوط به چارپایان نیز إباء به نپذیرفتن خوراک، آب یا آمیزش مربوط شده است؛ بی‌آنکه بار اخلاقی مشخصی داشته باشد.",
+      "after": "در کاربردهای مربوط به چارپایان نیز این خانواده به نپذیرفتن خوراک یا آب مربوط شده و برای شتران ماده‌ای که هنوز آبستن نشده‌اند نیز اصطلاحی از آن ثبت شده است؛ بی‌آنکه این کاربردها بار اخلاقی مشخصی داشته باشند."
+    },
+    {
+      "block": 281,
+      "before": "در توبه ۹:۳۲، فاعل إباء خود خداوند است. این کاربرد به‌روشنی نشان می‌دهد که خودداری در معنای لغوی‌اش ذاتا ناپسند نیست.",
+      "after": "در توبه ۹:۳۲، فاعل إباء خود آن معبود یگانه است. این کاربرد به‌روشنی نشان می‌دهد که خودداری در معنای لغوی‌اش ذاتا ناپسند نیست."
+    }
+  ],
+  "corrections": [
+    "Removed duplicate classification of Ṭā Hā 20:56 under unprefixed abā; retained it correctly under wa-abā. Total 13 occurrences in 12 verses and eight surahs confirmed.",
+    "Corrected al-abayān in the Arabic poetic quotation to a vowel on bāʾ, matching Lisān al-ʿArab and Al-Ṣiḥāḥ.",
+    "Completed the Al-Ṭirimmāḥ poem translation including Amān.",
+    "Corrected the second poem translation: fear of wronging the speaker, with mā read as emphatic in the boast, rather than not fearing his oppression. This is a contextual grammatical reading.",
+    "Distinguished the livestock term for camels not yet conceiving after covering from a conscious refusal to become pregnant; aligned the conclusion.",
+    "Replaced an unclear hypothetical sentence about synonymous meanings with a direct lexical distinction.",
+    "Applied the established Persian divine naming convention outside Arabic quotations."
+  ],
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=Aby",
+      "use": "13 verbal occurrences in 12 verses; locations corroborated with cached morphology."
+    },
+    {
+      "url": "https://usul.ai/ar/t/diwan-58",
+      "use": "Al-Ṭirimmāḥ poem and surrounding genealogy boast."
+    },
+    {
+      "url": "https://najafdesertlibrary.com/book/لسان-العرب/v/14/p/4",
+      "use": "Lisān al-ʿArab: abayān with moving bāʾ, Abū al-Mujashshir attribution, morphological explanation."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/b/5410/112?lang=ar",
+      "use": "Al-Ṣiḥāḥ: abayān bil-taḥrīk, poem, verbal nouns and unusual abā/yaʾbā pattern."
+    },
+    {
+      "url": "https://www.masaha.org/book/view/3703/page/488",
+      "use": "Maqāyīs: refusal core and Abū ʿAmr’s livestock terminology."
+    },
+    {
+      "url": "https://afaqattaiseer.net/vb/showthread.php?t=2788",
+      "use": "Ibn Zākūr’s classical commentary quotes the second poetic witness as refusal to accept oppression; supports contextual translation."
+    },
+    {
+      "url": "https://github.com/OpenITI/0525AH/blob/master/data/0502RaghibIsbahani/0502RaghibIsbahani.Mufradat/0502RaghibIsbahani.Mufradat.Shamela0023636-ara1",
+      "use": "Cached Al-Mufradāt root: intensity of refusal; ibāʾ distinguished from imtināʿ."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura2-aya282.html",
+      "use": "Primary exegetical context and variation concerning the scribe and witnesses."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura25-aya50.html",
+      "use": "Primary exegetical discussion of rain distribution and ingratitude."
+    }
+  ],
+  "original_sha256": {
+    "quran-terminology/fa/roots/a-b-y/index.html": null,
+    "quran-terminology/en/roots/a-b-y/index.html": null,
+    "_data/quran-root-studies.json": "27f3739ef8b3b14d449c85b50fbbda91485b47dc09365c9d713c2c12891afa8d",
+    "quran-reflection/fa/002-al-baqarah/units/282.html": "783cf7d68631ba529596fcfb9267ea579c1ab4e40663fce3caaa0b52fa2d9bad",
+    "quran-reflection/fa/009-at-tawbah/units/008.html": "4d78d4bfe2052456b7f39a92a88337c29b468c1ea502b28541c355d6ff964068",
+    "quran-reflection/fa/009-at-tawbah/units/032.html": "0300b1394af17394ee3b97ffcc6e6f88d3d4de56386d73d279e8c4d1f42d3d0d",
+    "quran-reflection/fa/015-al-hijr/units/031.html": "257cce7257ef0a9d3bc87214d7ebfbd6f15c42e8a012159d2e11edb601c29ab1",
+    "quran-reflection/fa/017-al-isra/units/089.html": "76b7817436f4157c04783df4dd557b2b4733e6af47075f25b243246624e2e59a",
+    "quran-reflection/fa/017-al-isra/units/099.html": "1e2809a9a0a9cf3dccb9361ed9b8e9e3e4bb775e73e69e134ad0616f40ef3a2f",
+    "quran-reflection/fa/018-al-kahf/units/077.html": "473f5ed84cb90fb18f892c8367e0a14b92ff51f1e7db1abe7f5bfa14494d9cbb",
+    "quran-reflection/fa/020-ta-ha/units/056.html": "1bf50bdcab12f23185d1bfb2873e2c14df9ecf32fee09da715249400aa2d5a42",
+    "quran-reflection/fa/020-ta-ha/units/116.html": "5d860dd91321f30cb918812e5c7ab7f2492358e5962dd2cdc82251afeab5a55f",
+    "quran-reflection/fa/025-al-furqan/units/050.html": "066fa1246c179a6fb71331b6be6771310ae2911e1cd1314af73936a099eb5917",
+    "quran-reflection/fa/033-al-ahzab/units/072.html": "d6b02b67dbc38340087b764055ee588792404d74cd905731e0cc319be96783ef",
+    "quran-reflection/en/002-al-baqarah/units/282.html": "55e41e2d296d4be39cf01176d1d1cbce5f8325bec9ffdc7e9bbf1dde51254baf",
+    "quran-reflection/en/009-at-tawbah/units/008.html": "0838fdf6ce8ca2a61a238b51632f36b378f3cb6078cc4e05f27a3bc500608f7d",
+    "quran-reflection/en/009-at-tawbah/units/032.html": "99891233edeb9198ab5de3f4b230adb5e9212fec59a3cd87c2fda6b9f6be4fb0",
+    "quran-reflection/en/015-al-hijr/units/031.html": "a386710554636f7e75f48aad36a9b71ef513c8cfc7ca519a30bbb6228f3d82b1",
+    "quran-reflection/en/017-al-isra/units/089.html": "29a4688970e5ece1127167dc00ef1e8b0b7f8eaa11cb22fd24bf365ba4a1fc82",
+    "quran-reflection/en/017-al-isra/units/099.html": "8a457d2ea0df157dc41fb19830ebe3cb49c8f07a05fa959a3cf3feaad309e996",
+    "quran-reflection/en/018-al-kahf/units/077.html": "0145e8bb00340be4074c9d8b3c84edb41633c948388a1919ea03e9732dd5fa83",
+    "quran-reflection/en/020-ta-ha/units/056.html": "3ba630dc805b4f7dff59d76c51415da2c4d044f701ddc671fa83ed51d929642a",
+    "quran-reflection/en/020-ta-ha/units/116.html": "3f181def7064fbf4f79d4921c33c13d12cd484584d65db582aa05ce40598fa37",
+    "quran-reflection/en/025-al-furqan/units/050.html": "c0ff28e6ec48629720e741e4e107b2f05ec94d25972e325f579af2601d466cff",
+    "quran-reflection/en/033-al-ahzab/units/072.html": "a481f78af5fc50500bb78786032bb3a1b87ffa193fa43476cc56eac318f87e42"
+  },
+  "protected_sha256": {
+    "AGENTS.md": "73e9d17b8a07b275e364c8c715088c44fd5f3614afe09cf877ed1c186ecdac91",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50",
+    "quran-reflection/fa/002-al-baqarah/units/034.html": "4cf60cb63e8655db75b675a1666fce691da1b2124aa0542a066624924516b139",
+    "quran-reflection/fa/001-al-fatihah/index.html": "7da9c785b46e5a50ed604f9443f400fadef3b2108e062c53472214e65ba86d6f",
+    "quran-reflection/en/002-al-baqarah/units/034.html": "3bd4964a734887aa923042a66c2f1f832164961be20f51cceeb41801c43932c7",
+    "quran-reflection/en/001-al-fatihah/index.html": "18cd51b454f0337fe85241055909aceb2f3b8c6452549f9fd8deb2db58e95b15"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "verification": {
+    "stage": "before installation",
+    "all_287_source_blocks_rendered_per_language": true,
+    "all_12_Arabic_quotes_preserved_except_corrected_poetic_vowel": true,
+    "ten_quranic_quotes_match_installed_verses": true,
+    "thirteen_occurrences_twelve_verses_eight_surahs_confirmed": true,
+    "eight_sections_ten_cards_26_subheadings_per_language": true,
+    "unique_ids_and_resolved_navigation": true,
+    "individually_verified_verse_targets": 24,
+    "verified_existing_related_root_targets": 14,
+    "no_Persian_digits_or_letters_in_English": true,
+    "only_a_b_y_registry_record_changed": true,
+    "only_24_a_b_y_popovers_changed": true,
+    "verse_Arabic_translations_and_other_boxes_unchanged": true,
+    "canonical_Allah_boxes_confirmed": true,
+    "protected_files_including_2_34_preserved": true,
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false,
+    "standalone_preview": "Persian RTL light-theme cards and English LTR dark-theme poetry, Arabic isolation, transliteration and translation inspected. Temporary browser and server closed before installation.",
+    "git_diff_check_before_installation": "passed; clean repository before this root installation"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "root": "أ ث ث",
+  "slug": "a-th-th",
+  "date": "2026-10-20",
+  "status": "installed locally",
+  "files": [
+    "quran-terminology/fa/roots/a-th-th/index.html",
+    "quran-terminology/en/roots/a-th-th/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/016-an-nahl/units/080.html",
+    "quran-reflection/fa/019-maryam/units/074.html",
+    "quran-reflection/en/016-an-nahl/units/080.html",
+    "quran-reflection/en/019-maryam/units/074.html"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/396fcc19-b404-4d01-9282-b6bb8caad51b/Pasted text.txt",
+  "source_blocks_per_language": 269,
+  "sections_per_language": 8,
+  "morphology_cards_per_language": 9,
+  "quranic_occurrences": [
+    "16:80",
+    "19:74"
+  ],
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/016-an-nahl/units/080.html",
+      "verse": "16:80",
+      "boxes": 1,
+      "brief": "اسباب و وسایل زندگی؛ مانند فرش، پوشاک و دیگر وسایل فراهم‌شده از پشم، کرک و مو."
+    },
+    {
+      "file": "quran-reflection/fa/019-maryam/units/074.html",
+      "verse": "19:74",
+      "boxes": 1,
+      "brief": "اسباب و دارایی؛ داشته‌ها و امکانات مادی‌ای که برخورداری شخص یا گروه را نشان می‌دهند."
+    },
+    {
+      "file": "quran-reflection/en/016-an-nahl/units/080.html",
+      "verse": "16:80",
+      "boxes": 1,
+      "brief": "household and everyday goods, including carpets, clothing, and other articles made from wool, soft hair, and hair."
+    },
+    {
+      "file": "quran-reflection/en/019-maryam/units/074.html",
+      "verse": "19:74",
+      "boxes": 1,
+      "brief": "goods and possessions; the material belongings and resources expressing a person’s or group’s provision."
+    }
+  ],
+  "Allah_boxes": [
+    {
+      "file": "quran-reflection/fa/016-an-nahl/units/080.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/019-maryam/units/074.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/016-an-nahl/units/080.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/019-maryam/units/074.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    }
+  ],
+  "persian_edits": [
+    {
+      "block": 73,
+      "before": "در مریم ۱۹:۷۴ نیز فراوانی و برتری دارایی از ساخت مقایسه‌ای «أَحْسَنُ أَثَاثًا» فهمیده می‌شود.",
+      "after": "در مریم ۱۹:۷۴، برتری از نظر اسباب و دارایی از ساخت مقایسه‌ای «أَحْسَنُ أَثَاثًا» فهمیده می‌شود؛ بیشتر بودن مقدار، یکی از توضیح‌های لغوی این برخورداری است، نه معنای ضروری خودِ «أَحْسَنُ»."
+    },
+    {
+      "block": 78,
+      "before": "«و خداوند از خانه‌هایتان برای شما جای آرام گرفتن قرار داد، و از پوست چارپایان برایتان خانه‌هایی فراهم ساخت که هنگام کوچ و هنگام اقامت، جابه‌جایی آنها برایتان آسان است؛ و از پشم‌ها، کرک‌ها و موهای آنها اسباب و وسایل زندگی و چیزهایی برای بهره‌مندی تا زمانی معین فراهم کرد.»",
+      "after": "«و آن معبود یگانه از خانه‌هایتان برای شما جای آرام گرفتن قرار داد، و از پوست چارپایان برایتان خانه‌هایی فراهم ساخت که هنگام کوچ و هنگام اقامت، جابه‌جایی آنها برایتان آسان است؛ و از پشم‌ها، کرک‌ها و موهای آنها اسباب و وسایل زندگی و چیزهایی برای بهره‌مندی تا زمانی معین فراهم کرد.»"
+    },
+    {
+      "block": 80,
+      "before": "در این آیه، خداوند نعمت خانه و امکانات زندگی را یادآوری می‌کند.",
+      "after": "در این آیه، آن معبود یگانه نعمت خانه و امکانات زندگی را یادآوری می‌کند."
+    },
+    {
+      "block": 114,
+      "before": "اما چنین محدودیتی به معنای بی‌ارزش بودن وسایل زندگی نیست. آیه آنها را در شمار نعمت‌های سودمند خداوند معرفی می‌کند.",
+      "after": "اما چنین محدودیتی به معنای بی‌ارزش بودن وسایل زندگی نیست. آیه آنها را در شمار نعمت‌های سودمند آن معبود یگانه معرفی می‌کند."
+    },
+    {
+      "block": 132,
+      "before": "در مریم ۱۹:۷۳، کسانی که کفر ورزیده‌اند، در برابر آیات روشن خداوند به وضعیت مادی و اجتماعی خود استناد می‌کنند.",
+      "after": "در مریم ۱۹:۷۳، کسانی که کفر ورزیده‌اند، در برابر آیات روشن آن معبود یگانه به وضعیت مادی و اجتماعی خود استناد می‌کنند."
+    },
+    {
+      "block": 149,
+      "before": "بنابراین، عبارت تنها به معنای «اثاث داشتند» نیست؛ از بهتر بودن یا برخورداری بیشتر در این زمینه سخن می‌گوید.",
+      "after": "بنابراین، عبارت تنها به معنای «اثاث داشتند» نیست؛ از بهتر بودن وضع آنان از نظر اسباب و دارایی سخن می‌گوید. بیشتر بودن مقدار می‌تواند یکی از نمودهای این برتری باشد، اما خود ساخت مقایسه‌ای تنها شمار اشیا را تعیین نمی‌کند."
+    },
+    {
+      "block": 166,
+      "before": "در قرائت همزه‌دار «وَرِئْيًا»، معنای نمای ظاهری و آنچه دیده می‌شود برجسته است.",
+      "after": "در قرائت همزه‌دار «وَرِئْيًا»، از جمله در روایت حفص از عاصم، معنای نمای ظاهری و آنچه دیده می‌شود برجسته است."
+    },
+    {
+      "block": 167,
+      "before": "در قرائت «وَرِيًّا» بدون همزه، توضیحات صرفی متفاوتی مطرح شده است؛ از جمله تخفیف همزه و احتمال ارتباط با ریشه‌ای که به آب و شادابی مربوط است.",
+      "after": "قالون از نافع، ابن‌ذکوان از ابن‌عامر و ابوجعفر «وَرِيًّا» را با یاء مشدد و بدون همزه خوانده‌اند. برای این صورت دو تحلیل لغوی نقل شده است: تبدیل همزه به یاء و ادغام دو یاء، یا ارتباط با «رِيّ» و تصویر سیرابی، شادابی و برخورداری از نعمت."
+    },
+    {
+      "block": 168,
+      "before": "خوانشی با «ز» نیز در برخی گزارش‌های قدیمی نقل شده که به زینت و هیئت ظاهری ارتباط دارد.",
+      "after": "قرطبی خوانش «وَزِيًّا» با زاء را نیز از ابن‌عباس و دیگران گزارش می‌کند و آن را با هیئت و زیبایی ظاهری مرتبط می‌داند. این گزارش را نباید بدون توضیح، هم‌رتبهٔ دو صورت یادشده در قرائت‌های دهگانه معرفی کرد."
+    }
+  ],
+  "corrections": [
+    "Clarified that aḥsan expresses superiority in goods; a greater number of items is one possible interpretation, not the necessary comparative meaning.",
+    "Attributed wa-riʾyan to Ḥafṣ from ʿĀṣim and wa-riyyan to Qālūn from Nāfiʿ, Ibn Dhakwān from Ibn ʿĀmir, and Abū Jaʿfar.",
+    "Explained the two lexical analyses of wa-riyyan and distinguished Al-Qurṭubī’s report of wa-ziyyan from the ten-reading forms.",
+    "Applied the established Persian divine naming convention outside Arabic quotations."
+  ],
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=Avv",
+      "use": "Two occurrences of the same accusative noun, corroborated with cached morphology."
+    },
+    {
+      "url": "https://islamweb.net/ar/library/content/122/36/أثث",
+      "use": "Lisān al-ʿArab: imperfect forms, density, softening, possessions, plural forms and disputed singular."
+    },
+    {
+      "url": "https://books.islam-db.com/book/شرح_القصائد_السبع_الطوال_الجاهليات/62",
+      "use": "Classical commentary on Imruʾ al-Qays: athīth, palm-cluster simile and poem wording."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura16-aya80.html",
+      "use": "Primary lexical/exegetical discussion of athāth, its disputed singular, goods and clothing, semantic relationship to dense hair."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura19-aya74.html",
+      "use": "Primary lexical/exegetical discussion of goods and appearance, and reported wa-ziyyan reading."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/b/8339/402?lang=ar",
+      "use": "Ibn al-Jazarī, Al-Nashr: precise attribution of doubled-yāʾ reading to Abū Jaʿfar, Qālūn, and Ibn Dhakwān."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/b/8263/183?lang=ar",
+      "use": "Abū Shāmah, Ibrāz al-Maʿānī: two lexical analyses of the unhamzated reading."
+    },
+    {
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0395IbnFarisQazwini/0395IbnFarisQazwini.MucjamMaqayis/0395IbnFarisQazwini.MucjamMaqayis.Shamela0021710-ara1",
+      "use": "Cached Maqāyīs full article: gathering, softness and lexical forms."
+    }
+  ],
+  "original_sha256": {
+    "quran-terminology/fa/roots/a-th-th/index.html": null,
+    "quran-terminology/en/roots/a-th-th/index.html": null,
+    "_data/quran-root-studies.json": "2c90e9d26df97f57e81cdf9f132f17d2eae79e67742ba866a7ebb537cd17776b",
+    "quran-reflection/fa/016-an-nahl/units/080.html": "96acc0e32d474203825d60943789273ec7c6cccd8933caf9c441f38e75b8e34c",
+    "quran-reflection/fa/019-maryam/units/074.html": "67826e02fd6e116ea401881f68b1784746fa8ee9eafc053bba382e91c90f5198",
+    "quran-reflection/en/016-an-nahl/units/080.html": "85eabdf0b399f0d5e9adbb6f6f2276874706d40f677c27c47fefba8512c515be",
+    "quran-reflection/en/019-maryam/units/074.html": "52218007098b0f8a49cf16474b7397863cfcdf7dcedb4be10da332a32fdf6671"
+  },
+  "protected_sha256": {
+    "AGENTS.md": "73e9d17b8a07b275e364c8c715088c44fd5f3614afe09cf877ed1c186ecdac91",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50",
+    "quran-reflection/fa/002-al-baqarah/units/142.html": "ddb880782bb0a2d0fac930d827da7a43433cd81d532a8056b2aba3cb8f2bcdb7",
+    "quran-reflection/en/002-al-baqarah/units/142.html": "366029cf880be3ab5bd0797d74391eb94d9dc9043c6b7eeec7f2356f1cca6dde",
+    "_handoff/root-install-a-b-y-2026-10-20.json": "17e5896adc0e49e533771270668ea06ef21d67b304407db7c3e35272db3bfd60"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "verification": {
+    "stage": "before installation",
+    "all_269_source_blocks_rendered_per_language": true,
+    "all_six_Arabic_quotes_preserved_exactly": true,
+    "four_full_and_one_partial_Quranic_quote_match_installed_verses": true,
+    "two_accusative_noun_occurrences_confirmed": true,
+    "eight_sections_nine_cards_28_subheadings_per_language": true,
+    "unique_ids_and_resolved_navigation": true,
+    "individually_verified_verse_targets": 8,
+    "verified_existing_related_root_targets": 14,
+    "no_Persian_digits_or_letters_in_English": true,
+    "only_a_th_th_registry_record_changed": true,
+    "only_four_a_th_th_popovers_changed": true,
+    "verse_Arabic_translations_and_other_boxes_unchanged": true,
+    "canonical_Allah_boxes_confirmed": true,
+    "preexisting_changes_preserved": true,
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false,
+    "standalone_preview": "Persian RTL light-theme cards and English LTR dark-theme poetry, Arabic quotations, transliteration and translation inspected; temporary browser and server closed before installation."
+  }
+}

@@ -72,15 +72,15 @@
   "a-b-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-b-y/",
-      "title": "ریشهٔ أ ب ي",
-      "summary": "خودداری کردن، نپذیرفتن و امتناع ورزیدن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ ب ي",
+      "summary": "خودداری، نپذیرفتن و سر باز زدن؛ انگیزه و ارزش اخلاقی این خودداری به موضوع، فاعل و سیاق وابسته است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-b-y/",
-      "title": "The Root A B Y",
-      "summary": "Refusing, declining, or resisting acceptance.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root A B Y",
+      "summary": "Refusing, declining, or withholding acceptance; the motive and moral value depend on the object, subject, and context.",
+      "status": "published"
     }
   },
   "a-d-d": {
@@ -828,15 +828,15 @@
   "a-th-th": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-th-th/",
-      "title": "ریشهٔ أ ث ث",
-      "summary": "انبوه و متراکم بودن؛ أثاث: اسباب، وسایل و دارایی خانه.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ ث ث",
+      "summary": "اسباب و وسایل فراهم‌آمدهٔ زندگی؛ در کاربرد گسترده‌تر، دارایی و اموال شخص. این واژه با فراوانی و گرد آمدن پیوند دارد، اما تجمل یا مقدار بسیار زیاد شرط معنای آن نیست.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-th-th/",
-      "title": "The Root A TH TH",
-      "summary": "Being plentiful or dense; athāth: household furnishings and possessions.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root A TH TH",
+      "summary": "The assembled goods of daily life; more broadly, a person’s property and possessions. The word relates to abundance and gathering, but does not necessarily imply luxury or a very large quantity.",
+      "status": "published"
     }
   },
   "a-w-b": {
