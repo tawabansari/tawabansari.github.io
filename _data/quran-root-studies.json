@@ -702,15 +702,15 @@
   "a-s-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-s-s/",
-      "title": "ریشهٔ أ س س",
-      "summary": "پایه و بنیاد؛ تأسیس: بنا نهادن چیزی بر پایه‌ای.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ س س",
+      "summary": "پایه و بنیاد چیزی؛ و در صورت فعلی، پی‌ریزی و بنیان نهادن بنا یا کاری بر یک اساس مشخص. این بنیاد می‌تواند مادی باشد یا در کاربرد گسترده‌تر، به مقصود و جهت‌گیری یک عمل مربوط شود. خود ریشه نه استواری نهایی را تضمین می‌کند و نه ارزش اخلاقی ثابتی دارد؛ کیفیت پایه، جهت عمل و سیاق، درستی یا ناپایداری آن را روشن می‌سازند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-s-s/",
-      "title": "The Root A S S",
-      "summary": "A foundation or base; establishing something upon a foundation.",
-      "status": "preliminary"
+      "title": "Qur’anic Root أ س س",
+      "summary": "The base and foundation of something; and, in verbal use, laying a foundation and founding a building or undertaking upon a particular basis. The foundation may be material or, in broader use, concern an action’s purpose and direction. The root itself guarantees neither final stability nor a fixed ethical value: the foundation’s quality, the action’s direction and the context clarify its soundness or instability.",
+      "status": "published"
     }
   },
   "a-s-w": {
@@ -982,15 +982,15 @@
   "a-z-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-z-f/",
-      "title": "ریشهٔ أ ز ف",
-      "summary": "نزدیک شدن و فرا رسیدن؛ آزفة: آنچه زمان وقوعش نزدیک شده است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ ز ف",
+      "summary": "نزدیک شدن و فرا رسیدن موعد یک امر یا رویداد، پیش از آنکه لزوما خود آن رویداد واقع شده باشد. در قرآن، أَزِفَتْ از نزدیک شدن خبر می‌دهد و الْآزِفَة عنوان رویداد نزدیک‌شونده قیامت است. این نزدیکی، بدون تعیین فاصله دقیق زمانی، وقوع آن را در افق هشدار و مسئولیت انسان قرار می‌دهد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-z-f/",
-      "title": "The Root A Z F",
-      "summary": "Drawing near or approaching; āzifah: an event whose occurrence is near.",
-      "status": "preliminary"
+      "title": "Qur’anic Root أ ز ف",
+      "summary": "The appointed time of an affair or event drawing near, without the event itself necessarily having occurred. In the Qur’an, أَزِفَتْ reports drawing near, and الْآزِفَة names the approaching event of the Resurrection. Without specifying an exact interval, this nearness places its occurrence within the setting of warning and human responsibility.",
+      "status": "published"
     }
   },
   "a-z-r": {
