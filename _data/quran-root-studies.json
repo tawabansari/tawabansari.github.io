@@ -391,6 +391,20 @@
       "status": "published"
     }
   },
+  "ayn-d-n": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/ayn-d-n/",
+      "title": "ریشه قرآنی ع د ن",
+      "summary": "ریشه «ع د ن» در زبان عربی به اقامت، ماندن و استقرار در مکان مربوط است.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/ayn-d-n/",
+      "title": "Qur’anic root ع د ن — AYN D N (ʿ D N)",
+      "summary": "In Arabic, ع د ن concerns residence, remaining and settling in a place.",
+      "status": "published"
+    }
+  },
   "ayn-d-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-d-s/",
@@ -626,6 +640,20 @@
       "url": "/quran-terminology/en/roots/ayn-r-f/",
       "title": "Qur'anic Root AYN R F",
       "summary": "",
+      "status": "published"
+    }
+  },
+  "ayn-sad-r": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/ayn-sad-r/",
+      "title": "ریشه قرآنی ع ص ر",
+      "summary": "عصر در کاربرد مادی، فشردن و بیرون آوردن مایع است؛ در کاربرد زمانی، به وقت و روزگار اشاره دارد؛ و در صورت‌های مربوط به باد و باران، باید معنای خاص هر مشتق را از ساخت و سیاق آن شناخت.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/ayn-sad-r/",
+      "title": "Qur’anic Root ʿ Ṣ R ( ع ص ر )",
+      "summary": "In material usage, ʿaṣr is pressing to draw out liquid; in temporal usage, it denotes time or an age; and in forms concerning wind and rain, each derivative’s particular meaning must be recognized from its morphology and context.",
       "status": "published"
     }
   },
@@ -1105,6 +1133,20 @@
       "status": "published"
     }
   },
+  "b-th-th": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/b-th-th/",
+      "title": "ریشه قرآنی ب ث ث",
+      "summary": "پراکنده یا گسترده ساختن چیزی در یک گستره، یا بیرون آوردن آن از حالت پنهان و آشکار ساختنش نزد دیگری؛ و در کاربرد مربوط به اندوه، رنج سنگینی که انسان آن را بازمی‌گوید یا شکایت می‌کند.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/b-th-th/",
+      "title": "Qur’anic root ب ث ث — B TH TH",
+      "summary": "dispersing or spreading something across an area, or bringing it out of concealment and disclosing it to another; in its use for distress, it concerns weighty suffering a person voices or complains of.",
+      "status": "published"
+    }
+  },
   "b-tt-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/b-tt-l/",
@@ -1200,6 +1242,20 @@
       "url": "/quran-terminology/en/roots/d-ayn-w/",
       "title": "The Qur’anic Root D AYN W (D ʿ W)",
       "summary": "To call, summon, invite, invoke for help, ask, or name someone by a given relation and identity",
+      "status": "published"
+    }
+  },
+  "d-b-b": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/d-b-b/",
+      "title": "ریشه قرآنی د ب ب",
+      "summary": "حرکت کردن و پیش رفتن بر سطح زمین است، با گرایش شناخته‌شده به حرکت آرام و تدریجی. «دابة» موجودی است که جنبش و حرکت دارد؛ نامی گسترده که نوع و ویژگی‌های مصداق آن را باید از جمله و سیاق شناخت.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/d-b-b/",
+      "title": "Qur’anic root د ب ب — D B B",
+      "summary": "movement and progress over the earth, with an established association with gentle, gradual motion. Dābbah names a moving creature: a broad designation whose particular kind and qualities must be understood from sentence and context.",
       "status": "published"
     }
   },
@@ -1455,6 +1511,20 @@
       "status": "published"
     }
   },
+  "f-a-d": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/f-a-d/",
+      "title": "ریشه قرآنی ف أ د",
+      "summary": "«دل» مناسب‌ترین معادل پایه فؤاد است؛ دلی که در کاربردهای قرآنی می‌تواند با دریافت، ادراک، گرایش، تاثیرپذیری و پایداری ارتباط داشته باشد.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/f-a-d/",
+      "title": "Qur’anic Root F A D ( ف أ د )",
+      "summary": "“heart” is the most appropriate basic equivalent for fuʾād: a heart that Qur’anic usage can connect with reception, understanding, inclination, responsiveness, and steadfastness.",
+      "status": "published"
+    }
+  },
   "f-ayn-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-ayn-l/",
@@ -1511,6 +1581,20 @@
       "status": "published"
     }
   },
+  "f-k-k": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/f-k-k/",
+      "title": "ریشه قرآنی ف ك ك",
+      "summary": "گشودن پیوند یا قیدی که چیزی را بسته یا محدود کرده است، و جدا شدن یا رها ساختن آن چیز از وضعیت پیشین.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/f-k-k/",
+      "title": "Qur’anic Root F K K ( ف ك ك )",
+      "summary": "undoing a connection or constraint that binds or limits something, and separating or releasing that thing from its previous condition.",
+      "status": "published"
+    }
+  },
   "f-l-h": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-l-h/",
@@ -1522,6 +1606,20 @@
       "url": "/quran-terminology/en/roots/f-l-h/",
       "title": "The Qur’anic Root F L Ḥ",
       "summary": "",
+      "status": "published"
+    }
+  },
+  "f-l-q": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/f-l-q/",
+      "title": "ریشه قرآنی ف ل ق",
+      "summary": "فلق، شکافتن و از هم گشودن چیزی است؛ در کاربرد مادی، به ایجاد شکاف و جدا شدن بخش‌ها مربوط می‌شود؛ و در کاربرد مربوط به صبح، به پدیدار شدن سپیده و آشکار شدن روشنایی آغاز روز اشاره دارد. «فالق» شکافنده و گشاینده است، «انفلق» شکافته شدن را بیان می‌کند و «الفلق» در سوره فلق نام سپیده‌دم است.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/f-l-q/",
+      "title": "Qur’anic Root F L Q ( ف ل ق )",
+      "summary": "falq is splitting or opening something apart. Materially it concerns producing a cleft and separating portions; in relation to morning, it concerns dawn appearing and early daylight becoming manifest. Fāliq is a splitter or opener, infalaqa expresses becoming split, and al-falaq in Sūrat Al-Falaq names daybreak.",
       "status": "published"
     }
   },
@@ -1777,6 +1875,20 @@
       "status": "published"
     }
   },
+  "gh-s-q": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/gh-s-q/",
+      "title": "ریشه قرآنی غ س ق",
+      "summary": "غسق در کاربرد مربوط به شب، تاریک شدن و فرارسیدن یا گسترش تاریکی است؛ در شاخه دیگری از زبان عربی، این خانواده برای جاری شدن و فرو ریختن مایعات نیز به کار رفته است. «غاسق» وصف تاریک‌شونده یا در سیاق مناسب جاری‌شونده است، و «غساق» در قرآن نام چیزی عذاب‌آور است که درباره ماهیت دقیق آن اختلاف لغوی باقی مانده است.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/gh-s-q/",
+      "title": "Qur’anic Root GH S Q",
+      "summary": "in its use concerning night, ghasaq is night becoming dark and darkness arriving or spreading. Another Arabic branch uses this family for liquids flowing and pouring. Ghāsiq describes something becoming dark or, in an appropriate context, flowing; ghassāq in the Qur’an names something punitive whose precise nature remains disputed in the lexical tradition.",
+      "status": "published"
+    }
+  },
   "gh-sh-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-sh-w/",
@@ -1788,6 +1900,20 @@
       "url": "/quran-terminology/en/roots/gh-sh-w/",
       "title": "The Qur’anic Root GH SH W",
       "summary": "",
+      "status": "published"
+    }
+  },
+  "gh-th-w": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/gh-th-w/",
+      "title": "ریشه قرآنی غ ث و",
+      "summary": "غثاء، خاشاک و بقایای فرسوده و سبک، به‌ویژه آنچه سیلاب با خود می‌برد یا بر سطح آب گرد می‌آورد؛ و در کاربرد گیاهی، آنچه پس از خشک شدن و از دست دادن تازگی به خاشاک تبدیل شده است.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/gh-th-w/",
+      "title": "Qur’anic Root GH TH W ( غ ث و )",
+      "summary": "ghuthāʾ, debris and light, weathered remains, particularly what a flood carries or gathers on the water’s surface; in its botanical use, vegetation reduced to debris after drying and losing its freshness.",
       "status": "published"
     }
   },
@@ -2001,6 +2127,20 @@
       "status": "published"
     }
   },
+  "h-s-b": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/h-s-b/",
+      "title": "ریشه قرآنی ح س ب",
+      "summary": "حساب، شمردن و سنجیدن مقدار یا عملکرد است؛ « حَسِبَ »، پنداشتن و ارزیابی ذهنی است؛ حَسْب، کفایت و بسندگی است؛ و دیگر مشتق‌ها، مانند حسیب و حسبان، بر اساس ساخت و سیاق خود معنا می‌یابند.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/h-s-b/",
+      "title": "Qur’anic Root Ḥ S B ( ح س ب )",
+      "summary": "Ḥisāb is counting and assessing quantity or conduct; ḥasiba is supposing and mentally assessing; ḥasb is sufficiency and adequacy; and other derivatives, including ḥasīb and ḥusbān, take their meanings from their morphology and context.",
+      "status": "published"
+    }
+  },
   "h-s-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-s-d/",
@@ -2026,6 +2166,20 @@
       "url": "/quran-terminology/en/roots/h-s-n/",
       "title": "Qur'anic Root H S N",
       "summary": "",
+      "status": "published"
+    }
+  },
+  "h-tt-m": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/h-tt-m/",
+      "title": "ریشه قرآنی ح ط م",
+      "summary": "حطم عمل شکستن و خرد کردن است؛ حطام نتیجه و باقی‌مانده خردشدگی، به‌ویژه درباره گیاه خشک است؛ و حطمة نام یا وصف چیزی است که با خردکنندگی شدید شناخته می‌شود.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/h-tt-m/",
+      "title": "Qur’anic Root Ḥ Ṭ M ( ح ط م )",
+      "summary": "Ḥaṭm is the action of breaking and crushing; ḥuṭām is its result and fragmented remains, especially of dry vegetation; and ḥuṭamah names or describes something characterized by intense crushing.",
       "status": "published"
     }
   },
@@ -2068,6 +2222,20 @@
       "url": "/quran-terminology/en/roots/h-w-tt/",
       "title": "The Qur’anic Root Ḥ W Ṭ",
       "summary": "To surround, encompass, take something from all sides, enclose it fully; and in some uses, to guard, watch over, or besiege",
+      "status": "published"
+    }
+  },
+  "h-w-y": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/h-w-y/",
+      "title": "ریشه قرآنی ح و ي",
+      "summary": "حوی در کاربرد گردآوری، به جمع کردن و دربر گرفتن مربوط است و حوايا نام بخش‌های پیچیده درون شکم است؛ در شاخه رنگ، أحوى وصف تیرگی و رنگ مایل به سیاهی است که در بعضی مصداق‌ها از سبزی بسیار پررنگ نیز حکایت می‌کند.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/h-w-y/",
+      "title": "Qur’anic Root Ḥ W Y ( ح و ي )",
+      "summary": "in its gathering uses, ḥawā concerns collecting and containing, while ḥawāyā names coiled parts inside the abdomen; in the color branch, aḥwā describes darkness and a color tending toward black, in some applications indicating very deep green.",
       "status": "published"
     }
   },
@@ -2138,6 +2306,20 @@
       "url": "/quran-terminology/en/roots/h2-d-y/",
       "title": "The Qur’anic Root H D Y",
       "summary": "",
+      "status": "published"
+    }
+  },
+  "h2-m-z": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/h2-m-z/",
+      "title": "ریشه قرآنی ه م ز",
+      "summary": "همز در کاربرد مادی به وارد کردن فشار، نیش یا ضربه مربوط است؛ در رفتار انسانی به عیب‌جویی و طعنه آسیب‌رسان اشاره می‌کند؛ و در تعبیر «همزات شیاطین» به تحریک‌ها و فشارهایی مربوط می‌شود که شخص از آنها به آن معبود یگانه پناه می‌برد.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/h2-m-z/",
+      "title": "Qur’anic Root H M Z ( ه م ز )",
+      "summary": "In physical usage, hamz concerns applying pressure, a prick, or a blow; in human behaviour it denotes injurious faultfinding and taunting; and in “the hamazāt of devils” it concerns incitements and pressures from which a person seeks refuge in The God.",
       "status": "published"
     }
   },
@@ -2281,6 +2463,20 @@
       "status": "published"
     }
   },
+  "j-n-h": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/j-n-h/",
+      "title": "ریشه قرآنی ج ن ح",
+      "summary": "متمایل شدن یا رو آوردن به یک سو؛ بال و بخش کناری بدن یا چیزها؛ و گناه یا مسئولیتی که موجب ملامت و بازخواست می‌شود.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/j-n-h/",
+      "title": "Qur’anic root ج ن ح — J N Ḥ",
+      "summary": "inclining or turning towards one side; the wing and lateral part of a body or thing; and sin or responsibility that incurs blame and accountability.",
+      "status": "published"
+    }
+  },
   "j-n-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-n-n/",
@@ -2320,6 +2516,20 @@
       "url": "/quran-terminology/en/roots/j-w-ayn/",
       "title": "Qur’anic root ج و ع — J W AYN (J W ʿ)",
       "summary": "",
+      "status": "published"
+    }
+  },
+  "j-w-b": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/j-w-b/",
+      "title": "ریشه قرآنی ج و ب",
+      "summary": "جوب در کاربرد مادی، بریدن، شکافتن و گذشتن از میان چیزی است؛ و در کاربرد گفتاری و رفتاری، جواب و استجابت به پاسخ دادن در برابر سخن، درخواست یا دعوت اشاره دارند.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/j-w-b/",
+      "title": "Qur’anic Root J W B ( ج و ب )",
+      "summary": "in concrete usage, jawb concerns cutting, piercing, and passing through something; in verbal and behavioral usage, jawāb and istijābah concern responding to speech, a request, or a call.",
       "status": "published"
     }
   },
@@ -2645,6 +2855,20 @@
       "status": "published"
     }
   },
+  "kh-n-s": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/kh-n-s/",
+      "title": "ریشه قرآنی خ ن س",
+      "summary": "خنوس، عقب نشستن، جمع شدن یا کنار رفتن از جایگاه آشکار است که می‌تواند با پنهان شدن از دید همراه باشد. « خُنَّس » به واپس‌روندگان یا پنهان‌شوندگان اشاره می‌کند و « خَنَّاس » وصف کسی یا چیزی است که عقب‌نشینی و پنهان شدن در رفتار او برجسته است.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/kh-n-s/",
+      "title": "Qur’anic Root KH N S ( خ ن س )",
+      "summary": "khunūs is drawing back, contracting, or withdrawing from an exposed position, which may be accompanied by disappearing from view. Khunnas denotes those that retreat or become hidden; khannās describes someone or something whose conduct is characterized by retreat and concealment.",
+      "status": "published"
+    }
+  },
   "kh-r-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/kh-r-b/",
@@ -2852,6 +3076,20 @@
       "url": "/quran-terminology/en/roots/l-b-s/",
       "title": "Qur'anic Root L B S",
       "summary": "",
+      "status": "published"
+    }
+  },
+  "l-m-z": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/l-m-z/",
+      "title": "ریشه قرآنی ل م ز",
+      "summary": "لمز، عیب‌جویی و خرده‌گیری آسیب‌رسان از شخص یا رفتار اوست که می‌تواند از راه سخن، کنایه یا اشاره انجام شود و در کاربرد قرآنی، غالبا با طعنه و تحقیر همراه است.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/l-m-z/",
+      "title": "Qur’anic Root L M Z ( ل م ز )",
+      "summary": "Lamz is injurious faultfinding and disparagement directed at a person or their conduct, carried out through speech, insinuation, or gesture, and commonly accompanied by taunting and contempt in Qur’anic usage.",
       "status": "published"
     }
   },
@@ -4283,6 +4521,20 @@
       "status": "published"
     }
   },
+  "s-h-b": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/s-h-b/",
+      "title": "ریشه قرآنی س ح ب",
+      "summary": "کشیدن و امتداد دادن چیزی در یک مسیر است. «سحاب» شاخه اسمی شناخته‌شده این خانواده برای ابر است که در توضیح لغوی، حرکت و گستردگی آن با تصویر کشیده شدن ارتباط یافته است.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/s-h-b/",
+      "title": "Qur’anic root س ح ب — S Ḥ B",
+      "summary": "pulling and extending something along a path. Saḥāb is its established nominal branch for cloud, whose movement and spread lexical explanation connects with the image of being drawn.",
+      "status": "published"
+    }
+  },
   "s-h-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/s-h-r/",
@@ -4322,6 +4574,20 @@
       "url": "/quran-terminology/en/roots/s-k-n/",
       "title": "Qur'anic Root S K N",
       "summary": "",
+      "status": "published"
+    }
+  },
+  "s-kh-r": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/s-kh-r/",
+      "title": "ریشه قرآنی س خ ر",
+      "summary": "نخست، کوچک شمردن و دستمایه ریشخند قرار دادن دیگری؛ دوم، تابع فرمان، اختیار یا کارکرد مشخص قرار دادن شخص یا چیزی، به گونه‌ای که بتوان از کار یا توان آن استفاده کرد.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/s-kh-r/",
+      "title": "Qur’anic root س خ ر — S KH R",
+      "summary": "belittling and making another an object of ridicule; and placing a person or thing under a particular command, control or function so that its work or capacity can be used.",
       "status": "published"
     }
   },
@@ -4563,6 +4829,20 @@
       "status": "published"
     }
   },
+  "sad-d-r": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/sad-d-r/",
+      "title": "ریشه قرآنی ص د ر",
+      "summary": "« صَدْر » سینه یا بخش پیشین چیزی است و در کاربردهای مربوط به انسان می‌تواند جایگاه بیان امور درونی او باشد؛ « صُدُور » در شاخه فعلی، بیرون رفتن، روانه شدن یا بازگشت از جایی است، به‌ویژه در برابر ورود به آن.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/sad-d-r/",
+      "title": "Qur’anic Root Ṣ D R ( ص د ر )",
+      "summary": "ṣadr is the chest or front of something and, in human uses, may express the location of inward affairs. Ṣudūr in the verbal branch is departure, proceeding, or returning from somewhere, especially in contrast with arriving there.",
+      "status": "published"
+    }
+  },
   "sad-f-h": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sad-f-h/",
@@ -4616,6 +4896,20 @@
       "url": "/quran-terminology/en/roots/sad-h-b/",
       "title": "Qur'anic Root Ṣ Ḥ B",
       "summary": "",
+      "status": "published"
+    }
+  },
+  "sad-h-f": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/sad-h-f/",
+      "title": "ریشه قرآنی ص ح ف",
+      "summary": "« صُحُف » به صحیفه‌ها و نوشته‌ها اشاره می‌کند و « صِحَاف » به ظرف‌های پهن غذا.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/sad-h-f/",
+      "title": "Qur’anic root ص ح ف — Ṣ Ḥ F",
+      "summary": "Ṣuḥuf names written sheets and writings; ṣiḥāf names broad food dishes.",
       "status": "published"
     }
   },
@@ -4854,6 +5148,20 @@
       "url": "/quran-terminology/en/roots/sh-r-q/",
       "title": "The Root SH R Q",
       "summary": "",
+      "status": "published"
+    }
+  },
+  "sh-r-r": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/sh-r-r/",
+      "title": "ریشه قرآنی ش ر ر",
+      "summary": "شر، بدی یا زیانی است که می‌تواند به رفتار، وضعیت، رخداد یا فرجام چیزی نسبت داده شود؛ در ساخت مقایسه‌ای، بدتر بودن را بیان می‌کند؛ و شرر در شاخه مادی به پاره‌های فروزان و جهنده آتش اشاره دارد.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/sh-r-r/",
+      "title": "Qur’anic Root SH R R ( ش ر ر )",
+      "summary": "sharr is evil or harm attributable to conduct, a condition, an event, or something’s outcome; comparatively, it expresses being worse. In the material branch, sharar denotes glowing fragments that leap from fire.",
       "status": "published"
     }
   },
@@ -5347,6 +5655,20 @@
       "status": "published"
     }
   },
+  "tt-l-ayn": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/tt-l-ayn/",
+      "title": "ریشه قرآنی ط ل ع",
+      "summary": "ط ل ع در هسته شناخته‌شده خود به برآمدن و آشکار شدن مربوط است. در کاربردهای طبیعی، پدیدار شدن خورشید و سر برآوردن محصول گیاه را بیان می‌کند؛ در کاربردهای مربوط به انسان، می‌تواند به مشاهده یا آگاه شدن از چیزی اشاره کند که پیش‌تر در دسترس او نبوده است؛ و در بعضی ساخت‌ها، معنای رسیدن به جایگاهی را می‌رساند.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/tt-l-ayn/",
+      "title": "Qur’anic Root Ṭ L ʿ ( ط ل ع )",
+      "summary": "In its familiar semantic core, Ṭ L ʿ concerns rising and becoming apparent. In natural uses, it describes the sun appearing and plant produce emerging. In human uses, it can concern observing or learning something previously beyond a person’s access. In some constructions, it conveys reaching a particular place.",
+      "status": "published"
+    }
+  },
   "tt-m-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/tt-m-ayn/",
@@ -5428,6 +5750,20 @@
       "url": "/quran-terminology/en/roots/tt-r-w/",
       "title": "Qur'anic Root Ṭ R W",
       "summary": "",
+      "status": "published"
+    }
+  },
+  "tt-w-ayn": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/tt-w-ayn/",
+      "title": "ریشه قرآنی ط و ع",
+      "summary": "همراه و پذیرای انجام امری شدن، یا تن دادن به فرمان و خواسته‌ای؛ با شاخه‌ای مرتبط که در آن فراهم بودن توان و امکان انجام کار برجسته می‌شود.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/tt-w-ayn/",
+      "title": "Qur’anic root ط و ع — Ṭ W AYN (Ṭ W ʿ)",
+      "summary": "becoming compliant and receptive to an action, or yielding to a command or wish, with a related branch foregrounding the capacity and possibility of performing an act.",
       "status": "published"
     }
   },
@@ -5585,6 +5921,20 @@
       "status": "published"
     }
   },
+  "w-q-b": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/w-q-b/",
+      "title": "ریشه قرآنی و ق ب",
+      "summary": "وقوب، داخل شدن و فرو رفتن یا پنهان گشتن چیزی در یک جایگاه است؛ و در کاربردهای مربوط به خورشید، ماه و تاریکی، می‌تواند غروب، ناپدید شدن یا فرارسیدن و فراگیر شدن را بیان کند. «وقب» همچنین نام گودی یا فرورفتگی‌ای است که چیزی در آن جای می‌گیرد.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/w-q-b/",
+      "title": "Qur’anic Root W Q B",
+      "summary": "wuqūb is something entering, sinking into, or disappearing into a location. In uses concerning the sun, moon, and darkness, it can express setting, disappearing, arriving, or enveloping. Waqb also names a hollow or depression in which something rests.",
+      "status": "published"
+    }
+  },
   "w-q-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/w-q-d/",
@@ -5666,6 +6016,20 @@
       "url": "/quran-terminology/en/roots/w-s-tt/",
       "title": "Qur’anic root و س ط",
       "summary": "",
+      "status": "published"
+    }
+  },
+  "w-s-w-s": {
+    "fa": {
+      "url": "/quran-terminology/fa/roots/w-s-w-s/",
+      "title": "ریشه قرآنی و س و س",
+      "summary": "وسوسه در کاربرد صوتی، صدای آرام و پنهان است؛ و در کاربرد مربوط به انسان، سخن یا اندیشه‌ای است که در درون می‌گذرد یا به شیوه‌ای نهانی القا می‌شود. این القا می‌تواند از نفس انسان یا عامل دیگری باشد و نادرستی، فریبندگی یا شیطانی بودن آن از فاعل، محتوا و سیاق تعیین می‌شود، نه از خود ریشه به تنهایی.",
+      "status": "published"
+    },
+    "en": {
+      "url": "/quran-terminology/en/roots/w-s-w-s/",
+      "title": "Qur’anic Root W S W S ( و س و س )",
+      "summary": "in acoustic usage, waswasah is quiet, hidden sound; in relation to a person, it is speech or thought that passes within them or is suggested in a concealed way. Such prompting may come from the person’s own self or another agent. Whether it is wrong, deceptive, or satanic is determined by the agent, content, and context, rather than by the root alone.",
       "status": "published"
     }
   },
