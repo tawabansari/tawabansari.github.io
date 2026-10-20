@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-20",
+  "root": "أ ب ب",
+  "slug": "a-b-b",
+  "source_attachment": "/Users/tawab/.codex/attachments/d5541164-8dea-40d4-9860-16295d9fe288/Pasted text.txt",
+  "content_blocks_per_language": 322,
+  "main_sections": 10,
+  "cards_per_language": 8,
+  "quranic_occurrences": 1,
+  "quranic_location": "80:31:2:2",
+  "content_changes": [
+    "Qualified the poetic fragment attributed to Abū Duʾād: a transmitted criticism from Abū Ḥanīfah al-Dīnawarī regards it as fabricated. Retained the quoted text and its semantic explanation but removed its treatment as certain pre-Islamic evidence.",
+    "Corrected أَبَاب with initial fatḥah for water/mirage, distinguishing أُبَاب with ḍammah for the mass of a flood or waves.",
+    "Standardized Persian explanatory reference to the true God as آن معبود یگانه; Arabic quotations preserved.",
+    "Complete English conceptual mirror, adapting the three translation choices for English readers.",
+    "Corrected 79:31 from وَأَخْرَجَ to أَخْرَجَ, removing the extra opening wāw and adjusting both translations and the English transliteration."
+  ],
+  "persian_edits": [
+    {
+      "block": 13,
+      "before": "صورت‌های دیگری مانند «أُبَاب» نیز در بعضی منابع لغوی برای آب یا سراب ثبت شده‌اند، اما رابطه تاریخی آنها با شاخه‌های اصلی ریشه محل بررسی است.",
+      "after": "صورت‌های دیگری نیز ثبت شده‌اند: «أَبَاب» با فتحه همزه برای آب یا سراب، و «أُبَاب» با ضمه همزه برای بخش انبوه سیلاب یا موج. رابطه تاریخی این صورت‌ها با شاخه‌های اصلی ریشه محل بررسی است."
+    },
+    {
+      "block": 70,
+      "before": "بنابراین، این شاهد با معنای شناخته‌شده گیاهان چراگاهی سازگاری روشنی دارد.",
+      "after": "از نظر معنایی، این عبارت با معنای شناخته‌شده گیاهان چراگاهی سازگاری روشنی دارد."
+    },
+    {
+      "block": 71,
+      "before": "بیت در منابع با اختلاف ضبط در بخش بعدی نقل شده است. از این رو، برای داوری دقیق درباره تمام ساخت شعر باید نسخه معتبر دیوان و اختلاف‌های آن بررسی شوند.",
+      "after": "بیت در منابع با اختلاف ضبط در بخش بعدی نقل شده است. افزون بر این، در نقدی منقول از ابوحنیفه دینوری در کتاب النبات، بیت ساختگی شمرده شده و انتساب آن به ابو دؤاد مورد اعتراض قرار گرفته است. بنابراین، مسئله تنها اختلاف ضبط نیست و اعتبار خود انتساب نیز باید در نظر گرفته شود."
+    },
+    {
+      "block": 72,
+      "before": "همچنین انتساب شعر به شاعر جاهلی، به تنهایی تاریخ دقیق سروده شدن هر بیت را قطعی نمی‌کند.",
+      "after": "انتساب شعر به شاعر جاهلی، به تنهایی تاریخ دقیق سروده شدن هر بیت را قطعی نمی‌کند؛ به‌ویژه هنگامی که خود آن انتساب مورد نقد قرار گرفته باشد."
+    },
+    {
+      "block": 73,
+      "before": "با وجود این احتیاط‌ها، کاربرد أَبّ در کنار فعل چریدن شاهد مهمی برای میدان معنایی گیاهی واژه است.",
+      "after": "پس همراهی أَبّ با فعل چریدن، میدان معنایی گیاهی را در این نقل روشن می‌کند، اما با توجه به نقد انتساب، نباید آن را شاهد قطعی کاربرد واژه در شعر جاهلی شمرد."
+    },
+    {
+      "block": 162,
+      "before": "این دو واژه از نظر سیاق در کنار هم قرار گرفته‌اند و هر دو بخشی از روییدنی‌هایی‌اند که خداوند از زمین پدید آورده است.",
+      "after": "این دو واژه از نظر سیاق در کنار هم قرار گرفته‌اند و هر دو بخشی از روییدنی‌هایی‌اند که آن معبود یگانه از زمین پدید آورده است."
+    },
+    {
+      "block": 205,
+      "before": "> وَأَخْرَجَ مِنْهَا مَاءَهَا وَمَرْعَاهَا",
+      "after": "> أَخْرَجَ مِنْهَا مَاءَهَا وَمَرْعَاهَا"
+    },
+    {
+      "block": 206,
+      "before": "«و از زمین، آب و چراگاه آن را بیرون آورد.»",
+      "after": "«از زمین، آب و چراگاه آن را بیرون آورد.»"
+    },
+    {
+      "block": 310,
+      "before": "در شاخه نخست، أَبّ به علف‌ها و گیاهانی گفته می‌شود که چارپایان از آنها تغذیه می‌کنند. این معنا در منابع لغوی کهن به روشنی ثبت شده و با شواهدی از شعر عربی درباره چراگاه و آبشخور پشتیبانی می‌شود.",
+      "after": "در شاخه نخست، أَبّ به علف‌ها و گیاهانی گفته می‌شود که چارپایان از آنها تغذیه می‌کنند. این معنا در منابع لغوی کهن به روشنی ثبت شده و با شواهدی از شعر عربی درباره چراگاه و آبشخور پشتیبانی می‌شود؛ با حفظ احتیاط درباره اعتبار و انتساب بعضی از نقل‌های شعری."
+    }
+  ],
+  "index_entries": "Existing a-b-b destinations and labels verified in both root indexes; unchanged.",
+  "registry": "Only a-b-b changed from preliminary to published; all other records preserved.",
+  "verse_metadata": {
+    "description": "Only the two a-b-b boxes in 80:31: removed obsolete preliminary notes and installed the brief meaning extracted verbatim from the conclusion. Verse Arabic, translations, root assignments, URLs, other boxes, Fatihah and protected Baqarah verses unchanged.",
+    "boxes": [
+      {
+        "file": "quran-reflection/fa/080-abasa/units/031.html",
+        "words": [
+          "وَأَبًّا"
+        ]
+      },
+      {
+        "file": "quran-reflection/en/080-abasa/units/031.html",
+        "words": [
+          "وَأَبًّا"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "work": "Quranic Arabic Corpus morphology 0.4",
+      "location": "80:31:2:2; ROOT:Abb; noun, masculine, indefinite accusative"
+    },
+    {
+      "work": "Maqāyīs al-Lughah, A B B, opening root entry",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0395IbnFarisQazwini/0395IbnFarisQazwini.MucjamMaqayis/0395IbnFarisQazwini.MucjamMaqayis.Shamela0021710-ara1"
+    },
+    {
+      "work": "Al-Ṣiḥāḥ, A B B",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0393IbnHammadJawhari/0393IbnHammadJawhari.SihahTajLugha/0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1#L2462"
+    },
+    {
+      "work": "Mufradāt, A B B",
+      "url": "https://github.com/OpenITI/0525AH/blob/master/data/0502RaghibIsbahani/0502RaghibIsbahani.Mufradat/0502RaghibIsbahani.Mufradat.Shamela0023636-ara1"
+    },
+    {
+      "work": "Lisān al-ʿArab, A B B",
+      "url": "https://islamweb.net/ar/library/content/122/5/أبب"
+    },
+    {
+      "work": "Tāj al-ʿArūs, initial vocalization of ʾabāb/ʾubāb",
+      "url": "https://ar.wikisource.org/wiki/تاج_العروس/الجزء_الأول/فصل_الهمزة_مع_الباء"
+    },
+    {
+      "work": "Transmitted criticism of the Abū Duʾād fragment, citing Kitāb al-Nabāt and the Ṣaghānī transmission apparatus",
+      "url": "https://tafsir.app/albaseet/21/43"
+    },
+    {
+      "work": "Dīwān al-Aʿshā, ṣaramtu verse, poem context",
+      "url": "https://www.islamarchive.cc/ketab_content/66709/p-2"
+    }
+  ],
+  "early_witness_review": "Independently checked anonymous Qays/Najd verse, attribution challenge to the Abū Duʾād fragment, and al-Aʿshā intention/readiness verse; no unsupported pre-Qur’anic dating added.",
+  "files": [
+    "_data/quran-root-studies.json",
+    "quran-reflection/en/080-abasa/units/031.html",
+    "quran-reflection/fa/080-abasa/units/031.html",
+    "quran-terminology/en/roots/a-b-b/index.html",
+    "quran-terminology/fa/roots/a-b-b/index.html"
+  ],
+  "original_sha256": {
+    "_data/quran-root-studies.json": "53aa3557b4e39438b71bbbae435c0d5fd41ce30214ddd502693eb3bc63539195",
+    "quran-reflection/en/080-abasa/units/031.html": "f7874c10a3db8386e7031802a6475f7d0430e0904abb1e1cbf3246e1d1500d2d",
+    "quran-reflection/fa/080-abasa/units/031.html": "410aeaaa543749c93dddd62a2a8a8439b043459d4d0a19f56657a1a824bbb975",
+    "quran-terminology/en/roots/a-b-b/index.html": null,
+    "quran-terminology/fa/roots/a-b-b/index.html": null
+  },
+  "protected_sha256": {
+    "AGENTS.md": "73e9d17b8a07b275e364c8c715088c44fd5f3614afe09cf877ed1c186ecdac91",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50"
+  },
+  "verification": {
+    "stage": "before installation",
+    "all_322_content_blocks_rendered_in_each_language": true,
+    "persian_edits_documented": true,
+    "all_arabic_quotes_preserved_except_verified_extra_waw_removed_from_79_31": true,
+    "all_16_quranic_quotes_checked_against_installed_verses": true,
+    "sole_quranic_occurrence_and_form_confirmed": true,
+    "unique_ids_and_resolved_cards_and_contents": true,
+    "verse_targets_individually_verified": 28,
+    "existing_root_index_targets_verified": true,
+    "no_persian_characters_or_digits_in_english": true,
+    "verse_arabic_translations_and_other_root_boxes_unchanged": true,
+    "only_two_root_popovers_metadata_updated": true,
+    "other_registry_entries_unchanged": true,
+    "AGENTS_md_change_preserved": true,
+    "Allah_box_rule": "80:31 contains no Allah word; no Allah box changed.",
+    "standalone_preview": "Inspected the full English discussion of the contested Abū Duʾād fragment in dark mode and all eight Persian morphology cards in light mode before installation with current shared CSS.",
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false
+  },
+  "installation": {
+    "status": "installed locally",
+    "committed": false,
+    "pushed": false,
+    "post_installation_tests_run": false
+  }
+}

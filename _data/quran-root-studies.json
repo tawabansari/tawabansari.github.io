@@ -2,15 +2,15 @@
   "a-b-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-b-b/",
-      "title": "ریشهٔ أ ب ب",
-      "summary": "أبّ: گیاه و چراگاهی که برای خوراک دام می‌روید یا آمادهٔ چریدن است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ ب ب",
+      "summary": "أَبّ در کاربرد قرآنی، گیاهان چراگاهی و علوفه‌ای است که خوراک چارپایان را فراهم می‌کنند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-b-b/",
-      "title": "The Root A B B",
-      "summary": "Abb: vegetation and pasture available for grazing or animal fodder.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root A B B",
+      "summary": "In Qur’anic usage, ʾabb is pasture vegetation and fodder that provide feed for livestock.",
+      "status": "published"
     }
   },
   "a-b-d": {
@@ -30,29 +30,29 @@
   "a-b-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-b-l/",
-      "title": "ریشهٔ أ ب ل",
-      "summary": "إبل: شتران؛ أبابیل: دسته‌ها و گروه‌های پیاپی. هم‌ریشگی تاریخی این دو معنا قطعی فرض نمی‌شود.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ ب ل",
+      "summary": "إِبِل نام جمع شتران نر و ماده است؛ أَبَابِيل گروه‌های جداگانه یا پی‌درپی را توصیف می‌کند. اشتقاق تاریخی أبابیل از إبل قطعی نیست.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-b-l/",
-      "title": "The Root A B L",
-      "summary": "Ibil: camels; abābīl: successive groups or flocks. A shared historical derivation is not assumed.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root A B L",
+      "summary": "Ibil is the collective name for male and female camels; abābīl describes separate or successive groups. Its historical derivation from ibil is uncertain.",
+      "status": "published"
     }
   },
   "a-b-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-b-q/",
-      "title": "ریشهٔ أ ب ق",
-      "summary": "گریختن و پنهان شدن؛ «أبق» دربارهٔ گریز به کار می‌رود.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ ب ق",
+      "summary": "إباق، گریختن و دور شدن از جایگاه یا رابطه‌ای است که شخص نسبت به آن وابستگی یا مسئولیتی دارد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-b-q/",
-      "title": "The Root A B Q",
-      "summary": "Running away or escaping into concealment; abaqa denotes flight.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root A B Q",
+      "summary": "Ibāq is fleeing and moving away from a position or relationship to which a person is bound by dependence or responsibility.",
+      "status": "published"
     }
   },
   "a-b-w": {

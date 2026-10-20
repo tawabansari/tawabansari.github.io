@@ -1,0 +1,253 @@
+{
+  "root": "أ ب ل",
+  "slug": "a-b-l",
+  "date": "2026-10-20",
+  "status": "installed locally",
+  "files": [
+    "quran-terminology/fa/roots/a-b-l/index.html",
+    "quran-terminology/en/roots/a-b-l/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/006-al-anam/units/144.html",
+    "quran-reflection/fa/088-al-ghashiyah/units/017.html",
+    "quran-reflection/fa/105-al-fil/units/003.html",
+    "quran-reflection/en/006-al-anam/units/144.html",
+    "quran-reflection/en/088-al-ghashiyah/units/017.html",
+    "quran-reflection/en/105-al-fil/units/003.html"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/194c054b-f636-4fd4-a0a5-a20f47e245dc/Pasted text.txt",
+  "source_blocks_per_language": 301,
+  "sections_per_language": 9,
+  "morphology_cards_per_language": 9,
+  "added_poetry_translations_per_language": 2,
+  "quranic_occurrences": [
+    "6:144",
+    "88:17",
+    "105:3"
+  ],
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/144.html",
+      "word_type": "camels",
+      "boxes": 1,
+      "brief": "شتران؛ نام جمع برای شترهای نر و ماده."
+    },
+    {
+      "file": "quran-reflection/fa/088-al-ghashiyah/units/017.html",
+      "word_type": "camels",
+      "boxes": 1,
+      "brief": "شتران؛ نام جمع برای شترهای نر و ماده."
+    },
+    {
+      "file": "quran-reflection/fa/105-al-fil/units/003.html",
+      "word_type": "groups",
+      "boxes": 1,
+      "brief": "دسته‌دسته، گروه‌گروه؛ وصف گروه‌هایی که جداگانه یا پی‌درپی می‌آیند."
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/144.html",
+      "word_type": "camels",
+      "boxes": 1,
+      "brief": "camels; a collective noun including male and female camels."
+    },
+    {
+      "file": "quran-reflection/en/088-al-ghashiyah/units/017.html",
+      "word_type": "camels",
+      "boxes": 1,
+      "brief": "camels; a collective noun including male and female camels."
+    },
+    {
+      "file": "quran-reflection/en/105-al-fil/units/003.html",
+      "word_type": "groups",
+      "boxes": 1,
+      "brief": "in flocks or groups; describing groups arriving separately or in succession."
+    }
+  ],
+  "Allah_boxes": [
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/144.html",
+      "canonical_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/fa/088-al-ghashiyah/units/017.html",
+      "canonical_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/105-al-fil/units/003.html",
+      "canonical_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/144.html",
+      "canonical_boxes_confirmed_unchanged": 3
+    },
+    {
+      "file": "quran-reflection/en/088-al-ghashiyah/units/017.html",
+      "canonical_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/105-al-fil/units/003.html",
+      "canonical_boxes_confirmed_unchanged": 0
+    }
+  ],
+  "persian_edits": [
+    {
+      "block": 15,
+      "before": "**أَبَّلَ:** شترانش فراوان شد، یا شتر نگهداری و پرورش داد؛ بسته به ساخت جمله.",
+      "after": "**أَبَّلَ:** شترانش فراوان شد؛ و «تأبیل الإبل» برای نگهداری، پرورش و فربه کردن شتران نیز ثبت شده است."
+    },
+    {
+      "block": 17,
+      "before": "**أَبَلَتِ الْإِبِلُ:** شتران فراوان شدند؛ و در کاربردی دیگر از آب بی‌نیاز شدند، زیرا گیاه تازه و آبدار خورده بودند.",
+      "after": "**أَبِلَتِ الْإِبِلُ:** شتران فراوان شدند؛ با ضبط «أَبَلَتِ الْإِبِلُ» و صورت‌های دیگری نیز بسنده کردن شتران به رطوبت گیاه تازه و بی‌نیازی موقت از نوشیدن آب گزارش شده است."
+    },
+    {
+      "block": 45,
+      "before": "«پس صاحب شتران شد و کار و حالش پس از تنگدستی آسان گردید؛ و اگر کوشش ما نبود، چنین گله‌ای به دست نمی‌آورد.»",
+      "after": "«پس شترانش فراوان شد و کار و حالش پس از کم شدن دارایی آسان گردید؛ و اگر کوشش ما نبود، چنین گله‌ای به دست نمی‌آورد.»"
+    },
+    {
+      "block": 46,
+      "before": "در این شاهد، فعل «أَبَّلَ» با به دست آوردن شتران و بهبود وضع شخص ارتباط دارد.",
+      "after": "در این شاهد، فعل «أَبَّلَ» با فراوان شدن شتران و بهبود وضع شخص ارتباط دارد. «أَسَافَ» در توضیح این بیت به کم شدن دارایی تفسیر شده است."
+    },
+    {
+      "block": 48,
+      "before": "طفیل غنوی از شاعران جاهلی شناخته می‌شود و این بیت در دیوان او نقل شده است. از این جهت، شاهدی مهم برای کاربرد خانواده أ ب ل در زبان شعر قدیم به شمار می‌رود.",
+      "after": "طفیل غنوی از شاعران جاهلی شناخته می‌شود و این بیت در دیوان منسوب به او نقل شده است. در بعضی نسخه‌های صحاح، انتساب به حمید بن ثور نیز دیده می‌شود. بنابراین، بیت با انتساب مشهور به طفیل شاهدی برای کاربرد این خانواده در شعر قدیم است، اما اختلاف نقل و انتساب آن باید در ارزیابی تاریخی در نظر بماند."
+    },
+    {
+      "block": 55,
+      "before": "در این بیت، «أَبَلْ» درباره جانوری آمده که در اثر خوردن گیاه مناسب، برای مدتی از آب بی‌نیاز شده است.",
+      "after": "در این بیت، شاعر حرکت شتر خود را به دویدن گورخری تیره‌رنگ مانند می‌کند؛ «أَبَلْ» درباره جانور دوم آمده که بنا بر توضیح لغویان، با خوردن گیاه تازه برای مدتی از نوشیدن آب بی‌نیاز شده است."
+    },
+    {
+      "block": 56,
+      "before": "این شاهد در منابع لغوی برای همین کاربرد نقل شده است.",
+      "after": "این شاهد در منابع لغوی برای همین کاربرد نقل شده است. لبید شاعری مخضرم است که روزگار جاهلیت و اسلام را درک کرده؛ نام او به تنهایی تاریخ دقیق سرودن این بیت را تعیین نمی‌کند."
+    },
+    {
+      "block": 63,
+      "before": "«و از شتران دو تا، و از گاوان دو تا. بگو: آیا آن دو نر را حرام کرده است یا آن دو ماده را، یا آنچه را رحم‌های آن دو ماده دربر گرفته‌اند؟ یا هنگامی که خداوند شما را به این کار سفارش کرد، حاضر و گواه بودید؟ پس چه کسی ستمگرتر از کسی است که بر خداوند دروغ ببندد تا مردم را بی‌دانش گمراه سازد؟ بی‌گمان خداوند گروه ستمگران را هدایت نمی‌کند.»",
+      "after": "«و از شتران دو تا، و از گاوان دو تا. بگو: آیا آن دو نر را حرام کرده است یا آن دو ماده را، یا آنچه را رحم‌های آن دو ماده دربر گرفته‌اند؟ یا هنگامی که آن معبود یگانه شما را به این کار سفارش کرد، حاضر و گواه بودید؟ پس چه کسی ستمگرتر از کسی است که بر آن معبود یگانه دروغ ببندد تا مردم را بی‌دانش گمراه سازد؟ بی‌گمان آن معبود یگانه گروه ستمگران را هدایت نمی‌کند.»"
+    },
+    {
+      "block": 66,
+      "before": "در آیه پیشین، قرآن از گوسفند و بز نیز سخن گفته است. با افزودن شتر و گاو در آیه ۱۴۴، مجموعه «هشت جفت‌گونه» یا هشت فرد نر و ماده در ساخت آیات مطرح می‌شود.",
+      "after": "در آیه پیشین، قرآن از گوسفند و بز نیز سخن گفته است. با افزودن شتر و گاو در آیه ۱۴۴، مجموعه هشت فرد، یعنی نر و مادهٔ چهار گروه دام، در ساخت آیات مطرح می‌شود."
+    },
+    {
+      "block": 70,
+      "before": "### محور آیه؛ نسبت دادن حرام به خداوند",
+      "after": "### محور آیه؛ نسبت دادن حرام به آن معبود یگانه"
+    },
+    {
+      "block": 72,
+      "before": "در ادامه نیز کسانی را نکوهش می‌کند که بدون علم، حکمی را به خداوند نسبت می‌دهند.",
+      "after": "در ادامه نیز کسانی را نکوهش می‌کند که بدون علم، حکمی را به آن معبود یگانه نسبت می‌دهند."
+    },
+    {
+      "block": 108,
+      "before": "همچنین نقل‌هایی درباره صورت خواندن واژه با تشدید یا تخفیف و ارتباط آن با این دو معنا وجود دارد.",
+      "after": "قرطبی از اصمعی، به نقل از ابوعمرو، گزارشی درباره تفاوت خواندن واژه با تخفیف و تشدید نقل می‌کند: صورت مخفف به شتر و صورت مشدد به ابرهای حامل باران تفسیر شده است. این نقل لغوی درباره خواندن واژه، به تنهایی جایگاه آن صورت را در قرائت‌های معتبر ثابت نمی‌کند."
+    },
+    {
+      "block": 292,
+      "before": "در انعام ۶:۱۴۴، شتران در مجموعه چهار گروه دام و در بحث نسبت دادن حرام به خداوند مطرح شده‌اند.",
+      "after": "در انعام ۶:۱۴۴، شتران در مجموعه چهار گروه دام و در بحث نسبت دادن حرام به آن معبود یگانه مطرح شده‌اند."
+    }
+  ],
+  "added_poetry_translations": {
+    "54": {
+      "fa": "ترجمهٔ تقریبی: «چون پایم را در رکاب بجنبانم، [شترم] شتاب می‌گیرد؛ دویدنش چون دویدن گورخری تیره‌رنگ، یا نزدیک به آن است، که با خوردن گیاه تازه برای مدتی از نوشیدن آب بی‌نیاز شده است.»",
+      "en": "Approximate translation: “When I move my foot in the stirrup, [my she-camel] quickens her pace; her running is like, or close to, that of a dark wild ass that has found fresh herbage sufficient in place of water.”"
+    },
+    "171": {
+      "fa": "«دسته‌هایی از شتران که آرام می‌روند؛ از گله‌های بازآورده‌شده و شتران رهاشده.»",
+      "en": "“Groups of slowly moving camels, from herds brought back to their resting place and from animals left to roam.”"
+    }
+  },
+  "corrections": [
+    "Distinguished abbala, abundance of camels, from the associated verbal noun for care and fattening.",
+    "Distinguished abilati al-ibil for becoming numerous from abalat al-ibil and other forms for temporary sufficiency of fresh herbage.",
+    "Clarified the camel abundance and diminished-property sense of the Ṭufayl verse; recorded variant attribution to Ḥumayd ibn Thawr.",
+    "Explained Labīd’s comparison with a wild ass and qualified the date of a poem by a poet who lived across both periods.",
+    "Clarified eight individual livestock representatives, male and female of four kinds, rather than eight pairs.",
+    "Attributed the cloud/pronunciation report to Al-Qurṭubī through Al-Aṣmaʿī and Abū ʿAmr, without claiming recognized reading status.",
+    "Added separate Persian and English translations of the two untranslated poetic witnesses.",
+    "Applied the established Persian divine naming convention outside Arabic quotations."
+  ],
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=Abl",
+      "use": "Root occurrence locations and forms; corroborated against cached corpus morphology."
+    },
+    {
+      "url": "https://usul.ai/ar/t/diwan-23/27",
+      "use": "Ṭufayl poem and al-shaʾn wording."
+    },
+    {
+      "url": "https://ar.wikisource.org/wiki/صفحة:تاج_العروس7.pdf/198",
+      "use": "Camel forms, abbala, early poetic witness and fresh-herbage meaning."
+    },
+    {
+      "url": "https://najafdesertlibrary.com/book/تاج-العروس/v/14/p/5",
+      "use": "Ibbālah, proposed singulars, Al-Akhfash example and grouping."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/b/14641/103?lang=ar",
+      "use": "Tahdhīb al-Lughah: haṭlā means moving slowly; fragment cited without secure attribution."
+    },
+    {
+      "url": "https://quran-for-all.com/tafsir/al-qurtubi/88/16",
+      "use": "Al-Qurṭubī’s report from Al-Aṣmaʿī through Abū ʿAmr about light/heavy pronunciation and clouds."
+    },
+    {
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0393IbnHammadJawhari/0393IbnHammadJawhari.SihahTajLugha/0393IbnHammadJawhari.SihahTajLugha.Shamela0023235-ara1",
+      "use": "Cached primary Ṣiḥāḥ root article, including variant poetic attribution in edition footnote."
+    },
+    {
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0395IbnFarisQazwini/0395IbnFarisQazwini.MucjamMaqayis/0395IbnFarisQazwini.MucjamMaqayis.Shamela0021710-ara1",
+      "use": "Cached primary Maqāyīs article: Labīd line explained with a wild ass; separate lexical branches."
+    }
+  ],
+  "original_sha256": {
+    "quran-terminology/fa/roots/a-b-l/index.html": null,
+    "quran-terminology/en/roots/a-b-l/index.html": null,
+    "_data/quran-root-studies.json": "a1735d404407031fcd45150d1c43458ab8b1fa28b57080fd88375bb61a5a1b3a",
+    "quran-reflection/fa/006-al-anam/units/144.html": "776f83acc9689e616b02929acbd92cb28c5020342120f60b5bcfd5751baf06b3",
+    "quran-reflection/fa/088-al-ghashiyah/units/017.html": "8c7317cb2afc750739f1fb1bca72f11d63a608aaef81d0c17f3b4ef7c8fd2ed4",
+    "quran-reflection/fa/105-al-fil/units/003.html": "bd7fcd1e43546eb3d8a80503cc6ad1489f95f7e874158a7eb96e2e65fa6c0de1",
+    "quran-reflection/en/006-al-anam/units/144.html": "3554f9678579a26387a106364fdda9c817f5f90673ab51217e66a1724ff419f7",
+    "quran-reflection/en/088-al-ghashiyah/units/017.html": "c3601a582ced2e50803da36daf5b08240d280f982e5ce415e26a3692be3992a6",
+    "quran-reflection/en/105-al-fil/units/003.html": "5cef2b20b97a0a32e484d67469f4b3fefcbb97ddf5e46ca05ce80364011855fd"
+  },
+  "protected_sha256": {
+    "AGENTS.md": "73e9d17b8a07b275e364c8c715088c44fd5f3614afe09cf877ed1c186ecdac91",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50",
+    "quran-reflection/fa/001-al-fatihah/index.html": "7da9c785b46e5a50ed604f9443f400fadef3b2108e062c53472214e65ba86d6f",
+    "quran-reflection/en/001-al-fatihah/index.html": "18cd51b454f0337fe85241055909aceb2f3b8c6452549f9fd8deb2db58e95b15"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "verification": {
+    "stage": "before installation",
+    "all_301_source_blocks_rendered_per_language": true,
+    "two_added_poetic_translations_per_language": true,
+    "all_14_arabic_quotations_preserved_exactly": true,
+    "eleven_quranic_quotations_match_installed_verses": true,
+    "three_corpus_occurrences_confirmed": true,
+    "nine_sections_nine_cards_and_33_subheadings_per_language": true,
+    "unique_ids_and_resolved_navigation": true,
+    "individually_verified_verse_targets": 22,
+    "verified_existing_related_root_targets": 14,
+    "no_persian_digits_or_letters_in_english": true,
+    "only_a_b_l_registry_record_changed": true,
+    "only_six_a_b_l_popovers_changed": true,
+    "verse_arabic_and_translations_and_other_boxes_unchanged": true,
+    "canonical_Allah_boxes_at_6_144_confirmed": true,
+    "protected_files_preserved": true,
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false,
+    "standalone_preview": "Persian RTL light theme and English LTR with Arabic quotations, transliteration and poetry translation inspected; English checked with the actual Forqan dark-theme selector. Temporary browser and server closed before installation."
+  }
+}

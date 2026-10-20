@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-20",
+  "root": "أ ب ق",
+  "slug": "a-b-q",
+  "source_attachment": "/Users/tawab/.codex/attachments/1f6f266d-f902-4a1f-a0f0-25ba6ef4b4fe/Pasted text.txt",
+  "source_blocks_per_language": 256,
+  "added_poem_translations_per_language": 3,
+  "main_sections": 8,
+  "cards_per_language": 8,
+  "quranic_occurrences": 1,
+  "quranic_location": "37:140:2:1",
+  "content_changes": [
+    "Corrected subtitle from flight near the master to flight from the master.",
+    "Clarified the rajaz witness’s legendary narrative setting in Ibn Durayd’s Al-Ishtiqāq; not presented as certain pre-Islamic historical evidence.",
+    "Clarified the recorded iḥtabasa (holding back/delaying) sense of taʾabbaqa in the al-Aʿshā verse, rather than restricting it to hiding.",
+    "Added Persian and English translations of all three poetic quotations.",
+    "Standardized Persian explanatory divine naming as آن معبود یگانه; preserved all quoted Arabic.",
+    "Complete English conceptual mirror, with direct English translation proposals."
+  ],
+  "persian_edits": [
+    {
+      "block": 0,
+      "before": "# ریشه قرآنی أ ب ق\n**إباق؛ گریختن و ترک کردن جایگاه یا تعهد، از فرار برده نزد صاحبش تا خروج یونس به سوی کشتی**",
+      "after": "# ریشه قرآنی أ ب ق\n**إباق؛ گریختن و ترک کردن جایگاه یا تعهد، از گریختن برده از صاحبش تا خروج یونس به سوی کشتی**"
+    },
+    {
+      "block": 48,
+      "before": "اما شاعر و زمان دقیق سرایش این رجز در نقل مورد بررسی مشخص نیست. بنابراین، نمی‌توان آن را با اطمینان به دوره جاهلی نسبت داد.",
+      "after": "این رجز در الاشتقاق ابن‌درید در حکایت افسانه‌ایِ عمرو بن یربوع و همسرِ سعلاة (غولِ مؤنثِ افسانه‌ای) او نقل شده است. بنابراین، افزون بر روشن نبودن شاعر و زمان دقیق سرایش، چارچوب افسانه‌ای نقل نیز باید در نظر گرفته شود و نمی‌توان آن را شاهدی قطعی از دوره جاهلی دانست."
+    },
+    {
+      "block": 54,
+      "before": "کاربرد آن با پنهان شدن یا کنار کشیدن از دسترس ارتباط دارد و در سیاق شعر، سخن از رسیدن مرگ است.",
+      "after": "در منابع لغوی برای «تأبّق» هم «استتر» و هم «احتبس» آمده است. در این بیت، خوانشِ درنگ نکردن و بازنایستادن مرگ با توضیح «احتبس» سازگار است؛ بنابراین، نباید معنای آن را تنها به پنهان شدن محدود کرد."
+    },
+    {
+      "block": 89,
+      "before": "در این آیه، همین فعل درباره یونس به کار رفته است؛ کسی که قرآن او را رسول خداوند معرفی می‌کند.",
+      "after": "در این آیه، همین فعل درباره یونس به کار رفته است؛ کسی که قرآن او را رسول آن معبود یگانه معرفی می‌کند."
+    },
+    {
+      "block": 140,
+      "before": "### آیا یونس می‌خواست از قدرت خداوند بیرون رود؟",
+      "after": "### آیا یونس می‌خواست از قدرت آن معبود یگانه بیرون رود؟"
+    },
+    {
+      "block": 143,
+      "before": "در این صورت، آیه از پندار یونس درباره گرفتار نشدن به تنگنا سخن می‌گوید، نه از اعتقاد او به ناتوانی خداوند.",
+      "after": "در این صورت، آیه از پندار یونس درباره گرفتار نشدن به تنگنا سخن می‌گوید، نه از اعتقاد او به ناتوانی آن معبود یگانه."
+    },
+    {
+      "block": 145,
+      "before": "اما نکته مربوط به پژوهش حاضر روشن است: خود فعل «أَبَقَ» به معنای اعتقاد به ناتوانی خداوند نیست.",
+      "after": "اما نکته مربوط به پژوهش حاضر روشن است: خود فعل «أَبَقَ» به معنای اعتقاد به ناتوانی آن معبود یگانه نیست."
+    },
+    {
+      "block": 151,
+      "before": "در انبیاء ۲۱:۸۸، قرآن از پاسخ دادن خداوند به او و نجاتش از اندوه سخن می‌گوید.",
+      "after": "در انبیاء ۲۱:۸۸، قرآن از پاسخ دادن آن معبود یگانه به او و نجاتش از اندوه سخن می‌گوید."
+    },
+    {
+      "block": 234,
+      "before": "اما بهتر نیست در خود ترجمه، عبارتی مانند «بی‌اجازه از فرمان خدا گریخت» افزوده شود؛ زیرا واژه «بی‌اجازه» در آیه نیامده و نیازمند استدلال سیاقی جداگانه است.",
+      "after": "اما بهتر نیست در خود ترجمه، عبارتی مانند «بی‌اجازه از فرمان آن معبود یگانه گریخت» افزوده شود؛ زیرا واژه «بی‌اجازه» در آیه نیامده و نیازمند استدلال سیاقی جداگانه است."
+    },
+    {
+      "block": 235,
+      "before": "همچنین ترجمه «از خداوند فرار کرد» دقیق نیست؛ زیرا آیه می‌گوید یونس «إِلَى الْفُلْكِ» گریخت، یعنی به سوی کشتی.",
+      "after": "همچنین ترجمه «از آن معبود یگانه فرار کرد» دقیق نیست؛ زیرا آیه می‌گوید یونس «إِلَى الْفُلْكِ» گریخت، یعنی به سوی کشتی."
+    },
+    {
+      "block": 250,
+      "before": "در آیات موازی، یونس هنگام رفتن «مغاضب» معرفی شده، در تاریکی‌ها به درگاه خداوند ندا داده و به نادرستی رفتار خود اعتراف کرده است. در سوره قلم نیز داستان او با فرمان صبر و پایداری در برابر حکم پروردگار همراه شده است.",
+      "after": "در آیات موازی، یونس هنگام رفتن «مغاضب» معرفی شده، در تاریکی‌ها به درگاه آن معبود یگانه ندا داده و به نادرستی رفتار خود اعتراف کرده است. در سوره قلم نیز داستان او با فرمان صبر و پایداری در برابر حکم پروردگار همراه شده است."
+    },
+    {
+      "block": 253,
+      "before": "همچنین نباید از کاربرد این واژه نتیجه گرفت که شخصیت یونس تنها با یک اشتباه تعریف می‌شود. قرآن در کنار گریز و سرزنش‌پذیر بودن رفتار او، رسول بودن، دعای او، پاسخ خداوند و برگزیده شدنش را نیز بیان می‌کند.",
+      "after": "همچنین نباید از کاربرد این واژه نتیجه گرفت که شخصیت یونس تنها با یک اشتباه تعریف می‌شود. قرآن در کنار گریز و سرزنش‌پذیر بودن رفتار او، رسول بودن، دعای او، پاسخ آن معبود یگانه و برگزیده شدنش را نیز بیان می‌کند."
+    }
+  ],
+  "added_poem_translations": {
+    "45": {
+      "fa": "«ای عمرو، فرزندانت را نگه دار؛ من گریزانم؛ برقی بر سرزمین سعالی می‌درخشد.»",
+      "en": "“Keep your children, ʿAmr; I am fleeing. Lightning flashes over the land of the saʿālī.”"
+    },
+    "52": {
+      "fa": "«چنین بود، اما صاحبش را از مرگ نرهانید؛ مرگ به سراغ او آمد و بازنایستاد.»",
+      "en": "“Such it was, yet it did not save its owner from death; death came to him without holding back.”"
+    },
+    "61": {
+      "fa": "«آنکه اسبان را رهبری می‌کند، در حالی که پسِ سُم‌هایشان آسیب دیده است؛ بندهای لگامشان از چرم و کنف استوار شده است.»",
+      "en": "“Leading horses whose rear hooves are injured, their bridle straps of hide and hemp made firm.”"
+    }
+  },
+  "index_entries": "Existing a-b-q destinations and labels verified in both root indexes; unchanged.",
+  "registry": "Only a-b-q changed from preliminary to published; all other entries including the recent a-b-b installation retained.",
+  "verse_metadata": {
+    "description": "Only the two a-b-q boxes in 37:140: removed obsolete preliminary notes and installed the brief meaning extracted verbatim from the conclusion. Arabic, verse translations, assignments, URLs and other boxes unchanged.",
+    "boxes": [
+      {
+        "file": "quran-reflection/fa/037-as-saffat/units/140.html",
+        "words": [
+          "أَبَقَ"
+        ]
+      },
+      {
+        "file": "quran-reflection/en/037-as-saffat/units/140.html",
+        "words": [
+          "أَبَقَ"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "work": "Quranic Arabic Corpus morphology 0.4",
+      "location": "37:140:2:1; ROOT:Abq; Form I perfect, third-person masculine singular"
+    },
+    {
+      "work": "Maqāyīs al-Lughah, A B Q",
+      "url": "https://github.com/OpenITI/0400AH/blob/master/data/0395IbnFarisQazwini/0395IbnFarisQazwini.MucjamMaqayis/0395IbnFarisQazwini.MucjamMaqayis.Shamela0021710-ara1#L592"
+    },
+    {
+      "work": "Al-Ṣiḥāḥ, A B Q, taʾabbaqa as iḥtabasa",
+      "url": "https://ablibrary.net/book_content/b/5408/133?lang=ar"
+    },
+    {
+      "work": "Lisān al-ʿArab, A B Q",
+      "url": "https://islamweb.net/ar/library/content/122/18/أبق"
+    },
+    {
+      "work": "Al-Ishtiqāq, legendary setting of the rajaz passage",
+      "url": "https://ablibrary.net/book_content/b/14211/267?lang=ar"
+    },
+    {
+      "work": "Al-Aʿlam al-Shantamarī, Ashʿār al-Shuʿarāʾ al-Sittah, Zuhayr witness",
+      "url": "https://ablibrary.net/book_content/b/14213/247?lang=ar"
+    }
+  ],
+  "early_witness_review": "Independently searched and checked all three quoted poetic witnesses; distinguished legendary setting, attributed poetry, lexical interpretation, and the Qur’anic occurrence.",
+  "files": [
+    "_data/quran-root-studies.json",
+    "quran-reflection/en/037-as-saffat/units/140.html",
+    "quran-reflection/fa/037-as-saffat/units/140.html",
+    "quran-terminology/en/roots/a-b-q/index.html",
+    "quran-terminology/fa/roots/a-b-q/index.html"
+  ],
+  "original_sha256": {
+    "_data/quran-root-studies.json": "e3556945d118284e0e06d26c891ac8efc30c8782ee3e6d63c2cd1753f2bb1551",
+    "quran-reflection/en/037-as-saffat/units/140.html": "816d355fe637e33de0d6827a96bc0029eafaf6af432491f181504887e37335f4",
+    "quran-reflection/fa/037-as-saffat/units/140.html": "3eae1841175b7403557f76c12dcecd594f6c299668e6f7cebe1a60e23cecd9d3",
+    "quran-terminology/en/roots/a-b-q/index.html": null,
+    "quran-terminology/fa/roots/a-b-q/index.html": null
+  },
+  "protected_sha256": {
+    "AGENTS.md": "73e9d17b8a07b275e364c8c715088c44fd5f3614afe09cf877ed1c186ecdac91",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50"
+  },
+  "verification": {
+    "stage": "before installation",
+    "all_256_source_blocks_rendered_in_each_language": true,
+    "three_poetic_translations_rendered_per_language": true,
+    "persian_edits_documented": true,
+    "all_13_arabic_quotes_preserved_exactly": true,
+    "all_10_quranic_quotes_checked_against_installed_verses": true,
+    "sole_occurrence_and_form_confirmed": true,
+    "unique_ids_and_resolved_cards_and_contents": true,
+    "verse_targets_verified": 18,
+    "existing_root_index_targets_verified": true,
+    "no_persian_characters_or_digits_in_english": true,
+    "verse_arabic_translations_and_other_boxes_unchanged": true,
+    "only_two_root_popovers_updated": true,
+    "other_registry_entries_including_a_b_b_unchanged": true,
+    "AGENTS_md_change_preserved": true,
+    "Allah_box_rule": "37:140 contains no Allah word; no Allah box changed.",
+    "standalone_preview": "Inspected Persian light with the al-Aʿshā quotation, added translation, and clarified lexical explanation, and English dark with morphology cards, before installation using current shared CSS.",
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false
+  },
+  "installation": {
+    "status": "installed locally",
+    "committed": false,
+    "pushed": false,
+    "post_installation_tests_run": false
+  }
+}
