@@ -16,6 +16,15 @@ class RootBoxes(HTMLParser):
         attrs = dict(attrs)
         if tag != 'button' or 'word-link' not in attrs.get('class', '').split():
             return
+        generic_notes = {
+            'واژهٔ دستوری؛ ریشهٔ اشتقاقی برای این کاربرد درج نمی‌شود.',
+            'Grammatical word; no derivational root is assigned for this use.',
+        }
+        if attrs.get('data-context', '').strip() and attrs.get('data-root-note') in generic_notes:
+            self.errors.append(
+                f'{self.path}:{self.getpos()[0]}: '
+                f'{attrs.get("data-word", "?")} retains a redundant grammar placeholder'
+            )
         if not attrs.get('data-root', '').strip():
             return
         self.count += 1
