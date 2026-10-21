@@ -10,6 +10,7 @@ from library_content import extract
 from library_enrichment import stable_anchors, unavailable_references
 from verse_references import verse_references
 from library_collections import prepare as prepare_collections
+from tabsira_catalog import publish as publish_tabsira
 
 class Page(HTMLParser):
     def __init__(self, source):
@@ -113,6 +114,7 @@ def main():
             source=unavailable_references(source,url,entry['lang'],pages,redirects)
         path.write_text(source)
     out=site/'assets/data'; out.mkdir(parents=True,exist_ok=True)
+    publish_tabsira(site,pages,search_records)
     (out/'library.json').write_text(json.dumps({'pages':list(pages.values()),'redirects':redirects},ensure_ascii=False,separators=(',',':')))
     (out/'search-records.json').write_text(json.dumps(search_records,ensure_ascii=False,separators=(',',':')))
     (out/'features.json').write_text(json.dumps(features,ensure_ascii=False,separators=(',',':')))

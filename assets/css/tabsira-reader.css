@@ -37,3 +37,21 @@ html.tabsira-embedded body :is(.pdf-download-dialog,.pdf-download-dialog input,.
 
 /* The host owns appearance; hide duplicate controls only inside Tabsira. */
 html.tabsira-embedded :is(#theme-toggle-btn,#zoom-in,#zoom-out,.library-reading-controls){display:none!important}
+
+/* Compact discovery only when Tabsira opens its work-selection browser. */
+html.tabsira-picker body .container{padding:12px;min-width:0}
+html.tabsira-picker body .container :is(.library-welcome h1,.collection-header h1,.surah-index-page h1){font-size:1.65rem;line-height:1.35;margin-block:.35rem .7rem}
+html.tabsira-picker body .container .library-destination h2{font-size:1.15rem;margin-block:.35rem}
+html.tabsira-picker body :is(.library-home,.library-destination,.archive-feature){padding:.7rem}
+html.tabsira-picker body :is(.library-description,.library-welcome-fa){font-size:.9rem;margin-block:.5rem .8rem}
+html.tabsira-picker body :is(.library-search-hint,.library-eyebrow){font-size:.75rem;margin-block:.4rem .8rem}
+html.tabsira-picker body .container :is(.collection-nav,.study-row,.search-result,.surah-card){font-size:.875rem;padding-block:.55rem}
+html.tabsira-picker body .container :is(.study-row h2,.study-row h3,.search-result h3,.surah-card h2,.surah-card h3){font-size:1rem;line-height:1.5;margin-block:.25rem}
+html.tabsira-picker body .container :is(.collection-nav a,.reader-mode-toolbar button,.library-more,.tabsira-source-link){font-size:.8125rem;padding:.3rem .6rem;min-height:36px;box-sizing:border-box}
+html.tabsira-picker body .reader-mode-toolbar{gap:.25rem;padding:.3rem;margin-bottom:.6rem}
+html.tabsira-picker body .container :is(button:not(.word-link),.pdf-download-button) svg{width:1rem;height:1rem}
+html.tabsira-picker body :is(.library-search-form input,.search-filters select){font-size:16px;padding:.45rem}
+@media(pointer:coarse){html.tabsira-picker body .container :is(button:not(.word-link),.collection-nav a,.library-more,.tabsira-source-link){min-height:44px}}
+html.tabsira-picker body .container .library-welcome h1{font-size:1.65rem!important}
+html.tabsira-picker body .forqan-welcome-logo{width:64px;height:64px;margin-block:.3rem}
+html.tabsira-picker body .library-welcome{padding-top:0}
