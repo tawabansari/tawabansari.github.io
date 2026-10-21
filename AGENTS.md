@@ -26,3 +26,9 @@ Use the installed Allah button in `quran-reflection/fa/002-al-baqarah/index.html
 Apply the same definition and link to diacritic/spelling variants and attached forms such as `بالله`, `لله`, `والله`, `فالله`, `فلله`, `ولله`, `تالله`, `وتالله`, `ءالله`, `أبالله`, and `اللهم`. Preserve the actual Arabic word, its `data-word`, and any accurate word-specific transliteration. Match the word carefully; do not change other words merely because they contain similar letters, or apply this rule to every word sharing the root أ ل ه.
 
 This rule concerns the root-box metadata, not verse translations or Arabic text. Change the shared definition only if the user explicitly requests it; then keep all occurrences consistent in the affected language.
+
+## Complete verse word boxes
+
+For every newly installed or edited verse in both languages, lexical words with a `data-root` must have both a nonempty `data-root-meaning` (the general brief root meaning) and a separate `data-context` (the meaning in this verse). A contextual explanation or a root-study link does not replace the general root summary. Reuse an appropriate established summary from the same language's installed root study or word box; verify that it fits the word's root and sense. Preserve the canonical Allah metadata above. Grammatical words and proper names without an assigned lexical root should retain their appropriate notes rather than receive invented roots.
+
+Before delivery, run `python3 scripts/check-root-boxes.py` with the paths of the new or edited verse units in both languages, alongside the relevant content checks. Do not treat word counts, valid links, or the presence of `data-context` alone as proof that word boxes are complete.

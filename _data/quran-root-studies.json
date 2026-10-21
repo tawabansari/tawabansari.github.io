@@ -716,15 +716,15 @@
   "a-s-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-s-w/",
-      "title": "ریشهٔ أ س و",
-      "summary": "مداوا و اصلاح؛ أُسوه: الگو و پیروی؛ أَسى: اندوه و دریغ. معنای هر شاخه از صورت و سیاق شناخته می‌شود.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ س و",
+      "summary": "در شاخه اصلی، درمان و اصلاح آسیب؛ و در کاربردهای مربوط به انسان، قرار دادن دیگری به‌عنوان نمونه رفتار یا سهیم ساختن او در وضعیت و امکانات خود. در قرآن، أُسْوَة به نمونه‌ای برای پیروی اشاره دارد و وصف حَسَنَة نیکویی آن نمونه را مشخص می‌کند. صورت‌های فعلی مربوط به اندوه نیز در بعضی نمایه‌ها زیر همین ماده آمده‌اند، ولی در بخشی از سنت لغوی به ریشه أ س ي تعلق دارند؛ بنابراین، معنای اندوه باید از معنای اسوه و مواسات جدا بررسی شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-s-w/",
-      "title": "The Root A S W",
-      "summary": "Healing and repair; uswah: an example to follow; asā: sorrow or regret. Each branch depends on form and context.",
-      "status": "preliminary"
+      "title": "Qur’anic Root A S W",
+      "summary": "In the principal branch, treating and remedying damage; and in human uses, taking another as a model for conduct or sharing one’s circumstances and resources with that person. In the Qur’an, uswah denotes an example to follow, while ḥasanah specifies the example’s goodness. Some indexes also include verbs concerning grief under this entry, while part of the lexical tradition assigns them to A S Y. The meaning of grief should therefore be examined separately from that of an example and sympathetic sharing.",
+      "status": "published"
     }
   },
   "a-sad-l": {
@@ -758,15 +758,15 @@
   "a-sh-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-sh-r/",
-      "title": "ریشهٔ أ ش ر",
-      "summary": "سرمستیِ متکبرانه، بی‌پروایی و زیاده‌روی ناشی از خودپسندی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ ش ر",
+      "summary": "در شاخه رفتاری، شور و سرمستی شدیدی که در کاربرد نکوهشی با غرور، خودپسندی، سبک‌سری و گستاخی همراه می‌شود. در قرآن، أَشِر وصف شخصی است که به خودبزرگ‌بینی و سرمستی گستاخانه متهم شده است. این وصف به خودی خود به معنای دروغگویی نیست و در قمر ۵۴:۲۵ نخست در گفتار مخالفان صالح آمده و در قمر ۵۴:۲۶ به پرسشی درباره حقیقت همان اتهام تبدیل می‌شود. شاخه‌های لغوی دیگر ریشه به نشاط و جنب‌وجوش و نیز تیزی و دندانه‌دار بودن مربوط‌اند، بی‌آنکه پیوند تاریخی قطعی همه آنها اثبات شده باشد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-sh-r/",
-      "title": "The Root A SH R",
-      "summary": "Arrogant exultation, presumptuousness, and reckless self-importance.",
-      "status": "preliminary"
+      "title": "Qur’anic Root A SH R",
+      "summary": "In the behavioral branch, intense high spirits and exuberance accompanied, in condemnatory use, by conceit, self-satisfaction, frivolity, and insolence. In the Qur’an, ashir describes someone accused of arrogance and insolent exuberance. It does not itself mean lying: in Al-Qamar 54:25 it first occurs in the speech of Ṣāliḥ’s opponents, then in Al-Qamar 54:26 it becomes part of a question about the truth of that accusation. Other lexical branches concern energy and liveliness, and also sharpness and serration, without a certain historical connection between all of them having been established.",
+      "status": "published"
     }
   },
   "a-t-y": {
