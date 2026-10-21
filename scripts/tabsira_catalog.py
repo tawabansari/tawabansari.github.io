@@ -24,7 +24,7 @@ def publish(site, pages, records):
             chapter=chapter['number'] if chapter else None, verses=chapter['ayahs'] if chapter else None,
             available=available, published='', excerpt=(page.get('description') or content[0].get('description') or content[0].get('original',''))[:600])
         entries.append(entry)
-        target='https://tabsira.forqan.co'+path
+        target='https://tabsira.forqan.co'+path+'?compose=1#composer'
         label=('گفت‌وگو در تبصره' if page['lang']=='fa' else 'Discuss on Tabsira') if chapter else ('نوشتن تبصره دربارهٔ این اثر' if page['lang']=='fa' else 'Discuss this work on Tabsira')
         file=site/path.strip('/')/'index.html'
         if file.exists():
