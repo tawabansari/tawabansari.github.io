@@ -422,15 +422,15 @@
   "a-l-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-l-w/",
-      "title": "ریشهٔ أ ل و",
-      "summary": "در کاربردهای مختلف: کوتاهی کردن؛ سوگند خوردن؛ و آلاء به معنای نعمت‌ها. این شاخه‌ها یکسان نیستند.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ ل و",
+      "summary": "خانواده‌ای زبانی با سه شاخه برجسته: نخست، کوتاهی کردن یا دریغ نکردن از کوشش، بسته به ساخت و سیاق فعل؛ دوم، سوگند خوردن و ملتزم ساختن خود به انجام دادن یا ترک کاری؛ و سوم، آلاء به معنای نعمت‌ها، بخشش‌ها و احسان‌ها. در قرآن، يَأْلُونَكُمْ به کوتاهی نکردن در آسیب‌رسانی، يُؤْلُونَ به سوگند، يَأْتَلِ به سوگند یا کوتاهی در بخشش، و آلاء به نعمت‌های پروردگار اشاره دارد. این شاخه‌ها در یک ماده لغوی گرد آمده‌اند، اما پیوند تاریخی قطعی همه آنها نباید بدون شاهد فرض شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-l-w/",
-      "title": "The Root A L W",
-      "summary": "Distinct uses concern falling short, swearing an oath, and ālāʾ meaning blessings or favors.",
-      "status": "preliminary"
+      "title": "Qur’anic Root A L W",
+      "summary": "A lexical family with three prominent branches: first, falling short or sparing no effort, according to the verb’s construction and context; second, swearing an oath and committing oneself to do or refrain from something; third, ālāʾ as blessings, gifts, and beneficence. In the Qur’an, يَأْلُونَكُمْ concerns sparing no effort in causing harm, يُؤْلُونَ an oath, يَأْتَلِ an oath or falling short in giving, and ālāʾ the Lord’s blessings. These branches are gathered under one lexical entry, but a definite shared historical development should not be assumed without evidence.",
+      "status": "published"
     }
   },
   "a-m-d": {
@@ -520,15 +520,15 @@
   "a-m-t": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-m-t/",
-      "title": "ریشهٔ أ م ت",
-      "summary": "ناهمواری، برآمدگی و تفاوت سطح زمین.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ م ت",
+      "summary": "در شاخه مکانی، ناهمواری و اختلاف سطح، مانند برآمدگی، فرورفتگی یا نابرابری موضعی زمین. در قرآن، أَمْت در کنار عِوَج آمده و نبود هرگونه پستی‌وبلندی را در زمین هموارشده پس از برچیده شدن کوه‌ها بیان می‌کند. کاربردهای دیگر این خانواده در عربی به سستی، نقص، برآورد مقدار و فاصله، و گاه تردید مربوط‌اند؛ اما این معانی نباید بدون شاهد به کاربرد قرآنی منتقل شوند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-m-t/",
-      "title": "The Root A M T",
-      "summary": "Unevenness, an elevation, or an irregularity in the ground.",
-      "status": "preliminary"
+      "title": "Qur’anic Root A M T",
+      "summary": "In the spatial branch, unevenness and differences in level, such as an elevation, depression, or local irregularity in the ground. Qur’anic amt appears beside ʿiwaj, describing the absence of any differences in elevation in ground leveled after the mountains’ removal. Other Arabic uses of this family concern weakness, deficiency, estimating quantities and distances, and sometimes doubt. These meanings should not be transferred to the Qur’anic use without evidence.",
+      "status": "published"
     }
   },
   "a-m-w": {
