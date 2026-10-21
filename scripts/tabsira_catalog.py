@@ -25,14 +25,16 @@ def publish(site, pages, records):
             available=available, published='', excerpt=(page.get('description') or content[0].get('description') or content[0].get('original',''))[:600])
         entries.append(entry)
         target='https://tabsira.forqan.co'+path
-        label='گفت‌وگو در تبصره' if page['lang']=='fa' else 'Discuss on Tabsira'
+        label=('گفت‌وگو در تبصره' if page['lang']=='fa' else 'Discuss on Tabsira') if chapter else ('نوشتن تبصره دربارهٔ این اثر' if page['lang']=='fa' else 'Discuss this work on Tabsira')
         file=site/path.strip('/')/'index.html'
         if file.exists():
             source=file.read_text()
-            if 'data-tabsira-discuss' not in source:
-                link='<p data-tabsira-discuss data-pagefind-ignore><a class="tabsira-source-link" href="'+html.escape(target,quote=True)+'">'+label+' ↗</a></p>'
-                source=re.sub(r'(</h1>)',lambda m:m[0]+link,source,count=1)
-                file.write_text(source)
+            # Replace our generated action on reruns without touching authored text.
+            source=re.sub(r'<p data-tabsira-discuss\b[^>]*>.*?</p>', '', source, flags=re.S)
+            icon='<span aria-hidden="true">✎</span> '
+            link='<p data-tabsira-discuss data-pagefind-ignore><a class="tabsira-source-link" href="'+html.escape(target,quote=True)+'" target="_blank" rel="noopener">'+icon+label+' <span aria-hidden="true">↗</span></a></p>'
+            source=re.sub(r'(</h1>)',lambda m:m[0]+link,source,count=1)
+            file.write_text(source)
     if not entries: raise ValueError('Refusing to publish an empty Tabsira catalog')
     output=dict(version=1, generatedAt=datetime.now(timezone.utc).isoformat(), sources=entries)
     data=json.dumps(output,ensure_ascii=False,separators=(',',':'))

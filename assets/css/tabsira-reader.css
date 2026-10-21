@@ -55,3 +55,9 @@ html.tabsira-picker body :is(.library-search-form input,.search-filters select){
 html.tabsira-picker body .container .library-welcome h1{font-size:1.65rem!important}
 html.tabsira-picker body .forqan-welcome-logo{width:64px;height:64px;margin-block:.3rem}
 html.tabsira-picker body .library-welcome{padding-top:0}
+
+/* Work-level discussion action, alongside the verse-level writing controls. */
+body .container .tabsira-source-link{display:inline-flex;align-items:center;gap:.4rem;min-height:44px;box-sizing:border-box;padding:.45rem .8rem;border:1px solid var(--lib-line,#bbb);border-radius:999px;background:var(--lib-soft,transparent);color:var(--lib-gold,#9a793c);font-size:.875rem;line-height:1.5;text-decoration:none;max-width:100%}
+body .container .tabsira-source-link:hover{border-color:var(--lib-gold,#9a793c);text-decoration:underline;text-underline-offset:.2em}
+body .container .tabsira-source-link:focus-visible{outline:2px solid var(--lib-gold,#9a793c);outline-offset:3px}
+@media print{[data-tabsira-discuss]{display:none!important}}

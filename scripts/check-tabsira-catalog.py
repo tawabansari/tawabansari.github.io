@@ -8,7 +8,8 @@ seen=set()
 for s in data['sources']:
     assert s['path'] not in seen;seen.add(s['path'])
     source=(site/s['path'].strip('/')/'index.html').read_text()
-    assert 'data-tabsira-discuss' in source, s['path']
+    assert source.count('data-tabsira-discuss') == 1, s['path']
+    assert 'class="tabsira-source-link"' in source, s['path']
     assert 'https://tabsira.forqan.co'+s['path'] in source, s['path']
     assert s['title'] and s['lang'] in ('fa','en')
     if s['kind']=='chapters':
@@ -21,3 +22,8 @@ for p in pages:
     if p['kind'] in ('Roots','Terminology') and not p['url'].endswith('/roots/'):
         assert p['url'] in seen,p['url']
 print('Verified',len(seen),'discussion destinations and published verse anchors')
+
+# Every catalogued book must have the same discussion destination as articles.
+repo=Path(__file__).resolve().parent.parent
+for work in json.loads((repo/'_data/study-catalog.json').read_text()):
+    if work.get('format')=='book':assert work['url'] in seen,work['url']
