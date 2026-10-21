@@ -590,15 +590,15 @@
   "a-n-th": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-n-th/",
-      "title": "ریشهٔ أ ن ث",
-      "summary": "مادینه بودن؛ أُنثى نام جنس مؤنث است و به‌خودی‌خود داوری ارزشی ندارد.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ ن ث",
+      "summary": "جنس ماده در برابر جنس نر، در انسان و دیگر جانداران؛ و در کاربردهای زبانی، مؤنث شمردن یا مؤنث نامیدن چیزی. در قرآن، أُنْثَى بسته به سیاق به زن، دختر یا موجود ماده اشاره می‌کند؛ أُنْثَيَيْن صورت مثنای آن برای دو فرد ماده است؛ و إِنَاث جمع آن است که هم درباره دختران و هم در نسبت‌های مؤنث به فرشتگان و معبودهای ساختگی آمده است. این ریشه به خودی خود نه جایگاه اخلاقی یا ارزش انسانی را تعیین می‌کند، نه حکم حقوقی مشخصی را، و نه ثابت می‌سازد هر چیزی که در زبان مؤنث خوانده می‌شود دارای جنس زیستی ماده است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-n-th/",
-      "title": "The Root A N TH",
-      "summary": "Being female; unthā denotes female sex without itself expressing a judgment of worth.",
-      "status": "preliminary"
+      "title": "Qur’anic Root A N TH",
+      "summary": "The female sex contrasted with the male, in humans and other living beings; linguistically, considering or naming something feminine. Qur’anic unthā identifies a woman, girl, or female being according to context; unthayayni is its dual for two females; ināth is its plural, used for daughters and in feminine attributions to angels and supposed deities. The root itself establishes neither moral position or human worth, nor a particular legal provision, nor that everything called feminine in language has female biological sex.",
+      "status": "published"
     }
   },
   "a-n-y": {
