@@ -436,15 +436,15 @@
   "a-m-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-m-d/",
-      "title": "ریشهٔ أ م د",
-      "summary": "مدت و فاصلهٔ زمانی با نظر به پایان یا حد آن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ م د",
+      "summary": "کرانه، غایت یا نهایتی که یک فاصله یا امتداد به آن می‌رسد؛ و در کاربرد زمانی، مدت یا فاصله‌ای که نسبت به آغاز، پایان یا نقطه مورد انتظار سنجیده می‌شود. در قرآن، أَمَد گاهی فاصله‌ای آرزوشده، گاهی مدت سپری‌شده و گاهی زمان نامعلوم تحقق یک رویداد را بیان می‌کند. کوتاهی، طولانی بودن و معلوم یا نامعلوم بودن آن از سیاق و واژه‌های همراه شناخته می‌شود، نه از خود ریشه به تنهایی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-m-d/",
-      "title": "The Root A M D",
-      "summary": "A period or stretch of time considered in relation to its limit or endpoint.",
-      "status": "preliminary"
+      "title": "Qur’anic Root A M D",
+      "summary": "A limit, goal, or endpoint reached by a distance or extent; temporally, a duration or interval measured relative to a beginning, an end, or an anticipated point. In the Qur’an, amad may express a desired distance, an elapsed duration, or the unknown timing of an event’s fulfillment. Shortness, length, and whether it is known or unknown are established by context and accompanying words, rather than by the root alone.",
+      "status": "published"
     }
   },
   "a-m-l": {
@@ -506,15 +506,15 @@
   "a-m-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-m-s/",
-      "title": "ریشهٔ أ م س",
-      "summary": "امس: دیروز یا گذشته نزدیک؛ نام زمان است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ م س",
+      "summary": "أَمْس نام روز پیش از روز حاضر یا روز مرجع در گفتار است؛ یعنی دیروز. این واژه در کاربرد گسترده‌تر می‌تواند گذشته نزدیک یا زمانی سپری‌شده را نیز بیان کند، به‌ویژه هنگامی که وضعیت پیشین با وضعیت کنونی سنجیده می‌شود. در قرآن، هر چهار کاربرد به صورت بِالْأَمْسِ آمده‌اند. در داستان موسی، مرجع آن روز گذشته مشخص است؛ در تمثیل زندگی دنیا و سرگذشت قارون، اشاره به گذشته نزدیک و تقابل آن با وضعیت تازه نیز برجسته می‌شود. ارزش اخلاقی و نتیجه هر رویداد از سیاق شناخته می‌شود، نه از خود واژه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-m-s/",
-      "title": "The Root A M S",
-      "summary": "Ams means yesterday or the recent past; a time expression.",
-      "status": "preliminary"
+      "title": "Qur’anic Root A M S",
+      "summary": "Ams names the day preceding the present day or the reference day in speech: yesterday. More broadly, it can express the recent past or an elapsed time, particularly when earlier circumstances are measured against the present. All four Qur’anic occurrences have the form bi-l-amsi. In Moses’ story, a particular previous day is intended; in the parable of worldly life and Qārūn’s story, reference to the recent past and its contrast with new circumstances also becomes prominent. Each event’s moral value and consequences come from context, rather than the word itself.",
+      "status": "published"
     }
   },
   "a-m-t": {
