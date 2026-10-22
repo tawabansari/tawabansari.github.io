@@ -1604,6 +1604,27 @@
     ]
   },
   {
+    "url": "/en/hadith-critique/trials-and-the-good-life-in-the-quran/",
+    "collections": [
+      "hadith",
+      "terminology"
+    ],
+    "concept": "Trials and the Promise of a Good Life",
+    "description": "A Qur’anic examination of the saying that this world is a prison for believers: the good life, blessings, trials, human choice, social responsibility, and steadfastness.",
+    "format": "study",
+    "aliases": [
+      "The world is a prison for the believer",
+      "Trials",
+      "Ibtila (being put to the test)",
+      "Hayat tayyibah (a good and wholesome life)"
+    ],
+    "related": [
+      "/en/quran-terminology/sabr-in-the-quran/",
+      "/en/quran-terminology/divine-decree-and-human-choice/",
+      "/en/quran-terminology/intercession-in-the-quran/"
+    ]
+  },
+  {
     "url": "/fa/quran-terminology/salawat-in-the-quran/",
     "collections": [
       "terminology",
