@@ -870,15 +870,15 @@
   "a-w-h2": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-w-h2/",
-      "title": "ریشهٔ أ و ه",
-      "summary": "آه و ناله برآوردن؛ أوّاه: بسیار آه‌کش و دلسوز یا نیایشگر، بر پایهٔ سیاق.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ و ه",
+      "summary": "هسته معنایی «أ و ه»، آه و اظهار تأثر از درد، اندوه یا نگرانی است. «أَوَّاه» در وصف ابراهیم، انسانی را معرفی می‌کند که رقت قلب و تأثر او با دعا و تضرع همراه است؛ انسانی بردبار که نسبت به سرنوشت دیگران بی‌تفاوت نیست و به آن معبود یگانه روی می‌آورد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-w-h2/",
-      "title": "The Root A W H",
-      "summary": "Sighing or lamenting; awwāh: frequently sighing, tenderhearted, or prayerful, according to context.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root A W H",
+      "summary": "A W H’s semantic core is sighing and expressing emotion prompted by pain, sorrow, or concern. Applied to Abraham, awwāh describes someone whose tenderness of heart and deep concern accompany prayer and supplication: a forbearing person who is not indifferent to others’ fate and turns toward The God.",
+      "status": "published"
     }
   },
   "a-w-l": {
@@ -898,15 +898,15 @@
   "a-w-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-w-n/",
-      "title": "ریشهٔ أ و ن",
-      "summary": "آرامش، آسودگی و مدارا؛ أوان نیز به هنگام و زمان اشاره دارد.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی أ و ن",
+      "summary": "معنای تثبیت‌شده «الآن» در قرآن، «اکنون؛ زمان حاضر در نسبت با موقعیت سخن یا رویداد» است. تفاوت‌های معنایی هشت کاربرد آن از فعل‌ها، حروف، گویندگان و سیاق هر آیه به دست می‌آیند، نه از تغییر هسته معنایی این واژه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-w-n/",
-      "title": "The Root A W N",
-      "summary": "Rest, ease, and gentle treatment; awān also denotes a time or occasion.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root A W N",
+      "summary": "Al-ān’s established Qur’anic meaning is “now: the present relative to the speaking situation or event.” The differences among its eight occurrences arise from the verbs, particles, speakers, and contexts, rather than a change in its semantic core.",
+      "status": "published"
     }
   },
   "a-w-y": {
