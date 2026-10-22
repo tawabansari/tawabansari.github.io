@@ -2466,15 +2466,15 @@
   "b-a-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/b-a-r/",
-      "title": "ریشهٔ ب أ ر",
-      "summary": "کندن گودی؛ بئر: چاه و گودیِ دسترسی به آب.",
-      "status": "preliminary"
+      "title": "ریشهٔ قرآنی ب أ ر",
+      "summary": "هستهٔ معنایی «ب أ ر» در کاربرد قرآنی آن، چاه و جایگاه حفرشده برای دسترسی به آب است. «بِئْرٍ مُعَطَّلَةٍ» چاهی است که بهره‌برداری از آن متوقف شده؛ نه لزوما چاهی که آب آن خشک شده یا ساختمانش فروریخته است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/b-a-r/",
-      "title": "The Root B A R",
-      "summary": "Digging a hollow; biʾr: a well or a shaft providing access to water.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root B A R (ب أ ر)",
+      "summary": "In its Qur’anic usage, the semantic core of B A R is a well: an excavated place for reaching water. Biʾrin muʿaṭṭalah is a well whose use has ceased, rather than necessarily one whose water has dried up or whose structure has collapsed.",
+      "status": "published"
     }
   },
   "b-a-s": {
