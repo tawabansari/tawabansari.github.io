@@ -172,7 +172,7 @@ function init() {
       target.append(reference);
       target.classList.add('ayah-toolbar');
       const print = document.createElement('button'); print.type = 'button'; print.className = 'verse-print-button';
-      print.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 9V3h12v6M6 17H3V9h18v8h-3M6 14h12v7H6z"/></svg>';
+      print.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 9V3h12v6M6 17H3V9h18v8h-3M6 14h12v7H6z"/></svg>';
       print.title = fa ? 'چاپ آیه یا مجموعه‌ای از آیات' : 'Print this verse or a selection';
       print.setAttribute('aria-label',print.title); print.setAttribute('aria-haspopup','dialog');
       print.addEventListener('click',()=>open(print,verse,'print')); actions.append(print);

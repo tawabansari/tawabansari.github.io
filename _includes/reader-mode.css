@@ -1,0 +1,68 @@
+.reader-mode-toolbar { display:flex; justify-content:center; gap:.35rem; margin:0 0 1.2rem; position:sticky; top:var(--library-header-height,80px); z-index:20; padding:.5rem; background:var(--lib-bg,#faf9f6); border-radius:.6rem; }
+.reader-mode-toolbar button { font:inherit; font-size:.9rem; padding:.45rem 1rem; border:1px solid var(--lib-line,#bbb); border-radius:999px; background:transparent; color:inherit; cursor:pointer; }
+/* Keep the reading selector in step with the auto-hiding site header. */
+.reader-mode-toolbar { transition:transform .22s ease, opacity .22s ease; }
+body:has(.library-header.header-away):not(:has(.library-header :focus-visible)) .reader-mode-toolbar:not(:has(:focus-visible)) {
+  transform:translateY(calc(-100% - var(--library-header-height,80px)));
+  opacity:0; visibility:hidden; pointer-events:none;
+}
+@media (prefers-reduced-motion:reduce) { .reader-mode-toolbar { transition:none; } }
+body .ayah-toolbar .pdf-verse-actions { direction:ltr; }
+.ayah-reference .verse-permalink { display:inline-flex; align-items:center; max-width:100%; gap:.2em; color:inherit; text-decoration:none; }
+.verse-reference-chapter { min-width:0; overflow:hidden; text-overflow:ellipsis; }
+.verse-reference-number { flex-shrink:0; color:var(--lib-gold,#9a793c); text-decoration:underline; text-underline-offset:.2em; }
+@media (max-width:600px) {
+  body .container .ayah-toolbar { flex-wrap:nowrap; gap:.35rem; }
+  body .ayah-toolbar .ayah-reference { flex:1 1 auto; min-width:0; overflow:hidden; text-overflow:ellipsis; font-size:.75rem; }
+  body .ayah-toolbar .pdf-verse-actions { display:flex; flex-wrap:nowrap; flex:0 0 auto; gap:.15rem; width:auto; margin:0; }
+  body .container .ayah-toolbar .pdf-verse-actions > * { box-sizing:border-box; width:clamp(1.9rem,9vw,2.75rem)!important; min-width:0!important; height:44px!important; min-height:44px!important; margin:0!important; padding:0!important; }
+  body .ayah-toolbar .quran-gooya-link { font-size:.65rem!important; }
+  body .ayah-toolbar .pdf-download-button svg { display:none; }
+  .reader-mode-toolbar button { min-height:44px; }
+}
+.reader-mode-toolbar button[aria-pressed="true"] { border-color:var(--lib-gold,#9a793c); background:var(--lib-soft,rgba(154,121,60,.14)); font-weight:700; }
+body.dark-theme .reader-mode-toolbar { background:var(--lib-bg,#0f172a); }
+body .container .tabsira-reflection-link { display:inline-flex; align-items:center; justify-content:center; min-width:2.5rem; min-height:2rem; border:1px solid var(--lib-line,#bbb); border-radius:999px; font:inherit; font-size:1.1rem!important; text-decoration:none; color:inherit; background:var(--lib-soft,transparent); }
+.reader-mode-toolbar button:focus-visible,.tabsira-reflection-link:focus-visible { outline:2px solid var(--lib-gold,#9a793c); outline-offset:3px; }
+body.quran-reading-mode .container :is(.forqan-page-ltr,.forqan-page-rtl) { max-width:48rem; margin-inline:auto; }
+html body.quran-reading-mode .container .ayah-block { border:0!important; border-radius:0!important; background:transparent!important; box-shadow:none!important; padding:.55rem 0!important; margin:0!important; scroll-margin-top:5rem; }
+html body.quran-reading-mode .container .ayah-block + .ayah-block { border-top:0!important; }
+body.quran-reading-mode .ayah-block > details,
+body.quran-reading-mode .ayah-block .pdf-verse-actions,
+body.quran-reading-mode .ayah-block .tabsira-reflection-link { display:none!important; }
+.reading-verse-number { display:none; }
+body.quran-reading-mode .reading-verse-number { display:inline; text-decoration:none; border:0; }
+body.quran-reading-mode .ayah-title:has(.reading-verse-number) .ayah-reference { display:none; }
+body.quran-reading-mode .container .ayah-title { font-size:.75rem!important; opacity:.75; margin-bottom:0; }
+body.quran-reading-mode .container .arabic-text { font-size:calc(var(--zoom-factor) * 1.548)!important; margin:.15rem 0!important; text-align:right; }
+body.quran-reading-mode .container .farsi-verse { font-size:calc(var(--zoom-factor) * 1.045)!important; }
+body.quran-reading-mode .container .english-verse { font-size:calc(var(--zoom-factor) * 1.026)!important; }
+body.quran-reading-mode .container :is(.farsi-verse,.english-verse) { margin:.15rem 0 .4rem!important; line-height:1.85!important; text-align:start; }
+body.quran-reading-mode .container .word-link { border:0!important; text-decoration:none!important; }
+@media print { .reader-mode-toolbar,.tabsira-reflection-link { display:none!important; } }
+
+:is(.study-embedded,.tabsira-embedded) .reader-mode-toolbar { top:0; }
+
+/* Compact controls stay available even when their panels are closed. */
+.verse-discussion-tools{display:flex;align-items:center;flex-wrap:wrap;gap:.35rem 1rem;margin:.7rem 0;direction:inherit}
+.verse-discussion-group{display:flex;align-items:center;flex-wrap:wrap;gap:.3rem}
+body .container .verse-discussion-tools button,body .container .verse-discussion-tools a{margin:0!important;min-height:40px;min-width:36px;font-size:.85rem!important}
+body .container .verse-discussion-tools .verse-panel-toggle{width:auto;max-width:none;padding:.25rem .1rem;background:none;border:0;color:var(--lib-gold,#9a793c);font:inherit;font-weight:600;cursor:pointer}
+html body .container .ayah-block details.compact-verse-panel{margin:0!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
+html body .container .ayah-block details.compact-verse-panel>summary{display:none!important}
+html body .container .ayah-block details.compact-verse-panel[open]{border-top:1px solid var(--lib-line,#bbb)!important;padding-top:.65rem!important;margin-top:.5rem!important}
+html body .container .ayah-block details.compact-verse-panel .details-content{padding:.3rem 0!important}
+body.quran-reading-mode .verse-discussion-tools{display:none!important}
+body .container .verse-print-button{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--lib-line,#bbb);border-radius:999px;background:var(--lib-soft,transparent);color:inherit;width:2.5rem;height:2rem;cursor:pointer}
+.verse-print-button svg{width:1rem;height:1rem}
+.verse-panel-toggle:focus-visible,.verse-print-button:focus-visible{outline:2px solid var(--lib-gold);outline-offset:3px}
+@media print{.verse-discussion-tools{display:none!important}}
+
+/* Emphasize the invitation to reflect without enlarging the controls. */
+body .container .verse-discussion-tools .reflection-primary-toggle{padding:.25rem .65rem;border:1px solid color-mix(in srgb,var(--lib-gold,#9a793c) 45%,transparent);border-radius:999px;background:color-mix(in srgb,var(--lib-gold,#9a793c) 13%,transparent);font-weight:700;color:var(--lib-gold,#9a793c)}
+body .container .verse-discussion-tools .reflection-primary-toggle:hover,body .container .verse-discussion-tools .reflection-primary-toggle[aria-expanded="true"]{background:color-mix(in srgb,var(--lib-gold,#9a793c) 22%,transparent)}
+html body .container .ayah-block details.reflection-cross-references{margin:.8rem 0 0!important;padding:.6rem 0 0!important;border:0!important;border-top:1px solid var(--lib-line,#bbb)!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
+html body .container .ayah-block details.reflection-cross-references>summary{display:flex;align-items:center;gap:.4rem;padding:0!important;min-height:40px;font-size:.85rem!important;font-weight:500;color:var(--lib-muted,#64748b);background:transparent!important}
+html body .container .ayah-block details.reflection-cross-references>summary::after{display:none}
+html body .container .ayah-block details.reflection-cross-references>summary .section-toggle-button{margin:0;min-width:32px;min-height:32px;width:32px;height:32px;background:transparent;border:0}
+.quran-nav-trigger svg,.ayah-quran-nav-button svg{width:1.1rem;height:1.1rem;display:block;margin:auto}

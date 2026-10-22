@@ -2401,8 +2401,9 @@
 <meta name="forqan-pdf-endpoint" content="{{ site.pdf_endpoint | escape }}">
 <meta name="forqan-pdf-fallback" content="{{ site.pdf_fallback | default: false }}">
 <link rel="stylesheet" href="/assets/css/pdf-download.css">
-<script type="module" src="/assets/js/pdf-download.mjs?v=compact-study-1"></script>
-<link rel="stylesheet" href="/assets/css/reader-mode.css?v=reflection-focus-2">
+<script type="module" src="/assets/js/pdf-download.mjs?v=print-icon-2"></script>
+<!-- Keep verse controls and their presentation in the same response. -->
+<style id="reader-mode-styles">{% include reader-mode.css %}</style>
 <script type="module" src="/assets/js/reader-mode.mjs?v=reflection-focus-3"></script>
 </head>
 
