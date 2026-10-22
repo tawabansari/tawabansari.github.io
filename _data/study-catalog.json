@@ -1819,5 +1819,47 @@
       "/en/quran-completeness/quran-and-hadith-transmitters/",
       "/en/quran-terminology/halal-and-haram-in-the-quran/"
     ]
+  },
+  {
+    "url": "/fa/quran-completeness/inherited-tradition-and-revelation/",
+    "collections": [
+      "completeness",
+      "hadith"
+    ],
+    "concept": "وحی و پیروی موروثی",
+    "description": "پژوهشی بر محور بقره ۲:۱۷۰ درباره تعقل، پیروی از گذشتگان و سنجش روایت و فتوا با وحی.",
+    "format": "study",
+    "aliases": [
+      "میراث پدران",
+      "تقلید",
+      "پیروی از نیاکان",
+      "بقره ۲:۱۷۰"
+    ],
+    "related": [
+      "/fa/quran-completeness/is-the-quran-incomplete-without-hadith/",
+      "/fa/articles/obeying-the-messenger-and-hadith-authority/",
+      "/quran-reflection/fa/002-al-baqarah/#ayah-170"
+    ]
+  },
+  {
+    "url": "/en/quran-completeness/inherited-tradition-and-revelation/",
+    "collections": [
+      "completeness",
+      "hadith"
+    ],
+    "concept": "Revelation and inherited authority",
+    "description": "Al-Baqarah 2:170, the role of reason, and evaluating inherited reports and rulings against revelation.",
+    "format": "study",
+    "aliases": [
+      "Ancestral tradition",
+      "Inherited belief",
+      "Religious authority",
+      "Al-Baqarah 2:170"
+    ],
+    "related": [
+      "/en/quran-completeness/is-the-quran-incomplete-without-hadith/",
+      "/en/articles/obeying-the-messenger-and-hadith-authority/",
+      "/quran-reflection/en/002-al-baqarah/#ayah-170"
+    ]
   }
 ]
