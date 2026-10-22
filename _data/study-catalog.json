@@ -1734,5 +1734,49 @@
       "Love, worship and the limits of human authority",
       "Modern examples and the distinction between sin and assigning divine standing"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/halal-and-haram-in-the-quran/",
+    "collections": [
+      "terminology",
+      "hadith"
+    ],
+    "concept": "حلال و حرام؛ حق تشریع الهی",
+    "description": "بررسی اذن الهی در تشریع، طیبات و خبائث، احکام خوراک و حدود مرجعیت روایات و تشخیص انسانی.",
+    "format": "study",
+    "aliases": [
+      "حلال",
+      "حرام",
+      "طیبات",
+      "خبائث",
+      "شرک در تشریع"
+    ],
+    "related": [
+      "/fa/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/fa/articles/obeying-the-messenger-and-hadith-authority/",
+      "/fa/quran-terminology/andad-in-the-quran/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/halal-and-haram-in-the-quran/",
+    "collections": [
+      "terminology",
+      "hadith"
+    ],
+    "concept": "Halal and Haram (Permitted and Forbidden): Divine Authority",
+    "description": "Divine authorization, wholesome and corrupt things, food rules, and the limits of reports and human judgment.",
+    "format": "study",
+    "aliases": [
+      "Halal",
+      "Haram",
+      "Wholesome food",
+      "Religious legislation",
+      "Food prohibitions"
+    ],
+    "related": [
+      "/en/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/en/articles/obeying-the-messenger-and-hadith-authority/",
+      "/en/quran-terminology/andad-in-the-quran/"
+    ]
   }
 ]
