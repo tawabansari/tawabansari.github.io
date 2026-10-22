@@ -1778,5 +1778,46 @@
       "/en/articles/obeying-the-messenger-and-hadith-authority/",
       "/en/quran-terminology/andad-in-the-quran/"
     ]
+  },
+  {
+    "url": "/fa/quran-completeness/is-the-quran-incomplete-without-hadith/",
+    "collections": [
+      "completeness",
+      "hadith"
+    ],
+    "concept": "کامل بودن قرآن و مرجعیت حدیث",
+    "description": "۶۷ پرسش درباره اطاعت از رسول، اعتبار روایات، عبادات و مرز میان فرمان خدا و اجرای انسانی.",
+    "format": "study",
+    "aliases": [
+      "قرآن بدون حدیث",
+      "کفایت قرآن",
+      "پرسش و پاسخ"
+    ],
+    "related": [
+      "/fa/articles/obeying-the-messenger-and-hadith-authority/",
+      "/fa/quran-completeness/quran-and-hadith-transmitters/",
+      "/fa/quran-terminology/halal-and-haram-in-the-quran/"
+    ]
+  },
+  {
+    "url": "/en/quran-completeness/is-the-quran-incomplete-without-hadith/",
+    "collections": [
+      "completeness",
+      "hadith"
+    ],
+    "concept": "The Qur’an’s sufficiency and hadith authority",
+    "description": "67 questions about obedience to the Messenger, reports, worship, and the distinction between divine commands and human implementation.",
+    "format": "study",
+    "aliases": [
+      "Qur’an without hadith",
+      "Quran alone",
+      "FAQ",
+      "Sufficiency of Scripture"
+    ],
+    "related": [
+      "/en/articles/obeying-the-messenger-and-hadith-authority/",
+      "/en/quran-completeness/quran-and-hadith-transmitters/",
+      "/en/quran-terminology/halal-and-haram-in-the-quran/"
+    ]
   }
 ]
