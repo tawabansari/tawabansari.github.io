@@ -10138,15 +10138,15 @@
   "k-r-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/k-r-r/",
-      "title": "ریشهٔ ك ر ر",
-      "summary": "بازگشت و تکرار حمله یا فرصت.",
-      "status": "preliminary"
+      "title": "ریشهٔ قرآنی ك ر ر",
+      "summary": "هستهٔ معنایی «ك ر ر»، بازگشت و تکرار یک حرکت، عمل یا وضعیت است. «كَرَّة» یک نوبت از چنین بازگشت یا تکراری را بیان می‌کند و نوع، مقصد و نتیجهٔ آن را سیاق هر آیه مشخص می‌سازد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/k-r-r/",
-      "title": "The Root K R R",
-      "summary": "Returning, renewing an attack, or having another opportunity.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root K R R (ك ر ر)",
+      "summary": "K R R’s semantic core is returning and repeating a movement, action, or condition. Karrah expresses one instance of such returning or repetition; each verse’s context establishes its kind, destination, and outcome.",
+      "status": "published"
     }
   },
   "k-r-s": {
