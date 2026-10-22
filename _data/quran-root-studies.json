@@ -954,15 +954,15 @@
   "a-y-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-y-m/",
-      "title": "ریشهٔ أ ي م",
-      "summary": "أیّم و أیامى: شخص یا اشخاصِ بی‌همسر، از زن یا مرد.",
-      "status": "preliminary"
+      "title": "ریشهٔ قرآنی أ ي م",
+      "summary": "تعریف دقیق «أَيِّم» در میدان قرآنی آن، زن یا مردی است که همسر ندارد. «أَيَامَى» جمع چنین اشخاصی است، بی‌آنکه واژه به‌تنهایی علت بی‌همسری یا شرایط ازدواج آنان را تعیین کند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-y-m/",
-      "title": "The Root A Y M",
-      "summary": "Ayyim and ayāmā: a person or people without a spouse, male or female.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root A Y M (أ ي م)",
+      "summary": "In its Qur’anic semantic field, ayyim precisely denotes a woman or man who has no spouse. Ayāmā is the plural of such people, without itself determining the cause of their condition or the conditions for their marriage.",
+      "status": "published"
     }
   },
   "a-y-y": {
