@@ -1,0 +1,6 @@
+<svg class="collection-art" viewBox="0 0 160 112" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g stroke="currentColor" stroke-width="3" stroke-linejoin="round"><path d="m22 68 86-14 31 16-83 18-34-10c-7-2-7-9 0-10Z"/><path d="M22 78v10c0 5 3 7 7 8l27 8 83-18V70M56 88v16"/><path d="m27 36 80-17 28 14-78 19-30-7c-7-2-7-8 0-9Z"/><path d="M27 45v12c0 4 3 6 7 7l23 7 78-20V33M57 52v19"/></g>
+<path d="m27 36 80-17 28 14-78 19Z" fill="currentColor"/>
+<g stroke="var(--collection-art-accent)" stroke-width="1.5"><path d="m65 57 60-15m-60 20 60-15m-60 47 64-14m-64 19 64-14"/></g>
+<path d="m43 68 15 4-3 36-7-7-8 4Z" fill="var(--collection-art-accent)"/>
+</svg>

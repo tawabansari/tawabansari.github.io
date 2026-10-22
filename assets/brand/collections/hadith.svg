@@ -1,0 +1,8 @@
+<svg class="collection-art" viewBox="0 0 190 130" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"><path d="m12 24 11-9h64v84H23l-11-8ZM23 15v84m-11-75h11M104 15h64l10 9v67l-10 8h-64ZM168 15v84m0-60h10"/><path d="M29 25h51v64H29ZM111 25h50v64h-50Z" stroke-width="1"/></g>
+<g fill="currentColor" font-family="Vazirmatn, sans-serif" text-anchor="middle" direction="rtl" lang="fa" font-size="12"><text x="54" y="48">روایات</text><text x="54" y="66">متفرقه</text><text x="136" y="44">خبر های</text><text x="136" y="61">فلان و فلان</text></g>
+<path d="m111 103 24 19" stroke="var(--collection-art-accent)" stroke-width="9" stroke-linecap="round"/>
+<circle cx="94" cy="89" r="23" fill="var(--collection-art-paper)" stroke="currentColor" stroke-width="4"/>
+<circle cx="94" cy="89" r="18" stroke="var(--collection-art-accent)" stroke-width="2"/>
+<path d="M82 85a13 13 0 0 1 10-9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

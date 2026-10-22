@@ -1,0 +1,9 @@
+<svg class="collection-art" viewBox="0 0 160 130" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 65v31h95" stroke="var(--collection-art-accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32 15h61v75H32c-5 0-8-3-8-7V23c0-5 3-8 8-8Z" fill="currentColor"/>
+<path d="M32 16v73m8-64h44v54H40Z" stroke="var(--collection-art-accent)" stroke-width="1.7"/>
+<text x="62" y="58" fill="var(--collection-quran-title,var(--collection-art-accent))" font-size="23" text-anchor="middle" font-family="Amiri, 'Noto Naskh Arabic', serif" direction="rtl" lang="ar">قرآن</text>
+<g transform="rotate(-25 112 73)" stroke="currentColor" stroke-width="2.5"><rect x="103" y="44" width="22" height="49" rx="2"/><path d="M109 45v47"/><path d="M113 53h8m-8 29h8" stroke="var(--collection-art-accent)"/></g>
+<g transform="rotate(30 131 108)" stroke="currentColor" stroke-width="2.5"><rect x="121" y="91" width="20" height="34" rx="2"/><path d="M126 92v32"/><path d="M130 99h7" stroke="var(--collection-art-accent)"/></g>
+<path d="m133 52 6 12m-1 12 4 8m5 15 3 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

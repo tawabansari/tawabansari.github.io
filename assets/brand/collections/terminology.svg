@@ -1,0 +1,6 @@
+<svg class="collection-art" viewBox="0 0 160 112" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="m83 18 48 7-9 78-47-6" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+<path d="m30 18 66-9 10 88-66 9Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+<text x="65" y="56" text-anchor="middle" fill="currentColor" stroke="none" font-size="29" font-family="Amiri, 'Noto Naskh Arabic', serif" lang="ar" direction="rtl">صلاة</text>
+<g stroke="var(--collection-art-accent)" stroke-width="2" stroke-linecap="round"><path d="m48 70 36-5m-35 14 36-5m-35 14 36-5m21-45 13 2m-12 9 11 2m-10 9 9 2"/></g>
+</svg>

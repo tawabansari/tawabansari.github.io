@@ -134,3 +134,16 @@ body .container .study-preview-actions .study-preview-read{background:var(--lib-
 .study-preview-download:disabled{opacity:.65;cursor:wait}
 body .container .study-preview .study-preview-status{font-size:.85rem;line-height:1.8;margin:.7rem 0 0;overflow-wrap:anywhere}
 .study-preview-status:empty{display:none}
+
+/* Unboxed collection destinations match the homepage ink illustrations. */
+.collection-directory[data-collection="hub"]{--collection-art-ink:#123052;--collection-art-accent:#b18a4e;--collection-art-paper:#faf9f6}
+html[data-forqan-theme="dark"] .collection-directory[data-collection="hub"]{--collection-art-ink:#eeeae0;--collection-art-accent:#dbbb7b;--collection-art-paper:#101729;--collection-quran-title:#123052}
+body .container .collection-directory[data-collection="hub"] .collection-grid{gap:1.6rem 3rem;max-width:850px;margin:1.8rem auto}
+body .container .collection-card{align-items:center;text-align:center;border:0;background:none;border-radius:.5rem;padding:.8rem 1rem;min-width:0}
+.collection-art{display:block;width:160px;height:115px;color:var(--collection-art-ink);margin:0 0 .7rem;flex-shrink:0}
+body .container .collection-card h2{color:var(--lib-gold);font-size:1.5rem;line-height:1.5;margin:0 0 .35rem}
+body .container .collection-card p{max-width:31ch;margin:0 0 .45rem;line-height:1.7}
+body .container .collection-card span{margin-top:0;font-size:.85rem;color:var(--lib-muted)}
+.collection-card:hover h2{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.25em}
+.collection-card:focus-visible{outline:2px solid var(--lib-gold);outline-offset:3px}
+@media(max-width:600px){body .container .collection-directory[data-collection="hub"] .collection-grid{gap:1rem;margin:1.2rem auto}body .container .collection-card{display:grid;grid-template-columns:108px minmax(0,1fr);column-gap:.8rem;text-align:start;padding:.6rem 0;align-items:center}.collection-art{grid-row:1 / 4;width:108px;height:94px;margin:0}body .container .collection-card h2{font-size:1.15rem}body .container .collection-card p{font-size:.9rem;max-width:none}body .container .collection-card span{font-size:.8rem}}

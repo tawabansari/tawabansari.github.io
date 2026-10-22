@@ -15,6 +15,9 @@ COLLECTIONS = {
 }
 MAIN = ('terminology', 'completeness', 'hadith', 'reflections')
 
+def collection_icon(key):
+    return (Path(__file__).resolve().parent.parent/'assets/brand/collections'/f'{key}.svg').read_text()
+
 def label(key,lang): return COLLECTIONS[key][2 if lang=='fa' else 1]
 def route(key,lang): return '/'+lang+'/'+COLLECTIONS[key][0]+'/'
 def text(lang,en,fa): return fa if lang=='fa' else en
@@ -123,7 +126,7 @@ def prepare(site,pages,sources,redirects):
                 body+='<div class="collection-grid">'
                 for k in MAIN:
                     count=len(members(k,lang))
-                    body+=f'<a class="collection-card" href="{route(k,lang)}"><h2>{label(k,lang)}</h2><p>{COLLECTIONS[k][4 if lang=="fa" else 3]}</p><span>{count} '+text(lang,'studies','نوشته')+'</span></a>'
+                    body+=f'<a class="collection-card" href="{route(k,lang)}">{collection_icon(k)}<h2>{label(k,lang)}</h2><p>{COLLECTIONS[k][4 if lang=="fa" else 3]}</p><span>{count} '+text(lang,'studies','نوشته')+'</span></a>'
                 body+='</div><p class="dedicated-studies">'+text(lang,'Dedicated studies: ','مطالعات ویژه: ')+ ' · '.join(f'<a href="{route(k,lang)}">{label(k,lang)}</a>' for k in ('salat','zakat'))+'</p>'
             else:
                 rows=members(key,lang)
