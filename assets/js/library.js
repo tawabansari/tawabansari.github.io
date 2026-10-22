@@ -1,4 +1,5 @@
 import {normalize as normalizeSearch} from './search-utils.mjs';
+import {compactStudy} from './study-toolbar.mjs';
 (function () {
   'use strict';
   const settings = document.querySelector('.reading-settings');
@@ -38,6 +39,7 @@ import {normalize as normalizeSearch} from './search-utils.mjs';
   const isDirectory=/\/(roots|surahs)\/$/.test(location.pathname);
   if (isDirectory) {
     const root=main.querySelector('.root-index-page,.surah-index-page');
+    if(root?.classList.contains('surah-index-page'))return;
     if(root){
       const unavailable=Array.from(root.querySelectorAll('[data-unpublished-url]'));
       unavailable.forEach(a=>{const card=a.closest('li')||a;card.classList.add('unpublished-entry');});
@@ -86,6 +88,7 @@ import {normalize as normalizeSearch} from './search-utils.mjs';
     const normalize=normalizeSearch;
     form.addEventListener('submit',e=>{e.preventDefault();const q=normalize(input.value.trim());study.querySelectorAll('.library-found').forEach(p=>p.classList.remove('library-found'));if(!q){status.textContent='';return;}if(q!==last){matches=paragraphs.filter(p=>normalize(p.textContent).includes(q));index=-1;last=q;}if(!matches.length){status.textContent=fa?'نتیجه‌ای نیست':'No matches';return;}index=(index+1)%matches.length;matches[index].classList.add('library-found');reveal(matches[index]);status.textContent=(index+1)+' / '+matches.length;});
   }
+  compactStudy(main,study,fa);
   const highlight=new URLSearchParams(location.search).get('highlight');
   let anchor=null;
   try { anchor=document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch (_) {}

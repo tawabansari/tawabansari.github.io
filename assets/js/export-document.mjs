@@ -33,7 +33,7 @@ export function prepareDocument({includeCrossReferences = false, ids, scope, fro
   content.querySelectorAll('button.word-link').forEach(button => {
     const word = document.createElement('span'); word.textContent = button.textContent; button.replaceWith(word);
   });
-  content.querySelectorAll('script,style,link,meta,iframe,object,embed,form,button,input,select,textarea,dialog,nav,.library-toc,.library-find,.study-context,.study-related,.root-tools,.root-popover,.pdf-study-tools,.legacy-passage-anchor,.quran-gooya-link,.language-mirror-link,.pdf-verse-actions,.reading-verse-number,.verse-discussion-tools,.reference-pending,[hidden],[aria-hidden="true"]').forEach(node => node.remove());
+  content.querySelectorAll('script,style,link,meta,iframe,object,embed,form,button,input,select,textarea,dialog,nav,.library-toc,.library-find,.study-toolbar,.study-tool-panels,.study-language-note,.study-context,.study-related,.root-tools,.root-popover,.pdf-study-tools,.legacy-passage-anchor,.quran-gooya-link,.language-mirror-link,.pdf-verse-actions,.reading-verse-number,.verse-discussion-tools,.reference-pending,[hidden],[aria-hidden="true"]').forEach(node => node.remove());
   content.querySelectorAll('details').forEach(details => {
     const section = document.createElement('section');
     for (const child of [...details.childNodes]) {

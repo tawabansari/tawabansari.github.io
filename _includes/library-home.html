@@ -16,7 +16,17 @@
   </form>
   <p class="library-search-hint">{{ copy.try }} <a href="/search/?q=2%3A2&amp;lang={{ home_lang }}">{{ copy.reference }}</a> · <a href="/search/?q={{ copy.example | url_encode }}&amp;lang={{ home_lang }}">{{ copy.example }}</a></p>
   <div class="library-destinations">
-    {% for item in copy.sections %}<section class="library-destination"><h2 class="destination-heading"><a href="{{ item.url }}" lang="{{ home_lang }}">{{ item.title }}</a></h2><p>{{ item.description }}</p></section>{% endfor %}
+    {% assign home_icons = 'quran,roots,terminology,books' | split: ',' %}
+    {% for item in copy.sections %}
+    {% assign icon_name = home_icons[forloop.index0] %}
+    <section class="library-destination">
+      <a class="home-destination-link" href="{{ item.url }}" lang="{{ home_lang }}">
+        {% include home-section-icon.html name=icon_name %}
+        <h2 class="destination-heading">{{ item.title }}</h2>
+        <p>{{ item.description }}</p>
+      </a>
+    </section>
+    {% endfor %}
   </div>
 {% else %}
   <div class="library-welcome">

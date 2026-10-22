@@ -182,7 +182,9 @@ function init() {
   if (study) {
     const tools = document.createElement('div'); tools.className = 'pdf-study-tools'; tools.dataset.pagefindIgnore = '';
     const heading = study.querySelector('h1');
-    (heading?.closest('header,.root-hero') || heading || study.firstElementChild).insertAdjacentElement('afterend', tools);
+    const toolbar=study.querySelector('.study-toolbar');
+    if(toolbar)toolbar.insertBefore(tools,toolbar.querySelector('.study-discuss'));
+    else (heading?.closest('header,.root-hero') || heading || study.firstElementChild).insertAdjacentElement('afterend', tools);
     addButton(tools);
   }
   verses.forEach(verse => { const title = verse.querySelector('.ayah-title,h2'); if (title) addButton(title, verse); });
