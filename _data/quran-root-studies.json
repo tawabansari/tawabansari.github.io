@@ -15514,15 +15514,15 @@
   "q-sad-sad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-sad-sad/",
-      "title": "ریشهٔ ق ص ص",
-      "summary": "پی گرفتن اثر؛ قصّه: روایت؛ قصاص: مقابله متناسب در آسیب.",
-      "status": "preliminary"
+      "title": "ریشهٔ ق ص ص (قَصّ، قَصَص و قِصَاص) در قرآن",
+      "summary": "«ق ص ص» در عربی به پی گرفتن اثر چیزی و دنبال کردن آن مربوط است. از این معنا، کاربرد بازگفتن خبرها و رویدادها به‌صورت پیوسته شناخته شده است. «قَصَص» در قرآن می‌تواند به پیگیری مسیر یا به روایت و سرگذشت اشاره کند. «قِصَاص» نیز در کاربرد حقوقی، مقابله متناسب با قتل، جراحت یا تجاوز را بیان می‌کند. این سه حوزه با مفهوم پیگیری و پاسخ به آنچه پیش‌تر رخ داده ارتباط دارند، اما مترادف نیستند. خود ریشه نه راست بودن هر روایت را تضمین می‌کند، نه تمام جزئیات رویداد را دربر دارد و نه مجوز انتقام بی‌حد است. معنای دقیق هر صورت از متعلق فعل، ساختمان جمله و سیاق آیه شناخته می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-sad-sad/",
-      "title": "The Root Q Ṣ Ṣ",
-      "summary": "Following a trace; qiṣṣah is a narrative; qiṣāṣ is corresponding retaliation for injury.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q Ṣ Ṣ (Qaṣṣ, Qaṣaṣ, and Qiṣāṣ)",
+      "summary": "Q Ṣ Ṣ concerns following something’s traces. Connected with this is recounting reports and events in succession. Qur’anic *qaṣaṣ* can identify tracing a route or an account and narrative. Juridical *qiṣāṣ* expresses a proportionate response to killing, wounding, or aggression. These three domains connect through following and responding to what came before, but are not synonymous. The root itself neither guarantees every account’s truth, includes every event’s detail, nor authorizes unlimited vengeance. Each form’s precise meaning comes from the verb’s object, the sentence’s structure, and the verse’s context.",
+      "status": "published"
     }
   },
   "q-sad-w": {
