@@ -1881,5 +1881,26 @@
     "related": [
       "/fa/quran-terminology/sabr-in-the-quran/"
     ]
+  },
+  {
+    "url": "/en/quran-terminology/qisas-and-forgiveness-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Qisas (proportionate justice) and forgiveness",
+    "description": "A study of proportionate justice and pardon, the breadth of the term abd, personal responsibility, and the Qur’an’s connection between justice, life, and repair.",
+    "format": "study",
+    "aliases": [
+      "Qisas",
+      "Afw",
+      "Forgiveness",
+      "Pardon",
+      "Personal responsibility",
+      "Servitude",
+      "Al-Baqarah 2:178"
+    ],
+    "related": [
+      "/en/quran-terminology/sabr-in-the-quran/"
+    ]
   }
 ]
