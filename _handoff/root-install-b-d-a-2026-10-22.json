@@ -1,0 +1,3614 @@
+{
+  "root": "ب د أ",
+  "slug": "b-d-a",
+  "date": "2026-10-22",
+  "status": "installed locally",
+  "files": [
+    "quran-terminology/fa/roots/b-d-a/index.html",
+    "quran-terminology/en/roots/b-d-a/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/007-al-araf/units/029.html",
+    "quran-reflection/fa/009-at-tawbah/units/013.html",
+    "quran-reflection/fa/010-yunus/units/004.html",
+    "quran-reflection/fa/010-yunus/units/034.html",
+    "quran-reflection/fa/012-yusuf/units/076.html",
+    "quran-reflection/fa/021-al-anbiya/units/104.html",
+    "quran-reflection/fa/027-an-naml/units/064.html",
+    "quran-reflection/fa/029-al-ankabut/units/019.html",
+    "quran-reflection/fa/029-al-ankabut/units/020.html",
+    "quran-reflection/fa/030-ar-rum/units/011.html",
+    "quran-reflection/fa/030-ar-rum/units/027.html",
+    "quran-reflection/fa/032-as-sajdah/units/007.html",
+    "quran-reflection/fa/034-saba/units/049.html",
+    "quran-reflection/fa/085-al-buruj/units/013.html",
+    "quran-reflection/en/007-al-araf/units/029.html",
+    "quran-reflection/en/009-at-tawbah/units/013.html",
+    "quran-reflection/en/010-yunus/units/004.html",
+    "quran-reflection/en/010-yunus/units/034.html",
+    "quran-reflection/en/012-yusuf/units/076.html",
+    "quran-reflection/en/021-al-anbiya/units/104.html",
+    "quran-reflection/en/027-an-naml/units/064.html",
+    "quran-reflection/en/029-al-ankabut/units/019.html",
+    "quran-reflection/en/029-al-ankabut/units/020.html",
+    "quran-reflection/en/030-ar-rum/units/011.html",
+    "quran-reflection/en/030-ar-rum/units/027.html",
+    "quran-reflection/en/032-as-sajdah/units/007.html",
+    "quran-reflection/en/034-saba/units/049.html",
+    "quran-reflection/en/085-al-buruj/units/013.html",
+    "_handoff/root-install-b-d-a-2026-10-22.json"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/dba36099-53ed-4976-bc62-6ede840bd247/Pasted text.txt",
+  "source_blocks_per_language": 236,
+  "sections_per_language": 13,
+  "subheadings_per_language": 19,
+  "morphology_cards_per_language": 9,
+  "quranic_occurrences": 15,
+  "quranic_verses": 14,
+  "quranic_surahs": 11,
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/029.html",
+      "verse": "7:29",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 15,
+          "word": "بَدَأَكُم",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/013.html",
+      "verse": "9:13",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 10,
+          "word": "بَدَءوكُم",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/010-yunus/units/004.html",
+      "verse": "10:4",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "يَبدَؤُا۟",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/010-yunus/units/034.html",
+      "verse": "10:34",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "يَبدَؤُا۟",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        },
+        {
+          "position": 12,
+          "word": "يَبدَؤُا۟",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/076.html",
+      "verse": "12:76",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 1,
+          "word": "فَبَدَأَ",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/021-al-anbiya/units/104.html",
+      "verse": "21:104",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "بَدَأنا",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/027-an-naml/units/064.html",
+      "verse": "27:64",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "يَبدَؤُا۟",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/019.html",
+      "verse": "29:19",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "يُبدِئُ",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/020.html",
+      "verse": "29:20",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "بَدَأَ",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/030-ar-rum/units/011.html",
+      "verse": "30:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "يَبدَؤُا۟",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/030-ar-rum/units/027.html",
+      "verse": "30:27",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "يَبدَؤُا۟",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/032-as-sajdah/units/007.html",
+      "verse": "32:7",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "وَبَدَأَ",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/034-saba/units/049.html",
+      "verse": "34:49",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "يُبدِئُ",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/085-al-buruj/units/013.html",
+      "verse": "85:13",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "يُبدِئُ",
+          "brief": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+          "before_attributes": {
+            "data-root-meaning": "آغاز کردن و پدید آوردن از آغاز؛ مبدأ: نقطه یا پایهٔ شروع.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root-meaning": "آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان؛ در سیاق آفرینش، نخستین بار پدید آوردن.",
+            "data-learn-more": "/quran-terminology/fa/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/029.html",
+      "verse": "7:29",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 15,
+          "word": "بَدَأَكُم",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/013.html",
+      "verse": "9:13",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 10,
+          "word": "بَدَءوكُم",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/010-yunus/units/004.html",
+      "verse": "10:4",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "يَبدَؤُا۟",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/010-yunus/units/034.html",
+      "verse": "10:34",
+      "boxes": 2,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "يَبدَؤُا۟",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        },
+        {
+          "position": 12,
+          "word": "يَبدَؤُا۟",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/076.html",
+      "verse": "12:76",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 1,
+          "word": "فَبَدَأَ",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/021-al-anbiya/units/104.html",
+      "verse": "21:104",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "بَدَأنا",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/027-an-naml/units/064.html",
+      "verse": "27:64",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "يَبدَؤُا۟",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/019.html",
+      "verse": "29:19",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "يُبدِئُ",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/020.html",
+      "verse": "29:20",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "بَدَأَ",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/030-ar-rum/units/011.html",
+      "verse": "30:11",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 2,
+          "word": "يَبدَؤُا۟",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/030-ar-rum/units/027.html",
+      "verse": "30:27",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "يَبدَؤُا۟",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/032-as-sajdah/units/007.html",
+      "verse": "32:7",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "وَبَدَأَ",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/034-saba/units/049.html",
+      "verse": "34:49",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 5,
+          "word": "يُبدِئُ",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/085-al-buruj/units/013.html",
+      "verse": "85:13",
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "يُبدِئُ",
+          "brief": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+          "before_attributes": {
+            "data-root-meaning": "Beginning or originating; mabdaʾ: a starting point or initial basis.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root-meaning": "Beginning, doing something initially or starting an activity or process; in creation contexts, bringing forth initially.",
+            "data-learn-more": "/quran-terminology/en/roots/b-d-a/"
+          }
+        }
+      ]
+    }
+  ],
+  "Allah_boxes": [
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/029.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/013.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/010-yunus/units/004.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/010-yunus/units/034.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/012-yusuf/units/076.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/021-al-anbiya/units/104.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/027-an-naml/units/064.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/019.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/020.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/fa/030-ar-rum/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/fa/030-ar-rum/units/027.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/032-as-sajdah/units/007.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/034-saba/units/049.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/fa/085-al-buruj/units/013.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/029.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/013.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/010-yunus/units/004.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/010-yunus/units/034.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/012-yusuf/units/076.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/021-al-anbiya/units/104.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/027-an-naml/units/064.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/019.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/020.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 2
+    },
+    {
+      "file": "quran-reflection/en/030-ar-rum/units/011.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 1
+    },
+    {
+      "file": "quran-reflection/en/030-ar-rum/units/027.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/032-as-sajdah/units/007.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/034-saba/units/049.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    },
+    {
+      "file": "quran-reflection/en/085-al-buruj/units/013.html",
+      "canonical_Allah_boxes_confirmed_unchanged": 0
+    }
+  ],
+  "persian_edits": [
+    {
+      "original_block": 3,
+      "before": "ریشه «ب د أ» در زبان عربی به آغاز کردن، نخستین بار انجام دادن و به جریان انداختن کاری از نقطه آغاز آن مربوط است. این معنا هم درباره کارهای معمول انسان به کار می‌رود و هم در قرآن برای بیان آغاز آفرینش از سوی خداوند آمده است.",
+      "after": "ریشه «ب د أ» در زبان عربی به آغاز کردن، نخستین بار انجام دادن و به جریان انداختن کاری از نقطه آغاز آن مربوط است. این معنا هم درباره کارهای معمول انسان به کار می‌رود و هم در قرآن برای بیان آغاز آفرینش از سوی آن معبود یگانه آمده است."
+    },
+    {
+      "original_block": 4,
+      "before": "هنگامی که کسی کاری را پیش از کار دیگر آغاز می‌کند، یا گروهی در برخورد با دیگران پیش‌دستی می‌کنند، فعل «بَدَأَ» می‌تواند به کار رود. همین فعل هنگامی که «الخلق» متعلق آن باشد، به آغاز کردن آفرینش اشاره می‌کند. بنابراین، خود ریشه ضرورتا به معنای آفریدن نیست؛ این معنا از همراهی آن با «خلق» و نسبت فعل به خداوند پدید می‌آید.",
+      "after": "هنگامی که کسی کاری را پیش از کار دیگر آغاز می‌کند، یا گروهی در برخورد با دیگران پیش‌دستی می‌کنند، فعل «بَدَأَ» می‌تواند به کار رود. همین فعل هنگامی که «الخلق» متعلق آن باشد، به آغاز کردن آفرینش اشاره می‌کند. بنابراین، خود ریشه ضرورتا به معنای آفریدن نیست؛ این معنا از همراهی آن با «خلق» و نسبت فعل به آن معبود یگانه پدید می‌آید."
+    },
+    {
+      "original_block": 5,
+      "before": "این ریشه در متن مبنای قرآن ۱۵ بار در ۱۴ آیه از ۱۱ سوره آمده است. دوازده کاربرد از باب ثلاثی مجرد و سه کاربرد از باب افعال هستند. صورت‌های ثبت‌شده همگی فعلی‌اند و اسم‌هایی مانند «بَدْء»، «بِدَايَة»، «بَادِئ» و «مُبْدِئ» به این صورت در متن مبنای قرآن نیامده‌اند.&#x20;",
+      "after": "این ریشه در متن مبنای قرآن ۱۵ بار در ۱۴ آیه از ۱۱ سوره آمده است. دوازده کاربرد از باب ثلاثی مجرد و سه کاربرد از باب افعال هستند. صورت‌های ثبت‌شده همگی فعلی‌اند و اسم‌هایی مانند «بَدْء»، «بِدَايَة»، «بَادِئ» و «مُبْدِئ» به این صورت در متن مبنای قرآن نیامده‌اند."
+    },
+    {
+      "original_block": 6,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://corpus.quran.com\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 7,
+      "before": "Quran Dictionary",
+      "after": null
+    },
+    {
+      "original_block": 15,
+      "before": "«الْبَاءُ وَالدَّالُ وَالْهَمْزَةُ مِنِ افْتِتَاحِ الشَّيْءِ»",
+      "after": "> «الْبَاءُ وَالدَّالُ وَالْهَمْزَةُ مِنِ افْتِتَاحِ الشَّيْءِ»"
+    },
+    {
+      "original_block": 17,
+      "before": "او سپس «بَدَأْتُ بِالْأَمْرِ» و «ابْتَدَأْتُ» را از همین خانواده معرفی می‌کند.&#x20;",
+      "after": "او سپس «بَدَأْتُ بِالْأَمْرِ» و «ابْتَدَأْتُ» را از همین خانواده معرفی می‌کند."
+    },
+    {
+      "original_block": 18,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://www.islamweb.net\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 19,
+      "before": "Islamweb",
+      "after": null
+    },
+    {
+      "original_block": 22,
+      "before": "«الْبَدْءُ: فِعْلُ الشَّيْءِ أَوَّلَ»",
+      "after": "> «الْبَدْءُ: فِعْلُ الشَّيْءِ أَوَّلَ»"
+    },
+    {
+      "original_block": 24,
+      "before": "در همان ماده، صورت‌های «بَدَأَ»، «أَبْدَأَ» و «ابْتَدَأَ» در معنای آغاز کردن ثبت شده‌اند.&#x20;",
+      "after": "در همان ماده، صورت‌های «بَدَأَ»، «أَبْدَأَ» و «ابْتَدَأَ» در معنای آغاز کردن ثبت شده‌اند."
+    },
+    {
+      "original_block": 25,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://www.islamweb.net\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 26,
+      "before": "بدأ- الجزء رقم2",
+      "after": null
+    },
+    {
+      "original_block": 33,
+      "before": "در قرآن نیز همین تفاوت دیده می‌شود. آغاز کردن بررسی بارهای برادران یوسف، آغاز کردن دشمنی از سوی یک گروه و آغاز آفرینش از سوی خداوند، همگی با صورت‌هایی از این خانواده بیان شده‌اند.",
+      "after": "در قرآن نیز همین تفاوت دیده می‌شود. آغاز کردن بررسی بارهای برادران یوسف، آغاز کردن دشمنی از سوی یک گروه و آغاز آفرینش از سوی آن معبود یگانه، همگی با صورت‌هایی از این خانواده بیان شده‌اند."
+    },
+    {
+      "original_block": 38,
+      "before": "حُسَامٍ إِذَا مَا قُمْتُ مُنْتَصِرًا بِهِ",
+      "after": "> حُسَامٍ إِذَا مَا قُمْتُ مُنْتَصِرًا بِهِ"
+    },
+    {
+      "original_block": 39,
+      "before": "كَفَى الْعَوْدَ مِنْهُ الْبَدْءُ لَيْسَ بِمِعْضَدِ",
+      "after": "> كَفَى الْعَوْدَ مِنْهُ الْبَدْءُ لَيْسَ بِمِعْضَدِ"
+    },
+    {
+      "original_block": 40,
+      "before": "ترجمه: «شمشیری برنده که چون برای گرفتن حق خود با آن برخیزم، همان ضربه نخستش مرا از ضربه دوباره بی‌نیاز می‌کند؛ شمشیری کم‌توان نیست.»",
+      "after": "ترجمه: «شمشیری برنده که چون برای گرفتن حق خود با آن برخیزم، همان ضربه نخستش مرا از ضربه دوباره بی‌نیاز می‌کند؛ شمشیرِ کندِ هیزم‌بری نیست.»"
+    },
+    {
+      "original_block": 41,
+      "before": "این بیت در دیوان طرفه و شرح‌های کهن معلّقه او، از جمله شرح زوزنی، ثبت شده است. در شرح بیت، «البدء» ضربه نخست و «العود» بازگشت به ضربه دیگر دانسته شده است.&#x20;",
+      "after": "این بیت در دیوان طرفه و شرح‌های کهن معلّقه او، از جمله شرح زوزنی، ثبت شده است. در شرح بیت، «البدء» ضربه نخست و «العود» بازگشت به ضربه دیگر دانسته شده است. «مِعضَد» در شرح‌های لغوی به شمشیرِ کم‌ارج یا کندی گفته شده که برای بریدن درخت به کار می‌رود؛ پس این بخشِ تصویر نیز در ترجمه باید دیده شود."
+    },
+    {
+      "original_block": 42,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://usul.ai\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 43,
+      "before": "أصول",
+      "after": null
+    },
+    {
+      "original_block": 44,
+      "before": "+1",
+      "after": null
+    },
+    {
+      "original_block": 52,
+      "before": "ثُنْيَانُنَا إِنْ أَتَاهُمْ كَانَ بَدْأَهُمُ",
+      "after": "> ثُنْيَانُنَا إِنْ أَتَاهُمْ كَانَ بَدْأَهُمُ"
+    },
+    {
+      "original_block": 53,
+      "before": "وَبَدْؤُهُمْ إِنْ أَتَانَا كَانَ ثُنْيَانَا",
+      "after": "> وَبَدْؤُهُمْ إِنْ أَتَانَا كَانَ ثُنْيَانَا"
+    },
+    {
+      "original_block": 55,
+      "before": "این بیت در منابع ادبی و لغوی، از جمله طبقات فحول الشعراء و لسان العرب، ثبت شده است. اوس بن مغراء شاعری مخضرم بود و تاریخ سرایش این بیت به‌طور قطعی پیش از قرآن ثابت نیست.&#x20;",
+      "after": "این بیت در منابع ادبی و لغوی، از جمله طبقات فحول الشعراء و لسان العرب، ثبت شده است. اوس بن مغراء شاعری مخضرم بود و تاریخ سرایش این بیت به‌طور قطعی پیش از قرآن ثابت نیست."
+    },
+    {
+      "original_block": 56,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://usul.ai\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 57,
+      "before": "أصول",
+      "after": null
+    },
+    {
+      "original_block": 58,
+      "before": "+1",
+      "after": null
+    },
+    {
+      "original_block": 63,
+      "before": "«بَدِيء» نیز در بعضی کاربردهای لغوی به امر شگفت یا نامعمول گفته شده است. ابن فارس برای توضیح این کاربرد پیشنهاد می‌کند که امر شگفت به سبب شگفتی‌اش پیش از امور دیگر مورد توجه قرار می‌گیرد.&#x20;",
+      "after": "«بَدِيء» نیز در بعضی کاربردهای لغوی به امر شگفت یا نامعمول گفته شده است. ابن فارس برای توضیح این کاربرد پیشنهاد می‌کند که امر شگفت به سبب شگفتی‌اش پیش از امور دیگر مورد توجه قرار می‌گیرد."
+    },
+    {
+      "original_block": 64,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://www.islamweb.net\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 65,
+      "before": "بدأ- الجزء رقم2",
+      "after": null
+    },
+    {
+      "original_block": 66,
+      "before": "+1",
+      "after": null
+    },
+    {
+      "original_block": 74,
+      "before": "أَلَا تُقَاتِلُونَ قَوْمًا نَكَثُوا أَيْمَانَهُمْ وَهَمُّوا بِإِخْرَاجِ الرَّسُولِ وَهُمْ بَدَءُوكُمْ أَوَّلَ مَرَّةٍ ۚ أَتَخْشَوْنَهُمْ ۚ فَاللَّهُ أَحَقُّ أَنْ تَخْشَوْهُ إِنْ كُنْتُمْ مُؤْمِنِينَ",
+      "after": "> أَلَا تُقَاتِلُونَ قَوْمًا نَكَثُوا أَيْمَانَهُمْ وَهَمُّوا بِإِخْرَاجِ الرَّسُولِ وَهُمْ بَدَءُوكُمْ أَوَّلَ مَرَّةٍ ۚ أَتَخْشَوْنَهُمْ ۚ فَاللَّهُ أَحَقُّ أَنْ تَخْشَوْهُ إِنْ كُنْتُمْ مُؤْمِنِينَ"
+    },
+    {
+      "original_block": 75,
+      "before": "ترجمه: «آیا با مردمی نمی‌جنگید که پیمان‌های خود را شکستند و قصد بیرون راندن پیامبر را کردند و آنان بودند که نخستین بار علیه شما آغاز کردند؟ آیا از آنان می‌ترسید؟ پس آن معبود یگانه سزاوارتر است که از او پروا کنید، اگر مؤمن هستید.»",
+      "after": "ترجمه: «آیا با مردمی نمی‌جنگید که پیمان‌های خود را شکستند و قصد بیرون راندن فرستاده را کردند و آنان بودند که نخستین بار علیه شما آغاز کردند؟ آیا از آنان می‌ترسید؟ پس آن معبود یگانه سزاوارتر است که از او پروا کنید، اگر مؤمن هستید.»"
+    },
+    {
+      "original_block": 78,
+      "before": "خود «بدأ» به معنای جنگیدن نیست. آغاز کردن دشمنی یا تعرض، از سیاق آیه فهمیده می‌شود. پیش از این عبارت، قرآن از پیمان‌شکنی و قصد بیرون راندن پیامبر سخن می‌گوید. در ادامه نیز پرسش درباره جنگیدن با همان گروه مطرح است.",
+      "after": "خود «بدأ» به معنای جنگیدن نیست. آغاز کردن دشمنی یا تعرض، از سیاق آیه فهمیده می‌شود. پیش از این عبارت، قرآن از پیمان‌شکنی و قصد بیرون راندن فرستاده سخن می‌گوید. در ادامه نیز پرسش درباره جنگیدن با همان گروه مطرح است."
+    },
+    {
+      "original_block": 83,
+      "before": "ارزش مثبت یا منفی آغاز کردن، از خود ریشه به دست نمی‌آید. آغاز یک کار عادلانه می‌تواند ستوده باشد، و آغاز تعرض به دیگری می‌تواند نکوهیده باشد. ارزش عمل از نوع آن و شرایطش روشن می‌شود.&#x20;",
+      "after": "ارزش مثبت یا منفی آغاز کردن، از خود ریشه به دست نمی‌آید. آغاز یک کار عادلانه می‌تواند ستوده باشد، و آغاز تعرض به دیگری می‌تواند نکوهیده باشد. ارزش عمل از نوع آن و شرایطش روشن می‌شود."
+    },
+    {
+      "original_block": 84,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://quran.com\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 85,
+      "before": "Quran.com",
+      "after": null
+    },
+    {
+      "original_block": 88,
+      "before": "فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَاءِ أَخِيهِ ثُمَّ اسْتَخْرَجَهَا مِنْ وِعَاءِ أَخِيهِ ۚ كَذَٰلِكَ كِدْنَا لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِي دِينِ الْمَلِكِ إِلَّا أَنْ يَشَاءَ اللَّهُ ۚ نَرْفَعُ دَرَجَاتٍ مَنْ نَشَاءُ ۗ وَفَوْقَ كُلِّ ذِي عِلْمٍ عَلِيمٌ",
+      "after": "> فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَاءِ أَخِيهِ ثُمَّ اسْتَخْرَجَهَا مِنْ وِعَاءِ أَخِيهِ ۚ كَذَٰلِكَ كِدْنَا لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِي دِينِ الْمَلِكِ إِلَّا أَنْ يَشَاءَ اللَّهُ ۚ نَرْفَعُ دَرَجَاتٍ مَنْ نَشَاءُ ۗ وَفَوْقَ كُلِّ ذِي عِلْمٍ عَلِيمٌ"
+    },
+    {
+      "original_block": 96,
+      "before": "این تفاوت برای آیات آفرینش نیز سودمند است: آغاز، همواره نسبت به کاری یا مجموعه‌ای مشخص معنا پیدا می‌کند. بنابراین، باید دید در هر آیه دقیقا چه چیزی آغاز می‌شود.&#x20;",
+      "after": "این تفاوت برای آیات آفرینش نیز سودمند است: آغاز، همواره نسبت به کاری یا مجموعه‌ای مشخص معنا پیدا می‌کند. بنابراین، باید دید در هر آیه دقیقا چه چیزی آغاز می‌شود."
+    },
+    {
+      "original_block": 97,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://quran.com\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 98,
+      "before": "Quran.com",
+      "after": null
+    },
+    {
+      "original_block": 103,
+      "before": "إِلَيْهِ مَرْجِعُكُمْ جَمِيعًا ۖ وَعْدَ اللَّهِ حَقًّا ۚ إِنَّهُ يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ لِيَجْزِيَ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ بِالْقِسْطِ ۚ وَالَّذِينَ كَفَرُوا لَهُمْ شَرَابٌ مِنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌ بِمَا كَانُوا يَكْفُرُونَ",
+      "after": "> إِلَيْهِ مَرْجِعُكُمْ جَمِيعًا ۖ وَعْدَ اللَّهِ حَقًّا ۚ إِنَّهُ يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ لِيَجْزِيَ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ بِالْقِسْطِ ۚ وَالَّذِينَ كَفَرُوا لَهُمْ شَرَابٌ مِنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌ بِمَا كَانُوا يَكْفُرُونَ"
+    },
+    {
+      "original_block": 112,
+      "before": "قُلْ هَلْ مِنْ شُرَكَائِكُمْ مَنْ يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ ۚ قُلِ اللَّهُ يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "after": "> قُلْ هَلْ مِنْ شُرَكَائِكُمْ مَنْ يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ ۚ قُلِ اللَّهُ يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ ۖ فَأَنَّىٰ تُؤْفَكُونَ"
+    },
+    {
+      "original_block": 114,
+      "before": "در این آیه، ریشه «ب د أ» دو بار آمده است. نخست در پرسش درباره شریکان، و سپس در پاسخ که آغاز و بازگرداندن آفرینش را به خداوند نسبت می‌دهد.",
+      "after": "در این آیه، ریشه «ب د أ» دو بار آمده است. نخست در پرسش درباره شریکان، و سپس در پاسخ که آغاز و بازگرداندن آفرینش را به آن معبود یگانه نسبت می‌دهد."
+    },
+    {
+      "original_block": 115,
+      "before": "از نظر لغوی، «يَبْدَأُ» در هر دو مورد یک معنا دارد. تفاوت در فاعل مورد ادعاست: آیا شریکانی که مردم برای خدا قرار داده‌اند چنین توانی دارند، یا این کار متعلق به خداوند است؟",
+      "after": "از نظر لغوی، «يَبْدَأُ» در هر دو مورد یک معنا دارد. تفاوت در فاعل مورد ادعاست: آیا شریکانی که مردم برای آن معبود یگانه قرار داده‌اند چنین توانی دارند، یا این کار متعلق به آن معبود یگانه است؟"
+    },
+    {
+      "original_block": 117,
+      "before": "پس بحث توحیدی آیه از معنای مستقل «بدأ» فراتر می‌رود. ریشه، آغاز کردن را بیان می‌کند و آیه از همین معنا در استدلالی درباره آفرینندگی بهره می‌گیرد.&#x20;",
+      "after": "پس بحث توحیدی آیه از معنای مستقل «بدأ» فراتر می‌رود. ریشه، آغاز کردن را بیان می‌کند و آیه از همین معنا در استدلالی درباره آفرینندگی بهره می‌گیرد."
+    },
+    {
+      "original_block": 118,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://quran.com\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 119,
+      "before": "Quran.com",
+      "after": null
+    },
+    {
+      "original_block": 121,
+      "before": "بنابراین، در این آیات، آغاز آفرینش در کنار توان بازگرداندن آن، از نشانه‌های قدرت خداوند و بی‌پایگی ادعای شریکان معرفی می‌شود.",
+      "after": "بنابراین، در این آیات، آغاز آفرینش در کنار توان بازگرداندن آن، از نشانه‌های قدرت آن معبود یگانه و بی‌پایگی ادعای شریکان معرفی می‌شود. در روم ۳۰:۱۱ نیز آغاز آفرینش، بازگرداندن آن و بازگشت مخاطبان به سوی او کنار هم آمده‌اند."
+    },
+    {
+      "original_block": 124,
+      "before": "قُلْ سِيرُوا فِي الْأَرْضِ فَانْظُرُوا كَيْفَ بَدَأَ الْخَلْقَ ۚ ثُمَّ اللَّهُ يُنْشِئُ النَّشْأَةَ الْآخِرَةَ ۚ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+      "after": "> قُلْ سِيرُوا فِي الْأَرْضِ فَانْظُرُوا كَيْفَ بَدَأَ الْخَلْقَ ۚ ثُمَّ اللَّهُ يُنْشِئُ النَّشْأَةَ الْآخِرَةَ ۚ إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ"
+    },
+    {
+      "original_block": 133,
+      "before": "این کاربرد بسیار مهم است؛ زیرا نشان می‌دهد که در همین مضمون، قرآن هم از «يَبْدَأُ» و هم از «يُبْدِئُ» استفاده کرده است. پس ادعای تفاوت قطعی میان این دو باب، مثلا اینکه اولی فقط آغاز زمان‌مند و دومی فقط آفرینش از نیستی باشد، پشتوانه کافی ندارد.&#x20;",
+      "after": "این کاربرد بسیار مهم است؛ زیرا نشان می‌دهد که در همین مضمون، قرآن هم از «يَبْدَأُ» و هم از «يُبْدِئُ» استفاده کرده است. پس ادعای تفاوت قطعی میان این دو باب، مثلا اینکه اولی فقط آغاز زمان‌مند و دومی فقط آفرینش از نیستی باشد، پشتوانه کافی ندارد."
+    },
+    {
+      "original_block": 134,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://quran.com\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 135,
+      "before": "Quran.com",
+      "after": null
+    },
+    {
+      "original_block": 136,
+      "before": "+1",
+      "after": null
+    },
+    {
+      "original_block": 139,
+      "before": "وَهُوَ الَّذِي يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ وَهُوَ أَهْوَنُ عَلَيْهِ ۚ وَلَهُ الْمَثَلُ الْأَعْلَىٰ فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ وَهُوَ الْعَزِيزُ الْحَكِيمُ",
+      "after": "> وَهُوَ الَّذِي يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ وَهُوَ أَهْوَنُ عَلَيْهِ ۚ وَلَهُ الْمَثَلُ الْأَعْلَىٰ فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ وَهُوَ الْعَزِيزُ الْحَكِيمُ"
+    },
+    {
+      "original_block": 144,
+      "before": "در برابر، برخی مفسران تاکید کرده‌اند که نباید از این تعبیر نتیجه گرفت خداوند برای آغاز آفرینش به کوشش بیشتری نیاز دارد و برای بازگرداندن آن به کوشش کمتری.",
+      "after": "در برابر، برخی مفسران تاکید کرده‌اند که نباید از این تعبیر نتیجه گرفت آن معبود یگانه برای آغاز آفرینش به کوشش بیشتری نیاز دارد و برای بازگرداندن آن به کوشش کمتری."
+    },
+    {
+      "original_block": 146,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://quran.ksu.edu.sa\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 147,
+      "before": "الآية 27",
+      "after": null
+    },
+    {
+      "original_block": 152,
+      "before": "الَّذِي أَحْسَنَ كُلَّ شَيْءٍ خَلَقَهُ وَبَدَأَ خَلْقَ الْإِنْسَانِ مِنْ طِينٍ",
+      "after": "> الَّذِي أَحْسَنَ كُلَّ شَيْءٍ خَلَقَهُ وَبَدَأَ خَلْقَ الْإِنْسَانِ مِنْ طِينٍ"
+    },
+    {
+      "original_block": 162,
+      "before": "يَوْمَ نَطْوِي السَّمَاءَ كَطَيِّ السِّجِلِّ لِلْكُتُبِ ۚ كَمَا بَدَأْنَا أَوَّلَ خَلْقٍ نُعِيدُهُ ۚ وَعْدًا عَلَيْنَا ۚ إِنَّا كُنَّا فَاعِلِينَ",
+      "after": "> يَوْمَ نَطْوِي السَّمَاءَ كَطَيِّ السِّجِلِّ لِلْكُتُبِ ۚ كَمَا بَدَأْنَا أَوَّلَ خَلْقٍ نُعِيدُهُ ۚ وَعْدًا عَلَيْنَا ۚ إِنَّا كُنَّا فَاعِلِينَ"
+    },
+    {
+      "original_block": 170,
+      "before": "توصیف درپیچیدن آسمان نیز باید در جای خود بررسی شود. این تصویر از فعل «نَطْوِي» و تشبیه «كَطَيِّ السِّجِلِّ لِلْكُتُبِ» پدید آمده و جزء معنای «بدأ» نیست.&#x20;",
+      "after": "توصیف درپیچیدن آسمان نیز باید در جای خود بررسی شود. این تصویر از فعل «نَطْوِي» و تشبیه «كَطَيِّ السِّجِلِّ لِلْكُتُبِ» پدید آمده و جزء معنای «بدأ» نیست."
+    },
+    {
+      "original_block": 171,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://quran.com\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 172,
+      "before": "Quran.com",
+      "after": null
+    },
+    {
+      "original_block": 175,
+      "before": "«كَمَا بَدَأَكُمْ تَعُودُونَ»",
+      "after": "> «كَمَا بَدَأَكُمْ تَعُودُونَ»"
+    },
+    {
+      "original_block": 177,
+      "before": "این عبارت در آیه‌ای قرار دارد که از عدالت، عبادت و خالص ساختن دین برای خداوند سخن می‌گوید.",
+      "after": "این عبارت در آیه‌ای قرار دارد که از عدالت، عبادت و خالص ساختن دین برای آن معبود یگانه سخن می‌گوید."
+    },
+    {
+      "original_block": 182,
+      "before": "إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ",
+      "after": "> إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ"
+    },
+    {
+      "original_block": 187,
+      "before": "در فرهنگ‌های لغوی و نوشته‌های کلامی، «الْمُبْدِئ» از اوصاف خداوند شمرده شده است؛ یعنی آن‌که آفرینش را آغاز می‌کند. «الْمُعِيد» نیز درباره بازگرداندن آفرینش به کار رفته است.&#x20;",
+      "after": "در فرهنگ‌های لغوی و نوشته‌های کلامی، «الْمُبْدِئ» از اوصاف آن معبود یگانه شمرده شده است؛ یعنی آن‌که آفرینش را آغاز می‌کند. «الْمُعِيد» نیز درباره بازگرداندن آفرینش به کار رفته است."
+    },
+    {
+      "original_block": 188,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://www.islamweb.net\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 189,
+      "before": "بدأ- الجزء رقم2",
+      "after": null
+    },
+    {
+      "original_block": 190,
+      "before": "اما یک تفاوت مهم وجود دارد: در قرآن، صورت «يُبْدِئُ» درباره خداوند آمده، ولی صورت اسمی «الْمُبْدِئ» در متن قرآن نیامده است.",
+      "after": "اما یک تفاوت مهم وجود دارد: در قرآن، صورت «يُبْدِئُ» درباره آن معبود یگانه آمده، ولی صورت اسمی «الْمُبْدِئ» در متن قرآن نیامده است."
+    },
+    {
+      "original_block": 192,
+      "before": "از خود فعل، وصف آغازکنندگی خداوند روشن است؛ اما تبدیل آن به نامی ثابت در یک فهرست خاص، موضوعی جداگانه است.",
+      "after": "از خود فعل، وصف آغازکنندگی آن معبود یگانه روشن است؛ اما تبدیل آن به نامی ثابت در یک فهرست خاص، موضوعی جداگانه است."
+    },
+    {
+      "original_block": 196,
+      "before": "قُلْ جَاءَ الْحَقُّ وَمَا يُبْدِئُ الْبَاطِلُ وَمَا يُعِيدُ",
+      "after": "> قُلْ جَاءَ الْحَقُّ وَمَا يُبْدِئُ الْبَاطِلُ وَمَا يُعِيدُ"
+    },
+    {
+      "original_block": 199,
+      "before": "در اینجا «الْبَاطِلُ» فاعل «يُبْدِئُ» است؛ درحالی‌که در آیات پیشین، آغاز و بازگرداندن به خداوند نسبت داده می‌شد.",
+      "after": "در اینجا «الْبَاطِلُ» فاعل «يُبْدِئُ» است؛ درحالی‌که در آیات پیشین، آغاز و بازگرداندن به آن معبود یگانه نسبت داده می‌شد."
+    },
+    {
+      "original_block": 202,
+      "before": "در برابر، توضیح دیگری نیز در منابع تفسیری دیده می‌شود: با آمدن حق، باطل دیگر کاری از پیش نمی‌برد، چیزی برای آغاز کردن ندارد و نمی‌تواند اثر پیشین خود را بازگرداند. در این خوانش، تعبیر به بی‌اثری و شکست باطل اشاره دارد.&#x20;",
+      "after": "در برابر، توضیح دیگری نیز در منابع تفسیری دیده می‌شود: با آمدن حق، باطل دیگر کاری از پیش نمی‌برد، چیزی برای آغاز کردن ندارد و نمی‌تواند اثر پیشین خود را بازگرداند. در این خوانش، تعبیر به بی‌اثری و شکست باطل اشاره دارد."
+    },
+    {
+      "original_block": 203,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://quran.com\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 204,
+      "before": "Quran.com",
+      "after": null
+    },
+    {
+      "original_block": 205,
+      "before": "+2",
+      "after": null
+    },
+    {
+      "original_block": 218,
+      "before": "ابن فارس در مقاییس اللغة این دو خانواده را جداگانه بررسی می‌کند: برای «ب د أ» آغاز کردن و برای «ب د و» ظهور و آشکار شدن را محور قرار می‌دهد.&#x20;",
+      "after": "ابن فارس در مقاییس اللغة این دو خانواده را جداگانه بررسی می‌کند: برای «ب د أ» آغاز کردن و برای «ب د و» ظهور و آشکار شدن را محور قرار می‌دهد."
+    },
+    {
+      "original_block": 219,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://www.islamweb.net\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 220,
+      "before": "Islamweb",
+      "after": null
+    },
+    {
+      "original_block": 221,
+      "before": "+1",
+      "after": null
+    },
+    {
+      "original_block": 225,
+      "before": "در قرائت «بَادِئَ الرَّأْيِ»، همزه حفظ شده و واژه به ریشه «ب د أ» بازمی‌گردد؛ در این خوانش، معنای «در آغاز نظر» یا «در نخستین برداشت» برجسته می‌شود.",
+      "after": "در قرائت «بَادِئَ الرَّأْيِ»، همزه حفظ شده و واژه به ریشه «ب د أ» بازمی‌گردد؛ در این خوانش، معنای «در آغاز نظر» یا «در نخستین برداشت» برجسته می‌شود. این صورتِ همزه‌دار در میان قرائت‌های هفت‌گانه به ابوعمرو نسبت داده شده است؛ صورتِ بی‌همزه در متن مبنای این شمارش آمده است."
+    },
+    {
+      "original_block": 226,
+      "before": "طبری این اختلاف را گزارش کرده و میان آشکار بودن رأی و آغاز نظر تفاوت گذاشته است.&#x20;",
+      "after": "طبری این اختلاف را گزارش کرده و میان آشکار بودن رأی و آغاز نظر تفاوت گذاشته است."
+    },
+    {
+      "original_block": 227,
+      "before": "[image](https://www.google.com/s2/favicons?domain=https://quran.ksu.edu.sa\\&sz=32)",
+      "after": null
+    },
+    {
+      "original_block": 228,
+      "before": "الآية 27",
+      "after": null
+    },
+    {
+      "original_block": 229,
+      "before": "+1",
+      "after": null
+    },
+    {
+      "original_block": 236,
+      "before": "در بقره ۲:۱۱۷ و انعام ۶:۱۰۱، «بَدِيعُ السَّمَاوَاتِ وَالْأَرْضِ» درباره خداوند آمده است.",
+      "after": "در بقره ۲:۱۱۷ و انعام ۶:۱۰۱، «بَدِيعُ السَّمَاوَاتِ وَالْأَرْضِ» درباره آن معبود یگانه آمده است."
+    },
+    {
+      "original_block": 270,
+      "before": "در آیات آفرینش، همراهی این ریشه با «خلق» و تقابل آن با «أعاد»، معنای آغاز و بازگرداندن آفرینش را پدید می‌آورد. قرآن از این رابطه برای بیان قدرت خداوند، امکان رستاخیز و پاسخ به ادعای شریکان بهره می‌گیرد.",
+      "after": "در آیات آفرینش، همراهی این ریشه با «خلق» و تقابل آن با «أعاد»، معنای آغاز و بازگرداندن آفرینش را پدید می‌آورد. قرآن از این رابطه برای بیان قدرت آن معبود یگانه، امکان رستاخیز و پاسخ به ادعای شریکان بهره می‌گیرد."
+    },
+    {
+      "original_block": 274,
+      "before": "«ب د أ» در عربی به آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان مربوط است. در قرآن، این ریشه هم درباره آغاز رفتار انسان و هم درباره آغاز آفرینش از سوی خداوند به کار رفته است. در آیات آفرینش، غالبا در برابر «أعاد» قرار می‌گیرد و رابطه آغاز نخستین با بازگرداندن را بیان می‌کند. معنای آفریدن، رستاخیز و داوری الهی از موضوع فعل و سیاق آیات روشن می‌شود؛ نه از اینکه خود ریشه در همه کاربردها به معنای آفرینش از نیستی باشد.",
+      "after": "«ب د أ» در عربی به آغاز کردن، نخستین بار انجام دادن و شروع یک کار یا جریان مربوط است. در قرآن، این ریشه هم درباره آغاز رفتار انسان و هم درباره آغاز آفرینش از سوی آن معبود یگانه به کار رفته است. در آیات آفرینش، غالبا در برابر «أعاد» قرار می‌گیرد و رابطه آغاز نخستین با بازگرداندن را بیان می‌کند. معنای آفریدن، رستاخیز و داوری الهی از موضوع فعل و سیاق آیات روشن می‌شود؛ نه از اینکه خود ریشه در همه کاربردها به معنای آفرینش از نیستی باشد."
+    },
+    {
+      "original_block": 275,
+      "before": "این متن پیش‌نویس نخست فارسی پژوهش ریشه «ب د أ» است. تمام ۱۵ کاربرد در متن مبنای قرآن، شاهد شعر جاهلی، موارد لغوی و اختلاف قرائت مرتبط بررسی شدند. مرحله داوری همتایانه، بازنویسی نهایی، ترجمه انگلیسی و نصب در سایت انجام نشده است.",
+      "after": null
+    },
+    {
+      "original_block": 145,
+      "before": "طبری هر دو جهت را در بررسی آیه گزارش کرده است.&#x20;",
+      "after": "طبری هر دو جهت را در بررسی آیه گزارش کرده است؛ از جمله تفسیرِ «أهون» به «هیّن» و آسان بودنِ هر دو آفرینش، در کنار خوانشِ مقایسه‌ایِ آسان‌تر بودنِ بازگرداندن."
+    },
+    {
+      "original_block": 224,
+      "before": "در قرائت «بَادِيَ الرَّأْيِ»، صورت «بادي» با ریشه «ب د و» مرتبط است و معنای ظاهری یا آنچه در نگاه نخست آشکار می‌شود مطرح است.",
+      "after": "در قرائت «بَادِيَ الرَّأْيِ»، یکی از تحلیل‌ها پیوند «بادي» با ریشه «ب د و» و معنای ظاهر بودن رأی است. برخی نحویان همین صورتِ بی‌همزه را حاصلِ تخفیفِ صورتِ همزه‌دار نیز دانسته‌اند؛ بنابراین، نبودن همزه به‌تنهایی تعیین‌کنندهٔ قطعی ریشه نیست. در رده‌بندیِ متن مبنای این پژوهش، صورتِ بی‌همزه ذیل «ب د و» آمده است."
+    }
+  ],
+  "additional_root_summary_completions": [
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/013.html",
+      "position": 3,
+      "word": "قَومًا",
+      "before": "برخاستن، ایستادن، برپا شدن، برپا داشتن، استوار شدن، قوام یافتن، نگه داشتن چیزی بر بنیاد درست، و فعال ساختن آن در زندگی",
+      "after": "برخاستن، ایستادن، برپا شدن، برپا داشتن، استوار شدن، قوام یافتن، نگه داشتن چیزی بر بنیاد درست، و فعال ساختن آن در زندگی؛ نیز قوم: مردم یا جامعه‌ای با پیوند مشترک.",
+      "source": "quran-terminology/fa/roots/q-w-m/index.html: established qawm branch"
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/020.html",
+      "position": 18,
+      "word": "شَىءٍ",
+      "before": "خواستن، مشیت داشتن، اراده کردن؛ و در کاربرد قرآنی، قرار گرفتن یک امر در میدان خواست، امکان و تحقق، به‌ویژه در نسبت با آن معبود یگانه",
+      "after": "خواستن، مشیت داشتن، اراده کردن؛ و در کاربرد قرآنی، قرار گرفتن یک امر در میدان خواست، امکان و تحقق، به‌ویژه در نسبت با آن معبود یگانه؛ نیز شَیء: چیز یا امر؛ جمع آن اشیاء است.",
+      "source": "quran-terminology/fa/roots/sh-y-a/index.html: shay/thing distinguished from shaa/will"
+    },
+    {
+      "file": "quran-reflection/fa/030-ar-rum/units/027.html",
+      "position": 11,
+      "word": "المَثَلُ",
+      "before": "مانند بودن، نمونه آوردن، پدیدار ساختن معنا، و نزدیک کردن حقیقت به فهم انسان",
+      "after": "مانند بودن، نمونه آوردن، پدیدار ساختن معنا، و نزدیک کردن حقیقت به فهم انسان؛ مَثَل: نمونه، تصویر یا وصف برجسته‌ای که معنایی را نشان می‌دهد.",
+      "source": "quran-terminology/fa/roots/m-th-l/index.html: established mathal description branch"
+    },
+    {
+      "file": "quran-reflection/fa/032-as-sajdah/units/007.html",
+      "position": 4,
+      "word": "شَىءٍ",
+      "before": "خواستن، مشیت داشتن، اراده کردن؛ و در کاربرد قرآنی، قرار گرفتن یک امر در میدان خواست، امکان و تحقق، به‌ویژه در نسبت با آن معبود یگانه",
+      "after": "خواستن، مشیت داشتن، اراده کردن؛ و در کاربرد قرآنی، قرار گرفتن یک امر در میدان خواست، امکان و تحقق، به‌ویژه در نسبت با آن معبود یگانه؛ نیز شَیء: چیز یا امر؛ جمع آن اشیاء است.",
+      "source": "quran-terminology/fa/roots/sh-y-a/index.html: shay/thing distinguished from shaa/will"
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/013.html",
+      "position": 3,
+      "word": "قَومًا",
+      "before": "Rising, standing, establishing, becoming upright, gaining structure, sustaining a thing upon a sound foundation, and making it active in life.",
+      "after": "Rising, standing, establishing, becoming upright, gaining structure, sustaining a thing upon a sound foundation, and making it active in life; also qawm: a people or community sharing a connection.",
+      "source": "quran-terminology/en/roots/q-w-m/index.html: established qawm branch"
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/020.html",
+      "position": 18,
+      "word": "شَىءٍ",
+      "before": "To will, want, or have volition; and in Qur’anic usage, for a matter to enter the field of will, possibility, and realization, especially in relation to The God",
+      "after": "To will, want, or have volition; and in Qur’anic usage, for a matter to enter the field of will, possibility, and realization, especially in relation to The God; also shayʾ: a thing or matter, plural ashyāʾ.",
+      "source": "quran-terminology/en/roots/sh-y-a/index.html: shay/thing distinguished from shaa/will"
+    },
+    {
+      "file": "quran-reflection/en/030-ar-rum/units/027.html",
+      "position": 11,
+      "word": "المَثَلُ",
+      "before": "Likeness, example, manifestation, and bringing meaning near to human understanding through a visible form",
+      "after": "Likeness, example, manifestation, and bringing meaning near to human understanding through a visible form; mathal: an example, image or prominent description expressing a meaning.",
+      "source": "quran-terminology/en/roots/m-th-l/index.html: established mathal description branch"
+    },
+    {
+      "file": "quran-reflection/en/032-as-sajdah/units/007.html",
+      "position": 4,
+      "word": "شَىءٍ",
+      "before": "To will, want, or have volition; and in Qur’anic usage, for a matter to enter the field of will, possibility, and realization, especially in relation to The God",
+      "after": "To will, want, or have volition; and in Qur’anic usage, for a matter to enter the field of will, possibility, and realization, especially in relation to The God; also shayʾ: a thing or matter, plural ashyāʾ.",
+      "source": "quran-terminology/en/roots/sh-y-a/index.html: shay/thing distinguished from shaa/will"
+    }
+  ],
+  "missing_study_links_added": [],
+  "corrections": [
+    "Confirmed fifteen exact corpus positions in fourteen verses and eleven surahs: twelve form I verbs and three form IV verbs. The hamzated badi al-ray reading is discussed separately, attributed to Abu Amr among the seven readers, and is not inserted into the selected-text count or verse boxes.",
+    "Refined Tarafahs miʿdad image: an inferior or blunt woodcutting sword, preserving the first-stroke/second-stroke distinction. Preserved both full poems and qualified the date of Aws ibn Maghraas individual poem.",
+    "Corrected the supplied 9:13 translation and explanation to distinguish Messenger/rasul from Prophet, following approved terminology. Existing installed verse translations are preserved.",
+    "Added the previously unmentioned 30:11 parallel so that every verse represented in the fifteen-occurrence count is addressed in the article.",
+    "Preserved overlapping form I/form IV meanings, beginning versus appearing/BDW, explicit versus unstated objects, and the distinction between root meaning and creation, resurrection or theological interpretations.",
+    "Preserved every substantive source block and seventeen Arabic quotation blocks exactly: two lexical citations, four poetic hemistichs, ten full verses and one verse fragment. Removed citation interface debris and obsolete draft closing. Complete English conceptual mirror provided.",
+    "Updated thirty own root boxes and missing lexical contexts in the fourteen bilingual verse units. All verse Arabic, installed translations, prior contexts, canonical Allah metadata, protected chapters and unrelated work preserved.",
+    "Qualified the unhamzated badi form: primary grammarians allow both a BDW appearance analysis and easing from the hamzated form; selected-text corpus assignment remains BDW. Clarified Tabaris explicit non-comparative hayyin/easy explanation alongside the comparative ahwan account.",
+    "Supplemented eight scoped bilingual general summaries from installed same-language studies: QWM people/community, SHY thing/matter, and MTHL description/example. No unrelated root studies were edited."
+  ],
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=bdA",
+      "use": "Primary dictionary and cached morphology: all fifteen positions, twelve form I and three form IV verbs."
+    },
+    {
+      "url": "https://arabiclexicon.hawramani.com/بدأ/",
+      "use": "Primary Maqayis and Lisan transcriptions: both exact lexical quotations, priority, recorded senses and first versus return."
+    },
+    {
+      "url": "https://www.arabic-keyboard.info/books/ar/read-book/شرح-القصائد-السبع-الطوال-الجاهليات",
+      "use": "Primary Ibn al-Anbari commentary: Tarafah first-stroke and return image; miʿdad as an inferior or blunt woodcutting sword."
+    },
+    {
+      "url": "https://usul.ai/t/tabaqat-fuhul-shucara/78",
+      "use": "Indexed primary Tabaqat: Aws ibn Maghraa couplet, second versus first social rank."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura11-aya27.html",
+      "use": "Primary Tabari: readings with and without hamzah and corresponding first/immediate versus apparent judgment."
+    },
+    {
+      "url": "https://tafsir.app/aldur-almasoon/11/27",
+      "use": "Indexed primary Durr al-Masun: Abu Amr among the seven readers has the hamzated reading; others read without hamzah."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura30-aya27.html",
+      "use": "Primary Tabari: reported explanations of easier comparison kept distinct from BDA root meaning."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura34-aya49.html",
+      "use": "Primary Tabari: creative incapacity, Iblis reports and defeat of falsehood."
+    },
+    {
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura34-aya49.html",
+      "use": "Primary Qurtubi: figurative inability of falsehood to act, alongside creation interpretation."
+    }
+  ],
+  "original_sha256": {
+    "quran-terminology/fa/roots/b-d-a/index.html": null,
+    "quran-terminology/en/roots/b-d-a/index.html": null,
+    "_data/quran-root-studies.json": "7604418ac47e05cff5697e6393dc1cff56fe8ce8ac8b9340ec98911607523491",
+    "quran-reflection/fa/007-al-araf/units/029.html": "e5a9ddf8071cb43c2b0f6a5430cd2d8f24d73387d97341c9b98e84826c26dc69",
+    "quran-reflection/fa/009-at-tawbah/units/013.html": "8a8b1dc03feec84b889f3e13b1287719478f6d4d3f508cba47fbba1d612af26e",
+    "quran-reflection/fa/010-yunus/units/004.html": "a798200a3d004fe12a68862c7025c8244c75af62993df6a65a7c514814663cb7",
+    "quran-reflection/fa/010-yunus/units/034.html": "046ae5372ab53b96626f10c8d1a0327cb89e5aa3f4c20efaca010b94e0da791e",
+    "quran-reflection/fa/012-yusuf/units/076.html": "c41dda9d10a56b9c37ccc327e65f6f0c56387ec457f191ab65bb323b92acaa4f",
+    "quran-reflection/fa/021-al-anbiya/units/104.html": "ed13192fbfc25f592341af62b5a3696fc6657560c62b2eaa6ba7a938f9f90cdc",
+    "quran-reflection/fa/027-an-naml/units/064.html": "54de5807ad95249d28425a397da43b3f4ba3d21c9e3dabf1e8eb440e127d6845",
+    "quran-reflection/fa/029-al-ankabut/units/019.html": "d12be70d6912532982574dc39d5c3dbb5c7eba487a96c5e30de59da5bb2568c6",
+    "quran-reflection/fa/029-al-ankabut/units/020.html": "bc75ea008bfe101c7e140e28deae20f166faea2c6c9681101e19d69d4d02be0d",
+    "quran-reflection/fa/030-ar-rum/units/011.html": "5086690b2cef5305074cd463228cc4e5b2ed7cf1808c0aa7b3ceee39d867e0c4",
+    "quran-reflection/fa/030-ar-rum/units/027.html": "6b36fe9b3db6adc5e5587449017b14ef6ae0b557c5cfc83189c80d8f8c40ad0b",
+    "quran-reflection/fa/032-as-sajdah/units/007.html": "49e382a78d2ad76fc108c7a3f3f2a610cf5242e6a32bbaf274e30e3fd81e5963",
+    "quran-reflection/fa/034-saba/units/049.html": "ca89adced4bcedc5849109caaab3a1dbdf0d7e759221f439816fcb56ac89e1e0",
+    "quran-reflection/fa/085-al-buruj/units/013.html": "ce51add5317c0eed9595de1bf4a551d09cffc758136910e4ce383f056140efc7",
+    "quran-reflection/en/007-al-araf/units/029.html": "e165fcbe850744b0dce61d5fb725ca499a79e5b0c964583641cabdcf488a18ef",
+    "quran-reflection/en/009-at-tawbah/units/013.html": "1b52df687bf03e2a0971d72f7310c6e5e9993092f8a15629c7d278291125351e",
+    "quran-reflection/en/010-yunus/units/004.html": "3f6e472afab0d32b49985292f311b91660ca7e27de22d07dc54af3280e13c479",
+    "quran-reflection/en/010-yunus/units/034.html": "3f0c08cdb2f06676dd371a776e1600d49619b28532a52d56f593abebd22e612a",
+    "quran-reflection/en/012-yusuf/units/076.html": "5766c5c225a09207e7db7a851772c58f853904eedbe28cf7fb98f2a39a61b115",
+    "quran-reflection/en/021-al-anbiya/units/104.html": "fc7302a68bb8343067793b1895dc0de5335d97ea288986151ea1c27240f9b5fe",
+    "quran-reflection/en/027-an-naml/units/064.html": "48da3a69fcd9bae583889a731b3c39fda7e9340327ef7538f8e4f10a2713da5e",
+    "quran-reflection/en/029-al-ankabut/units/019.html": "39e2ff176e0455520f2fb502098058cda8369e3d8e129a127a99bb47665f704f",
+    "quran-reflection/en/029-al-ankabut/units/020.html": "12aa3409df18325e93764b773cb80571258701cecd32b57ee7f2db16052c4836",
+    "quran-reflection/en/030-ar-rum/units/011.html": "cc28ba93bb73af4b3afcfd479eec1fa84bc60eb83758949aa9676deb62dde747",
+    "quran-reflection/en/030-ar-rum/units/027.html": "e432212f0ec773d5bc07c5acf1f09bef9910a8c95661db1bb0a012d915e9cf98",
+    "quran-reflection/en/032-as-sajdah/units/007.html": "9a2cdd7b50823b5fb471f749b96c48780b67101beaf62be985e449d93dfc8c90",
+    "quran-reflection/en/034-saba/units/049.html": "ef65673e0f01d1f15febfae1e53b5f9f9dfaaffafe3180f42270c1276bef1d1e",
+    "quran-reflection/en/085-al-buruj/units/013.html": "eedcb7032796ecb8241aff0995af55cedb2f8f93da79c35fe7d307e375d0276c",
+    "_handoff/root-install-b-d-a-2026-10-22.json": null
+  },
+  "protected_sha256": {
+    "AGENTS.md": "290325cbb26140c9f372ca993336f92accb1704da056978311e1ff7f8a6ef533",
+    "_handoff/root-install-b-h-th-2026-10-22.json": "40374cefa0a583197bdbf9b940877040605aa117acd2cabb817c6164fda88740",
+    "_handoff/root-install-b-j-s-2026-10-22.json": "17573014b3c916632f7191a130cd79bed7183b7b1c7dd7de5252d059863a54e0",
+    "_handoff/root-install-b-kh-ayn-2026-10-22.json": "bd5fa75c2e51ce2a7ffba2c11383e9da21f9f55f34ce16a04ef1011f850ee5c5",
+    "_handoff/root-install-b-kh-l-2026-10-22.json": "43adab7fcb1609555ba29776fb33128339f9287f58c987298f7aa952cda8ec8c",
+    "_handoff/root-install-b-kh-s-2026-10-22.json": "62e498d96e2d0163e9d5f91922beda11d61d80dc307fba14b09f63d410e9cd8a",
+    "quran-reflection/en/001-al-fatihah/index.html": "18cd51b454f0337fe85241055909aceb2f3b8c6452549f9fd8deb2db58e95b15",
+    "quran-reflection/en/002-al-baqarah/index.html": "508930d1372832da50892ef78a0502ec1addf6dfb5ad7e3b6771d0e8ff44bfed",
+    "quran-reflection/en/002-al-baqarah/units/001.html": "bb0311f7a7ad6242e66ec0a0e43576e0350ffa5982bfc55d21241a67145f118c",
+    "quran-reflection/en/002-al-baqarah/units/002.html": "62d4949b4e4fc7a9013c9f747364f338daf7fcbfe8478cde0ff213887fd6efb8",
+    "quran-reflection/en/002-al-baqarah/units/003.html": "1cbcda606ed589d751746008830526f81260638dee62098d973ba227e23715f4",
+    "quran-reflection/en/002-al-baqarah/units/004.html": "25d5708edc08d0a70fb244caadcdd27fe35ea2f453875265889ee9c9f7a17c28",
+    "quran-reflection/en/002-al-baqarah/units/005.html": "d7abe4818bd99120aedf5fc7c24133ef38efbb58e1d58b23025bc7e5baf7d433",
+    "quran-reflection/en/002-al-baqarah/units/006.html": "16f40ff6f8e89ccf90d401fbd1410b57295dced20ffaa7b0382f25e015653c38",
+    "quran-reflection/en/002-al-baqarah/units/007.html": "72015f73fa918c3198bc8934a2d4546c975e3d36290180b832adc4bfb5138726",
+    "quran-reflection/en/002-al-baqarah/units/008.html": "356a963dcb8e35e975509a790dd9c4fdd001557aef421ff768f0a3d224061574",
+    "quran-reflection/en/002-al-baqarah/units/009.html": "6b4610877172c491e4957b3983cd8b20f89126ed561c0f22c2ec33c41307d967",
+    "quran-reflection/en/002-al-baqarah/units/010.html": "9fc830444683915dd3bbfe6634344f680908d86cb7f431bd6ec48868d46ba245",
+    "quran-reflection/en/002-al-baqarah/units/011.html": "c6cf5b3b7f4cae611c9c6ed417af28c3bf1c718cda98b2995a080537fd6e8a62",
+    "quran-reflection/en/002-al-baqarah/units/012.html": "ac21808753d750907d214c191df670221aebcf62b1eb23094075bcbed5226d52",
+    "quran-reflection/en/002-al-baqarah/units/013.html": "a5f3532594a421fb7abcff4b61db201f0e6891b926f3508b6cacea8f3da96226",
+    "quran-reflection/en/002-al-baqarah/units/014.html": "cbf841a46ca7337f1bb0e83d45017123577054d076b72136ed2958185996cd0a",
+    "quran-reflection/en/002-al-baqarah/units/015.html": "20d21e1f47424e8e43defef6109e3d1f3939e1870848a38d3afd198c2ac7c2fd",
+    "quran-reflection/en/002-al-baqarah/units/016.html": "9f7dd64d813ce677e7fb3b84c5a409343854dc06149e1bf5e7b0804bf0dedbd7",
+    "quran-reflection/en/002-al-baqarah/units/017.html": "cdfcf12dd4d0117c3af73ad58240217ecbe174f5000d3ba5012fb3de365389ad",
+    "quran-reflection/en/002-al-baqarah/units/018.html": "0bd718011bce569ca3bbb93ac0f5515d118b4c98deb85b83ff081b9c6e117d30",
+    "quran-reflection/en/002-al-baqarah/units/019.html": "946371b9173a8553c8765862003bf270156822b3634f359675f1a205c5de5702",
+    "quran-reflection/en/002-al-baqarah/units/020.html": "1f652f7cca9aa8906cf4579d523a444e246d4bc622001a20b2ed622056bf2424",
+    "quran-reflection/en/002-al-baqarah/units/021.html": "fc1bf7171c8eff87c8d147dbb8d7ff4c44cc7446120a45b28c9911e68e18a7f5",
+    "quran-reflection/en/002-al-baqarah/units/022.html": "fba5e994081e084d17b1f149a9b1d4aff0bbb2c2caf0c12e55c74f5c20fffa0c",
+    "quran-reflection/en/002-al-baqarah/units/023.html": "33e2e695502789789c2bf7829e902031b7a0a0fa28cd7d05fe5d6b0079f3c5ec",
+    "quran-reflection/en/002-al-baqarah/units/024.html": "2711c258c6cfe4b78ccf8900d2278320d8da211ebbe79f70f7c3a832d3ea5668",
+    "quran-reflection/en/002-al-baqarah/units/025.html": "a2550d915362ba58f5505de46ca5ac63b3cfe44b81c6fcaee3ed46725e835e56",
+    "quran-reflection/en/002-al-baqarah/units/026.html": "8ad8c12503a31af632b28e0576b66308df987090b24e2d531e5460433459567b",
+    "quran-reflection/en/002-al-baqarah/units/027.html": "d0c597c2cbe6a238112d0532836da0d6aa55580f8c5ff2c529e0ca420f441081",
+    "quran-reflection/en/002-al-baqarah/units/028.html": "1e89413769f8db07243bfa3c3c7fe454cc07d851297315ff611ff6e6555df881",
+    "quran-reflection/en/002-al-baqarah/units/029.html": "79bf61bfaf76eed3775a6f77d2caf496507fccc1b7e1e564b03772c8c7f2bd1d",
+    "quran-reflection/en/002-al-baqarah/units/030.html": "02cb03c940085c24043dd6b398f83d3486c2fa9f6ff72eba977508632a486a6f",
+    "quran-reflection/en/002-al-baqarah/units/031.html": "d351cd7bbd14cb77e0e2f93a76e5cc4488401569f97275370f869d3f1a6edbd4",
+    "quran-reflection/en/002-al-baqarah/units/032.html": "f0c50fb69de7686cdd3ce7c3b66e700c35483d35721be29367eca4ebdd522b58",
+    "quran-reflection/en/002-al-baqarah/units/033.html": "3b5f80393d118da93ed9c75363df6d6ffbe319807ffc09f70b21e227898fe7d0",
+    "quran-reflection/en/002-al-baqarah/units/034.html": "3bd4964a734887aa923042a66c2f1f832164961be20f51cceeb41801c43932c7",
+    "quran-reflection/en/002-al-baqarah/units/035.html": "2b2c3598b77275aae0b1749c5e8b85f2fbeb23783d6e41bab04045589765ca9f",
+    "quran-reflection/en/002-al-baqarah/units/036.html": "fd86d0d86f1725fabcb76274020001b0c0d39004bd9aaa07a97bd2ca5ab45c49",
+    "quran-reflection/en/002-al-baqarah/units/037.html": "de0236e1871982bd3b78784b4bdbce4da83274c1b91cf9b09446451e0a992505",
+    "quran-reflection/en/002-al-baqarah/units/038.html": "0648982ecd92010c9f83044ea78440b79a197c682930a9abbd58f79d19ce266a",
+    "quran-reflection/en/002-al-baqarah/units/039.html": "0779a57432daab549a3499ad2c1e6054b1a2790d5db9dce0ee84e85e9be4c479",
+    "quran-reflection/en/002-al-baqarah/units/040.html": "e6328c7d34ec7b95cc869cdc2743639738346f01f7825f7ca7696f964e1a3dff",
+    "quran-reflection/en/002-al-baqarah/units/041.html": "cf3a7fc464e2e3111cf26495283db0f94fbaafc4e7cd1ea0898e7fcdf3f74692",
+    "quran-reflection/en/002-al-baqarah/units/042.html": "09fc95eb176505f738b8ee8c54758a1895bf0f87c0b1ddc09a05e902d729eb12",
+    "quran-reflection/en/002-al-baqarah/units/043.html": "e2c585d59fcd5e8771d6e1ef0f94eba6c2a7a39121d333832b6a9dd6974973e4",
+    "quran-reflection/en/002-al-baqarah/units/044.html": "881d938390c61a963a12164cfb6bdf99876d2bc4d46a97e9b16d90bed33e1dfd",
+    "quran-reflection/en/002-al-baqarah/units/045.html": "e220a95a37dc095ab69ffc8369e193503892cc3bd1b20ae22d476030d602f742",
+    "quran-reflection/en/002-al-baqarah/units/046.html": "dfd94d3a3d85ac6c337574f5780b12de182acf8e87ebd1004a474f75036ff729",
+    "quran-reflection/en/002-al-baqarah/units/047.html": "7c9075e2273da0fb2c43b1db8696cc75319f97bc96e5e0658ec9a7faad84175f",
+    "quran-reflection/en/002-al-baqarah/units/048.html": "4ff8cd9cd81ac2cb0d0e9c6a8a8cc92c93a734e30e1a739417a032a948db8abc",
+    "quran-reflection/en/002-al-baqarah/units/049.html": "2ebb4deac937280c5b498834d496f1af85df6dc4292e3fa3c3028ea3f412058f",
+    "quran-reflection/en/002-al-baqarah/units/050.html": "93bfa3adfe64b1a04d822c71dd863c4638e133da8a603f1b1d90272304648206",
+    "quran-reflection/en/002-al-baqarah/units/051.html": "006b7f6e629d6b7e7e7c584f4b8c5638f6706a2309b347d5db16fa2247f9342a",
+    "quran-reflection/en/002-al-baqarah/units/052.html": "16ebc736052cd50a9af064abef88672e1dd9ce85d33c2ca435f2f1efac51db9e",
+    "quran-reflection/en/002-al-baqarah/units/053.html": "9b8487377e1c0178ab72cbb8b39317c2907566014771d5394644118dc5d6d89d",
+    "quran-reflection/en/002-al-baqarah/units/054.html": "354e0e5055b1ca6e17b63662200b38155db29e73374bd9329f1a2f4d825a3e35",
+    "quran-reflection/en/002-al-baqarah/units/055.html": "d194e233d5dcb6d622f69a54919c57588ffc13ffbf83c4338204e1a4b46338b6",
+    "quran-reflection/en/002-al-baqarah/units/056.html": "ba99d84a62286f496918fa0e652356a1f784029d1a90f1de402456e4d2dc5f57",
+    "quran-reflection/en/002-al-baqarah/units/057.html": "63629bf8030fcbc0878e4b84f927182d24763000123aa3a9730fd4d1f58d25e3",
+    "quran-reflection/en/002-al-baqarah/units/058.html": "d218fdd924128899ca3f8726475d806c79786f6fc6119d4279660a9712392f4e",
+    "quran-reflection/en/002-al-baqarah/units/059.html": "85ff0659500f7be3c02dc97f60e0e22234358237746741d5e70af4af93ec52b9",
+    "quran-reflection/en/002-al-baqarah/units/060.html": "15f5901f8269407d9e79e5810117c59a1718be7bd88580607d3e4734cba29d5f",
+    "quran-reflection/en/002-al-baqarah/units/061.html": "90753bc12e30d787a3cb828987e960f9d5e73f4c803c0371850c32a4e9cb1abe",
+    "quran-reflection/en/002-al-baqarah/units/062.html": "dff5b652fca74c5db44fa3bd855bb17124db64e6ce228749cc65bf584c12ff57",
+    "quran-reflection/en/002-al-baqarah/units/063.html": "8c3f9d3bf1881454b191a3e9e3f854eaeed0951eb9849dc60227938875e15c9a",
+    "quran-reflection/en/002-al-baqarah/units/064.html": "20813493b98c059fb3d0f905cec58993de52c5137a5e40a0140facebc4ac7533",
+    "quran-reflection/en/002-al-baqarah/units/065.html": "dc09aebeb4de48ead20462691ec25d288bfa08611277693ba507a305b65d8c20",
+    "quran-reflection/en/002-al-baqarah/units/066.html": "4dd8fccca4c783fc5534b7fc5ff927502bee471aa77c4dce033f2f7cb5c0bd3c",
+    "quran-reflection/en/002-al-baqarah/units/067.html": "55de2f21dcaa39199098853ea3ef2ebbbc46a4161b989ea960f77eddc60a97c1",
+    "quran-reflection/en/002-al-baqarah/units/068.html": "46d8c1b771df1b91c369f5f960eca2b471268ff70a25fe5f5dc43281bc2ee4ef",
+    "quran-reflection/en/002-al-baqarah/units/069.html": "d778d2c0d8e16d209c229e61e75b05e1dc5cfcf58d4a80adfc77d329b9f4c2ad",
+    "quran-reflection/en/002-al-baqarah/units/070.html": "dbef853f143c28cc5dd5702ec9d0b31fe314b58a8d316b9bf1eb53e26f30866a",
+    "quran-reflection/en/002-al-baqarah/units/071.html": "3ea71815b3d71449defa943323f6ceee5867b0812591c1568e7fb200f8391748",
+    "quran-reflection/en/002-al-baqarah/units/072.html": "7d3af130ca73d6faa49f2ed774d0ace7e7c9390a2f18e8dd44eb1de85ddfb31c",
+    "quran-reflection/en/002-al-baqarah/units/073.html": "250c452b9b1d247df269e7a6dbfbfe10a8977cff409ff65dc4a14874165e00c3",
+    "quran-reflection/en/002-al-baqarah/units/074.html": "52ce9fda6aa72f9c25fe2fe24865e922c93c470229b2686d8b0693858edffcc7",
+    "quran-reflection/en/002-al-baqarah/units/075.html": "edc58b993df4a6857779d596e26421e21bb74ff582c90a57e620a0508b901752",
+    "quran-reflection/en/002-al-baqarah/units/076.html": "159ca6db34de05e227b5e49fc5a41f3b0f80f74cc8b859427efef9d1c3751c7c",
+    "quran-reflection/en/002-al-baqarah/units/077.html": "2799355f723c36b1aaf79b4770d9a9ce5d7738a13ce6915795a6bf6b2a21ea22",
+    "quran-reflection/en/002-al-baqarah/units/078.html": "f3cb8ace13ddc72c18894a16014f7d286245dad0716ad6d2fc11cdb61f46cc7c",
+    "quran-reflection/en/002-al-baqarah/units/079.html": "8a105e64c33f12ecf8071c563800157aa1f5ea59df184cbf6e797e37789298e5",
+    "quran-reflection/en/002-al-baqarah/units/080.html": "1943bb02634521fabd87ff584ba83668a71a4d19554157a0f202e7f1738e22d7",
+    "quran-reflection/en/002-al-baqarah/units/081.html": "b0dc6945eaa820cf7845e2338bde71b95ecfef2339063ab7787f953ba92e8cd0",
+    "quran-reflection/en/002-al-baqarah/units/082.html": "022aced83b963f920277163e44594ed4c49c39e1b8e375f3880a36f9eb8bd836",
+    "quran-reflection/en/002-al-baqarah/units/083.html": "ce8a994929a70e3aed709115dbf889cbe6ff6740d038178944ae81a88940bcdb",
+    "quran-reflection/en/002-al-baqarah/units/084.html": "7cf24059c40b8c4ab98a8a9932fc1122013bf897449721f01c45988d35a6fa89",
+    "quran-reflection/en/002-al-baqarah/units/085.html": "211553bba467980f37647308ab1749bed465ebc86408deaeda2da3f9827169f0",
+    "quran-reflection/en/002-al-baqarah/units/086.html": "fb8327c188e8fc1a045492135c67ecf035acd6b3f468ac906549ec756991ac88",
+    "quran-reflection/en/002-al-baqarah/units/087.html": "78a79b1d10c894fdf9efceaa5ec471cbe0550bf1c280a5ae0cb3d4967582c1f0",
+    "quran-reflection/en/002-al-baqarah/units/088.html": "b8b1e9107e9b2336728012bd338b4036e5c069d9d3de3e571c10875950826a55",
+    "quran-reflection/en/002-al-baqarah/units/089.html": "3a1b2500bace2962a8cfb3615335d52cd6a24568e7255aeb1010efe88930f46a",
+    "quran-reflection/en/002-al-baqarah/units/090.html": "4dc69793188915922c222ce7bd32bfd65570cb83383dd49904b4994bc0d70508",
+    "quran-reflection/en/002-al-baqarah/units/091.html": "f81f095303f0062db963a3833955c4a870cc87fd185001033aa5d3c048043e6d",
+    "quran-reflection/en/002-al-baqarah/units/092.html": "461cbf8d5e602200f553cbda9f6d52e192c6ad23ed1a81c7c20b8ba90da2ab70",
+    "quran-reflection/en/002-al-baqarah/units/093.html": "960748629e5c1cd53b4210204bc2d98ebc61108b8c8742c6e9ae4580733ea367",
+    "quran-reflection/en/002-al-baqarah/units/094.html": "0606877d1b2d5244d25df0b8b2faee12e68036e194db7101db6a88dad04f9bf6",
+    "quran-reflection/en/002-al-baqarah/units/095.html": "8f419395d66201879528b5dafb29d8bacdae0d3b33a58498d51810bc3d4fa606",
+    "quran-reflection/en/002-al-baqarah/units/096.html": "fac9d882a9175d1aba4e9ad1af946fa9a6ba7cfd2528cc37936ffdb70d8549a0",
+    "quran-reflection/en/002-al-baqarah/units/097.html": "204bf2f33458b7601da7a09e82b450a1afb9ba5ac2cb92bddaf771409b78c62d",
+    "quran-reflection/en/002-al-baqarah/units/098.html": "78ab6f404feef0a0cb42cef12e6d56e503b76efc4e112f6e8c0daaeec90811a0",
+    "quran-reflection/en/002-al-baqarah/units/099.html": "4b13d446495b932c1a36dc993eb275bd51314ee3a70e2ceaf7199fb1fe7335fa",
+    "quran-reflection/en/002-al-baqarah/units/100.html": "06509b9fb5d99ab9e2d84e7b9e7a76e3b4af3c28380f01b10e9cbe2032e40dbd",
+    "quran-reflection/en/002-al-baqarah/units/101.html": "d468a7cec634f2ee472d4fb37bd255fac198d49ebc9ae9dac3ada58bee889ec9",
+    "quran-reflection/en/002-al-baqarah/units/102.html": "86b076aafe90c15e0fbcb85ee03ffaf3a219d3bbc5e7533015616bd9283211ad",
+    "quran-reflection/en/002-al-baqarah/units/103.html": "094de03171613ff2e2c150bc9dcbf86b633768b0f5eedc33b14fe4bb23600680",
+    "quran-reflection/en/002-al-baqarah/units/104.html": "d7848649c178a8a6fcc7ae8dbd868d3c303f293efb0f7137f76efa51141ecf5f",
+    "quran-reflection/en/002-al-baqarah/units/105.html": "306c8d2292eea83d5e3fd62a77ee2de3fffd9cb52074d445d2b9548f21849166",
+    "quran-reflection/en/002-al-baqarah/units/106.html": "d3034ec4b4dba34a325eeab397eee9d816e23090621ba07db02ddb6b97a118c5",
+    "quran-reflection/en/002-al-baqarah/units/107.html": "417a5d7e7167bfb07e8027427a47cbb7760944c6fa1721a4af16c922b3aaedcd",
+    "quran-reflection/en/002-al-baqarah/units/108.html": "b15eb0de6f0a7db667b0e633d6fcbfd4cf64e421ac633ee8729baaf0f4d76b61",
+    "quran-reflection/en/002-al-baqarah/units/109.html": "fba4af76d750f8c16d3a81973a157457f15fe670c89c7081b84a5d1791817f4f",
+    "quran-reflection/en/002-al-baqarah/units/110.html": "36086e37c96b4c3ba7c0c440095fdb88fd390d79babf7f8c6ad10c4c2dc70503",
+    "quran-reflection/en/002-al-baqarah/units/111.html": "cbf2c0e588df8e67df70f85bd6ccd2de8a007c0ac65e1f9b3132f8a14765f6cd",
+    "quran-reflection/en/002-al-baqarah/units/112.html": "e9fac679b0b0d3ef0e3203b31f9da53823d9e786ce71fe3bccdba8145d3112fa",
+    "quran-reflection/en/002-al-baqarah/units/113.html": "5252d5c928f4c5e5651deed646ad0e806224aad32bb65271eb2792835d4ab4e7",
+    "quran-reflection/en/002-al-baqarah/units/114.html": "358112a6430d934864dddef07f039eddf6a4979bacf65ecf59178f4e6d231eeb",
+    "quran-reflection/en/002-al-baqarah/units/115.html": "fb3c218aa825cfcdf760d8e899462f31b577d52144864952609b17d1814e99f5",
+    "quran-reflection/en/002-al-baqarah/units/116.html": "019dd220f1fceb648852d9e64d57d84785139b20a5450a6a0dccc9061ab028e2",
+    "quran-reflection/en/002-al-baqarah/units/117.html": "e96f41ccd4f6de9aeb70a8ff9446e6ad93c0545ee1840dd4ae8154da2dd0a23b",
+    "quran-reflection/en/002-al-baqarah/units/118.html": "62a323ef009e9344c1f97564a3b7dc178bb589688fc89d3c8f5a3e8fe473437b",
+    "quran-reflection/en/002-al-baqarah/units/119.html": "65082dd0605715ef09ede286a4ff6c6bd809c4fb9edc118cdcfef5612f907f1c",
+    "quran-reflection/en/002-al-baqarah/units/120.html": "95621562219d77818af7c6c2995ac7cc3baf0998cd70dceb508a715a3c3ad6e8",
+    "quran-reflection/en/002-al-baqarah/units/121.html": "1d5fdedd8c7cbc14af5d260910273ce542b72515e8364062553fb295824ef879",
+    "quran-reflection/en/002-al-baqarah/units/122.html": "d2dd7e1d5c04d6b1989ac0ad2fdf788e4ec312ae7f09ccd29edcffce119af8ad",
+    "quran-reflection/en/002-al-baqarah/units/123.html": "b2c09407f82bd44b240bcfac01dfef284978057a80181e7a48178f046ff0f73a",
+    "quran-reflection/en/002-al-baqarah/units/124.html": "eb648f4b4929d6fc7467e945dbcd012fa5bf4d42fc1042ba61d085f504e63906",
+    "quran-reflection/en/002-al-baqarah/units/125.html": "3f3aefdd8999b3bd3e39a5eb43f8a7e5e50dd0eefd90ec07405a83c95fe57bda",
+    "quran-reflection/en/002-al-baqarah/units/126.html": "aab56e8aa16ee5ea0e74694bb88194e61a7f101cecac3ee619ab44eedee5a608",
+    "quran-reflection/en/002-al-baqarah/units/127.html": "6d1a7c4c2251b165d5361950c6dbb294a4c813a7a9cb31aa60b93e73bec07f03",
+    "quran-reflection/en/002-al-baqarah/units/128.html": "69a4599321ef026acc416f755eacd8fef145298399405da7b5184ee007281614",
+    "quran-reflection/en/002-al-baqarah/units/129.html": "13438190b45efea075ea44ec143e1d34e985f2a5c6a66e894c9a6ea7543ad43e",
+    "quran-reflection/en/002-al-baqarah/units/130.html": "ddd24212556b1528cd67d2a5cad81aab2d42ad459750324871dfc24602df895c",
+    "quran-reflection/en/002-al-baqarah/units/131.html": "8dd834dc8c06ec0d305a0d09096e97f9c7f1b998f466e003dc09ed7e78eca24a",
+    "quran-reflection/en/002-al-baqarah/units/132.html": "a41b3876091308dd523845cf5e62b1362aece23f2785910c24d69f3f5d3ae28d",
+    "quran-reflection/en/002-al-baqarah/units/133.html": "4105f56078df8b6c6ba7d7153b232dfbe82b19b037b8a45e17abed6506c1eead",
+    "quran-reflection/en/002-al-baqarah/units/134.html": "e7a9e6ae6ea7ad9115c15bc5c41616726d5db5f3a3342d7eca7d5de2a8c5185e",
+    "quran-reflection/en/002-al-baqarah/units/135.html": "7b890d6545058388bf51cf1335f9d1f4e05034384c929d28aa41af2c98d10574",
+    "quran-reflection/en/002-al-baqarah/units/136.html": "8831ab6c088aac4a9deba9f2359738c5e7e99acd11155a4b3998f87c32dc4920",
+    "quran-reflection/en/002-al-baqarah/units/137.html": "ac4cac6a7d3cdba7ff3338ec5a4b52e31fe79540d89678b475f7fac575b2be7d",
+    "quran-reflection/en/002-al-baqarah/units/138.html": "654046868be7028faf761c8a59801de325c5819eaadb6b8f96cf260a322c9663",
+    "quran-reflection/en/002-al-baqarah/units/139.html": "1b00f98f4d8532a843a20bf741955d792ee10ac87bfe2fcfb3e40240e1328830",
+    "quran-reflection/en/002-al-baqarah/units/140.html": "dd1763176628a358f60eb0ca45e627545d27fd07e6e685d4eead58205ffb2326",
+    "quran-reflection/en/002-al-baqarah/units/141.html": "12b6177f595d6e6725a4e5b438662d49cb1e7cb51c69d01219650ee6b27a9193",
+    "quran-reflection/en/002-al-baqarah/units/142.html": "15eae41f22636d2881fa707f68142f40fd259e5142d18289ffaa4ffb943dcab0",
+    "quran-reflection/en/002-al-baqarah/units/143.html": "5df49267319fc671305a7181a83728995860e4c21179c998d914aa612c9d290b",
+    "quran-reflection/en/002-al-baqarah/units/144.html": "94029937f20b5a37f5a0b9755089a7645dd20361be2bb5c0f314866ad6bdfdda",
+    "quran-reflection/en/002-al-baqarah/units/145.html": "96cfaf87cff72e4708784f46012b73b510937dd30a6aab68f4d14ad81bf9b431",
+    "quran-reflection/en/002-al-baqarah/units/146.html": "51f829b9baae947308d0caf769dab125194486a8322b3f99fdc09e67c0ad676d",
+    "quran-reflection/en/002-al-baqarah/units/147.html": "3367d9ff3a545e9cad1de85ed77ad39dda6754e2aca1162e26364b91ea60b36d",
+    "quran-reflection/en/002-al-baqarah/units/148.html": "722765c84433ae7f1c0b5bacbcdcbd3f30431b7b941228fe8386865c7ab697ca",
+    "quran-reflection/en/002-al-baqarah/units/149.html": "1c20602ab81ad28d484fd70d48efde3710819ab7ce212165b139f7a2c2d99065",
+    "quran-reflection/en/002-al-baqarah/units/150.html": "a273a408a35a7c090b04861d9b3526d4785f9947ed18c21fb4d4213f26a49364",
+    "quran-reflection/en/002-al-baqarah/units/151.html": "d9fe41557283133fca8003c56afea7292cbe9ef887fa52f19dc35b6f2744409a",
+    "quran-reflection/en/002-al-baqarah/units/152.html": "8c51914244fc9cb798178ad34cd7a50596aa73a8368eaf093cb5b413327e2c35",
+    "quran-reflection/en/002-al-baqarah/units/153.html": "06349c841e8a3aabb2dd3a01d96cfe6dc29d57ca0b1816c613ee8f65969f7da8",
+    "quran-reflection/en/002-al-baqarah/units/154.html": "70153d56c97f5a73e3519cfcdf93ad20bc894ccf427182dc5afd203cb4644b4b",
+    "quran-reflection/en/002-al-baqarah/units/155.html": "e1d4d1f5638ab54825927704e72ef0acd8ac163436a2464500988eb242c85b8e",
+    "quran-reflection/en/002-al-baqarah/units/156.html": "862a9d320ed35af82983ed7194ac93c64c24c18b11632ee3e3dd91144ab50ccd",
+    "quran-reflection/en/002-al-baqarah/units/157.html": "9b666f3f10443c430ef105c5087c1cb0a56fd2ea1b095f0c87e2a3aa08fd8856",
+    "quran-reflection/en/002-al-baqarah/units/158.html": "46a62d9d0e828eadef0dafbf5335f3a35b54a85f77e21d05370ad4fa89c2dffa",
+    "quran-reflection/en/002-al-baqarah/units/159.html": "3ff1d3d1bf3bc8f93bb2e58f4a8b0633c47516a9d25f3e47f8ef4bbc34819814",
+    "quran-reflection/en/002-al-baqarah/units/160.html": "3c15f475afd12c6f7e01d154bb706aa44c62421850c14a419bb38ddc623b8529",
+    "quran-reflection/en/002-al-baqarah/units/176.html": "fb7fc5bb44e2dcca7d46c7bc3c8f3e44401ccb486fae194d47ba4bf7744bb5f9",
+    "quran-reflection/en/002-al-baqarah/units/282.html": "43e496c6ad72a78c2870be94b89f2f6a5ebadbad3236ac49bbc49f3bd3a5ebf0",
+    "quran-reflection/en/003-al-imran/units/180.html": "903f877d13c6d69476ff297dda9cc1b93eeefdc0e6a1c380e5125344dc6f30b8",
+    "quran-reflection/en/004-an-nisa/units/037.html": "798ca27a7bd721999fa5eb52bb5a986b02dbe1a45a710fdeb41228da40d7f1d2",
+    "quran-reflection/en/005-al-maidah/units/031.html": "602ed265e83a5ae8bee5886d537f3301b1da61baa4e256fd25832467d3499661",
+    "quran-reflection/en/007-al-araf/units/085.html": "960b612018df8a46e10630a99dd418246838f8f6b92d5c3e286560b8d08f8c8e",
+    "quran-reflection/en/007-al-araf/units/160.html": "25fae88c07cd39e6508d4d8245e96e9e109b8362f3c1dccc4915d793f03779bb",
+    "quran-reflection/en/009-at-tawbah/units/076.html": "4fa24790ea81849b44e50c9f3f5d81109e806048bc40755857a73cc9d03fd05b",
+    "quran-reflection/en/011-hud/units/015.html": "7a9fcff9b63c7d6894fa395fdfee1c36d1364ce323110aaee5da126382e2be48",
+    "quran-reflection/en/011-hud/units/085.html": "cb703093ac895291a068ab64d3b831f77095f24bd61471c8bab141af198571eb",
+    "quran-reflection/en/012-yusuf/units/020.html": "bc2646c5b0a98507433dd5723b37e6365f8e8877ec489a67f39b29a55ccb24b6",
+    "quran-reflection/en/018-al-kahf/units/006.html": "c816270d9f3d94d255bb707360a3e37cc385c1cf590be9a4854cf02ff03911cc",
+    "quran-reflection/en/026-ash-shuara/units/003.html": "a559c09f3d3684dc2847cf95e209c98f5c4bb0e796b55b41015a3c942c1fc738",
+    "quran-reflection/en/026-ash-shuara/units/183.html": "6eaceeea3b295c8fc6cb250317b87322cac1d5c9754bdb01c719c5a114bcfcd0",
+    "quran-reflection/en/047-muhammad/units/037.html": "6acb407c914835055391cd2acb9cb5149d7157a39c3921821f4488e4d6e2968f",
+    "quran-reflection/en/047-muhammad/units/038.html": "efa16d1212627485206c5e95bb9c5967fc4138cbbaa9615c2a342329a660852f",
+    "quran-reflection/en/057-al-hadid/units/024.html": "abd8a88850b3b7afb785e27681d9f6098259baeea6464d4025419ab548b52991",
+    "quran-reflection/en/072-al-jinn/units/013.html": "e44233b38c9d79cd74f234cd322e5857b009ddf0d95fd70f9f9f4180e3ec193c",
+    "quran-reflection/en/092-al-layl/units/008.html": "4e8572fd870f07809c462da75be0f19ebc4b5fc5dcb6e5bb1bee4f19865922b9",
+    "quran-reflection/fa/001-al-fatihah/index.html": "7da9c785b46e5a50ed604f9443f400fadef3b2108e062c53472214e65ba86d6f",
+    "quran-reflection/fa/002-al-baqarah/index.html": "7e1bf21975435301b41bf1f59ddc0017e64e4576e79844c7dbaf954815e8901d",
+    "quran-reflection/fa/002-al-baqarah/units/001.html": "5fb9704a9272ff6c0298f38255d63c69db5e982d03379af6e9b338e248611005",
+    "quran-reflection/fa/002-al-baqarah/units/002.html": "1734de3de01876be748951ffa820df129174460a2b28a0a1da73bc5fb10b8a85",
+    "quran-reflection/fa/002-al-baqarah/units/003.html": "f075430c3bc84ec206dbf0a3caba71d78687d690e54e606747e5cb27abf30f40",
+    "quran-reflection/fa/002-al-baqarah/units/004.html": "06c67c449eea6540cda5cc9428c125bba27b1737479b8d93fa06d01541b11900",
+    "quran-reflection/fa/002-al-baqarah/units/005.html": "cade56ad027673ed6df1202e4f6c9eb32ee51be94d76c98d67863e369bf72ab5",
+    "quran-reflection/fa/002-al-baqarah/units/006.html": "06f36979cc0dc086fe1d5cc9b17a8f9d8057fc7cb248f3d09c1d775cfd3a8056",
+    "quran-reflection/fa/002-al-baqarah/units/007.html": "a12a0d12ebbedf1587788fab99e6026a75b175f5af96bf3ee1a1fec4c496c481",
+    "quran-reflection/fa/002-al-baqarah/units/008.html": "e6bd8bcff8f134db8e710f34fb6dd40661a70a3f7be56249ed6ab441d10c6364",
+    "quran-reflection/fa/002-al-baqarah/units/009.html": "b8aa1f84d7891c75d5f3bb1e6c113f17b13b070c8940347fe3fd469c509af30e",
+    "quran-reflection/fa/002-al-baqarah/units/010.html": "408cadae20f0fd821b7d90b1b51a94027ca693086281e8c63eabd9ad57afe68a",
+    "quran-reflection/fa/002-al-baqarah/units/011.html": "4febb3fef52d0682beaa15f8313b471171e6dca418e49d757c942d8b00fdc84d",
+    "quran-reflection/fa/002-al-baqarah/units/012.html": "264e7235727e421909143c99bbb9ed3a39cbc917586341c10b196814808b611a",
+    "quran-reflection/fa/002-al-baqarah/units/013.html": "2bc7424185aa80321302b76ecf176b93e4d62b5721eda8242a9214345aa21fbc",
+    "quran-reflection/fa/002-al-baqarah/units/014.html": "4c6cf32e765c4632c1a0f925398b499c09a848993ff752f80f2b509229b9b0df",
+    "quran-reflection/fa/002-al-baqarah/units/015.html": "4764f8fa5d1bde30266b1a7a11cb27024a20c69e9ba7d54688459ff7d34b0fe8",
+    "quran-reflection/fa/002-al-baqarah/units/016.html": "2bfee16798de08411f09c0821ed68a4f77ca1334d8d1c032f3b88786168e21b6",
+    "quran-reflection/fa/002-al-baqarah/units/017.html": "11d72d217f499f0e72db4f3be7ef3f6f540f4ec1dd0b139110c0e438708ec2e3",
+    "quran-reflection/fa/002-al-baqarah/units/018.html": "d8b9ed81ab3745e2d5967a559184adde7b1a2ba229a24ddc3983cd193f8cf6f4",
+    "quran-reflection/fa/002-al-baqarah/units/019.html": "a644e23e14bf9007694dbe3df3a278f60b4deff44b5d6e60aa2c3419eb563e4f",
+    "quran-reflection/fa/002-al-baqarah/units/020.html": "0b8a4bbb919cdfeb1d802991f919e1e63d9ece2d994845880a8f21353c96c2b8",
+    "quran-reflection/fa/002-al-baqarah/units/021.html": "75a0c9b8fc95cf243d7cfbc8df68bc5ea8b2e8e5d2b521954c2a516b2f814002",
+    "quran-reflection/fa/002-al-baqarah/units/022.html": "86f6fc5751d24d656c3bad4d1480093d36ea0ed4debf487931075602c1856a12",
+    "quran-reflection/fa/002-al-baqarah/units/023.html": "41709deb4f18ab38f563d3fc6ea1deaf6f8f03d78baf8b446b0f4d9aceb3497e",
+    "quran-reflection/fa/002-al-baqarah/units/024.html": "3fef6db2a05e71a0137250572dbef10db02d95b8eaaa8dd2c70d09d097ad6fba",
+    "quran-reflection/fa/002-al-baqarah/units/025.html": "91809e9f08f1f2587c96f3f1c905b764b849c595c80096434280642750e1b507",
+    "quran-reflection/fa/002-al-baqarah/units/026.html": "b88f379dd4a79ade67ccac05864d731aad73397743e1cacf8b11c2625ffc3c68",
+    "quran-reflection/fa/002-al-baqarah/units/027.html": "91cc3541ab38a91372b4e1fea319edc7bfa39f5667d3fdb72967911054f8a1ae",
+    "quran-reflection/fa/002-al-baqarah/units/028.html": "baa82e7392c04ba5bb0e235c61656c235fcc35aef000aefe065baa57af5d4cd3",
+    "quran-reflection/fa/002-al-baqarah/units/029.html": "5322c4918b48125203a54ba81864daa8221ba2e6954a64072d3b36fca95241b7",
+    "quran-reflection/fa/002-al-baqarah/units/030.html": "7143e578155191584e0e705e485ce09b7ab1c81771a976551ca38fb6464dc078",
+    "quran-reflection/fa/002-al-baqarah/units/031.html": "e4540a9c420caf899854fb8cc6daaf9dd3586849ed59c4e9bfce1450cf7c8b52",
+    "quran-reflection/fa/002-al-baqarah/units/032.html": "a7ac86891cadf33325205e86d213dcd309f2b605172b89b2cba7a3f805785b86",
+    "quran-reflection/fa/002-al-baqarah/units/033.html": "3aa20a21a8b7dd9f39a0857812cc0ca12af94584f20ca5758d3838256fe9376f",
+    "quran-reflection/fa/002-al-baqarah/units/034.html": "4cf60cb63e8655db75b675a1666fce691da1b2124aa0542a066624924516b139",
+    "quran-reflection/fa/002-al-baqarah/units/035.html": "04a4ed55ef495df39f67525ae9e805285a2288e23c6fb459302d3308c8c55e36",
+    "quran-reflection/fa/002-al-baqarah/units/036.html": "a9422cbbef22063249e2e8c5a67ec2b80ed5f65d24076783885ceaedaf6b88ae",
+    "quran-reflection/fa/002-al-baqarah/units/037.html": "d945ad001f4bb70cf46045feb803756c94b59332237c5c7a0728f43c468d3a90",
+    "quran-reflection/fa/002-al-baqarah/units/038.html": "e674699903d03d27f3a9519f7b97c6c7da2c6e5856095705dd52d45f6a332516",
+    "quran-reflection/fa/002-al-baqarah/units/039.html": "661410955065bca42f35c88a506e83e4b77dde628453c990c4d8b6c8cd4b33bd",
+    "quran-reflection/fa/002-al-baqarah/units/040.html": "f4feaec2896759b22f35cc297653e1820eaca003c336fe34deeea15026459294",
+    "quran-reflection/fa/002-al-baqarah/units/041.html": "550fc225b9264d5736020630a26b55cc50d2624b31035667c7b33c1f185187a8",
+    "quran-reflection/fa/002-al-baqarah/units/042.html": "7f8276dcbf910362fb1b48c0f05aaee2a8b0473249e3a5b5e1882a5e3f94bc5b",
+    "quran-reflection/fa/002-al-baqarah/units/043.html": "694801f933a42a5022e046f786ef146f85f243fbb3cb5491f1b3e05d01ba5fca",
+    "quran-reflection/fa/002-al-baqarah/units/044.html": "f47db0738495a4a35eed0447c2f18b56b6cacff04b57dc39ce5de28cfa165b32",
+    "quran-reflection/fa/002-al-baqarah/units/045.html": "b13cabb7c2596587aed6fe15c3a117c55329b79fc27c9c3bed285dbd4baa84a0",
+    "quran-reflection/fa/002-al-baqarah/units/046.html": "08af26e1b4fc11728b22e833b2bb895a8a1fd17a8466025fb9c37e6a133d4fed",
+    "quran-reflection/fa/002-al-baqarah/units/047.html": "0ae44516c3583067f02c9c3e2ef763777b2312757b11abb19abc6b5e96603931",
+    "quran-reflection/fa/002-al-baqarah/units/048.html": "8f2c0df504656c890478b19273fb9bf40b4a9997ecf50f396d1e88e6828a7a30",
+    "quran-reflection/fa/002-al-baqarah/units/049.html": "26aa86b99922e1e692e19eb6fdbcb7679fdbd544c84da608e15e99f3517a73b4",
+    "quran-reflection/fa/002-al-baqarah/units/050.html": "d4d0afa9664ff88f5d4fcf19ff7250b92d7b21c5b48b1752f2ff6e36840bd556",
+    "quran-reflection/fa/002-al-baqarah/units/051.html": "eb3fbf553f04454147cae4490db4e836e059b58161580540091af4fbbbd4fd79",
+    "quran-reflection/fa/002-al-baqarah/units/052.html": "b766ccf4e3a76d0afdbb044c0785379c3c67892cb98c5d92341269e7b80a9a19",
+    "quran-reflection/fa/002-al-baqarah/units/053.html": "052120c17ac540788124f70a810f133ff9d52f47a83146a14fbce9893f5f5eac",
+    "quran-reflection/fa/002-al-baqarah/units/054.html": "ead789938da87752d7046e6c9fd647ba5cf3eaf22c5153c8c588910bdb920713",
+    "quran-reflection/fa/002-al-baqarah/units/055.html": "201aa4029de1f0848a3895af29b8c8e8c0ef565b165cc34a49e0f7bc7d37ff76",
+    "quran-reflection/fa/002-al-baqarah/units/056.html": "d20099a1b473d199058f0eb0e648d3268414747c1896abf63e7036225cb04c2c",
+    "quran-reflection/fa/002-al-baqarah/units/057.html": "6557604b0764d91a75cee1e861abeca358731a51cfd388196fab86ad4bf8596b",
+    "quran-reflection/fa/002-al-baqarah/units/058.html": "677f8fb16e1d043c1aa27a2916eda99d51d0fe0dfde3f0c365e3903b1647ca86",
+    "quran-reflection/fa/002-al-baqarah/units/059.html": "985675fccd659e7d51417bae991f637d9b53773c7c56fd10d196cc23c93a35c1",
+    "quran-reflection/fa/002-al-baqarah/units/060.html": "ad450e9bc6212a6cee57eb3c8d80db203cac09507e4c9d00b0d584306644bebc",
+    "quran-reflection/fa/002-al-baqarah/units/061.html": "1671e1358b528aa56f604cc0888c83b16bdcd7c599db06629814b0c42b03d053",
+    "quran-reflection/fa/002-al-baqarah/units/062.html": "36cd021abe1078ce442fab3787258692b1e2a11185a5e6ed86bb64e7f9a289d5",
+    "quran-reflection/fa/002-al-baqarah/units/063.html": "68ecef679054e09e8745c149c77a37277702e26659c35766f02f8f55f2395b60",
+    "quran-reflection/fa/002-al-baqarah/units/064.html": "37fbc0ca3c3a8ad53ebe5db62b4a9f8d65d88a1f09f5418a0d360685a0b512f0",
+    "quran-reflection/fa/002-al-baqarah/units/065.html": "8017f5f63663c093a71903ad5c046de5092198bb960677a6b59e5b3412ba8592",
+    "quran-reflection/fa/002-al-baqarah/units/066.html": "8bc304bf99a8b4d36b4ddedfd5a514c90fc905edf17cd2d641c02eadbfee67a5",
+    "quran-reflection/fa/002-al-baqarah/units/067.html": "4bde2509a95f11dda5f3abdba101065701d5c4e2f4d90017fdcffc235deb16fb",
+    "quran-reflection/fa/002-al-baqarah/units/068.html": "d41b586efad3382182298df2af7388079df43c7b3ef9841d575bc5f3c177490c",
+    "quran-reflection/fa/002-al-baqarah/units/069.html": "a981d445595bd0a9d33312147a182e234c8e26b6fabb07f398eb50f32a5ac91e",
+    "quran-reflection/fa/002-al-baqarah/units/070.html": "154dd22acb2e57bb86ab3fc10aa43bb6360ddda9cfbf0a15caf93f88d8145d9d",
+    "quran-reflection/fa/002-al-baqarah/units/071.html": "86000c6fad3702e8fd135248946b779b730936e4912d1dc3cc99642b8149efad",
+    "quran-reflection/fa/002-al-baqarah/units/072.html": "f28607887c0642fab637a39e0dcc26ae709a0a5495c912ab949549abcfe836dd",
+    "quran-reflection/fa/002-al-baqarah/units/073.html": "fe717cbdb737d7b73025169def43ec82c5bde7f7ab60f3846709c220f3bfe8fa",
+    "quran-reflection/fa/002-al-baqarah/units/074.html": "5302eb9a124076ad94b9d4ef76c182259852c8875def4c00aeabbf7b3321be35",
+    "quran-reflection/fa/002-al-baqarah/units/075.html": "3cb8f8945a22085aa3cd8b774a0802f51ed424ed1620a04fad991958c0ce5d53",
+    "quran-reflection/fa/002-al-baqarah/units/076.html": "53d212bb28a5c300ec6d182a5cf58f4ceaa1ebe113b5b04c1c8f9b7e4adf7d1c",
+    "quran-reflection/fa/002-al-baqarah/units/077.html": "ccee35b89e670bb266c5c7976bf4c24830564cea654aa68e7833d0763c450185",
+    "quran-reflection/fa/002-al-baqarah/units/078.html": "63da0531d89ef8955f81b6dca74ba4e85471af4e9096c20f558323f1a5e99c38",
+    "quran-reflection/fa/002-al-baqarah/units/079.html": "4e78a38e9a5d833e302823f8096bc348c07b353c2689cf3444d914d79fe89fab",
+    "quran-reflection/fa/002-al-baqarah/units/080.html": "587a768f6f530e5b39514feb746d2267511f6a298288db566d8086e3fe479786",
+    "quran-reflection/fa/002-al-baqarah/units/081.html": "41f40663d5acfed8b91ec825239c62d79372cbb19913450ddac985160a490342",
+    "quran-reflection/fa/002-al-baqarah/units/082.html": "5ca10047db81a9d2cd8831a6225a2dc994f420b8f227c8479eaa6a33b6ffa5b3",
+    "quran-reflection/fa/002-al-baqarah/units/083.html": "bc86721ecee2310356775c59d165b6a56aff6efea3cb82ae011083bb11462e3c",
+    "quran-reflection/fa/002-al-baqarah/units/084.html": "52c6f6bdaf6d68daf77a8626eed62fe39f77fe5e69d98b2f3caebf23ac6a352e",
+    "quran-reflection/fa/002-al-baqarah/units/085.html": "8aac48d26d5a8858517bae6e18e7a53dd2906de67cfd890c52fced527623152d",
+    "quran-reflection/fa/002-al-baqarah/units/086.html": "17a4cbb34a32b5bafe7ccdda18fd587cb093500a0817f9ad7d5b085a93e5c77c",
+    "quran-reflection/fa/002-al-baqarah/units/087.html": "887d9214d5c12fcb7a876adc92c0f5e749d737f4bf8a7ede2a93ca2f1ae30cf5",
+    "quran-reflection/fa/002-al-baqarah/units/088.html": "dc98e19b44f0bf7ec46492f666e3286cf84751aec0c8ada1b4682158a9b4c25a",
+    "quran-reflection/fa/002-al-baqarah/units/089.html": "b16d6d4477fdf1eda93ec76d3f10b6bd142047046c0fc835cf762249afb82e1c",
+    "quran-reflection/fa/002-al-baqarah/units/090.html": "ce62546151ea09ee7179cea0c5da8eee771e4f30aa4a823e998256f44a85716c",
+    "quran-reflection/fa/002-al-baqarah/units/091.html": "c9cf193ebcafe87eba2d9a519e930e6f34afc67c4eb1fc2b3852883ede3515be",
+    "quran-reflection/fa/002-al-baqarah/units/092.html": "8d96d9aec7522443db885b024297ce5cfb196198ef63e9ba60a663eebf0aeff2",
+    "quran-reflection/fa/002-al-baqarah/units/093.html": "1c2a74abe0cd10ed42fa54de3c2b6a3132c124c458449c7be47ba681496b88a8",
+    "quran-reflection/fa/002-al-baqarah/units/094.html": "ed671f0b8b1d5a0a1a38da04f42b8526b3a1c2c5b3bf0c9807dd9e1d0b14c0c1",
+    "quran-reflection/fa/002-al-baqarah/units/095.html": "921aa1546d3c87c7e8857f2f91a6b0ac21212b257d144b5d10a13c47e98b7811",
+    "quran-reflection/fa/002-al-baqarah/units/096.html": "6b3088fa7f7ed3ef8ad4b62cf65a118f0e1858b1659a7e0a9ef9970b59e54f1d",
+    "quran-reflection/fa/002-al-baqarah/units/097.html": "983073c688ac4ba4f7e3bc67e3bf8693a32f1aa062c4ee3c5b969ce2246103fc",
+    "quran-reflection/fa/002-al-baqarah/units/098.html": "ef12b5da2eab2a1abeade00a69c347466491f5c3ea9e6342ed43f1dea202add9",
+    "quran-reflection/fa/002-al-baqarah/units/099.html": "998beda3700176e47119d0b4689658675159701bcd0a91b3bd768ed62d7138d2",
+    "quran-reflection/fa/002-al-baqarah/units/100.html": "5f995ea9e0ec35041c0532df25c8193630ace6760d0f4e6d6288550d69870d14",
+    "quran-reflection/fa/002-al-baqarah/units/101.html": "be221169c06829fff1af0756ad622e9bbdbdffbcc00f1387a0e284c1925c668e",
+    "quran-reflection/fa/002-al-baqarah/units/102.html": "d03728c9d8532eb427bb3ccbbaf372785604a10642735068800d13270a0e3b05",
+    "quran-reflection/fa/002-al-baqarah/units/103.html": "2cbdca11b8afa3298632d188da35af6a803f9bdcb40a6aedd5ee59cacf9c941e",
+    "quran-reflection/fa/002-al-baqarah/units/104.html": "86980fdf8e4e71e9e2342acbddb3ab21e5a68fa98c6eac214733eb716d8f9577",
+    "quran-reflection/fa/002-al-baqarah/units/105.html": "3e0f1f569c0af09ed2596e0ea756f80943321a1201f7193359d585c8358664fd",
+    "quran-reflection/fa/002-al-baqarah/units/106.html": "3fe0d7361b8df8d8d6132e0b6352ad1f761b3ed4c34e04a2b4cbd01db828f57c",
+    "quran-reflection/fa/002-al-baqarah/units/107.html": "ecce61680a2d67d00e5e0d186f2cd540543d6230be75e608e94442af6d1eab20",
+    "quran-reflection/fa/002-al-baqarah/units/108.html": "5a18c30f303eeb8bcd1a4019366a1b09c12588328c272622397925659224d234",
+    "quran-reflection/fa/002-al-baqarah/units/109.html": "df68da61961a6ad9bf566f115dbf61bc6b98d569fef1d8f76d377c13c6b30420",
+    "quran-reflection/fa/002-al-baqarah/units/110.html": "a463d4613b47dd93910288453068ed0d583534a48fb79b5e91c98c49de43a968",
+    "quran-reflection/fa/002-al-baqarah/units/111.html": "43c05ab60ac30b9659c49739ec6955f1d6ec719548d2f080e2cfc567a111d0cf",
+    "quran-reflection/fa/002-al-baqarah/units/112.html": "69834ced9e5a6d646ed18777a08209f70c924e717e1fe78113a701f3368dde88",
+    "quran-reflection/fa/002-al-baqarah/units/113.html": "24b28c5c54de4e3a65c9c1d28e35ccb019b3d19452249f4876ec3ba4bccdad61",
+    "quran-reflection/fa/002-al-baqarah/units/114.html": "c4c8b3808e73ade9daa31750cef691bbe06b645a08698f775b58c3231a85f121",
+    "quran-reflection/fa/002-al-baqarah/units/115.html": "6f0d596c16c0725a6f6fc3bd6df21b1fbb9db3187b5a7db7f6e6cbdff8fbbc4c",
+    "quran-reflection/fa/002-al-baqarah/units/116.html": "6a9f637539bd9a55d503534c369ef45cf9c13376991189e6c32195ed21474345",
+    "quran-reflection/fa/002-al-baqarah/units/117.html": "6225967b6dc1611682cf5a7af99459370d4b239f7ae24c143c3f7b8ec8620588",
+    "quran-reflection/fa/002-al-baqarah/units/118.html": "a260adf565260d0224ced2503ddb96a55eb5b898b16125119bf0e5cbfa68c12e",
+    "quran-reflection/fa/002-al-baqarah/units/119.html": "acf7bb6b724b7a4c7d4014055bb348f0af0371f0efee3951604a627e04ca90f7",
+    "quran-reflection/fa/002-al-baqarah/units/120.html": "0753e2d91ca7395a5e576c76e6125b1505bf8af7ddd91364ffb489932913f75e",
+    "quran-reflection/fa/002-al-baqarah/units/121.html": "595ef57b152f185e3c7ed9faf9bff1915f51b778799c57d3fd99ef0d2fe9da22",
+    "quran-reflection/fa/002-al-baqarah/units/122.html": "e27afdaeff36893b77beabca29609a32d7f2f2216c953393dbdaa948e26c0332",
+    "quran-reflection/fa/002-al-baqarah/units/123.html": "ba84747b3abfe498f2eb8557acb5b2a460aebada699f2c34de60988014282c92",
+    "quran-reflection/fa/002-al-baqarah/units/124.html": "279a8a20fc0e8e28ac2adda1fd287f6617e4035b178b9eabbb2498d342e9d0ba",
+    "quran-reflection/fa/002-al-baqarah/units/125.html": "5f76fd592102d2fe1f32d0d66ae663cad18c40f6b2360799590d0b5178fc1a19",
+    "quran-reflection/fa/002-al-baqarah/units/126.html": "ed271fb0b7ad9349dfefcc652632fa11ff2d816870238e4b24141f6f84cafeeb",
+    "quran-reflection/fa/002-al-baqarah/units/127.html": "eeb6bf6011156d553251897ba73e303efb1068a865b8ee6b78bbd8461341042b",
+    "quran-reflection/fa/002-al-baqarah/units/128.html": "92fa31fd706a843077f8e98a2ddf2e915371ced770bd134da7aba9a277ca6e9c",
+    "quran-reflection/fa/002-al-baqarah/units/129.html": "3e5ceb88237f68bd64f574efdc085dfb277fff9f35d3c3528b3573df276d2720",
+    "quran-reflection/fa/002-al-baqarah/units/130.html": "c82493bbf8108da781644583d0efd9b213712bdc7cebbaa34916defa1286a5b8",
+    "quran-reflection/fa/002-al-baqarah/units/131.html": "7abf7ae805029478c9cc9d289a263ad566c80807c2ce56925103e8f40e18261a",
+    "quran-reflection/fa/002-al-baqarah/units/132.html": "7f36bcf3565fa5656012ae4584d4df322f589a90c772c78a4f7406c169d3a06f",
+    "quran-reflection/fa/002-al-baqarah/units/133.html": "601009a42088f2731081189b40e2d26d0275fb6322b3dc0ccc73f8c94f1e2608",
+    "quran-reflection/fa/002-al-baqarah/units/134.html": "1857a8ee61158e68f0e2fd985780b5dbc07e625e46bc3a76ee6f7ebdd9cbc044",
+    "quran-reflection/fa/002-al-baqarah/units/135.html": "82e49052ce885acf19c5e6e0b96ed3eb034f8a4e92ed0cde3657a55ff7737d63",
+    "quran-reflection/fa/002-al-baqarah/units/136.html": "c156e4fcbc329bfa03388fa6f35441cfe871fb3dd71e9d25f13afba61701b405",
+    "quran-reflection/fa/002-al-baqarah/units/137.html": "09dc62df18893c993c179da05355f752331ef7be03aca32fc7997832ce8b61bb",
+    "quran-reflection/fa/002-al-baqarah/units/138.html": "a71bdc1780ffad878f1876c2fb4ab4b38216f4cc219c03ba1e1481311600a3d8",
+    "quran-reflection/fa/002-al-baqarah/units/139.html": "cc0c873384668c1c09b634d6c11a1ac3b2946ce4226074975b2c08a87a559b7e",
+    "quran-reflection/fa/002-al-baqarah/units/140.html": "df972470c104917b107814d2c9a96afad1432c7a037901a56a959217ac339170",
+    "quran-reflection/fa/002-al-baqarah/units/141.html": "0c25367d0bdf00b7ef21bab39dc2b578fb45d340ca60f89103173e5b38f79acb",
+    "quran-reflection/fa/002-al-baqarah/units/142.html": "aec9a44e623b6d85ffe0721551cac362b37d6673d5420f1030968af630c0725f",
+    "quran-reflection/fa/002-al-baqarah/units/143.html": "6eb53223f1e2ca16d2f40b98bbf6319573f1a2ba6d6c6947a86c4cd0ab6a5bc2",
+    "quran-reflection/fa/002-al-baqarah/units/144.html": "b1ad1ad843814b5389caa0126c617a27eecc7d04c875df19c3bf855c70dc4959",
+    "quran-reflection/fa/002-al-baqarah/units/145.html": "aae8d4856e8e85efe82fbcbf86725982223f675ad8a8b49391b6468853ab5936",
+    "quran-reflection/fa/002-al-baqarah/units/146.html": "13dd6457e4899609502ce33d2a1e4879842c3f23b31485dbca4a3f003fe168a4",
+    "quran-reflection/fa/002-al-baqarah/units/147.html": "18893dc6a10d9699ba349d5af02238ffdef5b8e8a5aba4492126735d63f39723",
+    "quran-reflection/fa/002-al-baqarah/units/148.html": "3650274de14a2429d240d7938dc82127d0094087369de3340712ed22730e8d8f",
+    "quran-reflection/fa/002-al-baqarah/units/149.html": "b71561ee88644929ea829b9981baee3febfdda35122709ac6e1fb6987ee104f5",
+    "quran-reflection/fa/002-al-baqarah/units/150.html": "b4c82e7cff817770d59405bfae95e964362234f4903a8641e4e4e9cc26bb76a0",
+    "quran-reflection/fa/002-al-baqarah/units/151.html": "0d3896106c85de887ab56ba5ff6931cdefbffe4f5fa1e93287edbe5a95c6e858",
+    "quran-reflection/fa/002-al-baqarah/units/152.html": "8c21aa9a23749b4ee1f19fdc7bb4dc982400e401f742bf064728feb5e1d9e083",
+    "quran-reflection/fa/002-al-baqarah/units/153.html": "22260971d97975fecff78a4a4ec698960f65f14094ef51c9e14de32241f25cf0",
+    "quran-reflection/fa/002-al-baqarah/units/154.html": "75a116ba82efe5e42d5a227a91e4f56ba92df45955362269f9072197244f23be",
+    "quran-reflection/fa/002-al-baqarah/units/155.html": "e6f73717b684d66704bea1cb88c558dce9ca9622c485e3c8f63c33ea57350f81",
+    "quran-reflection/fa/002-al-baqarah/units/156.html": "843facbe280d48607a90d773a761a1953283440f733e6f39be8627259dfc3882",
+    "quran-reflection/fa/002-al-baqarah/units/157.html": "50ee8fa14fd33b222cca0778e9588bb93938d6d392adfb68068afe23a560122f",
+    "quran-reflection/fa/002-al-baqarah/units/158.html": "9b2f2745e1e7a8a6181fb68a041c8815d8563eb6c135a8350510021e1283f407",
+    "quran-reflection/fa/002-al-baqarah/units/159.html": "b6013f138d44a77af26c0b62b57f835e57029727f9fa83f85d56b57896b796e3",
+    "quran-reflection/fa/002-al-baqarah/units/160.html": "bd81fac0b3b7f75a2b6a6a6abbcc7dca33c5696743ceaa3481957ead252e635d",
+    "quran-reflection/fa/002-al-baqarah/units/176.html": "4a8197c715fa109f669954ea9a22b0495f929a3b94bb75907142ee46e6acac47",
+    "quran-reflection/fa/002-al-baqarah/units/282.html": "c97a8557149901f7cda7a37a2300a37e9f8785dd92480374c738c64cc530c363",
+    "quran-reflection/fa/003-al-imran/units/180.html": "3403cd2b0b789d3b13cd48022be190ae5585f94541e0c1050ebe24b76653fa3c",
+    "quran-reflection/fa/004-an-nisa/units/037.html": "861229e361f60fc5e0b388c2408faa105ae939d15606ef7bbdf08d375a6d730a",
+    "quran-reflection/fa/005-al-maidah/units/031.html": "72738faa42ed6b64f0023f4b4b8b493c57d05d5f6e3a48a87a0fa248c073fb30",
+    "quran-reflection/fa/007-al-araf/units/085.html": "0092107a325131e14fe6919d51752341de1062ffc5ad87fbe84f945bedc777df",
+    "quran-reflection/fa/007-al-araf/units/160.html": "465b766fa571c24b648238270a5271624a174cb3ebef786157db10a21ca25e42",
+    "quran-reflection/fa/009-at-tawbah/units/076.html": "6b66029769b4bb4bb40fbb898d2e632f99b0950a1a030497363c5588d2e85791",
+    "quran-reflection/fa/011-hud/units/015.html": "d67f70efeab65cb8210c0e976697d56e515644a63c6eb1aa8508cf7b99cde94d",
+    "quran-reflection/fa/011-hud/units/085.html": "ac960efda3932da6cd91eaa6a9b5959e0eac04238ada4649eb7008fb62113797",
+    "quran-reflection/fa/012-yusuf/units/020.html": "a0c623d451c20e59be819de1800a46e4a1e667287e7383f4e12e76fee0878e79",
+    "quran-reflection/fa/018-al-kahf/units/006.html": "aa52059eb4bb0ac4934c21ddee112680519e05051acf529137500b1614c4586d",
+    "quran-reflection/fa/026-ash-shuara/units/003.html": "68d3f9abed2d77c4777f49ed3df11835579cb0696d734dcd3e91e108c7dd9c35",
+    "quran-reflection/fa/026-ash-shuara/units/183.html": "4a72c20600159051d2937c54a12c0469499069c7b88a513176d1c315ebcf4869",
+    "quran-reflection/fa/047-muhammad/units/037.html": "4c93c2fa3524ed826c5333758217f9452f8a5f0f58019814b3f391d35dc23be7",
+    "quran-reflection/fa/047-muhammad/units/038.html": "61e48d0c1ef2b36c9bf119fe5a145181d864621861165ce8f72c745bddf0ce0e",
+    "quran-reflection/fa/057-al-hadid/units/024.html": "a5d4104cd71cb9527c4b48122ddf2ccf22ae1e9d5d767dd692d5b1bbd2cef23e",
+    "quran-reflection/fa/072-al-jinn/units/013.html": "3530131a0659cae37ac6ad98b6a5d60aaf610b57087c2e3137b3e35523a01568",
+    "quran-reflection/fa/092-al-layl/units/008.html": "cc1e5eff13239b592b4782410e6e74d8b672a435ff65740e3124468614789466",
+    "quran-terminology/en/roots/b-h-th/index.html": "db54c20b0aa2aa5b8db6a5d0af08d3362c35c3de924893db50c7ff86ea4598a3",
+    "quran-terminology/en/roots/b-j-s/index.html": "79291c971a6349bd018e5ddfe83b07a062f8647c1abe302b0e540b64477fc37a",
+    "quran-terminology/en/roots/b-kh-ayn/index.html": "ce5c5c6ffc92bb495d41fdf93050fd40ba236541cc7aba7d9f2f2865c72dcf0f",
+    "quran-terminology/en/roots/b-kh-l/index.html": "286c038ef1b7ca9dcfbeb42cf6ee3d55f6064fbb163069112a2003ff3afdbfca",
+    "quran-terminology/en/roots/b-kh-s/index.html": "2fdfe0097702ecbf5d7b905fdd58ce19b085cacdd91d6d516600e981a23a57fa",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50",
+    "quran-terminology/fa/roots/b-h-th/index.html": "048f51ccd71f8e71d63f48955f95113daa97f0b854ce2efcebb284ba03ed8d78",
+    "quran-terminology/fa/roots/b-j-s/index.html": "e8c77c5d516313a5f70e941b5ea92b673accb0657e8a736d47d2293422d826f2",
+    "quran-terminology/fa/roots/b-kh-ayn/index.html": "db6ecfdda8adbcb6eb7cc32f30e6577fffb599f12c8fcd210389c3558a633646",
+    "quran-terminology/fa/roots/b-kh-l/index.html": "263cde9517e4c8a748f1f08821f759e061c991d9c82a5a7bd87316f83ae4a636",
+    "quran-terminology/fa/roots/b-kh-s/index.html": "b4057cc65492caddffe0dc6f59443d4b8ec498cc559bcd00a3bf8d1c3ca48602",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "context_completion": {
+    "reason": "Current AGENTS.md requires both a general root summary and separate verse meaning for every lexical word in edited verses. Existing summaries and all original verse text are preserved.",
+    "changes": [
+      {
+        "file": "quran-reflection/fa/007-al-araf/units/029.html",
+        "verse": "7:29",
+        "added": [
+          {
+            "position": 1,
+            "word": "قُل",
+            "context": "بگو"
+          },
+          {
+            "position": 2,
+            "word": "أَمَرَ",
+            "context": "فرمان داده است"
+          },
+          {
+            "position": 3,
+            "word": "رَبّى",
+            "context": "پروردگار من"
+          },
+          {
+            "position": 4,
+            "word": "بِالقِسطِ",
+            "context": "به عدالت و رعایت حق"
+          },
+          {
+            "position": 5,
+            "word": "وَأَقيموا",
+            "context": "و برپا و استوار دارید"
+          },
+          {
+            "position": 6,
+            "word": "وُجوهَكُم",
+            "context": "چهره‌ها و جهتِ روی‌آوردنِ شما"
+          },
+          {
+            "position": 8,
+            "word": "كُلِّ",
+            "context": "هر؛ همهٔ موارد را دربرمی‌گیرد"
+          },
+          {
+            "position": 9,
+            "word": "مَسجِدٍ",
+            "context": "جای سجده و عبادت"
+          },
+          {
+            "position": 10,
+            "word": "وَادعوهُ",
+            "context": "و او را بخوانید"
+          },
+          {
+            "position": 11,
+            "word": "مُخلِصينَ",
+            "context": "خالص‌کنندگان؛ بدون آمیختن بندگی با غیر او"
+          },
+          {
+            "position": 13,
+            "word": "الدّينَ",
+            "context": "دین؛ بندگی و جهت‌گیریِ الزام‌آور"
+          },
+          {
+            "position": 15,
+            "word": "بَدَأَكُم",
+            "context": "شما را نخستین بار پدید آورد"
+          },
+          {
+            "position": 16,
+            "word": "تَعودونَ",
+            "context": "بازمی‌گردید"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/009-at-tawbah/units/013.html",
+        "verse": "9:13",
+        "added": [
+          {
+            "position": 2,
+            "word": "تُقٰتِلونَ",
+            "context": "با آنان می‌جنگید؛ نبرد متقابل"
+          },
+          {
+            "position": 3,
+            "word": "قَومًا",
+            "context": "مردمی؛ گروهی با پیوند مشترک"
+          },
+          {
+            "position": 4,
+            "word": "نَكَثوا",
+            "context": "شکستند؛ عهد و سوگند خود را نقض کردند"
+          },
+          {
+            "position": 5,
+            "word": "أَيمٰنَهُم",
+            "context": "سوگندها و پیمان‌هایشان"
+          },
+          {
+            "position": 6,
+            "word": "وَهَمّوا",
+            "context": "و قصد کردند؛ بر آن شدند"
+          },
+          {
+            "position": 7,
+            "word": "بِإِخراجِ",
+            "context": "به بیرون راندن"
+          },
+          {
+            "position": 8,
+            "word": "الرَّسولِ",
+            "context": "آن فرستاده؛ مأمورِ رساندن پیام"
+          },
+          {
+            "position": 10,
+            "word": "بَدَءوكُم",
+            "context": "نخست علیه شما آغاز کردند؛ در این سیاق، پیش‌دستی در دشمنی"
+          },
+          {
+            "position": 11,
+            "word": "أَوَّلَ",
+            "context": "نخستین"
+          },
+          {
+            "position": 12,
+            "word": "مَرَّةٍ",
+            "context": "بار؛ یک نوبت از رفتار"
+          },
+          {
+            "position": 13,
+            "word": "أَتَخشَونَهُم",
+            "context": "آیا از آنان بیم دارید؟"
+          },
+          {
+            "position": 15,
+            "word": "أَحَقُّ",
+            "context": "سزاوارتر؛ دارای حق و شایستگی بیشتر"
+          },
+          {
+            "position": 17,
+            "word": "تَخشَوهُ",
+            "context": "از او پروا کنید"
+          },
+          {
+            "position": 19,
+            "word": "كُنتُم",
+            "context": "باشید"
+          },
+          {
+            "position": 20,
+            "word": "مُؤمِنينَ",
+            "context": "ایمان‌آورندگان"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/010-yunus/units/004.html",
+        "verse": "10:4",
+        "added": [
+          {
+            "position": 2,
+            "word": "مَرجِعُكُم",
+            "context": "بازگشت شما"
+          },
+          {
+            "position": 3,
+            "word": "جَميعًا",
+            "context": "همگی؛ بدون استثنا در این خطاب"
+          },
+          {
+            "position": 4,
+            "word": "وَعدَ",
+            "context": "وعده؛ تعهدِ اعلام‌شده"
+          },
+          {
+            "position": 6,
+            "word": "حَقًّا",
+            "context": "به‌حق؛ وعده‌ای ثابت و راست"
+          },
+          {
+            "position": 8,
+            "word": "يَبدَؤُا۟",
+            "context": "آفرینش را آغاز می‌کند"
+          },
+          {
+            "position": 9,
+            "word": "الخَلقَ",
+            "context": "آفرینش"
+          },
+          {
+            "position": 11,
+            "word": "يُعيدُهُ",
+            "context": "سپس آن را بازمی‌گرداند"
+          },
+          {
+            "position": 12,
+            "word": "لِيَجزِىَ",
+            "context": "تا جزا دهد؛ پاسخ متناسبِ اعمال را برساند"
+          },
+          {
+            "position": 14,
+            "word": "ءامَنوا",
+            "context": "ایمان آوردند"
+          },
+          {
+            "position": 15,
+            "word": "وَعَمِلُوا",
+            "context": "و انجام دادند"
+          },
+          {
+            "position": 16,
+            "word": "الصّٰلِحٰتِ",
+            "context": "کارهای شایسته"
+          },
+          {
+            "position": 17,
+            "word": "بِالقِسطِ",
+            "context": "به عدالت"
+          },
+          {
+            "position": 19,
+            "word": "كَفَروا",
+            "context": "کفر ورزیدند؛ حق را نپذیرفتند"
+          },
+          {
+            "position": 21,
+            "word": "شَرابٌ",
+            "context": "نوشیدنی"
+          },
+          {
+            "position": 23,
+            "word": "حَميمٍ",
+            "context": "آب جوشان و بسیار داغ"
+          },
+          {
+            "position": 24,
+            "word": "وَعَذابٌ",
+            "context": "و عذاب؛ رنج و کیفر"
+          },
+          {
+            "position": 25,
+            "word": "أَليمٌ",
+            "context": "دردناک"
+          },
+          {
+            "position": 27,
+            "word": "كانوا",
+            "context": "بودند؛ بیانگر رفتار مستمرِ یادشده"
+          },
+          {
+            "position": 28,
+            "word": "يَكفُرونَ",
+            "context": "کفر می‌ورزیدند"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/010-yunus/units/034.html",
+        "verse": "10:34",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/fa/012-yusuf/units/076.html",
+        "verse": "12:76",
+        "added": [
+          {
+            "position": 1,
+            "word": "فَبَدَأَ",
+            "context": "پس آغاز کرد؛ بررسی را از آن ظرف‌ها شروع کرد"
+          },
+          {
+            "position": 2,
+            "word": "بِأَوعِيَتِهِم",
+            "context": "از ظرف‌های آنان؛ بارهایی که چیزها را دربر داشتند"
+          },
+          {
+            "position": 3,
+            "word": "قَبلَ",
+            "context": "پیش از"
+          },
+          {
+            "position": 4,
+            "word": "وِعاءِ",
+            "context": "ظرف؛ بار و محفظهٔ برادرش"
+          },
+          {
+            "position": 5,
+            "word": "أَخيهِ",
+            "context": "برادرش"
+          },
+          {
+            "position": 7,
+            "word": "استَخرَجَها",
+            "context": "آن را بیرون آورد"
+          },
+          {
+            "position": 9,
+            "word": "وِعاءِ",
+            "context": "ظرف؛ محفظه‌ای که آن چیز در آن بود"
+          },
+          {
+            "position": 10,
+            "word": "أَخيهِ",
+            "context": "برادرش"
+          },
+          {
+            "position": 12,
+            "word": "كِدنا",
+            "context": "تدبیر کردیم؛ راهکاری برای یوسف فراهم کردیم"
+          },
+          {
+            "position": 15,
+            "word": "كانَ",
+            "context": "بود؛ در ساختِ نفی، چنین امکانی برای او نبود"
+          },
+          {
+            "position": 16,
+            "word": "لِيَأخُذَ",
+            "context": "تا بگیرد؛ در این سیاق، نزد خود بازدارد"
+          },
+          {
+            "position": 17,
+            "word": "أَخاهُ",
+            "context": "برادرش"
+          },
+          {
+            "position": 19,
+            "word": "دينِ",
+            "context": "قانون یا نظم الزام‌آورِ پادشاه"
+          },
+          {
+            "position": 20,
+            "word": "المَلِكِ",
+            "context": "پادشاه"
+          },
+          {
+            "position": 23,
+            "word": "يَشاءَ",
+            "context": "بخواهد"
+          },
+          {
+            "position": 25,
+            "word": "نَرفَعُ",
+            "context": "بالا می‌بریم؛ مرتبه می‌بخشیم"
+          },
+          {
+            "position": 26,
+            "word": "دَرَجٰتٍ",
+            "context": "درجات؛ مرتبه‌ها"
+          },
+          {
+            "position": 28,
+            "word": "نَشاءُ",
+            "context": "می‌خواهیم"
+          },
+          {
+            "position": 29,
+            "word": "وَفَوقَ",
+            "context": "و بالاتر از"
+          },
+          {
+            "position": 30,
+            "word": "كُلِّ",
+            "context": "هر؛ همهٔ صاحبان دانش را دربرمی‌گیرد"
+          },
+          {
+            "position": 32,
+            "word": "عِلمٍ",
+            "context": "دانش"
+          },
+          {
+            "position": 33,
+            "word": "عَليمٌ",
+            "context": "دانا؛ صاحب آگاهی"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/021-al-anbiya/units/104.html",
+        "verse": "21:104",
+        "added": [
+          {
+            "position": 1,
+            "word": "يَومَ",
+            "context": "روز؛ هنگامِ رویداد یادشده"
+          },
+          {
+            "position": 2,
+            "word": "نَطوِى",
+            "context": "درهم می‌پیچیم"
+          },
+          {
+            "position": 3,
+            "word": "السَّماءَ",
+            "context": "آسمان"
+          },
+          {
+            "position": 4,
+            "word": "كَطَىِّ",
+            "context": "همچون درهم پیچیدن"
+          },
+          {
+            "position": 5,
+            "word": "السِّجِلِّ",
+            "context": "طومار؛ صفحهٔ نوشته‌شده"
+          },
+          {
+            "position": 6,
+            "word": "لِلكُتُبِ",
+            "context": "برای نوشته‌ها"
+          },
+          {
+            "position": 8,
+            "word": "بَدَأنا",
+            "context": "آغاز کردیم؛ نخستین آفرینش را پدید آوردیم"
+          },
+          {
+            "position": 9,
+            "word": "أَوَّلَ",
+            "context": "نخستین"
+          },
+          {
+            "position": 10,
+            "word": "خَلقٍ",
+            "context": "آفرینش"
+          },
+          {
+            "position": 11,
+            "word": "نُعيدُهُ",
+            "context": "آن را بازمی‌گردانیم"
+          },
+          {
+            "position": 12,
+            "word": "وَعدًا",
+            "context": "وعده؛ تعهد بر عهدهٔ گوینده"
+          },
+          {
+            "position": 15,
+            "word": "كُنّا",
+            "context": "بودیم؛ در بیانِ تحقق و انجامِ قطعیِ وعده"
+          },
+          {
+            "position": 16,
+            "word": "فٰعِلينَ",
+            "context": "انجام‌دهندگان؛ تحقق‌بخشندگانِ آن وعده"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/027-an-naml/units/064.html",
+        "verse": "27:64",
+        "added": [
+          {
+            "position": 2,
+            "word": "يَبدَؤُا۟",
+            "context": "آفرینش را آغاز می‌کند"
+          },
+          {
+            "position": 3,
+            "word": "الخَلقَ",
+            "context": "آفرینش"
+          },
+          {
+            "position": 5,
+            "word": "يُعيدُهُ",
+            "context": "آن را بازمی‌گرداند"
+          },
+          {
+            "position": 7,
+            "word": "يَرزُقُكُم",
+            "context": "به شما روزی می‌رساند"
+          },
+          {
+            "position": 9,
+            "word": "السَّماءِ",
+            "context": "آسمان؛ مبدأِ روزیِ یادشده در این عبارت"
+          },
+          {
+            "position": 10,
+            "word": "وَالأَرضِ",
+            "context": "و زمین"
+          },
+          {
+            "position": 11,
+            "word": "أَءِلٰهٌ",
+            "context": "آیا معبودی؛ پرسش دربارهٔ معبودِ دیگر"
+          },
+          {
+            "position": 14,
+            "word": "قُل",
+            "context": "بگو"
+          },
+          {
+            "position": 16,
+            "word": "بُرهٰنَكُم",
+            "context": "برهانتان؛ دلیلِ روشنِ ادعایتان"
+          },
+          {
+            "position": 18,
+            "word": "كُنتُم",
+            "context": "باشید"
+          },
+          {
+            "position": 19,
+            "word": "صٰدِقينَ",
+            "context": "راست‌گویان"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/029-al-ankabut/units/019.html",
+        "verse": "29:19",
+        "added": [
+          {
+            "position": 2,
+            "word": "يَرَوا",
+            "context": "ببینند و دریابند؛ در ساخت پرسشِ منفی"
+          },
+          {
+            "position": 4,
+            "word": "يُبدِئُ",
+            "context": "آفرینش را آغاز می‌کند"
+          },
+          {
+            "position": 6,
+            "word": "الخَلقَ",
+            "context": "آفرینش"
+          },
+          {
+            "position": 8,
+            "word": "يُعيدُهُ",
+            "context": "آن را بازمی‌گرداند"
+          },
+          {
+            "position": 13,
+            "word": "يَسيرٌ",
+            "context": "آسان"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/029-al-ankabut/units/020.html",
+        "verse": "29:20",
+        "added": [
+          {
+            "position": 1,
+            "word": "قُل",
+            "context": "بگو"
+          },
+          {
+            "position": 2,
+            "word": "سيروا",
+            "context": "سیر کنید؛ در زمین حرکت کنید"
+          },
+          {
+            "position": 4,
+            "word": "الأَرضِ",
+            "context": "زمین"
+          },
+          {
+            "position": 5,
+            "word": "فَانظُروا",
+            "context": "پس بنگرید و بررسی کنید"
+          },
+          {
+            "position": 7,
+            "word": "بَدَأَ",
+            "context": "آفرینش را آغاز کرد"
+          },
+          {
+            "position": 8,
+            "word": "الخَلقَ",
+            "context": "آفرینش"
+          },
+          {
+            "position": 11,
+            "word": "يُنشِئُ",
+            "context": "پدید می‌آورد؛ نشئهٔ دیگر را برپا می‌سازد"
+          },
+          {
+            "position": 12,
+            "word": "النَّشأَةَ",
+            "context": "نشئه؛ پدیدآمدن و صورتِ آفرینش"
+          },
+          {
+            "position": 13,
+            "word": "الـٔاخِرَةَ",
+            "context": "دیگر؛ پسین در برابر آفرینش نخست"
+          },
+          {
+            "position": 17,
+            "word": "كُلِّ",
+            "context": "هر؛ بدون محدود کردن به امری خاص"
+          },
+          {
+            "position": 18,
+            "word": "شَىءٍ",
+            "context": "چیز؛ هر امر و موضوع"
+          },
+          {
+            "position": 19,
+            "word": "قَديرٌ",
+            "context": "توانا"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/030-ar-rum/units/011.html",
+        "verse": "30:11",
+        "added": [
+          {
+            "position": 2,
+            "word": "يَبدَؤُا۟",
+            "context": "آفرینش را آغاز می‌کند"
+          },
+          {
+            "position": 3,
+            "word": "الخَلقَ",
+            "context": "آفرینش"
+          },
+          {
+            "position": 5,
+            "word": "يُعيدُهُ",
+            "context": "آن را بازمی‌گرداند"
+          },
+          {
+            "position": 8,
+            "word": "تُرجَعونَ",
+            "context": "بازگردانده می‌شوید"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/030-ar-rum/units/027.html",
+        "verse": "30:27",
+        "added": [
+          {
+            "position": 3,
+            "word": "يَبدَؤُا۟",
+            "context": "آفرینش را آغاز می‌کند"
+          },
+          {
+            "position": 4,
+            "word": "الخَلقَ",
+            "context": "آفرینش"
+          },
+          {
+            "position": 6,
+            "word": "يُعيدُهُ",
+            "context": "آن را بازمی‌گرداند"
+          },
+          {
+            "position": 8,
+            "word": "أَهوَنُ",
+            "context": "آسان‌تر؛ مقایسهٔ بازگرداندن با آغاز آفرینش"
+          },
+          {
+            "position": 11,
+            "word": "المَثَلُ",
+            "context": "وصف و نمونهٔ برتر"
+          },
+          {
+            "position": 12,
+            "word": "الأَعلىٰ",
+            "context": "برترین؛ بالاترین"
+          },
+          {
+            "position": 14,
+            "word": "السَّمٰوٰتِ",
+            "context": "آسمان‌ها"
+          },
+          {
+            "position": 15,
+            "word": "وَالأَرضِ",
+            "context": "و زمین"
+          },
+          {
+            "position": 17,
+            "word": "العَزيزُ",
+            "context": "توانا و شکست‌ناپذیر"
+          },
+          {
+            "position": 18,
+            "word": "الحَكيمُ",
+            "context": "حکیم؛ دارای تدبیر و حکم استوار"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/032-as-sajdah/units/007.html",
+        "verse": "32:7",
+        "added": [
+          {
+            "position": 2,
+            "word": "أَحسَنَ",
+            "context": "نیکو ساخت"
+          },
+          {
+            "position": 3,
+            "word": "كُلَّ",
+            "context": "هر؛ همهٔ آفریده‌ها را دربرمی‌گیرد"
+          },
+          {
+            "position": 4,
+            "word": "شَىءٍ",
+            "context": "چیز؛ هر آفریده در این عبارت"
+          },
+          {
+            "position": 5,
+            "word": "خَلَقَهُ",
+            "context": "آن را آفرید"
+          },
+          {
+            "position": 6,
+            "word": "وَبَدَأَ",
+            "context": "و آغاز کرد؛ آفرینش انسان را شروع کرد"
+          },
+          {
+            "position": 7,
+            "word": "خَلقَ",
+            "context": "آفرینش"
+          },
+          {
+            "position": 8,
+            "word": "الإِنسٰنِ",
+            "context": "انسان؛ نوع انسان در این عبارت"
+          },
+          {
+            "position": 10,
+            "word": "طينٍ",
+            "context": "گِل؛ ماده یا منشأِ بیان‌شده برای آغاز"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/034-saba/units/049.html",
+        "verse": "34:49",
+        "added": [
+          {
+            "position": 1,
+            "word": "قُل",
+            "context": "بگو"
+          },
+          {
+            "position": 2,
+            "word": "جاءَ",
+            "context": "آمد؛ حق حاضر و آشکار شد"
+          },
+          {
+            "position": 3,
+            "word": "الحَقُّ",
+            "context": "حق؛ امر راست و استوار"
+          },
+          {
+            "position": 5,
+            "word": "يُبدِئُ",
+            "context": "آغاز می‌کند؛ در ساخت نفی، آغاز کردن از باطل نفی می‌شود"
+          },
+          {
+            "position": 6,
+            "word": "البٰطِلُ",
+            "context": "باطل؛ آنچه در برابر حق بی‌پایه است"
+          },
+          {
+            "position": 8,
+            "word": "يُعيدُ",
+            "context": "بازمی‌گرداند؛ در ساخت نفی آمده است"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/085-al-buruj/units/013.html",
+        "verse": "85:13",
+        "added": [
+          {
+            "position": 3,
+            "word": "يُبدِئُ",
+            "context": "آغاز می‌کند؛ مفعول در خود عبارت نام برده نشده است"
+          },
+          {
+            "position": 4,
+            "word": "وَيُعيدُ",
+            "context": "و بازمی‌گرداند"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/007-al-araf/units/029.html",
+        "verse": "7:29",
+        "added": [
+          {
+            "position": 1,
+            "word": "قُل",
+            "context": "Say"
+          },
+          {
+            "position": 2,
+            "word": "أَمَرَ",
+            "context": "Has commanded"
+          },
+          {
+            "position": 3,
+            "word": "رَبّى",
+            "context": "My Lord"
+          },
+          {
+            "position": 4,
+            "word": "بِالقِسطِ",
+            "context": "Justice and fair dealing"
+          },
+          {
+            "position": 5,
+            "word": "وَأَقيموا",
+            "context": "And set upright or direct firmly"
+          },
+          {
+            "position": 6,
+            "word": "وُجوهَكُم",
+            "context": "Your faces and direction of turning"
+          },
+          {
+            "position": 8,
+            "word": "كُلِّ",
+            "context": "Every, encompassing each instance"
+          },
+          {
+            "position": 9,
+            "word": "مَسجِدٍ",
+            "context": "A place of prostration and worship"
+          },
+          {
+            "position": 10,
+            "word": "وَادعوهُ",
+            "context": "And call upon Him"
+          },
+          {
+            "position": 11,
+            "word": "مُخلِصينَ",
+            "context": "Making devotion exclusive, without mixing it with another object"
+          },
+          {
+            "position": 13,
+            "word": "الدّينَ",
+            "context": "Devotion and binding allegiance"
+          },
+          {
+            "position": 15,
+            "word": "بَدَأَكُم",
+            "context": "He originated you initially"
+          },
+          {
+            "position": 16,
+            "word": "تَعودونَ",
+            "context": "You return"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/009-at-tawbah/units/013.html",
+        "verse": "9:13",
+        "added": [
+          {
+            "position": 2,
+            "word": "تُقٰتِلونَ",
+            "context": "You fight them, engaging in combat"
+          },
+          {
+            "position": 3,
+            "word": "قَومًا",
+            "context": "A people, a connected group"
+          },
+          {
+            "position": 4,
+            "word": "نَكَثوا",
+            "context": "Broke, violating their pledges"
+          },
+          {
+            "position": 5,
+            "word": "أَيمٰنَهُم",
+            "context": "Their oaths and pledges"
+          },
+          {
+            "position": 6,
+            "word": "وَهَمّوا",
+            "context": "And intended or resolved"
+          },
+          {
+            "position": 7,
+            "word": "بِإِخراجِ",
+            "context": "Expelling, driving out"
+          },
+          {
+            "position": 8,
+            "word": "الرَّسولِ",
+            "context": "The Messenger, the one sent to convey the message"
+          },
+          {
+            "position": 10,
+            "word": "بَدَءوكُم",
+            "context": "They began against you first, here taking the initiative in hostility"
+          },
+          {
+            "position": 11,
+            "word": "أَوَّلَ",
+            "context": "First"
+          },
+          {
+            "position": 12,
+            "word": "مَرَّةٍ",
+            "context": "An occasion or time"
+          },
+          {
+            "position": 13,
+            "word": "أَتَخشَونَهُم",
+            "context": "Do you fear them?"
+          },
+          {
+            "position": 15,
+            "word": "أَحَقُّ",
+            "context": "More entitled or worthy"
+          },
+          {
+            "position": 17,
+            "word": "تَخشَوهُ",
+            "context": "You hold Him in reverent fear"
+          },
+          {
+            "position": 19,
+            "word": "كُنتُم",
+            "context": "You are"
+          },
+          {
+            "position": 20,
+            "word": "مُؤمِنينَ",
+            "context": "Believers"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/010-yunus/units/004.html",
+        "verse": "10:4",
+        "added": [
+          {
+            "position": 2,
+            "word": "مَرجِعُكُم",
+            "context": "Your return"
+          },
+          {
+            "position": 3,
+            "word": "جَميعًا",
+            "context": "All together, encompassing the addressed group"
+          },
+          {
+            "position": 4,
+            "word": "وَعدَ",
+            "context": "A promise, an announced commitment"
+          },
+          {
+            "position": 6,
+            "word": "حَقًّا",
+            "context": "In truth, a true and established promise"
+          },
+          {
+            "position": 8,
+            "word": "يَبدَؤُا۟",
+            "context": "Begins creation"
+          },
+          {
+            "position": 9,
+            "word": "الخَلقَ",
+            "context": "Creation"
+          },
+          {
+            "position": 11,
+            "word": "يُعيدُهُ",
+            "context": "Then restores it"
+          },
+          {
+            "position": 12,
+            "word": "لِيَجزِىَ",
+            "context": "To recompense, rendering the fitting outcome of deeds"
+          },
+          {
+            "position": 14,
+            "word": "ءامَنوا",
+            "context": "Believed"
+          },
+          {
+            "position": 15,
+            "word": "وَعَمِلُوا",
+            "context": "And performed"
+          },
+          {
+            "position": 16,
+            "word": "الصّٰلِحٰتِ",
+            "context": "Good or fitting deeds"
+          },
+          {
+            "position": 17,
+            "word": "بِالقِسطِ",
+            "context": "With justice"
+          },
+          {
+            "position": 19,
+            "word": "كَفَروا",
+            "context": "Disbelieved, rejecting truth"
+          },
+          {
+            "position": 21,
+            "word": "شَرابٌ",
+            "context": "A drink"
+          },
+          {
+            "position": 23,
+            "word": "حَميمٍ",
+            "context": "Boiling or intensely hot water"
+          },
+          {
+            "position": 24,
+            "word": "وَعَذابٌ",
+            "context": "And punishment or suffering"
+          },
+          {
+            "position": 25,
+            "word": "أَليمٌ",
+            "context": "Painful"
+          },
+          {
+            "position": 27,
+            "word": "كانوا",
+            "context": "Were, within the description of their continuing conduct"
+          },
+          {
+            "position": 28,
+            "word": "يَكفُرونَ",
+            "context": "They disbelieved"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/010-yunus/units/034.html",
+        "verse": "10:34",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/en/012-yusuf/units/076.html",
+        "verse": "12:76",
+        "added": [
+          {
+            "position": 1,
+            "word": "فَبَدَأَ",
+            "context": "Then he began, starting the examination with those containers"
+          },
+          {
+            "position": 2,
+            "word": "بِأَوعِيَتِهِم",
+            "context": "With their containers, the receptacles holding their belongings"
+          },
+          {
+            "position": 3,
+            "word": "قَبلَ",
+            "context": "Before"
+          },
+          {
+            "position": 4,
+            "word": "وِعاءِ",
+            "context": "The container or baggage of his brother"
+          },
+          {
+            "position": 5,
+            "word": "أَخيهِ",
+            "context": "His brother"
+          },
+          {
+            "position": 7,
+            "word": "استَخرَجَها",
+            "context": "He brought it out"
+          },
+          {
+            "position": 9,
+            "word": "وِعاءِ",
+            "context": "The container in which it was found"
+          },
+          {
+            "position": 10,
+            "word": "أَخيهِ",
+            "context": "His brother"
+          },
+          {
+            "position": 12,
+            "word": "كِدنا",
+            "context": "We devised, arranging a means for Joseph"
+          },
+          {
+            "position": 15,
+            "word": "كانَ",
+            "context": "Was, negated within the expression of his inability"
+          },
+          {
+            "position": 16,
+            "word": "لِيَأخُذَ",
+            "context": "To take, here detaining with himself"
+          },
+          {
+            "position": 17,
+            "word": "أَخاهُ",
+            "context": "His brother"
+          },
+          {
+            "position": 19,
+            "word": "دينِ",
+            "context": "The king’s law or binding order"
+          },
+          {
+            "position": 20,
+            "word": "المَلِكِ",
+            "context": "The king"
+          },
+          {
+            "position": 23,
+            "word": "يَشاءَ",
+            "context": "Wills"
+          },
+          {
+            "position": 25,
+            "word": "نَرفَعُ",
+            "context": "We raise in rank"
+          },
+          {
+            "position": 26,
+            "word": "دَرَجٰتٍ",
+            "context": "Degrees or ranks"
+          },
+          {
+            "position": 28,
+            "word": "نَشاءُ",
+            "context": "We will"
+          },
+          {
+            "position": 29,
+            "word": "وَفَوقَ",
+            "context": "And above"
+          },
+          {
+            "position": 30,
+            "word": "كُلِّ",
+            "context": "Every, encompassing each possessor of knowledge"
+          },
+          {
+            "position": 32,
+            "word": "عِلمٍ",
+            "context": "Knowledge"
+          },
+          {
+            "position": 33,
+            "word": "عَليمٌ",
+            "context": "One who knows"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/021-al-anbiya/units/104.html",
+        "verse": "21:104",
+        "added": [
+          {
+            "position": 1,
+            "word": "يَومَ",
+            "context": "The day or time of the described event"
+          },
+          {
+            "position": 2,
+            "word": "نَطوِى",
+            "context": "We roll up"
+          },
+          {
+            "position": 3,
+            "word": "السَّماءَ",
+            "context": "The heaven"
+          },
+          {
+            "position": 4,
+            "word": "كَطَىِّ",
+            "context": "Like the rolling up"
+          },
+          {
+            "position": 5,
+            "word": "السِّجِلِّ",
+            "context": "A scroll or written sheet"
+          },
+          {
+            "position": 6,
+            "word": "لِلكُتُبِ",
+            "context": "For writings"
+          },
+          {
+            "position": 8,
+            "word": "بَدَأنا",
+            "context": "We began, bringing forth the first creation"
+          },
+          {
+            "position": 9,
+            "word": "أَوَّلَ",
+            "context": "First"
+          },
+          {
+            "position": 10,
+            "word": "خَلقٍ",
+            "context": "Creation"
+          },
+          {
+            "position": 11,
+            "word": "نُعيدُهُ",
+            "context": "We restore it"
+          },
+          {
+            "position": 12,
+            "word": "وَعدًا",
+            "context": "A promise or commitment binding upon the speaker"
+          },
+          {
+            "position": 15,
+            "word": "كُنّا",
+            "context": "Were, within the assurance of fulfilment"
+          },
+          {
+            "position": 16,
+            "word": "فٰعِلينَ",
+            "context": "Those who perform or fulfil that promise"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/027-an-naml/units/064.html",
+        "verse": "27:64",
+        "added": [
+          {
+            "position": 2,
+            "word": "يَبدَؤُا۟",
+            "context": "Begins creation"
+          },
+          {
+            "position": 3,
+            "word": "الخَلقَ",
+            "context": "Creation"
+          },
+          {
+            "position": 5,
+            "word": "يُعيدُهُ",
+            "context": "Restores it"
+          },
+          {
+            "position": 7,
+            "word": "يَرزُقُكُم",
+            "context": "Provides for you"
+          },
+          {
+            "position": 9,
+            "word": "السَّماءِ",
+            "context": "The heaven, a stated source of provision"
+          },
+          {
+            "position": 10,
+            "word": "وَالأَرضِ",
+            "context": "And the earth"
+          },
+          {
+            "position": 11,
+            "word": "أَءِلٰهٌ",
+            "context": "Is there a deity, questioning another object of worship"
+          },
+          {
+            "position": 14,
+            "word": "قُل",
+            "context": "Say"
+          },
+          {
+            "position": 16,
+            "word": "بُرهٰنَكُم",
+            "context": "Your proof, clear evidence for your claim"
+          },
+          {
+            "position": 18,
+            "word": "كُنتُم",
+            "context": "You are"
+          },
+          {
+            "position": 19,
+            "word": "صٰدِقينَ",
+            "context": "Truthful"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/029-al-ankabut/units/019.html",
+        "verse": "29:19",
+        "added": [
+          {
+            "position": 2,
+            "word": "يَرَوا",
+            "context": "See or perceive, within a negative question"
+          },
+          {
+            "position": 4,
+            "word": "يُبدِئُ",
+            "context": "Begins creation"
+          },
+          {
+            "position": 6,
+            "word": "الخَلقَ",
+            "context": "Creation"
+          },
+          {
+            "position": 8,
+            "word": "يُعيدُهُ",
+            "context": "Restores it"
+          },
+          {
+            "position": 13,
+            "word": "يَسيرٌ",
+            "context": "Easy"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/029-al-ankabut/units/020.html",
+        "verse": "29:20",
+        "added": [
+          {
+            "position": 1,
+            "word": "قُل",
+            "context": "Say"
+          },
+          {
+            "position": 2,
+            "word": "سيروا",
+            "context": "Travel, move through the earth"
+          },
+          {
+            "position": 4,
+            "word": "الأَرضِ",
+            "context": "The earth"
+          },
+          {
+            "position": 5,
+            "word": "فَانظُروا",
+            "context": "Then observe and consider"
+          },
+          {
+            "position": 7,
+            "word": "بَدَأَ",
+            "context": "Began creation"
+          },
+          {
+            "position": 8,
+            "word": "الخَلقَ",
+            "context": "Creation"
+          },
+          {
+            "position": 11,
+            "word": "يُنشِئُ",
+            "context": "Brings forth or establishes the other creation"
+          },
+          {
+            "position": 12,
+            "word": "النَّشأَةَ",
+            "context": "An arising or creation"
+          },
+          {
+            "position": 13,
+            "word": "الـٔاخِرَةَ",
+            "context": "The other or later, contrasted with the first creation"
+          },
+          {
+            "position": 17,
+            "word": "كُلِّ",
+            "context": "Every, without restricting it to a particular matter"
+          },
+          {
+            "position": 18,
+            "word": "شَىءٍ",
+            "context": "Thing, any matter"
+          },
+          {
+            "position": 19,
+            "word": "قَديرٌ",
+            "context": "Capable"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/030-ar-rum/units/011.html",
+        "verse": "30:11",
+        "added": [
+          {
+            "position": 2,
+            "word": "يَبدَؤُا۟",
+            "context": "Begins creation"
+          },
+          {
+            "position": 3,
+            "word": "الخَلقَ",
+            "context": "Creation"
+          },
+          {
+            "position": 5,
+            "word": "يُعيدُهُ",
+            "context": "Restores it"
+          },
+          {
+            "position": 8,
+            "word": "تُرجَعونَ",
+            "context": "You are returned"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/030-ar-rum/units/027.html",
+        "verse": "30:27",
+        "added": [
+          {
+            "position": 3,
+            "word": "يَبدَؤُا۟",
+            "context": "Begins creation"
+          },
+          {
+            "position": 4,
+            "word": "الخَلقَ",
+            "context": "Creation"
+          },
+          {
+            "position": 6,
+            "word": "يُعيدُهُ",
+            "context": "Restores it"
+          },
+          {
+            "position": 8,
+            "word": "أَهوَنُ",
+            "context": "Easier, comparing restoration with first creation"
+          },
+          {
+            "position": 11,
+            "word": "المَثَلُ",
+            "context": "The highest description or example"
+          },
+          {
+            "position": 12,
+            "word": "الأَعلىٰ",
+            "context": "The highest"
+          },
+          {
+            "position": 14,
+            "word": "السَّمٰوٰتِ",
+            "context": "The heavens"
+          },
+          {
+            "position": 15,
+            "word": "وَالأَرضِ",
+            "context": "And the earth"
+          },
+          {
+            "position": 17,
+            "word": "العَزيزُ",
+            "context": "The Mighty, invincible"
+          },
+          {
+            "position": 18,
+            "word": "الحَكيمُ",
+            "context": "The Wise, with sound judgment and ordering"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/032-as-sajdah/units/007.html",
+        "verse": "32:7",
+        "added": [
+          {
+            "position": 2,
+            "word": "أَحسَنَ",
+            "context": "Made good"
+          },
+          {
+            "position": 3,
+            "word": "كُلَّ",
+            "context": "Every, encompassing what He created"
+          },
+          {
+            "position": 4,
+            "word": "شَىءٍ",
+            "context": "Thing, each created thing here"
+          },
+          {
+            "position": 5,
+            "word": "خَلَقَهُ",
+            "context": "He created it"
+          },
+          {
+            "position": 6,
+            "word": "وَبَدَأَ",
+            "context": "And began, initiating human creation"
+          },
+          {
+            "position": 7,
+            "word": "خَلقَ",
+            "context": "Creation"
+          },
+          {
+            "position": 8,
+            "word": "الإِنسٰنِ",
+            "context": "The human being, humankind in this expression"
+          },
+          {
+            "position": 10,
+            "word": "طينٍ",
+            "context": "Clay, the stated material or origin of the beginning"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/034-saba/units/049.html",
+        "verse": "34:49",
+        "added": [
+          {
+            "position": 1,
+            "word": "قُل",
+            "context": "Say"
+          },
+          {
+            "position": 2,
+            "word": "جاءَ",
+            "context": "Has come, truth arriving or becoming present"
+          },
+          {
+            "position": 3,
+            "word": "الحَقُّ",
+            "context": "Truth, what is true and established"
+          },
+          {
+            "position": 5,
+            "word": "يُبدِئُ",
+            "context": "Begins, negated here of falsehood"
+          },
+          {
+            "position": 6,
+            "word": "البٰطِلُ",
+            "context": "Falsehood, what is groundless before truth"
+          },
+          {
+            "position": 8,
+            "word": "يُعيدُ",
+            "context": "Restores, within a negative construction"
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/085-al-buruj/units/013.html",
+        "verse": "85:13",
+        "added": [
+          {
+            "position": 3,
+            "word": "يُبدِئُ",
+            "context": "Begins, with no object explicitly named in the phrase"
+          },
+          {
+            "position": 4,
+            "word": "وَيُعيدُ",
+            "context": "And restores"
+          }
+        ]
+      }
+    ],
+    "added_context_fields": 280
+  },
+  "root_assignment_audit": {
+    "method": "All 160 assigned Persian lexical roots in the fourteen verses compared with exact primary corpus positions; English words and study destinations aligned. The alternative BDA reading at 11:27 is discussed separately: its installed baseline BDW verse is not edited. Existing 10:34 contexts and all rootless grammatical treatments preserved.",
+    "verses": [
+      {
+        "verse": "7:29",
+        "assigned_root_positions_confirmed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          13,
+          15,
+          16
+        ]
+      },
+      {
+        "verse": "9:13",
+        "assigned_root_positions_confirmed": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          17,
+          19,
+          20
+        ]
+      },
+      {
+        "verse": "10:4",
+        "assigned_root_positions_confirmed": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          19,
+          21,
+          23,
+          24,
+          25,
+          27,
+          28
+        ]
+      },
+      {
+        "verse": "10:34",
+        "assigned_root_positions_confirmed": [
+          1,
+          4,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          17
+        ]
+      },
+      {
+        "verse": "12:76",
+        "assigned_root_positions_confirmed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          10,
+          12,
+          15,
+          16,
+          17,
+          19,
+          20,
+          23,
+          24,
+          25,
+          26,
+          28,
+          29,
+          30,
+          32,
+          33
+        ]
+      },
+      {
+        "verse": "21:104",
+        "assigned_root_positions_confirmed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          15,
+          16
+        ]
+      },
+      {
+        "verse": "27:64",
+        "assigned_root_positions_confirmed": [
+          2,
+          3,
+          5,
+          7,
+          9,
+          10,
+          11,
+          13,
+          14,
+          16,
+          18,
+          19
+        ]
+      },
+      {
+        "verse": "29:19",
+        "assigned_root_positions_confirmed": [
+          2,
+          4,
+          5,
+          6,
+          8,
+          12,
+          13
+        ]
+      },
+      {
+        "verse": "29:20",
+        "assigned_root_positions_confirmed": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "verse": "30:11",
+        "assigned_root_positions_confirmed": [
+          1,
+          2,
+          3,
+          5,
+          8
+        ]
+      },
+      {
+        "verse": "30:27",
+        "assigned_root_positions_confirmed": [
+          3,
+          4,
+          6,
+          8,
+          11,
+          12,
+          14,
+          15,
+          17,
+          18
+        ]
+      },
+      {
+        "verse": "32:7",
+        "assigned_root_positions_confirmed": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10
+        ]
+      },
+      {
+        "verse": "34:49",
+        "assigned_root_positions_confirmed": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          8
+        ]
+      },
+      {
+        "verse": "85:13",
+        "assigned_root_positions_confirmed": [
+          3,
+          4
+        ]
+      }
+    ],
+    "mismatches": 0
+  },
+  "verification": {
+    "stage": "before installation",
+    "scope": "Content, links and complete word boxes only.",
+    "236_reviewed_blocks_rendered_in_order_per_language": true,
+    "full_English_mirror": true,
+    "all_17_Arabic_quotation_blocks_preserved_exactly": true,
+    "all_10_full_Quranic_quotes_and_fragment_match_installed_verses": true,
+    "all_15_root_occurrences_verified": true,
+    "13_sections_19_subheadings_9_linked_cards_per_language": true,
+    "unique_ids_resolved_fragments_no_nested_links": true,
+    "verified_individual_verse_targets": 36,
+    "verified_registered_related_root_targets": 12,
+    "only_own_registry_entry_changed": true,
+    "root_boxes_updated": 30,
+    "missing_context_fields_completed": 280,
+    "general_root_summary_branches_completed": 8,
+    "required_root_box_checker_passed_lexical_boxes": 320,
+    "canonical_Allah_boxes_in_edited_units": 20,
+    "canonical_Allah_sources_untouched": true,
+    "all_original_contexts_and_unrelated_attributes_preserved": true,
+    "verse_text_translations_and_grammar_unchanged": true,
+    "Fatihah_and_Baqarah_through_160_untouched": true,
+    "preexisting_work_preserved": true,
+    "browser_preview_run": false,
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false
+  },
+  "source_attachment_sha256": "b93681f53bed2939a822205d9c6571b0fa1721f43543971cb65e33c78f8957da",
+  "Arabic_quotations_changed": false,
+  "English_translation_complete": true
+}
