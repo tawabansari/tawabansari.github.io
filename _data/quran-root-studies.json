@@ -2676,15 +2676,15 @@
   "b-dh-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/b-dh-r/",
-      "title": "ریشهٔ ب ذ ر",
-      "summary": "پراکنده کردن؛ تبذیر در مال: پراکندن و تباه کردن دارایی.",
-      "status": "preliminary"
+      "title": "ریشهٔ ب ذ ر (بَذْر و تَبْذِير) در قرآن",
+      "summary": "«ب ذ ر» در عربی به پراکندن و پخش کردن چیزی مربوط است و در کاربرد شناخته‌شدهٔ کشاورزی، به پاشیدن دانه برای کشت اشاره دارد. در قرآن، این ریشه تنها در صورت‌های مربوط به «تبذیر» آمده و به خرج کردن و ضایع ساختن نابجای دارایی و امکانات دلالت می‌کند. تبذیر با اسراف هم‌پوشانی دارد، اما به صرف زیاد بودن هزینه محدود نیست؛ همان‌گونه که هر پراکندن، بخشیدن یا خارج کردن مال از دست صاحبش نیز تبذیر به شمار نمی‌رود. معنای نکوهیده آن با توجه به مقصد مصرف، رعایت حقوق و سیاق آیات روشن می‌شود.»",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/b-dh-r/",
-      "title": "The Root B DH R",
-      "summary": "Scattering; tabdhīr of wealth: squandering or dissipating possessions.",
-      "status": "preliminary"
+      "title": "The Qur’anic root B DH R (badhr and tabdhīr)",
+      "summary": "B DH R in Arabic concerns scattering and dispersing something; its familiar agricultural use is sowing seed. In the Qur’an the root occurs only in forms related to tabdhīr, denoting misplaced expenditure and waste of wealth and resources. Tabdhīr overlaps with isrāf but is not limited to a large amount spent; nor is every act of scattering, giving, or parting with assets squandering. Its blameworthy sense is understood through the spending’s destination, observance of rights, and the verses’ context.",
+      "status": "published"
     }
   },
   "b-gh-dad": {
@@ -3138,15 +3138,15 @@
   "b-r-j": {
     "fa": {
       "url": "/quran-terminology/fa/roots/b-r-j/",
-      "title": "ریشهٔ ب ر ج",
-      "summary": "برجستگی و آشکار بودن؛ برج: بنای بلند یا جایگاه آسمانی؛ تبرّج: خودنمایی آشکار.",
-      "status": "preliminary"
+      "title": "ریشهٔ ب ر ج (بُرْج و تَبَرُّج) در قرآن",
+      "summary": "«ب ر ج» در عربی خانواده‌ای با دو میدان معنایی شناخته‌شده است: برجستگی و آشکار بودن، و برج یا جایگاه بلند و محافظت‌شده. در قرآن، «بروج» برای برج‌های استوار زمینی و برج‌های آسمان آمده است. «تبرج» نیز به جلوه‌گری و آشکار ساختن زینت و زیبایی مربوط می‌شود. پیوند میان این کاربردها از جهت نمایان بودن قابل توضیح است، اما معنای هر صورت باید در سیاق خودش شناخته شود. از واژه «بروج» به‌تنهایی نظام دقیق نجومی، و از واژه «تبرج» به‌تنهایی تمام جزئیات احکام پوشش و رفتار اجتماعی استخراج نمی‌شود.»",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/b-r-j/",
-      "title": "The Root B R J",
-      "summary": "Prominence and visibility; burj: a tower or heavenly station; tabarruj: conspicuous self-display.",
-      "status": "preliminary"
+      "title": "The Qur’anic root B R J (burj and tabarruj)",
+      "summary": "B R J has two recognized Arabic semantic fields: prominence and visibility, and towers or elevated, protected positions. Qur’anic burūj denotes fortified earthly towers and celestial burūj. Tabarruj concerns display and making adornment and beauty visible. Visibility offers an intelligible connection between the uses, but each form requires its own context. Burūj alone establishes no precise astronomical system, and tabarruj alone supplies none of the complete details of provisions concerning covering and social conduct.",
+      "status": "published"
     }
   },
   "b-r-k": {
