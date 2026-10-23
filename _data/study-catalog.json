@@ -1861,5 +1861,25 @@
       "/en/articles/obeying-the-messenger-and-hadith-authority/",
       "/en/quran-completeness/personal-responsibility-and-quran-completeness/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/qisas-and-forgiveness-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "قصاص و عفو",
+    "description": "پژوهشی بر محور بقره ۲:۱۷۸ درباره قصاص و حیات، گستردگی معنای عبد، اختیار و مسئولیت فردی، ریشه عفو و پیوند بخشایش با عدالت و اصلاح.",
+    "format": "study",
+    "aliases": [
+      "قصاص",
+      "عفو",
+      "بخشایش",
+      "مسئولیت فردی",
+      "عبد",
+      "بقره ۲:۱۷۸"
+    ],
+    "related": [
+      "/fa/quran-terminology/sabr-in-the-quran/"
+    ]
   }
 ]
