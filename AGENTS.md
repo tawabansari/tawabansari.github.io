@@ -27,6 +27,14 @@ Apply the same definition and link to diacritic/spelling variants and attached f
 
 This rule concerns the root-box metadata, not verse translations or Arabic text. Change the shared definition only if the user explicitly requests it; then keep all occurrences consistent in the affected language.
 
+## Preserve word boxes in verses with existing reflections during root installation
+
+When installing or updating a root study, preserve the existing word-box text and metadata in verses that already have a ta'wil/reflection, in both Persian and English. Check the verse for existing reflection content (including `data-type="reflection"` and any included reflection files) before preparing edits. Do not replace the root label, brief root meaning, verse-specific meaning, transliteration, or notes with content from the root study. Do not remove existing notices or fill missing text fields in these protected boxes as part of root installation.
+
+Only add the relevant `data-learn-more` root-study link when it is missing. Preserve existing links; report a conflicting link for separate review. Publishing a root study must not cause shared rendering or enrichment code to overwrite these authored boxes. Make changes to protected box text only when the user explicitly requests those changes separately.
+
+This protection takes precedence over the completeness and placeholder-cleanup rules below during root installation. A link-only addition does not authorize completing or rewriting other fields or surrounding word boxes. If a content check identifies a pre-existing issue in a protected box, report it without changing the protected text. Before installation, verify that the only differences in protected boxes are the permitted missing-link additions.
+
 ## Complete verse word boxes
 
 For every newly installed or edited verse in both languages, lexical words with a `data-root` must have both a nonempty `data-root-meaning` (the general brief root meaning) and a separate `data-context` (the meaning in this verse). A contextual explanation or a root-study link does not replace the general root summary. Reuse an appropriate established summary from the same language's installed root study or word box; verify that it fits the word's root and sense. Preserve the canonical Allah metadata above. Grammatical words and proper names without an assigned lexical root should retain their appropriate notes rather than receive invented roots.
