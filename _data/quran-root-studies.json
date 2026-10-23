@@ -3292,29 +3292,29 @@
   "b-s-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/b-s-r/",
-      "title": "ریشهٔ ب س ر",
-      "summary": "درهم کشیدن چهره و عبوس شدن؛ در کاربردی دیگر، نارس بودن پیش از رسیدگی.",
-      "status": "preliminary"
+      "title": "ریشهٔ ب س ر (بُسُور و بَاسِر) در قرآن",
+      "summary": "«ب س ر» در عربی خانواده‌ای با کاربردهای مربوط به نارس بودن، اقدام پیش از موعد و درهم کشیدن چهره است. در کاربرد قرآنی، این ریشه به گرفتگی، ترش‌رویی و نمایان شدن ناخوشی در چهره اشاره دارد. «بَسَرَ» در مدثر ۷۴:۲۲ رفتار درهم کشیدن چهره را بیان می‌کند و «بَاسِرَةٌ» در قیامت ۷۵:۲۴ وصف چهره‌های گرفته و عبوس است. پیوند تاریخی این معنا با خرمای نارس یا شتاب پیش از موعد قطعی نیست و نباید آن را به ترجمه آیات تحمیل کرد. همچنین علت گرفتگی چهره، شدت نگرانی و نتیجه اخلاقی یا اخروی آن از سیاق شناخته می‌شود؛ نه از خود ریشه به‌تنهایی.»",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/b-s-r/",
-      "title": "The Root B S R",
-      "summary": "Scowling or looking grim; another use concerns being unripe or premature.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root B S R (Busūr and Bāsir)",
+      "summary": "B S R is an Arabic family with uses concerning unripeness, acting before the proper time, and drawing the face into a scowl. In Qur’anic use, it denotes grimness, scowling, and visible displeasure in the face. Basara in Al-Muddaththir 74:22 expresses scowling as a behavior, while bāsiratun in Al-Qiyāmah 75:24 describes grim, frowning faces. Its historical connection with unripe dates or premature haste is uncertain and should not be imposed on translation. The cause of facial grimness, the degree of apprehension, and its moral or otherworldly consequence are likewise understood from context, rather than from the root alone.",
+      "status": "published"
     }
   },
   "b-s-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/b-s-s/",
-      "title": "ریشهٔ ب س س",
-      "summary": "خرد و پراکنده کردن؛ و در برخی توضیح‌ها، به حرکت درآوردن و راندن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ب س س (بَسّ) در قرآن",
+      "summary": "«ب س س» در عربی دو میدان معنایی شناخته‌شده دارد: خرد و ریزریز کردن و درهم آمیختن چیزی، و راندن و به حرکت درآوردن. قرآن این ریشه را تنها در واقعه ۵۶:۵، با فعل «بُسَّتِ» و مصدر «بَسًّا»، درباره دگرگونی کوه‌ها به کار برده است. هر دو شاخه در توضیح‌های کهن آیه حضور دارند، اما با توجه به اینکه آیه بعد کوه‌ها را به غبار پراکنده تبدیل‌شده توصیف می‌کند، معنای خرد و ریزریز شدن مرجح است. کیفیت فیزیکی و مراحل دقیق این دگرگونی از خود ریشه مشخص نمی‌شود و نباید به ترجمه افزوده گردد.»",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/b-s-s/",
-      "title": "The Root B S S",
-      "summary": "Crushing and scattering; some explanations also involve driving or setting in motion.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root B S S (Bass)",
+      "summary": "B S S has two established Arabic semantic fields: crumbling something into small pieces and mixing it, and driving or setting it in motion. The Qur’an uses the root only in Al-Wāqiʿah 56:5, with the verb بُسَّتِ and verbal noun بَسًّا, concerning the mountains’ transformation. Both branches occur in older explanations, but since the following verse describes the mountains becoming scattered dust, crumbling and fragmentation are preferable here. The root itself does not specify the physical mechanism or exact stages of that transformation, and those details should not be added to translation.",
+      "status": "published"
     }
   },
   "b-s-tt": {
@@ -3628,15 +3628,15 @@
   "b-z-gh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/b-z-gh/",
-      "title": "ریشهٔ ب ز غ",
-      "summary": "برآمدن، ظاهر شدن و آغاز آشکار شدن روشناییِ جرم آسمانی.",
-      "status": "preliminary"
+      "title": "ریشهٔ ب ز غ (بُزُوغ و بَازِغ) در قرآن",
+      "summary": "«ب ز غ» در عربی به بیرون آمدن و نمایان شدن چیزی اشاره دارد که پیش‌تر از دید پنهان بوده است. در کاربرد آسمانی، این ریشه بر آغاز طلوع و برآمدن خورشید، ماه یا ستاره دلالت می‌کند؛ و در کاربردهای دیگر، برای بیرون آمدن دندان یا شکافتن پوست نیز به کار رفته است. قرآن این ریشه را تنها با دو صورت «بَازِغًا» و «بَازِغَةً» در انعام ۶:۷۷ و انعام ۶:۷۸، درباره ماه و خورشید در حال برآمدن، به کار برده است. معنای اصلی آن پدیدار شدن و آغاز طلوع است؛ نه شکافتن واقعی آسمان، نه آغاز وجود جرم آسمانی و نه نتیجه توحیدی‌ای که از مقایسه طلوع و افول در گفتار ابراهیم پدید می‌آید.»",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/b-z-gh/",
-      "title": "The Root B Z GH",
-      "summary": "Rising or appearing, especially a heavenly body coming into view with its light.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root B Z GH (Buzūgh and Bāzigh)",
+      "summary": "B Z GH in Arabic concerns something coming out and becoming visible after being hidden from sight. In celestial usage, the root denotes the beginning of the sun, moon, or a star rising and appearing; elsewhere it is also used of a tooth emerging or skin being incised. The Qur’an uses this root only in the two forms بَازِغًا and بَازِغَةً in Al-Anʿām 6:77 and Al-Anʿām 6:78, concerning the moon and sun rising. Its principal meaning is appearing and beginning to rise, rather than the sky physically splitting, a heavenly body beginning to exist, or the conclusion concerning the oneness of The God that emerges from comparing rising and setting in Ibrāhīm’s speech.",
+      "status": "published"
     }
   },
   "d-a-b": {
