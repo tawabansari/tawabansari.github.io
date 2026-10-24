@@ -5602,15 +5602,15 @@
   "f-sad-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-sad-l/",
-      "title": "ریشهٔ ف ص ل",
-      "summary": "جدا کردن و تفصیل دادن؛ فصل: جداسازی و داوری.",
-      "status": "preliminary"
+      "title": "ریشهٔ قرآنی ف ص ل (فَصَلَ)",
+      "summary": "جدا و مشخص ساختن چیزی از چیز دیگر، به‌گونه‌ای که مرز، تفاوت یا نتیجهٔ آن روشن شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-sad-l/",
-      "title": "The Root F Ṣ L",
-      "summary": "Separating or detailing; faṣl denotes distinction or decisive judgment.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root F Ṣ L (فَصَلَ)",
+      "summary": "Separating and distinguishing one thing from another so that its boundary, difference, or outcome becomes clear.",
+      "status": "published"
     }
   },
   "f-sad-m": {
@@ -8598,15 +8598,15 @@
   "h2-z-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h2-z-l/",
-      "title": "ریشهٔ ه ز ل",
-      "summary": "شوخی و سخنِ غیرجدی.",
-      "status": "preliminary"
+      "title": "ریشهٔ قرآنی ه ز ل (هَزَلَ)",
+      "summary": "شوخی و جدی نبودن سخن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h2-z-l/",
-      "title": "The Root H Z L",
-      "summary": "Joking or nonserious speech.",
-      "status": "preliminary"
+      "title": "Qur’anic root H Z L (هَزَلَ)",
+      "summary": "Joking and nonserious speech.",
+      "status": "published"
     }
   },
   "h2-z-m": {
@@ -18678,15 +18678,15 @@
   "sad-d-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sad-d-ayn/",
-      "title": "ریشهٔ ص د ع",
-      "summary": "شکافتن و جدا ساختن؛ نیز آشکارا بیان کردن یا سردرد داشتن، بنا بر صورت واژه.",
-      "status": "preliminary"
+      "title": "ریشهٔ قرآنی ص د ع (صَدَعَ)",
+      "summary": "شکافتن و گسستن پیوستگی؛ در کاربردها، شکافتگی جسم، جدایی گروه‌ها، بیان آشکار و سردرد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/sad-d-ayn/",
-      "title": "The Root Ṣ D AYN (Ṣ D ʿ)",
-      "summary": "Splitting or separating; also proclaiming openly or suffering headache, according to form.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ṣ D ʿ (صَدَعَ)",
+      "summary": "Splitting and breaking continuity; in use, physical fissures, groups separating, open proclamation, and headache.",
+      "status": "published"
     }
   },
   "sad-d-d": {
