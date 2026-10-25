@@ -2662,15 +2662,15 @@
   "b-dad-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/b-dad-ayn/",
-      "title": "ریشهٔ ب ض ع",
-      "summary": "بخش و پاره؛ بِضع: چند یا شماری اندک؛ بضاعة: کالا و سرمایهٔ قابل دادوستد.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ب ض ع",
+      "summary": "بریدن و جدا کردن پاره؛ بِضَاعَة: مال یا کالای دادوستد؛ بِضْع: چند واحد محدود، معمولاً سه تا نه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/b-dad-ayn/",
-      "title": "The Root B Ḍ AYN (B Ḍ ʿ)",
-      "summary": "A portion or part; biḍʿ: a few; biḍāʿah: merchandise or trading goods.",
-      "status": "preliminary"
+      "title": "Qur’anic Root B Ḍ ʿ",
+      "summary": "Cutting and separating a piece; biḍāʿah: trading assets or merchandise; biḍʿ: a limited number of units, ordinarily three to nine.",
+      "status": "published"
     }
   },
   "b-dh-r": {
@@ -3432,15 +3432,15 @@
   "b-tt-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/b-tt-a/",
-      "title": "ریشهٔ ب ط أ",
-      "summary": "کندی و درنگ؛ تبطئه: کند کردن یا بازداشتن از اقدام.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ب ط أ",
+      "summary": "کندی و دیرکرد در پیشرفت حرکت یا کار؛ و در ساختمان‌های سببی، کند کردن یا بازداشتن دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/b-tt-a/",
-      "title": "The Root B Ṭ A",
-      "summary": "Slowness or delay; tabṭiʾah: slowing down or discouraging action.",
-      "status": "preliminary"
+      "title": "Qur’anic Root B Ṭ ʾ",
+      "summary": "Slowness and delay in the progress of movement or an undertaking; in causative constructions, slowing or holding another person back.",
+      "status": "published"
     }
   },
   "b-tt-l": {
@@ -3474,15 +3474,15 @@
   "b-tt-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/b-tt-r/",
-      "title": "ریشهٔ ب ط ر",
-      "summary": "سرمستیِ ناسپاسانه و رفتار خودپسندانه در برخورداری از نعمت.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ب ط ر",
+      "summary": "سرمستی و خودبزرگ‌بینی در برخورد با نعمت، توانایی یا برخورداری، همراه با ناسپاسی، زیاده‌روی یا رفتار ناسنجیده.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/b-tt-r/",
-      "title": "The Root B Ṭ R",
-      "summary": "Ungrateful exultation and conceited conduct while enjoying prosperity.",
-      "status": "preliminary"
+      "title": "Qur’anic Root B Ṭ R",
+      "summary": "Exultation and arrogance in responding to blessings, ability, or privilege, accompanied by ingratitude, excess, or ill-considered conduct.",
+      "status": "published"
     }
   },
   "b-tt-sh": {
