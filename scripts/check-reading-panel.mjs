@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {studyURL,isReadingReference} from '../assets/js/reading-panel.mjs';
+import {studyURL,isReadingReference,isSamePageVerseReference} from '../assets/js/reading-panel.mjs';
 const base='https://forqan.co/quran-reflection/en/002-al-baqarah/';
 for(const path of ['/quran-terminology/en/roots/a-m-n/','/fa/articles/quranic-marriage/','/en/salat/','/fa/quran-terminology/iman/','/quran-reflection/en/002-al-baqarah/'])assert.equal(studyURL(path,base)?.pathname,path);
 for(const path of ['https://other.example/en/articles/a/','javascript:alert(1)','/assets/book.pdf','/assets/data.json','mailto:hello@example.org','tel:123','/search/','/quran-terminology/fa/roots/','/en/','/about.html','/en/articles/','/en/quran-terminology/','/quran-reflection/en/surahs/'])assert.equal(studyURL(path,base),null);
@@ -29,3 +29,15 @@ for(const lang of ['en','fa']){
  assert.ok(html.includes('/assets/js/reading-panel.mjs'));assert.ok(html.includes('/assets/css/reading-panel.css'));
 }
 console.log('Passed reading panel route eligibility, external-link exclusion, clean study links, and bilingual generated integration.');
+
+// Regression: citations from 2:185 to 2:184 preview on desktop in both languages.
+for (const lang of ['fa','en']) {
+ const source = `https://forqan.co/quran-reflection/${lang}/002-al-baqarah/#ayah-185`;
+ const citation = {href:`/quran-reflection/${lang}/002-al-baqarah/#ayah-184`, closest:selector => ['#main-content,.root-popover','.details-content'].includes(selector) ? {} : null};
+ assert.equal(isSamePageVerseReference(citation,source,true),true);
+ assert.equal(isSamePageVerseReference(citation,source,false),false);
+ assert.equal(isSamePageVerseReference({...citation,closest:selector=>selector==='#main-content,.root-popover'?{}:null},source,true),false);
+ assert.equal(isSamePageVerseReference({...citation,closest:()=>({})},source,true),false);
+ assert.equal(isSamePageVerseReference({...citation,href:'#contents'},source,true),false);
+}
+console.log('Passed same-surah citations, mobile preservation, and navigation exclusions.');

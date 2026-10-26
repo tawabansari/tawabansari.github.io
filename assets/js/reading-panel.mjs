@@ -22,6 +22,14 @@ export function isReadingReference(link, base, desktop = desktopReading()) {
   if(!link.closest('#main-content,.root-popover'))return false;
   return !link.closest('nav,header,footer,.breadcrumbs,.forqan-pathway-shell,.study-context,.mirror-link,.language-mirror-link,.language-switcher,[data-language],[hreflang],[data-panel-open]');
 }
+// Same-surah citations in authored reading content are previews, not navigation.
+export function isSamePageVerseReference(link, base, desktop = desktopReading()) {
+  if (!desktop || !isReadingReference(link, base, desktop)) return false;
+  const target = studyURL(link.href, base, desktop), current = new URL(base);
+  return target.pathname === current.pathname && target.search === current.search
+    && /^#ayah-\d+$/.test(target.hash)
+    && !!link.closest('.details-content');
+}
 function init(){
   if(window.self!==window.top || !window.HTMLDialogElement)return;
   const fa=document.documentElement.lang.startsWith('fa');
@@ -99,7 +107,7 @@ function init(){
     if(!link||link.hasAttribute('data-panel-open')||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||link.hasAttribute('download'))return;
     if(!isReadingReference(link,location.href))return;
     const url=studyURL(link.href,location.href);if(!url)return;
-    if(url.pathname===location.pathname && url.search===location.search)return;
+    if(url.pathname===location.pathname && url.search===location.search && !isSamePageVerseReference(link,location.href))return;
     event.preventDefault();event.stopImmediatePropagation();
     focusOrigin=link;scrollPosition=window.scrollY;oldOverflow=document.body.style.overflow;
     stack=[{url:url.href,title:link.textContent.trim()}];historyId=Date.now();history.pushState({...history.state,studyPanel:historyId},'',location.href);
