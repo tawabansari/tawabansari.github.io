@@ -1902,5 +1902,51 @@
     "related": [
       "/en/quran-terminology/sabr-in-the-quran/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/siyam-and-fidyah-in-the-quran/",
+    "collections": [
+      "terminology",
+      "completeness"
+    ],
+    "concept": "صیام و فدیه",
+    "description": "بررسی پیوستهٔ آیات صیام، نقد ادعای نسخ و سخت‌گیری‌های موروثی",
+    "format": "study",
+    "aliases": [
+      "صیام",
+      "صوم",
+      "روزه",
+      "فدیه",
+      "رمضان",
+      "طاقت"
+    ],
+    "related": [
+      "/fa/quran-terminology/naskh-in-the-quran/",
+      "/fa/quran-terminology/taqwa/",
+      "/fa/quran-terminology/sultan-logic-in-quran/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/siyam-and-fidyah-in-the-quran/",
+    "collections": [
+      "terminology",
+      "completeness"
+    ],
+    "concept": "Siyam (fasting) and fidyah (compensation)",
+    "description": "Reading the fasting passages together: compensation for hardship, claims of abrogation, and inherited restrictions.",
+    "format": "study",
+    "aliases": [
+      "Siyam",
+      "Sawm",
+      "Fasting",
+      "Fidyah",
+      "Ramadan",
+      "Human capacity"
+    ],
+    "related": [
+      "/en/quran-terminology/naskh-in-the-quran/",
+      "/en/quran-terminology/taqwa/",
+      "/en/quran-terminology/sultan-logic-in-quran/"
+    ]
   }
 ]
