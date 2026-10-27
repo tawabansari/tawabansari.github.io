@@ -1,7 +1,40 @@
 {
-  "a-m-n": ["Iman", "Mumin", "Momen"],
-  "n-s-kh": ["Naskh"],
-  "sad-l-w": ["Salat", "Salah", "صلاة", "صلوة"],
-  "sh-tt-n": ["Shaytan", "Shaitan"],
-  "z-k-w": ["Zakat", "Zakah", "زكاة", "زکات"]
+  "a-m-n": [
+    "Iman",
+    "Mumin",
+    "Momen"
+  ],
+  "n-s-kh": [
+    "Naskh"
+  ],
+  "sad-l-w": [
+    "Salat",
+    "Salah",
+    "صلاة",
+    "صلوة"
+  ],
+  "sh-tt-n": [
+    "Shaytan",
+    "Shaitan"
+  ],
+  "z-k-w": [
+    "Zakat",
+    "Zakah",
+    "زكاة",
+    "زکات"
+  ],
+  "sad-w-m": [
+    "روزه",
+    "روزه گرفتن",
+    "fasting",
+    "sawm",
+    "saum",
+    "siyam",
+    "صوم",
+    "صَوْم",
+    "صیام",
+    "صيام",
+    "الصیام",
+    "الصيام"
+  ]
 }

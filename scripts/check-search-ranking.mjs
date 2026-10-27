@@ -55,6 +55,20 @@ if (!lang) {
     assert(ranked.some(r=>r.url===`/${lang}/quran-terminology/satan-and-taghut/`),query+' finds the concept study');
     assert(ranked.some(r=>r.root==='sh-tt-n'&&r.bucket==='MatchedRoots'),query+' recognizes the transliteration');
   }
+  // Common names retrieve authored ص و م word boxes even when translations use siyam.
+  for (const query of ['روزه','Fasting','fasting','sawm','siyam','صوم','الصیام','الصِّيامُ']) {
+    const {ranked} = await search(query,'Quran');
+    for (const verse of [183,184,185,187]) {
+      assert(ranked.some(r=>r.chapter===2 && r.verseNumber===verse),query+' finds 2:'+verse+' in '+lang);
+    }
+    assert(ranked.every(r=>r.url.includes('/'+lang+'/')),'Search results preserve selected language');
+  }
+  for (const query of ['روزه','fasting']) {
+    const aliasesOnly=rankResults([],catalog,query,'Quran');
+    assert(aliasesOnly.length>0);
+    assert(aliasesOnly.every(r=>r.roots.includes('sad-w-m')),'Fasting aliases expand only to verified fasting roots');
+    assert.equal(rankResults([],catalog,'"'+query+'"','Quran').length,0,'Quoted searches do not expand fasting aliases');
+  }
   for (const record of catalog.records) for (const alias of record.aliases) {
     assert(rankResults([],catalog,alias).some(r=>r.id===record.id),'Published catalog alias must retrieve its target: '+alias);
   }
