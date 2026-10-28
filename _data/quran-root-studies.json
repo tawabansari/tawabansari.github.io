@@ -9061,14 +9061,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/j-l-w/",
       "title": "ریشهٔ ج ل و",
-      "summary": "آشکار و نمایان شدن یا آشکار ساختن؛ جلاء در شاخه‌ای دیگر، ترک دیار و بیرون رفتن از آن است.",
-      "status": "preliminary"
+      "summary": "آشکار شدن، آشکار ساختن و برطرف شدن پوشیدگی؛ در کاربرد سرزمین، بیرون رفتن و ترک جایگاه پیشین.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-l-w/",
-      "title": "The Root J L W",
-      "summary": "Becoming visible or revealing; jalāʾ also denotes leaving or being driven from a homeland.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root J L W",
+      "summary": "Becoming manifest, revealing, and concealment lifting; in territorial use, departing and leaving a former place.",
+      "status": "published"
     }
   },
   "j-m-ayn": {
@@ -9089,42 +9089,42 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/j-m-d/",
       "title": "ریشهٔ ج م د",
-      "summary": "بسته و سخت شدن و از حرکت ایستادن؛ جامد: ثابت و بی‌جنبش به نظر رسنده.",
-      "status": "preliminary"
+      "summary": "منجمد شدن و بازایستادن جریان؛ و در کاربرد قرآنی، ثابت و بی‌حرکت بودن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-m-d/",
-      "title": "The Root J M D",
-      "summary": "Becoming solid or still; jāmid: stationary or apparently motionless.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root J M D",
+      "summary": "Solidifying and ceasing to flow; in the Qur’anic usage, being stationary and motionless.",
+      "status": "published"
     }
   },
   "j-m-h": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-m-h/",
       "title": "ریشهٔ ج م ح",
-      "summary": "با شتاب و نیروی مهارناپذیر پیش رفتن، مانند اسبِ سرکش.",
-      "status": "preliminary"
+      "summary": "پیشروی و شتاب نیرومندی که بازداشتن آن دشوار می‌شود؛ در وصف اسب، هم سرعت ستوده و هم سرکشی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-m-h/",
-      "title": "The Root J M Ḥ",
-      "summary": "Rushing forward with overpowering, uncontrolled force, as a bolting horse.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root J M Ḥ",
+      "summary": "Forceful forward movement and haste difficult to check; in horses, either praised speed or unruliness.",
+      "status": "published"
     }
   },
   "j-m-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-m-l/",
       "title": "ریشهٔ ج م ل",
-      "summary": "در شاخه‌های مختلف: جمع و توده، جمال و زیبایی، و جمل به معنای شتر.",
-      "status": "preliminary"
+      "summary": "زیبایی و نیکویی؛ و در شاخه‌ای دیگر، مجموعه و بزرگی؛ جَمَل نام شتر است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-m-l/",
-      "title": "The Root J M L",
-      "summary": "Distinct branches concern gathering or a mass, beauty, and jamal meaning a camel.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root J M L",
+      "summary": "Beauty and goodness; in another branch, a whole and largeness; jamal names the camel.",
+      "status": "published"
     }
   },
   "j-m-m": {
@@ -9145,42 +9145,42 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/j-n-b/",
       "title": "ریشهٔ ج ن ب",
-      "summary": "پهلو، کنار و ناحیه؛ اجتناب: کنار گرفتن و دوری کردن؛ جُنُب وضعیت آیینیِ مشخصی است.",
-      "status": "preliminary"
+      "summary": "پهلو، کنار و جانب؛ فاصله گرفتن، دور ساختن و پرهیز کردن. «جُنُب» در سیاق طهارت، وضعیتِ نیازمند پاک شدن است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-n-b/",
-      "title": "The Root J N B",
-      "summary": "A side, flank, or region; ijtināb: keeping away; junub denotes a particular ritual condition.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J N B",
+      "summary": "Flank, side, and lateral position; distancing, keeping away, and avoidance. In purification contexts, junub names a state requiring purification.",
+      "status": "published"
     }
   },
   "j-n-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-n-d/",
       "title": "ریشهٔ ج ن د",
-      "summary": "جند و جنود: سپاه، نیروها و گروه‌های سازمان‌یافتهٔ پشتیبان.",
-      "status": "preliminary"
+      "summary": "نیروهای گردآمده برای یاری، پشتیبانی و اقدام مشترک؛ در کاربرد نظامی، سپاه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-n-d/",
-      "title": "The Root J N D",
-      "summary": "Jund and junūd: troops, forces, or organized supporting groups.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root J N D",
+      "summary": "Forces gathered for assistance, support, and joint action; in military use, an army.",
+      "status": "published"
     }
   },
   "j-n-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-n-f/",
       "title": "ریشهٔ ج ن ف",
-      "summary": "کج شدن و از مسیر درست متمایل شدن، به‌ویژه در داوری یا وصیت.",
-      "status": "preliminary"
+      "summary": "میل و کج‌شدن از راستا؛ در امور انسانی، انحراف از حق و انصاف.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-n-f/",
-      "title": "The Root J N F",
-      "summary": "Deviating or inclining away from what is right, especially in judgment or a bequest.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J N F",
+      "summary": "Inclination and departure from alignment; in human affairs, deviation from right and fairness.",
+      "status": "published"
     }
   },
   "j-n-h": {
@@ -9215,14 +9215,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/j-n-y/",
       "title": "ریشهٔ ج ن ي",
-      "summary": "چیدن و به دست آوردن میوه؛ جنى: میوهٔ چیدنی؛ جنیّ: تازه و آمادهٔ چیدن.",
-      "status": "preliminary"
+      "summary": "چیدن و برداشت کردن حاصل از محل پیدایش آن؛ در کاربرد قرآنی، میوهٔ چیدنی و میوهٔ تازه و آمادهٔ برداشت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-n-y/",
-      "title": "The Root J N Y",
-      "summary": "Gathering fruit; janā: fruit available for gathering; janiyy: fresh and ready to pick.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J N Y",
+      "summary": "Picking and gathering a yield from its source; Qur’anic uses concern pickable fruit and fruit fresh or ready for gathering.",
+      "status": "published"
     }
   },
   "j-r-ayn": {
