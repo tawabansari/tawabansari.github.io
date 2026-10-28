@@ -6681,28 +6681,28 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-b-k/",
       "title": "ریشهٔ ح ب ك",
-      "summary": "محکم بافتن و پیوند منظم؛ حُبُک در لغت با راه‌ها و ساختارهای منسجم توضیح داده شده است.",
-      "status": "preliminary"
+      "summary": "بافتن و استوار ساختن؛ نقش‌ها و امتدادهای منظم.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-b-k/",
-      "title": "The Root Ḥ B K",
-      "summary": "Firm weaving and orderly interconnection; ḥubuk is explained lexically through paths or coherent patterns.",
-      "status": "preliminary"
+      "title": "The root Ḥ B K (ح ب ك)",
+      "summary": "Weaving and making firm; ordered patterns and extensions.",
+      "status": "published"
     }
   },
   "h-b-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-b-l/",
       "title": "ریشهٔ ح ب ل",
-      "summary": "حبل: ریسمان و پیوند؛ در کاربردهای گسترش‌یافته، وسیلهٔ اتصال و دسترسی.",
-      "status": "preliminary"
+      "summary": "ریسمان و رشتهٔ ممتد؛ پیوند، عهد و وسیلهٔ اتصال و حمایت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-b-l/",
-      "title": "The Root Ḥ B L",
-      "summary": "Ḥabl: a rope or bond; extended uses concern a means of connection or access.",
-      "status": "preliminary"
+      "title": "The root Ḥ B L (ح ب ل)",
+      "summary": "Rope and an extended cord; bond, covenant, and a means of connection and protection.",
+      "status": "published"
     }
   },
   "h-b-r": {
@@ -6723,14 +6723,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-b-s/",
       "title": "ریشهٔ ح ب س",
-      "summary": "نگه داشتن و جلوگیری از رفتن یا رها شدن.",
-      "status": "preliminary"
+      "summary": "نگه داشتن، بازداشتن و جلوگیری از حرکت یا پیش رفتن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-b-s/",
       "title": "The Root Ḥ B S",
-      "summary": "Holding, detaining, or preventing departure or release.",
-      "status": "preliminary"
+      "summary": "Holding, detaining, and preventing movement or progress.",
+      "status": "published"
     }
   },
   "h-b-tt": {
@@ -6751,42 +6751,42 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-d-b/",
       "title": "ریشهٔ ح د ب",
-      "summary": "بلندی و برآمدگی، به‌ویژه برجستگیِ زمین.",
-      "status": "preliminary"
+      "summary": "برآمدگی و برجستگی؛ بالا آمدن و خمیده شدن سطح یا پشت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-d-b/",
-      "title": "The Root Ḥ D B",
-      "summary": "An elevation or raised area, particularly a rise in the ground.",
-      "status": "preliminary"
+      "title": "Qur’anic root Ḥ D B",
+      "summary": "Protrusion and prominence; a surface or back rising and curving.",
+      "status": "published"
     }
   },
   "h-d-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-d-d/",
       "title": "ریشهٔ ح د د",
-      "summary": "مرز و بازدارندگی؛ حدید: آهن؛ حدّت: تیزی؛ محادّه: مخالفت و مقابله.",
-      "status": "preliminary"
+      "summary": "مرز و حد فاصل؛ بازداشتن، تیزی و برندگی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-d-d/",
-      "title": "The Root Ḥ D D",
-      "summary": "A boundary or restraint; ḥadīd: iron; sharpness; muḥāddah: opposition or confrontation.",
-      "status": "preliminary"
+      "title": "The root Ḥ D D (ح د د)",
+      "summary": "Boundary and limit; prevention, sharpness, and cutting.",
+      "status": "published"
     }
   },
   "h-d-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-d-q/",
       "title": "ریشهٔ ح د ق",
-      "summary": "احاطه کردن؛ حدیقه و حدائق: باغ و باغ‌های محصور یا مشخص.",
-      "status": "preliminary"
+      "summary": "احاطه کردن و از پیرامون فراگرفتن؛ پدید آمدن محدوده‌ای مشخص.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-d-q/",
-      "title": "The Root Ḥ D Q",
-      "summary": "Surrounding; ḥadīqah and ḥadāʾiq: enclosed or defined gardens.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ D Q",
+      "summary": "Encircling and surrounding from different sides; the formation of defined bounds.",
+      "status": "published"
     }
   },
   "h-d-th": {
@@ -6919,14 +6919,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-j-b/",
       "title": "ریشهٔ ح ج ب",
-      "summary": "پوشاندن و مانع شدن؛ حجاب: پرده یا حایلی که دیدن یا دسترسی را محدود می‌کند.",
-      "status": "preliminary"
+      "summary": "پوشاندن، مانع شدن و جدا کردن؛ جلوگیری از دیدن یا دسترسی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-j-b/",
-      "title": "The Root Ḥ J B",
-      "summary": "Concealing or preventing; ḥijāb: a screen or barrier limiting sight or access.",
-      "status": "preliminary"
+      "title": "The root Ḥ J B (ح ج ب)",
+      "summary": "Covering, obstructing, and separating; preventing sight or access.",
+      "status": "published"
     }
   },
   "h-j-j": {
@@ -6961,14 +6961,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-j-z/",
       "title": "ریشهٔ ح ج ز",
-      "summary": "میان دو چیز فاصله و مانع قرار دادن؛ حاجز: جداکننده و بازدارنده.",
-      "status": "preliminary"
+      "summary": "جدا کردن و مانع شدن؛ جلوگیری از رسیدن، عبور یا انجام کاری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-j-z/",
-      "title": "The Root Ḥ J Z",
-      "summary": "Separating two things by a barrier; ḥājiz: a divider or restraining barrier.",
-      "status": "preliminary"
+      "title": "Qur’anic root Ḥ J Z",
+      "summary": "Separating and preventing; obstructing arrival, passage, or an action.",
+      "status": "published"
     }
   },
   "h-k-m": {
@@ -7283,14 +7283,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-r-b/",
       "title": "ریشهٔ ح ر ب",
-      "summary": "حرب: جنگ و رویارویی؛ محراب: جایگاه ویژه و برجسته، و در کاربردهایی محل عبادت.",
-      "status": "preliminary"
+      "summary": "جنگ و رویارویی خصمانه؛ سلب دارایی؛ و در شاخهٔ محراب، جایگاه ممتاز و بلند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-r-b/",
-      "title": "The Root Ḥ R B",
-      "summary": "Ḥarb: war or conflict; miḥrāb: a special or prominent place, sometimes a place of worship.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ R B",
+      "summary": "War and hostile confrontation; dispossession; in the miḥrāb branch, an elevated, distinguished place.",
+      "status": "published"
     }
   },
   "h-r-d": {
@@ -7661,28 +7661,28 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-t-m/",
       "title": "ریشهٔ ح ت م",
-      "summary": "حتم: حکمِ قطعی، مقرر و لازم‌شده.",
-      "status": "preliminary"
+      "summary": "قطعی و لازم ساختن حکم؛ استوار کردن امر و مقرر ساختن وقوع آن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-t-m/",
-      "title": "The Root Ḥ T M",
-      "summary": "Ḥatm: a settled, binding determination.",
-      "status": "preliminary"
+      "title": "Qur’anic root Ḥ T M",
+      "summary": "Making a decree definite and binding; settling a matter firmly and ordaining its occurrence.",
+      "status": "published"
     }
   },
   "h-th-th": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-th-th/",
       "title": "ریشهٔ ح ث ث",
-      "summary": "برانگیختن و به شتاب واداشتن؛ حثیث: شتابان و پی‌گیر.",
-      "status": "preliminary"
+      "summary": "برانگیختن به حرکت یا اقدام؛ به شتاب واداشتن و حرکت شتابان.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-th-th/",
-      "title": "The Root Ḥ TH TH",
-      "summary": "Urging or impelling; ḥathīth: swift and closely pursuing.",
-      "status": "preliminary"
+      "title": "Qur’anic root Ḥ TH TH",
+      "summary": "Prompting movement or action; urging to hasten and moving swiftly.",
+      "status": "published"
     }
   },
   "h-tt-b": {
