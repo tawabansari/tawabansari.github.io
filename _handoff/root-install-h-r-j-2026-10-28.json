@@ -1,0 +1,4517 @@
+{
+  "root": "ح ر ج",
+  "slug": "h-r-j",
+  "date": "2026-10-28",
+  "status": "installed locally",
+  "files": [
+    "quran-terminology/fa/roots/h-r-j/index.html",
+    "quran-terminology/en/roots/h-r-j/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/004-an-nisa/units/065.html",
+    "quran-reflection/fa/005-al-maidah/units/006.html",
+    "quran-reflection/fa/006-al-anam/units/125.html",
+    "quran-reflection/fa/007-al-araf/units/002.html",
+    "quran-reflection/fa/009-at-tawbah/units/091.html",
+    "quran-reflection/fa/022-al-hajj/units/078.html",
+    "quran-reflection/fa/024-an-nur/units/061.html",
+    "quran-reflection/fa/033-al-ahzab/units/037.html",
+    "quran-reflection/fa/033-al-ahzab/units/038.html",
+    "quran-reflection/fa/033-al-ahzab/units/050.html",
+    "quran-reflection/fa/048-al-fath/units/017.html",
+    "quran-reflection/en/004-an-nisa/units/065.html",
+    "quran-reflection/en/005-al-maidah/units/006.html",
+    "quran-reflection/en/006-al-anam/units/125.html",
+    "quran-reflection/en/007-al-araf/units/002.html",
+    "quran-reflection/en/009-at-tawbah/units/091.html",
+    "quran-reflection/en/022-al-hajj/units/078.html",
+    "quran-reflection/en/024-an-nur/units/061.html",
+    "quran-reflection/en/033-al-ahzab/units/037.html",
+    "quran-reflection/en/033-al-ahzab/units/038.html",
+    "quran-reflection/en/033-al-ahzab/units/050.html",
+    "quran-reflection/en/048-al-fath/units/017.html",
+    "_handoff/root-install-h-r-j-2026-10-28.json"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/7706037b-42dd-4fba-b414-2d9d40c88549/Pasted text.txt",
+  "provided_source_blocks_per_language": 403,
+  "source_blocks_per_language": 404,
+  "source_normalisation": "Combined title/subtitle in first raw block separated without omission;only outer Arabic guillemets and Markdown linebreak whitespace normalized.",
+  "sections_per_language": 10,
+  "subheadings_per_language": 39,
+  "fourth_level_headings_per_language": 0,
+  "morphology_cards_per_language": 34,
+  "quranic_occurrences": 15,
+  "quranic_verses": 11,
+  "quranic_surahs": 9,
+  "edited_occurrences": 15,
+  "edited_verses": 11,
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/065.html",
+      "verse": "4:65",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 15,
+          "word": "حَرَجًا",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "گرفتگی و مقاومت درونی نسبت به داوری رسول؛ آیه نبود آن را بیان می‌کند.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/006.html",
+      "verse": "5:6",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 53,
+          "word": "حَرَجٍ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": "تنگنا و دشواری",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "تنگنا و دشواری",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/125.html",
+      "verse": "6:125",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 16,
+          "word": "حَرَجًا",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "گرفته و گرفتار فشار؛ وصف سینه در برابر گشایش برای هدایت.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/002.html",
+      "verse": "7:2",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "تنگی و گرفتگی درونی دربارهٔ کتاب؛ آیه از گرفتار شدن مخاطب در آن نهی می‌کند.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/091.html",
+      "verse": "9:91",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "مؤاخذه و مسئولیت بابت ناتوانی واقعی در مشارکت؛ با شرط خیرخواهی و صداقت برداشته شده است.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/022-al-hajj/units/078.html",
+      "verse": "22:78",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "حَرَجٍ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": "تنگنا و دشواری؛ چیزی که نهاده شدنش بر مخاطبان نفی می‌شود.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "تنگنا و دشواری؛ چیزی که نهاده شدنش بر مخاطبان نفی می‌شود.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/024-an-nur/units/061.html",
+      "verse": "24:61",
+      "protected_reflection": false,
+      "boxes": 3,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": "حرج و تنگنا؛ دربارهٔ نابینا نفی می‌شود.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "حرج و تنگنا؛ دربارهٔ نابینا نفی می‌شود.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        },
+        {
+          "position": 8,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": "حرج و تنگنا؛ دربارهٔ شخص دارای لنگی نفی می‌شود.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "حرج و تنگنا؛ دربارهٔ شخص دارای لنگی نفی می‌شود.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        },
+        {
+          "position": 12,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": "حرج و تنگنا؛ دربارهٔ بیمار نفی می‌شود.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "حرج و تنگنا؛ دربارهٔ بیمار نفی می‌شود.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/037.html",
+      "verse": "33:37",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 37,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "تنگنا و محدودیت در ازدواج با همسر پیشینِ پسرخوانده پس از پایان پیوند زناشویی؛ آیه آن را برمی‌دارد.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/038.html",
+      "verse": "33:38",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "حَرَجٍ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "تنگنا و مؤاخذه در آنچه برای پیامبر مقرر شده؛ نفی حرج به همین موضوع مقید است.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/050.html",
+      "verse": "33:50",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 57,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": "تنگنا و دشواری",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "تنگنا و دشواری",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/048-al-fath/units/017.html",
+      "verse": "48:17",
+      "protected_reflection": false,
+      "boxes": 3,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "مؤاخذه بابت ناتوانی ناشی از نابینایی در مسئولیتِ مورد بحث؛ آیه آن را برمی‌دارد.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        },
+        {
+          "position": 8,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "مؤاخذه بابت محدودیت حرکت در مسئولیتِ مورد بحث؛ آیه آن را برمی‌دارد.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        },
+        {
+          "position": 12,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+          "before_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ر ج",
+            "data-root-meaning": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+            "data-context": "مؤاخذه بابت ناتوانی ناشی از بیماری در مسئولیتِ مورد بحث؛ آیه آن را برمی‌دارد.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/065.html",
+      "verse": "4:65",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 15,
+          "word": "حَرَجًا",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Inward constraint and resistance concerning the messenger’s judgment, whose absence the verse requires.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/006.html",
+      "verse": "5:6",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 53,
+          "word": "حَرَجٍ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": "Difficulty or constraint",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Difficulty or constraint",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/125.html",
+      "verse": "6:125",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 16,
+          "word": "حَرَجًا",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Constricted and under pressure, describing the breast opposite its opening to guidance.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/002.html",
+      "verse": "7:2",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 8,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Inward constraint concerning the Book, which the addressee is instructed not to experience.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/091.html",
+      "verse": "9:91",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Liability and blame for genuine inability to participate, lifted on the condition of sincerity and faithful conduct.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/022-al-hajj/units/078.html",
+      "verse": "22:78",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "حَرَجٍ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": "Hardship and constraint; what is denied as being imposed upon the audience.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Hardship and constraint; what is denied as being imposed upon the audience.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/024-an-nur/units/061.html",
+      "verse": "24:61",
+      "protected_reflection": false,
+      "boxes": 3,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": "Restriction or blame, negated for the blind person.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Restriction or blame, negated for the blind person.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        },
+        {
+          "position": 8,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": "Restriction or blame, negated for the person with a limp.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Restriction or blame, negated for the person with a limp.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        },
+        {
+          "position": 12,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": "Restriction or blame, negated for the sick person.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Restriction or blame, negated for the sick person.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/037.html",
+      "verse": "33:37",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 37,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Constraint and restriction in marrying an adopted son’s former wife after the marriage ends, removed by the verse.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/038.html",
+      "verse": "33:38",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "حَرَجٍ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Constraint and blame concerning what is ordained for the Prophet, with the denial limited to that matter.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/050.html",
+      "verse": "33:50",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 57,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": "Difficulty or constraint",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Difficulty or constraint",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/048-al-fath/units/017.html",
+      "verse": "48:17",
+      "protected_reflection": false,
+      "boxes": 3,
+      "tokens": [
+        {
+          "position": 4,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Blame for inability arising from blindness in the responsibility under discussion, lifted by the verse.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        },
+        {
+          "position": 8,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Blame for impaired mobility in the responsibility under discussion, lifted by the verse.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        },
+        {
+          "position": 12,
+          "word": "حَرَجٌ",
+          "mode": "root-study-update",
+          "brief": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+          "before_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H R J",
+            "data-root-meaning": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+            "data-context": "Blame for inability arising from illness in the responsibility under discussion, lifted by the verse.",
+            "data-learn-more": "/quran-terminology/en/roots/h-r-j/",
+            "data-root-note": null
+          }
+        }
+      ]
+    }
+  ],
+  "persian_edits": [
+    {
+      "original_block": 18,
+      "before": "«تَجَمُّعُ الشَّيْءِ وَضِيقُهُ»",
+      "after": "تَجَمُّعُ الشَّيْءِ وَضِيقُهُ"
+    },
+    {
+      "original_block": 38,
+      "before": "«أَيَا حَرَجَاتِ الْحَيِّ حِينَ تَحَمَّلُوا  \nبِذِي سَلَمٍ لَا جَادَكُنَّ رَبِيعُ»",
+      "after": "أَيَا حَرَجَاتِ الْحَيِّ حِينَ تَحَمَّلُوا\nبِذِي سَلَمٍ لَا جَادَكُنَّ رَبِيعُ"
+    },
+    {
+      "original_block": 48,
+      "before": "«فَإِمَّا تَرَيْنِي فِي رِحَالَةِ جَابِرٍ  \nعَلَى حَرَجٍ كَالْقَرِّ تَخْفِقُ أَكْفَانِي»",
+      "after": "فَإِمَّا تَرَيْنِي فِي رِحَالَةِ جَابِرٍ\nعَلَى حَرَجٍ كَالْقَرِّ تَخْفِقُ أَكْفَانِي"
+    },
+    {
+      "original_block": 92,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 93,
+      "before": "«پس هرکس را خدا بخواهد هدایت کند، سینه‌اش را برای اسلام گشاده می‌سازد؛ و هرکس را بخواهد گمراه سازد، سینه‌اش را تنگ و گرفتار فشار می‌گرداند، چنان‌که گویی در آسمان به دشواری بالا می‌رود. این‌گونه خدا پلیدی را بر کسانی قرار می‌دهد که ایمان نمی‌آورند.»",
+      "after": "«پس هرکس را آن معبود یگانه بخواهد هدایت کند، سینه‌اش را برای اسلام گشاده می‌سازد؛ و هرکس را بخواهد گمراه سازد، سینه‌اش را تنگ و گرفتار فشار می‌گرداند، چنان‌که گویی در آسمان به دشواری بالا می‌رود. این‌گونه آن معبود یگانه پلیدی را بر کسانی قرار می‌دهد که ایمان نمی‌آورند.»"
+    },
+    {
+      "original_block": 131,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 146,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 161,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 162,
+      "before": "«ای کسانی که ایمان آورده‌اید، هنگامی که برای صلاة برخاستید، صورت‌ها و دست‌های خود را تا آرنج‌ها بشویید و بر سرها و پاهایتان تا برآمدگی‌های مچ مسح کنید؛ و اگر جنب بودید، پاکیزگی کنید. و اگر بیمار یا در سفر بودید، یا یکی از شما از قضای حاجت آمد، یا با زنان تماس داشتید و آبی نیافتید، پس به سطحی پاک روی آورید و از آن بر صورت‌ها و دست‌هایتان مسح کنید. خدا نمی‌خواهد بر شما تنگنا و دشواری قرار دهد؛ بلکه می‌خواهد شما را پاکیزه سازد و نعمت خود را بر شما تمام کند، باشد که سپاس گزارید.»",
+      "after": "«ای کسانی که ایمان آورده‌اید، هنگامی که برای صلاة برخاستید، صورت‌ها و دست‌های خود را تا آرنج‌ها بشویید و بر سرها و پاهایتان تا برآمدگی‌های مچ مسح کنید؛ و اگر جنب بودید، پاکیزگی کنید. و اگر بیمار یا در سفر بودید، یا یکی از شما از قضای حاجت آمد، یا با زنان تماس داشتید و آبی نیافتید، پس به سطحی پاک روی آورید و از آن بر صورت‌ها و دست‌هایتان مسح کنید. آن معبود یگانه نمی‌خواهد بر شما تنگنا و دشواری قرار دهد؛ بلکه می‌خواهد شما را پاکیزه سازد و نعمت خود را بر شما تمام کند، باشد که سپاس گزارید.»"
+    },
+    {
+      "original_block": 181,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 182,
+      "before": "«و در راه خدا آن‌گونه که شایستهٔ کوشش در راه اوست بکوشید. او شما را برگزیده و در دین هیچ تنگنایی بر شما قرار نداده است؛ آیین پدرتان ابراهیم. او پیش از این و در این نیز شما را مسلمانان نامیده است، تا رسول بر شما گواه باشد و شما بر مردم گواهان باشید. پس صلاة را برپا دارید و زکات را بدهید و به خدا چنگ زنید؛ او سرپرست شماست؛ پس چه نیکو سرپرستی و چه نیکو یاوری است.»",
+      "after": "«و در راه آن معبود یگانه آن‌گونه که شایستهٔ کوشش در راه اوست بکوشید. او شما را برگزیده و در دین هیچ تنگنایی بر شما قرار نداده است؛ آیین پدرتان ابراهیم. او پیش از این و در این نیز شما را مسلمانان نامیده است، تا رسول بر شما گواه باشد و شما بر مردم گواهان باشید. پس صلاة را برپا دارید و زکات را بدهید و به آن معبود یگانه چنگ زنید؛ او سرپرست شماست؛ پس چه نیکو سرپرستی و چه نیکو یاوری است.»"
+    },
+    {
+      "original_block": 205,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 206,
+      "before": "«بر ناتوانان و بیماران و کسانی که چیزی برای هزینه کردن نمی‌یابند، تنگنا و مسئولیتی نیست، هنگامی که نسبت به خدا و رسول او خیرخواه و درستکار باشند. بر نیکوکاران راهی برای مؤاخذه نیست؛ و خدا آمرزندهٔ مهربان است.»",
+      "after": "«بر ناتوانان و بیماران و کسانی که چیزی برای هزینه کردن نمی‌یابند، تنگنا و مؤاخذه‌ای نیست، هنگامی که نسبت به آن معبود یگانه و رسول او خیرخواه و درستکار باشند. بر نیکوکاران راهی برای مؤاخذه نیست؛ و آن معبود یگانه آمرزندهٔ مهربان است.»"
+    },
+    {
+      "original_block": 208,
+      "before": "این ساختمان، نبود حرج بر اشخاص نام‌برده را بیان می‌کند.",
+      "after": "این ساخت زبانی، نبود حرج بر اشخاص نام‌برده را بیان می‌کند."
+    },
+    {
+      "original_block": 224,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 225,
+      "before": "«بر نابینا تنگنا و مسئولیتی نیست، و بر کسی که در راه رفتن دشواری دارد تنگنا و مسئولیتی نیست، و بر بیمار نیز تنگنا و مسئولیتی نیست. و هرکس خدا و رسول او را اطاعت کند، او را به باغ‌هایی وارد می‌کند که از زیر آن‌ها نهرها جاری است؛ و هرکس روی بگرداند، او را عذابی دردناک خواهد داد.»",
+      "after": "«بر نابینا تنگنا و مؤاخذه‌ای نیست، و بر کسی که در راه رفتن دشواری دارد تنگنا و مؤاخذه‌ای نیست، و بر بیمار نیز تنگنا و مؤاخذه‌ای نیست. و هرکس آن معبود یگانه و رسول او را اطاعت کند، او را به باغ‌هایی وارد می‌کند که از زیر آن‌ها نهرها جاری است؛ و هرکس روی بگرداند، او را عذابی دردناک خواهد داد.»"
+    },
+    {
+      "original_block": 267,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 268,
+      "before": "«بر پیامبر در آنچه خدا برای او مقرر کرده هیچ تنگنا و مسئولیتی نیست؛ این شیوهٔ خدا دربارهٔ کسانی است که پیش از این گذشته‌اند؛ و فرمان خدا تقدیری مقرر بوده است.»",
+      "after": "«بر پیامبر در آنچه آن معبود یگانه برای او مقرر کرده هیچ تنگنا و مؤاخذه‌ای نیست؛ این شیوهٔ آن معبود یگانه دربارهٔ کسانی است که پیش از این گذشته‌اند؛ و فرمان آن معبود یگانه تقدیری مقرر بوده است.»"
+    },
+    {
+      "original_block": 364,
+      "before": "در احزاب ۳۳:۳۷–۳۸ و ۳۳:۵۰، حرج به محدودیت در احکام مشخص ارتباط دارد.",
+      "after": "در احزاب ۳۳:۳۷، احزاب ۳۳:۳۸ و احزاب ۳۳:۵۰، حرج به محدودیت در احکام مشخص ارتباط دارد."
+    },
+    {
+      "original_block": 381,
+      "before": "برای «مَا كَانَ عَلَى النَّبِيِّ مِنْ حَرَجٍ» در احزاب ۳۳:۳۸، «بر پیامبر در این موضوع هیچ تنگنا و مسئولیتی نیست» مناسب است.",
+      "after": "برای «مَا كَانَ عَلَى النَّبِيِّ مِنْ حَرَجٍ» در احزاب ۳۳:۳۸، «بر پیامبر در این موضوع هیچ تنگنا و مؤاخذه‌ای نیست» مناسب است."
+    },
+    {
+      "original_block": 396,
+      "before": "در احزاب ۳۳:۳۷، ۳۳:۳۸ و ۳۳:۵۰ نیز نبود حرج به احکام معین و روابط خانوادگی مربوط است.",
+      "after": "در احزاب ۳۳:۳۷، احزاب ۳۳:۳۸ و احزاب ۳۳:۵۰ نیز نبود حرج به احکام معین و روابط خانوادگی مربوط است."
+    }
+  ],
+  "additional_root_summary_completions": [],
+  "Allah_boxes": [
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/065.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/006.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        49
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/125.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        3,
+        23
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/002.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/091.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        17,
+        24
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/022-al-hajj/units/078.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        3,
+        38
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/024-an-nur/units/061.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        67,
+        72
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/037.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        5,
+        13,
+        18,
+        22,
+        47
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/038.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        9,
+        12,
+        20
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/050.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        15,
+        59
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/048-al-fath/units/017.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        15
+      ]
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/065.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/006.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        49
+      ]
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/125.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        3,
+        23
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/002.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/091.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        17,
+        24
+      ]
+    },
+    {
+      "file": "quran-reflection/en/022-al-hajj/units/078.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        3,
+        38
+      ]
+    },
+    {
+      "file": "quran-reflection/en/024-an-nur/units/061.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        67,
+        72
+      ]
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/037.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        5,
+        13,
+        18,
+        22,
+        47
+      ]
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/038.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        9,
+        12,
+        20
+      ]
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/050.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        15,
+        59
+      ]
+    },
+    {
+      "file": "quran-reflection/en/048-al-fath/units/017.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        15
+      ]
+    }
+  ],
+  "protected_reflection_verses": [],
+  "protected_reflection_rule": "All11verses recursively checked in both languages:no authored reflections.All existing contexts and metadata preserved except permitted ownbrief/preliminarynotice updates.",
+  "protected_preexisting_issues": [],
+  "context_completion": {
+    "changes": [
+      {
+        "file": "quran-reflection/fa/004-an-nisa/units/065.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "وَرَبِّكَ",
+            "context": "و سوگند به پروردگارت؛ سوگند در خطاب به رسول."
+          },
+          {
+            "position": 4,
+            "word": "يُؤمِنونَ",
+            "context": "ایمان می‌آورند؛ در ساخت نفی ایمان تا پذیرش داوری رسول."
+          },
+          {
+            "position": 6,
+            "word": "يُحَكِّموكَ",
+            "context": "تو را داور قرار دهند؛ سپردن اختلاف خود به داوری رسول."
+          },
+          {
+            "position": 8,
+            "word": "شَجَرَ",
+            "context": "پدید آمد و درهم افتاد؛ اختلافی که میان آنان رخ داده است."
+          },
+          {
+            "position": 9,
+            "word": "بَينَهُم",
+            "context": "میان آنان؛ جایگاه رابطه‌ایِ اختلاف."
+          },
+          {
+            "position": 12,
+            "word": "يَجِدوا",
+            "context": "بیابند؛ در نفی یافتن گرفتگی درونی نسبت به داوری."
+          },
+          {
+            "position": 14,
+            "word": "أَنفُسِهِم",
+            "context": "درون خودشان؛ جایگاه احساس حرج در برابر داوری."
+          },
+          {
+            "position": 17,
+            "word": "قَضَيتَ",
+            "context": "داوری کردی؛ حکم رسول در اختلاف مورد بحث."
+          },
+          {
+            "position": 18,
+            "word": "وَيُسَلِّموا",
+            "context": "و تسلیم شوند؛ پذیرفتن داوری بدون گرفتگی درونی."
+          },
+          {
+            "position": 19,
+            "word": "تَسليمًا",
+            "context": "تسلیمی کامل؛ تأکید بر پذیرش داوری."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/005-al-maidah/units/006.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/fa/006-al-anam/units/125.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "يُرِدِ",
+            "context": "بخواهد؛ ارادهٔ آن معبود یگانه برای هدایت شخص."
+          },
+          {
+            "position": 5,
+            "word": "يَهدِيَهُ",
+            "context": "او را هدایت کند؛ راه نمودن به شخص."
+          },
+          {
+            "position": 6,
+            "word": "يَشرَح",
+            "context": "گشاده می‌سازد؛ گشودن سینه برای پذیرش اسلام."
+          },
+          {
+            "position": 7,
+            "word": "صَدرَهُ",
+            "context": "سینهٔ او؛ در تصویر آمادگی درونی برای پذیرش اسلام."
+          },
+          {
+            "position": 8,
+            "word": "لِلإِسلٰمِ",
+            "context": "برای اسلام؛ جهت گشایش سینه و پذیرش تسلیم."
+          },
+          {
+            "position": 10,
+            "word": "يُرِد",
+            "context": "بخواهد؛ ارادهٔ یادشده در بخش مربوط به گمراهی."
+          },
+          {
+            "position": 12,
+            "word": "يُضِلَّهُ",
+            "context": "او را گمراه سازد؛ در برابر هدایت در بخش نخست آیه."
+          },
+          {
+            "position": 13,
+            "word": "يَجعَل",
+            "context": "می‌گرداند؛ قرار دادن سینه در حالت تنگی."
+          },
+          {
+            "position": 14,
+            "word": "صَدرَهُ",
+            "context": "سینهٔ او؛ در تصویر فشار و گرفتگی درونی."
+          },
+          {
+            "position": 15,
+            "word": "ضَيِّقًا",
+            "context": "تنگ؛ وصف سینه در برابر گشایش آن."
+          },
+          {
+            "position": 18,
+            "word": "يَصَّعَّدُ",
+            "context": "به دشواری بالا می‌رود؛ تصویر تشبیهی صعود در آسمان."
+          },
+          {
+            "position": 20,
+            "word": "السَّماءِ",
+            "context": "آسمان؛ فضای تصویر بالا رفتن دشوار."
+          },
+          {
+            "position": 22,
+            "word": "يَجعَلُ",
+            "context": "قرار می‌دهد؛ نسبت دادن رجس به کسانی که ایمان نمی‌آورند."
+          },
+          {
+            "position": 24,
+            "word": "الرِّجسَ",
+            "context": "پلیدی؛ آنچه بر کسانی که ایمان نمی‌آورند قرار داده می‌شود."
+          },
+          {
+            "position": 28,
+            "word": "يُؤمِنونَ",
+            "context": "ایمان می‌آورند؛ در ترکیب نفی ایمان."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/007-al-araf/units/002.html",
+        "added": [
+          {
+            "position": 1,
+            "word": "كِتٰبٌ",
+            "context": "کتابی؛ متن فروفرستاده‌شده به مخاطب."
+          },
+          {
+            "position": 2,
+            "word": "أُنزِلَ",
+            "context": "فروفرستاده شد؛ نازل شدن کتاب به مخاطب."
+          },
+          {
+            "position": 5,
+            "word": "يَكُن",
+            "context": "باشد؛ در نهی از وجود حرج در سینه."
+          },
+          {
+            "position": 7,
+            "word": "صَدرِكَ",
+            "context": "سینهٔ تو؛ حالت درونی مخاطب در برابر کتاب."
+          },
+          {
+            "position": 10,
+            "word": "لِتُنذِرَ",
+            "context": "تا هشدار دهی؛ یکی از هدف‌های فروفرستادن کتاب."
+          },
+          {
+            "position": 12,
+            "word": "وَذِكرىٰ",
+            "context": "و یادآوری؛ کارکرد کتاب برای مؤمنان."
+          },
+          {
+            "position": 13,
+            "word": "لِلمُؤمِنينَ",
+            "context": "برای مؤمنان؛ کسانی که کتاب برای آنان یادآوری است."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/009-at-tawbah/units/091.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "الضُّعَفاءِ",
+            "context": "ناتوانان؛ اشخاص دارای عذر در سیاق مشارکت مورد بحث."
+          },
+          {
+            "position": 6,
+            "word": "المَرضىٰ",
+            "context": "بیماران؛ اشخاصی که بیماری آنان زمینهٔ عذر است."
+          },
+          {
+            "position": 11,
+            "word": "يَجِدونَ",
+            "context": "می‌یابند؛ در نفی یافتن امکانات لازم برای هزینه کردن."
+          },
+          {
+            "position": 13,
+            "word": "يُنفِقونَ",
+            "context": "هزینه کنند؛ صرف امکانات برای همراهی در مسئولیت مورد بحث."
+          },
+          {
+            "position": 16,
+            "word": "نَصَحوا",
+            "context": "خیرخواه و صادق باشند؛ شرط معذور بودن اشخاص نام‌برده."
+          },
+          {
+            "position": 18,
+            "word": "وَرَسولِهِ",
+            "context": "و رسول او؛ همراه با آن معبود یگانه، جهت خیرخواهی و صداقت."
+          },
+          {
+            "position": 21,
+            "word": "المُحسِنينَ",
+            "context": "نیکوکاران؛ کسانی که راهی برای مؤاخذه بر آنان نیست."
+          },
+          {
+            "position": 23,
+            "word": "سَبيلٍ",
+            "context": "راهی؛ در نفی راه مؤاخذه بر نیکوکاران."
+          },
+          {
+            "position": 25,
+            "word": "غَفورٌ",
+            "context": "آمرزنده؛ وصف آن معبود یگانه در پایان آیه."
+          },
+          {
+            "position": 26,
+            "word": "رَحيمٌ",
+            "context": "مهربان؛ وصف رحمت آن معبود یگانه در پایان آیه."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/022-al-hajj/units/078.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/fa/024-an-nur/units/061.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/fa/033-al-ahzab/units/037.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "تَقولُ",
+            "context": "می‌گفتی؛ سخن رسول خطاب به شخص یادشده."
+          },
+          {
+            "position": 4,
+            "word": "أَنعَمَ",
+            "context": "نعمت بخشید؛ بخشش آن معبود یگانه به شخص مورد بحث."
+          },
+          {
+            "position": 7,
+            "word": "وَأَنعَمتَ",
+            "context": "و نعمت بخشیدی؛ نیکی رسول به همان شخص."
+          },
+          {
+            "position": 9,
+            "word": "أَمسِك",
+            "context": "نگه دار؛ فرمان به حفظ پیوند با همسر."
+          },
+          {
+            "position": 11,
+            "word": "زَوجَكَ",
+            "context": "همسرت؛ زنِ مخاطبِ سخن رسول."
+          },
+          {
+            "position": 12,
+            "word": "وَاتَّقِ",
+            "context": "و پروا کن؛ سفارش به تقوا نسبت به آن معبود یگانه."
+          },
+          {
+            "position": 14,
+            "word": "وَتُخفى",
+            "context": "و پنهان می‌داشتی؛ آنچه در درون بود و آشکار می‌شد."
+          },
+          {
+            "position": 16,
+            "word": "نَفسِكَ",
+            "context": "درون تو؛ جایگاه آنچه پنهان داشته می‌شد."
+          },
+          {
+            "position": 19,
+            "word": "مُبديهِ",
+            "context": "آشکارکنندهٔ آن؛ آنچه آن معبود یگانه آشکار می‌کند."
+          },
+          {
+            "position": 20,
+            "word": "وَتَخشَى",
+            "context": "و بیم داشتی؛ نگرانی از مردم."
+          },
+          {
+            "position": 21,
+            "word": "النّاسَ",
+            "context": "مردم؛ کسانی که بیم از آنان در آیه یاد شده است."
+          },
+          {
+            "position": 23,
+            "word": "أَحَقُّ",
+            "context": "سزاوارتر؛ اولویت بیم و پروا از آن معبود یگانه."
+          },
+          {
+            "position": 25,
+            "word": "تَخشىٰهُ",
+            "context": "از او بیم داشته باشی؛ جهت درست خشیت در خطاب آیه."
+          },
+          {
+            "position": 27,
+            "word": "قَضىٰ",
+            "context": "به پایان رساند یا برآورد؛ در ترکیب مربوط به پیوند زناشویی زید."
+          },
+          {
+            "position": 30,
+            "word": "وَطَرًا",
+            "context": "نیاز یا خواسته؛ در سیاق پایان یافتن پیوند زناشویی زید."
+          },
+          {
+            "position": 31,
+            "word": "زَوَّجنٰكَها",
+            "context": "او را به همسری تو درآوردیم؛ پیوندی که در ادامهٔ آیه بیان شده است."
+          },
+          {
+            "position": 34,
+            "word": "يَكونَ",
+            "context": "باشد؛ در بیان هدفِ نبود حرج بر مؤمنان."
+          },
+          {
+            "position": 36,
+            "word": "المُؤمِنينَ",
+            "context": "مؤمنان؛ کسانی که رفع حرج دربارهٔ آنان بیان شده است."
+          },
+          {
+            "position": 39,
+            "word": "أَزوٰجِ",
+            "context": "همسران؛ زنانِ پسرخواندگان در حکم مورد بحث."
+          },
+          {
+            "position": 40,
+            "word": "أَدعِيائِهِم",
+            "context": "پسرخواندگانشان؛ کسانی که به عنوان پسر خوانده می‌شوند، در برابر نسبت ولادت."
+          },
+          {
+            "position": 42,
+            "word": "قَضَوا",
+            "context": "به پایان رساندند یا برآوردند؛ در ترکیب مربوط به پایان رابطهٔ زناشویی."
+          },
+          {
+            "position": 44,
+            "word": "وَطَرًا",
+            "context": "نیاز یا خواسته؛ در حکم مربوط به پیوندهای زناشوییِ پایان‌یافته."
+          },
+          {
+            "position": 45,
+            "word": "وَكانَ",
+            "context": "و بوده است؛ در بیان تحقق فرمان آن معبود یگانه."
+          },
+          {
+            "position": 46,
+            "word": "أَمرُ",
+            "context": "فرمان؛ امر آن معبود یگانه در پایان آیه."
+          },
+          {
+            "position": 48,
+            "word": "مَفعولًا",
+            "context": "انجام‌شده؛ وصف تحقق امر آن معبود یگانه."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/033-al-ahzab/units/038.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "كانَ",
+            "context": "بوده است؛ در ساخت نفی حرج بر پیامبر."
+          },
+          {
+            "position": 4,
+            "word": "النَّبِىِّ",
+            "context": "پیامبر؛ مخاطبِ حکمِ نبود حرج در موضوع مشخص."
+          },
+          {
+            "position": 8,
+            "word": "فَرَضَ",
+            "context": "مقرر کرد؛ آنچه آن معبود یگانه برای پیامبر تعیین کرده است."
+          },
+          {
+            "position": 11,
+            "word": "سُنَّةَ",
+            "context": "شیوهٔ مقرر؛ روش آن معبود یگانه دربارهٔ پیشینیان."
+          },
+          {
+            "position": 15,
+            "word": "خَلَوا",
+            "context": "گذشتند؛ کسانی که پیش‌تر زیسته‌اند."
+          },
+          {
+            "position": 17,
+            "word": "قَبلُ",
+            "context": "پیش‌تر؛ زمانِ کسانی که پیش از پیامبر گذشته‌اند."
+          },
+          {
+            "position": 18,
+            "word": "وَكانَ",
+            "context": "و بوده است؛ در بیان تقدیر مقررِ فرمان."
+          },
+          {
+            "position": 19,
+            "word": "أَمرُ",
+            "context": "فرمان؛ امر آن معبود یگانه."
+          },
+          {
+            "position": 21,
+            "word": "قَدَرًا",
+            "context": "تقدیری؛ آنچه به اندازه و تعیین مقرر شده است."
+          },
+          {
+            "position": 22,
+            "word": "مَقدورًا",
+            "context": "مقرر؛ وصف تقدیرِ فرمان آن معبود یگانه."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/033-al-ahzab/units/050.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/fa/048-al-fath/units/017.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "الأَعمىٰ",
+            "context": "نابینا؛ یکی از سه گروهی که در این موضوع معذورند."
+          },
+          {
+            "position": 7,
+            "word": "الأَعرَجِ",
+            "context": "دارای دشواری در راه رفتن؛ یکی از گروه‌های دارای عذر جسمانی."
+          },
+          {
+            "position": 11,
+            "word": "المَريضِ",
+            "context": "بیمار؛ سومین گروهِ دارای عذر در آیه."
+          },
+          {
+            "position": 14,
+            "word": "يُطِعِ",
+            "context": "اطاعت کند؛ فرمان‌پذیری نسبت به آن معبود یگانه و رسول او."
+          },
+          {
+            "position": 16,
+            "word": "وَرَسولَهُ",
+            "context": "و رسول او؛ همراه با آن معبود یگانه، جهت اطاعت."
+          },
+          {
+            "position": 17,
+            "word": "يُدخِلهُ",
+            "context": "او را وارد می‌کند؛ ورود شخص فرمان‌پذیر به باغ‌ها."
+          },
+          {
+            "position": 18,
+            "word": "جَنّٰتٍ",
+            "context": "باغ‌ها؛ جایگاه پاداشِ بیان‌شده در آیه."
+          },
+          {
+            "position": 19,
+            "word": "تَجرى",
+            "context": "جاری است؛ جریان نهرها در تصویر باغ‌ها."
+          },
+          {
+            "position": 21,
+            "word": "تَحتِهَا",
+            "context": "از زیر آن‌ها؛ جایگاه جریان نهرها نسبت به باغ‌ها."
+          },
+          {
+            "position": 22,
+            "word": "الأَنهٰرُ",
+            "context": "نهرها؛ آبراه‌های جاری در تصویر پاداش."
+          },
+          {
+            "position": 24,
+            "word": "يَتَوَلَّ",
+            "context": "روی بگرداند؛ در برابر اطاعت در بخش پیشین آیه."
+          },
+          {
+            "position": 25,
+            "word": "يُعَذِّبهُ",
+            "context": "او را عذاب می‌کند؛ پیامد روی‌گردانیِ بیان‌شده."
+          },
+          {
+            "position": 26,
+            "word": "عَذابًا",
+            "context": "عذابی؛ رنج و کیفرِ بیان‌شده در آیه."
+          },
+          {
+            "position": 27,
+            "word": "أَليمًا",
+            "context": "دردناک؛ وصف عذاب در پایان آیه."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/004-an-nisa/units/065.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "وَرَبِّكَ",
+            "context": "And by your Lord, an oath addressed to the messenger."
+          },
+          {
+            "position": 4,
+            "word": "يُؤمِنونَ",
+            "context": "Believe, in the denial of belief until the messenger’s judgment is accepted."
+          },
+          {
+            "position": 6,
+            "word": "يُحَكِّموكَ",
+            "context": "Make you judge, submitting their dispute to the messenger’s judgment."
+          },
+          {
+            "position": 8,
+            "word": "شَجَرَ",
+            "context": "Arose or became entangled, referring to their dispute."
+          },
+          {
+            "position": 9,
+            "word": "بَينَهُم",
+            "context": "Between them, identifying the parties to the dispute."
+          },
+          {
+            "position": 12,
+            "word": "يَجِدوا",
+            "context": "Find, in the denial of finding inward resistance to the judgment."
+          },
+          {
+            "position": 14,
+            "word": "أَنفُسِهِم",
+            "context": "Themselves, their inward response to the judgment."
+          },
+          {
+            "position": 17,
+            "word": "قَضَيتَ",
+            "context": "You judged, the messenger’s decision in the dispute."
+          },
+          {
+            "position": 18,
+            "word": "وَيُسَلِّموا",
+            "context": "And submit, accepting the judgment without inward resistance."
+          },
+          {
+            "position": 19,
+            "word": "تَسليمًا",
+            "context": "A complete submission, emphasizing acceptance of the judgment."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/005-al-maidah/units/006.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/en/006-al-anam/units/125.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "يُرِدِ",
+            "context": "Wills, The God’s will to guide someone."
+          },
+          {
+            "position": 5,
+            "word": "يَهدِيَهُ",
+            "context": "Guide that person, directing them toward guidance."
+          },
+          {
+            "position": 6,
+            "word": "يَشرَح",
+            "context": "Opens or expands, opening the breast to accepting Islam."
+          },
+          {
+            "position": 7,
+            "word": "صَدرَهُ",
+            "context": "That person’s breast, picturing inward readiness to accept Islam."
+          },
+          {
+            "position": 8,
+            "word": "لِلإِسلٰمِ",
+            "context": "To Islam, the orientation of the opened breast and acceptance of submission."
+          },
+          {
+            "position": 10,
+            "word": "يُرِد",
+            "context": "Wills, the will mentioned in the clause concerning straying."
+          },
+          {
+            "position": 12,
+            "word": "يُضِلَّهُ",
+            "context": "Lead that person astray, opposite guidance in the first clause."
+          },
+          {
+            "position": 13,
+            "word": "يَجعَل",
+            "context": "Makes, putting the breast into a constricted state."
+          },
+          {
+            "position": 14,
+            "word": "صَدرَهُ",
+            "context": "That person’s breast, picturing inward pressure and constriction."
+          },
+          {
+            "position": 15,
+            "word": "ضَيِّقًا",
+            "context": "Narrow, describing the breast in contrast to its opening."
+          },
+          {
+            "position": 18,
+            "word": "يَصَّعَّدُ",
+            "context": "Laboriously ascends, the comparison with ascent into the sky."
+          },
+          {
+            "position": 20,
+            "word": "السَّماءِ",
+            "context": "The sky, the setting of the difficult ascent in the comparison."
+          },
+          {
+            "position": 22,
+            "word": "يَجعَلُ",
+            "context": "Places, referring to defilement upon those who do not believe."
+          },
+          {
+            "position": 24,
+            "word": "الرِّجسَ",
+            "context": "Defilement, what is placed upon those who do not believe."
+          },
+          {
+            "position": 28,
+            "word": "يُؤمِنونَ",
+            "context": "Believe, in the expression denying belief."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/007-al-araf/units/002.html",
+        "added": [
+          {
+            "position": 1,
+            "word": "كِتٰبٌ",
+            "context": "A Book, the text sent down to the addressee."
+          },
+          {
+            "position": 2,
+            "word": "أُنزِلَ",
+            "context": "Was sent down, referring to the Book given to the addressee."
+          },
+          {
+            "position": 5,
+            "word": "يَكُن",
+            "context": "Be, in the instruction that no constraint be in the breast."
+          },
+          {
+            "position": 7,
+            "word": "صَدرِكَ",
+            "context": "Your breast, the addressee’s inward state toward the Book."
+          },
+          {
+            "position": 10,
+            "word": "لِتُنذِرَ",
+            "context": "So that you may warn, one purpose of the Book’s sending."
+          },
+          {
+            "position": 12,
+            "word": "وَذِكرىٰ",
+            "context": "And a reminder, the Book’s function for the believers."
+          },
+          {
+            "position": 13,
+            "word": "لِلمُؤمِنينَ",
+            "context": "For the believers, those for whom the Book is a reminder."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/009-at-tawbah/units/091.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "الضُّعَفاءِ",
+            "context": "The weak, people with an excuse in the participation under discussion."
+          },
+          {
+            "position": 6,
+            "word": "المَرضىٰ",
+            "context": "The ill, those whose illness grounds an exemption."
+          },
+          {
+            "position": 11,
+            "word": "يَجِدونَ",
+            "context": "Find, in the denial of finding resources to spend."
+          },
+          {
+            "position": 13,
+            "word": "يُنفِقونَ",
+            "context": "Spend, supplying resources for the participation under discussion."
+          },
+          {
+            "position": 16,
+            "word": "نَصَحوا",
+            "context": "Are sincere and faithful, the condition accompanying their exemption."
+          },
+          {
+            "position": 18,
+            "word": "وَرَسولِهِ",
+            "context": "And His messenger, alongside The God as the object of sincerity."
+          },
+          {
+            "position": 21,
+            "word": "المُحسِنينَ",
+            "context": "Those who do good, against whom there is no ground for blame."
+          },
+          {
+            "position": 23,
+            "word": "سَبيلٍ",
+            "context": "A way, in the denial of grounds for blame against those who do good."
+          },
+          {
+            "position": 25,
+            "word": "غَفورٌ",
+            "context": "Forgiving, describing The God at the verse’s conclusion."
+          },
+          {
+            "position": 26,
+            "word": "رَحيمٌ",
+            "context": "Merciful, describing The God’s mercy at the verse’s conclusion."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/022-al-hajj/units/078.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/en/024-an-nur/units/061.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/en/033-al-ahzab/units/037.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "تَقولُ",
+            "context": "You were saying, the messenger’s words to the person mentioned."
+          },
+          {
+            "position": 4,
+            "word": "أَنعَمَ",
+            "context": "Bestowed favour, The God’s favour upon the person discussed."
+          },
+          {
+            "position": 7,
+            "word": "وَأَنعَمتَ",
+            "context": "And you bestowed favour, the messenger’s kindness to that person."
+          },
+          {
+            "position": 9,
+            "word": "أَمسِك",
+            "context": "Keep, the instruction to retain one’s wife."
+          },
+          {
+            "position": 11,
+            "word": "زَوجَكَ",
+            "context": "Your wife, the wife of the person addressed by the messenger."
+          },
+          {
+            "position": 12,
+            "word": "وَاتَّقِ",
+            "context": "And be mindful, an instruction to be mindful of The God."
+          },
+          {
+            "position": 14,
+            "word": "وَتُخفى",
+            "context": "And you were concealing, what was inward and would be disclosed."
+          },
+          {
+            "position": 16,
+            "word": "نَفسِكَ",
+            "context": "Yourself, the inward place of what was concealed."
+          },
+          {
+            "position": 19,
+            "word": "مُبديهِ",
+            "context": "Disclosing it, what The God brings into the open."
+          },
+          {
+            "position": 20,
+            "word": "وَتَخشَى",
+            "context": "And you feared, concern about people."
+          },
+          {
+            "position": 21,
+            "word": "النّاسَ",
+            "context": "The people, those feared in the verse."
+          },
+          {
+            "position": 23,
+            "word": "أَحَقُّ",
+            "context": "More deserving, the priority of fearing and being mindful of The God."
+          },
+          {
+            "position": 25,
+            "word": "تَخشىٰهُ",
+            "context": "You should fear Him, the proper object of reverence in the address."
+          },
+          {
+            "position": 27,
+            "word": "قَضىٰ",
+            "context": "Fulfilled or brought to an end, in the expression concerning Zayd’s marital relationship."
+          },
+          {
+            "position": 30,
+            "word": "وَطَرًا",
+            "context": "A need or purpose, in the context of the ending of Zayd’s marital relationship."
+          },
+          {
+            "position": 31,
+            "word": "زَوَّجنٰكَها",
+            "context": "We married her to you, the union stated in the verse."
+          },
+          {
+            "position": 34,
+            "word": "يَكونَ",
+            "context": "Be, in the purpose clause denying constraint upon believers."
+          },
+          {
+            "position": 36,
+            "word": "المُؤمِنينَ",
+            "context": "The believers, those for whom the removal of constraint is stated."
+          },
+          {
+            "position": 39,
+            "word": "أَزوٰجِ",
+            "context": "Wives, the adopted sons’ wives in the ruling discussed."
+          },
+          {
+            "position": 40,
+            "word": "أَدعِيائِهِم",
+            "context": "Their adopted sons, those called sons as distinct from a birth relationship."
+          },
+          {
+            "position": 42,
+            "word": "قَضَوا",
+            "context": "Fulfilled or brought to an end, in the expression concerning the ending of marriage."
+          },
+          {
+            "position": 44,
+            "word": "وَطَرًا",
+            "context": "A need or purpose, in the ruling concerning ended marital relationships."
+          },
+          {
+            "position": 45,
+            "word": "وَكانَ",
+            "context": "And has been, expressing the fulfilment of The God’s command."
+          },
+          {
+            "position": 46,
+            "word": "أَمرُ",
+            "context": "Command, The God’s decree at the verse’s conclusion."
+          },
+          {
+            "position": 48,
+            "word": "مَفعولًا",
+            "context": "Accomplished, describing the fulfilment of The God’s command."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/033-al-ahzab/units/038.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "كانَ",
+            "context": "Has been, within the expression denying constraint upon the Prophet."
+          },
+          {
+            "position": 4,
+            "word": "النَّبِىِّ",
+            "context": "The Prophet, the subject of exemption in the specified matter."
+          },
+          {
+            "position": 8,
+            "word": "فَرَضَ",
+            "context": "Ordained, what The God has prescribed or allotted for the Prophet."
+          },
+          {
+            "position": 11,
+            "word": "سُنَّةَ",
+            "context": "Established way, The God’s practice concerning those before."
+          },
+          {
+            "position": 15,
+            "word": "خَلَوا",
+            "context": "Passed away, those who lived before."
+          },
+          {
+            "position": 17,
+            "word": "قَبلُ",
+            "context": "Before, the time of those preceding the Prophet."
+          },
+          {
+            "position": 18,
+            "word": "وَكانَ",
+            "context": "And has been, describing the command as a determined decree."
+          },
+          {
+            "position": 19,
+            "word": "أَمرُ",
+            "context": "Command, The God’s decree."
+          },
+          {
+            "position": 21,
+            "word": "قَدَرًا",
+            "context": "A decree, what has been determined and measured."
+          },
+          {
+            "position": 22,
+            "word": "مَقدورًا",
+            "context": "Determined, describing the decree of The God’s command."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/033-al-ahzab/units/050.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/en/048-al-fath/units/017.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "الأَعمىٰ",
+            "context": "The blind person, one of the three groups exempted in this matter."
+          },
+          {
+            "position": 7,
+            "word": "الأَعرَجِ",
+            "context": "The person with impaired walking, one group with a physical excuse."
+          },
+          {
+            "position": 11,
+            "word": "المَريضِ",
+            "context": "The ill person, the third group with an excuse in the verse."
+          },
+          {
+            "position": 14,
+            "word": "يُطِعِ",
+            "context": "Obeys, obedience to The God and His messenger."
+          },
+          {
+            "position": 16,
+            "word": "وَرَسولَهُ",
+            "context": "And His messenger, alongside The God as the object of obedience."
+          },
+          {
+            "position": 17,
+            "word": "يُدخِلهُ",
+            "context": "Admits that person, bringing the obedient person into gardens."
+          },
+          {
+            "position": 18,
+            "word": "جَنّٰتٍ",
+            "context": "Gardens, the reward described in the verse."
+          },
+          {
+            "position": 19,
+            "word": "تَجرى",
+            "context": "Flow, referring to rivers in the description of the gardens."
+          },
+          {
+            "position": 21,
+            "word": "تَحتِهَا",
+            "context": "Beneath them, locating the rivers in relation to the gardens."
+          },
+          {
+            "position": 22,
+            "word": "الأَنهٰرُ",
+            "context": "Rivers, the flowing waterways in the image of reward."
+          },
+          {
+            "position": 24,
+            "word": "يَتَوَلَّ",
+            "context": "Turns away, opposite obedience in the preceding clause."
+          },
+          {
+            "position": 25,
+            "word": "يُعَذِّبهُ",
+            "context": "Punishes that person, the stated consequence of turning away."
+          },
+          {
+            "position": 26,
+            "word": "عَذابًا",
+            "context": "A punishment, the suffering and recompense stated in the verse."
+          },
+          {
+            "position": 27,
+            "word": "أَليمًا",
+            "context": "Painful, describing the punishment at the verse’s conclusion."
+          }
+        ]
+      }
+    ],
+    "added_context_fields": 182,
+    "own_missing_fields_added": 18
+  },
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=Hrj",
+      "use": "15occurrences in11verses:14nouns and1adjective.All nominal forms;noQuranicverb.Three occurrences each in24:61and48:17."
+    },
+    {
+      "url": "https://arabiclexicon.hawramani.com/حرج/",
+      "use": "Primary Maqayis:aggregation and narrowness.Sihah,Lisan,Taj,and Misbah attest dense thickets,restricted passage,wooden frames,sin,taḥarruj as avoiding sin,and bothḥaraj/ḥarij readings.Supplied morphological list and nonQuranicforms retained."
+    },
+    {
+      "url": "https://www.aldiwan.net/poem25879.html",
+      "use": "Primary transmitted poem text in collection attributed toQays confirms thickets witness.No independent preIslamicdate claimed."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/b/5405/329?lang=ar",
+      "use": "Primary Sihah includes frame poem,withSābiḥin main text and editorialJābirvariant according toDiwanandLisan.SuppliedJābirreadingretained."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/b/12165/91?lang=ar",
+      "use": "Primary IbnHisham AwḍaḥalMasālik quotes ImrualQaysverse withJābir.SuppliedArabicretained without treating variant as error."
+    },
+    {
+      "url": "https://tafsir.app/tabari/6/125",
+      "use": "Primary Tabari:fatḥah andkasrah readings;description of severe constriction.Source distinguishes lexical narrowness from the separate ascent image and modern oxygen explanation."
+    },
+    {
+      "url": "https://tafsir.app/tabari/5/6",
+      "use": "Primary Tabari:purification,washing/wiping,and alternatives.Denial ofconstraint doesnot remove purification itself.Suppliedproposalretainedasproposal;installedtranslationsunchanged."
+    },
+    {
+      "url": "https://tafsir.app/tabari/22/78",
+      "use": "Primary Tabari:noreligiousconstraintwithoutawayout;contextofstrivingandduty.Proposedmodernapplicationclearlyroot/contextanalysisratherthanauniversallegalruling."
+    },
+    {
+      "url": "https://tafsir.app/tabari/9/91",
+      "use": "Primary Tabari:absence ofsin for realinability withsincerity.ClarifiedPersianproposaltoabsenceofblame ratherthanunqualifiedabsenceofresponsibility."
+    },
+    {
+      "url": "https://tafsir.app/tabari/24/61",
+      "use": "Primary Tabari transmits differing accounts linkingphysicalexemptionswithfood/socialinteractionandotherduties.Articlepreservesdisagreementanddoesnotreduceentireversetomilitarycontext."
+    },
+    {
+      "url": "https://tafsir.app/tabari/33/38",
+      "use": "Primary Tabari:absenceofsin inparticularpermittedmatter,notabsenceofallresponsibility.Clarifiedproposalaccordingly."
+    },
+    {
+      "url": "AGENTS.md",
+      "use": "All11versesinbothlanguagesrecursivelychecked:noauthoredreflection.Alloriginalcontexts,Arabic,translations,canonicalAllahmetadata,grammaticalnotices,andpriorworkpreserved.Onlyownbriefs/ownpreliminarynoticesandmissingcontextsupdated."
+    },
+    {
+      "url": "Editorial review",
+      "use": "403rawblocks:combinedtitleandsubtitlesplitwithoutomissionto404normalizedblocks.PersianquoteproposalsuseForqandivinenameterm;liability/blameclarified.Expanded33:37-38andabbreviated33:38,33:50references.NoArabicquotationschangedexceptouterguillemetsandMarkdownlinebreakwhitespace."
+    }
+  ],
+  "original_sha256": {
+    "quran-terminology/fa/roots/h-r-j/index.html": null,
+    "quran-terminology/en/roots/h-r-j/index.html": null,
+    "_data/quran-root-studies.json": "98cf85797e9e8a8de96d233c3fc7215e9b1f26fd55b92477de7558e96ff3055a",
+    "quran-reflection/fa/004-an-nisa/units/065.html": "a2df6fab5e875b6899397e1339cfb9e8dd773936aa82281e7133c828f70de3ed",
+    "quran-reflection/fa/005-al-maidah/units/006.html": "f26008fbafc684e92eae875a0133db933222dc9c90d2175c0d44c977a9241652",
+    "quran-reflection/fa/006-al-anam/units/125.html": "d28165314724197634829560a4d15324e82709e7c04b7f7bf860934358670113",
+    "quran-reflection/fa/007-al-araf/units/002.html": "2164b368db33cbea0aaa3e829c94131962737d5522c1a3e5e5a985d87a32fcdd",
+    "quran-reflection/fa/009-at-tawbah/units/091.html": "bdfe91fc6bfe1201a90e8847efe39c32090eaeaab8fd9074e63ae6d3c456f543",
+    "quran-reflection/fa/022-al-hajj/units/078.html": "edf4814c30868cc6d14e2e42649533a86cea6617b5a82e4f3e7574f5e230c8f2",
+    "quran-reflection/fa/024-an-nur/units/061.html": "d6310d06e5a5c07a9d04871e7e2bc7d54014b2c1f5c679b7748f8b15647c9c51",
+    "quran-reflection/fa/033-al-ahzab/units/037.html": "3fbd5328f2db3f5a9a51ce9ec9b99888182a0faa94d035ceeee00453c7259c3b",
+    "quran-reflection/fa/033-al-ahzab/units/038.html": "b0b29864296da3cfaeaabe8acc127ab7414be45e7d026ae107cb134c0680c3d6",
+    "quran-reflection/fa/033-al-ahzab/units/050.html": "3fc4dd9c47f3c62f995a605f43bf54c0309134188bccb80664390145b7dce1ac",
+    "quran-reflection/fa/048-al-fath/units/017.html": "1a4776a8d6cf2992e0470a64254944a157ac622630cab495b0d395aae5916f8b",
+    "quran-reflection/en/004-an-nisa/units/065.html": "b3f9d961418acf30604f1ff9a60a9fba417b0fd55c595eeeb9253367441d40ad",
+    "quran-reflection/en/005-al-maidah/units/006.html": "d9e772957ba22d3b517f866b41de64b00b2d135db0e481eaca962813c543b6a1",
+    "quran-reflection/en/006-al-anam/units/125.html": "195c2deb5d9ec2afd73328aeeac7be42ad3922d1917164d78d12e93e0d6726f8",
+    "quran-reflection/en/007-al-araf/units/002.html": "ad6e1c790c104325ae46b8caf17e9b2121b83861efe83b1d0918bdddc8071ad7",
+    "quran-reflection/en/009-at-tawbah/units/091.html": "907e43f0caefee09d431ac2f839396ed8b581b5c34a5e594f853f4a0466b48d6",
+    "quran-reflection/en/022-al-hajj/units/078.html": "b97bf34c410a8b7f6f90c6333c683bb5c805a7074fb17e6ed3fe26e34c808e8e",
+    "quran-reflection/en/024-an-nur/units/061.html": "13541ab2f9d42df579d3221f07699d356fcefa513b02151d39106c11f39acbfc",
+    "quran-reflection/en/033-al-ahzab/units/037.html": "9c237530d797f27b25732d5f26de13410abf7d0c61497e42ad8df041a047a37d",
+    "quran-reflection/en/033-al-ahzab/units/038.html": "65d4a9ca7f3b4155ec61c8413f785728c4e60646c632db72696de86ec3207a48",
+    "quran-reflection/en/033-al-ahzab/units/050.html": "3bd9278b4f22733e330fa301393bc3a362124412daecb8bd815b771ad3c74df2",
+    "quran-reflection/en/048-al-fath/units/017.html": "cacc4b5d2aa167e5974399c6b45554d70aeb98b5f34e3088f9d5f788d73cbba6",
+    "_handoff/root-install-h-r-j-2026-10-28.json": null
+  },
+  "protected_sha256": {
+    "AGENTS.md": "b604bac7677b4e9f232021c9f2325500c8d7ebe645a53f25595f69d376671785",
+    "_layouts/default.html": "0a5fcd5d9293e9e93bbb0335f1e1d4329c055fd334c0bc6155f74be31aa0510d",
+    "quran-reflection/en/001-al-fatihah/index.html": "18cd51b454f0337fe85241055909aceb2f3b8c6452549f9fd8deb2db58e95b15",
+    "quran-reflection/en/002-al-baqarah/index.html": "508930d1372832da50892ef78a0502ec1addf6dfb5ad7e3b6771d0e8ff44bfed",
+    "quran-reflection/en/002-al-baqarah/units/001.html": "bb0311f7a7ad6242e66ec0a0e43576e0350ffa5982bfc55d21241a67145f118c",
+    "quran-reflection/en/002-al-baqarah/units/002.html": "62d4949b4e4fc7a9013c9f747364f338daf7fcbfe8478cde0ff213887fd6efb8",
+    "quran-reflection/en/002-al-baqarah/units/003.html": "1cbcda606ed589d751746008830526f81260638dee62098d973ba227e23715f4",
+    "quran-reflection/en/002-al-baqarah/units/004.html": "25d5708edc08d0a70fb244caadcdd27fe35ea2f453875265889ee9c9f7a17c28",
+    "quran-reflection/en/002-al-baqarah/units/005.html": "d7abe4818bd99120aedf5fc7c24133ef38efbb58e1d58b23025bc7e5baf7d433",
+    "quran-reflection/en/002-al-baqarah/units/006.html": "16f40ff6f8e89ccf90d401fbd1410b57295dced20ffaa7b0382f25e015653c38",
+    "quran-reflection/en/002-al-baqarah/units/007.html": "72015f73fa918c3198bc8934a2d4546c975e3d36290180b832adc4bfb5138726",
+    "quran-reflection/en/002-al-baqarah/units/008.html": "356a963dcb8e35e975509a790dd9c4fdd001557aef421ff768f0a3d224061574",
+    "quran-reflection/en/002-al-baqarah/units/009.html": "6b4610877172c491e4957b3983cd8b20f89126ed561c0f22c2ec33c41307d967",
+    "quran-reflection/en/002-al-baqarah/units/010.html": "9fc830444683915dd3bbfe6634344f680908d86cb7f431bd6ec48868d46ba245",
+    "quran-reflection/en/002-al-baqarah/units/011.html": "c6cf5b3b7f4cae611c9c6ed417af28c3bf1c718cda98b2995a080537fd6e8a62",
+    "quran-reflection/en/002-al-baqarah/units/012.html": "ac21808753d750907d214c191df670221aebcf62b1eb23094075bcbed5226d52",
+    "quran-reflection/en/002-al-baqarah/units/013.html": "a5f3532594a421fb7abcff4b61db201f0e6891b926f3508b6cacea8f3da96226",
+    "quran-reflection/en/002-al-baqarah/units/014.html": "cbf841a46ca7337f1bb0e83d45017123577054d076b72136ed2958185996cd0a",
+    "quran-reflection/en/002-al-baqarah/units/015.html": "20d21e1f47424e8e43defef6109e3d1f3939e1870848a38d3afd198c2ac7c2fd",
+    "quran-reflection/en/002-al-baqarah/units/016.html": "9f7dd64d813ce677e7fb3b84c5a409343854dc06149e1bf5e7b0804bf0dedbd7",
+    "quran-reflection/en/002-al-baqarah/units/017.html": "cdfcf12dd4d0117c3af73ad58240217ecbe174f5000d3ba5012fb3de365389ad",
+    "quran-reflection/en/002-al-baqarah/units/018.html": "0bd718011bce569ca3bbb93ac0f5515d118b4c98deb85b83ff081b9c6e117d30",
+    "quran-reflection/en/002-al-baqarah/units/019.html": "946371b9173a8553c8765862003bf270156822b3634f359675f1a205c5de5702",
+    "quran-reflection/en/002-al-baqarah/units/020.html": "1f652f7cca9aa8906cf4579d523a444e246d4bc622001a20b2ed622056bf2424",
+    "quran-reflection/en/002-al-baqarah/units/021.html": "fc1bf7171c8eff87c8d147dbb8d7ff4c44cc7446120a45b28c9911e68e18a7f5",
+    "quran-reflection/en/002-al-baqarah/units/022.html": "fba5e994081e084d17b1f149a9b1d4aff0bbb2c2caf0c12e55c74f5c20fffa0c",
+    "quran-reflection/en/002-al-baqarah/units/023.html": "33e2e695502789789c2bf7829e902031b7a0a0fa28cd7d05fe5d6b0079f3c5ec",
+    "quran-reflection/en/002-al-baqarah/units/024.html": "2711c258c6cfe4b78ccf8900d2278320d8da211ebbe79f70f7c3a832d3ea5668",
+    "quran-reflection/en/002-al-baqarah/units/025.html": "a2550d915362ba58f5505de46ca5ac63b3cfe44b81c6fcaee3ed46725e835e56",
+    "quran-reflection/en/002-al-baqarah/units/026.html": "8ad8c12503a31af632b28e0576b66308df987090b24e2d531e5460433459567b",
+    "quran-reflection/en/002-al-baqarah/units/027.html": "d0c597c2cbe6a238112d0532836da0d6aa55580f8c5ff2c529e0ca420f441081",
+    "quran-reflection/en/002-al-baqarah/units/028.html": "1e89413769f8db07243bfa3c3c7fe454cc07d851297315ff611ff6e6555df881",
+    "quran-reflection/en/002-al-baqarah/units/029.html": "79bf61bfaf76eed3775a6f77d2caf496507fccc1b7e1e564b03772c8c7f2bd1d",
+    "quran-reflection/en/002-al-baqarah/units/030.html": "02cb03c940085c24043dd6b398f83d3486c2fa9f6ff72eba977508632a486a6f",
+    "quran-reflection/en/002-al-baqarah/units/031.html": "d351cd7bbd14cb77e0e2f93a76e5cc4488401569f97275370f869d3f1a6edbd4",
+    "quran-reflection/en/002-al-baqarah/units/032.html": "f0c50fb69de7686cdd3ce7c3b66e700c35483d35721be29367eca4ebdd522b58",
+    "quran-reflection/en/002-al-baqarah/units/033.html": "3b5f80393d118da93ed9c75363df6d6ffbe319807ffc09f70b21e227898fe7d0",
+    "quran-reflection/en/002-al-baqarah/units/034.html": "3bd4964a734887aa923042a66c2f1f832164961be20f51cceeb41801c43932c7",
+    "quran-reflection/en/002-al-baqarah/units/035.html": "2b2c3598b77275aae0b1749c5e8b85f2fbeb23783d6e41bab04045589765ca9f",
+    "quran-reflection/en/002-al-baqarah/units/036.html": "fd86d0d86f1725fabcb76274020001b0c0d39004bd9aaa07a97bd2ca5ab45c49",
+    "quran-reflection/en/002-al-baqarah/units/037.html": "de0236e1871982bd3b78784b4bdbce4da83274c1b91cf9b09446451e0a992505",
+    "quran-reflection/en/002-al-baqarah/units/038.html": "0648982ecd92010c9f83044ea78440b79a197c682930a9abbd58f79d19ce266a",
+    "quran-reflection/en/002-al-baqarah/units/039.html": "0779a57432daab549a3499ad2c1e6054b1a2790d5db9dce0ee84e85e9be4c479",
+    "quran-reflection/en/002-al-baqarah/units/040.html": "e6328c7d34ec7b95cc869cdc2743639738346f01f7825f7ca7696f964e1a3dff",
+    "quran-reflection/en/002-al-baqarah/units/041.html": "cf3a7fc464e2e3111cf26495283db0f94fbaafc4e7cd1ea0898e7fcdf3f74692",
+    "quran-reflection/en/002-al-baqarah/units/042.html": "09fc95eb176505f738b8ee8c54758a1895bf0f87c0b1ddc09a05e902d729eb12",
+    "quran-reflection/en/002-al-baqarah/units/043.html": "e2c585d59fcd5e8771d6e1ef0f94eba6c2a7a39121d333832b6a9dd6974973e4",
+    "quran-reflection/en/002-al-baqarah/units/044.html": "881d938390c61a963a12164cfb6bdf99876d2bc4d46a97e9b16d90bed33e1dfd",
+    "quran-reflection/en/002-al-baqarah/units/045.html": "e220a95a37dc095ab69ffc8369e193503892cc3bd1b20ae22d476030d602f742",
+    "quran-reflection/en/002-al-baqarah/units/046.html": "dfd94d3a3d85ac6c337574f5780b12de182acf8e87ebd1004a474f75036ff729",
+    "quran-reflection/en/002-al-baqarah/units/047.html": "7c9075e2273da0fb2c43b1db8696cc75319f97bc96e5e0658ec9a7faad84175f",
+    "quran-reflection/en/002-al-baqarah/units/048.html": "4ff8cd9cd81ac2cb0d0e9c6a8a8cc92c93a734e30e1a739417a032a948db8abc",
+    "quran-reflection/en/002-al-baqarah/units/049.html": "2ebb4deac937280c5b498834d496f1af85df6dc4292e3fa3c3028ea3f412058f",
+    "quran-reflection/en/002-al-baqarah/units/050.html": "93bfa3adfe64b1a04d822c71dd863c4638e133da8a603f1b1d90272304648206",
+    "quran-reflection/en/002-al-baqarah/units/051.html": "006b7f6e629d6b7e7e7c584f4b8c5638f6706a2309b347d5db16fa2247f9342a",
+    "quran-reflection/en/002-al-baqarah/units/052.html": "16ebc736052cd50a9af064abef88672e1dd9ce85d33c2ca435f2f1efac51db9e",
+    "quran-reflection/en/002-al-baqarah/units/053.html": "9b8487377e1c0178ab72cbb8b39317c2907566014771d5394644118dc5d6d89d",
+    "quran-reflection/en/002-al-baqarah/units/054.html": "354e0e5055b1ca6e17b63662200b38155db29e73374bd9329f1a2f4d825a3e35",
+    "quran-reflection/en/002-al-baqarah/units/055.html": "d194e233d5dcb6d622f69a54919c57588ffc13ffbf83c4338204e1a4b46338b6",
+    "quran-reflection/en/002-al-baqarah/units/056.html": "ba99d84a62286f496918fa0e652356a1f784029d1a90f1de402456e4d2dc5f57",
+    "quran-reflection/en/002-al-baqarah/units/057.html": "63629bf8030fcbc0878e4b84f927182d24763000123aa3a9730fd4d1f58d25e3",
+    "quran-reflection/en/002-al-baqarah/units/058.html": "d218fdd924128899ca3f8726475d806c79786f6fc6119d4279660a9712392f4e",
+    "quran-reflection/en/002-al-baqarah/units/059.html": "85ff0659500f7be3c02dc97f60e0e22234358237746741d5e70af4af93ec52b9",
+    "quran-reflection/en/002-al-baqarah/units/060.html": "15f5901f8269407d9e79e5810117c59a1718be7bd88580607d3e4734cba29d5f",
+    "quran-reflection/en/002-al-baqarah/units/061.html": "90753bc12e30d787a3cb828987e960f9d5e73f4c803c0371850c32a4e9cb1abe",
+    "quran-reflection/en/002-al-baqarah/units/062.html": "dff5b652fca74c5db44fa3bd855bb17124db64e6ce228749cc65bf584c12ff57",
+    "quran-reflection/en/002-al-baqarah/units/063.html": "8c3f9d3bf1881454b191a3e9e3f854eaeed0951eb9849dc60227938875e15c9a",
+    "quran-reflection/en/002-al-baqarah/units/064.html": "20813493b98c059fb3d0f905cec58993de52c5137a5e40a0140facebc4ac7533",
+    "quran-reflection/en/002-al-baqarah/units/065.html": "dc09aebeb4de48ead20462691ec25d288bfa08611277693ba507a305b65d8c20",
+    "quran-reflection/en/002-al-baqarah/units/066.html": "4dd8fccca4c783fc5534b7fc5ff927502bee471aa77c4dce033f2f7cb5c0bd3c",
+    "quran-reflection/en/002-al-baqarah/units/067.html": "55de2f21dcaa39199098853ea3ef2ebbbc46a4161b989ea960f77eddc60a97c1",
+    "quran-reflection/en/002-al-baqarah/units/068.html": "46d8c1b771df1b91c369f5f960eca2b471268ff70a25fe5f5dc43281bc2ee4ef",
+    "quran-reflection/en/002-al-baqarah/units/069.html": "d778d2c0d8e16d209c229e61e75b05e1dc5cfcf58d4a80adfc77d329b9f4c2ad",
+    "quran-reflection/en/002-al-baqarah/units/070.html": "dbef853f143c28cc5dd5702ec9d0b31fe314b58a8d316b9bf1eb53e26f30866a",
+    "quran-reflection/en/002-al-baqarah/units/071.html": "3ea71815b3d71449defa943323f6ceee5867b0812591c1568e7fb200f8391748",
+    "quran-reflection/en/002-al-baqarah/units/072.html": "7d3af130ca73d6faa49f2ed774d0ace7e7c9390a2f18e8dd44eb1de85ddfb31c",
+    "quran-reflection/en/002-al-baqarah/units/073.html": "250c452b9b1d247df269e7a6dbfbfe10a8977cff409ff65dc4a14874165e00c3",
+    "quran-reflection/en/002-al-baqarah/units/074.html": "52ce9fda6aa72f9c25fe2fe24865e922c93c470229b2686d8b0693858edffcc7",
+    "quran-reflection/en/002-al-baqarah/units/075.html": "edc58b993df4a6857779d596e26421e21bb74ff582c90a57e620a0508b901752",
+    "quran-reflection/en/002-al-baqarah/units/076.html": "159ca6db34de05e227b5e49fc5a41f3b0f80f74cc8b859427efef9d1c3751c7c",
+    "quran-reflection/en/002-al-baqarah/units/077.html": "2799355f723c36b1aaf79b4770d9a9ce5d7738a13ce6915795a6bf6b2a21ea22",
+    "quran-reflection/en/002-al-baqarah/units/078.html": "f3cb8ace13ddc72c18894a16014f7d286245dad0716ad6d2fc11cdb61f46cc7c",
+    "quran-reflection/en/002-al-baqarah/units/079.html": "8a105e64c33f12ecf8071c563800157aa1f5ea59df184cbf6e797e37789298e5",
+    "quran-reflection/en/002-al-baqarah/units/080.html": "1943bb02634521fabd87ff584ba83668a71a4d19554157a0f202e7f1738e22d7",
+    "quran-reflection/en/002-al-baqarah/units/081.html": "b0dc6945eaa820cf7845e2338bde71b95ecfef2339063ab7787f953ba92e8cd0",
+    "quran-reflection/en/002-al-baqarah/units/082.html": "022aced83b963f920277163e44594ed4c49c39e1b8e375f3880a36f9eb8bd836",
+    "quran-reflection/en/002-al-baqarah/units/083.html": "ce8a994929a70e3aed709115dbf889cbe6ff6740d038178944ae81a88940bcdb",
+    "quran-reflection/en/002-al-baqarah/units/084.html": "7cf24059c40b8c4ab98a8a9932fc1122013bf897449721f01c45988d35a6fa89",
+    "quran-reflection/en/002-al-baqarah/units/085.html": "211553bba467980f37647308ab1749bed465ebc86408deaeda2da3f9827169f0",
+    "quran-reflection/en/002-al-baqarah/units/086.html": "fb8327c188e8fc1a045492135c67ecf035acd6b3f468ac906549ec756991ac88",
+    "quran-reflection/en/002-al-baqarah/units/087.html": "78a79b1d10c894fdf9efceaa5ec471cbe0550bf1c280a5ae0cb3d4967582c1f0",
+    "quran-reflection/en/002-al-baqarah/units/088.html": "b8b1e9107e9b2336728012bd338b4036e5c069d9d3de3e571c10875950826a55",
+    "quran-reflection/en/002-al-baqarah/units/089.html": "3a1b2500bace2962a8cfb3615335d52cd6a24568e7255aeb1010efe88930f46a",
+    "quran-reflection/en/002-al-baqarah/units/090.html": "4dc69793188915922c222ce7bd32bfd65570cb83383dd49904b4994bc0d70508",
+    "quran-reflection/en/002-al-baqarah/units/091.html": "f81f095303f0062db963a3833955c4a870cc87fd185001033aa5d3c048043e6d",
+    "quran-reflection/en/002-al-baqarah/units/092.html": "461cbf8d5e602200f553cbda9f6d52e192c6ad23ed1a81c7c20b8ba90da2ab70",
+    "quran-reflection/en/002-al-baqarah/units/093.html": "960748629e5c1cd53b4210204bc2d98ebc61108b8c8742c6e9ae4580733ea367",
+    "quran-reflection/en/002-al-baqarah/units/094.html": "0606877d1b2d5244d25df0b8b2faee12e68036e194db7101db6a88dad04f9bf6",
+    "quran-reflection/en/002-al-baqarah/units/095.html": "8f419395d66201879528b5dafb29d8bacdae0d3b33a58498d51810bc3d4fa606",
+    "quran-reflection/en/002-al-baqarah/units/096.html": "fac9d882a9175d1aba4e9ad1af946fa9a6ba7cfd2528cc37936ffdb70d8549a0",
+    "quran-reflection/en/002-al-baqarah/units/097.html": "204bf2f33458b7601da7a09e82b450a1afb9ba5ac2cb92bddaf771409b78c62d",
+    "quran-reflection/en/002-al-baqarah/units/098.html": "78ab6f404feef0a0cb42cef12e6d56e503b76efc4e112f6e8c0daaeec90811a0",
+    "quran-reflection/en/002-al-baqarah/units/099.html": "4b13d446495b932c1a36dc993eb275bd51314ee3a70e2ceaf7199fb1fe7335fa",
+    "quran-reflection/en/002-al-baqarah/units/100.html": "06509b9fb5d99ab9e2d84e7b9e7a76e3b4af3c28380f01b10e9cbe2032e40dbd",
+    "quran-reflection/en/002-al-baqarah/units/101.html": "d468a7cec634f2ee472d4fb37bd255fac198d49ebc9ae9dac3ada58bee889ec9",
+    "quran-reflection/en/002-al-baqarah/units/102.html": "86b076aafe90c15e0fbcb85ee03ffaf3a219d3bbc5e7533015616bd9283211ad",
+    "quran-reflection/en/002-al-baqarah/units/103.html": "094de03171613ff2e2c150bc9dcbf86b633768b0f5eedc33b14fe4bb23600680",
+    "quran-reflection/en/002-al-baqarah/units/104.html": "d7848649c178a8a6fcc7ae8dbd868d3c303f293efb0f7137f76efa51141ecf5f",
+    "quran-reflection/en/002-al-baqarah/units/105.html": "306c8d2292eea83d5e3fd62a77ee2de3fffd9cb52074d445d2b9548f21849166",
+    "quran-reflection/en/002-al-baqarah/units/106.html": "d3034ec4b4dba34a325eeab397eee9d816e23090621ba07db02ddb6b97a118c5",
+    "quran-reflection/en/002-al-baqarah/units/107.html": "417a5d7e7167bfb07e8027427a47cbb7760944c6fa1721a4af16c922b3aaedcd",
+    "quran-reflection/en/002-al-baqarah/units/108.html": "b15eb0de6f0a7db667b0e633d6fcbfd4cf64e421ac633ee8729baaf0f4d76b61",
+    "quran-reflection/en/002-al-baqarah/units/109.html": "fba4af76d750f8c16d3a81973a157457f15fe670c89c7081b84a5d1791817f4f",
+    "quran-reflection/en/002-al-baqarah/units/110.html": "36086e37c96b4c3ba7c0c440095fdb88fd390d79babf7f8c6ad10c4c2dc70503",
+    "quran-reflection/en/002-al-baqarah/units/111.html": "cbf2c0e588df8e67df70f85bd6ccd2de8a007c0ac65e1f9b3132f8a14765f6cd",
+    "quran-reflection/en/002-al-baqarah/units/112.html": "e9fac679b0b0d3ef0e3203b31f9da53823d9e786ce71fe3bccdba8145d3112fa",
+    "quran-reflection/en/002-al-baqarah/units/113.html": "5252d5c928f4c5e5651deed646ad0e806224aad32bb65271eb2792835d4ab4e7",
+    "quran-reflection/en/002-al-baqarah/units/114.html": "358112a6430d934864dddef07f039eddf6a4979bacf65ecf59178f4e6d231eeb",
+    "quran-reflection/en/002-al-baqarah/units/115.html": "fb3c218aa825cfcdf760d8e899462f31b577d52144864952609b17d1814e99f5",
+    "quran-reflection/en/002-al-baqarah/units/116.html": "019dd220f1fceb648852d9e64d57d84785139b20a5450a6a0dccc9061ab028e2",
+    "quran-reflection/en/002-al-baqarah/units/117.html": "e96f41ccd4f6de9aeb70a8ff9446e6ad93c0545ee1840dd4ae8154da2dd0a23b",
+    "quran-reflection/en/002-al-baqarah/units/118.html": "62a323ef009e9344c1f97564a3b7dc178bb589688fc89d3c8f5a3e8fe473437b",
+    "quran-reflection/en/002-al-baqarah/units/119.html": "65082dd0605715ef09ede286a4ff6c6bd809c4fb9edc118cdcfef5612f907f1c",
+    "quran-reflection/en/002-al-baqarah/units/120.html": "95621562219d77818af7c6c2995ac7cc3baf0998cd70dceb508a715a3c3ad6e8",
+    "quran-reflection/en/002-al-baqarah/units/121.html": "1d5fdedd8c7cbc14af5d260910273ce542b72515e8364062553fb295824ef879",
+    "quran-reflection/en/002-al-baqarah/units/122.html": "d2dd7e1d5c04d6b1989ac0ad2fdf788e4ec312ae7f09ccd29edcffce119af8ad",
+    "quran-reflection/en/002-al-baqarah/units/123.html": "b2c09407f82bd44b240bcfac01dfef284978057a80181e7a48178f046ff0f73a",
+    "quran-reflection/en/002-al-baqarah/units/124.html": "eb648f4b4929d6fc7467e945dbcd012fa5bf4d42fc1042ba61d085f504e63906",
+    "quran-reflection/en/002-al-baqarah/units/125.html": "3f3aefdd8999b3bd3e39a5eb43f8a7e5e50dd0eefd90ec07405a83c95fe57bda",
+    "quran-reflection/en/002-al-baqarah/units/126.html": "aab56e8aa16ee5ea0e74694bb88194e61a7f101cecac3ee619ab44eedee5a608",
+    "quran-reflection/en/002-al-baqarah/units/127.html": "6d1a7c4c2251b165d5361950c6dbb294a4c813a7a9cb31aa60b93e73bec07f03",
+    "quran-reflection/en/002-al-baqarah/units/128.html": "69a4599321ef026acc416f755eacd8fef145298399405da7b5184ee007281614",
+    "quran-reflection/en/002-al-baqarah/units/129.html": "13438190b45efea075ea44ec143e1d34e985f2a5c6a66e894c9a6ea7543ad43e",
+    "quran-reflection/en/002-al-baqarah/units/130.html": "ddd24212556b1528cd67d2a5cad81aab2d42ad459750324871dfc24602df895c",
+    "quran-reflection/en/002-al-baqarah/units/131.html": "8dd834dc8c06ec0d305a0d09096e97f9c7f1b998f466e003dc09ed7e78eca24a",
+    "quran-reflection/en/002-al-baqarah/units/132.html": "a41b3876091308dd523845cf5e62b1362aece23f2785910c24d69f3f5d3ae28d",
+    "quran-reflection/en/002-al-baqarah/units/133.html": "4105f56078df8b6c6ba7d7153b232dfbe82b19b037b8a45e17abed6506c1eead",
+    "quran-reflection/en/002-al-baqarah/units/134.html": "e7a9e6ae6ea7ad9115c15bc5c41616726d5db5f3a3342d7eca7d5de2a8c5185e",
+    "quran-reflection/en/002-al-baqarah/units/135.html": "7b890d6545058388bf51cf1335f9d1f4e05034384c929d28aa41af2c98d10574",
+    "quran-reflection/en/002-al-baqarah/units/136.html": "8831ab6c088aac4a9deba9f2359738c5e7e99acd11155a4b3998f87c32dc4920",
+    "quran-reflection/en/002-al-baqarah/units/137.html": "ac4cac6a7d3cdba7ff3338ec5a4b52e31fe79540d89678b475f7fac575b2be7d",
+    "quran-reflection/en/002-al-baqarah/units/138.html": "654046868be7028faf761c8a59801de325c5819eaadb6b8f96cf260a322c9663",
+    "quran-reflection/en/002-al-baqarah/units/139.html": "1b00f98f4d8532a843a20bf741955d792ee10ac87bfe2fcfb3e40240e1328830",
+    "quran-reflection/en/002-al-baqarah/units/140.html": "dd1763176628a358f60eb0ca45e627545d27fd07e6e685d4eead58205ffb2326",
+    "quran-reflection/en/002-al-baqarah/units/141.html": "12b6177f595d6e6725a4e5b438662d49cb1e7cb51c69d01219650ee6b27a9193",
+    "quran-reflection/en/002-al-baqarah/units/142.html": "15eae41f22636d2881fa707f68142f40fd259e5142d18289ffaa4ffb943dcab0",
+    "quran-reflection/en/002-al-baqarah/units/143.html": "5df49267319fc671305a7181a83728995860e4c21179c998d914aa612c9d290b",
+    "quran-reflection/en/002-al-baqarah/units/144.html": "94029937f20b5a37f5a0b9755089a7645dd20361be2bb5c0f314866ad6bdfdda",
+    "quran-reflection/en/002-al-baqarah/units/145.html": "96cfaf87cff72e4708784f46012b73b510937dd30a6aab68f4d14ad81bf9b431",
+    "quran-reflection/en/002-al-baqarah/units/146.html": "51f829b9baae947308d0caf769dab125194486a8322b3f99fdc09e67c0ad676d",
+    "quran-reflection/en/002-al-baqarah/units/147.html": "3367d9ff3a545e9cad1de85ed77ad39dda6754e2aca1162e26364b91ea60b36d",
+    "quran-reflection/en/002-al-baqarah/units/148.html": "722765c84433ae7f1c0b5bacbcdcbd3f30431b7b941228fe8386865c7ab697ca",
+    "quran-reflection/en/002-al-baqarah/units/149.html": "1c20602ab81ad28d484fd70d48efde3710819ab7ce212165b139f7a2c2d99065",
+    "quran-reflection/en/002-al-baqarah/units/150.html": "a273a408a35a7c090b04861d9b3526d4785f9947ed18c21fb4d4213f26a49364",
+    "quran-reflection/en/002-al-baqarah/units/151.html": "d9fe41557283133fca8003c56afea7292cbe9ef887fa52f19dc35b6f2744409a",
+    "quran-reflection/en/002-al-baqarah/units/152.html": "8c51914244fc9cb798178ad34cd7a50596aa73a8368eaf093cb5b413327e2c35",
+    "quran-reflection/en/002-al-baqarah/units/153.html": "06349c841e8a3aabb2dd3a01d96cfe6dc29d57ca0b1816c613ee8f65969f7da8",
+    "quran-reflection/en/002-al-baqarah/units/154.html": "70153d56c97f5a73e3519cfcdf93ad20bc894ccf427182dc5afd203cb4644b4b",
+    "quran-reflection/en/002-al-baqarah/units/155.html": "e1d4d1f5638ab54825927704e72ef0acd8ac163436a2464500988eb242c85b8e",
+    "quran-reflection/en/002-al-baqarah/units/156.html": "862a9d320ed35af82983ed7194ac93c64c24c18b11632ee3e3dd91144ab50ccd",
+    "quran-reflection/en/002-al-baqarah/units/157.html": "9b666f3f10443c430ef105c5087c1cb0a56fd2ea1b095f0c87e2a3aa08fd8856",
+    "quran-reflection/en/002-al-baqarah/units/158.html": "46a62d9d0e828eadef0dafbf5335f3a35b54a85f77e21d05370ad4fa89c2dffa",
+    "quran-reflection/en/002-al-baqarah/units/159.html": "3ff1d3d1bf3bc8f93bb2e58f4a8b0633c47516a9d25f3e47f8ef4bbc34819814",
+    "quran-reflection/en/002-al-baqarah/units/160.html": "3c15f475afd12c6f7e01d154bb706aa44c62421850c14a419bb38ddc623b8529",
+    "quran-reflection/fa/001-al-fatihah/index.html": "7da9c785b46e5a50ed604f9443f400fadef3b2108e062c53472214e65ba86d6f",
+    "quran-reflection/fa/002-al-baqarah/index.html": "7e1bf21975435301b41bf1f59ddc0017e64e4576e79844c7dbaf954815e8901d",
+    "quran-reflection/fa/002-al-baqarah/units/001.html": "5fb9704a9272ff6c0298f38255d63c69db5e982d03379af6e9b338e248611005",
+    "quran-reflection/fa/002-al-baqarah/units/002.html": "1734de3de01876be748951ffa820df129174460a2b28a0a1da73bc5fb10b8a85",
+    "quran-reflection/fa/002-al-baqarah/units/003.html": "f075430c3bc84ec206dbf0a3caba71d78687d690e54e606747e5cb27abf30f40",
+    "quran-reflection/fa/002-al-baqarah/units/004.html": "06c67c449eea6540cda5cc9428c125bba27b1737479b8d93fa06d01541b11900",
+    "quran-reflection/fa/002-al-baqarah/units/005.html": "cade56ad027673ed6df1202e4f6c9eb32ee51be94d76c98d67863e369bf72ab5",
+    "quran-reflection/fa/002-al-baqarah/units/006.html": "06f36979cc0dc086fe1d5cc9b17a8f9d8057fc7cb248f3d09c1d775cfd3a8056",
+    "quran-reflection/fa/002-al-baqarah/units/007.html": "a12a0d12ebbedf1587788fab99e6026a75b175f5af96bf3ee1a1fec4c496c481",
+    "quran-reflection/fa/002-al-baqarah/units/008.html": "e6bd8bcff8f134db8e710f34fb6dd40661a70a3f7be56249ed6ab441d10c6364",
+    "quran-reflection/fa/002-al-baqarah/units/009.html": "b8aa1f84d7891c75d5f3bb1e6c113f17b13b070c8940347fe3fd469c509af30e",
+    "quran-reflection/fa/002-al-baqarah/units/010.html": "408cadae20f0fd821b7d90b1b51a94027ca693086281e8c63eabd9ad57afe68a",
+    "quran-reflection/fa/002-al-baqarah/units/011.html": "4febb3fef52d0682beaa15f8313b471171e6dca418e49d757c942d8b00fdc84d",
+    "quran-reflection/fa/002-al-baqarah/units/012.html": "264e7235727e421909143c99bbb9ed3a39cbc917586341c10b196814808b611a",
+    "quran-reflection/fa/002-al-baqarah/units/013.html": "2bc7424185aa80321302b76ecf176b93e4d62b5721eda8242a9214345aa21fbc",
+    "quran-reflection/fa/002-al-baqarah/units/014.html": "4c6cf32e765c4632c1a0f925398b499c09a848993ff752f80f2b509229b9b0df",
+    "quran-reflection/fa/002-al-baqarah/units/015.html": "4764f8fa5d1bde30266b1a7a11cb27024a20c69e9ba7d54688459ff7d34b0fe8",
+    "quran-reflection/fa/002-al-baqarah/units/016.html": "2bfee16798de08411f09c0821ed68a4f77ca1334d8d1c032f3b88786168e21b6",
+    "quran-reflection/fa/002-al-baqarah/units/017.html": "11d72d217f499f0e72db4f3be7ef3f6f540f4ec1dd0b139110c0e438708ec2e3",
+    "quran-reflection/fa/002-al-baqarah/units/018.html": "d8b9ed81ab3745e2d5967a559184adde7b1a2ba229a24ddc3983cd193f8cf6f4",
+    "quran-reflection/fa/002-al-baqarah/units/019.html": "a644e23e14bf9007694dbe3df3a278f60b4deff44b5d6e60aa2c3419eb563e4f",
+    "quran-reflection/fa/002-al-baqarah/units/020.html": "0b8a4bbb919cdfeb1d802991f919e1e63d9ece2d994845880a8f21353c96c2b8",
+    "quran-reflection/fa/002-al-baqarah/units/021.html": "75a0c9b8fc95cf243d7cfbc8df68bc5ea8b2e8e5d2b521954c2a516b2f814002",
+    "quran-reflection/fa/002-al-baqarah/units/022.html": "86f6fc5751d24d656c3bad4d1480093d36ea0ed4debf487931075602c1856a12",
+    "quran-reflection/fa/002-al-baqarah/units/023.html": "41709deb4f18ab38f563d3fc6ea1deaf6f8f03d78baf8b446b0f4d9aceb3497e",
+    "quran-reflection/fa/002-al-baqarah/units/024.html": "3fef6db2a05e71a0137250572dbef10db02d95b8eaaa8dd2c70d09d097ad6fba",
+    "quran-reflection/fa/002-al-baqarah/units/025.html": "91809e9f08f1f2587c96f3f1c905b764b849c595c80096434280642750e1b507",
+    "quran-reflection/fa/002-al-baqarah/units/026.html": "b88f379dd4a79ade67ccac05864d731aad73397743e1cacf8b11c2625ffc3c68",
+    "quran-reflection/fa/002-al-baqarah/units/027.html": "91cc3541ab38a91372b4e1fea319edc7bfa39f5667d3fdb72967911054f8a1ae",
+    "quran-reflection/fa/002-al-baqarah/units/028.html": "baa82e7392c04ba5bb0e235c61656c235fcc35aef000aefe065baa57af5d4cd3",
+    "quran-reflection/fa/002-al-baqarah/units/029.html": "5322c4918b48125203a54ba81864daa8221ba2e6954a64072d3b36fca95241b7",
+    "quran-reflection/fa/002-al-baqarah/units/030.html": "7143e578155191584e0e705e485ce09b7ab1c81771a976551ca38fb6464dc078",
+    "quran-reflection/fa/002-al-baqarah/units/031.html": "e4540a9c420caf899854fb8cc6daaf9dd3586849ed59c4e9bfce1450cf7c8b52",
+    "quran-reflection/fa/002-al-baqarah/units/032.html": "a7ac86891cadf33325205e86d213dcd309f2b605172b89b2cba7a3f805785b86",
+    "quran-reflection/fa/002-al-baqarah/units/033.html": "3aa20a21a8b7dd9f39a0857812cc0ca12af94584f20ca5758d3838256fe9376f",
+    "quran-reflection/fa/002-al-baqarah/units/034.html": "4cf60cb63e8655db75b675a1666fce691da1b2124aa0542a066624924516b139",
+    "quran-reflection/fa/002-al-baqarah/units/035.html": "04a4ed55ef495df39f67525ae9e805285a2288e23c6fb459302d3308c8c55e36",
+    "quran-reflection/fa/002-al-baqarah/units/036.html": "a9422cbbef22063249e2e8c5a67ec2b80ed5f65d24076783885ceaedaf6b88ae",
+    "quran-reflection/fa/002-al-baqarah/units/037.html": "d945ad001f4bb70cf46045feb803756c94b59332237c5c7a0728f43c468d3a90",
+    "quran-reflection/fa/002-al-baqarah/units/038.html": "e674699903d03d27f3a9519f7b97c6c7da2c6e5856095705dd52d45f6a332516",
+    "quran-reflection/fa/002-al-baqarah/units/039.html": "661410955065bca42f35c88a506e83e4b77dde628453c990c4d8b6c8cd4b33bd",
+    "quran-reflection/fa/002-al-baqarah/units/040.html": "f4feaec2896759b22f35cc297653e1820eaca003c336fe34deeea15026459294",
+    "quran-reflection/fa/002-al-baqarah/units/041.html": "550fc225b9264d5736020630a26b55cc50d2624b31035667c7b33c1f185187a8",
+    "quran-reflection/fa/002-al-baqarah/units/042.html": "7f8276dcbf910362fb1b48c0f05aaee2a8b0473249e3a5b5e1882a5e3f94bc5b",
+    "quran-reflection/fa/002-al-baqarah/units/043.html": "694801f933a42a5022e046f786ef146f85f243fbb3cb5491f1b3e05d01ba5fca",
+    "quran-reflection/fa/002-al-baqarah/units/044.html": "f47db0738495a4a35eed0447c2f18b56b6cacff04b57dc39ce5de28cfa165b32",
+    "quran-reflection/fa/002-al-baqarah/units/045.html": "b13cabb7c2596587aed6fe15c3a117c55329b79fc27c9c3bed285dbd4baa84a0",
+    "quran-reflection/fa/002-al-baqarah/units/046.html": "08af26e1b4fc11728b22e833b2bb895a8a1fd17a8466025fb9c37e6a133d4fed",
+    "quran-reflection/fa/002-al-baqarah/units/047.html": "0ae44516c3583067f02c9c3e2ef763777b2312757b11abb19abc6b5e96603931",
+    "quran-reflection/fa/002-al-baqarah/units/048.html": "8f2c0df504656c890478b19273fb9bf40b4a9997ecf50f396d1e88e6828a7a30",
+    "quran-reflection/fa/002-al-baqarah/units/049.html": "26aa86b99922e1e692e19eb6fdbcb7679fdbd544c84da608e15e99f3517a73b4",
+    "quran-reflection/fa/002-al-baqarah/units/050.html": "d4d0afa9664ff88f5d4fcf19ff7250b92d7b21c5b48b1752f2ff6e36840bd556",
+    "quran-reflection/fa/002-al-baqarah/units/051.html": "eb3fbf553f04454147cae4490db4e836e059b58161580540091af4fbbbd4fd79",
+    "quran-reflection/fa/002-al-baqarah/units/052.html": "b766ccf4e3a76d0afdbb044c0785379c3c67892cb98c5d92341269e7b80a9a19",
+    "quran-reflection/fa/002-al-baqarah/units/053.html": "052120c17ac540788124f70a810f133ff9d52f47a83146a14fbce9893f5f5eac",
+    "quran-reflection/fa/002-al-baqarah/units/054.html": "ead789938da87752d7046e6c9fd647ba5cf3eaf22c5153c8c588910bdb920713",
+    "quran-reflection/fa/002-al-baqarah/units/055.html": "201aa4029de1f0848a3895af29b8c8e8c0ef565b165cc34a49e0f7bc7d37ff76",
+    "quran-reflection/fa/002-al-baqarah/units/056.html": "d20099a1b473d199058f0eb0e648d3268414747c1896abf63e7036225cb04c2c",
+    "quran-reflection/fa/002-al-baqarah/units/057.html": "6557604b0764d91a75cee1e861abeca358731a51cfd388196fab86ad4bf8596b",
+    "quran-reflection/fa/002-al-baqarah/units/058.html": "677f8fb16e1d043c1aa27a2916eda99d51d0fe0dfde3f0c365e3903b1647ca86",
+    "quran-reflection/fa/002-al-baqarah/units/059.html": "985675fccd659e7d51417bae991f637d9b53773c7c56fd10d196cc23c93a35c1",
+    "quran-reflection/fa/002-al-baqarah/units/060.html": "ad450e9bc6212a6cee57eb3c8d80db203cac09507e4c9d00b0d584306644bebc",
+    "quran-reflection/fa/002-al-baqarah/units/061.html": "1671e1358b528aa56f604cc0888c83b16bdcd7c599db06629814b0c42b03d053",
+    "quran-reflection/fa/002-al-baqarah/units/062.html": "36cd021abe1078ce442fab3787258692b1e2a11185a5e6ed86bb64e7f9a289d5",
+    "quran-reflection/fa/002-al-baqarah/units/063.html": "68ecef679054e09e8745c149c77a37277702e26659c35766f02f8f55f2395b60",
+    "quran-reflection/fa/002-al-baqarah/units/064.html": "37fbc0ca3c3a8ad53ebe5db62b4a9f8d65d88a1f09f5418a0d360685a0b512f0",
+    "quran-reflection/fa/002-al-baqarah/units/065.html": "8017f5f63663c093a71903ad5c046de5092198bb960677a6b59e5b3412ba8592",
+    "quran-reflection/fa/002-al-baqarah/units/066.html": "8bc304bf99a8b4d36b4ddedfd5a514c90fc905edf17cd2d641c02eadbfee67a5",
+    "quran-reflection/fa/002-al-baqarah/units/067.html": "4bde2509a95f11dda5f3abdba101065701d5c4e2f4d90017fdcffc235deb16fb",
+    "quran-reflection/fa/002-al-baqarah/units/068.html": "d41b586efad3382182298df2af7388079df43c7b3ef9841d575bc5f3c177490c",
+    "quran-reflection/fa/002-al-baqarah/units/069.html": "a981d445595bd0a9d33312147a182e234c8e26b6fabb07f398eb50f32a5ac91e",
+    "quran-reflection/fa/002-al-baqarah/units/070.html": "154dd22acb2e57bb86ab3fc10aa43bb6360ddda9cfbf0a15caf93f88d8145d9d",
+    "quran-reflection/fa/002-al-baqarah/units/071.html": "86000c6fad3702e8fd135248946b779b730936e4912d1dc3cc99642b8149efad",
+    "quran-reflection/fa/002-al-baqarah/units/072.html": "f28607887c0642fab637a39e0dcc26ae709a0a5495c912ab949549abcfe836dd",
+    "quran-reflection/fa/002-al-baqarah/units/073.html": "fe717cbdb737d7b73025169def43ec82c5bde7f7ab60f3846709c220f3bfe8fa",
+    "quran-reflection/fa/002-al-baqarah/units/074.html": "5302eb9a124076ad94b9d4ef76c182259852c8875def4c00aeabbf7b3321be35",
+    "quran-reflection/fa/002-al-baqarah/units/075.html": "3cb8f8945a22085aa3cd8b774a0802f51ed424ed1620a04fad991958c0ce5d53",
+    "quran-reflection/fa/002-al-baqarah/units/076.html": "53d212bb28a5c300ec6d182a5cf58f4ceaa1ebe113b5b04c1c8f9b7e4adf7d1c",
+    "quran-reflection/fa/002-al-baqarah/units/077.html": "ccee35b89e670bb266c5c7976bf4c24830564cea654aa68e7833d0763c450185",
+    "quran-reflection/fa/002-al-baqarah/units/078.html": "63da0531d89ef8955f81b6dca74ba4e85471af4e9096c20f558323f1a5e99c38",
+    "quran-reflection/fa/002-al-baqarah/units/079.html": "4e78a38e9a5d833e302823f8096bc348c07b353c2689cf3444d914d79fe89fab",
+    "quran-reflection/fa/002-al-baqarah/units/080.html": "587a768f6f530e5b39514feb746d2267511f6a298288db566d8086e3fe479786",
+    "quran-reflection/fa/002-al-baqarah/units/081.html": "41f40663d5acfed8b91ec825239c62d79372cbb19913450ddac985160a490342",
+    "quran-reflection/fa/002-al-baqarah/units/082.html": "5ca10047db81a9d2cd8831a6225a2dc994f420b8f227c8479eaa6a33b6ffa5b3",
+    "quran-reflection/fa/002-al-baqarah/units/083.html": "bc86721ecee2310356775c59d165b6a56aff6efea3cb82ae011083bb11462e3c",
+    "quran-reflection/fa/002-al-baqarah/units/084.html": "52c6f6bdaf6d68daf77a8626eed62fe39f77fe5e69d98b2f3caebf23ac6a352e",
+    "quran-reflection/fa/002-al-baqarah/units/085.html": "8aac48d26d5a8858517bae6e18e7a53dd2906de67cfd890c52fced527623152d",
+    "quran-reflection/fa/002-al-baqarah/units/086.html": "17a4cbb34a32b5bafe7ccdda18fd587cb093500a0817f9ad7d5b085a93e5c77c",
+    "quran-reflection/fa/002-al-baqarah/units/087.html": "887d9214d5c12fcb7a876adc92c0f5e749d737f4bf8a7ede2a93ca2f1ae30cf5",
+    "quran-reflection/fa/002-al-baqarah/units/088.html": "dc98e19b44f0bf7ec46492f666e3286cf84751aec0c8ada1b4682158a9b4c25a",
+    "quran-reflection/fa/002-al-baqarah/units/089.html": "b16d6d4477fdf1eda93ec76d3f10b6bd142047046c0fc835cf762249afb82e1c",
+    "quran-reflection/fa/002-al-baqarah/units/090.html": "ce62546151ea09ee7179cea0c5da8eee771e4f30aa4a823e998256f44a85716c",
+    "quran-reflection/fa/002-al-baqarah/units/091.html": "c9cf193ebcafe87eba2d9a519e930e6f34afc67c4eb1fc2b3852883ede3515be",
+    "quran-reflection/fa/002-al-baqarah/units/092.html": "8d96d9aec7522443db885b024297ce5cfb196198ef63e9ba60a663eebf0aeff2",
+    "quran-reflection/fa/002-al-baqarah/units/093.html": "1c2a74abe0cd10ed42fa54de3c2b6a3132c124c458449c7be47ba681496b88a8",
+    "quran-reflection/fa/002-al-baqarah/units/094.html": "ed671f0b8b1d5a0a1a38da04f42b8526b3a1c2c5b3bf0c9807dd9e1d0b14c0c1",
+    "quran-reflection/fa/002-al-baqarah/units/095.html": "921aa1546d3c87c7e8857f2f91a6b0ac21212b257d144b5d10a13c47e98b7811",
+    "quran-reflection/fa/002-al-baqarah/units/096.html": "6b3088fa7f7ed3ef8ad4b62cf65a118f0e1858b1659a7e0a9ef9970b59e54f1d",
+    "quran-reflection/fa/002-al-baqarah/units/097.html": "983073c688ac4ba4f7e3bc67e3bf8693a32f1aa062c4ee3c5b969ce2246103fc",
+    "quran-reflection/fa/002-al-baqarah/units/098.html": "ef12b5da2eab2a1abeade00a69c347466491f5c3ea9e6342ed43f1dea202add9",
+    "quran-reflection/fa/002-al-baqarah/units/099.html": "998beda3700176e47119d0b4689658675159701bcd0a91b3bd768ed62d7138d2",
+    "quran-reflection/fa/002-al-baqarah/units/100.html": "5f995ea9e0ec35041c0532df25c8193630ace6760d0f4e6d6288550d69870d14",
+    "quran-reflection/fa/002-al-baqarah/units/101.html": "be221169c06829fff1af0756ad622e9bbdbdffbcc00f1387a0e284c1925c668e",
+    "quran-reflection/fa/002-al-baqarah/units/102.html": "d03728c9d8532eb427bb3ccbbaf372785604a10642735068800d13270a0e3b05",
+    "quran-reflection/fa/002-al-baqarah/units/103.html": "2cbdca11b8afa3298632d188da35af6a803f9bdcb40a6aedd5ee59cacf9c941e",
+    "quran-reflection/fa/002-al-baqarah/units/104.html": "86980fdf8e4e71e9e2342acbddb3ab21e5a68fa98c6eac214733eb716d8f9577",
+    "quran-reflection/fa/002-al-baqarah/units/105.html": "3e0f1f569c0af09ed2596e0ea756f80943321a1201f7193359d585c8358664fd",
+    "quran-reflection/fa/002-al-baqarah/units/106.html": "3fe0d7361b8df8d8d6132e0b6352ad1f761b3ed4c34e04a2b4cbd01db828f57c",
+    "quran-reflection/fa/002-al-baqarah/units/107.html": "ecce61680a2d67d00e5e0d186f2cd540543d6230be75e608e94442af6d1eab20",
+    "quran-reflection/fa/002-al-baqarah/units/108.html": "5a18c30f303eeb8bcd1a4019366a1b09c12588328c272622397925659224d234",
+    "quran-reflection/fa/002-al-baqarah/units/109.html": "df68da61961a6ad9bf566f115dbf61bc6b98d569fef1d8f76d377c13c6b30420",
+    "quran-reflection/fa/002-al-baqarah/units/110.html": "a463d4613b47dd93910288453068ed0d583534a48fb79b5e91c98c49de43a968",
+    "quran-reflection/fa/002-al-baqarah/units/111.html": "43c05ab60ac30b9659c49739ec6955f1d6ec719548d2f080e2cfc567a111d0cf",
+    "quran-reflection/fa/002-al-baqarah/units/112.html": "69834ced9e5a6d646ed18777a08209f70c924e717e1fe78113a701f3368dde88",
+    "quran-reflection/fa/002-al-baqarah/units/113.html": "24b28c5c54de4e3a65c9c1d28e35ccb019b3d19452249f4876ec3ba4bccdad61",
+    "quran-reflection/fa/002-al-baqarah/units/114.html": "c4c8b3808e73ade9daa31750cef691bbe06b645a08698f775b58c3231a85f121",
+    "quran-reflection/fa/002-al-baqarah/units/115.html": "6f0d596c16c0725a6f6fc3bd6df21b1fbb9db3187b5a7db7f6e6cbdff8fbbc4c",
+    "quran-reflection/fa/002-al-baqarah/units/116.html": "6a9f637539bd9a55d503534c369ef45cf9c13376991189e6c32195ed21474345",
+    "quran-reflection/fa/002-al-baqarah/units/117.html": "6225967b6dc1611682cf5a7af99459370d4b239f7ae24c143c3f7b8ec8620588",
+    "quran-reflection/fa/002-al-baqarah/units/118.html": "a260adf565260d0224ced2503ddb96a55eb5b898b16125119bf0e5cbfa68c12e",
+    "quran-reflection/fa/002-al-baqarah/units/119.html": "acf7bb6b724b7a4c7d4014055bb348f0af0371f0efee3951604a627e04ca90f7",
+    "quran-reflection/fa/002-al-baqarah/units/120.html": "0753e2d91ca7395a5e576c76e6125b1505bf8af7ddd91364ffb489932913f75e",
+    "quran-reflection/fa/002-al-baqarah/units/121.html": "595ef57b152f185e3c7ed9faf9bff1915f51b778799c57d3fd99ef0d2fe9da22",
+    "quran-reflection/fa/002-al-baqarah/units/122.html": "e27afdaeff36893b77beabca29609a32d7f2f2216c953393dbdaa948e26c0332",
+    "quran-reflection/fa/002-al-baqarah/units/123.html": "ba84747b3abfe498f2eb8557acb5b2a460aebada699f2c34de60988014282c92",
+    "quran-reflection/fa/002-al-baqarah/units/124.html": "279a8a20fc0e8e28ac2adda1fd287f6617e4035b178b9eabbb2498d342e9d0ba",
+    "quran-reflection/fa/002-al-baqarah/units/125.html": "5f76fd592102d2fe1f32d0d66ae663cad18c40f6b2360799590d0b5178fc1a19",
+    "quran-reflection/fa/002-al-baqarah/units/126.html": "ed271fb0b7ad9349dfefcc652632fa11ff2d816870238e4b24141f6f84cafeeb",
+    "quran-reflection/fa/002-al-baqarah/units/127.html": "eeb6bf6011156d553251897ba73e303efb1068a865b8ee6b78bbd8461341042b",
+    "quran-reflection/fa/002-al-baqarah/units/128.html": "92fa31fd706a843077f8e98a2ddf2e915371ced770bd134da7aba9a277ca6e9c",
+    "quran-reflection/fa/002-al-baqarah/units/129.html": "3e5ceb88237f68bd64f574efdc085dfb277fff9f35d3c3528b3573df276d2720",
+    "quran-reflection/fa/002-al-baqarah/units/130.html": "c82493bbf8108da781644583d0efd9b213712bdc7cebbaa34916defa1286a5b8",
+    "quran-reflection/fa/002-al-baqarah/units/131.html": "7abf7ae805029478c9cc9d289a263ad566c80807c2ce56925103e8f40e18261a",
+    "quran-reflection/fa/002-al-baqarah/units/132.html": "7f36bcf3565fa5656012ae4584d4df322f589a90c772c78a4f7406c169d3a06f",
+    "quran-reflection/fa/002-al-baqarah/units/133.html": "601009a42088f2731081189b40e2d26d0275fb6322b3dc0ccc73f8c94f1e2608",
+    "quran-reflection/fa/002-al-baqarah/units/134.html": "1857a8ee61158e68f0e2fd985780b5dbc07e625e46bc3a76ee6f7ebdd9cbc044",
+    "quran-reflection/fa/002-al-baqarah/units/135.html": "82e49052ce885acf19c5e6e0b96ed3eb034f8a4e92ed0cde3657a55ff7737d63",
+    "quran-reflection/fa/002-al-baqarah/units/136.html": "c156e4fcbc329bfa03388fa6f35441cfe871fb3dd71e9d25f13afba61701b405",
+    "quran-reflection/fa/002-al-baqarah/units/137.html": "09dc62df18893c993c179da05355f752331ef7be03aca32fc7997832ce8b61bb",
+    "quran-reflection/fa/002-al-baqarah/units/138.html": "a71bdc1780ffad878f1876c2fb4ab4b38216f4cc219c03ba1e1481311600a3d8",
+    "quran-reflection/fa/002-al-baqarah/units/139.html": "cc0c873384668c1c09b634d6c11a1ac3b2946ce4226074975b2c08a87a559b7e",
+    "quran-reflection/fa/002-al-baqarah/units/140.html": "df972470c104917b107814d2c9a96afad1432c7a037901a56a959217ac339170",
+    "quran-reflection/fa/002-al-baqarah/units/141.html": "0c25367d0bdf00b7ef21bab39dc2b578fb45d340ca60f89103173e5b38f79acb",
+    "quran-reflection/fa/002-al-baqarah/units/142.html": "aec9a44e623b6d85ffe0721551cac362b37d6673d5420f1030968af630c0725f",
+    "quran-reflection/fa/002-al-baqarah/units/143.html": "6eb53223f1e2ca16d2f40b98bbf6319573f1a2ba6d6c6947a86c4cd0ab6a5bc2",
+    "quran-reflection/fa/002-al-baqarah/units/144.html": "b1ad1ad843814b5389caa0126c617a27eecc7d04c875df19c3bf855c70dc4959",
+    "quran-reflection/fa/002-al-baqarah/units/145.html": "aae8d4856e8e85efe82fbcbf86725982223f675ad8a8b49391b6468853ab5936",
+    "quran-reflection/fa/002-al-baqarah/units/146.html": "13dd6457e4899609502ce33d2a1e4879842c3f23b31485dbca4a3f003fe168a4",
+    "quran-reflection/fa/002-al-baqarah/units/147.html": "18893dc6a10d9699ba349d5af02238ffdef5b8e8a5aba4492126735d63f39723",
+    "quran-reflection/fa/002-al-baqarah/units/148.html": "3650274de14a2429d240d7938dc82127d0094087369de3340712ed22730e8d8f",
+    "quran-reflection/fa/002-al-baqarah/units/149.html": "b71561ee88644929ea829b9981baee3febfdda35122709ac6e1fb6987ee104f5",
+    "quran-reflection/fa/002-al-baqarah/units/150.html": "b4c82e7cff817770d59405bfae95e964362234f4903a8641e4e4e9cc26bb76a0",
+    "quran-reflection/fa/002-al-baqarah/units/151.html": "0d3896106c85de887ab56ba5ff6931cdefbffe4f5fa1e93287edbe5a95c6e858",
+    "quran-reflection/fa/002-al-baqarah/units/152.html": "8c21aa9a23749b4ee1f19fdc7bb4dc982400e401f742bf064728feb5e1d9e083",
+    "quran-reflection/fa/002-al-baqarah/units/153.html": "22260971d97975fecff78a4a4ec698960f65f14094ef51c9e14de32241f25cf0",
+    "quran-reflection/fa/002-al-baqarah/units/154.html": "75a116ba82efe5e42d5a227a91e4f56ba92df45955362269f9072197244f23be",
+    "quran-reflection/fa/002-al-baqarah/units/155.html": "e6f73717b684d66704bea1cb88c558dce9ca9622c485e3c8f63c33ea57350f81",
+    "quran-reflection/fa/002-al-baqarah/units/156.html": "843facbe280d48607a90d773a761a1953283440f733e6f39be8627259dfc3882",
+    "quran-reflection/fa/002-al-baqarah/units/157.html": "50ee8fa14fd33b222cca0778e9588bb93938d6d392adfb68068afe23a560122f",
+    "quran-reflection/fa/002-al-baqarah/units/158.html": "9b2f2745e1e7a8a6181fb68a041c8815d8563eb6c135a8350510021e1283f407",
+    "quran-reflection/fa/002-al-baqarah/units/159.html": "b6013f138d44a77af26c0b62b57f835e57029727f9fa83f85d56b57896b796e3",
+    "quran-reflection/fa/002-al-baqarah/units/160.html": "bd81fac0b3b7f75a2b6a6a6abbcc7dca33c5696743ceaa3481957ead252e635d",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "root_assignment_audit": {
+    "source": "QAC0.4,all266assignedlexicalpositionsin11verses",
+    "assigned_roots_checked": 266,
+    "positions": [
+      {
+        "verse": "4:65",
+        "position": 2,
+        "word": "وَرَبِّكَ",
+        "website_root": "ر ب ب",
+        "QAC_root": "rbb"
+      },
+      {
+        "verse": "4:65",
+        "position": 4,
+        "word": "يُؤمِنونَ",
+        "website_root": "أ م ن",
+        "QAC_root": "Amn"
+      },
+      {
+        "verse": "4:65",
+        "position": 6,
+        "word": "يُحَكِّموكَ",
+        "website_root": "ح ك م",
+        "QAC_root": "Hkm"
+      },
+      {
+        "verse": "4:65",
+        "position": 8,
+        "word": "شَجَرَ",
+        "website_root": "ش ج ر",
+        "QAC_root": "$jr"
+      },
+      {
+        "verse": "4:65",
+        "position": 9,
+        "word": "بَينَهُم",
+        "website_root": "ب ي ن",
+        "QAC_root": "byn"
+      },
+      {
+        "verse": "4:65",
+        "position": 12,
+        "word": "يَجِدوا",
+        "website_root": "و ج د",
+        "QAC_root": "wjd"
+      },
+      {
+        "verse": "4:65",
+        "position": 14,
+        "word": "أَنفُسِهِم",
+        "website_root": "ن ف س",
+        "QAC_root": "nfs"
+      },
+      {
+        "verse": "4:65",
+        "position": 15,
+        "word": "حَرَجًا",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "4:65",
+        "position": 17,
+        "word": "قَضَيتَ",
+        "website_root": "ق ض ي",
+        "QAC_root": "qDy"
+      },
+      {
+        "verse": "4:65",
+        "position": 18,
+        "word": "وَيُسَلِّموا",
+        "website_root": "س ل م",
+        "QAC_root": "slm"
+      },
+      {
+        "verse": "4:65",
+        "position": 19,
+        "word": "تَسليمًا",
+        "website_root": "س ل م",
+        "QAC_root": "slm"
+      },
+      {
+        "verse": "5:6",
+        "position": 3,
+        "word": "ءامَنوا",
+        "website_root": "أ م ن",
+        "QAC_root": "Amn"
+      },
+      {
+        "verse": "5:6",
+        "position": 5,
+        "word": "قُمتُم",
+        "website_root": "ق و م",
+        "QAC_root": "qwm"
+      },
+      {
+        "verse": "5:6",
+        "position": 7,
+        "word": "الصَّلوٰةِ",
+        "website_root": "ص ل و / ص ل ي",
+        "QAC_root": "Slw"
+      },
+      {
+        "verse": "5:6",
+        "position": 8,
+        "word": "فَاغسِلوا",
+        "website_root": "غ س ل",
+        "QAC_root": "gsl"
+      },
+      {
+        "verse": "5:6",
+        "position": 9,
+        "word": "وُجوهَكُم",
+        "website_root": "و ج ه",
+        "QAC_root": "wjh"
+      },
+      {
+        "verse": "5:6",
+        "position": 10,
+        "word": "وَأَيدِيَكُم",
+        "website_root": "ي د ي",
+        "QAC_root": "ydy"
+      },
+      {
+        "verse": "5:6",
+        "position": 12,
+        "word": "المَرافِقِ",
+        "website_root": "ر ف ق",
+        "QAC_root": "rfq"
+      },
+      {
+        "verse": "5:6",
+        "position": 13,
+        "word": "وَامسَحوا",
+        "website_root": "م س ح",
+        "QAC_root": "msH"
+      },
+      {
+        "verse": "5:6",
+        "position": 14,
+        "word": "بِرُءوسِكُم",
+        "website_root": "ر أ س",
+        "QAC_root": "rAs"
+      },
+      {
+        "verse": "5:6",
+        "position": 15,
+        "word": "وَأَرجُلَكُم",
+        "website_root": "ر ج ل",
+        "QAC_root": "rjl"
+      },
+      {
+        "verse": "5:6",
+        "position": 17,
+        "word": "الكَعبَينِ",
+        "website_root": "ك ع ب",
+        "QAC_root": "kEb"
+      },
+      {
+        "verse": "5:6",
+        "position": 19,
+        "word": "كُنتُم",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "5:6",
+        "position": 20,
+        "word": "جُنُبًا",
+        "website_root": "ج ن ب",
+        "QAC_root": "jnb"
+      },
+      {
+        "verse": "5:6",
+        "position": 21,
+        "word": "فَاطَّهَّروا",
+        "website_root": "ط ه ر",
+        "QAC_root": "Thr"
+      },
+      {
+        "verse": "5:6",
+        "position": 23,
+        "word": "كُنتُم",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "5:6",
+        "position": 24,
+        "word": "مَرضىٰ",
+        "website_root": "م ر ض",
+        "QAC_root": "mrD"
+      },
+      {
+        "verse": "5:6",
+        "position": 27,
+        "word": "سَفَرٍ",
+        "website_root": "س ف ر",
+        "QAC_root": "sfr"
+      },
+      {
+        "verse": "5:6",
+        "position": 29,
+        "word": "جاءَ",
+        "website_root": "ج ي أ",
+        "QAC_root": "jyA"
+      },
+      {
+        "verse": "5:6",
+        "position": 30,
+        "word": "أَحَدٌ",
+        "website_root": "أ ح د",
+        "QAC_root": "AHd"
+      },
+      {
+        "verse": "5:6",
+        "position": 33,
+        "word": "الغائِطِ",
+        "website_root": "غ و ط",
+        "QAC_root": "gwT"
+      },
+      {
+        "verse": "5:6",
+        "position": 35,
+        "word": "لٰمَستُمُ",
+        "website_root": "ل م س",
+        "QAC_root": "lms"
+      },
+      {
+        "verse": "5:6",
+        "position": 36,
+        "word": "النِّساءَ",
+        "website_root": "ن س و",
+        "QAC_root": "nsw"
+      },
+      {
+        "verse": "5:6",
+        "position": 38,
+        "word": "تَجِدوا",
+        "website_root": "و ج د",
+        "QAC_root": "wjd"
+      },
+      {
+        "verse": "5:6",
+        "position": 39,
+        "word": "ماءً",
+        "website_root": "م و ه",
+        "QAC_root": "mwh"
+      },
+      {
+        "verse": "5:6",
+        "position": 40,
+        "word": "فَتَيَمَّموا",
+        "website_root": "ي م م",
+        "QAC_root": "ymm"
+      },
+      {
+        "verse": "5:6",
+        "position": 41,
+        "word": "صَعيدًا",
+        "website_root": "ص ع د",
+        "QAC_root": "SEd"
+      },
+      {
+        "verse": "5:6",
+        "position": 42,
+        "word": "طَيِّبًا",
+        "website_root": "ط ي ب",
+        "QAC_root": "Tyb"
+      },
+      {
+        "verse": "5:6",
+        "position": 43,
+        "word": "فَامسَحوا",
+        "website_root": "م س ح",
+        "QAC_root": "msH"
+      },
+      {
+        "verse": "5:6",
+        "position": 44,
+        "word": "بِوُجوهِكُم",
+        "website_root": "و ج ه",
+        "QAC_root": "wjh"
+      },
+      {
+        "verse": "5:6",
+        "position": 45,
+        "word": "وَأَيديكُم",
+        "website_root": "ي د ي",
+        "QAC_root": "ydy"
+      },
+      {
+        "verse": "5:6",
+        "position": 48,
+        "word": "يُريدُ",
+        "website_root": "ر و د",
+        "QAC_root": "rwd"
+      },
+      {
+        "verse": "5:6",
+        "position": 49,
+        "word": "اللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "5:6",
+        "position": 50,
+        "word": "لِيَجعَلَ",
+        "website_root": "ج ع ل",
+        "QAC_root": "jEl"
+      },
+      {
+        "verse": "5:6",
+        "position": 53,
+        "word": "حَرَجٍ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "5:6",
+        "position": 55,
+        "word": "يُريدُ",
+        "website_root": "ر و د",
+        "QAC_root": "rwd"
+      },
+      {
+        "verse": "5:6",
+        "position": 56,
+        "word": "لِيُطَهِّرَكُم",
+        "website_root": "ط ه ر",
+        "QAC_root": "Thr"
+      },
+      {
+        "verse": "5:6",
+        "position": 57,
+        "word": "وَلِيُتِمَّ",
+        "website_root": "ت م م",
+        "QAC_root": "tmm"
+      },
+      {
+        "verse": "5:6",
+        "position": 58,
+        "word": "نِعمَتَهُ",
+        "website_root": "ن ع م",
+        "QAC_root": "nEm"
+      },
+      {
+        "verse": "5:6",
+        "position": 61,
+        "word": "تَشكُرونَ",
+        "website_root": "ش ك ر",
+        "QAC_root": "$kr"
+      },
+      {
+        "verse": "6:125",
+        "position": 2,
+        "word": "يُرِدِ",
+        "website_root": "ر و د",
+        "QAC_root": "rwd"
+      },
+      {
+        "verse": "6:125",
+        "position": 3,
+        "word": "اللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "6:125",
+        "position": 5,
+        "word": "يَهدِيَهُ",
+        "website_root": "ه د ي",
+        "QAC_root": "hdy"
+      },
+      {
+        "verse": "6:125",
+        "position": 6,
+        "word": "يَشرَح",
+        "website_root": "ش ر ح",
+        "QAC_root": "$rH"
+      },
+      {
+        "verse": "6:125",
+        "position": 7,
+        "word": "صَدرَهُ",
+        "website_root": "ص د ر",
+        "QAC_root": "Sdr"
+      },
+      {
+        "verse": "6:125",
+        "position": 8,
+        "word": "لِلإِسلٰمِ",
+        "website_root": "س ل م",
+        "QAC_root": "slm"
+      },
+      {
+        "verse": "6:125",
+        "position": 10,
+        "word": "يُرِد",
+        "website_root": "ر و د",
+        "QAC_root": "rwd"
+      },
+      {
+        "verse": "6:125",
+        "position": 12,
+        "word": "يُضِلَّهُ",
+        "website_root": "ض ل ل",
+        "QAC_root": "Dll"
+      },
+      {
+        "verse": "6:125",
+        "position": 13,
+        "word": "يَجعَل",
+        "website_root": "ج ع ل",
+        "QAC_root": "jEl"
+      },
+      {
+        "verse": "6:125",
+        "position": 14,
+        "word": "صَدرَهُ",
+        "website_root": "ص د ر",
+        "QAC_root": "Sdr"
+      },
+      {
+        "verse": "6:125",
+        "position": 15,
+        "word": "ضَيِّقًا",
+        "website_root": "ض ي ق",
+        "QAC_root": "Dyq"
+      },
+      {
+        "verse": "6:125",
+        "position": 16,
+        "word": "حَرَجًا",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "6:125",
+        "position": 18,
+        "word": "يَصَّعَّدُ",
+        "website_root": "ص ع د",
+        "QAC_root": "SEd"
+      },
+      {
+        "verse": "6:125",
+        "position": 20,
+        "word": "السَّماءِ",
+        "website_root": "س م و",
+        "QAC_root": "smw"
+      },
+      {
+        "verse": "6:125",
+        "position": 22,
+        "word": "يَجعَلُ",
+        "website_root": "ج ع ل",
+        "QAC_root": "jEl"
+      },
+      {
+        "verse": "6:125",
+        "position": 23,
+        "word": "اللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "6:125",
+        "position": 24,
+        "word": "الرِّجسَ",
+        "website_root": "ر ج س",
+        "QAC_root": "rjs"
+      },
+      {
+        "verse": "6:125",
+        "position": 28,
+        "word": "يُؤمِنونَ",
+        "website_root": "أ م ن",
+        "QAC_root": "Amn"
+      },
+      {
+        "verse": "7:2",
+        "position": 1,
+        "word": "كِتٰبٌ",
+        "website_root": "ك ت ب",
+        "QAC_root": "ktb"
+      },
+      {
+        "verse": "7:2",
+        "position": 2,
+        "word": "أُنزِلَ",
+        "website_root": "ن ز ل",
+        "QAC_root": "nzl"
+      },
+      {
+        "verse": "7:2",
+        "position": 5,
+        "word": "يَكُن",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "7:2",
+        "position": 7,
+        "word": "صَدرِكَ",
+        "website_root": "ص د ر",
+        "QAC_root": "Sdr"
+      },
+      {
+        "verse": "7:2",
+        "position": 8,
+        "word": "حَرَجٌ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "7:2",
+        "position": 10,
+        "word": "لِتُنذِرَ",
+        "website_root": "ن ذ ر",
+        "QAC_root": "n*r"
+      },
+      {
+        "verse": "7:2",
+        "position": 12,
+        "word": "وَذِكرىٰ",
+        "website_root": "ذ ك ر",
+        "QAC_root": "*kr"
+      },
+      {
+        "verse": "7:2",
+        "position": 13,
+        "word": "لِلمُؤمِنينَ",
+        "website_root": "أ م ن",
+        "QAC_root": "Amn"
+      },
+      {
+        "verse": "9:91",
+        "position": 3,
+        "word": "الضُّعَفاءِ",
+        "website_root": "ض ع ف",
+        "QAC_root": "DEf"
+      },
+      {
+        "verse": "9:91",
+        "position": 6,
+        "word": "المَرضىٰ",
+        "website_root": "م ر ض",
+        "QAC_root": "mrD"
+      },
+      {
+        "verse": "9:91",
+        "position": 11,
+        "word": "يَجِدونَ",
+        "website_root": "و ج د",
+        "QAC_root": "wjd"
+      },
+      {
+        "verse": "9:91",
+        "position": 13,
+        "word": "يُنفِقونَ",
+        "website_root": "ن ف ق",
+        "QAC_root": "nfq"
+      },
+      {
+        "verse": "9:91",
+        "position": 14,
+        "word": "حَرَجٌ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "9:91",
+        "position": 16,
+        "word": "نَصَحوا",
+        "website_root": "ن ص ح",
+        "QAC_root": "nSH"
+      },
+      {
+        "verse": "9:91",
+        "position": 17,
+        "word": "لِلَّهِ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "9:91",
+        "position": 18,
+        "word": "وَرَسولِهِ",
+        "website_root": "ر س ل",
+        "QAC_root": "rsl"
+      },
+      {
+        "verse": "9:91",
+        "position": 21,
+        "word": "المُحسِنينَ",
+        "website_root": "ح س ن",
+        "QAC_root": "Hsn"
+      },
+      {
+        "verse": "9:91",
+        "position": 23,
+        "word": "سَبيلٍ",
+        "website_root": "س ب ل",
+        "QAC_root": "sbl"
+      },
+      {
+        "verse": "9:91",
+        "position": 24,
+        "word": "وَاللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "9:91",
+        "position": 25,
+        "word": "غَفورٌ",
+        "website_root": "غ ف ر",
+        "QAC_root": "gfr"
+      },
+      {
+        "verse": "9:91",
+        "position": 26,
+        "word": "رَحيمٌ",
+        "website_root": "ر ح م",
+        "QAC_root": "rHm"
+      },
+      {
+        "verse": "22:78",
+        "position": 1,
+        "word": "وَجٰهِدوا",
+        "website_root": "ج ه د",
+        "QAC_root": "jhd"
+      },
+      {
+        "verse": "22:78",
+        "position": 3,
+        "word": "اللَّهِ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "22:78",
+        "position": 4,
+        "word": "حَقَّ",
+        "website_root": "ح ق ق",
+        "QAC_root": "Hqq"
+      },
+      {
+        "verse": "22:78",
+        "position": 5,
+        "word": "جِهادِهِ",
+        "website_root": "ج ه د",
+        "QAC_root": "jhd"
+      },
+      {
+        "verse": "22:78",
+        "position": 7,
+        "word": "اجتَبىٰكُم",
+        "website_root": "ج ب ي",
+        "QAC_root": "jby"
+      },
+      {
+        "verse": "22:78",
+        "position": 9,
+        "word": "جَعَلَ",
+        "website_root": "ج ع ل",
+        "QAC_root": "jEl"
+      },
+      {
+        "verse": "22:78",
+        "position": 12,
+        "word": "الدّينِ",
+        "website_root": "د ي ن",
+        "QAC_root": "dyn"
+      },
+      {
+        "verse": "22:78",
+        "position": 14,
+        "word": "حَرَجٍ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "22:78",
+        "position": 15,
+        "word": "مِلَّةَ",
+        "website_root": "م ل ل",
+        "QAC_root": "mll"
+      },
+      {
+        "verse": "22:78",
+        "position": 16,
+        "word": "أَبيكُم",
+        "website_root": "أ ب و",
+        "QAC_root": "Abw"
+      },
+      {
+        "verse": "22:78",
+        "position": 19,
+        "word": "سَمّىٰكُمُ",
+        "website_root": "س م و / و س م",
+        "QAC_root": "smw"
+      },
+      {
+        "verse": "22:78",
+        "position": 20,
+        "word": "المُسلِمينَ",
+        "website_root": "س ل م",
+        "QAC_root": "slm"
+      },
+      {
+        "verse": "22:78",
+        "position": 22,
+        "word": "قَبلُ",
+        "website_root": "ق ب ل",
+        "QAC_root": "qbl"
+      },
+      {
+        "verse": "22:78",
+        "position": 25,
+        "word": "لِيَكونَ",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "22:78",
+        "position": 26,
+        "word": "الرَّسولُ",
+        "website_root": "ر س ل",
+        "QAC_root": "rsl"
+      },
+      {
+        "verse": "22:78",
+        "position": 27,
+        "word": "شَهيدًا",
+        "website_root": "ش ه د",
+        "QAC_root": "$hd"
+      },
+      {
+        "verse": "22:78",
+        "position": 29,
+        "word": "وَتَكونوا",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "22:78",
+        "position": 30,
+        "word": "شُهَداءَ",
+        "website_root": "ش ه د",
+        "QAC_root": "$hd"
+      },
+      {
+        "verse": "22:78",
+        "position": 32,
+        "word": "النّاسِ",
+        "website_root": "ن و س",
+        "QAC_root": "nws"
+      },
+      {
+        "verse": "22:78",
+        "position": 33,
+        "word": "فَأَقيمُوا",
+        "website_root": "ق و م",
+        "QAC_root": "qwm"
+      },
+      {
+        "verse": "22:78",
+        "position": 34,
+        "word": "الصَّلوٰةَ",
+        "website_root": "ص ل و / ص ل ي",
+        "QAC_root": "Slw"
+      },
+      {
+        "verse": "22:78",
+        "position": 35,
+        "word": "وَءاتُوا",
+        "website_root": "أ ت ي",
+        "QAC_root": "Aty"
+      },
+      {
+        "verse": "22:78",
+        "position": 36,
+        "word": "الزَّكوٰةَ",
+        "website_root": "ز ك و / ز ك ي",
+        "QAC_root": "zkw"
+      },
+      {
+        "verse": "22:78",
+        "position": 37,
+        "word": "وَاعتَصِموا",
+        "website_root": "ع ص م",
+        "QAC_root": "ESm"
+      },
+      {
+        "verse": "22:78",
+        "position": 38,
+        "word": "بِاللَّهِ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "22:78",
+        "position": 40,
+        "word": "مَولىٰكُم",
+        "website_root": "و ل ي",
+        "QAC_root": "wly"
+      },
+      {
+        "verse": "22:78",
+        "position": 41,
+        "word": "فَنِعمَ",
+        "website_root": "ن ع م",
+        "QAC_root": "nEm"
+      },
+      {
+        "verse": "22:78",
+        "position": 42,
+        "word": "المَولىٰ",
+        "website_root": "و ل ي",
+        "QAC_root": "wly"
+      },
+      {
+        "verse": "22:78",
+        "position": 43,
+        "word": "وَنِعمَ",
+        "website_root": "ن ع م",
+        "QAC_root": "nEm"
+      },
+      {
+        "verse": "22:78",
+        "position": 44,
+        "word": "النَّصيرُ",
+        "website_root": "ن ص ر",
+        "QAC_root": "nSr"
+      },
+      {
+        "verse": "24:61",
+        "position": 3,
+        "word": "الأَعمىٰ",
+        "website_root": "ع م ي",
+        "QAC_root": "Emy"
+      },
+      {
+        "verse": "24:61",
+        "position": 4,
+        "word": "حَرَجٌ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "24:61",
+        "position": 7,
+        "word": "الأَعرَجِ",
+        "website_root": "ع ر ج",
+        "QAC_root": "Erj"
+      },
+      {
+        "verse": "24:61",
+        "position": 8,
+        "word": "حَرَجٌ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "24:61",
+        "position": 11,
+        "word": "المَريضِ",
+        "website_root": "م ر ض",
+        "QAC_root": "mrD"
+      },
+      {
+        "verse": "24:61",
+        "position": 12,
+        "word": "حَرَجٌ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "24:61",
+        "position": 15,
+        "word": "أَنفُسِكُم",
+        "website_root": "ن ف س",
+        "QAC_root": "nfs"
+      },
+      {
+        "verse": "24:61",
+        "position": 17,
+        "word": "تَأكُلوا",
+        "website_root": "أ ك ل",
+        "QAC_root": "Akl"
+      },
+      {
+        "verse": "24:61",
+        "position": 19,
+        "word": "بُيوتِكُم",
+        "website_root": "ب ي ت",
+        "QAC_root": "byt"
+      },
+      {
+        "verse": "24:61",
+        "position": 21,
+        "word": "بُيوتِ",
+        "website_root": "ب ي ت",
+        "QAC_root": "byt"
+      },
+      {
+        "verse": "24:61",
+        "position": 22,
+        "word": "ءابائِكُم",
+        "website_root": "أ ب و",
+        "QAC_root": "Abw"
+      },
+      {
+        "verse": "24:61",
+        "position": 24,
+        "word": "بُيوتِ",
+        "website_root": "ب ي ت",
+        "QAC_root": "byt"
+      },
+      {
+        "verse": "24:61",
+        "position": 25,
+        "word": "أُمَّهٰتِكُم",
+        "website_root": "أ م م",
+        "QAC_root": "Amm"
+      },
+      {
+        "verse": "24:61",
+        "position": 27,
+        "word": "بُيوتِ",
+        "website_root": "ب ي ت",
+        "QAC_root": "byt"
+      },
+      {
+        "verse": "24:61",
+        "position": 28,
+        "word": "إِخوٰنِكُم",
+        "website_root": "أ خ و",
+        "QAC_root": "Axw"
+      },
+      {
+        "verse": "24:61",
+        "position": 30,
+        "word": "بُيوتِ",
+        "website_root": "ب ي ت",
+        "QAC_root": "byt"
+      },
+      {
+        "verse": "24:61",
+        "position": 31,
+        "word": "أَخَوٰتِكُم",
+        "website_root": "أ خ و",
+        "QAC_root": "Axw"
+      },
+      {
+        "verse": "24:61",
+        "position": 33,
+        "word": "بُيوتِ",
+        "website_root": "ب ي ت",
+        "QAC_root": "byt"
+      },
+      {
+        "verse": "24:61",
+        "position": 34,
+        "word": "أَعمٰمِكُم",
+        "website_root": "ع م م",
+        "QAC_root": "Emm"
+      },
+      {
+        "verse": "24:61",
+        "position": 36,
+        "word": "بُيوتِ",
+        "website_root": "ب ي ت",
+        "QAC_root": "byt"
+      },
+      {
+        "verse": "24:61",
+        "position": 37,
+        "word": "عَمّٰتِكُم",
+        "website_root": "ع م م",
+        "QAC_root": "Emm"
+      },
+      {
+        "verse": "24:61",
+        "position": 39,
+        "word": "بُيوتِ",
+        "website_root": "ب ي ت",
+        "QAC_root": "byt"
+      },
+      {
+        "verse": "24:61",
+        "position": 40,
+        "word": "أَخوٰلِكُم",
+        "website_root": "خ و ل",
+        "QAC_root": "xwl"
+      },
+      {
+        "verse": "24:61",
+        "position": 42,
+        "word": "بُيوتِ",
+        "website_root": "ب ي ت",
+        "QAC_root": "byt"
+      },
+      {
+        "verse": "24:61",
+        "position": 43,
+        "word": "خٰلٰتِكُم",
+        "website_root": "خ و ل",
+        "QAC_root": "xwl"
+      },
+      {
+        "verse": "24:61",
+        "position": 46,
+        "word": "مَلَكتُم",
+        "website_root": "م ل ك",
+        "QAC_root": "mlk"
+      },
+      {
+        "verse": "24:61",
+        "position": 47,
+        "word": "مَفاتِحَهُ",
+        "website_root": "ف ت ح",
+        "QAC_root": "ftH"
+      },
+      {
+        "verse": "24:61",
+        "position": 49,
+        "word": "صَديقِكُم",
+        "website_root": "ص د ق",
+        "QAC_root": "Sdq"
+      },
+      {
+        "verse": "24:61",
+        "position": 52,
+        "word": "جُناحٌ",
+        "website_root": "ج ن ح",
+        "QAC_root": "jnH"
+      },
+      {
+        "verse": "24:61",
+        "position": 54,
+        "word": "تَأكُلوا",
+        "website_root": "أ ك ل",
+        "QAC_root": "Akl"
+      },
+      {
+        "verse": "24:61",
+        "position": 55,
+        "word": "جَميعًا",
+        "website_root": "ج م ع",
+        "QAC_root": "jmE"
+      },
+      {
+        "verse": "24:61",
+        "position": 57,
+        "word": "أَشتاتًا",
+        "website_root": "ش ت ت",
+        "QAC_root": "$tt"
+      },
+      {
+        "verse": "24:61",
+        "position": 59,
+        "word": "دَخَلتُم",
+        "website_root": "د خ ل",
+        "QAC_root": "dxl"
+      },
+      {
+        "verse": "24:61",
+        "position": 60,
+        "word": "بُيوتًا",
+        "website_root": "ب ي ت",
+        "QAC_root": "byt"
+      },
+      {
+        "verse": "24:61",
+        "position": 61,
+        "word": "فَسَلِّموا",
+        "website_root": "س ل م",
+        "QAC_root": "slm"
+      },
+      {
+        "verse": "24:61",
+        "position": 63,
+        "word": "أَنفُسِكُم",
+        "website_root": "ن ف س",
+        "QAC_root": "nfs"
+      },
+      {
+        "verse": "24:61",
+        "position": 64,
+        "word": "تَحِيَّةً",
+        "website_root": "ح ي ي",
+        "QAC_root": "Hyy"
+      },
+      {
+        "verse": "24:61",
+        "position": 67,
+        "word": "اللَّهِ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "24:61",
+        "position": 68,
+        "word": "مُبٰرَكَةً",
+        "website_root": "ب ر ك",
+        "QAC_root": "brk"
+      },
+      {
+        "verse": "24:61",
+        "position": 69,
+        "word": "طَيِّبَةً",
+        "website_root": "ط ي ب",
+        "QAC_root": "Tyb"
+      },
+      {
+        "verse": "24:61",
+        "position": 71,
+        "word": "يُبَيِّنُ",
+        "website_root": "ب ي ن",
+        "QAC_root": "byn"
+      },
+      {
+        "verse": "24:61",
+        "position": 72,
+        "word": "اللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "24:61",
+        "position": 74,
+        "word": "الـٔايٰتِ",
+        "website_root": "أ ي ي",
+        "QAC_root": "Ayy"
+      },
+      {
+        "verse": "24:61",
+        "position": 76,
+        "word": "تَعقِلونَ",
+        "website_root": "ع ق ل",
+        "QAC_root": "Eql"
+      },
+      {
+        "verse": "33:37",
+        "position": 2,
+        "word": "تَقولُ",
+        "website_root": "ق و ل",
+        "QAC_root": "qwl"
+      },
+      {
+        "verse": "33:37",
+        "position": 4,
+        "word": "أَنعَمَ",
+        "website_root": "ن ع م",
+        "QAC_root": "nEm"
+      },
+      {
+        "verse": "33:37",
+        "position": 5,
+        "word": "اللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "33:37",
+        "position": 7,
+        "word": "وَأَنعَمتَ",
+        "website_root": "ن ع م",
+        "QAC_root": "nEm"
+      },
+      {
+        "verse": "33:37",
+        "position": 9,
+        "word": "أَمسِك",
+        "website_root": "م س ك",
+        "QAC_root": "msk"
+      },
+      {
+        "verse": "33:37",
+        "position": 11,
+        "word": "زَوجَكَ",
+        "website_root": "ز و ج",
+        "QAC_root": "zwj"
+      },
+      {
+        "verse": "33:37",
+        "position": 12,
+        "word": "وَاتَّقِ",
+        "website_root": "و ق ي",
+        "QAC_root": "wqy"
+      },
+      {
+        "verse": "33:37",
+        "position": 13,
+        "word": "اللَّهَ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "33:37",
+        "position": 14,
+        "word": "وَتُخفى",
+        "website_root": "خ ف ي",
+        "QAC_root": "xfy"
+      },
+      {
+        "verse": "33:37",
+        "position": 16,
+        "word": "نَفسِكَ",
+        "website_root": "ن ف س",
+        "QAC_root": "nfs"
+      },
+      {
+        "verse": "33:37",
+        "position": 18,
+        "word": "اللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "33:37",
+        "position": 19,
+        "word": "مُبديهِ",
+        "website_root": "ب د و",
+        "QAC_root": "bdw"
+      },
+      {
+        "verse": "33:37",
+        "position": 20,
+        "word": "وَتَخشَى",
+        "website_root": "خ ش ي",
+        "QAC_root": "x$y"
+      },
+      {
+        "verse": "33:37",
+        "position": 21,
+        "word": "النّاسَ",
+        "website_root": "ن و س",
+        "QAC_root": "nws"
+      },
+      {
+        "verse": "33:37",
+        "position": 22,
+        "word": "وَاللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "33:37",
+        "position": 23,
+        "word": "أَحَقُّ",
+        "website_root": "ح ق ق",
+        "QAC_root": "Hqq"
+      },
+      {
+        "verse": "33:37",
+        "position": 25,
+        "word": "تَخشىٰهُ",
+        "website_root": "خ ش ي",
+        "QAC_root": "x$y"
+      },
+      {
+        "verse": "33:37",
+        "position": 27,
+        "word": "قَضىٰ",
+        "website_root": "ق ض ي",
+        "QAC_root": "qDy"
+      },
+      {
+        "verse": "33:37",
+        "position": 30,
+        "word": "وَطَرًا",
+        "website_root": "و ط ر",
+        "QAC_root": "wTr"
+      },
+      {
+        "verse": "33:37",
+        "position": 31,
+        "word": "زَوَّجنٰكَها",
+        "website_root": "ز و ج",
+        "QAC_root": "zwj"
+      },
+      {
+        "verse": "33:37",
+        "position": 34,
+        "word": "يَكونَ",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "33:37",
+        "position": 36,
+        "word": "المُؤمِنينَ",
+        "website_root": "أ م ن",
+        "QAC_root": "Amn"
+      },
+      {
+        "verse": "33:37",
+        "position": 37,
+        "word": "حَرَجٌ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "33:37",
+        "position": 39,
+        "word": "أَزوٰجِ",
+        "website_root": "ز و ج",
+        "QAC_root": "zwj"
+      },
+      {
+        "verse": "33:37",
+        "position": 40,
+        "word": "أَدعِيائِهِم",
+        "website_root": "د ع و",
+        "QAC_root": "dEw"
+      },
+      {
+        "verse": "33:37",
+        "position": 42,
+        "word": "قَضَوا",
+        "website_root": "ق ض ي",
+        "QAC_root": "qDy"
+      },
+      {
+        "verse": "33:37",
+        "position": 44,
+        "word": "وَطَرًا",
+        "website_root": "و ط ر",
+        "QAC_root": "wTr"
+      },
+      {
+        "verse": "33:37",
+        "position": 45,
+        "word": "وَكانَ",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "33:37",
+        "position": 46,
+        "word": "أَمرُ",
+        "website_root": "أ م ر",
+        "QAC_root": "Amr"
+      },
+      {
+        "verse": "33:37",
+        "position": 47,
+        "word": "اللَّهِ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "33:37",
+        "position": 48,
+        "word": "مَفعولًا",
+        "website_root": "ف ع ل",
+        "QAC_root": "fEl"
+      },
+      {
+        "verse": "33:38",
+        "position": 2,
+        "word": "كانَ",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "33:38",
+        "position": 4,
+        "word": "النَّبِىِّ",
+        "website_root": "ن ب أ",
+        "QAC_root": "nbA"
+      },
+      {
+        "verse": "33:38",
+        "position": 6,
+        "word": "حَرَجٍ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "33:38",
+        "position": 8,
+        "word": "فَرَضَ",
+        "website_root": "ف ر ض",
+        "QAC_root": "frD"
+      },
+      {
+        "verse": "33:38",
+        "position": 9,
+        "word": "اللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "33:38",
+        "position": 11,
+        "word": "سُنَّةَ",
+        "website_root": "س ن ن",
+        "QAC_root": "snn"
+      },
+      {
+        "verse": "33:38",
+        "position": 12,
+        "word": "اللَّهِ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "33:38",
+        "position": 15,
+        "word": "خَلَوا",
+        "website_root": "خ ل و",
+        "QAC_root": "xlw"
+      },
+      {
+        "verse": "33:38",
+        "position": 17,
+        "word": "قَبلُ",
+        "website_root": "ق ب ل",
+        "QAC_root": "qbl"
+      },
+      {
+        "verse": "33:38",
+        "position": 18,
+        "word": "وَكانَ",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "33:38",
+        "position": 19,
+        "word": "أَمرُ",
+        "website_root": "أ م ر",
+        "QAC_root": "Amr"
+      },
+      {
+        "verse": "33:38",
+        "position": 20,
+        "word": "اللَّهِ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "33:38",
+        "position": 21,
+        "word": "قَدَرًا",
+        "website_root": "ق د ر",
+        "QAC_root": "qdr"
+      },
+      {
+        "verse": "33:38",
+        "position": 22,
+        "word": "مَقدورًا",
+        "website_root": "ق د ر",
+        "QAC_root": "qdr"
+      },
+      {
+        "verse": "33:50",
+        "position": 2,
+        "word": "النَّبِىُّ",
+        "website_root": "ن ب أ",
+        "QAC_root": "nbA"
+      },
+      {
+        "verse": "33:50",
+        "position": 4,
+        "word": "أَحلَلنا",
+        "website_root": "ح ل ل",
+        "QAC_root": "Hll"
+      },
+      {
+        "verse": "33:50",
+        "position": 6,
+        "word": "أَزوٰجَكَ",
+        "website_root": "ز و ج",
+        "QAC_root": "zwj"
+      },
+      {
+        "verse": "33:50",
+        "position": 8,
+        "word": "ءاتَيتَ",
+        "website_root": "أ ت ي",
+        "QAC_root": "Aty"
+      },
+      {
+        "verse": "33:50",
+        "position": 9,
+        "word": "أُجورَهُنَّ",
+        "website_root": "أ ج ر",
+        "QAC_root": "Ajr"
+      },
+      {
+        "verse": "33:50",
+        "position": 11,
+        "word": "مَلَكَت",
+        "website_root": "م ل ك",
+        "QAC_root": "mlk"
+      },
+      {
+        "verse": "33:50",
+        "position": 12,
+        "word": "يَمينُكَ",
+        "website_root": "ي م ن",
+        "QAC_root": "ymn"
+      },
+      {
+        "verse": "33:50",
+        "position": 14,
+        "word": "أَفاءَ",
+        "website_root": "ف ي أ",
+        "QAC_root": "fyA"
+      },
+      {
+        "verse": "33:50",
+        "position": 15,
+        "word": "اللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "33:50",
+        "position": 17,
+        "word": "وَبَناتِ",
+        "website_root": "ب ن ي",
+        "QAC_root": "bny"
+      },
+      {
+        "verse": "33:50",
+        "position": 18,
+        "word": "عَمِّكَ",
+        "website_root": "ع م م",
+        "QAC_root": "Emm"
+      },
+      {
+        "verse": "33:50",
+        "position": 19,
+        "word": "وَبَناتِ",
+        "website_root": "ب ن ي",
+        "QAC_root": "bny"
+      },
+      {
+        "verse": "33:50",
+        "position": 20,
+        "word": "عَمّٰتِكَ",
+        "website_root": "ع م م",
+        "QAC_root": "Emm"
+      },
+      {
+        "verse": "33:50",
+        "position": 21,
+        "word": "وَبَناتِ",
+        "website_root": "ب ن ي",
+        "QAC_root": "bny"
+      },
+      {
+        "verse": "33:50",
+        "position": 22,
+        "word": "خالِكَ",
+        "website_root": "خ و ل",
+        "QAC_root": "xwl"
+      },
+      {
+        "verse": "33:50",
+        "position": 23,
+        "word": "وَبَناتِ",
+        "website_root": "ب ن ي",
+        "QAC_root": "bny"
+      },
+      {
+        "verse": "33:50",
+        "position": 24,
+        "word": "خٰلٰتِكَ",
+        "website_root": "خ و ل",
+        "QAC_root": "xwl"
+      },
+      {
+        "verse": "33:50",
+        "position": 26,
+        "word": "هاجَرنَ",
+        "website_root": "ه ج ر",
+        "QAC_root": "hjr"
+      },
+      {
+        "verse": "33:50",
+        "position": 28,
+        "word": "وَامرَأَةً",
+        "website_root": "م ر أ",
+        "QAC_root": "mrA"
+      },
+      {
+        "verse": "33:50",
+        "position": 29,
+        "word": "مُؤمِنَةً",
+        "website_root": "أ م ن",
+        "QAC_root": "Amn"
+      },
+      {
+        "verse": "33:50",
+        "position": 31,
+        "word": "وَهَبَت",
+        "website_root": "و ه ب",
+        "QAC_root": "whb"
+      },
+      {
+        "verse": "33:50",
+        "position": 32,
+        "word": "نَفسَها",
+        "website_root": "ن ف س",
+        "QAC_root": "nfs"
+      },
+      {
+        "verse": "33:50",
+        "position": 33,
+        "word": "لِلنَّبِىِّ",
+        "website_root": "ن ب أ",
+        "QAC_root": "nbA"
+      },
+      {
+        "verse": "33:50",
+        "position": 35,
+        "word": "أَرادَ",
+        "website_root": "ر و د",
+        "QAC_root": "rwd"
+      },
+      {
+        "verse": "33:50",
+        "position": 36,
+        "word": "النَّبِىُّ",
+        "website_root": "ن ب أ",
+        "QAC_root": "nbA"
+      },
+      {
+        "verse": "33:50",
+        "position": 38,
+        "word": "يَستَنكِحَها",
+        "website_root": "ن ك ح",
+        "QAC_root": "nkH"
+      },
+      {
+        "verse": "33:50",
+        "position": 39,
+        "word": "خالِصَةً",
+        "website_root": "خ ل ص",
+        "QAC_root": "xlS"
+      },
+      {
+        "verse": "33:50",
+        "position": 42,
+        "word": "دونِ",
+        "website_root": "د و ن",
+        "QAC_root": "dwn"
+      },
+      {
+        "verse": "33:50",
+        "position": 43,
+        "word": "المُؤمِنينَ",
+        "website_root": "أ م ن",
+        "QAC_root": "Amn"
+      },
+      {
+        "verse": "33:50",
+        "position": 45,
+        "word": "عَلِمنا",
+        "website_root": "ع ل م",
+        "QAC_root": "Elm"
+      },
+      {
+        "verse": "33:50",
+        "position": 47,
+        "word": "فَرَضنا",
+        "website_root": "ف ر ض",
+        "QAC_root": "frD"
+      },
+      {
+        "verse": "33:50",
+        "position": 50,
+        "word": "أَزوٰجِهِم",
+        "website_root": "ز و ج",
+        "QAC_root": "zwj"
+      },
+      {
+        "verse": "33:50",
+        "position": 52,
+        "word": "مَلَكَت",
+        "website_root": "م ل ك",
+        "QAC_root": "mlk"
+      },
+      {
+        "verse": "33:50",
+        "position": 53,
+        "word": "أَيمٰنُهُم",
+        "website_root": "ي م ن",
+        "QAC_root": "ymn"
+      },
+      {
+        "verse": "33:50",
+        "position": 55,
+        "word": "يَكونَ",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "33:50",
+        "position": 57,
+        "word": "حَرَجٌ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "33:50",
+        "position": 58,
+        "word": "وَكانَ",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "33:50",
+        "position": 59,
+        "word": "اللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "33:50",
+        "position": 60,
+        "word": "غَفورًا",
+        "website_root": "غ ف ر",
+        "QAC_root": "gfr"
+      },
+      {
+        "verse": "33:50",
+        "position": 61,
+        "word": "رَحيمًا",
+        "website_root": "ر ح م",
+        "QAC_root": "rHm"
+      },
+      {
+        "verse": "48:17",
+        "position": 3,
+        "word": "الأَعمىٰ",
+        "website_root": "ع م ي",
+        "QAC_root": "Emy"
+      },
+      {
+        "verse": "48:17",
+        "position": 4,
+        "word": "حَرَجٌ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "48:17",
+        "position": 7,
+        "word": "الأَعرَجِ",
+        "website_root": "ع ر ج",
+        "QAC_root": "Erj"
+      },
+      {
+        "verse": "48:17",
+        "position": 8,
+        "word": "حَرَجٌ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "48:17",
+        "position": 11,
+        "word": "المَريضِ",
+        "website_root": "م ر ض",
+        "QAC_root": "mrD"
+      },
+      {
+        "verse": "48:17",
+        "position": 12,
+        "word": "حَرَجٌ",
+        "website_root": "ح ر ج",
+        "QAC_root": "Hrj"
+      },
+      {
+        "verse": "48:17",
+        "position": 14,
+        "word": "يُطِعِ",
+        "website_root": "ط و ع",
+        "QAC_root": "TwE"
+      },
+      {
+        "verse": "48:17",
+        "position": 15,
+        "word": "اللَّهَ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "48:17",
+        "position": 16,
+        "word": "وَرَسولَهُ",
+        "website_root": "ر س ل",
+        "QAC_root": "rsl"
+      },
+      {
+        "verse": "48:17",
+        "position": 17,
+        "word": "يُدخِلهُ",
+        "website_root": "د خ ل",
+        "QAC_root": "dxl"
+      },
+      {
+        "verse": "48:17",
+        "position": 18,
+        "word": "جَنّٰتٍ",
+        "website_root": "ج ن ن",
+        "QAC_root": "jnn"
+      },
+      {
+        "verse": "48:17",
+        "position": 19,
+        "word": "تَجرى",
+        "website_root": "ج ر ي",
+        "QAC_root": "jry"
+      },
+      {
+        "verse": "48:17",
+        "position": 21,
+        "word": "تَحتِهَا",
+        "website_root": "ت ح ت",
+        "QAC_root": "tHt"
+      },
+      {
+        "verse": "48:17",
+        "position": 22,
+        "word": "الأَنهٰرُ",
+        "website_root": "ن ه ر",
+        "QAC_root": "nhr"
+      },
+      {
+        "verse": "48:17",
+        "position": 24,
+        "word": "يَتَوَلَّ",
+        "website_root": "و ل ي",
+        "QAC_root": "wly"
+      },
+      {
+        "verse": "48:17",
+        "position": 25,
+        "word": "يُعَذِّبهُ",
+        "website_root": "ع ذ ب",
+        "QAC_root": "E*b"
+      },
+      {
+        "verse": "48:17",
+        "position": 26,
+        "word": "عَذابًا",
+        "website_root": "ع ذ ب",
+        "QAC_root": "E*b"
+      },
+      {
+        "verse": "48:17",
+        "position": 27,
+        "word": "أَليمًا",
+        "website_root": "أ ل م",
+        "QAC_root": "Alm"
+      }
+    ],
+    "corrections": [],
+    "exceptions": []
+  },
+  "article_translation_audit": [
+    {
+      "verse": "6:125",
+      "source_block": 91,
+      "label_block": 92,
+      "article_rendering_is_proposed": true,
+      "matches_installed": false,
+      "installed_translation_unchanged": true
+    },
+    {
+      "verse": "7:2",
+      "source_block": 130,
+      "label_block": 131,
+      "article_rendering_is_proposed": true,
+      "matches_installed": false,
+      "installed_translation_unchanged": true
+    },
+    {
+      "verse": "4:65",
+      "source_block": 145,
+      "label_block": 146,
+      "article_rendering_is_proposed": true,
+      "matches_installed": false,
+      "installed_translation_unchanged": true
+    },
+    {
+      "verse": "5:6",
+      "source_block": 160,
+      "label_block": 161,
+      "article_rendering_is_proposed": true,
+      "matches_installed": false,
+      "installed_translation_unchanged": true
+    },
+    {
+      "verse": "22:78",
+      "source_block": 180,
+      "label_block": 181,
+      "article_rendering_is_proposed": true,
+      "matches_installed": false,
+      "installed_translation_unchanged": true
+    },
+    {
+      "verse": "9:91",
+      "source_block": 204,
+      "label_block": 205,
+      "article_rendering_is_proposed": true,
+      "matches_installed": false,
+      "installed_translation_unchanged": true
+    },
+    {
+      "verse": "48:17",
+      "source_block": 223,
+      "label_block": 224,
+      "article_rendering_is_proposed": true,
+      "matches_installed": false,
+      "installed_translation_unchanged": true
+    },
+    {
+      "verse": "33:38",
+      "source_block": 266,
+      "label_block": 267,
+      "article_rendering_is_proposed": true,
+      "matches_installed": false,
+      "installed_translation_unchanged": true
+    }
+  ],
+  "verification": {
+    "stage": "before installation",
+    "all404_normalized_source_blocks_rendered_in_each_language": true,
+    "all403_raw_source_blocks_preserved": true,
+    "complete_English_mirror": true,
+    "Arabic_quotes_preserved": true,
+    "all8Arabic_verse_quotations_match_installed": true,
+    "required_root_box_checker_passed_lexical_boxes": 532,
+    "only_own_registry_entry_changed": true,
+    "all_existing_contexts_preserved": true,
+    "verse_translations_and_Arabic_unchanged": true,
+    "protected_reflection_text_modified": 0,
+    "grammar_metadata_unchanged": true,
+    "prior_work_Fatihah_Baqarah_through160_and_shared_renderer_preserved": true,
+    "assigned_roots_checked": 266,
+    "root_assignment_corrections": 0,
+    "canonical_Allah_boxes_preserved": 40,
+    "verified_verse_targets": 28,
+    "verified_related_root_targets": 12,
+    "build_or_preview_run": false,
+    "post_installation_tests_run": false
+  },
+  "prepared_sha256": {
+    "quran-terminology/fa/roots/h-r-j/index.html": "6b9374bfcf2393ca16e77282534f6298c17467e77c0561b67b62db0334f21733",
+    "quran-terminology/en/roots/h-r-j/index.html": "976d2c7178eef41febce9c5554b6713ad120109fec21e89443cea3bcfdce96a6",
+    "_data/quran-root-studies.json": "97272116d63f74a2d2dbf359fb54c45b2c6328c5f9cb3c219345681a9a5abf1a",
+    "quran-reflection/fa/004-an-nisa/units/065.html": "a87dcd6c4985db4b1dbbddc6fface8fb10f2b576434472b9ae56654c512e7316",
+    "quran-reflection/fa/005-al-maidah/units/006.html": "0d00648607b95e0bf819691aed12b2d30bf56317349955cc4f8d07f12fc1edeb",
+    "quran-reflection/fa/006-al-anam/units/125.html": "efe121f6feb4796bb0ecd5d5012861ddc02ce5834bc5c0ab43ef84a32fd91ee4",
+    "quran-reflection/fa/007-al-araf/units/002.html": "c7cc5c87aff27772bd5366bb48c4a348fb5894b472a8c42d6caca4d7d2de2380",
+    "quran-reflection/fa/009-at-tawbah/units/091.html": "08028df6c84180685f5800fff839d57260d9607d61dd80b25a825004e704ad5a",
+    "quran-reflection/fa/022-al-hajj/units/078.html": "07b2732306e8fc8b2aacc67c0c7800fe00ee6d0fb03ab0ac3cb588b2b03bf6e7",
+    "quran-reflection/fa/024-an-nur/units/061.html": "4f8c8ceecaac38640bbd34df9c73851825262f4ce8eab4b391ea0e2ba0c2b069",
+    "quran-reflection/fa/033-al-ahzab/units/037.html": "18699b3bef99b93aefbbdafac0327176c55d78d3df72dfc6f1a4a1380735e948",
+    "quran-reflection/fa/033-al-ahzab/units/038.html": "6e40a9a8ea18b3b3a283899ab1cae987a6b2026d839b754410e97bec9815a998",
+    "quran-reflection/fa/033-al-ahzab/units/050.html": "20b33a7c7b35447b5741387cce675f879fd32b14265a697c800602c993a418b2",
+    "quran-reflection/fa/048-al-fath/units/017.html": "c8a3d70becd3e7aa8342971f317a707c028f94b54f4e13fe15f610401eaf50c0",
+    "quran-reflection/en/004-an-nisa/units/065.html": "766ad1e66e1f0bdbd0909493120a83d9ffd8a458f2d32fd538bf3b3b0fa96ae3",
+    "quran-reflection/en/005-al-maidah/units/006.html": "2ea78b067f1f39c261e5b8ab4c713cb1b83300ae343311e329e9a9e90bd1e3f6",
+    "quran-reflection/en/006-al-anam/units/125.html": "f5330be0469d8d804e9c914c387ee01560f2190f36e18c77895f9b5fc08f642b",
+    "quran-reflection/en/007-al-araf/units/002.html": "4caeb3003223b5ba16a3772c09cb67ddc3a2f5d487f675c894b2a61bd7e9c3cd",
+    "quran-reflection/en/009-at-tawbah/units/091.html": "ffa0d7f9aa012a217006c81e31f90243fa023627876ad1c672f3fe40cf76f50e",
+    "quran-reflection/en/022-al-hajj/units/078.html": "3cf3656cbfb61af1992f9504a1a906695707f19c5b1bfc9ca49b565de5c2a9af",
+    "quran-reflection/en/024-an-nur/units/061.html": "d3f3eb5f1ba0708293c6ff608b81fcc7593154b3090089d4db2990d4f2a22773",
+    "quran-reflection/en/033-al-ahzab/units/037.html": "97ef833f3e91a2a6a29b483acdcd3d07fecb3c312671ee537092e2351c76df82",
+    "quran-reflection/en/033-al-ahzab/units/038.html": "09823fcdf927a5d2bed07cbc047026296d29ddb3bf3a617334b7066633fcbee2",
+    "quran-reflection/en/033-al-ahzab/units/050.html": "c0a5bbea1866aabf766fb7b04cb2dccfd335b9aa1dc52f1eb88cb7f290beffe1",
+    "quran-reflection/en/048-al-fath/units/017.html": "935abec90b8aca7848ffb8492b4e961af8b3de2d1a346cb0cf20fb0e69d9deb5"
+  },
+  "source_attachment_sha256": "89ceed6c28f57622c59dd14caaf0cb0358ed6dca60428cf917d2ea9780dd8a7b",
+  "supplied_Arabic_quotations_changed": false,
+  "Quranic_quotations_changed": false,
+  "installed_verse_Arabic_changed": false,
+  "English_translation_complete": true,
+  "corrections": [
+    "All403rawsourceblocks preserved;combinedtitle/subtitle separated to404normalizedblocks ineachlanguage.FullEnglishtranslation,10sections,39subheadings,34morphologycards,and11displayedArabicquotationsperlanguage.All16derivativelistentriesand3additionallexicalformsretained.Englishincludestransliterationsforall11quotations.",
+    "No major substantive lexical error found.Primarylexicons confirm density,restrictedpassage,inwardconstriction,practicalhardship,sin/liability,andtaḥarrujasavoidanceofsin.Keptsourcecautionthatsharedsemanticimageisnotproofofhistoricalderivation.Readingḥarijwithkasrahretainedasestablishedalternative.",
+    "Preserved suppliedJābirreadinginImrualQayspoem:primarySihahmaintextSābiḥhasfootnoterecordingJābirinDiwanandLisan,andprimaryIbnHishamalsotransmitsJābir.NoArabicpoemchangesbeyondouterguillemetsandMarkdownlinebreakwhitespace.",
+    "ClarifiedPersianproposalsin9:91,48:17,33:38,and33:38recommendation:absenceofblame/muakhadhah ratherthanunqualifiedabsenceofresponsibility.Keptallcontextualqualificationsanddistinctionfromabsenceofeveryduty.Clarified208aslinguisticconstruction.Expanded33:37-38andabbreviated33:38,33:50intocompleteindividualreferences.",
+    "All8fullarticleverseproposalsclearlylabeledproposedanduseForqandivine-nameequivalent.AllinstalledPersianandEnglishversetranslationsunchanged.EnglishrenderingretainsIslam/MuslimterminologyasinthePersianproposalsandtranslatesthecompletebody.",
+    "Confirmed15Quranicoccurrencesin11versesacross9surahs:14nounsand1descriptiveuse,withoutQuranicverb.All266assignedlexicalpositionsmatchQAC.Norootreassignmentneeded.Threeoccurrenceseachin24:61and48:17checkedindividually.",
+    "Verified28bilingualversetargetsand12related-rootlinksto6installedstudies.UnwrittenḌYQandKLFremainunlinked.No invented destinations.",
+    "Noauthoredreflectioninanytargetinbothlanguages,checkedrecursively.Updated30ownbilingualbriefsfromexactarticlesummaryandremovedonlyownobsoletepreliminarynotices.Alloriginalcontextspreserved;added18ownmissingcontextsand182surroundingmissingcontexts.Specificcontextsrespectinwardconstraint,duty,exemption,andfamily-rulingdistinctions.",
+    "Focusedmandatorypre-installcheckpassed532lexicalboxes.All40canonicalAllahboxesunchanged.Arabic,translations,existingcontexts,authoredreflections,Fatihah,Baqarahthrough160,root/chapterindexes,sharedrenderer,andallpriordirtyworkpreserved.No build,browserpreview,post-installationtests,commit,orpush."
+  ]
+}

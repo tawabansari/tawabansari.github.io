@@ -7297,28 +7297,28 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-r-d/",
       "title": "ریشهٔ ح ر د",
-      "summary": "قصد و روی آوردن؛ نیز خشم، منع کردن یا کناره گرفتن، با توجه به سیاق.",
-      "status": "preliminary"
+      "summary": "قصد و تصمیم جدی؛ خشم، کناره‌گیری و در برخی کاربردها منع یا قطع بهره.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-r-d/",
-      "title": "The Root Ḥ R D",
-      "summary": "Intending or directing oneself; also anger, withholding, or withdrawal, according to context.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Ḥ R D",
+      "summary": "Serious purpose and resolve; anger, withdrawal, and in some uses withholding or the cessation of a benefit.",
+      "status": "published"
     }
   },
   "h-r-dad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-r-dad/",
       "title": "ریشهٔ ح ر ض",
-      "summary": "فرسودگی و ناتوانی تا آستانه هلاکت؛ تحریض: برانگیختن و تشویق کردن.",
-      "status": "preliminary"
+      "summary": "فرسودگی و ضعف شدید تا آستانهٔ نابودی؛ و در باب تفعیل، برانگیختن و به اقدام واداشتن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-r-dad/",
-      "title": "The Root Ḥ R Ḍ",
-      "summary": "Wasting and weakening toward destruction; taḥrīḍ means urging or encouraging.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Ḥ R Ḍ",
+      "summary": "Severe wasting and weakness to the verge of destruction; in Form II, urging and prompting action.",
+      "status": "published"
     }
   },
   "h-r-f": {
@@ -7339,14 +7339,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-r-j/",
       "title": "ریشهٔ ح ر ج",
-      "summary": "تنگی و دشواری؛ حرج می‌تواند فشار درونی، محدودیت یا مسئولیتِ نکوهش‌پذیر را برساند.",
-      "status": "preliminary"
+      "summary": "تنگنا، فشار و محدودیت؛ گرفتار شدن در دشواری یا مسئولیت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-r-j/",
-      "title": "The Root Ḥ R J",
-      "summary": "Constriction or difficulty; ḥaraj can concern inner distress, restriction, or blameworthy liability.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ R J",
+      "summary": "Constraint, pressure, and restriction; being caught in difficulty or liability.",
+      "status": "published"
     }
   },
   "h-r-k": {
@@ -7409,14 +7409,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-r-s/",
       "title": "ریشهٔ ح ر س",
-      "summary": "نگهبانی، مراقبت و حفاظت.",
-      "status": "preliminary"
+      "summary": "نگهبانی، مراقبت و پاسداری از چیزی در برابر خطر یا دسترسی ناخواسته.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-r-s/",
-      "title": "The Root Ḥ R S",
-      "summary": "Guarding, watching, and protecting.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Ḥ R S",
+      "summary": "Guarding, watching over, and protecting something against danger or unwanted access.",
+      "status": "published"
     }
   },
   "h-r-sad": {
@@ -13751,14 +13751,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/n-h2-y/",
       "title": "ریشهٔ ن ه ي",
-      "summary": "بازداشتن و پایان؛ نُهی: خردِ بازدارنده.",
-      "status": "preliminary"
+      "summary": "به پایان و نهایت رسیدن؛ بازداشتن از ادامهٔ کاری و دست کشیدن از آن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-h2-y/",
-      "title": "The Root N H Y",
-      "summary": "Preventing or ending; nuhā denotes restraining understanding or reason.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root N H Y",
+      "summary": "Reaching an end or limit; restraining the continuation of an action and desisting from it.",
+      "status": "published"
     }
   },
   "n-j-d": {
