@@ -4076,15 +4076,15 @@
   "d-r-h2-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-r-h2-m/",
-      "title": "ریشهٔ د ر ه م",
-      "summary": "درهم: سکه یا واحد پول، با منشأ وام‌گرفته.",
-      "status": "preliminary"
+      "title": "د ر ه م — دِرْهَم و دَرَاهِم؛ پول نقره‌ای و واحد سنجش ارزش",
+      "summary": "درهم؛ نام واحد پولی نقره‌ای و در کاربرد تاریخی، واحد وزن نقره.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-r-h2-m/",
-      "title": "The Root D R H M",
-      "summary": "Dirham is a coin or monetary unit of borrowed origin.",
-      "status": "preliminary"
+      "title": "D R H M — Dirham and Darāhim: Silver Money and a Unit of Monetary Value",
+      "summary": "Dirham: a silver monetary unit and, in historical usage, a weight of silver.",
+      "status": "published"
     }
   },
   "d-r-j": {
@@ -7045,14 +7045,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-l-q-m/",
       "title": "ریشهٔ ح ل ق م",
-      "summary": "حلقوم و گذرگاه نفس در گلو؛ تحلیل سه‌حرفی «حلق» نیز رایج است.",
-      "status": "preliminary"
+      "summary": "گلوگاه؛ بخش یا مجرای مرتبط با عبور نفس در گلو.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-l-q-m/",
-      "title": "The Root Ḥ L Q M",
-      "summary": "The throat or windpipe; a triliteral analysis under ḥ-l-q is also common.",
-      "status": "preliminary"
+      "title": "Qur’anic root Ḥ L Q M",
+      "summary": "The throat; the region or passage associated with breathing.",
+      "status": "published"
     }
   },
   "h-l-y": {
@@ -7185,14 +7185,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-n-j-r/",
       "title": "ریشهٔ ح ن ج ر",
-      "summary": "گلو و بخش بالایی نای؛ حناجر: گلوها.",
-      "status": "preliminary"
+      "summary": "حنجره و گلوگاه؛ بخش مرتبط با عبور نفس و تولید صدا در ناحیهٔ گلو.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-n-j-r/",
-      "title": "The Root Ḥ N J R",
-      "summary": "The throat or upper windpipe; ḥanājir means throats.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ N J R",
+      "summary": "The laryngeal region and throat; the area associated with breathing and voice.",
+      "status": "published"
     }
   },
   "h-n-k": {
@@ -7353,14 +7353,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-r-k/",
       "title": "ریشهٔ ح ر ك",
-      "summary": "حرکت کردن و به حرکت درآوردن، در برابر سکون.",
-      "status": "preliminary"
+      "summary": "حرکت و جنبش در برابر سکون؛ به حرکت درآوردن چیزی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-r-k/",
-      "title": "The Root Ḥ R K",
-      "summary": "Moving and setting in motion, as opposed to stillness.",
-      "status": "preliminary"
+      "title": "Qur’anic root Ḥ R K",
+      "summary": "Movement as opposed to stillness; setting something in motion.",
+      "status": "published"
     }
   },
   "h-r-m": {
@@ -7381,14 +7381,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-r-q/",
       "title": "ریشهٔ ح ر ق",
-      "summary": "سوختن و سوزاندن، و اثر آتش.",
-      "status": "preliminary"
+      "summary": "سوختن و سوزاندن؛ اثر آتش و التهاب؛ و در کاربردی کهن، ساییدن و فرسودن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-r-q/",
-      "title": "The Root Ḥ R Q",
-      "summary": "Burning, setting alight, and the effects of fire.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Ḥ R Q",
+      "summary": "Burning and setting alight; fire and intense heat; and, in an early use, abrading and wearing away.",
+      "status": "published"
     }
   },
   "h-r-r": {
@@ -7577,14 +7577,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-sad-h-sad/",
       "title": "ریشهٔ ح ص ح ص",
-      "summary": "کاملاً آشکار و روشن شدن حقیقت.",
-      "status": "preliminary"
+      "summary": "آشکار و روشن شدن پس از پنهانی؛ استقرار و مشخص شدن؛ و در کاربردهای دیگر، حرکت و جابه‌جایی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-sad-h-sad/",
-      "title": "The Root Ḥ Ṣ Ḥ Ṣ",
-      "summary": "Truth becoming fully clear or manifest.",
-      "status": "preliminary"
+      "title": "Qur’anic root Ḥ Ṣ Ḥ Ṣ",
+      "summary": "Becoming clear after concealment; settling or becoming distinct; and, in other uses, movement and shifting.",
+      "status": "published"
     }
   },
   "h-sad-l": {
@@ -7997,14 +7997,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-z-b/",
       "title": "ریشهٔ ح ز ب",
-      "summary": "گروه و دسته‌ای که با هم پیوند یا همراهی دارند.",
-      "status": "preliminary"
+      "summary": "گرد آمدن و تشکیل مجموعه؛ گروهی از افراد با پیوند، موضع یا هدف مشترک.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-z-b/",
-      "title": "The Root Ḥ Z B",
-      "summary": "A group or party united by affiliation or support.",
-      "status": "preliminary"
+      "title": "Qur’anic root Ḥ Z B",
+      "summary": "Gathering and forming a collective; people joined by a shared affiliation, position, or purpose.",
+      "status": "published"
     }
   },
   "h-z-n": {
@@ -11049,14 +11049,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/kh-r-tt-m/",
       "title": "ریشهٔ خ ر ط م",
-      "summary": "بینی و بخش پیش‌آمده آن.",
-      "status": "preliminary"
+      "summary": "پوزه و بینیِ پیش‌آمده؛ بخش برجستهٔ جلوی صورت انسان یا حیوان.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/kh-r-tt-m/",
-      "title": "The Root KH R Ṭ M",
-      "summary": "The nose or projecting snout.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root KH R Ṭ M",
+      "summary": "Snout and projecting nose; the prominent front of a human or animal face.",
+      "status": "published"
     }
   },
   "kh-s-a": {
