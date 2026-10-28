@@ -1,314 +1,551 @@
 ---
 layout: default
-title: Qur'anic Root Q T L
+title: Qur’anic Root Q T L
+lang: en
 permalink: /quran-terminology/en/roots/q-t-l/
 ---
-
 <style>
-  .root-study-page { max-width: 980px; margin: 0 auto; padding: 3.5rem 1.25rem; line-height: 2.05; color: var(--root-text, #2f2a22); }
-  .root-study-page * { box-sizing: border-box; }
-  .root-study-page.forqan-page-ltr, .root-study-page.forqan-page-ltr h1, .root-study-page.forqan-page-ltr h2, .root-study-page.forqan-page-ltr h3, .root-study-page.forqan-page-ltr p, .root-study-page.forqan-page-ltr li { direction: ltr; text-align: left; }
-  .root-frame { background: radial-gradient(circle at top right, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent 34%), var(--root-card, #fffaf1); border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 26px; padding: 2.4rem; box-shadow: 0 22px 60px rgba(65, 46, 20, 0.10); }
-  .root-hero { border-bottom: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); padding-bottom: 1.65rem; margin-bottom: 2rem; }
-  .root-kicker { color: var(--root-accent-deep, #8b6423); font-size: 0.96rem; font-weight: 800; margin-bottom: 0.45rem; }
-  .root-study-page h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.05rem); line-height: 1.4; color: var(--root-text, #2f2a22); }
-  .root-subtitle { color: var(--root-muted, #6d6255); max-width: 780px; margin: 1rem 0 0; font-size: 1.04rem; }
-  .root-forms-card, .root-toc { background: linear-gradient(180deg, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent 82%), var(--root-panel, #fffdf7); border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 20px; padding: 1.35rem 1.55rem; margin: 1.55rem 0; }
-  .root-forms-card h2, .root-toc h2 { margin-top: 0; }
-  .morphology-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
-  .morph-card { display: block; min-width: 0; border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 16px; padding: 1rem; background: var(--root-section, #fffaf2); color: inherit; text-decoration: none; }
-  .morph-card-header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.35rem 0.75rem; color: var(--root-muted, #6d6255); font-size: 0.88rem; margin-bottom: 0.55rem; }
-  .morph-form { font-weight: 800; font-size: 1.28rem; color: var(--root-accent-deep, #8b6423); margin-bottom: 0.4rem; direction: rtl; unicode-bidi: isolate; }
-  .morph-note { color: var(--root-muted, #6d6255); margin-bottom: 0; font-size: 0.95rem; }
-  .root-toc ol { list-style: none; padding-right: 0; padding-left: 0; margin: 0.75rem 0 0; columns: 2; column-gap: 2rem; }
-  .root-toc li { margin: 0.28rem 0; break-inside: avoid; }
-  .root-section { background: var(--root-section, #fffaf2); border: 1px solid var(--root-border-soft, rgba(148, 114, 55, 0.16)); border-radius: 18px; padding: 1.5rem 1.6rem; margin: 1.55rem 0; scroll-margin-top: 1.25rem; }
-  .root-section h2 { margin: 0 0 1rem; color: var(--root-text, #2f2a22); font-size: 1.35rem; line-height: 1.6; }
-  .forqan-page-ltr .root-section h2::before { content: ""; display: inline-block; width: 0.58rem; height: 0.58rem; border-radius: 999px; background: var(--root-accent, #b9852f); margin-right: 0.55rem; vertical-align: 0.08em; }
-  .root-section h3 { margin: 1.65rem 0 0.75rem; color: var(--root-accent-deep, #8b6423); font-size: 1.13rem; scroll-margin-top: 1.25rem; }
-  .root-study-page p { margin: 0.85rem 0; }
-  .root-study-page ul { margin: 0.85rem 0; padding-right: 1.4rem; padding-left: 1.4rem; }
-  .root-study-page li { margin: 0.35rem 0; }
-  .root-study-page a { color: var(--root-accent-deep, #8b6423); text-decoration: none; border-bottom: 1px dotted currentColor; }
-  .arabic-quote { direction: rtl; text-align: center; font-size: 1.48rem; line-height: 2.5; margin: 1.4rem 0 0.65rem; padding: 1rem 1.25rem; border: 1px solid var(--root-border, rgba(148, 114, 55, 0.28)); border-radius: 18px; background: linear-gradient(180deg, var(--root-accent-soft, rgba(185, 133, 47, 0.11)), transparent), var(--root-panel, #fffdf7); color: var(--root-text, #2f2a22); unicode-bidi: isolate; }
-  .arabic-quote p { margin: 0; text-align: center !important; }
-  .root-study-page .translation { text-align: center !important; color: var(--root-muted, #6d6255); margin-top: 0.45rem; }
-  .root-study-page .verse-ref { text-align: center !important; color: var(--root-accent-deep, #8b6423); font-weight: 700; margin-top: 0.25rem; }
-  .arabic-large { font-size: 1.12em; line-height: 2.15; direction: rtl; unicode-bidi: isolate; }
-  @media (max-width: 760px) { .root-study-page { padding: 1.5rem 0.75rem; } .root-frame { padding: 1.25rem; border-radius: 20px; } .morphology-grid { grid-template-columns: 1fr; } .root-toc ol { columns: 1; } .arabic-quote { font-size: 1.25rem; } }
+.root-study-page .arabic-quote p{direction:rtl!important;text-align:center!important;unicode-bidi:isolate}
+.root-study-page .translation,.root-study-page .verse-ref,.root-study-page .quran-translit-line,.root-study-page .root-definition{text-align:center!important}
+.root-study-page bdi{unicode-bidi:isolate}
+.root-study-page .morph-card{display:block;text-decoration:none;color:var(--root-text);border:1px solid var(--root-border-soft)}
+.root-study-page .morph-card:hover,.root-study-page .morph-card:focus-visible{border-color:var(--root-accent);outline-offset:4px}
+.root-study-page .morph-note strong{font-size:1.3rem;color:var(--root-accent-deep)}
+.root-study-page .root-toc ol{list-style:none;padding-inline-start:0}
+.root-study-page .root-toc li{break-inside:avoid}
+.root-study-page .root-forms-heading{margin:1.5rem 0 .75rem;font-size:1.35rem}
+.root-study-page .root-section h3,.root-study-page .root-section p[id]{scroll-margin-top:5rem}
 </style>
-
-<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en"><div class="root-frame">
-  <section class="root-hero"><div class="root-kicker">Qur'anic Root</div><h1>Qur'anic Root Q T L</h1><p class="root-subtitle">Killing, being killed, mutual fighting, and responsibility before human life</p></section>
-  <nav class="root-toc" aria-label="Article sections"><h2>Article Map</h2><ol><li><a href="#section-1">1. Short Introduction to the Root</a></li><li><a href="#section-2">2. Important Forms and Derivatives of the Root</a></li><li><a href="#section-3">3. Reference Cards for Qur'anic Derivatives</a></li><li><a href="#section-4">4. The Semantic Core of the Root</a></li><li><a href="#section-5">5. The Material Image of the Root</a></li><li><a href="#section-6">6. Use of the Root in Early Arabic</a></li><li><a href="#section-7">7. Semantic Restrictions and Misuses</a></li><li><a href="#section-8">8. Methodological Note: Qatl, Qital, and Iqtital</a></li><li><a href="#section-9">9. Qur'anic Uses of the Root</a></li><li><a href="#section-10">10. Important Derivatives in the Qur'an</a></li><li><a href="#section-11">11. Grammatical and Structural Notes</a></li><li><a href="#section-12">12. Q T L Compared with M W T</a></li><li><a href="#section-13">13. Q T L Compared with DH B H</a></li><li><a href="#section-14">14. Q T L Compared with H L K</a></li><li><a href="#section-15">15. Qital Compared with H R B</a></li><li><a href="#section-16">16. Specialized Note: Is Qital Always Defensive?</a></li><li><a href="#section-17">17. Translation Suggestions for Forqan</a></li><li><a href="#section-18">18. Conclusion</a></li></ol></nav>
-
-  <section id="section-1" class="root-section"><h2>1. Short Introduction to the Root</h2>
-<p>The root <strong>ق ت ل</strong> in the Qur'an points above all to <strong>causing the death of a living being</strong>. In this root, death is attributed to an act, an agent, or a responsibility; someone or something causes the life of another to come to an end.</p>
-<p>This feature separates Q T L from <strong>M W T</strong>. Mawt is death itself, or dying, while qatl points to causing death. A person may die without being killed by a human being; but when it is said that someone was killed, his death is attributed to an agent.</p>
-<p>From this same root, forms related to battle are also built:</p>
-<ul><li><strong>قَتَلَ</strong>: he killed;</li><li><strong>قاتَلَ</strong>: he fought or entered battle;</li><li><strong>اقتَتَلَ</strong>: they fought one another or became mutually engaged;</li><li><strong>قِتال</strong>: fighting and battle;</li><li><strong>قَتْلَىٰ</strong>: those killed.</li></ul>
-<p>The most important principle in understanding this root is to distinguish between <strong>one-sided killing</strong> and <strong>qital as fighting and battle</strong>. Not every battle necessarily results in someone being killed, and not every participant in qital is necessarily a killer.</p>
-<p>The shortest expression for this root is:</p>
-<p><strong>Causing the death of a living being; and in the reciprocal forms, entering a war or conflict in which killing is possible.</strong></p>
+<style>.root-study-page .root-table-wrap{overflow-x:auto;margin:1.2rem 0}.root-study-page .root-count-table{width:100%;border-collapse:collapse;min-width:36rem}.root-study-page .root-count-table th,.root-study-page .root-count-table td{padding:.7rem;border:1px solid var(--root-border);text-align:start;vertical-align:top}.root-study-page .root-count-table th{background:var(--root-panel)}</style>
+<div class="forqan-page-ltr root-study-page" dir="ltr" lang="en">
+<div class="root-frame">
+<header class="root-hero">
+<h1 data-source-block="0">Qur’anic Root Q T L</h1>
+<p class="root-subtitle" data-source-block="1">Killing, ending life, fighting, and struggle: distinguishing qatl and qitāl in Arabic and the Qur’an</p>
+</header>
+<section class="root-forms-card" id="forms-covered"><h2>Qur’anic and lexical forms</h2><div class="morphology-grid">
+<a class="morph-card" href="#topic-63"><p class="morph-note"><strong><bdi dir="rtl" lang="ar">قَتَلَ / قُتِلَ</bdi></strong><br><span class="translit">(qatala / qutila)</span><br>Form I, active and passive;83 occurrences</p></a>
+<a class="morph-card" href="#topic-68"><p class="morph-note"><strong><bdi dir="rtl" lang="ar">قَتَّلَ</bdi></strong><br><span class="translit">(qattala)</span><br>Form II;4 occurrences</p></a>
+<a class="morph-card" href="#topic-75"><p class="morph-note"><strong><bdi dir="rtl" lang="ar">قَاتَلَ</bdi></strong><br><span class="translit">(qātala)</span><br>Form III;54 occurrences</p></a>
+<a class="morph-card" href="#topic-82"><p class="morph-note"><strong><bdi dir="rtl" lang="ar">اقْتَتَلَ</bdi></strong><br><span class="translit">(iqtatala)</span><br>Form VIII;4 occurrences</p></a>
+<a class="morph-card" href="#topic-87"><p class="morph-note"><strong><bdi dir="rtl" lang="ar">قَتْل</bdi></strong><br><span class="translit">(qatl)</span><br>Verbal noun;10 occurrences</p></a>
+<a class="morph-card" href="#topic-87"><p class="morph-note"><strong><bdi dir="rtl" lang="ar">قِتَال</bdi></strong><br><span class="translit">(qitāl)</span><br>Form III verbal noun;13 occurrences</p></a>
+<a class="morph-card" href="#topic-93"><p class="morph-note"><strong><bdi dir="rtl" lang="ar">قَتْلَى</bdi></strong><br><span class="translit">(qatlā)</span><br>Plural for those killed;one occurrence</p></a>
+<a class="morph-card" href="#topic-68"><p class="morph-note"><strong><bdi dir="rtl" lang="ar">تَقْتِيل</bdi></strong><br><span class="translit">(taqtīl)</span><br>Form II verbal noun;one occurrence</p></a>
+</div></section><nav class="root-toc" aria-label="Article contents"><h2>Article contents</h2><ol>
+<li><a href="#introduction">1. Introducing the root: does qatl always mean killing?</a></li>
+<li><a href="#kill-and-fight">2. Uqtulūhum and qātilūhum in Al-Baqarah 2:190, Al-Baqarah 2:191, Al-Baqarah 2:192, and Al-Baqarah 2:193</a></li>
+<li><a href="#forms">3. Qur’anic forms and morphology</a></li>
+<li><a href="#semantic-core">4. The semantic core in early Arabic</a></li>
+<li><a href="#early-arabic">5. Figurative uses and pre-Islamic Arabic witnesses</a></li>
+<li><a href="#human-killing">6. Human killing, accidental killing, and intentional killing</a></li>
+<li><a href="#life-and-qisas">7. The inviolability of life, qiṣāṣ, and individual responsibility</a></li>
+<li><a href="#fighting-and-oppression">8. Qitāl, struggle, and confronting oppression</a></li>
+<li><a href="#treaties-and-peace">9. Fighting, treaties, and ending warfare</a></li>
+<li><a href="#being-killed">10. Being killed in the way of The God, distinguished from fighting</a></li>
+<li><a href="#animals">11. Killing animals</a></li>
+<li><a href="#imprecations">12. Imprecatory and condemnatory expressions</a></li>
+<li><a href="#certainty">13. Wa-mā qatalūhu yaqīnan: killing and comprehensive knowledge</a></li>
+<li><a href="#related-roots">14. Comparison with related roots</a></li>
+<li><a href="#translation-proposals">15. Translation proposals for Forqan</a></li>
+<li><a href="#conclusion">16. Conclusion</a></li>
+</ol></nav>
+<span id="section-1" class="root-anchor-alias"></span>
+<span id="section-7" class="root-anchor-alias"></span>
+<section class="root-section" id="introduction"><h2 data-source-block="2">1. Introducing the root: does qatl always mean killing?</h2>
+<p class="" data-source-block="3">The Arabic three-consonant root Q T L, in its familiar meaning, concerns killing and ending a living being’s life. Its derivatives and usages do not all mean actual killing, however. Arabic distinguishes qatala, killing; qātala, fighting and confrontation; iqtatala, becoming engaged in conflict; and figurative or imprecatory expressions such as qātalahumu Allāh.</p>
+<p class="" data-source-block="4">This distinction is fundamental to understanding the Qur’an. Qātilū does not necessarily command killing everyone on the opposing side: it concerns fighting and confrontation. Fighting may result in deaths, but engaging in battle differs from actually killing. Two groups may fight and then end the conflict through retreat, cessation, or peace.</p>
+<p class="" data-source-block="5">Conversely, where uqtulū occurs in a clear context of actual killing, it should not be converted without evidence into mere struggle, conversation, or disagreement.</p>
+<p class="" data-source-block="6">The distinction is clear in <a href="/quran-reflection/en/002-al-baqarah/#ayah-191">Al-Baqarah 2:191</a> and <a href="/quran-reflection/en/002-al-baqarah/#ayah-193">Al-Baqarah 2:193</a>. In verse 191, wa-uqtulūhum comes from Form I qatala and directly means “kill them”; in verse 193, wa-qātilūhum is Form III and means “fight them.”</p>
+<p class="" data-source-block="7">Verse 191 itself places both forms together: first wa-uqtulūhum, then wa-lā tuqātilūhum and ḥattā yuqātilūkum. These differing choices distinguish killing from fighting within one military context.</p>
+<p class="" data-source-block="8">“Slaughter” and “struggle” also require distinction. Persian koshtār emphasizes actual killing, often of many people. Struggle can confront an enemy, prevent aggression, remove oppression, or pursue a goal without necessarily causing anyone’s death.</p>
+<p class="" data-source-block="9">Persian mobārezeh, “struggle,” is broader than qitāl. It can be intellectual, political, social, or armed, whereas qitāl in clearly military Qur’anic contexts concerns actual fighting. Qitāl should therefore neither be reduced to intellectual debate nor invariably converted into slaughter and annihilation of the opposition.</p>
+<p class="" data-source-block="10">This matters particularly in the context of <a href="/quran-reflection/en/002-al-baqarah/#ayah-190">Al-Baqarah 2:190</a>, <a href="/quran-reflection/en/002-al-baqarah/#ayah-191">Al-Baqarah 2:191</a>, <a href="/quran-reflection/en/002-al-baqarah/#ayah-192">Al-Baqarah 2:192</a>, and <a href="/quran-reflection/en/002-al-baqarah/#ayah-193">Al-Baqarah 2:193</a>. The Qur’an first commands fighting those who fight you and forbids transgression. It then discusses killing, expulsion, and fitnah, conditions fighting at the Sacred Mosque on the opposing side’s fighting there, and considers the end of fitnah and aggression.</p>
+<p class="" data-source-block="11">Although wa-uqtulūhum means actual killing here, its scope cannot be separated from the conditions of battle, its pronoun’s referent, the prohibition of transgression, and the instruction concerning cessation.</p>
+<p class="root-definition" data-source-block="12">The central point is that <strong>Q T L is a linguistic family with several related usages, while “killing,” “fighting,” “slaughter,” and “struggle” do not have one meaning.</strong> Accurate translation requires the verb’s morphology, object, accompanying particles, and verse context. <strong>Brief root meaning: Killing and ending life; qitāl: fighting and confrontation, with figurative and condemnatory uses in particular contexts.</strong></p>
+<span id="section-8" class="root-anchor-alias"></span>
 </section>
-
-  <section id="section-2" class="root-section"><h2>2. Important Forms and Derivatives of the Root</h2>
-<h3>قَتَلَ / يَقْتُلُ</h3><p>He killed, or he kills; he caused the end of another's life.</p>
-<h3>قُتِلَ / يُقْتَلُ</h3><p>He was killed, or he is killed.</p><p>The passive form highlights the event of being killed, and the agent may be removed or left unspecified.</p>
-<h3>قَتَّلَ / يُقَتِّلُ</h3><p>He killed intensely or repeatedly; he slaughtered or carried out killing.</p><p>The precise intensity, repetition, or multiplicity must be taken from the context, and more than the form can carry should not be extracted only from the verbal pattern.</p>
-<h3>قاتَلَ / يُقاتِلُ</h3><p>He fought and participated in battle.</p><p>This form emphasizes confrontation and engagement, not the certain occurrence of killing.</p>
-<h3>قِتال</h3><p>War, battle, and armed conflict.</p>
-<h3>اقتَتَلَ / يَقْتَتِلُ</h3><p>They fought or became engaged with one another.</p>
-<h3>قاتِل</h3><p>Killer; the one who has killed another.</p>
-<h3>مُقاتِل</h3><p>Fighter, or one who participates in battle.</p><p>A muqatil is not necessarily a qatil.</p>
-<h3>قَتِيل</h3><p>One who has been killed.</p>
-<h3>قَتْلَىٰ</h3><p>Those killed.</p>
-<h3>مَقْتَل</h3><p>A killing place or fatal point; a place where impact can lead to death.</p><p>This form is known in Arabic, but it is not among the central Qur'anic derivatives.</p>
+<section class="root-section" id="kill-and-fight"><h2 data-source-block="13">2. Uqtulūhum and qātilūhum in <a href="/quran-reflection/en/002-al-baqarah/#ayah-190">Al-Baqarah 2:190</a>, <a href="/quran-reflection/en/002-al-baqarah/#ayah-191">Al-Baqarah 2:191</a>, <a href="/quran-reflection/en/002-al-baqarah/#ayah-192">Al-Baqarah 2:192</a>, and <a href="/quran-reflection/en/002-al-baqarah/#ayah-193">Al-Baqarah 2:193</a></h2>
+<h3 id="topic-14" data-source-block="14"><a href="/quran-reflection/en/002-al-baqarah/#ayah-190">Al-Baqarah 2:190</a>: fighting and the prohibition of transgression</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="15">وَقَاتِلُوا فِي سَبِيلِ اللَّهِ الَّذِينَ يُقَاتِلُونَكُمْ وَلَا تَعْتَدُوا ۚ إِنَّ اللَّهَ لَا يُحِبُّ الْمُعْتَدِينَ</p></blockquote>
+<p class="quran-translit-line" dir="ltr">wa-qātilū fī sabīli Allāhi alladhīna yuqātilūnakum wa-lā taʿtadū inna Allāha lā yuḥibbu al-muʿtadīna</p>
+<p class="translation" data-source-block="16">Proposed translation based on this study: “And fight in the way of The God those who fight you, and do not transgress; indeed, The God does not love transgressors.”</p>
+<p class="" data-source-block="17">Qātilū and yuqātilūnakum are both Form III.</p>
+<p class="" data-source-block="18">The first commands fighting; the second identifies those who fight against the addressees.</p>
+<p class="" data-source-block="19">Wa-lā taʿtadū follows. Fighting is therefore not presented here as unconditional or unlimited.</p>
+<p class="" data-source-block="20">The prohibition shows that a military confrontation does not itself authorize every treatment of the opposing side.</p>
+<p class="" data-source-block="21">Qātilū here also does not mean “kill them.” Fighting can result in killing, but the verb emphasizes the act of fighting.</p>
+<h3 id="topic-22" data-source-block="22"><a href="/quran-reflection/en/002-al-baqarah/#ayah-191">Al-Baqarah 2:191</a>: killing in a military context</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="23">وَاقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ وَأَخْرِجُوهُم مِّنْ حَيْثُ أَخْرَجُوكُمْ ۚ وَالْفِتْنَةُ أَشَدُّ مِنَ الْقَتْلِ ۚ وَلَا تُقَاتِلُوهُمْ عِندَ الْمَسْجِدِ الْحَرَامِ حَتَّىٰ يُقَاتِلُوكُمْ فِيهِ ۖ فَإِن قَاتَلُوكُمْ فَاقْتُلُوهُمْ ۗ كَذَٰلِكَ جَزَاءُ الْكَافِرِينَ</p></blockquote>
+<p class="quran-translit-line" dir="ltr">wa-uqtulūhum ḥaythu thaqiftumūhum wa-akhrijūhum min ḥaythu akhrajūkum wa-al-fitnatu ashaddu mina al-qatli wa-lā tuqātilūhum ʿinda al-masjidi al-ḥarāmi ḥattā yuqātilūkum fīhi fa-in qātalūkum fa-uqtulūhum kadhālika jazāʾu al-kāfirīna</p>
+<p class="translation" data-source-block="24">Proposed translation based on this study: “And kill them wherever you encounter them, and expel them from where they expelled you; fitnah is more severe than killing. Do not fight them at the Sacred Mosque until they fight you there. If they fight you, then kill them. Such is the recompense of the disbelievers.”</p>
+<p class="" data-source-block="25">The distinction between the two verbal constructions is evident here.</p>
+<p class="" data-source-block="26">Wa-uqtulūhum concerns killing, while wa-lā tuqātilūhum concerns fighting.</p>
+<p class="" data-source-block="27">Ḥattā yuqātilūkum fīhi follows: until they fight you there.</p>
+<p class="" data-source-block="28">Then comes fa-in qātalūkum fa-uqtulūhum: if they fight you, then kill them.</p>
+<p class="" data-source-block="29">Within this verse, the Qur’an thus distinguishes the opposing side’s initiating fighting from permission to kill during that confrontation.</p>
+<p class="" data-source-block="30">This does not permit killing under every circumstance.</p>
+<p class="" data-source-block="31">The preceding verse concerns fighting those who fight and forbids transgression. Verse 191 itself mentions the addressees’ expulsion, fitnah, and the prohibition on initiating fighting at the Sacred Mosque.</p>
+<p class="" data-source-block="32">The pronoun hum cannot therefore be extended without this context to everyone with different beliefs.</p>
+<p class="" data-source-block="33">Conversely, restricting violence does not require converting the clear uqtulūhum into “talk to them” or “merely struggle.” The Qur’an itself uses qātilū for fighting.</p>
+<p class="" data-source-block="34">The distinction is that permission to kill in a military situation does not command annihilating everyone on the opposing side irrespective of their conduct and circumstances.</p>
+<h3 id="topic-35" data-source-block="35"><a href="/quran-reflection/en/002-al-baqarah/#ayah-192">Al-Baqarah 2:192</a>: the possibility of cessation</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="36">فَإِنِ انتَهَوْا فَإِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ</p></blockquote>
+<p class="quran-translit-line" dir="ltr">fa-ini intahaw fa-inna Allāha ghafūrun raḥīmun</p>
+<p class="translation" data-source-block="37">Proposed translation based on this study: “But if they desist, then indeed, The God is Forgiving, Merciful.”</p>
+<p class="" data-source-block="38">This short verse matters for understanding the verses immediately before and after it.</p>
+<p class="" data-source-block="39">Intahaw belongs to N H Y and here concerns desisting or bringing an action to an end.</p>
+<p class="" data-source-block="40">The preceding context concerns fighting, expulsion, fitnah, and transgression. Desisting should not be detached from that setting without reason. Intahaw itself leaves the object of desisting unstated; commentaries such as Al-Ṭabarī also discuss desisting from fighting and disbelief. This study’s reading of ending hostility should remain distinct from that exegetical account.</p>
+<p class="verse-ref"><a href="https://quranpedia.net/tafsir/al-baqara/192">Al-Ṭabarī: desisting from fighting and disbelief</a></p>
+<p class="" data-source-block="41">The verse indicates that a military situation can end.</p>
+<p class="" data-source-block="42">If these verses intended the exceptionless killing of the opposing side, the instruction concerning cessation and ending conflict would lose its meaning.</p>
+<h3 id="topic-43" data-source-block="43"><a href="/quran-reflection/en/002-al-baqarah/#ayah-193">Al-Baqarah 2:193</a>: fighting until fitnah ends</h3>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="44">وَقَاتِلُوهُمْ حَتَّىٰ لَا تَكُونَ فِتْنَةٌ وَيَكُونَ الدِّينُ لِلَّهِ ۖ فَإِنِ انتَهَوْا فَلَا عُدْوَانَ إِلَّا عَلَى الظَّالِمِينَ</p></blockquote>
+<p class="quran-translit-line" dir="ltr">wa-qātilūhum ḥattā lā takūna fitnatun wa-yakūna al-dīnu lillāhi fa-ini intahaw fa-lā ʿudwāna illā ʿalā al-ẓālimīna</p>
+<p class="translation" data-source-block="45">Proposed translation based on this study: “And fight them until there is no fitnah and religion is for The God. If they desist, there is no aggression except against wrongdoers.”</p>
+<p class="" data-source-block="46">Qātilūhum appears again, rather than uqtulūhum.</p>
+<p class="" data-source-block="47">This distinction matters.</p>
+<p class="" data-source-block="48">The Qur’an describes continued fighting until a situation called fitnah ends. It then again considers the opposing side’s desisting and states that aggression should not continue once that situation ends.</p>
+<p class="" data-source-block="49">The command does not literally specify killing every opponent as its goal. Qitāl is presented with an objective and conditions for its end.</p>
+<p class="" data-source-block="50">Fitnah requires separate study. Fighting, expulsion from homes, and religious pressure appear in this context, supporting a reading involving persecution, pressure, and obstruction of religion. Al-Ṭabarī and a number of other commentators, however, interpret fitnah here as polytheism. This article’s persecution-and-pressure reading is therefore a contextual analysis, rather than the sole lexical meaning or an undisputed interpretation.</p>
+<p class="verse-ref"><a href="https://tafsir.app/tabari/2/193">Al-Ṭabarī: fitnah as polytheism, distinguished from this article’s contextual reading</a></p>
+<p class="" data-source-block="51">Wa-yakūna al-dīnu lillāh should also not be separated from the Qur’anic principle of no compulsion in religion. Ending pressure upon people’s faith differs from forcing a belief upon them by the sword.</p>
+<p class="" data-source-block="52">A complete examination must also consider <a href="/quran-reflection/en/002-al-baqarah/#ayah-256">Al-Baqarah 2:256</a>, <a href="/quran-reflection/en/010-yunus/#ayah-099">Yūnus 10:99</a>, <a href="/quran-reflection/en/060-al-mumtahanah/#ayah-008">Al-Mumtaḥanah 60:8</a>, and <a href="/quran-reflection/en/060-al-mumtahanah/#ayah-009">Al-Mumtaḥanah 60:9</a>.</p>
+<p class="" data-source-block="53">The verse should nevertheless not be reduced to intellectual struggle alone. Qātilūhum here concerns actual fighting, with an objective and limits.</p>
+<h3 id="topic-54" data-source-block="54">A distinction translation must preserve</h3>
+<p class="" data-source-block="55">These four verses contain several separate concepts.</p>
+<p class="" data-source-block="56">Qātilū commands fighting; uqtulūhum commands killing in a military setting; akhrijūhum concerns expulsion; intahaw concerns desisting and cessation; and lā taʿtadū sets an ethical and practical limit on conduct.</p>
+<p class="" data-source-block="57">These words cannot replace one another without reason.</p>
+<p class="" data-source-block="58">Rendering them all as “kill” erases the distinction between fighting and killing. Rendering them all as “struggle” removes the explicit meaning of actual killing.</p>
+<p class="" data-source-block="59">Both lexical distinctions and contextual continuity should therefore be preserved.</p>
+<p class="" data-source-block="60">This prevents unlimited extension of killing commands while also avoiding denial of actual violence in verses concerning warfare and killing.</p>
+<span id="section-2" class="root-anchor-alias"></span>
+<span id="section-3" class="root-anchor-alias"></span>
+<span id="section-10" class="root-anchor-alias"></span>
+<span id="section-11" class="root-anchor-alias"></span>
 </section>
-
-  <section id="section-3" class="root-forms-card"><h2>3. Reference Cards for Qur'anic Derivatives</h2><div class="morphology-grid">
-<a class="morph-card" href="#section-10"><div class="morph-card-header"><span>Form</span><span>Qur'an: yes</span></div><div class="morph-form">قَتَلَ</div><p class="morph-note">Caused the death of another.</p></a>
-<a class="morph-card" href="#section-10"><div class="morph-card-header"><span>Form</span><span>Qur'an: yes</span></div><div class="morph-form">قُتِلَ</div><p class="morph-note">Was killed; his death was attributed to an agent.</p></a>
-<a class="morph-card" href="#section-10"><div class="morph-card-header"><span>Form</span><span>Qur'an: yes</span></div><div class="morph-form">قاتَلَ</div><p class="morph-note">Entered war and battle with a side.</p></a>
-<a class="morph-card" href="#section-10"><div class="morph-card-header"><span>Form</span><span>Qur'an: yes</span></div><div class="morph-form">قِتال</div><p class="morph-note">Battle and armed conflict.</p></a>
-<a class="morph-card" href="#section-10"><div class="morph-card-header"><span>Form</span><span>Qur'an: yes</span></div><div class="morph-form">اقتَتَلَ</div><p class="morph-note">Two or more sides became engaged with one another.</p></a>
-<a class="morph-card" href="#section-10"><div class="morph-card-header"><span>Form</span><span>Qur'an: yes</span></div><div class="morph-form">قاتِل</div><p class="morph-note">The one who has killed another.</p></a>
-<a class="morph-card" href="#section-10"><div class="morph-card-header"><span>Form</span><span>Qur'an: yes</span></div><div class="morph-form">مُقاتِل</div><p class="morph-note">One who participates in war or battle.</p></a>
-<a class="morph-card" href="#section-10"><div class="morph-card-header"><span>Form</span><span>Qur'an: yes</span></div><div class="morph-form">قَتْلَىٰ</div><p class="morph-note">Those killed.</p></a>
-</div></section>
-
-  <section id="section-4" class="root-section"><h2>4. The Semantic Core of the Root</h2>
-<p>The main core of Q T L is:</p>
-<p><strong>Ending the life of a living being by means of an act or agent.</strong></p>
-<p>This definition contains several points.</p>
-<p>First, qatl concerns a living being.</p>
-<p>Second, qatl does not merely express the state of death; it attributes death to a cause.</p>
-<p>Third, qatl may be intentional or unintentional. The Qur'an also speaks of accidental killing:</p>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَمَنْ قَتَلَ مُؤْمِنًا خَطَأً</p></blockquote>
-<p>So the existence of an agent does not always mean prior intent.</p>
-<p>Fourth, qital is not identical with qatl. Qital is entering battle; qatl may be one of its results, but the certain occurrence of death is not embedded in the meaning of qital itself.</p>
-<p>Fifth, the ethical value of killing is not obtained from the root alone. The Qur'an distinguishes between:</p>
-<ul><li>killing without right;</li><li>accidental killing;</li><li>qisas;</li><li>and killing in a restricted battlefield context.</li></ul>
-<p>So the root identifies the type of act; the ethical and legal judgment comes from context, intent, right, aggression, and the conditions of the act.</p>
+<section class="root-section" id="forms"><h2 data-source-block="61">3. Qur’anic forms and morphology</h2>
+<p class="" data-source-block="62">Q T L occurs 170 times in eight morphological categories. Its principal forms are Form I qatala, Form II qattala, Form III qātala, Form VIII iqtatala, and nouns or verbal nouns such as qatl, qitāl, and qatlā. The eighth category is the verbal noun taqtīl. The Quranic Arabic Corpus classifies 83 Form I verbs, four Form II verbs, 54 Form III verbs, four Form VIII verbs, 13 qitāl nouns, one qatlā noun, 10 qatl verbal nouns, and one taqtīl verbal noun.</p>
+<p class="verse-ref"><a href="https://corpus.quran.com/qurandictionary.jsp?q=qtl">Quranic Arabic Corpus:170 occurrences in eight categories</a></p>
+<h3 id="topic-63" data-source-block="63">Qatala: killing</h3>
+<p class="" data-source-block="64">In its primary use, the Form I verb concerns ending a living being’s life.</p>
+<p class="" data-source-block="65">Qatala is active perfect; yaqtulu is its imperfect.</p>
+<p class="" data-source-block="66">Qutila is passive and concerns being killed.</p>
+<p class="" data-source-block="67">The verb’s basic meaning is killing, but the agent, object, and circumstances follow from the sentence.</p>
+<h3 id="topic-68" data-source-block="68">Qattala: the doubled form</h3>
+<p class="" data-source-block="69">Qattala is Form II.</p>
+<p class="" data-source-block="70">The Qur’an uses it in contexts emphasizing intense killing or collective slaughter, such as killing the sons of the Children of Israel in <a href="/quran-reflection/en/007-al-araf/#ayah-127">Al-Aʿrāf 7:127</a> and <a href="/quran-reflection/en/007-al-araf/#ayah-141">Al-Aʿrāf 7:141</a>.</p>
+<p class="" data-source-block="71"><a href="/quran-reflection/en/033-al-ahzab/#ayah-061">Al-Aḥzāb 33:61</a> also contains quttilū taqtīlan.</p>
+<p class="" data-source-block="72">The doubled verb with an emphatic verbal noun can emphasize the act’s intensity.</p>
+<p class="" data-source-block="73">Form II alone does not establish a particular number of victims or a fixed number of repetitions.</p>
+<p class="" data-source-block="74">Victim numbers, repetition, and extent require contextual evidence.</p>
+<h3 id="topic-75" data-source-block="75">Qātala: fighting</h3>
+<p class="" data-source-block="76">Qātala is Form III.</p>
+<p class="" data-source-block="77">In familiar Qur’anic usage, it concerns fighting and confrontation in qitāl.</p>
+<p class="" data-source-block="78">Fighting can result in killing, but qātala alone does not establish that a killing occurred.</p>
+<p class="" data-source-block="79"><a href="/quran-reflection/en/002-al-baqarah/#ayah-190">Al-Baqarah 2:190</a> uses it for fighting those who fight the addressees.</p>
+<p class="" data-source-block="80"><a href="/quran-reflection/en/049-al-hujurat/#ayah-009">Al-Ḥujurāt 49:9</a> uses it for confronting the transgressing group.</p>
+<p class="" data-source-block="81">In both, fighting relates to the opposing side’s conduct and the circumstances of confrontation.</p>
+<h3 id="topic-82" data-source-block="82">Iqtatala: becoming engaged in conflict</h3>
+<p class="" data-source-block="83">Iqtatala is Form VIII.</p>
+<p class="" data-source-block="84">Qur’anic uses concern conflict between people or groups, as in <a href="/quran-reflection/en/002-al-baqarah/#ayah-253">Al-Baqarah 2:253</a>, <a href="/quran-reflection/en/028-al-qasas/#ayah-015">Al-Qaṣaṣ 28:15</a>, and <a href="/quran-reflection/en/049-al-hujurat/#ayah-009">Al-Ḥujurāt 49:9</a>.</p>
+<p class="" data-source-block="85">In <a href="/quran-reflection/en/028-al-qasas/#ayah-015">Al-Qaṣaṣ 28:15</a>, two men are fighting, but one man’s killing is expressed later by another verb.</p>
+<p class="" data-source-block="86">Iqtatala and qatala therefore differ in this context.</p>
+<h3 id="topic-87" data-source-block="87">Qatl and qitāl</h3>
+<p class="" data-source-block="88">Qatl is the verbal noun of killing.</p>
+<p class="" data-source-block="89">Qitāl is Form III’s verbal noun and means fighting.</p>
+<p class="" data-source-block="90">This is a real phonetic and morphological distinction in Arabic.</p>
+<p class="" data-source-block="91">Al-qatl in <a href="/quran-reflection/en/002-al-baqarah/#ayah-191">Al-Baqarah 2:191</a> concerns killing; al-qitāl in <a href="/quran-reflection/en/002-al-baqarah/#ayah-217">Al-Baqarah 2:217</a> concerns fighting.</p>
+<p class="" data-source-block="92">Translation must preserve the distinction.</p>
+<h3 id="topic-93" data-source-block="93">Qatlā: those killed</h3>
+<p class="" data-source-block="94">Qatlā is a plural referring to people who have been killed.</p>
+<p class="" data-source-block="95"><a href="/quran-reflection/en/002-al-baqarah/#ayah-178">Al-Baqarah 2:178</a> uses it in discussing qiṣāṣ.</p>
+<p class="" data-source-block="96">The word alone does not determine whether the killing was intentional or accidental, who the killer was, or what response the offense requires.</p>
+<p class="" data-source-block="97">These matters depend on context and other legal evidence.</p>
+<span id="section-4" class="root-anchor-alias"></span>
+<span id="section-5" class="root-anchor-alias"></span>
+<span id="section-14" class="root-anchor-alias"></span>
 </section>
-
-  <section id="section-5" class="root-section"><h2>5. The Material Image of the Root</h2>
-<p>The clearest material image of this root is an act that stops the vital functions of the body and moves the person from the state of living to the state of being dead.</p>
-<p>This stopping can occur through different means:</p>
-<ul><li>a fatal wound;</li><li>cutting off breath;</li><li>severe bleeding;</li><li>poisoning;</li><li>or any other agent that ends life.</li></ul>
-<p>The root Q T L itself is not restricted to one specific method. For this reason, it is broader than <strong>dhabh</strong>, because dhabh points to a specific manner of killing, while qatl can include any kind of causing death.</p>
-<p>The word <strong>maqtal</strong> is also used in Arabic for a point where a blow can be fatal. This image shows that qatl is connected with the ending of life, but no theory of a "network bottleneck" or "shutting down a system" should be built from it.</p>
+<section class="root-section" id="semantic-core"><h2 data-source-block="98">4. The semantic core in early Arabic</h2>
+<p class="" data-source-block="99">Ibn Fāris writes in Maqāyīs al-Lughah:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="100">الْقَافُ وَالتَّاءُ وَاللَّامُ أَصْلٌ صَحِيحٌ يَدُلُّ عَلَى إِذْلَالٍ وَإِمَاتَةٍ.</p></blockquote>
+<p class="quran-translit-line" dir="ltr">al-qāfu wa-al-tāʾu wa-al-lāmu aṣlun ṣaḥīḥun yadullu ʿalā idhlālin wa-imātatin</p>
+<p class="translation" data-source-block="101">Translation: “Qāf, tāʾ, and lām form a sound principle indicating subduing or overpowering, and causing death.”</p>
+<p class="" data-source-block="102">This identifies uses concerning overpowering or eliminating something’s strength or intensity, alongside ending life.</p>
+<p class="" data-source-block="103">It does not make every killing mean merely humiliating.</p>
+<p class="" data-source-block="104">Someone unjustly killed is not thereby morally degraded. The killer may instead be committing injustice.</p>
+<p class="" data-source-block="105">Idhlāl in Ibn Fāris’s definition thus matters for some uses without replacing the clear meaning of killing.</p>
+<p class="verse-ref"><a href="https://www.islamweb.net/amp/ar/library/content/124/3552/باب-القاف-والتاء-وما-يثلثهما">Ibn Fāris: subduing and causing death</a></p>
+<p class="" data-source-block="106">Lisān al-ʿArab also states:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="107">الْقَتْلُ مَعْرُوفٌ، قَتَلَهُ يَقْتُلُهُ قَتْلًا.</p></blockquote>
+<p class="quran-translit-line" dir="ltr">al-qatlu maʿrūfun qatalahu yaqtuluhu qatlan</p>
+<p class="translation" data-source-block="108">Meaning: “Qatl is familiar: he killed him, he kills him, killing.”</p>
+<p class="" data-source-block="109">Other explanations describe causing death through a blow, stone, poison, or another cause.</p>
+<p class="" data-source-block="110">A specific method is therefore not an invariant part of the root’s meaning.</p>
+<p class="" data-source-block="111">Death can occur through a blow, poison, or another means, with qatala still applicable.</p>
+<p class="" data-source-block="112">The root itself also does not specify intent. <a href="/quran-reflection/en/004-an-nisa/#ayah-092">Al-Nisāʾ 4:92</a> and <a href="/quran-reflection/en/004-an-nisa/#ayah-093">Al-Nisāʾ 4:93</a> add qualifications distinguishing accidental from intentional killing.</p>
+<p class="verse-ref"><a href="https://islamweb.net/ar/library/content/122/6468/قتل">Lisān: killing, differing means, and intent</a></p>
+<span id="section-6" class="root-anchor-alias"></span>
 </section>
-
-  <section id="section-6" class="root-section"><h2>6. Use of the Root in Early Arabic</h2>
-<p>In Arabic, <strong>قَتَلَهُ</strong> means he killed him.</p>
-<p><strong>قُتِلَ الرجل</strong> means the man was killed.</p>
-<p><strong>قاتَلَهُ</strong> means he fought him.</p>
-<p><strong>اقتتل القوم</strong> means the group fought among themselves.</p>
-<p>The relevant vocalization and context determine whether the word points to the one killed or the one who performs the act of killing.</p>
-<p>In figurative Arabic uses, qatl may sometimes be used for removing intensity, effect, or ambiguity. But such uses should not dominate a Qur'anic article over the main meaning, because the dominant and direct Qur'anic use of the root concerns killing human beings, being killed, and battle.</p>
-<p>Likewise, with expressions such as <strong>قَتَلَهُ عِلْمًا</strong> or other non-bodily uses, one should avoid making definite historical claims without clear evidence. Such expressions, even if recorded in some linguistic sources, do not determine the basic meaning of Qur'anic verses.</p>
+<section class="root-section" id="early-arabic"><h2 data-source-block="113">5. Figurative uses and pre-Islamic Arabic witnesses</h2>
+<h3 id="topic-114" data-source-block="114">Love that kills in Imruʾ al-Qays’s poetry</h3>
+<p class="" data-source-block="115">The Muʿallaqah attributed to Imruʾ al-Qays states:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="116">أَغَرَّكِ مِنِّي أَنَّ حُبَّكِ قَاتِلِي<br>وَأَنَّكِ مَهْمَا تَأْمُرِي الْقَلْبَ يَفْعَلِ</p></blockquote>
+<p class="quran-translit-line" dir="ltr">a-gharraki minnī anna ḥubbaki qātilī / wa-annaki mahmā taʾmurī al-qalba yafʿali</p>
+<p class="translation" data-source-block="117">Translation: “Has it made you proud that love of you lays me low, and that my heart does whatever you command?”</p>
+<p class="verse-ref"><a href="https://www.mouallakat.com/poems/imru-al-qays/commentary/">Early commentary on Imruʾ al-Qays’s Muʿallaqah: love that kills</a></p>
+<p class="" data-source-block="118">Qātilī here belongs to the language of love.</p>
+<p class="" data-source-block="119">The poet describes love’s intense effect, rather than actual death from a blow or weapon.</p>
+<p class="" data-source-block="120">Love is pictured as powerful enough to lay him low.</p>
+<p class="" data-source-block="121">This attests figurative usage in pre-Islamic Arabic.</p>
+<p class="" data-source-block="122">It does not remove physical killing from every other text.</p>
+<h3 id="topic-123" data-source-block="123">A heart laid low</h3>
+<p class="" data-source-block="124">Another verse in the same Muʿallaqah states:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="125">وَمَا ذَرَفَتْ عَيْنَاكِ إِلَّا لِتَضْرِبِي<br>بِسَهْمَيْكِ فِي أَعْشَارِ قَلْبٍ مُقَتَّلِ</p></blockquote>
+<p class="quran-translit-line" dir="ltr">wa-mā dharafat ʿaynāki illā li-taḍribī / bi-sahmayki fī aʿshāri qalbin muqattali</p>
+<p class="translation" data-source-block="126">Translation: “Your eyes shed tears only so that you might strike, with your two arrows, the parts of a heart laid low.”</p>
+<p class="" data-source-block="127">Muqattal describes a heart under love’s influence in the poet’s image.</p>
+<p class="" data-source-block="128">Early commentaries also explain it as subdued or laid low by love.</p>
+<p class="" data-source-block="129">This is not a heart physically cut apart with weapons. Love, eyes, and the arrows of a glance establish the figurative meaning.</p>
+<p class="" data-source-block="130">The poem’s own texture therefore distinguishes direct from figurative usage.</p>
+<p class="verse-ref"><a href="https://tafsir.app/albaseet/2/54">Al-Basīṭ: muqattal heart and Arabic witnesses</a></p>
+<h3 id="topic-131" data-source-block="131">A trained animal in Zuhayr’s poetry</h3>
+<p class="" data-source-block="132">Zuhayr ibn Abī Sulmā says:</p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="133">كَأَنَّ عَيْنَيَّ فِي غَرْبَيْ مُقَتَّلَةٍ<br>مِنَ النَّوَاضِحِ تَسْقِي جَنَّةً سُحُقًا</p></blockquote>
+<p class="quran-translit-line" dir="ltr">ka-anna ʿaynayya fī gharbay muqattalatin / mina al-nawāḍiḥi tasqī jannatan suḥuqan</p>
+<p class="translation" data-source-block="134">Translation: “As though my two eyes were in the two great buckets of a trained, docile camel, one of the water-drawing camels irrigating a grove of tall palms.”</p>
+<p class="" data-source-block="135">Muqattalah describes a living, experienced camel.</p>
+<p class="" data-source-block="136">It cannot mean that the animal was actually killed: the animal is working within the image.</p>
+<p class="" data-source-block="137">Repeated work has made it trained and accustomed to its task.</p>
+<p class="" data-source-block="138">This shows certain early derivatives extending beyond ending life to overpowering, pressure, or taming. Suḥuqan here concerns tall palms, rather than a distant garden; the two buckets picture the abundance of the poet’s tears.</p>
+<p class="verse-ref"><a href="https://tafsir.app/albaseet/2/54">Al-Basīṭ: two buckets, a trained camel, and tall palms in Zuhayr’s witness</a></p>
+<h3 id="topic-139" data-source-block="139">Reducing a drink’s strength</h3>
+<p class="" data-source-block="140">Arabic records qatala al-sharāba or qatala al-khamra for mixing a drink with water and reducing its potency.</p>
+<p class="" data-source-block="141">No living being is killed here.</p>
+<p class="" data-source-block="142">An intensity is reduced and, figuratively, eliminated.</p>
+<p class="" data-source-block="143">This fits the overpowering-and-subduing branch in Ibn Fāris’s explanation.</p>
+<p class="" data-source-block="144">It does not make killing humans in the Qur’an merely reducing their power or intensity.</p>
+<h3 id="topic-145" data-source-block="145">Thorough knowledge of a subject</h3>
+<p class="" data-source-block="146">Lisān al-ʿArab records qataltu al-shayʾa khubran wa-ʿilman.</p>
+<p class="" data-source-block="147">This concerns knowing a subject thoroughly and comprehensively.</p>
+<p class="" data-source-block="148">Persian too can describe someone as investigating a matter until nothing remains unexplored.</p>
+<p class="" data-source-block="149">The verb extends here from the physical field to mastery and comprehensive knowledge.</p>
+<p class="" data-source-block="150">This matters for <a href="/quran-reflection/en/004-an-nisa/#ayah-157">Al-Nisāʾ 4:157</a>, but should not be transferred without evidence to every qatala.</p>
+<p class="verse-ref"><a href="https://islamweb.net/ar/library/content/122/6468/قتل">Lisān: diluted drink and comprehensive knowledge</a></p>
+<h3 id="topic-151" data-source-block="151">Findings from the early witnesses</h3>
+<p class="" data-source-block="152">Imruʾ al-Qays and Zuhayr indicate that, before the Qur’an, Q T L was familiar both for actual killing and for figurative love, being overcome, and taming.</p>
+<p class="" data-source-block="153">Figurative usage nevertheless requires contextual indications.</p>
+<p class="" data-source-block="154">In “her love killed me,” the setting clarifies the metaphor.</p>
+<p class="" data-source-block="155">In an account of someone killed in battle, a child’s killing, or death from a blow, actual killing takes precedence unless clear evidence indicates otherwise.</p>
+<span id="section-9" class="root-anchor-alias"></span>
 </section>
-
-  <section id="section-7" class="root-section"><h2>7. Semantic Restrictions and Misuses</h2>
-<p>One of the most important misuses is translating <strong>قاتِلُوا</strong> as "kill." <strong>Qatilu</strong> is from Form III and means fight, while:</p>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>اقْتُلُوا</p></blockquote>
-<p>means kill.</p>
-<p>Confusing these two can turn a verse about battle into a command for one-sided killing.</p>
-<p>Another misuse is separating phrases such as:</p>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَاقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ</p></blockquote>
-<p>from the context before and after them. Al-Baqarah 2:190 and the verses that follow speak about those who have entered war, driven Muslims out of their homes, and begun aggression. The opening of this passage says:</p>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَقَاتِلُوا فِي سَبِيلِ اللَّهِ الَّذِينَ يُقَاتِلُونَكُمْ وَلَا تَعْتَدُوا</p></blockquote>
-<p>So the command to kill in this context cannot be generalized to every person of another belief or every non-Muslim.</p>
-<p>The opposite error is to erase completely the possibility of defensive fighting from the Qur'an. The Qur'an recognizes qital under specific conditions, but it joins it with the prohibition of aggression, stopping when the enemy stops, and observing limits.</p>
+<section class="root-section" id="human-killing"><h2 data-source-block="156">6. Human killing, accidental killing, and intentional killing</h2>
+<h3 id="topic-157" data-source-block="157">Killing in the account of Adam’s two sons</h3>
+<p class="" data-source-block="158"><strong><a href="/quran-reflection/en/005-al-maidah/#ayah-030">Al-Māʾidah 5:30</a></strong></p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="159">فَطَوَّعَتْ لَهُ نَفْسُهُ قَتْلَ أَخِيهِ فَقَتَلَهُ فَأَصْبَحَ مِنَ الْخَاسِرِينَ</p></blockquote>
+<p class="quran-translit-line" dir="ltr">fa-ṭawwaʿat lahu nafsuhu qatla akhīhi fa-qatalahu fa-aṣbaḥa mina al-khāsirīna</p>
+<p class="translation" data-source-block="160">Proposed translation based on this study: “Then his own self made killing his brother easy for him; so he killed him and became one of the losers.”</p>
+<p class="" data-source-block="161">The verbal noun qatl and the verb fa-qatalahu appear together.</p>
+<p class="" data-source-block="162">Killing first appears in relation to the person’s decision, then its occurrence is stated.</p>
+<p class="" data-source-block="163">Nothing indicates a mere difference of opinion or defeat in debate.</p>
+<p class="" data-source-block="164">The subject is ending the brother’s life.</p>
+<h3 id="topic-165" data-source-block="165">Accidental killing</h3>
+<p class="" data-source-block="166"><a href="/quran-reflection/en/004-an-nisa/#ayah-092">Al-Nisāʾ 4:92</a> discusses a believer killed by mistake and specifies responsibilities and reparations.</p>
+<p class="" data-source-block="167">Khaṭaʾan is a decisive qualification.</p>
+<p class="" data-source-block="168">A killing occurred without an intention to kill.</p>
+<p class="" data-source-block="169">Accidental killing does not mean an absence of death: the distinction concerns intent and circumstances.</p>
+<h3 id="topic-170" data-source-block="170">Intentional killing</h3>
+<p class="" data-source-block="171"><strong><a href="/quran-reflection/en/004-an-nisa/#ayah-093">Al-Nisāʾ 4:93</a></strong></p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="172">وَمَن يَقْتُلْ مُؤْمِنًا مُّتَعَمِّدًا فَجَزَاؤُهُ جَهَنَّمُ خَالِدًا فِيهَا وَغَضِبَ اللَّهُ عَلَيْهِ وَلَعَنَهُ وَأَعَدَّ لَهُ عَذَابًا عَظِيمًا</p></blockquote>
+<p class="quran-translit-line" dir="ltr">wa-man yaqtul muʾminan mutaʿammidan fa-jazāʾuhu jahannamu khālidan fīhā wa-ghaḍiba Allāhu ʿalayhi wa-laʿanahu wa-aʿadda lahu ʿadhāban ʿaẓīman</p>
+<p class="translation" data-source-block="173">Proposed translation based on this study: “Whoever intentionally kills a believer, his recompense is Hell, remaining therein; The God is angry with him, curses him, and has prepared a great punishment for him.”</p>
+<p class="" data-source-block="174">Mutaʿammidan states that the killing is intentional.</p>
+<p class="" data-source-block="175">This qualification identifies the type of killing. Yaqtul alone cannot determine the agent’s intention; the presence of a qualification does not, however, invariably rule out emphasis or clarification of a meaning already present.</p>
+<p class="" data-source-block="176">Comparing <a href="/quran-reflection/en/004-an-nisa/#ayah-092">Al-Nisāʾ 4:92</a> with <a href="/quran-reflection/en/004-an-nisa/#ayah-093">Al-Nisāʾ 4:93</a> distinguishes the event of killing from the agent’s intent.</p>
+<p class="" data-source-block="177">This is fundamental to legal assessment.</p>
+<h3 id="topic-178" data-source-block="178">Killing children</h3>
+<p class="" data-source-block="179">The Qur’an discusses or prohibits killing children in <a href="/quran-reflection/en/006-al-anam/#ayah-140">Al-Anʿām 6:140</a>, <a href="/quran-reflection/en/006-al-anam/#ayah-151">Al-Anʿām 6:151</a>, <a href="/quran-reflection/en/017-al-isra/#ayah-031">Al-Isrāʾ 17:31</a>, and <a href="/quran-reflection/en/060-al-mumtahanah/#ayah-012">Al-Mumtaḥanah 60:12</a>.</p>
+<p class="" data-source-block="180">Some of these verses mention fear of poverty as a motive.</p>
+<p class="" data-source-block="181">Motive is not part of qatl’s lexical meaning.</p>
+<p class="" data-source-block="182">Qatl ends life; fear of poverty and other motives concern its circumstances.</p>
+<p class="" data-source-block="183">Killing should therefore not be restricted to one particular method or motive.</p>
 </section>
-
-  <section id="section-8" class="root-section"><h2>8. Methodological Note: Qatl, Qital, and Iqtital</h2>
-<h3>Qatl</h3><p>Qatl is a one-sided act that causes the death of another:</p><blockquote class="arabic-quote" dir="rtl" lang="ar"><p>قَتَلَ نَفْسًا</p></blockquote>
-<h3>Qital</h3><p>Qital is entering war and confrontation:</p><blockquote class="arabic-quote" dir="rtl" lang="ar"><p>قَاتِلُوا الَّذِينَ يُقَاتِلُونَكُمْ</p></blockquote>
-<p>Form III often highlights participation and confrontation, but one should not conclude from it that in every use both sides are equal ethically, in power, or in initiating the conflict.</p>
-<p>One side may have initiated aggression and the other may enter qital in defense.</p>
-<h3>Iqtital</h3><p>Iqtital is mutual conflict between two or more groups:</p><blockquote class="arabic-quote" dir="rtl" lang="ar"><p>اقْتَتَلُوا</p></blockquote>
-<p>In this structure, the sides have become engaged with one another, but the verb itself does not say whether anyone was actually killed.</p>
-<p>Therefore:</p><p><strong>Qatl:</strong> killing; <strong>qital:</strong> fighting; <strong>iqtital:</strong> becoming mutually engaged in fighting.</p>
+<section class="root-section" id="life-and-qisas"><h2 data-source-block="184">7. The inviolability of life, qiṣāṣ, and individual responsibility</h2>
+<h3 id="topic-185" data-source-block="185"><a href="/quran-reflection/en/005-al-maidah/#ayah-032">Al-Māʾidah 5:32</a>: the importance of human life</h3>
+<p class="" data-source-block="186"><a href="/quran-reflection/en/005-al-maidah/#ayah-032">Al-Māʾidah 5:32</a>, in a ruling prescribed for the Children of Israel, compares unjustly killing one person with killing all people.</p>
+<p class="" data-source-block="187">This does not state an actual victim count.</p>
+<p class="" data-source-block="188">Someone who killed one person has physically killed one human being, but the Qur’an places the act in a wider relationship to express the gravity of violating life.</p>
+<p class="" data-source-block="189">The verse also contains bi-ghayri nafsin aw fasādin fī al-arḍ.</p>
+<p class="" data-source-block="190">That qualification should remain part of the analysis.</p>
+<p class="" data-source-block="191">Its presence does not allow any individual or group to accuse someone of corruption and take their life without establishing an offense.</p>
+<p class="" data-source-block="192">Right, establishing an offense, and responsibility require independent examination.</p>
+<h3 id="topic-193" data-source-block="193">Al-qatlā in <a href="/quran-reflection/en/002-al-baqarah/#ayah-178">Al-Baqarah 2:178</a></h3>
+<p class="" data-source-block="194"><strong><a href="/quran-reflection/en/002-al-baqarah/#ayah-178">Al-Baqarah 2:178</a></strong></p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="195">يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الْقِصَاصُ فِي الْقَتْلَى ۖ الْحُرُّ بِالْحُرِّ وَالْعَبْدُ بِالْعَبْدِ وَالْأُنْثَىٰ بِالْأُنْثَىٰ ۚ فَمَنْ عُفِيَ لَهُ مِنْ أَخِيهِ شَيْءٌ فَاتِّبَاعٌ بِالْمَعْرُوفِ وَأَدَاءٌ إِلَيْهِ بِإِحْسَانٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِنْ رَبِّكُمْ وَرَحْمَةٌ ۗ فَمَنِ اعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُ عَذَابٌ أَلِيمٌ</p></blockquote>
+<p class="quran-translit-line" dir="ltr">yā ayyuhā alladhīna āmanū kutiba ʿalaykumu al-qiṣāṣu fī al-qatlā al-ḥurru bi-al-ḥurri wa-al-ʿabdu bi-al-ʿabdi wa-al-unthā bi-al-unthā fa-man ʿufiya lahu min akhīhi shayʾun fa-ittibāʿun bi-al-maʿrūfi wa-adāʾun ilayhi bi-iḥsānin dhālika takhfīfun min rabbikum wa-raḥmatun fa-mani iʿtadā baʿda dhālika fa-lahu ʿadhābun alīmun</p>
+<p class="translation" data-source-block="196">Existing Persian Forqan translation, rendered here in English: “O you who have believed, qiṣāṣ concerning those killed has been prescribed for you: the free for the free, the enslaved for the enslaved, and the female for the female. Whoever has something remitted to him by his brother, pursuit should be according to what is right and payment to him with kindness. This is a lightening from your Lord and a mercy. Whoever then transgresses will have a painful punishment.”</p>
+<p class="" data-source-block="197">Al-qatlā refers to those killed.</p>
+<p class="" data-source-block="198">Al-qiṣāṣ belongs to a different root and should not be equated with qatl.</p>
+<p class="" data-source-block="199">In legal usage, qiṣāṣ concerns pursuing an offense, establishing responsibility, and responding proportionately. In its familiar legal sense, it also denotes commensurate retaliation for an injury; it should not be reduced merely to any investigation or pursuit. The verse itself mentions pardon and payment alongside qiṣāṣ.</p>
+<p class="" data-source-block="200">Al-qiṣāṣu fī al-qatlā should therefore not be reduced without examination to a command for reciprocal killing in every circumstance.</p>
+<p class="" data-source-block="201">Conversely, al-qatlā means those killed, rather than merely injured people or participants in a conflict.</p>
+<p class="" data-source-block="202">This distinction matters for justice.</p>
+<p class="" data-source-block="203">After a killing, it is necessary to establish who died, who acted, whether the killing was intentional or accidental, and each person’s degree of responsibility.</p>
+<p class="" data-source-block="204">Qatl itself does not answer all these questions.</p>
+<p class="" data-source-block="205"><a href="/quran-reflection/en/017-al-isra/#ayah-033">Al-Isrāʾ 17:33</a> also prohibits excess in killing.</p>
+<p class="" data-source-block="206">Even where the victim’s and survivors’ rights are at issue, the Qur’an does not permit unlimited revenge.</p>
+<p class="" data-source-block="207">Forqan examines this in detail in “Qiṣāṣ and Forgiveness in the Qur’an: Justice, Individual Responsibility, and the Path to Pardon.”</p>
+<p class="verse-ref"><a href="/en/quran-terminology/qisas-and-forgiveness-in-the-quran/">Study: Qiṣāṣ and Forgiveness in the Qur’an</a></p>
 </section>
-
-  <section id="section-9" class="root-section"><h2>9. Qur'anic Uses of the Root</h2>
-<h3>a. The Prohibition of Killing a Soul Without Right</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَلَا تَقْتُلُوا النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلَّا بِالْحَقِّ</p></blockquote>
-<p class="translation">And do not kill the soul that The God has made inviolable, except by right.</p><p class="verse-ref"><a href="/quran-reflection/en/017-al-isra/#ayah-033">Al-Isra 17:33</a></p>
-<p>The principle of the verse is the inviolability of life.</p>
-<p>The phrase <strong>except by right</strong> is a limited and responsibility-bearing exception, not an open license that every individual or group can execute on the basis of personal judgment.</p>
-<p>The concept of "right" itself must be understood through the collection of verses about justice, qisas, prohibition of aggression, and legal responsibility.</p>
-<h3>b. Killing One Human Being and the Inviolability of All Human Life</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>مَنْ قَتَلَ نَفْسًا بِغَيْرِ نَفْسٍ أَوْ فَسَادٍ فِي الْأَرْضِ فَكَأَنَّمَا قَتَلَ النَّاسَ جَمِيعًا وَمَنْ أَحْيَاهَا فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعًا</p></blockquote>
-<p class="translation">Whoever kills a soul without it being for a soul or for corruption in the earth, it is as though he killed all people; and whoever gives it life, it is as though he gave life to all people.</p><p class="verse-ref"><a href="/quran-reflection/en/005-al-maidah/#ayah-032">Al-Maidah 5:32</a></p>
-<p>The verse presents the unlawful killing of one human being as an assault on the principle of the inviolability of life.</p>
-<p>This comparison does not need to become a theory about nodes in a network. When the inviolability of one human life is broken, the very principle on which the security of all human life rests has been violated.</p>
-<h3>c. Qisas Concerning Those Killed</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الْقِصَاصُ فِي الْقَتْلَىٰ</p></blockquote>
-<p class="translation">O you who have faith, qisas has been prescribed for you concerning those killed.</p><p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-178">Al-Baqarah 2:178</a></p>
-<p><strong>Al-qatla</strong> is the plural of qatil and means those who were killed.</p>
-<p>The verse places qisas within the framework of justice and the prevention of unlimited blood vengeance. The continuation of the same verse also leaves open the possibility of pardon and payment in a proper manner.</p>
-<p>So qisas does not mean an absolute obligation of revenge; it is one path of justice in which pardon can also have a role.</p>
-<h3>d. Life in Qisas</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَلَكُمْ فِي الْقِصَاصِ حَيَاةٌ يَا أُولِي الْأَلْبَابِ لَعَلَّكُمْ تَتَّقُونَ</p></blockquote>
-<p class="translation">And for you there is life in qisas, O possessors of understanding, so that you may have taqwa.</p><p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-179">Al-Baqarah 2:179</a></p>
-<p>Qisas here is a tool for protecting life, not a praise of killing.</p>
-<p>The aim is to restrain murder, prevent chains of vengeance, and protect society from the spread of bloodshed.</p>
-<h3>e. Accidental Killing</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَمَا كَانَ لِمُؤْمِنٍ أَنْ يَقْتُلَ مُؤْمِنًا إِلَّا خَطَأً</p></blockquote>
-<p class="translation">It is not for a believer to kill a believer, except by mistake.</p><p class="verse-ref"><a href="/quran-reflection/en/004-an-nisa/#ayah-092">An-Nisa 4:92</a></p>
-<p>This verse shows that killing is not always intentional.</p>
-<p>A person can cause the death of another without intending to kill. Nevertheless, absence of intent does not remove all responsibility; the verse assigns compensation and responsibility for accidental killing.</p>
-<p>So the core of qatl is <strong>causing death</strong>, not necessarily conscious intent to kill.</p>
-<h3>f. Intentional Killing of a Believer</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَمَنْ يَقْتُلْ مُؤْمِنًا مُتَعَمِّدًا فَجَزَاؤُهُ جَهَنَّمُ</p></blockquote>
-<p class="translation">And whoever kills a believer intentionally, his recompense is Hell.</p><p class="verse-ref"><a href="/quran-reflection/en/004-an-nisa/#ayah-093">An-Nisa 4:93</a></p>
-<p>The qualifier <strong>intentionally</strong> specifies conscious intent.</p>
-<p>This qualifier proves that the verb qatl alone does not distinguish between intent and mistake; the type of responsibility must be understood from the context and qualifiers of the sentence.</p>
-<h3>g. Killing Children Because of Poverty</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَلَا تَقْتُلُوا أَوْلَادَكُمْ مِنْ إِمْلَاقٍ نَحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ</p></blockquote>
-<p class="translation">And do not kill your children because of poverty; We provide for you and for them.</p><p class="verse-ref"><a href="/quran-reflection/en/006-al-anam/#ayah-151">Al-Anam 6:151</a></p>
-<p>Here killing has no connection with the battlefield. The subject is killing children because of existing poverty.</p>
-<p>In another verse it says:</p>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَلَا تَقْتُلُوا أَوْلَادَكُمْ خَشْيَةَ إِمْلَاقٍ نَحْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ</p></blockquote>
-<p class="translation">And do not kill your children out of fear of poverty; We provide for them and for you.</p><p class="verse-ref"><a href="/quran-reflection/en/017-al-isra/#ayah-031">Al-Isra 17:31</a></p>
-<p>One verse speaks of present poverty and the other of fear of future poverty. In both, the life of the child is sacrificed to human pressure and economic calculation.</p>
-<h3>h. The Girl Buried Alive</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَإِذَا الْمَوْءُودَةُ سُئِلَتْ<br>بِأَيِّ ذَنْبٍ قُتِلَتْ</p></blockquote>
-<p class="translation">And when the girl buried alive is asked for what sin she was killed.</p><p class="verse-ref"><a href="/quran-reflection/en/081-at-takwir/#ayah-008">At-Takwir 81:8-9</a></p>
-<p>The victim is questioned not because she is accountable for a crime, but to reveal her innocence and condemn the crime of the killer.</p>
-<p>The resurrection context of the verse shows final justice. This meaning does not need terms such as "hardware audit of the body."</p>
-<h3>i. Killing the Prophets</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَلِمَ تَقْتُلُونَ أَنْبِيَاءَ اللَّهِ مِنْ قَبْلُ إِنْ كُنْتُمْ مُؤْمِنِينَ</p></blockquote>
-<p class="translation">Then why did you kill the prophets of The God before, if you were believers?</p><p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-091">Al-Baqarah 2:91</a></p>
-<p>Killing the prophets in the Qur'an is a sign of contradiction between the claim of faith and actual behavior.</p>
-<p>People may take pride in their religious identity, yet rise in enmity against messengers of justice and truth.</p>
-<h3>j. "Died or Was Killed"</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ خَلَتْ مِنْ قَبْلِهِ الرُّسُلُ أَفَإِنْ مَاتَ أَوْ قُتِلَ انْقَلَبْتُمْ عَلَىٰ أَعْقَابِكُمْ</p></blockquote>
-<p class="translation">Muhammad is only a messenger; messengers passed before him. So if he dies or is killed, will you turn back on your heels?</p><p class="verse-ref"><a href="/quran-reflection/en/003-ali-imran/#ayah-144">Ali 'Imran 3:144</a></p>
-<p>This verse is one of the clearest witnesses for the difference between mawt and qatl.</p>
-<p><strong>Mata</strong> expresses dying itself. <strong>Qutila</strong> expresses death that occurs through another agent or act.</p>
-<p>But mawt should not be understood only as gradual natural wearing down. A person can die suddenly because of illness and mawt remains correct about him.</p>
-<h3>k. Qital Restricted by Response and Prohibition of Aggression</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَقَاتِلُوا فِي سَبِيلِ اللَّهِ الَّذِينَ يُقَاتِلُونَكُمْ وَلَا تَعْتَدُوا إِنَّ اللَّهَ لَا يُحِبُّ الْمُعْتَدِينَ</p></blockquote>
-<p class="translation">And fight in the way of The God those who fight you, and do not transgress; indeed, The God does not love transgressors.</p><p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-190">Al-Baqarah 2:190</a></p>
-<p>This verse joins qital with two clear restrictions: the other side is fighting, and aggression is forbidden.</p>
-<p>So Qur'anic qital in this context is not a command for unlimited war against all others.</p>
-<h3>l. "Kill Them Wherever You Find Them" in Its Full Context</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَاقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ وَأَخْرِجُوهُمْ مِنْ حَيْثُ أَخْرَجُوكُمْ</p></blockquote>
-<p class="translation">And kill them wherever you find them in this conflict, and expel them from where they expelled you.</p><p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-191">Al-Baqarah 2:191</a></p>
-<p>This sentence must be read as a continuation of the previous verse and the rest of the same verse.</p>
-<p>The subject is groups who fight the believers, expelled them from their place of living, and are in a state of battle.</p>
-<p>The continuation of the verse also says not to fight them at the Sacred Mosque unless they fight you there. So the verse is not a license to kill people freely on the basis of religious identity; it is part of an instruction for battle in the context of aggression, expulsion, and reciprocal fighting.</p>
-<h3>m. Stopping Qital When the Enemy Stops</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَإِنِ انْتَهَوْا فَإِنَّ اللَّهَ غَفُورٌ رَحِيمٌ</p></blockquote>
-<p class="translation">Then if they stop, then The God is Forgiving, Merciful.</p><p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-192">Al-Baqarah 2:192</a></p>
-<p>Qital is not an independent and endless goal. When aggression stops, the ground for continuing war also disappears.</p>
-<h3>n. Conflict Between Two Believing Groups</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>وَإِنْ طَائِفَتَانِ مِنَ الْمُؤْمِنِينَ اقْتَتَلُوا فَأَصْلِحُوا بَيْنَهُمَا</p></blockquote>
-<p class="translation">And if two groups of believers fight one another, then make peace between them.</p><p class="verse-ref"><a href="/quran-reflection/en/049-al-hujurat/#ayah-009">Al-Hujurat 49:9</a></p>
-<p><strong>Iqtatalu</strong> points to mutual conflict.</p>
-<p>The first command of the Qur'an before such a dispute is reconciliation. If one side transgresses against the other, the community must oppose the transgressing side until it returns to the command of The God; then justice and reconciliation are established.</p>
-<h3>o. "You Did Not Kill Them"</h3>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>فَلَمْ تَقْتُلُوهُمْ وَلَٰكِنَّ اللَّهَ قَتَلَهُمْ وَمَا رَمَيْتَ إِذْ رَمَيْتَ وَلَٰكِنَّ اللَّهَ رَمَىٰ</p></blockquote>
-<p class="translation">You did not kill them, but The God killed them; and you did not throw when you threw, but The God threw.</p><p class="verse-ref"><a href="/quran-reflection/en/008-al-anfal/#ayah-017">Al-Anfal 8:17</a></p>
-<p>This verse does not deny the human role; the phrase <strong>when you threw</strong> itself attributes the act of throwing to the Prophet.</p>
-<p>But it does not regard the final result and victory as independent of divine will and aid.</p>
-<p>Attributing killing to The God should not be translated into a bodily quality or direct physical presence of Him in the field. The verse speaks of His authority, aid, and decisive role in the result.</p>
+<section class="root-section" id="fighting-and-oppression"><h2 data-source-block="208">8. Qitāl, struggle, and confronting oppression</h2>
+<h3 id="topic-209" data-source-block="209">Fighting in the way of The God</h3>
+<p class="" data-source-block="210">Many verses accompany qitāl with fī sabīli Allāh.</p>
+<p class="" data-source-block="211">Adding this phrase does not change qātala’s lexical meaning.</p>
+<p class="" data-source-block="212">In a military setting, qātala still means fighting; fī sabīli Allāh specifies the action’s direction and relationship.</p>
+<p class="" data-source-block="213">Assessing its legitimacy requires the aim, addressees, circumstances, and limits of conduct.</p>
+<p class="" data-source-block="214">No individual or government can justify every form of violence merely by calling its war “the way of The God,” without Qur’anic evidence.</p>
+<h3 id="topic-215" data-source-block="215">Supporting the oppressed</h3>
+<p class="" data-source-block="216"><a href="/quran-reflection/en/004-an-nisa/#ayah-075">Al-Nisāʾ 4:75</a> connects fighting with supporting men, women, and children trapped in an oppressive setting who seek rescue and help.</p>
+<p class="" data-source-block="217">Fighting can thus be presented as removing oppression and protecting people under pressure.</p>
+<p class="" data-source-block="218">The root itself does not mean supporting the oppressed.</p>
+<p class="" data-source-block="219">Supporting them is the purpose identified for fighting in that verse.</p>
+<h3 id="topic-220" data-source-block="220">Fighting and reconciliation between two groups</h3>
+<p class="" data-source-block="221"><strong><a href="/quran-reflection/en/049-al-hujurat/#ayah-009">Al-Ḥujurāt 49:9</a></strong></p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="222">وَإِنْ طَائِفَتَانِ مِنَ الْمُؤْمِنِينَ اقْتَتَلُوا فَأَصْلِحُوا بَيْنَهُمَا ۖ فَإِنْ بَغَتْ إِحْدَاهُمَا عَلَى الْأُخْرَىٰ فَقَاتِلُوا الَّتِي تَبْغِي حَتَّىٰ تَفِيءَ إِلَىٰ أَمْرِ اللَّهِ ۚ فَإِنْ فَاءَتْ فَأَصْلِحُوا بَيْنَهُمَا بِالْعَدْلِ وَأَقْسِطُوا ۖ إِنَّ اللَّهَ يُحِبُّ الْمُقْسِطِينَ</p></blockquote>
+<p class="quran-translit-line" dir="ltr">wa-in ṭāʾifatāni mina al-muʾminīna iqtatalū fa-aṣliḥū baynahumā fa-in baghat iḥdāhumā ʿalā al-ukhrā fa-qātilū allatī tabghī ḥattā tafīʾa ilā amri Allāhi fa-in fāʾat fa-aṣliḥū baynahumā bi-al-ʿadli wa-aqsiṭū inna Allāha yuḥibbu al-muqsiṭīna</p>
+<p class="translation" data-source-block="223">Proposed translation based on this study: “If two groups of believers fight one another, reconcile them. If one transgresses against the other, fight the transgressing group until it returns to the command of The God. If it returns, reconcile them justly and act equitably; indeed, The God loves the equitable.”</p>
+<p class="" data-source-block="224">The verse uses iqtatalū and fa-qātilū.</p>
+<p class="" data-source-block="225">First it describes two groups fighting and commands reconciliation.</p>
+<p class="" data-source-block="226">If one group transgresses against the other, confrontation with the transgressor is commanded.</p>
+<p class="" data-source-block="227">The objective is a return from transgression, rather than annihilating every group member.</p>
+<p class="" data-source-block="228">After cessation, just reconciliation is commanded again.</p>
+<p class="" data-source-block="229">This clearly illustrates fighting as a means of confronting aggression in a particular situation, giving way to reconciliation when aggression ends.</p>
+<span id="section-16" class="root-anchor-alias"></span>
+<h3 id="topic-230" data-source-block="230">Is qitāl always direct self-defense?</h3>
+<p class="" data-source-block="231"><a href="/quran-reflection/en/002-al-baqarah/#ayah-190">Al-Baqarah 2:190</a> connects fighting those who fight the addressees with a prohibition of transgression.</p>
+<p class="" data-source-block="232"><a href="/quran-reflection/en/004-an-nisa/#ayah-075">Al-Nisāʾ 4:75</a> concerns helping the oppressed.</p>
+<p class="" data-source-block="233"><a href="/quran-reflection/en/049-al-hujurat/#ayah-009">Al-Ḥujurāt 49:9</a> concerns confronting a transgressing group to restore justice.</p>
+<p class="" data-source-block="234">These settings differ.</p>
+<p class="" data-source-block="235"><a href="/quran-reflection/en/009-at-tawbah/#ayah-029">Al-Tawbah 9:29</a> also mentions fighting a group of the People of the Book until payment of jizyah. That verse has its own construction and subject: all the conditions of <a href="/quran-reflection/en/002-al-baqarah/#ayah-190">Al-Baqarah 2:190</a> cannot be attributed to its wording without examining it.</p>
+<p class="" data-source-block="236">Conversely, it cannot establish permission to fight every person with different beliefs regardless of conduct or circumstances.</p>
+<p class="" data-source-block="237">Qitāl’s meaning is clear, while its conditions and limits require all relevant verses.</p>
+<h3 id="topic-238" data-source-block="238">Fighting and freedom of faith</h3>
+<p class="" data-source-block="239"><a href="/quran-reflection/en/002-al-baqarah/#ayah-256">Al-Baqarah 2:256</a> states the principle of no compulsion in religion.</p>
+<p class="" data-source-block="240"><a href="/quran-reflection/en/060-al-mumtahanah/#ayah-008">Al-Mumtaḥanah 60:8</a> and <a href="/quran-reflection/en/060-al-mumtahanah/#ayah-009">Al-Mumtaḥanah 60:9</a> distinguish those who fought because of religion and expelled people from their homes from those who did not.</p>
+<p class="" data-source-block="241">Religious disagreement and a state of war therefore differ.</p>
+<p class="" data-source-block="242">Someone may oppose another’s belief, but disagreement alone is not the same Qur’anic situation as aggression, expulsion, and warfare.</p>
+<p class="" data-source-block="243">Qitāl should therefore not become an instrument for imposing faith upon human conscience.</p>
+<p class="" data-source-block="244">Forqan examines this separately in “There Is No Compulsion in Religion; the Messenger’s Duty Is Delivery.”</p>
+<p class="verse-ref"><a href="/en/quran-terminology/no-compulsion-and-delivery/">Study: No Compulsion and the Duty of Delivery</a></p>
 </section>
-
-  <section id="section-10" class="root-section"><h2>10. Important Derivatives in the Qur'an</h2>
-<h3>قَتَلَ</h3><p>He caused the death of another. This verb may be intentional or accidental, and its type is understood from qualification and context.</p>
-<h3>قُتِلَ</h3><p>He was killed. The focus is on the event of death and the one killed, not necessarily on the agent.</p>
-<h3>قَتَّلَ</h3><p>Intense, widespread, or repeated killing. The precise meaning of intensity and multiplicity is taken from context.</p>
-<h3>قاتَلَ</h3><p>He fought. Form III highlights confrontation, but does not say that both sides were equal in right, power, or initiation.</p>
-<h3>قِتال</h3><p>Battle and war.</p>
-<h3>اقتَتَلَ</h3><p>They became engaged with one another.</p>
-<h3>قاتِل</h3><p>Killer and performer of the act of killing.</p>
-<h3>مُقاتِل</h3><p>Participant in battle.</p>
-<h3>قَتْلَىٰ</h3><p>Those killed.</p>
-<h3>قَتِيل</h3><p>One killed.</p>
+<section class="root-section" id="treaties-and-peace"><h2 data-source-block="245">9. Fighting, treaties, and ending warfare</h2>
+<h3 id="topic-246" data-source-block="246"><a href="/quran-reflection/en/009-at-tawbah/#ayah-005">Al-Tawbah 9:5</a> and its treaty context</h3>
+<p class="" data-source-block="247"><a href="/quran-reflection/en/009-at-tawbah/#ayah-005">Al-Tawbah 9:5</a> uses fa-uqtulū.</p>
+<p class="" data-source-block="248">Its direct meaning is killing.</p>
+<p class="" data-source-block="249">The opening verses concern treaties, the declaration of disassociation, and relations with different groups of polytheists.</p>
+<p class="" data-source-block="250"><a href="/quran-reflection/en/009-at-tawbah/#ayah-004">Al-Tawbah 9:4</a> exempts those faithful to their treaties from the preceding situation.</p>
+<p class="" data-source-block="251"><a href="/quran-reflection/en/009-at-tawbah/#ayah-006">Al-Tawbah 9:6</a> commands giving protection to a polytheist who seeks it and conveying him to safety.</p>
+<p class="" data-source-block="252"><a href="/quran-reflection/en/009-at-tawbah/#ayah-012">Al-Tawbah 9:12</a> and <a href="/quran-reflection/en/009-at-tawbah/#ayah-013">Al-Tawbah 9:13</a> also concern broken treaties and initiating hostility.</p>
+<p class="" data-source-block="253">Fa-uqtulū therefore cannot be detached from this context and made a universal command to kill every polytheist in every era.</p>
+<p class="" data-source-block="254">Rejecting that generalization does not require changing killing into conversation or intellectual struggle.</p>
+<p class="" data-source-block="255">The verb’s meaning remains, while the verses’ conditions determine its scope.</p>
+<h3 id="topic-256" data-source-block="256">Fighting and an offer of peace</h3>
+<p class="" data-source-block="257"><a href="/quran-reflection/en/008-al-anfal/#ayah-061">Al-Anfāl 8:61</a> discusses the other side’s inclination to peace and commands the addressee to incline to it too.</p>
+<p class="" data-source-block="258">Withdrawal from fighting and an offer of peace also matter for conduct toward the opposing group in <a href="/quran-reflection/en/004-an-nisa/#ayah-090">Al-Nisāʾ 4:90</a>.</p>
+<p class="" data-source-block="259"><a href="/quran-reflection/en/004-an-nisa/#ayah-091">Al-Nisāʾ 4:91</a> presents different circumstances: a group refusing withdrawal, peace, and restraint of its hands.</p>
+<p class="" data-source-block="260">These differences show the opposing side’s situation matters for continuing conflict.</p>
+<p class="" data-source-block="261">A command of killing or fighting therefore cannot be generalized to every circumstance without examining cessation of hostility, peace, and treaties.</p>
+<h3 id="topic-262" data-source-block="262">Fa-in intahaw and the end of hostility</h3>
+<p class="" data-source-block="263"><a href="/quran-reflection/en/002-al-baqarah/#ayah-192">Al-Baqarah 2:192</a> and <a href="/quran-reflection/en/002-al-baqarah/#ayah-193">Al-Baqarah 2:193</a> concern ending the conduct at issue.</p>
+<p class="" data-source-block="264">In verse 193, fa-in intahaw is followed by no aggression except against wrongdoers.</p>
+<p class="" data-source-block="265">Fighting thus has an endpoint in this context.</p>
+<p class="" data-source-block="266">Fighting until fitnah ends differs from killing every opponent.</p>
+<p class="" data-source-block="267">Ending fighting does not erase every responsibility arising from injustice and crime. Justice and accountability may remain at issue.</p>
+<p class="" data-source-block="268">Ending warfare and addressing violated rights are therefore distinct matters too.</p>
 </section>
-
-  <section id="section-11" class="root-section"><h2>11. Grammatical and Structural Notes</h2>
-<h3>قَتَلَ takes an object</h3><p>In <strong class="arabic-large">قَتَلَ نَفْسًا</strong>, nafs is the object of the verb and the one whose life has ended.</p>
-<h3>قُتِلَ is passive</h3><p>In <strong class="arabic-large">بِأَيِّ ذَنْبٍ قُتِلَتْ</strong>, the agent is not mentioned and attention is placed on the innocence of the victim and the event of her being killed.</p>
-<h3>قاتَلَ comes with an object or in a mutual structure</h3><p>In <strong class="arabic-large">يُقَاتِلُونَكُمْ</strong>, the other side fights you.</p><p>The Form III structure shows confrontation, but does not necessarily prove moral equality between the sides.</p>
-<h3>بِغَيْرِ حَقٍّ</h3><p>This structure expresses the absence of right: <strong class="arabic-large">يَقْتُلُونَ النَّبِيِّينَ بِغَيْرِ حَقٍّ</strong>.</p>
-<h3>إِلَّا بِالْحَقِّ</h3><p>It is a limited exception from the principle of the inviolability of life: <strong class="arabic-large">وَلَا تَقْتُلُوا النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلَّا بِالْحَقِّ</strong>.</p>
-<h3>فِي سَبِيلِ اللَّهِ</h3><p>In verses of qital, it specifies the claimed direction and aim of battle. But merely claiming "in the way of The God" does not make aggression legitimate; the same verse explicitly says: <strong class="arabic-large">وَلَا تَعْتَدُوا</strong>.</p>
-<h3>حَيْثُ ثَقِفْتُمُوهُمْ</h3><p>This construction, in the context of battle, refers to reaching or finding the fighting party. It must not be separated from the limits of the surrounding verses.</p>
+<section class="root-section" id="being-killed"><h2 data-source-block="269">10. Being killed in the way of The God, distinguished from fighting</h2>
+<p class="" data-source-block="270"><strong><a href="/quran-reflection/en/004-an-nisa/#ayah-074">Al-Nisāʾ 4:74</a></strong></p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="271">فَلْيُقَاتِلْ فِي سَبِيلِ اللَّهِ الَّذِينَ يَشْرُونَ الْحَيَاةَ الدُّنْيَا بِالْآخِرَةِ ۚ وَمَن يُقَاتِلْ فِي سَبِيلِ اللَّهِ فَيُقْتَلْ أَوْ يَغْلِبْ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًا</p></blockquote>
+<p class="quran-translit-line" dir="ltr">fa-l-yuqātil fī sabīli Allāhi alladhīna yashrūna al-ḥayāta al-dunyā bi-al-ākhirati wa-man yuqātil fī sabīli Allāhi fa-yuqtal aw yaghlib fa-sawfa nuʾtīhi ajran ʿaẓīman</p>
+<p class="translation" data-source-block="272">Proposed translation based on this study: “Let those who sell worldly life for the Hereafter fight in the way of The God. Whoever fights in the way of The God and is killed or prevails, We shall soon give him a great reward.”</p>
+<p class="" data-source-block="273">This is particularly clear evidence for the distinction between qitāl and qatl.</p>
+<p class="" data-source-block="274">Yuqātil first appears, meaning fighting.</p>
+<p class="" data-source-block="275">Two possible outcomes follow: being killed or prevailing.</p>
+<p class="" data-source-block="276">Someone can therefore fight without being killed.</p>
+<p class="" data-source-block="277">If yuqātil itself meant being killed, that distinction within the same sentence would make no sense.</p>
+<p class="" data-source-block="278">The verse clearly identifies qitāl as the action of fighting, rather than death as its outcome.</p>
+<h3 id="topic-279" data-source-block="279">Being killed and dying</h3>
+<p class="" data-source-block="280"><a href="/quran-reflection/en/022-al-hajj/#ayah-058">Al-Ḥajj 22:58</a> describes people who emigrated in the way of The God, then were killed or died.</p>
+<p class="" data-source-block="281">The expressions occur separately.</p>
+<p class="" data-source-block="282">Mawt is the end of life, while qatl concerns life ending through another agent or action.</p>
+<p class="" data-source-block="283">Every killing involves death, but not every death is killing.</p>
+<h3 id="topic-284" data-source-block="284">Those killed in the way of The God</h3>
+<p class="" data-source-block="285"><a href="/quran-reflection/en/002-al-baqarah/#ayah-154">Al-Baqarah 2:154</a> and <a href="/quran-reflection/en/003-al-imran/#ayah-169">Āl ʿImrān 3:169</a> discuss those killed in the way of The God.</p>
+<p class="" data-source-block="286">They do not deny physical killing; they concern the reality of those people’s life with their Lord.</p>
+<p class="" data-source-block="287">The nature of life after death does not follow from Q T L alone.</p>
+<p class="" data-source-block="288">“Killed in the way of The God” should also not be equated without examination with every use of SH H D and shahīd.</p>
+<p class="" data-source-block="289">Qutila means being killed; fī sabīli Allāh specifies its direction and relationship.</p>
 </section>
-
-  <section id="section-12" class="root-section"><h2>12. Q T L Compared with M W T</h2>
-<p><strong>Mawt</strong> is the end of life itself.</p><p><strong>Qatl</strong> is causing death through an agent or act.</p>
-<p>So: <strong>mata</strong>: he died; <strong>qutila</strong>: he was killed.</p>
-<p>This difference does not mean that mawt is always gradual, natural, or without a bodily agent. A person may die because of illness, an accident, or a sudden event.</p>
-<p>The main difference is this: mawt expresses death from the perspective of the person and the ending of his life; qatl expresses death from the perspective of its agent and cause.</p>
-<p>Ali 'Imran 3:144 places this difference side by side:</p><blockquote class="arabic-quote" dir="rtl" lang="ar"><p>أَفَإِنْ مَاتَ أَوْ قُتِلَ</p></blockquote>
+<section class="root-section" id="animals"><h2 data-source-block="290">11. Killing animals</h2>
+<p class="" data-source-block="291"><a href="/quran-reflection/en/005-al-maidah/#ayah-095">Al-Māʾidah 5:95</a> prohibits killing game while in iḥrām.</p>
+<p class="" data-source-block="292">The same verse makes intentional killing of game a matter of responsibility and compensation.</p>
+<p class="" data-source-block="293">Qatala is therefore not used only for humans in the Qur’an.</p>
+<p class="" data-source-block="294">Killing an animal and killing a human nevertheless differ legally and contextually.</p>
+<span id="section-13" class="root-anchor-alias"></span>
+<h3 id="topic-295" data-source-block="295">Qatl and dhabḥ</h3>
+<p class="" data-source-block="296">Arabic dhabḥ concerns a particular way of slaughtering an animal.</p>
+<p class="" data-source-block="297">Naḥr likewise identifies a particular method in animal-related usage.</p>
+<p class="" data-source-block="298">Qatl is the broader term for ending life.</p>
+<p class="" data-source-block="299">An animal may be killed by dhabḥ, but not every animal killing is dhabḥ.</p>
+<p class="" data-source-block="300">For example, an animal killed by an arrow while hunting can linguistically be described through qatl without that act being called dhabḥ.</p>
+<p class="" data-source-block="301">This distinction matters for studies of permitted and forbidden food.</p>
+<p class="" data-source-block="302">Qatl’s lexical meaning alone, however, does not determine the complete ruling on whether the meat is permissible.</p>
 </section>
-
-  <section id="section-13" class="root-section"><h2>13. Q T L Compared with DH B H</h2>
-<p><strong>Dhabh</strong> is a specific manner of killing connected with cutting the throat or vital passage of the neck.</p>
-<p><strong>Qatl</strong> is more general and is not restricted to a specific method.</p>
-<p>So every dhabh that leads to death is a kind of qatl, but not every qatl is dhabh.</p>
-<p>Dhabh in the Qur'an is used both about animals and about the killing of human beings:</p><blockquote class="arabic-quote" dir="rtl" lang="ar"><p>يُذَبِّحُونَ أَبْنَاءَكُمْ</p></blockquote>
-<p>Here the particular method and violence of the act are highlighted.</p>
+<section class="root-section" id="imprecations"><h2 data-source-block="303">12. Imprecatory and condemnatory expressions</h2>
+<h3 id="topic-304" data-source-block="304">Qutila al-insānu</h3>
+<p class="" data-source-block="305"><strong><a href="/quran-reflection/en/080-abasa/#ayah-017">ʿAbasa 80:17</a></strong></p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="306">قُتِلَ الْإِنْسَانُ مَا أَكْفَرَهُ</p></blockquote>
+<p class="quran-translit-line" dir="ltr">qutila al-insānu mā akfarahu</p>
+<p class="translation" data-source-block="307">Proposed translation based on this study: “May man perish! How ungrateful and denying he is!”</p>
+<p class="" data-source-block="308">Qutila is passive perfect.</p>
+<p class="" data-source-block="309">The sentence nevertheless belongs to a setting of severe condemnation.</p>
+<p class="" data-source-block="310">Arabic can use such a construction for an imprecation or curse.</p>
+<p class="" data-source-block="311">It should not be treated merely as a historical report that a particular person was killed.</p>
+<p class="" data-source-block="312">Persian equivalents meaning “may he perish” or “may he be destroyed” better convey this function.</p>
+<p class="" data-source-block="313">Similar uses in <a href="/quran-reflection/en/051-adh-dhariyat/#ayah-010">Al-Dhāriyāt 51:10</a>, <a href="/quran-reflection/en/074-al-muddaththir/#ayah-019">Al-Muddaththir 74:19</a>, <a href="/quran-reflection/en/074-al-muddaththir/#ayah-020">Al-Muddaththir 74:20</a>, and <a href="/quran-reflection/en/085-al-buruj/#ayah-004">Al-Burūj 85:4</a> also require their own contexts.</p>
+<h3 id="topic-314" data-source-block="314">Qātalahumu Allāh</h3>
+<p class="" data-source-block="315"><strong><a href="/quran-reflection/en/009-at-tawbah/#ayah-030">Al-Tawbah 9:30</a></strong></p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="316">وَقَالَتِ الْيَهُودُ عُزَيْرٌ ابْنُ اللَّهِ وَقَالَتِ النَّصَارَى الْمَسِيحُ ابْنُ اللَّهِ ۖ ذَٰلِكَ قَوْلُهُم بِأَفْوَاهِهِمْ يُضَاهِئُونَ قَوْلَ الَّذِينَ كَفَرُوا مِن قَبْلُ ۚ قَاتَلَهُمُ اللَّهُ أَنَّىٰ يُؤْفَكُونَ</p></blockquote>
+<p class="quran-translit-line" dir="ltr">wa-qālati al-yahūdu ʿUzayrun ibnu Allāhi wa-qālati al-naṣārā al-masīḥu ibnu Allāhi dhālika qawluhum bi-afwāhihim yuḍāhiʾūna qawla alladhīna kafarū min qablu qātalahumu Allāhu annā yuʾfakūna</p>
+<p class="translation" data-source-block="317">Proposed translation based on this study: “The Jews said, ‘ʿUzayr is the son of The God,’ and the Christians said, ‘The Messiah is the son of The God.’ That is their saying with their mouths, resembling what earlier disbelievers said. May The God destroy them; how they are turned away from the truth!”</p>
+<p class="" data-source-block="318">Qātalahumu Allāh is Form III.</p>
+<p class="" data-source-block="319">The combination is nevertheless a recognized Arabic expression of imprecation and severe condemnation.</p>
+<p class="" data-source-block="320">It should not be translated as physical warfare between God and humans.</p>
+<p class="" data-source-block="321">Lisān al-ʿArab likewise explains it through imprecation, cursing, or destruction.</p>
+<p class="verse-ref"><a href="https://islamweb.net/ar/library/content/122/6468/قتل">Lisān: imprecatory and condemnatory expressions</a></p>
+<p class="" data-source-block="322">Form III therefore does not always express actual warfare between two parties.</p>
+<p class="" data-source-block="323">Conversely, this imprecatory use does not make qātilū in <a href="/quran-reflection/en/002-al-baqarah/#ayah-190">Al-Baqarah 2:190</a> or <a href="/quran-reflection/en/049-al-hujurat/#ayah-009">Al-Ḥujurāt 49:9</a> merely cursing.</p>
+<p class="" data-source-block="324">Each combination’s meaning follows from its own construction and context.</p>
 </section>
-
-  <section id="section-14" class="root-section"><h2>14. Q T L Compared with H L K</h2>
-<p><strong>Halak</strong> indicates destruction, loss, or coming to an end, and it may be used about a person, group, wealth, or power.</p>
-<p><strong>Qatl</strong> specifically points to causing the death of a living being.</p>
-<p>A person may perish without being killed by a human being. Likewise, being killed may be the cause of his destruction.</p>
-<p>So: <strong>qatl</strong>: the act of causing death; <strong>halak</strong>: the result of destruction or loss.</p>
+<section class="root-section" id="certainty"><h2 data-source-block="325">13. Wa-mā qatalūhu yaqīnan: killing and comprehensive knowledge</h2>
+<p class="" data-source-block="326"><strong><a href="/quran-reflection/en/004-an-nisa/#ayah-157">Al-Nisāʾ 4:157</a></strong></p>
+<blockquote class="arabic-quote" dir="rtl" lang="ar"><p data-source-block="327">وَقَوْلِهِمْ إِنَّا قَتَلْنَا الْمَسِيحَ عِيسَى ابْنَ مَرْيَمَ رَسُولَ اللَّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَٰكِن شُبِّهَ لَهُمْ ۚ وَإِنَّ الَّذِينَ اخْتَلَفُوا فِيهِ لَفِي شَكٍّ مِّنْهُ ۚ مَا لَهُم بِهِ مِنْ عِلْمٍ إِلَّا اتِّبَاعَ الظَّنِّ ۚ وَمَا قَتَلُوهُ يَقِينًا</p></blockquote>
+<p class="quran-translit-line" dir="ltr">wa-qawlihim innā qatalnā al-masīḥa ʿĪsā ibna Maryama rasūla Allāhi wa-mā qatalūhu wa-mā ṣalabūhu wa-lākin shubbiha lahum wa-inna alladhīna ikhtalafū fīhi la-fī shakkin minhu mā lahum bihi min ʿilmin illā ittibāʿa al-ẓanni wa-mā qatalūhu yaqīnan</p>
+<p class="translation" data-source-block="328">Proposed translation based on this study: “And because of their saying, ‘We killed the Messiah, Jesus son of Mary, the messenger of The God’—whereas they neither killed nor crucified him, but it became confused for them. Those who differed about him are surely in doubt concerning it; they have no knowledge of it, only the following of conjecture; and certainly they did not kill him.”</p>
+<p class="" data-source-block="329">Killing appears several times in this verse.</p>
+<p class="" data-source-block="330">The beginning concerns a claim to have killed Jesus and the denial of that claim.</p>
+<p class="" data-source-block="331">The final wa-mā qatalūhu yaqīnan, however, follows discussion of doubt, knowledge, and conjecture.</p>
+<p class="" data-source-block="332">Lexical sources record qataltu al-shayʾa ʿilman for thoroughly knowing a subject.</p>
+<p class="" data-source-block="333">Some lexicographers have therefore considered whether the final expression in <a href="/quran-reflection/en/004-an-nisa/#ayah-157">Al-Nisāʾ 4:157</a> concerns comprehensive knowledge and attaining certainty.</p>
+<p class="" data-source-block="334">Another familiar reading treats it as emphasizing the denial of Jesus’s killing.</p>
+<p class="" data-source-block="335">These readings differ in subject.</p>
+<p class="" data-source-block="336">The first emphasizes the absence of certain knowledge concerning the claim.</p>
+<p class="" data-source-block="337">The second emphasizes a definitive denial of the killing’s occurrence.</p>
+<p class="" data-source-block="338">Assessing them requires yaqīnan’s role, the pronoun’s referent, and the final sentence’s connection with the statements about knowledge and conjecture.</p>
+<p class="" data-source-block="339">For a root study, the reliable finding is that figurative qatl for comprehensive knowledge is attested in Arabic and matters for examining this verse.</p>
+<p class="verse-ref"><a href="https://ablibrary.net/book_content/b/3513/234?lang=ar">Al-Naḥḥās, Maʿānī al-Qurʾān: the comprehensive-knowledge reading at Al-Nisāʾ 4:157</a></p>
+<p class="" data-source-block="340">It does not authorize converting every occurrence of killing in the verse into knowing or defeating.</p>
 </section>
-
-  <section id="section-15" class="root-section"><h2>15. Qital Compared with H R B</h2>
-<p><strong>Qital</strong> is the act of fighting and armed confrontation.</p>
-<p><strong>Harb</strong> more often indicates the state of war, hostility, or broader conflict.</p>
-<p>One may cautiously say: <strong>qital</strong>: the act of battle and fighting; <strong>harb</strong>: the wider condition or field of war and hostility.</p>
-<p>But qital should not be defined only as "hardware defense," nor harb only as "soft and economic war." The Qur'an does not present such a technical division.</p>
-<p>Also, all cases of qital in the Qur'an are not identical in ruling and context. The subject, initiator, aim, limits, and stopping point of battle must be understood from the context of each verse.</p>
+<section class="root-section" id="related-roots"><h2 data-source-block="341">14. Comparison with related roots</h2>
+<span id="section-12" class="root-anchor-alias"></span>
+<h3 id="topic-342" data-source-block="342">Q T L (qatl) and M W T (mawt)</h3>
+<p class="verse-ref"><a href="/quran-terminology/en/roots/m-w-t/">Study of M W T</a></p>
+<p class="" data-source-block="343">Mawt concerns life ending.</p>
+<p class="" data-source-block="344">Qatl concerns ending life, or an event in which a being is killed through another agent or action.</p>
+<p class="" data-source-block="345">Every killing results in death, but not every death is killing.</p>
+<p class="" data-source-block="346"><a href="/quran-reflection/en/022-al-hajj/#ayah-058">Al-Ḥajj 22:58</a> distinguishes being killed from dying.</p>
+<h3 id="topic-347" data-source-block="347">Q T L (qatl) and S F K (safk)</h3>
+<p class="verse-ref"><a href="/quran-terminology/en/roots/s-f-k/">Study of S F K</a></p>
+<p class="" data-source-block="348">Safk concerns pouring liquid and, in Qur’anic use, shedding blood.</p>
+<p class="" data-source-block="349">Qatl concerns ending life.</p>
+<p class="" data-source-block="350">Killing may involve bloodshed, but not every killing necessarily causes visible bleeding.</p>
+<p class="" data-source-block="351">Conversely, bleeding can occur without death.</p>
+<p class="" data-source-block="352">Forqan’s separate S F K study examines this distinction.</p>
+<span id="section-15" class="root-anchor-alias"></span>
+<h3 id="topic-353" data-source-block="353">Q T L (qitāl) and Ḥ R B (ḥarb)</h3>
+<p class="" data-source-block="354">Arabic ḥarb concerns warfare and a state of hostility.</p>
+<p class="" data-source-block="355">Military qitāl concerns the act of fighting and confrontation.</p>
+<p class="" data-source-block="356">They can be close without always playing the same role.</p>
+<p class="" data-source-block="357">Ḥarb may describe the wider state of war, while qitāl concerns engagement within it.</p>
+<p class="" data-source-block="358">This should nevertheless not become an exceptionless rule.</p>
+<h3 id="topic-359" data-source-block="359">Q T L (qitāl) and J H D (jihād)</h3>
+<p class="" data-source-block="360">Arabic jahd concerns exertion and using one’s ability.</p>
+<p class="" data-source-block="361">Qur’anic jihād can relate to warfare in some contexts, but its uses are not all restricted to armed fighting.</p>
+<p class="" data-source-block="362">Qitāl in clearly military Qur’anic settings, however, concerns fighting.</p>
+<p class="" data-source-block="363">Not every jihād is necessarily qitāl, nor is every qitāl legitimate in the way of The God merely because it bears that name.</p>
+<p class="" data-source-block="364">An action’s direction and worth require context and Qur’anic criteria.</p>
+<h3 id="topic-365" data-source-block="365">Q T L (qatl) and Ḍ R B (ḍarb)</h3>
+<p class="verse-ref"><a href="/quran-terminology/en/roots/dad-r-b/">Study of Ḍ R B</a></p>
+<p class="" data-source-block="366">Ḍarb has a broad semantic field, including striking in one use.</p>
+<p class="" data-source-block="367">A blow can cause killing, but not every blow is killing.</p>
+<p class="" data-source-block="368">Killing can also occur without a direct blow.</p>
+<p class="" data-source-block="369">The roots can connect in particular events without being complete synonyms.</p>
+<h3 id="topic-370" data-source-block="370">Q T L (qitāl) and D F ʿ (dafʿ)</h3>
+<p class="" data-source-block="371">Dafʿ concerns driving away, repelling, or preventing something’s advance.</p>
+<p class="" data-source-block="372"><a href="/quran-reflection/en/003-al-imran/#ayah-167">Āl ʿImrān 3:167</a> places qātilū and idfaʿū in one expression.</p>
+<p class="" data-source-block="373">Their proximity shows fighting and repelling can connect in a military situation.</p>
+<p class="" data-source-block="374">Dafʿ is nevertheless not always restricted to armed warfare.</p>
+<p class="" data-source-block="375">Someone can repel a danger through a nonlethal action too.</p>
+<h3 id="topic-376" data-source-block="376">Q T L (qatl) and Q Ṣ Ṣ (qiṣāṣ)</h3>
+<p class="verse-ref"><a href="/quran-terminology/en/roots/q-sad-sad/">Study of Q Ṣ Ṣ</a></p>
+<p class="" data-source-block="377">Qiṣāṣ belongs to Q Ṣ Ṣ.</p>
+<p class="" data-source-block="378">In legal usage, it concerns pursuing an offense, establishing responsibility, and responding proportionately.</p>
+<p class="" data-source-block="379">Killing can be the subject of qiṣāṣ, but the words differ in meaning.</p>
+<p class="" data-source-block="380">Killing is the event in which a human life ends; qiṣāṣ concerns addressing it and responding justly.</p>
+<h3 id="topic-381" data-source-block="381">Q T L (qatl) and SH H D (shahīd)</h3>
+<p class="verse-ref"><a href="/quran-terminology/en/roots/sh-h2-d/">Study of SH H D</a></p>
+<p class="" data-source-block="382">Shahīd belongs to SH H D and concerns witnessing and presence.</p>
+<p class="" data-source-block="383">Qatīl and qatlā concern those killed.</p>
+<p class="" data-source-block="384">In later religious terminology, shahīd often names someone killed in the way of The God.</p>
+<p class="" data-source-block="385">This terminological use should not be imposed on every Qur’anic shahīd.</p>
+<p class="" data-source-block="386">The roots require independent study.</p>
+<span id="section-17" class="root-anchor-alias"></span>
 </section>
-
-  <section id="section-16" class="root-section"><h2>16. Specialized Note: Is Qital Always Defensive?</h2>
-<p>The Qur'anic verses present qital in different contexts. In Al-Baqarah 2:190, the confrontation is with those who fight the believers, and aggression is also prohibited.</p>
-<p>In other verses, contexts such as expulsion from homes, breaking covenants, persecution and fitnah, or continuation of war are mentioned.</p>
-<p>From this collection, one can say that Qur'anic qital is not a free command for expanding violence. War is connected to the actual behavior and condition of the other party, justice, covenant, aggression, and the security of the community.</p>
-<p>But a root article should not extract the whole Qur'anic theory of war only from the morphology of qatala.</p>
-<p>Form III shows that the subject is confrontation; whether it is defensive or offensive, legitimate or illegitimate, and what its limits are must be understood from the broader context of the verses.</p>
-<p>The clear principle in Al-Baqarah 2:190 is:</p>
-<blockquote class="arabic-quote" dir="rtl" lang="ar"><p>قَاتِلُوا الَّذِينَ يُقَاتِلُونَكُمْ وَلَا تَعْتَدُوا</p></blockquote>
-<p>Therefore, any reading that removes these restrictions has separated the meaning of qital from Qur'anic ethics.</p>
+<section class="root-section" id="translation-proposals"><h2 data-source-block="387">15. Translation proposals for Forqan</h2>
+<p class="" data-source-block="388">Forms within Q T L require distinction.</p>
+<p class="" data-source-block="389"><strong>Qatala</strong> primarily means “killed,” and <strong>yaqtulu</strong> means “kills.”</p>
+<p class="" data-source-block="390"><strong>Qutila</strong> means “was killed.”</p>
+<p class="" data-source-block="391"><strong>Qatl</strong> concerns “killing.”</p>
+<p class="" data-source-block="392"><strong>Qatlā</strong> means “those killed.”</p>
+<p class="" data-source-block="393">Military <strong>qātala</strong> means “fought,” and <strong>qātilū</strong> means “fight.”</p>
+<p class="" data-source-block="394"><strong>Qitāl</strong> means “fighting,” or “warfare” where context supports it.</p>
+<p class="" data-source-block="395"><strong>Iqtatalū</strong> can mean “fought one another” or “became engaged in conflict,” according to context.</p>
+<p class="" data-source-block="396">For qattala, “carried out slaughter” is suitable where context establishes killing’s intensity or extent.</p>
+<p class="" data-source-block="397">That intensity should not be added from the verbal pattern alone, without evidence.</p>
+<p class="" data-source-block="398">Imprecatory expressions require different equivalents.</p>
+<p class="" data-source-block="399">Qutila al-insānu in <a href="/quran-reflection/en/080-abasa/#ayah-017">ʿAbasa 80:17</a> can be rendered “May man perish,” given its condemnatory setting.</p>
+<p class="" data-source-block="400">Qātalahumu Allāh in <a href="/quran-reflection/en/009-at-tawbah/#ayah-030">Al-Tawbah 9:30</a> is imprecatory; “May The God destroy them” conveys its meaning.</p>
+<p class="" data-source-block="401">For figurative qatala al-shayʾa ʿilman, “knew a subject thoroughly” is defensible.</p>
+<p class="" data-source-block="402">That usage should not become every verb in the family’s fixed meaning.</p>
+<h3 id="topic-403" data-source-block="403">Translating uqtulūhum and qātilūhum</h3>
+<p class="" data-source-block="404">Wa-uqtulūhum in <a href="/quran-reflection/en/002-al-baqarah/#ayah-191">Al-Baqarah 2:191</a> is rendered “and kill them” in the basic text.</p>
+<p class="" data-source-block="405">Wa-qātilūhum in <a href="/quran-reflection/en/002-al-baqarah/#ayah-193">Al-Baqarah 2:193</a> is rendered “and fight them.”</p>
+<p class="" data-source-block="406">This distinction must remain.</p>
+<p class="" data-source-block="407">Uqtulūhum in a military setting concerns actual killing, but the conditions for the command follow from the verses together.</p>
+<p class="" data-source-block="408">Qātilūhum concerns fighting without necessarily meaning killing every opponent.</p>
+<p class="" data-source-block="409">Persian “struggle” may fit some contextual explanations. Since struggle can be unarmed, however, “fight” is more precise for qātilū in military verses.</p>
+<p class="" data-source-block="410">“Slaughter” should likewise not become qitāl’s fixed equivalent: slaughter emphasizes people’s being killed, while qitāl names confrontation and fighting themselves.</p>
+<span id="section-18" class="root-anchor-alias"></span>
 </section>
-
-  <section id="section-17" class="root-section"><h2>17. Translation Suggestions for Forqan</h2>
-<h3>قَتَلَ</h3><p>Killed. Caused his death, in explanation.</p><p>"Disabling an active flow" is not the translation of the word.</p>
-<h3>قُتِلَ</h3><p>Was killed.</p>
-<h3>قَتَّلَ</h3><p>Carried out killing. Killed intensely or repeatedly, according to context.</p>
-<h3>قاتَلَ</h3><p>Fought. Entered battle with him.</p><p>It must not be translated as "killed."</p>
-<h3>قِتال</h3><p>War. Battle. Armed conflict.</p>
-<h3>اقتَتَلَ</h3><p>They became mutually engaged. They fought one another.</p><p>The translation "they killed one another" is correct only when the context also establishes actual killing.</p>
-<h3>قاتِل</h3><p>Killer. One who kills.</p>
-<h3>مُقاتِل</h3><p>Fighter. Combatant. One who participates in battle.</p>
-<h3>قَتْلَىٰ</h3><p>Those killed.</p>
-<h3>قَتِيل</h3><p>One killed.</p>
+<section class="root-section" id="conclusion"><h2 data-source-block="411">16. Conclusion</h2>
+<p class="" data-source-block="412">Arabic Q T L concerns killing, ending life, overpowering, and, in some figurative uses, eliminating something’s strength or intensity.</p>
+<p class="" data-source-block="413">Its forms nevertheless differ in meaning.</p>
+<p class="" data-source-block="414">Qatala primarily concerns killing; military qātala concerns fighting and confrontation; iqtatala concerns parties engaging in conflict; and doubled qattala in some contexts emphasizes slaughter’s intensity or extent.</p>
+<p class="" data-source-block="415">Pre-Islamic witnesses also attest figurative usage alongside actual killing. Imruʾ al-Qays compares love with killing and being overcome, while Zuhayr uses a derivative for a trained, experienced animal.</p>
+<p class="" data-source-block="416">These usages are real, but their figurative meanings depend on their own indications.</p>
+<p class="" data-source-block="417">The Qur’an uses the root 170 times. Some verses concern killing humans or animals; others concern fighting. Qutila al-insānu and qātalahumu Allāh also show imprecatory and condemnatory constructions.</p>
+<p class="" data-source-block="418">The distinction between qatl and qitāl is especially clear in <a href="/quran-reflection/en/002-al-baqarah/#ayah-190">Al-Baqarah 2:190</a>, <a href="/quran-reflection/en/002-al-baqarah/#ayah-191">Al-Baqarah 2:191</a>, <a href="/quran-reflection/en/002-al-baqarah/#ayah-192">Al-Baqarah 2:192</a>, and <a href="/quran-reflection/en/002-al-baqarah/#ayah-193">Al-Baqarah 2:193</a>.</p>
+<p class="" data-source-block="419"><a href="/quran-reflection/en/002-al-baqarah/#ayah-190">Al-Baqarah 2:190</a> commands fighting those who fight you and forbids transgression.</p>
+<p class="" data-source-block="420"><a href="/quran-reflection/en/002-al-baqarah/#ayah-191">Al-Baqarah 2:191</a> discusses killing in a military setting, expelling those who expelled the addressees, and the prohibition on initiating fighting at the Sacred Mosque.</p>
+<p class="" data-source-block="421"><a href="/quran-reflection/en/002-al-baqarah/#ayah-192">Al-Baqarah 2:192</a> considers desisting from the conflict.</p>
+<p class="" data-source-block="422"><a href="/quran-reflection/en/002-al-baqarah/#ayah-193">Al-Baqarah 2:193</a> connects fighting with the end of fitnah and forbids continued aggression.</p>
+<p class="" data-source-block="423">Together these passages distinguish fighting from killing. Permission to kill in a military situation also differs from an unlimited command to slaughter every opponent.</p>
+<p class="" data-source-block="424">Conversely, explicit killing in verses actually concerning it should not be converted into intellectual struggle or conversation alone.</p>
+<p class="" data-source-block="425">Qatl also differs from mawt. Mawt expresses life ending; qatl concerns life ended through another action or agent. Qualifications and context establish intent and responsibility, as in the Qur’an’s distinction between accidental and intentional killing.</p>
+<p class="" data-source-block="426">Legal and ethical distinctions also separate killing, fighting, qiṣāṣ, bloodshed, defense, revenge, and martyrdom. They can connect in one event without any taking the place of all the others’ meanings.</p>
+<p class="" data-source-block="427">For Forqan, “killing” is qatala’s primary equivalent, and “fighting” is qātala’s in military usage. “Slaughter” fits actual killing and, where indicated, its extent. “Struggle” is broader than qitāl and should not replace actual fighting without evidence.</p>
+<p class="" data-source-block="428"><strong>Qatl, qitāl, and slaughter are not one concept. Killing ends life; qitāl concerns fighting and confrontation; slaughter emphasizes actual killing, particularly on a large scale. Each action’s legitimacy, limits, and outcome require context and clear Qur’anic instructions.</strong></p>
+<p class="" data-source-block="429">Preserving these distinctions makes verses concerning warfare and human life more precise, without turning every struggle into slaughter or every killing command into a merely figurative expression.</p>
 </section>
-
-  <section id="section-18" class="root-section"><h2>18. Conclusion</h2>
-<p>The root Q T L in the Qur'an points above all to causing the death of a living being.</p>
-<p>Qatl is not identical with mawt. Mawt is death itself, but qatl attributes death to an agent or act. This difference does not mean that mawt is always natural and gradual.</p>
-<p>Qatl is also not always intentional. The Qur'an explicitly speaks of accidental killing and intentional killing. Therefore, intent and degree of responsibility are gained from qualifiers and context, not from the verb qatl alone.</p>
-<p>A clear boundary must be kept between <strong>قَتَلَ</strong> and <strong>قاتَلَ</strong>: <strong>قَتَلَ</strong> means he killed; <strong>قاتَلَ</strong> means he fought; and <strong>اقتتل</strong> means they became mutually engaged.</p>
-<p>A muqatil is not necessarily a qatil, and not every qital necessarily results in qatl.</p>
-<p>The Qur'an presents human life as inviolable and regards the unlawful killing of one human being as an assault on the principle of the inviolability of all human life.</p>
-<p>Qisas is prescribed for the protection of life and to prevent unlimited blood vengeance, and pardon also has a place within the same legal structure.</p>
-<p>Killing children because of poverty or fear of poverty, killing prophets, intentional killing, accidental killing, and the killing of an innocent girl all show that this root is not limited to the battlefield.</p>
-<p>Qital in the Qur'an must be read in its own context. Al-Baqarah 2:190 connects it with those who fight the believers and at the same time forbids aggression. The following sentences cannot be separated from this restriction.</p>
-<p>The comparison between qital and harb must also not be turned into modern technical divisions. Qital is the act of fighting, and harb is the broader state of war and hostility, but the precise meaning of each use is determined by context.</p>
-<p>The shortest expression for the core of this root is:</p>
-<p><strong>Causing the death of a living being; and in the reciprocal forms of this root, entering war or conflict in which killing is possible.</strong></p>
-</section>
-</div></div>
+</div>
+</div>
