@@ -1,0 +1,4213 @@
+{
+  "root": "ح ب ط",
+  "slug": "h-b-tt",
+  "date": "2026-10-28",
+  "status": "installed locally",
+  "files": [
+    "quran-terminology/fa/roots/h-b-tt/index.html",
+    "quran-terminology/en/roots/h-b-tt/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/002-al-baqarah/units/217.html",
+    "quran-reflection/fa/003-al-imran/units/022.html",
+    "quran-reflection/fa/005-al-maidah/units/005.html",
+    "quran-reflection/fa/005-al-maidah/units/053.html",
+    "quran-reflection/fa/006-al-anam/units/088.html",
+    "quran-reflection/fa/007-al-araf/units/147.html",
+    "quran-reflection/fa/009-at-tawbah/units/017.html",
+    "quran-reflection/fa/009-at-tawbah/units/069.html",
+    "quran-reflection/fa/011-hud/units/016.html",
+    "quran-reflection/fa/018-al-kahf/units/105.html",
+    "quran-reflection/fa/033-al-ahzab/units/019.html",
+    "quran-reflection/fa/039-az-zumar/units/065.html",
+    "quran-reflection/fa/047-muhammad/units/009.html",
+    "quran-reflection/fa/047-muhammad/units/028.html",
+    "quran-reflection/fa/047-muhammad/units/032.html",
+    "quran-reflection/fa/049-al-hujurat/units/002.html",
+    "quran-reflection/en/002-al-baqarah/units/217.html",
+    "quran-reflection/en/003-al-imran/units/022.html",
+    "quran-reflection/en/005-al-maidah/units/005.html",
+    "quran-reflection/en/005-al-maidah/units/053.html",
+    "quran-reflection/en/006-al-anam/units/088.html",
+    "quran-reflection/en/007-al-araf/units/147.html",
+    "quran-reflection/en/009-at-tawbah/units/017.html",
+    "quran-reflection/en/009-at-tawbah/units/069.html",
+    "quran-reflection/en/011-hud/units/016.html",
+    "quran-reflection/en/018-al-kahf/units/105.html",
+    "quran-reflection/en/033-al-ahzab/units/019.html",
+    "quran-reflection/en/039-az-zumar/units/065.html",
+    "quran-reflection/en/047-muhammad/units/009.html",
+    "quran-reflection/en/047-muhammad/units/028.html",
+    "quran-reflection/en/047-muhammad/units/032.html",
+    "quran-reflection/en/049-al-hujurat/units/002.html",
+    "_handoff/root-install-h-b-tt-2026-10-28.json"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/19518114-3032-42e4-ba79-18b2ebdb6c0d/Pasted text.txt",
+  "provided_source_blocks_per_language": 312,
+  "source_blocks_per_language": 313,
+  "source_normalisation": "Split first combined title/subtitle into separate blocks without omission.All Arabic quotations preserved exactly.",
+  "sections_per_language": 8,
+  "subheadings_per_language": 32,
+  "fourth_level_headings_per_language": 0,
+  "morphology_cards_per_language": 10,
+  "quranic_occurrences": 16,
+  "quranic_verses": 16,
+  "quranic_surahs": 12,
+  "edited_occurrences": 16,
+  "edited_verses": 16,
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/217.html",
+      "verse": "2:217",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 47,
+          "word": "حَبِطَت",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": "بی‌ثمر شده است؛ از اثر افتادنِ اعمالِ گروه یادشده.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "بی‌ثمر شده است؛ از اثر افتادنِ اعمالِ گروه یادشده.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/003-al-imran/units/022.html",
+      "verse": "3:22",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "حَبِطَت",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "تباه شده است؛ حاصل و ارزش کردارهای گروه یادشده از میان رفته است.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/005.html",
+      "verse": "5:5",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 37,
+          "word": "حَبِطَ",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": "تباه شده است",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "تباه شده است",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/053.html",
+      "verse": "5:53",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 12,
+          "word": "حَبِطَت",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": "تباه شد؛ بی‌حاصل شدن اعمال آنان.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "تباه شد؛ بی‌حاصل شدن اعمال آنان.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/088.html",
+      "verse": "6:88",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 12,
+          "word": "لَحَبِطَ",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "بی‌گمان تباه می‌شد؛ پاسخِ شرطِ شرک ورزیدن.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/147.html",
+      "verse": "7:147",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "حَبِطَت",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "تباه شده است؛ اعمال تکذیب‌کنندگان آیات و ملاقات آخرت.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/017.html",
+      "verse": "9:17",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 13,
+          "word": "حَبِطَت",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "تباه شده است؛ اعمال مشرکانی که بر کفر خود گواه‌اند.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/069.html",
+      "verse": "9:69",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 25,
+          "word": "حَبِطَت",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "تباه شده است؛ اعمال گروه مورد اشاره در دنیا و آخرت.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/units/016.html",
+      "verse": "11:16",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "وَحَبِطَ",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "و تباه شده است؛ آنچه در دنیا ساخته و انجام داده‌اند.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/018-al-kahf/units/105.html",
+      "verse": "18:105",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "فَحَبِطَت",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "پس تباه شد؛ اعمال کسانی که آیات و ملاقات پروردگار را نپذیرفتند.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/019.html",
+      "verse": "33:19",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 28,
+          "word": "فَأَحبَطَ",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "پس تباه ساخت؛ آن معبود یگانه اعمالشان را بی‌اثر کرد.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/039-az-zumar/units/065.html",
+      "verse": "39:65",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 10,
+          "word": "لَيَحبَطَنَّ",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "بی‌گمان تباه خواهد شد؛ هشدارِ مؤکد در شرط شرک.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/047-muhammad/units/009.html",
+      "verse": "47:9",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "فَأَحبَطَ",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "پس تباه ساخت؛ اعمال کسانی که آنچه نازل شده را ناخوش داشتند.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/047-muhammad/units/028.html",
+      "verse": "47:28",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "فَأَحبَطَ",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "پس تباه ساخت؛ اعمال پیروان ناخشنودی الهی.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/047-muhammad/units/032.html",
+      "verse": "47:32",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 20,
+          "word": "وَسَيُحبِطُ",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "و تباه خواهد ساخت؛ اعمال مخالفانِ هدایتِ روشن‌شده.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/049-al-hujurat/units/002.html",
+      "verse": "49:2",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 18,
+          "word": "تَحبَطَ",
+          "mode": "root-study-update",
+          "brief": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+          "before_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "باطل و بی‌ثمر شدنِ عمل؛ إحباط: از اثر و نتیجه انداختن.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "ح ب ط",
+            "data-root-meaning": "تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.",
+            "data-context": "تباه شود؛ پیامدی که دربارهٔ آن هشدار داده شده است.",
+            "data-learn-more": "/quran-terminology/fa/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/217.html",
+      "verse": "2:217",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 47,
+          "word": "حَبِطَت",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": "Have become fruitless: the nullification of the described group’s deeds.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "Have become fruitless: the nullification of the described group’s deeds.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/003-al-imran/units/022.html",
+      "verse": "3:22",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "حَبِطَت",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "Have come to nothing; the deeds of the described group have lost their fruit and value.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/005.html",
+      "verse": "5:5",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 37,
+          "word": "حَبِطَ",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": "Has become fruitless",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "Has become fruitless",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/053.html",
+      "verse": "5:53",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 12,
+          "word": "حَبِطَت",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": "Came to nothing; their deeds becoming fruitless.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "Came to nothing; their deeds becoming fruitless.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/088.html",
+      "verse": "6:88",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 12,
+          "word": "لَحَبِطَ",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "Would surely come to nothing; the consequence if they associated partners.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/147.html",
+      "verse": "7:147",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "حَبِطَت",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "Have come to nothing; the deeds of those who denied the signs and the meeting of the Hereafter.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/017.html",
+      "verse": "9:17",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 13,
+          "word": "حَبِطَت",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "Have come to nothing; the deeds of associators testifying to their own unbelief.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/069.html",
+      "verse": "9:69",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 25,
+          "word": "حَبِطَت",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "Have come to nothing; the described group’s deeds in this world and the Hereafter.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/011-hud/units/016.html",
+      "verse": "11:16",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "وَحَبِطَ",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "And has come to nothing; what they made and did in the world.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/018-al-kahf/units/105.html",
+      "verse": "18:105",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "فَحَبِطَت",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "So have come to nothing; the deeds of those who rejected their Lord’s signs and meeting Him.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/019.html",
+      "verse": "33:19",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 28,
+          "word": "فَأَحبَطَ",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "So He rendered fruitless; The God made their deeds ineffective.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/039-az-zumar/units/065.html",
+      "verse": "39:65",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 10,
+          "word": "لَيَحبَطَنَّ",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "Will surely come to nothing; the emphatic warning conditional on association.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/047-muhammad/units/009.html",
+      "verse": "47:9",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 7,
+          "word": "فَأَحبَطَ",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "So He rendered fruitless; the deeds of those who disliked what was revealed.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/047-muhammad/units/028.html",
+      "verse": "47:28",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 9,
+          "word": "فَأَحبَطَ",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "So He rendered fruitless; the deeds of those who followed divine displeasure.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/047-muhammad/units/032.html",
+      "verse": "47:32",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 20,
+          "word": "وَسَيُحبِطُ",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "And He will render fruitless; the deeds of those opposing guidance made clear to them.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/049-al-hujurat/units/002.html",
+      "verse": "49:2",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 18,
+          "word": "تَحبَطَ",
+          "mode": "root-study-update",
+          "brief": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+          "before_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "An action becoming void or fruitless; iḥbāṭ: nullifying its effect or result.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "H B TT",
+            "data-root-meaning": "A deed losing its fruit and value; in Form IV, rendering it fruitless and ineffective.",
+            "data-context": "Come to nothing; the consequence against which they are warned.",
+            "data-learn-more": "/quran-terminology/en/roots/h-b-tt/",
+            "data-root-note": null
+          }
+        }
+      ]
+    }
+  ],
+  "persian_edits": [
+    {
+      "original_block": 11,
+      "before": "این شانزده کاربرد در دوازده سوره قرار دارند: بقره ۲:۲۱۷؛ آل‌عمران ۳:۲۲؛ مائده ۵:۵ و ۵:۵۳؛ انعام ۶:۸۸؛ اعراف ۷:۱۴۷؛ توبه ۹:۱۷ و ۹:۶۹؛ هود ۱۱:۱۶؛ کهف ۱۸:۱۰۵؛ احزاب ۳۳:۱۹؛ زمر ۳۹:۶۵؛ محمد ۴۷:۹، ۴۷:۲۸ و ۴۷:۳۲؛ و حجرات ۴۹:۲.",
+      "after": "این شانزده کاربرد در دوازده سوره قرار دارند: بقره ۲:۲۱۷؛ آل‌عمران ۳:۲۲؛ مائده ۵:۵ و مائده ۵:۵۳؛ انعام ۶:۸۸؛ اعراف ۷:۱۴۷؛ توبه ۹:۱۷ و توبه ۹:۶۹؛ هود ۱۱:۱۶؛ کهف ۱۸:۱۰۵؛ احزاب ۳۳:۱۹؛ زمر ۳۹:۶۵؛ محمد ۴۷:۹، محمد ۴۷:۲۸ و محمد ۴۷:۳۲؛ و حجرات ۴۹:۲."
+    },
+    {
+      "original_block": 55,
+      "before": "برای این ریشه، شواهد روشن لغوی دربارهٔ بیماری چهارپایان، هدر رفتن خون و آب چاه در دست است، اما شاهد شعری جاهلیِ مستقلی که ضبط، انتساب و زمان سرایش آن برای این معنای خاص با اطمینان کافی تثبیت شده باشد، در دسترس نیست.",
+      "after": "برای این ریشه، شواهد روشن لغوی دربارهٔ بیماری چهارپایان، هدر رفتن خون و آب چاه در دست است، اما شاهد شعری جاهلیِ مستقلی که ضبط، انتساب و زمان سرایش آن برای این معنای خاص با اطمینان کافی تثبیت شده باشد، در این بررسی تثبیت نشده است."
+    },
+    {
+      "original_block": 81,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 82,
+      "before": "«از تو دربارهٔ جنگ در ماه حرام می‌پرسند. بگو: جنگ در آن کاری بزرگ است؛ و بازداشتن از راه خدا و کفر به او و مسجدالحرام و بیرون راندن اهل آن از آنجا، نزد خدا بزرگ‌تر است؛ و فتنه از کشتن بزرگ‌تر است. و آنان پیوسته با شما می‌جنگند تا اگر بتوانند شما را از دینتان بازگردانند. و هرکس از شما از دین خود بازگردد و در حالی بمیرد که کافر است، آنان کسانی‌اند که اعمالشان در دنیا و آخرت تباه شده است؛ و آنان اهل آتش‌اند و در آن ماندگارند.»",
+      "after": "«از تو دربارهٔ جنگ در ماه حرام می‌پرسند. بگو: جنگ در آن کاری بزرگ است؛ و بازداشتن از راه آن معبود یگانه و کفر به او و مسجدالحرام و بیرون راندن اهل آن از آنجا، نزد آن معبود یگانه بزرگ‌تر است؛ و فتنه از کشتن بزرگ‌تر است. و آنان پیوسته با شما می‌جنگند تا اگر بتوانند شما را از دینتان بازگردانند. و هرکس از شما از دین خود بازگردد و در حالی بمیرد که کافر است، آنان کسانی‌اند که اعمالشان در دنیا و آخرت تباه شده است؛ و آنان اهل آتش‌اند و در آن ماندگارند.»"
+    },
+    {
+      "original_block": 93,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 94,
+      "before": "«این هدایت خداست که هرکس از بندگانش را بخواهد با آن هدایت می‌کند؛ و اگر آنان شرک می‌ورزیدند، آنچه انجام می‌دادند از دستشان تباه می‌شد.»",
+      "after": "«این هدایت آن معبود یگانه است که هرکس از بندگانش را بخواهد با آن هدایت می‌کند؛ و اگر آنان شرک می‌ورزیدند، آنچه انجام می‌دادند از دستشان تباه می‌شد.»"
+    },
+    {
+      "original_block": 102,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 112,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 113,
+      "before": "«امروز پاکیزه‌ها بر شما حلال شده‌اند؛ و خوراک کسانی که پیش از شما کتاب داده شده‌اند برای شما حلال است و خوراک شما برای آنان حلال است؛ و زنان پاکدامن از مؤمنان و زنان پاکدامن از کسانی که پیش از شما کتاب داده شده‌اند، هنگامی که مزدهایشان را به آنان بدهید، در حالی که پاکدامن باشید، نه زناکار و نه گیرندهٔ دوستان پنهانی. و هرکس به ایمان کفر ورزد، عملش تباه شده است و او در آخرت از زیان‌کاران خواهد بود.»",
+      "after": "«امروز پاکیزه‌ها بر شما حلال شده‌اند؛ و خوراک کسانی که کتاب داده شده‌اند برای شما حلال است و خوراک شما برای آنان حلال است؛ و زنان پاکدامن از مؤمنان و زنان پاکدامن از کسانی که پیش از شما کتاب داده شده‌اند، هنگامی که مزدهایشان را به آنان بدهید، در حالی که پاکدامن باشید، نه زناکار و نه گیرندهٔ دوستان پنهانی. و هرکس به ایمان کفر ورزد، عملش تباه شده است و او در آخرت از زیان‌کاران خواهد بود.»"
+    },
+    {
+      "original_block": 122,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 131,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 141,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 142,
+      "before": "«و کسانی که ایمان آورده‌اند می‌گویند: آیا اینان همان کسانی‌اند که با نهایت تأکید به خدا سوگند می‌خوردند که حتماً با شما هستند؟ اعمالشان تباه شد و زیان‌کار گردیدند.»",
+      "after": "«و کسانی که ایمان آورده‌اند می‌گویند: آیا اینان همان کسانی‌اند که با نهایت تأکید به آن معبود یگانه سوگند می‌خوردند که حتماً با شما هستند؟ اعمالشان تباه شد و زیان‌کار گردیدند.»"
+    },
+    {
+      "original_block": 151,
+      "before": "در توبه ۹:۱۷، قرآن از مشرکانی سخن می‌گوید که در حالی خواهان آبادانی مسجدهای خدا هستند که خود بر کفرشان گواه‌اند. سپس از تباه شدن اعمال آنان خبر می‌دهد.",
+      "after": "در توبه ۹:۱۷، قرآن می‌گوید مشرکان، در حالی که خود بر کفرشان گواه‌اند، شایستهٔ آباد کردن مسجدهای آن معبود یگانه نیستند. سپس از تباه شدن اعمال آنان خبر می‌دهد."
+    },
+    {
+      "original_block": 160,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 172,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 174,
+      "before": "این آیه در ادامهٔ کهف ۱۸:۱۰۳–۱۰۴ قرار دارد؛ جایی که از زیان‌کارترین اشخاص از نظر کردار سخن می‌رود: کسانی که کوشششان در زندگی دنیا به بیراهه رفته، درحالی‌که گمان می‌کنند کار نیک انجام می‌دهند.",
+      "after": "این آیه در ادامهٔ کهف ۱۸:۱۰۳ و کهف ۱۸:۱۰۴ قرار دارد؛ جایی که از زیان‌کارترین اشخاص از نظر کردار سخن می‌رود: کسانی که کوشششان در زندگی دنیا به بیراهه رفته، درحالی‌که گمان می‌کنند کار نیک انجام می‌دهند."
+    },
+    {
+      "original_block": 177,
+      "before": "در آیهٔ ۱۰۵، علت مورد بحث با کفر به آیات و ملاقات پروردگار مشخص شده است.",
+      "after": "در کهف ۱۸:۱۰۵، علت مورد بحث با کفر به آیات و ملاقات پروردگار مشخص شده است."
+    },
+    {
+      "original_block": 181,
+      "before": "### محمد ۴۷:۹، ۴۷:۲۸ و ۴۷:۳۲ ـ تباهی اعمال در برابر مخالفت با هدایت",
+      "after": "### محمد ۴۷:۹، محمد ۴۷:۲۸ و محمد ۴۷:۳۲ ـ تباهی اعمال در برابر مخالفت با هدایت"
+    },
+    {
+      "original_block": 188,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 189,
+      "before": "«بی‌گمان کسانی که کفر ورزیدند و از راه خدا بازداشتند و پس از آنکه هدایت برایشان روشن شد با رسول مخالفت کردند، هیچ زیانی به خدا نخواهند رساند و او اعمالشان را تباه خواهد ساخت.»",
+      "after": "«بی‌گمان کسانی که کفر ورزیدند و از راه آن معبود یگانه بازداشتند و پس از آنکه هدایت برایشان روشن شد با رسول مخالفت کردند، هیچ زیانی به آن معبود یگانه نخواهند رساند و او اعمالشان را تباه خواهد ساخت.»"
+    },
+    {
+      "original_block": 197,
+      "before": "**ترجمهٔ فارسی:**",
+      "after": "**برگردان پیشنهادی این پژوهش:**"
+    },
+    {
+      "original_block": 238,
+      "before": "در هود ۱۱:۱۵–۱۶، خواستن زندگی دنیا و زینت آن در سیاق برجسته است.",
+      "after": "در هود ۱۱:۱۵ و هود ۱۱:۱۶، خواستن زندگی دنیا و زینت آن در سیاق برجسته است."
+    },
+    {
+      "original_block": 244,
+      "before": "همچنین، ممکن است شخصی دربارهٔ درستی کردار خود گمان نیکی داشته باشد؛ چنان‌که سیاق کهف ۱۸:۱۰۳–۱۰۵ نشان می‌دهد. صرف اطمینان شخصی نیز درستی عمل را اثبات نمی‌کند.",
+      "after": "همچنین، ممکن است شخصی دربارهٔ درستی کردار خود گمان نیکی داشته باشد؛ چنان‌که سیاق کهف ۱۸:۱۰۳، کهف ۱۸:۱۰۴ و کهف ۱۸:۱۰۵ نشان می‌دهد. صرف اطمینان شخصی نیز درستی عمل را اثبات نمی‌کند."
+    },
+    {
+      "original_block": 261,
+      "before": "در محمد ۴۷:۱ و ۴۷:۸، از بی‌نتیجه ساختن اعمال با خانوادهٔ «ض ل ل» سخن رفته است؛ درحالی‌که در همان سوره، «أَحْبَطَ» نیز برای تباه ساختن اعمال به کار رفته است.",
+      "after": "در محمد ۴۷:۱ و محمد ۴۷:۸، از بی‌نتیجه ساختن اعمال با خانوادهٔ «ض ل ل» سخن رفته است؛ درحالی‌که در همان سوره، «أَحْبَطَ» نیز برای تباه ساختن اعمال به کار رفته است."
+    },
+    {
+      "original_block": 303,
+      "before": "ریشهٔ «ح ب ط» در زبان عربی به تباهی، از دست رفتن فایده و بی‌حاصل شدن مربوط است. کاربردهای کهن آن در بیماری چهارپایان، خشک شدن چاه، هدر رفتن خون و تباه شدن عمل نشان می‌دهند که این خانواده تنها دربارهٔ یک نوع فساد مادی نیست.",
+      "after": "ریشهٔ «ح ب ط» در زبان عربی به تباهی، از دست رفتن فایده و بی‌حاصل شدن مربوط است. کاربردهای کهن آن در بیماری چهارپایان، خشک شدن چاه، هدر رفتن خون و تباه شدن عمل نشان می‌دهند که این خانواده تنها دربارهٔ یک نوع فساد مادی نیست. **معنای کوتاه ریشه: تباه شدن و از دست رفتن حاصل و ارزش عمل؛ در باب افعال، تباه و بی‌اثر ساختن آن.**"
+    }
+  ],
+  "additional_root_summary_completions": [],
+  "Allah_boxes": [
+    {
+      "file": "quran-reflection/fa/002-al-baqarah/units/217.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        14,
+        24
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/003-al-imran/units/022.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/053.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        7
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/006-al-anam/units/088.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        3
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/147.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/017.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        7
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/009-at-tawbah/units/069.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/fa/011-hud/units/016.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/fa/018-al-kahf/units/105.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/fa/033-al-ahzab/units/019.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        29,
+        34
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/039-az-zumar/units/065.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/fa/047-muhammad/units/009.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        6
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/047-muhammad/units/028.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        6
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/047-muhammad/units/032.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        7,
+        18
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/049-al-hujurat/units/002.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/002-al-baqarah/units/217.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        14,
+        24
+      ]
+    },
+    {
+      "file": "quran-reflection/en/003-al-imran/units/022.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/005.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/053.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        7
+      ]
+    },
+    {
+      "file": "quran-reflection/en/006-al-anam/units/088.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        3
+      ]
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/147.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/017.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        7
+      ]
+    },
+    {
+      "file": "quran-reflection/en/009-at-tawbah/units/069.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/011-hud/units/016.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/018-al-kahf/units/105.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/033-al-ahzab/units/019.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        29,
+        34
+      ]
+    },
+    {
+      "file": "quran-reflection/en/039-az-zumar/units/065.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/047-muhammad/units/009.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        6
+      ]
+    },
+    {
+      "file": "quran-reflection/en/047-muhammad/units/028.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        6
+      ]
+    },
+    {
+      "file": "quran-reflection/en/047-muhammad/units/032.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        7,
+        18
+      ]
+    },
+    {
+      "file": "quran-reflection/en/049-al-hujurat/units/002.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    }
+  ],
+  "protected_reflection_verses": [],
+  "protected_reflection_rule": "Recursive includes,reflection markers,and authored reflection summary titles checked in both languages:no authored reflection in any of the sixteen target verses.All existing contexts,verse translations,Fatihah,Baqarah through160,authored reflections,canonical Allah metadata,chapter indexes,shared renderer,and prior work preserved.",
+  "protected_preexisting_issues": [],
+  "context_completion": {
+    "changes": [
+      {
+        "file": "quran-reflection/fa/002-al-baqarah/units/217.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/fa/003-al-imran/units/022.html",
+        "added": [
+          {
+            "position": 4,
+            "word": "أَعمٰلُهُم",
+            "context": "اعمالشان؛ کردارهای گروه یادشده."
+          },
+          {
+            "position": 6,
+            "word": "الدُّنيا",
+            "context": "دنیا؛ زندگی این‌جهانی."
+          },
+          {
+            "position": 7,
+            "word": "وَالـٔاخِرَةِ",
+            "context": "و آخرت؛ زندگی و سرانجام پس از دنیا."
+          },
+          {
+            "position": 11,
+            "word": "نٰصِرينَ",
+            "context": "یاوران؛ کسانی که آنان را یاری کنند، که وجودشان نفی شده است."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/005-al-maidah/units/005.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/fa/005-al-maidah/units/053.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/fa/006-al-anam/units/088.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "هُدَى",
+            "context": "هدایت؛ راهنماییِ آن معبود یگانه."
+          },
+          {
+            "position": 4,
+            "word": "يَهدى",
+            "context": "هدایت می‌کند؛ با آن هدایت، بندگانش را راه می‌نماید."
+          },
+          {
+            "position": 7,
+            "word": "يَشاءُ",
+            "context": "می‌خواهد؛ دربارهٔ ارادهٔ او در هدایت بندگان."
+          },
+          {
+            "position": 9,
+            "word": "عِبادِهِ",
+            "context": "بندگانش؛ کسانی که هدایت به آنان تعلق می‌گیرد."
+          },
+          {
+            "position": 11,
+            "word": "أَشرَكوا",
+            "context": "شرک می‌ورزیدند؛ شرطی که دربارهٔ پیامبران بیان شده است."
+          },
+          {
+            "position": 15,
+            "word": "كانوا",
+            "context": "بودند؛ همراه «یعملون» از کردارشان سخن می‌گوید."
+          },
+          {
+            "position": 16,
+            "word": "يَعمَلونَ",
+            "context": "انجام می‌دادند؛ اعمالی که در شرط یادشده تباه می‌شد."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/007-al-araf/units/147.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "كَذَّبوا",
+            "context": "تکذیب کردند؛ آیات و ملاقات آخرت را دروغ شمردند."
+          },
+          {
+            "position": 3,
+            "word": "بِـٔايٰتِنا",
+            "context": "به آیات ما؛ نشانه‌هایی که تکذیب کردند."
+          },
+          {
+            "position": 4,
+            "word": "وَلِقاءِ",
+            "context": "و ملاقات؛ در ترکیب «ملاقات آخرت»."
+          },
+          {
+            "position": 5,
+            "word": "الـٔاخِرَةِ",
+            "context": "آخرت؛ سرانجامی که ملاقات آن تکذیب شد."
+          },
+          {
+            "position": 7,
+            "word": "أَعمٰلُهُم",
+            "context": "اعمالشان؛ کردارهای کسانی که آیات را تکذیب کردند."
+          },
+          {
+            "position": 9,
+            "word": "يُجزَونَ",
+            "context": "جزا داده می‌شوند؛ پاداش یا کیفر کردارشان را می‌بینند."
+          },
+          {
+            "position": 12,
+            "word": "كانوا",
+            "context": "بودند؛ همراه «یعملون» رفتار پیشین را بیان می‌کند."
+          },
+          {
+            "position": 13,
+            "word": "يَعمَلونَ",
+            "context": "انجام می‌دادند؛ کردارهایی که جزا با آنها سنجیده می‌شود."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/009-at-tawbah/units/017.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "كانَ",
+            "context": "بود؛ در نفی شایستگی یا حقِ آباد کردن مسجدها برای مشرکان."
+          },
+          {
+            "position": 3,
+            "word": "لِلمُشرِكينَ",
+            "context": "برای مشرکان؛ کسانی که برای آن معبود یگانه شریک قرار می‌دهند."
+          },
+          {
+            "position": 5,
+            "word": "يَعمُروا",
+            "context": "آباد کنند؛ به آبادانی و نگهداری مسجدها بپردازند."
+          },
+          {
+            "position": 6,
+            "word": "مَسٰجِدَ",
+            "context": "مسجدها؛ جایگاه‌های سجده و عبادت."
+          },
+          {
+            "position": 8,
+            "word": "شٰهِدينَ",
+            "context": "گواهی‌دهندگان؛ در حالی که بر کفر خود گواه‌اند."
+          },
+          {
+            "position": 10,
+            "word": "أَنفُسِهِم",
+            "context": "خودشان؛ کسانی که گواهی علیه خودشان است."
+          },
+          {
+            "position": 11,
+            "word": "بِالكُفرِ",
+            "context": "به کفر؛ آنچه بر خود گواهی می‌دهند."
+          },
+          {
+            "position": 14,
+            "word": "أَعمٰلُهُم",
+            "context": "اعمالشان؛ کردارهای همان گروه."
+          },
+          {
+            "position": 16,
+            "word": "النّارِ",
+            "context": "آتش؛ جایگاهی که در آن ماندگارند."
+          },
+          {
+            "position": 18,
+            "word": "خٰلِدونَ",
+            "context": "ماندگارند؛ در آتش می‌مانند."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/009-at-tawbah/units/069.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "قَبلِكُم",
+            "context": "پیش از شما؛ نسل‌های پیشین."
+          },
+          {
+            "position": 4,
+            "word": "كانوا",
+            "context": "بودند؛ ویژگی‌های گروه‌های پیشین را بیان می‌کند."
+          },
+          {
+            "position": 5,
+            "word": "أَشَدَّ",
+            "context": "شدیدتر؛ در اینجا نیرومندتر."
+          },
+          {
+            "position": 7,
+            "word": "قُوَّةً",
+            "context": "نیرو؛ توان و قدرت آنان."
+          },
+          {
+            "position": 8,
+            "word": "وَأَكثَرَ",
+            "context": "و بیشتر؛ در مال و فرزندان."
+          },
+          {
+            "position": 9,
+            "word": "أَموٰلًا",
+            "context": "اموال؛ دارایی‌های فراوان آنان."
+          },
+          {
+            "position": 10,
+            "word": "وَأَولٰدًا",
+            "context": "و فرزندان؛ فزونیِ زادگان آنان."
+          },
+          {
+            "position": 11,
+            "word": "فَاستَمتَعوا",
+            "context": "پس بهره بردند؛ از سهم خود در زندگی دنیا."
+          },
+          {
+            "position": 12,
+            "word": "بِخَلٰقِهِم",
+            "context": "از بهره‌شان؛ سهمی که نصیب آنان شده بود."
+          },
+          {
+            "position": 13,
+            "word": "فَاستَمتَعتُم",
+            "context": "پس بهره بردید؛ شما نیز از سهم خود برخوردار شدید."
+          },
+          {
+            "position": 14,
+            "word": "بِخَلٰقِكُم",
+            "context": "از بهره‌تان؛ سهم شما از دنیا."
+          },
+          {
+            "position": 16,
+            "word": "استَمتَعَ",
+            "context": "بهره بردند؛ دربارهٔ برخورداری نسل‌های پیشین."
+          },
+          {
+            "position": 19,
+            "word": "قَبلِكُم",
+            "context": "پیش از شما؛ کسانی که رفتار شما با آنان سنجیده می‌شود."
+          },
+          {
+            "position": 20,
+            "word": "بِخَلٰقِهِم",
+            "context": "از بهره‌شان؛ سهم نسل‌های پیشین."
+          },
+          {
+            "position": 21,
+            "word": "وَخُضتُم",
+            "context": "و فرو رفتید؛ در همان گفتار و رفتار ناروا."
+          },
+          {
+            "position": 23,
+            "word": "خاضوا",
+            "context": "فرو رفتند؛ رفتار کسانی که پیش از شما بودند."
+          },
+          {
+            "position": 26,
+            "word": "أَعمٰلُهُم",
+            "context": "اعمالشان؛ کردارهای گروه مورد اشاره."
+          },
+          {
+            "position": 28,
+            "word": "الدُّنيا",
+            "context": "دنیا؛ زندگی این‌جهانی."
+          },
+          {
+            "position": 29,
+            "word": "وَالـٔاخِرَةِ",
+            "context": "و آخرت؛ سرانجام پس از دنیا."
+          },
+          {
+            "position": 32,
+            "word": "الخٰسِرونَ",
+            "context": "زیان‌کاران؛ کسانی که حاصل و سود خود را از دست داده‌اند."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/011-hud/units/016.html",
+        "added": [
+          {
+            "position": 6,
+            "word": "الـٔاخِرَةِ",
+            "context": "آخرت؛ جایی که برای آنان جز آتش نیست."
+          },
+          {
+            "position": 8,
+            "word": "النّارُ",
+            "context": "آتش؛ سرانجامی که در آیه برای آنان بیان شده است."
+          },
+          {
+            "position": 11,
+            "word": "صَنَعوا",
+            "context": "انجام دادند؛ آنچه در دنیا ساخته و پرداخته‌اند."
+          },
+          {
+            "position": 13,
+            "word": "وَبٰطِلٌ",
+            "context": "و بی‌حاصل است؛ وصفِ آنچه انجام می‌دادند."
+          },
+          {
+            "position": 15,
+            "word": "كانوا",
+            "context": "بودند؛ همراه «یعملون» کردار پیشین را بیان می‌کند."
+          },
+          {
+            "position": 16,
+            "word": "يَعمَلونَ",
+            "context": "انجام می‌دادند؛ کردارهایی که بی‌حاصل وصف شده‌اند."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/018-al-kahf/units/105.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "كَفَروا",
+            "context": "کفر ورزیدند؛ آیات پروردگار و ملاقات او را نپذیرفتند."
+          },
+          {
+            "position": 4,
+            "word": "بِـٔايٰتِ",
+            "context": "به آیات؛ نشانه‌های پروردگارشان."
+          },
+          {
+            "position": 5,
+            "word": "رَبِّهِم",
+            "context": "پروردگارشان؛ مرجع پرورش و تدبیر آنان."
+          },
+          {
+            "position": 6,
+            "word": "وَلِقائِهِ",
+            "context": "و ملاقات او؛ رویارویی با پروردگار در سرانجام."
+          },
+          {
+            "position": 8,
+            "word": "أَعمٰلُهُم",
+            "context": "اعمالشان؛ کوشش‌های کسانی که آیات را نپذیرفتند."
+          },
+          {
+            "position": 10,
+            "word": "نُقيمُ",
+            "context": "برپا می‌داریم؛ در اینجا برپا کردن وزن برای آنان نفی شده است."
+          },
+          {
+            "position": 12,
+            "word": "يَومَ",
+            "context": "روز؛ زمانِ برپایی قیامت."
+          },
+          {
+            "position": 13,
+            "word": "القِيٰمَةِ",
+            "context": "قیامت؛ برپاییِ رستاخیز و داوری."
+          },
+          {
+            "position": 14,
+            "word": "وَزنًا",
+            "context": "وزنی؛ اعتبار و سنگینی در سنجش نهایی، که برای آنان نفی شده است."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/033-al-ahzab/units/019.html",
+        "added": [
+          {
+            "position": 1,
+            "word": "أَشِحَّةً",
+            "context": "تنگ‌گیر؛ نسبت به یاری شما بخل می‌ورزند."
+          },
+          {
+            "position": 4,
+            "word": "جاءَ",
+            "context": "آمد؛ فرا رسیدن ترس."
+          },
+          {
+            "position": 5,
+            "word": "الخَوفُ",
+            "context": "ترس؛ هراس هنگام خطر."
+          },
+          {
+            "position": 6,
+            "word": "رَأَيتَهُم",
+            "context": "آنان را می‌بینی؛ وصفِ مشاهدهٔ رفتارشان هنگام ترس."
+          },
+          {
+            "position": 7,
+            "word": "يَنظُرونَ",
+            "context": "می‌نگرند؛ نگاهشان را به سوی تو می‌دوزند."
+          },
+          {
+            "position": 9,
+            "word": "تَدورُ",
+            "context": "می‌گردد؛ حرکت چشم‌های آنان از هراس."
+          },
+          {
+            "position": 10,
+            "word": "أَعيُنُهُم",
+            "context": "چشم‌هایشان؛ اعضایی که از ترس می‌گردند."
+          },
+          {
+            "position": 12,
+            "word": "يُغشىٰ",
+            "context": "بی‌هوش می‌شود؛ مانند کسی که از مرگ از حال می‌رود."
+          },
+          {
+            "position": 15,
+            "word": "المَوتِ",
+            "context": "مرگ؛ در تشبیهِ شخصِ ازحال‌رفته."
+          },
+          {
+            "position": 17,
+            "word": "ذَهَبَ",
+            "context": "رفت؛ برطرف شدن ترس."
+          },
+          {
+            "position": 18,
+            "word": "الخَوفُ",
+            "context": "ترس؛ هراسی که برطرف شد."
+          },
+          {
+            "position": 19,
+            "word": "سَلَقوكُم",
+            "context": "با درشتی به شما تاختند؛ آزار با زبان‌های تند."
+          },
+          {
+            "position": 20,
+            "word": "بِأَلسِنَةٍ",
+            "context": "با زبان‌هایی؛ وسیلهٔ گفتار تندشان."
+          },
+          {
+            "position": 21,
+            "word": "حِدادٍ",
+            "context": "تند و تیز؛ وصفِ زبان‌ها و گفتارشان."
+          },
+          {
+            "position": 22,
+            "word": "أَشِحَّةً",
+            "context": "تنگ‌گیر؛ نسبت به خیر بخل می‌ورزند."
+          },
+          {
+            "position": 24,
+            "word": "الخَيرِ",
+            "context": "خیر؛ نیکی یا بهرهٔ مطلوبی که درباره‌اش تنگ‌گیرند."
+          },
+          {
+            "position": 27,
+            "word": "يُؤمِنوا",
+            "context": "ایمان آوردند؛ در اینجا ایمان آوردنشان نفی شده است."
+          },
+          {
+            "position": 30,
+            "word": "أَعمٰلَهُم",
+            "context": "اعمالشان؛ کردارهایی که تباه ساخته شده‌اند."
+          },
+          {
+            "position": 31,
+            "word": "وَكانَ",
+            "context": "و بود؛ بیانِ آسان بودن این امر بر آن معبود یگانه."
+          },
+          {
+            "position": 35,
+            "word": "يَسيرًا",
+            "context": "آسان؛ وصفِ این امر برای آن معبود یگانه."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/039-az-zumar/units/065.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "أوحِىَ",
+            "context": "وحی شد؛ پیام هشدار به مخاطب و پیامبران پیشین."
+          },
+          {
+            "position": 7,
+            "word": "قَبلِكَ",
+            "context": "پیش از تو؛ پیامبرانی که پیش‌تر بودند."
+          },
+          {
+            "position": 9,
+            "word": "أَشرَكتَ",
+            "context": "شرک ورزی؛ شرطِ هشدار در آیه."
+          },
+          {
+            "position": 11,
+            "word": "عَمَلُكَ",
+            "context": "عملت؛ کردارِ مخاطب در شرط یادشده."
+          },
+          {
+            "position": 12,
+            "word": "وَلَتَكونَنَّ",
+            "context": "و بی‌گمان خواهی بود؛ پاسخ مؤکدِ شرط."
+          },
+          {
+            "position": 14,
+            "word": "الخٰسِرينَ",
+            "context": "زیان‌کاران؛ گروهی که در شرط یادشده به آنان می‌پیوندد."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/047-muhammad/units/009.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "كَرِهوا",
+            "context": "ناخوش داشتند؛ آنچه نازل شده بود را نپسندیدند."
+          },
+          {
+            "position": 5,
+            "word": "أَنزَلَ",
+            "context": "فروفرستاد؛ آنچه آن معبود یگانه نازل کرده است."
+          },
+          {
+            "position": 8,
+            "word": "أَعمٰلَهُم",
+            "context": "اعمالشان؛ کردارهای کسانی که وحی را ناخوش داشتند."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/047-muhammad/units/028.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "اتَّبَعوا",
+            "context": "پیروی کردند؛ از آنچه خشم برمی‌انگیزد."
+          },
+          {
+            "position": 5,
+            "word": "أَسخَطَ",
+            "context": "به خشم آورد؛ آنچه موجب ناخشنودی الهی است."
+          },
+          {
+            "position": 7,
+            "word": "وَكَرِهوا",
+            "context": "و ناخوش داشتند؛ رضایت او را نپسندیدند."
+          },
+          {
+            "position": 8,
+            "word": "رِضوٰنَهُ",
+            "context": "رضایتش؛ خشنودی آن معبود یگانه."
+          },
+          {
+            "position": 10,
+            "word": "أَعمٰلَهُم",
+            "context": "اعمالشان؛ کردارهای همان گروه."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/047-muhammad/units/032.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "كَفَروا",
+            "context": "کفر ورزیدند؛ از اوصاف گروه مورد هشدار."
+          },
+          {
+            "position": 4,
+            "word": "وَصَدّوا",
+            "context": "و بازداشتند؛ مانع راه آن معبود یگانه شدند."
+          },
+          {
+            "position": 6,
+            "word": "سَبيلِ",
+            "context": "راه؛ مسیر منسوب به آن معبود یگانه."
+          },
+          {
+            "position": 8,
+            "word": "وَشاقُّوا",
+            "context": "و مخالفت کردند؛ در برابر رسول ایستادند."
+          },
+          {
+            "position": 9,
+            "word": "الرَّسولَ",
+            "context": "رسول؛ پیام‌آوری که با او مخالفت کردند."
+          },
+          {
+            "position": 11,
+            "word": "بَعدِ",
+            "context": "پس از؛ بیان ترتیبِ روشن شدن هدایت و مخالفت."
+          },
+          {
+            "position": 13,
+            "word": "تَبَيَّنَ",
+            "context": "روشن شد؛ آشکار شدن هدایت برای آنان."
+          },
+          {
+            "position": 15,
+            "word": "الهُدىٰ",
+            "context": "هدایت؛ راهنمایی‌ای که برایشان روشن شد."
+          },
+          {
+            "position": 17,
+            "word": "يَضُرُّوا",
+            "context": "زیان می‌رسانند؛ توان آسیب رساندنشان در اینجا نفی شده است."
+          },
+          {
+            "position": 19,
+            "word": "شَيـًٔا",
+            "context": "چیزی؛ در اینجا هیچ مقدار زیان."
+          },
+          {
+            "position": 21,
+            "word": "أَعمٰلَهُم",
+            "context": "اعمالشان؛ کردارهایی که تباه خواهد ساخت."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/049-al-hujurat/units/002.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "ءامَنوا",
+            "context": "ایمان آورده‌اند؛ مخاطبان هشدار."
+          },
+          {
+            "position": 5,
+            "word": "تَرفَعوا",
+            "context": "بالا ببرید؛ بلند کردن صدا که نهی شده است."
+          },
+          {
+            "position": 6,
+            "word": "أَصوٰتَكُم",
+            "context": "صداهایتان؛ آواز و گفتارِ مخاطبان."
+          },
+          {
+            "position": 7,
+            "word": "فَوقَ",
+            "context": "بالاتر از؛ نسبت صدای مخاطبان با صدای پیامبر."
+          },
+          {
+            "position": 8,
+            "word": "صَوتِ",
+            "context": "صدای؛ آوازِ پیامبر."
+          },
+          {
+            "position": 9,
+            "word": "النَّبِىِّ",
+            "context": "پیامبر؛ کسی که حرمت گفتار با او مطرح است."
+          },
+          {
+            "position": 11,
+            "word": "تَجهَروا",
+            "context": "بلند سخن بگویید؛ گفتار بلند با پیامبر که نهی شده است."
+          },
+          {
+            "position": 13,
+            "word": "بِالقَولِ",
+            "context": "در گفتار؛ سخن گفتن با او."
+          },
+          {
+            "position": 14,
+            "word": "كَجَهرِ",
+            "context": "مانند بلند سخن گفتن؛ مقایسه با گفت‌وگوی معمول میان خودشان."
+          },
+          {
+            "position": 15,
+            "word": "بَعضِكُم",
+            "context": "برخی از شما؛ یک سوی گفت‌وگو میان مخاطبان."
+          },
+          {
+            "position": 16,
+            "word": "لِبَعضٍ",
+            "context": "با برخی دیگر؛ طرف دیگر گفت‌وگوی خودشان."
+          },
+          {
+            "position": 19,
+            "word": "أَعمٰلُكُم",
+            "context": "اعمالتان؛ کردارهایی که از تباهی‌شان هشدار داده می‌شود."
+          },
+          {
+            "position": 22,
+            "word": "تَشعُرونَ",
+            "context": "آگاه می‌شوید؛ در اینجا ناآگاهی از پیامد مطرح است."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/002-al-baqarah/units/217.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/en/003-al-imran/units/022.html",
+        "added": [
+          {
+            "position": 4,
+            "word": "أَعمٰلُهُم",
+            "context": "Their deeds; the actions of the group described."
+          },
+          {
+            "position": 6,
+            "word": "الدُّنيا",
+            "context": "This world; earthly life."
+          },
+          {
+            "position": 7,
+            "word": "وَالـٔاخِرَةِ",
+            "context": "And the Hereafter; the life and outcome beyond this world."
+          },
+          {
+            "position": 11,
+            "word": "نٰصِرينَ",
+            "context": "Helpers; those who might assist them, here denied."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/005-al-maidah/units/005.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/en/005-al-maidah/units/053.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/en/006-al-anam/units/088.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "هُدَى",
+            "context": "Guidance; the guidance of The God."
+          },
+          {
+            "position": 4,
+            "word": "يَهدى",
+            "context": "He guides; directing His servants through that guidance."
+          },
+          {
+            "position": 7,
+            "word": "يَشاءُ",
+            "context": "He wills; concerning His will in guiding His servants."
+          },
+          {
+            "position": 9,
+            "word": "عِبادِهِ",
+            "context": "His servants; those to whom the guidance applies."
+          },
+          {
+            "position": 11,
+            "word": "أَشرَكوا",
+            "context": "They had associated partners; a condition stated concerning the prophets."
+          },
+          {
+            "position": 15,
+            "word": "كانوا",
+            "context": "They were; with yaʿmalūna, describing their conduct."
+          },
+          {
+            "position": 16,
+            "word": "يَعمَلونَ",
+            "context": "They used to do; deeds that would become fruitless under the stated condition."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/007-al-araf/units/147.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "كَذَّبوا",
+            "context": "They denied; rejecting the signs and the meeting of the Hereafter."
+          },
+          {
+            "position": 3,
+            "word": "بِـٔايٰتِنا",
+            "context": "Our signs; those they denied."
+          },
+          {
+            "position": 4,
+            "word": "وَلِقاءِ",
+            "context": "And the meeting; in the expression “the meeting of the Hereafter.”"
+          },
+          {
+            "position": 5,
+            "word": "الـٔاخِرَةِ",
+            "context": "The Hereafter; the final meeting they denied."
+          },
+          {
+            "position": 7,
+            "word": "أَعمٰلُهُم",
+            "context": "Their deeds; the actions of those who denied the signs."
+          },
+          {
+            "position": 9,
+            "word": "يُجزَونَ",
+            "context": "They are recompensed; receiving the consequence of their deeds."
+          },
+          {
+            "position": 12,
+            "word": "كانوا",
+            "context": "They were; with yaʿmalūna, describing past conduct."
+          },
+          {
+            "position": 13,
+            "word": "يَعمَلونَ",
+            "context": "They used to do; the deeds to which recompense relates."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/009-at-tawbah/units/017.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "كانَ",
+            "context": "Was; within the denial that associators are entitled to maintain the places of worship."
+          },
+          {
+            "position": 3,
+            "word": "لِلمُشرِكينَ",
+            "context": "For the associators; those who associate partners with The God."
+          },
+          {
+            "position": 5,
+            "word": "يَعمُروا",
+            "context": "To maintain; tending and maintaining the places of worship."
+          },
+          {
+            "position": 6,
+            "word": "مَسٰجِدَ",
+            "context": "Places of worship; places of prostration and worship."
+          },
+          {
+            "position": 8,
+            "word": "شٰهِدينَ",
+            "context": "Bearing witness; testifying against themselves to unbelief."
+          },
+          {
+            "position": 10,
+            "word": "أَنفُسِهِم",
+            "context": "Themselves; those against whom their own testimony stands."
+          },
+          {
+            "position": 11,
+            "word": "بِالكُفرِ",
+            "context": "To unbelief; what they attest concerning themselves."
+          },
+          {
+            "position": 14,
+            "word": "أَعمٰلُهُم",
+            "context": "Their deeds; the actions of that group."
+          },
+          {
+            "position": 16,
+            "word": "النّارِ",
+            "context": "The Fire; the place in which they remain."
+          },
+          {
+            "position": 18,
+            "word": "خٰلِدونَ",
+            "context": "Remaining; abiding in the Fire."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/009-at-tawbah/units/069.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "قَبلِكُم",
+            "context": "Before you; earlier generations."
+          },
+          {
+            "position": 4,
+            "word": "كانوا",
+            "context": "They were; introducing the earlier groups’ characteristics."
+          },
+          {
+            "position": 5,
+            "word": "أَشَدَّ",
+            "context": "Stronger; here, greater in strength."
+          },
+          {
+            "position": 7,
+            "word": "قُوَّةً",
+            "context": "Strength; their power and ability."
+          },
+          {
+            "position": 8,
+            "word": "وَأَكثَرَ",
+            "context": "And more numerous; in wealth and children."
+          },
+          {
+            "position": 9,
+            "word": "أَموٰلًا",
+            "context": "Wealth; their abundant possessions."
+          },
+          {
+            "position": 10,
+            "word": "وَأَولٰدًا",
+            "context": "And children; their numerous offspring."
+          },
+          {
+            "position": 11,
+            "word": "فَاستَمتَعوا",
+            "context": "So they enjoyed; taking their worldly share."
+          },
+          {
+            "position": 12,
+            "word": "بِخَلٰقِهِم",
+            "context": "Their share; the portion allotted to them."
+          },
+          {
+            "position": 13,
+            "word": "فَاستَمتَعتُم",
+            "context": "So you enjoyed; taking your own share likewise."
+          },
+          {
+            "position": 14,
+            "word": "بِخَلٰقِكُم",
+            "context": "Your share; your worldly portion."
+          },
+          {
+            "position": 16,
+            "word": "استَمتَعَ",
+            "context": "They enjoyed; concerning the earlier generations’ enjoyment."
+          },
+          {
+            "position": 19,
+            "word": "قَبلِكُم",
+            "context": "Before you; those with whom your conduct is compared."
+          },
+          {
+            "position": 20,
+            "word": "بِخَلٰقِهِم",
+            "context": "Their share; the earlier generations’ portion."
+          },
+          {
+            "position": 21,
+            "word": "وَخُضتُم",
+            "context": "And you plunged in; engaging in the same wrongful talk or conduct."
+          },
+          {
+            "position": 23,
+            "word": "خاضوا",
+            "context": "They plunged in; the conduct of those before you."
+          },
+          {
+            "position": 26,
+            "word": "أَعمٰلُهُم",
+            "context": "Their deeds; the conduct of those described."
+          },
+          {
+            "position": 28,
+            "word": "الدُّنيا",
+            "context": "This world; earthly life."
+          },
+          {
+            "position": 29,
+            "word": "وَالـٔاخِرَةِ",
+            "context": "And the Hereafter; the final outcome beyond this world."
+          },
+          {
+            "position": 32,
+            "word": "الخٰسِرونَ",
+            "context": "The losers; those who have lost their fruit and gain."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/011-hud/units/016.html",
+        "added": [
+          {
+            "position": 6,
+            "word": "الـٔاخِرَةِ",
+            "context": "The Hereafter; where they have nothing except the Fire."
+          },
+          {
+            "position": 8,
+            "word": "النّارُ",
+            "context": "The Fire; the outcome stated for them."
+          },
+          {
+            "position": 11,
+            "word": "صَنَعوا",
+            "context": "They did or made; what they produced in the world."
+          },
+          {
+            "position": 13,
+            "word": "وَبٰطِلٌ",
+            "context": "And vain; describing what they used to do."
+          },
+          {
+            "position": 15,
+            "word": "كانوا",
+            "context": "They were; with yaʿmalūna, describing past conduct."
+          },
+          {
+            "position": 16,
+            "word": "يَعمَلونَ",
+            "context": "They used to do; the deeds described as vain."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/018-al-kahf/units/105.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "كَفَروا",
+            "context": "They rejected; refusing their Lord’s signs and meeting Him."
+          },
+          {
+            "position": 4,
+            "word": "بِـٔايٰتِ",
+            "context": "The signs; those of their Lord."
+          },
+          {
+            "position": 5,
+            "word": "رَبِّهِم",
+            "context": "Their Lord; the One who sustains and governs them."
+          },
+          {
+            "position": 6,
+            "word": "وَلِقائِهِ",
+            "context": "And meeting Him; the final meeting with their Lord."
+          },
+          {
+            "position": 8,
+            "word": "أَعمٰلُهُم",
+            "context": "Their deeds; the efforts of those who rejected the signs."
+          },
+          {
+            "position": 10,
+            "word": "نُقيمُ",
+            "context": "We assign or establish; here, assigning weight to them is negated."
+          },
+          {
+            "position": 12,
+            "word": "يَومَ",
+            "context": "The Day; the time of Resurrection."
+          },
+          {
+            "position": 13,
+            "word": "القِيٰمَةِ",
+            "context": "Resurrection; the rising and final judgment."
+          },
+          {
+            "position": 14,
+            "word": "وَزنًا",
+            "context": "Weight; standing in the final assessment, here denied to them."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/033-al-ahzab/units/019.html",
+        "added": [
+          {
+            "position": 1,
+            "word": "أَشِحَّةً",
+            "context": "Stingy; withholding support from you."
+          },
+          {
+            "position": 4,
+            "word": "جاءَ",
+            "context": "Came; the arrival of fear."
+          },
+          {
+            "position": 5,
+            "word": "الخَوفُ",
+            "context": "Fear; alarm in danger."
+          },
+          {
+            "position": 6,
+            "word": "رَأَيتَهُم",
+            "context": "You see them; observing their behavior in fear."
+          },
+          {
+            "position": 7,
+            "word": "يَنظُرونَ",
+            "context": "They look; directing their gaze toward you."
+          },
+          {
+            "position": 9,
+            "word": "تَدورُ",
+            "context": "Roll; the motion of their eyes in fear."
+          },
+          {
+            "position": 10,
+            "word": "أَعيُنُهُم",
+            "context": "Their eyes; those rolling in fear."
+          },
+          {
+            "position": 12,
+            "word": "يُغشىٰ",
+            "context": "Is overcome; like someone fainting at death."
+          },
+          {
+            "position": 15,
+            "word": "المَوتِ",
+            "context": "Death; in the comparison with someone overcome by it."
+          },
+          {
+            "position": 17,
+            "word": "ذَهَبَ",
+            "context": "Went away; the passing of fear."
+          },
+          {
+            "position": 18,
+            "word": "الخَوفُ",
+            "context": "Fear; the alarm that passed."
+          },
+          {
+            "position": 19,
+            "word": "سَلَقوكُم",
+            "context": "They assailed you; attacking with sharp tongues."
+          },
+          {
+            "position": 20,
+            "word": "بِأَلسِنَةٍ",
+            "context": "With tongues; the means of their harsh speech."
+          },
+          {
+            "position": 21,
+            "word": "حِدادٍ",
+            "context": "Sharp; describing their tongues and speech."
+          },
+          {
+            "position": 22,
+            "word": "أَشِحَّةً",
+            "context": "Stingy; withholding good."
+          },
+          {
+            "position": 24,
+            "word": "الخَيرِ",
+            "context": "Good; the benefit concerning which they are stingy."
+          },
+          {
+            "position": 27,
+            "word": "يُؤمِنوا",
+            "context": "They believed; here, their belief is negated."
+          },
+          {
+            "position": 30,
+            "word": "أَعمٰلَهُم",
+            "context": "Their deeds; the actions rendered fruitless."
+          },
+          {
+            "position": 31,
+            "word": "وَكانَ",
+            "context": "And was; expressing that this is easy for The God."
+          },
+          {
+            "position": 35,
+            "word": "يَسيرًا",
+            "context": "Easy; describing this matter for The God."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/039-az-zumar/units/065.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "أوحِىَ",
+            "context": "Was revealed; the warning to the addressee and earlier prophets."
+          },
+          {
+            "position": 7,
+            "word": "قَبلِكَ",
+            "context": "Before you; the earlier prophets."
+          },
+          {
+            "position": 9,
+            "word": "أَشرَكتَ",
+            "context": "You associate partners; the condition in the warning."
+          },
+          {
+            "position": 11,
+            "word": "عَمَلُكَ",
+            "context": "Your work; the addressee’s conduct under that condition."
+          },
+          {
+            "position": 12,
+            "word": "وَلَتَكونَنَّ",
+            "context": "And you will certainly be; the emphatic consequence of the condition."
+          },
+          {
+            "position": 14,
+            "word": "الخٰسِرينَ",
+            "context": "The losers; those the addressee would join under that condition."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/047-muhammad/units/009.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "كَرِهوا",
+            "context": "They disliked; disapproving of what was sent down."
+          },
+          {
+            "position": 5,
+            "word": "أَنزَلَ",
+            "context": "He sent down; what The God revealed."
+          },
+          {
+            "position": 8,
+            "word": "أَعمٰلَهُم",
+            "context": "Their deeds; those of the people who disliked revelation."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/047-muhammad/units/028.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "اتَّبَعوا",
+            "context": "They followed; what brings anger."
+          },
+          {
+            "position": 5,
+            "word": "أَسخَطَ",
+            "context": "Angered; what provokes divine displeasure."
+          },
+          {
+            "position": 7,
+            "word": "وَكَرِهوا",
+            "context": "And they disliked; disapproving of His pleasure."
+          },
+          {
+            "position": 8,
+            "word": "رِضوٰنَهُ",
+            "context": "His pleasure; the approval of The God."
+          },
+          {
+            "position": 10,
+            "word": "أَعمٰلَهُم",
+            "context": "Their deeds; the conduct of that group."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/047-muhammad/units/032.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "كَفَروا",
+            "context": "They rejected; one description of those addressed by the warning."
+          },
+          {
+            "position": 4,
+            "word": "وَصَدّوا",
+            "context": "And they hindered; obstructing the way of The God."
+          },
+          {
+            "position": 6,
+            "word": "سَبيلِ",
+            "context": "The way; the path belonging to The God."
+          },
+          {
+            "position": 8,
+            "word": "وَشاقُّوا",
+            "context": "And they opposed; setting themselves against the Messenger."
+          },
+          {
+            "position": 9,
+            "word": "الرَّسولَ",
+            "context": "The Messenger; the one they opposed."
+          },
+          {
+            "position": 11,
+            "word": "بَعدِ",
+            "context": "After; placing their opposition after clarity of guidance."
+          },
+          {
+            "position": 13,
+            "word": "تَبَيَّنَ",
+            "context": "Became clear; guidance becoming evident to them."
+          },
+          {
+            "position": 15,
+            "word": "الهُدىٰ",
+            "context": "Guidance; the direction made clear to them."
+          },
+          {
+            "position": 17,
+            "word": "يَضُرُّوا",
+            "context": "They harm; their ability to cause harm is negated here."
+          },
+          {
+            "position": 19,
+            "word": "شَيـًٔا",
+            "context": "Anything; here, any degree of harm."
+          },
+          {
+            "position": 21,
+            "word": "أَعمٰلَهُم",
+            "context": "Their deeds; the actions He will render fruitless."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/049-al-hujurat/units/002.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "ءامَنوا",
+            "context": "They have believed; the people addressed by the warning."
+          },
+          {
+            "position": 5,
+            "word": "تَرفَعوا",
+            "context": "Raise; the lifting of voices that is prohibited."
+          },
+          {
+            "position": 6,
+            "word": "أَصوٰتَكُم",
+            "context": "Your voices; the addressees’ vocal speech."
+          },
+          {
+            "position": 7,
+            "word": "فَوقَ",
+            "context": "Above; relating the addressees’ voices to the Prophet’s voice."
+          },
+          {
+            "position": 8,
+            "word": "صَوتِ",
+            "context": "The voice of; the Prophet’s voice."
+          },
+          {
+            "position": 9,
+            "word": "النَّبِىِّ",
+            "context": "The Prophet; the one whose address requires respect."
+          },
+          {
+            "position": 11,
+            "word": "تَجهَروا",
+            "context": "Speak loudly; the loud address to the Prophet that is prohibited."
+          },
+          {
+            "position": 13,
+            "word": "بِالقَولِ",
+            "context": "In speech; addressing him."
+          },
+          {
+            "position": 14,
+            "word": "كَجَهرِ",
+            "context": "Like loud address; comparison with their ordinary speech to one another."
+          },
+          {
+            "position": 15,
+            "word": "بَعضِكُم",
+            "context": "Some of you; one side of speech among the addressees."
+          },
+          {
+            "position": 16,
+            "word": "لِبَعضٍ",
+            "context": "To others; the other participants in their speech."
+          },
+          {
+            "position": 19,
+            "word": "أَعمٰلُكُم",
+            "context": "Your deeds; the actions whose loss is warned against."
+          },
+          {
+            "position": 22,
+            "word": "تَشعُرونَ",
+            "context": "You are aware; here, awareness of the consequence is negated."
+          }
+        ]
+      }
+    ],
+    "added_context_fields": 244,
+    "own_missing_fields_added": 26
+  },
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=HbT",
+      "use": "Sixteen exact positions in sixteen verses and twelve surahs:twelve FormI verbs and four FormIV verbs.All concern human deeds."
+    },
+    {
+      "url": "https://arabiclexicon.hawramani.com/?p=12119#2f831e",
+      "use": "Primary Maqayis gives nullity or pain,livestock illness,and remaining wound marks.Preserved lexical branches without claiming one proven historical derivation."
+    },
+    {
+      "url": "https://arabiclexicon.hawramani.com/حبط/",
+      "use": "Primary Lisan,Sihah,Asas,and Misbah attest fruitless work,livestock illness,well-water loss,unrequited blood,and wound complications.The livestock image is not imported into Quranic translations."
+    },
+    {
+      "url": "https://tafsir.app/tabari/11/16",
+      "use": "Primary Tabari connects worldly results with lost final reward.Preserved distinction between deeds occurring historically and their fruit or value in judgment."
+    },
+    {
+      "url": "https://tafsir.app/tabari/49/2",
+      "use": "Primary Tabari treats the believers speech warning as a consequence to avoid,not a declaration that every addressee s deeds have already become fruitless."
+    },
+    {
+      "url": "https://quran-tafsir.net/alrazy/sura2-aya217.html",
+      "use": "Primary Razi reports differing theological explanations of lost rewards.Preserved distinction between lexical meaning and later numerical balancing theories;no detailed later doctrine imposed."
+    },
+    {
+      "url": "https://arabiclexicon.hawramani.com/زول/",
+      "use": "Primary Sihah and Lisan group ma zala continuity under ZWL.Website2:217:30 retains ZWL while QAC uses ZYL.Documented classification difference,not unrelated root assignment."
+    },
+    {
+      "url": "https://arabiclexicon.hawramani.com/غشي/",
+      "use": "Primary Raghib explicitly quotes33:19 yughsha under GHSHY.Website grouping retained while QAC uses GHSHW.Documented weak-final-root classification difference."
+    },
+    {
+      "url": "Supplied5:5Arabic and verified installed verse",
+      "use": "Removed before you from the first food clause of the proposed Persian rendering:the Arabic first clause has no min qablikum.The later marriage clause retains before you.Clarified9:17as denial of entitlement rather than merely a reported wish."
+    },
+    {
+      "url": "AGENTS.md",
+      "use": "No authored reflections in sixteen target verses in either language,checked recursively.All existing contexts and installed translations retained.Allah canonical metadata and prior work preserved."
+    },
+    {
+      "url": "Installed Forqan Persian translations",
+      "use": "All eleven full article renderings differ from installed text and are labeled proposed.All range references expanded to individual verified verse anchors;installed verse translations unchanged."
+    }
+  ],
+  "original_sha256": {
+    "quran-terminology/fa/roots/h-b-tt/index.html": null,
+    "quran-terminology/en/roots/h-b-tt/index.html": null,
+    "_data/quran-root-studies.json": "23757463ac2d64d48a4501914c87a946064290382abe540ffcf3e2806f672cae",
+    "quran-reflection/fa/002-al-baqarah/units/217.html": "329d76a81c145a582f0a717e0a33ac7e804c64235c47341a9ff86f5dcda0420a",
+    "quran-reflection/fa/003-al-imran/units/022.html": "d9e9f3ea4e8ba8ed175dd6467ce37529eabba1abe5d03141715ce882e0da5323",
+    "quran-reflection/fa/005-al-maidah/units/005.html": "0efacf377ed6146b30448034f7439d6ee97606185c82c8c2dc0dc8db5fc28d65",
+    "quran-reflection/fa/005-al-maidah/units/053.html": "b75f338987c04e885eb09faa5697b953edc14774e50af57a1cb39bb6c7d5bd79",
+    "quran-reflection/fa/006-al-anam/units/088.html": "f11d419350ba037b8649700791ffc2d40bc26592971cfb50ca4d21c7172fb77d",
+    "quran-reflection/fa/007-al-araf/units/147.html": "aeff4e836368491600707c941a7db52a2332000391ad3cdd9cffd5a385d78c4d",
+    "quran-reflection/fa/009-at-tawbah/units/017.html": "420d8b1423ba49802ea3ea35428844fa7e2d734d6aa5670827d158e04273dc2c",
+    "quran-reflection/fa/009-at-tawbah/units/069.html": "4d6aa37e823b7a2daa4f3dce3000c70bfad57f9a05a5ce74dc56b89ceadea4a4",
+    "quran-reflection/fa/011-hud/units/016.html": "b72e634c19f43165cc0032e82b03921eab568e6a4ad0c8a8b7707476950abd6c",
+    "quran-reflection/fa/018-al-kahf/units/105.html": "640a1f899071cb862e4167319235124ef64d4ac175dc3cbfa37d1a70f776cc83",
+    "quran-reflection/fa/033-al-ahzab/units/019.html": "32b681a6b8137eeb50699efa1e5eef33330a331bc728414697d78c258320e6a9",
+    "quran-reflection/fa/039-az-zumar/units/065.html": "56c87ac0252cb066d71ba552ae55bf2e127ae9173e13e167b8e844aeab297339",
+    "quran-reflection/fa/047-muhammad/units/009.html": "11930b634c0441d7ccad830853995275eadd711c3c9867e6f7b1e69671e5123b",
+    "quran-reflection/fa/047-muhammad/units/028.html": "f0c4754b9460bf042f56cc8f5e054961f10576ea712bae020b721545dc205661",
+    "quran-reflection/fa/047-muhammad/units/032.html": "183c84c35dc67889fd5c72befbc23183104fdac4408acb6e69ca8d0c1f35ecbd",
+    "quran-reflection/fa/049-al-hujurat/units/002.html": "e8b349352435c30c686a758653e8751705335cc4594a7af0b69261c571e7f3b2",
+    "quran-reflection/en/002-al-baqarah/units/217.html": "990c54b699a9725b99297e7439aa2e3fb6381221920ecc7f4936e381f1c765ce",
+    "quran-reflection/en/003-al-imran/units/022.html": "687163f4a17947f34a9ed9fd5c241007e8c61537b389773c1c2062d94e91617b",
+    "quran-reflection/en/005-al-maidah/units/005.html": "042bf9d7b7dba09f6d237df78418afeca9f6c99cf4d5b152125e336ce435d351",
+    "quran-reflection/en/005-al-maidah/units/053.html": "4856c7f8e16e47902087762453756128f1751cbe78b48801a39da421abe8f739",
+    "quran-reflection/en/006-al-anam/units/088.html": "de6c6b95510d223b58b1b6e08cf12000ccb88ed8b8b7b89343ed044a2be1f84b",
+    "quran-reflection/en/007-al-araf/units/147.html": "87541c9c83089fbbfca057293cb7a0736be7b1282bfa829d525e2c7d74593756",
+    "quran-reflection/en/009-at-tawbah/units/017.html": "a6cbbfc07259f71ebda1d93951ee46afc8c9ad748e683b1fc6448c4fe4cbf528",
+    "quran-reflection/en/009-at-tawbah/units/069.html": "0d51a250a30cb8406d03dea85a473f8b85706c1e0029e11287ce9bae7a3c2561",
+    "quran-reflection/en/011-hud/units/016.html": "5b62180519affb28dfcc2df001faf02da5c6b36dbabdf9601c71262978eade2c",
+    "quran-reflection/en/018-al-kahf/units/105.html": "b70644aad2873fcdac219656cad87e42cea5a5f24ceb863dd7e77c4c5ed7ed0a",
+    "quran-reflection/en/033-al-ahzab/units/019.html": "af6aafd555a4d0cb5e15a0daf378e10f38b35e134c0c0ef96f8068482319458d",
+    "quran-reflection/en/039-az-zumar/units/065.html": "cfd4a7fe32e43f8d758e63b3355c8e015a0fc9ecfaf27a33031001777e18db57",
+    "quran-reflection/en/047-muhammad/units/009.html": "6f86a1dda0ff436be14f90c5cf0bf8a22a44dc0bc9b4e99062556b5ec38cd7bd",
+    "quran-reflection/en/047-muhammad/units/028.html": "1343e0e09d290c46bb859952327a840b6500824cc49a2c7ee53ffef7de8fd65d",
+    "quran-reflection/en/047-muhammad/units/032.html": "4228c889724917fe823300a256e18382bf7bae0f04534928563f208ded5d01cf",
+    "quran-reflection/en/049-al-hujurat/units/002.html": "4f8d9cb3b75ce90268141dfc2969d2c5b935db06064cd87338af213f6e1fb5bc",
+    "_handoff/root-install-h-b-tt-2026-10-28.json": null
+  },
+  "protected_sha256": {
+    "AGENTS.md": "b604bac7677b4e9f232021c9f2325500c8d7ebe645a53f25595f69d376671785",
+    "_data/home.json": "9b9296614da0550eab6fbd18d4f05032abeb76266b22a0eb6e00e77458577dcb",
+    "_layouts/default.html": "0a5fcd5d9293e9e93bbb0335f1e1d4329c055fd334c0bc6155f74be31aa0510d",
+    "fa.html": "1167bd619275396dc9178f8b6c3f1a0d99337ad3ede10557c092cf3345d15b5c",
+    "quran-reflection/en/001-al-fatihah/index.html": "18cd51b454f0337fe85241055909aceb2f3b8c6452549f9fd8deb2db58e95b15",
+    "quran-reflection/en/002-al-baqarah/index.html": "508930d1372832da50892ef78a0502ec1addf6dfb5ad7e3b6771d0e8ff44bfed",
+    "quran-reflection/en/002-al-baqarah/units/001.html": "bb0311f7a7ad6242e66ec0a0e43576e0350ffa5982bfc55d21241a67145f118c",
+    "quran-reflection/en/002-al-baqarah/units/002.html": "62d4949b4e4fc7a9013c9f747364f338daf7fcbfe8478cde0ff213887fd6efb8",
+    "quran-reflection/en/002-al-baqarah/units/003.html": "1cbcda606ed589d751746008830526f81260638dee62098d973ba227e23715f4",
+    "quran-reflection/en/002-al-baqarah/units/004.html": "25d5708edc08d0a70fb244caadcdd27fe35ea2f453875265889ee9c9f7a17c28",
+    "quran-reflection/en/002-al-baqarah/units/005.html": "d7abe4818bd99120aedf5fc7c24133ef38efbb58e1d58b23025bc7e5baf7d433",
+    "quran-reflection/en/002-al-baqarah/units/006.html": "16f40ff6f8e89ccf90d401fbd1410b57295dced20ffaa7b0382f25e015653c38",
+    "quran-reflection/en/002-al-baqarah/units/007.html": "72015f73fa918c3198bc8934a2d4546c975e3d36290180b832adc4bfb5138726",
+    "quran-reflection/en/002-al-baqarah/units/008.html": "356a963dcb8e35e975509a790dd9c4fdd001557aef421ff768f0a3d224061574",
+    "quran-reflection/en/002-al-baqarah/units/009.html": "6b4610877172c491e4957b3983cd8b20f89126ed561c0f22c2ec33c41307d967",
+    "quran-reflection/en/002-al-baqarah/units/010.html": "9fc830444683915dd3bbfe6634344f680908d86cb7f431bd6ec48868d46ba245",
+    "quran-reflection/en/002-al-baqarah/units/011.html": "c6cf5b3b7f4cae611c9c6ed417af28c3bf1c718cda98b2995a080537fd6e8a62",
+    "quran-reflection/en/002-al-baqarah/units/012.html": "ac21808753d750907d214c191df670221aebcf62b1eb23094075bcbed5226d52",
+    "quran-reflection/en/002-al-baqarah/units/013.html": "a5f3532594a421fb7abcff4b61db201f0e6891b926f3508b6cacea8f3da96226",
+    "quran-reflection/en/002-al-baqarah/units/014.html": "cbf841a46ca7337f1bb0e83d45017123577054d076b72136ed2958185996cd0a",
+    "quran-reflection/en/002-al-baqarah/units/015.html": "20d21e1f47424e8e43defef6109e3d1f3939e1870848a38d3afd198c2ac7c2fd",
+    "quran-reflection/en/002-al-baqarah/units/016.html": "9f7dd64d813ce677e7fb3b84c5a409343854dc06149e1bf5e7b0804bf0dedbd7",
+    "quran-reflection/en/002-al-baqarah/units/017.html": "cdfcf12dd4d0117c3af73ad58240217ecbe174f5000d3ba5012fb3de365389ad",
+    "quran-reflection/en/002-al-baqarah/units/018.html": "0bd718011bce569ca3bbb93ac0f5515d118b4c98deb85b83ff081b9c6e117d30",
+    "quran-reflection/en/002-al-baqarah/units/019.html": "946371b9173a8553c8765862003bf270156822b3634f359675f1a205c5de5702",
+    "quran-reflection/en/002-al-baqarah/units/020.html": "1f652f7cca9aa8906cf4579d523a444e246d4bc622001a20b2ed622056bf2424",
+    "quran-reflection/en/002-al-baqarah/units/021.html": "fc1bf7171c8eff87c8d147dbb8d7ff4c44cc7446120a45b28c9911e68e18a7f5",
+    "quran-reflection/en/002-al-baqarah/units/022.html": "fba5e994081e084d17b1f149a9b1d4aff0bbb2c2caf0c12e55c74f5c20fffa0c",
+    "quran-reflection/en/002-al-baqarah/units/023.html": "33e2e695502789789c2bf7829e902031b7a0a0fa28cd7d05fe5d6b0079f3c5ec",
+    "quran-reflection/en/002-al-baqarah/units/024.html": "2711c258c6cfe4b78ccf8900d2278320d8da211ebbe79f70f7c3a832d3ea5668",
+    "quran-reflection/en/002-al-baqarah/units/025.html": "a2550d915362ba58f5505de46ca5ac63b3cfe44b81c6fcaee3ed46725e835e56",
+    "quran-reflection/en/002-al-baqarah/units/026.html": "8ad8c12503a31af632b28e0576b66308df987090b24e2d531e5460433459567b",
+    "quran-reflection/en/002-al-baqarah/units/027.html": "d0c597c2cbe6a238112d0532836da0d6aa55580f8c5ff2c529e0ca420f441081",
+    "quran-reflection/en/002-al-baqarah/units/028.html": "1e89413769f8db07243bfa3c3c7fe454cc07d851297315ff611ff6e6555df881",
+    "quran-reflection/en/002-al-baqarah/units/029.html": "79bf61bfaf76eed3775a6f77d2caf496507fccc1b7e1e564b03772c8c7f2bd1d",
+    "quran-reflection/en/002-al-baqarah/units/030.html": "02cb03c940085c24043dd6b398f83d3486c2fa9f6ff72eba977508632a486a6f",
+    "quran-reflection/en/002-al-baqarah/units/031.html": "d351cd7bbd14cb77e0e2f93a76e5cc4488401569f97275370f869d3f1a6edbd4",
+    "quran-reflection/en/002-al-baqarah/units/032.html": "f0c50fb69de7686cdd3ce7c3b66e700c35483d35721be29367eca4ebdd522b58",
+    "quran-reflection/en/002-al-baqarah/units/033.html": "3b5f80393d118da93ed9c75363df6d6ffbe319807ffc09f70b21e227898fe7d0",
+    "quran-reflection/en/002-al-baqarah/units/034.html": "3bd4964a734887aa923042a66c2f1f832164961be20f51cceeb41801c43932c7",
+    "quran-reflection/en/002-al-baqarah/units/035.html": "2b2c3598b77275aae0b1749c5e8b85f2fbeb23783d6e41bab04045589765ca9f",
+    "quran-reflection/en/002-al-baqarah/units/036.html": "fd86d0d86f1725fabcb76274020001b0c0d39004bd9aaa07a97bd2ca5ab45c49",
+    "quran-reflection/en/002-al-baqarah/units/037.html": "de0236e1871982bd3b78784b4bdbce4da83274c1b91cf9b09446451e0a992505",
+    "quran-reflection/en/002-al-baqarah/units/038.html": "0648982ecd92010c9f83044ea78440b79a197c682930a9abbd58f79d19ce266a",
+    "quran-reflection/en/002-al-baqarah/units/039.html": "0779a57432daab549a3499ad2c1e6054b1a2790d5db9dce0ee84e85e9be4c479",
+    "quran-reflection/en/002-al-baqarah/units/040.html": "e6328c7d34ec7b95cc869cdc2743639738346f01f7825f7ca7696f964e1a3dff",
+    "quran-reflection/en/002-al-baqarah/units/041.html": "cf3a7fc464e2e3111cf26495283db0f94fbaafc4e7cd1ea0898e7fcdf3f74692",
+    "quran-reflection/en/002-al-baqarah/units/042.html": "09fc95eb176505f738b8ee8c54758a1895bf0f87c0b1ddc09a05e902d729eb12",
+    "quran-reflection/en/002-al-baqarah/units/043.html": "e2c585d59fcd5e8771d6e1ef0f94eba6c2a7a39121d333832b6a9dd6974973e4",
+    "quran-reflection/en/002-al-baqarah/units/044.html": "881d938390c61a963a12164cfb6bdf99876d2bc4d46a97e9b16d90bed33e1dfd",
+    "quran-reflection/en/002-al-baqarah/units/045.html": "e220a95a37dc095ab69ffc8369e193503892cc3bd1b20ae22d476030d602f742",
+    "quran-reflection/en/002-al-baqarah/units/046.html": "dfd94d3a3d85ac6c337574f5780b12de182acf8e87ebd1004a474f75036ff729",
+    "quran-reflection/en/002-al-baqarah/units/047.html": "7c9075e2273da0fb2c43b1db8696cc75319f97bc96e5e0658ec9a7faad84175f",
+    "quran-reflection/en/002-al-baqarah/units/048.html": "4ff8cd9cd81ac2cb0d0e9c6a8a8cc92c93a734e30e1a739417a032a948db8abc",
+    "quran-reflection/en/002-al-baqarah/units/049.html": "2ebb4deac937280c5b498834d496f1af85df6dc4292e3fa3c3028ea3f412058f",
+    "quran-reflection/en/002-al-baqarah/units/050.html": "93bfa3adfe64b1a04d822c71dd863c4638e133da8a603f1b1d90272304648206",
+    "quran-reflection/en/002-al-baqarah/units/051.html": "006b7f6e629d6b7e7e7c584f4b8c5638f6706a2309b347d5db16fa2247f9342a",
+    "quran-reflection/en/002-al-baqarah/units/052.html": "16ebc736052cd50a9af064abef88672e1dd9ce85d33c2ca435f2f1efac51db9e",
+    "quran-reflection/en/002-al-baqarah/units/053.html": "9b8487377e1c0178ab72cbb8b39317c2907566014771d5394644118dc5d6d89d",
+    "quran-reflection/en/002-al-baqarah/units/054.html": "354e0e5055b1ca6e17b63662200b38155db29e73374bd9329f1a2f4d825a3e35",
+    "quran-reflection/en/002-al-baqarah/units/055.html": "d194e233d5dcb6d622f69a54919c57588ffc13ffbf83c4338204e1a4b46338b6",
+    "quran-reflection/en/002-al-baqarah/units/056.html": "ba99d84a62286f496918fa0e652356a1f784029d1a90f1de402456e4d2dc5f57",
+    "quran-reflection/en/002-al-baqarah/units/057.html": "63629bf8030fcbc0878e4b84f927182d24763000123aa3a9730fd4d1f58d25e3",
+    "quran-reflection/en/002-al-baqarah/units/058.html": "d218fdd924128899ca3f8726475d806c79786f6fc6119d4279660a9712392f4e",
+    "quran-reflection/en/002-al-baqarah/units/059.html": "85ff0659500f7be3c02dc97f60e0e22234358237746741d5e70af4af93ec52b9",
+    "quran-reflection/en/002-al-baqarah/units/060.html": "15f5901f8269407d9e79e5810117c59a1718be7bd88580607d3e4734cba29d5f",
+    "quran-reflection/en/002-al-baqarah/units/061.html": "90753bc12e30d787a3cb828987e960f9d5e73f4c803c0371850c32a4e9cb1abe",
+    "quran-reflection/en/002-al-baqarah/units/062.html": "dff5b652fca74c5db44fa3bd855bb17124db64e6ce228749cc65bf584c12ff57",
+    "quran-reflection/en/002-al-baqarah/units/063.html": "8c3f9d3bf1881454b191a3e9e3f854eaeed0951eb9849dc60227938875e15c9a",
+    "quran-reflection/en/002-al-baqarah/units/064.html": "20813493b98c059fb3d0f905cec58993de52c5137a5e40a0140facebc4ac7533",
+    "quran-reflection/en/002-al-baqarah/units/065.html": "dc09aebeb4de48ead20462691ec25d288bfa08611277693ba507a305b65d8c20",
+    "quran-reflection/en/002-al-baqarah/units/066.html": "4dd8fccca4c783fc5534b7fc5ff927502bee471aa77c4dce033f2f7cb5c0bd3c",
+    "quran-reflection/en/002-al-baqarah/units/067.html": "55de2f21dcaa39199098853ea3ef2ebbbc46a4161b989ea960f77eddc60a97c1",
+    "quran-reflection/en/002-al-baqarah/units/068.html": "46d8c1b771df1b91c369f5f960eca2b471268ff70a25fe5f5dc43281bc2ee4ef",
+    "quran-reflection/en/002-al-baqarah/units/069.html": "d778d2c0d8e16d209c229e61e75b05e1dc5cfcf58d4a80adfc77d329b9f4c2ad",
+    "quran-reflection/en/002-al-baqarah/units/070.html": "dbef853f143c28cc5dd5702ec9d0b31fe314b58a8d316b9bf1eb53e26f30866a",
+    "quran-reflection/en/002-al-baqarah/units/071.html": "3ea71815b3d71449defa943323f6ceee5867b0812591c1568e7fb200f8391748",
+    "quran-reflection/en/002-al-baqarah/units/072.html": "7d3af130ca73d6faa49f2ed774d0ace7e7c9390a2f18e8dd44eb1de85ddfb31c",
+    "quran-reflection/en/002-al-baqarah/units/073.html": "250c452b9b1d247df269e7a6dbfbfe10a8977cff409ff65dc4a14874165e00c3",
+    "quran-reflection/en/002-al-baqarah/units/074.html": "52ce9fda6aa72f9c25fe2fe24865e922c93c470229b2686d8b0693858edffcc7",
+    "quran-reflection/en/002-al-baqarah/units/075.html": "edc58b993df4a6857779d596e26421e21bb74ff582c90a57e620a0508b901752",
+    "quran-reflection/en/002-al-baqarah/units/076.html": "159ca6db34de05e227b5e49fc5a41f3b0f80f74cc8b859427efef9d1c3751c7c",
+    "quran-reflection/en/002-al-baqarah/units/077.html": "2799355f723c36b1aaf79b4770d9a9ce5d7738a13ce6915795a6bf6b2a21ea22",
+    "quran-reflection/en/002-al-baqarah/units/078.html": "f3cb8ace13ddc72c18894a16014f7d286245dad0716ad6d2fc11cdb61f46cc7c",
+    "quran-reflection/en/002-al-baqarah/units/079.html": "8a105e64c33f12ecf8071c563800157aa1f5ea59df184cbf6e797e37789298e5",
+    "quran-reflection/en/002-al-baqarah/units/080.html": "1943bb02634521fabd87ff584ba83668a71a4d19554157a0f202e7f1738e22d7",
+    "quran-reflection/en/002-al-baqarah/units/081.html": "b0dc6945eaa820cf7845e2338bde71b95ecfef2339063ab7787f953ba92e8cd0",
+    "quran-reflection/en/002-al-baqarah/units/082.html": "022aced83b963f920277163e44594ed4c49c39e1b8e375f3880a36f9eb8bd836",
+    "quran-reflection/en/002-al-baqarah/units/083.html": "ce8a994929a70e3aed709115dbf889cbe6ff6740d038178944ae81a88940bcdb",
+    "quran-reflection/en/002-al-baqarah/units/084.html": "7cf24059c40b8c4ab98a8a9932fc1122013bf897449721f01c45988d35a6fa89",
+    "quran-reflection/en/002-al-baqarah/units/085.html": "211553bba467980f37647308ab1749bed465ebc86408deaeda2da3f9827169f0",
+    "quran-reflection/en/002-al-baqarah/units/086.html": "fb8327c188e8fc1a045492135c67ecf035acd6b3f468ac906549ec756991ac88",
+    "quran-reflection/en/002-al-baqarah/units/087.html": "78a79b1d10c894fdf9efceaa5ec471cbe0550bf1c280a5ae0cb3d4967582c1f0",
+    "quran-reflection/en/002-al-baqarah/units/088.html": "b8b1e9107e9b2336728012bd338b4036e5c069d9d3de3e571c10875950826a55",
+    "quran-reflection/en/002-al-baqarah/units/089.html": "3a1b2500bace2962a8cfb3615335d52cd6a24568e7255aeb1010efe88930f46a",
+    "quran-reflection/en/002-al-baqarah/units/090.html": "4dc69793188915922c222ce7bd32bfd65570cb83383dd49904b4994bc0d70508",
+    "quran-reflection/en/002-al-baqarah/units/091.html": "f81f095303f0062db963a3833955c4a870cc87fd185001033aa5d3c048043e6d",
+    "quran-reflection/en/002-al-baqarah/units/092.html": "461cbf8d5e602200f553cbda9f6d52e192c6ad23ed1a81c7c20b8ba90da2ab70",
+    "quran-reflection/en/002-al-baqarah/units/093.html": "960748629e5c1cd53b4210204bc2d98ebc61108b8c8742c6e9ae4580733ea367",
+    "quran-reflection/en/002-al-baqarah/units/094.html": "0606877d1b2d5244d25df0b8b2faee12e68036e194db7101db6a88dad04f9bf6",
+    "quran-reflection/en/002-al-baqarah/units/095.html": "8f419395d66201879528b5dafb29d8bacdae0d3b33a58498d51810bc3d4fa606",
+    "quran-reflection/en/002-al-baqarah/units/096.html": "fac9d882a9175d1aba4e9ad1af946fa9a6ba7cfd2528cc37936ffdb70d8549a0",
+    "quran-reflection/en/002-al-baqarah/units/097.html": "204bf2f33458b7601da7a09e82b450a1afb9ba5ac2cb92bddaf771409b78c62d",
+    "quran-reflection/en/002-al-baqarah/units/098.html": "78ab6f404feef0a0cb42cef12e6d56e503b76efc4e112f6e8c0daaeec90811a0",
+    "quran-reflection/en/002-al-baqarah/units/099.html": "4b13d446495b932c1a36dc993eb275bd51314ee3a70e2ceaf7199fb1fe7335fa",
+    "quran-reflection/en/002-al-baqarah/units/100.html": "06509b9fb5d99ab9e2d84e7b9e7a76e3b4af3c28380f01b10e9cbe2032e40dbd",
+    "quran-reflection/en/002-al-baqarah/units/101.html": "d468a7cec634f2ee472d4fb37bd255fac198d49ebc9ae9dac3ada58bee889ec9",
+    "quran-reflection/en/002-al-baqarah/units/102.html": "86b076aafe90c15e0fbcb85ee03ffaf3a219d3bbc5e7533015616bd9283211ad",
+    "quran-reflection/en/002-al-baqarah/units/103.html": "094de03171613ff2e2c150bc9dcbf86b633768b0f5eedc33b14fe4bb23600680",
+    "quran-reflection/en/002-al-baqarah/units/104.html": "d7848649c178a8a6fcc7ae8dbd868d3c303f293efb0f7137f76efa51141ecf5f",
+    "quran-reflection/en/002-al-baqarah/units/105.html": "306c8d2292eea83d5e3fd62a77ee2de3fffd9cb52074d445d2b9548f21849166",
+    "quran-reflection/en/002-al-baqarah/units/106.html": "d3034ec4b4dba34a325eeab397eee9d816e23090621ba07db02ddb6b97a118c5",
+    "quran-reflection/en/002-al-baqarah/units/107.html": "417a5d7e7167bfb07e8027427a47cbb7760944c6fa1721a4af16c922b3aaedcd",
+    "quran-reflection/en/002-al-baqarah/units/108.html": "b15eb0de6f0a7db667b0e633d6fcbfd4cf64e421ac633ee8729baaf0f4d76b61",
+    "quran-reflection/en/002-al-baqarah/units/109.html": "fba4af76d750f8c16d3a81973a157457f15fe670c89c7081b84a5d1791817f4f",
+    "quran-reflection/en/002-al-baqarah/units/110.html": "36086e37c96b4c3ba7c0c440095fdb88fd390d79babf7f8c6ad10c4c2dc70503",
+    "quran-reflection/en/002-al-baqarah/units/111.html": "cbf2c0e588df8e67df70f85bd6ccd2de8a007c0ac65e1f9b3132f8a14765f6cd",
+    "quran-reflection/en/002-al-baqarah/units/112.html": "e9fac679b0b0d3ef0e3203b31f9da53823d9e786ce71fe3bccdba8145d3112fa",
+    "quran-reflection/en/002-al-baqarah/units/113.html": "5252d5c928f4c5e5651deed646ad0e806224aad32bb65271eb2792835d4ab4e7",
+    "quran-reflection/en/002-al-baqarah/units/114.html": "358112a6430d934864dddef07f039eddf6a4979bacf65ecf59178f4e6d231eeb",
+    "quran-reflection/en/002-al-baqarah/units/115.html": "fb3c218aa825cfcdf760d8e899462f31b577d52144864952609b17d1814e99f5",
+    "quran-reflection/en/002-al-baqarah/units/116.html": "019dd220f1fceb648852d9e64d57d84785139b20a5450a6a0dccc9061ab028e2",
+    "quran-reflection/en/002-al-baqarah/units/117.html": "e96f41ccd4f6de9aeb70a8ff9446e6ad93c0545ee1840dd4ae8154da2dd0a23b",
+    "quran-reflection/en/002-al-baqarah/units/118.html": "62a323ef009e9344c1f97564a3b7dc178bb589688fc89d3c8f5a3e8fe473437b",
+    "quran-reflection/en/002-al-baqarah/units/119.html": "65082dd0605715ef09ede286a4ff6c6bd809c4fb9edc118cdcfef5612f907f1c",
+    "quran-reflection/en/002-al-baqarah/units/120.html": "95621562219d77818af7c6c2995ac7cc3baf0998cd70dceb508a715a3c3ad6e8",
+    "quran-reflection/en/002-al-baqarah/units/121.html": "1d5fdedd8c7cbc14af5d260910273ce542b72515e8364062553fb295824ef879",
+    "quran-reflection/en/002-al-baqarah/units/122.html": "d2dd7e1d5c04d6b1989ac0ad2fdf788e4ec312ae7f09ccd29edcffce119af8ad",
+    "quran-reflection/en/002-al-baqarah/units/123.html": "b2c09407f82bd44b240bcfac01dfef284978057a80181e7a48178f046ff0f73a",
+    "quran-reflection/en/002-al-baqarah/units/124.html": "eb648f4b4929d6fc7467e945dbcd012fa5bf4d42fc1042ba61d085f504e63906",
+    "quran-reflection/en/002-al-baqarah/units/125.html": "3f3aefdd8999b3bd3e39a5eb43f8a7e5e50dd0eefd90ec07405a83c95fe57bda",
+    "quran-reflection/en/002-al-baqarah/units/126.html": "aab56e8aa16ee5ea0e74694bb88194e61a7f101cecac3ee619ab44eedee5a608",
+    "quran-reflection/en/002-al-baqarah/units/127.html": "6d1a7c4c2251b165d5361950c6dbb294a4c813a7a9cb31aa60b93e73bec07f03",
+    "quran-reflection/en/002-al-baqarah/units/128.html": "69a4599321ef026acc416f755eacd8fef145298399405da7b5184ee007281614",
+    "quran-reflection/en/002-al-baqarah/units/129.html": "13438190b45efea075ea44ec143e1d34e985f2a5c6a66e894c9a6ea7543ad43e",
+    "quran-reflection/en/002-al-baqarah/units/130.html": "ddd24212556b1528cd67d2a5cad81aab2d42ad459750324871dfc24602df895c",
+    "quran-reflection/en/002-al-baqarah/units/131.html": "8dd834dc8c06ec0d305a0d09096e97f9c7f1b998f466e003dc09ed7e78eca24a",
+    "quran-reflection/en/002-al-baqarah/units/132.html": "a41b3876091308dd523845cf5e62b1362aece23f2785910c24d69f3f5d3ae28d",
+    "quran-reflection/en/002-al-baqarah/units/133.html": "4105f56078df8b6c6ba7d7153b232dfbe82b19b037b8a45e17abed6506c1eead",
+    "quran-reflection/en/002-al-baqarah/units/134.html": "e7a9e6ae6ea7ad9115c15bc5c41616726d5db5f3a3342d7eca7d5de2a8c5185e",
+    "quran-reflection/en/002-al-baqarah/units/135.html": "7b890d6545058388bf51cf1335f9d1f4e05034384c929d28aa41af2c98d10574",
+    "quran-reflection/en/002-al-baqarah/units/136.html": "8831ab6c088aac4a9deba9f2359738c5e7e99acd11155a4b3998f87c32dc4920",
+    "quran-reflection/en/002-al-baqarah/units/137.html": "ac4cac6a7d3cdba7ff3338ec5a4b52e31fe79540d89678b475f7fac575b2be7d",
+    "quran-reflection/en/002-al-baqarah/units/138.html": "654046868be7028faf761c8a59801de325c5819eaadb6b8f96cf260a322c9663",
+    "quran-reflection/en/002-al-baqarah/units/139.html": "1b00f98f4d8532a843a20bf741955d792ee10ac87bfe2fcfb3e40240e1328830",
+    "quran-reflection/en/002-al-baqarah/units/140.html": "dd1763176628a358f60eb0ca45e627545d27fd07e6e685d4eead58205ffb2326",
+    "quran-reflection/en/002-al-baqarah/units/141.html": "12b6177f595d6e6725a4e5b438662d49cb1e7cb51c69d01219650ee6b27a9193",
+    "quran-reflection/en/002-al-baqarah/units/142.html": "15eae41f22636d2881fa707f68142f40fd259e5142d18289ffaa4ffb943dcab0",
+    "quran-reflection/en/002-al-baqarah/units/143.html": "5df49267319fc671305a7181a83728995860e4c21179c998d914aa612c9d290b",
+    "quran-reflection/en/002-al-baqarah/units/144.html": "94029937f20b5a37f5a0b9755089a7645dd20361be2bb5c0f314866ad6bdfdda",
+    "quran-reflection/en/002-al-baqarah/units/145.html": "96cfaf87cff72e4708784f46012b73b510937dd30a6aab68f4d14ad81bf9b431",
+    "quran-reflection/en/002-al-baqarah/units/146.html": "51f829b9baae947308d0caf769dab125194486a8322b3f99fdc09e67c0ad676d",
+    "quran-reflection/en/002-al-baqarah/units/147.html": "3367d9ff3a545e9cad1de85ed77ad39dda6754e2aca1162e26364b91ea60b36d",
+    "quran-reflection/en/002-al-baqarah/units/148.html": "722765c84433ae7f1c0b5bacbcdcbd3f30431b7b941228fe8386865c7ab697ca",
+    "quran-reflection/en/002-al-baqarah/units/149.html": "1c20602ab81ad28d484fd70d48efde3710819ab7ce212165b139f7a2c2d99065",
+    "quran-reflection/en/002-al-baqarah/units/150.html": "a273a408a35a7c090b04861d9b3526d4785f9947ed18c21fb4d4213f26a49364",
+    "quran-reflection/en/002-al-baqarah/units/151.html": "d9fe41557283133fca8003c56afea7292cbe9ef887fa52f19dc35b6f2744409a",
+    "quran-reflection/en/002-al-baqarah/units/152.html": "8c51914244fc9cb798178ad34cd7a50596aa73a8368eaf093cb5b413327e2c35",
+    "quran-reflection/en/002-al-baqarah/units/153.html": "06349c841e8a3aabb2dd3a01d96cfe6dc29d57ca0b1816c613ee8f65969f7da8",
+    "quran-reflection/en/002-al-baqarah/units/154.html": "70153d56c97f5a73e3519cfcdf93ad20bc894ccf427182dc5afd203cb4644b4b",
+    "quran-reflection/en/002-al-baqarah/units/155.html": "e1d4d1f5638ab54825927704e72ef0acd8ac163436a2464500988eb242c85b8e",
+    "quran-reflection/en/002-al-baqarah/units/156.html": "862a9d320ed35af82983ed7194ac93c64c24c18b11632ee3e3dd91144ab50ccd",
+    "quran-reflection/en/002-al-baqarah/units/157.html": "9b666f3f10443c430ef105c5087c1cb0a56fd2ea1b095f0c87e2a3aa08fd8856",
+    "quran-reflection/en/002-al-baqarah/units/158.html": "46a62d9d0e828eadef0dafbf5335f3a35b54a85f77e21d05370ad4fa89c2dffa",
+    "quran-reflection/en/002-al-baqarah/units/159.html": "3ff1d3d1bf3bc8f93bb2e58f4a8b0633c47516a9d25f3e47f8ef4bbc34819814",
+    "quran-reflection/en/002-al-baqarah/units/160.html": "3c15f475afd12c6f7e01d154bb706aa44c62421850c14a419bb38ddc623b8529",
+    "quran-reflection/fa/001-al-fatihah/index.html": "7da9c785b46e5a50ed604f9443f400fadef3b2108e062c53472214e65ba86d6f",
+    "quran-reflection/fa/002-al-baqarah/index.html": "7e1bf21975435301b41bf1f59ddc0017e64e4576e79844c7dbaf954815e8901d",
+    "quran-reflection/fa/002-al-baqarah/units/001.html": "5fb9704a9272ff6c0298f38255d63c69db5e982d03379af6e9b338e248611005",
+    "quran-reflection/fa/002-al-baqarah/units/002.html": "1734de3de01876be748951ffa820df129174460a2b28a0a1da73bc5fb10b8a85",
+    "quran-reflection/fa/002-al-baqarah/units/003.html": "f075430c3bc84ec206dbf0a3caba71d78687d690e54e606747e5cb27abf30f40",
+    "quran-reflection/fa/002-al-baqarah/units/004.html": "06c67c449eea6540cda5cc9428c125bba27b1737479b8d93fa06d01541b11900",
+    "quran-reflection/fa/002-al-baqarah/units/005.html": "cade56ad027673ed6df1202e4f6c9eb32ee51be94d76c98d67863e369bf72ab5",
+    "quran-reflection/fa/002-al-baqarah/units/006.html": "06f36979cc0dc086fe1d5cc9b17a8f9d8057fc7cb248f3d09c1d775cfd3a8056",
+    "quran-reflection/fa/002-al-baqarah/units/007.html": "a12a0d12ebbedf1587788fab99e6026a75b175f5af96bf3ee1a1fec4c496c481",
+    "quran-reflection/fa/002-al-baqarah/units/008.html": "e6bd8bcff8f134db8e710f34fb6dd40661a70a3f7be56249ed6ab441d10c6364",
+    "quran-reflection/fa/002-al-baqarah/units/009.html": "b8aa1f84d7891c75d5f3bb1e6c113f17b13b070c8940347fe3fd469c509af30e",
+    "quran-reflection/fa/002-al-baqarah/units/010.html": "408cadae20f0fd821b7d90b1b51a94027ca693086281e8c63eabd9ad57afe68a",
+    "quran-reflection/fa/002-al-baqarah/units/011.html": "4febb3fef52d0682beaa15f8313b471171e6dca418e49d757c942d8b00fdc84d",
+    "quran-reflection/fa/002-al-baqarah/units/012.html": "264e7235727e421909143c99bbb9ed3a39cbc917586341c10b196814808b611a",
+    "quran-reflection/fa/002-al-baqarah/units/013.html": "2bc7424185aa80321302b76ecf176b93e4d62b5721eda8242a9214345aa21fbc",
+    "quran-reflection/fa/002-al-baqarah/units/014.html": "4c6cf32e765c4632c1a0f925398b499c09a848993ff752f80f2b509229b9b0df",
+    "quran-reflection/fa/002-al-baqarah/units/015.html": "4764f8fa5d1bde30266b1a7a11cb27024a20c69e9ba7d54688459ff7d34b0fe8",
+    "quran-reflection/fa/002-al-baqarah/units/016.html": "2bfee16798de08411f09c0821ed68a4f77ca1334d8d1c032f3b88786168e21b6",
+    "quran-reflection/fa/002-al-baqarah/units/017.html": "11d72d217f499f0e72db4f3be7ef3f6f540f4ec1dd0b139110c0e438708ec2e3",
+    "quran-reflection/fa/002-al-baqarah/units/018.html": "d8b9ed81ab3745e2d5967a559184adde7b1a2ba229a24ddc3983cd193f8cf6f4",
+    "quran-reflection/fa/002-al-baqarah/units/019.html": "a644e23e14bf9007694dbe3df3a278f60b4deff44b5d6e60aa2c3419eb563e4f",
+    "quran-reflection/fa/002-al-baqarah/units/020.html": "0b8a4bbb919cdfeb1d802991f919e1e63d9ece2d994845880a8f21353c96c2b8",
+    "quran-reflection/fa/002-al-baqarah/units/021.html": "75a0c9b8fc95cf243d7cfbc8df68bc5ea8b2e8e5d2b521954c2a516b2f814002",
+    "quran-reflection/fa/002-al-baqarah/units/022.html": "86f6fc5751d24d656c3bad4d1480093d36ea0ed4debf487931075602c1856a12",
+    "quran-reflection/fa/002-al-baqarah/units/023.html": "41709deb4f18ab38f563d3fc6ea1deaf6f8f03d78baf8b446b0f4d9aceb3497e",
+    "quran-reflection/fa/002-al-baqarah/units/024.html": "3fef6db2a05e71a0137250572dbef10db02d95b8eaaa8dd2c70d09d097ad6fba",
+    "quran-reflection/fa/002-al-baqarah/units/025.html": "91809e9f08f1f2587c96f3f1c905b764b849c595c80096434280642750e1b507",
+    "quran-reflection/fa/002-al-baqarah/units/026.html": "b88f379dd4a79ade67ccac05864d731aad73397743e1cacf8b11c2625ffc3c68",
+    "quran-reflection/fa/002-al-baqarah/units/027.html": "91cc3541ab38a91372b4e1fea319edc7bfa39f5667d3fdb72967911054f8a1ae",
+    "quran-reflection/fa/002-al-baqarah/units/028.html": "baa82e7392c04ba5bb0e235c61656c235fcc35aef000aefe065baa57af5d4cd3",
+    "quran-reflection/fa/002-al-baqarah/units/029.html": "5322c4918b48125203a54ba81864daa8221ba2e6954a64072d3b36fca95241b7",
+    "quran-reflection/fa/002-al-baqarah/units/030.html": "7143e578155191584e0e705e485ce09b7ab1c81771a976551ca38fb6464dc078",
+    "quran-reflection/fa/002-al-baqarah/units/031.html": "e4540a9c420caf899854fb8cc6daaf9dd3586849ed59c4e9bfce1450cf7c8b52",
+    "quran-reflection/fa/002-al-baqarah/units/032.html": "a7ac86891cadf33325205e86d213dcd309f2b605172b89b2cba7a3f805785b86",
+    "quran-reflection/fa/002-al-baqarah/units/033.html": "3aa20a21a8b7dd9f39a0857812cc0ca12af94584f20ca5758d3838256fe9376f",
+    "quran-reflection/fa/002-al-baqarah/units/034.html": "4cf60cb63e8655db75b675a1666fce691da1b2124aa0542a066624924516b139",
+    "quran-reflection/fa/002-al-baqarah/units/035.html": "04a4ed55ef495df39f67525ae9e805285a2288e23c6fb459302d3308c8c55e36",
+    "quran-reflection/fa/002-al-baqarah/units/036.html": "a9422cbbef22063249e2e8c5a67ec2b80ed5f65d24076783885ceaedaf6b88ae",
+    "quran-reflection/fa/002-al-baqarah/units/037.html": "d945ad001f4bb70cf46045feb803756c94b59332237c5c7a0728f43c468d3a90",
+    "quran-reflection/fa/002-al-baqarah/units/038.html": "e674699903d03d27f3a9519f7b97c6c7da2c6e5856095705dd52d45f6a332516",
+    "quran-reflection/fa/002-al-baqarah/units/039.html": "661410955065bca42f35c88a506e83e4b77dde628453c990c4d8b6c8cd4b33bd",
+    "quran-reflection/fa/002-al-baqarah/units/040.html": "f4feaec2896759b22f35cc297653e1820eaca003c336fe34deeea15026459294",
+    "quran-reflection/fa/002-al-baqarah/units/041.html": "550fc225b9264d5736020630a26b55cc50d2624b31035667c7b33c1f185187a8",
+    "quran-reflection/fa/002-al-baqarah/units/042.html": "7f8276dcbf910362fb1b48c0f05aaee2a8b0473249e3a5b5e1882a5e3f94bc5b",
+    "quran-reflection/fa/002-al-baqarah/units/043.html": "694801f933a42a5022e046f786ef146f85f243fbb3cb5491f1b3e05d01ba5fca",
+    "quran-reflection/fa/002-al-baqarah/units/044.html": "f47db0738495a4a35eed0447c2f18b56b6cacff04b57dc39ce5de28cfa165b32",
+    "quran-reflection/fa/002-al-baqarah/units/045.html": "b13cabb7c2596587aed6fe15c3a117c55329b79fc27c9c3bed285dbd4baa84a0",
+    "quran-reflection/fa/002-al-baqarah/units/046.html": "08af26e1b4fc11728b22e833b2bb895a8a1fd17a8466025fb9c37e6a133d4fed",
+    "quran-reflection/fa/002-al-baqarah/units/047.html": "0ae44516c3583067f02c9c3e2ef763777b2312757b11abb19abc6b5e96603931",
+    "quran-reflection/fa/002-al-baqarah/units/048.html": "8f2c0df504656c890478b19273fb9bf40b4a9997ecf50f396d1e88e6828a7a30",
+    "quran-reflection/fa/002-al-baqarah/units/049.html": "26aa86b99922e1e692e19eb6fdbcb7679fdbd544c84da608e15e99f3517a73b4",
+    "quran-reflection/fa/002-al-baqarah/units/050.html": "d4d0afa9664ff88f5d4fcf19ff7250b92d7b21c5b48b1752f2ff6e36840bd556",
+    "quran-reflection/fa/002-al-baqarah/units/051.html": "eb3fbf553f04454147cae4490db4e836e059b58161580540091af4fbbbd4fd79",
+    "quran-reflection/fa/002-al-baqarah/units/052.html": "b766ccf4e3a76d0afdbb044c0785379c3c67892cb98c5d92341269e7b80a9a19",
+    "quran-reflection/fa/002-al-baqarah/units/053.html": "052120c17ac540788124f70a810f133ff9d52f47a83146a14fbce9893f5f5eac",
+    "quran-reflection/fa/002-al-baqarah/units/054.html": "ead789938da87752d7046e6c9fd647ba5cf3eaf22c5153c8c588910bdb920713",
+    "quran-reflection/fa/002-al-baqarah/units/055.html": "201aa4029de1f0848a3895af29b8c8e8c0ef565b165cc34a49e0f7bc7d37ff76",
+    "quran-reflection/fa/002-al-baqarah/units/056.html": "d20099a1b473d199058f0eb0e648d3268414747c1896abf63e7036225cb04c2c",
+    "quran-reflection/fa/002-al-baqarah/units/057.html": "6557604b0764d91a75cee1e861abeca358731a51cfd388196fab86ad4bf8596b",
+    "quran-reflection/fa/002-al-baqarah/units/058.html": "677f8fb16e1d043c1aa27a2916eda99d51d0fe0dfde3f0c365e3903b1647ca86",
+    "quran-reflection/fa/002-al-baqarah/units/059.html": "985675fccd659e7d51417bae991f637d9b53773c7c56fd10d196cc23c93a35c1",
+    "quran-reflection/fa/002-al-baqarah/units/060.html": "ad450e9bc6212a6cee57eb3c8d80db203cac09507e4c9d00b0d584306644bebc",
+    "quran-reflection/fa/002-al-baqarah/units/061.html": "1671e1358b528aa56f604cc0888c83b16bdcd7c599db06629814b0c42b03d053",
+    "quran-reflection/fa/002-al-baqarah/units/062.html": "36cd021abe1078ce442fab3787258692b1e2a11185a5e6ed86bb64e7f9a289d5",
+    "quran-reflection/fa/002-al-baqarah/units/063.html": "68ecef679054e09e8745c149c77a37277702e26659c35766f02f8f55f2395b60",
+    "quran-reflection/fa/002-al-baqarah/units/064.html": "37fbc0ca3c3a8ad53ebe5db62b4a9f8d65d88a1f09f5418a0d360685a0b512f0",
+    "quran-reflection/fa/002-al-baqarah/units/065.html": "8017f5f63663c093a71903ad5c046de5092198bb960677a6b59e5b3412ba8592",
+    "quran-reflection/fa/002-al-baqarah/units/066.html": "8bc304bf99a8b4d36b4ddedfd5a514c90fc905edf17cd2d641c02eadbfee67a5",
+    "quran-reflection/fa/002-al-baqarah/units/067.html": "4bde2509a95f11dda5f3abdba101065701d5c4e2f4d90017fdcffc235deb16fb",
+    "quran-reflection/fa/002-al-baqarah/units/068.html": "d41b586efad3382182298df2af7388079df43c7b3ef9841d575bc5f3c177490c",
+    "quran-reflection/fa/002-al-baqarah/units/069.html": "a981d445595bd0a9d33312147a182e234c8e26b6fabb07f398eb50f32a5ac91e",
+    "quran-reflection/fa/002-al-baqarah/units/070.html": "154dd22acb2e57bb86ab3fc10aa43bb6360ddda9cfbf0a15caf93f88d8145d9d",
+    "quran-reflection/fa/002-al-baqarah/units/071.html": "86000c6fad3702e8fd135248946b779b730936e4912d1dc3cc99642b8149efad",
+    "quran-reflection/fa/002-al-baqarah/units/072.html": "f28607887c0642fab637a39e0dcc26ae709a0a5495c912ab949549abcfe836dd",
+    "quran-reflection/fa/002-al-baqarah/units/073.html": "fe717cbdb737d7b73025169def43ec82c5bde7f7ab60f3846709c220f3bfe8fa",
+    "quran-reflection/fa/002-al-baqarah/units/074.html": "5302eb9a124076ad94b9d4ef76c182259852c8875def4c00aeabbf7b3321be35",
+    "quran-reflection/fa/002-al-baqarah/units/075.html": "3cb8f8945a22085aa3cd8b774a0802f51ed424ed1620a04fad991958c0ce5d53",
+    "quran-reflection/fa/002-al-baqarah/units/076.html": "53d212bb28a5c300ec6d182a5cf58f4ceaa1ebe113b5b04c1c8f9b7e4adf7d1c",
+    "quran-reflection/fa/002-al-baqarah/units/077.html": "ccee35b89e670bb266c5c7976bf4c24830564cea654aa68e7833d0763c450185",
+    "quran-reflection/fa/002-al-baqarah/units/078.html": "63da0531d89ef8955f81b6dca74ba4e85471af4e9096c20f558323f1a5e99c38",
+    "quran-reflection/fa/002-al-baqarah/units/079.html": "4e78a38e9a5d833e302823f8096bc348c07b353c2689cf3444d914d79fe89fab",
+    "quran-reflection/fa/002-al-baqarah/units/080.html": "587a768f6f530e5b39514feb746d2267511f6a298288db566d8086e3fe479786",
+    "quran-reflection/fa/002-al-baqarah/units/081.html": "41f40663d5acfed8b91ec825239c62d79372cbb19913450ddac985160a490342",
+    "quran-reflection/fa/002-al-baqarah/units/082.html": "5ca10047db81a9d2cd8831a6225a2dc994f420b8f227c8479eaa6a33b6ffa5b3",
+    "quran-reflection/fa/002-al-baqarah/units/083.html": "bc86721ecee2310356775c59d165b6a56aff6efea3cb82ae011083bb11462e3c",
+    "quran-reflection/fa/002-al-baqarah/units/084.html": "52c6f6bdaf6d68daf77a8626eed62fe39f77fe5e69d98b2f3caebf23ac6a352e",
+    "quran-reflection/fa/002-al-baqarah/units/085.html": "8aac48d26d5a8858517bae6e18e7a53dd2906de67cfd890c52fced527623152d",
+    "quran-reflection/fa/002-al-baqarah/units/086.html": "17a4cbb34a32b5bafe7ccdda18fd587cb093500a0817f9ad7d5b085a93e5c77c",
+    "quran-reflection/fa/002-al-baqarah/units/087.html": "887d9214d5c12fcb7a876adc92c0f5e749d737f4bf8a7ede2a93ca2f1ae30cf5",
+    "quran-reflection/fa/002-al-baqarah/units/088.html": "dc98e19b44f0bf7ec46492f666e3286cf84751aec0c8ada1b4682158a9b4c25a",
+    "quran-reflection/fa/002-al-baqarah/units/089.html": "b16d6d4477fdf1eda93ec76d3f10b6bd142047046c0fc835cf762249afb82e1c",
+    "quran-reflection/fa/002-al-baqarah/units/090.html": "ce62546151ea09ee7179cea0c5da8eee771e4f30aa4a823e998256f44a85716c",
+    "quran-reflection/fa/002-al-baqarah/units/091.html": "c9cf193ebcafe87eba2d9a519e930e6f34afc67c4eb1fc2b3852883ede3515be",
+    "quran-reflection/fa/002-al-baqarah/units/092.html": "8d96d9aec7522443db885b024297ce5cfb196198ef63e9ba60a663eebf0aeff2",
+    "quran-reflection/fa/002-al-baqarah/units/093.html": "1c2a74abe0cd10ed42fa54de3c2b6a3132c124c458449c7be47ba681496b88a8",
+    "quran-reflection/fa/002-al-baqarah/units/094.html": "ed671f0b8b1d5a0a1a38da04f42b8526b3a1c2c5b3bf0c9807dd9e1d0b14c0c1",
+    "quran-reflection/fa/002-al-baqarah/units/095.html": "921aa1546d3c87c7e8857f2f91a6b0ac21212b257d144b5d10a13c47e98b7811",
+    "quran-reflection/fa/002-al-baqarah/units/096.html": "6b3088fa7f7ed3ef8ad4b62cf65a118f0e1858b1659a7e0a9ef9970b59e54f1d",
+    "quran-reflection/fa/002-al-baqarah/units/097.html": "983073c688ac4ba4f7e3bc67e3bf8693a32f1aa062c4ee3c5b969ce2246103fc",
+    "quran-reflection/fa/002-al-baqarah/units/098.html": "ef12b5da2eab2a1abeade00a69c347466491f5c3ea9e6342ed43f1dea202add9",
+    "quran-reflection/fa/002-al-baqarah/units/099.html": "998beda3700176e47119d0b4689658675159701bcd0a91b3bd768ed62d7138d2",
+    "quran-reflection/fa/002-al-baqarah/units/100.html": "5f995ea9e0ec35041c0532df25c8193630ace6760d0f4e6d6288550d69870d14",
+    "quran-reflection/fa/002-al-baqarah/units/101.html": "be221169c06829fff1af0756ad622e9bbdbdffbcc00f1387a0e284c1925c668e",
+    "quran-reflection/fa/002-al-baqarah/units/102.html": "d03728c9d8532eb427bb3ccbbaf372785604a10642735068800d13270a0e3b05",
+    "quran-reflection/fa/002-al-baqarah/units/103.html": "2cbdca11b8afa3298632d188da35af6a803f9bdcb40a6aedd5ee59cacf9c941e",
+    "quran-reflection/fa/002-al-baqarah/units/104.html": "86980fdf8e4e71e9e2342acbddb3ab21e5a68fa98c6eac214733eb716d8f9577",
+    "quran-reflection/fa/002-al-baqarah/units/105.html": "3e0f1f569c0af09ed2596e0ea756f80943321a1201f7193359d585c8358664fd",
+    "quran-reflection/fa/002-al-baqarah/units/106.html": "3fe0d7361b8df8d8d6132e0b6352ad1f761b3ed4c34e04a2b4cbd01db828f57c",
+    "quran-reflection/fa/002-al-baqarah/units/107.html": "ecce61680a2d67d00e5e0d186f2cd540543d6230be75e608e94442af6d1eab20",
+    "quran-reflection/fa/002-al-baqarah/units/108.html": "5a18c30f303eeb8bcd1a4019366a1b09c12588328c272622397925659224d234",
+    "quran-reflection/fa/002-al-baqarah/units/109.html": "df68da61961a6ad9bf566f115dbf61bc6b98d569fef1d8f76d377c13c6b30420",
+    "quran-reflection/fa/002-al-baqarah/units/110.html": "a463d4613b47dd93910288453068ed0d583534a48fb79b5e91c98c49de43a968",
+    "quran-reflection/fa/002-al-baqarah/units/111.html": "43c05ab60ac30b9659c49739ec6955f1d6ec719548d2f080e2cfc567a111d0cf",
+    "quran-reflection/fa/002-al-baqarah/units/112.html": "69834ced9e5a6d646ed18777a08209f70c924e717e1fe78113a701f3368dde88",
+    "quran-reflection/fa/002-al-baqarah/units/113.html": "24b28c5c54de4e3a65c9c1d28e35ccb019b3d19452249f4876ec3ba4bccdad61",
+    "quran-reflection/fa/002-al-baqarah/units/114.html": "c4c8b3808e73ade9daa31750cef691bbe06b645a08698f775b58c3231a85f121",
+    "quran-reflection/fa/002-al-baqarah/units/115.html": "6f0d596c16c0725a6f6fc3bd6df21b1fbb9db3187b5a7db7f6e6cbdff8fbbc4c",
+    "quran-reflection/fa/002-al-baqarah/units/116.html": "6a9f637539bd9a55d503534c369ef45cf9c13376991189e6c32195ed21474345",
+    "quran-reflection/fa/002-al-baqarah/units/117.html": "6225967b6dc1611682cf5a7af99459370d4b239f7ae24c143c3f7b8ec8620588",
+    "quran-reflection/fa/002-al-baqarah/units/118.html": "a260adf565260d0224ced2503ddb96a55eb5b898b16125119bf0e5cbfa68c12e",
+    "quran-reflection/fa/002-al-baqarah/units/119.html": "acf7bb6b724b7a4c7d4014055bb348f0af0371f0efee3951604a627e04ca90f7",
+    "quran-reflection/fa/002-al-baqarah/units/120.html": "0753e2d91ca7395a5e576c76e6125b1505bf8af7ddd91364ffb489932913f75e",
+    "quran-reflection/fa/002-al-baqarah/units/121.html": "595ef57b152f185e3c7ed9faf9bff1915f51b778799c57d3fd99ef0d2fe9da22",
+    "quran-reflection/fa/002-al-baqarah/units/122.html": "e27afdaeff36893b77beabca29609a32d7f2f2216c953393dbdaa948e26c0332",
+    "quran-reflection/fa/002-al-baqarah/units/123.html": "ba84747b3abfe498f2eb8557acb5b2a460aebada699f2c34de60988014282c92",
+    "quran-reflection/fa/002-al-baqarah/units/124.html": "279a8a20fc0e8e28ac2adda1fd287f6617e4035b178b9eabbb2498d342e9d0ba",
+    "quran-reflection/fa/002-al-baqarah/units/125.html": "5f76fd592102d2fe1f32d0d66ae663cad18c40f6b2360799590d0b5178fc1a19",
+    "quran-reflection/fa/002-al-baqarah/units/126.html": "ed271fb0b7ad9349dfefcc652632fa11ff2d816870238e4b24141f6f84cafeeb",
+    "quran-reflection/fa/002-al-baqarah/units/127.html": "eeb6bf6011156d553251897ba73e303efb1068a865b8ee6b78bbd8461341042b",
+    "quran-reflection/fa/002-al-baqarah/units/128.html": "92fa31fd706a843077f8e98a2ddf2e915371ced770bd134da7aba9a277ca6e9c",
+    "quran-reflection/fa/002-al-baqarah/units/129.html": "3e5ceb88237f68bd64f574efdc085dfb277fff9f35d3c3528b3573df276d2720",
+    "quran-reflection/fa/002-al-baqarah/units/130.html": "c82493bbf8108da781644583d0efd9b213712bdc7cebbaa34916defa1286a5b8",
+    "quran-reflection/fa/002-al-baqarah/units/131.html": "7abf7ae805029478c9cc9d289a263ad566c80807c2ce56925103e8f40e18261a",
+    "quran-reflection/fa/002-al-baqarah/units/132.html": "7f36bcf3565fa5656012ae4584d4df322f589a90c772c78a4f7406c169d3a06f",
+    "quran-reflection/fa/002-al-baqarah/units/133.html": "601009a42088f2731081189b40e2d26d0275fb6322b3dc0ccc73f8c94f1e2608",
+    "quran-reflection/fa/002-al-baqarah/units/134.html": "1857a8ee61158e68f0e2fd985780b5dbc07e625e46bc3a76ee6f7ebdd9cbc044",
+    "quran-reflection/fa/002-al-baqarah/units/135.html": "82e49052ce885acf19c5e6e0b96ed3eb034f8a4e92ed0cde3657a55ff7737d63",
+    "quran-reflection/fa/002-al-baqarah/units/136.html": "c156e4fcbc329bfa03388fa6f35441cfe871fb3dd71e9d25f13afba61701b405",
+    "quran-reflection/fa/002-al-baqarah/units/137.html": "09dc62df18893c993c179da05355f752331ef7be03aca32fc7997832ce8b61bb",
+    "quran-reflection/fa/002-al-baqarah/units/138.html": "a71bdc1780ffad878f1876c2fb4ab4b38216f4cc219c03ba1e1481311600a3d8",
+    "quran-reflection/fa/002-al-baqarah/units/139.html": "cc0c873384668c1c09b634d6c11a1ac3b2946ce4226074975b2c08a87a559b7e",
+    "quran-reflection/fa/002-al-baqarah/units/140.html": "df972470c104917b107814d2c9a96afad1432c7a037901a56a959217ac339170",
+    "quran-reflection/fa/002-al-baqarah/units/141.html": "0c25367d0bdf00b7ef21bab39dc2b578fb45d340ca60f89103173e5b38f79acb",
+    "quran-reflection/fa/002-al-baqarah/units/142.html": "aec9a44e623b6d85ffe0721551cac362b37d6673d5420f1030968af630c0725f",
+    "quran-reflection/fa/002-al-baqarah/units/143.html": "6eb53223f1e2ca16d2f40b98bbf6319573f1a2ba6d6c6947a86c4cd0ab6a5bc2",
+    "quran-reflection/fa/002-al-baqarah/units/144.html": "b1ad1ad843814b5389caa0126c617a27eecc7d04c875df19c3bf855c70dc4959",
+    "quran-reflection/fa/002-al-baqarah/units/145.html": "aae8d4856e8e85efe82fbcbf86725982223f675ad8a8b49391b6468853ab5936",
+    "quran-reflection/fa/002-al-baqarah/units/146.html": "13dd6457e4899609502ce33d2a1e4879842c3f23b31485dbca4a3f003fe168a4",
+    "quran-reflection/fa/002-al-baqarah/units/147.html": "18893dc6a10d9699ba349d5af02238ffdef5b8e8a5aba4492126735d63f39723",
+    "quran-reflection/fa/002-al-baqarah/units/148.html": "3650274de14a2429d240d7938dc82127d0094087369de3340712ed22730e8d8f",
+    "quran-reflection/fa/002-al-baqarah/units/149.html": "b71561ee88644929ea829b9981baee3febfdda35122709ac6e1fb6987ee104f5",
+    "quran-reflection/fa/002-al-baqarah/units/150.html": "b4c82e7cff817770d59405bfae95e964362234f4903a8641e4e4e9cc26bb76a0",
+    "quran-reflection/fa/002-al-baqarah/units/151.html": "0d3896106c85de887ab56ba5ff6931cdefbffe4f5fa1e93287edbe5a95c6e858",
+    "quran-reflection/fa/002-al-baqarah/units/152.html": "8c21aa9a23749b4ee1f19fdc7bb4dc982400e401f742bf064728feb5e1d9e083",
+    "quran-reflection/fa/002-al-baqarah/units/153.html": "22260971d97975fecff78a4a4ec698960f65f14094ef51c9e14de32241f25cf0",
+    "quran-reflection/fa/002-al-baqarah/units/154.html": "75a116ba82efe5e42d5a227a91e4f56ba92df45955362269f9072197244f23be",
+    "quran-reflection/fa/002-al-baqarah/units/155.html": "e6f73717b684d66704bea1cb88c558dce9ca9622c485e3c8f63c33ea57350f81",
+    "quran-reflection/fa/002-al-baqarah/units/156.html": "843facbe280d48607a90d773a761a1953283440f733e6f39be8627259dfc3882",
+    "quran-reflection/fa/002-al-baqarah/units/157.html": "50ee8fa14fd33b222cca0778e9588bb93938d6d392adfb68068afe23a560122f",
+    "quran-reflection/fa/002-al-baqarah/units/158.html": "9b2f2745e1e7a8a6181fb68a041c8815d8563eb6c135a8350510021e1283f407",
+    "quran-reflection/fa/002-al-baqarah/units/159.html": "b6013f138d44a77af26c0b62b57f835e57029727f9fa83f85d56b57896b796e3",
+    "quran-reflection/fa/002-al-baqarah/units/160.html": "bd81fac0b3b7f75a2b6a6a6abbcc7dca33c5696743ceaa3481957ead252e635d",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "root_assignment_corrections": [],
+  "root_assignment_audit": {
+    "source": "QAC0.4,exact word positions in16verses.Two documented weak-letter lexical classification differences retained.",
+    "assigned_roots_checked": 217,
+    "verses": [
+      {
+        "verse": "2:217",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 1,
+            "QAC_position": 1
+          },
+          {
+            "website_position": 3,
+            "QAC_position": 3
+          },
+          {
+            "website_position": 4,
+            "QAC_position": 4
+          },
+          {
+            "website_position": 5,
+            "QAC_position": 5
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 8,
+            "QAC_position": 8
+          },
+          {
+            "website_position": 10,
+            "QAC_position": 10
+          },
+          {
+            "website_position": 11,
+            "QAC_position": 11
+          },
+          {
+            "website_position": 13,
+            "QAC_position": 13
+          },
+          {
+            "website_position": 14,
+            "QAC_position": 14
+          },
+          {
+            "website_position": 15,
+            "QAC_position": 15
+          },
+          {
+            "website_position": 17,
+            "QAC_position": 17
+          },
+          {
+            "website_position": 18,
+            "QAC_position": 18
+          },
+          {
+            "website_position": 19,
+            "QAC_position": 19
+          },
+          {
+            "website_position": 20,
+            "QAC_position": 20
+          },
+          {
+            "website_position": 22,
+            "QAC_position": 22
+          },
+          {
+            "website_position": 24,
+            "QAC_position": 24
+          },
+          {
+            "website_position": 25,
+            "QAC_position": 25
+          },
+          {
+            "website_position": 26,
+            "QAC_position": 26
+          },
+          {
+            "website_position": 28,
+            "QAC_position": 28
+          },
+          {
+            "website_position": 30,
+            "QAC_position": 30
+          },
+          {
+            "website_position": 31,
+            "QAC_position": 31
+          },
+          {
+            "website_position": 33,
+            "QAC_position": 33
+          },
+          {
+            "website_position": 35,
+            "QAC_position": 35
+          },
+          {
+            "website_position": 37,
+            "QAC_position": 37
+          },
+          {
+            "website_position": 39,
+            "QAC_position": 39
+          },
+          {
+            "website_position": 42,
+            "QAC_position": 42
+          },
+          {
+            "website_position": 43,
+            "QAC_position": 43
+          },
+          {
+            "website_position": 45,
+            "QAC_position": 45
+          },
+          {
+            "website_position": 47,
+            "QAC_position": 47
+          },
+          {
+            "website_position": 48,
+            "QAC_position": 48
+          },
+          {
+            "website_position": 50,
+            "QAC_position": 50
+          },
+          {
+            "website_position": 51,
+            "QAC_position": 51
+          },
+          {
+            "website_position": 53,
+            "QAC_position": 53
+          },
+          {
+            "website_position": 54,
+            "QAC_position": 54
+          },
+          {
+            "website_position": 57,
+            "QAC_position": 57
+          }
+        ]
+      },
+      {
+        "verse": "3:22",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 3,
+            "QAC_position": 3
+          },
+          {
+            "website_position": 4,
+            "QAC_position": 4
+          },
+          {
+            "website_position": 6,
+            "QAC_position": 6
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 11,
+            "QAC_position": 11
+          }
+        ]
+      },
+      {
+        "verse": "5:5",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 1,
+            "QAC_position": 1
+          },
+          {
+            "website_position": 2,
+            "QAC_position": 2
+          },
+          {
+            "website_position": 4,
+            "QAC_position": 4
+          },
+          {
+            "website_position": 5,
+            "QAC_position": 5
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 8,
+            "QAC_position": 8
+          },
+          {
+            "website_position": 9,
+            "QAC_position": 9
+          },
+          {
+            "website_position": 11,
+            "QAC_position": 11
+          },
+          {
+            "website_position": 12,
+            "QAC_position": 12
+          },
+          {
+            "website_position": 14,
+            "QAC_position": 14
+          },
+          {
+            "website_position": 16,
+            "QAC_position": 16
+          },
+          {
+            "website_position": 17,
+            "QAC_position": 17
+          },
+          {
+            "website_position": 20,
+            "QAC_position": 20
+          },
+          {
+            "website_position": 21,
+            "QAC_position": 21
+          },
+          {
+            "website_position": 23,
+            "QAC_position": 23
+          },
+          {
+            "website_position": 25,
+            "QAC_position": 25
+          },
+          {
+            "website_position": 26,
+            "QAC_position": 26
+          },
+          {
+            "website_position": 27,
+            "QAC_position": 27
+          },
+          {
+            "website_position": 28,
+            "QAC_position": 28
+          },
+          {
+            "website_position": 29,
+            "QAC_position": 29
+          },
+          {
+            "website_position": 31,
+            "QAC_position": 31
+          },
+          {
+            "website_position": 32,
+            "QAC_position": 32
+          },
+          {
+            "website_position": 34,
+            "QAC_position": 34
+          },
+          {
+            "website_position": 35,
+            "QAC_position": 35
+          },
+          {
+            "website_position": 37,
+            "QAC_position": 37
+          },
+          {
+            "website_position": 38,
+            "QAC_position": 38
+          },
+          {
+            "website_position": 41,
+            "QAC_position": 41
+          },
+          {
+            "website_position": 43,
+            "QAC_position": 43
+          }
+        ]
+      },
+      {
+        "verse": "5:53",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 1,
+            "QAC_position": 1
+          },
+          {
+            "website_position": 3,
+            "QAC_position": 3
+          },
+          {
+            "website_position": 6,
+            "QAC_position": 6
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 8,
+            "QAC_position": 8
+          },
+          {
+            "website_position": 9,
+            "QAC_position": 9
+          },
+          {
+            "website_position": 12,
+            "QAC_position": 12
+          },
+          {
+            "website_position": 13,
+            "QAC_position": 13
+          },
+          {
+            "website_position": 14,
+            "QAC_position": 14
+          },
+          {
+            "website_position": 15,
+            "QAC_position": 15
+          }
+        ]
+      },
+      {
+        "verse": "6:88",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 2,
+            "QAC_position": 2
+          },
+          {
+            "website_position": 3,
+            "QAC_position": 3
+          },
+          {
+            "website_position": 4,
+            "QAC_position": 4
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 9,
+            "QAC_position": 9
+          },
+          {
+            "website_position": 11,
+            "QAC_position": 11
+          },
+          {
+            "website_position": 12,
+            "QAC_position": 12
+          },
+          {
+            "website_position": 15,
+            "QAC_position": 15
+          },
+          {
+            "website_position": 16,
+            "QAC_position": 16
+          }
+        ]
+      },
+      {
+        "verse": "7:147",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 2,
+            "QAC_position": 2
+          },
+          {
+            "website_position": 3,
+            "QAC_position": 3
+          },
+          {
+            "website_position": 4,
+            "QAC_position": 4
+          },
+          {
+            "website_position": 5,
+            "QAC_position": 5
+          },
+          {
+            "website_position": 6,
+            "QAC_position": 6
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 9,
+            "QAC_position": 9
+          },
+          {
+            "website_position": 12,
+            "QAC_position": 12
+          },
+          {
+            "website_position": 13,
+            "QAC_position": 13
+          }
+        ]
+      },
+      {
+        "verse": "9:17",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 2,
+            "QAC_position": 2
+          },
+          {
+            "website_position": 3,
+            "QAC_position": 3
+          },
+          {
+            "website_position": 5,
+            "QAC_position": 5
+          },
+          {
+            "website_position": 6,
+            "QAC_position": 6
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 8,
+            "QAC_position": 8
+          },
+          {
+            "website_position": 10,
+            "QAC_position": 10
+          },
+          {
+            "website_position": 11,
+            "QAC_position": 11
+          },
+          {
+            "website_position": 13,
+            "QAC_position": 13
+          },
+          {
+            "website_position": 14,
+            "QAC_position": 14
+          },
+          {
+            "website_position": 16,
+            "QAC_position": 16
+          },
+          {
+            "website_position": 18,
+            "QAC_position": 18
+          }
+        ]
+      },
+      {
+        "verse": "9:69",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 3,
+            "QAC_position": 3
+          },
+          {
+            "website_position": 4,
+            "QAC_position": 4
+          },
+          {
+            "website_position": 5,
+            "QAC_position": 5
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 8,
+            "QAC_position": 8
+          },
+          {
+            "website_position": 9,
+            "QAC_position": 9
+          },
+          {
+            "website_position": 10,
+            "QAC_position": 10
+          },
+          {
+            "website_position": 11,
+            "QAC_position": 11
+          },
+          {
+            "website_position": 12,
+            "QAC_position": 12
+          },
+          {
+            "website_position": 13,
+            "QAC_position": 13
+          },
+          {
+            "website_position": 14,
+            "QAC_position": 14
+          },
+          {
+            "website_position": 16,
+            "QAC_position": 16
+          },
+          {
+            "website_position": 19,
+            "QAC_position": 19
+          },
+          {
+            "website_position": 20,
+            "QAC_position": 20
+          },
+          {
+            "website_position": 21,
+            "QAC_position": 21
+          },
+          {
+            "website_position": 23,
+            "QAC_position": 23
+          },
+          {
+            "website_position": 25,
+            "QAC_position": 25
+          },
+          {
+            "website_position": 26,
+            "QAC_position": 26
+          },
+          {
+            "website_position": 28,
+            "QAC_position": 28
+          },
+          {
+            "website_position": 29,
+            "QAC_position": 29
+          },
+          {
+            "website_position": 32,
+            "QAC_position": 32
+          }
+        ]
+      },
+      {
+        "verse": "11:16",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 6,
+            "QAC_position": 6
+          },
+          {
+            "website_position": 8,
+            "QAC_position": 8
+          },
+          {
+            "website_position": 9,
+            "QAC_position": 9
+          },
+          {
+            "website_position": 11,
+            "QAC_position": 11
+          },
+          {
+            "website_position": 13,
+            "QAC_position": 13
+          },
+          {
+            "website_position": 15,
+            "QAC_position": 15
+          },
+          {
+            "website_position": 16,
+            "QAC_position": 16
+          }
+        ]
+      },
+      {
+        "verse": "18:105",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 3,
+            "QAC_position": 3
+          },
+          {
+            "website_position": 4,
+            "QAC_position": 4
+          },
+          {
+            "website_position": 5,
+            "QAC_position": 5
+          },
+          {
+            "website_position": 6,
+            "QAC_position": 6
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 8,
+            "QAC_position": 8
+          },
+          {
+            "website_position": 10,
+            "QAC_position": 10
+          },
+          {
+            "website_position": 12,
+            "QAC_position": 12
+          },
+          {
+            "website_position": 13,
+            "QAC_position": 13
+          },
+          {
+            "website_position": 14,
+            "QAC_position": 14
+          }
+        ]
+      },
+      {
+        "verse": "33:19",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 1,
+            "QAC_position": 1
+          },
+          {
+            "website_position": 4,
+            "QAC_position": 4
+          },
+          {
+            "website_position": 5,
+            "QAC_position": 5
+          },
+          {
+            "website_position": 6,
+            "QAC_position": 6
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 9,
+            "QAC_position": 9
+          },
+          {
+            "website_position": 10,
+            "QAC_position": 10
+          },
+          {
+            "website_position": 12,
+            "QAC_position": 12
+          },
+          {
+            "website_position": 15,
+            "QAC_position": 15
+          },
+          {
+            "website_position": 17,
+            "QAC_position": 17
+          },
+          {
+            "website_position": 18,
+            "QAC_position": 18
+          },
+          {
+            "website_position": 19,
+            "QAC_position": 19
+          },
+          {
+            "website_position": 20,
+            "QAC_position": 20
+          },
+          {
+            "website_position": 21,
+            "QAC_position": 21
+          },
+          {
+            "website_position": 22,
+            "QAC_position": 22
+          },
+          {
+            "website_position": 24,
+            "QAC_position": 24
+          },
+          {
+            "website_position": 27,
+            "QAC_position": 27
+          },
+          {
+            "website_position": 28,
+            "QAC_position": 28
+          },
+          {
+            "website_position": 29,
+            "QAC_position": 29
+          },
+          {
+            "website_position": 30,
+            "QAC_position": 30
+          },
+          {
+            "website_position": 31,
+            "QAC_position": 31
+          },
+          {
+            "website_position": 34,
+            "QAC_position": 34
+          },
+          {
+            "website_position": 35,
+            "QAC_position": 35
+          }
+        ]
+      },
+      {
+        "verse": "39:65",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 2,
+            "QAC_position": 2
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 9,
+            "QAC_position": 9
+          },
+          {
+            "website_position": 10,
+            "QAC_position": 10
+          },
+          {
+            "website_position": 11,
+            "QAC_position": 11
+          },
+          {
+            "website_position": 12,
+            "QAC_position": 12
+          },
+          {
+            "website_position": 14,
+            "QAC_position": 14
+          }
+        ]
+      },
+      {
+        "verse": "47:9",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 3,
+            "QAC_position": 3
+          },
+          {
+            "website_position": 5,
+            "QAC_position": 5
+          },
+          {
+            "website_position": 6,
+            "QAC_position": 6
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 8,
+            "QAC_position": 8
+          }
+        ]
+      },
+      {
+        "verse": "47:28",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 3,
+            "QAC_position": 3
+          },
+          {
+            "website_position": 5,
+            "QAC_position": 5
+          },
+          {
+            "website_position": 6,
+            "QAC_position": 6
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 8,
+            "QAC_position": 8
+          },
+          {
+            "website_position": 9,
+            "QAC_position": 9
+          },
+          {
+            "website_position": 10,
+            "QAC_position": 10
+          }
+        ]
+      },
+      {
+        "verse": "47:32",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 3,
+            "QAC_position": 3
+          },
+          {
+            "website_position": 4,
+            "QAC_position": 4
+          },
+          {
+            "website_position": 6,
+            "QAC_position": 6
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 8,
+            "QAC_position": 8
+          },
+          {
+            "website_position": 9,
+            "QAC_position": 9
+          },
+          {
+            "website_position": 11,
+            "QAC_position": 11
+          },
+          {
+            "website_position": 13,
+            "QAC_position": 13
+          },
+          {
+            "website_position": 15,
+            "QAC_position": 15
+          },
+          {
+            "website_position": 17,
+            "QAC_position": 17
+          },
+          {
+            "website_position": 18,
+            "QAC_position": 18
+          },
+          {
+            "website_position": 19,
+            "QAC_position": 19
+          },
+          {
+            "website_position": 20,
+            "QAC_position": 20
+          },
+          {
+            "website_position": 21,
+            "QAC_position": 21
+          }
+        ]
+      },
+      {
+        "verse": "49:2",
+        "assigned_root_positions_confirmed": [
+          {
+            "website_position": 3,
+            "QAC_position": 3
+          },
+          {
+            "website_position": 5,
+            "QAC_position": 5
+          },
+          {
+            "website_position": 6,
+            "QAC_position": 6
+          },
+          {
+            "website_position": 7,
+            "QAC_position": 7
+          },
+          {
+            "website_position": 8,
+            "QAC_position": 8
+          },
+          {
+            "website_position": 9,
+            "QAC_position": 9
+          },
+          {
+            "website_position": 11,
+            "QAC_position": 11
+          },
+          {
+            "website_position": 13,
+            "QAC_position": 13
+          },
+          {
+            "website_position": 14,
+            "QAC_position": 14
+          },
+          {
+            "website_position": 15,
+            "QAC_position": 15
+          },
+          {
+            "website_position": 16,
+            "QAC_position": 16
+          },
+          {
+            "website_position": 18,
+            "QAC_position": 18
+          },
+          {
+            "website_position": 19,
+            "QAC_position": 19
+          },
+          {
+            "website_position": 22,
+            "QAC_position": 22
+          }
+        ]
+      }
+    ],
+    "corrections": [],
+    "exceptions": [
+      {
+        "verse": "2:217",
+        "position": 30,
+        "word": "يَزالونَ",
+        "root_preserved": "ز و ل",
+        "QAC_root": "زيل",
+        "reason": "Established lexical grouping supported by primary Sihah/Lisan for ZWL and Raghib for GHSHY;classification difference retained without metadata reassignment."
+      },
+      {
+        "verse": "33:19",
+        "position": 12,
+        "word": "يُغشىٰ",
+        "root_preserved": "غ ش ي",
+        "QAC_root": "غشو",
+        "reason": "Established lexical grouping supported by primary Sihah/Lisan for ZWL and Raghib for GHSHY;classification difference retained without metadata reassignment."
+      }
+    ]
+  },
+  "article_translation_audit": [
+    {
+      "block": 82,
+      "label_block": 81,
+      "verse": "2:217",
+      "matches_installed": false,
+      "installed": "از تو دربارهٔ ماه حرام و جنگ در آن می‌پرسند؛ بگو: جنگ در آن بزرگ است؛ و بازداشتن از راه آن معبود یگانه و کفر به او و بازداشتن از مسجدالحرام و بیرون کردن اهل آن از آنجا نزد آن معبود یگانه بزرگ‌تر است؛ و فتنه بزرگ‌تر از کشتن است. و پیوسته با شما می‌جنگند تا اگر بتوانند شما را از دینتان بازگردانند. و هر که از شما از دینش بازگردد و در حال کفر بمیرد، کردارهای آنان در دنیا و آخرت تباه شده است؛ و آنان اهل آتش‌اند و در آن ماندگارند.",
+      "article": "از تو دربارهٔ جنگ در ماه حرام می‌پرسند. بگو: جنگ در آن کاری بزرگ است؛ و بازداشتن از راه آن معبود یگانه و کفر به او و مسجدالحرام و بیرون راندن اهل آن از آنجا، نزد آن معبود یگانه بزرگ‌تر است؛ و فتنه از کشتن بزرگ‌تر است. و آنان پیوسته با شما می‌جنگند تا اگر بتوانند شما را از دینتان بازگردانند. و هرکس از شما از دین خود بازگردد و در حالی بمیرد که کافر است، آنان کسانی‌اند که اعمالشان در دنیا و آخرت تباه شده است؛ و آنان اهل آتش‌اند و در آن ماندگارند.",
+      "original_article": "از تو دربارهٔ جنگ در ماه حرام می‌پرسند. بگو: جنگ در آن کاری بزرگ است؛ و بازداشتن از راه خدا و کفر به او و مسجدالحرام و بیرون راندن اهل آن از آنجا، نزد خدا بزرگ‌تر است؛ و فتنه از کشتن بزرگ‌تر است. و آنان پیوسته با شما می‌جنگند تا اگر بتوانند شما را از دینتان بازگردانند. و هرکس از شما از دین خود بازگردد و در حالی بمیرد که کافر است، آنان کسانی‌اند که اعمالشان در دنیا و آخرت تباه شده است؛ و آنان اهل آتش‌اند و در آن ماندگارند."
+    },
+    {
+      "block": 94,
+      "label_block": 93,
+      "verse": "6:88",
+      "matches_installed": false,
+      "installed": "این هدایت آن معبود یگانه است که با آن هرکه را از بندگانش بخواهد هدایت می‌کند؛ و اگر شریک می‌گرفتند، آنچه انجام می‌دادند تباه می‌شد.",
+      "article": "این هدایت آن معبود یگانه است که هرکس از بندگانش را بخواهد با آن هدایت می‌کند؛ و اگر آنان شرک می‌ورزیدند، آنچه انجام می‌دادند از دستشان تباه می‌شد.",
+      "original_article": "این هدایت خداست که هرکس از بندگانش را بخواهد با آن هدایت می‌کند؛ و اگر آنان شرک می‌ورزیدند، آنچه انجام می‌دادند از دستشان تباه می‌شد."
+    },
+    {
+      "block": 103,
+      "label_block": 102,
+      "verse": "39:65",
+      "matches_installed": false,
+      "installed": "و به تو و به کسانی که پیش از تو بودند وحی شده است: اگر شریک قرار دهی، عملت تباه خواهد شد و از زیان‌کاران خواهی بود.",
+      "article": "و قطعاً به تو و به کسانی که پیش از تو بودند وحی شده است که اگر شرک ورزی، بی‌گمان عملت تباه خواهد شد و قطعاً از زیان‌کاران خواهی بود.",
+      "original_article": "و قطعاً به تو و به کسانی که پیش از تو بودند وحی شده است که اگر شرک ورزی، بی‌گمان عملت تباه خواهد شد و قطعاً از زیان‌کاران خواهی بود."
+    },
+    {
+      "block": 113,
+      "label_block": 112,
+      "verse": "5:5",
+      "matches_installed": false,
+      "installed": "امروز پاکیزه‌ها برای شما حلال شده‌اند؛ و خوراک کسانی که کتاب داده شده‌اند برای شما حلال است و خوراک شما برای آنان حلال است؛ و زنان پاکدامن از مؤمنان و زنان پاکدامن از کسانی که پیش از شما کتاب داده شده‌اند، هنگامی که مزدشان را به آنان بدهید، در حالی که پاکدامن باشید، نه زناکار و نه گیرنده یاران پنهانی. و هر که ایمان را انکار کند، عملش تباه شده است و در آخرت از زیانکاران است.",
+      "article": "امروز پاکیزه‌ها بر شما حلال شده‌اند؛ و خوراک کسانی که کتاب داده شده‌اند برای شما حلال است و خوراک شما برای آنان حلال است؛ و زنان پاکدامن از مؤمنان و زنان پاکدامن از کسانی که پیش از شما کتاب داده شده‌اند، هنگامی که مزدهایشان را به آنان بدهید، در حالی که پاکدامن باشید، نه زناکار و نه گیرندهٔ دوستان پنهانی. و هرکس به ایمان کفر ورزد، عملش تباه شده است و او در آخرت از زیان‌کاران خواهد بود.",
+      "original_article": "امروز پاکیزه‌ها بر شما حلال شده‌اند؛ و خوراک کسانی که پیش از شما کتاب داده شده‌اند برای شما حلال است و خوراک شما برای آنان حلال است؛ و زنان پاکدامن از مؤمنان و زنان پاکدامن از کسانی که پیش از شما کتاب داده شده‌اند، هنگامی که مزدهایشان را به آنان بدهید، در حالی که پاکدامن باشید، نه زناکار و نه گیرندهٔ دوستان پنهانی. و هرکس به ایمان کفر ورزد، عملش تباه شده است و او در آخرت از زیان‌کاران خواهد بود."
+    },
+    {
+      "block": 123,
+      "label_block": 122,
+      "verse": "3:22",
+      "matches_installed": false,
+      "installed": "آنان کسانی‌اند که کردارهایشان در دنیا و آخرت تباه شده است؛ و یاورانی ندارند.",
+      "article": "آنان کسانی‌اند که اعمالشان در دنیا و آخرت تباه شده است و هیچ یاوری برایشان نیست.",
+      "original_article": "آنان کسانی‌اند که اعمالشان در دنیا و آخرت تباه شده است و هیچ یاوری برایشان نیست."
+    },
+    {
+      "block": 132,
+      "label_block": 131,
+      "verse": "7:147",
+      "matches_installed": false,
+      "installed": "و کسانی که نشانه‌های ما و دیدار آخرت را دروغ شمردند، اعمالشان تباه شد. آیا جز آنچه انجام می‌دادند جزا داده می‌شوند؟",
+      "article": "و کسانی که آیات ما و ملاقات آخرت را تکذیب کردند، اعمالشان تباه شده است. آیا جز آنچه انجام می‌دادند جزا داده می‌شوند؟",
+      "original_article": "و کسانی که آیات ما و ملاقات آخرت را تکذیب کردند، اعمالشان تباه شده است. آیا جز آنچه انجام می‌دادند جزا داده می‌شوند؟"
+    },
+    {
+      "block": 142,
+      "label_block": 141,
+      "verse": "5:53",
+      "matches_installed": false,
+      "installed": "و کسانی که ایمان آورده‌اند می‌گویند: «آیا اینان همان کسانی‌اند که سخت‌ترین سوگندهایشان را به آن معبود یگانه خوردند که حتماً با شمایند؟» اعمالشان تباه شد و زیانکار شدند.",
+      "article": "و کسانی که ایمان آورده‌اند می‌گویند: آیا اینان همان کسانی‌اند که با نهایت تأکید به آن معبود یگانه سوگند می‌خوردند که حتماً با شما هستند؟ اعمالشان تباه شد و زیان‌کار گردیدند.",
+      "original_article": "و کسانی که ایمان آورده‌اند می‌گویند: آیا اینان همان کسانی‌اند که با نهایت تأکید به خدا سوگند می‌خوردند که حتماً با شما هستند؟ اعمالشان تباه شد و زیان‌کار گردیدند."
+    },
+    {
+      "block": 161,
+      "label_block": 160,
+      "verse": "11:16",
+      "matches_installed": false,
+      "installed": "آنان کسانی‌اند که در آخرت جز آتش ندارند؛ آنچه در آن ساخته‌اند تباه شده و آنچه انجام می‌دادند باطل است.",
+      "article": "آنان کسانی‌اند که در آخرت جز آتش برایشان نیست؛ و آنچه در دنیا ساخته و انجام داده‌اند تباه شده است و آنچه می‌کردند بی‌حاصل است.",
+      "original_article": "آنان کسانی‌اند که در آخرت جز آتش برایشان نیست؛ و آنچه در دنیا ساخته و انجام داده‌اند تباه شده است و آنچه می‌کردند بی‌حاصل است."
+    },
+    {
+      "block": 173,
+      "label_block": 172,
+      "verse": "18:105",
+      "matches_installed": false,
+      "installed": "آنان کسانی‌اند که نشانه‌های پروردگارشان و دیدار او را انکار کردند؛ پس کارهایشان تباه شد و روز قیامت برای آنان وزنی برپا نمی‌کنیم.",
+      "article": "آنان کسانی‌اند که به آیات پروردگارشان و ملاقات او کفر ورزیدند؛ پس اعمالشان تباه شد و روز قیامت برای آنان وزنی برپا نمی‌داریم.",
+      "original_article": "آنان کسانی‌اند که به آیات پروردگارشان و ملاقات او کفر ورزیدند؛ پس اعمالشان تباه شد و روز قیامت برای آنان وزنی برپا نمی‌داریم."
+    },
+    {
+      "block": 189,
+      "label_block": 188,
+      "verse": "47:32",
+      "matches_installed": false,
+      "installed": "بی‌گمان کسانی که کفر ورزیدند و از راه آن معبود یگانه بازداشتند و پس از روشن شدن هدایت برایشان با فرستاده مخالفت کردند، هیچ زیانی به آن معبود یگانه نمی‌رسانند، و اعمالشان را بی‌ثمر خواهد کرد.",
+      "article": "بی‌گمان کسانی که کفر ورزیدند و از راه آن معبود یگانه بازداشتند و پس از آنکه هدایت برایشان روشن شد با رسول مخالفت کردند، هیچ زیانی به آن معبود یگانه نخواهند رساند و او اعمالشان را تباه خواهد ساخت.",
+      "original_article": "بی‌گمان کسانی که کفر ورزیدند و از راه خدا بازداشتند و پس از آنکه هدایت برایشان روشن شد با رسول مخالفت کردند، هیچ زیانی به خدا نخواهند رساند و او اعمالشان را تباه خواهد ساخت."
+    },
+    {
+      "block": 198,
+      "label_block": 197,
+      "verse": "49:2",
+      "matches_installed": false,
+      "installed": "ای کسانی که ایمان آورده‌اید، صداهایتان را بالاتر از صدای پیامبر نبرید و با او بلند سخن نگویید، چنان‌که با یکدیگر بلند سخن می‌گویید، مبادا اعمالتان بی‌ثمر شود و شما آگاه نباشید.",
+      "article": "ای کسانی که ایمان آورده‌اید، صداهای خود را بالاتر از صدای پیامبر بلند نکنید و در سخن گفتن با او، همان‌گونه که برخی از شما با برخی دیگر بلند سخن می‌گویند، بلند سخن نگویید؛ مبادا اعمالتان تباه شود، درحالی‌که خود آگاه نباشید.",
+      "original_article": "ای کسانی که ایمان آورده‌اید، صداهای خود را بالاتر از صدای پیامبر بلند نکنید و در سخن گفتن با او، همان‌گونه که برخی از شما با برخی دیگر بلند سخن می‌گویند، بلند سخن نگویید؛ مبادا اعمالتان تباه شود، درحالی‌که خود آگاه نباشید."
+    }
+  ],
+  "verification": {
+    "stage": "before installation",
+    "all313_source_blocks_rendered_per_language": true,
+    "all312_raw_source_paragraphs_preserved": true,
+    "complete_English_mirror": true,
+    "displayed_Arabic_quotes": 11,
+    "Arabic_quotations_preserved": true,
+    "all11_Quranic_quotations_match_installed_Arabic": true,
+    "all11_differing_versions_labeled_proposed": true,
+    "installed_verse_translations_unchanged": true,
+    "all16_occurrences_confirmed": true,
+    "only_own_registry_entry_changed": true,
+    "protected_reflection_text_modified": 0,
+    "own_boxes_updated": 32,
+    "all_existing_contexts_preserved": true,
+    "existing_context_fields_corrected": 0,
+    "new_context_fields": 270,
+    "required_root_box_checker_passed_lexical_boxes": 434,
+    "canonical_Allah_boxes_preserved": 22,
+    "verse_Arabic_translations_transliterations_and_grammar_metadata_unchanged": true,
+    "Fatihah_Baqarah_through160_and_prior_work_preserved": true,
+    "shared_renderer_unchanged": true,
+    "browser_preview_run": false,
+    "jekyll_build_run": false,
+    "post_installation_tests_run": false,
+    "verified_individual_verse_targets": 46,
+    "verified_related_root_targets": 10
+  },
+  "prepared_sha256": {
+    "quran-terminology/fa/roots/h-b-tt/index.html": "715986d336ab897b94c7c3fc32adb472da723a912d1ff496dc73f39dd89492ad",
+    "quran-terminology/en/roots/h-b-tt/index.html": "aa7c6f7c0bde4a04adddc96aaeed74cb643a5c87f778ec814a5b3ff3a477d9ce",
+    "_data/quran-root-studies.json": "81e8dee12ce943a6eb2311f70c51ceec9375dcb45a3e76bf5cfb795be8e7fe8d",
+    "quran-reflection/fa/002-al-baqarah/units/217.html": "f9f38acd921618d987daf71524050aeaddcb4fdaa9681ab8517ebb888dbac0f0",
+    "quran-reflection/fa/003-al-imran/units/022.html": "9d0fc828a2d5a416a86293fd0b825a51fb04c85426c50733ac452073507c151f",
+    "quran-reflection/fa/005-al-maidah/units/005.html": "ef3265753e39b2b2782d61e8ab9286eb8408b4f9f6d369668cff7fdb2548e7d8",
+    "quran-reflection/fa/005-al-maidah/units/053.html": "1433d64bdd2e12b49e3ffc9c5f9a71dd0c601958bef32f2e82e94e34d25920f6",
+    "quran-reflection/fa/006-al-anam/units/088.html": "48e4fdc8a80602e11857348602e21e45bfd411f504a982f329d5c91a8593ca4d",
+    "quran-reflection/fa/007-al-araf/units/147.html": "d814168bf3251a484474ee4f8736138c586157ffba13c449638af7ff8588ddf9",
+    "quran-reflection/fa/009-at-tawbah/units/017.html": "9e7b8186cdeddca275335f25835e63f28bb0d2ff1b696eb0e2547611c3b03530",
+    "quran-reflection/fa/009-at-tawbah/units/069.html": "4ddc1f01d9f0d400e6254fd973c2215329616fd920d9a9fe55ae88d0eb26502b",
+    "quran-reflection/fa/011-hud/units/016.html": "1c206535a34bded95dc75fd94a8a94550bf8e9c857790fdac0aec6348135c080",
+    "quran-reflection/fa/018-al-kahf/units/105.html": "252822ce3caca4ef5312d30b9e6df1ae322419f8113d356397a0b72a5dee98bb",
+    "quran-reflection/fa/033-al-ahzab/units/019.html": "af7d7238bfc77e20508df79c51a1e10541de3ee0cd982825e6014294e03857ca",
+    "quran-reflection/fa/039-az-zumar/units/065.html": "b81db7f90c792254fffa7e43611c67b2de079ca667bb8393b7e590bd95c3b742",
+    "quran-reflection/fa/047-muhammad/units/009.html": "58220c4d06cfe7eb022d52838c2dbfaf5962ab1692e20fa9017c3c8e578e96e7",
+    "quran-reflection/fa/047-muhammad/units/028.html": "08fec17a48f5e5ae2169bda8c3b636a99a3e01b74e310c8a7b45ad5cd70691fb",
+    "quran-reflection/fa/047-muhammad/units/032.html": "8e19eb8d66887f4b841358cccc913b3a0cfce8ac5baeace9b4abda1605caf755",
+    "quran-reflection/fa/049-al-hujurat/units/002.html": "b9fde4c2e95d6fa7ac8ddd964610e29d1b9343cba3e7df8ff4c23a5abac576be",
+    "quran-reflection/en/002-al-baqarah/units/217.html": "bac3fdc455154db7f95ab149c724ba2c2df029bc854c61930eca98d844bd08c5",
+    "quran-reflection/en/003-al-imran/units/022.html": "6e500273304ac1ede42957bcabbfbadc3336a05cf0970084c8cf7346b3087160",
+    "quran-reflection/en/005-al-maidah/units/005.html": "40bbb5d070ac76a23d6c854664e1bdcf70104ba7b26dd3db0277d1eb68d3d26b",
+    "quran-reflection/en/005-al-maidah/units/053.html": "cb32aff7287cc06d2c1bd2a3f1da18e90b8bc3c7058248bb86acc206ca1652b5",
+    "quran-reflection/en/006-al-anam/units/088.html": "7e87985f24d3805acc9cb1a368e939f1b0ab15b15d0c5a77111f9d66c03deca2",
+    "quran-reflection/en/007-al-araf/units/147.html": "d9ca1449f001c87853703b69336db7be94f1f950e2916676c8212c66f7b1229f",
+    "quran-reflection/en/009-at-tawbah/units/017.html": "009d54a40493e69e2aab44293588663d35f934c97f528121bc2b2cd071a27825",
+    "quran-reflection/en/009-at-tawbah/units/069.html": "fe8f5130f19e7653b40c0f07ac170fda4380f73de115356f819de5ec91ef2cf7",
+    "quran-reflection/en/011-hud/units/016.html": "178ca7d727a7467b2f61d506324cf3c8264c8d1b71494f17b7c43bf9a6aa3627",
+    "quran-reflection/en/018-al-kahf/units/105.html": "22347f88703f83cd22492ce0a3e298fd2563959e0e6fb11469dd3f11647dbe92",
+    "quran-reflection/en/033-al-ahzab/units/019.html": "cf6530424d54f07930eb9d48b06f86113caf856cfcdd6da72d6122e6e04efbe4",
+    "quran-reflection/en/039-az-zumar/units/065.html": "b7066e4c47f37d396bf659fb7bd2102b839b60705ffc86e24c276dd35106bb2d",
+    "quran-reflection/en/047-muhammad/units/009.html": "d3b3b023669809a3b0fd3b0790a0693f818a64b019fb335ee745d0aaf1f22c7e",
+    "quran-reflection/en/047-muhammad/units/028.html": "3318377bdbc144ee40461b24358f5e5c2e27dfaafe0e8d59211668e247d8c7e2",
+    "quran-reflection/en/047-muhammad/units/032.html": "1d5a9e79ce6378c8147c9474d70944fb2e71a5f074f616c280faf6e08d268f1e",
+    "quran-reflection/en/049-al-hujurat/units/002.html": "3977c44eaa643331117413fef6bc602c57c1ffb94a7a58760f55802d03fc7efe"
+  },
+  "source_attachment_sha256": "9f7c214fe718763775fb2d55d5e2d463ea44221bb115e8cd751e54ae60a2f24f",
+  "displayed_Arabic_quotations_changed": false,
+  "Quranic_quotations_changed": false,
+  "installed_verse_Arabic_changed": false,
+  "English_translation_complete": true,
+  "corrections": [
+    "Installed all312raw paragraphs as313reviewed source blocks per language,including a complete English mirror.Split combined title/subtitle without omission.Each language contains8sections,32subheadings,10morphology cards,and11full Arabic Quranic quotations with full English transliterations.All10derivative-list items preserved.All quoted Arabic unchanged;no invented poetic witness added.",
+    "Confirmed16Quranic occurrences across16verses and12surahs:twelve intransitive FormI verbs and four transitive FormIV verbs.Preserved active intransitive becoming-fruitless versus transitive rendering-fruitless,conditional clauses,emphasis,and future sa-yuHbiTu.No livestock or modern psychological meaning imported into the Quranic verbs.Published only own h-b-tt registry entry;other entries and root indexes preserved.",
+    "Corrected proposed5:5Persian translation by removing before you from the first food clause,where Arabic has no min qablikum.The later marriage clause keeps before you.English mirrors the corrected proposal.Clarified9:17as denial of entitlement to maintain places of worship while attesting to unbelief,rather than merely reporting a desire to maintain them.Installed verse translations unchanged.",
+    "Preserved2:217condition of dying in unbelief,conditional rather than actual association in6:88and39:65,and49:2as a warning rather than a declaration that all believers deeds have already become fruitless.Preserved distinction between work occurring historically and loss of its value or fruit in divine judgment.No automatic all-sin rule or numerical reward-cancellation theory inferred from the word alone.",
+    "Primary Maqayis,Lisan,Sihah,and related lexical sources confirm livestock illness,well-water loss,unrequited blood,and wound complications.Preserved caution about historical derivation and tribal-name narratives.Refined absence-of-pre-Islamic-poetry statement to the scope of this review rather than a universal claim about all available evidence.",
+    "Expanded all verse ranges into individual references in both languages,including18:103,18:104,18:105and11:15,11:16.Repeated incomplete chapter references likewise expanded.Compared all11full supplied Persian verse renderings with installed text;all differ and are labeled proposed.Article proposals use established Forqan Allah equivalent.All installed translations unchanged.Verified46language-specific verse anchors and10related-root destinations.Unwritten MHW comparison remains plain text.",
+    "No authored reflection in any of16target verses in either language,checked recursively through includes,reflection markers,and authored summary titles.Updated32bilingual own briefs from article summary and removed only obsolete own preliminary notices.Added26missing own contexts and244missing surrounding contexts.All existing contexts,other root summaries,root labels,substantive notes,grammar notices,words,transliterations,and study links preserved.",
+    "Reviewed217assigned lexical root positions against QAC.Two established classifications retained:2:217:30 yazaluna is ZWL on website versus ZYL in QAC,with primary Sihah/Lisan grouping ma zala under ZWL;33:19:12 yughsha is GHSHY on website versus GHSHW in QAC,with primary Raghib explicitly citing this verse under GHSHY.These are documented weak-letter classification differences,not unrelated assignments.No root reassigned;all other positions agree.",
+    "All434bilingual lexical boxes passed mandatory focused completeness check before installation.All22Allah boxes retain exact canonical metadata.Fatihah,Baqarahthrough160,authored reflections,basmala,chapter indexes,shared renderer,prior root installations,and pre-existing2:201work preserved.No full build,browser preview,post-installation tests,commit,or push."
+  ]
+}
