@@ -8795,14 +8795,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/j-d-r/",
       "title": "ریشهٔ ج د ر",
-      "summary": "جدار و جُدُر: دیوار؛ أجدر: سزاوارتر، مناسب‌تر یا محتمل‌تر.",
-      "status": "preliminary"
+      "summary": "دیوار، پایه و حصار آن؛ در جدیر و أجدر، تناسب و شایستگی؛ در شاخه‌ای دیگر، برآمدن و آشکار شدن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-d-r/",
-      "title": "The Root J D R",
-      "summary": "Jidār and judur: a wall or walls; ajdar: more fitting, deserving, or likely.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root J D R",
+      "summary": "A wall, its base, and enclosure; in jadīr and ajdar, suitability and fitness; in another branch, emerging and becoming apparent.",
+      "status": "published"
     }
   },
   "j-d-th": {
@@ -8822,15 +8822,15 @@
   "j-dh-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-dh-ayn/",
-      "title": "ریشهٔ ج ذ ع",
-      "summary": "جذع و جذوع: تنه و تنه‌های درخت، به‌ویژه نخل.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ج ذ ع",
+      "summary": "تنه اصلی درخت، به‌ویژه نخل.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-dh-ayn/",
-      "title": "The Root J DH AYN (J DH ʿ)",
-      "summary": "Jidhʿ and judhūʿ: a tree trunk or trunks, especially of palms.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J DH AYN",
+      "summary": "The main trunk of a tree, especially a date palm.",
+      "status": "published"
     }
   },
   "j-dh-dh": {
@@ -8850,15 +8850,15 @@
   "j-dh-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-dh-w/",
-      "title": "ریشهٔ ج ذ و",
-      "summary": "جذوه: پاره‌ای از چوب افروخته یا اخگری که از آتش باقی است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ج ذ و",
+      "summary": "پاره‌ای آتش یا چوب اخگردار؛ در شاخه‌ای دیگر، راست ایستادن و ملازمت جایگاه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-dh-w/",
-      "title": "The Root J DH W",
-      "summary": "Jadhwah: a piece of burning wood or an ember remaining from a fire.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J DH W",
+      "summary": "A portion of fire or an ember-bearing piece of wood; in another branch, standing upright and holding to a place.",
+      "status": "published"
     }
   },
   "j-f-a": {
@@ -8906,7 +8906,7 @@
   "j-h-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-h-d/",
-      "title": "ریشه قرآنی ج ح د",
+      "title": "ریشهٔ ج ح د",
       "summary": "انکار و نپذیرفتن چیزی که موضوع اقرار و پذیرش است؛ در کاربرد برجسته آن، انکار با وجود شناخت حقیقت.",
       "status": "published"
     },
@@ -9228,85 +9228,85 @@
   "j-r-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-r-ayn/",
-      "title": "ریشهٔ ج ر ع",
-      "summary": "جرعه‌جرعه نوشیدن؛ تجرّع: با زحمت و تکلف فرو بردن نوشیدنی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ج ر ع",
+      "summary": "نوشیدن و فروبردن مقدار محدودی از مایع؛ جرعه‌ای از نوشیدنی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-r-ayn/",
-      "title": "The Root J R AYN (J R ʿ)",
-      "summary": "Drinking in gulps; tajarruʿ: struggling to swallow a drink.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J R AYN",
+      "summary": "Drinking and swallowing a limited quantity of liquid; a gulp of a drink.",
+      "status": "published"
     }
   },
   "j-r-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-r-d/",
-      "title": "ریشهٔ ج ر د",
-      "summary": "برهنه و بی‌پوشش شدن؛ جراد در قرآن نام ملخ است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ج ر د",
+      "summary": "برداشتن یا نداشتن پوشش و آشکار شدن سطح چیزی؛ جراد، نام ملخ است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-r-d/",
-      "title": "The Root J R D",
-      "summary": "Becoming bare or stripped; jarād in the Qur’an denotes locusts.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J R D",
+      "summary": "Removing or lacking a covering and exposing a surface; jarād names locusts.",
+      "status": "published"
     }
   },
   "j-r-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-r-f/",
-      "title": "ریشهٔ ج ر ف",
-      "summary": "کندن و با خود بردن، مانند فرسایش سیلاب؛ جُرُف: کنارهٔ فرسوده و ناپایدار زمین.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ج ر ف",
+      "summary": "برداشتن و از میان بردن مقدار فراوانی از چیزی؛ به‌ویژه کندن و بردن خاک بر اثر جریان آب.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-r-f/",
-      "title": "The Root J R F",
-      "summary": "Sweeping or carrying away, as by flood erosion; juruf: an eroded, unstable bank.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J R F",
+      "summary": "Removing and sweeping away a large quantity of something, especially soil eroded and carried off by flowing water.",
+      "status": "published"
     }
   },
   "j-r-h": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-r-h/",
-      "title": "ریشهٔ ج ر ح",
-      "summary": "زخم زدن؛ اجتراح: به دست آوردن یا مرتکب شدن؛ جوارح: جانوران شکارگر در سیاق صید.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ج ر ح",
+      "summary": "زخمی کردن و ایجاد اثر بر بدن؛ و در شاخه‌ای دیگر، کسب کردن و انجام دادن عمل.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-r-h/",
-      "title": "The Root J R Ḥ",
-      "summary": "Wounding; ijtirāḥ: acquiring or committing; jawāriḥ: hunting animals in the hunting context.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J R H",
+      "summary": "Wounding and producing an injury on the body; in another branch, acquiring and performing an act.",
+      "status": "published"
     }
   },
   "j-r-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-r-m/",
-      "title": "ریشهٔ ج ر م",
-      "summary": "بریدن و به دست آوردن؛ إجرام: مرتکب شدن جرم یا گناه؛ «لا جرم» ساختی برای تأکید و قطعیت است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ج ر م",
+      "summary": "بریدن و جدا کردن؛ کسب کردن و به دست آوردن؛ و در شاخه‌ای دیگر، ارتکاب جرم و کردار ناپسند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-r-m/",
-      "title": "The Root J R M",
-      "summary": "Cutting and acquiring; ijrām: committing an offense; lā jarama is an expression of certainty.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J R M",
+      "summary": "Cutting and separating; acquiring and obtaining; and, in another branch, committing wrongdoing and objectionable acts.",
+      "status": "published"
     }
   },
   "j-r-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-r-r/",
-      "title": "ریشهٔ ج ر ر",
-      "summary": "کشیدن و به دنبال خود بردن چیزی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ج ر ر",
+      "summary": "کشیدن و به دنبال خود بردن چیزی؛ حرکت دادن با نیروی کشش.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-r-r/",
-      "title": "The Root J R R",
-      "summary": "Pulling or dragging something along.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J R R",
+      "summary": "Pulling and drawing something along; moving it through a pulling force.",
+      "status": "published"
     }
   },
   "j-r-y": {
@@ -9326,15 +9326,15 @@
   "j-r-z": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-r-z/",
-      "title": "ریشهٔ ج ر ز",
-      "summary": "بریدن و از میان بردن؛ زمین جُرُز، زمینی بی‌گیاه یا با پوشش گیاهی از میان رفته است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ج ر ز",
+      "summary": "بریدن و از میان بردن چیزی؛ و در وصف زمین، بی‌گیاه بودن و نداشتن پوشش گیاهی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-r-z/",
-      "title": "The Root J R Z",
-      "summary": "Cutting or removing; juruz land is barren or stripped of vegetation.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J R Z",
+      "summary": "Cutting and removing something; of land, being without vegetation or plant cover.",
+      "status": "published"
     }
   },
   "j-s-d": {
@@ -9466,15 +9466,15 @@
   "j-w-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-w-f/",
-      "title": "ریشهٔ ج و ف",
-      "summary": "جوف: درون و فضای داخلیِ چیزی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ج و ف",
+      "summary": "فضای درونی و دربرگرفته‌شدهٔ چیزی؛ خواه خالی باشد یا چیزی در آن قرار داشته باشد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-w-f/",
-      "title": "The Root J W F",
-      "summary": "Jawf: the interior or inner cavity of something.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J W F",
+      "summary": "The internal, encompassed space of something, whether empty or containing something.",
+      "status": "published"
     }
   },
   "j-w-r": {
@@ -9494,15 +9494,15 @@
   "j-w-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-w-s/",
-      "title": "ریشهٔ ج و س",
-      "summary": "در میان جایی به جست‌وجو و رفت‌وآمد پرداختن؛ جاسوا خلال الدیار: در میان خانه‌ها نفوذ کردن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ج و س",
+      "summary": "گشتن و رفت‌وآمد در میان مکان‌ها یا جمعیت‌ها؛ گاه همراه با جست‌وجو و وارسی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-w-s/",
-      "title": "The Root J W S",
-      "summary": "Moving or searching through an area; jāsū khilāla al-diyār: penetrating among dwellings.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J W S",
+      "summary": "Moving back and forth among places or groups of people; sometimes accompanied by searching and inspection.",
+      "status": "published"
     }
   },
   "j-w-w": {
@@ -9551,56 +9551,56 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/j-y-b/",
       "title": "ریشهٔ ج ي ب",
-      "summary": "جیب و جیوب: گشودگیِ گریبان و بخش جلوی لباس در پیرامون سینه.",
-      "status": "preliminary"
+      "summary": "گشودگی بالای جامه در ناحیهٔ گردن و بالای سینه؛ گریبان.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-y-b/",
-      "title": "The Root J Y B",
-      "summary": "Jayb and juyūb: the garment opening at the neck and upper chest.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J Y B",
+      "summary": "The opening at the top of a garment, at the neck and upper chest; the neckline opening.",
+      "status": "published"
     }
   },
   "j-y-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-y-d/",
       "title": "ریشهٔ ج ي د",
-      "summary": "جید: گردن، به‌ویژه با توجه به کشیدگی و نمای آن.",
-      "status": "preliminary"
+      "summary": "گردن؛ در صورت‌های وصفی، بلندی، کشیدگی و تناسب گردن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-y-d/",
-      "title": "The Root J Y D",
-      "summary": "Jīd: the neck, especially its visible length or form.",
-      "status": "preliminary"
+      "title": "Root J Y D",
+      "summary": "The neck; in descriptive forms, its length, elongation, and proportions.",
+      "status": "published"
     }
   },
   "j-z-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-z-a/",
       "title": "ریشهٔ ج ز أ",
-      "summary": "جزء: بخش یا سهمی از یک کل.",
-      "status": "preliminary"
+      "summary": "بخش یا سهمی از یک کل؛ و در شاخهٔ فعلیِ دیگر، کفایت کردن و بسنده کردن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-z-a/",
-      "title": "The Root J Z A",
-      "summary": "Juzʾ: a part or share of a whole.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root J Z ʾ",
+      "summary": "A part or share of a whole; in another verbal branch, sufficing and making do.",
+      "status": "published"
     }
   },
   "j-z-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-z-ayn/",
       "title": "ریشهٔ ج ز ع",
-      "summary": "بی‌تابی و آشفتگی در برابر رنج، در برابر شکیبایی.",
-      "status": "preliminary"
+      "summary": "بی‌تابی و کاهش یا گسستن توان تحمل در برابر دشواری؛ در برابر صبر.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-z-ayn/",
-      "title": "The Root J Z AYN (J Z ʿ)",
-      "summary": "Distress and loss of composure under hardship, contrasted with patience.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root J Z ʿ",
+      "summary": "Distress and diminished or broken endurance under hardship, contrasted with patience.",
+      "status": "published"
     }
   },
   "j-z-y": {
