@@ -9341,14 +9341,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/j-s-d/",
       "title": "ریشهٔ ج س د",
-      "summary": "جسد: پیکر و صورت جسمانیِ موجود؛ خود واژه زنده یا مرده بودن را قطعی نمی‌کند.",
-      "status": "preliminary"
+      "summary": "پیکر و صورت جسمانی؛ خود واژه زنده یا مرده بودن و داشتن آگاهی را تعیین نمی‌کند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-s-d/",
-      "title": "The Root J S D",
-      "summary": "Jasad: a bodily form or physical body; the word alone does not settle whether it is living or lifeless.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root J S D",
+      "summary": "A body or bodily form; the word alone does not determine life, death, or awareness.",
+      "status": "published"
     }
   },
   "j-s-m": {
@@ -9369,14 +9369,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/j-s-s/",
       "title": "ریشهٔ ج س س",
-      "summary": "کاویدن و به‌دقت جست‌وجو کردن؛ تجسّس: پی‌گیری پنهانیِ امور دیگران در سیاق مربوط.",
-      "status": "preliminary"
+      "summary": "لمس و وارسی برای شناخت؛ در شاخهٔ اخبار، جست‌وجو و پیگیری اطلاعات.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-s-s/",
-      "title": "The Root J S S",
-      "summary": "Probing or closely investigating; tajassus in the relevant context concerns prying into others’ affairs.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root J S S",
+      "summary": "Touching and inspecting to learn; in information-related usage, seeking and following up reports.",
+      "status": "published"
     }
   },
   "j-th-m": {
