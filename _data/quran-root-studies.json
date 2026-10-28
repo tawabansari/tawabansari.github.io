@@ -6709,14 +6709,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-b-r/",
       "title": "ریشهٔ ح ب ر",
-      "summary": "آراستگی، زیبایی و شادی؛ أحبار: عالمان دینی؛ یحبرون: شاد و برخوردار شدن.",
-      "status": "preliminary"
+      "summary": "اثر و آراستگی؛ حَبْر/حِبْر: عالم دینی؛ حُبُور: شادی و برخورداری از نعمت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-b-r/",
       "title": "The Root Ḥ B R",
-      "summary": "Adornment, beauty, and joy; aḥbār: religious scholars; yuḥbarūn: being delighted or favored.",
-      "status": "preliminary"
+      "summary": "Traces and adornment; ḥabr/ḥibr: a religious scholar; ḥubūr: joy and enjoyment of blessings.",
+      "status": "published"
     }
   },
   "h-b-s": {
@@ -9509,28 +9509,28 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/j-w-w/",
       "title": "ریشهٔ ج و و",
-      "summary": "جوّ: فضای باز و هوای میان زمین و آسمان.",
-      "status": "preliminary"
+      "summary": "فضای میان پیرامون؛ فضای گشوده یا درونی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-w-w/",
       "title": "The Root J W W",
-      "summary": "Jaww: the open air or aerial space above the earth.",
-      "status": "preliminary"
+      "summary": "Space amid its surroundings; open or interior space.",
+      "status": "published"
     }
   },
   "j-w-z": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-w-z/",
       "title": "ریشهٔ ج و ز",
-      "summary": "گذشتن و عبور کردن از حد یا میان چیزی؛ تجاوز در برخی ساخت‌ها، درگذشتن و چشم‌پوشی است.",
-      "status": "preliminary"
+      "summary": "گذشتن و پشت سر گذاشتن؛ «تَجَاوَزَ عَنْ» در کاربرد قرآنی، درگذشتن از بدی‌ها و مؤاخذهٔ آنها.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-w-z/",
-      "title": "The Root J W Z",
-      "summary": "Passing through or beyond a limit; tajāwuz can also mean overlooking or pardoning.",
-      "status": "preliminary"
+      "title": "Qur’anic Root J W Z",
+      "summary": "Passing and leaving behind; Qur’anic tajāwaza ʿan means passing over misdeeds and refraining from holding them to account.",
+      "status": "published"
     }
   },
   "j-y-a": {
