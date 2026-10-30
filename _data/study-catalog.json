@@ -1948,5 +1948,47 @@
       "/en/quran-terminology/taqwa/",
       "/en/quran-terminology/sultan-logic-in-quran/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/divine-permission-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "اذن الهی",
+    "description": "بررسی اذن الهی در رویش، رویدادها و هدایت؛ تفاوت امکان وقوع با رضایت خداوند و اجازه تشریع.",
+    "related": [
+      "/fa/quran-terminology/sealing-heart-guidance-misguidance/",
+      "/fa/quran-completeness/inherited-tradition-and-revelation/",
+      "/fa/quran-terminology/intercession-in-the-quran/",
+      "/fa/quran-terminology/halal-and-haram-in-the-quran/"
+    ],
+    "format": "study",
+    "aliases": [
+      "اذن",
+      "إذن",
+      "Divine permission",
+      "Idhn"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/divine-permission-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Divine permission",
+    "description": "Divine permission in growth, events, and guidance: distinguishing what can happen from divine approval and authority to establish religious rules.",
+    "related": [
+      "/en/quran-terminology/sealing-heart-guidance-misguidance/",
+      "/en/quran-completeness/inherited-tradition-and-revelation/",
+      "/en/quran-terminology/intercession-in-the-quran/",
+      "/en/quran-terminology/halal-and-haram-in-the-quran/"
+    ],
+    "format": "study",
+    "aliases": [
+      "اذن",
+      "إذن",
+      "Divine permission",
+      "Idhn"
+    ]
   }
 ]
