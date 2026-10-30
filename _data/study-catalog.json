@@ -1990,5 +1990,49 @@
       "Divine permission",
       "Idhn"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/hijrah-and-migration-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "هجرت و مهاجرت",
+    "description": "پژوهشی درباره هجرت، ناتوانی از خروج، آزادی، معاش و حقوق و مسئولیت‌های مهاجران، رهبران و جامعه پذیرنده.",
+    "related": [
+      "/fa/quran-terminology/iman/",
+      "/fa/quran-terminology/sabr-in-the-quran/",
+      "/fa/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/fa/quran-terminology/divine-permission-in-the-quran/"
+    ],
+    "format": "study",
+    "aliases": [
+      "هجرت",
+      "مهاجرت",
+      "Hijrah",
+      "Migration",
+      "Refuge"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/hijrah-and-migration-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Hijrah and migration",
+    "description": "A study of migration, inability to leave, freedom, livelihood, and the mutual responsibilities of migrants, leaders, and receiving communities.",
+    "related": [
+      "/en/quran-terminology/iman/",
+      "/en/quran-terminology/sabr-in-the-quran/",
+      "/en/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/en/quran-terminology/divine-permission-in-the-quran/"
+    ],
+    "format": "study",
+    "aliases": [
+      "هجرت",
+      "مهاجرت",
+      "Hijrah",
+      "Migration",
+      "Refuge"
+    ]
   }
 ]
