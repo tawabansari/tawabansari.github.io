@@ -11398,15 +11398,15 @@
   "kh-y-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/kh-y-m/",
-      "title": "ریشهٔ خ ي م",
-      "summary": "خیمه و اقامت کردن در جایی.",
-      "status": "preliminary"
+      "title": "ریشهٔ قرآنی «خ ي م»؛ اقامت، پایداری و خیمه",
+      "summary": "اقامت و ماندن در یک مکان؛ و در کاربرد اصلیِ اسم، خیمه به‌عنوان سرپناه یا اقامتگاهِ برپاشده.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/kh-y-m/",
-      "title": "The Root KH Y M",
-      "summary": "A tent and dwelling or encamping in a place.",
-      "status": "preliminary"
+      "title": "The Qur’anic root KH Y M: dwelling, remaining, and the tent",
+      "summary": "Dwelling and remaining in a place; in the noun’s main use, a tent as an erected shelter or dwelling.",
+      "status": "published"
     }
   },
   "kh-y-r": {
@@ -13862,15 +13862,15 @@
   "n-k-h": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-k-h/",
-      "title": "ریشهٔ ن ك ح",
-      "summary": "نکاح: پیوند زناشویی یا آمیزش، با توجه به ساخت و سیاق.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن ک ح (نَکَحَ)",
+      "summary": "ازدواج و برقراری پیوند همسری؛ به ازدواج درآوردن یا خواستن ازدواج، بسته به ساخت؛ کاربرد آمیزش نیز در عربی ثبت شده است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-k-h/",
-      "title": "The Root N K Ḥ",
-      "summary": "Nikāḥ denotes marriage or intercourse, according to construction and context.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root N K Ḥ (Nakaḥa)",
+      "summary": "Marriage and establishing a marital bond; marrying someone to another or seeking marriage, according to form; a use for intercourse is also attested in Arabic.",
+      "status": "published"
     }
   },
   "n-k-l": {
