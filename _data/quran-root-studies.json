@@ -7926,15 +7926,15 @@
   "h-y-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-y-q/",
-      "title": "ریشهٔ ح ي ق",
-      "summary": "فراگرفتن و دامنگیر شدن، به‌ویژه درباره پیامد ناخوشایند.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ح ي ق",
+      "summary": "فرود آمدن و فراگرفتن چیزی، به‌ویژه پیامدی ناگوار که شخص را گرفتار می‌کند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-y-q/",
-      "title": "The Root Ḥ Y Q",
-      "summary": "Enveloping or befalling, especially an adverse consequence.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Ḥ Y Q",
+      "summary": "Something befalling and encompassing someone, especially an adverse consequence in which the person becomes caught.",
+      "status": "published"
     }
   },
   "h-y-r": {
@@ -10474,15 +10474,15 @@
   "kh-b-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/kh-b-a/",
-      "title": "ریشهٔ خ ب أ",
-      "summary": "پنهان کردن؛ خبء: چیز نهفته.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی خ ب أ",
+      "summary": "پوشاندن و پنهان نگه داشتن؛ خَبْء: چیز پوشیده و نهفته.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/kh-b-a/",
-      "title": "The Root KH B A",
-      "summary": "Hiding; khabʾ means something concealed.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root KH B A",
+      "summary": "Covering and keeping concealed; khabʾ: something hidden or concealed.",
+      "status": "published"
     }
   },
   "kh-b-l": {
@@ -10502,29 +10502,29 @@
   "kh-b-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/kh-b-r/",
-      "title": "ریشهٔ خ ب ر",
-      "summary": "خبر و آگاهی حاصل از شناخت و تجربه.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی خ ب ر",
+      "summary": "آگاهی و شناختِ حقیقت و وضعیت چیزی؛ خبر: اطلاعِ منتقل‌شده؛ خبير: آگاه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/kh-b-r/",
-      "title": "The Root KH B R",
-      "summary": "News and knowledge gained through familiarity or experience.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root KH B R",
+      "summary": "Awareness and knowledge of a thing’s reality and condition; khabar: conveyed information; khabīr: aware.",
+      "status": "published"
     }
   },
   "kh-b-t": {
     "fa": {
       "url": "/quran-terminology/fa/roots/kh-b-t/",
-      "title": "ریشهٔ خ ب ت",
-      "summary": "زمین هموار و فرو؛ اخبات: فروتنی و آرام گرفتن با پذیرش.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی خ ب ت",
+      "summary": "زمین فروهشته و گسترده؛ إخبات: فروتنی و خشوع، با روی‌آوردن و آرام گرفتن بنا بر سیاق.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/kh-b-t/",
-      "title": "The Root KH B T",
-      "summary": "Low, level ground; ikhbāt means humble, receptive submission.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root KH B T",
+      "summary": "Low, expansive ground; ikhbāt: humility and reverent submission, with turning toward and settling as the context indicates.",
+      "status": "published"
     }
   },
   "kh-b-th": {
