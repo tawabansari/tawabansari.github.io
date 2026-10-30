@@ -6891,14 +6891,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-f-w/",
       "title": "ریشهٔ ح ف و",
-      "summary": "پیگیری و پرسش بسیار؛ نیز توجه و مهربانی، یا پافشاری در مطالبه، بسته به سیاق.",
-      "status": "preliminary"
+      "summary": "توجه و پیگیری بسیار؛ در کاربرد قرآنی، آگاهی دقیق، لطف و مهربانی، یا اصرار در مطالبه، بسته به ساخت و سیاق.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-f-w/",
-      "title": "The Root Ḥ F W",
-      "summary": "Persistent inquiry; also attentive kindness or pressing a demand, according to context.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ F W",
+      "summary": "Close attention and persistent pursuit; in Qur’anic usage, thorough knowledge, gracious kindness, or insistence in demanding, according to construction and context.",
+      "status": "published"
     }
   },
   "h-f-zha": {
@@ -6989,14 +6989,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-l-f/",
       "title": "ریشهٔ ح ل ف",
-      "summary": "سوگند خوردن و پیمان یا هم‌پیمانی بستن.",
-      "status": "preliminary"
+      "summary": "سوگند خوردن برای تأکید بر یک ادعا یا استوار کردن تعهد؛ «حَلَّاف» کسی است که بسیار سوگند می‌خورد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-l-f/",
-      "title": "The Root Ḥ L F",
-      "summary": "Swearing an oath or entering a covenant or alliance.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ L F",
+      "summary": "Swearing an oath to affirm a claim or strengthen a commitment; حَلَّاف describes someone who swears frequently.",
+      "status": "published"
     }
   },
   "h-l-l": {
@@ -7017,14 +7017,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-l-m/",
       "title": "ریشهٔ ح ل م",
-      "summary": "بردباری و خویشتن‌داری؛ نیز خواب و رؤیا، و بلوغ در تعبیر «بلغ الحلم».",
-      "status": "preliminary"
+      "summary": "خواب و رؤیا؛ بلوغ در تعبیر «بلوغ الحلم»؛ خرد، بردباری و خویشتن‌داری در برابر شتاب‌زدگی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-l-m/",
-      "title": "The Root Ḥ L M",
-      "summary": "Forbearance and self-restraint; also dreams, and maturity in the expression reaching ḥulum.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ L M",
+      "summary": "Dreams and visions in sleep; puberty in بُلُوغُ الْحُلُمِ; reason, forbearance, and self-restraint against rashness.",
+      "status": "published"
     }
   },
   "h-l-q": {
@@ -7059,28 +7059,28 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-l-y/",
       "title": "ریشهٔ ح ل ي",
-      "summary": "زیور و آرایش، و آراستن با زیور.",
-      "status": "preliminary"
+      "summary": "زیور و آراستگی؛ آراستن انسان یا اشیا با چیزی که برای زیبایی به ظاهر آنها افزوده می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-l-y/",
-      "title": "The Root Ḥ L Y",
-      "summary": "Jewelry, adornment, and decorating with ornaments.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ L Y",
+      "summary": "Ornaments and adornment; adorning people or objects with something added to their appearance for beauty.",
+      "status": "published"
     }
   },
   "h-m-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-m-a/",
       "title": "ریشهٔ ح م أ",
-      "summary": "گل تیره و لجن؛ حمئه: گل‌آلود، متمایز از حامیه به معنای داغ.",
-      "status": "preliminary"
+      "summary": "گل‌ولای تیره و رسوبی در آب یا محیط مرطوب؛ ماده‌ای که می‌تواند رنگ، شفافیت یا بوی آب را تغییر دهد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-m-a/",
-      "title": "The Root Ḥ M A",
-      "summary": "Dark mud or sludge; ḥamiʾah means muddy, distinct from ḥāmiyah, meaning hot.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ M ʾ",
+      "summary": "Dark mud and sediment in water or damp surroundings; material that can alter water’s colour, clarity, or smell.",
+      "status": "published"
     }
   },
   "h-m-d": {
@@ -7101,14 +7101,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-m-l/",
       "title": "ریشهٔ ح م ل",
-      "summary": "برداشتن و حمل کردن بار؛ بر عهده گرفتن؛ نیز بارداری.",
-      "status": "preliminary"
+      "summary": "برداشتن، حمل کردن و بر عهده داشتن چیزی؛ از بار مادی و بارداری تا مسئولیت، تعهد و پیامد کردار.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-m-l/",
-      "title": "The Root Ḥ M L",
-      "summary": "Carrying a load, bearing responsibility, and pregnancy.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ M L",
+      "summary": "Lifting, carrying, and bearing something; from physical loads and pregnancy to responsibility, commitment, and the consequences of deeds.",
+      "status": "published"
     }
   },
   "h-m-m": {
@@ -7129,14 +7129,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-m-r/",
       "title": "ریشهٔ ح م ر",
-      "summary": "سرخی و رنگ سرخ؛ در شاخه‌ای دیگر، حمار و حُمُر: خر و خران.",
-      "status": "preliminary"
+      "summary": "سرخی و رنگ سرخ؛ و در شاخه‌ای دیگر، حِمار: خر، با صورت‌های جمع حَمِیر و حُمُر.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-m-r/",
-      "title": "The Root Ḥ M R",
-      "summary": "Redness or red color; in another branch, ḥimār and ḥumur mean donkey and donkeys.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ M R",
+      "summary": "Redness and the colour red; in another branch, ḥimār means donkey, with the plural forms ḥamīr and ḥumur.",
+      "status": "published"
     }
   },
   "h-m-y": {
@@ -7241,28 +7241,28 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-q-b/",
       "title": "ریشهٔ ح ق ب",
-      "summary": "مدت و دوره‌ای از زمان؛ احقاب: دوره‌های پی‌درپی، بدون مدت عددی ثابت در خود واژه.",
-      "status": "preliminary"
+      "summary": "در کاربرد قرآنی، دوره‌ای دراز از زمان، بدون تعیین شمار سال‌ها در خود آیه؛ «أحقاب» جمعِ دوره‌هاست و شمار نهایی آنها را به‌تنهایی تعیین نمی‌کند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-q-b/",
-      "title": "The Root Ḥ Q B",
-      "summary": "A period of time; aḥqāb denotes successive periods without a fixed numerical duration in the word itself.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ Q B",
+      "summary": "In Qur’anic usage, a long period without the verse specifying a number of years; aḥqāb is the plural of periods and does not alone determine their final count.",
+      "status": "published"
     }
   },
   "h-q-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-q-f/",
       "title": "ریشهٔ ح ق ف",
-      "summary": "خمیدگی و توده‌های خمیده شن؛ احقاف: ریگزارها و نام ناحیه‌ای.",
-      "status": "preliminary"
+      "summary": "خمیدگی و انحنا؛ «حِقْف»: پشتهٔ ریگی کشیده و خمیده؛ «أحقاف»: جمع آن و نام ناحیه‌ای در سرگذشت عاد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-q-f/",
-      "title": "The Root Ḥ Q F",
-      "summary": "Curved or winding sand dunes; al-Aḥqāf also names a region.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ Q F",
+      "summary": "Bending and curvature; ḥiqf is an elongated, curved sand ridge; aḥqāf is its plural and the name of a region in ʿĀd’s story.",
+      "status": "published"
     }
   },
   "h-q-q": {
