@@ -7731,42 +7731,42 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-w-b/",
       "title": "ریشهٔ ح و ب",
-      "summary": "گناه، خطا و کار ناروا.",
-      "status": "preliminary"
+      "summary": "گناه و کار ناروا؛ در شاخه‌های دیگر، نیاز و درماندگی، اندوه و دلسوزی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-w-b/",
-      "title": "The Root Ḥ W B",
-      "summary": "Sin, wrongdoing, or an offense.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ W B",
+      "summary": "Sin and wrongdoing; in other branches, need and helplessness, sorrow, and compassion.",
+      "status": "published"
     }
   },
   "h-w-dh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-w-dh/",
-      "title": "ریشهٔ ح و ذ",
-      "summary": "راندن و به زیر فرمان آوردن؛ استحواذ: چیره شدن و تسلط یافتن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ح و ذ",
+      "summary": "راندن و مهار کردن، گرد آوردن و چیره شدن؛ در کاربرد قرآنی، چیرگی و اعمال نفوذ بر دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-w-dh/",
-      "title": "The Root Ḥ W DH",
-      "summary": "Driving or bringing under control; istiḥwādh means gaining mastery or dominance.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ W DH",
+      "summary": "Driving and controlling, gathering, and gaining mastery; in Qur’anic usage, mastery and influence over another.",
+      "status": "published"
     }
   },
   "h-w-j": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-w-j/",
-      "title": "ریشهٔ ح و ج",
-      "summary": "نیاز، خواسته و مقصودی که در دل است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ح و ج",
+      "summary": "نیاز یا خواسته‌ای که برای انسان لازم یا مطلوب است؛ مادی، عملی یا درونی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-w-j/",
-      "title": "The Root Ḥ W J",
-      "summary": "A need, desire, or purpose held within.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ W J",
+      "summary": "A need or wish considered necessary or desirable; material, practical, or inward.",
+      "status": "published"
     }
   },
   "h-w-l": {
@@ -7786,15 +7786,15 @@
   "h-w-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-w-r/",
-      "title": "ریشهٔ ح و ر",
-      "summary": "بازگشت و پاسخ‌گویی در گفت‌وگو؛ حور: وصف چشمان برجسته و زیبا؛ حواریون: یاران نزدیک.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ح و ر",
+      "summary": "بازگشت و رفت‌وبرگشت گفتار؛ گردش و ویژگی‌های رنگ و چشم؛ حواریون، یاران ویژه عیسی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-w-r/",
-      "title": "The Root Ḥ W R",
-      "summary": "Returning and responding in dialogue; ḥūr describes striking, beautiful eyes; ḥawāriyyūn are close supporters or disciples.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ W R",
+      "summary": "Return and reciprocal speech; rotation and qualities of color and eyes; the ḥawāriyyūn, Jesus’s close helpers.",
+      "status": "published"
     }
   },
   "h-w-sh": {
@@ -7815,14 +7815,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-w-t/",
       "title": "ریشهٔ ح و ت",
-      "summary": "ماهی؛ واژه به‌تنهایی گونه جانوری معینی را مشخص نمی‌کند.",
-      "status": "preliminary"
+      "summary": "ماهی؛ در کاربردهای غیرقرآنیِ این خانواده، گردش و تغییر مسیر.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-w-t/",
-      "title": "The Root Ḥ W T",
-      "summary": "A fish; the word alone does not specify a particular species.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ W T",
+      "summary": "Fish; in non-Qur’anic uses of this family, circling and changing course.",
+      "status": "published"
     }
   },
   "h-w-tt": {
@@ -7856,15 +7856,15 @@
   "h-w-z": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-w-z/",
-      "title": "ریشهٔ ح و ز",
-      "summary": "گردآوردن و جای گرفتن در محدوده؛ تحیّز: به گروهی پیوستن یا موضع گرفتن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ح و ز",
+      "summary": "گرد آوردن و در اختیار گرفتن؛ در مشتق‌ها، کنار رفتن و پیوستن به یک سو یا گروه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-w-z/",
-      "title": "The Root Ḥ W Z",
-      "summary": "Gathering or occupying a space; taḥayyuz means joining a group or taking a position.",
-      "status": "preliminary"
+      "title": "Qur’anic root Ḥ W Z",
+      "summary": "Gathering and taking possession; in its derivatives, moving aside and joining a side or group.",
+      "status": "published"
     }
   },
   "h-y-d": {
