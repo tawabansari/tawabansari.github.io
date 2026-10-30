@@ -1,0 +1,2300 @@
+{
+  "root": "خ س ف",
+  "slug": "kh-s-f",
+  "date": "2026-10-30",
+  "status": "installed locally",
+  "files": [
+    "quran-terminology/fa/roots/kh-s-f/index.html",
+    "quran-terminology/en/roots/kh-s-f/index.html",
+    "_data/quran-root-studies.json",
+    "quran-reflection/fa/016-an-nahl/units/045.html",
+    "quran-reflection/fa/017-al-isra/units/068.html",
+    "quran-reflection/fa/028-al-qasas/units/081.html",
+    "quran-reflection/fa/028-al-qasas/units/082.html",
+    "quran-reflection/fa/029-al-ankabut/units/040.html",
+    "quran-reflection/fa/034-saba/units/009.html",
+    "quran-reflection/fa/067-al-mulk/units/016.html",
+    "quran-reflection/fa/075-al-qiyamah/units/008.html",
+    "quran-reflection/en/016-an-nahl/units/045.html",
+    "quran-reflection/en/017-al-isra/units/068.html",
+    "quran-reflection/en/028-al-qasas/units/081.html",
+    "quran-reflection/en/028-al-qasas/units/082.html",
+    "quran-reflection/en/029-al-ankabut/units/040.html",
+    "quran-reflection/en/034-saba/units/009.html",
+    "quran-reflection/en/067-al-mulk/units/016.html",
+    "quran-reflection/en/075-al-qiyamah/units/008.html",
+    "_handoff/root-install-kh-s-f-2026-10-30.json"
+  ],
+  "source_attachment": "/Users/tawab/.codex/attachments/9f204aab-95c2-4526-a26f-7b0559233325/Pasted text.txt",
+  "source_blocks_per_language": 393,
+  "raw_source_paragraphs": 393,
+  "source_segmentation_note": "393 supplied logical blocks retained in each language; concise root brief appended to final block.",
+  "sections_per_language": 9,
+  "subheadings_per_language": 28,
+  "morphology_cards_per_language": 8,
+  "quranic_occurrences": 8,
+  "quranic_verses": 8,
+  "quranic_surahs": 8,
+  "word_box_changes": [
+    {
+      "file": "quran-reflection/fa/016-an-nahl/units/045.html",
+      "verse": "16:45",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "يَخسِفَ",
+          "mode": "root-study-update",
+          "brief": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+          "before_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فرو بردن در زمین؛ نیز کاهش نور و گرفتگی ماه.",
+            "data-context": "زمین را زیر پایشان فرو ببرد.",
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+            "data-context": "زمین را زیر پایشان فرو ببرد.",
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/017-al-isra/units/068.html",
+      "verse": "17:68",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "يَخسِفَ",
+          "mode": "root-study-update",
+          "brief": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+          "before_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فرو بردن در زمین؛ نیز کاهش نور و گرفتگی ماه.",
+            "data-context": "فرو برد؛ خطر فرورفتن در زمین.",
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+            "data-context": "فرو برد؛ خطر فرورفتن در زمین.",
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/081.html",
+      "verse": "28:81",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 1,
+          "word": "فَخَسَفنا",
+          "mode": "root-study-update",
+          "brief": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+          "before_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فرو بردن در زمین؛ نیز کاهش نور و گرفتگی ماه.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+            "data-context": "قارون و خانه‌اش را در زمین فرو بردیم؛ گزارش واقعه‌ای رخ‌داده.",
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/082.html",
+      "verse": "28:82",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 21,
+          "word": "لَخَسَفَ",
+          "mode": "root-study-update",
+          "brief": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+          "before_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فرو بردن در زمین؛ نیز کاهش نور و گرفتگی ماه.",
+            "data-context": "ما را نیز در زمین فرو می‌برد؛ پیامد فرضیِ نبود آن لطف در سخن مردم.",
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+            "data-context": "ما را نیز در زمین فرو می‌برد؛ پیامد فرضیِ نبود آن لطف در سخن مردم.",
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/040.html",
+      "verse": "29:40",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 15,
+          "word": "خَسَفنا",
+          "mode": "root-study-update",
+          "brief": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+          "before_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فرو بردن در زمین؛ نیز کاهش نور و گرفتگی ماه.",
+            "data-context": "او یا آن گروه را در زمین فرو بردیم.",
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+            "data-context": "او یا آن گروه را در زمین فرو بردیم.",
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/034-saba/units/009.html",
+      "verse": "34:9",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "نَخسِف",
+          "mode": "root-study-update",
+          "brief": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+          "before_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فرو بردن در زمین؛ نیز کاهش نور و گرفتگی ماه.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+            "data-context": "در صورت مشیت الهی، آنان را در زمین فرو ببریم؛ جواب شرط است.",
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/067-al-mulk/units/016.html",
+      "verse": "67:16",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "يَخسِفَ",
+          "mode": "root-study-update",
+          "brief": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+          "before_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فرو بردن در زمین؛ نیز کاهش نور و گرفتگی ماه.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+            "data-context": "زمین را با شما فرو برد؛ امکان مطرح‌شده در پرسش هشداردهنده.",
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/075-al-qiyamah/units/008.html",
+      "verse": "75:8",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 1,
+          "word": "وَخَسَفَ",
+          "mode": "root-study-update",
+          "brief": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+          "before_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فرو بردن در زمین؛ نیز کاهش نور و گرفتگی ماه.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": "توضیح مقدماتی؛ پژوهش تفصیلی هنوز آماده نیست."
+          },
+          "after_attributes": {
+            "data-root": "خ س ف",
+            "data-root-meaning": "فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن.",
+            "data-context": "ماه تیره شود یا روشنایی‌اش پنهان گردد؛ فاعل فعل، ماه است.",
+            "data-learn-more": "/quran-terminology/fa/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/016-an-nahl/units/045.html",
+      "verse": "16:45",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "يَخسِفَ",
+          "mode": "root-study-update",
+          "brief": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+          "before_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking into the earth; also dimming or eclipsing of the moon.",
+            "data-context": "Cause the ground beneath them to sink.",
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+            "data-context": "Cause the ground beneath them to sink.",
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/017-al-isra/units/068.html",
+      "verse": "17:68",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 3,
+          "word": "يَخسِفَ",
+          "mode": "root-study-update",
+          "brief": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+          "before_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking into the earth; also dimming or eclipsing of the moon.",
+            "data-context": "He causes to sink; the danger of being swallowed by the earth.",
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+            "data-context": "He causes to sink; the danger of being swallowed by the earth.",
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/081.html",
+      "verse": "28:81",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 1,
+          "word": "فَخَسَفنا",
+          "mode": "root-study-update",
+          "brief": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+          "before_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking into the earth; also dimming or eclipsing of the moon.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+            "data-context": "We caused Qārūn and his dwelling to be swallowed by the earth: an event reported as having occurred.",
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/082.html",
+      "verse": "28:82",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 21,
+          "word": "لَخَسَفَ",
+          "mode": "root-study-update",
+          "brief": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+          "before_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking into the earth; also dimming or eclipsing of the moon.",
+            "data-context": "Would have caused the earth to swallow us too: the stated consequence had that favor been absent.",
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+            "data-context": "Would have caused the earth to swallow us too: the stated consequence had that favor been absent.",
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/040.html",
+      "verse": "29:40",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 15,
+          "word": "خَسَفنا",
+          "mode": "root-study-update",
+          "brief": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+          "before_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking into the earth; also dimming or eclipsing of the moon.",
+            "data-context": "We caused him or that group to be swallowed by the earth.",
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+            "data-context": "We caused him or that group to be swallowed by the earth.",
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/034-saba/units/009.html",
+      "verse": "34:9",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 14,
+          "word": "نَخسِف",
+          "mode": "root-study-update",
+          "brief": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+          "before_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking into the earth; also dimming or eclipsing of the moon.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+            "data-context": "We cause them to be swallowed by the earth if We will: the response to the condition.",
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/067-al-mulk/units/016.html",
+      "verse": "67:16",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 6,
+          "word": "يَخسِفَ",
+          "mode": "root-study-update",
+          "brief": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+          "before_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking into the earth; also dimming or eclipsing of the moon.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+            "data-context": "Cause the earth to sink with you: the possibility raised in the warning question.",
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    },
+    {
+      "file": "quran-reflection/en/075-al-qiyamah/units/008.html",
+      "verse": "75:8",
+      "protected_reflection": false,
+      "boxes": 1,
+      "tokens": [
+        {
+          "position": 1,
+          "word": "وَخَسَفَ",
+          "mode": "root-study-update",
+          "brief": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+          "before_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking into the earth; also dimming or eclipsing of the moon.",
+            "data-context": null,
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": "Preliminary meaning; a full root study is not yet available."
+          },
+          "after_attributes": {
+            "data-root": "KH S F",
+            "data-root-meaning": "Sinking or being made to sink into the earth; of the moon, diminished or disappearing light.",
+            "data-context": "The moon grows dark or its light disappears; the moon is the verb’s subject.",
+            "data-learn-more": "/quran-terminology/en/roots/kh-s-f/",
+            "data-root-note": null
+          }
+        }
+      ]
+    }
+  ],
+  "additional_complete_poem_translations": 0,
+  "persian_edits": [
+    {
+      "original_block": 8,
+      "before": "در داستان قارون، خسف به‌عنوان واقعه‌ای رخ‌داده گزارش می‌شود. در آیات دیگر، امکان فروبرده شدن در زمین به‌صورت هشدار مطرح است. در قیامت ۷۵:۸ نیز از «خَسَفَ الْقَمَرُ» سخن می‌رود؛ یعنی ماه روشنایی خود را از دست می‌دهد یا تاریک می‌شود.",
+      "after": "در داستان قارون، خسف به‌عنوان واقعه‌ای رخ‌داده گزارش می‌شود؛ عنکبوت ۲۹:۴۰ نیز از فروبردن در زمین در گزارش سرگذشت پیشینیان یاد می‌کند. در آیات هشدار، امکان فروبرده شدن در زمین مطرح است؛ و قصص ۲۸:۸۲ پیامد فرضیِ نبود لطف الهی را در سخن مردم بیان می‌کند. در قیامت ۷۵:۸ نیز از «خَسَفَ الْقَمَرُ» سخن می‌رود؛ یعنی ماه روشنایی خود را از دست می‌دهد یا تاریک می‌شود."
+    },
+    {
+      "original_block": 20,
+      "before": "> الْخَاءُ وَالسِّينُ وَالْفَاءُ أَصْلٌ وَاحِدٌ يَدُلُّ عَلَى غُمُوضٍ وَغُؤُورٍ.",
+      "after": "الْخَاءُ وَالسِّينُ وَالْفَاءُ أَصْلٌ وَاحِدٌ يَدُلُّ عَلَى غُمُوضٍ وَغُؤُورٍ."
+    },
+    {
+      "original_block": 24,
+      "before": "> الْخَسْفُ: سُؤُوخُ الْأَرْضِ بِمَا عَلَيْهَا.",
+      "after": "الْخَسْفُ: سُؤُوخُ الْأَرْضِ بِمَا عَلَيْهَا."
+    },
+    {
+      "original_block": 77,
+      "before": "> أَخُو قُتُرَاتٍ قَدْ تَيَقَّنَ أَنَّهُ  \n> إِذَا لَمْ يُصِبْ لَحْمًا مِنَ الْوَحْشِ خَاسِفُ",
+      "after": "أَخُو قُتُرَاتٍ قَدْ تَيَقَّنَ أَنَّهُ\nإِذَا لَمْ يُصِبْ لَحْمًا مِنَ الْوَحْشِ خَاسِفُ"
+    },
+    {
+      "original_block": 96,
+      "before": "> أَبَيْتُ لِنَفْسِي الْخَسْفَ لَمَّا رَضُوا بِهِ  \n> وَوَلَّيْتُهُمْ شَتْمِي وَمَا كُنْتُ مُفْحَمَا",
+      "after": "أَبَيْتُ لِنَفْسِي الْخَسْفَ لَمَّا رَضُوا بِهِ\nوَوَلَّيْتُهُمْ شَتْمِي وَمَا كُنْتُ مُفْحَمَا"
+    },
+    {
+      "original_block": 98,
+      "before": "«هنگامی که آنان به خواری تن دادند، من آن را برای خود نپذیرفتم؛ و سرزنش خود را متوجه آنان کردم، نه اینکه از پاسخ بازمانده باشم.»",
+      "after": "«هنگامی که آنان به خواری تن دادند، من آن را برای خود نپذیرفتم؛ و گذاشتم مرا دشنام دهند، با آنکه از پاسخ گفتن ناتوان نبودم.»"
+    },
+    {
+      "original_block": 103,
+      "before": "بنابراین، مصراع دوم اختلاف ضبط دارد.",
+      "after": "بنابراین، مصراع دوم اختلاف ضبط دارد. در ضبط «شتمي»، ترجمهٔ مصراع دوم به واگذاشتن دشنام‌گویی به آنان مربوط است، نه متوجه کردن دشنام شاعر به آنان. در ضبط «سمعي»، معنا به گوش سپردن به آنان نزدیک می‌شود؛ پس اختلاف نقل در ترجمهٔ این مصراع مؤثر است."
+    },
+    {
+      "original_block": 108,
+      "before": "## ۳. قصص ۲۸:۸۱–۸۲؛ خسف قارون و فروپاشی تکیه‌گاه ظاهری",
+      "after": "## ۳. قصص ۲۸:۸۱ و قصص ۲۸:۸۲؛ خسف قارون و فروپاشی تکیه‌گاه ظاهری"
+    },
+    {
+      "original_block": 109,
+      "before": "> فَخَسَفْنَا بِهِ وَبِدَارِهِ الْأَرْضَ فَمَا كَانَ لَهُ مِنْ فِئَةٍ يَنْصُرُونَهُ مِنْ دُونِ اللَّهِ وَمَا كَانَ مِنَ الْمُنْتَصِرِينَ",
+      "after": "فَخَسَفْنَا بِهِ وَبِدَارِهِ الْأَرْضَ فَمَا كَانَ لَهُ مِنْ فِئَةٍ يَنْصُرُونَهُ مِنْ دُونِ اللَّهِ وَمَا كَانَ مِنَ الْمُنْتَصِرِينَ"
+    },
+    {
+      "original_block": 110,
+      "before": "ترجمه:",
+      "after": "ترجمهٔ پیشنهادی برای این پژوهش؛ بدون تغییر ترجمهٔ نصب‌شدهٔ آیه:"
+    },
+    {
+      "original_block": 111,
+      "before": "«پس او و خانه‌اش را در زمین فرو بردیم؛ و برای او هیچ گروهی نبود که در برابر خداوند یاری‌اش کنند، و خود نیز از یاری‌کنندگان خویش نبود.»",
+      "after": "«پس او و خانه‌اش را در زمین فرو بردیم؛ و برای او هیچ گروهی نبود که در برابر آن معبود یگانه یاری‌اش کنند، و خود نیز از یاری‌کنندگان خویش نبود.»"
+    },
+    {
+      "original_block": 112,
+      "before": "**قصص، ۸۱**",
+      "after": "**قصص ۲۸:۸۱**"
+    },
+    {
+      "original_block": 117,
+      "before": "اما در آیهٔ ۸۱، وضعیت دگرگون می‌شود.",
+      "after": "اما در قصص ۲۸:۸۱، وضعیت دگرگون می‌شود."
+    },
+    {
+      "original_block": 132,
+      "before": "در آیهٔ ۸۱، همان شخص و خانه‌اش در زمین فروبرده می‌شوند.",
+      "after": "در قصص ۲۸:۸۱، همان شخص و خانه‌اش در زمین فروبرده می‌شوند."
+    },
+    {
+      "original_block": 146,
+      "before": "> وَأَصْبَحَ الَّذِينَ تَمَنَّوْا مَكَانَهُ بِالْأَمْسِ يَقُولُونَ وَيْكَأَنَّ اللَّهَ يَبْسُطُ الرِّزْقَ لِمَنْ يَشَاءُ مِنْ عِبَادِهِ وَيَقْدِرُ لَوْلَا أَنْ مَنَّ اللَّهُ عَلَيْنَا لَخَسَفَ بِنَا وَيْكَأَنَّهُ لَا يُفْلِحُ الْكَافِرُونَ",
+      "after": "وَأَصْبَحَ الَّذِينَ تَمَنَّوْا مَكَانَهُ بِالْأَمْسِ يَقُولُونَ وَيْكَأَنَّ اللَّهَ يَبْسُطُ الرِّزْقَ لِمَنْ يَشَاءُ مِنْ عِبَادِهِ وَيَقْدِرُ لَوْلَا أَنْ مَنَّ اللَّهُ عَلَيْنَا لَخَسَفَ بِنَا وَيْكَأَنَّهُ لَا يُفْلِحُ الْكَافِرُونَ"
+    },
+    {
+      "original_block": 147,
+      "before": "ترجمه:",
+      "after": "ترجمهٔ پیشنهادی برای این پژوهش؛ بدون تغییر ترجمهٔ نصب‌شدهٔ آیه:"
+    },
+    {
+      "original_block": 148,
+      "before": "«و کسانی که دیروز جایگاه او را آرزو می‌کردند، صبح گفتند: شگفتا، خداوند روزی را برای هر کس از بندگانش که بخواهد گسترش می‌دهد و اندازه می‌گیرد. اگر خداوند بر ما منت ننهاده بود، ما را نیز در زمین فرو می‌برد. شگفتا، کافران رستگار نمی‌شوند.»",
+      "after": "«و کسانی که دیروز جایگاه او را آرزو می‌کردند، صبح گفتند: شگفتا، آن معبود یگانه روزی را برای هر کس از بندگانش که بخواهد گسترش می‌دهد و اندازه می‌گیرد. اگر آن معبود یگانه بر ما منت ننهاده بود، ما را نیز در زمین فرو می‌برد. شگفتا، کافران رستگار نمی‌شوند.»"
+    },
+    {
+      "original_block": 149,
+      "before": "**قصص، ۸۲**",
+      "after": "**قصص ۲۸:۸۲**"
+    },
+    {
+      "original_block": 154,
+      "before": "این تفاوت اهمیت دارد: آیهٔ ۸۱ یک واقعه رخ‌داده را گزارش می‌کند، اما آیهٔ ۸۲ از واکنش و فرضی درباره فرجام احتمالی دیگران سخن می‌گوید.",
+      "after": "این تفاوت اهمیت دارد: قصص ۲۸:۸۱ یک واقعه رخ‌داده را گزارش می‌کند، اما قصص ۲۸:۸۲ از واکنش و فرضی درباره فرجام احتمالی دیگران سخن می‌گوید."
+    },
+    {
+      "original_block": 162,
+      "before": "> أَفَأَمِنَ الَّذِينَ مَكَرُوا السَّيِّئَاتِ أَنْ يَخْسِفَ اللَّهُ بِهِمُ الْأَرْضَ أَوْ يَأْتِيَهُمُ الْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ",
+      "after": "أَفَأَمِنَ الَّذِينَ مَكَرُوا السَّيِّئَاتِ أَنْ يَخْسِفَ اللَّهُ بِهِمُ الْأَرْضَ أَوْ يَأْتِيَهُمُ الْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ"
+    },
+    {
+      "original_block": 163,
+      "before": "ترجمه:",
+      "after": "ترجمهٔ پیشنهادی برای این پژوهش؛ بدون تغییر ترجمهٔ نصب‌شدهٔ آیه:"
+    },
+    {
+      "original_block": 164,
+      "before": "«آیا کسانی که نیرنگ‌های بد می‌چینند، ایمن شده‌اند از اینکه خداوند آنان را در زمین فرو برد، یا عذاب از جایی که متوجه نمی‌شوند به سراغشان آید؟»",
+      "after": "«آیا کسانی که نیرنگ‌های بد می‌چینند، ایمن شده‌اند از اینکه آن معبود یگانه آنان را در زمین فرو برد، یا عذاب از جایی که متوجه نمی‌شوند به سراغشان آید؟»"
+    },
+    {
+      "original_block": 165,
+      "before": "**نحل، ۴۵**",
+      "after": "**نحل ۱۶:۴۵**"
+    },
+    {
+      "original_block": 183,
+      "before": "> أَفَأَمِنْتُمْ أَنْ يَخْسِفَ بِكُمْ جَانِبَ الْبَرِّ أَوْ يُرْسِلَ عَلَيْكُمْ حَاصِبًا ثُمَّ لَا تَجِدُوا لَكُمْ وَكِيلًا",
+      "after": "أَفَأَمِنْتُمْ أَنْ يَخْسِفَ بِكُمْ جَانِبَ الْبَرِّ أَوْ يُرْسِلَ عَلَيْكُمْ حَاصِبًا ثُمَّ لَا تَجِدُوا لَكُمْ وَكِيلًا"
+    },
+    {
+      "original_block": 184,
+      "before": "ترجمه:",
+      "after": "ترجمهٔ پیشنهادی برای این پژوهش؛ بدون تغییر ترجمهٔ نصب‌شدهٔ آیه:"
+    },
+    {
+      "original_block": 186,
+      "before": "**اسراء، ۶۸**",
+      "after": "**اسراء ۱۷:۶۸**"
+    },
+    {
+      "original_block": 189,
+      "before": "سپس آیهٔ ۶۸ این پرسش را مطرح می‌سازد که آیا رسیدن به خشکی، ایمنی مطلق فراهم کرده است؟",
+      "after": "سپس اسراء ۱۷:۶۸ این پرسش را مطرح می‌سازد که آیا رسیدن به خشکی، ایمنی مطلق فراهم کرده است؟"
+    },
+    {
+      "original_block": 198,
+      "before": "> أَفَلَمْ يَرَوْا إِلَىٰ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ مِنَ السَّمَاءِ وَالْأَرْضِ إِنْ نَشَأْ نَخْسِفْ بِهِمُ الْأَرْضَ أَوْ نُسْقِطْ عَلَيْهِمْ كِسَفًا مِنَ السَّمَاءِ إِنَّ فِي ذَٰلِكَ لَآيَةً لِكُلِّ عَبْدٍ مُنِيبٍ",
+      "after": "أَفَلَمْ يَرَوْا إِلَىٰ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ مِنَ السَّمَاءِ وَالْأَرْضِ إِنْ نَشَأْ نَخْسِفْ بِهِمُ الْأَرْضَ أَوْ نُسْقِطْ عَلَيْهِمْ كِسَفًا مِنَ السَّمَاءِ إِنَّ فِي ذَٰلِكَ لَآيَةً لِكُلِّ عَبْدٍ مُنِيبٍ"
+    },
+    {
+      "original_block": 199,
+      "before": "ترجمه:",
+      "after": "ترجمهٔ پیشنهادی برای این پژوهش؛ بدون تغییر ترجمهٔ نصب‌شدهٔ آیه:"
+    },
+    {
+      "original_block": 201,
+      "before": "**سبأ، ۹**",
+      "after": "**سبأ ۳۴:۹**"
+    },
+    {
+      "original_block": 219,
+      "before": "> أَأَمِنْتُمْ مَنْ فِي السَّمَاءِ أَنْ يَخْسِفَ بِكُمُ الْأَرْضَ فَإِذَا هِيَ تَمُورُ",
+      "after": "أَأَمِنْتُمْ مَنْ فِي السَّمَاءِ أَنْ يَخْسِفَ بِكُمُ الْأَرْضَ فَإِذَا هِيَ تَمُورُ"
+    },
+    {
+      "original_block": 220,
+      "before": "ترجمه:",
+      "after": "ترجمهٔ پیشنهادی برای این پژوهش؛ بدون تغییر ترجمهٔ نصب‌شدهٔ آیه:"
+    },
+    {
+      "original_block": 222,
+      "before": "**ملک، ۱۶**",
+      "after": "**ملک ۶۷:۱۶**"
+    },
+    {
+      "original_block": 235,
+      "before": "> فَكُلًّا أَخَذْنَا بِذَنْبِهِ فَمِنْهُمْ مَنْ أَرْسَلْنَا عَلَيْهِ حَاصِبًا وَمِنْهُمْ مَنْ أَخَذَتْهُ الصَّيْحَةُ وَمِنْهُمْ مَنْ خَسَفْنَا بِهِ الْأَرْضَ وَمِنْهُمْ مَنْ أَغْرَقْنَا وَمَا كَانَ اللَّهُ لِيَظْلِمَهُمْ وَلَٰكِنْ كَانُوا أَنْفُسَهُمْ يَظْلِمُونَ",
+      "after": "فَكُلًّا أَخَذْنَا بِذَنْبِهِ فَمِنْهُمْ مَنْ أَرْسَلْنَا عَلَيْهِ حَاصِبًا وَمِنْهُمْ مَنْ أَخَذَتْهُ الصَّيْحَةُ وَمِنْهُمْ مَنْ خَسَفْنَا بِهِ الْأَرْضَ وَمِنْهُمْ مَنْ أَغْرَقْنَا وَمَا كَانَ اللَّهُ لِيَظْلِمَهُمْ وَلَٰكِنْ كَانُوا أَنْفُسَهُمْ يَظْلِمُونَ"
+    },
+    {
+      "original_block": 236,
+      "before": "ترجمه:",
+      "after": "ترجمهٔ پیشنهادی برای این پژوهش؛ بدون تغییر ترجمهٔ نصب‌شدهٔ آیه:"
+    },
+    {
+      "original_block": 237,
+      "before": "«پس هر یک را به سبب گناهش گرفتیم؛ بر برخی از آنان سنگ‌بارانی فرستادیم، برخی را بانگ سهمگین گرفت، برخی را در زمین فرو بردیم و برخی را غرق کردیم. و خداوند بر آنان ستم نکرد، بلکه آنان بر خود ستم می‌کردند.»",
+      "after": "«پس هر یک را به سبب گناهش گرفتیم؛ بر برخی از آنان سنگ‌بارانی فرستادیم، برخی را بانگ سهمگین گرفت، برخی را در زمین فرو بردیم و برخی را غرق کردیم. و آن معبود یگانه بر آنان ستم نکرد، بلکه آنان بر خود ستم می‌کردند.»"
+    },
+    {
+      "original_block": 238,
+      "before": "**عنکبوت، ۴۰**",
+      "after": "**عنکبوت ۲۹:۴۰**"
+    },
+    {
+      "original_block": 256,
+      "before": "> وَخَسَفَ الْقَمَرُ",
+      "after": "وَخَسَفَ الْقَمَرُ"
+    },
+    {
+      "original_block": 257,
+      "before": "ترجمه:",
+      "after": "ترجمهٔ پیشنهادی برای این پژوهش؛ بدون تغییر ترجمهٔ نصب‌شدهٔ آیه:"
+    },
+    {
+      "original_block": 259,
+      "before": "**قیامت، ۸**",
+      "after": "**قیامت ۷۵:۸**"
+    },
+    {
+      "original_block": 268,
+      "before": "> فَإِذَا بَرِقَ الْبَصَرُ",
+      "after": "فَإِذَا بَرِقَ الْبَصَرُ"
+    },
+    {
+      "original_block": 269,
+      "before": "ترجمه:",
+      "after": "ترجمهٔ پیشنهادی برای این پژوهش؛ بدون تغییر ترجمهٔ نصب‌شدهٔ آیه:"
+    },
+    {
+      "original_block": 271,
+      "before": "سپس در آیهٔ ۸، خسف ماه مطرح می‌شود.",
+      "after": "سپس در قیامت ۷۵:۸، خسف ماه مطرح می‌شود."
+    },
+    {
+      "original_block": 273,
+      "before": "> وَجُمِعَ الشَّمْسُ وَالْقَمَرُ",
+      "after": "وَجُمِعَ الشَّمْسُ وَالْقَمَرُ"
+    },
+    {
+      "original_block": 274,
+      "before": "ترجمه:",
+      "after": "ترجمهٔ پیشنهادی برای این پژوهش؛ بدون تغییر ترجمهٔ نصب‌شدهٔ آیه:"
+    },
+    {
+      "original_block": 277,
+      "before": "> يَقُولُ الْإِنْسَانُ يَوْمَئِذٍ أَيْنَ الْمَفَرُّ",
+      "after": "يَقُولُ الْإِنْسَانُ يَوْمَئِذٍ أَيْنَ الْمَفَرُّ"
+    },
+    {
+      "original_block": 278,
+      "before": "ترجمه:",
+      "after": "ترجمهٔ پیشنهادی برای این پژوهش؛ بدون تغییر ترجمهٔ نصب‌شدهٔ آیه:"
+    },
+    {
+      "original_block": 288,
+      "before": "در آیه بعد، گرد آورده شدن خورشید و ماه با عبارت مستقلی بیان شده است.",
+      "after": "در قیامت ۷۵:۹، گرد آورده شدن خورشید و ماه با عبارت مستقلی بیان شده است."
+    },
+    {
+      "original_block": 289,
+      "before": "پس نباید معنای آیهٔ ۹ را به خود فعل «خسف» در آیهٔ ۸ منتقل کرد.",
+      "after": "پس نباید معنای قیامت ۷۵:۹ را به خود فعل «خسف» در قیامت ۷۵:۸ منتقل کرد."
+    },
+    {
+      "original_block": 357,
+      "before": "**نوع دستوری:** فعل ماضی، سوم‌شخص مفرد مذکر، همراه با لام جواب «لولا».",
+      "after": "**نوع دستوری:** فعل ماضی معلوم، سوم‌شخص مفرد مذکر، همراه با لام جواب «لولا»، در قرائت حفص؛ فاعل، ضمیر مستتر «هو» و مرجع آن خداوند است. در برخی قرائت‌های دیگر، «لَخُسِفَ» به صورت مجهول خوانده شده است؛ متن این پژوهش صورت معلوم حفص را حفظ می‌کند."
+    },
+    {
+      "original_block": 392,
+      "before": "**تعریف نهایی:** ریشهٔ «خ س ف» بر فرو رفتن، فروبرده شدن و از آشکاری یا برجستگی پیشین کاسته شدن دلالت دارد. در کاربرد قرآنی مربوط به زمین، به فرو رفتن اشخاص یا مکان‌ها در آن اشاره می‌کند؛ و در کاربرد مربوط به ماه، کاهش یا پنهان شدن روشنایی آن را بیان می‌کند. علت، عامل، زمان و پیامد این وضعیت‌ها از ساخت و سیاق هر آیه شناخته می‌شوند، نه از معنای مستقل ریشه.",
+      "after": "**تعریف نهایی:** ریشهٔ «خ س ف» بر فرو رفتن، فروبرده شدن و از آشکاری یا برجستگی پیشین کاسته شدن دلالت دارد. در کاربرد قرآنی مربوط به زمین، به فرو رفتن اشخاص یا مکان‌ها در آن اشاره می‌کند؛ و در کاربرد مربوط به ماه، کاهش یا پنهان شدن روشنایی آن را بیان می‌کند. علت، عامل، زمان و پیامد این وضعیت‌ها از ساخت و سیاق هر آیه شناخته می‌شوند، نه از معنای مستقل ریشه.\n\n**معنای کوتاه ریشه:** فرو رفتن یا فروبردن در زمین؛ و در کاربرد ماه، کاهش یا پنهان شدن روشنایی آن."
+    }
+  ],
+  "Allah_boxes": [
+    {
+      "file": "quran-reflection/fa/016-an-nahl/units/045.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        7
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/017-al-isra/units/068.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/081.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        13
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/028-al-qasas/units/082.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        8,
+        19
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/029-al-ankabut/units/040.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        23
+      ]
+    },
+    {
+      "file": "quran-reflection/fa/034-saba/units/009.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/fa/067-al-mulk/units/016.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/fa/075-al-qiyamah/units/008.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/016-an-nahl/units/045.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        7
+      ]
+    },
+    {
+      "file": "quran-reflection/en/017-al-isra/units/068.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/081.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        13
+      ]
+    },
+    {
+      "file": "quran-reflection/en/028-al-qasas/units/082.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        8,
+        19
+      ]
+    },
+    {
+      "file": "quran-reflection/en/029-al-ankabut/units/040.html",
+      "canonical_Allah_boxes_confirmed_unchanged": [
+        23
+      ]
+    },
+    {
+      "file": "quran-reflection/en/034-saba/units/009.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/067-al-mulk/units/016.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    },
+    {
+      "file": "quran-reflection/en/075-al-qiyamah/units/008.html",
+      "canonical_Allah_boxes_confirmed_unchanged": []
+    }
+  ],
+  "protected_reflection_verses": [],
+  "context_completion": {
+    "changes": [
+      {
+        "file": "quran-reflection/fa/016-an-nahl/units/045.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/fa/017-al-isra/units/068.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/fa/028-al-qasas/units/081.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "وَبِدارِهِ",
+            "context": "و خانه یا اقامتگاه او؛ همراه قارون در زمین فروبرده شد."
+          },
+          {
+            "position": 4,
+            "word": "الأَرضَ",
+            "context": "زمین؛ جایگاهی که قارون و خانه‌اش در آن فروبرده شدند."
+          },
+          {
+            "position": 6,
+            "word": "كانَ",
+            "context": "بود؛ در ساخت نفی، وجود گروهی یاری‌رسان برای او را نفی می‌کند."
+          },
+          {
+            "position": 9,
+            "word": "فِئَةٍ",
+            "context": "هیچ گروه یا دسته‌ای که بتواند او را یاری کند."
+          },
+          {
+            "position": 10,
+            "word": "يَنصُرونَهُ",
+            "context": "او را یاری کنند؛ کمک و دفاعی که در این واقعه برایش فراهم نبود."
+          },
+          {
+            "position": 12,
+            "word": "دونِ",
+            "context": "در ترکیب «من دون الله»، به یاری‌رسانی جدا از آن معبود یگانه یا در برابر او مربوط است."
+          },
+          {
+            "position": 15,
+            "word": "كانَ",
+            "context": "بود؛ همراه نفی، توانایی او برای دفاع از خویش را نفی می‌کند."
+          },
+          {
+            "position": 17,
+            "word": "المُنتَصِرينَ",
+            "context": "کسانی که می‌توانند از خود دفاع کنند؛ او از آنان نبود."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/028-al-qasas/units/082.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/fa/029-al-ankabut/units/040.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/fa/034-saba/units/009.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "يَرَوا",
+            "context": "آیا ننگریسته‌اند؛ دعوت به توجه به آسمان و زمین پیرامونشان."
+          },
+          {
+            "position": 5,
+            "word": "بَينَ",
+            "context": "در ترکیب «بین أیدیهم»، پیش روی آنان."
+          },
+          {
+            "position": 6,
+            "word": "أَيديهِم",
+            "context": "دست‌هایشان؛ در ترکیب «بین أیدیهم»، جهت پیش روی آنان را بیان می‌کند."
+          },
+          {
+            "position": 8,
+            "word": "خَلفَهُم",
+            "context": "پشت سر آنان؛ در برابر آنچه پیش رویشان است."
+          },
+          {
+            "position": 10,
+            "word": "السَّماءِ",
+            "context": "آسمان؛ بخشی از گستره‌ای که به نگریستن در آن فراخوانده می‌شوند."
+          },
+          {
+            "position": 11,
+            "word": "وَالأَرضِ",
+            "context": "و زمین؛ همراه آسمان، محیط پیرامون آنان."
+          },
+          {
+            "position": 13,
+            "word": "نَشَأ",
+            "context": "بخواهیم؛ در جمله شرطی، وقوع پیامد را به مشیت الهی وابسته می‌کند."
+          },
+          {
+            "position": 16,
+            "word": "الأَرضَ",
+            "context": "زمین؛ جایگاه فروبرده شدن در یکی از دو امکان مطرح‌شده."
+          },
+          {
+            "position": 18,
+            "word": "نُسقِط",
+            "context": "فرو افکنیم؛ در اینجا پاره‌هایی از آسمان را بر آنان."
+          },
+          {
+            "position": 20,
+            "word": "كِسَفًا",
+            "context": "پاره‌ها یا قطعاتی از آسمان؛ متمایز از «خسف» به معنای فروبردن."
+          },
+          {
+            "position": 22,
+            "word": "السَّماءِ",
+            "context": "آسمان؛ پاره‌های فرو افتادنی در این هشدار از آن معرفی می‌شوند."
+          },
+          {
+            "position": 26,
+            "word": "لَـٔايَةً",
+            "context": "بی‌گمان نشانه‌ای؛ برای بنده‌ای که بازمی‌گردد و توجه می‌کند."
+          },
+          {
+            "position": 27,
+            "word": "لِكُلِّ",
+            "context": "برای هر؛ شمول نشانه را نسبت به هر بنده بازگشت‌کننده بیان می‌کند."
+          },
+          {
+            "position": 28,
+            "word": "عَبدٍ",
+            "context": "بنده؛ انسانی در نسبت بندگی با پروردگار."
+          },
+          {
+            "position": 29,
+            "word": "مُنيبٍ",
+            "context": "بازگشت‌کننده؛ بنده‌ای که رو به پروردگار می‌آورد."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/067-al-mulk/units/016.html",
+        "added": [
+          {
+            "position": 1,
+            "word": "ءَأَمِنتُم",
+            "context": "آیا خود را ایمن می‌دانید؛ پرسشی هشداردهنده درباره امکان فرورفتن زمین."
+          },
+          {
+            "position": 4,
+            "word": "السَّماءِ",
+            "context": "آسمان؛ در عبارت «من فی السماء» آمده و متعلق پرسش درباره ایمنی است."
+          },
+          {
+            "position": 8,
+            "word": "الأَرضَ",
+            "context": "زمین؛ ممکن است با مخاطبان در آن فرو رود."
+          },
+          {
+            "position": 11,
+            "word": "تَمورُ",
+            "context": "به جنبش و نوسان درمی‌آید؛ حرکت زمین را جدا از خود فرو رفتن بیان می‌کند."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/fa/075-al-qiyamah/units/008.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "القَمَرُ",
+            "context": "ماه؛ در این صحنه روشنایی‌اش کاسته یا پنهان می‌شود."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/016-an-nahl/units/045.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/en/017-al-isra/units/068.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/en/028-al-qasas/units/081.html",
+        "added": [
+          {
+            "position": 3,
+            "word": "وَبِدارِهِ",
+            "context": "And his house or dwelling, swallowed by the earth together with Qārūn."
+          },
+          {
+            "position": 4,
+            "word": "الأَرضَ",
+            "context": "The earth into which Qārūn and his dwelling were swallowed."
+          },
+          {
+            "position": 6,
+            "word": "كانَ",
+            "context": "Was; in the negated construction, denies that he had a group to help him."
+          },
+          {
+            "position": 9,
+            "word": "فِئَةٍ",
+            "context": "Any group or company that could help him."
+          },
+          {
+            "position": 10,
+            "word": "يَنصُرونَهُ",
+            "context": "Help or defend him: assistance unavailable to him in this event."
+          },
+          {
+            "position": 12,
+            "word": "دونِ",
+            "context": "In min dūni Allāh, concerns help apart from or against The God."
+          },
+          {
+            "position": 15,
+            "word": "كانَ",
+            "context": "Was; with negation, denies his ability to defend himself."
+          },
+          {
+            "position": 17,
+            "word": "المُنتَصِرينَ",
+            "context": "Those able to defend themselves; he was not among them."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/028-al-qasas/units/082.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/en/029-al-ankabut/units/040.html",
+        "added": []
+      },
+      {
+        "file": "quran-reflection/en/034-saba/units/009.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "يَرَوا",
+            "context": "Have they not looked: a call to consider the heaven and earth around them."
+          },
+          {
+            "position": 5,
+            "word": "بَينَ",
+            "context": "In bayna aydīhim, before them."
+          },
+          {
+            "position": 6,
+            "word": "أَيديهِم",
+            "context": "Their hands; in bayna aydīhim, expresses what lies before them."
+          },
+          {
+            "position": 8,
+            "word": "خَلفَهُم",
+            "context": "Behind them, in contrast with what lies before them."
+          },
+          {
+            "position": 10,
+            "word": "السَّماءِ",
+            "context": "Heaven, part of the expanse they are called to consider."
+          },
+          {
+            "position": 11,
+            "word": "وَالأَرضِ",
+            "context": "And the earth, together with heaven forming their surroundings."
+          },
+          {
+            "position": 13,
+            "word": "نَشَأ",
+            "context": "We will; in the conditional clause, makes the consequence dependent on divine will."
+          },
+          {
+            "position": 16,
+            "word": "الأَرضَ",
+            "context": "The earth, the place of sinking in one of the two possibilities presented."
+          },
+          {
+            "position": 18,
+            "word": "نُسقِط",
+            "context": "Cause to fall: here, fragments from heaven upon them."
+          },
+          {
+            "position": 20,
+            "word": "كِسَفًا",
+            "context": "Pieces or fragments from heaven, distinct from khasf, causing to sink."
+          },
+          {
+            "position": 22,
+            "word": "السَّماءِ",
+            "context": "Heaven, from which the falling fragments in this warning are described as coming."
+          },
+          {
+            "position": 26,
+            "word": "لَـٔايَةً",
+            "context": "Surely a sign, for a servant who turns back and pays attention."
+          },
+          {
+            "position": 27,
+            "word": "لِكُلِّ",
+            "context": "For every: extends the sign to every servant who turns back."
+          },
+          {
+            "position": 28,
+            "word": "عَبدٍ",
+            "context": "A servant, a person in a relation of service to the Lord."
+          },
+          {
+            "position": 29,
+            "word": "مُنيبٍ",
+            "context": "Turning back: a servant who turns toward the Lord."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/067-al-mulk/units/016.html",
+        "added": [
+          {
+            "position": 1,
+            "word": "ءَأَمِنتُم",
+            "context": "Do you consider yourselves secure: a warning question about the possibility of the earth sinking."
+          },
+          {
+            "position": 4,
+            "word": "السَّماءِ",
+            "context": "Heaven, in man fī al-samāʾ, within the question about security."
+          },
+          {
+            "position": 8,
+            "word": "الأَرضَ",
+            "context": "The earth, which may sink with the addressees."
+          },
+          {
+            "position": 11,
+            "word": "تَمورُ",
+            "context": "Heaves and sways: expresses the ground’s movement separately from sinking itself."
+          }
+        ]
+      },
+      {
+        "file": "quran-reflection/en/075-al-qiyamah/units/008.html",
+        "added": [
+          {
+            "position": 2,
+            "word": "القَمَرُ",
+            "context": "The moon, whose light diminishes or disappears in this scene."
+          }
+        ]
+      }
+    ],
+    "added_context_fields": 56,
+    "own_missing_fields_added": 8
+  },
+  "evidence": [
+    {
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=xsf",
+      "use": "Eight Form I occurrences in eight verses and surahs. Seven earth-related, one moon-related. Audited82 paired lexical assignments:81directQAC ROOT matches and28:82:5 al-ams conventional dictionary entry retained, verified by QAC lemma >amos and existing published a-m-s study; QAC assigns no ROOT tag there."
+    },
+    {
+      "url": "https://arabiclexicon.hawramani.com/خسف/",
+      "use": "Primary Maqayis,Lisan,Tahdhib,Sihah,andJamharah establish sinking,obscurity,moonlight,hunger,humiliation,andwellvariants. Lexicalbranches distinguished from specific Quran uses and from geologicalmechanisms."
+    },
+    {
+      "url": "https://usul.ai/t/diwan-1/43",
+      "use": "Primary AwsDiwan records hunter witness with qad tayaqqana; kept supplied wording and Tahdhib qad tabayyana variant."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/b/14277/128?lang=ar",
+      "use": "Primary Jahiz AlBayan confirms wa wallaytuhum shatmi. Corrected the second hemistich translation to allowing them to revile the poet, not directing the poet s insults at them."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/b/14272/194?lang=ar",
+      "use": "Primary IbnAbdAlBarr BahjatAlMajalis confirms wa awlaytuhum sami variant. Clarified that this variant affects the hemistich translation but not khasf humiliation."
+    },
+    {
+      "url": "https://ablibrary.net/book_content/b/12436/179?lang=ar",
+      "use": "Primary IbnKhalawayh AlHujjah confirms Hafs active la khasafa in28:82, implicit Allahsubject. Otherreadings passive la khusifa. Supplied activeArabic retained; grammarclarified."
+    },
+    {
+      "url": "https://tafsir.app/tabari/75/8",
+      "use": "Primary Tabari explains moon s khasf as departure of light. Distinguished lexicaldarkening from moonfall/collision and from exactphysicalmechanism of resurrection."
+    },
+    {
+      "url": "https://science.nasa.gov/moon/eclipses/",
+      "use": "NASA supports Earthshadowaccount ofordinary natural lunar eclipses only; not equated withfinalresurrectionevent."
+    },
+    {
+      "url": "AGENTS.md",
+      "use": "Recursively surveyed all8verses bothlanguages:noexistingreflection. Existing owncontexts in16:45,17:68,28:82,29:40 kept. Added8ownand56othermissingcontextfields. All164bilinguallexicalboxes complete;10actualAllahboxes exactcanonical. ExistingArabic,translations,metadata,priorworkprotected."
+    }
+  ],
+  "original_sha256": {
+    "quran-terminology/fa/roots/kh-s-f/index.html": null,
+    "quran-terminology/en/roots/kh-s-f/index.html": null,
+    "_data/quran-root-studies.json": "7f662342a2efe2d52f4abfb6ec8800aa069d96319ad0aaf57fe660c47695ab01",
+    "quran-reflection/fa/016-an-nahl/units/045.html": "dd168aee4db9c0126659713596b0ca81dcab54cd5bba543e036a2888f4431fe7",
+    "quran-reflection/fa/017-al-isra/units/068.html": "4a66749510f56f80e68d2f00f74f73cac9e484ffa84e42d4e64ba2e7b9f7b3c3",
+    "quran-reflection/fa/028-al-qasas/units/081.html": "4fb8a8a73b85c13abba9031978f762d6e2c41dcd188c9a1e63ca5a369e851b36",
+    "quran-reflection/fa/028-al-qasas/units/082.html": "d57f073255fe1ddfb068cae59300b7be1229598a5f5e2151dca328c46d4a65a7",
+    "quran-reflection/fa/029-al-ankabut/units/040.html": "8c771defd126e32afc6dcf5ec50d86684394873d1f37d5ca5d5b3ecc4f53f224",
+    "quran-reflection/fa/034-saba/units/009.html": "b08f01ab63329115eb77a3a11342c3899d100a85dc2f1eefc466cbfe67c3acd8",
+    "quran-reflection/fa/067-al-mulk/units/016.html": "45c56e2d518401ea8a68bac170fc16aae76dd79b545562f16207de4909907e0f",
+    "quran-reflection/fa/075-al-qiyamah/units/008.html": "d1e87bd63033334605a4b0ef6389184b4ad071d99fe36e5a822e50581d8a9abe",
+    "quran-reflection/en/016-an-nahl/units/045.html": "c95a7f0706cbad53285c550a2d7f467defcb2eccd2a4260a1524fa06a3c0f944",
+    "quran-reflection/en/017-al-isra/units/068.html": "10799dfacc1e3dcf5f036edbbe6bbdd4502d72aa453d3252881538486f27cf3a",
+    "quran-reflection/en/028-al-qasas/units/081.html": "3b1ec1b01c849bb14684c43d7a8f2c1dc5c43bbd256fa6f06d32f9b16e5223f6",
+    "quran-reflection/en/028-al-qasas/units/082.html": "e27e6335b91155ea6c6b77dd35f12715af041c5c088f76d09c788210793e8ca4",
+    "quran-reflection/en/029-al-ankabut/units/040.html": "238d6c5a8c922e5ce7a2bee90516be723193505f3e291f00d49eccc65ee7ae98",
+    "quran-reflection/en/034-saba/units/009.html": "62824da9e32d6c2e7cbe0805b92f13f7ea067dd7a0fa5e3a8e624194e036d399",
+    "quran-reflection/en/067-al-mulk/units/016.html": "b3123ea685b5d658dbcad3a5ea88d2259eee7604a1993203877791423b2be7cd",
+    "quran-reflection/en/075-al-qiyamah/units/008.html": "4afde1a3814d6d15ba50b2f9c5f8d6e528945807baf303fb90d96510d1db9932",
+    "_handoff/root-install-kh-s-f-2026-10-30.json": null
+  },
+  "protected_sha256": {
+    "AGENTS.md": "b604bac7677b4e9f232021c9f2325500c8d7ebe645a53f25595f69d376671785",
+    "_handoff/root-install-kh-r-q-2026-10-30.json": "8600e45513eec41241be51023277d6f42f565055ed812c49fefd7d12fa34a9f7",
+    "_handoff/root-install-kh-r-r-2026-10-30.json": "711a7bd87e7b75742afde14445d3bde40aa73d0d06fd9eec15d5370f38d380db",
+    "_handoff/root-install-kh-r-sad-2026-10-30.json": "ba5a3cb534916c81bd09ad25454f384cceaef81a57510e2c0545a850aa9279ca",
+    "_handoff/root-install-kh-z-n-2026-10-30.json": "ad7fca26f0f95f05e8ef3213ff1ffb3f8b153e97f1f8f65d606c879a385775d3",
+    "_layouts/default.html": "0df8934b1bcbc5631cc32b8bc6ae8174a97a6f4542f65630fa520987a8e1ae71",
+    "quran-reflection/en/001-al-fatihah/index.html": "18cd51b454f0337fe85241055909aceb2f3b8c6452549f9fd8deb2db58e95b15",
+    "quran-reflection/en/002-al-baqarah/index.html": "508930d1372832da50892ef78a0502ec1addf6dfb5ad7e3b6771d0e8ff44bfed",
+    "quran-reflection/en/002-al-baqarah/units/001.html": "bb0311f7a7ad6242e66ec0a0e43576e0350ffa5982bfc55d21241a67145f118c",
+    "quran-reflection/en/002-al-baqarah/units/002.html": "62d4949b4e4fc7a9013c9f747364f338daf7fcbfe8478cde0ff213887fd6efb8",
+    "quran-reflection/en/002-al-baqarah/units/003.html": "1cbcda606ed589d751746008830526f81260638dee62098d973ba227e23715f4",
+    "quran-reflection/en/002-al-baqarah/units/004.html": "25d5708edc08d0a70fb244caadcdd27fe35ea2f453875265889ee9c9f7a17c28",
+    "quran-reflection/en/002-al-baqarah/units/005.html": "d7abe4818bd99120aedf5fc7c24133ef38efbb58e1d58b23025bc7e5baf7d433",
+    "quran-reflection/en/002-al-baqarah/units/006.html": "16f40ff6f8e89ccf90d401fbd1410b57295dced20ffaa7b0382f25e015653c38",
+    "quran-reflection/en/002-al-baqarah/units/007.html": "72015f73fa918c3198bc8934a2d4546c975e3d36290180b832adc4bfb5138726",
+    "quran-reflection/en/002-al-baqarah/units/008.html": "356a963dcb8e35e975509a790dd9c4fdd001557aef421ff768f0a3d224061574",
+    "quran-reflection/en/002-al-baqarah/units/009.html": "6b4610877172c491e4957b3983cd8b20f89126ed561c0f22c2ec33c41307d967",
+    "quran-reflection/en/002-al-baqarah/units/010.html": "9fc830444683915dd3bbfe6634344f680908d86cb7f431bd6ec48868d46ba245",
+    "quran-reflection/en/002-al-baqarah/units/011.html": "c6cf5b3b7f4cae611c9c6ed417af28c3bf1c718cda98b2995a080537fd6e8a62",
+    "quran-reflection/en/002-al-baqarah/units/012.html": "ac21808753d750907d214c191df670221aebcf62b1eb23094075bcbed5226d52",
+    "quran-reflection/en/002-al-baqarah/units/013.html": "a5f3532594a421fb7abcff4b61db201f0e6891b926f3508b6cacea8f3da96226",
+    "quran-reflection/en/002-al-baqarah/units/014.html": "cbf841a46ca7337f1bb0e83d45017123577054d076b72136ed2958185996cd0a",
+    "quran-reflection/en/002-al-baqarah/units/015.html": "20d21e1f47424e8e43defef6109e3d1f3939e1870848a38d3afd198c2ac7c2fd",
+    "quran-reflection/en/002-al-baqarah/units/016.html": "9f7dd64d813ce677e7fb3b84c5a409343854dc06149e1bf5e7b0804bf0dedbd7",
+    "quran-reflection/en/002-al-baqarah/units/017.html": "cdfcf12dd4d0117c3af73ad58240217ecbe174f5000d3ba5012fb3de365389ad",
+    "quran-reflection/en/002-al-baqarah/units/018.html": "0bd718011bce569ca3bbb93ac0f5515d118b4c98deb85b83ff081b9c6e117d30",
+    "quran-reflection/en/002-al-baqarah/units/019.html": "946371b9173a8553c8765862003bf270156822b3634f359675f1a205c5de5702",
+    "quran-reflection/en/002-al-baqarah/units/020.html": "1f652f7cca9aa8906cf4579d523a444e246d4bc622001a20b2ed622056bf2424",
+    "quran-reflection/en/002-al-baqarah/units/021.html": "fc1bf7171c8eff87c8d147dbb8d7ff4c44cc7446120a45b28c9911e68e18a7f5",
+    "quran-reflection/en/002-al-baqarah/units/022.html": "fba5e994081e084d17b1f149a9b1d4aff0bbb2c2caf0c12e55c74f5c20fffa0c",
+    "quran-reflection/en/002-al-baqarah/units/023.html": "33e2e695502789789c2bf7829e902031b7a0a0fa28cd7d05fe5d6b0079f3c5ec",
+    "quran-reflection/en/002-al-baqarah/units/024.html": "2711c258c6cfe4b78ccf8900d2278320d8da211ebbe79f70f7c3a832d3ea5668",
+    "quran-reflection/en/002-al-baqarah/units/025.html": "a2550d915362ba58f5505de46ca5ac63b3cfe44b81c6fcaee3ed46725e835e56",
+    "quran-reflection/en/002-al-baqarah/units/026.html": "8ad8c12503a31af632b28e0576b66308df987090b24e2d531e5460433459567b",
+    "quran-reflection/en/002-al-baqarah/units/027.html": "d0c597c2cbe6a238112d0532836da0d6aa55580f8c5ff2c529e0ca420f441081",
+    "quran-reflection/en/002-al-baqarah/units/028.html": "1e89413769f8db07243bfa3c3c7fe454cc07d851297315ff611ff6e6555df881",
+    "quran-reflection/en/002-al-baqarah/units/029.html": "79bf61bfaf76eed3775a6f77d2caf496507fccc1b7e1e564b03772c8c7f2bd1d",
+    "quran-reflection/en/002-al-baqarah/units/030.html": "02cb03c940085c24043dd6b398f83d3486c2fa9f6ff72eba977508632a486a6f",
+    "quran-reflection/en/002-al-baqarah/units/031.html": "d351cd7bbd14cb77e0e2f93a76e5cc4488401569f97275370f869d3f1a6edbd4",
+    "quran-reflection/en/002-al-baqarah/units/032.html": "f0c50fb69de7686cdd3ce7c3b66e700c35483d35721be29367eca4ebdd522b58",
+    "quran-reflection/en/002-al-baqarah/units/033.html": "3b5f80393d118da93ed9c75363df6d6ffbe319807ffc09f70b21e227898fe7d0",
+    "quran-reflection/en/002-al-baqarah/units/034.html": "3bd4964a734887aa923042a66c2f1f832164961be20f51cceeb41801c43932c7",
+    "quran-reflection/en/002-al-baqarah/units/035.html": "1c7e2b089bcb7787527d67d4e092ef303dddb44f8a294c4b53b95ceb49f4039f",
+    "quran-reflection/en/002-al-baqarah/units/036.html": "fd86d0d86f1725fabcb76274020001b0c0d39004bd9aaa07a97bd2ca5ab45c49",
+    "quran-reflection/en/002-al-baqarah/units/037.html": "de0236e1871982bd3b78784b4bdbce4da83274c1b91cf9b09446451e0a992505",
+    "quran-reflection/en/002-al-baqarah/units/038.html": "0648982ecd92010c9f83044ea78440b79a197c682930a9abbd58f79d19ce266a",
+    "quran-reflection/en/002-al-baqarah/units/039.html": "0779a57432daab549a3499ad2c1e6054b1a2790d5db9dce0ee84e85e9be4c479",
+    "quran-reflection/en/002-al-baqarah/units/040.html": "e6328c7d34ec7b95cc869cdc2743639738346f01f7825f7ca7696f964e1a3dff",
+    "quran-reflection/en/002-al-baqarah/units/041.html": "cf3a7fc464e2e3111cf26495283db0f94fbaafc4e7cd1ea0898e7fcdf3f74692",
+    "quran-reflection/en/002-al-baqarah/units/042.html": "09fc95eb176505f738b8ee8c54758a1895bf0f87c0b1ddc09a05e902d729eb12",
+    "quran-reflection/en/002-al-baqarah/units/043.html": "e2c585d59fcd5e8771d6e1ef0f94eba6c2a7a39121d333832b6a9dd6974973e4",
+    "quran-reflection/en/002-al-baqarah/units/044.html": "881d938390c61a963a12164cfb6bdf99876d2bc4d46a97e9b16d90bed33e1dfd",
+    "quran-reflection/en/002-al-baqarah/units/045.html": "e220a95a37dc095ab69ffc8369e193503892cc3bd1b20ae22d476030d602f742",
+    "quran-reflection/en/002-al-baqarah/units/046.html": "dfd94d3a3d85ac6c337574f5780b12de182acf8e87ebd1004a474f75036ff729",
+    "quran-reflection/en/002-al-baqarah/units/047.html": "7c9075e2273da0fb2c43b1db8696cc75319f97bc96e5e0658ec9a7faad84175f",
+    "quran-reflection/en/002-al-baqarah/units/048.html": "4ff8cd9cd81ac2cb0d0e9c6a8a8cc92c93a734e30e1a739417a032a948db8abc",
+    "quran-reflection/en/002-al-baqarah/units/049.html": "2ebb4deac937280c5b498834d496f1af85df6dc4292e3fa3c3028ea3f412058f",
+    "quran-reflection/en/002-al-baqarah/units/050.html": "93bfa3adfe64b1a04d822c71dd863c4638e133da8a603f1b1d90272304648206",
+    "quran-reflection/en/002-al-baqarah/units/051.html": "006b7f6e629d6b7e7e7c584f4b8c5638f6706a2309b347d5db16fa2247f9342a",
+    "quran-reflection/en/002-al-baqarah/units/052.html": "16ebc736052cd50a9af064abef88672e1dd9ce85d33c2ca435f2f1efac51db9e",
+    "quran-reflection/en/002-al-baqarah/units/053.html": "9b8487377e1c0178ab72cbb8b39317c2907566014771d5394644118dc5d6d89d",
+    "quran-reflection/en/002-al-baqarah/units/054.html": "354e0e5055b1ca6e17b63662200b38155db29e73374bd9329f1a2f4d825a3e35",
+    "quran-reflection/en/002-al-baqarah/units/055.html": "d194e233d5dcb6d622f69a54919c57588ffc13ffbf83c4338204e1a4b46338b6",
+    "quran-reflection/en/002-al-baqarah/units/056.html": "ba99d84a62286f496918fa0e652356a1f784029d1a90f1de402456e4d2dc5f57",
+    "quran-reflection/en/002-al-baqarah/units/057.html": "63629bf8030fcbc0878e4b84f927182d24763000123aa3a9730fd4d1f58d25e3",
+    "quran-reflection/en/002-al-baqarah/units/058.html": "405b1f2edbc6bcbeabdf0908bbc2377a932a42fc566d6d2a21022f4e79d2e88a",
+    "quran-reflection/en/002-al-baqarah/units/059.html": "85ff0659500f7be3c02dc97f60e0e22234358237746741d5e70af4af93ec52b9",
+    "quran-reflection/en/002-al-baqarah/units/060.html": "15f5901f8269407d9e79e5810117c59a1718be7bd88580607d3e4734cba29d5f",
+    "quran-reflection/en/002-al-baqarah/units/061.html": "90753bc12e30d787a3cb828987e960f9d5e73f4c803c0371850c32a4e9cb1abe",
+    "quran-reflection/en/002-al-baqarah/units/062.html": "dff5b652fca74c5db44fa3bd855bb17124db64e6ce228749cc65bf584c12ff57",
+    "quran-reflection/en/002-al-baqarah/units/063.html": "8c3f9d3bf1881454b191a3e9e3f854eaeed0951eb9849dc60227938875e15c9a",
+    "quran-reflection/en/002-al-baqarah/units/064.html": "20813493b98c059fb3d0f905cec58993de52c5137a5e40a0140facebc4ac7533",
+    "quran-reflection/en/002-al-baqarah/units/065.html": "dc09aebeb4de48ead20462691ec25d288bfa08611277693ba507a305b65d8c20",
+    "quran-reflection/en/002-al-baqarah/units/066.html": "4dd8fccca4c783fc5534b7fc5ff927502bee471aa77c4dce033f2f7cb5c0bd3c",
+    "quran-reflection/en/002-al-baqarah/units/067.html": "55de2f21dcaa39199098853ea3ef2ebbbc46a4161b989ea960f77eddc60a97c1",
+    "quran-reflection/en/002-al-baqarah/units/068.html": "46d8c1b771df1b91c369f5f960eca2b471268ff70a25fe5f5dc43281bc2ee4ef",
+    "quran-reflection/en/002-al-baqarah/units/069.html": "d778d2c0d8e16d209c229e61e75b05e1dc5cfcf58d4a80adfc77d329b9f4c2ad",
+    "quran-reflection/en/002-al-baqarah/units/070.html": "dbef853f143c28cc5dd5702ec9d0b31fe314b58a8d316b9bf1eb53e26f30866a",
+    "quran-reflection/en/002-al-baqarah/units/071.html": "3ea71815b3d71449defa943323f6ceee5867b0812591c1568e7fb200f8391748",
+    "quran-reflection/en/002-al-baqarah/units/072.html": "7d3af130ca73d6faa49f2ed774d0ace7e7c9390a2f18e8dd44eb1de85ddfb31c",
+    "quran-reflection/en/002-al-baqarah/units/073.html": "250c452b9b1d247df269e7a6dbfbfe10a8977cff409ff65dc4a14874165e00c3",
+    "quran-reflection/en/002-al-baqarah/units/074.html": "52ce9fda6aa72f9c25fe2fe24865e922c93c470229b2686d8b0693858edffcc7",
+    "quran-reflection/en/002-al-baqarah/units/075.html": "edc58b993df4a6857779d596e26421e21bb74ff582c90a57e620a0508b901752",
+    "quran-reflection/en/002-al-baqarah/units/076.html": "159ca6db34de05e227b5e49fc5a41f3b0f80f74cc8b859427efef9d1c3751c7c",
+    "quran-reflection/en/002-al-baqarah/units/077.html": "2799355f723c36b1aaf79b4770d9a9ce5d7738a13ce6915795a6bf6b2a21ea22",
+    "quran-reflection/en/002-al-baqarah/units/078.html": "f3cb8ace13ddc72c18894a16014f7d286245dad0716ad6d2fc11cdb61f46cc7c",
+    "quran-reflection/en/002-al-baqarah/units/079.html": "8a105e64c33f12ecf8071c563800157aa1f5ea59df184cbf6e797e37789298e5",
+    "quran-reflection/en/002-al-baqarah/units/080.html": "1943bb02634521fabd87ff584ba83668a71a4d19554157a0f202e7f1738e22d7",
+    "quran-reflection/en/002-al-baqarah/units/081.html": "b0dc6945eaa820cf7845e2338bde71b95ecfef2339063ab7787f953ba92e8cd0",
+    "quran-reflection/en/002-al-baqarah/units/082.html": "022aced83b963f920277163e44594ed4c49c39e1b8e375f3880a36f9eb8bd836",
+    "quran-reflection/en/002-al-baqarah/units/083.html": "ce8a994929a70e3aed709115dbf889cbe6ff6740d038178944ae81a88940bcdb",
+    "quran-reflection/en/002-al-baqarah/units/084.html": "7cf24059c40b8c4ab98a8a9932fc1122013bf897449721f01c45988d35a6fa89",
+    "quran-reflection/en/002-al-baqarah/units/085.html": "211553bba467980f37647308ab1749bed465ebc86408deaeda2da3f9827169f0",
+    "quran-reflection/en/002-al-baqarah/units/086.html": "fb8327c188e8fc1a045492135c67ecf035acd6b3f468ac906549ec756991ac88",
+    "quran-reflection/en/002-al-baqarah/units/087.html": "78a79b1d10c894fdf9efceaa5ec471cbe0550bf1c280a5ae0cb3d4967582c1f0",
+    "quran-reflection/en/002-al-baqarah/units/088.html": "b8b1e9107e9b2336728012bd338b4036e5c069d9d3de3e571c10875950826a55",
+    "quran-reflection/en/002-al-baqarah/units/089.html": "3a1b2500bace2962a8cfb3615335d52cd6a24568e7255aeb1010efe88930f46a",
+    "quran-reflection/en/002-al-baqarah/units/090.html": "4dc69793188915922c222ce7bd32bfd65570cb83383dd49904b4994bc0d70508",
+    "quran-reflection/en/002-al-baqarah/units/091.html": "f81f095303f0062db963a3833955c4a870cc87fd185001033aa5d3c048043e6d",
+    "quran-reflection/en/002-al-baqarah/units/092.html": "461cbf8d5e602200f553cbda9f6d52e192c6ad23ed1a81c7c20b8ba90da2ab70",
+    "quran-reflection/en/002-al-baqarah/units/093.html": "960748629e5c1cd53b4210204bc2d98ebc61108b8c8742c6e9ae4580733ea367",
+    "quran-reflection/en/002-al-baqarah/units/094.html": "0606877d1b2d5244d25df0b8b2faee12e68036e194db7101db6a88dad04f9bf6",
+    "quran-reflection/en/002-al-baqarah/units/095.html": "8f419395d66201879528b5dafb29d8bacdae0d3b33a58498d51810bc3d4fa606",
+    "quran-reflection/en/002-al-baqarah/units/096.html": "fac9d882a9175d1aba4e9ad1af946fa9a6ba7cfd2528cc37936ffdb70d8549a0",
+    "quran-reflection/en/002-al-baqarah/units/097.html": "204bf2f33458b7601da7a09e82b450a1afb9ba5ac2cb92bddaf771409b78c62d",
+    "quran-reflection/en/002-al-baqarah/units/098.html": "78ab6f404feef0a0cb42cef12e6d56e503b76efc4e112f6e8c0daaeec90811a0",
+    "quran-reflection/en/002-al-baqarah/units/099.html": "4b13d446495b932c1a36dc993eb275bd51314ee3a70e2ceaf7199fb1fe7335fa",
+    "quran-reflection/en/002-al-baqarah/units/100.html": "06509b9fb5d99ab9e2d84e7b9e7a76e3b4af3c28380f01b10e9cbe2032e40dbd",
+    "quran-reflection/en/002-al-baqarah/units/101.html": "d468a7cec634f2ee472d4fb37bd255fac198d49ebc9ae9dac3ada58bee889ec9",
+    "quran-reflection/en/002-al-baqarah/units/102.html": "86b076aafe90c15e0fbcb85ee03ffaf3a219d3bbc5e7533015616bd9283211ad",
+    "quran-reflection/en/002-al-baqarah/units/103.html": "094de03171613ff2e2c150bc9dcbf86b633768b0f5eedc33b14fe4bb23600680",
+    "quran-reflection/en/002-al-baqarah/units/104.html": "d7848649c178a8a6fcc7ae8dbd868d3c303f293efb0f7137f76efa51141ecf5f",
+    "quran-reflection/en/002-al-baqarah/units/105.html": "306c8d2292eea83d5e3fd62a77ee2de3fffd9cb52074d445d2b9548f21849166",
+    "quran-reflection/en/002-al-baqarah/units/106.html": "d3034ec4b4dba34a325eeab397eee9d816e23090621ba07db02ddb6b97a118c5",
+    "quran-reflection/en/002-al-baqarah/units/107.html": "417a5d7e7167bfb07e8027427a47cbb7760944c6fa1721a4af16c922b3aaedcd",
+    "quran-reflection/en/002-al-baqarah/units/108.html": "b15eb0de6f0a7db667b0e633d6fcbfd4cf64e421ac633ee8729baaf0f4d76b61",
+    "quran-reflection/en/002-al-baqarah/units/109.html": "fba4af76d750f8c16d3a81973a157457f15fe670c89c7081b84a5d1791817f4f",
+    "quran-reflection/en/002-al-baqarah/units/110.html": "36086e37c96b4c3ba7c0c440095fdb88fd390d79babf7f8c6ad10c4c2dc70503",
+    "quran-reflection/en/002-al-baqarah/units/111.html": "cbf2c0e588df8e67df70f85bd6ccd2de8a007c0ac65e1f9b3132f8a14765f6cd",
+    "quran-reflection/en/002-al-baqarah/units/112.html": "e9fac679b0b0d3ef0e3203b31f9da53823d9e786ce71fe3bccdba8145d3112fa",
+    "quran-reflection/en/002-al-baqarah/units/113.html": "5252d5c928f4c5e5651deed646ad0e806224aad32bb65271eb2792835d4ab4e7",
+    "quran-reflection/en/002-al-baqarah/units/114.html": "358112a6430d934864dddef07f039eddf6a4979bacf65ecf59178f4e6d231eeb",
+    "quran-reflection/en/002-al-baqarah/units/115.html": "fb3c218aa825cfcdf760d8e899462f31b577d52144864952609b17d1814e99f5",
+    "quran-reflection/en/002-al-baqarah/units/116.html": "019dd220f1fceb648852d9e64d57d84785139b20a5450a6a0dccc9061ab028e2",
+    "quran-reflection/en/002-al-baqarah/units/117.html": "e96f41ccd4f6de9aeb70a8ff9446e6ad93c0545ee1840dd4ae8154da2dd0a23b",
+    "quran-reflection/en/002-al-baqarah/units/118.html": "62a323ef009e9344c1f97564a3b7dc178bb589688fc89d3c8f5a3e8fe473437b",
+    "quran-reflection/en/002-al-baqarah/units/119.html": "65082dd0605715ef09ede286a4ff6c6bd809c4fb9edc118cdcfef5612f907f1c",
+    "quran-reflection/en/002-al-baqarah/units/120.html": "95621562219d77818af7c6c2995ac7cc3baf0998cd70dceb508a715a3c3ad6e8",
+    "quran-reflection/en/002-al-baqarah/units/121.html": "1d5fdedd8c7cbc14af5d260910273ce542b72515e8364062553fb295824ef879",
+    "quran-reflection/en/002-al-baqarah/units/122.html": "d2dd7e1d5c04d6b1989ac0ad2fdf788e4ec312ae7f09ccd29edcffce119af8ad",
+    "quran-reflection/en/002-al-baqarah/units/123.html": "b2c09407f82bd44b240bcfac01dfef284978057a80181e7a48178f046ff0f73a",
+    "quran-reflection/en/002-al-baqarah/units/124.html": "eb648f4b4929d6fc7467e945dbcd012fa5bf4d42fc1042ba61d085f504e63906",
+    "quran-reflection/en/002-al-baqarah/units/125.html": "3f3aefdd8999b3bd3e39a5eb43f8a7e5e50dd0eefd90ec07405a83c95fe57bda",
+    "quran-reflection/en/002-al-baqarah/units/126.html": "aab56e8aa16ee5ea0e74694bb88194e61a7f101cecac3ee619ab44eedee5a608",
+    "quran-reflection/en/002-al-baqarah/units/127.html": "6d1a7c4c2251b165d5361950c6dbb294a4c813a7a9cb31aa60b93e73bec07f03",
+    "quran-reflection/en/002-al-baqarah/units/128.html": "69a4599321ef026acc416f755eacd8fef145298399405da7b5184ee007281614",
+    "quran-reflection/en/002-al-baqarah/units/129.html": "13438190b45efea075ea44ec143e1d34e985f2a5c6a66e894c9a6ea7543ad43e",
+    "quran-reflection/en/002-al-baqarah/units/130.html": "ddd24212556b1528cd67d2a5cad81aab2d42ad459750324871dfc24602df895c",
+    "quran-reflection/en/002-al-baqarah/units/131.html": "8dd834dc8c06ec0d305a0d09096e97f9c7f1b998f466e003dc09ed7e78eca24a",
+    "quran-reflection/en/002-al-baqarah/units/132.html": "a41b3876091308dd523845cf5e62b1362aece23f2785910c24d69f3f5d3ae28d",
+    "quran-reflection/en/002-al-baqarah/units/133.html": "4105f56078df8b6c6ba7d7153b232dfbe82b19b037b8a45e17abed6506c1eead",
+    "quran-reflection/en/002-al-baqarah/units/134.html": "e7a9e6ae6ea7ad9115c15bc5c41616726d5db5f3a3342d7eca7d5de2a8c5185e",
+    "quran-reflection/en/002-al-baqarah/units/135.html": "7b890d6545058388bf51cf1335f9d1f4e05034384c929d28aa41af2c98d10574",
+    "quran-reflection/en/002-al-baqarah/units/136.html": "8831ab6c088aac4a9deba9f2359738c5e7e99acd11155a4b3998f87c32dc4920",
+    "quran-reflection/en/002-al-baqarah/units/137.html": "ac4cac6a7d3cdba7ff3338ec5a4b52e31fe79540d89678b475f7fac575b2be7d",
+    "quran-reflection/en/002-al-baqarah/units/138.html": "654046868be7028faf761c8a59801de325c5819eaadb6b8f96cf260a322c9663",
+    "quran-reflection/en/002-al-baqarah/units/139.html": "1b00f98f4d8532a843a20bf741955d792ee10ac87bfe2fcfb3e40240e1328830",
+    "quran-reflection/en/002-al-baqarah/units/140.html": "dd1763176628a358f60eb0ca45e627545d27fd07e6e685d4eead58205ffb2326",
+    "quran-reflection/en/002-al-baqarah/units/141.html": "12b6177f595d6e6725a4e5b438662d49cb1e7cb51c69d01219650ee6b27a9193",
+    "quran-reflection/en/002-al-baqarah/units/142.html": "15eae41f22636d2881fa707f68142f40fd259e5142d18289ffaa4ffb943dcab0",
+    "quran-reflection/en/002-al-baqarah/units/143.html": "5df49267319fc671305a7181a83728995860e4c21179c998d914aa612c9d290b",
+    "quran-reflection/en/002-al-baqarah/units/144.html": "01ee137fc8377f82edb96e3c4247734534c803167555e2a0ae16eeb97c063926",
+    "quran-reflection/en/002-al-baqarah/units/145.html": "96cfaf87cff72e4708784f46012b73b510937dd30a6aab68f4d14ad81bf9b431",
+    "quran-reflection/en/002-al-baqarah/units/146.html": "51f829b9baae947308d0caf769dab125194486a8322b3f99fdc09e67c0ad676d",
+    "quran-reflection/en/002-al-baqarah/units/147.html": "3367d9ff3a545e9cad1de85ed77ad39dda6754e2aca1162e26364b91ea60b36d",
+    "quran-reflection/en/002-al-baqarah/units/148.html": "722765c84433ae7f1c0b5bacbcdcbd3f30431b7b941228fe8386865c7ab697ca",
+    "quran-reflection/en/002-al-baqarah/units/149.html": "109f490aeacc2512836a4ab0a6fa354ba5e992b1e0c0e56a12caa6d32250c7ac",
+    "quran-reflection/en/002-al-baqarah/units/150.html": "f725d263abdea6a1035fc1530fd95d376c215b19c376c2b6ad41dfd6d73b4cae",
+    "quran-reflection/en/002-al-baqarah/units/151.html": "d9fe41557283133fca8003c56afea7292cbe9ef887fa52f19dc35b6f2744409a",
+    "quran-reflection/en/002-al-baqarah/units/152.html": "8c51914244fc9cb798178ad34cd7a50596aa73a8368eaf093cb5b413327e2c35",
+    "quran-reflection/en/002-al-baqarah/units/153.html": "06349c841e8a3aabb2dd3a01d96cfe6dc29d57ca0b1816c613ee8f65969f7da8",
+    "quran-reflection/en/002-al-baqarah/units/154.html": "70153d56c97f5a73e3519cfcdf93ad20bc894ccf427182dc5afd203cb4644b4b",
+    "quran-reflection/en/002-al-baqarah/units/155.html": "e1d4d1f5638ab54825927704e72ef0acd8ac163436a2464500988eb242c85b8e",
+    "quran-reflection/en/002-al-baqarah/units/156.html": "862a9d320ed35af82983ed7194ac93c64c24c18b11632ee3e3dd91144ab50ccd",
+    "quran-reflection/en/002-al-baqarah/units/157.html": "9b666f3f10443c430ef105c5087c1cb0a56fd2ea1b095f0c87e2a3aa08fd8856",
+    "quran-reflection/en/002-al-baqarah/units/158.html": "46a62d9d0e828eadef0dafbf5335f3a35b54a85f77e21d05370ad4fa89c2dffa",
+    "quran-reflection/en/002-al-baqarah/units/159.html": "3ff1d3d1bf3bc8f93bb2e58f4a8b0633c47516a9d25f3e47f8ef4bbc34819814",
+    "quran-reflection/en/002-al-baqarah/units/160.html": "3c15f475afd12c6f7e01d154bb706aa44c62421850c14a419bb38ddc623b8529",
+    "quran-reflection/en/006-al-anam/units/050.html": "ee947f240043a7f11800be1f16addb8cd7effa803b2a12dc6e7326baf148524c",
+    "quran-reflection/en/006-al-anam/units/100.html": "5de0947432766c985fa93d926276f55af799091ee818ec4b8ea3b3f58402406d",
+    "quran-reflection/en/006-al-anam/units/116.html": "b5b17fe7f8a17af5fa9f160171fde306a0ba783b2b6f34963e87469af5ed70f1",
+    "quran-reflection/en/006-al-anam/units/148.html": "c3e2b75ef1720f635b55449ea7260e4269a67783a8d1c8b2b7b4be2a4252436c",
+    "quran-reflection/en/007-al-araf/units/143.html": "3a114e48fc04f14b3d2a9754fd0d5303b6abc8a3577593459b951241b93441ae",
+    "quran-reflection/en/010-yunus/units/066.html": "8efd37c152aa47a1173ef39e22b6ee36abb30bce08203e0fbd0f43b3a4ee4c16",
+    "quran-reflection/en/011-hud/units/031.html": "91726e39c9b650eecfab4e9363186a5ba277c5ffabfda94a5bda7412dd8b8643",
+    "quran-reflection/en/012-yusuf/units/055.html": "420bba786bb1f173f791faa54f80f174d51cc3523b2a1619898668c03d6187c1",
+    "quran-reflection/en/012-yusuf/units/100.html": "0b43f6e796cbfd4fb7c79f7f1c0bc1292c594d1409a98cee9af4a2322a428721",
+    "quran-reflection/en/015-al-hijr/units/021.html": "806be9078607a8499978441fa44e6be76488f644c53e318895b022a54170416d",
+    "quran-reflection/en/015-al-hijr/units/022.html": "108790c8f90a68d8a06f359dc268eafc08c509b939df7fdeee5ff8d14b2cd9e0",
+    "quran-reflection/en/016-an-nahl/units/026.html": "92d0b4b69de62a530be4688eb0ea8a05ba7296e0e4ce01e5caf7197cdeb8c06f",
+    "quran-reflection/en/017-al-isra/units/037.html": "67937a2c3578e59017c1bedc1c59b533e1df4c237c60cbd717ee8f0002fac8af",
+    "quran-reflection/en/017-al-isra/units/100.html": "3f69141619e5589e5a1b9eed262df7f0c2da7bc829771513e961b9c879759696",
+    "quran-reflection/en/017-al-isra/units/107.html": "b8287612d255adf85f6fb81d0743d57801ca15348d081a4033f0a7183182e340",
+    "quran-reflection/en/017-al-isra/units/109.html": "66db98917b8c4f9584775567b4326aea23a4dc4e19d33ebc46264dc7982920ed",
+    "quran-reflection/en/018-al-kahf/units/071.html": "7d14b858958858e8756b99d5effe14601e23d99e2f3eecfa12ad63902246a1df",
+    "quran-reflection/en/019-maryam/units/058.html": "a949b165c52d80efeae9e3880d7d3e4186f87ccdab427e0c9e4198986261c546",
+    "quran-reflection/en/019-maryam/units/090.html": "24aeed8b52548f80234ec372861086af6a41c81903251e76e336c8966c12c666",
+    "quran-reflection/en/022-al-hajj/units/031.html": "cd45dd6833db8b06e4ee127305e432ce27f71df773ec4769dfa86f098caf8d0a",
+    "quran-reflection/en/025-al-furqan/units/073.html": "538895b92d59720ea763603b1b823b5dcac6643ae32f4ffe69cad109ebb9bbc1",
+    "quran-reflection/en/032-as-sajdah/units/015.html": "da4baee738900b53ed8b7ba691366902c42eb9d36a67c24e34e9c14febc9c029",
+    "quran-reflection/en/034-saba/units/014.html": "71db79e14b7a5caf2550e106e58d2588d2e6a7322fbab6f3e44c53bed6c9b46e",
+    "quran-reflection/en/038-sad/units/009.html": "506fcbd4ab33b77762b522428f6004ef02f3a77fc5e3308dff0e4cb8c78701c5",
+    "quran-reflection/en/038-sad/units/024.html": "0d408100b42a905bad7dc433b8b7b0ce693acfbadf97f769b9776c93a80f4f49",
+    "quran-reflection/en/039-az-zumar/units/071.html": "95785028828bd895e2badf212adf42ecba6509b48397a57cc74cbd618eb5566f",
+    "quran-reflection/en/039-az-zumar/units/073.html": "a9114b8e9c5bfb15e9764c432d6f9c6f1b898a4129f79cef03a48a4bdbc8a57a",
+    "quran-reflection/en/040-ghafir/units/049.html": "a60b88cac2b7c80ae20e7c1c0558af66e4af145bbd80ce5c646a8e7ebcb1307e",
+    "quran-reflection/en/043-az-zukhruf/units/020.html": "623774271537bdd7a38b04579639eb64d67f92aeb7e758629c065faf97dd0fa8",
+    "quran-reflection/en/051-adh-dhariyat/units/010.html": "6e3abae55aacbac96818a649c605ce43f3fd080c965092472821534e8600d4ee",
+    "quran-reflection/en/052-at-tur/units/037.html": "daf2481287f09465aaa87bb06a41288e66dd2f8264f5eb453a32493e7ffcbcac",
+    "quran-reflection/en/063-al-munafiqun/units/007.html": "9d41ba78c0f39624406e2aa80991b0b9b36de5d587c1fc3d318d43ab0073d82f",
+    "quran-reflection/en/067-al-mulk/units/008.html": "87de65b4bdbdb12334d0f553ce44914387dc6e536b6d6cd8304851f0012c5060",
+    "quran-reflection/fa/001-al-fatihah/index.html": "7da9c785b46e5a50ed604f9443f400fadef3b2108e062c53472214e65ba86d6f",
+    "quran-reflection/fa/002-al-baqarah/index.html": "7e1bf21975435301b41bf1f59ddc0017e64e4576e79844c7dbaf954815e8901d",
+    "quran-reflection/fa/002-al-baqarah/units/001.html": "5fb9704a9272ff6c0298f38255d63c69db5e982d03379af6e9b338e248611005",
+    "quran-reflection/fa/002-al-baqarah/units/002.html": "1734de3de01876be748951ffa820df129174460a2b28a0a1da73bc5fb10b8a85",
+    "quran-reflection/fa/002-al-baqarah/units/003.html": "f075430c3bc84ec206dbf0a3caba71d78687d690e54e606747e5cb27abf30f40",
+    "quran-reflection/fa/002-al-baqarah/units/004.html": "06c67c449eea6540cda5cc9428c125bba27b1737479b8d93fa06d01541b11900",
+    "quran-reflection/fa/002-al-baqarah/units/005.html": "cade56ad027673ed6df1202e4f6c9eb32ee51be94d76c98d67863e369bf72ab5",
+    "quran-reflection/fa/002-al-baqarah/units/006.html": "06f36979cc0dc086fe1d5cc9b17a8f9d8057fc7cb248f3d09c1d775cfd3a8056",
+    "quran-reflection/fa/002-al-baqarah/units/007.html": "a12a0d12ebbedf1587788fab99e6026a75b175f5af96bf3ee1a1fec4c496c481",
+    "quran-reflection/fa/002-al-baqarah/units/008.html": "e6bd8bcff8f134db8e710f34fb6dd40661a70a3f7be56249ed6ab441d10c6364",
+    "quran-reflection/fa/002-al-baqarah/units/009.html": "b8aa1f84d7891c75d5f3bb1e6c113f17b13b070c8940347fe3fd469c509af30e",
+    "quran-reflection/fa/002-al-baqarah/units/010.html": "408cadae20f0fd821b7d90b1b51a94027ca693086281e8c63eabd9ad57afe68a",
+    "quran-reflection/fa/002-al-baqarah/units/011.html": "4febb3fef52d0682beaa15f8313b471171e6dca418e49d757c942d8b00fdc84d",
+    "quran-reflection/fa/002-al-baqarah/units/012.html": "264e7235727e421909143c99bbb9ed3a39cbc917586341c10b196814808b611a",
+    "quran-reflection/fa/002-al-baqarah/units/013.html": "2bc7424185aa80321302b76ecf176b93e4d62b5721eda8242a9214345aa21fbc",
+    "quran-reflection/fa/002-al-baqarah/units/014.html": "4c6cf32e765c4632c1a0f925398b499c09a848993ff752f80f2b509229b9b0df",
+    "quran-reflection/fa/002-al-baqarah/units/015.html": "4764f8fa5d1bde30266b1a7a11cb27024a20c69e9ba7d54688459ff7d34b0fe8",
+    "quran-reflection/fa/002-al-baqarah/units/016.html": "2bfee16798de08411f09c0821ed68a4f77ca1334d8d1c032f3b88786168e21b6",
+    "quran-reflection/fa/002-al-baqarah/units/017.html": "11d72d217f499f0e72db4f3be7ef3f6f540f4ec1dd0b139110c0e438708ec2e3",
+    "quran-reflection/fa/002-al-baqarah/units/018.html": "d8b9ed81ab3745e2d5967a559184adde7b1a2ba229a24ddc3983cd193f8cf6f4",
+    "quran-reflection/fa/002-al-baqarah/units/019.html": "a644e23e14bf9007694dbe3df3a278f60b4deff44b5d6e60aa2c3419eb563e4f",
+    "quran-reflection/fa/002-al-baqarah/units/020.html": "0b8a4bbb919cdfeb1d802991f919e1e63d9ece2d994845880a8f21353c96c2b8",
+    "quran-reflection/fa/002-al-baqarah/units/021.html": "75a0c9b8fc95cf243d7cfbc8df68bc5ea8b2e8e5d2b521954c2a516b2f814002",
+    "quran-reflection/fa/002-al-baqarah/units/022.html": "86f6fc5751d24d656c3bad4d1480093d36ea0ed4debf487931075602c1856a12",
+    "quran-reflection/fa/002-al-baqarah/units/023.html": "41709deb4f18ab38f563d3fc6ea1deaf6f8f03d78baf8b446b0f4d9aceb3497e",
+    "quran-reflection/fa/002-al-baqarah/units/024.html": "3fef6db2a05e71a0137250572dbef10db02d95b8eaaa8dd2c70d09d097ad6fba",
+    "quran-reflection/fa/002-al-baqarah/units/025.html": "91809e9f08f1f2587c96f3f1c905b764b849c595c80096434280642750e1b507",
+    "quran-reflection/fa/002-al-baqarah/units/026.html": "b88f379dd4a79ade67ccac05864d731aad73397743e1cacf8b11c2625ffc3c68",
+    "quran-reflection/fa/002-al-baqarah/units/027.html": "91cc3541ab38a91372b4e1fea319edc7bfa39f5667d3fdb72967911054f8a1ae",
+    "quran-reflection/fa/002-al-baqarah/units/028.html": "baa82e7392c04ba5bb0e235c61656c235fcc35aef000aefe065baa57af5d4cd3",
+    "quran-reflection/fa/002-al-baqarah/units/029.html": "5322c4918b48125203a54ba81864daa8221ba2e6954a64072d3b36fca95241b7",
+    "quran-reflection/fa/002-al-baqarah/units/030.html": "7143e578155191584e0e705e485ce09b7ab1c81771a976551ca38fb6464dc078",
+    "quran-reflection/fa/002-al-baqarah/units/031.html": "e4540a9c420caf899854fb8cc6daaf9dd3586849ed59c4e9bfce1450cf7c8b52",
+    "quran-reflection/fa/002-al-baqarah/units/032.html": "a7ac86891cadf33325205e86d213dcd309f2b605172b89b2cba7a3f805785b86",
+    "quran-reflection/fa/002-al-baqarah/units/033.html": "3aa20a21a8b7dd9f39a0857812cc0ca12af94584f20ca5758d3838256fe9376f",
+    "quran-reflection/fa/002-al-baqarah/units/034.html": "4cf60cb63e8655db75b675a1666fce691da1b2124aa0542a066624924516b139",
+    "quran-reflection/fa/002-al-baqarah/units/035.html": "ced59ab038e9e06ef500f76b9f02591d68b6435a5f2c802d60263fa581bfbd28",
+    "quran-reflection/fa/002-al-baqarah/units/036.html": "a9422cbbef22063249e2e8c5a67ec2b80ed5f65d24076783885ceaedaf6b88ae",
+    "quran-reflection/fa/002-al-baqarah/units/037.html": "d945ad001f4bb70cf46045feb803756c94b59332237c5c7a0728f43c468d3a90",
+    "quran-reflection/fa/002-al-baqarah/units/038.html": "e674699903d03d27f3a9519f7b97c6c7da2c6e5856095705dd52d45f6a332516",
+    "quran-reflection/fa/002-al-baqarah/units/039.html": "661410955065bca42f35c88a506e83e4b77dde628453c990c4d8b6c8cd4b33bd",
+    "quran-reflection/fa/002-al-baqarah/units/040.html": "f4feaec2896759b22f35cc297653e1820eaca003c336fe34deeea15026459294",
+    "quran-reflection/fa/002-al-baqarah/units/041.html": "550fc225b9264d5736020630a26b55cc50d2624b31035667c7b33c1f185187a8",
+    "quran-reflection/fa/002-al-baqarah/units/042.html": "7f8276dcbf910362fb1b48c0f05aaee2a8b0473249e3a5b5e1882a5e3f94bc5b",
+    "quran-reflection/fa/002-al-baqarah/units/043.html": "694801f933a42a5022e046f786ef146f85f243fbb3cb5491f1b3e05d01ba5fca",
+    "quran-reflection/fa/002-al-baqarah/units/044.html": "f47db0738495a4a35eed0447c2f18b56b6cacff04b57dc39ce5de28cfa165b32",
+    "quran-reflection/fa/002-al-baqarah/units/045.html": "b13cabb7c2596587aed6fe15c3a117c55329b79fc27c9c3bed285dbd4baa84a0",
+    "quran-reflection/fa/002-al-baqarah/units/046.html": "08af26e1b4fc11728b22e833b2bb895a8a1fd17a8466025fb9c37e6a133d4fed",
+    "quran-reflection/fa/002-al-baqarah/units/047.html": "0ae44516c3583067f02c9c3e2ef763777b2312757b11abb19abc6b5e96603931",
+    "quran-reflection/fa/002-al-baqarah/units/048.html": "8f2c0df504656c890478b19273fb9bf40b4a9997ecf50f396d1e88e6828a7a30",
+    "quran-reflection/fa/002-al-baqarah/units/049.html": "26aa86b99922e1e692e19eb6fdbcb7679fdbd544c84da608e15e99f3517a73b4",
+    "quran-reflection/fa/002-al-baqarah/units/050.html": "d4d0afa9664ff88f5d4fcf19ff7250b92d7b21c5b48b1752f2ff6e36840bd556",
+    "quran-reflection/fa/002-al-baqarah/units/051.html": "eb3fbf553f04454147cae4490db4e836e059b58161580540091af4fbbbd4fd79",
+    "quran-reflection/fa/002-al-baqarah/units/052.html": "b766ccf4e3a76d0afdbb044c0785379c3c67892cb98c5d92341269e7b80a9a19",
+    "quran-reflection/fa/002-al-baqarah/units/053.html": "052120c17ac540788124f70a810f133ff9d52f47a83146a14fbce9893f5f5eac",
+    "quran-reflection/fa/002-al-baqarah/units/054.html": "ead789938da87752d7046e6c9fd647ba5cf3eaf22c5153c8c588910bdb920713",
+    "quran-reflection/fa/002-al-baqarah/units/055.html": "201aa4029de1f0848a3895af29b8c8e8c0ef565b165cc34a49e0f7bc7d37ff76",
+    "quran-reflection/fa/002-al-baqarah/units/056.html": "d20099a1b473d199058f0eb0e648d3268414747c1896abf63e7036225cb04c2c",
+    "quran-reflection/fa/002-al-baqarah/units/057.html": "6557604b0764d91a75cee1e861abeca358731a51cfd388196fab86ad4bf8596b",
+    "quran-reflection/fa/002-al-baqarah/units/058.html": "7332029b46b6e577aac84373bbed1057d0b77f79809ad15905111f00be3f29b0",
+    "quran-reflection/fa/002-al-baqarah/units/059.html": "985675fccd659e7d51417bae991f637d9b53773c7c56fd10d196cc23c93a35c1",
+    "quran-reflection/fa/002-al-baqarah/units/060.html": "ad450e9bc6212a6cee57eb3c8d80db203cac09507e4c9d00b0d584306644bebc",
+    "quran-reflection/fa/002-al-baqarah/units/061.html": "1671e1358b528aa56f604cc0888c83b16bdcd7c599db06629814b0c42b03d053",
+    "quran-reflection/fa/002-al-baqarah/units/062.html": "36cd021abe1078ce442fab3787258692b1e2a11185a5e6ed86bb64e7f9a289d5",
+    "quran-reflection/fa/002-al-baqarah/units/063.html": "68ecef679054e09e8745c149c77a37277702e26659c35766f02f8f55f2395b60",
+    "quran-reflection/fa/002-al-baqarah/units/064.html": "37fbc0ca3c3a8ad53ebe5db62b4a9f8d65d88a1f09f5418a0d360685a0b512f0",
+    "quran-reflection/fa/002-al-baqarah/units/065.html": "8017f5f63663c093a71903ad5c046de5092198bb960677a6b59e5b3412ba8592",
+    "quran-reflection/fa/002-al-baqarah/units/066.html": "8bc304bf99a8b4d36b4ddedfd5a514c90fc905edf17cd2d641c02eadbfee67a5",
+    "quran-reflection/fa/002-al-baqarah/units/067.html": "4bde2509a95f11dda5f3abdba101065701d5c4e2f4d90017fdcffc235deb16fb",
+    "quran-reflection/fa/002-al-baqarah/units/068.html": "d41b586efad3382182298df2af7388079df43c7b3ef9841d575bc5f3c177490c",
+    "quran-reflection/fa/002-al-baqarah/units/069.html": "a981d445595bd0a9d33312147a182e234c8e26b6fabb07f398eb50f32a5ac91e",
+    "quran-reflection/fa/002-al-baqarah/units/070.html": "154dd22acb2e57bb86ab3fc10aa43bb6360ddda9cfbf0a15caf93f88d8145d9d",
+    "quran-reflection/fa/002-al-baqarah/units/071.html": "86000c6fad3702e8fd135248946b779b730936e4912d1dc3cc99642b8149efad",
+    "quran-reflection/fa/002-al-baqarah/units/072.html": "f28607887c0642fab637a39e0dcc26ae709a0a5495c912ab949549abcfe836dd",
+    "quran-reflection/fa/002-al-baqarah/units/073.html": "fe717cbdb737d7b73025169def43ec82c5bde7f7ab60f3846709c220f3bfe8fa",
+    "quran-reflection/fa/002-al-baqarah/units/074.html": "5302eb9a124076ad94b9d4ef76c182259852c8875def4c00aeabbf7b3321be35",
+    "quran-reflection/fa/002-al-baqarah/units/075.html": "3cb8f8945a22085aa3cd8b774a0802f51ed424ed1620a04fad991958c0ce5d53",
+    "quran-reflection/fa/002-al-baqarah/units/076.html": "53d212bb28a5c300ec6d182a5cf58f4ceaa1ebe113b5b04c1c8f9b7e4adf7d1c",
+    "quran-reflection/fa/002-al-baqarah/units/077.html": "ccee35b89e670bb266c5c7976bf4c24830564cea654aa68e7833d0763c450185",
+    "quran-reflection/fa/002-al-baqarah/units/078.html": "63da0531d89ef8955f81b6dca74ba4e85471af4e9096c20f558323f1a5e99c38",
+    "quran-reflection/fa/002-al-baqarah/units/079.html": "4e78a38e9a5d833e302823f8096bc348c07b353c2689cf3444d914d79fe89fab",
+    "quran-reflection/fa/002-al-baqarah/units/080.html": "587a768f6f530e5b39514feb746d2267511f6a298288db566d8086e3fe479786",
+    "quran-reflection/fa/002-al-baqarah/units/081.html": "41f40663d5acfed8b91ec825239c62d79372cbb19913450ddac985160a490342",
+    "quran-reflection/fa/002-al-baqarah/units/082.html": "5ca10047db81a9d2cd8831a6225a2dc994f420b8f227c8479eaa6a33b6ffa5b3",
+    "quran-reflection/fa/002-al-baqarah/units/083.html": "bc86721ecee2310356775c59d165b6a56aff6efea3cb82ae011083bb11462e3c",
+    "quran-reflection/fa/002-al-baqarah/units/084.html": "52c6f6bdaf6d68daf77a8626eed62fe39f77fe5e69d98b2f3caebf23ac6a352e",
+    "quran-reflection/fa/002-al-baqarah/units/085.html": "8aac48d26d5a8858517bae6e18e7a53dd2906de67cfd890c52fced527623152d",
+    "quran-reflection/fa/002-al-baqarah/units/086.html": "17a4cbb34a32b5bafe7ccdda18fd587cb093500a0817f9ad7d5b085a93e5c77c",
+    "quran-reflection/fa/002-al-baqarah/units/087.html": "887d9214d5c12fcb7a876adc92c0f5e749d737f4bf8a7ede2a93ca2f1ae30cf5",
+    "quran-reflection/fa/002-al-baqarah/units/088.html": "dc98e19b44f0bf7ec46492f666e3286cf84751aec0c8ada1b4682158a9b4c25a",
+    "quran-reflection/fa/002-al-baqarah/units/089.html": "b16d6d4477fdf1eda93ec76d3f10b6bd142047046c0fc835cf762249afb82e1c",
+    "quran-reflection/fa/002-al-baqarah/units/090.html": "ce62546151ea09ee7179cea0c5da8eee771e4f30aa4a823e998256f44a85716c",
+    "quran-reflection/fa/002-al-baqarah/units/091.html": "c9cf193ebcafe87eba2d9a519e930e6f34afc67c4eb1fc2b3852883ede3515be",
+    "quran-reflection/fa/002-al-baqarah/units/092.html": "8d96d9aec7522443db885b024297ce5cfb196198ef63e9ba60a663eebf0aeff2",
+    "quran-reflection/fa/002-al-baqarah/units/093.html": "1c2a74abe0cd10ed42fa54de3c2b6a3132c124c458449c7be47ba681496b88a8",
+    "quran-reflection/fa/002-al-baqarah/units/094.html": "ed671f0b8b1d5a0a1a38da04f42b8526b3a1c2c5b3bf0c9807dd9e1d0b14c0c1",
+    "quran-reflection/fa/002-al-baqarah/units/095.html": "921aa1546d3c87c7e8857f2f91a6b0ac21212b257d144b5d10a13c47e98b7811",
+    "quran-reflection/fa/002-al-baqarah/units/096.html": "6b3088fa7f7ed3ef8ad4b62cf65a118f0e1858b1659a7e0a9ef9970b59e54f1d",
+    "quran-reflection/fa/002-al-baqarah/units/097.html": "983073c688ac4ba4f7e3bc67e3bf8693a32f1aa062c4ee3c5b969ce2246103fc",
+    "quran-reflection/fa/002-al-baqarah/units/098.html": "ef12b5da2eab2a1abeade00a69c347466491f5c3ea9e6342ed43f1dea202add9",
+    "quran-reflection/fa/002-al-baqarah/units/099.html": "998beda3700176e47119d0b4689658675159701bcd0a91b3bd768ed62d7138d2",
+    "quran-reflection/fa/002-al-baqarah/units/100.html": "5f995ea9e0ec35041c0532df25c8193630ace6760d0f4e6d6288550d69870d14",
+    "quran-reflection/fa/002-al-baqarah/units/101.html": "be221169c06829fff1af0756ad622e9bbdbdffbcc00f1387a0e284c1925c668e",
+    "quran-reflection/fa/002-al-baqarah/units/102.html": "d03728c9d8532eb427bb3ccbbaf372785604a10642735068800d13270a0e3b05",
+    "quran-reflection/fa/002-al-baqarah/units/103.html": "2cbdca11b8afa3298632d188da35af6a803f9bdcb40a6aedd5ee59cacf9c941e",
+    "quran-reflection/fa/002-al-baqarah/units/104.html": "86980fdf8e4e71e9e2342acbddb3ab21e5a68fa98c6eac214733eb716d8f9577",
+    "quran-reflection/fa/002-al-baqarah/units/105.html": "3e0f1f569c0af09ed2596e0ea756f80943321a1201f7193359d585c8358664fd",
+    "quran-reflection/fa/002-al-baqarah/units/106.html": "3fe0d7361b8df8d8d6132e0b6352ad1f761b3ed4c34e04a2b4cbd01db828f57c",
+    "quran-reflection/fa/002-al-baqarah/units/107.html": "ecce61680a2d67d00e5e0d186f2cd540543d6230be75e608e94442af6d1eab20",
+    "quran-reflection/fa/002-al-baqarah/units/108.html": "5a18c30f303eeb8bcd1a4019366a1b09c12588328c272622397925659224d234",
+    "quran-reflection/fa/002-al-baqarah/units/109.html": "df68da61961a6ad9bf566f115dbf61bc6b98d569fef1d8f76d377c13c6b30420",
+    "quran-reflection/fa/002-al-baqarah/units/110.html": "a463d4613b47dd93910288453068ed0d583534a48fb79b5e91c98c49de43a968",
+    "quran-reflection/fa/002-al-baqarah/units/111.html": "43c05ab60ac30b9659c49739ec6955f1d6ec719548d2f080e2cfc567a111d0cf",
+    "quran-reflection/fa/002-al-baqarah/units/112.html": "69834ced9e5a6d646ed18777a08209f70c924e717e1fe78113a701f3368dde88",
+    "quran-reflection/fa/002-al-baqarah/units/113.html": "24b28c5c54de4e3a65c9c1d28e35ccb019b3d19452249f4876ec3ba4bccdad61",
+    "quran-reflection/fa/002-al-baqarah/units/114.html": "c4c8b3808e73ade9daa31750cef691bbe06b645a08698f775b58c3231a85f121",
+    "quran-reflection/fa/002-al-baqarah/units/115.html": "6f0d596c16c0725a6f6fc3bd6df21b1fbb9db3187b5a7db7f6e6cbdff8fbbc4c",
+    "quran-reflection/fa/002-al-baqarah/units/116.html": "6a9f637539bd9a55d503534c369ef45cf9c13376991189e6c32195ed21474345",
+    "quran-reflection/fa/002-al-baqarah/units/117.html": "6225967b6dc1611682cf5a7af99459370d4b239f7ae24c143c3f7b8ec8620588",
+    "quran-reflection/fa/002-al-baqarah/units/118.html": "a260adf565260d0224ced2503ddb96a55eb5b898b16125119bf0e5cbfa68c12e",
+    "quran-reflection/fa/002-al-baqarah/units/119.html": "acf7bb6b724b7a4c7d4014055bb348f0af0371f0efee3951604a627e04ca90f7",
+    "quran-reflection/fa/002-al-baqarah/units/120.html": "0753e2d91ca7395a5e576c76e6125b1505bf8af7ddd91364ffb489932913f75e",
+    "quran-reflection/fa/002-al-baqarah/units/121.html": "595ef57b152f185e3c7ed9faf9bff1915f51b778799c57d3fd99ef0d2fe9da22",
+    "quran-reflection/fa/002-al-baqarah/units/122.html": "e27afdaeff36893b77beabca29609a32d7f2f2216c953393dbdaa948e26c0332",
+    "quran-reflection/fa/002-al-baqarah/units/123.html": "ba84747b3abfe498f2eb8557acb5b2a460aebada699f2c34de60988014282c92",
+    "quran-reflection/fa/002-al-baqarah/units/124.html": "279a8a20fc0e8e28ac2adda1fd287f6617e4035b178b9eabbb2498d342e9d0ba",
+    "quran-reflection/fa/002-al-baqarah/units/125.html": "5f76fd592102d2fe1f32d0d66ae663cad18c40f6b2360799590d0b5178fc1a19",
+    "quran-reflection/fa/002-al-baqarah/units/126.html": "ed271fb0b7ad9349dfefcc652632fa11ff2d816870238e4b24141f6f84cafeeb",
+    "quran-reflection/fa/002-al-baqarah/units/127.html": "eeb6bf6011156d553251897ba73e303efb1068a865b8ee6b78bbd8461341042b",
+    "quran-reflection/fa/002-al-baqarah/units/128.html": "92fa31fd706a843077f8e98a2ddf2e915371ced770bd134da7aba9a277ca6e9c",
+    "quran-reflection/fa/002-al-baqarah/units/129.html": "3e5ceb88237f68bd64f574efdc085dfb277fff9f35d3c3528b3573df276d2720",
+    "quran-reflection/fa/002-al-baqarah/units/130.html": "c82493bbf8108da781644583d0efd9b213712bdc7cebbaa34916defa1286a5b8",
+    "quran-reflection/fa/002-al-baqarah/units/131.html": "7abf7ae805029478c9cc9d289a263ad566c80807c2ce56925103e8f40e18261a",
+    "quran-reflection/fa/002-al-baqarah/units/132.html": "7f36bcf3565fa5656012ae4584d4df322f589a90c772c78a4f7406c169d3a06f",
+    "quran-reflection/fa/002-al-baqarah/units/133.html": "601009a42088f2731081189b40e2d26d0275fb6322b3dc0ccc73f8c94f1e2608",
+    "quran-reflection/fa/002-al-baqarah/units/134.html": "1857a8ee61158e68f0e2fd985780b5dbc07e625e46bc3a76ee6f7ebdd9cbc044",
+    "quran-reflection/fa/002-al-baqarah/units/135.html": "82e49052ce885acf19c5e6e0b96ed3eb034f8a4e92ed0cde3657a55ff7737d63",
+    "quran-reflection/fa/002-al-baqarah/units/136.html": "c156e4fcbc329bfa03388fa6f35441cfe871fb3dd71e9d25f13afba61701b405",
+    "quran-reflection/fa/002-al-baqarah/units/137.html": "09dc62df18893c993c179da05355f752331ef7be03aca32fc7997832ce8b61bb",
+    "quran-reflection/fa/002-al-baqarah/units/138.html": "a71bdc1780ffad878f1876c2fb4ab4b38216f4cc219c03ba1e1481311600a3d8",
+    "quran-reflection/fa/002-al-baqarah/units/139.html": "cc0c873384668c1c09b634d6c11a1ac3b2946ce4226074975b2c08a87a559b7e",
+    "quran-reflection/fa/002-al-baqarah/units/140.html": "df972470c104917b107814d2c9a96afad1432c7a037901a56a959217ac339170",
+    "quran-reflection/fa/002-al-baqarah/units/141.html": "0c25367d0bdf00b7ef21bab39dc2b578fb45d340ca60f89103173e5b38f79acb",
+    "quran-reflection/fa/002-al-baqarah/units/142.html": "aec9a44e623b6d85ffe0721551cac362b37d6673d5420f1030968af630c0725f",
+    "quran-reflection/fa/002-al-baqarah/units/143.html": "6eb53223f1e2ca16d2f40b98bbf6319573f1a2ba6d6c6947a86c4cd0ab6a5bc2",
+    "quran-reflection/fa/002-al-baqarah/units/144.html": "51c436d190675fb8a21752749f96a1f20dd5372675a51a7c2eeffe796a49aa02",
+    "quran-reflection/fa/002-al-baqarah/units/145.html": "aae8d4856e8e85efe82fbcbf86725982223f675ad8a8b49391b6468853ab5936",
+    "quran-reflection/fa/002-al-baqarah/units/146.html": "13dd6457e4899609502ce33d2a1e4879842c3f23b31485dbca4a3f003fe168a4",
+    "quran-reflection/fa/002-al-baqarah/units/147.html": "18893dc6a10d9699ba349d5af02238ffdef5b8e8a5aba4492126735d63f39723",
+    "quran-reflection/fa/002-al-baqarah/units/148.html": "3650274de14a2429d240d7938dc82127d0094087369de3340712ed22730e8d8f",
+    "quran-reflection/fa/002-al-baqarah/units/149.html": "4c8fe25b55d55acc63f9500e35ccdfc05571c716f5fd1ba3792a4ba170d9343a",
+    "quran-reflection/fa/002-al-baqarah/units/150.html": "e7373fab12fd8ee07f10c349640b6c897f26e638db5144d1ecf5485c7b0c9720",
+    "quran-reflection/fa/002-al-baqarah/units/151.html": "0d3896106c85de887ab56ba5ff6931cdefbffe4f5fa1e93287edbe5a95c6e858",
+    "quran-reflection/fa/002-al-baqarah/units/152.html": "8c21aa9a23749b4ee1f19fdc7bb4dc982400e401f742bf064728feb5e1d9e083",
+    "quran-reflection/fa/002-al-baqarah/units/153.html": "22260971d97975fecff78a4a4ec698960f65f14094ef51c9e14de32241f25cf0",
+    "quran-reflection/fa/002-al-baqarah/units/154.html": "75a116ba82efe5e42d5a227a91e4f56ba92df45955362269f9072197244f23be",
+    "quran-reflection/fa/002-al-baqarah/units/155.html": "e6f73717b684d66704bea1cb88c558dce9ca9622c485e3c8f63c33ea57350f81",
+    "quran-reflection/fa/002-al-baqarah/units/156.html": "843facbe280d48607a90d773a761a1953283440f733e6f39be8627259dfc3882",
+    "quran-reflection/fa/002-al-baqarah/units/157.html": "50ee8fa14fd33b222cca0778e9588bb93938d6d392adfb68068afe23a560122f",
+    "quran-reflection/fa/002-al-baqarah/units/158.html": "9b2f2745e1e7a8a6181fb68a041c8815d8563eb6c135a8350510021e1283f407",
+    "quran-reflection/fa/002-al-baqarah/units/159.html": "b6013f138d44a77af26c0b62b57f835e57029727f9fa83f85d56b57896b796e3",
+    "quran-reflection/fa/002-al-baqarah/units/160.html": "bd81fac0b3b7f75a2b6a6a6abbcc7dca33c5696743ceaa3481957ead252e635d",
+    "quran-reflection/fa/006-al-anam/units/050.html": "41fbc83eeb37061cecc1d02f100db6b9869bcda2bca89aaa6ac8a1339e7cf9a9",
+    "quran-reflection/fa/006-al-anam/units/100.html": "03461f765d73dcce1c445a74549fbc9bea5f7525cfac92b7d9a4e8a74107e615",
+    "quran-reflection/fa/006-al-anam/units/116.html": "73063a066724e82aa65e69bbf53de1e691ebe203c5a3a0fa0315d82a3a093bd0",
+    "quran-reflection/fa/006-al-anam/units/148.html": "8eaa8560f35cf33b22eea7fd49ec9664866dd46f5ef6cafb99bd2671eb7c3d1e",
+    "quran-reflection/fa/007-al-araf/units/143.html": "bd86923c1a45c71f959399c26c9148943aeadc420192da27854c7a184b4b5fb4",
+    "quran-reflection/fa/010-yunus/units/066.html": "aa006ac09933da1e107029524a829f07f1f32fc3b8c3b4495e47738f08cc9ac0",
+    "quran-reflection/fa/011-hud/units/031.html": "7268a5c896493f2becbd27d7b969d583a183b3e08653daea50193de8354cace7",
+    "quran-reflection/fa/012-yusuf/units/055.html": "ede780f91455e6e3d0381eabd305743738e3a819ab783964ae207170bcc46494",
+    "quran-reflection/fa/012-yusuf/units/100.html": "eb8822875dad905e25f0a5ef9bc964fb5e7f32d9f5ea211a58ce1269ec637001",
+    "quran-reflection/fa/015-al-hijr/units/021.html": "6c7f5262bcb707359190ccbb268df09fb9a108a005ff586bd5357cc0d06c2f0e",
+    "quran-reflection/fa/015-al-hijr/units/022.html": "990da0a120b4a662ab1820a80fe9fd21b8daa8b497b1694da88ff7040da1a2f8",
+    "quran-reflection/fa/016-an-nahl/units/026.html": "5fdf414745fe7d71b3cbaa5393af14ac5916633cad9c1fc70f8c1a7d6653755c",
+    "quran-reflection/fa/017-al-isra/units/037.html": "5e6a97cd958a683e5a917e7f68f1e1bb46d92ff27fd5f018cb0577c2e426b55d",
+    "quran-reflection/fa/017-al-isra/units/100.html": "040343fd5275b2a25f3499bb31bf71bf5dcd38304e25974c5dbb1e717a19a37e",
+    "quran-reflection/fa/017-al-isra/units/107.html": "e29302483b29aa2d0ee3c1bf48e0ba956375dfd2fe6f929617150286e3d4df01",
+    "quran-reflection/fa/017-al-isra/units/109.html": "74f85d700dc2692778b5030d2a98417121ea0d293a4ca29477aaadfcf3f4eebd",
+    "quran-reflection/fa/018-al-kahf/units/071.html": "3b2c0cabcf44529b770a48f17cc181409de2f81d5ccaa28cf30de79846ac6aeb",
+    "quran-reflection/fa/019-maryam/units/058.html": "f88213b27802c2235f034f27c28fac3ed598f835400cdfde2d9f701123507a24",
+    "quran-reflection/fa/019-maryam/units/090.html": "78a742e696d118d64005eb321d5d53ef53fa7fdc379cb62400c1077f417da47b",
+    "quran-reflection/fa/022-al-hajj/units/031.html": "8a81dfd6dc9ab4c3ffc7f54af24a6cfdb936d30c53bd7629767b295f1e9efb32",
+    "quran-reflection/fa/025-al-furqan/units/073.html": "9cd5c757930ed343c5b3841db6cffb187e6018e1c98bf910e6280c0fcea32fb9",
+    "quran-reflection/fa/032-as-sajdah/units/015.html": "4ae0efa3db86c467316bb041cef3eab30ff79a33787709d0738695e8885e41a5",
+    "quran-reflection/fa/034-saba/units/014.html": "5e7cadd8ff30ee5f1e1c60989e969ee3ab504de86b0b96657185d1237e7d5fef",
+    "quran-reflection/fa/038-sad/units/009.html": "1473b20dde34accd0ae0a817af71937bb96f7a0314851f1ceefcaee6cc437f28",
+    "quran-reflection/fa/038-sad/units/024.html": "0e94f148ace55b91eb2183fda1aca8fcc16843e843697e01a335bc4a4c9c72e9",
+    "quran-reflection/fa/039-az-zumar/units/071.html": "ff84fe47995c987e8673e35c16c532de5e60afd2ceeb6b2edf44f12b6949bbca",
+    "quran-reflection/fa/039-az-zumar/units/073.html": "5894a748f3925488accd5891c12257f4bd582141ec6ad0c8a6e1d9b1227daecb",
+    "quran-reflection/fa/040-ghafir/units/049.html": "8ec7c4fdc7d935a3194838f1a52230ce054284f16d243f21ff0a05287937302b",
+    "quran-reflection/fa/043-az-zukhruf/units/020.html": "fc9c28848356e6ad545bf625d6b7bc021a30cf661ef0cc1a5e5a993a9e6868e9",
+    "quran-reflection/fa/051-adh-dhariyat/units/010.html": "1dfce5d9213ce10cb757942d69d42e205cc5d43464af346ca9e28792ed0ab595",
+    "quran-reflection/fa/052-at-tur/units/037.html": "907b91d28a24f7d6ea922fa9108a8d421eef27610a481fc2000c6463f8de1755",
+    "quran-reflection/fa/063-al-munafiqun/units/007.html": "2a8de27eb2d64d7935c7073fcee73e56aca757f65112322fd5e956c24d55806f",
+    "quran-reflection/fa/067-al-mulk/units/008.html": "d0de32810e85ead2268e51668e375add37fc23fb245152106f01eae4b88161cc",
+    "quran-terminology/en/roots/index.html": "c241863b0ccdf1d084980a0ff8a09d423ecc975f0d9b37c1beed5e1111a56d50",
+    "quran-terminology/en/roots/kh-r-q/index.html": "a5cd2d636cbd4ecbab43744cd65a159920f49b761bac2b6271c0ca8f29bd20cb",
+    "quran-terminology/en/roots/kh-r-r/index.html": "261979585ea56bbe49a07e32ea3ebcd32b7d8ba7eb4e23d5a5a196a6e1e2ff30",
+    "quran-terminology/en/roots/kh-r-sad/index.html": "e7cb69a6227efaf0c44ca41e6988e08f26c829ec07367874cce4347d89ed598f",
+    "quran-terminology/en/roots/kh-z-n/index.html": "b1bfc86533659aa248ff752621ec32da300c6da7e2699eec11bf24879c353df8",
+    "quran-terminology/fa/roots/index.html": "69ac2ef063ac1a13dc5277f68f855cd5a95592f9fb1e895e2ad96c03ca2d40f5",
+    "quran-terminology/fa/roots/kh-r-q/index.html": "1d77b4bea16deebfead55807398b479ec385e1ade5f9c5cd22d79954da1f953a",
+    "quran-terminology/fa/roots/kh-r-r/index.html": "013898ff963a24fd52bed8d2e819ca886054b37df0e3faf85c4631b64512f23e",
+    "quran-terminology/fa/roots/kh-r-sad/index.html": "a2ca8add1c73da17fca15e7102b212665a88edc4cd34740b231c76a9f6561197",
+    "quran-terminology/fa/roots/kh-z-n/index.html": "a9e1ae726da63ce5774311f5b3928e9f045b52c493198ebcf9800dae959d4505"
+  },
+  "commit_or_push_performed": false,
+  "post_installation_tests_run": false,
+  "root_assignment_audit": {
+    "source": "QAC0.4",
+    "assigned_roots_checked": 82,
+    "QAC_root_tags_matched": 81,
+    "retained_lemma_verified_entries": 1,
+    "positions": [
+      {
+        "verse": "16:45",
+        "position": 1,
+        "word": "أَفَأَمِنَ",
+        "website_root": "أ م ن",
+        "QAC_root": "Amn"
+      },
+      {
+        "verse": "16:45",
+        "position": 3,
+        "word": "مَكَرُوا",
+        "website_root": "م ك ر",
+        "QAC_root": "mkr"
+      },
+      {
+        "verse": "16:45",
+        "position": 4,
+        "word": "السَّيِّـٔاتِ",
+        "website_root": "س و أ",
+        "QAC_root": "swA"
+      },
+      {
+        "verse": "16:45",
+        "position": 6,
+        "word": "يَخسِفَ",
+        "website_root": "خ س ف",
+        "QAC_root": "xsf"
+      },
+      {
+        "verse": "16:45",
+        "position": 7,
+        "word": "اللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "16:45",
+        "position": 9,
+        "word": "الأَرضَ",
+        "website_root": "أ ر ض",
+        "QAC_root": "ArD"
+      },
+      {
+        "verse": "16:45",
+        "position": 11,
+        "word": "يَأتِيَهُمُ",
+        "website_root": "أ ت ي",
+        "QAC_root": "Aty"
+      },
+      {
+        "verse": "16:45",
+        "position": 12,
+        "word": "العَذابُ",
+        "website_root": "ع ذ ب",
+        "QAC_root": "E*b"
+      },
+      {
+        "verse": "16:45",
+        "position": 16,
+        "word": "يَشعُرونَ",
+        "website_root": "ش ع ر",
+        "QAC_root": "$Er"
+      },
+      {
+        "verse": "17:68",
+        "position": 1,
+        "word": "أَفَأَمِنتُم",
+        "website_root": "أ م ن",
+        "QAC_root": "Amn"
+      },
+      {
+        "verse": "17:68",
+        "position": 3,
+        "word": "يَخسِفَ",
+        "website_root": "خ س ف",
+        "QAC_root": "xsf"
+      },
+      {
+        "verse": "17:68",
+        "position": 5,
+        "word": "جانِبَ",
+        "website_root": "ج ن ب",
+        "QAC_root": "jnb"
+      },
+      {
+        "verse": "17:68",
+        "position": 6,
+        "word": "البَرِّ",
+        "website_root": "ب ر ر",
+        "QAC_root": "brr"
+      },
+      {
+        "verse": "17:68",
+        "position": 8,
+        "word": "يُرسِلَ",
+        "website_root": "ر س ل",
+        "QAC_root": "rsl"
+      },
+      {
+        "verse": "17:68",
+        "position": 10,
+        "word": "حاصِبًا",
+        "website_root": "ح ص ب",
+        "QAC_root": "HSb"
+      },
+      {
+        "verse": "17:68",
+        "position": 13,
+        "word": "تَجِدوا",
+        "website_root": "و ج د",
+        "QAC_root": "wjd"
+      },
+      {
+        "verse": "17:68",
+        "position": 15,
+        "word": "وَكيلًا",
+        "website_root": "و ك ل",
+        "QAC_root": "wkl"
+      },
+      {
+        "verse": "28:81",
+        "position": 1,
+        "word": "فَخَسَفنا",
+        "website_root": "خ س ف",
+        "QAC_root": "xsf"
+      },
+      {
+        "verse": "28:81",
+        "position": 3,
+        "word": "وَبِدارِهِ",
+        "website_root": "د و ر",
+        "QAC_root": "dwr"
+      },
+      {
+        "verse": "28:81",
+        "position": 4,
+        "word": "الأَرضَ",
+        "website_root": "أ ر ض",
+        "QAC_root": "ArD"
+      },
+      {
+        "verse": "28:81",
+        "position": 6,
+        "word": "كانَ",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "28:81",
+        "position": 9,
+        "word": "فِئَةٍ",
+        "website_root": "ف أ ي",
+        "QAC_root": "fAy"
+      },
+      {
+        "verse": "28:81",
+        "position": 10,
+        "word": "يَنصُرونَهُ",
+        "website_root": "ن ص ر",
+        "QAC_root": "nSr"
+      },
+      {
+        "verse": "28:81",
+        "position": 12,
+        "word": "دونِ",
+        "website_root": "د و ن",
+        "QAC_root": "dwn"
+      },
+      {
+        "verse": "28:81",
+        "position": 13,
+        "word": "اللَّهِ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "28:81",
+        "position": 15,
+        "word": "كانَ",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "28:81",
+        "position": 17,
+        "word": "المُنتَصِرينَ",
+        "website_root": "ن ص ر",
+        "QAC_root": "nSr"
+      },
+      {
+        "verse": "28:82",
+        "position": 1,
+        "word": "وَأَصبَحَ",
+        "website_root": "ص ب ح",
+        "QAC_root": "SbH"
+      },
+      {
+        "verse": "28:82",
+        "position": 3,
+        "word": "تَمَنَّوا",
+        "website_root": "م ن ي",
+        "QAC_root": "mny"
+      },
+      {
+        "verse": "28:82",
+        "position": 4,
+        "word": "مَكانَهُ",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "28:82",
+        "position": 5,
+        "word": "بِالأَمسِ",
+        "website_root": "أ م س",
+        "QAC_root": null,
+        "QAC_lemma": ">amos",
+        "verification": "Retained conventional lexical entry for temporal noun al-ams; QAC supplies a noun lemma but no root. Published bilingual a-m-s study and existing metadata preserved."
+      },
+      {
+        "verse": "28:82",
+        "position": 6,
+        "word": "يَقولونَ",
+        "website_root": "ق و ل",
+        "QAC_root": "qwl"
+      },
+      {
+        "verse": "28:82",
+        "position": 8,
+        "word": "اللَّهَ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "28:82",
+        "position": 9,
+        "word": "يَبسُطُ",
+        "website_root": "ب س ط",
+        "QAC_root": "bsT"
+      },
+      {
+        "verse": "28:82",
+        "position": 10,
+        "word": "الرِّزقَ",
+        "website_root": "ر ز ق",
+        "QAC_root": "rzq"
+      },
+      {
+        "verse": "28:82",
+        "position": 12,
+        "word": "يَشاءُ",
+        "website_root": "ش ي أ",
+        "QAC_root": "$yA"
+      },
+      {
+        "verse": "28:82",
+        "position": 14,
+        "word": "عِبادِهِ",
+        "website_root": "ع ب د",
+        "QAC_root": "Ebd"
+      },
+      {
+        "verse": "28:82",
+        "position": 15,
+        "word": "وَيَقدِرُ",
+        "website_root": "ق د ر",
+        "QAC_root": "qdr"
+      },
+      {
+        "verse": "28:82",
+        "position": 18,
+        "word": "مَنَّ",
+        "website_root": "م ن ن",
+        "QAC_root": "mnn"
+      },
+      {
+        "verse": "28:82",
+        "position": 19,
+        "word": "اللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "28:82",
+        "position": 21,
+        "word": "لَخَسَفَ",
+        "website_root": "خ س ف",
+        "QAC_root": "xsf"
+      },
+      {
+        "verse": "28:82",
+        "position": 25,
+        "word": "يُفلِحُ",
+        "website_root": "ف ل ح",
+        "QAC_root": "flH"
+      },
+      {
+        "verse": "28:82",
+        "position": 26,
+        "word": "الكٰفِرونَ",
+        "website_root": "ك ف ر",
+        "QAC_root": "kfr"
+      },
+      {
+        "verse": "29:40",
+        "position": 1,
+        "word": "فَكُلًّا",
+        "website_root": "ك ل ل",
+        "QAC_root": "kll"
+      },
+      {
+        "verse": "29:40",
+        "position": 2,
+        "word": "أَخَذنا",
+        "website_root": "أ خ ذ",
+        "QAC_root": "Ax*"
+      },
+      {
+        "verse": "29:40",
+        "position": 3,
+        "word": "بِذَنبِهِ",
+        "website_root": "ذ ن ب",
+        "QAC_root": "*nb"
+      },
+      {
+        "verse": "29:40",
+        "position": 6,
+        "word": "أَرسَلنا",
+        "website_root": "ر س ل",
+        "QAC_root": "rsl"
+      },
+      {
+        "verse": "29:40",
+        "position": 8,
+        "word": "حاصِبًا",
+        "website_root": "ح ص ب",
+        "QAC_root": "HSb"
+      },
+      {
+        "verse": "29:40",
+        "position": 11,
+        "word": "أَخَذَتهُ",
+        "website_root": "أ خ ذ",
+        "QAC_root": "Ax*"
+      },
+      {
+        "verse": "29:40",
+        "position": 12,
+        "word": "الصَّيحَةُ",
+        "website_root": "ص ي ح",
+        "QAC_root": "SyH"
+      },
+      {
+        "verse": "29:40",
+        "position": 15,
+        "word": "خَسَفنا",
+        "website_root": "خ س ف",
+        "QAC_root": "xsf"
+      },
+      {
+        "verse": "29:40",
+        "position": 17,
+        "word": "الأَرضَ",
+        "website_root": "أ ر ض",
+        "QAC_root": "ArD"
+      },
+      {
+        "verse": "29:40",
+        "position": 20,
+        "word": "أَغرَقنا",
+        "website_root": "غ ر ق",
+        "QAC_root": "grq"
+      },
+      {
+        "verse": "29:40",
+        "position": 22,
+        "word": "كانَ",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "29:40",
+        "position": 23,
+        "word": "اللَّهُ",
+        "website_root": "ا ل ه",
+        "QAC_root": "Alh"
+      },
+      {
+        "verse": "29:40",
+        "position": 24,
+        "word": "لِيَظلِمَهُم",
+        "website_root": "ظ ل م",
+        "QAC_root": "Zlm"
+      },
+      {
+        "verse": "29:40",
+        "position": 26,
+        "word": "كانوا",
+        "website_root": "ك و ن",
+        "QAC_root": "kwn"
+      },
+      {
+        "verse": "29:40",
+        "position": 27,
+        "word": "أَنفُسَهُم",
+        "website_root": "ن ف س",
+        "QAC_root": "nfs"
+      },
+      {
+        "verse": "29:40",
+        "position": 28,
+        "word": "يَظلِمونَ",
+        "website_root": "ظ ل م",
+        "QAC_root": "Zlm"
+      },
+      {
+        "verse": "34:9",
+        "position": 2,
+        "word": "يَرَوا",
+        "website_root": "ر أ ي",
+        "QAC_root": "rAy"
+      },
+      {
+        "verse": "34:9",
+        "position": 5,
+        "word": "بَينَ",
+        "website_root": "ب ي ن",
+        "QAC_root": "byn"
+      },
+      {
+        "verse": "34:9",
+        "position": 6,
+        "word": "أَيديهِم",
+        "website_root": "ي د ي",
+        "QAC_root": "ydy"
+      },
+      {
+        "verse": "34:9",
+        "position": 8,
+        "word": "خَلفَهُم",
+        "website_root": "خ ل ف",
+        "QAC_root": "xlf"
+      },
+      {
+        "verse": "34:9",
+        "position": 10,
+        "word": "السَّماءِ",
+        "website_root": "س م و",
+        "QAC_root": "smw"
+      },
+      {
+        "verse": "34:9",
+        "position": 11,
+        "word": "وَالأَرضِ",
+        "website_root": "أ ر ض",
+        "QAC_root": "ArD"
+      },
+      {
+        "verse": "34:9",
+        "position": 13,
+        "word": "نَشَأ",
+        "website_root": "ش ي أ",
+        "QAC_root": "$yA"
+      },
+      {
+        "verse": "34:9",
+        "position": 14,
+        "word": "نَخسِف",
+        "website_root": "خ س ف",
+        "QAC_root": "xsf"
+      },
+      {
+        "verse": "34:9",
+        "position": 16,
+        "word": "الأَرضَ",
+        "website_root": "أ ر ض",
+        "QAC_root": "ArD"
+      },
+      {
+        "verse": "34:9",
+        "position": 18,
+        "word": "نُسقِط",
+        "website_root": "س ق ط",
+        "QAC_root": "sqT"
+      },
+      {
+        "verse": "34:9",
+        "position": 20,
+        "word": "كِسَفًا",
+        "website_root": "ك س ف",
+        "QAC_root": "ksf"
+      },
+      {
+        "verse": "34:9",
+        "position": 22,
+        "word": "السَّماءِ",
+        "website_root": "س م و",
+        "QAC_root": "smw"
+      },
+      {
+        "verse": "34:9",
+        "position": 26,
+        "word": "لَـٔايَةً",
+        "website_root": "أ ي ي",
+        "QAC_root": "Ayy"
+      },
+      {
+        "verse": "34:9",
+        "position": 27,
+        "word": "لِكُلِّ",
+        "website_root": "ك ل ل",
+        "QAC_root": "kll"
+      },
+      {
+        "verse": "34:9",
+        "position": 28,
+        "word": "عَبدٍ",
+        "website_root": "ع ب د",
+        "QAC_root": "Ebd"
+      },
+      {
+        "verse": "34:9",
+        "position": 29,
+        "word": "مُنيبٍ",
+        "website_root": "ن و ب",
+        "QAC_root": "nwb"
+      },
+      {
+        "verse": "67:16",
+        "position": 1,
+        "word": "ءَأَمِنتُم",
+        "website_root": "أ م ن",
+        "QAC_root": "Amn"
+      },
+      {
+        "verse": "67:16",
+        "position": 4,
+        "word": "السَّماءِ",
+        "website_root": "س م و",
+        "QAC_root": "smw"
+      },
+      {
+        "verse": "67:16",
+        "position": 6,
+        "word": "يَخسِفَ",
+        "website_root": "خ س ف",
+        "QAC_root": "xsf"
+      },
+      {
+        "verse": "67:16",
+        "position": 8,
+        "word": "الأَرضَ",
+        "website_root": "أ ر ض",
+        "QAC_root": "ArD"
+      },
+      {
+        "verse": "67:16",
+        "position": 11,
+        "word": "تَمورُ",
+        "website_root": "م و ر",
+        "QAC_root": "mwr"
+      },
+      {
+        "verse": "75:8",
+        "position": 1,
+        "word": "وَخَسَفَ",
+        "website_root": "خ س ف",
+        "QAC_root": "xsf"
+      },
+      {
+        "verse": "75:8",
+        "position": 2,
+        "word": "القَمَرُ",
+        "website_root": "ق م ر",
+        "QAC_root": "qmr"
+      }
+    ],
+    "corrections": []
+  },
+  "verification": {
+    "stage": "before installation",
+    "source_blocks_rendered_in_each_language": 393,
+    "complete_English_translation": true,
+    "morphology_cards": 8,
+    "Arabic_quotations": 15,
+    "Arabic_quotation_corrections": [],
+    "Arabic_verse_quotations_match_installed": 11,
+    "distinct_full_Quran_verses": 11,
+    "required_root_box_checker_passed_lexical_boxes": 164,
+    "only_own_registry_entry_changed": true,
+    "verse_Arabic_and_translations_unchanged": true,
+    "existing_contexts_preserved": true,
+    "protected_reflections_text_modified": 0,
+    "grammar_metadata_preserved": true,
+    "canonical_Allah_boxes_preserved": 10,
+    "prior_work_Fatihah_Baqarah_through160_and_shared_renderer_preserved": true,
+    "verified_verse_targets": 40,
+    "verified_related_root_targets": 4,
+    "build_or_preview_run": false,
+    "post_installation_tests_run": false
+  },
+  "prepared_sha256": {
+    "quran-terminology/fa/roots/kh-s-f/index.html": "2b936462abf7f4de7b4e81809a8cbecb999d3a16178d2a026473b4e481e199ba",
+    "quran-terminology/en/roots/kh-s-f/index.html": "c0d748b9de74024c6574a30e12504a3b33d449d8a65bfb03d9a26bd3d3832f60",
+    "_data/quran-root-studies.json": "b05fd45bbdd9b44539585c9eed62ea51e89cc4e6f1b9dd3b97d5b877850fa5be",
+    "quran-reflection/fa/016-an-nahl/units/045.html": "b33f27ea540535392d4a897671ce4c78c24d4166f10031999f3f6bf44cc86f13",
+    "quran-reflection/fa/017-al-isra/units/068.html": "7588b12d401c78b5f4ad4e3838d06c940bebec3ff76f5757780e4d7b41ed967e",
+    "quran-reflection/fa/028-al-qasas/units/081.html": "f8410f67885a0d170890fdb7e170caaca82baa4fb994d3660e99593a7b67976f",
+    "quran-reflection/fa/028-al-qasas/units/082.html": "75065493f22c3a25a262c2e14b383ee1079f173915a6bdc0a37e173dc5553c63",
+    "quran-reflection/fa/029-al-ankabut/units/040.html": "cb89fdca067b617df18c3217b1f3ad47d0f8ebb29cc302373707b04b35c24d00",
+    "quran-reflection/fa/034-saba/units/009.html": "4980d8524b9fc23c292ea07988994a415431a1d3c800f935e060c54420210c4e",
+    "quran-reflection/fa/067-al-mulk/units/016.html": "cebd222292242d925ba34f88824c39fed31c79b7fa8a96f028458b3dbbba9cbf",
+    "quran-reflection/fa/075-al-qiyamah/units/008.html": "56e8c89a13ba4eeea1484d5885be65840b5e092012561a6b87943e80572bb7cb",
+    "quran-reflection/en/016-an-nahl/units/045.html": "ac0e5e70f13c367c5468fc1e482cadff4dfff1abbaedd816415882fa42f4febe",
+    "quran-reflection/en/017-al-isra/units/068.html": "504303a3d72b5fbed63ecb2015290dd3c6cbe4c3b28b0459d011bfefaaa21af9",
+    "quran-reflection/en/028-al-qasas/units/081.html": "aec79b1b537eacf8644a1eb4be7da1b3e4b898d16d431e20f03d9091b42db0ce",
+    "quran-reflection/en/028-al-qasas/units/082.html": "e3588596e811f421c4cf3dc50344e8a4298cd46feecde79d71d652da28c6b884",
+    "quran-reflection/en/029-al-ankabut/units/040.html": "0e3ab4385524d85f9180143d65766426486d905013f67ee236f0154c51d56297",
+    "quran-reflection/en/034-saba/units/009.html": "caaa553206565cb8d9b263dc4ec8f6e901d0b0bd3d67b61518bd160c568d47c3",
+    "quran-reflection/en/067-al-mulk/units/016.html": "f24b26e22502f1729beae215fe0fd8a09ecb143e91ceb2c4f84de3952032d407",
+    "quran-reflection/en/075-al-qiyamah/units/008.html": "ae67941048ff2a33bdc179478c9b078298cd72c9ef7ff8fb46d6212dddfe7854"
+  },
+  "English_translation_complete": true,
+  "source_attachment_sha256": "e6947f995926702435d7ac199425babd5cba70483dc7ded5f4e254f0dc5a33b0",
+  "corrections": [
+    "Installed all 393 supplied logical blocks in reviewed Persian and complete English, preserving order and coverage: nine sections, twenty-eight subheadings, eight morphology cards, and fifteen Arabic quotation blocks per language. Quotations comprise eleven full Quran verses, two poems, and two lexical definitions. All fifteen have English transliterations. Supplied Arabic wording and vocalization were retained.",
+    "Confirmed eight Form I occurrences in eight verses and eight surahs: seven earth-related and one moon-related. Distinguished actual Qārūn sinking and retrospective29:40 from warnings and the counterfactual28:82 statement. Expanded the introductory classification accordingly.",
+    "Compared all82pairedlexicalentries. Eighty-one match cachedQAC0.4 ROOTtags. At28:82:5 al-ams,QAC gives nounlemma >amos but noROOTtag; retainedexistingpublishedbilinguala-m-s conventionaldictionaryentryandmetadata,withanexplicitlimitedlemma-basedverification. No incorrect assignment was found and no root reassignment was made.",
+    "Corrected Balʿāʾ s second hemistich translation: with wa wallaytuhum shatmi, the poet lets others revile him rather than directing his own insults at them. Primary Jahiz confirms this wording; primary IbnAbdAlBarr confirms wa awlaytuhum sami. Explained the translation difference without changing the supplied Arabic quotation. Retained Aws qad tayaqqana and the recorded Tahdhib qad tabayyana variant.",
+    "Clarified28:82 grammar: la khasafa is active in Hafs s reading, with implicit divine subject. Primary IbnKhalawayh confirms activeHafs and passiveotherreadings. SuppliedArabic activeformandinstalledverseArabic preserved.",
+    "Kept sinking distinct from earthquake, mere economic or political collapse, and abandonment of assistance. Kept lunar darkening distinct from moonfall or collision, and ordinary astronomical Earthshadoweclipses distinct from claims about the physicalmechanismofresurrection. Preserved the prohibition against inferring victims guilt from modernnaturaldisasters.",
+    "All eleven full Quran translations in the article are explicitly proposed, leaving installed translations unchanged. Expanded the28:81and28:82range and shorthand references into individual surahandversereferences. Verified forty bilingual verse destinations. Added four links only to published relatedstudies kh-dh-l and b-l-ayn; no invented destinations for unwritten comparisonroots.",
+    "Recursively inspected eight occurrenceverses in both languages: none has an existing reflection. Updated sixteen ownrootbriefs and removed only their own preliminarystudynotices. Existing contexts in16:45,17:68,28:82,and29:40 preserved. Added eight missing owncontexts and fifty-six other missing contextfields in the edited unprotectedunits. All164bilinguallexicalboxes are complete. Ten actualAllahboxes remain exactcanonicalcopies; existinglabels,otherbriefs,links,notes,transliterations,andgrammaticalmetadata preserved.",
+    "Focused checks passed before installation for393blocks perlanguage,fifteenquotationsandtransliterations,elevenfullQuranquotesagainstinstalledArabic,eighty-twopairedentries,fortyversetargets,fourpublishedrelatedlinks,andthe requiredrootboxcheckerfor164lexicalboxes. Onlythisrootregistryentrychanged. Priorworkincludingkh-r-r,kh-r-sad,kh-r-q,andkh-z-n,Fatihah,Baqarahthrough160,authoredreflections,rootindexes,andsharedrenderer protectedbyhashes. No build,browserpreview,postinstallationtests,commit,orpush."
+  ]
+}
