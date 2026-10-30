@@ -23,6 +23,7 @@ html[data-forqan-theme="dark"] .contributions-page{--collection-art-ink:#eeeae0;
 .contributions-page dl div{display:flex;gap:.4rem}
 .contributions-page dt{color:var(--lib-muted)}
 .contributions-page dt::after{content:':'}.contributions-page dd{margin:0}
+.contributions-page .contribution-notice{margin:1rem 0;color:var(--lib-muted);line-height:1.8}
 .contributions-page :is(a,button,input,select):focus-visible{outline:2px solid var(--lib-gold);outline-offset:3px}
 .contributions-page [hidden]{display:none!important}
 .contributions-page #contribution-empty,.contributions-page [role="status"]{color:var(--lib-muted);line-height:1.8}

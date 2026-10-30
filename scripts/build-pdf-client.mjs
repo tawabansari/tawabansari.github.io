@@ -7,6 +7,11 @@ await build({entryPoints:{'pdf-browser':'services/pdf/browser-entry.mjs','pdf-br
   bundle:true,format:'esm',platform:'browser',target:['es2022'],outdir:path.join(site,'assets/js'),outExtension:{'.js':'.mjs'},
   minify:true,legalComments:'linked',define:{'process.env.NODE_ENV':'"production"'}});
 const {pages} = JSON.parse(await readFile(path.join(site,'assets/data/library.json'),'utf8'));
-await writeFile(path.join(site,'assets/data/pdf-catalog.json'),JSON.stringify({pages:pages.filter(p=>['Articles','Terminology','Roots','Quran'].includes(p.kind))
+// Export eligibility is independent of central search and featured reading.
+for (const lang of ['fa','en']) {
+  const submissions = JSON.parse(await readFile(path.join(site,`assets/data/contributions-${lang}.json`),'utf8'));
+  pages.push(...submissions.map(({url,title,lang})=>({url,title,lang,kind:'Contributions'})));
+}
+await writeFile(path.join(site,'assets/data/pdf-catalog.json'),JSON.stringify({pages:pages.filter(p=>['Articles','Terminology','Roots','Quran','Contributions'].includes(p.kind))
   .map(({url,title,lang,kind,anchors})=>({url,title,lang,kind,anchors}))}));
 console.log('Built lazy browser PDF fallback and published-content catalog.');

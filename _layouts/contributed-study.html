@@ -4,7 +4,7 @@ collection_directory: true
 ---
 {% assign fa = false %}{% if page.lang == 'fa' %}{% assign fa = true %}{% endif %}
 <link rel="stylesheet" href="/assets/css/contributions.css">
-<article data-study-toc="false" data-study-find="false" class="contributions-page" lang="{{ page.lang }}" dir="{% if fa %}rtl{% else %}ltr{% endif %}">
+<article data-contributed-study class="contributions-page" lang="{{ page.lang }}" dir="{% if fa %}rtl{% else %}ltr{% endif %}">
   <nav><a href="/{{ page.lang }}/contributions/">{% if fa %}مقاله‌ها و پژوهش‌های ارسالی{% else %}Contributed Articles &amp; Research{% endif %}</a></nav>
   <header class="contribution-heading"><div><h1>{{ page.title | escape }}</h1>
     <dl>
@@ -14,6 +14,7 @@ collection_directory: true
       <div><dt>{% if fa %}تاریخ انتشار{% else %}Published{% endif %}</dt><dd><time datetime="{{ page.publication_date | date: '%Y-%m-%d' }}">{{ page.publication_date | date: '%Y-%m-%d' }}</time></dd></div>
     </dl>
   </div></header>
+  <p class="contribution-notice" data-pagefind-ignore>{% if fa %}این نوشته بیانگر دیدگاه نویسنده است و لزوماً بازتاب‌دهندهٔ دیدگاه رسمی وب‌سایت فرقان نیست.{% else %}This contribution expresses the author’s views and does not necessarily reflect the official views of the Forqan website.{% endif %}</p>
   <div data-contribution-body>{{ content }}</div>
 </article>
 <script id="contribution-metadata" type="application/json">

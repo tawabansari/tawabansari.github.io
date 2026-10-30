@@ -1,6 +1,6 @@
 // Reading tools belong together; navigation and Quran verse controls are separate.
 export function compactStudy(main,study,fa){
-  if(!/^\/(?:quran-terminology\/(?:fa|en)\/roots\/[^/]+|(?:fa|en)\/(?:articles|hadith-critique|quran-completeness|quran-terminology|salat)\/.+)\/?$/.test(location.pathname))return;
+  if(!/^\/(?:quran-terminology\/(?:fa|en)\/roots\/[^/]+|(?:fa|en)\/(?:articles|contributions|hadith-critique|quran-completeness|quran-terminology|salat)\/.+)\/?$/.test(location.pathname))return;
   const title=study.querySelector('h1');if(!title)return;
   const hero=title.closest('header,.root-hero,.article-hero')||title;
   study.classList.add('compact-study');main.classList.add('compact-study-main');

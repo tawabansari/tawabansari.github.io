@@ -35,3 +35,11 @@ study catalogue, or the Tabsira Quran catalogue.
 
 Checks: `python3 scripts/check-contributions.py _site` and
 `node scripts/check-contributions.mjs`.
+
+Individual contributions opt into reading tools with `data-contributed-study`.
+They support contents, in-article search, reference previews, printing and PDF
+without joining the central search catalogue. `build-pdf-client.mjs` adds their
+minimal metadata to the export-only `pdf-catalog.json` as `Contributions`.
+Contribution PDFs use the on-device renderer so an older hosted PDF service
+cannot reject these independently catalogued articles. Exports retain the
+author, subject, language, publication date, viewpoint notice and article opening.

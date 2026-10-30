@@ -1,5 +1,5 @@
 import {normalize as normalizeSearch} from './search-utils.mjs';
-import {compactStudy} from './study-toolbar.mjs';
+import {compactStudy} from './study-toolbar.mjs?v=contribution-tools-1';
 (function () {
   'use strict';
   const settings = document.querySelector('.reading-settings');

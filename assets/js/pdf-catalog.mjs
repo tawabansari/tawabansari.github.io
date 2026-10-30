@@ -10,7 +10,7 @@ export function selectDocument(input, pages) {
     const selection = selectVerses(input, entry.anchors || []);
     if (selection.scope === 'range' && selection.missing.length && input.allowPartial !== true) throw Error('Confirm omitted unpublished verses');
     return {...entry, ...selection};
-  } else if (!['Articles','Terminology','Roots'].includes(entry.kind) || /\/(?:articles|roots|quran-terminology|hadith-critique|quran-completeness|salat|zakat)\/$/.test(input.path) || input.verse || input.scope || input.from !== undefined || input.to !== undefined) throw Error('Select a study');
+  } else if (!['Articles','Terminology','Roots','Contributions'].includes(entry.kind) || /\/(?:articles|contributions|roots|quran-terminology|hadith-critique|quran-completeness|salat|zakat)\/$/.test(input.path) || input.verse || input.scope || input.from !== undefined || input.to !== undefined) throw Error('Select a study');
   return {...entry};
 }
 

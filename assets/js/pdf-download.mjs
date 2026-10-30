@@ -1,6 +1,6 @@
 import {selectVerses, numberRanges} from './pdf-selection.mjs';
 import {createPDFClient} from './pdf-request.mjs';
-import {printVerses} from './verse-print.mjs?v=reflection-focus-2';
+import {printVerses, printStudy} from './verse-print.mjs?v=contribution-tools-1';
 import {pdfEndpoint} from './pdf-settings.mjs';
 
 export {pdfEndpoint} from './pdf-settings.mjs';
@@ -21,8 +21,9 @@ function init() {
   const chapterName = chapter?.[fa ? 'faName' : 'enName'] || document.title.split(' | ')[0];
   const total = chapter?.ayahs || Math.max(...anchors.map(id => Number(id.slice(5))));
   const kind = main.dataset.pagefindFilter?.replace('type:', '');
-  const study = !verses.length && main.hasAttribute('data-pagefind-body') && ['Articles', 'Terminology', 'Roots'].includes(kind)
-    ? main.querySelector('article,.root-study-page,.forqan-page-ltr,.forqan-page-rtl') : null;
+  const contribution = main.querySelector('article[data-contributed-study]');
+  const study = contribution || (!verses.length && main.hasAttribute('data-pagefind-body') && ['Articles', 'Terminology', 'Roots'].includes(kind)
+    ? main.querySelector('article,.root-study-page,.forqan-page-ltr,.forqan-page-rtl') : null);
   if (!verses.length && !study) return;
 
   const dialog = document.createElement('dialog');
@@ -129,7 +130,8 @@ function init() {
       save.disabled = true;
       status.textContent = fa ? 'در حال آماده‌سازی چاپ…' : 'Preparing print…';
       try {
-        await printVerses(selection, {lang, title:chapterName, anchors});
+        if (currentVerse) await printVerses(selection, {lang, title:chapterName, anchors});
+        else await printStudy({lang, title:study.querySelector('h1').textContent.trim()});
         status.textContent = fa ? 'نسخهٔ چاپ در زبانهٔ جداگانه باز شد.' : 'The print copy opened in a separate tab.';
       } catch {
         status.textContent = fa ? 'چاپ باز نشد. اجازهٔ باز شدن پنجرهٔ جدید را بدهید و دوباره تلاش کنید.' : 'Printing could not open. Allow pop-ups and try again.';
@@ -141,7 +143,7 @@ function init() {
     save.disabled = scope.disabled = acknowledge.disabled = true;
     status.textContent = fa ? 'در حال آماده‌سازی PDF… مجموعه‌های بزرگ ممکن است کمی زمان ببرند.' : 'Preparing your PDF… Larger selections may take a little longer.';
     try {
-      const {blob,filename} = await download(selection,{endpoint,fallback,signal:request.signal});
+      const {blob,filename} = await download(selection,{endpoint:contribution ? null : endpoint,fallback:contribution ? true : fallback,signal:request.signal});
       if (!dialog.open || controller !== request) return;
       downloadURL = URL.createObjectURL(blob);
       const link = document.createElement('a'); link.href = downloadURL;
@@ -186,6 +188,12 @@ function init() {
     if(toolbar)toolbar.insertBefore(tools,toolbar.querySelector('.study-discuss'));
     else (heading?.closest('header,.root-hero') || heading || study.firstElementChild).insertAdjacentElement('afterend', tools);
     addButton(tools);
+    if (contribution) {
+      const print = document.createElement('button'); print.type = 'button';
+      print.className = 'study-print-button'; print.textContent = fa ? 'چاپ' : 'Print';
+      print.setAttribute('aria-haspopup','dialog');
+      print.addEventListener('click',()=>open(print,undefined,'print')); tools.append(print);
+    }
   }
   verses.forEach(verse => { const title = verse.querySelector('.ayah-title,h2'); if (title) addButton(title, verse); });
 }

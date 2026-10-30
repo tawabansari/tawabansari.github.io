@@ -8,7 +8,7 @@ export function studyURL(value, base, desktop = desktopReading()) {
     if(!['http:','https:'].includes(url.protocol))return null;
     const readingPage = /^\/quran-reflection\/(en|fa)\/\d{3}-[^/]+\/?$/.test(url.pathname)
       || /^\/quran-terminology\/(en|fa)\/roots\/[^/]+\/?$/.test(url.pathname)
-      || /^\/(en|fa)\/(articles|quran-terminology|hadith-critique|quran-completeness)\/[^/]+(?:\/[^/]+)*\/?$/.test(url.pathname)
+      || /^\/(en|fa)\/(articles|contributions|quran-terminology|hadith-critique|quran-completeness)\/[^/]+(?:\/[^/]+)*\/?$/.test(url.pathname)
       || /^\/(en|fa)\/(salat|zakat)\/?$/.test(url.pathname)
       // Extend reading references on desktop without changing phone navigation.
       || (desktop && (/^\/(en|fa)\/introduction\/?$/.test(url.pathname)

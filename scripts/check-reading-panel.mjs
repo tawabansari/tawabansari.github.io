@@ -2,8 +2,8 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {studyURL,isReadingReference,isSamePageVerseReference} from '../assets/js/reading-panel.mjs';
 const base='https://forqan.co/quran-reflection/en/002-al-baqarah/';
-for(const path of ['/quran-terminology/en/roots/a-m-n/','/fa/articles/quranic-marriage/','/en/salat/','/fa/quran-terminology/iman/','/quran-reflection/en/002-al-baqarah/'])assert.equal(studyURL(path,base)?.pathname,path);
-for(const path of ['https://other.example/en/articles/a/','javascript:alert(1)','/assets/book.pdf','/assets/data.json','mailto:hello@example.org','tel:123','/search/','/quran-terminology/fa/roots/','/en/','/about.html','/en/articles/','/en/quran-terminology/','/quran-reflection/en/surahs/'])assert.equal(studyURL(path,base),null);
+for(const path of ['/quran-terminology/en/roots/a-m-n/','/fa/articles/quranic-marriage/','/fa/contributions/example/','/en/salat/','/fa/quran-terminology/iman/','/quran-reflection/en/002-al-baqarah/'])assert.equal(studyURL(path,base)?.pathname,path);
+for(const path of ['https://other.example/en/articles/a/','javascript:alert(1)','/assets/book.pdf','/assets/data.json','mailto:hello@example.org','tel:123','/search/','/quran-terminology/fa/roots/','/en/','/about.html','/en/articles/','/en/contributions/','/en/quran-terminology/','/quran-reflection/en/surahs/'])assert.equal(studyURL(path,base),null);
 // A reading destination alone must never capture global navigation or directory cards.
 const reference={href:'/quran-reflection/en/004-an-nisa/#ayah-006',closest:selector=>selector==='#main-content,.root-popover'?{}:null};
 assert.equal(isReadingReference(reference,'https://forqan.co/en/articles/quranic-marriage/'),true);

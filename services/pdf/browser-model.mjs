@@ -63,6 +63,8 @@ export function browserDocument(selection, html, sourceURL) {
     if (structural.test(node.tagName)) return children(node,next);
     return [{type:'text',runs:inline(node,next),style:next,tag:node.tagName,classes:cls,id:node.id}];
   }
-  return {lang:selection.lang,title:doc.title,sourceURL,blocks:children(doc.body,{direction:fa?'rtl':'ltr'}),
+  const source = new DOMParser().parseFromString(html, 'text/html');
+  const author = source.querySelector('[data-contributed-study] dl dd')?.textContent.trim();
+  return {lang:selection.lang,title:doc.title,author,sourceURL,blocks:children(doc.body,{direction:fa?'rtl':'ltr'}),
     text:doc.body.textContent};
 }

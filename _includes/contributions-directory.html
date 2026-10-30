@@ -6,6 +6,7 @@
     {% include contribution-icon.svg %}
     <div><h1>{{ page.title }}</h1><p>{% if fa %}مقاله‌ها و پژوهش‌های فرستاده‌شده از سوی نویسندگان مستقل، به زبان اصلی نوشته.{% else %}Articles and research submitted by independent authors, in their original language.{% endif %}</p></div>
   </header>
+  <p class="contribution-notice">{% if fa %}مقاله‌ها و پژوهش‌های این بخش بیانگر دیدگاه نویسندگان آن‌هاست و لزوماً بازتاب‌دهندهٔ دیدگاه رسمی وب‌سایت فرقان نیست. انتشار این نوشته‌ها به معنای تأیید همهٔ مطالب و برداشت‌های آن‌ها از سوی فرقان نیست.{% else %}The articles and research in this section express their authors’ views and do not necessarily reflect the official views of the Forqan website. Publication does not imply Forqan’s endorsement of all their content or interpretations.{% endif %}</p>
   <form class="contribution-tools" role="search" aria-label="{% if fa %}جستجو در نوشته‌های ارسالی{% else %}Search contributed writings{% endif %}">
     <label for="contribution-query">{% if fa %}جستجو در همین بخش{% else %}Search this section{% endif %}</label>
     <div class="contribution-search-row">

@@ -43,6 +43,18 @@ export function prepareDocument({includeCrossReferences = false, ids, scope, fro
     }
     details.replaceWith(section);
   });
+  // Keep submission metadata legible in both the HTML and browser PDF renderers.
+  content.querySelectorAll('[data-contributed-study] dl').forEach(list => {
+    const metadata = document.createElement('div');
+    for (const row of list.children) {
+      const label = row.querySelector('dt'), value = row.querySelector('dd');
+      if (!label || !value) continue;
+      const paragraph = document.createElement('p');
+      paragraph.textContent = `${label.textContent.trim()}: ${value.textContent.trim()}`;
+      metadata.append(paragraph);
+    }
+    list.replaceWith(metadata);
+  });
   // The document gets one title, with the source page's own wording.
   const single = ids?.length === 1;
   const firstTitle = single ? content.querySelector('.ayah-title,h2') : !ids ? content.querySelector('h1') : null;

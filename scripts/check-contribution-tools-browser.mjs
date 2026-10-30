@@ -1,0 +1,91 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {PDFDocument,PDFName,PDFDict,PDFArray,PDFHexString} from 'pdf-lib';
+import {chromium} from 'playwright';
+import {selectDocument} from '../assets/js/pdf-catalog.mjs';
+const base=process.env.CONTRIBUTIONS_TEST_ORIGIN || 'http://127.0.0.1:4051';
+const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{})});
+try {
+ const context=await browser.newContext({viewport:{width:390,height:844},acceptDownloads:true});
+ await context.addInitScript(()=>{window.print=()=>{};});
+ const page=await context.newPage();
+ const rows=await (await context.request.get(`${base}/assets/data/contributions-fa.json`)).json();
+ assert.ok(rows.length,'Install a Persian contribution before running this integration check');
+ const record=rows[0];
+ const requests=[];page.on('request',r=>requests.push(r.url()));
+ await page.goto(base+record.url,{waitUntil:'networkidle'});
+ assert.equal(await page.locator('.study-toolbar').count(),1);
+ for(const label of ['فهرست','جستجو','دریافت PDF','چاپ']) assert.equal(await page.getByRole('button',{name:label,exact:true}).count(),1);
+ assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ await page.screenshot({path:'/tmp/contribution-tools-mobile.png'});
+ await page.getByRole('button',{name:'فهرست',exact:true}).click();
+ assert.ok(await page.locator('#study-contents a').count()>0);
+ await page.locator('#study-contents a').first().click();
+ assert.equal(await page.locator('#study-contents').isVisible(),false);
+ await page.getByRole('button',{name:'جستجو',exact:true}).click();
+ await page.locator('.library-find input').fill('عدالت');
+ await page.locator('.library-find button').click();
+ assert.ok(await page.locator('.library-found').count()>0);
+ await page.getByRole('button',{name:'جستجو',exact:true}).click();
+ const popupEvent=context.waitForEvent('page');
+ await page.getByRole('button',{name:'چاپ',exact:true}).click();
+ await page.locator('[data-pdf-save]').click();
+ const popup=await popupEvent;
+ await popup.waitForSelector('.print-actions');
+ const printText=await popup.locator('body').textContent();
+ for(const text of [record.author,record.date,record.topic,'دیدگاه رسمی','به نام آن معبود یگانه؛ فرارحمن، با رحمت فراگیر؛ فرارحیم، با رحمت ویژه.']) assert.ok(printText.includes(text),text);
+ assert.equal(await popup.locator('.study-toolbar,.library-find').count(),0);
+ await popup.close();
+ await page.locator('[data-pdf-close]').click();
+ await page.getByRole('button',{name:'دریافت PDF',exact:true}).click();
+ const downloaded=page.waitForEvent('download',{timeout:180000});
+ await page.locator('[data-pdf-save]').click();
+ const download=await downloaded;
+ assert.equal(await download.failure(),null);
+ await download.saveAs('/tmp/contribution-tools-article.pdf');
+ const pdf=await PDFDocument.load(await readFile('/tmp/contribution-tools-article.pdf'));
+ assert.equal(pdf.getAuthor(),record.author);
+ assert.ok(pdf.getPageCount()>0);
+ const names=pdf.catalog.lookup(PDFName.of('Names'),PDFDict).lookup(PDFName.of('Dests'),PDFDict).lookup(PDFName.of('Names'),PDFArray);
+ for(let i=0;i<names.size();i+=2) assert.ok(names.lookup(i) instanceof PDFHexString,'Persian destinations must be encoded safely');
+ await page.locator('[data-pdf-close]').click();
+ const model=await page.evaluate(async(record)=>{
+   const {prepareDocument}=await import('/assets/js/export-document.mjs');
+   const doc=document.implementation.createHTMLDocument('');
+   prepareDocument({lang:'fa',title:record.title,sourceURL:location.href,html:document.documentElement.outerHTML},doc);
+   return doc.body.textContent;
+ },record);
+ assert.ok(model.includes(`${record.author}`));
+ assert.ok(!requests.some(url=>/pagefind|search-worker|search-catalog|vocabulary-|\/api\/pdf/.test(url)),'Contribution tools must not load central search or hosted PDF');
+ await page.setViewportSize({width:1280,height:900});
+ await page.goto(base+record.url,{waitUntil:'networkidle'});
+ await page.screenshot({path:'/tmp/contribution-tools-desktop.png'});
+ const reference=page.locator('[data-contribution-body] a[href*="/quran-reflection/"]').first();
+ if(await reference.count()){
+   await reference.click();
+   await page.waitForFunction(()=>document.querySelector('.study-reading-panel')?.open);
+   await page.locator('.study-panel-toolbar [data-panel-close]').click();
+ }
+ const catalog=(await (await context.request.get(`${base}/assets/data/pdf-catalog.json`)).json()).pages;
+ assert.equal(selectDocument({path:record.url},catalog).kind,'Contributions');
+ assert.throws(()=>selectDocument({path:'/fa/contributions/'},catalog));
+ assert.throws(()=>selectDocument({path:record.url,verse:'ayah-001'},catalog));
+ // Exercise the same export metadata and approved opening in English without publishing a counterpart.
+ const english=await page.evaluate(async()=>{
+   const {prepareDocument}=await import('/assets/js/export-document.mjs');
+   const doc=document.implementation.createHTMLDocument('');
+   prepareDocument({lang:'en',title:'Fixture',sourceURL:location.origin+'/en/contributions/fixture/',html:'<main id="main-content"><article data-contributed-study><h1>Fixture</h1><dl><div><dt>Author</dt><dd>Test Author</dd></div></dl><p class="contribution-notice">This contribution expresses the author’s views.</p><p>In the name of The God, the Entirely Merciful, the Especially Merciful.</p></article></main>'},doc);
+   return doc.body.textContent;
+ });
+ assert.ok(english.includes('Author: Test Author'));
+ assert.ok(english.includes('In the name of The God, the Entirely Merciful, the Especially Merciful.'));
+ // The English toolbar uses the same template marker; fixture stays in browser memory.
+ const sourceHTML=await (await context.request.get(base+record.url)).text();
+ const fixture='<article data-contributed-study><h1>English contribution fixture</h1><header><dl><div><dt>Author</dt><dd>Fixture Author</dd></div></dl></header><p class="contribution-notice">This contribution expresses the author’s views.</p><div data-contribution-body><p>In the name of The God, the Entirely Merciful, the Especially Merciful.</p>'+[1,2,3].map(n=>'<h2>Section '+n+'</h2>'+Array.from({length:4},()=>'<p>Contributed writing can be read and searched independently.</p>').join('')).join('')+'</div></article>';
+ await page.route('**/en/contributions/tool-check/',route=>route.fulfill({contentType:'text/html',body:sourceHTML.replace(/<html[^>]*>/,'<html lang="en" dir="ltr">').replace(/<article data-contributed-study[\s\S]*?<\/article>/,fixture)}));
+ await page.goto(base+'/en/contributions/tool-check/',{waitUntil:'networkidle'});
+ for(const label of ['Contents','Search','Download PDF','Print']) assert.equal(await page.locator('.study-toolbar').getByRole('button',{name:label,exact:true}).count(),1);
+ assert.equal(await page.locator('#main-content').getAttribute('data-pagefind-ignore'),'');
+ await context.close();
+ console.log('Passed contribution toolbar, contents, find, print metadata, actual PDF download, mobile/desktop, reading panel, export selection and central-search isolation.');
+} finally {await browser.close();}

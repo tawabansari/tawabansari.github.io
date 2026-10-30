@@ -3,12 +3,13 @@ import {readFileSync,existsSync} from 'node:fs';
 import {selectDocument} from '../services/pdf/render.mjs';
 import {pdfEndpoint} from '../assets/js/pdf-download.mjs';
 import {selectVerses,numberRanges} from '../assets/js/pdf-selection.mjs';
-const pages = JSON.parse(readFileSync('_site/assets/data/library.json','utf8')).pages;
-const collections=JSON.parse(readFileSync('_site/assets/data/collections.json','utf8'));
+const site = process.argv[2] || '_site';
+const pages = JSON.parse(readFileSync(`${site}/assets/data/library.json`,'utf8')).pages;
+const collections=JSON.parse(readFileSync(`${site}/assets/data/collections.json`,'utf8'));
 for(const study of collections.studies) assert.equal(selectDocument({path:study.url},pages).url,study.url,'Every preview download must select a published study');
 const configured = readFileSync('_config.yml','utf8').match(/^pdf_endpoint:\s*"([^"]*)"/m)?.[1];
 assert.notEqual(configured,undefined);
-assert.equal(existsSync('_site/services/pdf/server.mjs'),false,'Backend code must not be published with Jekyll');
+assert.equal(existsSync(`${site}/services/pdf/server.mjs`),false,'Backend code must not be published with Jekyll');
 for (const lang of ['en','fa']) {
   const study = `/${lang}/quran-terminology/naskh-in-the-quran/`;
   assert.equal(selectDocument({path:study},pages).lang,lang);
@@ -23,7 +24,7 @@ for (const lang of ['en','fa']) {
     Array.from({length:7},(_,i)=>`ayah-${280+i}`), 'The completed Baqarah ending is available for export');
   for (const input of [{scope:'range',from:12,to:3},{scope:'range',from:'3',to:12},{scope:'range',from:0,to:12},{scope:'range',from:1,to:287},{scope:'invalid'}]) assert.throws(() => selectDocument({path:chapter,...input},pages));
   for (const input of [{path:chapter},{path:chapter,verse:'ayah-999'},{path:chapter,verse:'ayah-106',reflection:'yes'},{path:study,verse:'ayah-106'}]) assert.throws(() => selectDocument(input,pages));
-  const html = readFileSync(`_site${study}index.html`,'utf8');
+  const html = readFileSync(`${site}${study}index.html`,'utf8');
   assert.ok(html.includes('/assets/js/pdf-download.mjs'));
   if (!configured) assert.ok(html.includes('name="forqan-pdf-endpoint" content=""'), 'Production feature must remain off before service deployment');
   else assert.ok(pdfEndpoint(configured,'https://forqan.co/'));
@@ -45,3 +46,14 @@ assert.equal(pdfEndpoint('javascript:alert(1)','https://forqan.co/'),null);
 assert.equal(pdfEndpoint('/api/pdf','http://127.0.0.1:4003/'),'http://127.0.0.1:4003/api/pdf');
 assert.equal(pdfEndpoint('https://pdf.forqan.co/api/pdf','https://forqan.co/'),'https://pdf.forqan.co/api/pdf');
 console.log('Passed PDF request restrictions, single/range/chapter selection, gaps and ordering, endpoint validation, and bilingual integration.');
+
+// Contribution export eligibility must not depend on the central library.
+for (const lang of ['fa','en']) {
+  const contribution = {url:`/${lang}/contributions/example/`,title:'Example',lang,kind:'Contributions'};
+  assert.equal(selectDocument({path:contribution.url},[contribution]).kind,'Contributions');
+  assert.throws(()=>selectDocument({path:contribution.url},[]),/Unpublished/);
+  assert.throws(()=>selectDocument({path:contribution.url,verse:'ayah-001'},[contribution]));
+  const directory={...contribution,url:`/${lang}/contributions/`};
+  assert.throws(()=>selectDocument({path:directory.url},[directory]));
+}
+console.log('Passed separate contribution export eligibility in both languages.');

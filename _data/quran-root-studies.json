@@ -7800,15 +7800,15 @@
   "h-w-sh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-w-sh/",
-      "title": "ریشهٔ ح و ش",
-      "summary": "در کاربرد لغوی: دورافتادگی و وحشی بودن؛ «حاشا» برای استثنا یا تنزیه است و اشتقاق آن محل بحث است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ح و ش",
+      "summary": "گرد آوردن، راندن و در میان گرفتن؛ «حاش لله» تعبیر تنزیه و انکار است و انتساب اشتقاقی آن به این ریشه اختلافی است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-w-sh/",
-      "title": "The Root Ḥ W SH",
-      "summary": "Lexically, remoteness or wildness; ḥāshā expresses exception or disavowal, with disputed derivation.",
-      "status": "preliminary"
+      "title": "Qur’anic root Ḥ W SH",
+      "summary": "Gathering, driving, and encompassing; ḥāsha li-llāh expresses disavowal and denial, and its derivation from this root is disputed.",
+      "status": "published"
     }
   },
   "h-w-t": {
@@ -7870,43 +7870,43 @@
   "h-y-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-y-d/",
-      "title": "ریشهٔ ح ي د",
-      "summary": "کنار رفتن، روی گرداندن و دوری جستن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ح ي د",
+      "summary": "کنار رفتن و تغییر مسیر؛ دوری جستن از رویارویی، و در سیاق مناسب، گریختن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-y-d/",
-      "title": "The Root Ḥ Y D",
-      "summary": "Turning aside, avoiding, or moving away.",
-      "status": "preliminary"
+      "title": "Qur’anic root Ḥ Y D",
+      "summary": "Moving aside and changing course; avoiding an encounter and, in an appropriate context, fleeing.",
+      "status": "published"
     }
   },
   "h-y-dad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-y-dad/",
-      "title": "ریشهٔ ح ي ض",
-      "summary": "خون‌ریزی قاعدگی؛ محیض: قاعدگی یا زمان و جای آن، بنا بر سیاق.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ح ي ض",
+      "summary": "حیض و جریان خون قاعدگی؛ «محیض» می‌تواند خود قاعدگی، زمان یا محل آن را بیان کند، بنا بر سیاق.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-y-dad/",
-      "title": "The Root Ḥ Y Ḍ",
-      "summary": "Menstruation; maḥīḍ can denote menstruation, its time, or its place.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Ḥ Y Ḍ",
+      "summary": "Menstruation and menstrual blood flow; maḥīḍ may denote menstruation itself, its time, or its place, according to context.",
+      "status": "published"
     }
   },
   "h-y-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-y-f/",
-      "title": "ریشهٔ ح ي ف",
-      "summary": "از عدالت منحرف شدن و ستم کردن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ح ي ف",
+      "summary": "میل و انحراف؛ در حقوق و داوری، کج شدن از حق و عدالت به زیان دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-y-f/",
-      "title": "The Root Ḥ Y F",
-      "summary": "Departing from fairness and acting unjustly.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Ḥ Y F",
+      "summary": "Inclination and deviation; in rights and judgment, departing from right and justice at another’s expense.",
+      "status": "published"
     }
   },
   "h-y-n": {
@@ -7940,43 +7940,43 @@
   "h-y-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-y-r/",
-      "title": "ریشهٔ ح ي ر",
-      "summary": "سرگشتگی و ندانستن راه یا تصمیم درست.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ح ي ر",
+      "summary": "تردد و سرگردانی؛ نرسیدن به راه، جهت یا تصمیم روشن؛ در کاربرد مادی، گردآمدن و ماندن آب.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-y-r/",
-      "title": "The Root Ḥ Y R",
-      "summary": "Bewilderment and uncertainty about the way or decision.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Ḥ Y R",
+      "summary": "Movement back and forth and bewilderment; failure to find a clear route, direction, or decision; in physical use, water gathering and remaining in place.",
+      "status": "published"
     }
   },
   "h-y-sad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-y-sad/",
-      "title": "ریشهٔ ح ي ص",
-      "summary": "کنار کشیدن و گریز؛ محیص: راه گریز.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ح ي ص",
+      "summary": "کنار رفتن و تغییر جهت برای دور شدن از چیزی؛ گریز و جست‌وجوی راه رهایی. محیص: گریز یا راه گریز.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-y-sad/",
-      "title": "The Root Ḥ Y Ṣ",
-      "summary": "Turning aside or escaping; maḥīṣ is an escape route.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Ḥ Y Ṣ",
+      "summary": "Turning aside and changing direction to move away from something; escaping and seeking a way out. Maḥīṣ: escape or a way of escape.",
+      "status": "published"
     }
   },
   "h-y-th": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-y-th/",
-      "title": "ریشهٔ ح ي ث",
-      "summary": "«حیث» نشان‌دهنده مکان است: جایی که؛ نسبت دادن ریشه تاریخی به آن قطعی نیست.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ح ي ث",
+      "summary": "مکان یا موقعیتی که جملهٔ همراه آن مشخص می‌کند؛ با «مِنْ»، مبدأ یا منشأ، و در کاربرد تعمیمی، هرجا که. «حيث» ظرفی عمدتاً جامد است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-y-th/",
-      "title": "The Root Ḥ Y TH",
-      "summary": "Ḥayth denotes place: where; its historical root attribution is uncertain.",
-      "status": "preliminary"
+      "title": "Qur’anic entry Ḥ Y TH",
+      "summary": "A place or position specified by the accompanying clause; with min, an origin or source, and in generalizing use, wherever. Ḥaythu is largely a non-derived adverbial noun.",
+      "status": "published"
     }
   },
   "h-y-y": {

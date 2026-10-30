@@ -38,7 +38,7 @@ export async function mergePDFs(blobs,model) {
   }
   if (destinations.length) {
     const pairs = PDFArray.withContext(document.context);
-    for (const [name,value] of destinations.sort(([a],[b])=>a<b?-1:1)) { pairs.push(PDFString.of(name)); pairs.push(value); }
+    for (const [name,value] of destinations.sort(([a],[b])=>a<b?-1:1)) { pairs.push(PDFHexString.fromText(name)); pairs.push(value); }
     document.catalog.set(PDFName.of('Names'),document.context.obj({Dests:{Names:pairs}}));
   }
   const font = await document.embedFont(StandardFonts.Helvetica);
@@ -47,6 +47,6 @@ export async function mergePDFs(blobs,model) {
     const text = `${i+1} / ${pages.length}`;
     page.drawText(text,{x:(page.getWidth()-font.widthOfTextAtSize(text,9))/2,y:23,size:9,font,color:rgb(.4,.4,.4)});
   });
-  document.setTitle(model.title); document.setAuthor('Forqan Archive'); document.setLanguage(model.lang);
+  document.setTitle(model.title); document.setAuthor(model.author || 'Forqan Archive'); document.setLanguage(model.lang);
   return new Blob([await document.save()],{type:'application/pdf'});
 }

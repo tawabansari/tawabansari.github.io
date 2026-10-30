@@ -1,15 +1,24 @@
-import {prepareDocument} from './export-document.mjs?v=reflection-focus-2';
+import {prepareDocument} from './export-document.mjs?v=contribution-tools-1';
 import {selectVerses} from './pdf-selection.mjs';
 
 export async function printVerses(request, {lang, title, anchors}) {
   const selected = selectVerses(request, anchors);
   if (selected.scope === 'range' && selected.missing.length && !request.allowPartial) throw Error('Confirm unpublished verses');
+  return printDocument({...selected, includeCrossReferences:true, lang, title});
+}
+
+export function printStudy({lang, title}) {
+  return printDocument({lang, title});
+}
+
+async function printDocument(selection) {
+  const {lang} = selection;
   // Open synchronously from the user's click so embedded readers can open a print tab.
   const popup = window.open('', '_blank');
   if (!popup) throw Error('Print window blocked');
   const target = popup.document;
   try {
-    prepareDocument({...selected, includeCrossReferences:true, lang, title,
+    prepareDocument({...selection,
       sourceURL:location.href, html:document.documentElement.outerHTML}, target);
     const style = target.createElement('link'); style.rel = 'stylesheet';
     style.href = new URL('../css/verse-print.css', import.meta.url).href;

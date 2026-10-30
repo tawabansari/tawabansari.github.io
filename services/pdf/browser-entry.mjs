@@ -31,6 +31,6 @@ export async function localPDF(input,{signal} = {}) {
     signal?.throwIfAborted();
     parts.push(await run({model:chunk,origin:location.origin}));
   }
-  const blob = await run({model:{title:model.title,lang:model.lang},blobs:parts});
+  const blob = await run({model:{title:model.title,lang:model.lang,author:model.author},blobs:parts});
   return {blob,filename:pdfFilename(selection)};
 }
