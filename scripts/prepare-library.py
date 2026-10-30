@@ -7,6 +7,8 @@ import sys
 from pathlib import Path
 from html.parser import HTMLParser
 from library_content import extract
+from contribution_scope import is_contribution
+from prepare_contributions import prepare as prepare_contributions
 from library_enrichment import stable_anchors, unavailable_references
 from verse_references import verse_references
 from library_collections import prepare as prepare_collections
@@ -41,6 +43,10 @@ def main():
         if 'pagefind' in path.parts: continue
         source = path.read_text(); rel = path.relative_to(site).as_posix()
         url = '/' + (rel[:-10] if rel.endswith('index.html') else rel)
+        if is_contribution(url):
+            # Keep all submitted content out of central catalogues and enrichment.
+            path.write_text(source.replace(' data-pagefind-body', ' data-pagefind-ignore'))
+            continue
         if not re.search(r'<main\b[^>]*\bid="main-content"',source): continue
         redirect = re.search(r'<meta[^>]+http-equiv=["\x27]refresh["\x27][^>]+content=["\x27][^"\x27]*url=([^"\x27]+)', source, re.I)
         if redirect:
@@ -55,6 +61,7 @@ def main():
         pages[url] = dict(url=url,title=title,lang=parsed.lang,kind=kind)
         if kind == 'Quran': pages[url]['anchors'] = parsed.ids
         sources[url] = (path,source)
+    prepare_contributions(site)
     pairs_path = Path(__file__).resolve().parent.parent/'_data/translation-pairs.json'
     explicit = {}
     for en,fa in json.loads(pairs_path.read_text()):

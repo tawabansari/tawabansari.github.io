@@ -6,6 +6,8 @@ import {passageLocations,writeCatalog} from './search-catalog.mjs';
 const site=path.resolve(process.argv[2]||'_site');
 const input=path.join(site,'assets/data/search-records.json');
 const records=JSON.parse(await fs.readFile(input,'utf8'));
+// Fail closed if a future extraction change leaks independent submissions.
+if(records.some(r=>/^\/(?:fa|en)\/contributions(?:\/|$)/.test(r.url)))throw Error('Submitted writings must never enter central search.');
 const studies=new Map(JSON.parse(await fs.readFile(path.join(site,'assets/data/collections.json'),'utf8')).studies.map(r=>[r.url,r]));
 const vocabulary={en:new Map(),fa:new Map()};
 const {index,errors}=await pagefind.createIndex();

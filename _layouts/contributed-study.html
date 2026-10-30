@@ -1,0 +1,21 @@
+---
+layout: default
+collection_directory: true
+---
+{% assign fa = false %}{% if page.lang == 'fa' %}{% assign fa = true %}{% endif %}
+<link rel="stylesheet" href="/assets/css/contributions.css">
+<article data-study-toc="false" data-study-find="false" class="contributions-page" lang="{{ page.lang }}" dir="{% if fa %}rtl{% else %}ltr{% endif %}">
+  <nav><a href="/{{ page.lang }}/contributions/">{% if fa %}مقاله‌ها و پژوهش‌های ارسالی{% else %}Contributed Articles &amp; Research{% endif %}</a></nav>
+  <header class="contribution-heading"><div><h1>{{ page.title | escape }}</h1>
+    <dl>
+      <div><dt>{% if fa %}نویسنده{% else %}Author{% endif %}</dt><dd>{{ page.author | escape }}</dd></div>
+      <div><dt>{% if fa %}موضوع{% else %}Subject{% endif %}</dt><dd>{{ page.topic | escape }}</dd></div>
+      <div><dt>{% if fa %}زبان{% else %}Language{% endif %}</dt><dd>{% if fa %}فارسی{% else %}English{% endif %}</dd></div>
+      <div><dt>{% if fa %}تاریخ انتشار{% else %}Published{% endif %}</dt><dd><time datetime="{{ page.publication_date | date: '%Y-%m-%d' }}">{{ page.publication_date | date: '%Y-%m-%d' }}</time></dd></div>
+    </dl>
+  </div></header>
+  <div data-contribution-body>{{ content }}</div>
+</article>
+<script id="contribution-metadata" type="application/json">
+{"title":{{ page.title | jsonify | replace: '</', '<\/' }},"author":{{ page.author | jsonify | replace: '</', '<\/' }},"topic":{{ page.topic | jsonify | replace: '</', '<\/' }},"date":{{ page.publication_date | date: '%Y-%m-%d' | jsonify }}}
+</script>

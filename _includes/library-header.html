@@ -1,7 +1,9 @@
 {% assign section_lang = ui_lang | default: 'en' %}
 {% assign english_url = '/en/' %}
 {% assign farsi_url = '/fa/' %}
-{% if page.translation %}
+{% if page.url contains "/contributions/" %}
+  {% assign english_url = "/en/contributions/" %}{% assign farsi_url = "/fa/contributions/" %}
+{% elsif page.translation %}
   {% if section_lang == 'fa' %}{% assign english_url = page.translation %}{% assign farsi_url = page.url %}{% else %}{% assign english_url = page.url %}{% assign farsi_url = page.translation %}{% endif %}
 {% elsif page.url contains '/fa/' %}
   {% assign english_url = page.url | replace_first: '/fa/', '/en/' %}{% assign farsi_url = page.url %}

@@ -7115,14 +7115,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-m-m/",
       "title": "ریشهٔ ح م م",
-      "summary": "گرمای شدید؛ حمیم: آب بسیار داغ یا دوست نزدیک، بر حسب سیاق؛ یحموم: دود سیاه.",
-      "status": "preliminary"
+      "summary": "در شاخهٔ حرارت، آب گرم و بسیار داغ؛ در شاخهٔ نزدیکی، دوست یا خویشاوند صمیمی؛ و در شاخهٔ تیرگی، زغال و دود بسیار سیاه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-m-m/",
-      "title": "The Root Ḥ M M",
-      "summary": "Intense heat; ḥamīm means very hot water or a close friend, according to context; yaḥmūm is black smoke.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ M M",
+      "summary": "In the heat branch, warm or intensely hot water; in the closeness branch, an intimate friend or relative; in the darkness branch, charcoal and dense black smoke.",
+      "status": "published"
     }
   },
   "h-m-r": {
@@ -7143,28 +7143,28 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-m-y/",
       "title": "ریشهٔ ح م ي",
-      "summary": "گرما و برافروختگی؛ نیز پاسداری و جلوگیری از تعرض؛ حمیّت: تعصب و غیرت.",
-      "status": "preliminary"
+      "summary": "گرما و داغ شدن؛ حفاظت و بازداشتن آسیب یا دسترسی؛ حمیه: غیرت، برانگیختگی و تعصب.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-m-y/",
-      "title": "The Root Ḥ M Y",
-      "summary": "Heat and burning; also protection against encroachment; ḥamiyyah denotes zealous pride or partisanship.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root H M Y",
+      "summary": "Heat and becoming hot; protection and preventing harm or access; ḥamiyyah: protective zeal, arousal, and partisanship.",
+      "status": "published"
     }
   },
   "h-n-dh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-n-dh/",
       "title": "ریشهٔ ح ن ذ",
-      "summary": "بریان کردن و پختن با گرما؛ حنیذ: بریان‌شده.",
-      "status": "preliminary"
+      "summary": "بریان و پخته کردن با حرارت، به‌ویژه با سنگ‌های داغ؛ در کاربردهای دیگر، اثر گرمای شدید و عرق انداختن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-n-dh/",
-      "title": "The Root Ḥ N DH",
-      "summary": "Roasting or cooking by heat; ḥanīdh means roasted.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root H N DH",
+      "summary": "Roasting and cooking through heat, especially with heated stones; in other usages, the effects of intense heat and inducing sweat.",
+      "status": "published"
     }
   },
   "h-n-f": {
@@ -7199,42 +7199,42 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-n-k/",
       "title": "ریشهٔ ح ن ك",
-      "summary": "کام دهان و مهار کردن؛ احتناک: به فرمان گرفتن و مسلط شدن.",
-      "status": "preliminary"
+      "summary": "کام و بخش دهان؛ مهار کردن و یکسره گرفتن یا از میان بردن؛ در کاربردی دیگر، پختگی بر اثر تجربه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-n-k/",
-      "title": "The Root Ḥ N K",
-      "summary": "The palate and bridling; iḥtināk means bringing under control or overpowering.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root H N K",
+      "summary": "The palate and mouth; restraining and taking or eliminating completely; in another usage, maturity through experience.",
+      "status": "published"
     }
   },
   "h-n-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-n-n/",
       "title": "ریشهٔ ح ن ن",
-      "summary": "مهر، دلسوزی و اشتیاق؛ حنان: مهربانی و شفقت.",
-      "status": "preliminary"
+      "summary": "اشتیاق و کشش عاطفی؛ مهر، دلسوزی و نرمی؛ در کاربردهای صوتی، حنین و صداهای شبیه آن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-n-n/",
-      "title": "The Root Ḥ N N",
-      "summary": "Tenderness, compassion, and yearning; ḥanān denotes affectionate mercy.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root H N N",
+      "summary": "Longing and emotional attraction; affection, compassion, and tenderness; in audible usages, a yearning cry and similar sounds.",
+      "status": "published"
     }
   },
   "h-n-th": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-n-th/",
       "title": "ریشهٔ ح ن ث",
-      "summary": "گناه و تخلف؛ به‌ویژه شکستن سوگند.",
-      "status": "preliminary"
+      "summary": "گناه و تخلف؛ در کاربرد سوگند، وفا نکردن به آن و شکستن سوگند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-n-th/",
-      "title": "The Root Ḥ N TH",
-      "summary": "Sin or transgression, especially breaking an oath.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root H N TH",
+      "summary": "Sin and transgression; in the use concerning oaths, failing to fulfill or breaking an oath.",
+      "status": "published"
     }
   },
   "h-q-b": {

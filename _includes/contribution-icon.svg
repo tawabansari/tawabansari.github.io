@@ -1,0 +1,10 @@
+<svg class="collection-art" viewBox="0 0 160 112" aria-hidden="true" focusable="false" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="m43 18 27-9 53 4-27 11-53-6c-8 0-9 15-1 18l54 6 28-11M96 24c-5 4-5 13 0 18M42 19c-3 5-3 11 0 16"/>
+<path d="m40 39-8 4 60 8 36-13M32 43c-8 1-9 15-1 18l61 9 37-14M92 51c-5 5-5 13 0 19M37 45c-3 4-3 10 0 15"/>
+<path d="M65 105c-4-13-14-18-25-22C25 78 16 67 8 53c-2-4 1-6 5-5 8 1 15 9 22 17M95 105c4-13 14-18 25-22 15-5 24-16 32-30 2-4-1-6-5-5-8 1-15 9-22 17"/>
+<path d="M75 92c-1-10-7-18-18-19-9-1-16-4-23-6-8-3-12 2-5 7l14 7M85 92c1-10 7-18 18-19 9-1 16-4 23-6 8-3 12 2 5 7l-14 7M20 54c6-5 16 7 21 14M140 54c-6-5-16 7-21 14"/>
+</g>
+<g stroke="var(--collection-art-accent,#b18a4e)" stroke-width="1.8" stroke-linecap="round"><path d="m101 29 19-7m-19 13 19-7m-23 28 26-9m-26 15 26-9"/></g>
+<path d="m51 20 9 1v16l-4-3-5 2Z" fill="var(--collection-art-accent,#b18a4e)"/>
+</svg>

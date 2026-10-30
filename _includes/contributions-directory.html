@@ -1,0 +1,23 @@
+{% assign fa = false %}{% if page.lang == 'fa' %}{% assign fa = true %}{% endif %}
+<link rel="stylesheet" href="/assets/css/contributions.css">
+<section class="contributions-page" data-contributions lang="{{ page.lang }}" dir="{% if fa %}rtl{% else %}ltr{% endif %}" data-pagefind-ignore>
+  <nav aria-label="{% if fa %}مسیر صفحه{% else %}Page pathway{% endif %}"><a href="/{{ page.lang }}/articles/">{% if fa %}کتاب‌ها و مقاله‌ها{% else %}Books &amp; Articles{% endif %}</a></nav>
+  <header class="contribution-heading">
+    {% include contribution-icon.svg %}
+    <div><h1>{{ page.title }}</h1><p>{% if fa %}مقاله‌ها و پژوهش‌های فرستاده‌شده از سوی نویسندگان مستقل، به زبان اصلی نوشته.{% else %}Articles and research submitted by independent authors, in their original language.{% endif %}</p></div>
+  </header>
+  <form class="contribution-tools" role="search" aria-label="{% if fa %}جستجو در نوشته‌های ارسالی{% else %}Search contributed writings{% endif %}">
+    <label for="contribution-query">{% if fa %}جستجو در همین بخش{% else %}Search this section{% endif %}</label>
+    <div class="contribution-search-row">
+      <input id="contribution-query" name="query" type="search" autocomplete="off" placeholder="{% if fa %}عنوان، نویسنده، موضوع یا متن…{% else %}Title, author, subject, or text…{% endif %}">
+      <button type="submit">{% if fa %}جستجو{% else %}Search{% endif %}</button>
+    </div>
+    <div class="contribution-sort"><label for="contribution-sort">{% if fa %}ترتیب{% else %}Sort by{% endif %}</label>
+      <select id="contribution-sort" name="sort"><option value="newest">{% if fa %}تازه‌ترین انتشار{% else %}Newest publication{% endif %}</option><option value="oldest">{% if fa %}قدیمی‌ترین انتشار{% else %}Oldest publication{% endif %}</option><option value="title">{% if fa %}عنوان — الفبایی{% else %}Title — alphabetical{% endif %}</option><option value="author">{% if fa %}نویسنده — الفبایی{% else %}Author — alphabetical{% endif %}</option></select>
+    </div>
+  </form>
+  <p role="status" aria-live="polite"></p>
+  <p id="contribution-empty">{% if fa %}هنوز نوشته‌ای به زبان فارسی در این بخش منتشر نشده است.{% else %}No English submissions have been published yet.{% endif %}</p>
+  <ol class="contribution-list"><!-- CONTRIBUTION_ROWS --></ol>
+</section>
+<script type="module" src="/assets/js/contributions.mjs"></script>
