@@ -6807,14 +6807,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-dad-dad/",
       "title": "ریشهٔ ح ض ض",
-      "summary": "برانگیختن و تشویق کردن؛ تحاضّ: یکدیگر را به کاری ترغیب کردن.",
-      "status": "preliminary"
+      "summary": "هستهٔ معنایی شاخهٔ قرآنی ریشه، برانگیختن و تشویق دیگری به انجام کاری است. در صورت «تحاضّ»، این برانگیختن به رابطهٔ متقابل میان افراد گسترش می‌یابد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-dad-dad/",
-      "title": "The Root Ḥ Ḍ Ḍ",
-      "summary": "Urging and encouraging; taḥāḍḍ means encouraging one another.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ Ḍ Ḍ",
+      "summary": "The Qur’anic branch’s semantic core is urging and encouraging another to do something. In taḥāḍḍ, this extends to mutual encouragement between people.",
+      "status": "published"
     }
   },
   "h-dad-r": {
@@ -6849,42 +6849,42 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-f-d/",
       "title": "ریشهٔ ح ف د",
-      "summary": "شتاب در خدمت و یاری؛ حفده: یاران خدمت‌گزار یا فرزندان و نوادگان، بنا بر تفسیر واژه.",
-      "status": "preliminary"
+      "summary": "شتاب و چابکی در انجام کار، و در روابط انسانی، خدمت و یاری‌رسانی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-f-d/",
-      "title": "The Root Ḥ F D",
-      "summary": "Prompt service and assistance; ḥafadah denotes helpers or descendants, with differing lexical explanations.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ F D",
+      "summary": "Speed and agility in performing work and, in human relationships, service and assistance.",
+      "status": "published"
     }
   },
   "h-f-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-f-f/",
       "title": "ریشهٔ ح ف ف",
-      "summary": "گرداگرد چیزی قرار گرفتن و از اطراف آن را فراگرفتن.",
-      "status": "preliminary"
+      "summary": "در کاربرد قرآنی، قرار گرفتن یا قرار دادن چیزی در پیرامون چیز دیگر.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-f-f/",
-      "title": "The Root Ḥ F F",
-      "summary": "Surrounding something and standing around its sides.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ F F",
+      "summary": "In Qur’anic usage, being situated or placing something around another thing.",
+      "status": "published"
     }
   },
   "h-f-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-f-r/",
       "title": "ریشهٔ ح ف ر",
-      "summary": "کندن و گود کردن؛ حافره در کاربرد قرآنی با بازگشت به حالت پیشین توضیح داده شده است.",
-      "status": "preliminary"
+      "summary": "کندن و برداشتن ماده برای پدید آوردن فضای فرورفته؛ در شاخهٔ دیگر، آغاز یک وضعیت و بازگشت به آن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-f-r/",
-      "title": "The Root Ḥ F R",
-      "summary": "Digging and hollowing; Qurʾanic ḥāfirah is explained in relation to returning to a former state.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ F R",
+      "summary": "Digging and removing material to create a hollow space; in another branch, the beginning of a condition and returning to it.",
+      "status": "published"
     }
   },
   "h-f-w": {
@@ -7689,14 +7689,14 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-tt-b/",
       "title": "ریشهٔ ح ط ب",
-      "summary": "هیزم و مواد سوختنی، و گردآوردن آن‌ها.",
-      "status": "preliminary"
+      "summary": "هستهٔ معنایی ریشه، هیزم و فراهم کردن مادهٔ چوبی برای افروختن آتش است. از همین کاربرد ملموس، تصویر اشخاص در جایگاه هیزم و نیز تشبیه رفتارهای فتنه‌انگیز به فراهم کردن سوخت برای آتش دشمنی شکل گرفته است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-tt-b/",
-      "title": "The Root Ḥ Ṭ B",
-      "summary": "Firewood or fuel, and gathering it.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ Ṭ B",
+      "summary": "The root’s semantic core is firewood and providing woody material to kindle a fire. From this tangible usage arise the image of persons as firewood and the comparison of inflammatory conduct to providing fuel for hostility’s fire.",
+      "status": "published"
     }
   },
   "h-tt-m": {
@@ -8025,28 +8025,28 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/h-zha-r/",
       "title": "ریشهٔ ح ظ ر",
-      "summary": "منع و محدود کردن، و حصار کشیدن.",
-      "status": "preliminary"
+      "summary": "ریشهٔ «ح ظ ر» در زبان عربی بر منع، بازداشتن و ایجاد مانع دسترسی دلالت دارد. این معنا هم در محدودیت‌های غیرمادی دیده می‌شود و هم در ساخت حصارهای واقعی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-zha-r/",
-      "title": "The Root Ḥ Ẓ R",
-      "summary": "Preventing, restricting, and enclosing with a barrier.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ Ẓ R",
+      "summary": "The Arabic root ح ظ ر denotes prevention, restraint, and creating a barrier to access. This meaning appears both in nonmaterial restrictions and in constructing actual enclosures.",
+      "status": "published"
     }
   },
   "h-zha-zha": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h-zha-zha/",
       "title": "ریشهٔ ح ظ ظ",
-      "summary": "بهره، سهم و نصیب.",
-      "status": "preliminary"
+      "summary": "سهم یا بهره‌ای که از چیزی به شخص می‌رسد یا برای او در نظر گرفته می‌شود. این بهره ممکن است مادی، حقوقی، معنوی یا اخروی باشد و می‌تواند از نظر مقدار و ارزش متفاوت باشد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h-zha-zha/",
-      "title": "The Root Ḥ Ẓ Ẓ",
-      "summary": "A share, portion, or allotment.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ḥ Ẓ Ẓ",
+      "summary": "A share or portion that reaches someone or is assigned to them. It may be material, legal, spiritual, or related to the Hereafter, and may vary in amount and value.",
+      "status": "published"
     }
   },
   "h2-a-a": {
