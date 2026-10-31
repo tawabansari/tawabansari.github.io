@@ -3264,15 +3264,15 @@
   "b-s-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/b-s-m/",
-      "title": "ریشهٔ ب س م",
-      "summary": "لبخند زدن و آشکار شدن شادی در چهره، بدون لزوم خندهٔ بلند.",
-      "status": "preliminary"
+      "title": "ریشهٔ ب س م (بَسَمَ)",
+      "summary": "لبخند زدن؛ پدیدار شدن حالت خندان در چهره با گشوده شدن ملایم لب‌ها.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/b-s-m/",
-      "title": "The Root B S M",
-      "summary": "Smiling or showing pleasure in the face, without necessarily laughing aloud.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root B S M (بَسَمَ)",
+      "summary": "Smiling; a smiling expression appearing on the face with the lips opening gently.",
+      "status": "published"
     }
   },
   "b-s-q": {
@@ -3698,15 +3698,15 @@
   "d-b-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-b-r/",
-      "title": "ریشهٔ د ب ر",
-      "summary": "پشت و بخش پایانی؛ روی گرداندن؛ تدبیر و تدبّر: توجه به پیامد و سامان دادن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ب ر (دَبَرَ)",
+      "summary": "پشت و بخش پسین؛ پشت کردن و سپری شدن؛ تدبیر، سامان دادن امور؛ تدبر، اندیشیدن سنجیده در سخن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-b-r/",
-      "title": "The Root D B R",
-      "summary": "The back or end; turning away; planning or reflecting with attention to outcomes.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root D B R (دَبَرَ)",
+      "summary": "The back and latter part; turning away and passing; tadbīr, governing affairs; tadabbur, careful reflection on discourse.",
+      "status": "published"
     }
   },
   "d-f-a": {
@@ -3754,43 +3754,43 @@
   "d-h-dad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-h-dad/",
-      "title": "ریشهٔ د ح ض",
-      "summary": "لغزیدن؛ مجازاً از اعتبار انداختن یا باطل شدن حجت.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ح ض (دَحَضَ)",
+      "summary": "لغزش و از دست رفتن استواری؛ مغلوب شدن و باطل شدن یا از اعتبار انداختن حجت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-h-dad/",
-      "title": "The Root D Ḥ Ḍ",
-      "summary": "Slipping; figuratively, defeating or invalidating an argument.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root D Ḥ Ḍ (دَحَضَ)",
+      "summary": "Slipping and loss of firmness; defeat and an argument becoming invalid or being discredited.",
+      "status": "published"
     }
   },
   "d-h-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-h-r/",
-      "title": "ریشهٔ د ح ر",
-      "summary": "راندن، دور کردن و طرد کردن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ح ر (دَحَرَ)",
+      "summary": "راندن، پس زدن و دور ساختن از یک جایگاه، محدوده یا دسترسی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-h-r/",
-      "title": "The Root D Ḥ R",
-      "summary": "Driving away, banishing, or expelling.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root D Ḥ R (دَحَرَ)",
+      "summary": "Driving away, repelling, and removing from a place, domain, or access.",
+      "status": "published"
     }
   },
   "d-h-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-h-w/",
-      "title": "ریشهٔ د ح و",
-      "summary": "گستردن و هموار کردن زمین یا کنار زدن چیزی از سطح آن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ح و (دَحَا)",
+      "summary": "گستراندن، پهن و هموار ساختن؛ در برخی کاربردها، راندن و کنار زدن چیزی بر سطح.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-h-w/",
-      "title": "The Root D Ḥ W",
-      "summary": "Spreading or leveling the ground, or sweeping something from its surface.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root D Ḥ W (دَحَا)",
+      "summary": "Spreading, extending, and leveling; in some uses, driving or moving something aside across a surface.",
+      "status": "published"
     }
   },
   "d-h2-m": {
@@ -3908,15 +3908,15 @@
   "d-kh-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-kh-r/",
-      "title": "ریشهٔ د خ ر",
-      "summary": "خوار و فروتن شدن یا به خواری گردن نهادن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د خ ر (دَخَرَ)",
+      "summary": "فرودستی، خضوع و خواری؛ کیفیت و ارزش این حالت از سیاق شناخته می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-kh-r/",
-      "title": "The Root D KH R",
-      "summary": "Becoming humbled or submitting in abasement.",
-      "status": "preliminary"
+      "title": "The Root D KH R (دَخَرَ)",
+      "summary": "Lowliness, submission, and abasement; context determines the quality and value of this condition.",
+      "status": "published"
     }
   },
   "d-l-k": {
@@ -4202,15 +4202,15 @@
   "d-th-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-th-r/",
-      "title": "ریشهٔ د ث ر",
-      "summary": "پوشش بیرونی و خود را در آن پیچیدن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ث ر (دَثَرَ)",
+      "summary": "پوشش و دربرگرفتن با جامه؛ انباشتگی و فراوانی؛ کهنه و محو شدن آثار.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-th-r/",
-      "title": "The Root D TH R",
-      "summary": "An outer covering and wrapping oneself in it.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root D TH R (دَثَرَ)",
+      "summary": "Covering and wrapping in clothing; accumulation and abundance; aging and fading traces.",
+      "status": "published"
     }
   },
   "d-w-l": {
