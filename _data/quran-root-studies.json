@@ -842,15 +842,15 @@
   "a-w-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-w-b/",
-      "title": "ریشهٔ أ و ب",
-      "summary": "بازگشت و بازآمدن؛ أوّاب: بسیار بازگشت‌کننده و روی‌آورنده.",
-      "status": "preliminary"
+      "title": "ریشهٔ أ و ب (آبَ)",
+      "summary": "بازگشت و بازآوردن؛ «أوّاب»، بسیار بازگشت‌کننده و روی‌آورنده؛ «مآب»، بازگشت یا بازگشتگاه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-w-b/",
-      "title": "The Root A W B",
-      "summary": "Returning or coming back; awwāb: one who repeatedly returns or turns back.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root A W B (Āba)",
+      "summary": "Returning and bringing back; awwāb: one who repeatedly returns or turns toward; maʾāb: return or a place of return.",
+      "status": "published"
     }
   },
   "a-w-d": {
@@ -940,15 +940,15 @@
   "a-y-k": {
     "fa": {
       "url": "/quran-terminology/fa/roots/a-y-k/",
-      "title": "ریشهٔ أ ي ك",
-      "summary": "درختان به‌هم‌پیچیده و بیشه؛ ایکه می‌تواند نام ناحیه نیز باشد.",
-      "status": "preliminary"
+      "title": "ریشهٔ أ ي ك (أَيْكَة)",
+      "summary": "اجتماع و درهم‌تنیدگی درختان؛ «أیکة»، بیشه و پوشش درختی انبوه؛ در قرآن بخشی از عنوانِ اصحاب ایکه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/a-y-k/",
-      "title": "The Root A Y K",
-      "summary": "Dense, intertwined trees or a thicket; Aykah can also name a region.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root A Y K (Aykah)",
+      "summary": "Trees growing together and intertwining; aykah: a thicket or dense tree growth; in the Qur’an, part of the title “people of Aykah.”",
+      "status": "published"
     }
   },
   "a-y-m": {
@@ -10684,15 +10684,15 @@
   "kh-f-dad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/kh-f-dad/",
-      "title": "ریشهٔ خ ف ض",
-      "summary": "پایین آوردن و کاستن؛ در رفتار، نرم‌خویی و فروتنی.",
-      "status": "preliminary"
+      "title": "ریشهٔ خ ف ض (خَفَضَ)",
+      "summary": "پایین آوردن و فرود آوردن؛ در ترکیب «خفض جناح»، فروتنی و نرم کردن رفتار.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/kh-f-dad/",
-      "title": "The Root KH F Ḍ",
-      "summary": "Lowering or reducing; in conduct, gentleness and humility.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root KH F Ḍ (Khafaḍa)",
+      "summary": "Lowering and bringing down; in “lowering the wing,” humility and gentleness in conduct.",
+      "status": "published"
     }
   },
   "kh-f-f": {
