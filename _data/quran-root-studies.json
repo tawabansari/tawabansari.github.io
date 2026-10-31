@@ -3656,15 +3656,15 @@
   "d-ayn-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-ayn-ayn/",
-      "title": "ریشهٔ د ع ع",
-      "summary": "راندن و پس زدن با خشونت.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ع ع (دَعَّ)",
+      "summary": "راندن و پس زدن با فشار، خشونت و جفا.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-ayn-ayn/",
-      "title": "The Root D AYN AYN (D ʿ ʿ)",
-      "summary": "Pushing away or thrusting violently.",
-      "status": "preliminary"
+      "title": "Root D ʿ ʿ (daʿʿa)",
+      "summary": "Driving and repelling with pressure, violence, and rough treatment.",
+      "status": "published"
     }
   },
   "d-ayn-w": {
@@ -3712,29 +3712,29 @@
   "d-f-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-f-a/",
-      "title": "ریشهٔ د ف أ",
-      "summary": "گرمی و آنچه از سرما حفظ می‌کند.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ف أ (دِفْء)",
+      "summary": "گرمی در برابر سرما؛ گرم شدن و گرم نگه داشتن، و پوشاک یا وسایلِ فراهم‌کننده و نگه‌دارندهٔ گرما.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-f-a/",
-      "title": "The Root D F A",
-      "summary": "Warmth and what protects against cold.",
-      "status": "preliminary"
+      "title": "Root D F ʾ (difʾ)",
+      "summary": "Warmth in contrast with cold; becoming and remaining warm, and clothing or items providing and preserving warmth.",
+      "status": "published"
     }
   },
   "d-f-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-f-ayn/",
-      "title": "ریشهٔ د ف ع",
-      "summary": "دور راندن، دفاع کردن یا چیزی را به دیگری سپردن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ف ع (دَفَعَ)",
+      "summary": "کنار زدن و دور ساختن یا پیش راندن؛ با «عن»، دفاع و دفع آسیب، و با «إلى»، سپردن و تحویل دادن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-f-ayn/",
-      "title": "The Root D F AYN (D F ʿ)",
-      "summary": "Repelling, defending, or handing something over.",
-      "status": "preliminary"
+      "title": "Root D F ʿ (dafaʿa)",
+      "summary": "Moving aside, removing, or propelling; with ʿan, defending and averting harm; with ilā, handing over and delivering.",
+      "status": "published"
     }
   },
   "d-f-q": {
@@ -3796,15 +3796,15 @@
   "d-h2-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-h2-m/",
-      "title": "ریشهٔ د ه م",
-      "summary": "تیرگی و سیاهی؛ درباره گیاه، سبزی بسیار تیره و انبوه.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ه م (دَهَمَ)",
+      "summary": "سیاهی و تیرگی، فراگرفتن و هجوم؛ در وصف باغ، سبزیِ بسیار تیره و نزدیک به سیاهی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-h2-m/",
-      "title": "The Root D H M",
-      "summary": "Darkness; of vegetation, very deep, dense green.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root D H M (dahama)",
+      "summary": "Blackness and darkness, overwhelming and assault; of a garden, very dark green approaching black.",
+      "status": "published"
     }
   },
   "d-h2-n": {
@@ -3824,29 +3824,29 @@
   "d-h2-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-h2-q/",
-      "title": "ریشهٔ د ه ق",
-      "summary": "پر کردن؛ دهاق: لبریز و پُر.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ه ق (دَهَقَ)",
+      "summary": "پر کردن و انباشتن، فشردگی و فشار؛ در وصف جام، پر و لبالب بودن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-h2-q/",
-      "title": "The Root D H Q",
-      "summary": "Filling; dihāq means full or brimming.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root D H Q (dahaqa)",
+      "summary": "Filling and crowding, compression and pressure; of a cup, being full to the brim.",
+      "status": "published"
     }
   },
   "d-h2-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-h2-r/",
-      "title": "ریشهٔ د ه ر",
-      "summary": "روزگار و امتداد زمان، به‌ویژه مدتی طولانی.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ه ر (دَهْر)",
+      "summary": "روزگار و امتداد زمان؛ گاه مدتی طولانی، و در کاربردهای مرتبط، گذر و غلبهٔ حوادث.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-h2-r/",
-      "title": "The Root D H R",
-      "summary": "Time or an extended span, especially a long period.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root D H R (dahr)",
+      "summary": "Time and its extended passage, sometimes a long period; in related uses, events befalling and overpowering people.",
+      "status": "published"
     }
   },
   "d-h2-y": {
@@ -3866,15 +3866,15 @@
   "d-k-k": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-k-k/",
-      "title": "ریشهٔ د ك ك",
-      "summary": "کوبیدن، خرد کردن و با زمین هموار ساختن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ک ک (دَكّ)",
+      "summary": "فروکوبیدن و فروپاشاندنِ چیزی، یا فروکاستن برجستگی و هموار شدن آن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-k-k/",
-      "title": "The Root D K K",
-      "summary": "Crushing, demolishing, and leveling with the ground.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root D K K (dakk)",
+      "summary": "Pounding down and demolishing something, or lowering its elevation and leveling it.",
+      "status": "published"
     }
   },
   "d-kh-l": {
@@ -3894,15 +3894,15 @@
   "d-kh-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-kh-n/",
-      "title": "ریشهٔ د خ ن",
-      "summary": "دود و برآمدن دود.",
-      "status": "preliminary"
+      "title": "ریشهٔ د خ ن (دَخَنَ)",
+      "summary": "دود و برخاستن آن؛ در کاربردهای دیگر، تیرگی، اثر دود و کدورت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-kh-n/",
-      "title": "The Root D KH N",
-      "summary": "Smoke and the rising of smoke.",
-      "status": "preliminary"
+      "title": "The Root D KH N (دَخَنَ)",
+      "summary": "Smoke and its rising; in other uses, darkness, the effects of smoke, and murkiness.",
+      "status": "published"
     }
   },
   "d-kh-r": {
@@ -3922,15 +3922,15 @@
   "d-l-k": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-l-k/",
-      "title": "ریشهٔ د ل ك",
-      "summary": "مالیدن؛ دلوک خورشید: میل و زوال آن، با اختلاف در تعیین هنگام.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ل ك (دَلَكَ)",
+      "summary": "مالیدن و ساییدن؛ دُلُوک خورشید: میل و زوال آن، با کاربردهای ثبت‌شده از زوال نیمروز تا غروب و اختلاف در تعیین هنگام.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-l-k/",
-      "title": "The Root D L K",
-      "summary": "Rubbing; the sun's dulūk is its declining, with differing explanations of the precise time.",
-      "status": "preliminary"
+      "title": "Root D L K (dalaka)",
+      "summary": "Rubbing and friction; solar dulūk is inclination and decline, with recorded uses from midday decline to sunset and disagreement over the precise time.",
+      "status": "published"
     }
   },
   "d-l-l": {
@@ -3950,29 +3950,29 @@
   "d-l-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-l-w/",
-      "title": "ریشهٔ د ل و",
-      "summary": "دلو و فرو فرستادن یا بالا کشیدن آن؛ تدلّی: آویختن و نزدیک شدن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ل و (دَلْو)",
+      "summary": "دلو و فروفرستادن یا بالا کشیدن آن؛ در کاربردهای گسترش‌یافته، رساندن و عرضه کردن، آویختن و نزدیک شدن یا فرود آمدن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-l-w/",
-      "title": "The Root D L W",
-      "summary": "A bucket and lowering or drawing it; tadallī means hanging down or drawing near.",
-      "status": "preliminary"
+      "title": "Root D L W (dalw)",
+      "summary": "The bucket and its lowering or raising; in extended uses, delivering and presenting, hanging down, approaching, or descending.",
+      "status": "published"
     }
   },
   "d-m-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-m-ayn/",
-      "title": "ریشهٔ د م ع",
-      "summary": "اشک و اشک ریختن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د م ع (دَمَعَ)",
+      "summary": "اشک چشم و جاری شدن آن؛ در کاربردهای گسترش‌یافته، تراوش مایع و سرریز شدن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-m-ayn/",
-      "title": "The Root D M AYN (D M ʿ)",
-      "summary": "Tears and shedding tears.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root D M ʿ (damaʿa)",
+      "summary": "Tears and their flow; in extended uses, liquid seeping and overflowing.",
+      "status": "published"
     }
   },
   "d-m-d-m": {
@@ -3992,29 +3992,29 @@
   "d-m-gh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-m-gh/",
-      "title": "ریشهٔ د م غ",
-      "summary": "ضربه به سر و مغز؛ مجازاً درهم شکستن و باطل ساختن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د م غ (دَمَغَ)",
+      "summary": "ضربهٔ شدید به سر تا رسیدن به مغز؛ در کاربرد مجازی، درهم‌کوبیدن و غلبهٔ قاطع.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-m-gh/",
-      "title": "The Root D M GH",
-      "summary": "Striking the head or brain; figuratively, crushing or refuting.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root D M GH (damagha)",
+      "summary": "A severe blow to the head reaching the brain; figuratively, crushing and decisively overcoming.",
+      "status": "published"
     }
   },
   "d-m-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-m-r/",
-      "title": "ریشهٔ د م ر",
-      "summary": "ویران و نابود کردن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د م ر (دَمَرَ)",
+      "summary": "هلاکت و نابودی شدید؛ تدمیر: نابود کردن یا ویران ساختن. در شاخهٔ دیگری از عربی، دَمَرَ به وارد شدن یا هجوم بردن گفته می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-m-r/",
-      "title": "The Root D M R",
-      "summary": "Destroying and laying waste.",
-      "status": "preliminary"
+      "title": "Root D M R (damara)",
+      "summary": "Severe destruction and ruin; tadmīr: destroying or laying waste. Another Arabic branch uses damara for entering or bursting in.",
+      "status": "published"
     }
   },
   "d-m-w": {
@@ -4034,15 +4034,15 @@
   "d-n-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-n-r/",
-      "title": "ریشهٔ د ن ر",
-      "summary": "دینار: سکه یا واحد پول؛ واژه‌ای وام‌گرفته با تحلیل اشتقاقی غیرقطعی.",
-      "status": "preliminary"
+      "title": "د ن ر — دینار در قرآن",
+      "summary": "دینار؛ نام وام‌گرفتهٔ سکهٔ زرین یا واحد پولی تاریخی، در نمایهٔ لغوی «د ن ر».",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-n-r/",
-      "title": "The Root D N R",
-      "summary": "Dīnār is a coin or monetary unit, a borrowed word with uncertain Arabic derivation.",
-      "status": "preliminary"
+      "title": "D N R — Dinar in the Qur’an",
+      "summary": "Dinar: a borrowed name for a gold coin or historical monetary unit, indexed lexically under D N R.",
+      "status": "published"
     }
   },
   "d-n-w": {
@@ -4090,113 +4090,113 @@
   "d-r-j": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-r-j/",
-      "title": "ریشهٔ د ر ج",
-      "summary": "پله و مرتبه؛ درجه‌درجه پیش بردن یا کشاندن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ر ج (دَرَجَ)",
+      "summary": "حرکت و گذر مرحله‌به‌مرحله؛ پله و مرتبه؛ استدراج: پیش بردن تدریجی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-r-j/",
-      "title": "The Root D R J",
-      "summary": "A step or rank; advancing or drawing along by degrees.",
-      "status": "preliminary"
+      "title": "The Root D R J (دَرَجَ)",
+      "summary": "Stepwise movement and passage; steps and rank; istidrāj: progressively leading onward.",
+      "status": "published"
     }
   },
   "d-r-k": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-r-k/",
-      "title": "ریشهٔ د ر ك",
-      "summary": "رسیدن و دریافتن؛ درک: ژرفا یا مرتبه پایین؛ تدارک: به هم رسیدن یا جبران کردن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ر ك (أَدْرَكَ)",
+      "summary": "رسیدن و دست یافتن؛ دریافت حسی یا شناختی، پیوستن و تدارک؛ و در «دَرْك»، مرتبهٔ پایین.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-r-k/",
-      "title": "The Root D R K",
-      "summary": "Reaching or grasping; dark denotes a depth or lower level; tadāruk denotes overtaking or making up.",
-      "status": "preliminary"
+      "title": "Qur’anic root D R K (adraka)",
+      "summary": "Reaching and attaining; sensory or cognitive apprehension, joining and timely intervention; dark also denotes a lower level.",
+      "status": "published"
     }
   },
   "d-r-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-r-r/",
-      "title": "ریشهٔ د ر ر",
-      "summary": "جاری شدن فراوان؛ مدرار: پرباران؛ دُرّی: درخشان مانند مروارید.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ر ر (دَرَّ)",
+      "summary": "فراوانیِ جریان و ریزش؛ دُرّ: مروارید، و دُرّیّ: درخشان و مرواریدگون.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-r-r/",
-      "title": "The Root D R R",
-      "summary": "Flowing abundantly; midrār means rain-laden, and durrī means pearl-like or radiant.",
-      "status": "preliminary"
+      "title": "The Root D R R (دَرَّ)",
+      "summary": "Abundant flow and outpouring; durr: pearl, and durriyy: brilliant and pearl-like.",
+      "status": "published"
     }
   },
   "d-r-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-r-s/",
-      "title": "ریشهٔ د ر س",
-      "summary": "درس خواندن و بازخوانی؛ نیز فرسوده و محو شدن اثر.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ر س (دَرَسَ)",
+      "summary": "مطالعه و بازخوانیِ متن؛ در شاخه‌ای دیگر، فرسودگی و کم‌رنگ شدن آثار.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-r-s/",
-      "title": "The Root D R S",
-      "summary": "Studying or repeatedly reading; also wearing away or effacing a trace.",
-      "status": "preliminary"
+      "title": "Qur’anic root D R S (darasa)",
+      "summary": "Studying and rereading a text; in another branch, wearing away and fading traces.",
+      "status": "published"
     }
   },
   "d-r-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-r-y/",
-      "title": "ریشهٔ د ر ي",
-      "summary": "دانستن و آگاه شدن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ر ي (دَرَى)",
+      "summary": "دانستن و آگاه بودن از موضوعی؛ در باب افعال، آگاه ساختن دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-r-y/",
-      "title": "The Root D R Y",
-      "summary": "Knowing and becoming aware.",
-      "status": "preliminary"
+      "title": "Qur’anic root D R Y (darā)",
+      "summary": "Knowing or being aware of a matter; in Form IV, informing another.",
+      "status": "published"
     }
   },
   "d-s-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-s-r/",
-      "title": "ریشهٔ د س ر",
-      "summary": "راندن و محکم پیوستن؛ دُسُر: میخ‌ها یا بست‌های کشتی.",
-      "status": "preliminary"
+      "title": "ریشهٔ د س ر (دَسَرَ)",
+      "summary": "راندن و پیش بردن با نیرو؛ دُسُر: میخ‌ها یا بست‌های اتصال‌دهندهٔ کشتی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-s-r/",
-      "title": "The Root D S R",
-      "summary": "Driving or fastening firmly; dusur are a ship's nails or fastenings.",
-      "status": "preliminary"
+      "title": "Qur’anic root D S R (dasara)",
+      "summary": "Driving or propelling with force; dusur are a ship’s nails or connecting fastenings.",
+      "status": "published"
     }
   },
   "d-s-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-s-s/",
-      "title": "ریشهٔ د س س",
-      "summary": "پنهان کردن و در چیزی فرو بردن.",
-      "status": "preliminary"
+      "title": "ریشهٔ د س س (دَسَّ)",
+      "summary": "فروبردن و داخل کردن چیزی زیر یا میان پوششی، به‌گونه‌ای که پنهان بماند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-s-s/",
-      "title": "The Root D S S",
-      "summary": "Concealing or burying something within another thing.",
-      "status": "preliminary"
+      "title": "Qur’anic root D S S (dassa)",
+      "summary": "Inserting something beneath or among a covering so that it remains concealed.",
+      "status": "published"
     }
   },
   "d-s-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-s-w/",
-      "title": "ریشهٔ د س و",
-      "summary": "پوشاندن و فرو بردن؛ در وصف نفس، آلوده و تباه ساختن؛ با «دسس» پیوند اشتقاقی دارد.",
-      "status": "preliminary"
+      "title": "ریشهٔ د س و (دَسَا)",
+      "summary": "پنهان شدن و فروپوشاندن؛ در وصف نفس، به پستی و تباهی کشاندن در برابر پاکی و بالندگی، با پیوند اشتقاقیِ مورد بحث با «د س س».",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-s-w/",
-      "title": "The Root D S W",
-      "summary": "Concealing or burying; of the self, corrupting it; derivationally related to d-s-s.",
-      "status": "preliminary"
+      "title": "Root D S W (dasā)",
+      "summary": "Becoming hidden and obscuring; of the soul, debasing and corrupting in opposition to purity and flourishing, with a debated derivational connection to D S S.",
+      "status": "published"
     }
   },
   "d-th-r": {
