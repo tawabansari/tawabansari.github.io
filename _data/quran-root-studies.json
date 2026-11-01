@@ -3810,15 +3810,15 @@
   "d-h2-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-h2-n/",
-      "title": "ریشهٔ د ه ن",
-      "summary": "روغن و روغن‌مالی؛ ادهان: نرمش سازشکارانه یا سهل‌انگاری، بنا بر سیاق.",
-      "status": "preliminary"
+      "title": "ریشهٔ د ه ن (دَهْن)",
+      "summary": "روغن و روغن‌مالی؛ نرمی و مماشات در رفتار، با معنایی وابسته به سیاق.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-h2-n/",
-      "title": "The Root D H N",
-      "summary": "Oil and anointing; idhān denotes compromising accommodation or heedlessness, according to context.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root D H N (dahn)",
+      "summary": "Oil and anointing; softness and accommodating conduct, with the sense determined by context.",
+      "status": "published"
     }
   },
   "d-h2-q": {
@@ -18608,15 +18608,15 @@
   "sad-b-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sad-b-b/",
-      "title": "ریشهٔ ص ب ب",
-      "summary": "ریختن و سرازیر کردن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ص ب ب (صَبَّ)",
+      "summary": "ریختن و سرازیر کردن؛ در کاربرد تصویری، فرود آوردن یا وارد کردن چیزی بر دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/sad-b-b/",
-      "title": "The Root Ṣ B B",
-      "summary": "Pouring or letting flow down.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ṣ B B (ṣabba)",
+      "summary": "Pouring and letting flow down; figuratively, causing something to descend upon or befall another.",
+      "status": "published"
     }
   },
   "sad-b-gh": {
@@ -18636,15 +18636,15 @@
   "sad-b-h": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sad-b-h/",
-      "title": "ریشهٔ ص ب ح",
-      "summary": "صبح و آغاز روشنایی روز؛ مصباح: چراغ.",
-      "status": "preliminary"
+      "title": "ریشهٔ ص ب ح (صُبْح)",
+      "summary": "صبح و آغاز روشنایی روز؛ «أصبح»: به صبح رسیدن یا شدن؛ «مِصباح»: چراغ.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/sad-b-h/",
-      "title": "The Root Ṣ B Ḥ",
-      "summary": "Morning or daybreak; miṣbāḥ is a lamp.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ṣ B Ḥ (ṣubḥ)",
+      "summary": "Morning and the beginning of daylight; aṣbaḥa: entering morning or becoming; miṣbāḥ: a lamp.",
+      "status": "published"
     }
   },
   "sad-b-r": {
@@ -18664,15 +18664,15 @@
   "sad-b-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sad-b-w/",
-      "title": "ریشهٔ ص ب و",
-      "summary": "کودکی؛ نیز میل و اشتیاق پیدا کردن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ص ب و (صَبَا)",
+      "summary": "کودکی و خردسالی؛ میل و کشش؛ «صَبا»: باد شرقی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/sad-b-w/",
-      "title": "The Root Ṣ B W",
-      "summary": "Childhood; also inclination or longing.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ṣ B W (Ṣabā)",
+      "summary": "Childhood and young age; inclination and attraction; ṣabā: the east wind.",
+      "status": "published"
     }
   },
   "sad-d-ayn": {
@@ -18692,15 +18692,15 @@
   "sad-d-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sad-d-d/",
-      "title": "ریشهٔ ص د د",
-      "summary": "روی گرداندن و بازداشتن دیگری.",
-      "status": "preliminary"
+      "title": "ریشهٔ ص د د (صَدَّ)",
+      "summary": "روی‌گرداندن؛ بازداشتن و منصرف کردن دیگری؛ نیز هیاهو و ترشحات زخم در شاخه‌های جدا.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/sad-d-d/",
-      "title": "The Root Ṣ D D",
-      "summary": "Turning away or preventing another.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ṣ D D (Ṣadda)",
+      "summary": "Turning away; hindering or diverting another; also clamor and wound discharge in distinct branches.",
+      "status": "published"
     }
   },
   "sad-d-f": {
@@ -18944,29 +18944,29 @@
   "sad-kh-kh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sad-kh-kh/",
-      "title": "ریشهٔ ص خ خ",
-      "summary": "بانگ گوش‌خراش و بسیار شدید.",
-      "status": "preliminary"
+      "title": "ریشهٔ ص خ خ (صَخَّ)",
+      "summary": "صدای کوبندهٔ برخورد و اثر شدید آن بر گوش؛ نیز ضربه و حادثهٔ سهمگین.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/sad-kh-kh/",
-      "title": "The Root Ṣ KH KH",
-      "summary": "A deafening, overwhelming cry.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ṣ KH KH (Ṣakhkha)",
+      "summary": "Pounding impact sound and its powerful effect on the ear; also a blow or tremendous calamity.",
+      "status": "published"
     }
   },
   "sad-kh-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sad-kh-r/",
-      "title": "ریشهٔ ص خ ر",
-      "summary": "سنگ سخت و صخره.",
-      "status": "preliminary"
+      "title": "ریشهٔ ص خ ر (صَخْر)",
+      "summary": "سنگ سخت و صخره؛ تودهٔ سنگیِ بزرگ یا یکپارچه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/sad-kh-r/",
-      "title": "The Root Ṣ KH R",
-      "summary": "Hard rock or a boulder.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Ṣ KH R (Ṣakhr)",
+      "summary": "Hard stone and rock; a large or coherent rock mass.",
+      "status": "published"
     }
   },
   "sad-l-b": {

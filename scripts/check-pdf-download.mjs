@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import {selectDocument} from '../services/pdf/render.mjs';
 import {pdfEndpoint} from '../assets/js/pdf-download.mjs';
+import {printSourceURL} from '../assets/js/verse-print.mjs';
 import {selectVerses,numberRanges} from '../assets/js/pdf-selection.mjs';
 const site = process.argv[2] || '_site';
 const pages = JSON.parse(readFileSync(`${site}/assets/data/library.json`,'utf8')).pages;
@@ -11,6 +12,13 @@ const configured = readFileSync('_config.yml','utf8').match(/^pdf_endpoint:\s*"(
 assert.notEqual(configured,undefined);
 assert.equal(existsSync(`${site}/services/pdf/server.mjs`),false,'Backend code must not be published with Jekyll');
 for (const lang of ['en','fa']) {
+  const opened = `https://forqan.co/quran-reflection/${lang}/002-al-baqarah/?verse=189&in=reflection#ayah-189`;
+  const base = `https://forqan.co/quran-reflection/${lang}/002-al-baqarah/`;
+  assert.equal(printSourceURL({scope:'verse',ids:['ayah-195']},opened),base+'#ayah-195');
+  assert.equal(printSourceURL({scope:'range',ids:['ayah-195','ayah-196']},opened),base+'#ayah-195');
+  assert.equal(printSourceURL({scope:'chapter',ids:['ayah-001','ayah-195']},opened),base);
+  assert.equal(printSourceURL({},opened),opened,'Study printing preserves its source');
+
   const study = `/${lang}/quran-terminology/naskh-in-the-quran/`;
   assert.equal(selectDocument({path:study},pages).lang,lang);
   const chapter = `/quran-reflection/${lang}/002-al-baqarah/`;

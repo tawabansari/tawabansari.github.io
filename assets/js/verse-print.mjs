@@ -1,6 +1,17 @@
 import {prepareDocument} from './export-document.mjs?v=contribution-tools-1';
 import {selectVerses} from './pdf-selection.mjs';
 
+export function printSourceURL(selection, pageURL) {
+  const url = new URL(pageURL);
+  if (selection.ids?.length) {
+    url.hash = selection.scope === 'chapter' ? '' : selection.ids[0];
+    // Embedded readers may retain an earlier verse in their query string.
+    url.searchParams.delete('verse');
+    url.searchParams.delete('in');
+  }
+  return url.href;
+}
+
 export async function printVerses(request, {lang, title, anchors}) {
   const selected = selectVerses(request, anchors);
   if (selected.scope === 'range' && selected.missing.length && !request.allowPartial) throw Error('Confirm unpublished verses');
@@ -19,7 +30,9 @@ async function printDocument(selection) {
   const target = popup.document;
   try {
     prepareDocument({...selection,
-      sourceURL:location.href, html:document.documentElement.outerHTML}, target);
+      sourceURL:printSourceURL(selection, selection.ids?.length
+        ? (document.querySelector('link[rel="canonical"]')?.href || location.href)
+        : location.href), html:document.documentElement.outerHTML}, target);
     const style = target.createElement('link'); style.rel = 'stylesheet';
     style.href = new URL('../css/verse-print.css', import.meta.url).href;
     const styled = new Promise((resolve, reject) => {style.onload=resolve; style.onerror=reject;});

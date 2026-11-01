@@ -1,6 +1,6 @@
 import {selectVerses, numberRanges} from './pdf-selection.mjs';
 import {createPDFClient} from './pdf-request.mjs';
-import {printVerses, printStudy} from './verse-print.mjs?v=contribution-tools-1';
+import {printVerses, printStudy} from './verse-print.mjs?v=selected-source-2';
 import {pdfEndpoint} from './pdf-settings.mjs';
 
 export {pdfEndpoint} from './pdf-settings.mjs';
