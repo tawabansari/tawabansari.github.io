@@ -16088,43 +16088,43 @@
   "r-f-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-f-d/",
-      "title": "ریشهٔ ر ف د",
-      "summary": "یاری، بخشش و آنچه به کسی داده می‌شود.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ف د (رِفْد، رَفْد)",
+      "summary": "یاری و پشتیبانی، با عطا یا وسیله‌ای دیگر؛ فراهم کردن چیزی برای تقویت یا بهره‌مندی دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-f-d/",
-      "title": "The Root R F D",
-      "summary": "Support, a gift, or something bestowed.",
-      "status": "preliminary"
+      "title": "The root R F D (rifd, rafd)",
+      "summary": "Assistance and support through giving or other means; supplying something to strengthen or benefit another.",
+      "status": "published"
     }
   },
   "r-f-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-f-q/",
-      "title": "ریشهٔ ر ف ق",
-      "summary": "نرمی و همراهی؛ رفیق: همراه؛ مرفق: آرنج یا مایه آسایش.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ر ف ق (رِفْق)",
+      "summary": "نرمی و مدارا؛ همراهی؛ تکیه و فراهم بودن امکان آسایش و بهره‌مندی؛ در شاخهٔ جسمانی، آرنج.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-f-q/",
-      "title": "The Root R F Q",
-      "summary": "Gentleness and companionship; rafīq is a companion; mirfaq denotes an elbow or a means of comfort.",
-      "status": "preliminary"
+      "title": "The Qur’anic root R F Q (rifq)",
+      "summary": "Gentleness and consideration; companionship; support and provision for comfort and benefit; bodily uses include the elbow.",
+      "status": "published"
     }
   },
   "r-f-r-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-f-r-f/",
-      "title": "ریشهٔ ر ف ر ف",
-      "summary": "گستردگی و حرکت نرم؛ رفرف در سیاق نعمت: گستردنی یا تکیه‌گاه آراسته.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ف ر ف (رَفْرَف)",
+      "summary": "گستردگی و آویختگیِ پوشش‌ها و حرکت بال‌گونه؛ در کاربرد اسمی، پوشش، گستردنی یا تکیه‌گاه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-f-r-f/",
-      "title": "The Root R F R F",
-      "summary": "Spreading or gentle fluttering; rafraf in descriptions of blessing denotes decorated spreads or cushions.",
-      "status": "preliminary"
+      "title": "The root R F R F (rafraf)",
+      "summary": "Spread and hanging coverings and winglike movement; nominally, a covering, spread, or reclining support.",
+      "status": "published"
     }
   },
   "r-f-t": {
@@ -16690,15 +16690,15 @@
   "r-q-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-q-d/",
-      "title": "ریشهٔ ر ق د",
-      "summary": "خوابیدن و آرام گرفتن؛ مرقد: خوابگاه یا آرامگاه.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ر ق د (رُقاد)",
+      "summary": "خوابیدن و در حالت خواب بودن؛ مرقد: جای خواب و آرمیدن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-q-d/",
-      "title": "The Root R Q D",
-      "summary": "Sleeping or resting; marqad is a sleeping or resting place.",
-      "status": "preliminary"
+      "title": "Qur’anic Root R Q D (Ruqād)",
+      "summary": "Sleeping and being asleep; marqad: a sleeping or resting place.",
+      "status": "published"
     }
   },
   "r-q-m": {
@@ -21072,15 +21072,15 @@
   "tt-l-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/tt-l-q/",
-      "title": "ریشهٔ ط ل ق",
-      "summary": "رها ساختن و به راه افتادن؛ طلاق: گسستن پیوند زناشویی.",
-      "status": "preliminary"
+      "title": "ریشه ط ل ق؛ رها ساختن، گشایش و پایان دادن به پیوند زناشویی",
+      "summary": "رها ساختن و گشودن قید؛ به راه افتادن و روان شدن؛ در ازدواج، طلاق و پایان دادن به پیوند زناشویی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/tt-l-q/",
-      "title": "The Root Ṭ L Q",
-      "summary": "Releasing or setting out; ṭalāq is dissolution of a marriage.",
-      "status": "preliminary"
+      "title": "Root Ṭ L Q: Release, Openness, and Ending a Marital Bond",
+      "summary": "Releasing from restraint; setting out and flowing freely; in marriage, divorce and ending the marital bond.",
+      "status": "published"
     }
   },
   "tt-m-a-n": {
