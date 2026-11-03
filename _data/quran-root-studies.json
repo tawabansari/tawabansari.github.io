@@ -4762,15 +4762,15 @@
   "dh-k-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dh-k-w/",
-      "title": "ریشهٔ ذ ك و",
-      "summary": "افروختگی و شدت؛ تذکیه در سیاق خوراک: کشتن جانور به شیوه شناخته‌شده ذبح.",
-      "status": "preliminary"
+      "title": "ریشهٔ ذ ك و (ذَكَا)",
+      "summary": "افروختگی، شدت و تیزیِ فهم یا بو؛ رسیدن به پختگی توان. در کاربرد قرآنی، تذکیه به ذبح کردن حیوان اشاره دارد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dh-k-w/",
-      "title": "The Root DH K W",
-      "summary": "Blazing or intensity; tadhkiyah in food contexts refers to slaughtering an animal.",
-      "status": "preliminary"
+      "title": "Root DH K W (dhakā)",
+      "summary": "Blazing, intensity, sharp understanding or strong scent, and mature strength. In the Qur’anic occurrence, tadhkiyah denotes slaughtering an animal.",
+      "status": "published"
     }
   },
   "dh-kh-r": {
@@ -4832,15 +4832,15 @@
   "dh-q-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dh-q-n/",
-      "title": "ریشهٔ ذ ق ن",
-      "summary": "چانه و بخش زیرین صورت.",
-      "status": "preliminary"
+      "title": "ریشهٔ ذ ق ن (ذَقَن)",
+      "summary": "چانه؛ بخش پایینی و پیشین صورت در محل پیوستن دو سوی فک پایین. «أذقان» جمع آن است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dh-q-n/",
-      "title": "The Root DH Q N",
-      "summary": "The chin or lower part of the face.",
-      "status": "preliminary"
+      "title": "The root DH Q N (dhaqan)",
+      "summary": "The chin, the lower front of the face where the two sides of the lower jaw meet; adhqān is its plural.",
+      "status": "published"
     }
   },
   "dh-r-a": {
