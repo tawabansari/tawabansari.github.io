@@ -16032,15 +16032,15 @@
   "r-dad-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-dad-ayn/",
-      "title": "ریشهٔ ر ض ع",
-      "summary": "شیر خوردن و شیر دادن به کودک.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ض ع (رَضَاعَة)",
+      "summary": "مکیدن شیر از پستان؛ ارضاع: شیر دادن؛ رضاع و رضاعه: شیرخوارگی و شیردهی؛ استرضاع: درخواست یا فراهم کردن شیردهی از دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-dad-ayn/",
-      "title": "The Root R Ḍ AYN (R Ḍ ʿ)",
-      "summary": "Suckling and nursing a child.",
-      "status": "preliminary"
+      "title": "Root R Ḍ ʿ (raḍāʿah)",
+      "summary": "Sucking milk from the breast; irḍāʿ: breastfeeding; riḍāʿ and raḍāʿah: suckling and nursing; istirḍāʿ: requesting or arranging nursing by another.",
+      "status": "published"
     }
   },
   "r-dad-w": {
@@ -16788,57 +16788,57 @@
   "r-s-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-s-w/",
-      "title": "ریشهٔ ر س و",
-      "summary": "ثابت و استوار شدن؛ لنگر انداختن و قرار گرفتن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر س و (رُسُوّ)",
+      "summary": "استقرار یافتن، ثابت شدن و پابرجا ماندن؛ استوار ساختن. در قرآن: کوه‌های استوار، دیگ‌های ثابت، توقف کشتی و هنگام وقوع ساعت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-s-w/",
-      "title": "The Root R S W",
-      "summary": "Becoming firmly settled; anchoring or coming to rest.",
-      "status": "preliminary"
+      "title": "Root R S W (rusūw)",
+      "summary": "Settling, becoming fixed, and remaining firm; establishing firmly. Qur’anic uses concern firm mountains, fixed pots, a ship coming to rest, and the time of the Hour.",
+      "status": "published"
     }
   },
   "r-sad-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-sad-d/",
-      "title": "ریشهٔ ر ص د",
-      "summary": "مراقبت و کمین برای انتظار و مشاهده.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ص د (رَصْد)",
+      "summary": "مراقبت و انتظار همراه با آمادگی؛ کمین و نگهبانی؛ ارصاد: آماده ساختن یا آماده نگه داشتن چیزی برای شخص یا هدفی معین.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-sad-d/",
-      "title": "The Root R Ṣ D",
-      "summary": "Watching or lying in wait.",
-      "status": "preliminary"
+      "title": "Root R Ṣ D (raṣd)",
+      "summary": "Watching and waiting with readiness; ambush and guarding; irṣād: preparing or keeping something ready for a person or purpose.",
+      "status": "published"
     }
   },
   "r-sad-sad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-sad-sad/",
-      "title": "ریشهٔ ر ص ص",
-      "summary": "فشرده و استوار به هم پیوستن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ص ص (رَصّ)",
+      "summary": "نزدیک کردن و فشردن اجزا و محکم پیوستن آن‌ها؛ مرصوص: فشرده و استوار به‌هم‌پیوسته.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-sad-sad/",
-      "title": "The Root R Ṣ Ṣ",
-      "summary": "Joining tightly and solidly together.",
-      "status": "preliminary"
+      "title": "Root R Ṣ Ṣ (raṣṣ)",
+      "summary": "Bringing parts close together, pressing them together, and joining them firmly; marṣūṣ: closely and solidly joined.",
+      "status": "published"
     }
   },
   "r-sh-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-sh-d/",
-      "title": "ریشهٔ ر ش د",
-      "summary": "راه‌یافتگی و تشخیص درست در برابر گمراهی.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ش د (رُشْد، رَشَد)",
+      "summary": "راه‌یابی درست، تشخیص سنجیده و جهت‌گیری شایسته در کارها؛ بسته به سیاق، هدایت دینی، توان ادارهٔ مال یا درستی تصمیم؛ ارشاد: راهنمایی دیگری به راه درست.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-sh-d/",
-      "title": "The Root R SH D",
-      "summary": "Sound direction and judgment, as opposed to error.",
-      "status": "preliminary"
+      "title": "Root R SH D (rushd, rashad)",
+      "summary": "Finding the right course, sound judgment, and proper direction in affairs; according to context, religious guidance, competence to manage property, or sound decisions; irshād guides another to the right way.",
+      "status": "published"
     }
   },
   "r-t-ayn": {
