@@ -15836,15 +15836,15 @@
   "r-ayn-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-ayn-b/",
-      "title": "ریشهٔ ر ع ب",
-      "summary": "ترس شدید و هراس.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ع ب (رُعْب)",
+      "summary": "هراس شدید و فراگیر؛ در کاربردهای دیگر عربی، پر کردن و بریدن نیز ثبت شده است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-ayn-b/",
-      "title": "The Root R AYN B (R ʿ B)",
-      "summary": "Intense fear or terror.",
-      "status": "preliminary"
+      "title": "The root R ʿ B (ruʿb)",
+      "summary": "Intense, pervasive dread; other Arabic branches also concern filling and cutting.",
+      "status": "published"
     }
   },
   "r-ayn-d": {
@@ -16144,14 +16144,14 @@
   "r-f-th": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-f-th/",
-      "title": "ریشهٔ قرآنی ر ف ث",
-      "summary": "گفتار جنسیِ آشکار یا زننده؛ و در کاربرد گسترده‌تر یا کنایی، نزدیکی جنسی و رفتارهای وابسته به آن.",
+      "title": "ریشهٔ ر ف ث (رَفَث)",
+      "summary": "گفتار صریح یا ناپسند دربارهٔ امور جنسی؛ آمیزش و رفتارهای وابسته به آن، با معنای مشخص در سیاق هر آیه.",
       "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-f-th/",
-      "title": "Qur’anic Root R F TH",
-      "summary": "Explicit or indecent sexual speech; in broader or indirect usage, sexual intercourse and associated conduct.",
+      "title": "The Root R F TH (Rafath)",
+      "summary": "Explicit or indecent sexual speech; intercourse and associated conduct, with the particular meaning determined by each verse’s context.",
       "status": "published"
     }
   },
@@ -16186,15 +16186,15 @@
   "r-gh-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-gh-m/",
-      "title": "ریشهٔ ر غ م",
-      "summary": "خاک و به خاک افتادن؛ مراغم: جای دوری جستن از فشار و مخالفت.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر غ م (رَغْم، مُرَاغَمَة)",
+      "summary": "خاک و خواری؛ انجام شدن چیزی برخلاف خواست؛ مُراغَم: راه یا جایگاهی برای رهایی از فشار و مهاجرت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-gh-m/",
-      "title": "The Root R GH M",
-      "summary": "Dust and abasement; murāgham is a place of escape from opposition or constraint.",
-      "status": "preliminary"
+      "title": "The root R Gh M (raghm, murāghamah)",
+      "summary": "Earth and abasement; something occurring against one’s wishes; murāgham: an escape route or place for departure from constraint.",
+      "status": "published"
     }
   },
   "r-h-b": {
@@ -16886,15 +16886,15 @@
   "r-tt-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-tt-b/",
-      "title": "ریشهٔ ر ط ب",
-      "summary": "تر و تازه بودن؛ رُطَب: خرمای تازه و رسیده.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ط ب (رُطُوبَة)",
+      "summary": "تری و نمناکی در برابر خشکی؛ در بعضی کاربردها نرمی و تازگی؛ رُطَب: خرمای تازه و رسیده پیش از خشک شدن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-tt-b/",
-      "title": "The Root R Ṭ B",
-      "summary": "Moistness and freshness; ruṭab are fresh, ripe dates.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root R Ṭ B (ruṭūbah)",
+      "summary": "Moisture and dampness as opposed to dryness; in some uses softness and freshness; ruṭab: fresh, ripe dates before drying.",
+      "status": "published"
     }
   },
   "r-w-ayn": {
