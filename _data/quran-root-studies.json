@@ -12784,15 +12784,15 @@
   "m-r-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/m-r-r/",
-      "title": "ریشهٔ م ر ر",
-      "summary": "گذشتن و تکرار؛ نیز تلخی و استواری، در صورت‌های متفاوت.",
-      "status": "preliminary"
+      "title": "ریشه م ر ر؛ گذشتن، تکرار، تلخی و استواری",
+      "summary": "گذشتن و سپری شدن؛ یک بار یا یک نوبت؛ در شاخه‌های دیگر، تلخی و ناگواری، و قوت و استواری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/m-r-r/",
-      "title": "The Root M R R",
-      "summary": "Passing or recurrence; also bitterness or strength in different forms.",
-      "status": "preliminary"
+      "title": "Root M R R: passing, recurrence, bitterness, and firmness",
+      "summary": "Passing and elapsing; one time or occasion; in other branches, bitterness and unpleasantness, strength and firmness.",
+      "status": "published"
     }
   },
   "m-r-w": {
@@ -16466,15 +16466,15 @@
   "r-k-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-k-b/",
-      "title": "ریشهٔ ر ك ب",
-      "summary": "سوار شدن، برهم قرار گرفتن و ترکیب یافتن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ر ك ب (رُكوب)",
+      "summary": "سوار شدن و بر چیزی قرار گرفتن؛ ترکیب و برهم‌نشستن اجزا؛ در کاربرد گسترش‌یافته، وارد شدن در کار یا گذر از حالتی به حالت دیگر.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-k-b/",
-      "title": "The Root R K B",
-      "summary": "Riding, mounting, or being layered or combined.",
-      "status": "preliminary"
+      "title": "Qur’anic root R K B (rukūb)",
+      "summary": "Riding and mounting; composing and layering parts; by extension, undertaking an affair or passing from one condition to another.",
+      "status": "published"
     }
   },
   "r-k-d": {
@@ -16704,43 +16704,43 @@
   "r-q-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-q-m/",
-      "title": "ریشهٔ ر ق م",
-      "summary": "نشان‌گذاری و نوشتن؛ مرقوم: ثبت‌شده.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ر ق م (رَقْم)",
+      "summary": "ایجاد خط، نقش و نشانه؛ نوشتن و ثبت کردن. رقیم: نوشته یا نامی با مصداق نامشخص؛ مرقوم: نوشته یا ثبت‌شده.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-q-m/",
-      "title": "The Root R Q M",
-      "summary": "Marking and inscribing; marqūm means recorded.",
-      "status": "preliminary"
+      "title": "Qur’anic root R Q M (raqm)",
+      "summary": "Making lines, designs, and marks; writing and recording. Raqīm: an inscription or a name with an uncertain referent; marqūm: written or recorded.",
+      "status": "published"
     }
   },
   "r-q-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-q-q/",
-      "title": "ریشهٔ ر ق ق",
-      "summary": "نازکی و نرمی؛ رقّ: پوست یا برگ نوشتن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ر ق ق (رِقَّة)",
+      "summary": "نازکی و نرمی در برابر ضخامت و درشتی؛ رَقّ: پوست نازکِ آمادهٔ نوشتن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-q-q/",
-      "title": "The Root R Q Q",
-      "summary": "Thinness and softness; raqq is parchment or a writing sheet.",
-      "status": "preliminary"
+      "title": "Qur’anic Root R Q Q (Riqqah)",
+      "summary": "Thinness and softness in contrast to thickness and coarseness; raqq: thin skin prepared for writing.",
+      "status": "published"
     }
   },
   "r-q-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-q-y/",
-      "title": "ریشهٔ ر ق ي",
-      "summary": "بالا رفتن؛ در کاربردی دیگر، رقیه خواندن برای درمان.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ر ق ي (رُقِيّ و رُقْيَة)",
+      "summary": "بالا رفتن و رسیدن به جایگاهی بالاتر؛ در شاخه‌ای متمایز، رقیه و تعویذ خواندن برای دفع آسیب و طلب بهبودی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-q-y/",
-      "title": "The Root R Q Y",
-      "summary": "Ascending; in another usage, reciting a healing invocation.",
-      "status": "preliminary"
+      "title": "Qur’anic root R Q Y (ruqiyy and ruqyah)",
+      "summary": "Ascending and reaching a higher position; in a distinct branch, reciting ruqyah or protective formulas to avert harm and seek recovery.",
+      "status": "published"
     }
   },
   "r-s-kh": {
