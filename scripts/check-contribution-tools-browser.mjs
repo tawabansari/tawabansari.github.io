@@ -23,7 +23,7 @@ try {
  await page.locator('#study-contents a').first().click();
  assert.equal(await page.locator('#study-contents').isVisible(),false);
  await page.getByRole('button',{name:'جستجو',exact:true}).click();
- await page.locator('.library-find input').fill('عدالت');
+ await page.locator('.library-find input').fill(record.topic.split(/\s+/)[0]);
  await page.locator('.library-find button').click();
  assert.ok(await page.locator('.library-found').count()>0);
  await page.getByRole('button',{name:'جستجو',exact:true}).click();
@@ -33,7 +33,8 @@ try {
  const popup=await popupEvent;
  await popup.waitForSelector('.print-actions');
  const printText=await popup.locator('body').textContent();
- for(const text of [record.author,record.date,record.topic,'دیدگاه رسمی','به نام آن معبود یگانه؛ فرارحمن، با رحمت فراگیر؛ فرارحیم، با رحمت ویژه.']) assert.ok(printText.includes(text),text);
+ const displayedDate=await page.locator('.contribution-heading time').textContent();
+ for(const text of [record.author,displayedDate,record.topic,'دیدگاه رسمی','به نام آن معبود یگانه؛ فرارحمن، با رحمت فراگیر؛ فرارحیم، با رحمت ویژه.']) assert.ok(printText.includes(text),text);
  assert.equal(await popup.locator('.study-toolbar,.library-find').count(),0);
  await popup.close();
  await page.locator('[data-pdf-close]').click();

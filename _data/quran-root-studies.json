@@ -13820,15 +13820,15 @@
   "n-k-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-k-b/",
-      "title": "ریشهٔ ن ك ب",
-      "summary": "کنار رفتن؛ منکب: شانه یا جانب و ناحیه.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن ك ب (نَكَبَ)",
+      "summary": "میل کردن و کنار رفتن از مسیر؛ مَنْکِب، شانه و بخش جانبی یا مرتفع؛ مَناکِب، نواحی و کناره‌ها.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-k-b/",
-      "title": "The Root N K B",
-      "summary": "Turning aside; mankib is a shoulder, side, or region.",
-      "status": "preliminary"
+      "title": "Root N K B (nakaba)",
+      "summary": "Inclining or turning aside from a path; mankib denotes a shoulder or side/elevated part, and manākib regions or sides.",
+      "status": "published"
     }
   },
   "n-k-d": {
@@ -16326,15 +16326,15 @@
   "r-j-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-j-a/",
-      "title": "ریشهٔ ر ج أ",
-      "summary": "به تأخیر انداختن و مهلت دادن؛ در برخی صورت‌ها همزه تلفظ نمی‌شود.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ج أ (إِرْجَاء)",
+      "summary": "به تأخیر انداختن، مهلت دادن و موکول کردن کار یا تصمیم به زمانی دیگر؛ صورت‌های با همزه و بدون همزه در شاخهٔ تأخیر.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-j-a/",
-      "title": "The Root R J A",
-      "summary": "Postponing or deferring; the hamzah is unpronounced in some forms.",
-      "status": "preliminary"
+      "title": "Root R J ʾ (irjāʾ)",
+      "summary": "Postponing, granting respite, and leaving an action or decision until another time; forms with and without hamzah in the postponement branch.",
+      "status": "published"
     }
   },
   "r-j-ayn": {
@@ -16844,43 +16844,43 @@
   "r-t-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-t-ayn/",
-      "title": "ریشهٔ ر ت ع",
-      "summary": "چریدن و آزادانه به خوراک و آسودگی پرداختن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ت ع (رَتْع)",
+      "summary": "چرا کردن و خوردن آزادانه در فراخی و وفور خوراک؛ در کاربرد انسانی، بهره‌مندی از آسودگی، نعمت و گردش.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-t-ayn/",
-      "title": "The Root R T AYN (R T ʿ)",
-      "summary": "Grazing or enjoying food and ease freely.",
-      "status": "preliminary"
+      "title": "Root R T ʿAYN (ratʿ)",
+      "summary": "Grazing and feeding freely amid ample provision; for people, enjoying ease, plenty, and an outing.",
+      "status": "published"
     }
   },
   "r-t-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-t-l/",
-      "title": "ریشهٔ ر ت ل",
-      "summary": "منظم و روشن ادا کردن سخن یا خواندن با تأنّی.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ت ل (رَتَل و تَرْتِیل)",
+      "summary": "نظم، هماهنگی و تمایز روشنِ اجزا؛ در گفتار و خواندن، بیانِ منظم، روشن و سنجیده بدون شتابِ درهم‌آمیزنده.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-t-l/",
-      "title": "The Root R T L",
-      "summary": "Articulating in an orderly, clear, measured manner.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root R T L (ratal and tartīl)",
+      "summary": "Order, coordination, and clearly distinct parts; in speech and reading, orderly, clear, measured delivery without haste that blurs its parts.",
+      "status": "published"
     }
   },
   "r-t-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-t-q/",
-      "title": "ریشهٔ ر ت ق",
-      "summary": "پیوستگی، بسته بودن و به هم دوختن شکاف.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ت ق (رَتْق)",
+      "summary": "بستن شکاف و پیوند دادن اجزا؛ بسته یا به‌هم‌پیوسته بودن و التیام یافتن، در برابر گشودن و شکافتن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-t-q/",
-      "title": "The Root R T Q",
-      "summary": "Being joined or closed, and sewing a gap together.",
-      "status": "preliminary"
+      "title": "Root R T Q (ratq)",
+      "summary": "Closing a breach and joining parts; being closed, joined, or healed, in contrast to opening or splitting.",
+      "status": "published"
     }
   },
   "r-tt-b": {

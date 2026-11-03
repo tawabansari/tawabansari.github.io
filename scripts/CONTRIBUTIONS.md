@@ -43,3 +43,8 @@ minimal metadata to the export-only `pdf-catalog.json` as `Contributions`.
 Contribution PDFs use the on-device renderer so an older hosted PDF service
 cannot reject these independently catalogued articles. Exports retain the
 author, subject, language, publication date, viewpoint notice and article opening.
+
+Optional `publication_date_display` preserves an author-supplied date label (such
+as Gregorian and Solar Hijri dates together) on the article. The ISO
+`publication_date` still controls sorting. Optional `contribution_notice` provides
+an escaped, article-specific editorial notice outside the author’s body text.
