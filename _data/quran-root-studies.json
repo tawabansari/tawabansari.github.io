@@ -4734,15 +4734,15 @@
   "dh-h2-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dh-h2-l/",
-      "title": "ریشهٔ ذ ه ل",
-      "summary": "از شدت مشغولیت یا هول، از چیزی غافل شدن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ذ ه ل (ذَهَلَ)",
+      "summary": "بازماندن توجه از چیزی و از یاد بردن یا وانهادن آن، بر اثر اشتغال، هول یا علتی دیگر؛ در برخی کاربردها با کنار گذاشتن آگاهانه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dh-h2-l/",
-      "title": "The Root DH H L",
-      "summary": "Being distracted or oblivious through preoccupation or terror.",
-      "status": "preliminary"
+      "title": "Root DH H L (dhahala)",
+      "summary": "Attention diverted from something, forgetting or leaving it aside through preoccupation, terror, or another cause; some Arabic uses include deliberate withdrawal.",
+      "status": "published"
     }
   },
   "dh-k-r": {
@@ -4804,29 +4804,29 @@
   "dh-m-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dh-m-m/",
-      "title": "ریشهٔ ذ م م",
-      "summary": "نکوهش و سرزنش؛ ذمّه: عهد و تعهدی که رعایت آن لازم است.",
-      "status": "preliminary"
+      "title": "ریشهٔ ذ م م (ذَمَّ)",
+      "summary": "ذمّ: نکوهش و عیب گرفتن؛ مذموم: نکوهیده. ذمّه: عهد، تعهد و حقِ حمایت و حرمتی که باید رعایت شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dh-m-m/",
-      "title": "The Root DH M M",
-      "summary": "Blame and reproach; dhimmah is a covenant or binding obligation.",
-      "status": "preliminary"
+      "title": "Root DH M M (dhamma)",
+      "summary": "Dhamm: censure and faultfinding; madhmūm: censured. Dhimmah: a covenant, obligation, or right to protection and respect that must be upheld.",
+      "status": "published"
     }
   },
   "dh-n-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dh-n-b/",
-      "title": "ریشهٔ ذ ن ب",
-      "summary": "دُم؛ ذنب: گناه و مسئولیت آن؛ ذَنوب: دلو پُر یا بهره‌ای مقرر.",
-      "status": "preliminary"
+      "title": "ریشهٔ ذ ن ب (ذَنْب / ذَنَب)",
+      "summary": "ذَنْب: گناه، خطا یا جرمِ قابل انتساب؛ ذَنَب: دُم و بخش پسین؛ ذَنُوب با فتح ذال: سهم و بهره، با کاربرد دلو آب.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dh-n-b/",
-      "title": "The Root DH N B",
-      "summary": "A tail; dhanb means sin and its liability; dhanūb denotes a full bucket or allotted share.",
-      "status": "preliminary"
+      "title": "Root DH N B (dhanb / dhanab)",
+      "summary": "Dhanb: attributable sin, fault, or offense; dhanab: a tail or rear part; dhanūb with initial fatḥah: a share or portion, also used for a water bucket.",
+      "status": "published"
     }
   },
   "dh-q-n": {
@@ -4902,29 +4902,29 @@
   "dh-w-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dh-w-d/",
-      "title": "ریشهٔ ذ و د",
-      "summary": "دور راندن و بازداشتن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ذ و د (ذَادَ)",
+      "summary": "دور کردن، بازداشتن و راندن؛ در کاربردهای دفاعی و نگهداری دام‌ها؛ ذَوْد در شاخه‌ای اسمی، گروه کوچکی از شتران.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dh-w-d/",
-      "title": "The Root DH W D",
-      "summary": "Driving away or holding back.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root DH W D (dhāda)",
+      "summary": "Keeping away, holding back, and driving away, including defense and tending livestock; the noun dhawd also denotes a small group of camels.",
+      "status": "published"
     }
   },
   "dh-w-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dh-w-q/",
-      "title": "ریشهٔ ذ و ق",
-      "summary": "چشیدن و از راه تجربه دریافتن، در خوشی یا رنج.",
-      "status": "preliminary"
+      "title": "ریشهٔ ذ و ق (ذَاقَ)",
+      "summary": "چشیدن و دریافت مزه؛ در کاربرد گسترده، آزمودن و تجربه کردن؛ أَذَاقَ: چشاندن یا دیگری را در معرض تجربه قرار دادن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dh-w-q/",
-      "title": "The Root DH W Q",
-      "summary": "Tasting or experiencing, whether pleasure or suffering.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root DH W Q (dhāqa)",
+      "summary": "Tasting and perceiving flavor; more broadly, testing and experiencing; adhāqa means making another taste or undergo an experience.",
+      "status": "published"
     }
   },
   "dh-y-ayn": {
@@ -11706,13 +11706,13 @@
   "l-gh-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/l-gh-w/",
-      "title": "ریشهٔ ل غ و (لَغْو)",
+      "title": "ریشه ل غ و؛ سخن بی‌اعتبار، گفتار بیهوده و آنچه به حساب نمی‌آید",
       "summary": "سخن یا کار بی‌اعتبار و بی‌حاصل، یا چیزی که در حساب نمی‌آید؛ در شاخهٔ گفتاری، سخن گفتن و ایجاد هیاهو.",
       "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/l-gh-w/",
-      "title": "The Root L GH W (Laghw)",
+      "title": "The Root L GH W: Speech without Weight, Idle Talk, and What Does Not Count",
       "summary": "Speech or action without weight or useful result, or something excluded from an account; the verbal strand also concerns speaking and making a commotion.",
       "status": "published"
     }
