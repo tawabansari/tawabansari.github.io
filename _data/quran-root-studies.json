@@ -3642,15 +3642,15 @@
   "d-a-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-a-b/",
-      "title": "ریشهٔ د أ ب",
-      "summary": "پیوستگی در کوشش یا عادت؛ دأب: روش تکرارشونده.",
-      "status": "preliminary"
+      "title": "ریشهٔ د أ ب (دَأْب)",
+      "summary": "ملازمت و استمرار در کار یا حرکت؛ کوشش پیوسته، و عادت یا روش شناخته‌شده بر اثر تکرار.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-a-b/",
-      "title": "The Root D A B",
-      "summary": "Continuity in effort or habit; daʾb is an established pattern.",
-      "status": "preliminary"
+      "title": "Root D ʾ B (daʾb)",
+      "summary": "Adherence and continuity in action or movement; sustained effort, and a habitual or established pattern through repetition.",
+      "status": "published"
     }
   },
   "d-ayn-ayn": {
@@ -4216,15 +4216,15 @@
   "d-w-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/d-w-l/",
-      "title": "ریشهٔ د و ل",
-      "summary": "گردش و دست‌به‌دست شدن میان افراد یا گروه‌ها.",
-      "status": "preliminary"
+      "title": "ریشهٔ د و ل (دَوْل)",
+      "summary": "گردش و انتقال چیز، وضعیت یا نوبت میان افراد و گروه‌ها؛ دست‌به‌دست شدن. شاخهٔ دیگر: سستی و فرسودگی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/d-w-l/",
-      "title": "The Root D W L",
-      "summary": "Circulation or alternation among people or groups.",
-      "status": "preliminary"
+      "title": "Root D W L (dawl)",
+      "summary": "Circulation and transfer of things, circumstances, or turns among people and groups. Another branch concerns slackness and deterioration.",
+      "status": "published"
     }
   },
   "d-w-m": {
@@ -13204,29 +13204,29 @@
   "n-ayn-j": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-ayn-j/",
-      "title": "ریشهٔ ن ع ج",
-      "summary": "میش و جانور ماده هم‌مانند.",
-      "status": "preliminary"
+      "title": "ریشه ن ع ج؛ میش، سفیدی و کاربرد کنایی در زبان عربی",
+      "summary": "میش؛ در برخی کاربردها مادهٔ گاو وحشی؛ شاخه‌های سفیدی، خوش‌رنگی و فربهی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-ayn-j/",
-      "title": "The Root N AYN J (N ʿ J)",
-      "summary": "A ewe or similar female animal.",
-      "status": "preliminary"
+      "title": "The Root N ʿ J: Ewes, Whiteness and Figurative Usage in Arabic",
+      "summary": "A ewe; in some uses a female wild bovine; branches of whiteness, fine coloration and fatness.",
+      "status": "published"
     }
   },
   "n-ayn-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-ayn-l/",
-      "title": "ریشهٔ ن ع ل",
-      "summary": "کفش یا پای‌افزار.",
-      "status": "preliminary"
+      "title": "ریشه ن ع ل؛ کفش، پوشش پا و کاربردهای آن در زبان عربی",
+      "summary": "کفش و پای‌افزار؛ کاربردهایی برای محافظ پای حیوان، بخش پایین غلاف و زمین سخت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-ayn-l/",
-      "title": "The Root N AYN L (N ʿ L)",
-      "summary": "A sandal or footwear.",
-      "status": "preliminary"
+      "title": "The Root N ʿ L: Shoes, Footwear and Arabic Usage",
+      "summary": "Shoes or sandals; also animal-foot protection, a lower scabbard fitting and hard ground.",
+      "status": "published"
     }
   },
   "n-ayn-m": {
@@ -13260,15 +13260,15 @@
   "n-ayn-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-ayn-s/",
-      "title": "ریشهٔ ن ع س",
-      "summary": "چرت و خواب‌آلودگی سبک.",
-      "status": "preliminary"
+      "title": "ریشه ن ع س؛ خواب‌آلودگی و آغاز خواب",
+      "summary": "خواب‌آلودگی، چرت و آغاز یا حالت سبک خواب.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-ayn-s/",
-      "title": "The Root N AYN S (N ʿ S)",
-      "summary": "Drowsiness or light sleep.",
-      "status": "preliminary"
+      "title": "The Root N ʿ S: Drowsiness and the Beginning of Sleep",
+      "summary": "Drowsiness, dozing and the onset of sleep or light sleep.",
+      "status": "published"
     }
   },
   "n-b-a": {
@@ -13386,13 +13386,13 @@
   "n-d-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-d-y/",
-      "title": "ریشهٔ قرآنی ن د و (نَدَا)",
+      "title": "ریشهٔ ن د ي؛ ندا، انجمن، نمناکی و بخشندگی",
       "summary": "فراخواندن و خطاب قرار دادن؛ و در شاخهٔ اسمی، مجلس و گردهمایی مردم.",
       "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-d-y/",
-      "title": "Qur’anic root N D W (نَدَا)",
+      "title": "The Root N D Y: Calling, Assemblies, Moisture and Generosity",
       "summary": "Calling and addressing; in the nominal branch, an assembly or gathering of people.",
       "status": "published"
     }
@@ -13400,57 +13400,57 @@
   "n-dad-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-dad-d/",
-      "title": "ریشهٔ ن ض د",
-      "summary": "منظم روی هم چیدن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ض د (نَضَدَ)",
+      "summary": "کنار هم یا روی هم چیدن اجزا به‌صورت پیوسته و منظم.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-dad-d/",
-      "title": "The Root N Ḍ D",
-      "summary": "Stacking or arranging in layers.",
-      "status": "preliminary"
+      "title": "Qur’anic root N Ḍ D (نَضَدَ)",
+      "summary": "Arranging parts closely beside or upon one another in order.",
+      "status": "published"
     }
   },
   "n-dad-j": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-dad-j/",
-      "title": "ریشهٔ ن ض ج",
-      "summary": "رسیدن در پخت و پخته یا سوخته شدن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ض ج (نَضِجَ)",
+      "summary": "به پختگی یا رسیدگی رسیدن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-dad-j/",
-      "title": "The Root N Ḍ J",
-      "summary": "Becoming cooked through or burned.",
-      "status": "preliminary"
+      "title": "Qur’anic Root N Ḍ J (نَضِجَ)",
+      "summary": "Becoming cooked or ripe; reaching maturity.",
+      "status": "published"
     }
   },
   "n-dad-kh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-dad-kh/",
-      "title": "ریشهٔ ن ض خ",
-      "summary": "فوران و جوشش فراوان آب.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ض خ (نَضَخَ)",
+      "summary": "فوران و بیرون زدن مایع؛ پاشیدن و پراکنده شدن آن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-dad-kh/",
-      "title": "The Root N Ḍ KH",
-      "summary": "Abundant gushing or springing water.",
-      "status": "preliminary"
+      "title": "Qur’anic root N DAD KH (نَضَخَ)",
+      "summary": "Liquid gushing or issuing forth; splashing and scattering it.",
+      "status": "published"
     }
   },
   "n-dad-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-dad-r/",
-      "title": "ریشهٔ ن ض ر",
-      "summary": "تازگی، شادابی و درخشندگی.",
-      "status": "preliminary"
+      "title": "ریشه ن ض ر؛ شادابی، طراوت و رونق آشکار",
+      "summary": "شادابی، طراوت و رونق آشکار؛ در برخی شاخه‌ها، خلوص و مرغوبیت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-dad-r/",
-      "title": "The Root N Ḍ R",
-      "summary": "Freshness, vitality, or radiance.",
-      "status": "preliminary"
+      "title": "Root N Ḍ R: freshness, vitality and visible radiance",
+      "summary": "Freshness, vitality and visible radiance; purity and fine quality in some lexical branches.",
+      "status": "published"
     }
   },
   "n-dh-r": {
@@ -13484,71 +13484,71 @@
   "n-f-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-f-d/",
-      "title": "ریشهٔ ن ف د",
-      "summary": "تمام شدن و پایان یافتن ذخیره.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن ف د (نَفِدَ)",
+      "summary": "تمام شدن و به پایان رسیدنِ موجودی، مقدار یا استمرار چیزی؛ نَفَاد، همین پایان یافتن است و نفی آن پایان‌ناپذیری را می‌رساند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-f-d/",
-      "title": "The Root N F D",
-      "summary": "Running out or being exhausted.",
-      "status": "preliminary"
+      "title": "The Root N F D (nafida)",
+      "summary": "Running out or reaching the end of a supply, quantity, or continuation. Nafād names this exhaustion; its negation expresses inexhaustibility.",
+      "status": "published"
     }
   },
   "n-f-dh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-f-dh/",
-      "title": "ریشهٔ ن ف ذ",
-      "summary": "از میان یا از حد چیزی گذشتن.",
-      "status": "preliminary"
+      "title": "ریشه ن ف ذ؛ گذشتن، نفوذ و به انجام رسیدن",
+      "summary": "گذشتن و عبور تا سوی دیگر یا مقصد؛ در کاربردهای دیگر، به انجام رسیدن و اثر یافتن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-f-dh/",
-      "title": "The Root N F DH",
-      "summary": "Passing through or beyond a boundary.",
-      "status": "preliminary"
+      "title": "The Root N F DH: Passing Through, Penetration and Taking Effect",
+      "summary": "Passing through or beyond to the other side or a destination; also taking effect or being carried through.",
+      "status": "published"
     }
   },
   "n-f-h": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-f-h/",
-      "title": "ریشهٔ ن ف ح",
-      "summary": "وزش و رسیدن اندکی از اثر خیر یا رنج.",
-      "status": "preliminary"
+      "title": "ریشه ن ف ح؛ وزش، انتشار و رسیدن اثر",
+      "summary": "وزیدن، انتشار، بیرون جستن یا رساندن اثر؛ در برخی کاربردها ضربه زدن و بخشیدن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-f-h/",
-      "title": "The Root N F Ḥ",
-      "summary": "A waft or slight touch of benefit or distress.",
-      "status": "preliminary"
+      "title": "The Root N F Ḥ: Blowing, Diffusion and an Effect Reaching Someone",
+      "summary": "Blowing, diffusion, bursting out or conveying an effect; also striking and giving in some uses.",
+      "status": "published"
     }
   },
   "n-f-kh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-f-kh/",
-      "title": "ریشهٔ ن ف خ",
-      "summary": "دمیدن و به جریان انداختن هوا.",
-      "status": "preliminary"
+      "title": "ریشه ن ف خ؛ دمیدن، به حرکت آوردن هوا و گسترش معنا در قرآن",
+      "summary": "دمیدن و فرستادن جریان هوا؛ در شاخه‌های دیگر، باد کردن، برآمدن و افزایش حجم.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-f-kh/",
-      "title": "The Root N F KH",
-      "summary": "Blowing or setting air in motion.",
-      "status": "preliminary"
+      "title": "The Root N F KH: Blowing, Setting Air in Motion and Its Qur’anic Uses",
+      "summary": "Blowing and directing a current of air; in other branches, inflation, swelling and increased volume.",
+      "status": "published"
     }
   },
   "n-f-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-f-l/",
-      "title": "ریشهٔ ن ف ل",
-      "summary": "افزوده و بخشش؛ انفال: غنیمت‌ها؛ نافله: بخشش یا عمل افزون.",
-      "status": "preliminary"
+      "title": "ریشه ن ف ل؛ بخشش افزوده، غنیمت و عطیه",
+      "summary": "بخشیدن و عطا کردن؛ بخشش یا بهره افزوده. انفال: غنیمت‌ها؛ نافله: عطیه یا عمل افزوده.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-f-l/",
-      "title": "The Root N F L",
-      "summary": "An addition or gift; anfāl denotes spoils; nāfilah is an extra gift or act.",
-      "status": "preliminary"
+      "title": "The Root N F L: Additional Gifts, Spoils, and Bounty",
+      "summary": "Giving and granting; an additional gift or benefit. Anfāl denotes spoils; nāfilah an additional gift or act.",
+      "status": "published"
     }
   },
   "n-f-q": {
@@ -13568,15 +13568,15 @@
   "n-f-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-f-r/",
-      "title": "ریشهٔ ن ف ر",
-      "summary": "از جا برخاستن و روانه شدن؛ نیز روی‌گردانی و رمیدن.",
-      "status": "preliminary"
+      "title": "ریشه ن ف ر؛ دور شدن، روگردانی و به حرکت درآمدن",
+      "summary": "دور شدن، فاصله گرفتن و به حرکت درآمدن؛ رمیدن و رویگردانی. در شاخه اسمی، گروه همراهان و یاری‌کنندگان.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-f-r/",
-      "title": "The Root N F R",
-      "summary": "Setting out; also aversion or fleeing away.",
-      "status": "preliminary"
+      "title": "The Root N F R: Moving Away, Turning Away and Setting Out",
+      "summary": "Moving away, withdrawing and setting out; bolting and turning away. In nominal uses, a group of companions or supporters.",
+      "status": "published"
     }
   },
   "n-f-s": {
@@ -13596,15 +13596,15 @@
   "n-f-sh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-f-sh/",
-      "title": "ریشهٔ ن ف ش",
-      "summary": "پراکنده و باز شدن؛ درباره دام، شبانه برای چرا پراکنده شدن.",
-      "status": "preliminary"
+      "title": "ریشه ن ف ش؛ پراکندگی، باز شدن و چرای شبانه",
+      "summary": "پراکنده شدن و از هم باز شدن؛ باز کردن الیاف پشم و پنبه، و پراکنده شدن دام‌ها برای چرای شبانه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-f-sh/",
-      "title": "The Root N F SH",
-      "summary": "Spreading loosely; of livestock, roaming to graze at night.",
-      "status": "preliminary"
+      "title": "The Root N F SH: Spreading, Opening Out, and Grazing at Night",
+      "summary": "Spreading and opening out; loosening wool and cotton fibres, and livestock roaming to graze at night.",
+      "status": "published"
     }
   },
   "n-f-th": {
@@ -13624,29 +13624,29 @@
   "n-f-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-f-y/",
-      "title": "ریشهٔ ن ف ي",
-      "summary": "دور کردن و بیرون راندن.",
-      "status": "preliminary"
+      "title": "ریشه ن ف ي؛ کنار زدن، دور ساختن و نفی کردن",
+      "summary": "کنار زدن، دور ساختن و راندن؛ در کاربرد گفتاری، نفی و رد یک نسبت یا ادعا.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-f-y/",
-      "title": "The Root N F Y",
-      "summary": "Removing or banishing.",
-      "status": "preliminary"
+      "title": "The Root N F Y: Removing, Driving Away, and Negating",
+      "summary": "Setting aside, removing and expelling; in speech, negating or rejecting a relationship or claim.",
+      "status": "published"
     }
   },
   "n-gh-dad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-gh-dad/",
-      "title": "ریشهٔ ن غ ض",
-      "summary": "سر را با شگفتی یا انکار تکان دادن.",
-      "status": "preliminary"
+      "title": "ریشه ن غ ض؛ جنبش لرزان و تکان دادن سر",
+      "summary": "جنبش، لرزش و تکان خوردن یا تکان دادن؛ به‌ویژه با حرکت رفت‌وبرگشتی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-gh-dad/",
-      "title": "The Root N GH Ḍ",
-      "summary": "Shaking the head in astonishment or denial.",
-      "status": "preliminary"
+      "title": "The Root N GH Ḍ: Tremulous Movement and Moving the Head",
+      "summary": "Movement, trembling and shaking, especially repeated or unsteady motion.",
+      "status": "published"
     }
   },
   "n-h-b": {
@@ -13722,15 +13722,15 @@
   "n-h2-j": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-h2-j/",
-      "title": "ریشهٔ ن ه ج",
-      "summary": "راه روشن و آشکار.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن ه ج (نَهْج)",
+      "summary": "در شاخهٔ راه، روشن و آشکار بودن مسیر، روشن ساختن و پیمودن آن؛ در شاخه‌ای دیگر، نفس‌بریدگی و فرسودگی. مِنْهَاج در قرآن، راه روشن است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-h2-j/",
-      "title": "The Root N H J",
-      "summary": "A clear, evident path.",
-      "status": "preliminary"
+      "title": "Root N H J (nahj)",
+      "summary": "In the path branch, a course being clear and evident, clarifying it, and following it; in another branch, breathlessness and wearing out. Qur’anic minhāj denotes a clear path.",
+      "status": "published"
     }
   },
   "n-h2-r": {
@@ -13834,29 +13834,29 @@
   "n-k-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-k-d/",
-      "title": "ریشهٔ ن ك د",
-      "summary": "دشواری، کم‌بازدهی و اندکی همراه با زحمت.",
-      "status": "preliminary"
+      "title": "ریشه ن ک د؛ دشواری در به دست آمدن و کم‌بهرگی",
+      "summary": "دشواری در حاصل شدن یا برخورداری از چیزی؛ در بسیاری از کاربردها، کم‌بهرگی و ناخوشایندی همراه آن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-k-d/",
-      "title": "The Root N K D",
-      "summary": "Difficulty, poor yield, or scant return obtained with hardship.",
-      "status": "preliminary"
+      "title": "The root N K D: difficulty of attainment and scant yield",
+      "summary": "Difficulty in attaining or benefiting from something, often accompanied by scant benefit or unpleasantness.",
+      "status": "published"
     }
   },
   "n-k-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-k-f/",
-      "title": "ریشهٔ ن ك ف",
-      "summary": "خودداری از روی ننگ یا تکبر؛ شأن خود را بالاتر دانستن.",
-      "status": "preliminary"
+      "title": "ریشه ن ک ف؛ کنار زدن، سر باز زدن و امتناع از سر عار",
+      "summary": "کنار زدن و دور ساختن؛ استنکاف، سر باز زدن از کار یا جایگاهی است که شخص آن را برای خود مایهٔ عار یا نامناسب می‌داند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-k-f/",
-      "title": "The Root N K F",
-      "summary": "Disdaining or refusing as beneath one's dignity.",
-      "status": "preliminary"
+      "title": "Root N K F: setting aside, refusing, and disdain",
+      "summary": "Setting aside and removing; istinkāf is refusing an action or position regarded as undignified or unsuitable for oneself.",
+      "status": "published"
     }
   },
   "n-k-h": {
@@ -13904,43 +13904,43 @@
   "n-k-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-k-s/",
-      "title": "ریشهٔ ن ك س",
-      "summary": "وارونه و سرنگون کردن؛ در عمر، بازگرداندن توان به ضعف.",
-      "status": "preliminary"
+      "title": "ریشه ن ک س؛ وارونه کردن، سر فرود آوردن و بازگشت از توانایی به ناتوانی",
+      "summary": "وارونه کردن و برعکس ساختن جهت یا وضعیت؛ در کاربردهایی، فروانداختن سر یا بازگشت از حالت پیشین.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-k-s/",
-      "title": "The Root N K S",
-      "summary": "Reversing or turning upside down; in aging, returning strength to weakness.",
-      "status": "preliminary"
+      "title": "Root N K S: turning upside down, lowering the head, and returning from strength to weakness",
+      "summary": "Inverting or reversing a direction or condition; in some uses, lowering the head or returning from a previous state.",
+      "status": "published"
     }
   },
   "n-k-sad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-k-sad/",
-      "title": "ریشهٔ ن ك ص",
-      "summary": "عقب‌نشینی و از کاری پس کشیدن.",
-      "status": "preliminary"
+      "title": "ریشه ن ک ص؛ عقب‌نشینی، واپس رفتن و رویگردانی از مسیر پیش‌رو",
+      "summary": "عقب‌نشینی و واپس رفتن؛ خودداری از ادامهٔ مسیر یا اقدامی که شخص به آن روی آورده است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-k-sad/",
-      "title": "The Root N K Ṣ",
-      "summary": "Retreating or drawing back from an action.",
-      "status": "preliminary"
+      "title": "Root N K Ṣ: retreating, drawing back, and turning away from the path ahead",
+      "summary": "Retreating and drawing back; refraining from continuing a course or undertaking toward which someone has turned.",
+      "status": "published"
     }
   },
   "n-k-th": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-k-th/",
-      "title": "ریشهٔ ن ك ث",
-      "summary": "باز کردن رشته تابیده؛ مجازاً شکستن پیمان.",
-      "status": "preliminary"
+      "title": "ریشه ن ک ث؛ گشودن رشته‌های استوار و شکستن پیمان",
+      "summary": "از هم گشودن و برهم زدن چیزی که پیش‌تر بسته یا استوار شده است؛ در تعهدات، شکستن عهد، سوگند یا بیعت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-k-th/",
-      "title": "The Root N K TH",
-      "summary": "Unraveling a strand; figuratively, breaking a covenant.",
-      "status": "preliminary"
+      "title": "The root N K TH: unraveling firm strands and breaking covenants",
+      "summary": "Unraveling and disrupting something previously tied or made firm; in commitments, breaking a covenant, oath, or pledge of allegiance.",
+      "status": "published"
     }
   },
   "n-kh-l": {
@@ -13974,57 +13974,57 @@
   "n-m-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-m-l/",
-      "title": "ریشهٔ ن م ل",
-      "summary": "مورچه؛ انامل: سرانگشتان، در شاخه واژگانی دیگر.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن م ل (نَمْل)",
+      "summary": "نَمْل، مورچه و مورچگان؛ أَنَامِل، سرانگشتان در شاخه‌ای دیگر از همین خانواده؛ همراه با کاربردهای مجازیِ حرکت و پراکندگی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-m-l/",
-      "title": "The Root N M L",
-      "summary": "An ant; anāmil means fingertips in another lexical branch.",
-      "status": "preliminary"
+      "title": "Root N M L: naml",
+      "summary": "Naml denotes ants; anāmil denotes fingertips in another branch of the family, alongside figurative uses involving movement and dispersal.",
+      "status": "published"
     }
   },
   "n-m-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-m-m/",
-      "title": "ریشهٔ ن م م",
-      "summary": "سخن‌چینی و جابه‌جا کردن خبر برای فساد.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن م م (نَمّ)",
+      "summary": "آشکار شدن یا آشکار کردن چیزی با سخن، صدا، حرکت یا بو؛ نَمِيم در قرآن، سخن‌چینی و انتقال اختلاف‌انگیز سخن میان مردم است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-m-m/",
-      "title": "The Root N M M",
-      "summary": "Tale-bearing or carrying reports to sow discord.",
-      "status": "preliminary"
+      "title": "Root N M M (namm)",
+      "summary": "Becoming apparent or disclosing something through speech, sound, movement, or scent; Qur’anic namīm denotes tale-bearing that sows discord between people.",
+      "status": "published"
     }
   },
   "n-q-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-q-ayn/",
-      "title": "ریشهٔ ن ق ع",
-      "summary": "آب جمع‌شده؛ نقع در سیاق حرکت: گرد و غبار برخاسته.",
-      "status": "preliminary"
+      "title": "ریشه ن ق ع؛ گردوغبار برخاسته، آب جمع‌شده و فرونشستن عطش",
+      "summary": "گردوغبار برخاسته؛ در شاخه‌های دیگر، جمع شدن و ماندن آب، خیساندن، برطرف شدن تشنگی و بلند شدن صدا.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-q-ayn/",
-      "title": "The Root N Q AYN (N Q ʿ)",
-      "summary": "Pooled water; naqʿ in a movement context means raised dust.",
-      "status": "preliminary"
+      "title": "The root N Q ʿ: rising dust, collected water, and quenching thirst",
+      "summary": "Rising dust; in other branches, water collecting and remaining, soaking, quenching thirst, and a rising voice.",
+      "status": "published"
     }
   },
   "n-q-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-q-b/",
-      "title": "ریشهٔ ن ق ب",
-      "summary": "سوراخ کردن و راه یافتن؛ نقیب: سرپرست یا نماینده گروه.",
-      "status": "preliminary"
+      "title": "ریشه ن ق ب؛ رخنه گشودن، راه یافتن و شناخت امور",
+      "summary": "سوراخ کردن و گشودن رخنه یا راه؛ پیمودن و جست‌وجو در سرزمین‌ها. نقیب: نماینده یا مسئول آگاه به امور گروه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-q-b/",
-      "title": "The Root N Q B",
-      "summary": "Piercing or making passage; naqīb is a leader or representative.",
-      "status": "preliminary"
+      "title": "The Root N Q B: Opening a Breach, Making a Way, and Knowing Affairs",
+      "summary": "Piercing and opening a breach or route; traversing and searching through lands. Naqīb denotes a group’s representative or responsible person familiar with its affairs.",
+      "status": "published"
     }
   },
   "n-q-dad": {
@@ -14044,43 +14044,43 @@
   "n-q-dh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-q-dh/",
-      "title": "ریشهٔ ن ق ذ",
-      "summary": "رهانیدن از خطر و گرفتاری.",
-      "status": "preliminary"
+      "title": "ریشه ن ق ذ؛ رهانیدن، نجات دادن و بازپس گرفتن",
+      "summary": "رهایی یافتن، رهانیدن و بازپس گرفتنِ کسی یا چیزی از خطر، گرفتاری یا تصرف دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-q-dh/",
-      "title": "The Root N Q DH",
-      "summary": "Rescuing from danger or distress.",
-      "status": "preliminary"
+      "title": "The Root N Q DH: Rescuing, Delivering, and Recovering",
+      "summary": "Escaping, rescuing and recovering someone or something from danger, distress or another’s possession.",
+      "status": "published"
     }
   },
   "n-q-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-q-m/",
-      "title": "ریشهٔ ن ق م",
-      "summary": "ناپسند داشتن و مؤاخذه؛ انتقام: کیفر دادن در پاسخ به کردار.",
-      "status": "preliminary"
+      "title": "ریشه ن ق م؛ ناخشنودی، عیب گرفتن و کیفر دادن",
+      "summary": "ناخشنودی، ناپسند دانستن و عیب گرفتن؛ در شاخه انتقام، پاسخ دادن با کیفر به رفتار ناپسند دانسته‌شده.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-q-m/",
-      "title": "The Root N Q M",
-      "summary": "Disapproving or censuring; intiqām means requiting wrongdoing with punishment.",
-      "status": "preliminary"
+      "title": "The root N Q M: disapproval, finding fault, and punishment",
+      "summary": "Displeasure, disapproval, and faultfinding; in intiqām, a punitive response to conduct considered objectionable.",
+      "status": "published"
     }
   },
   "n-q-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-q-r/",
-      "title": "ریشهٔ ن ق ر",
-      "summary": "کوبیدن و نوک زدن؛ نقیر: گودی کوچک هسته خرما؛ ناقور: ابزار بانگ.",
-      "status": "preliminary"
+      "title": "ریشه ن ق ر؛ ضربه زدن، ایجاد فرورفتگی و به صدا درآوردن",
+      "summary": "ضربه زدن، نوک زدن و ایجاد اثر یا فرورفتگی؛ نقیر: گودی کوچک هسته خرما؛ ناقور: شیپور.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-q-r/",
-      "title": "The Root N Q R",
-      "summary": "Pecking or striking; naqīr is a tiny date-stone hollow; nāqūr is a sounding instrument.",
-      "status": "preliminary"
+      "title": "The root N Q R: striking, making a hollow, and sounding",
+      "summary": "Striking, pecking, and making a mark or hollow; naqīr is a small date-stone hollow, and nāqūr a trumpet.",
+      "status": "published"
     }
   },
   "n-q-sad": {
@@ -14100,43 +14100,43 @@
   "n-s-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-s-a/",
-      "title": "ریشهٔ ن س أ",
-      "summary": "به تأخیر انداختن؛ نسیء: جابه‌جایی حرمت ماه‌ها؛ منسأة: عصا.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن س أ (نَسَأَ)",
+      "summary": "به تأخیر انداختن، مهلت دادن و دور کردن؛ نسیء جابه‌جایی حرمت ماه‌ها و منسأة نام عصاست.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-s-a/",
-      "title": "The Root N S A",
-      "summary": "Postponing; nasīʾ concerns shifting sacred-month observance; minsaʾah is a staff.",
-      "status": "preliminary"
+      "title": "Qur’anic Root N S ʾ (نَسَأَ)",
+      "summary": "Postponing, granting time, and moving away; nasīʾ shifts sacred-month observance, while minsaʾah names a staff.",
+      "status": "published"
     }
   },
   "n-s-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-s-b/",
-      "title": "ریشهٔ ن س ب",
-      "summary": "نسبت و پیوند خویشاوندی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن س ب (نَسَب)",
+      "summary": "پیوند خویشاوندی از راه تولد و تبار؛ در کاربردهای گسترده‌تر، نسبت دادن شخص یا چیزی به منشأ و صاحب آن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-s-b/",
-      "title": "The Root N S B",
-      "summary": "Descent or kinship.",
-      "status": "preliminary"
+      "title": "Qur’anic Root N S B (نَسَب)",
+      "summary": "Kinship through birth and descent; more broadly, attributing a person or thing to its origin or owner.",
+      "status": "published"
     }
   },
   "n-s-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-s-f/",
-      "title": "ریشهٔ ن س ف",
-      "summary": "کندن، پراکندن و بر باد دادن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن س ف (نَسَفَ)",
+      "summary": "برکندن، جدا کردن و از جای خود بردن؛ با امکان پراکنده شدن اجزا یا برچیده شدن ساختار پیشین.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-s-f/",
-      "title": "The Root N S F",
-      "summary": "Uprooting, scattering, or dispersing.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root N S F (نَسَفَ)",
+      "summary": "Uprooting, detaching, and removing from a former position, potentially with dispersal of components or dismantling of the former structure.",
+      "status": "published"
     }
   },
   "n-s-k": {
@@ -14184,15 +14184,15 @@
   "n-s-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-s-r/",
-      "title": "ریشهٔ ن س ر",
-      "summary": "نسر: نام پرنده و نیز نام معبودی در سیاق نوح.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن س ر (نَسْر)",
+      "summary": "نسر: نام پرنده‌ای بزرگ و لاشه‌خوار؛ در شاخهٔ فعلی، کندن و جدا کردن. در قرآن نام خاص یکی از معبودهای قوم نوح است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-s-r/",
-      "title": "The Root N S R",
-      "summary": "Nasr denotes a vulture or eagle and also names a deity in Noah's passage.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root N S R (نَسْر)",
+      "summary": "Nasr names a large scavenging bird; the verbal branch concerns plucking and separating. Its sole Qur’anic use is a deity’s proper name.",
+      "status": "published"
     }
   },
   "n-s-w": {
@@ -14226,43 +14226,43 @@
   "n-sad-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-sad-b/",
-      "title": "ریشهٔ ن ص ب",
-      "summary": "برپا کردن؛ نَصَب: رنج؛ نصیب: سهم؛ نُصُب: سنگ‌های آیینی.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن ص ب (نَصَب)",
+      "summary": "برپا کردن و استقرار؛ نَصَب و نُصْب، رنج و خستگی؛ نَصیب، سهم و بهره؛ نُصُب و انصاب، نشان‌ها یا سنگ‌های برپا شده.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-sad-b/",
-      "title": "The Root N Ṣ B",
-      "summary": "Setting up; naṣab is fatigue; naṣīb is a share; nuṣub are cultic stones.",
-      "status": "preliminary"
+      "title": "Root N Ṣ B: naṣab",
+      "summary": "Setting up and establishing; naṣab and nuṣb denote hardship and weariness; naṣīb a share; nuṣub and anṣāb erected markers or stones.",
+      "status": "published"
     }
   },
   "n-sad-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-sad-f/",
-      "title": "ریشهٔ ن ص ف",
-      "summary": "نیم و یک‌دوم.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ص ف (نِصْف)",
+      "summary": "نیمه؛ یکی از دو بخش برابر یک کل.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-sad-f/",
-      "title": "The Root N Ṣ F",
-      "summary": "Half or one-half.",
-      "status": "preliminary"
+      "title": "Qur’anic Root N Ṣ F (نِصْف)",
+      "summary": "Half; one of two equal parts of a whole.",
+      "status": "published"
     }
   },
   "n-sad-h": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-sad-h/",
-      "title": "ریشهٔ ن ص ح",
-      "summary": "خیرخواهی و راهنمایی صادقانه؛ نصوح: خالص و صمیمی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ص ح (نَصَحَ)",
+      "summary": "خلوص و خیرخواهیِ دور از غش و فریب؛ در شاخه‌ای دیگر، دوختن و پیوند دادن؛ نصوح در وصف توبه، خالص و راستین است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-sad-h/",
-      "title": "The Root N Ṣ Ḥ",
-      "summary": "Sincere goodwill or counsel; naṣūḥ means genuine or wholehearted.",
-      "status": "preliminary"
+      "title": "Qur’anic Root N Ṣ Ḥ (نَصَحَ)",
+      "summary": "Purity and sincere goodwill free of deceit; another branch concerns sewing and joining. Naṣūḥ describes genuine, sincere repentance.",
+      "status": "published"
     }
   },
   "n-sad-r": {
@@ -14282,85 +14282,85 @@
   "n-sad-t": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-sad-t/",
-      "title": "ریشهٔ ن ص ت",
-      "summary": "سکوت برای گوش سپردن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ص ت (أَنْصَتَ)",
+      "summary": "خاموش شدن و خودداری از سخن؛ در انصات، سکوت برای گوش سپردن؛ و در بعضی ساخت‌های متعدی، ساکت کردن دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-sad-t/",
-      "title": "The Root N Ṣ T",
-      "summary": "Remaining silent to listen.",
-      "status": "preliminary"
+      "title": "Qur’anic Root N Ṣ T (أَنْصَتَ)",
+      "summary": "Becoming silent and refraining from speech; in inṣāt, silence to listen; in some transitive uses, silencing someone else.",
+      "status": "published"
     }
   },
   "n-sad-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-sad-y/",
-      "title": "ریشهٔ ن ص ي",
-      "summary": "موی پیشانی و بخش پیشین سر؛ گرفتن ناصیه: مهار و اختیار.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ص ي (نَاصِيَة)",
+      "summary": "بخش پیشین سر، به‌ویژه محل روییدن موی بالای پیشانی و موی آن قسمت؛ ناصیه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-sad-y/",
-      "title": "The Root N Ṣ Y",
-      "summary": "The forelock or front of the head; grasping it signifies control.",
-      "status": "preliminary"
+      "title": "Qur’anic Root N Ṣ Y (نَاصِيَة)",
+      "summary": "The front of the head, especially the front hairline and the forelock growing there.",
+      "status": "published"
     }
   },
   "n-sh-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-sh-a/",
-      "title": "ریشهٔ ن ش أ",
-      "summary": "پدید آوردن، رشد کردن و پرورش دادن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ش أ (نَشَأَ)",
+      "summary": "پدید آمدن، برآمدن و رشد کردن؛ در ساخت سببی، پدید آوردن، شکل دادن و پرورش دادن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-sh-a/",
-      "title": "The Root N SH A",
-      "summary": "Originating, growing, or nurturing.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root N SH A (نَشَأَ)",
+      "summary": "Coming into being, arising, and growing; in causative forms, bringing into being, shaping, and nurturing.",
+      "status": "published"
     }
   },
   "n-sh-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-sh-r/",
-      "title": "ریشهٔ ن ش ر",
-      "summary": "گستردن و پراکندن؛ نشور: برخاستن و زنده شدن دوباره.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ش ر (نَشَرَ)",
+      "summary": "گشودن، گستردن و پراکنده شدن؛ و در کاربرد زنده شدن، برخاستن و بازگشت به زندگی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-sh-r/",
-      "title": "The Root N SH R",
-      "summary": "Spreading or dispersing; nushūr denotes rising or resurrection.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root N SH R (نَشَرَ)",
+      "summary": "Opening, spreading, and dispersing; in revival contexts, rising and returning to life.",
+      "status": "published"
     }
   },
   "n-sh-tt": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-sh-tt/",
-      "title": "ریشهٔ ن ش ط",
-      "summary": "کشیدن و رها ساختن یا با چابکی حرکت کردن؛ مصداق «ناشطات» اختلافی است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ش ط (نَشَطَ / نَشِطَ)",
+      "summary": "جنبش و چالاکی؛ کشیدن و بیرون آوردن؛ نیز حرکت میان جایگاه‌ها و بستن یا گشودن نوعی گره، در کاربردهای متفاوت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-sh-tt/",
-      "title": "The Root N SH Ṭ",
-      "summary": "Drawing, releasing, or moving briskly; the referent of nāshiṭāt is disputed.",
-      "status": "preliminary"
+      "title": "Qur’anic Root N SH Ṭ (نَشَطَ / نَشِطَ)",
+      "summary": "Movement and briskness; drawing out; also moving between places and tying or releasing a particular knot, in distinct uses.",
+      "status": "published"
     }
   },
   "n-sh-z": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-sh-z/",
-      "title": "ریشهٔ ن ش ز",
-      "summary": "بلند شدن و از جای برخاستن؛ نشوز در روابط: فاصله‌گیری و ناسازگاری.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ش ز (نَشَزَ)",
+      "summary": "بلند شدن، برآمدن و برپا کردن؛ در رابطهٔ همسری، ناسازگاری جدی، جفا یا فاصله گرفتن از رفتار شایستهٔ رابطه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-sh-z/",
-      "title": "The Root N SH Z",
-      "summary": "Rising or moving up; nushūz in relationships denotes estrangement or discord.",
-      "status": "preliminary"
+      "title": "Qur’anic Root N SH Z (نَشَزَ)",
+      "summary": "Rising, prominence, and raising; in marriage, serious discord, harshness, or departure from proper relational conduct.",
+      "status": "published"
     }
   },
   "n-t-q": {
@@ -14394,113 +14394,113 @@
   "n-tt-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-tt-f/",
-      "title": "ریشهٔ ن ط ف",
-      "summary": "اندکی مایع؛ نطفه: مقدار اندک مایع تولیدمثل در سیاق آفرینش.",
-      "status": "preliminary"
+      "title": "ریشه ن ط ف؛ قطره، آب اندک و نطفه در آفرینش انسان",
+      "summary": "چکیدن مایع؛ آب اندک یا صاف، و نطفه در سیاق تولیدمثل.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-tt-f/",
-      "title": "The Root N Ṭ F",
-      "summary": "A small quantity of liquid; nuṭfah denotes reproductive fluid in creation passages.",
-      "status": "preliminary"
+      "title": "Root N Ṭ F: drops, a little water and nuṭfah in human creation",
+      "summary": "Liquid dripping; a little or clear water, and nuṭfah in reproductive contexts.",
+      "status": "published"
     }
   },
   "n-tt-h": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-tt-h/",
-      "title": "ریشهٔ ن ط ح",
-      "summary": "شاخ زدن؛ نطیحه: جانور آسیب‌دیده یا کشته‌شده از شاخ‌زدن.",
-      "status": "preliminary"
+      "title": "ریشه ن ط ح؛ شاخ زدن و برخورد شاخ‌ها",
+      "summary": "شاخ زدن و ضربه وارد کردن با شاخ.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-tt-h/",
-      "title": "The Root N Ṭ Ḥ",
-      "summary": "Butting with horns; naṭīḥah is an animal injured or killed by butting.",
-      "status": "preliminary"
+      "title": "Root N Ṭ Ḥ: butting and the clash of horns",
+      "summary": "Butting or striking with a horn.",
+      "status": "published"
     }
   },
   "n-tt-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-tt-q/",
-      "title": "ریشهٔ ن ط ق",
-      "summary": "سخن گفتن و بیان کردن.",
-      "status": "preliminary"
+      "title": "ریشه ن ط ق؛ سخن گفتن، بیان و زبان موجودات",
+      "summary": "سخن گفتن و بیان؛ در شاخه‌ای دیگر، پوشش و بند میان‌تنه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-tt-q/",
-      "title": "The Root N Ṭ Q",
-      "summary": "Speaking or expressing.",
-      "status": "preliminary"
+      "title": "The Root N Ṭ Q: Speech, Expression and the Language of Other Beings",
+      "summary": "Speaking and expression; in another branch, a waist covering or girdle.",
+      "status": "published"
     }
   },
   "n-w-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-w-a/",
-      "title": "ریشهٔ ن و أ",
-      "summary": "برخاستن یا سنگینی کردن بار؛ تنوء: به زحمت انداختن از سنگینی.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن و أ (نَوْء)",
+      "summary": "برخاستن یا حرکت با دشواری زیر بار؛ و سنگینیِ بار بر حامل. نَوْء در شاخهٔ ستاره‌ای، پدیده و دوره‌ای مرتبط با طلوع و غروب ستارگان است؛ تَنُوءُ در آیه، سنگینی کردن است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-w-a/",
-      "title": "The Root N W A",
-      "summary": "Rising under or bearing weight; tanūʾ concerns a burdensome load.",
-      "status": "preliminary"
+      "title": "Root N W ʾ (nawʾ)",
+      "summary": "Rising or moving with difficulty under a load, and a load weighing upon its bearer. Stellar nawʾ concerns a phenomenon and period associated with stars rising and setting; tanūʾu in the verse means weighing heavily.",
+      "status": "published"
     }
   },
   "n-w-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-w-b/",
-      "title": "ریشهٔ ن و ب",
-      "summary": "بازگشت پیاپی؛ انابه: بازگشت و روی آوردن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن و ب (نَوْب)",
+      "summary": "بازگشت و مراجعه، و در برخی کاربردها آمدوشدِ مکرر یا نوبتی و جانشینی؛ أَنَابَ در قرآن روی‌آوردن به آن معبود یگانه است و مُنِيب، شخص یا قلبِ روی‌آورنده را وصف می‌کند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-w-b/",
-      "title": "The Root N W B",
-      "summary": "Repeated return; inābah is returning or turning toward.",
-      "status": "preliminary"
+      "title": "Root N W B (nawb)",
+      "summary": "Returning and visiting, with repeated visits, turns, or substitution in some uses. Qur’anic anāba denotes turning to The God; munīb describes a person or heart that turns toward Him.",
+      "status": "published"
     }
   },
   "n-w-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-w-m/",
-      "title": "ریشهٔ ن و م",
-      "summary": "خواب و خوابیدن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن و م (نَوْم)",
+      "summary": "خوابیدن و حالت خواب؛ مَنَام، خواب یا زمینهٔ دیدن رؤیاست و نَائِم، خوابیده است. در کاربردهای مجازی، آرام گرفتن یا فروکش کردن فعالیت نیز مطرح است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-w-m/",
-      "title": "The Root N W M",
-      "summary": "Sleep or sleeping.",
-      "status": "preliminary"
+      "title": "The Root N W M (nawm)",
+      "summary": "Sleeping and the state of sleep. Manām denotes sleep or the setting for a dream; nāʾim means asleep. Figurative uses include becoming calm or activity subsiding.",
+      "status": "published"
     }
   },
   "n-w-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-w-n/",
-      "title": "ریشهٔ ن و ن",
-      "summary": "نون: نام حرف؛ نیز ماهی در تعبیر «ذوالنون»؛ حروف مقطعه معنای قطعیِ واژگانی ندارند.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن و ن (نُون)",
+      "summary": "نُون، نام ماهی و در برخی کاربردها ماهی بزرگ است؛ جمع‌های آن أَنْوَان و نِينَان‌اند. نام حرف نون و کاربردهای دوات و شمشیر نیز ثبت شده‌اند؛ پیوند تاریخی همهٔ این معانی قطعی نیست.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-w-n/",
-      "title": "The Root N W N",
-      "summary": "Nūn is a letter name and denotes a fish in Dhū al-Nūn; isolated letters lack a certain lexical interpretation.",
-      "status": "preliminary"
+      "title": "The Root N W N (nūn)",
+      "summary": "Nūn names a fish, sometimes a large fish; its plurals include anwān and nīnān. The letter name, inkwell, and sword uses are also recorded, without a certain shared historical origin for every sense.",
+      "status": "published"
     }
   },
   "n-w-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-w-q/",
-      "title": "ریشهٔ ن و ق",
-      "summary": "شتر ماده.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن و ق (نَاقَة)",
+      "summary": "نَاقَة، شتر ماده است؛ این خانواده جمع‌های نام آن، تربیت و رام کردن شتر و برخی کاربردهای دقت و ظرافت را نیز دربر می‌گیرد. در قرآن، ناقة همان شتر مادهٔ داستان صالح است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-w-q/",
-      "title": "The Root N W Q",
-      "summary": "A she-camel.",
-      "status": "preliminary"
+      "title": "The Root N W Q (nāqah)",
+      "summary": "Nāqah means a female camel. The family also includes its plurals, training and taming camels, and some uses involving care and refinement. In the Qur’an, nāqah denotes the she-camel in Ṣāliḥ’s story.",
+      "status": "published"
     }
   },
   "n-w-r": {
@@ -14534,43 +14534,43 @@
   "n-w-sad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-w-sad/",
-      "title": "ریشهٔ ن و ص",
-      "summary": "گریختن و پناه جستن؛ مناص: راه گریز یا رهایی.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن و ص (نَوْص)",
+      "summary": "حرکت و رفت‌وآمد، به‌ویژه عقب‌نشینی و کنار رفتن؛ در موقعیت خطر، گریز و جستن راه رهایی. مَنَاص، گریز یا جای گریز و پناهگاه است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-w-sad/",
-      "title": "The Root N W Ṣ",
-      "summary": "Escaping or seeking refuge; manāṣ is an escape or deliverance.",
-      "status": "preliminary"
+      "title": "The Root N W Ṣ (nawṣ)",
+      "summary": "Movement and coming and going, especially retreat and withdrawal; in danger, escaping and seeking deliverance. Manāṣ denotes escape or a place of escape and refuge.",
+      "status": "published"
     }
   },
   "n-w-sh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-w-sh/",
-      "title": "ریشهٔ ن و ش",
-      "summary": "دست بردن و گرفتن چیزی از دسترس.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن و ش (نَوْش)",
+      "summary": "رسیدن به چیزی، دست‌یافتن و گرفتن آن با دست، دهان یا وسیله‌ای دیگر؛ در برخی مشتق‌ها، رساندن، برخورد و بیرون کشیدن نیز مطرح است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-w-sh/",
-      "title": "The Root N W SH",
-      "summary": "Reaching for or taking something within reach.",
-      "status": "preliminary"
+      "title": "Root N W SH (nawsh)",
+      "summary": "Reaching, attaining, and taking something with the hand, mouth, or another means; some derivatives also denote conveying, clashing, or drawing out.",
+      "status": "published"
     }
   },
   "n-w-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-w-y/",
-      "title": "ریشهٔ ن و ي",
-      "summary": "هسته میوه؛ در شاخه‌ای دیگر، قصد و مقصد.",
-      "status": "preliminary"
+      "title": "ریشهٔ ن و ي (نَوَىٰ)",
+      "summary": "دو شاخهٔ معنایی: هستهٔ خرما و میوه، و قصد و نیت همراه با کاربردهای کوچ و دوری. در قرآن، النَّوَى به معنای هستهٔ میوه است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-w-y/",
-      "title": "The Root N W Y",
-      "summary": "A fruit stone; in another branch, intention or destination.",
-      "status": "preliminary"
+      "title": "The Root N W Y (nawā)",
+      "summary": "Two semantic branches: fruit stones and kernels; and intention or purpose, with uses involving departure and distance. Qur’anic al-nawā means fruit stones.",
+      "status": "published"
     }
   },
   "n-y-l": {
@@ -14590,43 +14590,43 @@
   "n-z-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-z-ayn/",
-      "title": "ریشهٔ ن ز ع",
-      "summary": "بیرون کشیدن و جدا کردن؛ تنازع: کشمکش و اختلاف.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ز ع (نَزَعَ)",
+      "summary": "کشیدن، بیرون آوردن و جدا کردن؛ تنازع بنا بر سیاق، اختلاف و کشمکش یا دادوگرفت میان طرف‌هاست.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-z-ayn/",
-      "title": "The Root N Z AYN (N Z ʿ)",
-      "summary": "Pulling out or removing; tanāzuʿ is contention or dispute.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root N Z ʿ (Nazaʿa)",
+      "summary": "Drawing, extraction, and removal; tanāzuʿ can mean contention or exchanging something, according to context.",
+      "status": "published"
     }
   },
   "n-z-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-z-f/",
-      "title": "ریشهٔ ن ز ف",
-      "summary": "تهی کردن؛ نیز از دست رفتن عقل یا توان بر اثر نوشیدنی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ز ف (نَزَفَ)",
+      "summary": "کاسته شدن، تهی شدن و از دست رفتن ذخیره یا توان؛ در سیاق نوشیدن، از دست رفتن عقل و هوشیاری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-z-f/",
-      "title": "The Root N Z F",
-      "summary": "Draining; also losing reason or strength through drink.",
-      "status": "preliminary"
+      "title": "Qur’anic Root N Z F (نَزَفَ)",
+      "summary": "Depletion, exhaustion, or loss of a reserve or capacity; in the drinking context, loss of reason and awareness.",
+      "status": "published"
     }
   },
   "n-z-gh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/n-z-gh/",
-      "title": "ریشهٔ ن ز غ",
-      "summary": "برانگیختن و در میان دیگران فساد و دشمنی افکندن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ن ز غ (نَزَغَ)",
+      "summary": "تحریک و برانگیختن آسیب‌رسان؛ به رفتار نادرست کشاندن یا میان اشخاص اختلاف و فساد افکندن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/n-z-gh/",
-      "title": "The Root N Z GH",
-      "summary": "Provoking or sowing discord and hostility.",
-      "status": "preliminary"
+      "title": "Qur’anic Root N Z GH (نَزَغَ)",
+      "summary": "Harmful provocation and incitement: prompting wrongful conduct or sowing discord and corruption between people.",
+      "status": "published"
     }
   },
   "n-z-l": {
@@ -15920,29 +15920,29 @@
   "r-b-sad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-b-sad/",
-      "title": "ریشهٔ ر ب ص",
-      "summary": "در انتظار ماندن و چشم به رویدادی داشتن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ب ص (رَبْص و تَرَبُّص)",
+      "summary": "انتظار کشیدن و درنگ در چشم‌داشتِ فرارسیدن زمان، وقوع رویداد یا تغییر وضعیت؛ نیک یا بد بودنِ انتظار از سیاق روشن می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-b-sad/",
-      "title": "The Root R B Ṣ",
-      "summary": "Waiting and watching for an event.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root R B Ṣ (rabṣ and tarabbuṣ)",
+      "summary": "Waiting and pausing in expectation of a time, event, or change in circumstances; context determines the ethical character of the expectation.",
+      "status": "published"
     }
   },
   "r-b-tt": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-b-tt/",
-      "title": "ریشهٔ ر ب ط",
-      "summary": "بستن و محکم کردن؛ رباط و مرابطه: آمادگی و پایداری در جایگاه.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ب ط (رَبْط)",
+      "summary": "بستن، محکم کردن و استوار نگه داشتن؛ در کاربردهای قرآنی، استواری دل و حفظ آمادگی و مراقبت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-b-tt/",
-      "title": "The Root R B Ṭ",
-      "summary": "Tying or securing; ribāṭ and murābaṭah involve readiness and steadfast stationing.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root R B Ṭ (rabṭ)",
+      "summary": "Binding, securing, and holding firm; Qur’anic uses include strengthening the heart and maintaining readiness and vigilance.",
+      "status": "published"
     }
   },
   "r-b-w": {
@@ -16410,15 +16410,15 @@
   "r-j-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-j-s/",
-      "title": "ریشهٔ ر ج س",
-      "summary": "پلیدی و آلودگی مادی یا معنوی، بر حسب سیاق.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ج س (رِجْس)",
+      "summary": "آلودگی و پلیدی، یا چیزی که ناپاک و ناپسند شمرده می‌شود؛ در سیاق‌های مختلف، محسوس، رفتاری و درونی، یا مربوط به پیامد و کیفر.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-j-s/",
-      "title": "The Root R J S",
-      "summary": "Physical or moral uncleanness, according to context.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root R J S (rijs)",
+      "summary": "Defilement and impurity, or something regarded as unclean and objectionable; context may concern tangible things, conduct, inner states, or a punishing consequence.",
+      "status": "published"
     }
   },
   "r-j-w": {
@@ -22458,15 +22458,15 @@
   "y-a-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/y-a-s/",
-      "title": "ریشهٔ ي أ س",
-      "summary": "ناامید شدن و قطع امید.",
-      "status": "preliminary"
+      "title": "ریشهٔ ی أ س (یَأْس)",
+      "summary": "بریدن امید و از دست دادن انتظارِ تحقق چیزی؛ استیأس، نومید شدن یا رسیدن به نومیدی؛ یئوس، وصف برجستهٔ نومیدی. در رعد ۱۳:۳۱، دانستن و روشن شدن نیز به‌عنوان خوانشی اختلافی مطرح است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/y-a-s/",
-      "title": "The Root Y A S",
-      "summary": "Despairing or giving up hope.",
-      "status": "preliminary"
+      "title": "The Root Y ʾ S (yaʾs)",
+      "summary": "Giving up hope or ceasing to expect an outcome. Istayʾasa means losing or reaching the end of hope; yaʾūs makes despair prominent. Knowing or becoming aware is a disputed contextual reading in Al-Raʿd 13:31.",
+      "status": "published"
     }
   },
   "y-b-s": {
@@ -22500,43 +22500,43 @@
   "y-m-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/y-m-m/",
-      "title": "ریشهٔ ي م م",
-      "summary": "قصد و رو آوردن؛ تیمّم: به قصد چیزی رفتن؛ یمّ: دریا یا آب پهناور، در شاخه‌ای دیگر.",
-      "status": "preliminary"
+      "title": "ریشهٔ ي م م (یَمّ)",
+      "summary": "دو شاخهٔ معنایی: قصد کردن، هدف قرار دادن و روی‌آوردن؛ و یَمّ، پهنهٔ بزرگ آب مانند دریا یا رود بزرگ. تیمم در آیات طهارت با دستور جداگانهٔ مسح همراه است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/y-m-m/",
-      "title": "The Root Y M M",
-      "summary": "Intending or directing oneself; tayammum means aiming for; yamm is a sea or great body of water in another branch.",
-      "status": "preliminary"
+      "title": "The Root Y M M (yamm)",
+      "summary": "Two semantic branches: intending, targeting, or turning toward; and yamm, a great body of water such as a sea or great river. Purification passages pair tayammum with a separate wiping instruction.",
+      "status": "published"
     }
   },
   "y-m-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/y-m-n/",
-      "title": "ریشهٔ ي م ن",
-      "summary": "سمت راست و دست راست؛ یمین: سوگند؛ نیز یُمن و نیک‌فرجامی.",
-      "status": "preliminary"
+      "title": "ریشهٔ ي م ن (یُمْن و یَمِین)",
+      "summary": "دست راست و جانب راست؛ و در کاربردهای مرتبط، سوگند و پیمان، توانایی و اختیار، و فرخندگی. معنای هر صورت از ساخت و سیاق آن شناخته می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/y-m-n/",
-      "title": "The Root Y M N",
-      "summary": "The right side or hand; yamīn is an oath; also good fortune or blessing.",
-      "status": "preliminary"
+      "title": "Root Y M N (yumn and yamīn)",
+      "summary": "The right hand and right side; related uses concern oaths and covenants, ability and control, and good fortune. Each form’s meaning follows its construction and context.",
+      "status": "published"
     }
   },
   "y-n-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/y-n-ayn/",
-      "title": "ریشهٔ ي ن ع",
-      "summary": "رسیدن و پختگی میوه.",
-      "status": "preliminary"
+      "title": "ریشهٔ ي ن ع (یَنْع)",
+      "summary": "رسیدن و پختگی میوه؛ در کاربردهای گسترش‌یافته، سرخیِ پررنگ و آمادگی. در قرآن، رسیدگیِ میوه پس از میوه دادن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/y-n-ayn/",
-      "title": "The Root Y N AYN (Y N ʿ)",
-      "summary": "Ripening or maturity of fruit.",
-      "status": "preliminary"
+      "title": "Root Y N ʿ (yanʿ)",
+      "summary": "Fruit ripening and maturity; extended uses concern deep redness and readiness. In the Qur’an, the fruit’s ripening after fruit bearing.",
+      "status": "published"
     }
   },
   "y-q-n": {
@@ -22556,15 +22556,15 @@
   "y-q-zha": {
     "fa": {
       "url": "/quran-terminology/fa/roots/y-q-zha/",
-      "title": "ریشهٔ ي ق ظ",
-      "summary": "بیداری و هشیاری.",
-      "status": "preliminary"
+      "title": "ریشهٔ ي ق ظ (یَقَظ)",
+      "summary": "بیداری در برابر خواب؛ در کاربردهای توسعه‌یافته، هوشیاری، توجه و مراقبت. أَيْقَاظ، جمعِ بیداران است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/y-q-zha/",
-      "title": "The Root Y Q Ẓ",
-      "summary": "Wakefulness or alertness.",
-      "status": "preliminary"
+      "title": "The Root Y Q Ẓ (yaqaẓ)",
+      "summary": "Wakefulness rather than sleep; extended uses include alertness, attention, and care. Ayqāẓ is a plural denoting people who are awake.",
+      "status": "published"
     }
   },
   "y-s-r": {
