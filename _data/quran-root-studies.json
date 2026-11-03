@@ -4930,15 +4930,15 @@
   "dh-y-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dh-y-ayn/",
-      "title": "ریشهٔ ذ ي ع",
-      "summary": "پراکندن و منتشر ساختن خبر.",
-      "status": "preliminary"
+      "title": "ریشهٔ ذ ي ع (ذَاعَ)",
+      "summary": "آشکار شدن و انتشار یافتن؛ أَذَاعَ: منتشر کردن و فاش ساختن خبر یا موضوع؛ در برخی کاربردها، پراکندن یا از میان بردن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dh-y-ayn/",
-      "title": "The Root DH Y AYN (DH Y ʿ)",
-      "summary": "Spreading or broadcasting news.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root DH Y ʿ (dhāʿa)",
+      "summary": "Becoming apparent and spreading; adhāʿa means circulating or disclosing news or a matter, with some uses involving dispersal or removal.",
+      "status": "published"
     }
   },
   "f-a-d": {
@@ -15962,15 +15962,15 @@
   "r-d-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-d-a/",
-      "title": "ریشهٔ ر د أ",
-      "summary": "پشتیبان و یاری‌رسان؛ در شاخه‌ای دیگر، پستی و نامرغوبی.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر د أ (رِدْء)",
+      "summary": "پشتیبانی، یاری و تقویت دیگری؛ رِدْء شخص یا وسیلهٔ پشتیبان است. شاخهٔ جداگانهٔ رَدِيء و رَدَاءَة به نامرغوبی و فساد مربوط می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-d-a/",
-      "title": "The Root R D A",
-      "summary": "A supporter or helper; in another branch, inferiority or poor quality.",
-      "status": "preliminary"
+      "title": "Root R D ʾ (ridʾ)",
+      "summary": "Support, assistance, and strengthening another; ridʾ is a supporter or supporting means. The distinct radīʾ and radāʾah branch concerns poor quality and corruption.",
+      "status": "published"
     }
   },
   "r-d-d": {
@@ -15990,43 +15990,43 @@
   "r-d-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-d-f/",
-      "title": "ریشهٔ ر د ف",
-      "summary": "در پی آمدن و پشت سر دیگری قرار گرفتن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر د ف (رَدْف)",
+      "summary": "از پی آمدن، پشت سر قرار گرفتن و پیاپی شدن؛ رابطه‌ای مکانی یا زمانی که در بعضی سیاق‌ها نزدیک شدنِ رخدادِ ازپی‌رسنده را نیز بیان می‌کند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-d-f/",
-      "title": "The Root R D F",
-      "summary": "Following after or coming behind another.",
-      "status": "preliminary"
+      "title": "Root R D F (radf)",
+      "summary": "Following after, being behind, and succession; a spatial or temporal relationship that can also express the approach of a following event in context.",
+      "status": "published"
     }
   },
   "r-d-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-d-m/",
-      "title": "ریشهٔ ر د م",
-      "summary": "بستن شکاف و ساختن سد و مانع.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر د م (رَدْم)",
+      "summary": "بستن شکاف و پر کردن گشودگی؛ ردم: عمل بستن یا مانعِ ساخته‌شده برای بستن گذرگاه؛ در کاربرد لباس، وصله و ترمیم.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-d-m/",
-      "title": "The Root R D M",
-      "summary": "Closing a breach and building a barrier.",
-      "status": "preliminary"
+      "title": "Root R D M (radm)",
+      "summary": "Closing breaches and filling openings; radm names the closing act or a barrier built to block a passage; in clothing usage, patching and repair.",
+      "status": "published"
     }
   },
   "r-d-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-d-y/",
-      "title": "ریشهٔ ر د ي",
-      "summary": "سقوط و هلاکت؛ تردّی: فرو افتادن یا به نابودی رسیدن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر د ي (رَدَى)",
+      "summary": "فروافتادن و هلاکت؛ رَدِيَ: هلاک شدن؛ أَرْدَى: به هلاکت کشاندن؛ تَرَدَّى: سقوط یا به تباهی افتادن؛ در شاخه‌های دیگر، پرتاب و حرکت پرشتاب.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-d-y/",
-      "title": "The Root R D Y",
-      "summary": "Falling and perishing; taraddī means falling down or coming to ruin.",
-      "status": "preliminary"
+      "title": "Root R D Y (radā)",
+      "summary": "Falling and perishing; radiya: to perish; ardā: to cause to perish; taraddā: to fall or come to ruin; other branches concern throwing and rapid movement.",
+      "status": "published"
     }
   },
   "r-dad-ayn": {
@@ -16060,15 +16060,15 @@
   "r-dh-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-dh-l/",
-      "title": "ریشهٔ ر ذ ل",
-      "summary": "پست‌تر و کم‌ارزش‌تر شمرده شدن؛ ارذل العمر: فرسوده‌ترین دوره عمر.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ذ ل (رَذْل)",
+      "summary": "فرودستی و نامرغوبیِ مرتبه یا کیفیت؛ در سخن مخالفان نوح، تحقیر اجتماعی پیروان؛ «أرذل العمر»: فرسوده‌ترین وضعیت عمر از نظر کاهش توانایی‌ها، نه ارزش اخلاقی شخص.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-dh-l/",
-      "title": "The Root R DH L",
-      "summary": "Being deemed low or inferior; ardhal al-ʿumur denotes extreme, declining old age.",
-      "status": "preliminary"
+      "title": "Root R DH L (radhl)",
+      "summary": "Inferiority in rank or quality; in Noah’s opponents’ speech, social contempt toward his followers; ardhal al-ʿumur: life’s most diminished condition in ability, not the person’s moral worth.",
+      "status": "published"
     }
   },
   "r-f-ayn": {
@@ -16200,29 +16200,29 @@
   "r-h-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-h-b/",
-      "title": "ریشهٔ ر ح ب",
-      "summary": "گستردگی و فراخی؛ مرحبا: خوشامدگویی.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ح ب (رَحْب)",
+      "summary": "فراخی، گشادگی و وسیع بودن؛ «مَرْحَبًا» خوشامدگویی و پذیرش است و در قرآن با نفی، به ناخوشامدگویی تبدیل می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-h-b/",
-      "title": "The Root R Ḥ B",
-      "summary": "Breadth or spaciousness; marḥaban expresses welcome.",
-      "status": "preliminary"
+      "title": "The root R Ḥ B (raḥb)",
+      "summary": "Breadth, spaciousness, and being wide; marḥaban expresses welcome and reception, negated in the Qur’an to reject a welcome.",
+      "status": "published"
     }
   },
   "r-h-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-h-l/",
-      "title": "ریشهٔ ر ح ل",
-      "summary": "بار و سازوبرگ سفر؛ کوچ و سفر کردن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ح ل (رَحْل، رِحْلَة)",
+      "summary": "کوچ و سفر کردن؛ بستن سازوبرگ بر مرکب؛ رَحْل: وسیلهٔ سواری، بار و اثاث همراه مسافر و در برخی کاربردها منزل و مأوا.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-h-l/",
-      "title": "The Root R Ḥ L",
-      "summary": "Travel baggage or equipment; journeying or departing.",
-      "status": "preliminary"
+      "title": "Root R Ḥ L (raḥl, riḥlah)",
+      "summary": "Departure and travel; saddling a mount; raḥl denotes riding equipment, a traveler’s baggage and belongings, and in some uses a dwelling or shelter.",
+      "status": "published"
     }
   },
   "r-h-m": {
@@ -16242,15 +16242,15 @@
   "r-h-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-h-q/",
-      "title": "ریشهٔ ر ح ق",
-      "summary": "رحیق: نوشیدنی گوارا و ناب، در وصف نعمت بهشتی.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ح ق (رَحِيق)",
+      "summary": "رحيق: نوشیدنی ناب و برگزیده؛ در عربی کهن از نام‌های بادهٔ مرغوب، با کاربردهای وصفیِ خلوص.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-h-q/",
-      "title": "The Root R Ḥ Q",
-      "summary": "Raḥīq is a pure, delightful drink in descriptions of heavenly blessing.",
-      "status": "preliminary"
+      "title": "Root R Ḥ Q (raḥīq)",
+      "summary": "Raḥīq: a pure, choice drink; an early Arabic name for fine wine, with adjectival uses expressing purity.",
+      "status": "published"
     }
   },
   "r-h2-b": {
@@ -16354,57 +16354,57 @@
   "r-j-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-j-f/",
-      "title": "ریشهٔ ر ج ف",
-      "summary": "لرزیدن و اضطراب؛ ارجاف: پراکندن خبرهای هراس‌آور.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ج ف (رَجْف)",
+      "summary": "لرزش و اضطراب و جنبش ناآرام؛ إرجاف در شاخهٔ اجتماعی، خبرپراکنی بی‌پایه و آشوب‌انگیز که آرامش مردم را برهم می‌زند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-j-f/",
-      "title": "The Root R J F",
-      "summary": "Trembling and disturbance; irjāf is spreading alarming reports.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root R J F (rajf)",
+      "summary": "Trembling, agitation, and unsettled movement; social irjāf concerns baseless, destabilizing reports that disturb people’s calm.",
+      "status": "published"
     }
   },
   "r-j-j": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-j-j/",
-      "title": "ریشهٔ ر ج ج",
-      "summary": "تکان شدید دادن و به لرزه درآوردن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ج ج (رَجّ)",
+      "summary": "تکان‌دادن و به لرزش یا اضطراب درآوردن؛ در آیه، تکان شدید زمین با فعل مجهول و مصدر تأکیدی بیان می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-j-j/",
-      "title": "The Root R J J",
-      "summary": "Shaking or jolting violently.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root R J J (rajj)",
+      "summary": "Shaking and causing trembling or agitation; the verse describes the earth’s violent shaking with a passive verb and emphatic verbal noun.",
+      "status": "published"
     }
   },
   "r-j-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-j-l/",
-      "title": "ریشهٔ ر ج ل",
-      "summary": "مرد؛ نیز پا و پیاده رفتن، در صورت‌های متفاوت واژه.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ج ل (رَجُل، رِجْل)",
+      "summary": "مرد؛ پا؛ و پیاده‌رفتن و پیادگان در شاخه‌های متمایز. معنای هر صورت از ساختمان واژه و سیاق شناخته می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-j-l/",
-      "title": "The Root R J L",
-      "summary": "A man; also a foot and walking on foot, in different forms.",
-      "status": "preliminary"
+      "title": "The root R J L (rajul, rijl)",
+      "summary": "Man; foot or leg; and walking or people on foot in distinct branches. Each form’s meaning follows its structure and context.",
+      "status": "published"
     }
   },
   "r-j-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-j-m/",
-      "title": "ریشهٔ ر ج م",
-      "summary": "سنگ افکندن؛ رجم: نیز طرد کردن یا ادعای حدسی، بنا بر سیاق.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ج م (رَجْم)",
+      "summary": "سنگ‌افکندن و با سنگ هدف قرار دادن؛ در کاربردهای دیگر، تهدید، آزار زبانی، گمان‌پراکنی و طرد یا رانده‌شدن، متناسب با ساخت و سیاق.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-j-m/",
-      "title": "The Root R J M",
-      "summary": "Pelting with stones; also expelling or making conjectural claims, according to context.",
-      "status": "preliminary"
+      "title": "The root R J M (rajm)",
+      "summary": "Pelting and targeting with stones; in other usages, threats, verbal assault, conjectural speech, and exclusion or expulsion, according to form and context.",
+      "status": "published"
     }
   },
   "r-j-s": {
@@ -16424,15 +16424,15 @@
   "r-j-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-j-w/",
-      "title": "ریشهٔ ر ج و",
-      "summary": "امید و انتظار؛ نیز کناره و جانب؛ تأخیر انداختن در برخی صورت‌ها با «رجأ» بررسی می‌شود.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر ج و (رَجَاء، رَجَا)",
+      "summary": "امید و انتظار؛ رَجَا در شاخهٔ مکانی، کناره و جانب است. صورت‌های بدون همزهٔ تأخیر با إرجاء و ریشهٔ ر ج أ پیوند دارند و از امید جدا بررسی می‌شوند.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-j-w/",
-      "title": "The Root R J W",
-      "summary": "Hope or expectation; also an edge or side; postponement in some forms is also analyzed under r-j-ʾ.",
-      "status": "preliminary"
+      "title": "The root R J W (rajāʾ, rajā)",
+      "summary": "Hope and expectation; spatial rajā means an edge or side. Postponement forms without hamzah relate to irjāʾ and R J ʾ and are studied separately from hope.",
+      "status": "published"
     }
   },
   "r-j-z": {
@@ -16564,15 +16564,15 @@
   "r-kh-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-kh-w/",
-      "title": "ریشهٔ ر خ و",
-      "summary": "نرمی، آسودگی و وزش ملایم.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر خ و (رُخَاء)",
+      "summary": "نرمی، سستی و کاهش سختی یا کشیدگی؛ رُخَاء وصف وزش نرم و ملایم باد است؛ رَخَاء به آسانی و فراخی زندگی گفته می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-kh-w/",
-      "title": "The Root R KH W",
-      "summary": "Softness, ease, and gentle blowing.",
-      "status": "preliminary"
+      "title": "Root R KH W (rukhāʾ)",
+      "summary": "Softness, slackness, and reduced hardness or tension; rukhāʾ describes gentle wind, while rakhāʾ denotes ease of life and comfortable means.",
+      "status": "published"
     }
   },
   "r-m-d": {
@@ -16746,15 +16746,15 @@
   "r-s-kh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-s-kh/",
-      "title": "ریشهٔ ر س خ",
-      "summary": "استوار و ریشه‌دار شدن و ثبات یافتن.",
-      "status": "preliminary"
+      "title": "ریشهٔ ر س خ (رُسُوخ)",
+      "summary": "استوار شدن، جای گرفتن محکم و پابرجا ماندن؛ «راسخ در علم»: کسی که در دانش استواری و ورزیدگی یافته است، بدون دلالتِ خود واژه بر علم نامحدود یا خطاناپذیری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-s-kh/",
-      "title": "The Root R S KH",
-      "summary": "Becoming firmly established or deeply rooted.",
-      "status": "preliminary"
+      "title": "Root R S KH (rusūkh)",
+      "summary": "Becoming firmly established, securely settled, and steady; rāsikh in knowledge: someone proficient and firmly grounded in knowledge, without the word itself implying unlimited knowledge or infallibility.",
+      "status": "published"
     }
   },
   "r-s-l": {
