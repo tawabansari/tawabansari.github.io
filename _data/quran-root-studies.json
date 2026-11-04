@@ -12854,15 +12854,15 @@
   "m-s-k": {
     "fa": {
       "url": "/quran-terminology/fa/roots/m-s-k/",
-      "title": "ریشهٔ م س ك",
-      "summary": "گرفتن، نگه داشتن و محکم چنگ زدن.",
-      "status": "preliminary"
+      "title": "ریشه م س ک؛ نگه داشتن، بازداشتن و چنگ زدن به آنچه رها نمی‌شود",
+      "summary": "گرفتن و نگه داشتن؛ بازداشتن از رها شدن یا از دست رفتن؛ چنگ زدن و پایبندی. «مِسک» در شاخه‌ای جدا، مشک خوشبوست.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/m-s-k/",
-      "title": "The Root M S K",
-      "summary": "Grasping, retaining, or holding firmly.",
-      "status": "preliminary"
+      "title": "Root M S K: holding, withholding, and holding fast",
+      "summary": "Taking and holding; preventing release or loss; grasping and adhering. In a separate lexical branch, misk means fragrant musk.",
+      "status": "published"
     }
   },
   "m-s-kh": {
@@ -16480,15 +16480,15 @@
   "r-k-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-k-d/",
-      "title": "ریشهٔ ر ك د",
-      "summary": "ساکن و بی‌حرکت ماندن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ر ك د (رُكود)",
+      "summary": "آرام گرفتن، ثابت ماندن و بازایستادن از حرکت، جریان یا فعالیت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-k-d/",
-      "title": "The Root R K D",
-      "summary": "Remaining still or motionless.",
-      "status": "preliminary"
+      "title": "Qur’anic root R K D (rukūd)",
+      "summary": "Becoming still, remaining fixed, and ceasing movement, flow, or activity.",
+      "status": "published"
     }
   },
   "r-k-dad": {
@@ -16536,29 +16536,29 @@
   "r-k-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-k-s/",
-      "title": "ریشهٔ ر ك س",
-      "summary": "واژگون کردن و به حالت پیشین بازگرداندن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ر ك س (رَكْس)",
+      "summary": "واژگون کردن و برگرداندن؛ بازگرداندن به وضعیتی پیشین و، در برخی کاربردها، گرفتار شدن دوباره در آن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-k-s/",
-      "title": "The Root R K S",
-      "summary": "Overturning or returning to a former condition.",
-      "status": "preliminary"
+      "title": "Qur’anic root R K S (raks)",
+      "summary": "Overturning and turning back; returning to a former condition and, in some uses, becoming caught in it again.",
+      "status": "published"
     }
   },
   "r-k-z": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-k-z/",
-      "title": "ریشهٔ ر ك ز",
-      "summary": "فرو نشاندن یا در زمین نهادن؛ رِکز: صدای بسیار آهسته.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ر ك ز (رِكْز)",
+      "summary": "صدای خفیف؛ و در شاخه‌ای دیگر، فرو نشاندن و استوار کردن چیزی در جایگاه، تکیه کردن و استقرار.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-k-z/",
-      "title": "The Root R K Z",
-      "summary": "Planting or setting down; rikz is a faint sound.",
-      "status": "preliminary"
+      "title": "Qur’anic root R K Z (rikz)",
+      "summary": "A faint sound; in another branch, planting and securing something in place, leaning, and stationing.",
+      "status": "published"
     }
   },
   "r-kh-w": {
@@ -18160,15 +18160,15 @@
   "s-r-h": {
     "fa": {
       "url": "/quran-terminology/fa/roots/s-r-h/",
-      "title": "ریشهٔ س ر ح",
-      "summary": "رها کردن و روانه ساختن؛ درباره دام، به چرا فرستادن.",
-      "status": "preliminary"
+      "title": "ریشهٔ س ر ح (سَرْح)",
+      "summary": "روانه شدن و روانه کردن، رها ساختن و گشودن راه حرکت؛ به چرا فرستادن دام و رها کردن پیوند زناشویی بر پایهٔ سیاق.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/s-r-h/",
-      "title": "The Root S R Ḥ",
-      "summary": "Releasing or sending forth; of livestock, sending to pasture.",
-      "status": "preliminary"
+      "title": "Root S R Ḥ (sarḥ)",
+      "summary": "Going or sending forth, releasing, and opening the way for movement; sending livestock to pasture or releasing a marital bond, according to context.",
+      "status": "published"
     }
   },
   "s-r-j": {
