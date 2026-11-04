@@ -2034,5 +2034,59 @@
       "Migration",
       "Refuge"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/maruf-munkar-and-fahsha-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "معروف، منکر و فحشا",
+    "description": "شناخت معروف، منکر و فحشا با ۱۳۷ اصل و نمونه‌های کاربردی؛ تمایز اصول و حدود قرآنی از عرف، رسوم و روش‌های متغیر انسانی.",
+    "related": [
+      "/fa/quran-terminology/halal-and-haram-in-the-quran/",
+      "/fa/quran-completeness/inherited-tradition-and-revelation/",
+      "/fa/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/fa/articles/salat-in-the-quran/"
+    ],
+    "format": "study",
+    "aliases": [
+      "معروف",
+      "منکر",
+      "فحشا",
+      "عرف",
+      "Ma‘ruf",
+      "Maruf",
+      "Munkar",
+      "Fahsha",
+      "Custom",
+      "Qur’anic principles"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/maruf-munkar-and-fahsha-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Ma‘ruf, munkar, and fahsha",
+    "description": "Understanding recognized good, wrongdoing, and grave indecency through 137 principles and practical examples, distinguishing Qur’anic boundaries from changing customs.",
+    "related": [
+      "/en/quran-terminology/halal-and-haram-in-the-quran/",
+      "/en/quran-completeness/inherited-tradition-and-revelation/",
+      "/en/quran-terminology/din-islam-and-shariah-in-the-quran/",
+      "/en/articles/salat-in-the-quran/"
+    ],
+    "format": "study",
+    "aliases": [
+      "معروف",
+      "منکر",
+      "فحشا",
+      "عرف",
+      "Ma‘ruf",
+      "Maruf",
+      "Munkar",
+      "Fahsha",
+      "Custom",
+      "Qur’anic principles"
+    ]
   }
 ]
