@@ -21,3 +21,5 @@ Evidence is re-extracted from the built Forqan chapter on every build, including
 The shared reading controller retains scroll and open details per history entry, with back/forward and a history selector. Choosing a new entry after going back discards the forward branch. Desktop inline selection is click-only; phones retain the modal. Global navigation exclusions are unchanged.
 
 November follow-up: Persian evidence translations are centered; localized aliases appear inline with the heading. The reader toolbar owns copy/current-page PDF/print controls while embedded principle tools are hidden. Return-to-text restores the directory-selected principle and its reading position; Close dismisses the reader. Public Tanzil attribution is in the shared site footer, with source comments and independent export attribution retained.
+
+The introductory overview is collapsed by default in both languages, separately from the ongoing-study note. Titles use «اصل » / “The Principle of ” in data and page metadata; alphabetical sorting ignores these prefixes and aliases. Permanent IDs and URLs are unchanged.
