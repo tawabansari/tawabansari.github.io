@@ -1,0 +1,46 @@
+{
+  "id": "avoiding-blind-imitation",
+  "source": 12,
+  "polarity": "negative",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      2,
+      170
+    ],
+    [
+      5,
+      104
+    ],
+    [
+      43,
+      22
+    ],
+    [
+      43,
+      23
+    ],
+    [
+      43,
+      24
+    ]
+  ],
+  "primary": [
+    2,
+    170
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل پرهیز از تقلید کورکورانه",
+    "aliases": "",
+    "description": "پیروی از نیاکان و بزرگان، تنها به سبب جایگاه و قدمت آنان، معیار شناخت حق نیست."
+  },
+  "en": {
+    "title": "The Principle of Avoiding blind imitation",
+    "aliases": "",
+    "description": "Following ancestors or prominent people merely because of their standing or antiquity is not a criterion of truth."
+  },
+  "reading_order": 15
+}

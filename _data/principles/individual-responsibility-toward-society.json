@@ -1,0 +1,34 @@
+{
+  "id": "individual-responsibility-toward-society",
+  "source": 94,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      103,
+      3
+    ],
+    [
+      3,
+      104
+    ]
+  ],
+  "primary": [
+    3,
+    104
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل مسئولیت فرد در برابر جامعه",
+    "aliases": "",
+    "description": "انسان نباید تنها به منافع خود بیندیشد؛ بلکه باید در خیر و اصلاح جامعه نیز سهم داشته باشد."
+  },
+  "en": {
+    "title": "The Principle of Individual responsibility toward society",
+    "aliases": "",
+    "description": "People should contribute to the welfare and reform of society, beyond their own interests."
+  },
+  "reading_order": 60
+}

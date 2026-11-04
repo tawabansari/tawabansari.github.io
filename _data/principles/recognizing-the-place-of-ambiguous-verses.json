@@ -1,0 +1,33 @@
+{
+  "id": "recognizing-the-place-of-ambiguous-verses",
+  "source": 4,
+  "polarity": "positive",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      3,
+      7
+    ]
+  ],
+  "primary": [
+    3,
+    7
+  ],
+  "related": [
+    "the-authority-of-clear-foundational-verses",
+    "reflection-and-reading-verses-together"
+  ],
+  "fa": {
+    "title": "اصل شناخت جایگاه متشابهات",
+    "aliases": "",
+    "description": "وجود متشابهات در قرآن، مجوز ساختن عقاید قطعی از معانی احتمالی نیست. قرآن پیروی فتنه‌جویانه از متشابهات را نکوهش می‌کند."
+  },
+  "en": {
+    "title": "The Principle of Recognizing the place of ambiguous verses",
+    "aliases": "",
+    "description": "The presence of ambiguous verses does not justify turning possible meanings into certain doctrines. The Quran criticizes pursuing ambiguity to create discord."
+  },
+  "reading_order": 7
+}

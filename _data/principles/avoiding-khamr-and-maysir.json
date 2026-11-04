@@ -1,0 +1,38 @@
+{
+  "id": "avoiding-khamr-and-maysir",
+  "source": 131,
+  "polarity": "negative",
+  "categories": [
+    "creation"
+  ],
+  "refs": [
+    [
+      2,
+      219
+    ],
+    [
+      5,
+      90
+    ],
+    [
+      5,
+      91
+    ]
+  ],
+  "primary": [
+    5,
+    90
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل پرهیز از خمر و میسر",
+    "aliases": "مسکرات، قمار",
+    "description": "انسان نباید پوشاندن عقل یا کسب منفعت از راه میسر را شیوه مطلوب زندگی و معیشت قرار دهد."
+  },
+  "en": {
+    "title": "The Principle of Avoiding khamr and maysir",
+    "aliases": "Intoxicants, gambling",
+    "description": "Clouding reason and seeking gains through maysir should not become accepted ways of living and earning."
+  },
+  "reading_order": 131
+}

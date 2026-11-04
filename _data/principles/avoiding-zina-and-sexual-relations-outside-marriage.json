@@ -1,0 +1,42 @@
+{
+  "id": "avoiding-zina-and-sexual-relations-outside-marriage",
+  "source": 116,
+  "polarity": "negative",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      17,
+      32
+    ],
+    [
+      4,
+      24
+    ],
+    [
+      4,
+      25
+    ],
+    [
+      5,
+      5
+    ]
+  ],
+  "primary": [
+    17,
+    32
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل دوری از زنا و روابط جنسی خارج از نکاح",
+    "aliases": "",
+    "description": "قرآن از نزدیک شدن به زنا نهی کرده و پیوند زناشویی را از «سفاح» متمایز ساخته است."
+  },
+  "en": {
+    "title": "The Principle of Avoiding zina and sexual relations outside marriage",
+    "aliases": "",
+    "description": "The Quran prohibits approaching zina and distinguishes marriage from illicit sexual relations."
+  },
+  "reading_order": 116
+}

@@ -1,0 +1,38 @@
+{
+  "id": "peace-and-reconciliation",
+  "source": 99,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      8,
+      61
+    ],
+    [
+      49,
+      9
+    ],
+    [
+      49,
+      10
+    ]
+  ],
+  "primary": [
+    8,
+    61
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل صلح و اصلاح اختلافات",
+    "aliases": "آشتی",
+    "description": "هنگامی که راه واقعی صلح و اصلاح فراهم است، دشمنی نباید بی‌دلیل ادامه یابد."
+  },
+  "en": {
+    "title": "The Principle of Peace and reconciliation",
+    "aliases": "Reconciliation",
+    "description": "Where a genuine path to peace and reconciliation exists, hostility should not continue without grounds."
+  },
+  "reading_order": 100
+}

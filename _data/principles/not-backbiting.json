@@ -1,0 +1,30 @@
+{
+  "id": "not-backbiting",
+  "source": 57,
+  "polarity": "negative",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      49,
+      12
+    ]
+  ],
+  "primary": [
+    49,
+    12
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل غیبت نکردن",
+    "aliases": "",
+    "description": "قرآن از غیبت نهی کرده و آن را با تصویری بسیار نکوهیده بیان می‌کند. انسان نباید در غیاب دیگری، درباره عیب‌ها و امور شخصی او سخنی بگوید که موجب بدنامی و تحقیر او شود."
+  },
+  "en": {
+    "title": "The Principle of Not backbiting",
+    "aliases": "",
+    "description": "The Quran strongly condemns backbiting. Speaking of another’s faults or private affairs in their absence to disgrace or demean them violates this principle."
+  },
+  "reading_order": 72
+}

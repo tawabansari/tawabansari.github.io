@@ -1,0 +1,38 @@
+{
+  "id": "protecting-orphans-rights",
+  "source": 92,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      10
+    ],
+    [
+      6,
+      152
+    ]
+  ],
+  "primary": [
+    4,
+    2
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل پاسداری از حقوق یتیمان",
+    "aliases": "",
+    "description": "مال و حقوق کودکان بی‌سرپرست باید با امانت‌داری حفظ شوند."
+  },
+  "en": {
+    "title": "The Principle of Protecting orphans’ rights",
+    "aliases": "",
+    "description": "The property and rights of children without parental protection must be safeguarded faithfully."
+  },
+  "reading_order": 94
+}

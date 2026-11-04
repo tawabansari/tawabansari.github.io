@@ -1,0 +1,44 @@
+{
+  "id": "encouraging-right",
+  "source": 101,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      3,
+      104
+    ],
+    [
+      9,
+      71
+    ],
+    [
+      2,
+      256
+    ],
+    [
+      49,
+      12
+    ]
+  ],
+  "primary": [
+    3,
+    104
+  ],
+  "related": [
+    "discouraging-wrong"
+  ],
+  "fa": {
+    "title": "اصل امر به معروف",
+    "aliases": "",
+    "description": "افراد جامعه باید به خیر و اصلاح دعوت کنند و در برابر بدی بی‌تفاوت نباشند؛ اما این مسئولیت مجوز اکراه عقیدتی، تجسس یا تجاوز به حقوق دیگران نیست."
+  },
+  "en": {
+    "title": "The Principle of Encouraging right",
+    "aliases": "",
+    "description": "People should invite goodness and reform rather than remain indifferent to wrongdoing. This responsibility does not authorize religious coercion, spying or violations of others’ rights."
+  },
+  "reading_order": 102
+}

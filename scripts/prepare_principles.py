@@ -2,10 +2,11 @@
 import html,json,re
 from pathlib import Path
 from library_content import Document,clean
+from principle_data import load_principles
 ROOT=Path(__file__).resolve().parent.parent
 
 def prepare(site):
-    records=json.loads((ROOT/'_data/quran-principles.json').read_text())
+    records=load_principles(ROOT)
     raw=(ROOT/'assets/js/quran-navigation-data.js').read_text()
     surahs={s['number']:s for s in json.loads(raw.split('=',1)[1].strip().rstrip(';'))}
     chapters={}; unavailable=[]
@@ -47,6 +48,8 @@ def prepare(site):
                 if ref in evidence:continue
                 c,_,exists=citation(ref,lang)
                 if not exists:unavailable.append((record['id'],lang,ref))
+                note=next((note[lang] for note in record.get('reference_notes',[]) if note['ref']==ref),None)
+                if note:c+=' — '+html.escape(note)
                 refs.append('<li>'+c+'</li>')
             other=('<span>'+('ارجاعات دیگر: ' if lang=='fa' else 'Further references: ')+'</span><ul class="principle-citations">'+''.join(refs)+'</ul>') if refs else ''
             if record.get('reference_groups'):

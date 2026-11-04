@@ -1,0 +1,38 @@
+{
+  "id": "responsibility-according-to-capacity",
+  "source": 39,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      2,
+      233
+    ],
+    [
+      2,
+      286
+    ],
+    [
+      65,
+      7
+    ]
+  ],
+  "primary": [
+    2,
+    286
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل تکلیف به اندازه توان",
+    "aliases": "",
+    "description": "مسئولیت انسان باید با توان واقعی و شرایط او سنجیده شود."
+  },
+  "en": {
+    "title": "The Principle of Responsibility according to capacity",
+    "aliases": "",
+    "description": "Responsibility should be assessed in relation to real capacity and circumstances."
+  },
+  "reading_order": 53
+}

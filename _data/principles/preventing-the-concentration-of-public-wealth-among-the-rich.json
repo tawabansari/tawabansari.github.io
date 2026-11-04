@@ -1,0 +1,30 @@
+{
+  "id": "preventing-the-concentration-of-public-wealth-among-the-rich",
+  "source": 89,
+  "polarity": "negative",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      59,
+      7
+    ]
+  ],
+  "primary": [
+    59,
+    7
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل جلوگیری از محصور شدن اموال عمومی میان ثروتمندان",
+    "aliases": "",
+    "description": "قرآن در تقسیم اموال فیء، از محصور شدن آن میان ثروتمندان نهی می‌کند."
+  },
+  "en": {
+    "title": "The Principle of Preventing the concentration of public wealth among the rich",
+    "aliases": "",
+    "description": "In discussing the distribution of fay, the Quran warns against wealth circulating only among the rich."
+  },
+  "reading_order": 91
+}

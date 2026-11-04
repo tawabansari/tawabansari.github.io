@@ -1,0 +1,60 @@
+{
+  "id": "respecting-employment-agreements-and-workers-rights",
+  "source": 87,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      28,
+      25
+    ],
+    [
+      28,
+      26
+    ],
+    [
+      28,
+      27
+    ],
+    [
+      28,
+      28
+    ],
+    [
+      5,
+      1
+    ]
+  ],
+  "primary": [
+    28,
+    25
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل رعایت قرارداد کار و حقوق کارکنان",
+    "aliases": "",
+    "description": "همکاری و استخدام باید بر توافق روشن، امانت و رعایت حقوق طرفین استوار باشند."
+  },
+  "en": {
+    "title": "The Principle of Respecting employment agreements and workers’ rights",
+    "aliases": "",
+    "description": "Work and cooperation should rest on clear agreement, trust and respect for the rights of both parties."
+  },
+  "evidence": [
+    [
+      28,
+      26
+    ],
+    [
+      28,
+      27
+    ],
+    [
+      28,
+      28
+    ]
+  ],
+  "reading_order": 89
+}

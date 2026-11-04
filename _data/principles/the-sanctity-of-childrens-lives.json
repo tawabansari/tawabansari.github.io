@@ -1,0 +1,42 @@
+{
+  "id": "the-sanctity-of-childrens-lives",
+  "source": 54,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      6,
+      151
+    ],
+    [
+      17,
+      31
+    ],
+    [
+      81,
+      8
+    ],
+    [
+      81,
+      9
+    ]
+  ],
+  "primary": [
+    17,
+    31
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل حرمت جان فرزندان",
+    "aliases": "",
+    "description": "فقر، ترس از آینده یا ترجیح پسر بر دختر، مجوز کشتن فرزند نیست."
+  },
+  "en": {
+    "title": "The Principle of The sanctity of children’s lives",
+    "aliases": "",
+    "description": "Poverty, fear of the future and preference for sons do not justify killing children."
+  },
+  "reading_order": 33
+}

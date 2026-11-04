@@ -1,0 +1,34 @@
+{
+  "id": "consultation-and-reconciliation-in-family-disputes",
+  "source": 124,
+  "polarity": "positive",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      2,
+      233
+    ],
+    [
+      4,
+      35
+    ]
+  ],
+  "primary": [
+    4,
+    35
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل مشورت و اصلاح اختلافات خانوادگی",
+    "aliases": "",
+    "description": "اختلافات خانوادگی باید تا جای ممکن با گفتگو، مشورت، داوری و رعایت حقوق طرفین حل شوند."
+  },
+  "en": {
+    "title": "The Principle of Consultation and reconciliation in family disputes",
+    "aliases": "",
+    "description": "Family disagreements should, as far as possible, be addressed through dialogue, consultation, mediation and respect for both parties’ rights."
+  },
+  "reading_order": 124
+}

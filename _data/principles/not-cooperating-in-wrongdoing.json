@@ -1,0 +1,32 @@
+{
+  "id": "not-cooperating-in-wrongdoing",
+  "source": 100,
+  "polarity": "negative",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      5,
+      2
+    ]
+  ],
+  "primary": [
+    5,
+    2
+  ],
+  "related": [
+    "cooperating-in-goodness"
+  ],
+  "fa": {
+    "title": "اصل همکاری نکردن در گناه و تجاوز",
+    "aliases": "",
+    "description": "همکاری در گناه و تجاوز به حقوق دیگران روا نیست."
+  },
+  "en": {
+    "title": "The Principle of Not cooperating in wrongdoing",
+    "aliases": "",
+    "description": "People must not cooperate in wrongdoing and aggression."
+  },
+  "reading_order": 101
+}

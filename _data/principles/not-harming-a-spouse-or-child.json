@@ -1,0 +1,38 @@
+{
+  "id": "not-harming-a-spouse-or-child",
+  "source": 122,
+  "polarity": "negative",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      2,
+      231
+    ],
+    [
+      2,
+      233
+    ],
+    [
+      65,
+      6
+    ]
+  ],
+  "primary": [
+    2,
+    231
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل زیان نرساندن به همسر و فرزند",
+    "aliases": "",
+    "description": "حقوق خانوادگی نباید وسیله انتقام و فشار شوند."
+  },
+  "en": {
+    "title": "The Principle of Not harming a spouse or child",
+    "aliases": "",
+    "description": "Family rights should not become instruments of revenge and pressure."
+  },
+  "reading_order": 122
+}

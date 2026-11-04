@@ -1,0 +1,36 @@
+{
+  "id": "freedom-of-belief",
+  "source": 45,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      18,
+      29
+    ],
+    [
+      109,
+      6
+    ]
+  ],
+  "primary": [
+    18,
+    29
+  ],
+  "related": [
+    "no-compulsion-in-religion"
+  ],
+  "fa": {
+    "title": "اصل آزادی عقیده و ایمان",
+    "aliases": "آزادی ایمان",
+    "description": "انسان در پذیرش یا رد ایمان صاحب انتخاب است و اختلاف عقیده به‌تنهایی مجوز تجاوز به حقوق او نیست."
+  },
+  "en": {
+    "title": "The Principle of Freedom of belief",
+    "aliases": "Freedom of conscience",
+    "description": "People have a choice in accepting or rejecting faith. Difference of belief alone does not justify violating their rights."
+  },
+  "reading_order": 27
+}

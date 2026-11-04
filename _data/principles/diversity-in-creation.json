@@ -1,0 +1,34 @@
+{
+  "id": "diversity-in-creation",
+  "source": 48,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      30,
+      22
+    ],
+    [
+      49,
+      13
+    ]
+  ],
+  "primary": [
+    30,
+    22
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل تنوع در آفرینش",
+    "aliases": "",
+    "description": "تفاوت زبان‌ها، رنگ‌ها، اقوام و ملت‌ها از نشانه‌های آفرینش است؛ نه بهانه دشمنی و برتری‌جویی."
+  },
+  "en": {
+    "title": "The Principle of Diversity in creation",
+    "aliases": "",
+    "description": "Differences of language, color, peoples and nations are signs of creation, rather than grounds for hostility or claims of superiority."
+  },
+  "reading_order": 28
+}

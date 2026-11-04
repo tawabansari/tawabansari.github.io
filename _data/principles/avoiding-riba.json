@@ -1,0 +1,42 @@
+{
+  "id": "avoiding-riba",
+  "source": 88,
+  "polarity": "negative",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      2,
+      275
+    ],
+    [
+      2,
+      278
+    ],
+    [
+      2,
+      279
+    ],
+    [
+      2,
+      280
+    ]
+  ],
+  "primary": [
+    2,
+    275
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل پرهیز از ربا",
+    "aliases": "رباخواری",
+    "description": "انسان نباید نیاز مالی دیگران را به وسیله افزایش ربوی بدهی و بهره‌کشی تبدیل کند."
+  },
+  "en": {
+    "title": "The Principle of Avoiding riba",
+    "aliases": "Usury",
+    "description": "People should not turn others’ financial need into an opportunity for exploitative increases in debt."
+  },
+  "reading_order": 90
+}

@@ -1,0 +1,38 @@
+{
+  "id": "not-speaking-without-knowledge",
+  "source": 11,
+  "polarity": "negative",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      17,
+      36
+    ],
+    [
+      7,
+      33
+    ],
+    [
+      2,
+      169
+    ]
+  ],
+  "primary": [
+    17,
+    36
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل سخن نگفتن بدون علم",
+    "aliases": "",
+    "description": "انسان نباید چیزی را که نمی‌داند، به‌عنوان حقیقت قطعی بیان کند؛ به‌ویژه هنگامی که سخن او به خداوند نسبت داده می‌شود."
+  },
+  "en": {
+    "title": "The Principle of Not speaking without knowledge",
+    "aliases": "",
+    "description": "People should not present what they do not know as certain truth, especially when attributing a statement to The God."
+  },
+  "reading_order": 14
+}

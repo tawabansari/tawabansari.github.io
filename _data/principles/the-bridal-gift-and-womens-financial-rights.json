@@ -1,0 +1,42 @@
+{
+  "id": "the-bridal-gift-and-womens-financial-rights",
+  "source": 119,
+  "polarity": "positive",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      20
+    ],
+    [
+      4,
+      21
+    ],
+    [
+      2,
+      229
+    ]
+  ],
+  "primary": [
+    4,
+    4
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل مهر و حقوق مالی زن",
+    "aliases": "مهریه",
+    "description": "مهر از حقوق مالی زن است و مرد نمی‌تواند آن را خودسرانه بازپس گیرد."
+  },
+  "en": {
+    "title": "The Principle of The bridal gift and women’s financial rights",
+    "aliases": "Mahr",
+    "description": "The bridal gift belongs to the woman, and a man may not arbitrarily take it back."
+  },
+  "reading_order": 119
+}

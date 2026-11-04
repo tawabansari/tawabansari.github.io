@@ -1,0 +1,34 @@
+{
+  "id": "protecting-ones-life-and-health",
+  "source": 53,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      4,
+      29
+    ],
+    [
+      2,
+      195
+    ]
+  ],
+  "primary": [
+    4,
+    29
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل پاسداری از جان و سلامت خود",
+    "aliases": "",
+    "description": "انسان نباید آگاهانه خود را به نابودی بکشاند یا جان خویش را بی‌ارزش بداند."
+  },
+  "en": {
+    "title": "The Principle of Protecting one’s life and health",
+    "aliases": "",
+    "description": "People should not knowingly bring themselves to destruction or treat their lives as worthless."
+  },
+  "reading_order": 32
+}

@@ -1,0 +1,42 @@
+{
+  "id": "the-qurans-completeness-and-sufficiency-for-religious-guidance",
+  "source": 1,
+  "polarity": "positive",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      6,
+      114
+    ],
+    [
+      6,
+      115
+    ],
+    [
+      12,
+      111
+    ],
+    [
+      16,
+      89
+    ]
+  ],
+  "primary": [
+    6,
+    114
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل کامل و کافی بودن قرآن برای هدایت دینی",
+    "aliases": "",
+    "description": "قرآن خود را مرجع هدایت معرفی می‌کند. هیچ مجموعه بشری نمی‌تواند به نام تکمیل دین، احکام مستقل و الزام‌آوری را بر قرآن بیفزاید."
+  },
+  "en": {
+    "title": "The Principle of The Quran’s completeness and sufficiency for religious guidance",
+    "aliases": "",
+    "description": "The Quran presents itself as the reference for guidance. No human collection may add independent, binding religious rulings to it in the name of completing the religion."
+  },
+  "reading_order": 4
+}

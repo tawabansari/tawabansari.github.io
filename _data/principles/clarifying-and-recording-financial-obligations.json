@@ -1,0 +1,34 @@
+{
+  "id": "clarifying-and-recording-financial-obligations",
+  "source": 85,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      2,
+      282
+    ],
+    [
+      2,
+      283
+    ]
+  ],
+  "primary": [
+    2,
+    282
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل روشن ساختن و ثبت تعهدات مالی",
+    "aliases": "",
+    "description": "حقوق و تعهدات مالی باید تا جای ممکن روشن و قابل اثبات باشند."
+  },
+  "en": {
+    "title": "The Principle of Clarifying and recording financial obligations",
+    "aliases": "",
+    "description": "Financial rights and obligations should, as far as possible, be clear and verifiable."
+  },
+  "reading_order": 87
+}

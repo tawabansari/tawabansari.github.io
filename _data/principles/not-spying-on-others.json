@@ -1,0 +1,30 @@
+{
+  "id": "not-spying-on-others",
+  "source": 59,
+  "polarity": "negative",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      49,
+      12
+    ]
+  ],
+  "primary": [
+    49,
+    12
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل تجسس نکردن در امور دیگران",
+    "aliases": "",
+    "description": "انسان نباید برای یافتن عیب‌ها، اسرار و امور خصوصی دیگران، زندگی آنان را پنهانی جستجو کند."
+  },
+  "en": {
+    "title": "The Principle of Not spying on others",
+    "aliases": "",
+    "description": "The Quran explicitly prohibits spying. People should not secretly probe others’ lives for faults, secrets and private affairs."
+  },
+  "reading_order": 74
+}

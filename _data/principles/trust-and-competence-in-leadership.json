@@ -1,0 +1,38 @@
+{
+  "id": "trust-and-competence-in-leadership",
+  "source": 72,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      4,
+      58
+    ],
+    [
+      2,
+      124
+    ],
+    [
+      12,
+      55
+    ]
+  ],
+  "primary": [
+    4,
+    58
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل امانت و شایستگی در رهبری",
+    "aliases": "",
+    "description": "مسئولیت عمومی نباید تنها بر پایه نسب، ثروت و وفاداری گروهی واگذار شود."
+  },
+  "en": {
+    "title": "The Principle of Trust and competence in leadership",
+    "aliases": "",
+    "description": "Public responsibility should not be assigned merely on grounds of ancestry, wealth or partisan loyalty."
+  },
+  "reading_order": 37
+}

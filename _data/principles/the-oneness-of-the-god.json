@@ -1,0 +1,305 @@
+{
+  "id": "the-oneness-of-the-god",
+  "source": 20,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      6,
+      102
+    ],
+    [
+      2,
+      163
+    ],
+    [
+      16,
+      51
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      42,
+      11
+    ],
+    [
+      112,
+      1
+    ],
+    [
+      112,
+      2
+    ],
+    [
+      112,
+      3
+    ],
+    [
+      112,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      164
+    ],
+    [
+      7,
+      54
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      13,
+      16
+    ],
+    [
+      35,
+      3
+    ],
+    [
+      39,
+      62
+    ],
+    [
+      2,
+      107
+    ],
+    [
+      2,
+      257
+    ],
+    [
+      6,
+      14
+    ],
+    [
+      18,
+      44
+    ],
+    [
+      42,
+      9
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      3,
+      26
+    ],
+    [
+      23,
+      88
+    ],
+    [
+      67,
+      1
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      6,
+      162
+    ],
+    [
+      6,
+      163
+    ],
+    [
+      12,
+      40
+    ],
+    [
+      42,
+      21
+    ]
+  ],
+  "primary": [
+    6,
+    102
+  ],
+  "related": [
+    "not-associating-partners-with-the-god"
+  ],
+  "fa": {
+    "title": "اصل توحید",
+    "aliases": "یکتاپرستی، یگانگی خدا",
+    "description": "توحید، اصل یگانگی و بی‌همتایی خداوند در الوهیت و پرستش، ربوبیت و تدبیر، آفرینش و روزی‌رسانی، ولایت و کارسازی، مالکیت و فرمانروایی، و حکم و تشریع دین است. بر پایهٔ این اصل، هیچ‌کس در این جایگاه‌ها شریک و همتای آن معبود یگانه نیست.\n\nاو پروردگار همهٔ عالم‌ها، آفریدگار هر چیز، ولیّ حقیقی، صاحب ملک آسمان‌ها و زمین و مالک روز جزاست. آفرینش و امر از آن اوست و هیچ آفریده‌ای قدرتی مستقل از او ندارد.\n\nبنابراین، توحید تنها اعتراف زبانی به یگانگی خداوند نیست؛ بلکه اصلی بنیادین در اندیشه و کردار انسان است. انسان باید پرستش، اتکای نهایی و فرمان‌پذیری دینی خود را به آن معبود یگانه اختصاص دهد و هیچ فرد، گروه یا نهادی را در جایگاه معبود، پروردگار، صاحب ولایت مطلق یا مرجع تشریع مستقل از خداوند ننشاند. اختیار، مالکیت و مسئولیت آفریدگان نیز محدود و تابع فرمانروایی آن معبود یگانه است، نه هم‌عرض آن.",
+    "primary_translation": "این است آن معبود یگانه، پروردگار شما؛ هیچ معبودی جز او نیست؛ آفریننده هر چیزی است، پس او را بپرستید؛ و او بر هر چیزی کارگزار است."
+  },
+  "en": {
+    "title": "The Principle of The oneness of The God",
+    "aliases": "Tawhid, monotheism",
+    "description": "Tawhid is the principle of the oneness and uniqueness of The God in divinity and worship, lordship and governance, creation and provision, guardianship and the management of affairs, ownership and sovereignty, and judgment and religious legislation. On the basis of this principle, no one is a partner or equal of The God in any of these capacities.\n\nHe is the Lord of all worlds, the Creator of everything, the true Guardian, the Possessor of the dominion of the heavens and the earth, and the Master of the Day of Recompense. Creation and command belong to Him, and no created being has power independent of Him.\n\nTherefore, Tawhid is more than a verbal acknowledgment of the oneness of The God; it is a fundamental principle of human thought and conduct. People must devote their worship, ultimate reliance, and religious obedience to The God alone, and must not place any individual, group, or institution in the position of a deity, a lord, a holder of absolute guardianship, or an authority for legislation independent of The God. The authority, ownership, and responsibility of created beings are likewise limited and subject to the sovereignty of The God, rather than on an equal footing with it.",
+    "primary_translation": "That is The God, your Lord; there is no deity except Him, the Creator of everything, so worship Him; and He is the Trustee over everything."
+  },
+  "reading_order": 1,
+  "reference_groups": [
+    {
+      "fa": "یگانگی الوهیت و بی‌همتایی خداوند",
+      "en": "Oneness in divinity and the uniqueness of The God",
+      "refs": [
+        [
+          2,
+          163
+        ],
+        [
+          16,
+          51
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          42,
+          11
+        ],
+        [
+          112,
+          1
+        ],
+        [
+          112,
+          2
+        ],
+        [
+          112,
+          3
+        ],
+        [
+          112,
+          4
+        ]
+      ]
+    },
+    {
+      "fa": "یگانگی در ربوبیت و تدبیر هستی",
+      "en": "Oneness in lordship and the governance of existence",
+      "refs": [
+        [
+          1,
+          2
+        ],
+        [
+          6,
+          164
+        ],
+        [
+          7,
+          54
+        ],
+        [
+          10,
+          3
+        ]
+      ]
+    },
+    {
+      "fa": "یگانگی در آفرینش و روزی‌رسانی",
+      "en": "Oneness in creation and provision",
+      "refs": [
+        [
+          13,
+          16
+        ],
+        [
+          35,
+          3
+        ],
+        [
+          39,
+          62
+        ]
+      ]
+    },
+    {
+      "fa": "یگانگی در ولایت و کارسازی",
+      "en": "Oneness in guardianship and the management of affairs",
+      "refs": [
+        [
+          2,
+          107
+        ],
+        [
+          2,
+          257
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          18,
+          44
+        ],
+        [
+          42,
+          9
+        ]
+      ]
+    },
+    {
+      "fa": "یگانگی در مالکیت، پادشاهی و فرمانروایی",
+      "en": "Oneness in ownership, kingship, and sovereignty",
+      "refs": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          26
+        ],
+        [
+          23,
+          88
+        ],
+        [
+          67,
+          1
+        ]
+      ]
+    },
+    {
+      "fa": "یگانگی در حکم، تشریع دین و بندگی",
+      "en": "Oneness in judgment, religious legislation, and worship",
+      "refs": [
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          162
+        ],
+        [
+          6,
+          163
+        ],
+        [
+          12,
+          40
+        ],
+        [
+          42,
+          21
+        ]
+      ]
+    }
+  ],
+  "editorial_reviewed": true
+}

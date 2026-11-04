@@ -1,0 +1,44 @@
+{
+  "id": "just-measures",
+  "source": 84,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      83,
+      1
+    ],
+    [
+      83,
+      2
+    ],
+    [
+      83,
+      3
+    ],
+    [
+      17,
+      35
+    ]
+  ],
+  "primary": [
+    17,
+    35
+  ],
+  "related": [
+    "not-giving-short-measure"
+  ],
+  "fa": {
+    "title": "اصل رعایت میزان",
+    "aliases": "",
+    "description": "پیمانه، وزن و سنجش حقوق باید درست باشند."
+  },
+  "en": {
+    "title": "The Principle of Maintaining just measures",
+    "aliases": "",
+    "description": "Measures, weights and the assessment of rights should be accurate and fair."
+  },
+  "reading_order": 86
+}

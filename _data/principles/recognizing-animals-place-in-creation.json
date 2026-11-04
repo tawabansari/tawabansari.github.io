@@ -1,0 +1,34 @@
+{
+  "id": "recognizing-animals-place-in-creation",
+  "source": 137,
+  "polarity": "positive",
+  "categories": [
+    "creation"
+  ],
+  "refs": [
+    [
+      6,
+      38
+    ],
+    [
+      7,
+      73
+    ]
+  ],
+  "primary": [
+    6,
+    38
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل شناخت جایگاه جانوران در آفرینش",
+    "aliases": "",
+    "description": "قرآن جانوران را امت‌هایی همانند انسان‌ها معرفی می‌کند و درباره آسیب نرساندن به ناقه صالح نیز فرمان مشخصی دارد. این آیات زمینه‌ای برای مسئولیت‌پذیری انسان در رفتار با دیگر موجودات فراهم می‌کنند."
+  },
+  "en": {
+    "title": "The Principle of Recognizing animals’ place in creation",
+    "aliases": "",
+    "description": "The Quran describes animals as communities like humans and commands that Salih’s she-camel not be harmed. These verses inform responsibility toward other creatures."
+  },
+  "reading_order": 137
+}

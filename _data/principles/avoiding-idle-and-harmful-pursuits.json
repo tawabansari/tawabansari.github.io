@@ -1,0 +1,56 @@
+{
+  "id": "avoiding-idle-and-harmful-pursuits",
+  "source": 44,
+  "polarity": "negative",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      23,
+      3
+    ],
+    [
+      25,
+      72
+    ],
+    [
+      23,
+      1
+    ],
+    [
+      23,
+      2
+    ]
+  ],
+  "primary": [
+    23,
+    3
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل پرهیز از لغو",
+    "aliases": "",
+    "description": "انسان نباید زندگی خود را در سخنان و کارهای بیهوده و زیان‌بار مصرف کند."
+  },
+  "en": {
+    "title": "The Principle of Avoiding idle and harmful pursuits",
+    "aliases": "",
+    "description": "Life should not be consumed by pointless, harmful words and actions."
+  },
+  "evidence": [
+    [
+      23,
+      1
+    ],
+    [
+      23,
+      2
+    ],
+    [
+      23,
+      3
+    ]
+  ],
+  "reading_order": 58
+}

@@ -1,0 +1,34 @@
+{
+  "id": "societys-responsibility-toward-individuals",
+  "source": 95,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      2,
+      177
+    ],
+    [
+      4,
+      75
+    ]
+  ],
+  "primary": [
+    2,
+    177
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل مسئولیت جامعه در برابر افراد",
+    "aliases": "",
+    "description": "جامعه نباید محرومان، ستمدیدگان و افراد بی‌پناه را به حال خود رها کند."
+  },
+  "en": {
+    "title": "The Principle of Society’s responsibility toward individuals",
+    "aliases": "",
+    "description": "Society should not abandon deprived, oppressed and unprotected people."
+  },
+  "reading_order": 96
+}

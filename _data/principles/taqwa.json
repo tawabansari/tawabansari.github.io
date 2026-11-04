@@ -1,0 +1,38 @@
+{
+  "id": "taqwa",
+  "source": 31,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      2,
+      2
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      64,
+      16
+    ]
+  ],
+  "primary": [
+    5,
+    8
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل تقوا",
+    "aliases": "خودنگهداری",
+    "description": "تقوا با مراقبت و نگهداری خود از تجاوز به حدود الهی ارتباط دارد."
+  },
+  "en": {
+    "title": "The Principle of Taqwa",
+    "aliases": "God-consciousness",
+    "description": "Taqwa concerns watchfulness and guarding oneself against transgressing divine limits."
+  },
+  "reading_order": 45
+}

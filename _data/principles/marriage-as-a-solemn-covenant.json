@@ -1,0 +1,56 @@
+{
+  "id": "marriage-as-a-solemn-covenant",
+  "source": 115,
+  "polarity": "positive",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      4,
+      21
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      30,
+      21
+    ],
+    [
+      4,
+      20
+    ]
+  ],
+  "primary": [
+    4,
+    21
+  ],
+  "related": [
+    "consent-in-marriage",
+    "worthy-conduct-in-married-life",
+    "maintaining-marriage-honorably-or-separating-graciously"
+  ],
+  "fa": {
+    "title": "اصل میثاق غلیظ و تعهد استوار در ازدواج",
+    "aliases": "",
+    "description": "قرآن پیوند ازدواج را «مِيثَاقًا غَلِيظًا»؛ پیمانی استوار، معرفی می‌کند. ازدواج تنها یک قرارداد ظاهری یا رابطه موقت برای رسیدن به منفعت شخصی نیست؛ بلکه پیوندی همراه با حقوق، تعهدات و مسئولیت متقابل است."
+  },
+  "en": {
+    "title": "The Principle of Marriage as a solemn covenant",
+    "aliases": "",
+    "description": "The Quran describes marriage as a solemn covenant, carrying mutual rights, commitments and responsibility, rather than merely an outward contract for personal advantage."
+  },
+  "evidence": [
+    [
+      4,
+      20
+    ],
+    [
+      4,
+      21
+    ]
+  ],
+  "reading_order": 115
+}

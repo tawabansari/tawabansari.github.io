@@ -1,0 +1,30 @@
+{
+  "id": "allowing-time-for-a-debtor-in-hardship",
+  "source": 93,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      2,
+      280
+    ]
+  ],
+  "primary": [
+    2,
+    280
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل مهلت دادن به بدهکار درمانده",
+    "aliases": "",
+    "description": "ناتوانی واقعی مالی نباید بهانه تحقیر و نابود کردن زندگی بدهکار شود."
+  },
+  "en": {
+    "title": "The Principle of Allowing time for a debtor in hardship",
+    "aliases": "",
+    "description": "Genuine financial inability should not become a pretext for humiliating debtors or destroying their lives."
+  },
+  "reading_order": 95
+}

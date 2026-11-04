@@ -1,0 +1,32 @@
+{
+  "id": "cooperating-in-goodness",
+  "source": 100,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      5,
+      2
+    ]
+  ],
+  "primary": [
+    5,
+    2
+  ],
+  "related": [
+    "not-cooperating-in-wrongdoing"
+  ],
+  "fa": {
+    "title": "اصل همکاری در نیکی",
+    "aliases": "",
+    "description": "همکاری اجتماعی باید در راه خیر و تقوا باشد."
+  },
+  "en": {
+    "title": "The Principle of Cooperating in goodness",
+    "aliases": "",
+    "description": "Social cooperation should serve goodness and taqwa."
+  },
+  "reading_order": 101
+}

@@ -1,0 +1,38 @@
+{
+  "id": "not-inventing-religious-permissions-and-prohibitions",
+  "source": 9,
+  "polarity": "negative",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      10,
+      59
+    ],
+    [
+      16,
+      116
+    ],
+    [
+      5,
+      87
+    ]
+  ],
+  "primary": [
+    10,
+    59
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل ممنوعیت ساختن حلال و حرام بدون اذن الهی",
+    "aliases": "",
+    "description": "سلیقه، پسند فرهنگی یا برداشت شخصی، به‌خودی‌خود مجوز اعلام حرمت یا حلیت دینی نیست."
+  },
+  "en": {
+    "title": "The Principle of Not inventing religious permissions and prohibitions",
+    "aliases": "",
+    "description": "Personal preference, cultural approval and individual interpretation do not by themselves authorize declaring something religiously lawful or unlawful."
+  },
+  "reading_order": 12
+}

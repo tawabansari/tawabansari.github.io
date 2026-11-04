@@ -1,0 +1,40 @@
+{
+  "id": "remembrance",
+  "source": 30,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      2,
+      152
+    ],
+    [
+      13,
+      28
+    ],
+    [
+      33,
+      41
+    ]
+  ],
+  "primary": [
+    2,
+    152
+  ],
+  "related": [
+    "establishing-salat"
+  ],
+  "fa": {
+    "title": "اصل ذکر",
+    "aliases": "یاد خدا",
+    "description": "یاد خداوند باید در اندیشه و رفتار انسان زنده باشد."
+  },
+  "en": {
+    "title": "The Principle of Remembrance",
+    "aliases": "Dhikr",
+    "description": "Remembrance of The God should remain alive in thought and conduct."
+  },
+  "reading_order": 69
+}

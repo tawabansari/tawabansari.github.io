@@ -1,0 +1,40 @@
+{
+  "id": "purification",
+  "source": 130,
+  "polarity": "positive",
+  "categories": [
+    "creation"
+  ],
+  "refs": [
+    [
+      5,
+      6
+    ],
+    [
+      2,
+      222
+    ],
+    [
+      9,
+      108
+    ]
+  ],
+  "primary": [
+    5,
+    6
+  ],
+  "related": [
+    "cleanliness"
+  ],
+  "fa": {
+    "title": "اصل طهارت و پاک‌سازی",
+    "aliases": "",
+    "description": "طهارت در قرآن تنها نام نظافت روزمره نیست؛ در برخی وضعیت‌های جسمانی و هنگام آمادگی برای عبادت نیز احکام مشخصی دارد. قرآن در مائده ۵:۶ از شستن و مسح اعضای مقرر، پاک شدن از جنابت و تیمم در شرایط مشخص سخن می‌گوید.\n\nطهارت در کاربردهای دیگر قرآن، با پاکی و دوری از آلودگی نیز ارتباط دارد. نباید تمام این کاربردها را به یک معنای محدود فروکاست."
+  },
+  "en": {
+    "title": "The Principle of Purification",
+    "aliases": "",
+    "description": "Quranic purification includes specified bodily and worship-related practices, including washing, wiping and tayammum in particular circumstances. Other uses concern purity more broadly and should not all be reduced to one narrow meaning."
+  },
+  "reading_order": 130
+}

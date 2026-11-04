@@ -1,0 +1,34 @@
+{
+  "id": "human-dignity",
+  "source": 47,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      17,
+      70
+    ],
+    [
+      49,
+      13
+    ]
+  ],
+  "primary": [
+    17,
+    70
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل کرامت انسان",
+    "aliases": "حرمت انسان",
+    "description": "انسان دارای کرامت است و نباید تنها به سبب فقر، نسب، جنسیت یا جایگاه اجتماعی تحقیر شود."
+  },
+  "en": {
+    "title": "The Principle of Human dignity",
+    "aliases": "Human worth",
+    "description": "Human dignity must not be denied on grounds of poverty, ancestry, sex or social position."
+  },
+  "reading_order": 25
+}

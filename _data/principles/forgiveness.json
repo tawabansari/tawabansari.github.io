@@ -1,0 +1,34 @@
+{
+  "id": "forgiveness",
+  "source": 91,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      42,
+      40
+    ],
+    [
+      24,
+      22
+    ]
+  ],
+  "primary": [
+    42,
+    40
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل عفو و بخشایش",
+    "aliases": "بخشایش",
+    "description": "در کنار حق مطالبه عدالت، راه بخشایش و اصلاح نیز باز است."
+  },
+  "en": {
+    "title": "The Principle of Forgiveness",
+    "aliases": "Pardon",
+    "description": "Alongside the right to seek justice, forgiveness and reconciliation remain possible."
+  },
+  "reading_order": 93
+}

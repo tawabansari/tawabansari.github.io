@@ -1,0 +1,42 @@
+{
+  "id": "observing-prescribed-waiting-periods",
+  "source": 126,
+  "polarity": "positive",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      2,
+      228
+    ],
+    [
+      2,
+      234
+    ],
+    [
+      65,
+      4
+    ],
+    [
+      33,
+      49
+    ]
+  ],
+  "primary": [
+    2,
+    228
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل رعایت حدود مدت انتظار",
+    "aliases": "عده",
+    "description": "در مواردی که قرآن عده مقرر کرده است، همان حدود و شرایط باید رعایت شوند."
+  },
+  "en": {
+    "title": "The Principle of Observing prescribed waiting periods",
+    "aliases": "Iddah",
+    "description": "Where the Quran prescribes a waiting period, its specified limits and conditions should be observed."
+  },
+  "reading_order": 126
+}

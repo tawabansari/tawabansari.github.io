@@ -1,0 +1,38 @@
+{
+  "id": "seeking-evidence-and-proof",
+  "source": 10,
+  "polarity": "positive",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      2,
+      111
+    ],
+    [
+      21,
+      24
+    ],
+    [
+      27,
+      64
+    ]
+  ],
+  "primary": [
+    2,
+    111
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل مطالبه دلیل و برهان",
+    "aliases": "",
+    "description": "ادعای حقیقت باید با دلیل همراه باشد. شهرت، قدمت و شمار پیروان، جای برهان را نمی‌گیرند."
+  },
+  "en": {
+    "title": "The Principle of Seeking evidence and proof",
+    "aliases": "",
+    "description": "Claims to truth require evidence. Fame, antiquity and numbers of followers do not replace proof."
+  },
+  "reading_order": 13
+}

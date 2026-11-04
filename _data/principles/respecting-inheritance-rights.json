@@ -1,0 +1,38 @@
+{
+  "id": "respecting-inheritance-rights",
+  "source": 125,
+  "polarity": "positive",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      4,
+      12
+    ]
+  ],
+  "primary": [
+    4,
+    7
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل رعایت حقوق میراث",
+    "aliases": "",
+    "description": "حقوق وارثان باید بر پایه حدود مقرر قرآن رعایت شوند."
+  },
+  "en": {
+    "title": "The Principle of Respecting inheritance rights",
+    "aliases": "",
+    "description": "The rights of heirs should be observed within the limits prescribed by the Quran."
+  },
+  "reading_order": 125
+}

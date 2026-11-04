@@ -1,0 +1,38 @@
+{
+  "id": "recognizing-necessity-and-emergency",
+  "source": 40,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      2,
+      173
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      16,
+      115
+    ]
+  ],
+  "primary": [
+    2,
+    173
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل رعایت اضطرار و ضرورت",
+    "aliases": "",
+    "description": "قرآن در موارد مشخص ناچاری، راه خروج از ممنوعیت را به اندازه ضرورت باز گذاشته است."
+  },
+  "en": {
+    "title": "The Principle of Recognizing necessity and emergency",
+    "aliases": "",
+    "description": "In specified cases of necessity, the Quran permits relief from a prohibition within the bounds of that necessity."
+  },
+  "reading_order": 54
+}

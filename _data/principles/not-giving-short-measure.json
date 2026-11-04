@@ -1,0 +1,58 @@
+{
+  "id": "not-giving-short-measure",
+  "source": 84,
+  "polarity": "negative",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      83,
+      1
+    ],
+    [
+      83,
+      2
+    ],
+    [
+      83,
+      3
+    ],
+    [
+      17,
+      35
+    ]
+  ],
+  "primary": [
+    83,
+    1
+  ],
+  "related": [
+    "just-measures"
+  ],
+  "fa": {
+    "title": "اصل کم‌فروشی نکردن",
+    "aliases": "",
+    "description": "انسان نباید در پیمانه و وزن از حق دیگران بکاهد."
+  },
+  "en": {
+    "title": "The Principle of Not giving short measure",
+    "aliases": "",
+    "description": "People must not diminish others’ due through short measure or weight."
+  },
+  "evidence": [
+    [
+      83,
+      1
+    ],
+    [
+      83,
+      2
+    ],
+    [
+      83,
+      3
+    ]
+  ],
+  "reading_order": 86
+}

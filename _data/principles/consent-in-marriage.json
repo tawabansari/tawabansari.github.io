@@ -1,0 +1,38 @@
+{
+  "id": "consent-in-marriage",
+  "source": 114,
+  "polarity": "positive",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      2,
+      232
+    ],
+    [
+      4,
+      19
+    ]
+  ],
+  "primary": [
+    2,
+    232
+  ],
+  "related": [
+    "marriage-as-a-solemn-covenant",
+    "worthy-conduct-in-married-life",
+    "maintaining-marriage-honorably-or-separating-graciously"
+  ],
+  "fa": {
+    "title": "اصل رضایت در ازدواج",
+    "aliases": "",
+    "description": "ازدواج نباید بر اجبار خانواده یا دیگران استوار باشد."
+  },
+  "en": {
+    "title": "The Principle of Consent in marriage",
+    "aliases": "",
+    "description": "Marriage should not rest on coercion by family members or others."
+  },
+  "reading_order": 114
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rejecting-bribery-and-judicial-corruption",
+  "source": 80,
+  "polarity": "negative",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      2,
+      188
+    ],
+    [
+      5,
+      42
+    ]
+  ],
+  "primary": [
+    2,
+    188
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل منع رشوه و فساد قضایی",
+    "aliases": "",
+    "description": "مال نباید برای گرفتن حکم ناحق یا تصاحب حقوق دیگران به کار رود."
+  },
+  "en": {
+    "title": "The Principle of Rejecting bribery and judicial corruption",
+    "aliases": "",
+    "description": "Wealth must not be used to obtain an unjust judgment or seize others’ rights."
+  },
+  "reading_order": 44
+}

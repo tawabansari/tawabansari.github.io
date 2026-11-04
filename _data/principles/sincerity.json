@@ -1,0 +1,38 @@
+{
+  "id": "sincerity",
+  "source": 24,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      98,
+      5
+    ],
+    [
+      76,
+      8
+    ],
+    [
+      76,
+      9
+    ]
+  ],
+  "primary": [
+    98,
+    5
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل اخلاص",
+    "aliases": "خلوص نیت",
+    "description": "نیکی و بندگی باید بر صداقت نیت استوار باشند، نه خودنمایی و شهرت‌طلبی."
+  },
+  "en": {
+    "title": "The Principle of Sincerity",
+    "aliases": "Ikhlas",
+    "description": "Goodness and worship should rest on sincere intention, rather than display or the pursuit of reputation."
+  },
+  "reading_order": 63
+}

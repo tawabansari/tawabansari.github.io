@@ -2,9 +2,10 @@
 import json,re,sys
 from pathlib import Path
 from library_content import Document,clean
+from principle_data import load_principles
 root=Path(__file__).resolve().parent.parent
 site=Path(sys.argv[1] if len(sys.argv)>1 else '_site')
-rows=json.loads((root/'_data/quran-principles.json').read_text()); ids={r['id'] for r in rows}
+rows=load_principles(root); ids={r['id'] for r in rows}
 assert len(ids)==len(rows)
 for r in rows:
     assert r['polarity'] in ('positive','negative') and r['primary'] in r['refs']

@@ -1,0 +1,40 @@
+{
+  "id": "establishing-salat",
+  "source": 26,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      2,
+      43
+    ],
+    [
+      20,
+      14
+    ],
+    [
+      29,
+      45
+    ]
+  ],
+  "primary": [
+    29,
+    45
+  ],
+  "related": [
+    "remembrance"
+  ],
+  "fa": {
+    "title": "اصل برپا کردن صلاة",
+    "aliases": "صلاة، نماز",
+    "description": "اقامه صلاة از فرمان‌های بنیادین قرآن است و باید با یاد خداوند و دوری از فحشا و منکر همراه باشد. نماز یکی از جلوه‌های عملی آن است."
+  },
+  "en": {
+    "title": "The Principle of Establishing salat",
+    "aliases": "Salah, prayer",
+    "description": "Establishing salat is a foundational Quranic command, connected with remembrance of The God and avoidance of indecency and wrongdoing. Ritual prayer is one practical expression of it."
+  },
+  "reading_order": 65
+}

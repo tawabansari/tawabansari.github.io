@@ -1,0 +1,34 @@
+{
+  "id": "womens-and-mens-rights-to-their-earnings",
+  "source": 86,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      4,
+      32
+    ],
+    [
+      53,
+      39
+    ]
+  ],
+  "primary": [
+    4,
+    32
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل حق دستاورد و کسب برای زن و مرد",
+    "aliases": "",
+    "description": "قرآن برای زن و مرد از سهمی در آنچه کسب می‌کنند سخن می‌گوید."
+  },
+  "en": {
+    "title": "The Principle of Women’s and men’s rights to their earnings",
+    "aliases": "",
+    "description": "The Quran recognizes a share for women and men in what they earn."
+  },
+  "reading_order": 88
+}

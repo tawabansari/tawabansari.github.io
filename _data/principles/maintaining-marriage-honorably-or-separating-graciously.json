@@ -1,0 +1,42 @@
+{
+  "id": "maintaining-marriage-honorably-or-separating-graciously",
+  "source": 121,
+  "polarity": "positive",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      2,
+      229
+    ],
+    [
+      2,
+      231
+    ],
+    [
+      65,
+      2
+    ]
+  ],
+  "primary": [
+    2,
+    229
+  ],
+  "related": [
+    "consent-in-marriage",
+    "marriage-as-a-solemn-covenant",
+    "worthy-conduct-in-married-life"
+  ],
+  "fa": {
+    "title": "اصل نگه داشتن به معروف یا رها کردن با احسان",
+    "aliases": "",
+    "description": "ادامه زندگی و جدایی، هر دو باید شایسته باشند."
+  },
+  "en": {
+    "title": "The Principle of Maintaining marriage honorably or separating graciously",
+    "aliases": "",
+    "description": "Both continuing a marriage and separating should be conducted honorably."
+  },
+  "reading_order": 121
+}

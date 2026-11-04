@@ -1,0 +1,46 @@
+{
+  "id": "hajj-and-observing-divine-rites",
+  "source": 29,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      2,
+      196
+    ],
+    [
+      2,
+      197
+    ],
+    [
+      3,
+      97
+    ],
+    [
+      22,
+      27
+    ],
+    [
+      22,
+      28
+    ]
+  ],
+  "primary": [
+    2,
+    197
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل حج و رعایت شعائر الهی",
+    "aliases": "",
+    "description": "حج از فرمان‌های قرآنی است و باید با تقوا، رعایت حقوق دیگران و پرهیز از فساد و جدال همراه باشد."
+  },
+  "en": {
+    "title": "The Principle of Hajj and observing divine rites",
+    "aliases": "",
+    "description": "Hajj is a Quranic command and should be accompanied by taqwa, respect for others’ rights and avoidance of misconduct and quarrelling."
+  },
+  "reading_order": 68
+}

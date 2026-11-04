@@ -1,0 +1,42 @@
+{
+  "id": "seeking-permission-before-entering-others-homes",
+  "source": 60,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      24,
+      27
+    ],
+    [
+      24,
+      28
+    ],
+    [
+      24,
+      58
+    ],
+    [
+      24,
+      59
+    ]
+  ],
+  "primary": [
+    24,
+    27
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل اجازه گرفتن پیش از ورود به خانه دیگران",
+    "aliases": "",
+    "description": "قرآن در نور ۲۴:۲۷ فرمان می‌دهد که انسان پیش از ورود به خانه دیگران، حضور خود را اعلام کند و بر اهل خانه سلام بگوید.\n\nدر نور ۲۴:۲۸ نیز مقرر می‌کند که اگر اجازه ورود داده نشد و به شخص گفته شد بازگردد، باید بازگردد."
+  },
+  "en": {
+    "title": "The Principle of Seeking permission before entering others’ homes",
+    "aliases": "",
+    "description": "People should announce their presence and greet the household before entering. If permission is refused and they are asked to return, they should return."
+  },
+  "reading_order": 75
+}

@@ -1,0 +1,38 @@
+{
+  "id": "giving-zakat-and-cultivating-purification",
+  "source": 27,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      2,
+      43
+    ],
+    [
+      9,
+      103
+    ],
+    [
+      91,
+      9
+    ]
+  ],
+  "primary": [
+    9,
+    103
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل ادا کردن زکات و تزکیه",
+    "aliases": "زکاة، پاکی و رشد",
+    "description": "زکات با پاکی و رشد ارتباط دارد و در کنار صلاة و مسئولیت اجتماعی جایگاه مهمی دارد."
+  },
+  "en": {
+    "title": "The Principle of Giving zakat and cultivating purification",
+    "aliases": "Zakah, purification",
+    "description": "Zakat is connected with purity and growth and holds an important place alongside salat and social responsibility."
+  },
+  "reading_order": 66
+}

@@ -1,5 +1,9 @@
 # Forqan website editorial rules
 
+## Separate files for Quranic principles
+
+Store each principle in its own `_data/principles/{id}.json` file, with Persian and English content together. The filename must match the permanent principle ID. Add future principles as new files in this folder; do not recreate a combined principles content file. Preserve existing page URLs and keep both languages synchronized when editing. Follow `scripts/PRINCIPLES.md` for page stubs, review markers, and validation.
+
 ## Fixed translation of the basmala
 
 The user approved the following exact translations of `بسم الله الرحمن الرحیم` (including its Arabic spelling/diacritic variants). Use these in all new and edited website content, article openings, verse translations, templates, and generated PDF/export openings.

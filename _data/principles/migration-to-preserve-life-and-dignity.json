@@ -1,0 +1,46 @@
+{
+  "id": "migration-to-preserve-life-and-dignity",
+  "source": 65,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      4,
+      97
+    ],
+    [
+      4,
+      98
+    ],
+    [
+      4,
+      99
+    ],
+    [
+      4,
+      100
+    ],
+    [
+      29,
+      56
+    ]
+  ],
+  "primary": [
+    4,
+    100
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل امکان هجرت برای حفظ جان و کرامت",
+    "aliases": "",
+    "description": "انسان در صورت فقدان آزادی و امنیت می‌تواند برای حفظ جان و کرامت خود مهاجرت کند و جامعه نیز باید محدودیت‌های واقعی راه و توان انسان را در نظر بگیرد."
+  },
+  "en": {
+    "title": "The Principle of Migration to preserve life and dignity",
+    "aliases": "",
+    "description": "People may migrate to preserve life and dignity when freedom and safety are absent. Real limitations of capacity and access must also be considered."
+  },
+  "reading_order": 80
+}

@@ -1,0 +1,38 @@
+{
+  "id": "avoiding-invented-hardship-and-monasticism",
+  "source": 42,
+  "polarity": "negative",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      57,
+      27
+    ],
+    [
+      5,
+      87
+    ],
+    [
+      7,
+      32
+    ]
+  ],
+  "primary": [
+    57,
+    27
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل پرهیز از سخت‌گیری و رهبانیت ابداعی",
+    "aliases": "",
+    "description": "انسان نباید نعمت‌های روا را بی‌دلیل بر خود حرام سازد یا محرومیت‌های ساخته انسان را حکم الهی معرفی کند."
+  },
+  "en": {
+    "title": "The Principle of Avoiding invented hardship and monasticism",
+    "aliases": "",
+    "description": "People should not prohibit lawful blessings for themselves without grounds or present humanly invented deprivation as a divine command."
+  },
+  "reading_order": 56
+}

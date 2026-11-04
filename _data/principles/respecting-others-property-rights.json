@@ -1,0 +1,34 @@
+{
+  "id": "respecting-others-property-rights",
+  "source": 82,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      4,
+      29
+    ],
+    [
+      2,
+      188
+    ]
+  ],
+  "primary": [
+    4,
+    29
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل حرمت مال و حقوق مالکیت دیگران",
+    "aliases": "",
+    "description": "هیچ‌کس حق ندارد مال دیگری را با فریب، زور یا سوءاستفاده از قدرت تصاحب کند."
+  },
+  "en": {
+    "title": "The Principle of Respecting others’ property rights",
+    "aliases": "",
+    "description": "No one may seize another’s property through deception, force or abuse of power."
+  },
+  "reading_order": 84
+}

@@ -1,0 +1,36 @@
+{
+  "id": "individual-responsibility-for-wrongdoing",
+  "source": 51,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      6,
+      164
+    ],
+    [
+      53,
+      38
+    ]
+  ],
+  "primary": [
+    6,
+    164
+  ],
+  "related": [
+    "proportionate-justice-in-responding-to-crime"
+  ],
+  "fa": {
+    "title": "اصل فردی بودن جرم",
+    "aliases": "",
+    "description": "هیچ انسانی بار گناه و جرم دیگری را بر دوش نمی‌کشد."
+  },
+  "en": {
+    "title": "The Principle of Individual responsibility for wrongdoing",
+    "aliases": "",
+    "description": "No person bears the burden of another’s wrongdoing."
+  },
+  "reading_order": 31
+}

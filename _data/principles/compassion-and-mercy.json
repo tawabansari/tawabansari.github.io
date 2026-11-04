@@ -1,0 +1,34 @@
+{
+  "id": "compassion-and-mercy",
+  "source": 107,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      90,
+      17
+    ],
+    [
+      30,
+      21
+    ]
+  ],
+  "primary": [
+    30,
+    21
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل مهربانی و رحمت",
+    "aliases": "رحمت",
+    "description": "روابط انسانی باید با دلسوزی و رحمت همراه باشند."
+  },
+  "en": {
+    "title": "The Principle of Compassion and mercy",
+    "aliases": "Compassion",
+    "description": "Human relationships should be marked by compassion and mercy."
+  },
+  "reading_order": 59
+}

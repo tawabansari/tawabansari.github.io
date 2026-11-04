@@ -6,8 +6,8 @@ sys.path.insert(0,str(Path(__file__).parent))
 import prepare_principles
 with tempfile.TemporaryDirectory() as tmp:
     root=Path(tmp)/'source';site=Path(tmp)/'build'
-    (root/'_data').mkdir(parents=True);(root/'assets/js').mkdir(parents=True)
-    (root/'_data/quran-principles.json').write_text(json.dumps([{'id':'example','primary':[2,1],'evidence':[[2,1],[2,2]],'refs':[[2,1],[2,2]]}]))
+    (root/'_data/principles').mkdir(parents=True);(root/'assets/js').mkdir(parents=True)
+    (root/'_data/principles/example.json').write_text(json.dumps({'id':'example','source':1,'primary':[2,1],'evidence':[[2,1],[2,2]],'refs':[[2,1],[2,2]]}))
     (root/'assets/js/quran-navigation-data.js').write_text('const surahs = '+json.dumps([{'number':2,'slug':'002-test','faName':'آزمایش','enName':'Test'}])+';')
     for version in ['first','revised']:
         for lang in ['fa','en']:

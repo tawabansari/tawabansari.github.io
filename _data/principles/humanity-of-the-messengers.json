@@ -1,0 +1,36 @@
+{
+  "id": "humanity-of-the-messengers",
+  "source": 15,
+  "polarity": "positive",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      16,
+      43
+    ],
+    [
+      21,
+      7
+    ]
+  ],
+  "primary": [
+    16,
+    43
+  ],
+  "related": [
+    "unfounded-religious-authority"
+  ],
+  "fa": {
+    "title": "اصل بشری بودن پیامبران",
+    "aliases": "",
+    "description": "پیامبران انسان‌هایی بودند که به آنان وحی می‌شد."
+  },
+  "en": {
+    "title": "The Principle of The humanity of the messengers",
+    "aliases": "",
+    "description": "The messengers were human beings who received revelation."
+  },
+  "reading_order": 18
+}

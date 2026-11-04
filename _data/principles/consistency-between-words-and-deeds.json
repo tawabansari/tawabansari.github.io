@@ -1,0 +1,38 @@
+{
+  "id": "consistency-between-words-and-deeds",
+  "source": 103,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      2,
+      44
+    ],
+    [
+      61,
+      2
+    ],
+    [
+      61,
+      3
+    ]
+  ],
+  "primary": [
+    2,
+    44
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل هماهنگی گفتار و کردار",
+    "aliases": "",
+    "description": "انسان نباید دیگران را به نیکی دعوت کند، اما خود برخلاف آن رفتار نماید."
+  },
+  "en": {
+    "title": "The Principle of Consistency between words and deeds",
+    "aliases": "",
+    "description": "People should not call others to goodness while acting against it themselves."
+  },
+  "reading_order": 104
+}

@@ -1,0 +1,30 @@
+{
+  "id": "neighbors-rights",
+  "source": 110,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      4,
+      36
+    ]
+  ],
+  "primary": [
+    4,
+    36
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل رعایت حقوق همسایگان",
+    "aliases": "",
+    "description": "نیکی و مسئولیت اجتماعی از نزدیک‌ترین روابط انسان آغاز می‌شود."
+  },
+  "en": {
+    "title": "The Principle of Neighbors’ rights",
+    "aliases": "",
+    "description": "Kindness and social responsibility begin with those closest to us."
+  },
+  "reading_order": 110
+}

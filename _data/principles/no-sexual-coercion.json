@@ -1,0 +1,40 @@
+{
+  "id": "no-sexual-coercion",
+  "source": 55,
+  "polarity": "negative",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      17,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      4,
+      19
+    ]
+  ],
+  "primary": [
+    24,
+    33
+  ],
+  "related": [
+    "sexual-inviolability"
+  ],
+  "fa": {
+    "title": "اصل منع اکراه جنسی",
+    "aliases": "",
+    "description": "از قدرت نباید برای تحمیل رابطهٔ جنسی بهره گرفت."
+  },
+  "en": {
+    "title": "The Principle of No sexual coercion",
+    "aliases": "",
+    "description": "Power must not be used to impose sexual relations."
+  },
+  "reading_order": 70
+}

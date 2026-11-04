@@ -1,0 +1,37 @@
+{
+  "id": "truthful-and-impartial-testimony",
+  "source": 76,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      4,
+      135
+    ],
+    [
+      5,
+      8
+    ]
+  ],
+  "primary": [
+    4,
+    135
+  ],
+  "related": [
+    "justice",
+    "judging-with-truth-and-equity"
+  ],
+  "fa": {
+    "title": "اصل شهادت درست و بی‌طرفانه",
+    "aliases": "",
+    "description": "گواهی باید برای خداوند و بر پایه حقیقت باشد، نه بر اساس منفعت، خویشاوندی یا دشمنی."
+  },
+  "en": {
+    "title": "The Principle of Truthful and impartial testimony",
+    "aliases": "",
+    "description": "Testimony should be for The God and grounded in truth, rather than interest, kinship or hostility."
+  },
+  "reading_order": 40
+}

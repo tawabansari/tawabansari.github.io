@@ -1,0 +1,38 @@
+{
+  "id": "protecting-others-reputation",
+  "source": 56,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      49,
+      11
+    ],
+    [
+      24,
+      4
+    ],
+    [
+      24,
+      15
+    ]
+  ],
+  "primary": [
+    49,
+    11
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل پاسداری از آبروی دیگران",
+    "aliases": "",
+    "description": "تمسخر، تهمت، بدنام‌سازی و نشر اتهام‌های بی‌دلیل با اخلاق قرآنی ناسازگارند."
+  },
+  "en": {
+    "title": "The Principle of Protecting others’ reputation",
+    "aliases": "",
+    "description": "Mockery, slander, defamation and spreading unfounded accusations conflict with Quranic ethics."
+  },
+  "reading_order": 71
+}

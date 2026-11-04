@@ -1,0 +1,40 @@
+{
+  "id": "proportionate-justice-in-responding-to-crime",
+  "source": 90,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      2,
+      178
+    ],
+    [
+      2,
+      179
+    ],
+    [
+      17,
+      33
+    ]
+  ],
+  "primary": [
+    2,
+    178
+  ],
+  "related": [
+    "individual-responsibility-for-wrongdoing"
+  ],
+  "fa": {
+    "title": "اصل قصاص و پیگیری عادلانه جرم",
+    "aliases": "",
+    "description": "جرم باید با عدالت، شناخت مسئولیت و جلوگیری از انتقام‌گیری بی‌حد پیگیری شود."
+  },
+  "en": {
+    "title": "The Principle of Proportionate justice in responding to crime",
+    "aliases": "",
+    "description": "Crime should be addressed with justice, recognition of responsibility and prevention of unbounded revenge."
+  },
+  "reading_order": 92
+}

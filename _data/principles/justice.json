@@ -1,0 +1,37 @@
+{
+  "id": "justice",
+  "source": 69,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      4,
+      135
+    ],
+    [
+      16,
+      90
+    ]
+  ],
+  "primary": [
+    4,
+    135
+  ],
+  "related": [
+    "judging-with-truth-and-equity",
+    "truthful-and-impartial-testimony"
+  ],
+  "fa": {
+    "title": "اصل عدالت",
+    "aliases": "عدل، قسط",
+    "description": "عدالت باید حتی به زیان خود انسان یا نزدیکان او رعایت شود."
+  },
+  "en": {
+    "title": "The Principle of Justice",
+    "aliases": "Equity",
+    "description": "Justice must be upheld even against oneself or one’s relatives."
+  },
+  "reading_order": 23
+}

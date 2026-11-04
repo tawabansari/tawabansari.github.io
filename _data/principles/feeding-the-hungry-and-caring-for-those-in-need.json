@@ -1,0 +1,61 @@
+{
+  "id": "feeding-the-hungry-and-caring-for-those-in-need",
+  "source": 111,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      76,
+      8
+    ],
+    [
+      107,
+      1
+    ],
+    [
+      107,
+      2
+    ],
+    [
+      107,
+      3
+    ],
+    [
+      90,
+      14
+    ],
+    [
+      90,
+      15
+    ],
+    [
+      90,
+      16
+    ],
+    [
+      2,
+      177
+    ]
+  ],
+  "primary": [
+    2,
+    177
+  ],
+  "related": [
+    "giving-from-ones-resources",
+    "giving-without-reproach-or-humiliation"
+  ],
+  "fa": {
+    "title": "اصل رسیدگی به گرسنگان و نیازمندان",
+    "aliases": "",
+    "description": "بی‌تفاوتی در برابر گرسنگی و محرومیت دیگران با مسئولیت اجتماعی قرآنی ناسازگار است."
+  },
+  "en": {
+    "title": "The Principle of Feeding the hungry and caring for those in need",
+    "aliases": "",
+    "description": "Indifference to hunger and deprivation conflicts with Quranic social responsibility."
+  },
+  "reading_order": 111
+}

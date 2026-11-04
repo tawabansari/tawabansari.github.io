@@ -1,0 +1,48 @@
+{
+  "id": "defending-places-of-worship",
+  "source": 64,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      22,
+      39
+    ],
+    [
+      22,
+      40
+    ],
+    [
+      2,
+      114
+    ]
+  ],
+  "primary": [
+    22,
+    39
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل دفاع از کلیساها، کنیسه‌ها، مساجد و دیگر عبادتگاه‌ها",
+    "aliases": "",
+    "description": "قرآن در این آیه تنها از مساجد نام نمی‌برد. دفاع در برابر تجاوز و جلوگیری از ویرانی عبادتگاه‌ها نباید به مکان عبادت پیروان یک دین محدود شود."
+  },
+  "en": {
+    "title": "The Principle of Defending places of worship",
+    "aliases": "",
+    "description": "The Quran mentions monasteries, churches, synagogues and mosques when describing protection against destruction. Defense against aggression should not be limited to one religion’s places of worship."
+  },
+  "evidence": [
+    [
+      22,
+      39
+    ],
+    [
+      22,
+      40
+    ]
+  ],
+  "reading_order": 79
+}

@@ -1,0 +1,36 @@
+{
+  "id": "not-despairing-of-divine-mercy",
+  "source": 37,
+  "polarity": "negative",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      39,
+      53
+    ],
+    [
+      12,
+      87
+    ]
+  ],
+  "primary": [
+    39,
+    53
+  ],
+  "related": [
+    "patience-and-perseverance-in-truth"
+  ],
+  "fa": {
+    "title": "اصل نومید نشدن از رحمت الهی",
+    "aliases": "",
+    "description": "انسان نباید پس از خطا، راه بازگشت و اصلاح را بر خود بسته بداند."
+  },
+  "en": {
+    "title": "The Principle of Not despairing of divine mercy",
+    "aliases": "",
+    "description": "After wrongdoing, people should not regard the path of return and reform as closed."
+  },
+  "reading_order": 51
+}

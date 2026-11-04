@@ -1,0 +1,41 @@
+{
+  "id": "reflection-and-reading-verses-together",
+  "source": 6,
+  "polarity": "positive",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      4,
+      82
+    ],
+    [
+      38,
+      29
+    ],
+    [
+      47,
+      24
+    ]
+  ],
+  "primary": [
+    4,
+    82
+  ],
+  "related": [
+    "the-authority-of-clear-foundational-verses",
+    "recognizing-the-place-of-ambiguous-verses"
+  ],
+  "fa": {
+    "title": "اصل تدبر و سنجش آیات با یکدیگر",
+    "aliases": "تدبر",
+    "description": "قرآن انسان را به اندیشیدن درباره آیات و بررسی سازگاری و پیوند آنها فرا می‌خواند."
+  },
+  "en": {
+    "title": "The Principle of Reflection and reading verses together",
+    "aliases": "Tadabbur",
+    "description": "The Quran invites reflection on its verses and examination of their consistency and connections."
+  },
+  "reading_order": 9
+}

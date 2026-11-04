@@ -1,0 +1,37 @@
+{
+  "id": "enjoying-wholesome-provisions",
+  "source": 128,
+  "polarity": "positive",
+  "categories": [
+    "creation"
+  ],
+  "refs": [
+    [
+      2,
+      168
+    ],
+    [
+      7,
+      32
+    ]
+  ],
+  "primary": [
+    2,
+    168
+  ],
+  "related": [
+    "avoiding-excess-and-waste",
+    "moderation-in-consumption-and-spending"
+  ],
+  "fa": {
+    "title": "اصل بهره‌مندی از طیبات",
+    "aliases": "",
+    "description": "انسان باید از نعمت‌های پاکیزه و شایسته بهره گیرد و سلیقه فرهنگی خود را بی‌دلیل حکم دینی نسازد."
+  },
+  "en": {
+    "title": "The Principle of Enjoying wholesome provisions",
+    "aliases": "",
+    "description": "People should benefit from wholesome provisions without turning cultural preferences into religious rulings without grounds."
+  },
+  "reading_order": 128
+}

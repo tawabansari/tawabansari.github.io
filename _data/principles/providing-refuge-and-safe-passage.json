@@ -1,0 +1,30 @@
+{
+  "id": "providing-refuge-and-safe-passage",
+  "source": 66,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      9,
+      6
+    ]
+  ],
+  "primary": [
+    9,
+    6
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل پناه دادن و رساندن پناه‌جو به امنیت",
+    "aliases": "",
+    "description": "قرآن درباره کسی که درخواست پناه می‌کند، به فراهم کردن امنیت و رساندن او به جای امن فرمان می‌دهد."
+  },
+  "en": {
+    "title": "The Principle of Providing refuge and safe passage",
+    "aliases": "",
+    "description": "The Quran instructs granting protection to a person seeking refuge and conveying that person to safety."
+  },
+  "reading_order": 81
+}

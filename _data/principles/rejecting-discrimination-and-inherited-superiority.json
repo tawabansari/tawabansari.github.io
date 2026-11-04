@@ -1,0 +1,38 @@
+{
+  "id": "rejecting-discrimination-and-inherited-superiority",
+  "source": 49,
+  "polarity": "negative",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      49,
+      13
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      6,
+      52
+    ]
+  ],
+  "primary": [
+    49,
+    13
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل عدم تبعیض و برتری‌جویی نسبی",
+    "aliases": "",
+    "description": "قرآن معیار برتری نزد خداوند را تقوا معرفی می‌کند، نه ثروت، قومیت و نسب."
+  },
+  "en": {
+    "title": "The Principle of Rejecting discrimination and inherited superiority",
+    "aliases": "",
+    "description": "The Quran identifies taqwa as the criterion of honor before The God, rather than wealth, ethnicity or ancestry."
+  },
+  "reading_order": 29
+}

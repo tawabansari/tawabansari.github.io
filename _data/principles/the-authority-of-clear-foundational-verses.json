@@ -1,0 +1,33 @@
+{
+  "id": "the-authority-of-clear-foundational-verses",
+  "source": 3,
+  "polarity": "positive",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      3,
+      7
+    ]
+  ],
+  "primary": [
+    3,
+    7
+  ],
+  "related": [
+    "recognizing-the-place-of-ambiguous-verses",
+    "reflection-and-reading-verses-together"
+  ],
+  "fa": {
+    "title": "اصل مرجعیت محکمات",
+    "aliases": "محکمات",
+    "description": "قرآن در میان آیات خود از محکمات به‌عنوان «أُمُّ الْكِتَابِ» یاد می‌کند. محکمات، بنیاد شناخت و سنجش برداشت‌ها هستند."
+  },
+  "en": {
+    "title": "The Principle of The authority of clear foundational verses",
+    "aliases": "Muhkamat",
+    "description": "The Quran calls its clear foundational verses the foundation of the Book. They provide a basis for understanding and assessing interpretations."
+  },
+  "reading_order": 6
+}

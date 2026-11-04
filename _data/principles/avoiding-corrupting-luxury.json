@@ -1,0 +1,38 @@
+{
+  "id": "avoiding-corrupting-luxury",
+  "source": 133,
+  "polarity": "negative",
+  "categories": [
+    "creation"
+  ],
+  "refs": [
+    [
+      17,
+      16
+    ],
+    [
+      34,
+      34
+    ],
+    [
+      43,
+      23
+    ]
+  ],
+  "primary": [
+    34,
+    34
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل دوری از اتراف و رفاه‌زدگی فسادآور",
+    "aliases": "",
+    "description": "ثروت و رفاه نباید انسان را به غرور، فساد و مخالفت با اصلاح جامعه بکشانند."
+  },
+  "en": {
+    "title": "The Principle of Avoiding corrupting luxury",
+    "aliases": "",
+    "description": "Wealth and comfort should not lead to arrogance, corruption or opposition to social reform."
+  },
+  "reading_order": 133
+}

@@ -1,0 +1,70 @@
+{
+  "id": "cleanliness",
+  "source": 129,
+  "polarity": "positive",
+  "categories": [
+    "creation"
+  ],
+  "refs": [
+    [
+      74,
+      4
+    ],
+    [
+      7,
+      31
+    ],
+    [
+      9,
+      108
+    ],
+    [
+      74,
+      1
+    ],
+    [
+      74,
+      2
+    ],
+    [
+      74,
+      3
+    ]
+  ],
+  "primary": [
+    74,
+    4
+  ],
+  "related": [
+    "purification"
+  ],
+  "fa": {
+    "title": "اصل پاکیزگی و نظافت",
+    "aliases": "",
+    "description": "پاکیزگی پوشاک، بدن و محیط زندگی از رفتارهای شایسته انسانی است و با سلامت، احترام به دیگران و سامان زندگی ارتباط دارد."
+  },
+  "en": {
+    "title": "The Principle of Cleanliness",
+    "aliases": "",
+    "description": "The Quran calls for clean clothing. Cleanliness of clothing, body and surroundings supports health, consideration for others and an orderly life."
+  },
+  "evidence": [
+    [
+      74,
+      1
+    ],
+    [
+      74,
+      2
+    ],
+    [
+      74,
+      3
+    ],
+    [
+      74,
+      4
+    ]
+  ],
+  "reading_order": 129
+}

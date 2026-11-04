@@ -1,0 +1,34 @@
+{
+  "id": "striving-for-justice",
+  "source": 97,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      4,
+      75
+    ],
+    [
+      42,
+      41
+    ]
+  ],
+  "primary": [
+    4,
+    75
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل کوشش و مبارزه برای حق",
+    "aliases": "",
+    "description": "انسان باید در برابر ظلم و محروم کردن دیگران از حقوقشان بایستد و برای حق کوشش کند."
+  },
+  "en": {
+    "title": "The Principle of Striving for justice",
+    "aliases": "",
+    "description": "People should stand against oppression and deprivation of others’ rights and strive for what is right."
+  },
+  "reading_order": 98
+}

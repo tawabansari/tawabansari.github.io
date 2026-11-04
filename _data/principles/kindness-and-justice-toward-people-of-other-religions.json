@@ -1,0 +1,38 @@
+{
+  "id": "kindness-and-justice-toward-people-of-other-religions",
+  "source": 68,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      60,
+      8
+    ],
+    [
+      29,
+      46
+    ],
+    [
+      5,
+      8
+    ]
+  ],
+  "primary": [
+    60,
+    8
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل احترام، نیکی و عدالت نسبت به پیروان ادیان دیگر",
+    "aliases": "",
+    "description": "احترام به حقوق انسان‌ها به یکسان بودن عقایدشان وابسته نیست. انسان می‌تواند با باور دیگری اختلاف داشته باشد و همچنان با پیروان آن به انصاف و عدالت رفتار کند."
+  },
+  "en": {
+    "title": "The Principle of Kindness and justice toward people of other religions",
+    "aliases": "",
+    "description": "The Quran permits kindness and justice toward those who have not fought people for their religion or expelled them from their homes. Respect for rights does not depend on agreement in belief."
+  },
+  "reading_order": 82
+}

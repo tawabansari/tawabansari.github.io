@@ -1,0 +1,34 @@
+{
+  "id": "supporting-the-vulnerable-and-oppressed",
+  "source": 96,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      4,
+      75
+    ],
+    [
+      4,
+      127
+    ]
+  ],
+  "primary": [
+    4,
+    75
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل حمایت از مستضعفان",
+    "aliases": "",
+    "description": "قدرت و امکانات جامعه باید برای نجات کسانی نیز به کار روند که توان دفاع از حقوق خود را ندارند."
+  },
+  "en": {
+    "title": "The Principle of Supporting the vulnerable and oppressed",
+    "aliases": "",
+    "description": "Society’s power and resources should also help those unable to defend their own rights."
+  },
+  "reading_order": 97
+}

@@ -1,0 +1,42 @@
+{
+  "id": "avoiding-sectarian-division",
+  "source": 19,
+  "polarity": "negative",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      6,
+      159
+    ],
+    [
+      42,
+      13
+    ],
+    [
+      30,
+      31
+    ],
+    [
+      30,
+      32
+    ]
+  ],
+  "primary": [
+    6,
+    159
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل پرهیز از فرقه‌گرایی و پراکندگی در دین",
+    "aliases": "",
+    "description": "اختلاف برداشت‌ها نباید به تبدیل دین به مجموعه‌ای از گروه‌های متخاصم و متعصب بینجامد."
+  },
+  "en": {
+    "title": "The Principle of Avoiding sectarian division",
+    "aliases": "",
+    "description": "Differences of interpretation should not turn religion into hostile, partisan factions."
+  },
+  "reading_order": 22
+}

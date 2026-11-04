@@ -1,0 +1,38 @@
+{
+  "id": "revelation-as-the-authority-for-religious-judgment",
+  "source": 7,
+  "polarity": "positive",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      6,
+      114
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      42,
+      21
+    ]
+  ],
+  "primary": [
+    6,
+    114
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل مرجعیت وحی در حکم دینی",
+    "aliases": "",
+    "description": "در امور دینی، معیار نهایی آن چیزی است که خداوند مقرر کرده است، نه اختیار مستقل رهبران و نهادهای مذهبی برای قانون‌گذاری به نام او."
+  },
+  "en": {
+    "title": "The Principle of Revelation as the authority for religious judgment",
+    "aliases": "",
+    "description": "The final criterion in religious rulings is what The God has ordained, rather than an independent power of religious leaders or institutions to legislate in His name."
+  },
+  "reading_order": 10
+}

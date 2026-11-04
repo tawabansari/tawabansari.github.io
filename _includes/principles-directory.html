@@ -23,9 +23,10 @@
 </form>
 <p class="principles-status" role="status" aria-live="polite"></p>
 <div class="principles-workspace"><div class="principles-list">
+{% assign principles = '' | split: '' %}{% for entry in site.data.principles %}{% assign principles = principles | push: entry[1] %}{% endfor %}{% assign principles = principles | sort: 'source' %}
 {% for polarity in (1..2) %}{% if polarity == 1 %}{% assign kind = 'positive' %}{% else %}{% assign kind = 'negative' %}{% endif %}
 <section class="principles-group" data-polarity="{{ kind }}"><h2>{% if kind == 'positive' %}{% if fa %}اصول مثبت{% else %}Positive principles{% endif %}{% else %}{% if fa %}اصول منفی{% else %}Negative principles{% endif %}{% endif %}</h2>
-<ul>{% for item in site.data.quran-principles %}{% if item.polarity == kind %}<li data-title="{{ item[lang].title | escape }}" data-order="{{ item.reading_order }}" data-categories="{{ item.categories | join: ' ' }}" data-verse="{{ item.primary | join: ':' }}" data-search="{{ item[lang].description | escape }}"><a href="/{{ lang }}/principles/{{ item.id }}/">{{ item[lang].title }}{% if item[lang].aliases != '' %}<span class="principle-aliases"> ({{ item[lang].aliases }})</span>{% endif %}{% if item.editorial_reviewed %}<span class="principle-reviewed" aria-hidden="true"></span>{% endif %}</a></li>{% endif %}{% endfor %}</ul></section>
+<ul>{% for item in principles %}{% if item.polarity == kind %}<li data-title="{{ item[lang].title | escape }}" data-order="{{ item.reading_order }}" data-categories="{{ item.categories | join: ' ' }}" data-verse="{{ item.primary | join: ':' }}" data-search="{{ item[lang].description | escape }}"><a href="/{{ lang }}/principles/{{ item.id }}/">{{ item[lang].title }}{% if item[lang].aliases != '' %}<span class="principle-aliases"> ({{ item[lang].aliases }})</span>{% endif %}{% if item.editorial_reviewed %}<span class="principle-reviewed" aria-hidden="true"></span>{% endif %}</a></li>{% endif %}{% endfor %}</ul></section>
 {% endfor %}
 </div><aside class="principles-reader" data-principle-reader aria-label="{% if fa %}متن اصل انتخاب‌شده{% else %}Selected principle{% endif %}"><p class="principles-reader-hint">{% if fa %}یک اصل را از فهرست انتخاب کنید تا متن آن اینجا باز شود.{% else %}Choose a principle from the list to read it here.{% endif %}</p></aside></div>
 </section>

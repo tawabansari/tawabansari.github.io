@@ -1,0 +1,48 @@
+{
+  "id": "premarital-commitments",
+  "source": 118,
+  "polarity": "positive",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      4,
+      24
+    ],
+    [
+      2,
+      235
+    ],
+    [
+      17,
+      34
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      4,
+      23
+    ]
+  ],
+  "primary": [
+    17,
+    34
+  ],
+  "related": [
+    "not-violating-existing-marriages"
+  ],
+  "fa": {
+    "title": "اصل رعایت تعهدات پیش از عقد",
+    "aliases": "",
+    "description": "نامزدیِ بدون عقد، نکاح نیست؛ اما وعده و تعهد همچنان به صداقت و وفای به عهد نیاز دارد."
+  },
+  "en": {
+    "title": "The Principle of Honoring premarital commitments",
+    "aliases": "",
+    "description": "Engagement is not marriage, but promises and commitments still require honesty and fidelity."
+  },
+  "reading_order": 118
+}

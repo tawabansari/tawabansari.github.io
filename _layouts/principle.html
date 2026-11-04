@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign principle = site.data.quran-principles | where: 'id', page.principle_id | first %}
+{% assign principle = site.data.principles[page.principle_id] %}
 {% assign lang = page.lang %}{% assign copy = principle[lang] %}
 <link rel="stylesheet" href="/assets/css/principles.css">
 <article class="principle-detail" lang="{{ lang }}" dir="{% if lang == 'fa' %}rtl{% else %}ltr{% endif %}" data-principle="{{ principle.id }}" data-study-toc="false" data-study-find="false">
@@ -11,7 +11,7 @@ layout: default
   <div class="principle-explanation">{{ copy.description | markdownify }}</div>
   <div class="principle-references"><!-- PRINCIPLE_REFERENCES --></div>
   <section class="principle-evidence" aria-label="{% if lang == 'fa' %}شواهد قرآنی{% else %}Quranic evidence{% endif %}"><!-- PRINCIPLE_VERSE --></section>
-  {% if principle.related.size > 0 %}<section class="principle-related"><h2>{% if lang == 'fa' %}اصول مرتبط{% else %}Related principles{% endif %}</h2><ul>{% for id in principle.related %}{% assign related = site.data.quran-principles | where: 'id', id | first %}<li><a href="/{{ lang }}/principles/{{ id }}/">{{ related[lang].title }}</a></li>{% endfor %}</ul></section>{% endif %}
+  {% if principle.related.size > 0 %}<section class="principle-related"><h2>{% if lang == 'fa' %}اصول مرتبط{% else %}Related principles{% endif %}</h2><ul>{% for id in principle.related %}{% assign related = site.data.principles[id] %}<li><a href="/{{ lang }}/principles/{{ id }}/">{{ related[lang].title }}</a></li>{% endfor %}</ul></section>{% endif %}
 
 </article>
 <script type="module" src="/assets/js/principles.mjs"></script>

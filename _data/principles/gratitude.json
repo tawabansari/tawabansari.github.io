@@ -1,0 +1,34 @@
+{
+  "id": "gratitude",
+  "source": 36,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      2,
+      152
+    ],
+    [
+      14,
+      7
+    ]
+  ],
+  "primary": [
+    2,
+    152
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل شکرگزاری",
+    "aliases": "",
+    "description": "انسان باید نعمت‌ها را بشناسد و آنها را مسئولانه به کار گیرد."
+  },
+  "en": {
+    "title": "The Principle of Gratitude",
+    "aliases": "",
+    "description": "People should recognize blessings and use them responsibly."
+  },
+  "reading_order": 50
+}

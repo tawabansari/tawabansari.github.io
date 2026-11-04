@@ -1,0 +1,38 @@
+{
+  "id": "freeing-people-from-bondage",
+  "source": 67,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      90,
+      13
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      2,
+      177
+    ]
+  ],
+  "primary": [
+    2,
+    177
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل آزادسازی انسان از بندگی و بردگی",
+    "aliases": "",
+    "description": "قرآن آزاد کردن انسان از بندگی را از کارهای ارزشمند معرفی کرده و راه‌هایی برای رهایی افراد در بند مقرر کرده است."
+  },
+  "en": {
+    "title": "The Principle of Freeing people from bondage",
+    "aliases": "",
+    "description": "The Quran values freeing people from bondage and provides paths to liberation."
+  },
+  "reading_order": 34
+}

@@ -1,0 +1,34 @@
+{
+  "id": "a-widows-choice-about-her-future",
+  "source": 127,
+  "polarity": "positive",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      2,
+      234
+    ],
+    [
+      4,
+      19
+    ]
+  ],
+  "primary": [
+    2,
+    234
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل اختیار زن بیوه درباره آینده خود",
+    "aliases": "",
+    "description": "پس از پایان مدت مقرر، زن بیوه حق دارد درباره زندگی آینده خود به معروف تصمیم بگیرد."
+  },
+  "en": {
+    "title": "The Principle of A widow’s choice about her future",
+    "aliases": "",
+    "description": "After the prescribed period, a widow may make worthy decisions about her future life."
+  },
+  "reading_order": 127
+}

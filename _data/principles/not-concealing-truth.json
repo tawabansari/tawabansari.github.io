@@ -1,0 +1,38 @@
+{
+  "id": "not-concealing-truth",
+  "source": 75,
+  "polarity": "negative",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      2,
+      42
+    ],
+    [
+      2,
+      283
+    ],
+    [
+      3,
+      187
+    ]
+  ],
+  "primary": [
+    2,
+    42
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل کتمان نکردن حقیقت",
+    "aliases": "",
+    "description": "انسان نباید حقیقتی را که بیان آن برای حفظ حق لازم است، آگاهانه پنهان سازد."
+  },
+  "en": {
+    "title": "The Principle of Not concealing truth",
+    "aliases": "",
+    "description": "People should not knowingly conceal truth whose disclosure is necessary to preserve rights."
+  },
+  "reading_order": 39
+}

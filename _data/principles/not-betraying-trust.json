@@ -1,0 +1,44 @@
+{
+  "id": "not-betraying-trust",
+  "source": 78,
+  "polarity": "negative",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      8,
+      27
+    ],
+    [
+      4,
+      105
+    ],
+    [
+      4,
+      106
+    ],
+    [
+      4,
+      107
+    ]
+  ],
+  "primary": [
+    8,
+    27
+  ],
+  "related": [
+    "trustworthiness"
+  ],
+  "fa": {
+    "title": "اصل خیانت نکردن",
+    "aliases": "",
+    "description": "انسان نباید اعتماد دیگران را برای رسیدن به منفعت شخصی بشکند."
+  },
+  "en": {
+    "title": "The Principle of Not betraying trust",
+    "aliases": "",
+    "description": "People must not break others’ trust for personal gain."
+  },
+  "reading_order": 42
+}

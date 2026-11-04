@@ -1,0 +1,38 @@
+{
+  "id": "the-rights-of-a-nursing-mother-and-child",
+  "source": 123,
+  "polarity": "positive",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      2,
+      233
+    ],
+    [
+      65,
+      6
+    ],
+    [
+      65,
+      7
+    ]
+  ],
+  "primary": [
+    2,
+    233
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل حقوق مادر شیرده و کودک",
+    "aliases": "",
+    "description": "طلاق، مسئولیت والدین در برابر فرزند را پایان نمی‌دهد."
+  },
+  "en": {
+    "title": "The Principle of The rights of a nursing mother and child",
+    "aliases": "",
+    "description": "Divorce does not end parental responsibility toward a child."
+  },
+  "reading_order": 123
+}

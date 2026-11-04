@@ -1,0 +1,38 @@
+{
+  "id": "worthy-conduct-in-married-life",
+  "source": 120,
+  "polarity": "positive",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      4,
+      19
+    ],
+    [
+      2,
+      228
+    ]
+  ],
+  "primary": [
+    4,
+    19
+  ],
+  "related": [
+    "consent-in-marriage",
+    "marriage-as-a-solemn-covenant",
+    "maintaining-marriage-honorably-or-separating-graciously"
+  ],
+  "fa": {
+    "title": "اصل معاشرت به معروف",
+    "aliases": "",
+    "description": "زن و مرد باید در زندگی مشترک، حقوق و کرامت یکدیگر را رعایت کنند."
+  },
+  "en": {
+    "title": "The Principle of Worthy conduct in married life",
+    "aliases": "",
+    "description": "Women and men should respect one another’s rights and dignity in married life."
+  },
+  "reading_order": 120
+}

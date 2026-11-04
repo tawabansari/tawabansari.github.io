@@ -1,0 +1,37 @@
+{
+  "id": "judging-with-truth-and-equity",
+  "source": 70,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      4,
+      58
+    ],
+    [
+      38,
+      26
+    ]
+  ],
+  "primary": [
+    4,
+    58
+  ],
+  "related": [
+    "justice",
+    "truthful-and-impartial-testimony"
+  ],
+  "fa": {
+    "title": "اصل داوری بر پایه حق و قسط",
+    "aliases": "",
+    "description": "حکومت و دستگاه قضایی باید بر پایه حق، عدالت و رسیدگی درست به حقوق مردم عمل کنند."
+  },
+  "en": {
+    "title": "The Principle of Judging with truth and equity",
+    "aliases": "",
+    "description": "Government and courts should uphold truth, justice and proper consideration of people’s rights."
+  },
+  "reading_order": 35
+}

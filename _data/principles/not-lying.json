@@ -1,0 +1,40 @@
+{
+  "id": "not-lying",
+  "source": 74,
+  "polarity": "negative",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      9,
+      119
+    ],
+    [
+      33,
+      70
+    ],
+    [
+      22,
+      30
+    ]
+  ],
+  "primary": [
+    22,
+    30
+  ],
+  "related": [
+    "truthfulness"
+  ],
+  "fa": {
+    "title": "اصل دروغ نگفتن",
+    "aliases": "پرهیز از دروغ",
+    "description": "انسان نباید برای فریب دیگران به دروغ متوسل شود."
+  },
+  "en": {
+    "title": "The Principle of Not lying",
+    "aliases": "Avoiding falsehood",
+    "description": "People must not use lies to deceive others."
+  },
+  "reading_order": 38
+}

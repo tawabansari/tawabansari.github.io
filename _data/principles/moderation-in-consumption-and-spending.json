@@ -1,0 +1,37 @@
+{
+  "id": "moderation-in-consumption-and-spending",
+  "source": 134,
+  "polarity": "positive",
+  "categories": [
+    "creation"
+  ],
+  "refs": [
+    [
+      25,
+      67
+    ],
+    [
+      17,
+      29
+    ]
+  ],
+  "primary": [
+    17,
+    29
+  ],
+  "related": [
+    "enjoying-wholesome-provisions",
+    "avoiding-excess-and-waste"
+  ],
+  "fa": {
+    "title": "اصل اعتدال در مصرف و هزینه",
+    "aliases": "",
+    "description": "انسان نباید میان بخل و ولخرجی گرفتار شود."
+  },
+  "en": {
+    "title": "The Principle of Moderation in consumption and spending",
+    "aliases": "",
+    "description": "People should avoid both miserliness and extravagance."
+  },
+  "reading_order": 134
+}

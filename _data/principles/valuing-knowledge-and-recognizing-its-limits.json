@@ -1,0 +1,38 @@
+{
+  "id": "valuing-knowledge-and-recognizing-its-limits",
+  "source": 14,
+  "polarity": "positive",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      39,
+      9
+    ],
+    [
+      20,
+      114
+    ],
+    [
+      17,
+      36
+    ]
+  ],
+  "primary": [
+    39,
+    9
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل ارزش دانش و شناخت محدودیت آن",
+    "aliases": "",
+    "description": "قرآن میان دانستن و ندانستن تفاوت می‌گذارد و انسان را به افزایش علم فرا می‌خواند. در عین حال، دانش انسان محدود است."
+  },
+  "en": {
+    "title": "The Principle of Valuing knowledge and recognizing its limits",
+    "aliases": "",
+    "description": "The Quran distinguishes knowledge from ignorance and invites an increase in knowledge, while human knowledge remains limited."
+  },
+  "reading_order": 17
+}

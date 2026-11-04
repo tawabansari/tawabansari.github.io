@@ -1,0 +1,48 @@
+{
+  "id": "not-spreading-malicious-gossip",
+  "source": 58,
+  "polarity": "negative",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      68,
+      10
+    ],
+    [
+      68,
+      11
+    ],
+    [
+      104,
+      1
+    ]
+  ],
+  "primary": [
+    68,
+    10
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل سخن‌چینی و خبرچینی نکردن",
+    "aliases": "",
+    "description": "انتقال سخنان خصوصی دیگران برای تحریک دشمنی، اختلاف‌افکنی و تخریب روابط انسانی با اخلاق قرآنی سازگار نیست."
+  },
+  "en": {
+    "title": "The Principle of Not spreading malicious gossip",
+    "aliases": "",
+    "description": "Passing on private words to provoke hostility, create discord and damage relationships conflicts with worthy conduct."
+  },
+  "evidence": [
+    [
+      68,
+      10
+    ],
+    [
+      68,
+      11
+    ]
+  ],
+  "reading_order": 73
+}

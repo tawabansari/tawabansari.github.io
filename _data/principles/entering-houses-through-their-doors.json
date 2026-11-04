@@ -1,0 +1,30 @@
+{
+  "id": "entering-houses-through-their-doors",
+  "source": 61,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      2,
+      189
+    ]
+  ],
+  "primary": [
+    2,
+    189
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل وارد شدن به خانه‌ها از در",
+    "aliases": "",
+    "description": "قرآن ورود به خانه‌ها از در را بیان می‌کند و آن را با تقوا پیوند می‌دهد. از این فرمان می‌توان برای زندگی اجتماعی نیز درس گرفت که کارها از راه روشن و درست انجام شوند، نه با دور زدن حقوق دیگران."
+  },
+  "en": {
+    "title": "The Principle of Entering houses through their doors",
+    "aliases": "",
+    "description": "The Quran instructs entry through doors rather than the backs of houses. A broader lesson drawn from this is to use open and proper means rather than hidden ways of circumventing others’ rights."
+  },
+  "reading_order": 76
+}

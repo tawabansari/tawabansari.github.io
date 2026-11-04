@@ -1,0 +1,58 @@
+{
+  "id": "not-violating-existing-marriages",
+  "source": 118,
+  "polarity": "negative",
+  "categories": [
+    "family"
+  ],
+  "refs": [
+    [
+      4,
+      24
+    ],
+    [
+      2,
+      235
+    ],
+    [
+      17,
+      34
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      4,
+      23
+    ]
+  ],
+  "primary": [
+    4,
+    24
+  ],
+  "related": [
+    "premarital-commitments"
+  ],
+  "fa": {
+    "title": "اصل حرمت تجاوز به پیوند زناشویی دیگران",
+    "aliases": "",
+    "description": "نمی‌توان با نادیده گرفتن پیمان زناشویی موجود یا مدت ممنوعیت عقد، ازدواج دیگری برقرار ساخت."
+  },
+  "en": {
+    "title": "The Principle of Not violating existing marriages",
+    "aliases": "",
+    "description": "A new marriage must not disregard an existing marriage or the prescribed prohibition on contracting during a waiting period."
+  },
+  "evidence": [
+    [
+      4,
+      23
+    ],
+    [
+      4,
+      24
+    ]
+  ],
+  "reading_order": 118
+}

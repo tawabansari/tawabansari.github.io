@@ -1,0 +1,41 @@
+{
+  "id": "giving-from-ones-resources",
+  "source": 105,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      2,
+      219
+    ],
+    [
+      2,
+      261
+    ],
+    [
+      57,
+      7
+    ]
+  ],
+  "primary": [
+    57,
+    7
+  ],
+  "related": [
+    "giving-without-reproach-or-humiliation",
+    "feeding-the-hungry-and-caring-for-those-in-need"
+  ],
+  "fa": {
+    "title": "اصل انفاق",
+    "aliases": "بخشش",
+    "description": "انسان باید از آنچه در اختیار دارد، در راه رفع نیاز دیگران و خیر اجتماعی نیز بهره گیرد."
+  },
+  "en": {
+    "title": "The Principle of Giving from one’s resources",
+    "aliases": "Infaq",
+    "description": "People should use what they possess to meet others’ needs and serve the common good."
+  },
+  "reading_order": 106
+}

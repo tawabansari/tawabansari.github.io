@@ -1,0 +1,46 @@
+{
+  "id": "not-confining-salvation-to-a-sectarian-name",
+  "source": 18,
+  "polarity": "negative",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      2,
+      62
+    ],
+    [
+      2,
+      111
+    ],
+    [
+      2,
+      112
+    ],
+    [
+      4,
+      123
+    ],
+    [
+      4,
+      124
+    ]
+  ],
+  "primary": [
+    2,
+    62
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل عدم انحصار نجات در نام یک فرقه",
+    "aliases": "",
+    "description": "قرآن ادعای انحصاری بودن بهشت برای یک گروه را نقد می‌کند و بر ایمان، تسلیم به خداوند، احسان و عمل صالح تأکید دارد."
+  },
+  "en": {
+    "title": "The Principle of Not confining salvation to a sectarian name",
+    "aliases": "",
+    "description": "The Quran challenges claims that Paradise belongs exclusively to one group and emphasizes faith, submission to The God, goodness and righteous action."
+  },
+  "reading_order": 21
+}

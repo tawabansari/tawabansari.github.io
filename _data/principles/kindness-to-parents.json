@@ -1,0 +1,38 @@
+{
+  "id": "kindness-to-parents",
+  "source": 108,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      17,
+      23
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      31,
+      15
+    ]
+  ],
+  "primary": [
+    17,
+    23
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل نیکی به پدر و مادر",
+    "aliases": "",
+    "description": "احترام و نیکی به والدین از فرمان‌های مهم قرآن است، اما اطاعت از آنان نباید به شرک یا نافرمانی از حق بینجامد."
+  },
+  "en": {
+    "title": "The Principle of Kindness to parents",
+    "aliases": "",
+    "description": "Kindness to parents is an important Quranic command, but obedience to them should not lead to associating partners with The God or disobeying truth."
+  },
+  "reading_order": 108
+}

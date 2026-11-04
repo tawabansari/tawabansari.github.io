@@ -1,0 +1,34 @@
+{
+  "id": "speaking-kindly",
+  "source": 104,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      2,
+      83
+    ],
+    [
+      17,
+      53
+    ]
+  ],
+  "primary": [
+    2,
+    83
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل سخن گفتن به نیکی",
+    "aliases": "",
+    "description": "گفتار انسان باید شایسته و دور از تحقیر و آزار باشد."
+  },
+  "en": {
+    "title": "The Principle of Speaking kindly",
+    "aliases": "",
+    "description": "Speech should be worthy and free from humiliation and injury."
+  },
+  "reading_order": 105
+}

@@ -1,0 +1,77 @@
+{
+  "id": "faith-in-the-god-the-hereafter-and-righteous-action",
+  "source": 22,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      2,
+      62
+    ],
+    [
+      5,
+      69
+    ],
+    [
+      2,
+      177
+    ],
+    [
+      3,
+      114
+    ]
+  ],
+  "primary": [
+    2,
+    62
+  ],
+  "related": [
+    "the-oneness-of-the-god",
+    "sincerity",
+    "taqwa",
+    "consistency-between-words-and-deeds",
+    "not-confining-salvation-to-a-sectarian-name"
+  ],
+  "fa": {
+    "title": "اصل ایمان به خداوند، آخرت و عمل صالح",
+    "aliases": "",
+    "description": "ایمان به آن معبود یگانه، ایمان به آخرت و عمل صالح، سه اصل بنیادین و به‌هم‌پیوسته در قرآن هستند که باور، مسئولیت و کردار انسان را به یکدیگر پیوند می‌دهند.\n\n**ایمان به آن معبود یگانه** به معنای باور به این حقیقت است که جهان و انسان آفریدگاری دارند؛ هستی بی‌صاحب و رهاشده نیست، بلکه از آن معبود یگانه سرچشمه گرفته و تحت ربوبیت او قرار دارد.\n\n**ایمان به آخرت** به معنای باور به این حقیقت است که آفرینش انسان بی‌هدف و بیهوده نیست. زندگی با مرگ پایان نمی‌یابد و انسان به سوی آفریدگار خود بازمی‌گردد. انتخاب‌ها و اعمال او پیامد دارند و هیچ نیکی یا بدی از حسابرسی الهی بیرون نمی‌ماند.\n\n**عمل صالح** یعنی انسان با آگاهی و اختیار، از میان خیر و شر، خیر را انتخاب کند، به نیکویی گرایش داشته باشد و این گرایش را در کردار خود آشکار سازد؛ با صداقت، عدالت، امانت‌داری، مهربانی، اصلاح و پرهیز از ستم و فساد.\n\nاین سه اصل مکمل یکدیگرند و هیچ‌یک به‌تنهایی جای دو اصل دیگر را نمی‌گیرد. ایمان به آفریدگار، شناخت مبدأ هستی است؛ ایمان به آخرت، شناخت هدف و فرجام زندگی و مسئولیت انسان است؛ و عمل صالح، تحقق این ایمان و مسئولیت در انتخاب‌ها و رفتار اوست.\n\nاز همین رو، قرآن معیار رستگاری را نه نام، نسب و وابستگی مذهبی، بلکه ایمان به آن معبود یگانه، ایمان به روز آخر و انجام عمل صالح معرفی می‌کند.",
+    "primary_translation": "همانا کسانی که ایمان آوردند، و کسانی که یهودی شدند، و نصارا، و صابئین؛ هر کس به آن معبود یگانه و روز آخر ایمان آورد و عمل صالح انجام داد، پس پاداششان نزد پروردگارشان است؛ نه ترسی بر آنان است و نه آنان اندوهگین می‌شوند."
+  },
+  "en": {
+    "title": "The Principle of Faith in The God, the Hereafter and righteous action",
+    "aliases": "",
+    "description": "Faith in The God, faith in the Hereafter, and righteous action are three fundamental and interconnected principles in the Quran that link human belief, responsibility, and conduct.\n\n**Faith in The God** means believing in the truth that the universe and humanity have a Creator; existence is neither ownerless nor abandoned, but originates from The God and is under His lordship.\n\n**Faith in the Hereafter** means believing in the truth that human creation is neither purposeless nor futile. Life does not end with death, and human beings return to their Creator. Their choices and actions have consequences, and no good or evil falls outside divine reckoning.\n\n**Righteous action** means consciously and freely choosing good over evil, inclining toward goodness, and expressing that inclination through conduct: through honesty, justice, trustworthiness, kindness, reform, and refraining from oppression and corruption.\n\nThese three principles complement one another, and none alone takes the place of the other two. Faith in the Creator is recognition of the origin of existence; faith in the Hereafter is recognition of life's purpose and ultimate outcome, and of human responsibility; and righteous action is the realization of this faith and responsibility in one's choices and behavior.\n\nFor this reason, the Quran presents the criterion of salvation as faith in The God, faith in the Last Day, and the performance of righteous action, rather than a name, lineage, or religious affiliation.",
+    "primary_translation": "Indeed, those who believed, those who became Jews, the Christians, and the Sabians—whoever believed in The God and the Last Day and performed righteous action—will have their reward with their Lord; no fear shall be upon them, nor shall they grieve."
+  },
+  "reading_order": 3,
+  "reference_notes": [
+    {
+      "ref": [
+        5,
+        69
+      ],
+      "fa": "تصریح به ایمان به خدا، روز آخر و عمل صالح.",
+      "en": "Explicit affirmation of faith in The God, the Last Day, and righteous action."
+    },
+    {
+      "ref": [
+        2,
+        177
+      ],
+      "fa": "پیوند ایمان به خدا و روز آخر با نیکوکاری، انفاق، وفای به عهد و پایداری.",
+      "en": "The connection of faith in The God and the Last Day with goodness, giving, fulfilling promises, and steadfastness."
+    },
+    {
+      "ref": [
+        3,
+        114
+      ],
+      "fa": "ایمان به خدا و روز آخر، امر به معروف، نهی از منکر و شتاب در کارهای نیک.",
+      "en": "Faith in The God and the Last Day, enjoining what is right, forbidding what is wrong, and hastening to good deeds."
+    }
+  ],
+  "editorial_reviewed": true
+}

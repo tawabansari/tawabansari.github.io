@@ -1,0 +1,36 @@
+{
+  "id": "no-compulsion-in-religion",
+  "source": 46,
+  "polarity": "negative",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      2,
+      256
+    ],
+    [
+      10,
+      99
+    ]
+  ],
+  "primary": [
+    2,
+    256
+  ],
+  "related": [
+    "freedom-of-belief"
+  ],
+  "fa": {
+    "title": "اصل عدم اکراه در دین",
+    "aliases": "",
+    "description": "ایمان را نمی‌توان با تهدید، زور، زندان یا فشار اجتماعی بر انسان تحمیل کرد."
+  },
+  "en": {
+    "title": "The Principle of No compulsion in religion",
+    "aliases": "",
+    "description": "Faith cannot be imposed through threats, force, imprisonment or social pressure."
+  },
+  "reading_order": 26
+}

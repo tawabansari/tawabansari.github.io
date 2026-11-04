@@ -1,0 +1,34 @@
+{
+  "id": "fasting-and-self-restraint",
+  "source": 28,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      2,
+      183
+    ],
+    [
+      19,
+      26
+    ]
+  ],
+  "primary": [
+    2,
+    183
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل صیام و خودنگهداری",
+    "aliases": "روزه، صوم، صیام",
+    "description": "قرآن صیام را با دستیابی به تقوا پیوند می‌دهد. خودنگهداری باید انسان را در مهار خواسته‌ها و رفتارهایش یاری کند."
+  },
+  "en": {
+    "title": "The Principle of Fasting and self-restraint",
+    "aliases": "Sawm, siyam, fasting",
+    "description": "The Quran connects fasting with attaining taqwa. Self-restraint should help people govern their desires and conduct."
+  },
+  "reading_order": 67
+}

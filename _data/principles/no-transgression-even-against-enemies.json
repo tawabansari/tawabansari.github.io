@@ -1,0 +1,34 @@
+{
+  "id": "no-transgression-even-against-enemies",
+  "source": 98,
+  "polarity": "negative",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      2,
+      190
+    ],
+    [
+      5,
+      8
+    ]
+  ],
+  "primary": [
+    2,
+    190
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل عدم تجاوز حتی هنگام دشمنی",
+    "aliases": "",
+    "description": "دفاع از حق و مقابله با ظلم، مجوز تعدی و انتقام‌گیری نامحدود نیست."
+  },
+  "en": {
+    "title": "The Principle of No transgression even against enemies",
+    "aliases": "",
+    "description": "Defending rights and resisting oppression do not authorize aggression or unlimited revenge."
+  },
+  "reading_order": 99
+}

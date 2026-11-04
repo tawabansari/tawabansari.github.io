@@ -1,0 +1,34 @@
+{
+  "id": "checking-reports-before-acting",
+  "source": 79,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      49,
+      6
+    ],
+    [
+      4,
+      83
+    ]
+  ],
+  "primary": [
+    49,
+    6
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل بررسی خبر پیش از اقدام",
+    "aliases": "",
+    "description": "خبر باید پیش از داوری و اقدام بر اساس آن بررسی شود."
+  },
+  "en": {
+    "title": "The Principle of Checking reports before acting",
+    "aliases": "",
+    "description": "Reports should be examined before judgments and actions are based on them."
+  },
+  "reading_order": 43
+}

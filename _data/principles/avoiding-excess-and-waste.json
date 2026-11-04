@@ -1,0 +1,41 @@
+{
+  "id": "avoiding-excess-and-waste",
+  "source": 132,
+  "polarity": "negative",
+  "categories": [
+    "creation"
+  ],
+  "refs": [
+    [
+      7,
+      31
+    ],
+    [
+      17,
+      26
+    ],
+    [
+      17,
+      27
+    ]
+  ],
+  "primary": [
+    7,
+    31
+  ],
+  "related": [
+    "enjoying-wholesome-provisions",
+    "moderation-in-consumption-and-spending"
+  ],
+  "fa": {
+    "title": "اصل پرهیز از اسراف و تبذیر",
+    "aliases": "اسراف، تبذیر",
+    "description": "استفاده از نعمت‌ها نباید به زیاده‌روی و هدر دادن منابع تبدیل شود."
+  },
+  "en": {
+    "title": "The Principle of Avoiding excess and waste",
+    "aliases": "Extravagance, squandering",
+    "description": "Using blessings should not become overconsumption or the squandering of resources."
+  },
+  "reading_order": 132
+}

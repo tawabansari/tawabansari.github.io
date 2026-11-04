@@ -1,0 +1,38 @@
+{
+  "id": "avoiding-indecency-and-wrongdoing",
+  "source": 33,
+  "polarity": "negative",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      16,
+      90
+    ],
+    [
+      7,
+      33
+    ],
+    [
+      29,
+      45
+    ]
+  ],
+  "primary": [
+    16,
+    90
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل دوری از فحشا و منکر",
+    "aliases": "",
+    "description": "انسان باید از رفتارهای زشت و ناپسند، چه آشکار و چه پنهان، دوری کند. معیار شناخت این رفتارها، فرمان‌ها و نهی‌های قرآن است؛ نه صرفاً پسند و ناپسند جامعه."
+  },
+  "en": {
+    "title": "The Principle of Avoiding indecency and wrongdoing",
+    "aliases": "",
+    "description": "People should avoid reprehensible conduct, whether public or concealed. Quranic commands and prohibitions provide the criterion, beyond social approval alone."
+  },
+  "reading_order": 47
+}

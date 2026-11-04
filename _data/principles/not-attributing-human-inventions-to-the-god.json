@@ -1,0 +1,34 @@
+{
+  "id": "not-attributing-human-inventions-to-the-god",
+  "source": 8,
+  "polarity": "negative",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      2,
+      79
+    ],
+    [
+      6,
+      93
+    ]
+  ],
+  "primary": [
+    2,
+    79
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل نسبت ندادن سخن ساخته انسان به خداوند",
+    "aliases": "",
+    "description": "نوشتن یا ساختن سخنی و سپس معرفی آن به‌عنوان حکم الهی، از رفتارهایی است که قرآن نکوهش می‌کند."
+  },
+  "en": {
+    "title": "The Principle of Not attributing human inventions to The God",
+    "aliases": "",
+    "description": "The Quran condemns writing or inventing statements and presenting them as divine rulings."
+  },
+  "reading_order": 11
+}

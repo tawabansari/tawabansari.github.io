@@ -1,0 +1,36 @@
+{
+  "id": "patience-and-perseverance-in-truth",
+  "source": 34,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      103,
+      3
+    ],
+    [
+      3,
+      200
+    ]
+  ],
+  "primary": [
+    3,
+    200
+  ],
+  "related": [
+    "not-despairing-of-divine-mercy"
+  ],
+  "fa": {
+    "title": "اصل صبر و پایداری بر حق",
+    "aliases": "",
+    "description": "صبر تنها تحمل رنج نیست؛ ایستادگی بر حق و مهار نفس در برابر فشارها نیز هست."
+  },
+  "en": {
+    "title": "The Principle of Patience and perseverance in truth",
+    "aliases": "",
+    "description": "Patience includes steadfastness in truth and self-restraint under pressure, as well as endurance of suffering."
+  },
+  "reading_order": 48
+}

@@ -1,0 +1,34 @@
+{
+  "id": "consent-and-fairness-in-trade",
+  "source": 83,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      4,
+      29
+    ],
+    [
+      11,
+      85
+    ]
+  ],
+  "primary": [
+    4,
+    29
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل رضایت و انصاف در معامله",
+    "aliases": "",
+    "description": "معامله باید با رضایت واقعی و بدون تصاحب ناحق مال انجام شود."
+  },
+  "en": {
+    "title": "The Principle of Consent and fairness in trade",
+    "aliases": "",
+    "description": "Trade should involve genuine consent and avoid wrongful acquisition of property."
+  },
+  "reading_order": 85
+}

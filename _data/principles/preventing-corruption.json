@@ -1,0 +1,34 @@
+{
+  "id": "preventing-corruption",
+  "source": 102,
+  "polarity": "negative",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      2,
+      205
+    ],
+    [
+      28,
+      77
+    ]
+  ],
+  "primary": [
+    28,
+    77
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل جلوگیری از فساد",
+    "aliases": "",
+    "description": "فساد در اداره، اقتصاد، حکومت و جامعه باید شناخته و از آن جلوگیری شود."
+  },
+  "en": {
+    "title": "The Principle of Preventing corruption",
+    "aliases": "",
+    "description": "Corruption in administration, the economy, government and society should be recognized and prevented."
+  },
+  "reading_order": 103
+}

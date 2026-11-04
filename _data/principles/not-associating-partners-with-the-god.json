@@ -1,0 +1,40 @@
+{
+  "id": "not-associating-partners-with-the-god",
+  "source": 21,
+  "polarity": "negative",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      31,
+      13
+    ],
+    [
+      2,
+      165
+    ],
+    [
+      4,
+      48
+    ]
+  ],
+  "primary": [
+    31,
+    13
+  ],
+  "related": [
+    "the-oneness-of-the-god"
+  ],
+  "fa": {
+    "title": "اصل شریک قرار ندادن برای خداوند",
+    "aliases": "",
+    "description": "انسان نباید اطاعت، محبت و وفاداری به اشخاص یا گروه‌ها را بر حق و فرمان خداوند مقدم سازد."
+  },
+  "en": {
+    "title": "The Principle of Not associating partners with The God",
+    "aliases": "",
+    "description": "Obedience, affection and loyalty to persons or groups must not take precedence over truth and the command of The God."
+  },
+  "reading_order": 2
+}

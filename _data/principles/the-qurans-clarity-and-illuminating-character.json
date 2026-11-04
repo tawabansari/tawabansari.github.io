@@ -1,0 +1,38 @@
+{
+  "id": "the-qurans-clarity-and-illuminating-character",
+  "source": 2,
+  "polarity": "positive",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      12,
+      1
+    ],
+    [
+      5,
+      15
+    ],
+    [
+      16,
+      89
+    ]
+  ],
+  "primary": [
+    16,
+    89
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل مبین و روشنگر بودن قرآن",
+    "aliases": "",
+    "description": "قرآن خود را کتابی روشن و روشنگر معرفی می‌کند. انسان باید برای شناخت پیام الهی به متن وحی مراجعه کند، نه اینکه آن را ذاتاً مبهم و نیازمند مرجعیت انحصاری دیگران بداند."
+  },
+  "en": {
+    "title": "The Principle of The Quran’s clarity and illuminating character",
+    "aliases": "",
+    "description": "The Quran describes itself as clear and illuminating. Understanding the divine message begins with revelation, without treating it as inherently obscure or subject to another exclusive authority."
+  },
+  "reading_order": 5
+}

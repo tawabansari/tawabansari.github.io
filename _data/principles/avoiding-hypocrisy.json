@@ -1,0 +1,46 @@
+{
+  "id": "avoiding-hypocrisy",
+  "source": 25,
+  "polarity": "negative",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      4,
+      142
+    ],
+    [
+      61,
+      2
+    ],
+    [
+      61,
+      3
+    ]
+  ],
+  "primary": [
+    2,
+    8
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل دوری از نفاق و دورویی",
+    "aliases": "دورویی",
+    "description": "انسان نباید در ظاهر ادعای ایمان، نیکی و خیرخواهی کند، اما در باطن به فریب، خیانت و کردار مخالف آن مشغول باشد. قرآن این دوگانگی را از ویژگی‌های منافقان معرفی می‌کند."
+  },
+  "en": {
+    "title": "The Principle of Avoiding hypocrisy",
+    "aliases": "Hypocrisy",
+    "description": "Outward claims to faith and goodwill should not conceal deception, betrayal or opposing conduct. The Quran condemns this duplicity."
+  },
+  "reading_order": 64
+}

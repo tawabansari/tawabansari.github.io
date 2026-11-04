@@ -1,0 +1,34 @@
+{
+  "id": "numbers-do-not-establish-truth",
+  "source": 13,
+  "polarity": "negative",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      6,
+      116
+    ],
+    [
+      5,
+      100
+    ]
+  ],
+  "primary": [
+    6,
+    116
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل اینکه کثرت، معیار حق نیست",
+    "aliases": "",
+    "description": "زیاد بودن پیروان یک عقیده یا رواج گسترده یک رفتار، درستی آن را ثابت نمی‌کند."
+  },
+  "en": {
+    "title": "The Principle of Numbers do not establish truth",
+    "aliases": "",
+    "description": "The popularity of a belief or practice does not establish its correctness."
+  },
+  "reading_order": 16
+}

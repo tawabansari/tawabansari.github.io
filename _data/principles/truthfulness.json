@@ -1,0 +1,40 @@
+{
+  "id": "truthfulness",
+  "source": 74,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      9,
+      119
+    ],
+    [
+      33,
+      70
+    ],
+    [
+      22,
+      30
+    ]
+  ],
+  "primary": [
+    9,
+    119
+  ],
+  "related": [
+    "not-lying"
+  ],
+  "fa": {
+    "title": "اصل راست‌گویی",
+    "aliases": "صداقت، راست گفتن",
+    "description": "گفتار انسان باید راست و استوار باشد."
+  },
+  "en": {
+    "title": "The Principle of Truthfulness",
+    "aliases": "Honesty, speaking truth",
+    "description": "Speech should be truthful and sound."
+  },
+  "reading_order": 38
+}

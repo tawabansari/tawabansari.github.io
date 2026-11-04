@@ -1,0 +1,36 @@
+{
+  "id": "trustworthiness",
+  "source": 77,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      4,
+      58
+    ],
+    [
+      23,
+      8
+    ]
+  ],
+  "primary": [
+    4,
+    58
+  ],
+  "related": [
+    "not-betraying-trust"
+  ],
+  "fa": {
+    "title": "اصل امانت‌داری",
+    "aliases": "حفظ امانت",
+    "description": "امانت باید به صاحب حق سپرده شود."
+  },
+  "en": {
+    "title": "The Principle of Trustworthiness",
+    "aliases": "Fidelity to trusts",
+    "description": "Trusts should be returned to those entitled to them."
+  },
+  "reading_order": 41
+}

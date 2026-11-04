@@ -1,0 +1,36 @@
+{
+  "id": "unfounded-religious-authority",
+  "source": 15,
+  "polarity": "negative",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      16,
+      43
+    ],
+    [
+      21,
+      7
+    ]
+  ],
+  "primary": [
+    21,
+    7
+  ],
+  "related": [
+    "humanity-of-the-messengers"
+  ],
+  "fa": {
+    "title": "اصل پرهیز از مرجع‌سازی بی‌دلیل",
+    "aliases": "",
+    "description": "قرآن پیامبران پیشین را انسان‌هایی معرفی می‌کند که به آنان وحی می‌شد. در نحل ۱۶:۴۳ و انبیاء ۲۱:۷، پرسش از اهل ذکر در همین موضوع آمده است؛ نه برای واگذاری تمام تصمیم‌های دینی و زندگی به یک طبقهٔ مذهبی."
+  },
+  "en": {
+    "title": "The Principle of Avoiding unfounded religious authority",
+    "aliases": "",
+    "description": "In 16:43 and 21:7, the question addressed to the people of remembrance concerns the humanity of earlier messengers. It should not be turned into a general instruction to surrender every religious and life decision to a religious class."
+  },
+  "reading_order": 18
+}

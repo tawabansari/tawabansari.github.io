@@ -1,0 +1,38 @@
+{
+  "id": "the-arabic-language-of-the-quran",
+  "source": 5,
+  "polarity": "positive",
+  "categories": [
+    "revelation"
+  ],
+  "refs": [
+    [
+      12,
+      2
+    ],
+    [
+      26,
+      195
+    ],
+    [
+      43,
+      3
+    ]
+  ],
+  "primary": [
+    12,
+    2
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل عربی بودن متن قرآن",
+    "aliases": "",
+    "description": "قرآن به زبان عربی نازل شده است. شناخت واژگان، ساختار جمله و سیاق عربی برای فهم و ترجمه درست آن اهمیت دارد."
+  },
+  "en": {
+    "title": "The Principle of The Arabic language of the Quran",
+    "aliases": "",
+    "description": "The Quran was revealed in Arabic. Its vocabulary, sentence structure and context matter for sound understanding and translation."
+  },
+  "reading_order": 8
+}

@@ -1,0 +1,34 @@
+{
+  "id": "not-obstructing-goodness-and-reconciliation",
+  "source": 113,
+  "polarity": "negative",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      2,
+      224
+    ],
+    [
+      2,
+      232
+    ]
+  ],
+  "primary": [
+    2,
+    224
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل مانع نشدن از خیر و اصلاح دیگران",
+    "aliases": "",
+    "description": "جامعه نباید با دخالت، تعصب و مانع‌تراشی، راه اصلاح روابط و تصمیم‌های شایسته مردم را ببندد."
+  },
+  "en": {
+    "title": "The Principle of Not obstructing goodness and reconciliation",
+    "aliases": "",
+    "description": "Interference, prejudice and obstruction should not block worthy decisions or the repair of relationships."
+  },
+  "reading_order": 113
+}

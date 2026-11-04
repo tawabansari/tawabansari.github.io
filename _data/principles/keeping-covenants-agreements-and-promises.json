@@ -1,0 +1,42 @@
+{
+  "id": "keeping-covenants-agreements-and-promises",
+  "source": 23,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      17,
+      34
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      16,
+      91
+    ],
+    [
+      19,
+      54
+    ]
+  ],
+  "primary": [
+    17,
+    34
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل وفای به عهد، پیمان و وعده",
+    "aliases": "وفای به عهد",
+    "description": "وفای به عهد از بنیادهای اخلاق قرآنی است. انسان باید به قراردادها، پیمان‌ها و وعده‌های معتبر خود پایبند باشد؛ زیرا اعتماد میان مردم بر صداقت و انجام تعهدات استوار است."
+  },
+  "en": {
+    "title": "The Principle of Keeping covenants, agreements and promises",
+    "aliases": "Fulfilling promises",
+    "description": "Honoring valid agreements and promises is fundamental to Quranic ethics. Trust rests on honesty and fulfilling commitments, for which people are accountable."
+  },
+  "reading_order": 62
+}

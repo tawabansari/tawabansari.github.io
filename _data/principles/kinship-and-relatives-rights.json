@@ -1,0 +1,38 @@
+{
+  "id": "kinship-and-relatives-rights",
+  "source": 109,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      4,
+      1
+    ],
+    [
+      17,
+      26
+    ],
+    [
+      16,
+      90
+    ]
+  ],
+  "primary": [
+    4,
+    1
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل صله رحم و رعایت حقوق خویشاوندان",
+    "aliases": "",
+    "description": "روابط خانوادگی باید با نیکی، حمایت و رعایت حقوق همراه باشند."
+  },
+  "en": {
+    "title": "The Principle of Kinship and relatives’ rights",
+    "aliases": "",
+    "description": "Family relationships should involve kindness, support and respect for rights."
+  },
+  "reading_order": 109
+}

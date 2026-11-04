@@ -1,0 +1,34 @@
+{
+  "id": "not-stealing",
+  "source": 81,
+  "polarity": "negative",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      5,
+      38
+    ],
+    [
+      60,
+      12
+    ]
+  ],
+  "primary": [
+    60,
+    12
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل دزدی نکردن",
+    "aliases": "",
+    "description": "تصاحب ناحق دارایی دیگران، از جمله دارایی عمومی، تجاوز به حق آنان است."
+  },
+  "en": {
+    "title": "The Principle of Not stealing",
+    "aliases": "",
+    "description": "Wrongfully taking private or public property violates the rights of its owners."
+  },
+  "reading_order": 83
+}

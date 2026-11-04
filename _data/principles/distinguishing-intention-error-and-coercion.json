@@ -1,0 +1,34 @@
+{
+  "id": "distinguishing-intention-error-and-coercion",
+  "source": 41,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      33,
+      5
+    ],
+    [
+      16,
+      106
+    ]
+  ],
+  "primary": [
+    33,
+    5
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل تفاوت عمد، خطا و اکراه",
+    "aliases": "",
+    "description": "قرآن میان کردار عمدی و خطای غیرعمد تفاوت می‌گذارد و در موارد اکراه نیز وضعیت انسان را جداگانه بررسی می‌کند."
+  },
+  "en": {
+    "title": "The Principle of Distinguishing intention, error and coercion",
+    "aliases": "",
+    "description": "The Quran distinguishes intentional conduct from unintentional error and gives separate consideration to coercion."
+  },
+  "reading_order": 55
+}

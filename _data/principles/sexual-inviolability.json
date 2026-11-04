@@ -1,0 +1,40 @@
+{
+  "id": "sexual-inviolability",
+  "source": 55,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      17,
+      32
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      4,
+      19
+    ]
+  ],
+  "primary": [
+    17,
+    32
+  ],
+  "related": [
+    "no-sexual-coercion"
+  ],
+  "fa": {
+    "title": "اصل حرمت حریم جنسی",
+    "aliases": "",
+    "description": "حریم جنسی انسان باید محترم و محفوظ باشد."
+  },
+  "en": {
+    "title": "The Principle of Sexual inviolability",
+    "aliases": "",
+    "description": "Human sexual boundaries must be respected and protected."
+  },
+  "reading_order": 70
+}

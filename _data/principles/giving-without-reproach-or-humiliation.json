@@ -1,0 +1,45 @@
+{
+  "id": "giving-without-reproach-or-humiliation",
+  "source": 106,
+  "polarity": "positive",
+  "categories": [
+    "society"
+  ],
+  "refs": [
+    [
+      2,
+      262
+    ],
+    [
+      2,
+      263
+    ],
+    [
+      2,
+      264
+    ],
+    [
+      76,
+      9
+    ]
+  ],
+  "primary": [
+    2,
+    262
+  ],
+  "related": [
+    "giving-from-ones-resources",
+    "feeding-the-hungry-and-caring-for-those-in-need"
+  ],
+  "fa": {
+    "title": "اصل بخشش بدون منت و تحقیر",
+    "aliases": "",
+    "description": "کمک به نیازمند نباید کرامت و آبروی او را از میان ببرد."
+  },
+  "en": {
+    "title": "The Principle of Giving without reproach or humiliation",
+    "aliases": "",
+    "description": "Helping a person in need should preserve that person’s dignity and reputation."
+  },
+  "reading_order": 107
+}

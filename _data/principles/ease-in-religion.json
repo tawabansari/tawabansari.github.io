@@ -1,0 +1,34 @@
+{
+  "id": "ease-in-religion",
+  "source": 38,
+  "polarity": "positive",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      2,
+      185
+    ],
+    [
+      22,
+      78
+    ]
+  ],
+  "primary": [
+    2,
+    185
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل آسانی در دین",
+    "aliases": "",
+    "description": "خداوند دین را برای قرار دادن انسان در دشواری‌های ساخته و غیرضروری مقرر نکرده است."
+  },
+  "en": {
+    "title": "The Principle of Ease in religion",
+    "aliases": "",
+    "description": "The God has not prescribed religion to impose invented, unnecessary hardship."
+  },
+  "reading_order": 52
+}

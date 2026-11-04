@@ -1,0 +1,52 @@
+{
+  "id": "freedom-to-listen-and-respectful-dialogue",
+  "source": 62,
+  "polarity": "positive",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      39,
+      18
+    ],
+    [
+      16,
+      125
+    ],
+    [
+      29,
+      46
+    ],
+    [
+      39,
+      17
+    ]
+  ],
+  "primary": [
+    39,
+    18
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل آزادی شنیدن و گفت‌وگوی نیکو",
+    "aliases": "",
+    "description": "انسان باید امکان شنیدن سخنان مختلف، بررسی دلیل و انتخاب آگاهانه را داشته باشد."
+  },
+  "en": {
+    "title": "The Principle of Freedom to listen and respectful dialogue",
+    "aliases": "",
+    "description": "People should be able to hear different views, examine evidence and choose with understanding."
+  },
+  "evidence": [
+    [
+      39,
+      17
+    ],
+    [
+      39,
+      18
+    ]
+  ],
+  "reading_order": 77
+}

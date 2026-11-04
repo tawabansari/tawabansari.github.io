@@ -1,0 +1,38 @@
+{
+  "id": "rejecting-tyranny-and-humiliation",
+  "source": 71,
+  "polarity": "negative",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      28,
+      4
+    ],
+    [
+      43,
+      54
+    ],
+    [
+      40,
+      29
+    ]
+  ],
+  "primary": [
+    28,
+    4
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل نفی استبداد و تحقیر مردم",
+    "aliases": "",
+    "description": "قدرت سیاسی نباید به وسیله فرمان‌بردار ساختن مردم از راه تحقیر، ترس و فریب تبدیل شود."
+  },
+  "en": {
+    "title": "The Principle of Rejecting tyranny and humiliation",
+    "aliases": "",
+    "description": "Political power should not be used to secure submission through humiliation, fear and deception."
+  },
+  "reading_order": 36
+}

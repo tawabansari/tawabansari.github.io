@@ -1,0 +1,34 @@
+{
+  "id": "consultation-in-shared-affairs",
+  "source": 73,
+  "polarity": "positive",
+  "categories": [
+    "justice"
+  ],
+  "refs": [
+    [
+      42,
+      38
+    ],
+    [
+      3,
+      159
+    ]
+  ],
+  "primary": [
+    3,
+    159
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل شورا و مشارکت در امور مشترک",
+    "aliases": "مشورت",
+    "description": "تصمیم‌های مربوط به زندگی جمعی باید با مشورت و مسئولیت‌پذیری همراه باشند."
+  },
+  "en": {
+    "title": "The Principle of Consultation in shared affairs",
+    "aliases": "Shura",
+    "description": "Decisions affecting collective life should involve consultation and responsibility."
+  },
+  "reading_order": 61
+}

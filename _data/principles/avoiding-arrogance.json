@@ -1,0 +1,38 @@
+{
+  "id": "avoiding-arrogance",
+  "source": 43,
+  "polarity": "negative",
+  "categories": [
+    "faith"
+  ],
+  "refs": [
+    [
+      31,
+      18
+    ],
+    [
+      31,
+      19
+    ],
+    [
+      28,
+      83
+    ]
+  ],
+  "primary": [
+    31,
+    18
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل دوری از تکبر و خودبزرگ‌بینی",
+    "aliases": "",
+    "description": "ثروت، مقام، علم و نسب نباید سبب تحقیر دیگران شوند."
+  },
+  "en": {
+    "title": "The Principle of Avoiding arrogance",
+    "aliases": "",
+    "description": "Wealth, position, learning and ancestry should not become grounds for demeaning others."
+  },
+  "reading_order": 57
+}

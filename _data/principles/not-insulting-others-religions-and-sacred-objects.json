@@ -1,0 +1,38 @@
+{
+  "id": "not-insulting-others-religions-and-sacred-objects",
+  "source": 63,
+  "polarity": "negative",
+  "categories": [
+    "dignity"
+  ],
+  "refs": [
+    [
+      6,
+      108
+    ],
+    [
+      49,
+      11
+    ],
+    [
+      16,
+      125
+    ]
+  ],
+  "primary": [
+    6,
+    108
+  ],
+  "related": [],
+  "fa": {
+    "title": "اصل عدم تمسخر و اهانت به ادیان و مقدسات دیگران",
+    "aliases": "",
+    "description": "اختلاف عقیده مجوز تمسخر، ناسزا و تحقیر نیست. انسان می‌تواند با دلیل، عقیده‌ای را نقد کند، اما حق ندارد برای دفاع از باور خود به اهانت و تحریک دشمنی روی آورد."
+  },
+  "en": {
+    "title": "The Principle of Not insulting others’ religions and sacred objects",
+    "aliases": "",
+    "description": "The Quran prohibits insulting those invoked besides The God. Disagreement permits reasoned criticism, but does not justify mockery, abuse or incitement of hostility."
+  },
+  "reading_order": 78
+}
