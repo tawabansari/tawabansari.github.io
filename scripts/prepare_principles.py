@@ -51,9 +51,9 @@ def prepare(site):
                 note=next((note[lang] for note in record.get('reference_notes',[]) if note['ref']==ref),None)
                 if note:c+=' — '+html.escape(note)
                 refs.append('<li>'+c+'</li>')
-            other=('<span>'+('ارجاعات دیگر: ' if lang=='fa' else 'Further references: ')+'</span><ul class="principle-citations">'+''.join(refs)+'</ul>') if refs else ''
+            other=('<span>'+('آیات مشابه دیگر: ' if lang=='fa' else 'Other similar verses: ')+'</span><ul class="principle-citations">'+''.join(refs)+'</ul>') if refs else ''
             if record.get('reference_groups'):
-                other='<span>'+('ارجاعات دیگر: ' if lang=='fa' else 'Further references: ')+'</span>'
+                other='<span>'+('آیات مشابه دیگر: ' if lang=='fa' else 'Other similar verses: ')+'</span>'
                 for number,group in enumerate(record['reference_groups'],1):
                     label=str(number).translate(str.maketrans('0123456789','۰۱۲۳۴۵۶۷۸۹')) if lang=='fa' else str(number)
                     links=''.join('<li>'+citation(ref,lang)[0]+'</li>' for ref in group['refs'])

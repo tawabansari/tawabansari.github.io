@@ -9,8 +9,8 @@ layout: default
   <div class="study-toolbar principle-tools" data-pagefind-ignore><button type="button" data-copy-principle title="{% if lang == 'fa' %}کپی پیوند{% else %}Copy link{% endif %}" aria-label="{% if lang == 'fa' %}کپی پیوند{% else %}Copy link{% endif %}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M9 15l6-6M8 16l-1 1a4 4 0 01-6-6l4-4a4 4 0 016 0M16 8l1-1a4 4 0 016 6l-4 4a4 4 0 01-6 0"/></svg></button><span role="status"></span></div>
   <h1>{{ copy.title }}{% if copy.aliases != '' %} <span class="principle-title-aliases">({{ copy.aliases }})</span>{% endif %}{% if principle.editorial_reviewed %}<span class="principle-reviewed" aria-hidden="true"></span>{% endif %}</h1>
   <div class="principle-explanation">{{ copy.description | markdownify }}</div>
-  <div class="principle-references"><!-- PRINCIPLE_REFERENCES --></div>
   <section class="principle-evidence" aria-label="{% if lang == 'fa' %}شواهد قرآنی{% else %}Quranic evidence{% endif %}"><!-- PRINCIPLE_VERSE --></section>
+  <div class="principle-references"><!-- PRINCIPLE_REFERENCES --></div>
   {% if principle.related.size > 0 %}<section class="principle-related"><h2>{% if lang == 'fa' %}اصول مرتبط{% else %}Related principles{% endif %}</h2><ul>{% for id in principle.related %}{% assign related = site.data.principles[id] %}<li><a href="/{{ lang }}/principles/{{ id }}/">{{ related[lang].title }}</a></li>{% endfor %}</ul></section>{% endif %}
 
 </article>
