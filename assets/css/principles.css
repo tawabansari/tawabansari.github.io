@@ -53,3 +53,6 @@ html[data-forqan-theme=dark] .principles-directory h1,html[data-forqan-theme=dar
 .principle-title-aliases{font-size:.55em;font-weight:400;color:#746751;vertical-align:baseline}
 html[data-forqan-theme=dark] .principle-title-aliases{color:#c6b99f}
 html.study-embedded .principle-detail.panel-tools-ready .principle-tools{display:none}
+
+.principle-reviewed{display:inline-block;width:6px;height:6px;border-radius:50%;background:#83ad89;margin-inline-start:.5em;vertical-align:middle}
+.principle-reference-group{flex-basis:100%}

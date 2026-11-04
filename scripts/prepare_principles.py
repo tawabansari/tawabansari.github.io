@@ -36,8 +36,9 @@ def prepare(site):
                 if not clean(arabic) or not clean(translation):raise ValueError('Missing verse text: '+str(evidence_ref)+' '+lang)
                 # Plain text removes interactive word boxes without changing the verse wording.
                 notice=re.search(r'<!-- Arabic source: Tanzil.*?-->',text,re.S)
-                verse=(notice[0] if notice else '')+f'<p class="arabic-text" lang="ar" dir="rtl">{html.escape(clean(arabic))}</p><p class="principle-translation">{html.escape(clean(translation))}</p><p class="principle-verse-reference">{link}</p>'
-                if section.attrs.get('data-translation-status')=='provisional':
+                override=record.get(lang,{}).get('primary_translation') if evidence_ref==record['primary'] else None
+                verse=(notice[0] if notice else '')+f'<p class="arabic-text" lang="ar" dir="rtl">{html.escape(clean(arabic))}</p><p class="principle-translation">{html.escape(override or clean(translation))}</p><p class="principle-verse-reference">{link}</p>'
+                if not override and section.attrs.get('data-translation-status')=='provisional':
                     verse+='<p class="principle-translation-status">'+('ترجمهٔ این آیه در فرقان هنوز موقت و در حال بازبینی است.' if lang=='fa' else 'This verse’s translation on Forqan is provisional and under review.')+'</p>'
                 verses.append('<div class="principle-verse">'+verse+'</div>')
             verse=''.join(verses)
@@ -48,5 +49,11 @@ def prepare(site):
                 if not exists:unavailable.append((record['id'],lang,ref))
                 refs.append('<li>'+c+'</li>')
             other=('<span>'+('ارجاعات دیگر: ' if lang=='fa' else 'Further references: ')+'</span><ul class="principle-citations">'+''.join(refs)+'</ul>') if refs else ''
+            if record.get('reference_groups'):
+                other='<span>'+('ارجاعات دیگر: ' if lang=='fa' else 'Further references: ')+'</span>'
+                for number,group in enumerate(record['reference_groups'],1):
+                    label=str(number).translate(str.maketrans('0123456789','۰۱۲۳۴۵۶۷۸۹')) if lang=='fa' else str(number)
+                    links=''.join('<li>'+citation(ref,lang)[0]+'</li>' for ref in group['refs'])
+                    other+=f'<div class="principle-reference-group"><strong>{label}. {html.escape(group[lang])}</strong><ul class="principle-citations">{links}</ul></div>'
             path.write_text(path.read_text().replace('<!-- PRINCIPLE_VERSE -->',verse).replace('<!-- PRINCIPLE_REFERENCES -->',other))
     print('Prepared',len(records),'principles in each language;',len(unavailable),'unavailable supporting references retained as text.')
