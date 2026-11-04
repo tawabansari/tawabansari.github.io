@@ -72,7 +72,7 @@ export async function writeCatalog(site, records) {
     const record = recordByURL.get(fragment.url);
     if (!record) throw Error('Unrecognized indexed record: '+fragment.url);
     const study = studyByURL.get(record.url);
-    const aliases = study ? [...new Set([study.concept || '',study.title,...study.aliases || []].map(normalize).filter(Boolean))] : [];
+    const aliases = study ? [...new Set([study.concept || '',study.title,...study.aliases || []].map(normalize).filter(Boolean))] : (record.kind === 'Principles' ? [record.title,...record.aliases || []].map(normalize) : []);
     const item = {id:file.replace('.pf_fragment',''),url:record.url,title:record.title,kind:record.kind,aliases};
     if (study) item.annotatedRoots = [...conceptRoots[record.url] || []];
     if (record.kind === 'Roots') item.root = record.url.split('/').filter(Boolean).pop();

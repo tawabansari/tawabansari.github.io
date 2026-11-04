@@ -1,0 +1,37 @@
+[
+  {
+    "id": "revelation",
+    "fa": "شناخت قرآن، وحی و دین",
+    "en": "Quran, revelation and religion"
+  },
+  {
+    "id": "faith",
+    "fa": "ایمان، بندگی و خودسازی",
+    "en": "Faith, worship and self-development"
+  },
+  {
+    "id": "dignity",
+    "fa": "آزادی، کرامت و حقوق انسان",
+    "en": "Freedom, dignity and human rights"
+  },
+  {
+    "id": "justice",
+    "fa": "عدالت، امانت و حقوق مالی",
+    "en": "Justice, trust and financial rights"
+  },
+  {
+    "id": "society",
+    "fa": "مسئولیت اجتماعی و نیکوکاری",
+    "en": "Social responsibility and goodness"
+  },
+  {
+    "id": "family",
+    "fa": "خانواده و حقوق متقابل",
+    "en": "Family and mutual rights"
+  },
+  {
+    "id": "creation",
+    "fa": "زندگی سالم و مسئولیت در برابر زمین",
+    "en": "Wholesome living and responsibility for the earth"
+  }
+]

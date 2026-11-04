@@ -39,9 +39,19 @@
         "url": "/en/quran-terminology/"
       },
       {
+        "title": "Quranic Principles",
+        "description": "Principles to uphold and wrongs to avoid, with verse evidence and related principles.",
+        "url": "/en/principles/"
+      },
+      {
         "title": "Books & Articles",
         "description": "Books, essays, and in-depth studies for further reflection.",
         "url": "/en/articles/"
+      },
+      {
+        "title": "Contributed Articles & Research",
+        "description": "Independent authors’ writings in their original language, with a separate search.",
+        "url": "/en/contributions/"
       }
     ],
     "about": "About Forqan",
@@ -87,9 +97,19 @@
         "url": "/fa/quran-terminology/"
       },
       {
+        "title": "اصول قرآنی",
+        "description": "اصول مثبت و منفی، همراه با شواهد آیات و پیوند اصول مرتبط.",
+        "url": "/fa/principles/"
+      },
+      {
         "title": "کتاب‌ها و مقاله‌ها",
         "description": "کتاب‌ها، مقاله‌ها و پژوهش‌هایی برای تأمل بیشتر.",
         "url": "/fa/articles/"
+      },
+      {
+        "title": "مقاله‌ها و پژوهش‌های ارسالی",
+        "description": "نوشته‌های نویسندگان مستقل، به زبان اصلی و با جستجوی جداگانه.",
+        "url": "/fa/contributions/"
       }
     ],
     "about": "دربارهٔ فرقان",

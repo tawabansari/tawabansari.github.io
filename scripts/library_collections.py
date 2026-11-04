@@ -129,10 +129,6 @@ def prepare(site,pages,sources,redirects):
                 for k in MAIN:
                     count=len(members(k,lang))
                     body+=f'<a class="collection-card" href="{route(k,lang)}">{collection_icon(k)}<h2>{label(k,lang)}</h2><p>{COLLECTIONS[k][4 if lang=="fa" else 3]}</p><span>{count} '+text(lang,'studies','نوشته')+'</span></a>'
-                # Independent submissions have their own catalogue and search.
-                contributed_title=text(lang,'Contributed Articles & Research','مقاله‌ها و پژوهش‌های ارسالی')
-                contributed_intro=text(lang,'Articles and research submitted by independent authors.','مقاله‌ها و پژوهش‌های فرستاده‌شده از سوی نویسندگان مستقل.')
-                body+=f'<a class="collection-card" data-contribution-entrance href="/{lang}/contributions/">{collection_icon("contributions")}<h2>{contributed_title}</h2><p>{contributed_intro}</p></a>'
                 body+='</div><p class="dedicated-studies">'+text(lang,'Dedicated studies: ','مطالعات ویژه: ')+ ' · '.join(f'<a href="{route(k,lang)}">{label(k,lang)}</a>' for k in ('salat','zakat'))+'</p>'
             else:
                 rows=members(key,lang)

@@ -34,7 +34,7 @@ export function suggest(query, vocabulary) {
 }
 export function categoryOrder(query, type) {
   if(type)return [type];
-  return ['Quran','Roots','Terminology','Articles','Reflection','Guide'];
+  return ['Quran','Principles','Roots','Terminology','Articles','Reflection','Guide'];
 }
 export function excerpt(original, query, max=240) {
   const tokens=normalize(query).split(' ').filter(Boolean),phrase=normalize(query);

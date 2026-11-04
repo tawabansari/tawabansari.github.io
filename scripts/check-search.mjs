@@ -58,7 +58,7 @@ const vocabulary=JSON.parse(await fs.readFile(path.join(site,'assets/data/vocabu
 assert.equal(suggest('justcie',vocabulary),'justice');
 assert.equal(suggest('justice',vocabulary),null);
 assert.equal(suggest('ktb',vocabulary),null);
-assert.deepEqual(categoryOrder('faith',''),['Quran','Roots','Terminology','Articles','Reflection','Guide']);
+assert.deepEqual(categoryOrder('faith',''),['Quran','Principles','Roots','Terminology','Articles','Reflection','Guide']);
 assert.equal(categoryOrder('a m n','')[0],'Quran');
 assert.deepEqual(categoryOrder('faith','Articles'),['Articles']);
 const original='This is an unchanged excerpt with ایمان and عربي words.';

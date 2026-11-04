@@ -1,7 +1,7 @@
 # Independent submitted writings
 
-Entrances exist only on `/fa/articles/` and `/en/articles/`. The homepage and
-primary navigation do not gain a new entry. The section uses its own search
+Entrances exist on `/fa/` and `/en/`, alongside Quranic Principles. The
+primary navigation does not gain a new entry. The section uses its own search
 JSON per language; never add these writings to `_data/study-catalog.json`,
 translation pairs, or the central search records.
 

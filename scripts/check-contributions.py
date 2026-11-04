@@ -47,12 +47,12 @@ for lang in ('fa', 'en'):
     rows = json.loads((site / f'assets/data/contributions-{lang}.json').read_text())
     assert all(r['lang'] == lang for r in rows)
     hub = Document((site / lang / 'articles/index.html').read_text()).root
-    assert len([e for e in hub.walk() if 'data-contribution-entrance' in e.attrs]) == 1
-    assert len([e for e in hub.walk() if e.has_class('collection-card')]) == 5
-    assert '/contributions/' not in (site / lang / 'index.html').read_text()
+    assert len([e for e in hub.walk() if 'data-contribution-entrance' in e.attrs]) == 0
+    assert len([e for e in hub.walk() if e.has_class('collection-card')]) == 4
+    assert '/contributions/' in (site / lang / 'index.html').read_text()
     assert not root.first(lambda e: e.attrs.get('data-language') == ('en' if lang == 'fa' else 'fa')).attrs['href'].endswith('/index.html')
 for filename in ('library.json', 'collections.json', 'features.json', 'search-records.json'):
     path = site / 'assets/data' / filename
     if path.exists():
         assert '/contributions/' not in path.read_text(), 'Submission leaked into ' + filename
-print('Passed submission metadata, full-text extraction, separate languages, empty state, hub-only entrances, and central catalogue exclusion.')
+print('Passed submission metadata, full-text extraction, separate languages, empty state, homepage entrances, and central catalogue exclusion.')

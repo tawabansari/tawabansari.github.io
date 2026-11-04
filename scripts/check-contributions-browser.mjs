@@ -21,7 +21,7 @@ try {
     await page.screenshot({path:`/tmp/forqan-contributions-${lang}-${theme}-${width}.png`,fullPage:true});
     await page.goto(`${base}/${lang}/articles/`,{waitUntil:'networkidle'});
     assert.equal(await page.locator('[data-contribution-entrance]').count(),1);
-    assert.equal(await page.locator('.collection-card').count(),5);
+    assert.equal(await page.locator('.collection-card').count(),4);
     const cards = await page.locator('.collection-card').evaluateAll(nodes => nodes.map(node => { const r=node.getBoundingClientRect(); return {top:r.top,bottom:r.bottom,left:r.left,width:r.width}; }));
     assert.ok(cards.every((card,i)=>!i || card.top>=cards[i-1].bottom), 'Collections must occupy five separate rows');
     assert.ok(cards.every(card=>Math.abs(card.left-cards[0].left)<1 && Math.abs(card.width-cards[0].width)<1), 'Collection rows must align');

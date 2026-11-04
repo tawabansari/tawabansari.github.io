@@ -39,7 +39,7 @@ if (!lang) {
     if (['naskh','abrogation','abrogated'].includes(query)) assert(['concept','root'].includes(verse.reason),'Indirect Quran matches explain their source');
     const study = ranked.findIndex(r=>r.url===`/${lang}/quran-terminology/naskh-in-the-quran/`);
     assert(study>=0,query+' finds the dedicated study');
-    assert(ranked.slice(0,study).every(r=>['Quran','MatchedRoots'].includes(r.bucket)),query+' puts dedicated study before incidental mentions');
+    assert(ranked.slice(0,study).every(r=>['Quran','Principles','MatchedRoots'].includes(r.bucket)),query+' puts dedicated study before incidental mentions');
     console.log(lang,query,ranked.slice(0,5).map(r=>r.kind+': '+r.title).join(' | '));
   }
   for (const [query,slug] of [['salah','salat-in-the-quran'],['zakah','zakat-and-its-historical-distortion']]) {
@@ -69,6 +69,17 @@ if (!lang) {
     assert(aliasesOnly.every(r=>r.roots.includes('sad-w-m')),'Fasting aliases expand only to verified fasting roots');
     assert.equal(rankResults([],catalog,'"'+query+'"','Quran').length,0,'Quoted searches do not expand fasting aliases');
   }
+  const principleQuery=lang==='fa'?'راست‌گویی':'Truthfulness';
+  const principles=(await search(principleQuery,'Principles')).ranked;
+  assert.equal(principles[0]?.url,`/${lang}/principles/truthfulness/`);
+  assert(principles.every(r=>r.kind==='Principles'));
+  const principleAlias=(await search(lang==='fa'?'راست گفتن':'speaking truth','Principles')).ranked;
+  assert(principleAlias.some(r=>r.url===`/${lang}/principles/truthfulness/`));
+  const ordered=(await search(lang==='fa'?'عدالت':'justice')).ranked;
+  const firstPrinciple=ordered.findIndex(r=>r.kind==='Principles');
+  assert(firstPrinciple>=0);
+  assert(ordered.slice(0,firstPrinciple).every(r=>r.kind==='Quran'));
+  assert(!catalog.records.some(r=>r.url.includes('/contributions/')));
   for (const record of catalog.records) for (const alias of record.aliases) {
     assert(rankResults([],catalog,alias).some(r=>r.id===record.id),'Published catalog alias must retrieve its target: '+alias);
   }

@@ -45,17 +45,19 @@ export function rankResults(hits, catalog, query, section = '') {
   }
   for (const record of candidates.values()) {
     record.bucket = record.kind === 'Quran' ? 'Quran'
+      : record.kind === 'Principles' ? 'Principles'
       : record.kind === 'Roots' && context.roots.has(record.root) ? 'MatchedRoots' : 'Relevant';
     const title = normalize(record.title);
     const titleMatch = title === context.key ? 3
       : (` ${title} `).includes(` ${context.key} `) ? 2 : 0;
     record.priority = record.bucket === 'Quran' ? (record.reason ? 0 : 1)
+      : record.kind === 'Principles' ? (title === context.key ? 4 : context.studyUrls.has(record.url) ? 3 : titleMatch)
       : context.studyUrls.has(record.url) ? 4 : titleMatch;
     record.score = record.hit?.score || 0;
     // Directory titles should not outrank the dedicated studies they link to.
     if (record.kind === 'Guide') record.priority = -1;
   }
-  const bands = {Quran: 0, MatchedRoots: 1, Relevant: 2};
+  const bands = {Quran: 0, Principles: 1, MatchedRoots: 2, Relevant: 3};
   return [...candidates.values()].sort((a,b) => bands[a.bucket] - bands[b.bucket]
     || b.priority - a.priority || b.score - a.score || a.url.localeCompare(b.url));
 }

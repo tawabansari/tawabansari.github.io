@@ -1,0 +1,27 @@
+.principles-directory,.principle-detail{max-width:960px;margin:2rem auto 4rem;line-height:1.9}
+.principles-directory h1,.principle-detail h1{color:var(--gold,#947133);line-height:1.5}
+.principles-controls{display:grid;grid-template-columns:2fr 2fr 2fr 1.5fr;gap:.8rem;margin:1.5rem 0 .5rem}
+.principles-controls label{display:flex;flex-direction:column;gap:.25rem;font-size:.9rem;min-width:0}
+.principles-controls input,.principles-controls select,.principle-share button{font:inherit;color:inherit;background:transparent;border:1px solid #8b8d9060;border-radius:8px;padding:.65rem;min-height:44px;width:100%}
+.principles-controls select option{color:#242a30;background:#faf9f6}
+.principles-group ul{list-style:none;padding:0;margin:0}
+.principles-group li{border-bottom:1px solid #8b8d9030}
+.principles-group a{display:block;padding:.65rem .2rem;text-decoration:none;line-height:1.7}
+.principles-group a:hover{text-decoration:underline}
+.principles-group h2{margin:1.6rem 0 .5rem;font-size:1.3rem;color:var(--gold,#947133)}
+.principles-directory [hidden]{display:none!important}
+.principle-aliases,.principle-polarity,.principles-status{font-size:.9em;opacity:.8}
+.principles-intro{margin:1rem 0}.principles-intro summary{cursor:pointer;min-height:44px;display:list-item}
+.principle-detail section{margin-top:1.6rem;border-top:1px solid #8b8d9040;padding-top:1rem}
+.principle-detail h2{font-size:1.2rem}.principle-detail .arabic-text{font-family:'Amiri Quran Colored','Amiri Quran',serif;font-size:1.8rem;line-height:2.4;text-align:right}
+.principle-citations{display:flex;gap:.5rem 1rem;flex-wrap:wrap;list-style:none;padding:0}
+.principle-citations a{display:inline-block;min-height:44px;padding:.3rem}
+.principle-share{margin-top:2rem}.principle-share button{width:auto;cursor:pointer}.principle-share [role=status]{margin-inline-start:.7rem}
+.principle-related ul{padding-inline-start:1.3rem}.principle-related a{display:inline-block;padding:.3rem 0}
+.principle-attribution,.principle-translation-status{font-size:.8rem;opacity:.75}
+html[data-forqan-theme=dark] .principles-directory h1,html[data-forqan-theme=dark] .principle-detail h1,html[data-forqan-theme=dark] .principles-group h2{color:#d5b575}
+@media(max-width:720px){.principles-directory,.principle-detail{margin:1rem auto 2rem}.principles-controls{grid-template-columns:1fr 1fr}.principles-controls label:first-child{grid-column:1/-1}.principles-controls label:last-child{grid-column:1/-1}.principle-detail .arabic-text{font-size:1.65rem}.principle-detail h1{font-size:1.7rem}}
+
+.principles-directory a,.principle-detail a{color:inherit}
+.principles-directory a:hover,.principle-detail a:hover{color:var(--gold,#947133)}
+.principles-directory a:focus-visible,.principle-detail a:focus-visible{outline:2px solid #b18a4e;outline-offset:4px;border-radius:3px}

@@ -56,7 +56,12 @@ def extract(entry,source):
     if not main:return [],[]
     kind=entry['kind'];lang=entry['lang'];url=entry['url'];title=entry['title']
     records=[];features=[]
-    if kind=='Quran':
+    if kind=='Principles':
+        explanation=main.first(lambda e:e.has_class('principle-explanation'))
+        aliases=clean(main.first(lambda e:e.has_class('principle-aliases')))
+        original=aliases+' '+clean(explanation)
+        records.append(dict(url=url,title=title,original=original,passages=passages(explanation),description=clean(explanation),lang=lang,kind=kind,aliases=[a.strip(' ()') for a in re.split('[,،]',aliases) if a.strip(' ()')]))
+    elif kind=='Quran':
         for section in main.walk():
             if not section.has_class('ayah-block') or not section.attrs.get('id'):continue
             heading=section.first(lambda e:e.tag in ['h2','h3'])

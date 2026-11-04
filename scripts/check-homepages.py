@@ -10,7 +10,7 @@ for lang in ['en','fa']:
     home=root.first(lambda e:e.has_class('library-home'))
     assert home.attrs['data-home-language']==lang
     assert home.attrs['dir']==('rtl' if lang=='fa' else 'ltr')
-    assert len([e for e in home.walk() if e.has_class('library-destination')])==4
+    assert len([e for e in home.walk() if e.has_class('library-destination')])==6
     assert home.first(lambda e:e.tag=='input' and e.attrs.get('name')=='lang').attrs['value']==lang
     feature=home.first(lambda e:e.attrs.get('id')=='archive-feature')
     assert feature.attrs['data-feature-fixed-language']==lang

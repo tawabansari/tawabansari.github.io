@@ -11,13 +11,14 @@ if (form) {
   query.value = params.get('q') || '';
   language.value = params.get('lang') === 'fa' || (!params.has('lang') && /[\u0600-\u06ff]/.test(query.value)) ? 'fa' : 'en';
   const selected = params.get('type') === 'Articles' ? 'Studies' : params.get('type');
-  type.value = ['Quran','Roots','Terminology','Studies','Reflection'].includes(selected) ? selected : '';
+  type.value = ['Quran','Principles','Roots','Terminology','Studies','Reflection'].includes(selected) ? selected : '';
   const lang = language.value, fa = lang === 'fa';
   const text = (en,faText) => fa ? faText : en;
   document.documentElement.lang = lang;
   results.dir = jump.dir = fa ? 'rtl' : 'ltr';
   const labels = {
     Quran:text('Verse text and translations','متن آیات و ترجمه'),
+    Principles:text('Quranic Principles','اصول قرآنی'),
     Roots:text('Root study','مطالعهٔ ریشه'),
     MatchedRoots:text('Matching roots','ریشه‌های مطابق'),
     Relevant:text('Studies and other matches','مطالعات و دیگر نتیجه‌های مرتبط'),
@@ -82,7 +83,7 @@ if (form) {
     retry.addEventListener('click',run);results.append(retry);
   }
   async function render(records,raw,token) {
-    const groups = ['Quran','MatchedRoots','Relevant'].map(bucket=>({bucket,items:records.filter(r=>r.bucket===bucket)})).filter(g=>g.items.length);
+    const groups = ['Quran','Principles','MatchedRoots','Relevant'].map(bucket=>({bucket,items:records.filter(r=>r.bucket===bucket)})).filter(g=>g.items.length);
     // Fetch first-screen excerpts together, before exposing an incomplete list.
     const first = groups.flatMap(g=>g.items.slice(0,5));
     const fragments = await client.records(first.map(r=>r.id));

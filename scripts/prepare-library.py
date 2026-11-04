@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 from html.parser import HTMLParser
 from library_content import extract
+from prepare_principles import prepare as prepare_principles
 from contribution_scope import is_contribution
 from prepare_contributions import prepare as prepare_contributions
 from library_enrichment import stable_anchors, unavailable_references
@@ -38,6 +39,7 @@ def plain(s):
 def main():
     site = Path(sys.argv[1] if len(sys.argv)>1 else '_site').resolve()
     if not (site/'index.html').exists(): raise SystemExit('Build Jekyll before preparing the library.')
+    prepare_principles(site)
     pages = {}; sources = {}; redirects = {}
     for path in sorted(site.rglob('*.html')):
         if 'pagefind' in path.parts: continue
@@ -56,6 +58,7 @@ def main():
         title = ' '.join(''.join(parsed.heading or parsed.title).split()).split(' | ')[0]
         if '/roots/' in url and not url.endswith('/roots/'): kind = 'Roots'
         elif re.search(r'/quran-reflection/(en|fa)/\d', url): kind = 'Quran'
+        elif re.match(r'^/(fa|en)/principles/[^/]+/$',url): kind = 'Principles'
         elif '/articles/' in url or '/quran-terminology/' in url or '/hadith-critique/' in url or '/quran-completeness/' in url or '/salat/' in url: kind = 'Articles'
         else: kind = 'Guide'
         pages[url] = dict(url=url,title=title,lang=parsed.lang,kind=kind)
@@ -82,7 +85,7 @@ def main():
     search_records = []
     features = []
     for url,(path,source) in sources.items():
-        if url in redirects or url in ['/', '/en/', '/fa/', '/search/'] or url.endswith('/roots/') or url.endswith('/surahs/'):
+        if url in redirects or url in ['/', '/en/', '/fa/', '/search/'] or url.endswith('/roots/') or url.endswith('/surahs/') or url.endswith('/principles/'):
             source=source.replace(' data-pagefind-body','')
         entry=pages.get(url)
         if entry and (entry['kind']=='Quran' or url.endswith('/surahs/')):
