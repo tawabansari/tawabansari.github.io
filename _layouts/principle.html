@@ -5,14 +5,13 @@ layout: default
 {% assign lang = page.lang %}{% assign copy = principle[lang] %}
 <link rel="stylesheet" href="/assets/css/principles.css">
 <article class="principle-detail" lang="{{ lang }}" dir="{% if lang == 'fa' %}rtl{% else %}ltr{% endif %}" data-principle="{{ principle.id }}" data-study-toc="false" data-study-find="false">
-  <a class="principles-return" href="/{{ lang }}/principles/" data-pagefind-ignore>{% if lang == 'fa' %}همهٔ اصول قرآنی{% else %}All Quranic Principles{% endif %}</a>
   <p class="principle-polarity" data-pagefind-ignore>{% if lang == 'fa' %}{% if principle.polarity == 'positive' %}اصل مثبت · آنچه باید پاس داشت{% else %}اصل منفی · آنچه باید از آن پرهیز کرد{% endif %}{% else %}{% if principle.polarity == 'positive' %}Positive principle · What to uphold{% else %}Negative principle · What to avoid{% endif %}{% endif %}</p>
-  <h1>{{ copy.title }}</h1>
-  {% if copy.aliases != '' %}<p class="principle-aliases">({{ copy.aliases }})</p>{% endif %}
+  <div class="study-toolbar principle-tools" data-pagefind-ignore><button type="button" data-copy-principle title="{% if lang == 'fa' %}کپی پیوند{% else %}Copy link{% endif %}" aria-label="{% if lang == 'fa' %}کپی پیوند{% else %}Copy link{% endif %}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M9 15l6-6M8 16l-1 1a4 4 0 01-6-6l4-4a4 4 0 016 0M16 8l1-1a4 4 0 016 6l-4 4a4 4 0 01-6 0"/></svg></button><span role="status"></span></div>
+  <h1>{{ copy.title }}{% if copy.aliases != '' %} <span class="principle-title-aliases">({{ copy.aliases }})</span>{% endif %}</h1>
   <div class="principle-explanation">{{ copy.description | markdownify }}</div>
-  <section class="principle-evidence"><h2>{% if lang == 'fa' %}آیهٔ اصلی{% else %}Principal verse{% endif %}</h2><!-- PRINCIPLE_VERSE --></section>
-  <section class="principle-references"><h2>{% if lang == 'fa' %}آیات دیگر{% else %}Further verses{% endif %}</h2><!-- PRINCIPLE_REFERENCES --></section>
+  <div class="principle-references"><!-- PRINCIPLE_REFERENCES --></div>
+  <section class="principle-evidence" aria-label="{% if lang == 'fa' %}شواهد قرآنی{% else %}Quranic evidence{% endif %}"><!-- PRINCIPLE_VERSE --></section>
   {% if principle.related.size > 0 %}<section class="principle-related"><h2>{% if lang == 'fa' %}اصول مرتبط{% else %}Related principles{% endif %}</h2><ul>{% for id in principle.related %}{% assign related = site.data.quran-principles | where: 'id', id | first %}<li><a href="/{{ lang }}/principles/{{ id }}/">{{ related[lang].title }}</a></li>{% endfor %}</ul></section>{% endif %}
-  <div class="principle-share" data-pagefind-ignore><button type="button" data-copy-principle>{% if lang == 'fa' %}کپی پیوند این اصل{% else %}Copy link to this principle{% endif %}</button><span role="status"></span></div>
+
 </article>
 <script type="module" src="/assets/js/principles.mjs"></script>

@@ -22878,15 +22878,15 @@
   "z-l-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/z-l-q/",
-      "title": "ریشهٔ ز ل ق",
-      "summary": "لغزیدن؛ زلق: سطح لغزنده و بی‌گیاه.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ز ل ق",
+      "summary": "لغزیدن و از دست رفتن استواری؛ در کاربرد متعدی، لغزاندن و کنار راندن از جایگاه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/z-l-q/",
-      "title": "The Root Z L Q",
-      "summary": "Slipping; zalaq denotes slippery, bare ground.",
-      "status": "preliminary"
+      "title": "Quranic root Z L Q",
+      "summary": "Slipping and losing stability; transitively, making slip or displacing from a position.",
+      "status": "published"
     }
   },
   "z-l-z-l": {
@@ -22920,29 +22920,29 @@
   "z-m-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/z-m-l/",
-      "title": "ریشهٔ ز م ل",
-      "summary": "خود را در پوشش پیچیدن؛ مزمّل: جامه به خود پیچیده.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ز م ل",
+      "summary": "پیچیدن در پوشش؛ در شاخه‌های دیگر، حمل بار، همراهی در حمل و سفر، و صدا.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/z-m-l/",
-      "title": "The Root Z M L",
-      "summary": "Wrapping oneself in a covering; muzzammil is one wrapped up.",
-      "status": "preliminary"
+      "title": "Quranic Root Z M L",
+      "summary": "Wrapping in a covering; other branches concern carrying loads, companionship in transport and travel, and sound.",
+      "status": "published"
     }
   },
   "z-m-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/z-m-r/",
-      "title": "ریشهٔ ز م ر",
-      "summary": "زُمر: گروه‌ها و دسته‌ها.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ز م ر",
+      "summary": "گروه و دستهٔ مردم؛ در شاخه‌های دیگر، صدا و نواختن، و کمیِ مقدار.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/z-m-r/",
-      "title": "The Root Z M R",
-      "summary": "Zumar means groups or companies.",
-      "status": "preliminary"
+      "title": "Quranic root Z M R",
+      "summary": "A group or company of people; other branches concern sound and playing, and scantness.",
+      "status": "published"
     }
   },
   "z-n-m": {

@@ -11,9 +11,30 @@ for(const lang of ['fa','en'])for(const width of [390,1280])for(const theme of [
  assert.equal(await page.locator('li[data-verse]:visible').count(),1);
  await page.locator('li[data-verse]:visible a').scrollIntoViewIfNeeded();const before=await page.evaluate(()=>scrollY);await page.locator('li[data-verse]:visible a').click();
  await page.locator('dialog[open]').waitFor();const frame=page.frameLocator('.study-reading-panel iframe');await frame.locator('.principle-detail h1').waitFor();
+ assert.equal(await page.locator('dialog').evaluate(d=>d.matches(':modal')),width<1100);
+ assert.equal(await frame.locator('.principle-evidence h2').count(),0);
+ assert.equal(await frame.locator('[data-copy-principle]').count(),1);
+ assert.equal(await frame.locator('.study-print-button').count(),1);
  await frame.locator('.principle-evidence a').first().click();await frame.locator('.ayah-block').first().waitFor();
  assert.equal(new URL(page.url()).pathname,`/${lang}/principles/`);
- await page.locator('[data-panel-back]').click();await frame.locator('.principle-detail h1').waitFor();
+ await page.locator('[data-panel-return]').click();await frame.locator('.principle-detail h1').waitFor();
+ assert.equal(await page.locator('dialog[open]').count(),1);
+ assert.equal(await frame.locator('.principle-tools').isVisible(),false);
+ assert.equal(await frame.locator('h1 .principle-title-aliases').count(),1);
+ if(lang==='fa')assert.equal(await frame.locator('.principle-translation').evaluate(e=>getComputedStyle(e).textAlign),'center');
+ assert.equal(await frame.locator('.principle-attribution').count(),0);
+ await page.locator('[data-panel-pdf]').click();await frame.locator('.pdf-download-dialog[open]').waitFor();await frame.locator('[data-pdf-close]').click();
+ await page.locator('[data-panel-print]').click();await frame.locator('.pdf-download-dialog[open]').waitFor();await frame.locator('[data-pdf-close]').click();
+ await page.locator('[data-panel-forward]').click();await frame.locator('.ayah-block').first().waitFor();
+ await page.locator('[data-panel-history]').selectOption('0');await frame.locator('.principle-detail h1').waitFor();
+ if(width>=1100)assert.equal(await page.locator('.principles-list a[aria-current=true]').count(),1);
+ await page.waitForFunction(()=>document.querySelector('.study-panel-status').hidden);
+ await page.screenshot({path:`/tmp/principles-reader-${lang}-${width}-${theme}.png`});
+ if(width>=1100){
+  await page.setViewportSize({width:700,height:850});await page.waitForFunction(()=>document.querySelector('dialog').matches(':modal'));
+  await page.setViewportSize({width,height:850});await page.waitForFunction(()=>document.querySelector('dialog').open&&!document.querySelector('dialog').matches(':modal'));
+  await page.waitForFunction(()=>document.querySelector('.study-panel-status').hidden);
+ }
  await page.locator('[data-panel-close]').click();await page.waitForFunction(()=>!document.querySelector('dialog').open);
  assert.ok(Math.abs(await page.evaluate(()=>scrollY)-before)<5);
  await page.locator('[name=q]').fill('');await page.locator('[name=polarity]').selectOption('negative');assert.equal(await page.locator('[data-polarity=positive]').isVisible(),false);

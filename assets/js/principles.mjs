@@ -8,7 +8,7 @@ if(directory){
  function update(){
   const q=normalize(form.elements.q.value).split(' ').filter(Boolean),category=form.elements.category.value,polarity=form.elements.polarity.value,sort=form.elements.sort.value;
   for(const row of rows){const text=normalize(row.textContent+' '+row.dataset.search);row.hidden=!q.every(t=>text.includes(t))||(category&&!row.dataset.categories.split(' ').includes(category))||(polarity&&row.closest('[data-polarity]').dataset.polarity!==polarity);}
-  for(const group of groups){const list=group.querySelector('ul');[...list.children].sort((a,b)=>{const verse=r=>{const [s,v]=r.dataset.verse.split(':').map(Number);return s*1000+v;};return (sort==='verse'?verse(a)-verse(b):0)||collator.compare(a.textContent.trim(),b.textContent.trim());}).forEach(r=>list.append(r));group.hidden=![...list.children].some(r=>!r.hidden);}
+  for(const group of groups){const list=group.querySelector('ul');[...list.children].sort((a,b)=>{const verse=r=>{const [s,v]=r.dataset.verse.split(':').map(Number);return s*1000+v;};return (sort==='verse'?verse(a)-verse(b):sort==='suggested'?Number(a.dataset.order)-Number(b.dataset.order):0)||collator.compare(a.textContent.trim(),b.textContent.trim());}).forEach(r=>list.append(r));group.hidden=![...list.children].some(r=>!r.hidden);}
   const count=rows.filter(r=>!r.hidden).length;directory.querySelector('[role=status]').textContent=count?(fa?`${count.toLocaleString('fa')} اصل`: `${count} principles`):(fa?'اصلی با این جستجو پیدا نشد.':'No principles match this search.');
  }
  form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('input',e=>{if(e.target.name==='q')update();});form.addEventListener('change',e=>{if(e.target.tagName==='SELECT')update();});update();

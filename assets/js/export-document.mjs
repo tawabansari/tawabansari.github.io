@@ -33,7 +33,7 @@ export function prepareDocument({includeCrossReferences = false, ids, scope, fro
   content.querySelectorAll('button.word-link').forEach(button => {
     const word = document.createElement('span'); word.textContent = button.textContent; button.replaceWith(word);
   });
-  content.querySelectorAll('script,style,link,meta,iframe,object,embed,form,button,input,select,textarea,dialog,nav,.library-toc,.library-find,.study-toolbar,.study-tool-panels,.study-language-note,.study-context,.study-related,.root-tools,.root-popover,.pdf-study-tools,.legacy-passage-anchor,.quran-gooya-link,.language-mirror-link,.pdf-verse-actions,.reading-verse-number,.verse-discussion-tools,.reference-pending,[hidden],[aria-hidden="true"]').forEach(node => node.remove());
+  content.querySelectorAll('script,style,link,meta,iframe,object,embed,form,button,input,select,textarea,dialog,nav,.library-toc,.library-find,.study-toolbar,.study-tool-panels,.study-language-note,.study-context,.study-related,.root-tools,.root-popover,.pdf-study-tools,.principles-return,.principle-polarity,.legacy-passage-anchor,.quran-gooya-link,.language-mirror-link,.pdf-verse-actions,.reading-verse-number,.verse-discussion-tools,.reference-pending,[hidden],[aria-hidden="true"]').forEach(node => node.remove());
   content.querySelectorAll('details').forEach(details => {
     const section = document.createElement('section');
     for (const child of [...details.childNodes]) {
@@ -98,6 +98,11 @@ export function prepareDocument({includeCrossReferences = false, ids, scope, fro
   const source = document.createElement('p'); source.className = 'pdf-source';
   source.append(document.createTextNode(lang === 'fa' ? 'منبع: ' : 'Source: '));
   const link = document.createElement('a'); link.href = sourceURL; link.textContent = sourceURL; link.dir = 'ltr'; source.append(link);
+  if(content.querySelector('.arabic-text')) {
+    const credit=document.createElement('p');credit.className='quran-source-credit';credit.dir='ltr';
+    credit.innerHTML='Quran text: <a href="https://tanzil.net/">Tanzil</a> · <a href="https://tanzil.net/docs/text_license">CC BY 3.0</a>';
+    content.append(credit);
+  }
   const footer = document.createElement('p'); footer.className = 'pdf-attribution';
   footer.textContent = lang === 'fa' ? 'آرشیو فرقان · بازنشر غیرتجاری با ذکر منبع آزاد است.' : 'Forqan Archive · Free to share for non-commercial purposes with attribution.';
   document.body.append(header, source, footer);

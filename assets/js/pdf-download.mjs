@@ -1,6 +1,6 @@
 import {selectVerses, numberRanges} from './pdf-selection.mjs';
 import {createPDFClient} from './pdf-request.mjs';
-import {printVerses, printStudy} from './verse-print.mjs?v=selected-source-2';
+import {printVerses, printStudy} from './verse-print.mjs?v=principles-tools-3';
 import {pdfEndpoint} from './pdf-settings.mjs';
 
 export {pdfEndpoint} from './pdf-settings.mjs';
@@ -22,7 +22,8 @@ function init() {
   const total = chapter?.ayahs || Math.max(...anchors.map(id => Number(id.slice(5))));
   const kind = main.dataset.pagefindFilter?.replace('type:', '');
   const contribution = main.querySelector('article[data-contributed-study]');
-  const study = contribution || (!verses.length && main.hasAttribute('data-pagefind-body') && ['Articles', 'Terminology', 'Roots'].includes(kind)
+  const principle = main.querySelector('article[data-principle]');
+  const study = principle || contribution || (!verses.length && main.hasAttribute('data-pagefind-body') && ['Articles', 'Terminology', 'Roots'].includes(kind)
     ? main.querySelector('article,.root-study-page,.forqan-page-ltr,.forqan-page-rtl') : null);
   if (!verses.length && !study) return;
 
@@ -143,7 +144,7 @@ function init() {
     save.disabled = scope.disabled = acknowledge.disabled = true;
     status.textContent = fa ? 'در حال آماده‌سازی PDF… مجموعه‌های بزرگ ممکن است کمی زمان ببرند.' : 'Preparing your PDF… Larger selections may take a little longer.';
     try {
-      const {blob,filename} = await download(selection,{endpoint:contribution ? null : endpoint,fallback:contribution ? true : fallback,signal:request.signal});
+      const {blob,filename} = await download(selection,{endpoint:(contribution || principle) ? null : endpoint,fallback:(contribution || principle) ? true : fallback,signal:request.signal});
       if (!dialog.open || controller !== request) return;
       downloadURL = URL.createObjectURL(blob);
       const link = document.createElement('a'); link.href = downloadURL;
@@ -188,9 +189,10 @@ function init() {
     if(toolbar)toolbar.insertBefore(tools,toolbar.querySelector('.study-discuss'));
     else (heading?.closest('header,.root-hero') || heading || study.firstElementChild).insertAdjacentElement('afterend', tools);
     addButton(tools);
-    if (contribution) {
+    if (contribution || principle) {
       const print = document.createElement('button'); print.type = 'button';
-      print.className = 'study-print-button'; print.textContent = fa ? 'چاپ' : 'Print';
+      print.className = 'study-print-button'; print.title = fa ? 'چاپ' : 'Print'; print.setAttribute('aria-label',print.title);
+      print.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 9V3h12v6M6 17H3V9h18v8h-3M6 14h12v7H6z"/></svg>';
       print.setAttribute('aria-haspopup','dialog');
       print.addEventListener('click',()=>open(print,undefined,'print')); tools.append(print);
     }

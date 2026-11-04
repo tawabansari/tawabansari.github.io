@@ -2396,12 +2396,12 @@
 <link rel="stylesheet" href="/assets/css/reading-panel.css">
 <link rel="stylesheet" href="/assets/css/tabsira-reader.css?v=work-discussion-2">
 <script>if(window.self!==window.top && new URLSearchParams(location.search).get('reading-panel')==='1')document.documentElement.classList.add('study-embedded');</script>
-<script type="module" src="/assets/js/reading-panel.mjs?v=principles-1"></script>
+<script type="module" src="/assets/js/reading-panel.mjs?v=principles-workspace-3"></script>
 <script type="module" src="/assets/js/tabsira-reader.mjs?v=compact-picker-1"></script>
 <meta name="forqan-pdf-endpoint" content="{{ site.pdf_endpoint | escape }}">
 <meta name="forqan-pdf-fallback" content="{{ site.pdf_fallback | default: false }}">
 <link rel="stylesheet" href="/assets/css/pdf-download.css">
-<script type="module" src="/assets/js/pdf-download.mjs?v=selected-source-2"></script>
+<script type="module" src="/assets/js/pdf-download.mjs?v=principles-tools-3"></script>
 <!-- Keep verse controls and their presentation in the same response. -->
 <style id="reader-mode-styles">{% include reader-mode.css %}</style>
 <script type="module" src="/assets/js/reader-mode.mjs?v=reflection-focus-3"></script>
@@ -2552,6 +2552,7 @@
 </button>
 
 <footer class="site-footer">
+  <p class="quran-source-credit" dir="ltr" data-pagefind-ignore>Quran text: <a href="https://tanzil.net/" target="_blank" rel="noopener">Tanzil</a> · <a href="https://tanzil.net/docs/text_license" target="_blank" rel="noopener">CC BY 3.0</a></p>
   <p><a href="https://tabsira.forqan.co/{{ ui_lang }}">{% if ui_lang == 'fa' %}تبصره — گفت‌وگو{% else %}Tabsira — Discussions{% endif %} <span aria-hidden="true">↗</span></a></p>
   <p>© {{ site.time | date: "%Y" }} {% if ui_lang == 'fa' %}آرشیو فرقان{% else %}Forqan Archive{% endif %}.</p>
   <p>{% if ui_lang == 'fa' %}بازنشر غیرتجاری با ذکر منبع آزاد است.{% else %}Free to share and distribute for non-commercial purposes with attribution.{% endif %}</p>

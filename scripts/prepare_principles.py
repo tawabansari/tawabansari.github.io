@@ -24,26 +24,29 @@ def prepare(site):
         for lang in ('fa','en'):
             path=site/lang/'principles'/record['id']/'index.html'
             if not path.exists():raise ValueError('Missing principle page: '+str(path))
-            link,text,found=citation(record['primary'],lang)
-            if not found:raise ValueError('Principal verse unavailable: '+str(record['primary'])+' '+lang)
-            end=text.find('<section class="ayah-block"',found.end())
-            node=Document(text[found.start():end if end!=-1 else len(text)]).root
-            section=node.first(lambda e:e.has_class('ayah-block'))
-            arabic=section.first(lambda e:e.has_class('arabic-text'))
-            translation=section.first(lambda e:e.has_class('farsi-verse' if lang=='fa' else 'english-verse'))
-            if not clean(arabic) or not clean(translation):raise ValueError('Missing verse text: '+str(record['primary'])+' '+lang)
-            # Plain text removes interactive word boxes without changing the verse wording.
-            notice=re.search(r'<!-- Arabic source: Tanzil.*?-->',text,re.S)
-            verse=(notice[0] if notice else '')+f'<p>{link}</p><p class="arabic-text" lang="ar" dir="rtl">{html.escape(clean(arabic))}</p><p class="principle-translation">{html.escape(clean(translation))}</p>'
-            if section.attrs.get('data-translation-status')=='provisional':
-                verse+='<p class="principle-translation-status">'+('ترجمهٔ این آیه در فرقان هنوز موقت و در حال بازبینی است.' if lang=='fa' else 'This verse’s translation on Forqan is provisional and under review.')+'</p>'
-            verse+='<p class="principle-attribution" data-pagefind-ignore>Quran text: <a href="https://tanzil.net" target="_blank" rel="noopener">Tanzil</a> · CC BY 3.0</p>'
+            evidence=record.get('evidence',[record['primary']]); verses=[]
+            for evidence_ref in evidence:
+                link,text,found=citation(evidence_ref,lang)
+                if not found:raise ValueError('Principal verse unavailable: '+str(evidence_ref)+' '+lang)
+                end=text.find('<section class="ayah-block"',found.end())
+                node=Document(text[found.start():end if end!=-1 else len(text)]).root
+                section=node.first(lambda e:e.has_class('ayah-block'))
+                arabic=section.first(lambda e:e.has_class('arabic-text'))
+                translation=section.first(lambda e:e.has_class('farsi-verse' if lang=='fa' else 'english-verse'))
+                if not clean(arabic) or not clean(translation):raise ValueError('Missing verse text: '+str(evidence_ref)+' '+lang)
+                # Plain text removes interactive word boxes without changing the verse wording.
+                notice=re.search(r'<!-- Arabic source: Tanzil.*?-->',text,re.S)
+                verse=(notice[0] if notice else '')+f'<p class="arabic-text" lang="ar" dir="rtl">{html.escape(clean(arabic))}</p><p class="principle-translation">{html.escape(clean(translation))}</p><p class="principle-verse-reference">{link}</p>'
+                if section.attrs.get('data-translation-status')=='provisional':
+                    verse+='<p class="principle-translation-status">'+('ترجمهٔ این آیه در فرقان هنوز موقت و در حال بازبینی است.' if lang=='fa' else 'This verse’s translation on Forqan is provisional and under review.')+'</p>'
+                verses.append('<div class="principle-verse">'+verse+'</div>')
+            verse=''.join(verses)
             refs=[]
             for ref in record['refs']:
-                if ref==record['primary']:continue
+                if ref in evidence:continue
                 c,_,exists=citation(ref,lang)
                 if not exists:unavailable.append((record['id'],lang,ref))
                 refs.append('<li>'+c+'</li>')
-            other='<ul class="principle-citations">'+''.join(refs)+'</ul>' if refs else '<p>'+('این مدخل فعلاً به همان آیهٔ اصلی ارجاع دارد.' if lang=='fa' else 'This entry currently cites the principal verse above.')+'</p>'
+            other=('<span>'+('ارجاعات دیگر: ' if lang=='fa' else 'Further references: ')+'</span><ul class="principle-citations">'+''.join(refs)+'</ul>') if refs else ''
             path.write_text(path.read_text().replace('<!-- PRINCIPLE_VERSE -->',verse).replace('<!-- PRINCIPLE_REFERENCES -->',other))
     print('Prepared',len(records),'principles in each language;',len(unavailable),'unavailable supporting references retained as text.')

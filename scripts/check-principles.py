@@ -9,12 +9,16 @@ assert len(ids)==len(rows)
 for r in rows:
     assert r['polarity'] in ('positive','negative') and r['primary'] in r['refs']
     assert set(r['related'])<=ids and r['id'] not in r['related']
+    assert r['reading_order'] > 0
+    assert all(ref in r['refs'] for ref in r.get('evidence',[r['primary']]))
     assert len(r['refs'])==len(set(tuple(x) for x in r['refs']))
     for lang in ('fa','en'):
         assert r[lang]['title'] and r[lang]['description']
         path=site/lang/'principles'/r['id']/'index.html';source=path.read_text()
         assert '<!-- PRINCIPLE_' not in source
         main=Document(source).root.first(lambda e:e.has_class('principle-detail'))
+        assert 'Principal verse</h2>' not in source and 'آیهٔ اصلی</h2>' not in source
+        assert source.index('class="principle-translation"') < source.index('class="principle-verse-reference"')
         assert main and clean(main.first(lambda e:e.has_class('arabic-text')))
         assert clean(main.first(lambda e:e.has_class('principle-translation')))
         for e in main.walk():

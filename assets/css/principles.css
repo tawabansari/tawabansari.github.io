@@ -25,3 +25,31 @@ html[data-forqan-theme=dark] .principles-directory h1,html[data-forqan-theme=dar
 .principles-directory a,.principle-detail a{color:inherit}
 .principles-directory a:hover,.principle-detail a:hover{color:var(--gold,#947133)}
 .principles-directory a:focus-visible,.principle-detail a:focus-visible{outline:2px solid #b18a4e;outline-offset:4px;border-radius:3px}
+
+/* A reading workspace only on wide screens; narrow screens retain the modal. */
+.principles-reader{display:none}
+.principle-references{display:flex;align-items:baseline;gap:.3rem .6rem;flex-wrap:wrap;font-size:.9rem;margin:.6rem 0 1rem}
+.principle-references .principle-citations{display:inline-flex;margin:0;gap:.15rem .7rem}
+.principle-detail .principle-evidence{margin-top:.8rem;padding-top:.6rem}
+.principle-verse+.principle-verse{border-top:1px solid #8b8d9030;margin-top:1rem;padding-top:.7rem}
+.principle-verse-reference{font-size:.9rem;text-align:end;margin:.3rem 0 1rem}
+.principle-detail .principle-tools{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:.7rem 0;padding:0;border:0}
+.principle-tools .pdf-study-tools{display:flex;gap:.5rem;margin:0}
+.principle-tools button{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:.5rem .75rem;background:var(--lib-surface);color:inherit;border:1px solid var(--lib-line,#8b8d9060);border-radius:8px;cursor:pointer}
+.principle-tools [role=status]{font-size:.8rem}
+.principles-list a[aria-current=true]{color:var(--lib-gold,#947133);background:#b18a4e15;border-inline-start:3px solid #b18a4e;padding-inline-start:.6rem}
+@media(min-width:1100px){
+ .principles-directory{max-width:1320px}
+ .principles-workspace{display:grid;grid-template-columns:minmax(240px,1fr) minmax(0,2fr);gap:2rem;align-items:start}
+ .principles-reader{display:block;position:sticky;top:90px;min-width:0;height:calc(100dvh - 106px);max-height:900px;border-inline-start:1px solid var(--lib-line,#8b8d9040)}
+ .principles-reader-hint{padding:2rem;color:var(--lib-muted,#777);font-size:.95rem}
+ .principles-reader.has-reader .principles-reader-hint{display:none}
+ .principles-group:first-child h2{margin-top:0}
+}
+
+@media(min-width:1100px){.principles-list{max-height:calc(100dvh - 106px);overflow:auto;overscroll-behavior:contain;padding-inline-end:.4rem}.principles-workspace{scroll-margin-top:90px}}
+
+.principle-detail[lang=fa] .principle-translation{text-align:center}
+.principle-title-aliases{font-size:.55em;font-weight:400;color:#746751;vertical-align:baseline}
+html[data-forqan-theme=dark] .principle-title-aliases{color:#c6b99f}
+html.study-embedded .principle-detail.panel-tools-ready .principle-tools{display:none}

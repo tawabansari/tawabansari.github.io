@@ -1,8 +1,9 @@
-import {prepareDocument} from './export-document.mjs?v=contribution-tools-1';
+import {prepareDocument} from './export-document.mjs?v=principles-tools-3';
 import {selectVerses} from './pdf-selection.mjs';
 
 export function printSourceURL(selection, pageURL) {
   const url = new URL(pageURL);
+  url.searchParams.delete('reading-panel');
   if (selection.ids?.length) {
     url.hash = selection.scope === 'chapter' ? '' : selection.ids[0];
     // Embedded readers may retain an earlier verse in their query string.
