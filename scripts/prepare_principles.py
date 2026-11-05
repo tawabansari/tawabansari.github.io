@@ -43,20 +43,21 @@ def prepare(site):
                     verse+='<p class="principle-translation-status">'+('ترجمهٔ این آیه در فرقان هنوز موقت و در حال بازبینی است.' if lang=='fa' else 'This verse’s translation on Forqan is provisional and under review.')+'</p>'
                 verses.append('<div class="principle-verse">'+verse+'</div>')
             verse=''.join(verses)
-            refs=[]
+            refs=[]; rendered_refs={}
             for ref in record['refs']:
                 if ref in evidence:continue
                 c,_,exists=citation(ref,lang)
                 if not exists:unavailable.append((record['id'],lang,ref))
                 note=next((note[lang] for note in record.get('reference_notes',[]) if note['ref']==ref),None)
                 if note:c+=' — '+html.escape(note)
+                rendered_refs[tuple(ref)]=c
                 refs.append('<li>'+c+'</li>')
             other=('<span>'+('آیات مشابه دیگر: ' if lang=='fa' else 'Other similar verses: ')+'</span><ul class="principle-citations">'+''.join(refs)+'</ul>') if refs else ''
             if record.get('reference_groups'):
                 other='<span>'+('آیات مشابه دیگر: ' if lang=='fa' else 'Other similar verses: ')+'</span>'
                 for number,group in enumerate(record['reference_groups'],1):
                     label=str(number).translate(str.maketrans('0123456789','۰۱۲۳۴۵۶۷۸۹')) if lang=='fa' else str(number)
-                    links=''.join('<li>'+citation(ref,lang)[0]+'</li>' for ref in group['refs'])
+                    links=''.join('<li>'+rendered_refs.get(tuple(ref),citation(ref,lang)[0])+'</li>' for ref in group['refs'])
                     other+=f'<div class="principle-reference-group"><strong>{label}. {html.escape(group[lang])}</strong><ul class="principle-citations">{links}</ul></div>'
             path.write_text(path.read_text().replace('<!-- PRINCIPLE_VERSE -->',verse).replace('<!-- PRINCIPLE_REFERENCES -->',other))
     print('Prepared',len(records),'principles in each language;',len(unavailable),'unavailable supporting references retained as text.')
