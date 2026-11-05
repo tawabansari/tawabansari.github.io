@@ -17054,15 +17054,15 @@
   "s-a-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/s-a-m/",
-      "title": "ریشهٔ س أ م",
-      "summary": "ملول، خسته و دل‌زده شدن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی س أ م",
+      "summary": "ملول و دلزده شدن؛ خسته شدن از ادامه، تکرار یا تحمل چیزی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/s-a-m/",
-      "title": "The Root S A M",
-      "summary": "Becoming weary, tired, or bored.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root S ʾ M",
+      "summary": "Becoming weary or bored; tiring of continuing, repeating, or enduring something.",
+      "status": "published"
     }
   },
   "s-ayn-d": {
@@ -17110,15 +17110,15 @@
   "s-b-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/s-b-a/",
-      "title": "ریشهٔ س ب أ",
-      "summary": "سبأ: نام قوم یا ناحیه؛ نام خاص را نباید خودکار با معنای فعلی هم‌ریشه یکی گرفت.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی س ب أ",
+      "summary": "سبأ: نام خاص یک جامعه و قلمرو تاریخی در عربستان جنوبی؛ منشأ اشتقاقی نام قطعی نیست.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/s-b-a/",
-      "title": "The Root S B A",
-      "summary": "Sabaʾ is a people or region's proper name; a same-letter verb does not by itself explain the name.",
-      "status": "preliminary"
+      "title": "The Qur’anic Entry S B ʾ",
+      "summary": "Sabaʾ: the proper name of a historical community and territory in southern Arabia; its derivational origin is uncertain.",
+      "status": "published"
     }
   },
   "s-b-ayn": {
@@ -17152,15 +17152,15 @@
   "s-b-gh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/s-b-gh/",
-      "title": "ریشهٔ س ب غ",
-      "summary": "کامل، فراخ و فراگیر بودن؛ به تمامی بخشیدن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی س ب غ",
+      "summary": "تمام، فراخ و فراگیر بودن؛ کامل و گسترده گردانیدن چیزی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/s-b-gh/",
-      "title": "The Root S B GH",
-      "summary": "Being complete, ample, or extensive; bestowing fully.",
-      "status": "preliminary"
+      "title": "Qur’anic root S B GH",
+      "summary": "Being full, ample, and extensive; making something complete and comprehensive.",
+      "status": "published"
     }
   },
   "s-b-h": {

@@ -7,32 +7,344 @@
   ],
   "refs": [
     [
+      16,
+      89
+    ],
+    [
       12,
       1
+    ],
+    [
+      15,
+      1
+    ],
+    [
+      27,
+      1
+    ],
+    [
+      36,
+      69
+    ],
+    [
+      43,
+      2
+    ],
+    [
+      44,
+      2
     ],
     [
       5,
       15
     ],
     [
+      2,
+      99
+    ],
+    [
+      24,
+      46
+    ],
+    [
+      57,
+      9
+    ],
+    [
+      24,
+      54
+    ],
+    [
+      5,
+      92
+    ],
+    [
+      64,
+      12
+    ],
+    [
       16,
-      89
+      44
+    ],
+    [
+      16,
+      64
+    ],
+    [
+      16,
+      82
+    ],
+    [
+      29,
+      18
     ]
   ],
   "primary": [
     16,
     89
   ],
-  "related": [],
+  "related": [
+    "the-qurans-completeness-and-sufficiency-for-religious-guidance",
+    "the-authority-of-clear-foundational-verses",
+    "reflection-and-reading-verses-together",
+    "revelation-as-the-authority-for-religious-judgment"
+  ],
   "fa": {
     "title": "اصل مبین و روشنگر بودن قرآن",
     "aliases": "",
-    "description": "قرآن خود را کتابی روشن و روشنگر معرفی می‌کند. انسان باید برای شناخت پیام الهی به متن وحی مراجعه کند، نه اینکه آن را ذاتاً مبهم و نیازمند مرجعیت انحصاری دیگران بداند."
+    "description": "مبین و روشنگر بودن قرآن به این معناست که خداوند پیام هدایت را در کتابی روشن و روشنگر نازل کرده است؛ کتابی که حق را از باطل آشکار می‌سازد، اصول و حدود دین را بیان می‌کند و انسان را به شناخت، اندیشه و انتخاب آگاهانه فرا می‌خواند.\n\nقرآن بارها خود را «الکتاب المبین» و «قرآن مبین» معرفی کرده و آیات نازل‌شده را «بیّنات» و «مبیّنات» خوانده است. مبین از نام‌ها و وصف‌های خود قرآن است؛ کتابی که نه‌تنها پیامش روشن است، بلکه حقایق را نیز برای انسان روشن می‌سازد.\n\nاین اصل با وظیفهٔ رسول نیز پیوند مستقیم دارد. قرآن در سه آیه، فرمان «أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ» را با بیان مسئولیت رسول در «الْبَلَاغُ الْمُبِينُ» همراه کرده است ([نور ۲۴:۵۴](/quran-reflection/fa/024-an-nur/#ayah-054)؛ [مائده ۵:۹۲](/quran-reflection/fa/005-al-maidah/#ayah-092)؛ [تغابن ۶۴:۱۲](/quran-reflection/fa/064-at-taghabun/#ayah-012)). در این آیات، اطاعت از رسول از رسالت و پیام روشنی که مأمور ابلاغ آن است جدا نمی‌شود.\n\nوقتی خود قرآن «کتاب مبین» و «قرآن مبین» است و رسول مأمور ابلاغ و تبیین وحی نازل‌شده است، اطاعت از رسول در مقام رسالت، پیروی از پیام الهی است که او رسانده است؛ نه پذیرش بی‌چون‌وچرای هر سخنی که بعدها به او نسبت داده شده باشد.\n\nاز همین رو، هیچ فرد، گروه یا نهاد مذهبی حق ندارد با ادعای مبهم یا ناقص بودن قرآن، خود را مرجع انحصاری شناخت دین معرفی کند یا روایت‌ها، تفسیرها و برداشت‌های بشری را بر کتاب مبین حاکم سازد. فهم قرآن به تدبر، شناخت زبان و سیاق و سنجش آیات با یکدیگر نیاز دارد؛ اما معیار نهایی شناخت پیام الهی، خود قرآن است.",
+    "primary_translation": "و روزی که در هر امتی گواهی از خودشان بر آنان برانگیزیم و تو را بر اینان گواه بیاوریم؛ و کتاب را بر تو نازل کردیم، روشنگر هر چیز و هدایت و رحمت و مژده‌ای برای تسلیم‌شدگان.",
+    "related_research": [
+      {
+        "title": "تحریف «المبین» و جدا کردن بلاغ رسول از قرآن مبین",
+        "url": "/fa/quran-terminology/al-mubin-and-the-clear-delivery/"
+      }
+    ]
   },
   "en": {
     "title": "The Principle of The Quran’s clarity and illuminating character",
     "aliases": "",
-    "description": "The Quran describes itself as clear and illuminating. Understanding the divine message begins with revelation, without treating it as inherently obscure or subject to another exclusive authority."
+    "description": "The Quran's clarity and illuminating character mean that The God has sent down the message of guidance in a clear and illuminating book: a book that distinguishes truth from falsehood, sets out the principles and boundaries of religion, and calls human beings to understanding, reflection, and informed choice.\n\nThe Quran repeatedly describes itself as “al-kitab al-mubin” (the clear and illuminating Book) and “Quran mubin” (a clear and illuminating Quran), and calls the revealed verses “bayyinat” (clear signs) and “mubayyinat” (clarifying signs). Mubin is among the Quran's own names and descriptions: a book whose message is not only clear, but which also makes truths clear to human beings.\n\nThis principle is also directly connected to the Messenger's task. In three verses, the Quran pairs the command “أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ” (“Obey The God and obey the Messenger”) with a statement of the Messenger's responsibility for “الْبَلَاغُ الْمُبِينُ” (“clear delivery of the message”) ([An-Nur 24:54](/quran-reflection/en/024-an-nur/#ayah-054); [Al-Ma’idah 5:92](/quran-reflection/en/005-al-maidah/#ayah-092); [At-Taghabun 64:12](/quran-reflection/en/064-at-taghabun/#ayah-012)). In these verses, obedience to the Messenger is inseparable from his mission and the clear message he is charged with delivering.\n\nSince the Quran itself is a “clear and illuminating Book” and a “clear and illuminating Quran,” and the Messenger is charged with conveying and clarifying the revelation sent down to him, obedience to him in his capacity as Messenger means following the divine message he delivered, rather than unquestioningly accepting every saying later attributed to him.\n\nAccordingly, no individual, group, or religious institution has the right to claim exclusive authority over understanding religion by alleging that the Quran is obscure or incomplete, or to place human reports, commentaries, and interpretations above the illuminating Book. Understanding the Quran requires reflection, knowledge of language and context, and examining verses in relation to one another; yet the ultimate criterion for understanding the divine message is the Quran itself.",
+    "primary_translation": "And on the Day when We raise up in every community a witness against them from among themselves, and bring you as a witness against these; and We have sent down to you the Book, clarifying everything, and as guidance, mercy, and glad tidings for those who submit.",
+    "related_research": [
+      {
+        "title": "Al-Mubin: The Qur’an as the Clarifier and the Messenger’s Task",
+        "url": "/en/quran-terminology/al-mubin-and-the-clear-delivery/"
+      }
+    ]
   },
-  "reading_order": 5
+  "reading_order": 5,
+  "reference_groups": [
+    {
+      "fa": "قرآن به‌عنوان کتاب مبین و قرآن مبین",
+      "en": "The Quran as a clear and illuminating Book and Quran",
+      "refs": [
+        [
+          12,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          27,
+          1
+        ],
+        [
+          36,
+          69
+        ],
+        [
+          43,
+          2
+        ],
+        [
+          44,
+          2
+        ],
+        [
+          5,
+          15
+        ]
+      ]
+    },
+    {
+      "fa": "روشن و روشنگر بودن آیات نازل‌شده",
+      "en": "The clarity and illuminating character of the revealed verses",
+      "refs": [
+        [
+          2,
+          99
+        ],
+        [
+          24,
+          46
+        ],
+        [
+          57,
+          9
+        ]
+      ]
+    },
+    {
+      "fa": "پیوند مستقیم اطاعت از رسول با بلاغ مبین",
+      "en": "The direct connection between obedience to the Messenger and clear delivery of the message",
+      "refs": [
+        [
+          24,
+          54
+        ],
+        [
+          5,
+          92
+        ],
+        [
+          64,
+          12
+        ]
+      ]
+    },
+    {
+      "fa": "وظیفهٔ رسول در ابلاغ و تبیین پیام الهی",
+      "en": "The Messenger’s task of conveying and clarifying the divine message",
+      "refs": [
+        [
+          16,
+          44
+        ],
+        [
+          16,
+          64
+        ],
+        [
+          16,
+          82
+        ],
+        [
+          29,
+          18
+        ]
+      ]
+    }
+  ],
+  "reference_notes": [
+    {
+      "ref": [
+        12,
+        1
+      ],
+      "fa": "آیات کتاب مبین.",
+      "en": "The verses of the clear and illuminating Book."
+    },
+    {
+      "ref": [
+        15,
+        1
+      ],
+      "fa": "آیات کتاب و قرآن مبین.",
+      "en": "The verses of the Book and a clear and illuminating Quran."
+    },
+    {
+      "ref": [
+        27,
+        1
+      ],
+      "fa": "آیات قرآن و کتاب مبین.",
+      "en": "The verses of the Quran and a clear and illuminating Book."
+    },
+    {
+      "ref": [
+        36,
+        69
+      ],
+      "fa": "پیام نازل‌شده، ذکر و قرآن مبین است.",
+      "en": "The revealed message is a reminder and a clear and illuminating Quran."
+    },
+    {
+      "ref": [
+        43,
+        2
+      ],
+      "fa": "سوگند به کتاب مبین.",
+      "en": "An oath by the clear and illuminating Book."
+    },
+    {
+      "ref": [
+        44,
+        2
+      ],
+      "fa": "سوگند به کتاب مبین.",
+      "en": "An oath by the clear and illuminating Book."
+    },
+    {
+      "ref": [
+        5,
+        15
+      ],
+      "fa": "آمدن نور و کتاب مبین از سوی خداوند.",
+      "en": "The coming of a light and a clear and illuminating Book from The God."
+    },
+    {
+      "ref": [
+        2,
+        99
+      ],
+      "fa": "آیات روشن و آشکار نازل‌شده بر رسول.",
+      "en": "Clear and manifest verses sent down to the Messenger."
+    },
+    {
+      "ref": [
+        24,
+        46
+      ],
+      "fa": "نزول آیات مبینات برای هدایت.",
+      "en": "Clarifying verses sent down for guidance."
+    },
+    {
+      "ref": [
+        57,
+        9
+      ],
+      "fa": "آیات بینات برای بیرون آوردن انسان‌ها از تاریکی‌ها به سوی نور.",
+      "en": "Clear verses to bring human beings out of darkness into light."
+    },
+    {
+      "ref": [
+        24,
+        54
+      ],
+      "fa": "فرمان اطاعت از خدا و رسول و تصریح به «وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ».",
+      "en": "The command to obey The God and the Messenger, and the explicit statement “وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ” (the Messenger is responsible only for clear delivery of the message)."
+    },
+    {
+      "ref": [
+        5,
+        92
+      ],
+      "fa": "فرمان اطاعت از خدا و رسول و تصریح به «أَنَّمَا عَلَىٰ رَسُولِنَا الْبَلَاغُ الْمُبِينُ».",
+      "en": "The command to obey The God and the Messenger, and the explicit statement “أَنَّمَا عَلَىٰ رَسُولِنَا الْبَلَاغُ الْمُبِينُ” (Our Messenger is responsible only for clear delivery of the message)."
+    },
+    {
+      "ref": [
+        64,
+        12
+      ],
+      "fa": "فرمان اطاعت از خدا و رسول و تصریح به «فَإِنَّمَا عَلَىٰ رَسُولِنَا الْبَلَاغُ الْمُبِينُ».",
+      "en": "The command to obey The God and the Messenger, and the explicit statement “فَإِنَّمَا عَلَىٰ رَسُولِنَا الْبَلَاغُ الْمُبِينُ” (then Our Messenger is responsible only for clear delivery of the message)."
+    },
+    {
+      "ref": [
+        16,
+        44
+      ],
+      "fa": "نزول ذکر بر رسول تا آنچه نازل شده برای مردم تبیین شود و آنان بیندیشند.",
+      "en": "The Reminder sent down to the Messenger so that what was revealed might be clarified for people and they might reflect."
+    },
+    {
+      "ref": [
+        16,
+        64
+      ],
+      "fa": "نزول کتاب برای روشن ساختن موارد اختلاف و هدایت مردم.",
+      "en": "The Book sent down to clarify matters of disagreement and guide people."
+    },
+    {
+      "ref": [
+        16,
+        82
+      ],
+      "fa": "مسئولیت رسول در ابلاغ مبین.",
+      "en": "The Messenger’s responsibility for clear delivery of the message."
+    },
+    {
+      "ref": [
+        29,
+        18
+      ],
+      "fa": "وظیفهٔ رسول در ابلاغ مبین.",
+      "en": "The Messenger’s task of clear delivery of the message."
+    }
+  ],
+  "editorial_reviewed": true
 }

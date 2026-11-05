@@ -13,5 +13,6 @@ layout: default
   <div class="principle-references"><!-- PRINCIPLE_REFERENCES --></div>
   {% if principle.related.size > 0 %}<section class="principle-related"><h2>{% if lang == 'fa' %}اصول مرتبط{% else %}Related principles{% endif %}</h2><ul>{% for id in principle.related %}{% assign related = site.data.principles[id] %}<li><a href="/{{ lang }}/principles/{{ id }}/">{{ related[lang].title }}</a></li>{% endfor %}</ul></section>{% endif %}
 
+  {% if copy.related_research.size > 0 %}<section class="principle-related-research"><h2>{% if lang == 'fa' %}پژوهش مرتبط در فرقان{% else %}Related research on Forqan{% endif %}</h2><ul>{% for research in copy.related_research %}<li><a href="{{ research.url | escape }}">{{ research.title | escape }}</a></li>{% endfor %}</ul></section>{% endif %}
 </article>
 <script type="module" src="/assets/js/principles.mjs"></script>
