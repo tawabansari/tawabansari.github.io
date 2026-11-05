@@ -155,3 +155,7 @@ body .container .collection-card span{margin-top:0;font-size:.85rem;color:var(--
 @media(max-width:600px){body .container .collection-directory[data-collection="hub"] .collection-grid{gap:1rem;margin:1.2rem auto}body .container .collection-card{display:grid;grid-template-columns:108px minmax(0,1fr);column-gap:.8rem;text-align:start;padding:.6rem 0;align-items:center}.collection-art{grid-row:1 / 4;width:108px;height:94px;margin:0}body .container .collection-card h2{font-size:1.15rem}body .container .collection-card p{font-size:.9rem;max-width:none}body .container .collection-card span{font-size:.8rem}}
 
 @media(max-width:600px){body .container .collection-directory[data-collection="hub"] .collection-card{grid-template-columns:108px minmax(0,1fr);column-gap:.8rem;min-height:0}.collection-directory[data-collection="hub"] .collection-card .collection-art{width:108px;height:94px}}
+
+/* Keep the principles destination compact in the phone header. */
+.nav-principles-short{display:none}
+@media(max-width:600px){.nav-principles-full{display:none}.nav-principles-short{display:inline}}
