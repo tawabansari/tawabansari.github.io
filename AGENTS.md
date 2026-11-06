@@ -4,6 +4,10 @@
 
 Store each principle in its own `_data/principles/{id}.json` file, with Persian and English content together. The filename must match the permanent principle ID. Add future principles as new files in this folder; do not recreate a combined principles content file. Preserve existing page URLs and keep both languages synchronized when editing. Follow `scripts/PRINCIPLES.md` for page stubs, review markers, and validation.
 
+## Principle titles, numbering, and topics
+
+When the user revises a principle, suggest a clearer title in Persian and English as part of the editorial review; distinguish a wording improvement from a change in meaning. Do not silently change an approved title's meaning. Display numbers belong to the directory renderer, not principle titles, IDs, URLs, or content. Recompute consecutive numbers for the visible list after filtering and sorting. A principle may belong to multiple topic filters without duplicating its content file. Title, numbering, or category changes alone do not mark a principle editorially reviewed.
+
 ## Fixed translation of the basmala
 
 The user approved the following exact translations of `بسم الله الرحمن الرحیم` (including its Arabic spelling/diacritic variants). Use these in all new and edited website content, article openings, verse translations, templates, and generated PDF/export openings.

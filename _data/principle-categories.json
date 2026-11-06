@@ -1,37 +1,102 @@
 [
   {
-    "id": "revelation",
-    "fa": "شناخت قرآن، وحی و دین",
-    "en": "Quran, revelation and religion"
+    "id": "promises",
+    "fa": "حقوق انسان و وعده‌های الهی",
+    "en": "Human rights and divine promises"
   },
   {
-    "id": "faith",
-    "fa": "ایمان، بندگی و خودسازی",
-    "en": "Faith, worship and self-development"
+    "id": "duties",
+    "fa": "حق آن معبود یگانه و مسئولیت انسان",
+    "en": "The rights of The God and human responsibility"
   },
   {
-    "id": "dignity",
-    "fa": "آزادی، کرامت و حقوق انسان",
-    "en": "Freedom, dignity and human rights"
+    "id": "oneness",
+    "fa": "توحید و یگانگی",
+    "en": "Tawhid and oneness"
   },
   {
     "id": "justice",
-    "fa": "عدالت، امانت و حقوق مالی",
-    "en": "Justice, trust and financial rights"
+    "fa": "برابری و عدالت اجتماعی",
+    "en": "Equality and social justice"
+  },
+  {
+    "id": "dignity",
+    "fa": "آزادی و کرامت انسان",
+    "en": "Freedom and human dignity"
+  },
+  {
+    "id": "conflict",
+    "fa": "جنگ، دفاع و صلح",
+    "en": "War, defense and peace"
+  },
+  {
+    "id": "outreach",
+    "fa": "ابلاغ، دعوت و گفت‌وگو",
+    "en": "Conveying the message, invitation and dialogue"
+  },
+  {
+    "id": "worship",
+    "fa": "عبادت و بندگی",
+    "en": "Worship and devotion"
+  },
+  {
+    "id": "revelation",
+    "fa": "قرآن، وحی و شناخت دین",
+    "en": "Quran, revelation and understanding religion"
+  },
+  {
+    "id": "hereafter",
+    "fa": "آفرینش، زندگی و آخرت",
+    "en": "Creation, life and the Hereafter"
+  },
+  {
+    "id": "faith",
+    "fa": "اخلاق و خودسازی",
+    "en": "Ethics and self-development"
+  },
+  {
+    "id": "knowledge",
+    "fa": "دانش، اندیشه و دلیل",
+    "en": "Knowledge, reflection and evidence"
+  },
+  {
+    "id": "governance",
+    "fa": "حکومت، شورا و مسئولیت عمومی",
+    "en": "Governance, consultation and public responsibility"
   },
   {
     "id": "society",
-    "fa": "مسئولیت اجتماعی و نیکوکاری",
-    "en": "Social responsibility and goodness"
+    "fa": "مسئولیت فرد و جامعه",
+    "en": "Individual and social responsibility"
   },
   {
     "id": "family",
-    "fa": "خانواده و حقوق متقابل",
-    "en": "Family and mutual rights"
+    "fa": "خانواده و حقوق اعضای آن",
+    "en": "Family and its members’ rights"
+  },
+  {
+    "id": "economy",
+    "fa": "مال، کار و روابط اقتصادی",
+    "en": "Property, work and economic relations"
+  },
+  {
+    "id": "support",
+    "fa": "انفاق و حمایت از نیازمندان",
+    "en": "Giving and support for those in need"
+  },
+  {
+    "id": "covenants",
+    "fa": "عهد، امانت و تعهدات",
+    "en": "Covenants, trusts and commitments"
+  },
+  {
+    "id": "privacy",
+    "fa": "حریم خصوصی و آبروی انسان",
+    "en": "Privacy and reputation"
   },
   {
     "id": "creation",
-    "fa": "زندگی سالم و مسئولیت در برابر زمین",
-    "en": "Wholesome living and responsibility for the earth"
+    "fa": "جان، سلامت و محیط زندگی",
+    "en": "Life, health and the environment"
   }
 ]

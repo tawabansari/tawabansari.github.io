@@ -28,3 +28,16 @@ with tempfile.TemporaryDirectory() as tmp:
         pass
 
 print('Passed separate principle discovery, source order, and filename/ID validation.')
+
+root = Path(__file__).resolve().parent.parent
+categories = json.loads((root / '_data/principle-categories.json').read_text())
+ids = [category['id'] for category in categories]
+assert len(ids) == len(set(ids)), 'Duplicate topic IDs'
+assert all(category.get('fa') and category.get('en') for category in categories)
+records = load_principles(root)
+for record in records:
+    assigned = record['categories']
+    assert assigned and len(assigned) == len(set(assigned)), record['id']
+    assert set(assigned) <= set(ids), record['id']
+assert all(any(topic in record['categories'] for record in records) for topic in ids), 'Empty topic'
+print(f'Passed {len(categories)} bilingual topics and valid, nonempty memberships for {len(records)} principles.')
