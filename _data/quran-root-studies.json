@@ -15262,14 +15262,14 @@
   "q-r-dad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-r-dad/",
-      "title": "ریشه قرآنی ق ر ض",
-      "summary": "بریدن بخشی از مال، جدا کردن و دادن آن با انتظار بازگشت یا پاداش، قرض دادن، و واگذاری موقت چیزی از دارایی",
+      "title": "ریشهٔ ق ر ض (قَرْض)",
+      "summary": "بریدن و جدا کردن؛ گذشتن از کنار؛ قرض، مال یا عملی که برای بازپرداخت یا جزا پیش فرستاده می‌شود.",
       "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-r-dad/",
-      "title": "The Qur’anic Root Q R Ḍ",
-      "summary": "Cutting off a portion of wealth, separating it and giving it with expectation of return or reward, lending, and temporarily transferring something from one’s possession",
+      "title": "Qur’anic Root Q R Ḍ (Qarḍ)",
+      "summary": "Cutting and separating; passing by; a loan or deed advanced for repayment or recompense.",
       "status": "published"
     }
   },
@@ -18118,15 +18118,15 @@
   "s-r-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/s-r-d/",
-      "title": "ریشهٔ س ر د",
-      "summary": "پیوسته و منظم کنار هم چیدن؛ در وصف زره، حلقه‌بافی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی س ر د",
+      "summary": "پی‌درپی آوردن و پیوند دادن اجزا؛ در کاربرد مادی، دوختن و اتصال حلقه‌های زره.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/s-r-d/",
-      "title": "The Root S R D",
-      "summary": "Linking in an orderly sequence; of armor, making linked mail.",
-      "status": "preliminary"
+      "title": "Quranic Root S R D",
+      "summary": "Bringing successively and linking components; physically, stitching and joining armor rings.",
+      "status": "published"
     }
   },
   "s-r-d-q": {
@@ -18160,29 +18160,29 @@
   "s-r-h": {
     "fa": {
       "url": "/quran-terminology/fa/roots/s-r-h/",
-      "title": "ریشهٔ س ر ح (سَرْح)",
-      "summary": "روانه شدن و روانه کردن، رها ساختن و گشودن راه حرکت؛ به چرا فرستادن دام و رها کردن پیوند زناشویی بر پایهٔ سیاق.",
+      "title": "ریشه قرآنی س ر ح",
+      "summary": "روانه شدن و روانه کردن؛ رها ساختن و باز گذاشتن راه رفتن.",
       "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/s-r-h/",
-      "title": "Root S R Ḥ (sarḥ)",
-      "summary": "Going or sending forth, releasing, and opening the way for movement; sending livestock to pasture or releasing a marital bond, according to context.",
+      "title": "Quranic Root S R Ḥ",
+      "summary": "Going forth and sending forth; releasing and leaving the way open to depart.",
       "status": "published"
     }
   },
   "s-r-j": {
     "fa": {
       "url": "/quran-terminology/fa/roots/s-r-j/",
-      "title": "ریشهٔ س ر ج",
-      "summary": "چراغ و منبع روشنایی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی س ر ج",
+      "summary": "چراغ و وسیلهٔ روشنایی‌بخش؛ در کاربرد تمثیلی، روشنگر و راهنما.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/s-r-j/",
-      "title": "The Root S R J",
-      "summary": "A lamp or source of light.",
-      "status": "preliminary"
+      "title": "Quranic Root S R J",
+      "summary": "A lamp or illuminating device; figuratively, an illuminator and guide.",
+      "status": "published"
     }
   },
   "s-r-m-d": {
