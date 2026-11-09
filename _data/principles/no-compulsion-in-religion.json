@@ -5,7 +5,8 @@
   "categories": [
     "dignity",
     "outreach",
-    "revelation"
+    "revelation",
+    "governance"
   ],
   "refs": [
     [
@@ -13,8 +14,92 @@
       256
     ],
     [
+      2,
+      255
+    ],
+    [
+      2,
+      257
+    ],
+    [
       10,
       99
+    ],
+    [
+      18,
+      29
+    ],
+    [
+      76,
+      3
+    ],
+    [
+      30,
+      30
+    ],
+    [
+      91,
+      7
+    ],
+    [
+      91,
+      8
+    ],
+    [
+      91,
+      9
+    ],
+    [
+      91,
+      10
+    ],
+    [
+      67,
+      2
+    ],
+    [
+      49,
+      14
+    ],
+    [
+      88,
+      21
+    ],
+    [
+      88,
+      22
+    ],
+    [
+      88,
+      23
+    ],
+    [
+      88,
+      24
+    ],
+    [
+      88,
+      25
+    ],
+    [
+      88,
+      26
+    ],
+    [
+      50,
+      45
+    ],
+    [
+      16,
+      125
+    ],
+    [
+      39,
+      17
+    ],
+    [
+      39,
+      18
     ]
   ],
   "primary": [
@@ -22,17 +107,337 @@
     256
   ],
   "related": [
-    "freedom-of-belief"
+    "freedom-of-belief",
+    "freedom-to-listen-and-respectful-dialogue",
+    "rejecting-tyranny-and-humiliation",
+    "seeking-evidence-and-proof"
   ],
   "fa": {
     "title": "اصل عدم اکراه در دین",
     "aliases": "",
-    "description": "ایمان را نمی‌توان با تهدید، زور، زندان یا فشار اجتماعی بر انسان تحمیل کرد."
+    "description": "عدم اکراه در دین، به معنای ممنوعیت تحمیل ایمان، عقیده و بندگی بر انسان از راه زور، تهدید، ارعاب، مجازات یا فشار اجتماعیِ اجبارآمیز است. ایمان باید از شناخت، فطرت، عقل، وجدان و ارادهٔ آزاد انسان برخیزد و در قلب او جای گیرد، نه اینکه با اجبار بر او تحمیل شود.\n\nفطرت، منطق و نیروی تشخیصی که آن معبود یگانه به انسان بخشیده است، حکم می‌کند که نمی‌توان با تیغ و تبر کسی را به بهشت وارد کرد یا با زور از رفتن او به جهنم جلوگیری نمود. اجبار ممکن است انسان را به اعتراف زبانی، اجرای ظاهری عبادت یا پیروی از یک مذهب وادار سازد، اما به‌خودی‌خود ایمان قلبی پدید نمی‌آورد و ضامن هدایت و رستگاری او نیست. قرآن نیز میان اظهار تسلیم و ایمانی که در قلب جای گرفته است تفاوت می‌گذارد (حجرات [۴۹:۱۴](/quran-reflection/fa/049-al-hujurat/#ayah-014)).\n\nاین اصل با هدف آفرینش و آزمون الهی پیوند مستقیم دارد. خداوند زندگی و مرگ را برای آزمودن کردار انسان آفریده است (ملک [۶۷:۲](/quran-reflection/fa/067-al-mulk/#ayah-002)). مسئولیت انسان با آگاهی، اختیار و توان واقعی او پیوند دارد. تحمیل یک رفتار، به‌تنهایی نشان‌دهندهٔ ایمان و انتخاب درونی او نیست؛ از همین رو، اجبار نمی‌تواند جای شناخت، پذیرش و مسئولیت‌پذیری را بگیرد. انسان باید امکان انتخاب میان حق و باطل، نیکی و بدی، و پیروی از هدایت الهی یا طاغوت را داشته باشد تا حقیقت گرایش، اراده و کردار او آشکار شود.\n\nآیه‌الکرسی (بقره [۲:۲۵۵](/quran-reflection/fa/002-al-baqarah/#ayah-255))، که بلافاصله پیش از آیهٔ «لَا إِكْرَاهَ فِي الدِّينِ» قرار دارد، فرمانروایی، علم، قدرت و بی‌نیازی مطلق خداوند را بیان می‌کند. درست پس از این بیان گسترده از حاکمیت الهی، قرآن هرگونه اکراه در دین را نفی می‌کند. از کنار هم نهادن این آیات می‌توان دریافت که فرمانروایی خداوند، مجوزی برای تحمیل ایمان از سوی انسان‌ها نیست. هیچ انسانی نمی‌تواند با استناد به حاکمیت الهی، خود را صاحب اختیار وجدان و ایمان دیگران بداند.\n\nادامهٔ آیهٔ [۲:۲۵۶](/quran-reflection/fa/002-al-baqarah/#ayah-256) نیز بنیاد این آزادی را روشن می‌کند: «قَد تَبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ»؛ راه درست از کژراهه روشن شده است. پس انسان باید با شناخت و تشخیص، راه خود را انتخاب کند. نفی اکراه به معنای یکسان بودن حق و باطل یا بی‌پیامد بودن انتخاب‌ها نیست؛ بلکه به معنای واگذاری مسئولیت انتخاب به خود انسان است.\n\nسپس قرآن می‌فرماید: «فَمَن يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِن بِاللَّهِ»؛ پس هر کس به طاغوت کفر ورزد و به آن معبود یگانه ایمان آورد. این عبارت، انتخاب میان طغیان و هدایت را در برابر انسان قرار می‌دهد. طاغوت از حد و جایگاه خود فراتر می‌رود و برای خویش حقی می‌خواهد که متعلق به او نیست. از همین رو، هر قدرتی که بخواهد با زور بر ایمان و وجدان انسان مسلط شود و خود را مرجع مطلق باور او قرار دهد، باید با همین معیار قرآنی سنجیده شود. این سنجش، به معنای آن نیست که هر فشار اجتماعی را بدون بررسی ماهیت و زمینهٔ آن، عین طاغوت بنامیم.\n\nآیهٔ بعدی (بقره [۲:۲۵۷](/quran-reflection/fa/002-al-baqarah/#ayah-257)) نیز ولایت خداوند بر مؤمنان و ولایت طاغوت بر کافران را در برابر یکدیگر قرار می‌دهد. در این پیوستگی، ایمان تنها یک نام یا وابستگی مذهبی نیست؛ بلکه انتخاب آگاهانهٔ مسیر، مرجع و ولایتی است که انسان به آن روی می‌آورد.\n\nقرآن خطاب به محمد می‌فرماید: «أَفَأَنْتَ تُكْرِهُ النَّاسَ حَتَّىٰ يَكُونُوا مُؤْمِنِينَ»؛ آیا تو مردم را مجبور می‌کنی تا مؤمن شوند؟ (یونس [۱۰:۹۹](/quran-reflection/fa/010-yunus/#ayah-099)). اگر فرستادهٔ خداوند حق تحمیل ایمان بر مردم را ندارد، هیچ حاکم، عالم دینی، خانواده، جماعت یا نهاد مذهبی نمی‌تواند چنین حقی را برای خود ادعا کند.\n\nبنابراین، وظیفهٔ دعوت‌کنندگان به دین، رساندن پیام، روشن ساختن حقیقت، استدلال، گفت‌وگو و یادآوری است؛ نه تصاحب اختیار انسان و مجبور ساختن او به ایمان. انسان در انتخاب خود آزاد و در برابر انتخابش مسئول است. داوری نهایی دربارهٔ ایمان و کردار او نیز از آن معبود یگانه است.",
+    "primary_translation": "در دین هیچ اجباری نیست؛ راه درست از کژراهه روشن و متمایز شده است. پس هر کس به طاغوت کفر ورزد و به آن معبود یگانه ایمان آورد، بی‌گمان به استوارترین دستاویز چنگ زده است؛ دستاویزی که هرگز گسسته نمی‌شود. و آن معبود یگانه فراشنوا و فراداناست.",
+    "related_research": [
+      {
+        "title": "اکراه در دین نیست؛ وظیفهٔ فرستاده ابلاغ است",
+        "url": "/fa/quran-terminology/no-compulsion-and-delivery/"
+      },
+      {
+        "title": "چرا خداوند میدان شیطان و طاغوت را آفرید؟",
+        "url": "/fa/quran-terminology/satan-and-taghut/"
+      },
+      {
+        "title": "ایمان در قرآن چیست و چگونه معنای آن آلوده شد؟",
+        "url": "/fa/quran-terminology/iman/"
+      }
+    ]
   },
   "en": {
-    "title": "The Principle of No compulsion in religion",
+    "title": "The Principle of No Compulsion in Religion",
     "aliases": "",
-    "description": "Faith cannot be imposed through threats, force, imprisonment or social pressure."
+    "description": "No compulsion in religion means prohibiting the imposition of faith, belief, and worship on human beings through force, threats, intimidation, punishment, or coercive social pressure. Faith should arise from human understanding, innate disposition, reason, conscience, and free will, and take root in the heart, rather than be imposed by compulsion.\n\nThe innate disposition, reason, and discernment that The God has granted human beings indicate that no one can be driven into Paradise with blade and axe, or forcibly prevented from going to Hell. Compulsion may make a person profess faith, perform outward acts of worship, or follow a religious denomination, but it does not in itself create faith in the heart or guarantee guidance and salvation. The Quran likewise distinguishes between professing submission and faith that has entered the heart (Al-Hujurat [49:14](/quran-reflection/en/049-al-hujurat/#ayah-014)).\n\nThis principle is directly connected with the purpose of creation and the divine test. The God created life and death to test human conduct (Al-Mulk [67:2](/quran-reflection/en/067-al-mulk/#ayah-002)). Human responsibility is connected with awareness, choice, and actual capacity. Imposing a behavior does not by itself demonstrate a person's faith or inward choice; compulsion therefore cannot replace understanding, acceptance, and responsibility. People must have the opportunity to choose between truth and falsehood, good and evil, and following divine guidance or Taghut, so that the reality of their inclinations, will, and conduct becomes apparent.\n\nThe Verse of the Throne (Al-Baqarah [2:255](/quran-reflection/en/002-al-baqarah/#ayah-255)), immediately preceding the verse “لَا إِكْرَاهَ فِي الدِّينِ,” describes the sovereignty, knowledge, power, and absolute self-sufficiency of The God. Immediately after this extensive account of divine sovereignty, the Quran rejects compulsion in religion. Reading these verses together, one may understand that the sovereignty of The God does not authorize human beings to impose faith. No person can invoke divine sovereignty to claim authority over the conscience and faith of others.\n\nThe continuation of Al-Baqarah [2:256](/quran-reflection/en/002-al-baqarah/#ayah-256) also clarifies the basis of this freedom: “قَد تَبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ”—the right way has become distinct from error. People should therefore choose their path through understanding and discernment. Rejecting compulsion does not mean that truth and falsehood are equivalent or that choices have no consequences; it means entrusting responsibility for the choice to the individual.\n\nThe Quran then states: “فَمَن يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِن بِاللَّهِ”—whoever rejects Taghut and believes in The God. This places before human beings a choice between transgression and guidance. Taghut exceeds its proper limits and position, claiming a right that does not belong to it. Accordingly, any power that seeks to dominate human faith and conscience through force and make itself the absolute authority over belief must be assessed against this Quranic criterion. Such assessment does not mean that every form of social pressure should be identified with Taghut without examining its nature and context.\n\nThe following verse (Al-Baqarah [2:257](/quran-reflection/en/002-al-baqarah/#ayah-257)) also contrasts the guardianship of The God over believers with the guardianship of Taghut over disbelievers. In this sequence, faith is more than a name or religious affiliation; it is a conscious choice of the path, authority, and guardianship toward which a person turns.\n\nThe Quran addresses Muhammad: “أَفَأَنْتَ تُكْرِهُ النَّاسَ حَتَّىٰ يَكُونُوا مُؤْمِنِينَ”—would you compel people to become believers? (Yunus [10:99](/quran-reflection/en/010-yunus/#ayah-099)). If the Messenger of The God has no right to impose faith on people, no ruler, religious scholar, family, community, or religious institution can claim such a right.\n\nThe task of those inviting others to religion is therefore to convey the message, clarify the truth, reason, engage in dialogue, and remind, rather than take possession of human choice and compel people to believe. People are free in their choices and responsible for them. Final judgment concerning their faith and conduct belongs to The God.",
+    "primary_translation": "There is no compulsion in religion; the right way has become clear and distinct from error. Whoever rejects Taghut and believes in The God has certainly grasped the firmest handhold, one that never breaks. And The God is All-Hearing and All-Knowing.",
+    "related_research": [
+      {
+        "title": "There Is No Compulsion in Religion; the Messenger’s Duty Is Delivery",
+        "url": "/en/quran-terminology/no-compulsion-and-delivery/"
+      },
+      {
+        "title": "Why Did The God Create the Field of Satan and Taghut?",
+        "url": "/en/quran-terminology/satan-and-taghut/"
+      },
+      {
+        "title": "What Is Faith in the Quran, and How Was Its Meaning Distorted?",
+        "url": "/en/quran-terminology/iman/"
+      }
+    ]
   },
-  "reading_order": 26
+  "reading_order": 26,
+  "reference_groups": [
+    {
+      "fa": "حاکمیت خداوند، آزادی انتخاب و مسئولیت انسان",
+      "en": "Divine sovereignty, freedom of choice, and human responsibility",
+      "refs": [
+        [
+          2,
+          255
+        ],
+        [
+          2,
+          257
+        ],
+        [
+          10,
+          99
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          76,
+          3
+        ]
+      ]
+    },
+    {
+      "fa": "فطرت، تشخیص خیر و شر و آزمون الهی",
+      "en": "Innate disposition, discernment of good and evil, and the divine test",
+      "refs": [
+        [
+          30,
+          30
+        ],
+        [
+          91,
+          7
+        ],
+        [
+          91,
+          8
+        ],
+        [
+          91,
+          9
+        ],
+        [
+          91,
+          10
+        ],
+        [
+          67,
+          2
+        ]
+      ]
+    },
+    {
+      "fa": "ایمان قلبی و ممنوعیت تحمیل آن",
+      "en": "Faith in the heart and the prohibition of imposing it",
+      "refs": [
+        [
+          49,
+          14
+        ],
+        [
+          88,
+          21
+        ],
+        [
+          88,
+          22
+        ],
+        [
+          88,
+          23
+        ],
+        [
+          88,
+          24
+        ],
+        [
+          88,
+          25
+        ],
+        [
+          88,
+          26
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          16,
+          125
+        ],
+        [
+          39,
+          17
+        ],
+        [
+          39,
+          18
+        ]
+      ]
+    }
+  ],
+  "reference_notes": [
+    {
+      "ref": [
+        2,
+        255
+      ],
+      "fa": "فرمانروایی، علم، قدرت و بی‌نیازی خداوند؛ آیهٔ پیش از نفی اکراه.",
+      "en": "The sovereignty, knowledge, power, and self-sufficiency of The God; the verse preceding the rejection of compulsion."
+    },
+    {
+      "ref": [
+        2,
+        257
+      ],
+      "fa": "ولایت خداوند و ولایت طاغوت و پیامدهای آن.",
+      "en": "The guardianship of The God and of Taghut, and their consequences."
+    },
+    {
+      "ref": [
+        10,
+        99
+      ],
+      "fa": "نفی اجبار مردم به ایمان، حتی از سوی فرستادهٔ خداوند.",
+      "en": "Rejection of compelling people to believe, even by the Messenger of The God."
+    },
+    {
+      "ref": [
+        18,
+        29
+      ],
+      "fa": "امکان انتخاب ایمان یا کفر و مسئولیت پیامد آن.",
+      "en": "The possibility of choosing belief or disbelief and responsibility for its consequences."
+    },
+    {
+      "ref": [
+        76,
+        3
+      ],
+      "fa": "نشان دادن راه به انسان و امکان شکر یا کفر.",
+      "en": "Showing human beings the way and the possibility of gratitude or ingratitude."
+    },
+    {
+      "ref": [
+        30,
+        30
+      ],
+      "fa": "فطرت الهی انسان.",
+      "en": "The innate disposition with which The God created human beings."
+    },
+    {
+      "ref": [
+        91,
+        7
+      ],
+      "fa": "نفس و سامان یافتن آن.",
+      "en": "The soul and its formation."
+    },
+    {
+      "ref": [
+        91,
+        8
+      ],
+      "fa": "الهام فجور و تقوا به نفس.",
+      "en": "Inspiring the soul with its wickedness and its taqwa."
+    },
+    {
+      "ref": [
+        91,
+        9
+      ],
+      "fa": "رستگاری کسی که نفس را پاک می‌سازد.",
+      "en": "The success of the one who purifies the soul."
+    },
+    {
+      "ref": [
+        91,
+        10
+      ],
+      "fa": "ناکامی کسی که نفس را آلوده می‌سازد.",
+      "en": "The failure of the one who corrupts the soul."
+    },
+    {
+      "ref": [
+        67,
+        2
+      ],
+      "fa": "آفرینش زندگی و مرگ برای آزمودن کردار انسان.",
+      "en": "The creation of life and death to test human conduct."
+    },
+    {
+      "ref": [
+        49,
+        14
+      ],
+      "fa": "تفاوت اظهار تسلیم با ایمانی که در قلب جای می‌گیرد؛ نه گزارشی صریح از اجبار.",
+      "en": "The distinction between professing submission and faith entering the heart; not an explicit account of coercion."
+    },
+    {
+      "ref": [
+        88,
+        21
+      ],
+      "fa": "وظیفهٔ فرستاده در یادآوری.",
+      "en": "The Messenger’s task of reminding."
+    },
+    {
+      "ref": [
+        88,
+        22
+      ],
+      "fa": "نفی سلطهٔ فرستاده بر مردم.",
+      "en": "Rejection of the Messenger’s domination over people."
+    },
+    {
+      "ref": [
+        88,
+        23
+      ],
+      "fa": "یادکرد کسی که روی برمی‌گرداند و کفر می‌ورزد.",
+      "en": "Mention of the one who turns away and disbelieves."
+    },
+    {
+      "ref": [
+        88,
+        24
+      ],
+      "fa": "بیان عذاب الهی برای او.",
+      "en": "The statement of divine punishment for that person."
+    },
+    {
+      "ref": [
+        88,
+        25
+      ],
+      "fa": "بازگشت مردم به سوی خداوند.",
+      "en": "People’s return to The God."
+    },
+    {
+      "ref": [
+        88,
+        26
+      ],
+      "fa": "حسابرسی مردم بر عهدهٔ خداوند است.",
+      "en": "People’s reckoning belongs to The God."
+    },
+    {
+      "ref": [
+        50,
+        45
+      ],
+      "fa": "محمد بر مردم جبار نیست و مأمور است با قرآن یادآوری کند.",
+      "en": "Muhammad is not a compeller over people and is instructed to remind through the Quran."
+    },
+    {
+      "ref": [
+        16,
+        125
+      ],
+      "fa": "دعوت با حکمت، اندرز نیک و گفت‌وگوی شایسته.",
+      "en": "Invitation with wisdom, good counsel, and gracious dialogue."
+    },
+    {
+      "ref": [
+        39,
+        17
+      ],
+      "fa": "دوری از پرستش طاغوت و بازگشت به خداوند.",
+      "en": "Avoiding the worship of Taghut and turning to The God."
+    },
+    {
+      "ref": [
+        39,
+        18
+      ],
+      "fa": "شنیدن سخنان و پیروی از بهترین آن‌ها.",
+      "en": "Listening to what is said and following the best of it."
+    }
+  ],
+  "editorial_reviewed": true
 }
