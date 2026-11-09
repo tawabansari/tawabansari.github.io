@@ -4,36 +4,280 @@
   "polarity": "positive",
   "categories": [
     "revelation",
-    "duties"
+    "duties",
+    "faith",
+    "outreach"
   ],
   "refs": [
     [
       2,
+      285
+    ],
+    [
+      2,
       136
+    ],
+    [
+      3,
+      84
+    ],
+    [
+      4,
+      150
+    ],
+    [
+      4,
+      151
+    ],
+    [
+      4,
+      152
     ],
     [
       2,
       253
     ],
     [
+      17,
+      55
+    ],
+    [
       2,
-      285
+      124
+    ],
+    [
+      16,
+      123
+    ],
+    [
+      2,
+      87
+    ],
+    [
+      2,
+      91
+    ],
+    [
+      5,
+      72
+    ],
+    [
+      21,
+      107
     ]
   ],
   "primary": [
     2,
     285
   ],
-  "related": [],
+  "related": [
+    "humanity-of-the-messengers",
+    "the-unity-of-religion-and-diversity-of-prescribed-ways",
+    "avoiding-sectarian-division",
+    "rejecting-discrimination-and-inherited-superiority"
+  ],
   "fa": {
-    "title": "اصل ایمان به همه پیامبران بدون تبعیض در پذیرش رسالت",
+    "title": "اصل عدم تبعیض و تفریق بین انبیا",
     "aliases": "",
-    "description": "قرآن به پذیرش پیامبران الهی فرمان می‌دهد و جداسازی تبعیض‌آمیز میان آنان در ایمان را رد می‌کند.\n\nاین اصل به معنای یکسان بودن تمام مقام‌ها و مأموریت‌های پیامبران نیست؛ زیرا قرآن خود از برتری بخشیدن بعضی رسولان بر بعضی دیگر نیز سخن می‌گوید."
+    "description": "عدم تبعیض و تفریق بین انبیا، به معنای ایمان به همهٔ پیامبران و فرستادگان آن معبود یگانه، رعایت حرمت آنان و پرهیز از برتری‌جویی‌ها و رتبه‌بندی‌های برخاسته از تعصبات قومی، مذهبی و فرقه‌ای است. قرآن مؤمنان را به پذیرش همهٔ فرستادگان خداوند فرا می‌خواند و تفریق میان آنان را نکوهش می‌کند.\n\nاین اصل تنها به پذیرش نبوت و رسالت همهٔ پیامبران خلاصه نمی‌شود. انسان ممکن است رسالت همه را بپذیرد، اما از روی تعصب، پیامبر مورد علاقهٔ خود را برتر از همه معرفی کند و برای او مقام‌ها و لقب‌هایی بسازد که خداوند مقرر نکرده است.\n\nدر میان برخی مسلمانان، محمد را «سرور انبیا»، «برترین پیامبر» یا حتی «هدف آفرینش جهان» معرفی می‌کنند. قرآن محمد را «رحمةً للعالمین» خوانده است ([انبیاء ۲۱:۱۰۷](/quran-reflection/fa/021-al-anbiya/#ayah-107))، اما هیچ‌یک از عنوان‌های یادشده را به او نداده و او را علت آفرینش جهان معرفی نکرده است. همان‌گونه که قرآن نسبت دادن الوهیت به عیسی را نقد می‌کند ([مائده ۵:۷۲](/quran-reflection/fa/005-al-maidah/#ayah-072))، پیروان قرآن نیز نباید از روی محبت و تعصب، مقام‌هایی برای پیامبران بسازند که خداوند به آنان نسبت نداده است.\n\nقرآن نمونه‌های روشنی از پیامدهای این تبعیض را نیز بیان می‌کند. در [بقره ۲:۹۱](/quran-reflection/fa/002-al-baqarah/#ayah-091) از کسانی سخن می‌گوید که هنگام دعوت به ایمان به وحی الهی پاسخ می‌دادند: «نُؤْمِنُ بِمَا أُنْزِلَ عَلَيْنَا»؛ به آنچه بر ما نازل شده ایمان داریم، اما وحی دیگری را انکار می‌کردند. این تعصب حتی به تکذیب و کشتن برخی پیامبران انجامیده بود ([بقره ۲:۸۷](/quran-reflection/fa/002-al-baqarah/#ayah-087)). چنین رفتاری حقیقت را تابع تعلق قومی و مذهبی می‌سازد و می‌تواند سرچشمهٔ تفرقه، دشمنی و اختلاف میان انسان‌ها شود.\n\nبا این حال، عدم تبعیض به معنای انکار فضیلت‌هایی نیست که خود خداوند به بعضی پیامبران داده است. قرآن صریحاً می‌فرماید: «تِلْكَ الرُّسُلُ فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍ» ([بقره ۲:۲۵۳](/quran-reflection/fa/002-al-baqarah/#ayah-253)). همچنین در [اسراء ۱۷:۵۵](/quran-reflection/fa/017-al-isra/#ayah-055)، پس از یادآوری علم خداوند، بیان می‌کند که بعضی پیامبران را بر بعضی دیگر فضیلت داده است.\n\nبنابراین، تعیین فضیلت‌ها و مراتب پیامبران از آن خداوند است. ما تنها آنچه را او در قرآن بیان کرده می‌پذیریم، نه اینکه بر پایهٔ حدس، روایت‌های بی‌پشتوانه یا تعصبات مذهبی، برای پیامبران جدول برتری و رتبه‌بندی بسازیم.\n\nبرای نمونه، خداوند دربارهٔ ابراهیم می‌فرماید: «إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا»؛ من تو را برای مردم امام قرار می‌دهم ([بقره ۲:۱۲۴](/quran-reflection/fa/002-al-baqarah/#ayah-124)). همچنین به محمد وحی می‌کند که از ملت ابراهیم حنیف پیروی کند ([نحل ۱۶:۱۲۳](/quran-reflection/fa/016-an-nahl/#ayah-123)). این جایگاه‌ها را خود خداوند بیان کرده است و پذیرش آن‌ها با اصل عدم تبعیض تعارض ندارد.\n\nپس پیروان قرآن باید حرمت همهٔ پیامبران را پاس بدارند، رسالت هیچ‌یک را بر پایهٔ تعصب انکار نکنند و از تبدیل آنان به نمادهای رقابت و برتری‌جویی فرقه‌ای بپرهیزند. معیار، سخن خداوند است؛ نه ادعاهایی که انسان‌ها از روی محبت، تعصب یا گمان به پیامبران نسبت می‌دهند.",
+    "primary_translation": "فرستاده به آنچه از پروردگارش بر او نازل شده ایمان آورده است، و مؤمنان نیز؛ همه به آن معبود یگانه و فرشتگانش و کتاب‌هایش و فرستادگانش ایمان آورده‌اند؛ میان هیچ‌یک از فرستادگانش جدایی نمی‌گذاریم. و گفتند: شنیدیم و فرمان بردیم؛ آمرزش تو را می‌خواهیم، پروردگار ما، و بازگشت به سوی توست.",
+    "related_research": [
+      {
+        "title": "صلوات در قرآن؛ معنای فرمان، جایگاه دعا و حدود الزام",
+        "url": "/fa/quran-terminology/salawat-in-the-quran/"
+      }
+    ]
   },
   "en": {
-    "title": "The Principle of Believing in all messengers without discrimination",
+    "title": "The Principle of Non-discrimination and non-division among the Prophets",
     "aliases": "",
-    "description": "The Quran calls for accepting the divine messengers without discriminatory rejection. This does not mean their ranks and missions are identical; it also speaks of differences among them."
+    "description": "Non-discrimination and non-division among the Prophets mean believing in all the Prophets and Messengers of The God, respecting them, and avoiding claims of superiority and rankings arising from ethnic, religious, and sectarian prejudice. The Quran calls believers to accept all the Messengers of The God and condemns making divisions among them.\n\nThis principle is not limited to accepting the prophethood and mission of all the Prophets. A person may accept the mission of all of them, yet out of prejudice present their favored Prophet as superior to all others and invent ranks and titles for him that The God has not prescribed.\n\nAmong some Muslims, Muhammad is described as “the master of the Prophets,” “the greatest Prophet,” or even “the purpose of the creation of the universe.” The Quran describes Muhammad as “رحمةً للعالمین” (a mercy to all worlds) ([Al-Anbiya 21:107](/quran-reflection/en/021-al-anbiya/#ayah-107)), but gives him none of those titles and does not identify him as the reason for the creation of the universe. Just as the Quran criticizes attributing divinity to Jesus ([Al-Ma’idah 5:72](/quran-reflection/en/005-al-maidah/#ayah-072)), followers of the Quran must not, out of love and prejudice, invent ranks for the Prophets that The God has not attributed to them.\n\nThe Quran also gives clear examples of the consequences of such discrimination. [Al-Baqarah 2:91](/quran-reflection/en/002-al-baqarah/#ayah-091) speaks of people who, when invited to believe in divine revelation, replied: “نُؤْمِنُ بِمَا أُنْزِلَ عَلَيْنَا”—we believe in what was sent down to us—while rejecting other revelation. This prejudice had even led to denying and killing some Messengers ([Al-Baqarah 2:87](/quran-reflection/en/002-al-baqarah/#ayah-087)). Such conduct makes truth subordinate to ethnic and religious affiliation and can become a source of division, hostility, and conflict among human beings.\n\nNevertheless, non-discrimination does not mean denying the distinctions that The God Himself has granted to some Prophets. The Quran explicitly states: “تِلْكَ الرُّسُلُ فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍ” (those Messengers—We favored some of them over others) ([Al-Baqarah 2:253](/quran-reflection/en/002-al-baqarah/#ayah-253)). In [Al-Isra 17:55](/quran-reflection/en/017-al-isra/#ayah-055), after recalling the knowledge of The God, it likewise states that He has favored some Prophets over others.\n\nTherefore, determining the distinctions and ranks of the Prophets belongs to The God. We accept only what He has stated in the Quran, rather than constructing hierarchies and rankings of the Prophets on the basis of conjecture, unsupported reports, or religious prejudice.\n\nFor example, The God says concerning Abraham: “إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا”—I am appointing you as an imam for the people ([Al-Baqarah 2:124](/quran-reflection/en/002-al-baqarah/#ayah-124)). He also reveals to Muhammad that he should follow the way of Abraham, the upright ([An-Nahl 16:123](/quran-reflection/en/016-an-nahl/#ayah-123)). These positions are stated by The God Himself, and accepting them does not conflict with the principle of non-discrimination.\n\nFollowers of the Quran must therefore respect all the Prophets, reject the mission of none on the basis of prejudice, and refrain from turning them into symbols of sectarian rivalry and claims of superiority. The criterion is the word of The God, not claims that human beings attribute to the Prophets out of love, prejudice, or conjecture.",
+    "primary_translation": "The Messenger has believed in what has been sent down to him from his Lord, and so have the believers; all have believed in The God, His angels, His books, and His Messengers: we make no distinction between any of His Messengers. And they said: We hear and obey; we seek Your forgiveness, our Lord, and to You is the return.",
+    "related_research": [
+      {
+        "title": "Salawat in the Quran: the meaning of the command, the place of supplication, and the limits of obligation (Persian)",
+        "url": "/fa/quran-terminology/salawat-in-the-quran/"
+      }
+    ]
   },
-  "reading_order": 19
+  "reading_order": 19,
+  "reference_groups": [
+    {
+      "fa": "عدم تفریق و تبعیض میان فرستادگان",
+      "en": "No division or discrimination among the Messengers",
+      "refs": [
+        [
+          2,
+          136
+        ],
+        [
+          3,
+          84
+        ],
+        [
+          4,
+          150
+        ],
+        [
+          4,
+          151
+        ],
+        [
+          4,
+          152
+        ]
+      ]
+    },
+    {
+      "fa": "فضیلت‌هایی که خداوند به پیامبران داده است",
+      "en": "Distinctions that The God has granted to the Prophets",
+      "refs": [
+        [
+          2,
+          253
+        ],
+        [
+          17,
+          55
+        ],
+        [
+          2,
+          124
+        ],
+        [
+          16,
+          123
+        ]
+      ]
+    },
+    {
+      "fa": "نمونه‌های تبعیض و افراط دربارهٔ پیامبران",
+      "en": "Examples of discrimination and excess concerning the Prophets",
+      "refs": [
+        [
+          2,
+          87
+        ],
+        [
+          2,
+          91
+        ],
+        [
+          5,
+          72
+        ],
+        [
+          21,
+          107
+        ]
+      ]
+    }
+  ],
+  "reference_notes": [
+    {
+      "ref": [
+        2,
+        136
+      ],
+      "fa": "ایمان به پیامبران و نفی تفریق میان آنان.",
+      "en": "Belief in the Prophets and rejection of making divisions among them."
+    },
+    {
+      "ref": [
+        3,
+        84
+      ],
+      "fa": "پذیرش وحی نازل‌شده بر پیامبران و تصریح به «لا نفرق بین أحد منهم».",
+      "en": "Acceptance of the revelation sent down to the Prophets and the explicit statement “لا نفرق بین أحد منهم” (we make no distinction between any of them)."
+    },
+    {
+      "ref": [
+        4,
+        150
+      ],
+      "fa": "نکوهش ایمان گزینشی به بعضی رسولان و انکار بعضی دیگر.",
+      "en": "Condemnation of selectively believing in some Messengers while rejecting others."
+    },
+    {
+      "ref": [
+        4,
+        151
+      ],
+      "fa": "نکوهش ایمان گزینشی به بعضی رسولان و انکار بعضی دیگر.",
+      "en": "Condemnation of selectively believing in some Messengers while rejecting others."
+    },
+    {
+      "ref": [
+        4,
+        152
+      ],
+      "fa": "نکوهش ایمان گزینشی به بعضی رسولان و انکار بعضی دیگر.",
+      "en": "Condemnation of selectively believing in some Messengers while rejecting others."
+    },
+    {
+      "ref": [
+        2,
+        253
+      ],
+      "fa": "برتری بخشیدن خداوند به بعضی رسولان نسبت به بعضی دیگر.",
+      "en": "The God favoring some Messengers over others."
+    },
+    {
+      "ref": [
+        17,
+        55
+      ],
+      "fa": "علم خداوند و فضیلت بخشیدن به بعضی پیامبران.",
+      "en": "The knowledge of The God and His favoring some Prophets over others."
+    },
+    {
+      "ref": [
+        2,
+        124
+      ],
+      "fa": "قرار دادن ابراهیم در جایگاه امام برای مردم.",
+      "en": "Appointing Abraham as an imam for the people."
+    },
+    {
+      "ref": [
+        16,
+        123
+      ],
+      "fa": "فرمان به محمد برای پیروی از ملت ابراهیم.",
+      "en": "The command to Muhammad to follow the way of Abraham."
+    },
+    {
+      "ref": [
+        2,
+        87
+      ],
+      "fa": "تکذیب پیامبران و انکار وحی بر پایهٔ تعلق گروهی.",
+      "en": "Denial of Messengers and rejection of revelation on the basis of group affiliation."
+    },
+    {
+      "ref": [
+        2,
+        91
+      ],
+      "fa": "تکذیب پیامبران و انکار وحی بر پایهٔ تعلق گروهی.",
+      "en": "Denial of Prophets and rejection of revelation on the basis of group affiliation."
+    },
+    {
+      "ref": [
+        5,
+        72
+      ],
+      "fa": "نقد نسبت دادن الوهیت به عیسی.",
+      "en": "Criticism of attributing divinity to Jesus."
+    },
+    {
+      "ref": [
+        21,
+        107
+      ],
+      "fa": "معرفی رسالت محمد به‌عنوان رحمتی برای عالمیان.",
+      "en": "Presenting Muhammad’s mission as a mercy to all worlds."
+    }
+  ],
+  "editorial_reviewed": true
 }
