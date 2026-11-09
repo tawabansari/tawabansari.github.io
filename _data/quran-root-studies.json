@@ -6092,15 +6092,15 @@
   "gh-l-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-l-b/",
-      "title": "ریشهٔ غ ل ب",
-      "summary": "چیره شدن و غلبه یافتن.",
-      "status": "preliminary"
+      "title": "ریشه غ ل ب (غَلَب)",
+      "summary": "چیره شدن، برتری یافتن و شکست دادن؛ در شاخه جسمانی، ستبری و تنومندی گردن یا درختان.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-l-b/",
-      "title": "The Root GH L B",
-      "summary": "Overcoming or prevailing.",
-      "status": "preliminary"
+      "title": "The Root GH L B (Ghalab)",
+      "summary": "Prevailing, gaining ascendancy, and defeating; in the physical branch, thickness and stoutness of necks or trees.",
+      "status": "published"
     }
   },
   "gh-l-f": {
@@ -6302,15 +6302,15 @@
   "gh-r-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-r-f/",
-      "title": "ریشهٔ غ ر ف",
-      "summary": "با دست یا ابزار آب برداشتن؛ غُرفه: اتاق یا جایگاه بالا.",
-      "status": "preliminary"
+      "title": "ریشه غ ر ف (غَرْف)",
+      "summary": "برگرفتن مقداری آب یا ماده‌ای دیگر با دست یا ابزار؛ غُرفه: مقدار برگرفته‌شده، و در کاربردی دیگر اتاق یا جایگاه بالایی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-r-f/",
-      "title": "The Root GH R F",
-      "summary": "Scooping liquid; ghurfah is an upper room or chamber.",
-      "status": "preliminary"
+      "title": "The Root GH R F (Gharf)",
+      "summary": "Scooping a quantity of water or another substance by hand or an implement; ghurfah: the amount scooped, or, in another use, an upper room or chamber.",
+      "status": "published"
     }
   },
   "gh-r-m": {
