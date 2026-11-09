@@ -21,6 +21,21 @@ Existing inline links may wrap parts of the translation, but the rendered senten
 
 When changing shared rendering or PDF code, verify that both language outputs still use these exact sentences. Search existing source content for older complete basmala translations when adding or importing articles.
 
+## Preserve the distinction between Nabi and Rasul
+
+Apply this approved Forqan editorial rule to all new Persian and English translations, word boxes, reflections, and subsequent revisions. Preserve the exact Quranic title rather than substituting one title for the other, even when a person holds both roles.
+
+- `نبي` → Persian `نبی`; English `Prophet`. Do not render it as `پیامبر`, `فرستاده`, or `Messenger`.
+- `رسول` → Persian `فرستاده`; English `Messenger`. Although `پیامبر` can denote a bearer of a message, use `فرستاده` as the standard equivalent to preserve the distinction. Do not substitute `نبی` or `Prophet`.
+- Preserve both titles separately when both occur: `رَسُولًا نَبِيًّا` → `فرستاده‌ای و نبی` / `a Messenger and a Prophet`. For example, `نَبِيُّهُمْ` → `نبی‌شان` / `their Prophet`.
+
+For word boxes, distinguish the general root meaning from the contextual meaning:
+
+- Nabi, `ن ب أ`: brief root meaning `خبر مهم، آگاهی و نبأ.` / `Important news, awareness, and divine tidings.` Context: `نبی؛ دریافت‌کننده آگاهی و خبر الهی.` / `Prophet; a recipient of divine knowledge and news.` Adapt pronouns and context accurately without replacing the title. This news is not necessarily prediction of future events; do not define Prophet solely as a foreteller.
+- Rasul, `ر س ل`: brief root meaning `فرستادن، روانه کردن و رساندن.` / `Sending, dispatching, and conveying.` Context: `فرستاده؛ مأمور رساندن پیام.` / `Messenger; one commissioned to convey the message.` Adapt pronouns and context accurately.
+
+Keep direct translations limited to the equivalent of the title used in the Arabic. Discussion of the roles and possible wisdom in the choice of title belongs in the reflection, not in added interpretive wording in the verse translation. Preserve the Quran's lexical distinctions rather than merging them through customary translation habits.
+
 ## Verse ranges in reflections
 
 When supplied reflection text cites a range of verses, expand it into individually written surah-and-verse references in both Persian and English so each verse can be referenced separately. Link each reference to its own verified, installed verse anchor. If a verse is not yet available on the site, retain its individual reference as plain text rather than inventing a destination. Apply this also to the accompanying cross-reference entry when it repeats the range.
