@@ -1,0 +1,26 @@
+{
+  "root": "ش ه و",
+  "slug": "sh-h2-w",
+  "status": "complete attachment installed locally in Persian and English",
+  "source_attachment": "/Users/tawab/.codex/attachments/6d77064c-42e4-4c03-b57a-70f6d3fc3c7b/Pasted text.txt",
+  "source_blocks_per_language": 344,
+  "previous_edited_blocks_preserved": 302,
+  "complete_source_ending_replaced_previous_editorial_completion": true,
+  "source_ending_blocks": 42,
+  "all_source_ending_blocks_included": true,
+  "verse_files_and_shared_code_unchanged": true,
+  "files": [
+    "quran-terminology/fa/roots/sh-h2-w/index.html",
+    "quran-terminology/en/roots/sh-h2-w/index.html"
+  ],
+  "before_sha256": {
+    "quran-terminology/fa/roots/sh-h2-w/index.html": "b0a5f68a78baa7266eb632a2b41d37a3bdba9ad21453ba5802c78912e9f67d64",
+    "quran-terminology/en/roots/sh-h2-w/index.html": "7871426f2cf2936dc67bbffc9ef51ac063e9fa6ab0524c6cc1a31609917a15e2"
+  },
+  "after_sha256": {
+    "quran-terminology/fa/roots/sh-h2-w/index.html": "aa3f0a94b782b26752f69354cc381c2b0eda1855debf1c0068cdb32c5cb57472",
+    "quran-terminology/en/roots/sh-h2-w/index.html": "1d8893606f945279939711812aa6c865b865a262788cd14ffe927273905545b6"
+  },
+  "validation": "Full bilingual paragraph coverage, retained opening text, internal links and anchors, language checks, preserved verse/data/shared-code hashes, whitespace and installed file hashes passed.",
+  "commit_or_push_performed": false
+}
