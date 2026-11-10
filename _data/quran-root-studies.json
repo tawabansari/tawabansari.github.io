@@ -1822,29 +1822,29 @@
   "ayn-r-sh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-r-sh/",
-      "title": "ریشهٔ ع ر ش",
-      "summary": "سقف و سازه برافراشته؛ عرش: تخت یا جایگاه فرمانروایی.",
-      "status": "preliminary"
+      "title": "ریشه «ع ر ش» در قرآن",
+      "summary": "ساختن و برپا کردن؛ سقف، داربست و تخت؛ در کاربرد الهی، عرش با پروردگاری و فرمانروایی پیوند دارد و ماهیت آن از معنای لغوی به‌تنهایی تعیین نمی‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-r-sh/",
-      "title": "The Root AYN R SH (ʿ R SH)",
-      "summary": "A roof or raised structure; ʿarsh is a throne or seat of sovereignty.",
-      "status": "preliminary"
+      "title": "The Root ʿ R SH in the Quran",
+      "summary": "Building and erecting; roofs, trellises, and thrones. The divine Throne relates to lordship and sovereignty; its nature is not determined by lexical meaning alone.",
+      "status": "published"
     }
   },
   "ayn-r-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-r-w/",
-      "title": "ریشهٔ ع ر و",
-      "summary": "دستگیره و جای چنگ زدن؛ اعترا: عارض و دامنگیر شدن.",
-      "status": "preliminary"
+      "title": "ریشه «ع ر و» در قرآن",
+      "summary": "روی آوردن، رسیدن و عارض شدن؛ «عروه» حلقه، دستگیره یا دستاویزی برای گرفتن و اتصال است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-r-w/",
-      "title": "The Root AYN R W (ʿ R W)",
-      "summary": "A handle or handhold; iʿtirāʾ means befalling or afflicting.",
-      "status": "preliminary"
+      "title": "The root ʿ R W in the Quran",
+      "summary": "Approaching, reaching, and befalling; ʿurwah is a loop, handle, or handhold for grasping and connection.",
+      "status": "published"
     }
   },
   "ayn-r-y": {
@@ -5616,15 +5616,15 @@
   "f-sad-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-sad-m/",
-      "title": "ریشهٔ ف ص م",
-      "summary": "ترک و گسستگی در پیوند.",
-      "status": "preliminary"
+      "title": "ریشه «ف ص م» در قرآن",
+      "summary": "ترک برداشتن، شکستن و گسستن پیوستگی؛ به‌ویژه شکستگی بدون جدایی کامل اجزا.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-sad-m/",
-      "title": "The Root F Ṣ M",
-      "summary": "A crack or break in a connection.",
-      "status": "preliminary"
+      "title": "The Root F Ṣ M in the Quran",
+      "summary": "Cracking, breaking, and rupture of continuity, especially fracture without complete separation.",
+      "status": "published"
     }
   },
   "f-sh-l": {
