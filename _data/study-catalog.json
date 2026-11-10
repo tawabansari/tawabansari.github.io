@@ -2088,5 +2088,45 @@
       "Custom",
       "Qur’anic principles"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/taghut-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "طاغوت",
+    "description": "طاغوت، سرچشمه درونی طغیان، مرز مرجعیت مشروع و سلطه، اختیار انسان و آزادی ایمان.",
+    "format": "study",
+    "aliases": [
+      "طاغوت",
+      "طغیان",
+      "Taghut",
+      "Tughyan"
+    ],
+    "related": [
+      "/fa/quran-terminology/satan-and-taghut/",
+      "/fa/quran-terminology/sultan-logic-in-quran/",
+      "/fa/quran-terminology/no-compulsion-and-delivery/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/taghut-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Taghut",
+    "description": "Taghut, the inward roots of transgression, the limits of legitimate authority, human responsibility, and freedom of faith.",
+    "format": "study",
+    "aliases": [
+      "طاغوت",
+      "طغیان",
+      "Taghut",
+      "Tughyan"
+    ],
+    "related": [
+      "/en/quran-terminology/satan-and-taghut/",
+      "/en/quran-terminology/sultan-logic-in-quran/",
+      "/en/quran-terminology/no-compulsion-and-delivery/"
+    ]
   }
 ]
