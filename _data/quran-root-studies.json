@@ -1024,15 +1024,15 @@
   "ayn-b-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-b-a/",
-      "title": "ریشهٔ ع ب أ",
-      "summary": "بار و سنگینی؛ اعتنا و اهمیت دادن به چیزی.",
-      "status": "preliminary"
+      "title": "ریشه ع ب أ (عَبَأَ)",
+      "summary": "بار و سنگینی؛ آماده کردن و سامان دادن؛ اعتنا و اهمیت دادن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-b-a/",
-      "title": "The Root AYN B A (ʿ B A)",
-      "summary": "A load or weight; paying attention or attaching importance.",
-      "status": "preliminary"
+      "title": "Root ع ب أ (ʿabaʾa)",
+      "summary": "A load and weight; preparing and arranging; paying regard and attaching importance.",
+      "status": "published"
     }
   },
   "ayn-b-d": {
@@ -1094,15 +1094,15 @@
   "ayn-b-th": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-b-th/",
-      "title": "ریشهٔ ع ب ث",
-      "summary": "بیهوده‌کاری و کاری بدون مقصود درست.",
-      "status": "preliminary"
+      "title": "ریشه ع ب ث (عَبِثَ)",
+      "summary": "بیهوده‌کاری و عمل بدون هدف درست یا فایده قابل اعتنا؛ در شاخه‌ای دیگر، آمیختن و درهم کردن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-b-th/",
-      "title": "The Root AYN B TH (ʿ B TH)",
-      "summary": "Futility or acting without a sound purpose.",
-      "status": "preliminary"
+      "title": "Root ع ب ث (ʿabitha)",
+      "summary": "Futile activity without a sound purpose or worthwhile benefit; in another branch, mixing and combining.",
+      "status": "published"
     }
   },
   "ayn-d-d": {
@@ -23242,15 +23242,15 @@
   "zha-m-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/zha-m-a/",
-      "title": "ریشهٔ ظ م أ",
-      "summary": "تشنگی.",
-      "status": "preliminary"
+      "title": "ریشه ظ م أ (ظَمِئَ)",
+      "summary": "تشنگی و نیاز به آب؛ در شاخه‌ای دیگر، فاصله زمانی میان دو نوبت آب‌خوردن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/zha-m-a/",
-      "title": "The Root Ẓ M A",
-      "summary": "Thirst.",
-      "status": "preliminary"
+      "title": "Root ظ م أ (ẓamiʾa)",
+      "summary": "Thirst and the need for water; in another branch, the interval between drinking occasions.",
+      "status": "published"
     }
   },
   "zha-n-n": {
