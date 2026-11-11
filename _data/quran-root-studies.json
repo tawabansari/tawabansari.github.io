@@ -21268,15 +21268,15 @@
   "tt-w-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/tt-w-l/",
-      "title": "ریشهٔ ط و ل",
-      "summary": "درازی و امتداد؛ طَول: توانگری یا بخشش.",
-      "status": "preliminary"
+      "title": "ریشه ط و ل (طَالَ / طَوْل)",
+      "summary": "درازی و امتداد در اندازه یا زمان؛ در شاخه دیگر، توان، امکانات، فضل و برخورداری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/tt-w-l/",
-      "title": "The Root Ṭ W L",
-      "summary": "Length or extension; ṭawl denotes means, abundance, or bounty.",
-      "status": "preliminary"
+      "title": "The Root Ṭ W L (طَالَ / طَوْل)",
+      "summary": "Length and extension in size or time; in another branch, ability, resources, and bounty.",
+      "status": "published"
     }
   },
   "tt-w-q": {
@@ -21310,15 +21310,15 @@
   "tt-w-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/tt-w-y/",
-      "title": "ریشهٔ ط و ي",
-      "summary": "تا کردن و درهم پیچیدن؛ «طوی» نام خاص یک وادی است.",
-      "status": "preliminary"
+      "title": "ریشه ط و ي (طَوَى)",
+      "summary": "تا کردن، پیچیدن و جمع کردن چیزی از حالت گسترده؛ پوشاندن، پنهان کردن و پیمودن. نام طُوی جدا بررسی می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/tt-w-y/",
-      "title": "The Root Ṭ W Y",
-      "summary": "Folding or rolling up; Ṭuwā is a valley's proper name.",
-      "status": "preliminary"
+      "title": "The Root Ṭ W Y (طَوَى)",
+      "summary": "Folding, rolling, and gathering something extended; concealing and traversing. The name Ṭuwā is considered separately.",
+      "status": "published"
     }
   },
   "tt-y-b": {
@@ -21338,15 +21338,15 @@
   "tt-y-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/tt-y-n/",
-      "title": "ریشهٔ ط ي ن",
-      "summary": "گل، از آمیزه آب و خاک.",
-      "status": "preliminary"
+      "title": "ریشه ط ي ن (طِين)",
+      "summary": "گل؛ خاک آمیخته با آب، با قابلیت چسبندگی و شکل‌پذیری؛ ماده‌ای که می‌تواند خشک یا سخت شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/tt-y-n/",
-      "title": "The Root Ṭ Y N",
-      "summary": "Clay, a mixture of water and earth.",
-      "status": "preliminary"
+      "title": "Root ṭ y n (ṭīn)",
+      "summary": "Clay or mud: earth mixed with water, capable of adhesion and shaping, and of becoming dry or hard.",
+      "status": "published"
     }
   },
   "tt-y-r": {
@@ -23172,29 +23172,29 @@
   "zha-ayn-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/zha-ayn-n/",
-      "title": "ریشهٔ ظ ع ن",
-      "summary": "کوچ کردن و از جایی رفتن.",
-      "status": "preliminary"
+      "title": "ریشه ظ ع ن (ظَعَنَ)",
+      "summary": "کوچ کردن؛ ترک محل اقامت و روانه شدن به جای دیگر؛ در برابر اقامت و ماندن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/zha-ayn-n/",
-      "title": "The Root Ẓ AYN N (Ẓ ʿ N)",
-      "summary": "Departing or moving camp.",
-      "status": "preliminary"
+      "title": "Root ẓ ʿ n (ẓaʿana)",
+      "summary": "Departing; leaving a dwelling place and setting out elsewhere, contrasted with staying.",
+      "status": "published"
     }
   },
   "zha-f-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/zha-f-r/",
-      "title": "ریشهٔ ظ ف ر",
-      "summary": "ناخن و چنگال؛ اظفار: چیره ساختن.",
-      "status": "preliminary"
+      "title": "ریشه ظ ف ر (ظَفَر / ظُفُر)",
+      "summary": "دو شاخه اصلی: ناخن و چنگال؛ دست یافتن به مطلوب و چیره شدن بر طرف مقابل.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/zha-f-r/",
-      "title": "The Root Ẓ F R",
-      "summary": "A nail or claw; iẓfār means granting victory or mastery.",
-      "status": "preliminary"
+      "title": "Root ẓ f r (ẓafar / ẓufur)",
+      "summary": "Two main branches: nail and claw; attaining what is sought and prevailing over an opponent.",
+      "status": "published"
     }
   },
   "zha-h2-r": {
