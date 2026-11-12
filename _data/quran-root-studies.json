@@ -1066,29 +1066,29 @@
   "ayn-b-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-b-r/",
-      "title": "ریشهٔ ع ب ر",
-      "summary": "گذشتن از یک سو به سوی دیگر؛ عبرت و تعبیر: از نشانه به معنا رسیدن.",
-      "status": "preliminary"
+      "title": "ریشه ع ب ر (عَبَرَ)",
+      "summary": "گذشتن و عبور کردن؛ در کاربرد شناختی، رسیدن از مشاهده یا دانسته‌ای به معنا و نتیجه‌ای فراتر.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-b-r/",
-      "title": "The Root AYN B R (ʿ B R)",
-      "summary": "Crossing from one side to another; learning or interpreting through a sign.",
-      "status": "preliminary"
+      "title": "Root ع ب ر (ʿabara)",
+      "summary": "Passing and crossing; cognitively, moving from observation or existing knowledge to further meaning and understanding.",
+      "status": "published"
     }
   },
   "ayn-b-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-b-s/",
-      "title": "ریشهٔ ع ب س",
-      "summary": "اخم و درهم کشیدن چهره.",
-      "status": "preliminary"
+      "title": "ریشه ع ب س (عَبَسَ)",
+      "summary": "درهم کشیدن چهره، اخم و گرفتگی صورت؛ در کاربرد وصفی، سختی و ناخوشایندی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-b-s/",
-      "title": "The Root AYN B S (ʿ B S)",
-      "summary": "Frowning or contracting the face.",
-      "status": "preliminary"
+      "title": "Root ع ب س (ʿabasa)",
+      "summary": "Frowning and facial contraction; descriptively, grimness and severity.",
+      "status": "published"
     }
   },
   "ayn-b-th": {
@@ -1248,15 +1248,15 @@
   "ayn-dh-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-dh-r/",
-      "title": "ریشهٔ ع ذ ر",
-      "summary": "عذر و بیان دلیل برای رفع سرزنش.",
-      "status": "preliminary"
+      "title": "ریشه ع ذ ر (عَذَرَ)",
+      "summary": "عذر آوردن، ارائه دلیل برای رفع سرزنش، پذیرفتن عذر و فراهم کردن حجت؛ با تمایز عذر واقعی از ادعایی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-dh-r/",
-      "title": "The Root AYN DH R (ʿ DH R)",
-      "summary": "An excuse or explanation seeking to remove blame.",
-      "status": "preliminary"
+      "title": "Root ع ذ ر (ʿadhara)",
+      "summary": "Offering excuses or grounds to remove blame, accepting an excuse, and establishing justification; genuine grounds distinguished from mere claims.",
+      "status": "published"
     }
   },
   "ayn-f-f": {
@@ -1346,15 +1346,15 @@
   "ayn-j-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-j-f/",
-      "title": "ریشهٔ ع ج ف",
-      "summary": "لاغری و کم‌گوشتی شدید.",
-      "status": "preliminary"
+      "title": "ریشه ع ج ف (عَجِفَ)",
+      "summary": "لاغری و کم بودن گوشت و چربی بدن؛ در شاخه‌ای دیگر، بازداشتن خویش و تحمل دشواری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-j-f/",
-      "title": "The Root AYN J F (ʿ J F)",
-      "summary": "Severe leanness or emaciation.",
-      "status": "preliminary"
+      "title": "Root ع ج ف (عَجِفَ)",
+      "summary": "Leanness or scant bodily flesh and fat; in another branch, self-restraint and endurance.",
+      "status": "published"
     }
   },
   "ayn-j-l": {
@@ -1374,29 +1374,29 @@
   "ayn-j-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-j-m/",
-      "title": "ریشهٔ ع ج م",
-      "summary": "ناروشنی گفتار برای شنونده؛ اعجمی در سیاق زبان: غیرعربی.",
-      "status": "preliminary"
+      "title": "ریشه ع ج م (عَجَمَ)",
+      "summary": "ناروشنی بیان یا تفاوت زبان؛ در شاخه‌های دیگر، گاز گرفتن و آزمودن، و هسته میوه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-j-m/",
-      "title": "The Root AYN J M (ʿ J M)",
-      "summary": "Speech unintelligible to the hearer; aʿjamī in linguistic contexts means non-Arabic.",
-      "status": "preliminary"
+      "title": "Root ع ج م (ʿajama)",
+      "summary": "Unclear expression or linguistic difference; in other branches, biting and testing, and fruit stones or seeds.",
+      "status": "published"
     }
   },
   "ayn-j-z": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-j-z/",
-      "title": "ریشهٔ ع ج ز",
-      "summary": "ناتوان شدن یا ناتوان ساختن؛ عجوز: زن سالخورده.",
-      "status": "preliminary"
+      "title": "ریشه ع ج ز (عَجَزَ)",
+      "summary": "ناتوانی از انجام کار یا رسیدن به مقصود؛ در شاخه‌ای دیگر، بخش پسین و انتهایی چیزی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-j-z/",
-      "title": "The Root AYN J Z (ʿ J Z)",
-      "summary": "Being unable or rendering powerless; ʿajūz is an elderly woman.",
-      "status": "preliminary"
+      "title": "Root ع ج ز (عَجَزَ)",
+      "summary": "Inability to act or attain an aim; in another branch, the rear or final portion of something.",
+      "status": "published"
     }
   },
   "ayn-k-f": {
@@ -1724,15 +1724,15 @@
   "ayn-r-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-r-b/",
-      "title": "ریشهٔ ع ر ب",
-      "summary": "عربی: وابسته به زبان یا مردم عرب؛ اعراب: بادیه‌نشینان؛ عُرُب: مهرورز و دلبسته.",
-      "status": "preliminary"
+      "title": "ریشه ع ر ب (عَرَب)",
+      "summary": "عرب و زبان عربی؛ بادیه‌نشینان عرب؛ در شاخه‌های دیگر، بیان روشن و مهرورزی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-r-b/",
-      "title": "The Root AYN R B (ʿ R B)",
-      "summary": "ʿArabī relates to Arabic or Arabs; aʿrāb are desert dwellers; ʿurub means affectionate or devoted.",
-      "status": "preliminary"
+      "title": "Root ع ر ب (ʿarab)",
+      "summary": "Arabs and Arabic; Arab Bedouins; in other branches, clear expression and affection.",
+      "status": "published"
     }
   },
   "ayn-r-dad": {
@@ -1766,15 +1766,15 @@
   "ayn-r-j": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-r-j/",
-      "title": "ریشهٔ ع ر ج",
-      "summary": "بالا رفتن؛ معارج: راه‌های صعود؛ اعرج: دارای لنگی.",
-      "status": "preliminary"
+      "title": "ریشه ع ر ج (عَرَجَ)",
+      "summary": "بالا رفتن و صعود؛ لنگیدن و ناهماهنگی حرکت؛ پیچیدن مسیر؛ و در شاخه‌ای دیگر، دسته‌ای از شتران.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-r-j/",
-      "title": "The Root AYN R J (ʿ R J)",
-      "summary": "Ascending; maʿārij are ways of ascent; aʿraj denotes lameness.",
-      "status": "preliminary"
+      "title": "Root ع ر ج (ʿaraja)",
+      "summary": "Ascending; limping and uneven movement; a turning route; and, in another branch, a camel herd.",
+      "status": "published"
     }
   },
   "ayn-r-j-n": {
@@ -2032,85 +2032,85 @@
   "ayn-t-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-t-b/",
-      "title": "ریشهٔ ع ت ب",
-      "summary": "گله و سرزنش؛ استعتاب: طلب رفع ناخشنودی یا فرصت جبران.",
-      "status": "preliminary"
+      "title": "ریشه ع ت ب (عَتَبَ)",
+      "summary": "ناخشنودی و گله؛ درخواست رفع ناخشنودی و بازگشت رضایت. در شاخه مادی، آستانه و پله.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-t-b/",
-      "title": "The Root AYN T B (ʿ T B)",
-      "summary": "Reproach; istiʿtāb means seeking reconciliation or an opportunity to make amends.",
-      "status": "preliminary"
+      "title": "Root ع ت ب (ʿataba)",
+      "summary": "Displeasure and grievance; seeking their removal and restored approval. Physically, a threshold or step.",
+      "status": "published"
     }
   },
   "ayn-t-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-t-d/",
-      "title": "ریشهٔ ع ت د",
-      "summary": "آماده کردن و آماده یا حاضر بودن.",
-      "status": "preliminary"
+      "title": "ریشه ع ت د (عَتُدَ)",
+      "summary": "حاضر و آماده بودن؛ فراهم کردن چیزی از پیش برای استفاده یا رخدادی مشخص.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-t-d/",
-      "title": "The Root AYN T D (ʿ T D)",
-      "summary": "Preparing or being ready and present.",
-      "status": "preliminary"
+      "title": "Root ʿ t d (عَتُدَ)",
+      "summary": "Being present and ready; preparing something beforehand for a particular use or event.",
+      "status": "published"
     }
   },
   "ayn-t-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-t-l/",
-      "title": "ریشهٔ ع ت ل",
-      "summary": "گرفتن و کشیدن با خشونت؛ عُتُلّ: سخت‌خو و درشت‌رفتار.",
-      "status": "preliminary"
+      "title": "ریشه ع ت ل (عَتَلَ)",
+      "summary": "کشیدن و راندن با زور و خشونت؛ در کاربرد وصفی، درشتی و خشونت در رفتار.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-t-l/",
-      "title": "The Root AYN T L (ʿ T L)",
-      "summary": "Seizing or dragging violently; ʿutull denotes harsh, brutal conduct.",
-      "status": "preliminary"
+      "title": "Root ʿ t l (عَتَلَ)",
+      "summary": "Dragging or driving forcibly; descriptively, coarseness and harsh conduct.",
+      "status": "published"
     }
   },
   "ayn-t-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-t-q/",
-      "title": "ریشهٔ ع ت ق",
-      "summary": "کهن بودن؛ نیز آزاد یا گرامی بودن، بنا بر کاربرد.",
-      "status": "preliminary"
+      "title": "ریشه ع ت ق (عَتِيق)",
+      "summary": "دیرینگی و قدمت؛ آزادی از بند؛ اصالت و مرغوبیت. در قرآن: وصف خانه کهن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-t-q/",
-      "title": "The Root AYN T Q (ʿ T Q)",
-      "summary": "Being ancient; also being free or noble, according to usage.",
-      "status": "preliminary"
+      "title": "Root ʿ t q (عَتِيق)",
+      "summary": "Antiquity; freedom from bondage; nobility and fine quality. In the Quran: a description of the Ancient House.",
+      "status": "published"
     }
   },
   "ayn-t-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-t-w/",
-      "title": "ریشهٔ ع ت و",
-      "summary": "سرکشی و از حد گذشتن؛ نیز فرسودگی شدید پیری.",
-      "status": "preliminary"
+      "title": "ریشه ع ت و (عَتَا)",
+      "summary": "سرکشی و سرسختی؛ در کاربردهای دیگر، شدت بسیار یا فرسودگی پیری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-t-w/",
-      "title": "The Root AYN T W (ʿ T W)",
-      "summary": "Defiance or exceeding bounds; also extreme decrepitude in old age.",
-      "status": "preliminary"
+      "title": "Root ʿ t w (عَتَا)",
+      "summary": "Stubborn defiance; in other uses, extreme force or the infirmity of advanced age.",
+      "status": "published"
     }
   },
   "ayn-th-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-th-r/",
-      "title": "ریشهٔ ع ث ر",
-      "summary": "لغزیدن و برخوردن؛ مجازاً آگاه شدن یا آگاه ساختن از چیزی.",
-      "status": "preliminary"
+      "title": "ریشه ع ث ر (عَثَرَ)",
+      "summary": "لغزیدن و برخورد با مانع؛ در شاخه شناختی، پی بردن به چیزی پنهان یا ناشناخته.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-th-r/",
-      "title": "The Root AYN TH R (ʿ TH R)",
-      "summary": "Stumbling or encountering; figuratively, discovering or making known.",
-      "status": "preliminary"
+      "title": "Root ع ث ر (عَثَرَ)",
+      "summary": "Stumbling or encountering an obstacle; in its discovery branch, learning of something hidden or unknown.",
+      "status": "published"
     }
   },
   "ayn-th-w": {
