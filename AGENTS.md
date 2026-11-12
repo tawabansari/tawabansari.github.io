@@ -67,3 +67,7 @@ Before delivery, run `python3 scripts/check-root-boxes.py` with the paths of the
 ## No placeholder grammar notices in completed verse boxes
 
 When installing supplied translations and reflections, remove the generic `data-root-note` notice “واژهٔ دستوری؛ ریشهٔ اشتقاقی برای این کاربرد درج نمی‌شود.” / “Grammatical word; no derivational root is assigned for this use.” from grammatical-word buttons once their specific role and contextual meaning are provided. Show the useful grammatical explanation and verse meaning without an added explanation of why no root is assigned. Preserve substantive grammatical notes and unresolved-study notices; do not remove placeholders from unfinished verses merely for consistency.
+
+## Related studies belong in cross-references
+
+For Quran verse units in both languages, place the separate related-studies list inside the `data-type="cross-reference"` details, after the verse references, under its own related-studies heading. Do not append that list inside the reflection details. Preserve inline research links that form part of the authored reflection prose.
