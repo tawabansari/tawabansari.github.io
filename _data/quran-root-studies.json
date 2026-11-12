@@ -1878,15 +1878,15 @@
   "ayn-s-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-s-l/",
-      "title": "ریشهٔ ع س ل",
-      "summary": "عسل.",
-      "status": "preliminary"
+      "title": "ریشه ع س ل",
+      "summary": "عسل زنبور؛ در شاخه‌ای دیگر، حرکت سریع و نوسانی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-s-l/",
-      "title": "The Root AYN S L (ʿ S L)",
-      "summary": "Honey.",
-      "status": "preliminary"
+      "title": "Root ʿ-S-L",
+      "summary": "Bee honey; in another branch, swift and oscillating movement.",
+      "status": "published"
     }
   },
   "ayn-s-r": {
@@ -2018,15 +2018,15 @@
   "ayn-sh-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-sh-w/",
-      "title": "ریشهٔ ع ش و",
-      "summary": "بخش پایانی روز و شامگاه؛ عَشو: کم‌دیدن یا چشم پوشیدن.",
-      "status": "preliminary"
+      "title": "ریشه ع ش و",
+      "summary": "کم‌سو دیدن و جهت‌گیری نگاه؛ در شاخه زمانی، واپسین بخش روز و آغاز شب.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-sh-w/",
-      "title": "The Root AYN SH W (ʿ SH W)",
-      "summary": "Late day or evening; ʿashw denotes dim sight or turning a blind eye.",
-      "status": "preliminary"
+      "title": "Root ʿ-Sh-W",
+      "summary": "Dim sight and orientation of the gaze; in the temporal branch, late day and the onset of night.",
+      "status": "published"
     }
   },
   "ayn-t-b": {
@@ -2424,15 +2424,15 @@
   "ayn-z-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-z-w/",
-      "title": "ریشهٔ ع ز و",
-      "summary": "نسبت دادن و وابستگی؛ عِزین: گروه‌های جدا از هم.",
-      "status": "preliminary"
+      "title": "ریشه ع ز و",
+      "summary": "نسبت دادن و اعلام وابستگی؛ در کاربرد قرآنی، دسته‌های جداگانه مردم.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-z-w/",
-      "title": "The Root AYN Z W (ʿ Z W)",
-      "summary": "Attribution or affiliation; ʿizīn denotes separate groups.",
-      "status": "preliminary"
+      "title": "Root ʿ-Z-W",
+      "summary": "Attribution and declared affiliation; in Quranic usage, separate groups of people.",
+      "status": "published"
     }
   },
   "ayn-z-z": {
