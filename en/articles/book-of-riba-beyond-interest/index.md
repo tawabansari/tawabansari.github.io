@@ -237,7 +237,7 @@ Debt money also changes social power. Those closest to money creation can buy as
 
 <h2 id="chapter-5">Chapter Five: Ownership, Risk, and Speculation</h2>
 
-The Qur'an permits trade and condemns riba. That distinction is not superficial. Trade involves exposure to reality. A seller may misjudge demand. A partner may lose capital. A farmer may lose a crop. A merchant may carry goods and fail to sell them. In honest trade, profit is connected to risk, effort, service, ownership, and uncertainty.
+The Qur'an permits trade and condemns riba. That distinction is not superficial. Trade involves exposure to reality. A seller may misjudge demand. A partner may lose capital. A farmer may lose a crop. A merchant may carry goods and fail to sell them. In a productive partnership, profit and loss depend on the activity’s outcome, and each party’s responsibilities should be clear. This does not establish that every legitimate return requires sharing production risk: the kind of relationship, the value provided, and both parties’ rights also matter.
 
 The lender can also face nonpayment or loss of purchasing power. Some contracts nevertheless allow the lender to transfer much of the risk and economic pressure to the borrower. That distribution deserves examination. A fixed return alone does not prove riba, and a partnership is not automatically fair.
 
@@ -282,6 +282,8 @@ Modern finance often blurs ownership, debt, insurance, speculation, and leverage
 <h2 id="chapter-6">Chapter Six: Riba in the Qur'an</h2>
 
 To understand riba (the financial increase prohibited by the Qur’an), we must begin with the Qur’an itself. Monetary and economic history help us examine present-day cases, but the Qur’anic meaning does not depend on the truth of any economic theory.
+
+Money and credit have changed, and creating credit money is not the same as simultaneously producing real wealth. The critical issue arises when those with financial power use privileged access to credit to impose costs and losses on others, conceal contractual terms, or exploit human need. Such practices deserve direct criticism. But credit creation alone does not prove that every bank is deceptive or engaged in theft. Each arrangement must be examined: what value does it provide, who benefits, and who bears its risks and costs? Contemporary markets can create value, but unjust arrangements can also transfer the fruits of others’ work to those who hold power.
 
 The Qur’an contrasts riba both with trade in Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-275">2:275</a> and with charity and zakat (giving associated with purification and growth) in Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-276">2:276</a> and Ar-Rum <a class="verse-citation" href="/quran-reflection/en/030-ar-rum/#ayah-039">30:39</a>. Both contrasts are essential. The question is not merely how much profit is made, but how it is obtained and whether people’s rights are respected.
 
@@ -549,7 +551,7 @@ If money itself is created through debt, if inflation silently changes value, if
 
 Some modern “Islamic” structures avoid the word interest but preserve the economic substance of interest. A sale is inserted where a loan would have been. A commodity changes hands for a moment. A markup replaces a percentage. The documents look different, but the cash-flow logic may remain the same. This does not mean every Islamic finance product is false. It means form alone is not enough.
 
-The Qur’an’s account of the coastal town in Al-A‘raf <a class="verse-citation" href="/quran-reflection/en/007-al-araf/#ayah-163">7:163</a> concerns its Sabbath test and disobedience. The details of setting nets before the Sabbath and collecting the fish afterward are not stated in the verse itself. Criticism of evasive formalism should not present those added details as Qur’anic text.
+The Qur’an’s account of the coastal town in Al-A‘raf <a class="verse-citation" href="/quran-reflection/en/007-al-araf/#ayah-163">7:163</a> concerns its Sabbath test and disobedience. The details of setting nets before the Sabbath and collecting the fish afterward are not stated in the verse itself. To criticize contractual evasion, we must show that changing the form has left an unjust relationship unchanged. Details absent from the verse should not be presented as Qur’anic text.
 
 Gold and silver, because of scarcity and natural limits on supply, sometimes maintained relatively stable purchasing power, especially compared with currencies whose supply can grow rapidly. But metallic money’s prices and purchasing power were never permanently fixed.
 
@@ -557,7 +559,7 @@ The reverse is also true. In an inflationary economy, some payments that look li
 
 This is why the Qur'anic phrase “do not wrong and do not be wronged” is so powerful. It prevents lazy condemnation and lazy permission at the same time. It asks for substance, consequences, risk, coercion, inflation, alternatives, and power. The verse by itself does not specify a definitive method for calculating or compensating for inflation.
 
-Identifying riba requires examining both its Qur’anic meaning and the kind of financial relationship involved, alongside its actual effects. Neither a contract’s name nor its interest rate alone establishes economic justice.
+Neither a numerical amount nor an outcome is sufficient on its own to identify riba. The wording and context of the Qur’anic verses, the nature of the financial relationship, both parties’ rights, and its actual consequences must be examined together. Neither a contract’s name nor its interest rate alone establishes economic justice.
 
 Severe inflation, especially when driven by imbalanced expansion of money and credit, can become a major means of hidden wealth transfer and economic injustice. Some of its effects may resemble those of riba-based relationships: one group loses purchasing power while another benefits. Inflation itself, however, is not the Qur’anic definition of riba.
 
