@@ -1570,29 +1570,29 @@
   "ayn-n-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-n-b/",
-      "title": "ریشهٔ ع ن ب",
-      "summary": "انگور و تاک.",
-      "status": "preliminary"
+      "title": "ریشه ع ن ب",
+      "summary": "انگور؛ میوه تاک و در سیاق باغ و کشت، تاک‌های انگور و تاکستان‌ها.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-n-b/",
-      "title": "The Root AYN N B (ʿ N B)",
-      "summary": "Grapes or grapevines.",
-      "status": "preliminary"
+      "title": "The root ʿ N B",
+      "summary": "Grapes, the fruit of the vine; in cultivation and garden contexts, grapevines and vineyards.",
+      "status": "published"
     }
   },
   "ayn-n-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-n-d/",
-      "title": "ریشهٔ ع ن د",
-      "summary": "سرسختی و مخالفت؛ «عند» واژه‌ای دستوری برای نزدیکی مکانی یا منزلتی است.",
-      "status": "preliminary"
+      "title": "ریشه ع ن د",
+      "summary": "نزد و در حضور یا اختیار؛ در شاخه دیگر، کنار رفتن از مسیر و مخالفت سرسختانه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-n-d/",
-      "title": "The Root AYN N D (ʿ N D)",
-      "summary": "Obstinacy or opposition; ʿinda is a grammatical word denoting proximity in place or standing.",
-      "status": "preliminary"
+      "title": "Root ع ن د",
+      "summary": "With, in the presence or possession of; in another branch, turning aside and obstinate opposition.",
+      "status": "published"
     }
   },
   "ayn-n-k-b": {
@@ -1626,15 +1626,15 @@
   "ayn-n-t": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-n-t/",
-      "title": "ریشهٔ ع ن ت",
-      "summary": "رنج، سختی و به زحمت انداختن.",
-      "status": "preliminary"
+      "title": "ریشه ع ن ت",
+      "summary": "سختی، رنج و گرفتاری زیان‌بار؛ در ساخت متعدی، دیگری را به تنگنا انداختن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-n-t/",
-      "title": "The Root AYN N T (ʿ N T)",
-      "summary": "Hardship, distress, or causing difficulty.",
-      "status": "preliminary"
+      "title": "Root ع ن ت",
+      "summary": "Hardship, suffering, and harmful distress; in a transitive form, subjecting someone else to hardship.",
+      "status": "published"
     }
   },
   "ayn-n-w": {
@@ -8766,15 +8766,15 @@
   "j-d-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/j-d-d/",
-      "title": "ریشهٔ ج د د",
-      "summary": "شاخه‌های این خانواده شامل بریدن، نو شدن، نوارها و راه‌های آشکار، و «جدّ» به معنای عظمت است.",
-      "status": "preliminary"
+      "title": "ریشه ج د د",
+      "summary": "تازگی؛ بریدن؛ خط و نوار مشخص؛ شکوه و برخورداری؛ با کاربردهای دیگر در جدیت و خویشاوندی نیاکانی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/j-d-d/",
-      "title": "The Root J D D",
-      "summary": "Distinct branches include cutting, newness, visible streaks or paths, and jadd as greatness or majesty.",
-      "status": "preliminary"
+      "title": "Root ج د د",
+      "summary": "Newness; cutting; distinct lines or bands; majesty and prosperity; other uses concern earnestness and ancestry.",
+      "status": "published"
     }
   },
   "j-d-l": {
@@ -16130,15 +16130,15 @@
   "r-f-t": {
     "fa": {
       "url": "/quran-terminology/fa/roots/r-f-t/",
-      "title": "ریشهٔ ر ف ت",
-      "summary": "پاره‌پاره و فرسوده شدن؛ رفات: بقایای خرد و پراکنده.",
-      "status": "preliminary"
+      "title": "ریشه ر ف ت",
+      "summary": "شکستن، خرد شدن و از هم گسستن؛ رفات، خرده‌ها و بقایای متلاشی‌شده است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/r-f-t/",
-      "title": "The Root R F T",
-      "summary": "Crumbling; rufāt denotes scattered, disintegrated remains.",
-      "status": "preliminary"
+      "title": "Root ر ف ت",
+      "summary": "Breaking, crumbling, and coming apart; rufat denotes fragments and disintegrated remains.",
+      "status": "published"
     }
   },
   "r-f-th": {
