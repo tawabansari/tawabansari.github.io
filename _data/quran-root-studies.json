@@ -1640,15 +1640,15 @@
   "ayn-n-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/ayn-n-w/",
-      "title": "ریشهٔ ع ن و",
-      "summary": "گردن نهادن و خوار و فرمان‌پذیر شدن؛ نیز رنج و اسارت.",
-      "status": "preliminary"
+      "title": "ریشه ع ن و",
+      "summary": "سر فرود آوردن، خاضع شدن و تسلیم؛ در کاربرد اسارت، قرار گرفتن در اختیار دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/ayn-n-w/",
-      "title": "The Root AYN N W (ʿ N W)",
-      "summary": "Submitting or becoming humbled; also hardship or captivity.",
-      "status": "preliminary"
+      "title": "The Root ʿ N W",
+      "summary": "Bowing, becoming humbled, and submitting; in captivity, coming under another’s control.",
+      "status": "published"
     }
   },
   "ayn-q-b": {
@@ -20190,15 +20190,15 @@
   "sh-w-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sh-w-y/",
-      "title": "ریشهٔ ش و ي",
-      "summary": "بریان کردن و سوزاندن؛ شَوی: اندام‌های بیرونی یا پوست سر، بنا بر تفسیر.",
-      "status": "preliminary"
+      "title": "ریشه ش و ي",
+      "summary": "بریان کردن و سوزاندن با حرارت؛ در شاخه‌ای دیگر، پوست سر و اندام‌های بیرونی بدن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/sh-w-y/",
-      "title": "The Root SH W Y",
-      "summary": "Roasting or scorching; shawā denotes outer body parts or scalp, with differing explanations.",
-      "status": "preliminary"
+      "title": "Root SH W Y",
+      "summary": "Roasting and scorching with heat; in another branch, the scalp and bodily extremities.",
+      "status": "published"
     }
   },
   "sh-w-zha": {
@@ -20232,57 +20232,57 @@
   "sh-y-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sh-y-ayn/",
-      "title": "ریشهٔ ش ي ع",
-      "summary": "پراکنده و رایج شدن؛ شیعه: گروه پیرو و پشتیبان.",
-      "status": "preliminary"
+      "title": "ریشه ش ي ع",
+      "summary": "همراهی، پیروی و پشتیبانی؛ گروه‌های هم‌جهت؛ و در شاخه‌ای دیگر، پخش شدن و گسترش یافتن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/sh-y-ayn/",
-      "title": "The Root SH Y AYN (SH Y ʿ)",
-      "summary": "Spreading or becoming widespread; shīʿah is a group of followers or supporters.",
-      "status": "preliminary"
+      "title": "The Root SH Y ʿ",
+      "summary": "Companionship, following, and support; associated groups; in another branch, spreading and circulation.",
+      "status": "published"
     }
   },
   "sh-y-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sh-y-b/",
-      "title": "ریشهٔ ش ي ب",
-      "summary": "سفید شدن مو و پیری.",
-      "status": "preliminary"
+      "title": "ریشه ش ي ب",
+      "summary": "سفید شدن مو و پدیدار شدن موهای سفید؛ سپیدمویی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/sh-y-b/",
-      "title": "The Root SH Y B",
-      "summary": "Graying hair and old age.",
-      "status": "preliminary"
+      "title": "Root SH Y B",
+      "summary": "Hair turning white and the appearance of white hair; graying.",
+      "status": "published"
     }
   },
   "sh-y-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sh-y-d/",
-      "title": "ریشهٔ ش ي د",
-      "summary": "با گچ یا مصالح استوار ساختن؛ بلند و محکم بنا کردن.",
-      "status": "preliminary"
+      "title": "ریشه ش ي د",
+      "summary": "ساختن، بالا بردن و استوار کردن بنا؛ اندود کردن با گچ یا مواد مشابه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/sh-y-d/",
-      "title": "The Root SH Y D",
-      "summary": "Building with plaster or solid materials; erecting high, strong buildings.",
-      "status": "preliminary"
+      "title": "Root SH Y D",
+      "summary": "Constructing, raising, and making buildings firm; coating with plaster or similar materials.",
+      "status": "published"
     }
   },
   "sh-y-kh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/sh-y-kh/",
-      "title": "ریشهٔ ش ي خ",
-      "summary": "پیری و سالخوردگی؛ شیخ: مرد سالخورده.",
-      "status": "preliminary"
+      "title": "ریشه ش ي خ",
+      "summary": "سالخوردگی و آشکار شدن آثار گذشت عمر؛ در کاربرد اجتماعی، عنوان بزرگ یا شخص صاحب احترام.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/sh-y-kh/",
-      "title": "The Root SH Y KH",
-      "summary": "Old age; shaykh denotes an elderly man.",
-      "status": "preliminary"
+      "title": "Root SH Y KH",
+      "summary": "Advanced age and the evident effects of passing years; socially, a title for an elder or respected person.",
+      "status": "published"
     }
   },
   "t-ayn-s": {
