@@ -4356,29 +4356,29 @@
   "dad-gh-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dad-gh-n/",
-      "title": "ریشهٔ ض غ ن",
-      "summary": "کینه و دشمنی نهفته.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ض غ ن (ضِغْن)",
+      "summary": "کینه و دشمنی درونی؛ در کاربردهای دیگر، میل، کجی و در برگرفتن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dad-gh-n/",
-      "title": "The Root Ḍ GH N",
-      "summary": "Hidden resentment or rancor.",
-      "status": "preliminary"
+      "title": "The Quranic Root ض غ ن (Ḍighn)",
+      "summary": "Inward resentment and hostility; in other usages, inclination, crookedness, and holding close.",
+      "status": "published"
     }
   },
   "dad-gh-th": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dad-gh-th/",
-      "title": "ریشهٔ ض غ ث",
-      "summary": "دسته‌ای آمیخته از گیاه یا شاخه؛ اضغاث احلام: خواب‌های درهم.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ض غ ث (ضِغْث)",
+      "summary": "دسته یا قبضه‌ای از گیاهان؛ درهم‌آمیختگی در تعبیر خواب‌های آشفته.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dad-gh-th/",
-      "title": "The Root Ḍ GH TH",
-      "summary": "A mixed bundle of stalks or twigs; aḍghāth aḥlām means confused dreams.",
-      "status": "preliminary"
+      "title": "The Quranic Root ض غ ث (Ḍighth)",
+      "summary": "A bundle or handful of plants; intermingling in the expression for confused dreams.",
+      "status": "published"
     }
   },
   "dad-h-k": {
@@ -4412,15 +4412,15 @@
   "dad-h2-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dad-h2-a/",
-      "title": "ریشهٔ ض ه أ",
-      "summary": "همانندی و شبیه شدن؛ صورت همزه‌دار و بی‌همزه در تحلیل لغوی آمده است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ض ه أ (ضَاهَأَ)",
+      "summary": "همانندی و مشابهت میان چیزها، اشخاص، رفتارها یا گفتارها.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dad-h2-a/",
-      "title": "The Root Ḍ H A",
-      "summary": "Resemblance or likeness; both hamzated and unhamzated forms occur in lexical analysis.",
-      "status": "preliminary"
+      "title": "The Quranic Root Ḍ H ʾ (ḍāhaʾa)",
+      "summary": "Resemblance between things, people, conduct, or statements.",
+      "status": "published"
     }
   },
   "dad-j-ayn": {
@@ -4454,57 +4454,57 @@
   "dad-m-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dad-m-m/",
-      "title": "ریشهٔ ض م م",
-      "summary": "پیوستن و نزدیک هم آوردن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ض م م (ضَمَّ)",
+      "summary": "نزدیک کردن، به هم پیوستن و گردآوردن اجزا.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dad-m-m/",
-      "title": "The Root Ḍ M M",
-      "summary": "Joining or drawing together.",
-      "status": "preliminary"
+      "title": "The Quranic Root ض م م (Ḍamma)",
+      "summary": "Bringing near, joining, and gathering components.",
+      "status": "published"
     }
   },
   "dad-m-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dad-m-r/",
-      "title": "ریشهٔ ض م ر",
-      "summary": "باریک‌اندامی و لاغریِ مرکب؛ لزوماً به معنای بیماری یا ناتوانی نیست.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ض م ر (ضَمَرَ)",
+      "summary": "باریک‌اندامی و کاهش گوشت یا حجم؛ در شاخه‌ای دیگر، پنهان کردن و نهفته ماندن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dad-m-r/",
-      "title": "The Root Ḍ M R",
-      "summary": "Leanness of a mount, not necessarily sickness or weakness.",
-      "status": "preliminary"
+      "title": "The Quranic Root ض م ر (Ḍamara)",
+      "summary": "Leanness and reduced flesh or bulk; in another branch, concealment and remaining hidden.",
+      "status": "published"
     }
   },
   "dad-n-k": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dad-n-k/",
-      "title": "ریشهٔ ض ن ك",
-      "summary": "تنگی و دشواری زندگی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ض ن ك (ضَنْك)",
+      "summary": "تنگی، محدودیت و دشواری در مکان یا شرایط زندگی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dad-n-k/",
-      "title": "The Root Ḍ N K",
-      "summary": "Narrowness or hardship of life.",
-      "status": "preliminary"
+      "title": "The Quranic Root Ḍ N K (ḍank)",
+      "summary": "Narrowness, constraint, and hardship in space or living conditions.",
+      "status": "published"
     }
   },
   "dad-n-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dad-n-n/",
-      "title": "ریشهٔ ض ن ن",
-      "summary": "دریغ داشتن و بخل ورزیدن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ض ن ن (ضَنَّ)",
+      "summary": "دریغ کردن و سخت نگه داشتن چیزی، به‌ویژه آنچه ارزشمند شمرده می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dad-n-n/",
-      "title": "The Root Ḍ N N",
-      "summary": "Withholding or being unwilling to share.",
-      "status": "preliminary"
+      "title": "The Quranic Root Ḍ N N (ḍanna)",
+      "summary": "Withholding and holding tightly, especially something valued.",
+      "status": "published"
     }
   },
   "dad-r-ayn": {
@@ -4580,57 +4580,57 @@
   "dad-y-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dad-y-f/",
-      "title": "ریشهٔ ض ي ف",
-      "summary": "مهمان و مهمان‌نوازی کردن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ض ي ف (ضَيْف)",
+      "summary": "میل کردن، نزدیک شدن و پیوستن؛ مهمان شدن و مهمان‌پذیری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dad-y-f/",
-      "title": "The Root Ḍ Y F",
-      "summary": "A guest and offering hospitality.",
-      "status": "preliminary"
+      "title": "Quranic root ض ي ف (ḍayf)",
+      "summary": "Inclining, approaching, and joining; being a guest and offering hospitality.",
+      "status": "published"
     }
   },
   "dad-y-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dad-y-q/",
-      "title": "ریشهٔ ض ي ق",
-      "summary": "تنگی و در تنگنا بودن یا قرار دادن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ض ي ق (ضَاقَ)",
+      "summary": "تنگی و کمبود گنجایش؛ محدود شدن یا محدود ساختن مکان، امکان و توان رویارویی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dad-y-q/",
-      "title": "The Root Ḍ Y Q",
-      "summary": "Narrowness, constraint, or causing distress.",
-      "status": "preliminary"
+      "title": "Quranic root ض ي ق (ḍāqa)",
+      "summary": "Narrowness and insufficient capacity; experiencing or imposing restrictions on space, possibilities, or coping.",
+      "status": "published"
     }
   },
   "dad-y-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dad-y-r/",
-      "title": "ریشهٔ ض ي ر",
-      "summary": "زیان و آسیب.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ض ي ر (ضَيْر)",
+      "summary": "زیان و آسیب؛ زیان رساندن به شخص یا چیزی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dad-y-r/",
-      "title": "The Root Ḍ Y R",
-      "summary": "Harm or injury.",
-      "status": "preliminary"
+      "title": "Quranic root ض ي ر (ḍayr)",
+      "summary": "Harm and injury; causing harm to someone or something.",
+      "status": "published"
     }
   },
   "dad-y-z": {
     "fa": {
       "url": "/quran-terminology/fa/roots/dad-y-z/",
-      "title": "ریشهٔ ض ي ز",
-      "summary": "ناروا، نابرابر و کاسته از حق.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ض ي ز (ضِيزَى)",
+      "summary": "کاستن از حق و انحراف از انصاف در داوری یا تقسیم.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/dad-y-z/",
-      "title": "The Root Ḍ Y Z",
-      "summary": "Unfair, unequal, or deficient in justice.",
-      "status": "preliminary"
+      "title": "Quranic root ض ي ز (ḍīzā)",
+      "summary": "Diminishing a right and departing from fairness in judgment or allocation.",
+      "status": "published"
     }
   },
   "dh-a-b": {
@@ -6050,15 +6050,15 @@
   "gh-dad-dad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-dad-dad/",
-      "title": "ریشهٔ غ ض ض",
-      "summary": "فروکاستن و مهار کردن نگاه یا صدا.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی غ ض ض (غَضَّ)",
+      "summary": "کاستن، فروگرفتن و مهار کردن نگاه یا صدا؛ در شاخه‌ای دیگر، تازگی و لطافت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-dad-dad/",
-      "title": "The Root GH Ḍ Ḍ",
-      "summary": "Lowering or restraining the gaze or voice.",
-      "status": "preliminary"
+      "title": "Quranic Root Gh–Ḍ–Ḍ (غَضَّ)",
+      "summary": "Reducing, lowering, and restraining the gaze or voice; in another branch, freshness and tenderness.",
+      "status": "published"
     }
   },
   "gh-f-l": {
@@ -6260,15 +6260,15 @@
   "gh-n-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-n-m/",
-      "title": "ریشهٔ غ ن م",
-      "summary": "به دست آوردن غنیمت و سود؛ غنم: گوسفند و بز.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی غ ن م (غَنَم / غُنْم)",
+      "summary": "غَنَم: گوسفندان و بزها؛ غُنْم: به دست آوردن بهره و دستاورد، از جمله غنیمت جنگی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-n-m/",
-      "title": "The Root GH N M",
-      "summary": "Obtaining gains or spoils; ghanam denotes sheep and goats.",
-      "status": "preliminary"
+      "title": "Quranic Root Gh–N–M (غَنَم / غُنْم)",
+      "summary": "Ghanam: sheep and goats; ghunm: obtaining gains and acquisitions, including war booty.",
+      "status": "published"
     }
   },
   "gh-n-y": {
