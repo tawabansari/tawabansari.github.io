@@ -1,0 +1,992 @@
+{
+  "date": "2026-11-16",
+  "scope": "48 recent root studies, including all 39 remaining at goal start",
+  "root_count": 48,
+  "language_article_count": 96,
+  "all_article_blocks_and_quotes_verified": true,
+  "all_registered_and_indexed": true,
+  "protected_verse_metadata_preserved": true,
+  "shared_files_unchanged": true,
+  "baseline_word_box_issues_unchanged": true,
+  "unique_verse_files_checked": 334,
+  "results": [
+    {
+      "slug": "gh-b-r",
+      "blocks_per_language": 149,
+      "languages": {
+        "fa": {
+          "sha256": "07c933a95e2e243ba8bfc22f420aa450cdfb4510a4095880fca3cb46c3b6eac8",
+          "verified_verse_targets": 16,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "9020619d35710d27f5b707c4aba0db9baea0d9bf3dc0405ae66830675c45e3d4",
+          "verified_verse_targets": 16,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 142,
+      "preexisting_box_issue_lines": 56
+    },
+    {
+      "slug": "gh-b-n",
+      "blocks_per_language": 184,
+      "languages": {
+        "fa": {
+          "sha256": "77bbf795d47c0fd9e25a49b1985097a43c0cca28165484eaf12b5e06475b7050",
+          "verified_verse_targets": 13,
+          "sections": 11
+        },
+        "en": {
+          "sha256": "83e3a5126ce367686956c78e1e7d79dc9bb0020ac242ef1c1037b8056bb017cf",
+          "verified_verse_targets": 13,
+          "sections": 11
+        }
+      },
+      "verse_boxes_checked": 54,
+      "preexisting_box_issue_lines": 40
+    },
+    {
+      "slug": "gh-d-r",
+      "blocks_per_language": 189,
+      "languages": {
+        "fa": {
+          "sha256": "818ee42df77ecf35ae79c30848ca825b84b6b4b3f95d304d827a239774b7d3d8",
+          "verified_verse_targets": 5,
+          "sections": 10
+        },
+        "en": {
+          "sha256": "0ab73d507ab85bd4a2902f1600fa0b3304065b2078da18e54eec9641663dff8d",
+          "verified_verse_targets": 5,
+          "sections": 10
+        }
+      },
+      "verse_boxes_checked": 76,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "gh-d-q",
+      "blocks_per_language": 174,
+      "languages": {
+        "fa": {
+          "sha256": "fe51c18bdb019217ba014f8fd9d02aacfab283d6f6f461a2a90bbe50d819fdca",
+          "verified_verse_targets": 7,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "161418d8e67934abd6e75122e07a57d12b0fd6ab6af0081a60efd3b7dc41facd",
+          "verified_verse_targets": 7,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 14,
+      "preexisting_box_issue_lines": 10
+    },
+    {
+      "slug": "gh-d-w",
+      "blocks_per_language": 259,
+      "languages": {
+        "fa": {
+          "sha256": "18023bf795072b48da6161035c9591f94070d481d08dbec9ff2f99444d7d92c8",
+          "verified_verse_targets": 18,
+          "sections": 12
+        },
+        "en": {
+          "sha256": "c4234e9864c8a1f246422dd18a26dee32524f41dd2955ea4ab1f236e9f2d3815",
+          "verified_verse_targets": 18,
+          "sections": 12
+        }
+      },
+      "verse_boxes_checked": 468,
+      "preexisting_box_issue_lines": 60
+    },
+    {
+      "slug": "gh-r-r",
+      "blocks_per_language": 295,
+      "languages": {
+        "fa": {
+          "sha256": "24107e5cfa11795099d97b457f6538ab82f1b9384908802f106dd7ec3981ee8b",
+          "verified_verse_targets": 23,
+          "sections": 14
+        },
+        "en": {
+          "sha256": "5c3023f2dbd73e21bb14492143b57a61cd5d4d4c0c4fc7ecca4ba1788664c14d",
+          "verified_verse_targets": 23,
+          "sections": 14
+        }
+      },
+      "verse_boxes_checked": 860,
+      "preexisting_box_issue_lines": 184
+    },
+    {
+      "slug": "gh-r-m",
+      "blocks_per_language": 288,
+      "languages": {
+        "fa": {
+          "sha256": "cf5fdaffb6887e26dd9f42b6ed9c07d237631dd0c3bb2c406759279bcaf20740",
+          "verified_verse_targets": 15,
+          "sections": 11
+        },
+        "en": {
+          "sha256": "eb51603fac1bb97a35a1c841e1b9d2844a47f767c40d2de78ed95c638838e99c",
+          "verified_verse_targets": 15,
+          "sections": 11
+        }
+      },
+      "verse_boxes_checked": 130,
+      "preexisting_box_issue_lines": 2
+    },
+    {
+      "slug": "gh-r-w",
+      "blocks_per_language": 244,
+      "languages": {
+        "fa": {
+          "sha256": "fb715006af80fc8be1d371b777dbb17a6452292b47136665e905a8662ffc660c",
+          "verified_verse_targets": 7,
+          "sections": 10
+        },
+        "en": {
+          "sha256": "db948c6900fd5ef2cd3c0bc4bcc22ea875458a675c4ec8cd7be0e2a7c32e6519",
+          "verified_verse_targets": 7,
+          "sections": 10
+        }
+      },
+      "verse_boxes_checked": 88,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "gh-z-l",
+      "blocks_per_language": 244,
+      "languages": {
+        "fa": {
+          "sha256": "c6d275e8fef3b59570cf9e4708f6ac5f0eaae22697d6471018d6d0d6e93c4871",
+          "verified_verse_targets": 2,
+          "sections": 10
+        },
+        "en": {
+          "sha256": "a6cb76d8720877557c1cd472ef5b198e7c19ea14345fa4e6bf0965b25c7576d1",
+          "verified_verse_targets": 2,
+          "sections": 10
+        }
+      },
+      "verse_boxes_checked": 64,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "gh-z-w",
+      "blocks_per_language": 233,
+      "languages": {
+        "fa": {
+          "sha256": "826a0dc5cfa1279bea9671e41c954f35473b5d258a5186235a55dde525cd282d",
+          "verified_verse_targets": 6,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "8108def359e20328a2467fe12e98f04772b4012da6d90dc4d4a3a717f0d676ae",
+          "verified_verse_targets": 6,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 72,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "gh-s-l",
+      "blocks_per_language": 289,
+      "languages": {
+        "fa": {
+          "sha256": "7ff3fc7359fed612174f15b9a1da9ee3e92248df5f9cd77ee88c4ef1d68f4b7e",
+          "verified_verse_targets": 6,
+          "sections": 9
+        },
+        "en": {
+          "sha256": "7b965918ef0bdd1fe8c8151890d7640fa985f03e50d689e71ced6321fa239cb7",
+          "verified_verse_targets": 6,
+          "sections": 9
+        }
+      },
+      "verse_boxes_checked": 240,
+      "preexisting_box_issue_lines": 4
+    },
+    {
+      "slug": "gh-sad-b",
+      "blocks_per_language": 262,
+      "languages": {
+        "fa": {
+          "sha256": "1c2810417f85a6d63b4ac4ce0e0b5f0e3572c95b453e4996464487a89d8c8040",
+          "verified_verse_targets": 8,
+          "sections": 10
+        },
+        "en": {
+          "sha256": "97df67d9db13b91df233133fa1fc09bb54a9fa9d91efa16206215476f1ca85f0",
+          "verified_verse_targets": 8,
+          "sections": 10
+        }
+      },
+      "verse_boxes_checked": 34,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "gh-sad-sad",
+      "blocks_per_language": 252,
+      "languages": {
+        "fa": {
+          "sha256": "1ff99c978eab762cf9c0dbaee95fcea31fa9ef79c4fe743060d857398ab69234",
+          "verified_verse_targets": 10,
+          "sections": 9
+        },
+        "en": {
+          "sha256": "5fdc8cfeea559237a3bd9dc80b4164f0b192fc1da33f7939ee76db2fe5ff51a0",
+          "verified_verse_targets": 10,
+          "sections": 9
+        }
+      },
+      "verse_boxes_checked": 10,
+      "preexisting_box_issue_lines": 8
+    },
+    {
+      "slug": "gh-tt-sh",
+      "blocks_per_language": 274,
+      "languages": {
+        "fa": {
+          "sha256": "da11b41e8edbd8870c1ac7694a4d39fe4f5f8ceffea609b1d08b31eeabb8c00c",
+          "verified_verse_targets": 7,
+          "sections": 9
+        },
+        "en": {
+          "sha256": "859ccfd21b8df5a383a61edcaabc4961e195da2d69ce20aac5e5b71249f48c26",
+          "verified_verse_targets": 7,
+          "sections": 9
+        }
+      },
+      "verse_boxes_checked": 8,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "gh-tt-w",
+      "blocks_per_language": 301,
+      "languages": {
+        "fa": {
+          "sha256": "b1a26f559fb711fdaa60fcbe87144715f46d871ce172f817b80d3188d41e2397",
+          "verified_verse_targets": 11,
+          "sections": 10
+        },
+        "en": {
+          "sha256": "ac1394c72434945bbb5674c59153c3c93f533fa3b97e00e3c1799cab6d65204b",
+          "verified_verse_targets": 11,
+          "sections": 10
+        }
+      },
+      "verse_boxes_checked": 46,
+      "preexisting_box_issue_lines": 14
+    },
+    {
+      "slug": "gh-l-zha",
+      "blocks_per_language": 360,
+      "languages": {
+        "fa": {
+          "sha256": "860b1beb9e8b1f1eaa197513971ce518e3799cb966a6fb3c846e182bb8b87b68",
+          "verified_verse_targets": 19,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "3a87d6ac089b837f1b418cf981055994d6195dcfda55ad81e4c0713bc0cf6a41",
+          "verified_verse_targets": 19,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 520,
+      "preexisting_box_issue_lines": 128
+    },
+    {
+      "slug": "gh-l-q",
+      "blocks_per_language": 282,
+      "languages": {
+        "fa": {
+          "sha256": "f33ded46d59c8d956713bdcd0de734eac051b2110e8e7eb0e4d49cdde56cdb91",
+          "verified_verse_targets": 4,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "90fea17586175c575fbe58f4bc6a25b4db99b0d73154fcad41d5d5963a39a148",
+          "verified_verse_targets": 4,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 46,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "gh-l-l",
+      "blocks_per_language": 428,
+      "languages": {
+        "fa": {
+          "sha256": "742d94fe52fade9bb97f907d0681124115ee2ca05fca91c0578cf0610b51b0fe",
+          "verified_verse_targets": 14,
+          "sections": 11
+        },
+        "en": {
+          "sha256": "8c955c37bd84ee0765b58784e8e21ab1e9a4657671bf17701dd59b30ead8292e",
+          "verified_verse_targets": 14,
+          "sections": 11
+        }
+      },
+      "verse_boxes_checked": 552,
+      "preexisting_box_issue_lines": 60
+    },
+    {
+      "slug": "gh-l-m",
+      "blocks_per_language": 394,
+      "languages": {
+        "fa": {
+          "sha256": "e76de3f444a51b39c184eaafe89ed9fb59fa94f0d11193b5616b4a2b3f910938",
+          "verified_verse_targets": 21,
+          "sections": 11
+        },
+        "en": {
+          "sha256": "ccef5622bb1259d1fa8c8c549f7e4a47eaa3633ba3d1974a13de72bb0f3a893b",
+          "verified_verse_targets": 21,
+          "sections": 11
+        }
+      },
+      "verse_boxes_checked": 332,
+      "preexisting_box_issue_lines": 102
+    },
+    {
+      "slug": "gh-l-w",
+      "blocks_per_language": 371,
+      "languages": {
+        "fa": {
+          "sha256": "3a2ab824431203ac672181f6aa240a0d5a8d684513cfbe07eeec7e76315a292e",
+          "verified_verse_targets": 14,
+          "sections": 9
+        },
+        "en": {
+          "sha256": "62cdaa3c39dd417be7cde606744aa9971ba15efd1de17de59f45de8e1b593f69",
+          "verified_verse_targets": 14,
+          "sections": 9
+        }
+      },
+      "verse_boxes_checked": 152,
+      "preexisting_box_issue_lines": 34
+    },
+    {
+      "slug": "gh-l-y",
+      "blocks_per_language": 308,
+      "languages": {
+        "fa": {
+          "sha256": "3fb2827aa03ec5c97ab0a92d92b8be1bfd41ada135aabdc52a628dff3db3e3e3",
+          "verified_verse_targets": 13,
+          "sections": 9
+        },
+        "en": {
+          "sha256": "8f4617329b0c5e860069e9e6afe7538b4e5e131d7fc76ef36365110456f42e62",
+          "verified_verse_targets": 13,
+          "sections": 9
+        }
+      },
+      "verse_boxes_checked": 12,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "gh-m-r",
+      "blocks_per_language": 396,
+      "languages": {
+        "fa": {
+          "sha256": "07e461429c68a6ea788bfe6f33f3296d6d271434ca379e67c8f4136198aed3e0",
+          "verified_verse_targets": 14,
+          "sections": 10
+        },
+        "en": {
+          "sha256": "c3455830cd782cac5cb37f902a2b2634f1e17919fe43c200334c21a6b5f1d121",
+          "verified_verse_targets": 14,
+          "sections": 10
+        }
+      },
+      "verse_boxes_checked": 146,
+      "preexisting_box_issue_lines": 16
+    },
+    {
+      "slug": "gh-m-z",
+      "blocks_per_language": 345,
+      "languages": {
+        "fa": {
+          "sha256": "1a3910b8364b7259ceb3a6f2916849322a045ddb2fdcf49b0e6bc4fb3cac3d88",
+          "verified_verse_targets": 9,
+          "sections": 9
+        },
+        "en": {
+          "sha256": "0e5bf055df368275d90f56d2c9b7bf9a48ff34bf46794dbe44b97b9d90680739",
+          "verified_verse_targets": 9,
+          "sections": 9
+        }
+      },
+      "verse_boxes_checked": 8,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "gh-m-dad",
+      "blocks_per_language": 351,
+      "languages": {
+        "fa": {
+          "sha256": "99771d73c6f02059490e4caae172f5e40397435cd137fe6dc89a2da4098dc989",
+          "verified_verse_targets": 3,
+          "sections": 9
+        },
+        "en": {
+          "sha256": "a523e1d7c537a7a367287d628ca49da9435401b718a0d4c42eefc8a2e1852875",
+          "verified_verse_targets": 3,
+          "sections": 9
+        }
+      },
+      "verse_boxes_checked": 58,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "h2-a-a",
+      "blocks_per_language": 81,
+      "languages": {
+        "fa": {
+          "sha256": "8fe9193afa74dba0dc4967b60a465706921a2e7703db15035610dda2ad3bc934",
+          "verified_verse_targets": 4,
+          "sections": 7
+        },
+        "en": {
+          "sha256": "8a2da49fa446e3bc4b6c8ac03bb0678693590a69be94b49e72192fd8d7653265",
+          "verified_verse_targets": 4,
+          "sections": 7
+        }
+      },
+      "verse_boxes_checked": 18,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "h2-a-t",
+      "blocks_per_language": 108,
+      "languages": {
+        "fa": {
+          "sha256": "fd7b9dfc16c2e820e0717269c547b4ecea1a6349aef72b61eb85566cb32e5cf1",
+          "verified_verse_targets": 6,
+          "sections": 7
+        },
+        "en": {
+          "sha256": "5d6d2e05ce88ff59d7265cfefded3796d43512565a36b37797d3689741eadc44",
+          "verified_verse_targets": 6,
+          "sections": 7
+        }
+      },
+      "verse_boxes_checked": 152,
+      "preexisting_box_issue_lines": 24
+    },
+    {
+      "slug": "h2-b-w",
+      "blocks_per_language": 125,
+      "languages": {
+        "fa": {
+          "sha256": "ccfee442ea163f67c048f20e05a793c6bcb03303327e8a3f0ab1afc133de5d9c",
+          "verified_verse_targets": 8,
+          "sections": 7
+        },
+        "en": {
+          "sha256": "25bd48981fc2b42ce361df1bf86004b88148991de3bfb4fec001a4f6cfdb2681",
+          "verified_verse_targets": 8,
+          "sections": 7
+        }
+      },
+      "verse_boxes_checked": 24,
+      "preexisting_box_issue_lines": 6
+    },
+    {
+      "slug": "h2-j-d",
+      "blocks_per_language": 149,
+      "languages": {
+        "fa": {
+          "sha256": "d125c8fac87ce39d07b57804694f9af0bcdc1947838916e81b974d20eee02d9e",
+          "verified_verse_targets": 9,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "72640002a580d9dc54ed435e03345178c1d0ad6bd4fc0cf0332a19edd1789ac6",
+          "verified_verse_targets": 9,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 24,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "h2-j-ayn",
+      "blocks_per_language": 135,
+      "languages": {
+        "fa": {
+          "sha256": "f245a711730b877bbb913913527f6b26fd1e73d42254d166764542bafbb3b639",
+          "verified_verse_targets": 12,
+          "sections": 7
+        },
+        "en": {
+          "sha256": "d964cd385bdfb3f8f7062d00f9d5778d551a98518388eaf69dbfe1de288f196b",
+          "verified_verse_targets": 12,
+          "sections": 7
+        }
+      },
+      "verse_boxes_checked": 12,
+      "preexisting_box_issue_lines": 8
+    },
+    {
+      "slug": "h2-d-d",
+      "blocks_per_language": 196,
+      "languages": {
+        "fa": {
+          "sha256": "448cfd6a990798ce0dbc0f7189062e6f55c08cbb6b3ddcf4919bcb3a829c3884",
+          "verified_verse_targets": 10,
+          "sections": 7
+        },
+        "en": {
+          "sha256": "56d9861677068ad3ffa0ca6e8a14f2c627c7a95159be8b768d5d848cf4213c43",
+          "verified_verse_targets": 10,
+          "sections": 7
+        }
+      },
+      "verse_boxes_checked": 18,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "h2-d-m",
+      "blocks_per_language": 186,
+      "languages": {
+        "fa": {
+          "sha256": "fdecbc53e919bd6de0135455479d496b1058965e0d47894c7b918c4d3ca7234d",
+          "verified_verse_targets": 8,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "d04f752941fb4349312b209453e6beb63970d166eb04cac30109f9a2dd927600",
+          "verified_verse_targets": 8,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 70,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "h2-r-b",
+      "blocks_per_language": 194,
+      "languages": {
+        "fa": {
+          "sha256": "b8a5258ab3d6d218ca1ad401aab13ed6193b5086d418cd803fc10cee688673d6",
+          "verified_verse_targets": 11,
+          "sections": 7
+        },
+        "en": {
+          "sha256": "84f601e8ed142691311287e305ab1cf5c2589dda06318bf9700ae0ee712b5d6e",
+          "verified_verse_targets": 11,
+          "sections": 7
+        }
+      },
+      "verse_boxes_checked": 22,
+      "preexisting_box_issue_lines": 10
+    },
+    {
+      "slug": "h2-r-ayn",
+      "blocks_per_language": 200,
+      "languages": {
+        "fa": {
+          "sha256": "1f21bfa3d166531b89f5995dc57e61f8779d7567526b7c24b0675a590f1dd231",
+          "verified_verse_targets": 10,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "7c1d57b20cbba27ec140c3b65782a38e8bb0a065794149e803af945f7246cdd4",
+          "verified_verse_targets": 10,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 60,
+      "preexisting_box_issue_lines": 4
+    },
+    {
+      "slug": "h2-z-z",
+      "blocks_per_language": 278,
+      "languages": {
+        "fa": {
+          "sha256": "a3b85c40bc5604de1534b588948c9b2d2d96d0c16bf6d213dcdfdfcc5f052649",
+          "verified_verse_targets": 12,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "0b97fbfaa15a590d1da3cf9d216654782de78da1abafb673682efae576513d44",
+          "verified_verse_targets": 12,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 274,
+      "preexisting_box_issue_lines": 28
+    },
+    {
+      "slug": "w-a-d",
+      "blocks_per_language": 214,
+      "languages": {
+        "fa": {
+          "sha256": "1ba2251db123c654f385642a1c0f44a35551b0c2c5162c1114630febcea0e472",
+          "verified_verse_targets": 9,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "ebba0baf5dc95b69c69751ed515f42816d3a03cfa6a29bf9d38f13a1b25bc627",
+          "verified_verse_targets": 9,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 6,
+      "preexisting_box_issue_lines": 4
+    },
+    {
+      "slug": "w-a-l",
+      "blocks_per_language": 211,
+      "languages": {
+        "fa": {
+          "sha256": "2ffb4179da97a64ac24195b174ca851866a8c646398a93e0dbbf191d0c9b0557",
+          "verified_verse_targets": 10,
+          "sections": 7
+        },
+        "en": {
+          "sha256": "166dc0941fc031dfd0bd1c57e238bfdf0ee78f90a078745a64b16d8ef287b9b2",
+          "verified_verse_targets": 10,
+          "sections": 7
+        }
+      },
+      "verse_boxes_checked": 38,
+      "preexisting_box_issue_lines": 22
+    },
+    {
+      "slug": "q-y-dad",
+      "blocks_per_language": 344,
+      "languages": {
+        "fa": {
+          "sha256": "5174206cebb7cd7770619620c2615c8876314dc808d6240ba6da06aa59eba0c9",
+          "verified_verse_targets": 12,
+          "sections": 9
+        },
+        "en": {
+          "sha256": "095274699e0996071e5a108fc7b27a58b205e25325e706454acd24f22fe6d9bd",
+          "verified_verse_targets": 12,
+          "sections": 9
+        }
+      },
+      "verse_boxes_checked": 72,
+      "preexisting_box_issue_lines": 12
+    },
+    {
+      "slug": "w-b-r",
+      "blocks_per_language": 228,
+      "languages": {
+        "fa": {
+          "sha256": "42f85daee42291deced662237487deee983b41469e7b4e2899eb0f077da3ea86",
+          "verified_verse_targets": 8,
+          "sections": 7
+        },
+        "en": {
+          "sha256": "bd4d60f25f0abe8b7a79f0cc461a0dbc442444cc0e0947e2992e329eb771e5d9",
+          "verified_verse_targets": 8,
+          "sections": 7
+        }
+      },
+      "verse_boxes_checked": 50,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "w-b-q",
+      "blocks_per_language": 244,
+      "languages": {
+        "fa": {
+          "sha256": "c4b56c139423aa6c7e80d08ca2f2a8117ca0d4a1e46dc44d006b8481ee228e13",
+          "verified_verse_targets": 13,
+          "sections": 7
+        },
+        "en": {
+          "sha256": "995f606b9edad62950fe1b9f3637f19c2dcaa0b294165793f16753fc0c09c34c",
+          "verified_verse_targets": 13,
+          "sections": 7
+        }
+      },
+      "verse_boxes_checked": 40,
+      "preexisting_box_issue_lines": 8
+    },
+    {
+      "slug": "w-b-l",
+      "blocks_per_language": 296,
+      "languages": {
+        "fa": {
+          "sha256": "7b4654cfa7a0d8ae0c15a05687a9b6cab23ef87172ff1ced2435eb0354d66b99",
+          "verified_verse_targets": 12,
+          "sections": 9
+        },
+        "en": {
+          "sha256": "e23094938b1f7349252ffc8c6a13efcb0ba6dc7c7dbd65b7e59b77ef63e34e2b",
+          "verified_verse_targets": 12,
+          "sections": 9
+        }
+      },
+      "verse_boxes_checked": 304,
+      "preexisting_box_issue_lines": 10
+    },
+    {
+      "slug": "w-t-d",
+      "blocks_per_language": 298,
+      "languages": {
+        "fa": {
+          "sha256": "6b82f52dc06863c5fb120dd2aa61c5ba72ff4e6f9b4b4c96764832b33f3dfcae",
+          "verified_verse_targets": 22,
+          "sections": 9
+        },
+        "en": {
+          "sha256": "0876d8683ee57dcba97d3076da5f55d40f20a7c0acf207f00dbbfe10cc2b6eae",
+          "verified_verse_targets": 22,
+          "sections": 9
+        }
+      },
+      "verse_boxes_checked": 26,
+      "preexisting_box_issue_lines": 10
+    },
+    {
+      "slug": "w-t-r",
+      "blocks_per_language": 332,
+      "languages": {
+        "fa": {
+          "sha256": "dd1a6f936bd762957b9473040ff2251cef2ad1949085d189acac5367cea5abcb",
+          "verified_verse_targets": 18,
+          "sections": 10
+        },
+        "en": {
+          "sha256": "351159aff05588102dd4d692c35404500fcc7a895dd712eb23fcaf1320577ce9",
+          "verified_verse_targets": 18,
+          "sections": 10
+        }
+      },
+      "verse_boxes_checked": 66,
+      "preexisting_box_issue_lines": 48
+    },
+    {
+      "slug": "w-t-n",
+      "blocks_per_language": 256,
+      "languages": {
+        "fa": {
+          "sha256": "441fe9714900f2899cd6a066a69b887714a197c9cd7d22a182f9c30d2ba1d30f",
+          "verified_verse_targets": 13,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "46b1a4635c3e97018768a5568771cc60e849b7ee472a6f76d387afb2d667075f",
+          "verified_verse_targets": 13,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 8,
+      "preexisting_box_issue_lines": 4
+    },
+    {
+      "slug": "w-th-n",
+      "blocks_per_language": 316,
+      "languages": {
+        "fa": {
+          "sha256": "13b72e1814f6773212925e0d8a5094cbd6cbbe869ae0a2e13940e462fe79e16e",
+          "verified_verse_targets": 16,
+          "sections": 10
+        },
+        "en": {
+          "sha256": "f15171180e1ac5e33cb95020c585f6a0158d589474c5ac84a83339b3baa59bbd",
+          "verified_verse_targets": 16,
+          "sections": 10
+        }
+      },
+      "verse_boxes_checked": 156,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "w-j-b",
+      "blocks_per_language": 280,
+      "languages": {
+        "fa": {
+          "sha256": "9eea6ce879221cb6cdefe37af66fa5b71ea2ef43b6cbd4de9020cebeefac23e2",
+          "verified_verse_targets": 6,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "5643a08910359bb8fb14e3fa040077845c86935458a95a8f267bc1d82b5e8436",
+          "verified_verse_targets": 6,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 54,
+      "preexisting_box_issue_lines": 0
+    },
+    {
+      "slug": "q-b-h",
+      "blocks_per_language": 277,
+      "languages": {
+        "fa": {
+          "sha256": "61622ab3642b644f474d4c160df4523d635449714438572521ac1cd01d7625a3",
+          "verified_verse_targets": 10,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "bc7fff368db19da2acde59ab1e43a1885a243e591a5ed914769295b65c2afdcd",
+          "verified_verse_targets": 10,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 20,
+      "preexisting_box_issue_lines": 12
+    },
+    {
+      "slug": "q-y-l",
+      "blocks_per_language": 289,
+      "languages": {
+        "fa": {
+          "sha256": "0cc2ae752ecceb2dc2d8764cfaea8e584f3f5823dba897c8481f66f96f18b754",
+          "verified_verse_targets": 10,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "6f44584c16c3af798a01d4ac666b6ae1d4016a731490b80050eec101a051f4ae",
+          "verified_verse_targets": 10,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 34,
+      "preexisting_box_issue_lines": 14
+    },
+    {
+      "slug": "q-w-ayn",
+      "blocks_per_language": 309,
+      "languages": {
+        "fa": {
+          "sha256": "bb634aceec433ae9fb9824354b03a2bdd1328473b5296f0d1be472a1f1ec1c07",
+          "verified_verse_targets": 13,
+          "sections": 8
+        },
+        "en": {
+          "sha256": "feb71a7068fe32e15a2e53f2a8883ae58b71cfd55f6ca401de913860e0a45826",
+          "verified_verse_targets": 13,
+          "sections": 8
+        }
+      },
+      "verse_boxes_checked": 50,
+      "preexisting_box_issue_lines": 0
+    }
+  ],
+  "build_status": "Jekyll build and library preparation passed",
+  "commit_or_push_performed": false,
+  "browser_smoke_tests": [
+    {
+      "lang": "fa",
+      "width": 1280,
+      "title": "ریشه قرآنی و ت ن | Forqan Archive",
+      "overflow": false,
+      "blocks": 256,
+      "cards": 6,
+      "sections": 8,
+      "bodyDir": "rtl",
+      "screenshot": "/private/tmp/root-fa-1280.png"
+    },
+    {
+      "lang": "fa",
+      "width": 390,
+      "title": "ریشه قرآنی و ت ن | Forqan Archive",
+      "overflow": false,
+      "blocks": 256,
+      "cards": 6,
+      "sections": 8,
+      "bodyDir": "rtl",
+      "screenshot": "/private/tmp/root-fa-390.png"
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "title": "Quranic Root w-t-n | Forqan Archive",
+      "overflow": false,
+      "blocks": 256,
+      "cards": 6,
+      "sections": 8,
+      "bodyDir": "ltr",
+      "screenshot": "/private/tmp/root-en-1280.png"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "title": "Quranic Root w-t-n | Forqan Archive",
+      "overflow": false,
+      "blocks": 256,
+      "cards": 6,
+      "sections": 8,
+      "bodyDir": "ltr",
+      "screenshot": "/private/tmp/root-en-390.png"
+    }
+  ],
+  "global_root_inventory": {
+    "published_fa": 1356,
+    "published_en": 1356,
+    "preliminary_fa": 306,
+    "preliminary_en": 306,
+    "published_missing_files": 0
+  },
+  "preexisting_word_box_issue_count": 942,
+  "preexisting_word_box_issue_report": "_handoff/root-install-preexisting-box-issues-2026-11-16.txt",
+  "library_published_pages": 3386,
+  "browser_all_mobile_articles_checked": 96,
+  "browser_all_mobile_passed": true,
+  "language_switch_targets_verified": 96,
+  "reading_enrichment_test": "passed: stable anchors, publication activation, bilingual previews; 453 existing unavailable citations handled",
+  "verse_reference_test": "passed",
+  "verse_extraction_test": "passed",
+  "git_diff_check": "passed",
+  "git_head_unchanged": "b97189db7",
+  "library_test": "passed: all original assertions, with identical parsed feature text cached by URL to avoid redundant parsing",
+  "goal_roots_completed": [
+    "gh-d-w",
+    "gh-r-r",
+    "gh-r-m",
+    "gh-r-w",
+    "gh-z-l",
+    "gh-z-w",
+    "gh-s-l",
+    "gh-sad-b",
+    "gh-sad-sad",
+    "gh-tt-sh",
+    "gh-tt-w",
+    "gh-l-zha",
+    "gh-l-q",
+    "gh-l-l",
+    "gh-l-m",
+    "gh-l-w",
+    "gh-l-y",
+    "gh-m-r",
+    "gh-m-z",
+    "gh-m-dad",
+    "h2-a-a",
+    "h2-a-t",
+    "h2-b-w",
+    "h2-j-d",
+    "h2-j-ayn",
+    "h2-d-d",
+    "h2-d-m",
+    "h2-r-b",
+    "h2-r-ayn",
+    "h2-z-z",
+    "w-a-d",
+    "w-a-l",
+    "q-y-dad",
+    "w-b-r",
+    "w-b-q",
+    "w-b-l",
+    "w-t-d",
+    "w-t-r",
+    "w-t-n"
+  ],
+  "goal_articles_completed": 78,
+  "goal_blocks_per_language": 10251,
+  "library_test_routes_verified": 3386,
+  "library_test_feature_excerpts": 14499,
+  "all_required_checks_complete": true,
+  "report_counts_match_survey": true
+}

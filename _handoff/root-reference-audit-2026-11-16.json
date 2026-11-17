@@ -1,0 +1,136 @@
+{
+  "scope": [
+    "gh-b-r",
+    "gh-b-n",
+    "gh-d-r",
+    "gh-d-q",
+    "gh-d-w",
+    "gh-r-r",
+    "gh-r-m",
+    "gh-r-w",
+    "gh-z-l",
+    "gh-z-w",
+    "gh-s-l",
+    "gh-sad-b",
+    "gh-sad-sad",
+    "gh-tt-sh",
+    "gh-tt-w",
+    "gh-l-zha",
+    "gh-l-q",
+    "w-th-n",
+    "w-j-b",
+    "q-b-h",
+    "q-y-l",
+    "q-w-ayn"
+  ],
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "changes": [
+    {
+      "file": "quran-terminology/fa/roots/gh-d-r/index.html",
+      "links_added": 4,
+      "targets": [
+        "/quran-reflection/fa/018-al-kahf/#ayah-047",
+        "/quran-reflection/fa/018-al-kahf/#ayah-049"
+      ],
+      "before_sha256": "b0e066d69ef92fa6eb0e0965dc12458f1fe4c58c964c0a1741fc7513bffcca26",
+      "after_sha256": "818ee42df77ecf35ae79c30848ca825b84b6b4b3f95d304d827a239774b7d3d8"
+    },
+    {
+      "file": "quran-terminology/fa/roots/gh-d-q/index.html",
+      "links_added": 1,
+      "targets": [
+        "/quran-reflection/fa/072-al-jinn/#ayah-017"
+      ],
+      "before_sha256": "4a355622284ebbc397edc297cd6a75168b3ab150b939cb12dd1a805af5e70d36",
+      "after_sha256": "fe51c18bdb019217ba014f8fd9d02aacfab283d6f6f461a2a90bbe50d819fdca"
+    },
+    {
+      "file": "quran-terminology/en/roots/gh-tt-sh/index.html",
+      "links_added": 16,
+      "targets": [
+        "/quran-reflection/en/013-ar-rad/#ayah-003",
+        "/quran-reflection/en/017-al-isra/#ayah-078",
+        "/quran-reflection/en/079-an-naziat/#ayah-027",
+        "/quran-reflection/en/079-an-naziat/#ayah-028",
+        "/quran-reflection/en/079-an-naziat/#ayah-029",
+        "/quran-reflection/en/079-an-naziat/#ayah-030"
+      ],
+      "before_sha256": "fa72366dbd13cea8bcec8aefc1dbc3bc8a3e53984433ed6b918190e3d3bbf093",
+      "after_sha256": "859ccfd21b8df5a383a61edcaabc4961e195da2d69ce20aac5e5b71249f48c26"
+    },
+    {
+      "file": "quran-terminology/en/roots/gh-tt-w/index.html",
+      "links_added": 18,
+      "targets": [
+        "/quran-reflection/en/002-al-baqarah/#ayah-007",
+        "/quran-reflection/en/017-al-isra/#ayah-045",
+        "/quran-reflection/en/032-as-sajdah/#ayah-012",
+        "/quran-reflection/en/050-qaf/#ayah-021",
+        "/quran-reflection/en/050-qaf/#ayah-022",
+        "/quran-reflection/en/079-an-naziat/#ayah-029"
+      ],
+      "before_sha256": "2f964fce6104050b0eca14eae339831aad15968d96f98e4c7885bce98d4648e3",
+      "after_sha256": "ac1394c72434945bbb5674c59153c3c93f533fa3b97e00e3c1799cab6d65204b"
+    }
+  ],
+  "all_detected_prose_references_linked": true,
+  "toc_and_existing_links_preserved": true,
+  "all_visible_article_text_preserved": true,
+  "verse_and_shared_files_unchanged": true,
+  "commit_or_push_performed": false,
+  "final_scope": [
+    "gh-b-r",
+    "gh-b-n",
+    "gh-d-r",
+    "gh-d-q",
+    "gh-d-w",
+    "gh-r-r",
+    "gh-r-m",
+    "gh-r-w",
+    "gh-z-l",
+    "gh-z-w",
+    "gh-s-l",
+    "gh-sad-b",
+    "gh-sad-sad",
+    "gh-tt-sh",
+    "gh-tt-w",
+    "gh-l-zha",
+    "gh-l-q",
+    "gh-l-l",
+    "gh-l-m",
+    "gh-l-w",
+    "gh-l-y",
+    "gh-m-r",
+    "gh-m-z",
+    "gh-m-dad",
+    "h2-a-a",
+    "h2-a-t",
+    "h2-b-w",
+    "h2-j-d",
+    "h2-j-ayn",
+    "h2-d-d",
+    "h2-d-m",
+    "h2-r-b",
+    "h2-r-ayn",
+    "h2-z-z",
+    "w-a-d",
+    "w-a-l",
+    "q-y-dad",
+    "w-b-r",
+    "w-b-q",
+    "w-b-l",
+    "w-t-d",
+    "w-t-r",
+    "w-t-n",
+    "w-th-n",
+    "w-j-b",
+    "q-b-h",
+    "q-y-l",
+    "q-w-ayn"
+  ],
+  "final_recheck_passed": true,
+  "final_recheck_date": "2026-11-16"
+}
