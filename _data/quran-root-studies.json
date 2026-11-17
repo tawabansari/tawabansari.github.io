@@ -6274,15 +6274,15 @@
   "gh-n-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-n-y/",
-      "title": "ریشهٔ غ ن ي",
-      "summary": "بی‌نیازی و توانگری؛ اغناء: کفایت و سود رساندن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی غ ن ي (غِنًى)",
+      "summary": "کفایت، بی‌نیازی و برخورداری؛ سود رساندن؛ و در کاربردی دیگر، اقامت داشتن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-n-y/",
-      "title": "The Root GH N Y",
-      "summary": "Sufficiency or wealth; ighnāʾ means making sufficient or benefiting.",
-      "status": "preliminary"
+      "title": "Quranic Root غ ن ي (Ghinā)",
+      "summary": "Sufficiency, independence, and provision; availing; and, in another usage, residing.",
+      "status": "published"
     }
   },
   "gh-r-b": {
@@ -6498,43 +6498,43 @@
   "gh-w-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-w-r/",
-      "title": "ریشهٔ غ و ر",
-      "summary": "فرو رفتن و ژرفا؛ غار و مغاره: پناهگاه یا حفره در کوه.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی غ و ر (غَوْر)",
+      "summary": "فرو رفتن و عمق؛ غار و فضای فرورفته؛ و در شاخه‌ای دیگر، یورش و حرکت شتابان.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-w-r/",
-      "title": "The Root GH W R",
-      "summary": "Sinking or depth; ghār and maghārah denote a cave or mountain recess.",
-      "status": "preliminary"
+      "title": "Quranic Root غ و ر (Ghawr)",
+      "summary": "Sinking and depth; caves and recesses; and, in another branch, raiding and swift movement.",
+      "status": "published"
     }
   },
   "gh-w-sad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-w-sad/",
-      "title": "ریشهٔ غ و ص",
-      "summary": "غواصی و فرو رفتن در آب.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی غ و ص (غَوْص)",
+      "summary": "غواصی و فرو رفتن به زیر سطح آب؛ در کاربرد مجازی، ژرف‌نگری در موضوع دشوار.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-w-sad/",
-      "title": "The Root GH W Ṣ",
-      "summary": "Diving or plunging into water.",
-      "status": "preliminary"
+      "title": "Quranic Root غ و ص (Ghawṣ)",
+      "summary": "Diving beneath water; figuratively, investigating a difficult matter in depth.",
+      "status": "published"
     }
   },
   "gh-w-th": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-w-th/",
-      "title": "ریشهٔ غ و ث",
-      "summary": "فریادرسی و یاری در گرفتاری.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی غ و ث (غَوْث)",
+      "summary": "یاری‌خواهی در گرفتاری؛ فریادرسی و رساندن کمک برای رهایی از سختی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-w-th/",
-      "title": "The Root GH W TH",
-      "summary": "Rescue or aid in distress.",
-      "status": "preliminary"
+      "title": "Quranic Root غ و ث (Ghawth)",
+      "summary": "Seeking aid in distress; providing assistance towards relief from hardship.",
+      "status": "published"
     }
   },
   "gh-w-tt": {
@@ -15416,15 +15416,15 @@
   "q-s-tt": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-s-tt/",
-      "title": "ریشهٔ ق س ط",
-      "summary": "قسط و اقساط: عدالت و رعایت سهم؛ قُسوط: انحراف و ستم؛ صورت واژه تعیین‌کننده است.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق س ط (قِسْط)",
+      "summary": "قسط و اقساط: عدالت و رعایت حق و سهم؛ قُسوط: انحراف و ستم؛ معنا با صورت واژه و سیاق تعیین می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-s-tt/",
-      "title": "The Root Q S Ṭ",
-      "summary": "Qisṭ and iqṣāṭ concern justice; qusūṭ concerns injustice or deviation; the form determines the sense.",
-      "status": "preliminary"
+      "title": "Quranic Root ق س ط (Qisṭ)",
+      "summary": "Qisṭ and iqsāṭ: justice and respect for rights and shares; qusūṭ: injustice and deviation. Form and context determine the sense.",
+      "status": "published"
     }
   },
   "q-s-tt-s": {
