@@ -6484,15 +6484,15 @@
   "gh-w-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-w-l/",
-      "title": "ریشهٔ غ و ل",
-      "summary": "آسیب رساندن به‌گونه نهان و از میان بردن توان یا عقل.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی غ و ل (غَوْل)",
+      "summary": "آسیب رساندن و از میان بردن توان یا سلامت؛ گاه با زیان پنهان یا ناگهانی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-w-l/",
-      "title": "The Root GH W L",
-      "summary": "Undermining harm or loss of bodily or mental powers.",
-      "status": "preliminary"
+      "title": "Quranic Root غ و ل (Ghawl)",
+      "summary": "Harming or impairing strength or health, sometimes through concealed or sudden injury.",
+      "status": "published"
     }
   },
   "gh-w-r": {
@@ -6540,29 +6540,29 @@
   "gh-w-tt": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-w-tt/",
-      "title": "ریشهٔ غ و ط",
-      "summary": "زمین پست؛ غائط در کاربرد کنایی: قضای حاجت یا مواد دفع‌شده.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی غ و ط (غَوْط)",
+      "summary": "زمین پست و فرورفته؛ غائط در کاربرد کنایی: قضای حاجت یا مواد دفع‌شده.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-w-tt/",
-      "title": "The Root GH W Ṭ",
-      "summary": "Low ground; ghāʾiṭ euphemistically denotes defecation or excrement.",
-      "status": "preliminary"
+      "title": "Quranic Root غ و ط (Ghawṭ)",
+      "summary": "Low, recessed ground; ghāʾiṭ euphemistically denotes relieving oneself or excrement.",
+      "status": "published"
     }
   },
   "gh-w-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-w-y/",
-      "title": "ریشهٔ غ و ي",
-      "summary": "گمراهی و منحرف ساختن از راه درست.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی غ و ي (غَوَى)",
+      "summary": "گمراهی و انحراف از رشد؛ گمراه ساختن دیگری؛ و در شاخه‌ای لغوی، تباهی وضعیت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-w-y/",
-      "title": "The Root GH W Y",
-      "summary": "Error or leading away from sound guidance.",
-      "status": "preliminary"
+      "title": "Quranic Root غ و ي (Ghawā)",
+      "summary": "Going astray and departure from sound direction; misleading others; and, in a lexical branch, deterioration of condition.",
+      "status": "published"
     }
   },
   "gh-y-b": {
@@ -6582,15 +6582,15 @@
   "gh-y-dad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-y-dad/",
-      "title": "ریشهٔ غ ي ض",
-      "summary": "کم شدن و فرو نشستن مایع.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی غ ي ض (غَيْض)",
+      "summary": "کم شدن، کاستن و فروکش کردن مقدار چیزی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-y-dad/",
-      "title": "The Root GH Y Ḍ",
-      "summary": "Diminishing or subsiding of liquid.",
-      "status": "preliminary"
+      "title": "Quranic Root Gh Y Ḍ (غَيْض)",
+      "summary": "Decreasing, reducing, and subsiding in quantity.",
+      "status": "published"
     }
   },
   "gh-y-r": {
@@ -6610,29 +6610,29 @@
   "gh-y-th": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-y-th/",
-      "title": "ریشهٔ غ ي ث",
-      "summary": "بارانِ سودرسان و رسیدن باران.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی غ ي ث (غَيْث)",
+      "summary": "باران؛ و در کاربرد گسترش‌یافته، گیاه و چراگاه حاصل از آن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-y-th/",
-      "title": "The Root GH Y TH",
-      "summary": "Beneficial rain and the coming of rain.",
-      "status": "preliminary"
+      "title": "Quranic Root Gh Y Th (غَيْث)",
+      "summary": "Rain; by extension, the vegetation and pasture it produces.",
+      "status": "published"
     }
   },
   "gh-y-zha": {
     "fa": {
       "url": "/quran-terminology/fa/roots/gh-y-zha/",
-      "title": "ریشهٔ غ ي ظ",
-      "summary": "خشم شدید و برافروختگی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی غ ي ظ (غَيْظ)",
+      "summary": "خشم شدید و برآشفتگی درونی؛ به خشم آوردن دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/gh-y-zha/",
-      "title": "The Root GH Y Ẓ",
-      "summary": "Intense anger or fury.",
-      "status": "preliminary"
+      "title": "Quranic Root Gh Y Ẓ (غَيْظ)",
+      "summary": "Intense anger and inward agitation; provoking another’s anger.",
+      "status": "published"
     }
   },
   "gh-z-l": {
