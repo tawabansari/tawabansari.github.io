@@ -71,3 +71,12 @@ When installing supplied translations and reflections, remove the generic `data-
 ## Related studies belong in cross-references
 
 For Quran verse units in both languages, place the separate related-studies list inside the `data-type="cross-reference"` details, after the verse references, under its own related-studies heading. Do not append that list inside the reflection details. Preserve inline research links that form part of the authored reflection prose.
+
+
+## Link Quranic concepts in authored reflections
+
+Before each new verse or research task, check the live Persian concept directory at `https://forqan.co/fa/quran-terminology/` and, for English output, `https://forqan.co/en/quran-terminology/` for new studies, changed routes, and newly available language counterparts. Compare with the current catalog and `scripts/CONCEPT-LINKING.md`; the guide is a starting inventory, not a closed list. Read the relevant destination before choosing it. If live access fails, use repository evidence and report that limitation outside publishable prose.
+
+Follow `scripts/CONCEPT-LINKING.md` for the bilingual keyword-to-study inventory and contextual restrictions. Link the first meaningful occurrence of an applicable concept in the reflection, normally once per concept per reflection. Match meaning, not just spelling or search aliases; do not automatically link ambiguous words. Preserve authored prose, existing valid links, and the distinction between concept articles, principles, and root studies. Do not change Arabic verse text, direct translations, word-button metadata, or canonical Allah boxes through this rule. Do not bulk-edit previous verses outside the current request.
+
+Verify actual destinations separately in each language; never invent English routes by replacing `/fa/`. Use clean URLs without tracking parameters. If an English counterpart is missing, leave the English term unlinked and report the missing counterpart; use a clearly labeled Persian reference only when useful. Include substantively relevant concept studies in the related-studies list within cross-references. Check coverage, working links, appropriate meaning, and excessive repetition before delivery.
