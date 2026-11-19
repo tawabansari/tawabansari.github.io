@@ -2128,5 +2128,51 @@
       "/en/quran-terminology/sultan-logic-in-quran/",
       "/en/quran-terminology/no-compulsion-and-delivery/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/ummiyyin-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "امّی و امّیین",
+    "description": "امّی و امّیین، نسبت جامعه و فرد با کتاب وحیانی، دانش محمد و تفاوت سواد، شناخت و مسئولیت.",
+    "format": "study",
+    "aliases": [
+      "امی",
+      "امیین",
+      "امیون",
+      "امّی",
+      "Ummi",
+      "Ummiyyin",
+      "Ummiyyun",
+      "Unlettered Prophet",
+      "Scriptural knowledge"
+    ],
+    "related": [
+      "/fa/quran-completeness/inherited-tradition-and-revelation/"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/ummiyyin-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Ummi and Ummiyyin (Scripture and Learning)",
+    "description": "Ummi and ummiyyin, scriptural communities, Muhammad’s knowledge, and the difference between literacy, understanding, and responsibility.",
+    "format": "study",
+    "aliases": [
+      "امی",
+      "امیین",
+      "امیون",
+      "امّی",
+      "Ummi",
+      "Ummiyyin",
+      "Ummiyyun",
+      "Unlettered Prophet",
+      "Scriptural knowledge"
+    ],
+    "related": [
+      "/en/quran-completeness/inherited-tradition-and-revelation/"
+    ]
   }
 ]
