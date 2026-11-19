@@ -176,32 +176,67 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <span id="heedlessness-inside-the-prayer-connection" class="legacy-anchor" aria-hidden="true"></span>
 <span id="showing-off" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="heedlessness" data-source-line="138">4. The Warning to Worshippers in Chapter 107</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-139" data-source-line="139">«أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-140" data-source-line="140">«فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-141" data-source-line="141">«وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-142" data-source-line="142">«فَوَيْلٌ لِّلْمُصَلِّينَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-143" data-source-line="143">«ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-144" data-source-line="144">«ٱلَّذِينَ هُمْ يُرَآءُونَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-145" data-source-line="145">«وَيَمْنَعُونَ ٱلْمَاعُونَ»</p>
-<p class="verse-ref" data-source-line="146">(<bdi dir="ltr">107:1</bdi>, <bdi dir="ltr">107:2</bdi>, <bdi dir="ltr">107:3</bdi>, <bdi dir="ltr">107:4</bdi>, <bdi dir="ltr">107:5</bdi>, <bdi dir="ltr">107:6</bdi>, <bdi dir="ltr">107:7</bdi>)</p>
-<p class="translation" id="passage-147" data-source-line="147">“Have you seen the one who denies the religion? That is the one who pushes the orphan away and does not encourage feeding the poor. So woe to those who pray—those who are heedless of their prayer, who make a display of themselves and withhold practical help.”</p></blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:1">
+<p class="arabic" lang="ar" dir="rtl" id="quote-139">أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ</p>
+<p class="translation" id="passage-147">Have you seen the one who denies the religion?</p>
+<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-001">Al-Ma'un <bdi dir="ltr">107:1</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:2">
+<p class="arabic" lang="ar" dir="rtl" id="quote-140">فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ</p>
+<p class="translation">That is the one who pushes the orphan away</p>
+<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-002">Al-Ma'un <bdi dir="ltr">107:2</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:3">
+<p class="arabic" lang="ar" dir="rtl" id="quote-141">وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ</p>
+<p class="translation">and does not encourage feeding the poor.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-003">Al-Ma'un <bdi dir="ltr">107:3</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:4">
+<p class="arabic" lang="ar" dir="rtl" id="quote-142">فَوَيْلٌ لِّلْمُصَلِّينَ</p>
+<p class="translation">So woe to those who pray—</p>
+<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-004">Al-Ma'un <bdi dir="ltr">107:4</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:5">
+<p class="arabic" lang="ar" dir="rtl" id="quote-143">ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ</p>
+<p class="translation">those who are heedless of their prayer,</p>
+<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-005">Al-Ma'un <bdi dir="ltr">107:5</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:6">
+<p class="arabic" lang="ar" dir="rtl" id="quote-144">ٱلَّذِينَ هُمْ يُرَآءُونَ</p>
+<p class="translation">who make a display of themselves</p>
+<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-006">Al-Ma'un <bdi dir="ltr">107:6</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:7">
+<p class="arabic" lang="ar" dir="rtl" id="quote-145">وَيَمْنَعُونَ ٱلْمَاعُونَ</p>
+<p class="translation">and withhold practical help.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-007">Al-Ma'un <bdi dir="ltr">107:7</bdi></a></p>
+</blockquote>
 <p id="passage-148" data-source-line="148">The chapter begins with treatment of the orphan and the poor, then turns to people who pray for show and withhold help. That connection matters. Its warning cannot be exhausted by momentary distraction during prayer. The people described are heedless of their prayer while making an outward display and refusing assistance to others.</p>
 <p id="passage-149" data-source-line="149">A worshipper whose mind wanders, who regrets the distraction and tries to recover attention, differs from someone who uses worship to be admired while neglecting responsibility. Reducing this chapter to ordinary lapses of concentration obscures its larger concern: maintaining religious appearances while losing their purpose.</p>
 <p id="passage-150" data-source-line="150">In <bdi dir="ltr">19:59</bdi>, neglect of prayer appears alongside following desires. In <bdi dir="ltr">70:22</bdi>, <bdi dir="ltr">70:23</bdi>, <bdi dir="ltr">70:24</bdi>, <bdi dir="ltr">70:25</bdi>, <bdi dir="ltr">70:26</bdi>, <bdi dir="ltr">70:27</bdi>, <bdi dir="ltr">70:28</bdi>, <bdi dir="ltr">70:29</bdi>, <bdi dir="ltr">70:30</bdi>, <bdi dir="ltr">70:31</bdi>, <bdi dir="ltr">70:32</bdi>, <bdi dir="ltr">70:33</bdi>, <bdi dir="ltr">70:34</bdi>, <bdi dir="ltr">70:35</bdi>, the description of worshippers begins with constancy in prayer, proceeds through the rights of the needy, accountability, trustworthiness, fidelity, and truthful testimony, then returns to safeguarding prayer. These responsibilities belong within the portrait of worshippers. They cannot be postponed until every ritual detail has been debated.</p>
 <span id="when-the-prayer-connection-becomes-heavy" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="heavy-without-khushu" data-source-line="151">5. Humility, Steadfastness, and Continuity</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-152" data-source-line="152">«قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-153" data-source-line="153">«ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَٰشِعُونَ»</p>
-<p class="verse-ref" data-source-line="154">(<bdi dir="ltr">23:1</bdi>, <bdi dir="ltr">23:2</bdi>)</p>
-<p class="translation" id="passage-155" data-source-line="155">“The believers have indeed prospered: those who are humble in their prayer.”</p></blockquote>
+<blockquote class="quran-quote" data-verse-unit="23:1">
+<p class="arabic" lang="ar" dir="rtl" id="quote-152">قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ</p>
+<p class="translation" id="passage-155">The believers have indeed prospered:</p>
+<p class="verse-ref"><a href="/quran-reflection/en/023-al-muminun/#ayah-001">Al-Mu'minun <bdi dir="ltr">23:1</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="23:2">
+<p class="arabic" lang="ar" dir="rtl" id="quote-153">ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَٰشِعُونَ</p>
+<p class="translation">those who are humble in their prayer.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/023-al-muminun/#ayah-002">Al-Mu'minun <bdi dir="ltr">23:2</bdi></a></p>
+</blockquote>
 <p id="passage-156" data-source-line="156">The first quality named here is <a href="/quran-terminology/en/roots/kh-sh-ayn/">khushu‘</a> (humble, attentive submission). How a person is present in prayer matters alongside the action itself. Words and movements should express a turning away from arrogance before God. Their repetition alone cannot supply that humility.</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-157" data-source-line="157">«وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-158" data-source-line="158">«ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا۟ رَبِّهِمْ وَأَنَّهُمْ إِلَيْهِ رَٰجِعُونَ»</p>
-<p class="verse-ref" data-source-line="159">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-045"><bdi dir="ltr">2:45</bdi></a>, <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-046"><bdi dir="ltr">2:46</bdi></a>)</p>
-<p class="translation" id="passage-160" data-source-line="160">“Seek help through steadfastness and prayer. It is indeed burdensome except for the humble—those who are assured that they will meet their Lord and that to Him they will return.”</p></blockquote>
+<blockquote class="quran-quote" data-verse-unit="2:45">
+<p class="arabic" lang="ar" dir="rtl" id="quote-157">وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ</p>
+<p class="translation" id="passage-160">Seek help through steadfastness and prayer. It is indeed burdensome except for the humble—</p>
+<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-045">Al-Baqarah <bdi dir="ltr">2:45</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="2:46">
+<p class="arabic" lang="ar" dir="rtl" id="quote-158">ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا۟ رَبِّهِمْ وَأَنَّهُمْ إِلَيْهِ رَٰجِعُونَ</p>
+<p class="translation">those who are assured that they will meet their Lord and that to Him they will return.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-046">Al-Baqarah <bdi dir="ltr">2:46</bdi></a></p>
+</blockquote>
 <p id="passage-161" data-source-line="161">Humility is linked here to meeting the Lord and returning to Him. It reaches beyond lowering the head or changing the voice. The worshipper recognizes a truth and an accountability greater than personal wishes or judgments. Approaching prayer merely as an item to complete differs from approaching it with that awareness of one’s place and final return.</p>
 <p id="passage-162" data-source-line="162"><a href="/quran-terminology/en/roots/sad-b-r/">Sabr</a> (steadfastness and patient perseverance) stands beside prayer. Knowing the right direction does not remove the effort required to remain faithful to it. Prayer renews remembrance; perseverance helps carry it into action under pressure. Another passage makes that continuity explicit:</p>
 <blockquote class="quran-quote">
@@ -325,11 +360,16 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <p class="translation" id="passage-253" data-source-line="253">“You who believe, let those whom your right hands possess and those among you who have not reached puberty ask your permission on three occasions: before the dawn prayer, when you put aside your clothes at midday, and after the night prayer. These are three times of privacy for you. Outside them, there is no blame upon you or them as you move about attending to one another. In this way God makes the signs clear to you. God is knowing and wise.”</p></blockquote>
 <p id="passage-254" data-source-line="254">The dawn prayer, Fajr, and the night prayer, Isha, are recognizable points in the household’s day. They mark two of its periods of privacy. But three occasions for requesting entry do not establish that there are three prayers. Midday is identified by putting aside clothing, without an explicit prayer name. Counting periods of privacy cannot settle the number of daily prayers.</p>
 <p id="passage-255" data-source-line="255">Other passages call for glorifying God at various times:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-256" data-source-line="256">«فَسُبْحَٰنَ ٱللَّهِ حِينَ تُمْسُونَ وَحِينَ تُصْبِحُونَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-257" data-source-line="257">«وَلَهُ ٱلْحَمْدُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَعَشِيًّا وَحِينَ تُظْهِرُونَ»</p>
-<p class="verse-ref" data-source-line="258">(<bdi dir="ltr">30:17</bdi>, <bdi dir="ltr">30:18</bdi>)</p>
-<p class="translation" id="passage-259" data-source-line="259">“So glorify God when you enter the evening and when you enter the morning. To Him belongs praise in the heavens and the earth, in the late afternoon, and when you enter midday.”</p></blockquote>
+<blockquote class="quran-quote" data-verse-unit="30:17">
+<p class="arabic" lang="ar" dir="rtl" id="quote-256">فَسُبْحَٰنَ ٱللَّهِ حِينَ تُمْسُونَ وَحِينَ تُصْبِحُونَ</p>
+<p class="translation" id="passage-259">So glorify God when you enter the evening and when you enter the morning.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/030-ar-rum/#ayah-017">Ar-Rum <bdi dir="ltr">30:17</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="30:18">
+<p class="arabic" lang="ar" dir="rtl" id="quote-257">وَلَهُ ٱلْحَمْدُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَعَشِيًّا وَحِينَ تُظْهِرُونَ</p>
+<p class="translation">To Him belongs praise in the heavens and the earth, in the late afternoon, and when you enter midday.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/030-ar-rum/#ayah-018">Ar-Rum <bdi dir="ltr">30:18</bdi></a></p>
+</blockquote>
 <blockquote class="quran-quote">
 <p class="arabic" lang="ar" dir="rtl" id="quote-260" data-source-line="260">«فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ غُرُوبِهَا وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ»</p>
 <p class="verse-ref" data-source-line="261">(<bdi dir="ltr">20:130</bdi>)</p>
@@ -346,11 +386,16 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <p id="passage-272" data-source-line="272">The separate study of qibla explores that relationship in detail. For the present purpose, direction is a real feature of prayer, while the worth of worship cannot be measured by bodily orientation alone:</p>
 <p class="related-link" id="passage-273" data-source-line="273"><a href="/en/quran-terminology/qibla-wajh-and-hanif-in-the-quran/">Qibla, Wajh, and Hanif in the Qur’an</a></p>
 <h3 id="congregation" data-source-line="274">8. Congregation and the Shared Life of Worship</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-275" data-source-line="275">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-276" data-source-line="276">«فَإِذَا قُضِيَتِ ٱلصَّلَوٰةُ فَٱنتَشِرُوا۟ فِى ٱلْأَرْضِ وَٱبْتَغُوا۟ مِن فَضْلِ ٱللَّهِ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ»</p>
-<p class="verse-ref" data-source-line="277">(<bdi dir="ltr">62:9</bdi>, <bdi dir="ltr">62:10</bdi>)</p>
-<p class="translation" id="passage-278" data-source-line="278">“You who believe, when the call to prayer is made on Friday, hasten to the remembrance of God and leave trade. That is better for you, if you know. When the prayer is completed, disperse through the land, seek God’s bounty, and remember God often, so that you may prosper.”</p></blockquote>
+<blockquote class="quran-quote" data-verse-unit="62:9">
+<p class="arabic" lang="ar" dir="rtl" id="quote-275">يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ</p>
+<p class="translation" id="passage-278">You who believe, when the call to prayer is made on Friday, hasten to the remembrance of God and leave trade. That is better for you, if you know.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/062-al-jumuah/#ayah-009">Al-Jumu'ah <bdi dir="ltr">62:9</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="62:10">
+<p class="arabic" lang="ar" dir="rtl" id="quote-276">فَإِذَا قُضِيَتِ ٱلصَّلَوٰةُ فَٱنتَشِرُوا۟ فِى ٱلْأَرْضِ وَٱبْتَغُوا۟ مِن فَضْلِ ٱللَّهِ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ</p>
+<p class="translation">When the prayer is completed, disperse through the land, seek God’s bounty, and remember God often, so that you may prosper.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/062-al-jumuah/#ayah-010">Al-Jumu'ah <bdi dir="ltr">62:10</bdi></a></p>
+</blockquote>
 <p id="passage-279" data-source-line="279">These verses describe a public beginning and ending to prayer. People are called, leave their trade, and gather for remembrance. When worship concludes, they may return to their work and seek provision. Prayer makes a place for remembrance within economic and communal life, and that remembrance should accompany people back into their daily activities.</p>
 <p id="passage-280" data-source-line="280">Congregation requires coordination. Listening, moving together, and respecting other worshippers help make it possible. A shared arrangement need not become a claim that every difference is hostility toward God. The Qur’an calls people together for remembrance. Anyone turning that gathering into a tribunal against other people’s worship must justify the judgments they make.</p>
 <p id="passage-281" data-source-line="281">Taken together, these passages provide substantial practical guidance: bodily preparation, speech and recitation, standing, bowing, prostration, timing, direction, congregation, and accommodation to human circumstances. The absence of some later legal details cannot erase the guidance that is actually present.</p>

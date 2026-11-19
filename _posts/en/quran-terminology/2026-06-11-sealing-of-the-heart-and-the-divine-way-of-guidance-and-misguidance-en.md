@@ -65,11 +65,16 @@ excerpt: "A Quran-centered reflection on the sealing of the heart, guidance and 
 
   <p>At the beginning of Surah Al-Baqarah, after introducing the Qur’an as guidance for the muttaqin, The God speaks of a group for whom warning and not warning have become the same:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ ۝ خَتَمَ اللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ ۖ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ</p>
-    <p class="translation">Indeed, those who disbelieved, it is the same for them whether you warn them or do not warn them; they will not believe. The God has sealed their hearts and their hearing, and over their sight is a covering, and for them is a great punishment.</p>
-    <p class="source"><a href="/quran-reflection/en/002-al-baqarah/">Al-Baqarah 2:6–7</a></p>
-  </blockquote>
+  <blockquote class="quran-quote" data-verse-unit="2:6">
+<p class="arabic" lang="ar" dir="rtl">إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ</p>
+<p class="translation">Indeed, those who disbelieved, it is the same for them whether you warn them or do not warn them; they will not believe.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-006">Al-Baqarah <bdi dir="ltr">2:6</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="2:7">
+<p class="arabic" lang="ar" dir="rtl">خَتَمَ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهُ">اللَّهُ</button> عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ ۖ وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ</p>
+<p class="translation">The God has sealed their hearts and their hearing, and over their sight is a covering, and for them is a great punishment.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-007">Al-Baqarah <bdi dir="ltr">2:7</bdi></a></p>
+</blockquote>
 
   <p>These verses are not about every uninformed person, every questioner, every doubter, or every person to whom the truth has not yet become clear. The verse says: “those who disbelieved.” In the language of the Qur’an, kufr is not merely not knowing; it is covering. The kafir is one who covers a truth that should be seen, denies a blessing that should be recognized, and pushes aside a sign that should be taken seriously.</p>
 
@@ -149,11 +154,26 @@ excerpt: "A Quran-centered reflection on the sealing of the heart, guidance and 
 
   <p>In Surah Al-Mutaffifin, the Qur’an gives another image of the closing of the heart. This time it speaks of “ran”: rust, stain, a covering that settles over the heart:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">كَلَّا بَلْ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا يَكْسِبُونَ ۝ كَلَّا إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍ لَّمَحْجُوبُونَ ۝ ثُمَّ إِنَّهُمْ لَصَالُو الْجَحِيمِ ۝ ثُمَّ يُقَالُ هَـٰذَا الَّذِي كُنتُم بِهِ تُكَذِّبُونَ</p>
-    <p class="translation">No; rather, what they used to earn has rusted over their hearts. No; indeed, from their Lord that Day they will be veiled. Then indeed, they will enter the Hellfire. Then it will be said: This is what you used to deny.</p>
-    <p class="source"><a href="/quran-reflection/en/083-al-mutaffifin/014/">Al-Mutaffifin 83:14–17</a></p>
-  </blockquote>
+  <blockquote class="quran-quote" data-verse-unit="83:14">
+<p class="arabic" lang="ar" dir="rtl">كَلَّا بَلْ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا يَكْسِبُونَ</p>
+<p class="translation">No; rather, what they used to earn has rusted over their hearts.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/083-al-mutaffifin/#ayah-014">Al-Mutaffifin <bdi dir="ltr">83:14</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="83:15">
+<p class="arabic" lang="ar" dir="rtl">كَلَّا إِنَّهُمْ عَن رَّبِّهِمْ يَوْمَئِذٍ لَّمَحْجُوبُونَ</p>
+<p class="translation">No; indeed, from their Lord that Day they will be veiled.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/083-al-mutaffifin/#ayah-015">Al-Mutaffifin <bdi dir="ltr">83:15</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="83:16">
+<p class="arabic" lang="ar" dir="rtl">ثُمَّ إِنَّهُمْ لَصَالُو الْجَحِيمِ</p>
+<p class="translation">Then indeed, they will enter the Hellfire.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/083-al-mutaffifin/#ayah-016">Al-Mutaffifin <bdi dir="ltr">83:16</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="83:17">
+<p class="arabic" lang="ar" dir="rtl">ثُمَّ يُقَالُ هَـٰذَا الَّذِي كُنتُم بِهِ تُكَذِّبُونَ</p>
+<p class="translation">Then it will be said: This is what you used to deny.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/083-al-mutaffifin/#ayah-017">Al-Mutaffifin <bdi dir="ltr">83:17</bdi></a></p>
+</blockquote>
 
   <p>This verse is very subtle. It does not say that The God darkened their hearts without reason. It says: “what they used to earn.” The act of the human being, the choice of the human being, the habit of the human being, the repetition of the human being, and the earning of the human being all affect the heart. With every sincere choice, the heart becomes more luminous; with every conscious denial, it becomes darker.</p>
 

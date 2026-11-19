@@ -185,10 +185,15 @@ padding: 0.68rem 0.8rem;
 </blockquote>
 <p>The command to prostrate comes after the human being is fashioned and after the breathing of the Spirit. So the prostration was not because of clay. It was because of the honor God granted to the human being. This prostration was not worship of the human being either. It was obedience to God’s command. The outward direction of prostration was the human being, but the true reference of obedience was God Himself.</p>
 <p>Then all prostrated except Iblis:</p>
-<blockquote>
-<p class="quran-quote">﴿فَسَجَدَ الْمَلَائِكَةُ كُلُّهُمْ أَجْمَعُونَ ۝ إِلَّا إِبْلِيسَ أَبَىٰ أَن يَكُونَ مَعَ السَّاجِدِينَ﴾</p>
-<p>“So the angels prostrated, all of them together, except Iblis. He refused to be with those who prostrated.”</p>
-<p>Al-Hijr 15:30-31</p>
+<blockquote class="quran-quote" data-verse-unit="15:30">
+<p class="quran-quote" lang="ar" dir="rtl">فَسَجَدَ الْمَلَائِكَةُ كُلُّهُمْ أَجْمَعُونَ</p>
+<p class="translation">So the angels prostrated, all of them together,</p>
+<p class="verse-ref"><a href="/quran-reflection/en/015-al-hijr/#ayah-030">Al-Hijr <bdi dir="ltr">15:30</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="15:31">
+<p class="quran-quote" lang="ar" dir="rtl">إِلَّا إِبْلِيسَ أَبَىٰ أَن يَكُونَ مَعَ السَّاجِدِينَ</p>
+<p class="translation">except Iblis. He refused to be with those who prostrated.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/015-al-hijr/#ayah-031">Al-Hijr <bdi dir="ltr">15:31</bdi></a></p>
 </blockquote>
 <p>Elsewhere, the Qur’an clarifies that Iblis was from the jinn:</p>
 <blockquote>
@@ -218,10 +223,15 @@ padding: 0.68rem 0.8rem;
 <p>This point is extremely important. The problem of Iblis was not denial of God. He knew God, spoke with God, asked God for delay, and even acknowledged God’s lordship. But that knowledge did not save him. Awareness, when not joined with humility, can become an instrument of downfall. Sometimes collapse does not begin from ignorance. It begins from knowledge polluted by pride.</p>
 <p>So salvation is not in mere awareness. Salvation is in humility before the truth.</p>
 <p>After this, God says to Iblis:</p>
-<blockquote>
-<p class="quran-quote">﴿قَالَ فَاخْرُجْ مِنْهَا فَإِنَّكَ رَجِيمٌ ۝ وَإِنَّ عَلَيْكَ اللَّعْنَةَ إِلَىٰ يَوْمِ الدِّينِ﴾</p>
-<p>“He said: Then get out from it, for indeed you are expelled. And indeed, upon you is the curse until the Day of Judgment.”</p>
-<p>Al-Hijr 15:34-35</p>
+<blockquote class="quran-quote" data-verse-unit="15:34">
+<p class="quran-quote" lang="ar" dir="rtl">قَالَ فَاخْرُجْ مِنْهَا فَإِنَّكَ رَجِيمٌ</p>
+<p class="translation">He said: Then get out from it, for indeed you are expelled.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/015-al-hijr/#ayah-034">Al-Hijr <bdi dir="ltr">15:34</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="15:35">
+<p class="quran-quote" lang="ar" dir="rtl">وَإِنَّ عَلَيْكَ اللَّعْنَةَ إِلَىٰ يَوْمِ الدِّينِ</p>
+<p class="translation">And indeed, upon you is the curse until the Day of Judgment.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/015-al-hijr/#ayah-035">Al-Hijr <bdi dir="ltr">15:35</bdi></a></p>
 </blockquote>
 <p>At this point, one might expect Iblis to confess or return. But he chooses another path. Instead of confession, he brings justification. Instead of accepting responsibility, he makes an accusation:</p>
 <blockquote>

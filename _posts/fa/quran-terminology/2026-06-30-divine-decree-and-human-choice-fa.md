@@ -149,11 +149,16 @@ excerpt: "تأملی قرآنی درباره قضا و قدر، اختیار ا�
     <p>وقتی خداوند می‌فرماید هدف از زندگی امتحان است، همین خود نشان می‌دهد که عمل انسان واقعی است و ارزش سنجش دارد، چون امتحان فقط وقتی معنا دارد که انتخاب واقعی در کار باشد.</p>
     <p>خداوند ماهیت این امتحان را هم این‌گونه توضیح می‌دهد:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَلَنَبْلُوَنَّكُم بِشَيْءٍ مِّنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِّنَ الْأَمْوَالِ وَالْأَنفُسِ وَالثَّمَرَاتِ ۗ وَبَشِّرِ الصَّابِرِينَ ۝ الَّذِينَ إِذَا أَصَابَتْهُم مُّصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ</p>
-      <p class="translation">و قطعاً شما را با چیزی از ترس، گرسنگی، کاهش در اموال، جان‌ها و محصولات می‌آزماییم، و بشارت بده به صابران؛ همان کسانی که وقتی مصیبتی به آنان می‌رسد می‌گویند ما از آن خداییم و به سوی او بازمی‌گردیم.</p>
-      <p class="source"><a href="/quran-reflection/fa/002-al-baqarah/155/">البقره ۲:۱۵۵-۱۵۶</a></p>
-    </blockquote>
+    <blockquote class="quran-quote" data-verse-unit="2:155">
+<p class="arabic" lang="ar" dir="rtl">وَلَنَبْلُوَنَّكُم بِشَيْءٍ مِّنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِّنَ الْأَمْوَالِ وَالْأَنفُسِ وَالثَّمَرَاتِ ۗ وَبَشِّرِ الصَّابِرِينَ</p>
+<p class="translation">و قطعاً شما را با چیزی از ترس، گرسنگی، کاهش در اموال، جان‌ها و محصولات می‌آزماییم، و بشارت بده به صابران؛</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/002-al-baqarah/#ayah-155">البقره <bdi dir="ltr">۲:۱۵۵</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="2:156">
+<p class="arabic" lang="ar" dir="rtl">الَّذِينَ إِذَا أَصَابَتْهُم مُّصِيبَةٌ قَالُوا إِنَّا <button data-root="ا ل ه" data-root-meaning="در خوانش زبانی ما، «الله» با «إله» و ریشه ا ل ه پیوند دارد. «إله» یعنی معبود؛ آن‌که انسان به سوی او توجه، پناه و بندگی می‌برد. پیشوند «الـ» واژه را معرفه می‌سازد و «الإله» را به معنای «آن معبود» نزدیک می‌کند. از ادغام این ساخت، صورت «الله» پدید آمده است." data-context="«الله» در این خوانش فقط یک اسم خاصِ غیرقابل ترجمه نیست، بلکه عنوانی مقامی برای حقیقت یگانه و شایسته مطلق بندگی است. از همین رو، در ترجمه فرقان آن را «آن معبود یگانه» می‌آوریم." data-learn-more="/quran-terminology/fa/roots/a-l-h/" class="word-link" type="button" data-word="لِلَّهِ">لِلَّهِ</button> وَإِنَّا إِلَيْهِ رَاجِعُونَ</p>
+<p class="translation">همان کسانی که وقتی مصیبتی به آنان می‌رسد می‌گویند ما از آن خداییم و به سوی او بازمی‌گردیم.</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/002-al-baqarah/#ayah-156">البقره <bdi dir="ltr">۲:۱۵۶</bdi></a></p>
+</blockquote>
 
     <p>این آیه به‌روشنی نشان می‌دهد سختی‌ها، از جمله از دست دادن جان، مال، سلامت، یا امنیت، بخشی از واقعیت امتحان‌اند، نه نشانه بی‌عدالتی.</p>
   </section>
@@ -174,20 +179,30 @@ excerpt: "تأملی قرآنی درباره قضا و قدر، اختیار ا�
       <p class="source"><a href="/quran-reflection/fa/074-al-muddaththir/038/">المدثر ۷۴:۳۸</a></p>
     </blockquote>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَىٰ ۝ وَأَنَّ سَعْيَهُ سَوْفَ يُرَىٰ</p>
-      <p class="translation">و این‌که برای انسان چیزی نیست جز آنچه تلاش کرده، و تلاش او به‌زودی دیده خواهد شد.</p>
-      <p class="source"><a href="/quran-reflection/fa/053-an-najm/039/">النجم ۵۳:۳۹-۴۰</a></p>
-    </blockquote>
+    <blockquote class="quran-quote" data-verse-unit="53:39">
+<p class="arabic" lang="ar" dir="rtl">وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَىٰ</p>
+<p class="translation">و این‌که برای انسان چیزی نیست جز آنچه تلاش کرده،</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/053-an-najm/#ayah-039">النجم <bdi dir="ltr">۵۳:۳۹</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="53:40">
+<p class="arabic" lang="ar" dir="rtl">وَأَنَّ سَعْيَهُ سَوْفَ يُرَىٰ</p>
+<p class="translation">و تلاش او به‌زودی دیده خواهد شد.</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/053-an-najm/#ayah-040">النجم <bdi dir="ltr">۵۳:۴۰</bdi></a></p>
+</blockquote>
 
     <p>این آیات نشان می‌دهند انسان اختیار واقعی دارد و اعمال او معیار قضاوت قرار می‌گیرد.</p>
     <p>اما در همان حال، قرآن روشن می‌کند که اختیار انسان بیرون از قلمرو اراده خداوند نیست:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">لِمَن شَاءَ مِنكُمْ أَن يَسْتَقِيمَ ۝ وَمَا تَشَاءُونَ إِلَّا أَن يَشَاءَ اللَّهُ رَبُّ الْعَالَمِينَ</p>
-      <p class="translation">برای هر یک از شما که بخواهد راه درست را در پیش گیرد؛ و شما نمی‌خواهید مگر آن‌که خداوند، پروردگار جهانیان، بخواهد.</p>
-      <p class="source"><a href="/quran-reflection/fa/081-at-takwir/028/">التکویر ۸۱:۲۸-۲۹</a></p>
-    </blockquote>
+    <blockquote class="quran-quote" data-verse-unit="81:28">
+<p class="arabic" lang="ar" dir="rtl">لِمَن شَاءَ مِنكُمْ أَن يَسْتَقِيمَ</p>
+<p class="translation">برای هر یک از شما که بخواهد راه درست را در پیش گیرد؛</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/081-at-takwir/#ayah-028">التکویر <bdi dir="ltr">۸۱:۲۸</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="81:29">
+<p class="arabic" lang="ar" dir="rtl">وَمَا تَشَاءُونَ إِلَّا أَن يَشَاءَ <button data-root="ا ل ه" data-root-meaning="در خوانش زبانی ما، «الله» با «إله» و ریشه ا ل ه پیوند دارد. «إله» یعنی معبود؛ آن‌که انسان به سوی او توجه، پناه و بندگی می‌برد. پیشوند «الـ» واژه را معرفه می‌سازد و «الإله» را به معنای «آن معبود» نزدیک می‌کند. از ادغام این ساخت، صورت «الله» پدید آمده است." data-context="«الله» در این خوانش فقط یک اسم خاصِ غیرقابل ترجمه نیست، بلکه عنوانی مقامی برای حقیقت یگانه و شایسته مطلق بندگی است. از همین رو، در ترجمه فرقان آن را «آن معبود یگانه» می‌آوریم." data-learn-more="/quran-terminology/fa/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهُ">اللَّهُ</button> رَبُّ الْعَالَمِينَ</p>
+<p class="translation">و شما نمی‌خواهید مگر آن‌که خداوند، پروردگار جهانیان، بخواهد.</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/081-at-takwir/#ayah-029">التکویر <bdi dir="ltr">۸۱:۲۹</bdi></a></p>
+</blockquote>
 
     <p>این آیه همان تعادلی را نشان می‌دهد که در بخش نخست به آن رسیدیم: انسان می‌خواهد و انتخاب می‌کند، اما این خواستن در چارچوب نظامی است که خداوند بر آن احاطه دارد.</p>
   </section>
@@ -237,11 +252,16 @@ excerpt: "تأملی قرآنی درباره قضا و قدر، اختیار ا�
       <p class="source"><a href="/quran-reflection/fa/029-al-ankabut/064/">العنکبوت ۲۹:۶۴</a></p>
     </blockquote>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا ۝ وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ</p>
-      <p class="translation">اما شما زندگی دنیا را ترجیح می‌دهید، در حالی که آخرت بهتر و پایدارتر است.</p>
-      <p class="source"><a href="/quran-reflection/fa/087-al-ala/016/">الاعلی ۸۷:۱۶-۱۷</a></p>
-    </blockquote>
+    <blockquote class="quran-quote" data-verse-unit="87:16">
+<p class="arabic" lang="ar" dir="rtl">بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا</p>
+<p class="translation">اما شما زندگی دنیا را ترجیح می‌دهید،</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/087-al-ala/#ayah-016">الأعلى <bdi dir="ltr">۸۷:۱۶</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="87:17">
+<p class="arabic" lang="ar" dir="rtl">وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ</p>
+<p class="translation">در حالی که آخرت بهتر و پایدارتر است.</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/087-al-ala/#ayah-017">الأعلى <bdi dir="ltr">۸۷:۱۷</bdi></a></p>
+</blockquote>
 
     <p>این آیات نشان می‌دهند زندگی دنیا در برابر آخرت کوتاه و گذراست، و قضاوت نهایی در چارچوبی بسیار بزرگ‌تر از این زندگی محدود انجام می‌شود.</p>
     <p>در نهایت، خداوند اصل بنیادین عدالت خود را این‌گونه بیان می‌کند:</p>

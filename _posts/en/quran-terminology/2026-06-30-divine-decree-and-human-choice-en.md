@@ -149,11 +149,16 @@ excerpt: "A Qur’an-centered reflection on qada and qadar, free will, determini
     <p>When The God says that the purpose of life is trial, this itself shows that human action is real and meaningful. A trial has meaning only where real choice exists.</p>
     <p>The God also explains the nature of this trial:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَلَنَبْلُوَنَّكُم بِشَيْءٍ مِّنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِّنَ الْأَمْوَالِ وَالْأَنفُسِ وَالثَّمَرَاتِ ۗ وَبَشِّرِ الصَّابِرِينَ ۝ الَّذِينَ إِذَا أَصَابَتْهُم مُّصِيبَةٌ قَالُوا إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ</p>
-      <p class="translation">We will surely test you with something of fear, hunger, loss of wealth, lives, and fruits. Give good news to the patient, those who, when a calamity reaches them, say: We belong to The God, and to Him we return.</p>
-      <p class="source"><a href="/quran-reflection/en/002-al-baqarah/155/">Al-Baqarah 2:155-156</a></p>
-    </blockquote>
+    <blockquote class="quran-quote" data-verse-unit="2:155">
+<p class="arabic" lang="ar" dir="rtl">وَلَنَبْلُوَنَّكُم بِشَيْءٍ مِّنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِّنَ الْأَمْوَالِ وَالْأَنفُسِ وَالثَّمَرَاتِ ۗ وَبَشِّرِ الصَّابِرِينَ</p>
+<p class="translation">We will surely test you with something of fear, hunger, loss of wealth, lives, and fruits. Give good news to the patient,</p>
+<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-155">Al-Baqarah <bdi dir="ltr">2:155</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="2:156">
+<p class="arabic" lang="ar" dir="rtl">الَّذِينَ إِذَا أَصَابَتْهُم مُّصِيبَةٌ قَالُوا إِنَّا <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="لِلَّهِ">لِلَّهِ</button> وَإِنَّا إِلَيْهِ رَاجِعُونَ</p>
+<p class="translation">those who, when a calamity reaches them, say: We belong to The God, and to Him we return.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-156">Al-Baqarah <bdi dir="ltr">2:156</bdi></a></p>
+</blockquote>
 
     <p>This verse shows clearly that hardship, including the loss of life, wealth, health, or security, belongs to the reality of trial. It is not, by itself, a sign of injustice.</p>
   </section>
@@ -174,20 +179,30 @@ excerpt: "A Qur’an-centered reflection on qada and qadar, free will, determini
       <p class="source"><a href="/quran-reflection/en/074-al-muddaththir/038/">Al-Muddaththir 74:38</a></p>
     </blockquote>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَىٰ ۝ وَأَنَّ سَعْيَهُ سَوْفَ يُرَىٰ</p>
-      <p class="translation">And that the human being has nothing except what he strives for, and that his striving will soon be seen.</p>
-      <p class="source"><a href="/quran-reflection/en/053-an-najm/039/">An-Najm 53:39-40</a></p>
-    </blockquote>
+    <blockquote class="quran-quote" data-verse-unit="53:39">
+<p class="arabic" lang="ar" dir="rtl">وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَىٰ</p>
+<p class="translation">And that the human being has nothing except what he strives for,</p>
+<p class="verse-ref"><a href="/quran-reflection/en/053-an-najm/#ayah-039">An-Najm <bdi dir="ltr">53:39</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="53:40">
+<p class="arabic" lang="ar" dir="rtl">وَأَنَّ سَعْيَهُ سَوْفَ يُرَىٰ</p>
+<p class="translation">and that his striving will soon be seen.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/053-an-najm/#ayah-040">An-Najm <bdi dir="ltr">53:40</bdi></a></p>
+</blockquote>
 
     <p>These verses show that the human being has real choice and that his actions are the basis of judgment.</p>
     <p>Yet the Qur’an also makes clear that human will is not outside the will of The God:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">لِمَن شَاءَ مِنكُمْ أَن يَسْتَقِيمَ ۝ وَمَا تَشَاءُونَ إِلَّا أَن يَشَاءَ اللَّهُ رَبُّ الْعَالَمِينَ</p>
-      <p class="translation">For whoever among you wills to go straight; and you do not will except that The God, Lord of all worlds, wills.</p>
-      <p class="source"><a href="/quran-reflection/en/081-at-takwir/028/">At-Takwir 81:28-29</a></p>
-    </blockquote>
+    <blockquote class="quran-quote" data-verse-unit="81:28">
+<p class="arabic" lang="ar" dir="rtl">لِمَن شَاءَ مِنكُمْ أَن يَسْتَقِيمَ</p>
+<p class="translation">For whoever among you wills to go straight;</p>
+<p class="verse-ref"><a href="/quran-reflection/en/081-at-takwir/#ayah-028">At-Takwir <bdi dir="ltr">81:28</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="81:29">
+<p class="arabic" lang="ar" dir="rtl">وَمَا تَشَاءُونَ إِلَّا أَن يَشَاءَ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهُ">اللَّهُ</button> رَبُّ الْعَالَمِينَ</p>
+<p class="translation">and you do not will except that The God, Lord of all worlds, wills.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/081-at-takwir/#ayah-029">At-Takwir <bdi dir="ltr">81:29</bdi></a></p>
+</blockquote>
 
     <p>This verse expresses the balance we reached earlier: the human being wills and chooses, but this willing occurs within an order encompassed by The God.</p>
   </section>
@@ -237,11 +252,16 @@ excerpt: "A Qur’an-centered reflection on qada and qadar, free will, determini
       <p class="source"><a href="/quran-reflection/en/029-al-ankabut/064/">Al-‘Ankabut 29:64</a></p>
     </blockquote>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا ۝ وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ</p>
-      <p class="translation">Rather, you prefer the worldly life, while the Hereafter is better and more lasting.</p>
-      <p class="source"><a href="/quran-reflection/en/087-al-ala/016/">Al-A‘la 87:16-17</a></p>
-    </blockquote>
+    <blockquote class="quran-quote" data-verse-unit="87:16">
+<p class="arabic" lang="ar" dir="rtl">بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا</p>
+<p class="translation">Rather, you prefer the worldly life,</p>
+<p class="verse-ref"><a href="/quran-reflection/en/087-al-ala/#ayah-016">Al-A'la <bdi dir="ltr">87:16</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="87:17">
+<p class="arabic" lang="ar" dir="rtl">وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ</p>
+<p class="translation">while the Hereafter is better and more lasting.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/087-al-ala/#ayah-017">Al-A'la <bdi dir="ltr">87:17</bdi></a></p>
+</blockquote>
 
     <p>These verses show that worldly life is brief and passing in relation to the Hereafter, and final judgment takes place within a frame much greater than this limited life.</p>
     <p>Finally, The God states the foundation of His justice:</p>

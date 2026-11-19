@@ -225,11 +225,16 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
     <p>Even when a husband accuses his wife, the Qur’an does not give him absolute authority. In An-Nur 24:6-9, the process of li‘an appears: sworn testimonies from the man, and then a right of response and defense for the woman. Even in marital conflict, the Qur’an does not accept a man’s claim without structure.</p>
     <p>In theft, although the ruling is severe, the Qur’an mentions the subject, equal application to male and female, the reason for the penalty, and the path of repentance and reform:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَالسَّارِقُ وَالسَّارِقَةُ ... جَزَاءً بِمَا كَسَبَا ... فَمَن تَابَ مِن بَعْدِ ظُلْمِهِ وَأَصْلَحَ</p>
-      <p class="translation">The male thief and the female thief... as recompense for what they earned... whoever repents after his wrongdoing and reforms.</p>
-      <p class="source"><a href="/quran-reflection/en/005-al-maidah/038/">Al-Ma’idah 5:38-39</a></p>
-    </blockquote>
+    <blockquote class="quran-quote" data-verse-unit="5:38">
+<p class="arabic" lang="ar" dir="rtl">وَالسَّارِقُ وَالسَّارِقَةُ ... جَزَاءً بِمَا كَسَبَا</p>
+<p class="translation">The male thief and the female thief... as recompense for what they earned...</p>
+<p class="verse-ref"><a href="/quran-reflection/en/005-al-maidah/#ayah-038">Al-Ma'idah <bdi dir="ltr">5:38</bdi></a> — excerpt</p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="5:39">
+<p class="arabic" lang="ar" dir="rtl">فَمَن تَابَ مِن بَعْدِ ظُلْمِهِ وَأَصْلَحَ</p>
+<p class="translation">whoever repents after his wrongdoing and reforms.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/005-al-maidah/#ayah-039">Al-Ma'idah <bdi dir="ltr">5:39</bdi></a> — excerpt</p>
+</blockquote>
 
     <p>So in matters of body, honor, accusation, and punishment, the Qur’an does not leave rulings floating without limits. If <span class="term">wa-idribuhunna</span> means physical beating, then suddenly, in the most sensitive family space, an undefined and unsupervised bodily authority is placed in the husband’s hand. This does not fit the Qur’an’s method of justice and mercy.</p>
   </section>

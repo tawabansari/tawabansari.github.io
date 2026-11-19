@@ -75,11 +75,36 @@ excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s du
 
   <p>Surah Al-Kafirun also expresses a clear boundary of belief without compulsion:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">قُلْ يَا أَيُّهَا الْكَافِرُونَ ۝ لَا أَعْبُدُ مَا تَعْبُدُونَ ۝ وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ ۝ وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ ۝ وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ ۝ لَكُمْ دِينُكُمْ وَلِيَ دِينِ</p>
-    <p class="translation">Say: O disbelievers. I do not worship what you worship. Nor are you worshippers of what I worship. Nor am I a worshipper of what you have worshipped. Nor are you worshippers of what I worship. For you is your religion, and for me is my religion.</p>
-    <p class="source"><a href="/quran-reflection/en/109-al-kafirun/001/">Al-Kafirun 109:1–6</a></p>
-  </blockquote>
+  <blockquote class="quran-quote" data-verse-unit="109:1">
+<p class="arabic" lang="ar" dir="rtl">قُلْ يَا أَيُّهَا الْكَافِرُونَ</p>
+<p class="translation">Say: O disbelievers.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/109-al-kafirun/#ayah-001">Al-Kafirun <bdi dir="ltr">109:1</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="109:2">
+<p class="arabic" lang="ar" dir="rtl">لَا أَعْبُدُ مَا تَعْبُدُونَ</p>
+<p class="translation">I do not worship what you worship.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/109-al-kafirun/#ayah-002">Al-Kafirun <bdi dir="ltr">109:2</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="109:3">
+<p class="arabic" lang="ar" dir="rtl">وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ</p>
+<p class="translation">Nor are you worshippers of what I worship.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/109-al-kafirun/#ayah-003">Al-Kafirun <bdi dir="ltr">109:3</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="109:4">
+<p class="arabic" lang="ar" dir="rtl">وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ</p>
+<p class="translation">Nor am I a worshipper of what you have worshipped.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/109-al-kafirun/#ayah-004">Al-Kafirun <bdi dir="ltr">109:4</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="109:5">
+<p class="arabic" lang="ar" dir="rtl">وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ</p>
+<p class="translation">Nor are you worshippers of what I worship.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/109-al-kafirun/#ayah-005">Al-Kafirun <bdi dir="ltr">109:5</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="109:6">
+<p class="arabic" lang="ar" dir="rtl">لَكُمْ دِينُكُمْ وَلِيَ دِينِ</p>
+<p class="translation">For you is your religion, and for me is my religion.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/109-al-kafirun/#ayah-006">Al-Kafirun <bdi dir="ltr">109:6</bdi></a></p>
+</blockquote>
 
   <p>This surah is neither surrender before falsehood nor coercion of opponents into faith. The Messenger does not abandon truth, but he also does not contaminate truth with coercion. The boundary of belief is preserved, but the conscience of the human being is not seized.</p>
 
@@ -87,11 +112,36 @@ excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s du
 
   <p>The Qur’an repeatedly clarifies the limit of the Messenger’s mission. The Messenger is not the owner of people’s hearts. He is not an appointed guard over their conscience. He is not a tyrant over their faith. His duty is to convey the message.</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">فَذَكِّرْ إِنَّمَا أَنتَ مُذَكِّرٌ ۝ لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ ۝ إِلَّا مَن تَوَلَّىٰ وَكَفَرَ ۝ فَيُعَذِّبُهُ اللَّهُ الْعَذَابَ الْأَكْبَرَ ۝ إِنَّ إِلَيْنَا إِيَابَهُمْ ۝ ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم</p>
-    <p class="translation">So remind. You are only a reminder. You are not over them a controller. Except the one who turns away and disbelieves. Then The God will punish him with the greater punishment. Indeed, to Us is their return. Then indeed, upon Us is their account.</p>
-    <p class="source"><a href="/quran-reflection/en/088-al-ghashiyah/021/">Al-Ghashiyah 88:21–26</a></p>
-  </blockquote>
+  <blockquote class="quran-quote" data-verse-unit="88:21">
+<p class="arabic" lang="ar" dir="rtl">فَذَكِّرْ إِنَّمَا أَنتَ مُذَكِّرٌ</p>
+<p class="translation">So remind. You are only a reminder.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/088-al-ghashiyah/#ayah-021">Al-Ghashiyah <bdi dir="ltr">88:21</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="88:22">
+<p class="arabic" lang="ar" dir="rtl">لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ</p>
+<p class="translation">You are not over them a controller.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/088-al-ghashiyah/#ayah-022">Al-Ghashiyah <bdi dir="ltr">88:22</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="88:23">
+<p class="arabic" lang="ar" dir="rtl">إِلَّا مَن تَوَلَّىٰ وَكَفَرَ</p>
+<p class="translation">Except the one who turns away and disbelieves.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/088-al-ghashiyah/#ayah-023">Al-Ghashiyah <bdi dir="ltr">88:23</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="88:24">
+<p class="arabic" lang="ar" dir="rtl">فَيُعَذِّبُهُ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهُ">اللَّهُ</button> الْعَذَابَ الْأَكْبَرَ</p>
+<p class="translation">Then The God will punish him with the greater punishment.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/088-al-ghashiyah/#ayah-024">Al-Ghashiyah <bdi dir="ltr">88:24</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="88:25">
+<p class="arabic" lang="ar" dir="rtl">إِنَّ إِلَيْنَا إِيَابَهُمْ</p>
+<p class="translation">Indeed, to Us is their return.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/088-al-ghashiyah/#ayah-025">Al-Ghashiyah <bdi dir="ltr">88:25</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="88:26">
+<p class="arabic" lang="ar" dir="rtl">ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم</p>
+<p class="translation">Then indeed, upon Us is their account.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/088-al-ghashiyah/#ayah-026">Al-Ghashiyah <bdi dir="ltr">88:26</bdi></a></p>
+</blockquote>
 
   <p>The end of these verses is decisive: “upon Us is their account.” Even after denial and turning away, the final accounting is left to The God. The Messenger is assigned to remind, not to seize control of people’s conscience.</p>
 
@@ -185,11 +235,16 @@ excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s du
 
   <p>The Qur’an connects the first permission to fight with injustice and expulsion, not with difference in belief:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">أُذِنَ لِلَّذِينَ يُقَاتَلُونَ بِأَنَّهُمْ ظُلِمُوا ۚ وَإِنَّ اللَّهَ عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ ۝ الَّذِينَ أُخْرِجُوا مِن دِيَارِهِم بِغَيْرِ حَقٍّ إِلَّا أَن يَقُولُوا رَبُّنَا اللَّهُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُم بِبَعْضٍ لَّهُدِّمَتْ صَوَامِعُ وَبِيَعٌ وَصَلَوَاتٌ وَمَسَاجِدُ يُذْكَرُ فِيهَا اسْمُ اللَّهِ كَثِيرًا ۗ وَلَيَنصُرَنَّ اللَّهُ مَن يَنصُرُهُ ۗ إِنَّ اللَّهَ لَقَوِيٌّ عَزِيزٌ</p>
-    <p class="translation">Permission has been given to those who are fought, because they have been wronged. And indeed, The God is capable of giving them victory. Those who were expelled from their homes without right, except that they said: Our Lord is The God. And if The God did not repel some people by means of others, monasteries, churches, synagogues, and mosques in which the name of The God is remembered much would have been demolished. And The God will surely help whoever helps Him. Indeed, The God is Strong, Mighty.</p>
-    <p class="source"><a href="/quran-reflection/en/022-al-hajj/039/">Al-Hajj 22:39–40</a></p>
-  </blockquote>
+  <blockquote class="quran-quote" data-verse-unit="22:39">
+<p class="arabic" lang="ar" dir="rtl">أُذِنَ لِلَّذِينَ يُقَاتَلُونَ بِأَنَّهُمْ ظُلِمُوا ۚ وَإِنَّ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهَ">اللَّهَ</button> عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ</p>
+<p class="translation">Permission has been given to those who are fought, because they have been wronged. And indeed, The God is capable of giving them victory.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/022-al-hajj/#ayah-039">Al-Hajj <bdi dir="ltr">22:39</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="22:40">
+<p class="arabic" lang="ar" dir="rtl">الَّذِينَ أُخْرِجُوا مِن دِيَارِهِم بِغَيْرِ حَقٍّ إِلَّا أَن يَقُولُوا رَبُّنَا <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهُ">اللَّهُ</button> ۗ وَلَوْلَا دَفْعُ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهِ">اللَّهِ</button> النَّاسَ بَعْضَهُم بِبَعْضٍ لَّهُدِّمَتْ صَوَامِعُ وَبِيَعٌ وَصَلَوَاتٌ وَمَسَاجِدُ يُذْكَرُ فِيهَا اسْمُ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهِ">اللَّهِ</button> كَثِيرًا ۗ وَلَيَنصُرَنَّ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهُ">اللَّهُ</button> مَن يَنصُرُهُ ۗ إِنَّ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهَ">اللَّهَ</button> لَقَوِيٌّ عَزِيزٌ</p>
+<p class="translation">Those who were expelled from their homes without right, except that they said: Our Lord is The God. And if The God did not repel some people by means of others, monasteries, churches, synagogues, and mosques in which the name of The God is remembered much would have been demolished. And The God will surely help whoever helps Him. Indeed, The God is Strong, Mighty.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/022-al-hajj/#ayah-040">Al-Hajj <bdi dir="ltr">22:40</bdi></a></p>
+</blockquote>
 
   <p>These verses are decisive. When the Qur’an grants permission to fight, it does not defend only mosques; it mentions monasteries, churches, synagogues, and mosques. This means that the purpose of fighting is not the domination of one religious community over all others. The purpose is to repel an injustice that destroys the possibility of worship, religious life, and remembrance of The God for different communities.</p>
 
@@ -205,11 +260,26 @@ excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s du
 
   <p>The same meaning appears with precision in the fighting verses of Surah Al-Baqarah. These verses must be read fully and continuously, not cut apart from their context:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">وَقَاتِلُوا فِي سَبِيلِ اللَّهِ الَّذِينَ يُقَاتِلُونَكُمْ وَلَا تَعْتَدُوا ۚ إِنَّ اللَّهَ لَا يُحِبُّ الْمُعْتَدِينَ ۝ وَاقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ وَأَخْرِجُوهُم مِّنْ حَيْثُ أَخْرَجُوكُمْ ۚ وَالْفِتْنَةُ أَشَدُّ مِنَ الْقَتْلِ ۚ وَلَا تُقَاتِلُوهُمْ عِندَ الْمَسْجِدِ الْحَرَامِ حَتَّىٰ يُقَاتِلُوكُمْ فِيهِ ۖ فَإِن قَاتَلُوكُمْ فَاقْتُلُوهُمْ ۗ كَذَٰلِكَ جَزَاءُ الْكَافِرِينَ ۝ فَإِنِ انتَهَوْا فَإِنَّ اللَّهَ غَفُورٌ رَّحِيمٌ ۝ وَقَاتِلُوهُمْ حَتَّىٰ لَا تَكُونَ فِتْنَةٌ وَيَكُونَ الدِّينُ لِلَّهِ ۖ فَإِنِ انتَهَوْا فَلَا عُدْوَانَ إِلَّا عَلَى الظَّالِمِينَ</p>
-    <p class="translation">And fight in the way of The God those who fight you, and do not transgress. Indeed, The God does not love the transgressors. And kill them wherever you encounter them, and expel them from where they expelled you; and fitnah is more severe than killing. And do not fight them at the Sacred Mosque until they fight you there. But if they fight you, then kill them. Such is the recompense of the disbelievers. But if they cease, then indeed The God is Forgiving, Merciful. And fight them until there is no fitnah and the religion is for The God. But if they cease, then there is no hostility except against the wrongdoers.</p>
-    <p class="source"><a href="/quran-reflection/en/002-al-baqarah/190/">Al-Baqarah 2:190–193</a></p>
-  </blockquote>
+  <blockquote class="quran-quote" data-verse-unit="2:190">
+<p class="arabic" lang="ar" dir="rtl">وَقَاتِلُوا فِي سَبِيلِ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهِ">اللَّهِ</button> الَّذِينَ يُقَاتِلُونَكُمْ وَلَا تَعْتَدُوا ۚ إِنَّ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهَ">اللَّهَ</button> لَا يُحِبُّ الْمُعْتَدِينَ</p>
+<p class="translation">And fight in the way of The God those who fight you, and do not transgress. Indeed, The God does not love the transgressors.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-190">Al-Baqarah <bdi dir="ltr">2:190</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="2:191">
+<p class="arabic" lang="ar" dir="rtl">وَاقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ وَأَخْرِجُوهُم مِّنْ حَيْثُ أَخْرَجُوكُمْ ۚ وَالْفِتْنَةُ أَشَدُّ مِنَ الْقَتْلِ ۚ وَلَا تُقَاتِلُوهُمْ عِندَ الْمَسْجِدِ الْحَرَامِ حَتَّىٰ يُقَاتِلُوكُمْ فِيهِ ۖ فَإِن قَاتَلُوكُمْ فَاقْتُلُوهُمْ ۗ كَذَٰلِكَ جَزَاءُ الْكَافِرِينَ</p>
+<p class="translation">And kill them wherever you encounter them, and expel them from where they expelled you; and fitnah is more severe than killing. And do not fight them at the Sacred Mosque until they fight you there. But if they fight you, then kill them. Such is the recompense of the disbelievers.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-191">Al-Baqarah <bdi dir="ltr">2:191</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="2:192">
+<p class="arabic" lang="ar" dir="rtl">فَإِنِ انتَهَوْا فَإِنَّ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهَ">اللَّهَ</button> غَفُورٌ رَّحِيمٌ</p>
+<p class="translation">But if they cease, then indeed The God is Forgiving, Merciful.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-192">Al-Baqarah <bdi dir="ltr">2:192</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="2:193">
+<p class="arabic" lang="ar" dir="rtl">وَقَاتِلُوهُمْ حَتَّىٰ لَا تَكُونَ فِتْنَةٌ وَيَكُونَ الدِّينُ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="لِلَّهِ">لِلَّهِ</button> ۖ فَإِنِ انتَهَوْا فَلَا عُدْوَانَ إِلَّا عَلَى الظَّالِمِينَ</p>
+<p class="translation">And fight them until there is no fitnah and the religion is for The God. But if they cease, then there is no hostility except against the wrongdoers.</p>
+<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-193">Al-Baqarah <bdi dir="ltr">2:193</bdi></a></p>
+</blockquote>
 
   <p>When these verses are read completely, they do not permit transgression. Their beginning says: fight those who fight you, and do not transgress. Their ending says: if they cease, there is no hostility except against the wrongdoers. Therefore, fighting is not for destroying the freedom of others; it is for ending fitnah, expulsion, war, and injustice.</p>
 

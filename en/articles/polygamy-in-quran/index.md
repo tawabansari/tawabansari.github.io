@@ -90,10 +90,16 @@ So, on one hand, [An-Nisa 4:3](/quran-reflection/en/004-an-nisa/003/) says that 
 
 The Qur'an treats the family as a weighty covenant, not a light contract that a man may emotionally and psychologically break whenever he wishes:
 
-وَإِنْ أَرَدتُّمُ اسْتِبْدَالَ زَوْجٍ مَّكَانَ زَوْجٍ وَآتَيْتُمْ إِحْدَاهُنَّ قِنطَارًا فَلَا تَأْخُذُوا مِنْهُ شَيْئًا ۚ أَتَأْخُذُونَهُ بُهْتَانًا وَإِثْمًا مُّبِينًا ۝ وَكَيْفَ تَأْخُذُونَهُ وَقَدْ أَفْضَىٰ بَعْضُكُمْ إِلَىٰ بَعْضٍ وَأَخَذْنَ مِنكُم مِّيثَاقًا غَلِيظًا  
-([An-Nisa 4:20](/quran-reflection/en/004-an-nisa/020/)–[21](/quran-reflection/en/004-an-nisa/021/))
-
-“And if you wish to replace one wife with another, and you have given one of them a great amount, do not take anything from it. Would you take it by slander and manifest sin? And how could you take it when you have gone in unto one another, and they have taken from you a solemn covenant?”
+<blockquote class="quran-quote" data-verse-unit="4:20">
+<p class="arabic" lang="ar" dir="rtl">وَإِنْ أَرَدتُّمُ اسْتِبْدَالَ زَوْجٍ مَّكَانَ زَوْجٍ وَآتَيْتُمْ إِحْدَاهُنَّ قِنطَارًا فَلَا تَأْخُذُوا مِنْهُ شَيْئًا ۚ أَتَأْخُذُونَهُ بُهْتَانًا وَإِثْمًا مُّبِينًا</p>
+<p class="translation">And if you wish to replace one wife with another, and you have given one of them a great amount, do not take anything from it. Would you take it by slander and manifest sin?</p>
+<p class="verse-ref"><a href="/quran-reflection/en/004-an-nisa/#ayah-020">An-Nisa <bdi dir="ltr">4:20</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="4:21">
+<p class="arabic" lang="ar" dir="rtl">وَكَيْفَ تَأْخُذُونَهُ وَقَدْ أَفْضَىٰ بَعْضُكُمْ إِلَىٰ بَعْضٍ وَأَخَذْنَ مِنكُم مِّيثَاقًا غَلِيظًا</p>
+<p class="translation">And how could you take it when you have gone in unto one another, and they have taken from you a solemn covenant?</p>
+<p class="verse-ref"><a href="/quran-reflection/en/004-an-nisa/#ayah-021">An-Nisa <bdi dir="ltr">4:21</bdi></a></p>
+</blockquote>
 
 The phrase **solemn covenant** is deeply weighty. The Qur'an uses this seriousness for the marital covenant. So if a woman and a man entered marriage, openly or by clear custom, upon monogamy, loyalty, family tranquility, and preserving one another's dignity, the man cannot later cut one verse from its context and use it to make that covenant meaningless.
 

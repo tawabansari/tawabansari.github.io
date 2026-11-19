@@ -169,31 +169,66 @@ excerpt: "پژوهشی درباره معنای صلاة و اقامه آن، ف�
 <span id="showing-off" class="legacy-anchor" aria-hidden="true"></span>
 <span id="what-must-not-happen" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="heedlessness" data-source-line="138">۴. هشدار به نمازگزاران؛ سوره ماعون را کامل بخوانیم</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-139" data-source-line="139">«أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-140" data-source-line="140">«فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-141" data-source-line="141">«وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-142" data-source-line="142">«فَوَيْلٌ لِّلْمُصَلِّينَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-143" data-source-line="143">«ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-144" data-source-line="144">«ٱلَّذِينَ هُمْ يُرَآءُونَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-145" data-source-line="145">«وَيَمْنَعُونَ ٱلْمَاعُونَ»</p>
-<p class="verse-ref" data-source-line="146">(ماعون <bdi dir="ltr">۱۰۷:۱</bdi>، <bdi dir="ltr">۱۰۷:۲</bdi>، <bdi dir="ltr">۱۰۷:۳</bdi>، <bdi dir="ltr">۱۰۷:۴</bdi>، <bdi dir="ltr">۱۰۷:۵</bdi>، <bdi dir="ltr">۱۰۷:۶</bdi>، <bdi dir="ltr">۱۰۷:۷</bdi>)</p>
-<p class="translation" id="passage-147" data-source-line="147">ترجمه: «آیا کسی را که دین را تکذیب می‌کند دیده‌ای؟ او همان کسی است که یتیم را با خشونت می‌راند و به خوراک دادن به بینوا ترغیب نمی‌کند. پس وای بر نمازگزاران؛ آنان که از صلاة خود غافل‌اند، آنان که ریا می‌کنند و از رساندن یاری و وسایل مورد نیاز دریغ می‌ورزند.»</p></blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:1">
+<p class="arabic" lang="ar" dir="rtl" id="quote-139">أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ</p>
+<p class="translation" id="passage-147">آیا کسی را که دین را تکذیب می‌کند دیده‌ای؟</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/107-al-maun/#ayah-001">الماعون <bdi dir="ltr">۱۰۷:۱</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:2">
+<p class="arabic" lang="ar" dir="rtl" id="quote-140">فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ</p>
+<p class="translation">او همان کسی است که یتیم را با خشونت می‌راند</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/107-al-maun/#ayah-002">الماعون <bdi dir="ltr">۱۰۷:۲</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:3">
+<p class="arabic" lang="ar" dir="rtl" id="quote-141">وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ</p>
+<p class="translation">و به خوراک دادن به بینوا ترغیب نمی‌کند.</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/107-al-maun/#ayah-003">الماعون <bdi dir="ltr">۱۰۷:۳</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:4">
+<p class="arabic" lang="ar" dir="rtl" id="quote-142">فَوَيْلٌ لِّلْمُصَلِّينَ</p>
+<p class="translation">پس وای بر نمازگزاران؛</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/107-al-maun/#ayah-004">الماعون <bdi dir="ltr">۱۰۷:۴</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:5">
+<p class="arabic" lang="ar" dir="rtl" id="quote-143">ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ</p>
+<p class="translation">آنان که از صلاة خود غافل‌اند،</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/107-al-maun/#ayah-005">الماعون <bdi dir="ltr">۱۰۷:۵</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:6">
+<p class="arabic" lang="ar" dir="rtl" id="quote-144">ٱلَّذِينَ هُمْ يُرَآءُونَ</p>
+<p class="translation">آنان که ریا می‌کنند</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/107-al-maun/#ayah-006">الماعون <bdi dir="ltr">۱۰۷:۶</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="107:7">
+<p class="arabic" lang="ar" dir="rtl" id="quote-145">وَيَمْنَعُونَ ٱلْمَاعُونَ</p>
+<p class="translation">و از رساندن یاری و وسایل مورد نیاز دریغ می‌ورزند.</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/107-al-maun/#ayah-007">الماعون <bdi dir="ltr">۱۰۷:۷</bdi></a></p>
+</blockquote>
 <p id="passage-148" data-source-line="148">سوره ماعون از رفتار انسان با یتیم و نیازمند آغاز می‌شود و سپس به نمازگزارانی می‌رسد که ریا می‌کنند و از یاری دیگران دریغ می‌ورزند. این پیوستگی اهمیت دارد. هشدار سوره را نمی‌توان تنها به حواس‌پرتی گذرای ذهن هنگام نماز محدود کرد. قرآن از کسانی سخن می‌گوید که «از صلاة خود» غافل‌اند و در همان حال، عبادت را وسیله خودنمایی کرده و کمک به دیگران را دریغ می‌دارند.</p>
 <p id="passage-149" data-source-line="149">میان کسی که هنگام نماز ذهنش برای لحظه‌ای منحرف می‌شود، از این حالت ناراحت است و می‌کوشد توجه خود را بازگرداند، با کسی که نماز را برای دیده شدن می‌خواند و مسئولیتش را در برابر مردم فراموش می‌کند، تفاوت بسیار است. اگر هشدار این سوره را تنها به لغزش‌های طبیعی ذهن مربوط بدانیم، مسئله اصلی را از نظر دور داشته‌ایم: حفظ ظاهر عبادت، همراه با فراموش کردن هدف آن.</p>
 <p id="passage-150" data-source-line="150">در مریم <bdi dir="ltr">۱۹:۵۹</bdi>، ضایع کردن صلاة در کنار پیروی از شهوات آمده است. در معارج <bdi dir="ltr">۷۰:۲۲</bdi>، <bdi dir="ltr">۷۰:۲۳</bdi>، <bdi dir="ltr">۷۰:۲۴</bdi>، <bdi dir="ltr">۷۰:۲۵</bdi>، <bdi dir="ltr">۷۰:۲۶</bdi>، <bdi dir="ltr">۷۰:۲۷</bdi>، <bdi dir="ltr">۷۰:۲۸</bdi>، <bdi dir="ltr">۷۰:۲۹</bdi>، <bdi dir="ltr">۷۰:۳۰</bdi>، <bdi dir="ltr">۷۰:۳۱</bdi>، <bdi dir="ltr">۷۰:۳۲</bdi>، <bdi dir="ltr">۷۰:۳۳</bdi>، <bdi dir="ltr">۷۰:۳۴</bdi>، <bdi dir="ltr">۷۰:۳۵</bdi> نیز توصیف نمازگزاران با مداومت بر صلاة آغاز می‌شود، سپس از حق سائل و محروم، تصدیق روز جزا، امانت‌داری، وفای به عهد و شهادت سخن می‌رود و در پایان دوباره از نگاهبانی صلاة یاد می‌شود. این آیات نشان می‌دهند که نماز از زندگی روزانه و حقوق مردم جدا نیست. رسیدگی به آن حقوق، مسئله‌ای فرعی نیست که تنها پس از پایان بحث‌های مربوط به جزئیات مناسک نوبتش برسد.</p>
 <h3 id="heavy-without-khushu" data-source-line="151">۵. خشوع، صبر و مداومت</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-152" data-source-line="152">«قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-153" data-source-line="153">«ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَٰشِعُونَ»</p>
-<p class="verse-ref" data-source-line="154">(مؤمنون <bdi dir="ltr">۲۳:۱</bdi>، <bdi dir="ltr">۲۳:۲</bdi>)</p>
-<p class="translation" id="passage-155" data-source-line="155">ترجمه: «به‌راستی مؤمنان رستگار شدند؛ همان کسانی که در صلاة خود خاشع‌اند.»</p></blockquote>
+<blockquote class="quran-quote" data-verse-unit="23:1">
+<p class="arabic" lang="ar" dir="rtl" id="quote-152">قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ</p>
+<p class="translation" id="passage-155">به‌راستی مؤمنان رستگار شدند؛</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/023-al-muminun/#ayah-001">المؤمنون <bdi dir="ltr">۲۳:۱</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="23:2">
+<p class="arabic" lang="ar" dir="rtl" id="quote-153">ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَٰشِعُونَ</p>
+<p class="translation">همان کسانی که در صلاة خود خاشع‌اند.</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/023-al-muminun/#ayah-002">المؤمنون <bdi dir="ltr">۲۳:۲</bdi></a></p>
+</blockquote>
 <p id="passage-156" data-source-line="156">قرآن پس از خبر رستگاری مؤمنان، نخست از خشوع آنان در صلاة یاد می‌کند. پس چگونگی حضور در عبادت، در کنار خود عمل، اهمیت دارد. نمازگزار با آنچه می‌گوید و انجام می‌دهد باید از تکبر فاصله بگیرد و در برابر خداوند فروتن باشد؛ صرف تکرار حرکت‌ها جای این فروتنی را نمی‌گیرد.</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-157" data-source-line="157">«وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-158" data-source-line="158">«ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا۟ رَبِّهِمْ وَأَنَّهُمْ إِلَيْهِ رَٰجِعُونَ»</p>
-<p class="verse-ref" data-source-line="159">(بقره <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/fa/002-al-baqarah/#ayah-045"><bdi dir="ltr">۲:۴۵</bdi></a>، <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/fa/002-al-baqarah/#ayah-046"><bdi dir="ltr">۲:۴۶</bdi></a>)</p>
-<p class="translation" id="passage-160" data-source-line="160">ترجمه: «و از صبر و صلاة یاری بجویید؛ و همانا آن، جز بر خاشعان، سنگین است؛ همان کسانی که می‌دانند با پروردگارشان دیدار خواهند کرد و به سوی او بازمی‌گردند.»</p></blockquote>
+<blockquote class="quran-quote" data-verse-unit="2:45">
+<p class="arabic" lang="ar" dir="rtl" id="quote-157">وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ</p>
+<p class="translation" id="passage-160">و از صبر و صلاة یاری بجویید؛ و همانا آن، جز بر خاشعان، سنگین است؛</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/002-al-baqarah/#ayah-045">البقره <bdi dir="ltr">۲:۴۵</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="2:46">
+<p class="arabic" lang="ar" dir="rtl" id="quote-158">ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا۟ رَبِّهِمْ وَأَنَّهُمْ إِلَيْهِ رَٰجِعُونَ</p>
+<p class="translation">همان کسانی که می‌دانند با پروردگارشان دیدار خواهند کرد و به سوی او بازمی‌گردند.</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/002-al-baqarah/#ayah-046">البقره <bdi dir="ltr">۲:۴۶</bdi></a></p>
+</blockquote>
 <p id="passage-161" data-source-line="161">در این آیات، خشوع با توجه انسان به پروردگار و بازگشت نهایی به سوی او پیوند یافته است. خشوع تنها پایین انداختن سر، تغییر چهره یا آهسته کردن صدا نیست؛ انسان درمی‌یابد که حقیقت، از خواسته‌ها و داوری‌های شخصی او بزرگ‌تر است. کسی که نماز را فقط کاری برای رفع تکلیف می‌داند، با کسی که در آن به جایگاه و سرانجام خود می‌اندیشد، یکسان عبادت نمی‌کند.</p>
 <p id="passage-162" data-source-line="162">در همین آیات، صبر نیز در کنار صلاة آمده است. شناخت راه درست کافی نیست؛ برای ماندن در آن باید در برابر فشارها و کشش‌های مخالف پایداری کرد. نماز یاد خدا را تازه می‌کند و صبر به انسان کمک می‌کند این یاد را در رفتار خود نگه دارد. قرآن در جای دیگری نیز این پیوند را نشان می‌دهد:</p>
 <blockquote class="quran-quote">
@@ -305,11 +340,16 @@ excerpt: "پژوهشی درباره معنای صلاة و اقامه آن، ف�
 <p class="translation" id="passage-253" data-source-line="253">ترجمه: «ای کسانی که ایمان آورده‌اید، کسانی که در مالکیت شما هستند و کسانی از شما که هنوز به بلوغ نرسیده‌اند، باید در سه هنگام از شما اجازه بگیرند: پیش از صلاة فجر، هنگامی که در نیمروز لباس‌های خود را کنار می‌گذارید، و پس از صلاة عشاء. اینها سه هنگام خلوت شماست. پس از این هنگام‌ها، نه بر شما گناهی است و نه بر آنان؛ پیوسته نزد شما رفت‌وآمد می‌کنند، برخی از شما نزد برخی دیگر. خداوند آیات را این‌گونه برای شما روشن می‌سازد، و خداوند دانا و حکیم است.»</p></blockquote>
 <p id="passage-254" data-source-line="254">در این آیه «صلاة فجر» و «صلاة عشاء» برای مخاطبان نام‌هایی آشنا بوده‌اند؛ قرآن آنها را نشانه دو هنگام از خلوت خانواده قرار داده است. اما سه نوبت اجازه گرفتن به معنای وجود سه نماز نیست. هنگام نیمروز با کنار گذاشتن لباس معرفی می‌شود، نه با نام صریح یک صلاة. پس نباید سه زمان خلوت را بی‌دلیل برابر با تعداد نمازهای روزانه گرفت.</p>
 <p id="passage-255" data-source-line="255">آیات دیگری نیز از تسبیح خداوند در وقت‌های گوناگون روز و شب سخن می‌گویند:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-256" data-source-line="256">«فَسُبْحَٰنَ ٱللَّهِ حِينَ تُمْسُونَ وَحِينَ تُصْبِحُونَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-257" data-source-line="257">«وَلَهُ ٱلْحَمْدُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَعَشِيًّا وَحِينَ تُظْهِرُونَ»</p>
-<p class="verse-ref" data-source-line="258">(روم <bdi dir="ltr">۳۰:۱۷</bdi>، <bdi dir="ltr">۳۰:۱۸</bdi>)</p>
-<p class="translation" id="passage-259" data-source-line="259">ترجمه: «پس خدا را به پاکی یاد کنید هنگامی که به شام می‌رسید و هنگامی که به صبح می‌رسید. و ستایش در آسمان‌ها و زمین از آن اوست، و در شامگاهان و هنگامی که به نیمروز می‌رسید.»</p></blockquote>
+<blockquote class="quran-quote" data-verse-unit="30:17">
+<p class="arabic" lang="ar" dir="rtl" id="quote-256">فَسُبْحَٰنَ ٱللَّهِ حِينَ تُمْسُونَ وَحِينَ تُصْبِحُونَ</p>
+<p class="translation" id="passage-259">پس خدا را به پاکی یاد کنید هنگامی که به شام می‌رسید و هنگامی که به صبح می‌رسید.</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/030-ar-rum/#ayah-017">الروم <bdi dir="ltr">۳۰:۱۷</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="30:18">
+<p class="arabic" lang="ar" dir="rtl" id="quote-257">وَلَهُ ٱلْحَمْدُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَعَشِيًّا وَحِينَ تُظْهِرُونَ</p>
+<p class="translation">و ستایش در آسمان‌ها و زمین از آن اوست، و در شامگاهان و هنگامی که به نیمروز می‌رسید.</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/030-ar-rum/#ayah-018">الروم <bdi dir="ltr">۳۰:۱۸</bdi></a></p>
+</blockquote>
 <blockquote class="quran-quote">
 <p class="arabic" lang="ar" dir="rtl" id="quote-260" data-source-line="260">«فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ غُرُوبِهَا وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ»</p>
 <p class="verse-ref" data-source-line="261">(طه <bdi dir="ltr">۲۰:۱۳۰</bdi>)</p>
@@ -326,11 +366,16 @@ excerpt: "پژوهشی درباره معنای صلاة و اقامه آن، ف�
 <p id="passage-272" data-source-line="272">این موضوع در پژوهش «قبله، وجه و حنیف در قرآن» به تفصیل بررسی شده است. برای بحث کنونی همین اندازه کافی است که قبله در نماز واقعیتی عملی دارد، اما ارزش عبادت تنها با جهت قرار گرفتن بدن سنجیده نمی‌شود:</p>
 <p class="related-link" id="passage-273" data-source-line="273"><a href="/fa/quran-terminology/qibla-wajh-and-hanif-in-the-quran/">قبله، وجه و حنیف در قرآن</a></p>
 <h3 id="congregation" data-source-line="274">۸. جماعت؛ عبادت از زندگی جمعی جدا نیست</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-275" data-source-line="275">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ»</p>
-<p class="arabic" lang="ar" dir="rtl" id="quote-276" data-source-line="276">«فَإِذَا قُضِيَتِ ٱلصَّلَوٰةُ فَٱنتَشِرُوا۟ فِى ٱلْأَرْضِ وَٱبْتَغُوا۟ مِن فَضْلِ ٱللَّهِ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ»</p>
-<p class="verse-ref" data-source-line="277">(جمعه <bdi dir="ltr">۶۲:۹</bdi>، <bdi dir="ltr">۶۲:۱۰</bdi>)</p>
-<p class="translation" id="passage-278" data-source-line="278">ترجمه: «ای کسانی که ایمان آورده‌اید، هنگامی که در روز جمعه برای صلاة ندا داده شد، به سوی یاد خدا بشتابید و دادوستد را رها کنید؛ این برای شما بهتر است اگر بدانید. پس هنگامی که صلاة پایان یافت، در زمین پراکنده شوید و از فضل خدا بجویید و خدا را بسیار یاد کنید، باشد که رستگار شوید.»</p></blockquote>
+<blockquote class="quran-quote" data-verse-unit="62:9">
+<p class="arabic" lang="ar" dir="rtl" id="quote-275">يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ</p>
+<p class="translation" id="passage-278">ای کسانی که ایمان آورده‌اید، هنگامی که در روز جمعه برای صلاة ندا داده شد، به سوی یاد خدا بشتابید و دادوستد را رها کنید؛ این برای شما بهتر است اگر بدانید.</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/062-al-jumuah/#ayah-009">الجمعه <bdi dir="ltr">۶۲:۹</bdi></a></p>
+</blockquote>
+<blockquote class="quran-quote" data-verse-unit="62:10">
+<p class="arabic" lang="ar" dir="rtl" id="quote-276">فَإِذَا قُضِيَتِ ٱلصَّلَوٰةُ فَٱنتَشِرُوا۟ فِى ٱلْأَرْضِ وَٱبْتَغُوا۟ مِن فَضْلِ ٱللَّهِ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ</p>
+<p class="translation">پس هنگامی که صلاة پایان یافت، در زمین پراکنده شوید و از فضل خدا بجویید و خدا را بسیار یاد کنید، باشد که رستگار شوید.</p>
+<p class="verse-ref"><a href="/quran-reflection/fa/062-al-jumuah/#ayah-010">الجمعه <bdi dir="ltr">۶۲:۱۰</bdi></a></p>
+</blockquote>
 <p id="passage-279" data-source-line="279">این دو آیه آغاز و پایان اجتماعی برای نماز را به روشنی نشان می‌دهند. مردم به صلاة فراخوانده می‌شوند، دادوستد را کنار می‌گذارند و برای یاد خدا گرد می‌آیند. پس از پایان عبادت نیز اجازه دارند در زمین پراکنده شوند و در پی روزی و فضل خداوند بروند. نماز در اینجا نه جای کار و زندگی را می‌گیرد و نه از آن جداست؛ توقفی است برای یاد پروردگار، تا انسان با همان یاد به زندگی بازگردد.</p>
 <p id="passage-280" data-source-line="280">نماز جماعت به نظم و هماهنگی نیاز دارد. شنیدن، همراهی و رعایت حقوق دیگران به برگزاری آن کمک می‌کند. اما نظم داشتن به معنای انحصار مذهبی نیست. می‌توان با شیوه‌ای مشترک نماز خواند، بی‌آنکه هر تفاوت اجرایی با روش خود را دشمنی با خداوند شمرد. قرآن مؤمنان را برای یاد خدا به اجتماع فرا می‌خواند. پس تبدیل همین اجتماع به میدان باطل شمردن عبادت دیگران، خود نیازمند دلیلی است که بتوان آن را در برابر فرمان قرآن نشان داد.</p>
 <p id="passage-281" data-source-line="281">از کنار هم گذاشتن آیات این بخش، تصویر روشنی از نماز به دست می‌آید: آمادگی و طهارت بدن، گفتار و قرائت، قیام، رکوع، سجود، زمان، قبله، جماعت و رعایت توان و شرایط انسان. اینها در قرآن حضور دارند. پس نمی‌توان گفت چون برخی جزئیات رایج در مذاهب در متن نیامده، قرآن هیچ راهنمایی درباره چگونگی نماز نداده است.</p>
