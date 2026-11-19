@@ -21408,15 +21408,15 @@
   "w-ayn-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/w-ayn-y/",
-      "title": "ریشهٔ و ع ي",
-      "summary": "دربرگرفتن و نگه داشتن؛ وعی: دریافت و به خاطر سپردن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی و ع ي (وَعْي)",
+      "summary": "دربرگرفتن و نگه داشتن؛ دریافت و حفظ سخن؛ ظرف و اندوختن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/w-ayn-y/",
-      "title": "The Root W AYN Y (W ʿ Y)",
-      "summary": "Containing or retaining; waʿy denotes understanding and remembering.",
-      "status": "preliminary"
+      "title": "Qur’anic root w-ʿ-y (waʿy)",
+      "summary": "Containing and retaining; receiving and remembering speech; receptacles and storing up.",
+      "status": "published"
     }
   },
   "w-ayn-zha": {
@@ -21576,15 +21576,15 @@
   "w-f-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/w-f-d/",
-      "title": "ریشهٔ و ف د",
-      "summary": "آمدن به نمایندگی یا مهمانی؛ وفد: هیئت واردشونده.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی و ف د (وَفْد)",
+      "summary": "آمدن به حضور؛ وفد، گروه یا هیئت واردشونده؛ در شاخه‌های دیگر، پیش آمدن و برجستگی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/w-f-d/",
-      "title": "The Root W F D",
-      "summary": "Coming as a delegation or guests; wafd is an arriving company.",
-      "status": "preliminary"
+      "title": "Qur’anic root w-f-d (wafd)",
+      "summary": "Coming into someone’s presence; wafd, an arriving company or delegation; other branches concern advancing and prominence.",
+      "status": "published"
     }
   },
   "w-f-dad": {
@@ -22374,29 +22374,29 @@
   "w-tt-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/w-tt-n/",
-      "title": "ریشهٔ و ط ن",
-      "summary": "جای اقامت یا استقرار؛ مواطن: جایگاه‌ها و عرصه‌ها.",
-      "status": "preliminary"
+      "title": "ریشه و ط ن — جای اقامت، محل استقرار و میدان حضور",
+      "summary": "اقامت و استقرار در مکان؛ موطن، جایگاه حضور و رویارویی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/w-tt-n/",
-      "title": "The Root W Ṭ N",
-      "summary": "A dwelling or station; mawāṭin denotes places or settings.",
-      "status": "preliminary"
+      "title": "Root w-ṭ-n — Residence, settlement, and the scene of an event",
+      "summary": "Residing and settling in a place; mawṭin, a setting of presence or encounter.",
+      "status": "published"
     }
   },
   "w-tt-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/w-tt-r/",
-      "title": "ریشهٔ و ط ر",
-      "summary": "نیاز و خواسته مهم.",
-      "status": "preliminary"
+      "title": "ریشه و ط ر — نیاز، خواسته و به انجام رسیدن مقصود",
+      "summary": "نیاز، خواسته یا مقصودی که شخص برای رسیدن به آن اهتمام دارد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/w-tt-r/",
-      "title": "The Root W Ṭ R",
-      "summary": "A significant need or desire.",
-      "status": "preliminary"
+      "title": "Root w-ṭ-r — Need, desire, and fulfillment of a purpose",
+      "summary": "A need, desire, or purpose someone is intent on attaining.",
+      "status": "published"
     }
   },
   "w-y-l": {
