@@ -835,7 +835,61 @@
     "article_blocks_verified": 323,
     "verse_links_verified": 62,
     "article_checks_passed": true,
-    "post_installation_tests_run": true
+    "post_installation_tests_run": true,
+    "jekyll_build_passed": true,
+    "build_seconds": 27.523,
+    "generated_links_checked": 80,
+    "browser_checks": [
+      {
+        "slug": "w-k-l",
+        "lang": "fa",
+        "width": 1280,
+        "title": "ریشه قرآنی و ك ل (وَكْل) | Forqan Archive",
+        "overflow": false,
+        "blocks": 323,
+        "cards": 6,
+        "sections": 10,
+        "bodyDir": "rtl",
+        "screenshot": "/private/tmp/w-k-l-fa-1280.png"
+      },
+      {
+        "slug": "w-k-l",
+        "lang": "fa",
+        "width": 390,
+        "title": "ریشه قرآنی و ك ل (وَكْل) | Forqan Archive",
+        "overflow": false,
+        "blocks": 323,
+        "cards": 6,
+        "sections": 10,
+        "bodyDir": "rtl",
+        "screenshot": "/private/tmp/w-k-l-fa-390.png"
+      },
+      {
+        "slug": "w-k-l",
+        "lang": "en",
+        "width": 1280,
+        "title": "Qur’anic Root w-k-l (wakl) | Forqan Archive",
+        "overflow": false,
+        "blocks": 323,
+        "cards": 6,
+        "sections": 10,
+        "bodyDir": "ltr",
+        "screenshot": "/private/tmp/w-k-l-en-1280.png"
+      },
+      {
+        "slug": "w-k-l",
+        "lang": "en",
+        "width": 390,
+        "title": "Qur’anic Root w-k-l (wakl) | Forqan Archive",
+        "overflow": false,
+        "blocks": 323,
+        "cards": 6,
+        "sections": 10,
+        "bodyDir": "ltr",
+        "screenshot": "/private/tmp/w-k-l-en-390.png"
+      }
+    ],
+    "visual_review_passed": true
   },
   "prepared_sha256": {
     "quran-terminology/fa/roots/w-k-l/index.html": "f5bae82a3111479c3941ac8c267ba25588c7c5af0e7bf8a3249d62006cf92daf",
