@@ -359,7 +359,61 @@
     "article_blocks_verified": 299,
     "verse_links_verified": 60,
     "article_checks_passed": true,
-    "post_installation_tests_run": true
+    "post_installation_tests_run": true,
+    "jekyll_build_passed": true,
+    "build_seconds": 30.158,
+    "generated_links_checked": 84,
+    "browser_checks": [
+      {
+        "slug": "w-h2-b",
+        "lang": "fa",
+        "width": 1280,
+        "title": "ریشه قرآنی و ه ب (وَهْب) | Forqan Archive",
+        "overflow": false,
+        "blocks": 299,
+        "cards": 6,
+        "sections": 9,
+        "bodyDir": "rtl",
+        "screenshot": "/private/tmp/w-h2-b-fa-1280.png"
+      },
+      {
+        "slug": "w-h2-b",
+        "lang": "fa",
+        "width": 390,
+        "title": "ریشه قرآنی و ه ب (وَهْب) | Forqan Archive",
+        "overflow": false,
+        "blocks": 299,
+        "cards": 6,
+        "sections": 9,
+        "bodyDir": "rtl",
+        "screenshot": "/private/tmp/w-h2-b-fa-390.png"
+      },
+      {
+        "slug": "w-h2-b",
+        "lang": "en",
+        "width": 1280,
+        "title": "Qur’anic Root w-h-b (wahb) | Forqan Archive",
+        "overflow": false,
+        "blocks": 299,
+        "cards": 6,
+        "sections": 9,
+        "bodyDir": "ltr",
+        "screenshot": "/private/tmp/w-h2-b-en-1280.png"
+      },
+      {
+        "slug": "w-h2-b",
+        "lang": "en",
+        "width": 390,
+        "title": "Qur’anic Root w-h-b (wahb) | Forqan Archive",
+        "overflow": false,
+        "blocks": 299,
+        "cards": 6,
+        "sections": 9,
+        "bodyDir": "ltr",
+        "screenshot": "/private/tmp/w-h2-b-en-390.png"
+      }
+    ],
+    "visual_review_passed": true
   },
   "prepared_sha256": {
     "quran-terminology/fa/roots/w-h2-b/index.html": "6fe05c5bb01357000ee454285faa0b619b2c9dd59d94dea2f0a599a921f86dc0",
