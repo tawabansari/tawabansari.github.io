@@ -80,3 +80,10 @@ Before each new verse or research task, check the live Persian concept directory
 Follow `scripts/CONCEPT-LINKING.md` for the bilingual keyword-to-study inventory and contextual restrictions. Link the first meaningful occurrence of an applicable concept in the reflection, normally once per concept per reflection. Match meaning, not just spelling or search aliases; do not automatically link ambiguous words. Preserve authored prose, existing valid links, and the distinction between concept articles, principles, and root studies. Do not change Arabic verse text, direct translations, word-button metadata, or canonical Allah boxes through this rule. Do not bulk-edit previous verses outside the current request.
 
 Verify actual destinations separately in each language; never invent English routes by replacing `/fa/`. Use clean URLs without tracking parameters. If an English counterpart is missing, leave the English term unlinked and report the missing counterpart; use a clearly labeled Persian reference only when useful. Include substantively relevant concept studies in the related-studies list within cross-references. Check coverage, working links, appropriate meaning, and excessive repetition before delivery.
+
+
+## Fixed English rendering of Ruh al-Qudus
+
+Render `روح القدس` (including spelling and diacritic variants such as `روح القدوس`) as **Spirit of The Holy** in all English Quran translations, quoted verses, reflections, word-box text, root studies, articles, and descriptive metadata. Preserve this exact capitalization; do not substitute “Holy Spirit” or “The Holy Spirit,” and do not prepend another “the.” Apply this consistently in new content and revisions. Preserve Arabic text and existing URLs and anchors.
+
+This translation rule concerns the Quranic expression. Retain the conventional term “Holy Spirit” in clearly identified descriptions or quotations of Christian doctrine and historical councils. Do not conflate `القدس` in this expression with the distinct divine epithet `القدوس` (The All-Holy).
