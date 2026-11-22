@@ -3,8 +3,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 import {pathToFileURL} from 'node:url';
-import {normalize,selectPassage} from '../assets/js/search-utils.mjs';
-import {rankResults,parseReference,referenceResults} from '../assets/js/search-ranking.mjs';
+import {normalize,selectPassage,highlightedParts} from '../assets/js/search-utils.mjs';
+import {rankResults,parseReference,referenceResults,arabicResults} from '../assets/js/search-ranking.mjs';
 
 const site = path.resolve(process.argv[2] || '_site'), lang = process.argv[3];
 if (!lang) {
@@ -18,6 +18,27 @@ if (!lang) {
   const read = async file => JSON.parse(await fs.readFile(path.join(site,file),'utf8'));
   const version = await read('assets/data/search-version.json');
   const catalog = await read(version.catalogs[lang]);
+  assert(catalog.records.some(r=>r.kind==='Quran' && r.chapter===28 && r.verseNumber===45),'Translation-only regression fixture exists');
+  const arabic = arabicResults(catalog,'ولی');
+  assert(arabic.some(r=>r.chapter===2 && r.verseNumber===107),'Arabic wali verse found');
+  for (const verse of [5,27,39,64,83,86]) {
+    assert(!arabic.some(r=>r.chapter===2 && r.verseNumber===verse),'No substring false positive in 2:'+verse);
+  }
+  assert(arabic.every(r=>r.arabicSearch.split(' ').includes(normalize('ولي'))),'Every result contains the complete word');
+  const mixed = 'أُولَٰئِكَ تَوَلَّيْتُمْ وَلِيٍّ';
+  assert.deepEqual(highlightedParts(mixed,'ولی',true).filter(p=>p.match).map(p=>p.text),['وَلِيٍّ'],'Only the complete Arabic word is highlighted');
+  const fixture = {records:[{id:'whole',kind:'Quran',arabicSearch:normalize('من ولي ولا نصير')},{id:'partial',kind:'Quran',arabicSearch:normalize('من اوليك ولا نصير')}]};
+  assert.deepEqual(arabicResults(fixture,'"من ولي"').map(r=>r.id),['whole'],'Phrase respects word boundaries');
+
+  assert(!arabic.some(r=>r.chapter===28 && r.verseNumber===45),'Translation-only wali excluded');
+  assert.deepEqual(arabicResults(catalog,'وَلِيّ').map(r=>r.id),arabic.map(r=>r.id),'Diacritics and Persian ya');
+  assert.deepEqual(arabicResults(catalog,'كُلّ').map(r=>r.id),arabicResults(catalog,'کل').map(r=>r.id),'Arabic and Persian kaf');
+  assert.equal(arabicResults(catalog,'fasting').length,0,'No semantic expansion in Arabic scope');
+  const original = 'مِن وَلِيٍّ وَلَا نَصِيرٍ';
+  const marked = highlightedParts(original,'ولی');
+  assert.equal(marked.map(p=>p.text).join(''),original,'Highlight preserves original text');
+  assert(marked.some(p=>p.match && p.text==='وَلِيٍّ'),'Highlight matches diacritics');
+  assert(!highlightedParts(original,'').some(p=>p.match),'No empty-query highlighting');
   globalThis.document = {currentScript:null,querySelector:()=>({getAttribute:()=>lang})};
   globalThis.fetch = async input => {
     const url = new URL(String(input),'http://localhost');
@@ -84,6 +105,11 @@ if (!lang) {
     assert(rankResults([],catalog,alias).some(r=>r.id===record.id),'Published catalog alias must retrieve its target: '+alias);
   }
   assert((await search('iman')).ranked.some(r=>r.root==='a-m-n'&&r.bucket==='MatchedRoots'));
+  for (const query of ['ننسخ','وَلِيّ']) {
+    const rootsOnly = (await search(query,'Roots')).ranked;
+    assert(rootsOnly.length && rootsOnly.every(r=>r.kind==='Roots'),'Roots filter returns studies only');
+    assert(rootsOnly.some(r=>r.bucket==='MatchedRoots'),'Derivative resolves to a registered root');
+  }
   for (const query of ['nansakh','ننسخ','N S KH']) {
     const {ranked} = await search(query);
     assert(ranked.some(r=>r.bucket==='MatchedRoots' && r.root==='n-s-kh'),'Exact root / derivative priority');

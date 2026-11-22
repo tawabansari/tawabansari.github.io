@@ -77,6 +77,7 @@ export async function writeCatalog(site, records) {
     if (study) item.annotatedRoots = [...conceptRoots[record.url] || []];
     if (record.kind === 'Roots') item.root = record.url.split('/').filter(Boolean).pop();
     if (record.kind === 'Quran') {
+      item.arabicSearch = normalize(record.arabic);
       item.roots = record.roots;
       item.concepts = [...new Set(record.words.map(w=>w.concept).filter(url=>studyByURL.has(url)))];
       item.chapter = Number(record.url.match(/\/(\d{3})-/)?.[1]);

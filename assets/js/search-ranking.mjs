@@ -87,3 +87,16 @@ export function referenceResults(reference, catalog) {
     && r.verseNumber >= reference.start && r.verseNumber <= reference.end)
     .sort((a,b) => a.verseNumber - b.verseNumber).map(r => ({...r,bucket:'Quran',reason:''}));
 }
+
+// Arabic scope never expands through translations, concepts, or root metadata.
+export function arabicResults(catalog, query) {
+  const key = normalize(query);
+  if (!key) return [];
+  const phrase = /^\s*".+"\s*$/.test(query);
+  const terms = key.split(' ');
+  return catalog.records.filter(r => r.kind === 'Quran' && r.arabicSearch &&
+    (phrase ? (` ${r.arabicSearch} `).includes(` ${key} `)
+      : terms.every(term => r.arabicSearch.split(' ').includes(term))))
+    .sort((a,b) => a.chapter-b.chapter || a.verseNumber-b.verseNumber)
+    .map(r => ({...r,bucket:'Quran',reason:''}));
+}

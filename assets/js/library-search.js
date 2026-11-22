@@ -1,5 +1,5 @@
 import {normalize,suggest,excerpt,selectPassage,highlightedParts} from './search-utils.mjs';
-import {rankResults,parseReference,referenceResults} from './search-ranking.mjs';
+import {rankResults,parseReference,referenceResults,arabicResults} from './search-ranking.mjs';
 import {SearchClient} from './search-client.mjs';
 
 const form = document.getElementById('archive-search-form');
@@ -11,11 +11,32 @@ if (form) {
   query.value = params.get('q') || '';
   language.value = params.get('lang') === 'fa' || (!params.has('lang') && /[\u0600-\u06ff]/.test(query.value)) ? 'fa' : 'en';
   const selected = params.get('type') === 'Articles' ? 'Studies' : params.get('type');
-  type.value = ['Quran','Principles','Roots','Terminology','Studies','Reflection'].includes(selected) ? selected : '';
+  type.value = ['Arabic','Quran','Principles','Roots','Terminology','Studies','Reflection'].includes(selected) ? selected : '';
   const lang = language.value, fa = lang === 'fa';
   const text = (en,faText) => fa ? faText : en;
   document.documentElement.lang = lang;
   results.dir = jump.dir = fa ? 'rtl' : 'ltr';
+  const page = document.querySelector('.library-search-page');
+  page.dir = fa ? 'rtl' : 'ltr';
+  page.querySelector('.library-eyebrow').textContent = text('THE FORQAN ARCHIVE','آرشیو فرقان');
+  page.querySelector('h1').textContent = text('Search Forqan','جستجو در فرقان');
+  document.title = text('Search Forqan','جستجو در فرقان');
+  page.querySelector('.search-intro').textContent = text('Find a verse, explore a root, or search inside a study.','یک آیه بیابید، ریشهٔ یک واژه را بررسی کنید یا در یک مطالعه جستجو کنید.');
+  page.querySelector('label[for="archive-query"]').textContent = text('Search query','عبارت جستجو');
+  query.placeholder = text('A verse, word, root, or topic…','آیه، واژه، ریشه یا موضوع…');
+  form.querySelector('button[type="submit"]').textContent = text('Search','جستجو');
+  page.querySelector('.search-language-label').textContent = text('Language','زبان');
+  page.querySelector('.search-section-label').textContent = text('Section','بخش');
+  const options = {
+    '':['All','همه'], Quran:['Verses and translations','آیات و ترجمه‌ها'],
+    Arabic:['Arabic verse text only','تنها متن عربی آیات'],
+    Principles:['Quranic Principles','اصول قرآنی'], Roots:['Roots','ریشه‌ها'],
+    Studies:['All studies','همهٔ مطالعات'], Terminology:['Qur’an Terminology','مفاهیم قرآنی'],
+    Reflection:['Ta’wil','تأویل']
+  };
+  for (const option of type.options) option.textContent = text(...options[option.value]);
+  page.querySelectorAll('.search-guidance').forEach(p => {p.hidden = (p.lang === 'fa') !== fa;});
+  jump.setAttribute('aria-label',text('Search result sections','بخش‌های نتیجه‌های جستجو'));
   const labels = {
     Quran:text('Verse text and translations','متن آیات و ترجمه'),
     Principles:text('Quranic Principles','اصول قرآنی'),
@@ -34,6 +55,12 @@ if (form) {
     if (url.origin !== location.origin) throw Error('Invalid search destination');
     return url;
   };
+  function appendHighlighted(element,value,search,wholeWords = false) {
+    for (const part of highlightedParts(value || '',search,wholeWords)) {
+      if (part.match) {const mark = document.createElement('mark');mark.textContent = part.text;element.append(mark);}
+      else element.append(document.createTextNode(part.text));
+    }
+  }
   function card(record,fragment,raw) {
     const data = fragment.meta;
     let passages;
@@ -55,8 +82,8 @@ if (form) {
     const heading = document.createElement('h3'), link = document.createElement('a');
     link.href = url.pathname+url.search+url.hash;link.textContent = record.title;heading.append(link);article.append(heading);
     if (record.kind === 'Quran') {
-      const arabic = document.createElement('p');arabic.className = 'verse-arabic';arabic.lang = 'ar';arabic.dir = 'rtl';arabic.textContent = data.arabic;
-      const translation = document.createElement('p');translation.className = 'verse-translation';translation.lang = lang;translation.textContent = data.translation;
+      const arabic = document.createElement('p');arabic.className = 'verse-arabic';arabic.lang = 'ar';arabic.dir = 'rtl';appendHighlighted(arabic,data.arabic,displayQuery,type.value === 'Arabic');
+      const translation = document.createElement('p');translation.className = 'verse-translation';translation.lang = lang;appendHighlighted(translation,data.translation,type.value === 'Arabic' ? '' : displayQuery);
       article.append(arabic,translation);
     } else if (chosen.text) {
       const p = document.createElement('p');
@@ -112,7 +139,7 @@ if (form) {
     }
   }
   async function correction(raw,token) {
-    if (type.value === 'Roots') return;
+    if (['Roots','Arabic'].includes(type.value)) return;
     vocabulary ||= client.json('/assets/data/vocabulary-'+lang+'.json').catch(error=>{vocabulary=null;throw error;});
     const proposed = suggest(raw,await vocabulary);
     if (!proposed || token !== generation) return;
@@ -133,10 +160,10 @@ if (form) {
     status.textContent = text('Searching…','در حال جستجو…');
     try {
       const exact = /^\s*".+"\s*$/.test(raw);
-      const hits = await client.search(exact ? '"'+normalize(raw)+'"' : normalize(raw));
+      const hits = await client.search(type.value === 'Arabic' ? null : exact ? '"'+normalize(raw)+'"' : normalize(raw));
       if (token !== generation) return;
       const reference = parseReference(raw,client.catalog.surahs);
-      const records = reference ? referenceResults(reference,client.catalog) : rankResults(hits,client.catalog,raw,type.value);
+      const records = reference ? referenceResults(reference,client.catalog) : type.value === 'Arabic' ? arabicResults(client.catalog,raw) : rankResults(hits,client.catalog,raw,type.value);
       if (reference) {
         status.textContent = !reference.valid ? text('That verse reference is not valid.','این شمارهٔ آیه معتبر نیست.')
           : !records.length ? text('These verses are not yet published in the archive.','این آیات هنوز در مجموعه منتشر نشده‌اند.')

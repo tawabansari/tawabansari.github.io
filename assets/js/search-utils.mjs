@@ -62,7 +62,7 @@ export function selectPassage(passages, query, description='', original='', loca
   }
   return best || {text:description || passages[0]?.text || original,anchor:''};
 }
-export function highlightedParts(text, query) {
+export function highlightedParts(text, query, wholeWords = false) {
   const tokens=normalize(query).split(' ').filter(Boolean);
-  return String(text).split(/(\s+)/).map(text=>({text,match:tokens.some(t=>normalize(text).includes(t))}));
+  return String(text).split(/(\s+)/).map(text=>({text,match:tokens.some(t=>wholeWords ? normalize(text).split(' ').includes(t) : normalize(text).includes(t))}));
 }
