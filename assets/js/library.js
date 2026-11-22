@@ -5,12 +5,6 @@ import {compactStudy} from './study-toolbar.mjs?v=contribution-tools-1';
   const settings = document.querySelector('.reading-settings');
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && settings) settings.open = false; });
   document.addEventListener('click', e => { if (settings && !settings.contains(e.target)) settings.open = false; });
-  const spacing = document.getElementById('reading-spacing');
-  if (spacing) {
-    try { spacing.value = localStorage.getItem('forqan-spacing') === 'relaxed' ? 'relaxed' : 'normal'; } catch (_) {}
-    document.body.dataset.readingSpacing = spacing.value;
-    spacing.addEventListener('change', () => { document.body.dataset.readingSpacing = spacing.value; try { localStorage.setItem('forqan-spacing', spacing.value); } catch (_) {} });
-  }
   const continuation = document.getElementById('library-continue');
   const homeLanguage=document.querySelector('[data-home-language]')?.dataset.homeLanguage;
   if (continuation) (homeLanguage ? [homeLanguage] : ['en', 'fa']).forEach(lang => {
@@ -84,6 +78,14 @@ import {compactStudy} from './study-toolbar.mjs?v=contribution-tools-1';
     const button=document.createElement('button');button.type='submit';button.textContent=fa?'بعدی':'Find next';
     const status=document.createElement('span');status.className='library-find-status';status.setAttribute('role','status');
     form.append(input,button,status);const toc=study.querySelector('.library-toc');const title=study.querySelector('h1');const hero=title?.closest('header,.root-hero,.surah-header-block');(toc||hero||title||study.firstElementChild).insertAdjacentElement('afterend',form);
+    if (isSurahPage) {
+      input.placeholder=fa?'جستجو در این سوره…':'Find in this surah…';
+      input.setAttribute('aria-label',input.placeholder);
+      const panel=document.createElement('details');panel.className='surah-find-panel';panel.dataset.pagefindIgnore='';
+      const summary=document.createElement('summary');summary.textContent=fa?'جستجو در این سوره':'Find in this surah';
+      form.before(panel);panel.append(summary,form);
+      panel.addEventListener('toggle',()=>{if(panel.open)input.focus({preventScroll:true});});
+    }
     let matches=[],index=-1,last='';
     const normalize=normalizeSearch;
     form.addEventListener('submit',e=>{e.preventDefault();const q=normalize(input.value.trim());study.querySelectorAll('.library-found').forEach(p=>p.classList.remove('library-found'));if(!q){status.textContent='';return;}if(q!==last){matches=paragraphs.filter(p=>normalize(p.textContent).includes(q));index=-1;last=q;}if(!matches.length){status.textContent=fa?'نتیجه‌ای نیست':'No matches';return;}index=(index+1)%matches.length;matches[index].classList.add('library-found');reveal(matches[index]);status.textContent=(index+1)+' / '+matches.length;});

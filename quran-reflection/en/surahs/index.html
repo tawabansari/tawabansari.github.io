@@ -8,9 +8,12 @@ permalink: /quran-reflection/en/surahs/
 
   <a class="surah-method-link" href="/quran-reflection/en/methodology/">Translation and Reflection Method</a>
 
-  <p>
-    Browse the Qur’an by surah. Each surah page links to its individual ayah pages.
-  </p>
+  <form class="library-search-form surah-directory-search" action="/search/" role="search">
+    <label class="visually-hidden" for="directory-query">A verse, word, root, or topic…</label>
+    <input id="directory-query" name="q" type="search" placeholder="A verse, word, root, or topic…" dir="auto" required>
+    <input type="hidden" name="lang" value="en">
+    <button type="submit">Search</button>
+  </form>
 
   <div class="surah-index-tools" role="search">
     <input id="surahSearch" class="surah-search-input" type="search" autocomplete="off" placeholder="Search surah, number, Arabic, English, or common spelling..." aria-label="Search surahs">

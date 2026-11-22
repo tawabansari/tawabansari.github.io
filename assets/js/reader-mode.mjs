@@ -1,3 +1,4 @@
+import {installVerseCopy} from './verse-copy-menu.mjs';
 import {afterReadingLayout} from './reading-position.mjs';
 
 export function reflectionURL(pathname, verseId) {
@@ -19,23 +20,46 @@ function init() {
   toolbar.dataset.pagefindIgnore = '';
   toolbar.setAttribute('role', 'group');
   toolbar.setAttribute('aria-label', fa ? 'شیوهٔ خواندن' : 'Reading view');
-  const modes = [['study', fa ? 'مطالعه و بررسی' : 'Study'], ['reading', fa ? 'خواندن' : 'Reading']];
-  const buttons = modes.map(([mode, label]) => {
+  const modes = [['study', fa ? 'مطالعه و بررسی' : 'Study'], ['reading', fa ? 'روخوانی قرآن' : 'Read Qur’an']];
+  document.body.classList.add('surah-reader-page');
+  const descriptions = fa ? [
+    'آیات و ترجمه را همراه با تأویل، توضیح واژه‌ها، ارجاعات متقابل و پژوهش‌های مرتبط مطالعه کنید.',
+    'تنها متن آیات و ترجمهٔ آن‌ها را در نمای ساده و پیوسته بخوانید.'
+  ] : [
+    'Study verses and translations with reflections, word explanations, cross-references, and related research.',
+    'Read only the verses and their translations in a simple, continuous view.'
+  ];
+  const buttons = modes.map(([mode, label], index) => {
     const button = document.createElement('button');
     button.type = 'button'; button.textContent = label;
+    button.title = descriptions[index];button.setAttribute('aria-describedby','reader-help-'+mode);
     button.addEventListener('click', () => setMode(mode, true));
     toolbar.append(button); return button;
   });
-  page.prepend(toolbar);
+  const help = document.createElement('details');help.className='reader-mode-help';
+  const summary=document.createElement('summary');summary.textContent='ⓘ';summary.setAttribute('aria-label',fa?'راهنمای حالت‌های مطالعه':'Reading modes help');
+  const explanation=document.createElement('div');explanation.className='reader-mode-explanation';
+  modes.forEach(([mode,label],i)=>{const p=document.createElement('p');p.id='reader-help-'+mode;const strong=document.createElement('strong');strong.textContent=label+': ';p.append(strong,descriptions[i]);explanation.append(p);});
+  help.append(summary,explanation);toolbar.append(help);
+  document.addEventListener('click',event=>{if(!help.contains(event.target))help.open=false;});
+  help.addEventListener('keydown',event=>{if(event.key==='Escape'){help.open=false;summary.focus();}});
+  const header=page.querySelector('.surah-header-block');
+  if(header) header.after(toolbar);else page.prepend(toolbar);
+  // Discussion stays after the title's metadata, even if added by another renderer.
+  const discussion=header?.querySelector('[data-tabsira-discuss]');
+  if(discussion) header.append(discussion);
+
 
   function setMode(mode, preservePosition = false) {
-    const current = verses.find(verse => verse.getBoundingClientRect().bottom > toolbar.getBoundingClientRect().bottom + 60) || verses.at(-1);
+    const edge=Math.max(0,toolbar.getBoundingClientRect().bottom);
+    const current = verses.find(verse => verse.getBoundingClientRect().bottom > edge + 12) || verses.at(-1);
+    const offset=current.getBoundingClientRect().top;
+    const atStart=window.scrollY < 100;
     document.body.classList.toggle('quran-reading-mode', mode === 'reading');
     buttons.forEach((button, index) => button.setAttribute('aria-pressed', String(modes[index][0] === mode)));
     try { localStorage.setItem('forqan-reading-mode', mode); } catch {}
     if (preservePosition) afterReadingLayout(() => {
-      const top = window.scrollY + current.getBoundingClientRect().top - toolbar.getBoundingClientRect().bottom - 12;
-      window.scrollTo({top, behavior: 'instant'});
+      if (!atStart) window.scrollBy({top:current.getBoundingClientRect().top-offset,behavior:'instant'});
     });
   }
   let saved = 'study';
@@ -88,24 +112,22 @@ function init() {
     tools.dataset.pagefindIgnore = '';
     const panels = [...verse.querySelectorAll(':scope > details[data-type]')];
     const reflection = panels.find(panel => panel.dataset.type === 'reflection');
+    const sectionCopy = reflection?.querySelector('.copy-section-text');
+    installVerseCopy(actions.querySelector('.copy-ayah-text'), sectionCopy, fa);
+    sectionCopy?.remove();
     for (const panel of panels) {
-      if (panel.dataset.type === 'cross-reference' && reflection) {
-        panel.classList.add('reflection-cross-references');
-        reflection.append(panel);
-        continue;
-      }
       const summary = panel.querySelector('summary');
       if (!summary) continue;
       const group = document.createElement('div'); group.className = 'verse-discussion-group';
       const isReflection = panel.dataset.type === 'reflection';
-      const title = isReflection ? (fa ? 'تأمل ما در این آیه' : 'Our Verse Reflection') : summary.childNodes[0].textContent.trim();
+      const title = isReflection ? (fa ? 'تأمل در این آیه' : 'Verse Reflection') : panel.dataset.type === 'cross-reference' ? (fa ? 'ارجاعات' : 'References') : summary.childNodes[0].textContent.trim();
       const toggle = document.createElement('button'); toggle.type='button'; toggle.className='verse-panel-toggle';
       toggle.setAttribute('aria-controls',panel.id);
       if (isReflection) toggle.classList.add('reflection-primary-toggle');
       const refresh = () => { toggle.textContent = title + (panel.open ? ' −' : ' +'); toggle.setAttribute('aria-expanded',String(panel.open)); };
       toggle.addEventListener('click',()=>{panel.open=!panel.open;refresh();});
       panel.addEventListener('toggle',refresh); refresh(); group.append(toggle);
-      summary.querySelectorAll('.language-mirror-link,.copy-section-text').forEach(control=>group.append(control));
+      summary.querySelectorAll('.language-mirror-link').forEach(control=>group.append(control));
       if (panel.dataset.type === 'reflection') group.append(link);
       panel.classList.add('compact-verse-panel');
       tools.append(group);
@@ -115,6 +137,18 @@ function init() {
     // Match visual and keyboard order, with verse search always at the far right.
     const search = actions.querySelector('.ayah-quran-nav-button');
     if (search) actions.append(search);
+    // Move the actual controls, preserving handlers and matching tab order to visual order.
+    const desktop = matchMedia('(min-width:1000px)');
+    const controls = [...tools.querySelectorAll('.verse-discussion-group > button,.verse-discussion-group > a'), ...tools.querySelectorAll(':scope > a'), ...actions.children];
+    const rank = node => node.matches('.reflection-primary-toggle') ? 0 : node.matches('.verse-panel-toggle') ? 1 : node.matches('.language-mirror-link') ? 2 : node.matches('.quran-gooya-link') ? 3 : node.matches('.copy-ayah-text') ? 4 : node.matches('.pdf-download-button') ? 5 : node.matches('.verse-print-button') ? 6 : node.matches('.ayah-quran-nav-button') ? 7 : 8;
+    const homes = controls.map(control => {const marker=document.createComment('verse-control');control.before(marker);return {control,marker};});
+    const arrange = () => {
+      tools.classList.toggle('unified-verse-tools',desktop.matches);
+      if(desktop.matches) controls.sort((a,b)=>rank(a)-rank(b)).forEach(control=>tools.append(control));
+      else homes.forEach(({control,marker})=>marker.after(control));
+      actions.hidden=desktop.matches;
+    };
+    desktop.addEventListener('change',arrange);arrange();
     if (reference) reference.title = reference.textContent.trim();
   });
 

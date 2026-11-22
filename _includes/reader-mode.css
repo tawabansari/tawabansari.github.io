@@ -66,3 +66,60 @@ html body .container .ayah-block details.reflection-cross-references>summary{dis
 html body .container .ayah-block details.reflection-cross-references>summary::after{display:none}
 html body .container .ayah-block details.reflection-cross-references>summary .section-toggle-button{margin:0;min-width:32px;min-height:32px;width:32px;height:32px;background:transparent;border:0}
 .quran-nav-trigger svg,.ayah-quran-nav-button svg{width:1.1rem;height:1.1rem;display:block;margin:auto}
+
+/* Compact surah opening; scoped to Quran reading and its directory. */
+body.surah-reader-page .container { margin-block: .8rem 1.5rem; }
+body.surah-reader-page .container > :is(.forqan-page-rtl,.forqan-page-ltr) { padding-block: .5rem; }
+body.surah-reader-page .forqan-pathway-shell { margin-block: .6rem 0; }
+body.surah-reader-page .surah-header-block { margin: 0 0 .55rem; gap: .4rem .65rem; align-items:center; }
+body.surah-reader-page .surah-header-block [data-tabsira-discuss] { order:2; margin:0; }
+body.surah-reader-page .surah-header-block .quran-nav-trigger { order:3; }
+body.surah-reader-page .reader-mode-toolbar { margin:0 0 .5rem; padding:.35rem 0; gap:0; border-radius:0; }
+body.surah-reader-page .reader-mode-toolbar > button { border-radius:0; min-height:44px; }
+body.surah-reader-page .reader-mode-toolbar > button:first-child { border-start-start-radius:999px; border-end-start-radius:999px; }
+body.surah-reader-page .reader-mode-toolbar > button:nth-child(2) { border-start-end-radius:999px; border-end-end-radius:999px; }
+.reader-mode-help { position:relative; margin-inline-start:.5rem; }
+.reader-mode-help > summary { display:flex;align-items:center;justify-content:center;cursor:pointer;list-style:none;min-width:44px;min-height:44px;color:var(--lib-gold); }
+.reader-mode-help > summary::-webkit-details-marker { display:none; }
+.reader-mode-explanation { position:absolute;inset-block-start:100%;inset-inline-end:0;width:min(24rem,80vw);padding:.8rem 1rem;background:var(--lib-surface);border:1px solid var(--lib-line);border-radius:.6rem;box-shadow:0 8px 24px #0002;text-align:start;line-height:1.8;z-index:30; }
+.reader-mode-explanation p { font-size:.85rem!important;margin:.3rem 0!important; }
+body.surah-reader-page .verse-picker { margin:.5rem 0; }
+.surah-find-panel { margin:.5rem 0 1rem; }
+.surah-find-panel > summary { cursor:pointer;color:var(--lib-gold);font-size:.9rem;min-height:44px;display:flex;align-items:center;gap:.4rem; }
+.surah-find-panel > summary::before { content:'⌕';font-size:1.3rem; }
+.surah-find-panel .library-find { margin:.3rem 0; }
+body .container:has(.surah-index-page) { margin-block:1rem; }
+body .container .surah-directory-search { margin:.75rem auto;max-width:760px; }
+body .container .surah-directory-search input[type="search"] { min-width:0; }
+body .surah-index-page .surah-index-tools { margin-top:.6rem; }
+@media(max-width:600px) {
+ body.surah-reader-page .surah-header-block h1 { flex-basis:100%; }
+ body.surah-reader-page .surah-header-block { gap:.3rem .5rem; }
+ body.surah-reader-page .reader-mode-toolbar > button { font-size:.8rem;padding:.4rem .7rem; }
+ .reader-mode-explanation { position:fixed;inset-inline:1rem;inset-block-start:auto;width:auto; }
+}
+
+/* One toolbar per verse on desktop; original placement on smaller screens. */
+@media(min-width:1000px){
+ body .container .unified-verse-tools{display:flex;justify-content:center;align-items:center;gap:.4rem;margin:.6rem 0 .7rem;flex-wrap:wrap}
+ .unified-verse-tools .verse-discussion-group{display:none}
+ body .container .unified-verse-tools > :is(button,a){display:inline-flex;align-items:center;justify-content:center;min-height:38px;min-width:38px;padding:.25rem .6rem!important;width:auto;border:1px solid var(--lib-line,#ccc);border-radius:999px;background:var(--lib-surface);color:var(--lib-text);font:inherit;text-decoration:none}
+ body .container .unified-verse-tools svg{width:20px;height:20px}
+ body .container .unified-verse-tools .reflection-primary-toggle{color:var(--lib-gold);background:var(--lib-soft);border-color:var(--lib-gold)}
+ body .container .ayah-toolbar .pdf-verse-actions[hidden]{display:none!important}
+}
+.verse-copy-options{position:fixed;z-index:10020;max-width:calc(100vw - 16px);padding:.35rem;background:var(--lib-surface,#fff);color:var(--lib-text,#222);border:1px solid var(--lib-line,#ccc);border-radius:9px;box-shadow:0 6px 25px #0002}
+.verse-copy-options[hidden]{display:none}
+.verse-copy-options button{display:block;width:100%;min-height:44px;text-align:start;background:transparent;color:inherit;border:0;border-radius:5px;padding:.65rem .9rem;font:inherit;cursor:pointer}
+.verse-copy-options button:hover,.verse-copy-options button:focus-visible{background:var(--lib-soft,#eee);outline:2px solid var(--lib-gold);outline-offset:-2px}
+.verse-copy-status:not(:empty){position:fixed;bottom:1.2rem;left:50%;transform:translateX(-50%);z-index:10030;padding:.6rem 1rem;background:var(--lib-surface,#fff);color:var(--lib-text,#222);border:1px solid var(--lib-line,#ccc);border-radius:8px}
+@media print{.verse-copy-options,.verse-copy-status{display:none!important}}
+@media(min-width:1000px){
+ html body .container .unified-verse-tools > :is(button,a){box-sizing:border-box;height:40px!important;min-height:40px!important}
+ html body .container .unified-verse-tools > .verse-panel-toggle{border:1px solid var(--lib-line,#ccc);padding:.25rem .6rem}
+ html body .container .unified-verse-tools > .reflection-primary-toggle{border-color:var(--lib-gold)}
+ body:not(.quran-reading-mode) .container .ayah-block{padding-block:.6rem!important}
+ body:not(.quran-reading-mode) .container .ayah-block .ayah-title{margin:.25rem 0 .5rem!important}
+ body:not(.quran-reading-mode) .container .ayah-block .arabic-text{margin:.6rem 0!important}
+ body:not(.quran-reading-mode) .container .ayah-block :is(.farsi-verse,.english-verse){margin:.4rem 0!important}
+}

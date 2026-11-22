@@ -159,3 +159,26 @@ body .container .collection-card span{margin-top:0;font-size:.85rem;color:var(--
 /* Keep the principles destination compact in the phone header. */
 .nav-principles-short{display:none}
 @media(max-width:600px){.nav-principles-full{display:none}.nav-principles-short{display:inline}}
+
+/* Center the hub heading and keep the mobile list compact. */
+.collection-directory[data-collection="hub"] .collection-nav { justify-content:center; }
+.collection-directory[data-collection="hub"] .collection-heading { text-align:center;margin:1.2rem 0; }
+.collection-directory[data-collection="hub"] .collection-heading p { margin-inline:auto; }
+body .container .collection-directory[data-collection="hub"] .collection-grid { max-width:40rem;margin:1rem auto;gap:.45rem; }
+body .container .collection-directory[data-collection="hub"] .collection-card { min-height:112px; }
+@media(max-width:600px) {
+ .collection-directory[data-collection="hub"] .collection-heading { margin:1rem 0; }
+ body .container .collection-directory[data-collection="hub"] .collection-card { min-height:0; }
+}
+@media(min-width:601px) {
+ body .container .collection-directory[data-collection="hub"] .collection-grid { max-width:34rem; }
+ body .container .collection-directory[data-collection="hub"] .collection-card { text-align:center; }
+}
+
+/* Two balanced columns on desktop; retain the compact mobile list. */
+@media(min-width:801px){
+ body .container .collection-directory[data-collection="hub"] .collection-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:1000px;gap:1.4rem 2rem}
+ body .container .collection-directory[data-collection="hub"] .collection-card{text-align:start;grid-template-columns:100px minmax(0,1fr);column-gap:1rem}
+ .collection-directory[data-collection="hub"] .collection-card .collection-art{width:100px}
+ body .container .collection-directory[data-collection="hub"] .collection-card:last-child:nth-child(odd){grid-column:1/-1;width:calc(50% - 1rem);justify-self:center}
+}

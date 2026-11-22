@@ -2404,7 +2404,9 @@
 <script type="module" src="/assets/js/pdf-download.mjs?v=principles-tools-3"></script>
 <!-- Keep verse controls and their presentation in the same response. -->
 <style id="reader-mode-styles">{% include reader-mode.css %}</style>
-<script type="module" src="/assets/js/reader-mode.mjs?v=reflection-focus-3"></script>
+<script type="module" src="/assets/js/reader-mode.mjs?v=verse-tools-4"></script>
+<link rel="stylesheet" href="/assets/css/display-settings.css?v=1">
+<script type="module" src="/assets/js/display-settings.mjs?v=1"></script>
 </head>
 
 <body class="lang-{% if page.url contains '/fa/' %}fa{% else %}en{% endif %}">
@@ -2574,7 +2576,7 @@
     if (!siteMenuButton || !siteMenu) return;
     siteMenu.hidden = !open;
     siteMenuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
-    siteMenuButton.setAttribute('aria-label', document.documentElement.lang === 'fa' ? (open ? 'بستن منو' : 'باز کردن منو') : (open ? 'Close site menu' : 'Open site menu'));
+    siteMenuButton.setAttribute('aria-label', document.documentElement.lang === 'fa' ? (open ? 'بستن تنظیمات نمایش' : 'تنظیمات نمایش') : (open ? 'Close display settings' : 'Display settings'));
   }
 
   if (siteMenuButton && siteMenu) {
@@ -3510,10 +3512,12 @@
         })]).catch(writePlain)
       : writePlain();
     write.then(function () {
+      button.dispatchEvent(new CustomEvent('verse-copy-result', {detail:{success:true}}));
       const originalText = button.textContent;
       button.textContent = '✓';
       setTimeout(function () { button.textContent = originalText; }, 1200);
     }).catch(function () {
+      button.dispatchEvent(new CustomEvent('verse-copy-result', {detail:{success:false}}));
       const originalText = button.textContent;
       button.textContent = '!';
       setTimeout(function () { button.textContent = originalText; }, 1200);

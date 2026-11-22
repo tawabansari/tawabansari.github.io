@@ -78,7 +78,7 @@ function init() {
     const oldSearch = document.getElementById('surahSearch');
     if(oldSearch) oldSearch.hidden = true;
   } else {
-    host.insertAdjacentElement('afterend', form);
+    (document.querySelector('.reader-mode-toolbar') || host).insertAdjacentElement('afterend', form);
     // Keep navigation reachable when the header returns on upward scrolling.
     const primary = document.querySelector('.library-primary');
     if(primary) {const button = document.createElement('button'); button.type = 'button'; button.className = 'verse-picker-trigger'; button.textContent = fa ? 'آیه' : 'Verse'; button.addEventListener('click', () => {const trigger = document.querySelector('.quran-nav-trigger'); if(trigger)trigger.click(); else {form.scrollIntoView({block:'center'}); chapterPicker.summary.focus({preventScroll:true});}}); primary.append(button);}
