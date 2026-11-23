@@ -5126,15 +5126,15 @@
   "f-k-h2": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-k-h2/",
-      "title": "ریشهٔ ف ك ه",
-      "summary": "میوه؛ فاکه: شادمان و برخوردار؛ تفکّه: خوشی یا شگفتی و گفت‌وگو، بنا بر سیاق.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف ك ه (فَكِهَ)",
+      "summary": "میوه؛ خوشی، خوش‌مشربی و برخورداری؛ در تَفَكَّهَ، لذت، شگفتی یا دریغ بر پایهٔ سیاق.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-k-h2/",
-      "title": "The Root F K H",
-      "summary": "Fruit; fākih means enjoying oneself; tafakkuh varies between enjoyment, wonder, or talk according to context.",
-      "status": "preliminary"
+      "title": "Qur’anic root ف ك ه (fakiha)",
+      "summary": "Fruit; pleasure, good humor, and enjoyment; in tafakkaha, enjoyment, astonishment, or regret according to context.",
+      "status": "published"
     }
   },
   "f-k-k": {
@@ -5196,15 +5196,15 @@
   "f-l-k": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-l-k/",
-      "title": "ریشهٔ ف ل ك",
-      "summary": "فُلک: کشتی؛ فَلک: مدار و مسیر گردش.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف ل ك (فَلَك / فُلْك)",
+      "summary": "فَلَك: مدار حرکت آسمانی؛ فُلْك: کشتی یا کشتی‌ها، برای حمل انسان و بار بر آب.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-l-k/",
-      "title": "The Root F L K",
-      "summary": "Fulk means a ship; falak is an orbit or circular course.",
-      "status": "preliminary"
+      "title": "Qur’anic root ف ل ك (falak / fulk)",
+      "summary": "Falak: a celestial orbit; fulk: a ship or ships carrying people and cargo on water.",
+      "status": "published"
     }
   },
   "f-l-n": {
@@ -8402,15 +8402,15 @@
   "h2-sh-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/h2-sh-m/",
-      "title": "ریشهٔ ه ش م",
-      "summary": "خرد شدن گیاه و خشکیده‌های شکسته.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ه ش م (هَشَمَ)",
+      "summary": "شکستن و خرد شدن؛ هَشِيم: گیاه یا بقایای خشک، شکننده و خردشدهٔ آن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/h2-sh-m/",
-      "title": "The Root H SH M",
-      "summary": "Crumbling vegetation or broken dry stalks.",
-      "status": "preliminary"
+      "title": "The Qur’anic root ه ش م (hashama)",
+      "summary": "Breaking and crumbling; hashīm: dry, brittle vegetation or its broken remains.",
+      "status": "published"
     }
   },
   "h2-sh-sh": {
@@ -21506,15 +21506,15 @@
   "w-d-q": {
     "fa": {
       "url": "/quran-terminology/fa/roots/w-d-q/",
-      "title": "ریشهٔ و د ق",
-      "summary": "باران و قطره‌های باران.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی و د ق (وَدْق)",
+      "summary": "باران؛ قطره‌های آب فرو‌ریزنده از ابر، بدون تعیین شدت یا مقدار بارش.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/w-d-q/",
-      "title": "The Root W D Q",
-      "summary": "Rain or raindrops.",
-      "status": "preliminary"
+      "title": "The Qur’anic root و د ق (wadq)",
+      "summary": "Rain: water falling in drops from clouds, without specifying its intensity or quantity.",
+      "status": "published"
     }
   },
   "w-d-y": {
