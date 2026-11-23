@@ -5070,15 +5070,15 @@
   "f-h2-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-h2-m/",
-      "title": "ریشهٔ ف ه م",
-      "summary": "فهمیدن و دریافت معنا.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف ه م (فَهِمَ)",
+      "summary": "فهمیدن و دریافتن معنا و مقصود؛ در باب تفعیل، فهماندن یک موضوع به دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-h2-m/",
-      "title": "The Root F H M",
-      "summary": "Understanding or grasping meaning.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root F H M (فَهِمَ)",
+      "summary": "Understanding meaning and intent; in Form II, enabling another person to understand a matter.",
+      "status": "published"
     }
   },
   "f-j-j": {
@@ -5210,15 +5210,15 @@
   "f-l-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-l-n/",
-      "title": "ریشهٔ ف ل ن",
-      "summary": "فلان: جانشین نام شخصِ مشخص‌نشده؛ واژه‌ای کنایی، نه ریشه قطعیِ فعل.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف ل ن (فُلَان)",
+      "summary": "فلانی؛ جانشین نام شخصی که نام او بیان نمی‌شود، بدون تعیین هویت یا ویژگی اخلاقی او.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-l-n/",
-      "title": "The Root F L N",
-      "summary": "Fulān stands for an unnamed person; it is a placeholder expression, not a securely derived verb root.",
-      "status": "preliminary"
+      "title": "The Qur’anic root ف ل ن (fulān)",
+      "summary": "So-and-so: an expression standing in place of a person’s name, without specifying their identity or moral character.",
+      "status": "published"
     }
   },
   "f-l-q": {
@@ -5238,43 +5238,43 @@
   "f-n-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-n-d/",
-      "title": "ریشهٔ ف ن د",
-      "summary": "ناتوانی رأی؛ تفنید: نسبت خطا، سستی رأی یا بی‌خردی دادن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف ن د (فَنِدَ)",
+      "summary": "خطا و سستی رأی و گفتار؛ تفنید: نسبت دادن نادرستی یا سستی داوری به دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-n-d/",
-      "title": "The Root F N D",
-      "summary": "Weak judgment; tafnīd means attributing error or unsound judgment.",
-      "status": "preliminary"
+      "title": "The Qur’anic root ف ن د (fanida)",
+      "summary": "Error and unsound judgment or speech; tafnīd: attributing error or unsound judgment to another.",
+      "status": "published"
     }
   },
   "f-n-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-n-n/",
-      "title": "ریشهٔ ف ن ن",
-      "summary": "شاخه و نوع؛ افنان: شاخه‌ها یا گونه‌های گوناگون.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف ن ن (فَنَن)",
+      "summary": "شاخه درخت؛ در شاخه‌ای دیگر، گونه و شیوه. أفنان: شاخه‌ها، و در خوانشی دیگر، گونه‌ها.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-n-n/",
-      "title": "The Root F N N",
-      "summary": "A branch or kind; afnān denotes branches or varieties.",
-      "status": "preliminary"
+      "title": "The Qur’anic root ف ن ن (fanan)",
+      "summary": "A tree branch; in another branch, a kind or manner. Afnān: branches, or on another reading, varieties.",
+      "status": "published"
     }
   },
   "f-n-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-n-y/",
-      "title": "ریشهٔ ف ن ي",
-      "summary": "از میان رفتن و پایان یافتن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف ن ي (فَنِيَ)",
+      "summary": "پایان یافتن، از میان رفتن و نداشتن بقای دائمی؛ فناپذیری در برابر بقا.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-n-y/",
-      "title": "The Root F N Y",
-      "summary": "Perishing or coming to an end.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root F N Y (فَنِيَ)",
+      "summary": "Coming to an end, perishing, and lacking permanent continuance; perishability contrasted with remaining.",
+      "status": "published"
     }
   },
   "f-q-ayn": {
@@ -5756,43 +5756,43 @@
   "f-w-dad": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-w-dad/",
-      "title": "ریشهٔ ف و ض",
-      "summary": "سپردن و واگذاشتن کار به دیگری.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف و ض (فَوَّضَ)",
+      "summary": "سپردن کار و واگذاری رسیدگی به آن؛ در قرآن، سپردن امر خویش به خداوند همراه با مسئولیت‌پذیری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-w-dad/",
-      "title": "The Root F W Ḍ",
-      "summary": "Entrusting or committing an affair to another.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root F W Ḍ (فَوَّضَ)",
+      "summary": "Entrusting an affair and its handling; in the Qur’an, committing one’s affair to The God while retaining responsibility.",
+      "status": "published"
     }
   },
   "f-w-h2": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-w-h2/",
-      "title": "ریشهٔ ف و ه",
-      "summary": "دهان و دهان‌ها.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف و ه (فَوْه / فَم)",
+      "summary": "دهان و دهان‌ها؛ عضو خوردن و نوشیدن و ابزار اظهار گفتار، با معنایی که از درستی یا نادرستی سخن متمایز است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-w-h2/",
-      "title": "The Root F W H",
-      "summary": "The mouth or mouths.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root F W H (فَوْه / فَم)",
+      "summary": "The mouth and mouths: organs of eating, drinking, and outward speech, distinct from the truth or falsity of what is said.",
+      "status": "published"
     }
   },
   "f-w-j": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-w-j/",
-      "title": "ریشهٔ ف و ج",
-      "summary": "گروه و دسته‌ای که با هم می‌آیند.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف و ج (فَوْج)",
+      "summary": "گروه یا دسته‌ای از مردم؛ در سیاق حرکت، آمدن، رفتن یا وارد شدن گروه‌ها.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-w-j/",
-      "title": "The Root F W J",
-      "summary": "A company or group coming together.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root F W J (فَوْج)",
+      "summary": "A group or band of people; in movement contexts, groups coming, going, or entering.",
+      "status": "published"
     }
   },
   "f-w-m": {
@@ -5826,57 +5826,57 @@
   "f-w-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-w-r/",
-      "title": "ریشهٔ ف و ر",
-      "summary": "جوشش و فوران؛ فور: بی‌درنگی و هنگام آغازین.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف و ر (فَارَ)",
+      "summary": "جوشیدن، بالا زدن و فوران؛ و در کاربرد زمانی، بی‌درنگی و آغاز حرکت.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-w-r/",
-      "title": "The Root F W R",
-      "summary": "Boiling or surging; fawr denotes immediacy or the initial moment.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root F W R (فَارَ)",
+      "summary": "Boiling, surging, and gushing forth; in temporal usage, immediacy and the onset of movement.",
+      "status": "published"
     }
   },
   "f-w-t": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-w-t/",
-      "title": "ریشهٔ ف و ت",
-      "summary": "از دسترس بیرون رفتن؛ تفاوت: ناهمسانی یا ناهماهنگی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف و ت (فَاتَ)",
+      "summary": "از دست رفتن یا بیرون ماندن از دسترس؛ گریز از دسترس؛ و در «تفاوت»، اختلاف و ناهماهنگی بر حسب سیاق.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-w-t/",
-      "title": "The Root F W T",
-      "summary": "Passing beyond reach; tafāwut denotes disparity or inconsistency.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root F W T (فَاتَ)",
+      "summary": "Being missed or passing beyond reach; escape from reach; and, in tafāwut, disparity or inconsistency according to context.",
+      "status": "published"
     }
   },
   "f-w-z": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-w-z/",
-      "title": "ریشهٔ ف و ز",
-      "summary": "رستگاری، کامیابی و رسیدن به مطلوب با رهایی از خطر.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف و ز (فَازَ)",
+      "summary": "کامیابی، رسیدن به مطلوب و رهایی از زیان؛ ارزش نتیجه از گوینده و سیاق شناخته می‌شود.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-w-z/",
-      "title": "The Root F W Z",
-      "summary": "Success or attainment together with escape from danger.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root F W Z (فَازَ)",
+      "summary": "Success, attaining what is sought, and escaping harm; the outcome’s value depends on speaker and context.",
+      "status": "published"
     }
   },
   "f-y-a": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-y-a/",
-      "title": "ریشهٔ ف ي أ",
-      "summary": "بازگشت؛ فَیء: سایه بازگشته یا دارایی بازگشته، بنا بر سیاق.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف ي أ (فَاءَ)",
+      "summary": "بازگشت و بازگرداندن؛ از حرکت سایه تا بازگشت از تعدی و رساندن مال به اختیار دیگری.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-y-a/",
-      "title": "The Root F Y A",
-      "summary": "Returning; fayʾ denotes returning shade or returned property, according to context.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root F Y ʾ (فَاءَ)",
+      "summary": "Returning and restoring; from shifting shade to withdrawing from aggression and transferring property.",
+      "status": "published"
     }
   },
   "f-y-dad": {
@@ -5896,15 +5896,15 @@
   "f-y-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/f-y-l/",
-      "title": "ریشهٔ ف ي ل",
-      "summary": "فیل.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ف ي ل (فِيل)",
+      "summary": "فیل، جانور خرطوم‌دار؛ تمایز نام حیوان از روایت اصحاب فیل و شاخه‌های دیگر لغوی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/f-y-l/",
-      "title": "The Root F Y L",
-      "summary": "An elephant.",
-      "status": "preliminary"
+      "title": "Qur’anic root F Y L (fīl)",
+      "summary": "The elephant; distinguishing the animal’s name from the People of the Elephant narrative and other lexical branches.",
+      "status": "published"
     }
   },
   "f-z-ayn": {
