@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-23",
+  "roots": [
+    "sh-y-a",
+    "ayn-q-r"
+  ],
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "status": "corrected locally and verified",
+  "changes": [
+    "Separated complete Al-Kahf 18:23 and 18:24, each with independent translation and reference.",
+    "Completed all standalone Quran block quotations in both root articles: eight per language for SH Y A and twenty per language for AYN Q R.",
+    "Preserved the three poetic quotations in AYN Q R and aligned full English Quran transliterations.",
+    "Corrected mashiah morphology, distinguished lexical meaning from theological explanation, and supplied the omitted shay/ashya noun branch.",
+    "Replaced fragmentary sentence quotations in explanatory prose with references/paraphrases; retained lexical word examples.",
+    "Preserved all old anchors and page URLs; no verse unit or word-box files edited."
+  ],
+  "verification": {
+    "pages": [
+      {
+        "root": "sh-y-a",
+        "language": "fa",
+        "complete_Quran_quotes": 8,
+        "old_anchors_preserved": true
+      },
+      {
+        "root": "ayn-q-r",
+        "language": "fa",
+        "complete_Quran_quotes": 20,
+        "old_anchors_preserved": true
+      },
+      {
+        "root": "sh-y-a",
+        "language": "en",
+        "complete_Quran_quotes": 8,
+        "old_anchors_preserved": true
+      },
+      {
+        "root": "ayn-q-r",
+        "language": "en",
+        "complete_Quran_quotes": 20,
+        "old_anchors_preserved": true
+      }
+    ],
+    "internal_links_verified": 316
+  },
+  "browser_views": [
+    {
+      "root": "sh-y-a",
+      "lang": "fa",
+      "width": 1280,
+      "scroll": 1280,
+      "blocks": 0,
+      "cards": 5,
+      "sections": 9,
+      "dir": "rtl"
+    },
+    {
+      "root": "sh-y-a",
+      "lang": "fa",
+      "width": 390,
+      "scroll": 390,
+      "blocks": 0,
+      "cards": 5,
+      "sections": 9,
+      "dir": "rtl"
+    },
+    {
+      "root": "sh-y-a",
+      "lang": "en",
+      "width": 1280,
+      "scroll": 1280,
+      "blocks": 0,
+      "cards": 5,
+      "sections": 9,
+      "dir": "ltr"
+    },
+    {
+      "root": "sh-y-a",
+      "lang": "en",
+      "width": 390,
+      "scroll": 390,
+      "blocks": 0,
+      "cards": 5,
+      "sections": 9,
+      "dir": "ltr"
+    },
+    {
+      "root": "ayn-q-r",
+      "lang": "fa",
+      "width": 1280,
+      "scroll": 1280,
+      "blocks": 368,
+      "cards": 6,
+      "sections": 12,
+      "dir": "rtl"
+    },
+    {
+      "root": "ayn-q-r",
+      "lang": "fa",
+      "width": 390,
+      "scroll": 390,
+      "blocks": 368,
+      "cards": 6,
+      "sections": 12,
+      "dir": "rtl"
+    },
+    {
+      "root": "ayn-q-r",
+      "lang": "en",
+      "width": 1280,
+      "scroll": 1280,
+      "blocks": 368,
+      "cards": 6,
+      "sections": 12,
+      "dir": "ltr"
+    },
+    {
+      "root": "ayn-q-r",
+      "lang": "en",
+      "width": 390,
+      "scroll": 390,
+      "blocks": 368,
+      "cards": 6,
+      "sections": 12,
+      "dir": "ltr"
+    }
+  ],
+  "build_passed": true,
+  "build_seconds": 31.57,
+  "visual_review": [
+    "sh-y-a Persian mobile",
+    "ayn-q-r English desktop"
+  ],
+  "before_sha256": {
+    "quran-terminology/fa/roots/sh-y-a/index.html": "80cf5395d99aad6e94483fc8c31fae7a6eb025109bdf0ea516698f48abb4a00a",
+    "quran-terminology/fa/roots/ayn-q-r/index.html": "dfb166678b507123081a44d3776f4a225a046e925f52d8d7b1b8af81155a2a75",
+    "quran-terminology/en/roots/sh-y-a/index.html": "40cbbabe1f6470861c6d75f886a0858c19f76468349e0903c69f2f5bc2fba3e2",
+    "quran-terminology/en/roots/ayn-q-r/index.html": "73c2a37e0c3635faac5817164ee1a0f2b9a910401f420d16bf3896eec869c2d0"
+  },
+  "live_access_notes": "Live Persian SH Y A and both concept directories checked. Live AYN Q R fetch failed; repository pages used for its review.",
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=%24yA",
+    "https://corpus.quran.com/qurandictionary.jsp?q=Eqr",
+    "https://quran.com/18/24",
+    "https://www.islamweb.net/ar/library/content/122/4489/",
+    "Local Tanzil Uthmani Minimal 1.1 verse units"
+  ],
+  "commit_or_push_performed": false,
+  "after_sha256": {
+    "quran-terminology/fa/roots/sh-y-a/index.html": "aaf9ef1fd34678e950a472f6aff4b802cd86f1e022bab7f450aa49e60768c9e5",
+    "quran-terminology/fa/roots/ayn-q-r/index.html": "1f3b30fe0213e74f86e7dac63a9e42e433c3d6bb7ad639ca822792e9cd8b67f9",
+    "quran-terminology/en/roots/sh-y-a/index.html": "e8156c62ea8e6678bbe947bae69033c1c569a9f37d4b861cb5827dad26ab2933",
+    "quran-terminology/en/roots/ayn-q-r/index.html": "71933b015d528da616c066d31cb4b6fcc89ada3b29a826f633c932279de83860"
+  }
+}
