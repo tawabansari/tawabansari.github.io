@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-24",
+  "scope": [
+    "s-b-h",
+    "n-w-s"
+  ],
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "status": "complete",
+  "changes": [
+    "Completed all ten Quran quotations in s-b-h, including 15:98, 59:23 and 17:43 beyond the reported omissions.",
+    "Completed 49:13 and provided Arabic, translation and individual reference for each of 114:1 through 114:6; retained full 3:96.",
+    "Separated lexical meaning from interpretive claims; qualified disputed derivation of nas; removed unsupported Semitic assertions.",
+    "Added an attributed pre-Islamic horse-description witness for sabihat, with translations and limits of inference.",
+    "Corrected the English s-b-h wrapper to use established LTR styling."
+  ],
+  "checks": [
+    {
+      "file": "quran-terminology/fa/roots/s-b-h/index.html",
+      "full_verses": 10,
+      "preserved_ids": 18,
+      "verified_links": 32
+    },
+    {
+      "file": "quran-terminology/en/roots/s-b-h/index.html",
+      "full_verses": 10,
+      "preserved_ids": 18,
+      "verified_links": 32
+    },
+    {
+      "file": "quran-terminology/fa/roots/n-w-s/index.html",
+      "full_verses": 8,
+      "preserved_ids": 16,
+      "verified_links": 30
+    },
+    {
+      "file": "quran-terminology/en/roots/n-w-s/index.html",
+      "full_verses": 8,
+      "preserved_ids": 16,
+      "verified_links": 30
+    }
+  ],
+  "unchanged": [
+    "Existing page URLs and section IDs",
+    "Quran reflection units and word boxes",
+    "Root registry and index routes"
+  ],
+  "sources_for_private_verification": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=sbH",
+    "https://corpus.quran.com/qurandictionary.jsp?q=nws",
+    "https://islamweb.net/ar/library/content/122/3673/سبح",
+    "https://islamweb.net/ar/library/content/122/8449/نوس",
+    "https://islamweb.net/ar/library/content/69/496/سورة-الناس",
+    "https://www.bookleaks.com/files/ketab/ketab1/459.pdf",
+    "https://quran.com/al-hujurat/13",
+    "https://corpus.quran.com/translation.jsp?chapter=24&verse=41"
+  ],
+  "limitations": [
+    "Live concept directories and taqwa counterparts were accessible; live root-page retrieval failed, so the root audit used repository source.",
+    "No complete newer November master-prompt file was located; applied user-supplied current rules and recovered October root-writing instructions."
+  ],
+  "commit": false,
+  "push": false,
+  "validation": {
+    "jekyll_build": "passed; 24.117 seconds",
+    "arabic_exact_match": "36 quotations across both languages, compared with installed verse words",
+    "internal_links": 124,
+    "browser_views": 16,
+    "viewports": [
+      390,
+      1280
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "protected_word_boxes": "No verse units edited",
+    "git_diff_check": "passed"
+  }
+}
