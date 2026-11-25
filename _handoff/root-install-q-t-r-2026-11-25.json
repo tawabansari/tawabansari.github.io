@@ -1,0 +1,57 @@
+{
+  "slug": "q-t-r",
+  "date": "2026-11-25",
+  "status": "installed locally; not committed or pushed",
+  "source_attachment": "17c96840-dd87-4ae4-aaa7-c6e6ac46371a",
+  "blocks_per_language": 101,
+  "complete_verses_per_language": 7,
+  "root_occurrences": 5,
+  "editorial_changes": [
+    {
+      "block": 4,
+      "before": "حِينَ قَالَ النَّاسُ فِي مَجْلِسِهِمْ\\\nأَقُتَارٌ ذَاكَ أَمْ رِيحُ قُطُرْ",
+      "after": "حِينَ قَالَ النَّاسُ فِي مَجْلِسِهِمْ\nأَقُتَارٌ ذَاكَ أَمْ رِيحُ قُطُرْ"
+    },
+    {
+      "block": 7,
+      "before": "این شاهد که در دیوان طرفه نیز ثبت شده است، کاربرد شاخه مربوط به بو و دود را در شعر منسوب به دوران پیش از اسلام نشان می‌دهد. معنای تنگی معیشت و تنگ گرفتن در هزینه نیز در منابع زبان عربی کلاسیک ثبت شده و قرآن گواه روشنی از کاربرد آن در عصر نزول است؛ هرچند برای این شاخه شاهد مستقل پیشاقرآنی با تاریخ قابل احراز در دست نیست.",
+      "after": "این شاهد در شعرِ نقل‌شده از طرفه، شاخه مربوط به بو و دود را نشان می‌دهد؛ انتساب آن به شاعری جاهلی به‌تنهایی تاریخ دقیق سرایش را ثابت نمی‌کند. معنای تنگی معیشت و تنگ گرفتن در هزینه نیز در منابع عربی کلاسیک ثبت شده و قرآن گواه روشنی از کاربرد آن در عصر نزول است؛ اما ثبت لغوی به‌تنهایی شاهد مستقلِ تاریخ‌گذاری‌شده برای قدمت پیشاقرآنی این شاخه نیست."
+    },
+    {
+      "block": 9,
+      "before": "**صورت‌های قرآنی:** يَقْتُرُوا، مُقْتِر، قَتُور، قَتَر و قَتَرَة.",
+      "after": "**صورت‌های قرآنی:** يَقْتُرُوا، مُقْتِر، قَتُور، قَتَر و قَتَرَة. هر صورت یک بار آمده و مجموع کاربردها پنج بار است."
+    },
+    {
+      "block": 19,
+      "before": "گناهی بر شما نیست اگر زنان را طلاق دهید، در حالی که هنوز با آنان همبستر نشده و مالی برایشان مقرر نکرده‌اید. و آنان را بهره‌مند سازید؛ بر توانگر به اندازه توانش و بر تنگدست به اندازه توانش، بهره‌ای به شیوه پسندیده؛ حقی بر نیکوکاران.",
+      "after": "گناهی بر شما نیست اگر زنان را طلاق دهید، در حالی که هنوز با آنان تماس نداشته‌اید یا برای آنان فریضه‌ای مقرر نکرده‌اید؛ و آنان را بهره‌مند سازید؛ بر توانگر به اندازه توانش و بر تنگدست به اندازه توانش، بهره‌ای به شیوه پسندیده؛ حقی بر نیکوکاران."
+    },
+    {
+      "block": 25,
+      "before": "همین اصل در طلاق ۶۵:۷ نیز بیان شده است؛ کسی که از گشایش برخوردار است باید از گشایش خود انفاق کند و کسی که رزقش محدود شده، از آنچه خداوند به او داده است.",
+      "after": "همین اصل در طلاق ۶۵:۷ نیز بیان شده است؛ کسی که از گشایش برخوردار است باید از گشایش خود انفاق کند و کسی که رزقش محدود شده، از آنچه آن معبود یگانه به او داده است."
+    }
+  ],
+  "source_preamble": "Removed AI research assertion, favicon, and citation debris.",
+  "english": "Full corresponding article, poem translation, verse translations, pronunciation support, and independent references.",
+  "protected_content": "Only two missing learn-more links added in Al-Baqarah 2:236, both languages. All other metadata and notices retained. Previous dirty files preserved.",
+  "validation": {
+    "arabic": "Seven full quotations matched installed verses with orthographic normalization.",
+    "root_boxes": "30 lexical boxes passed.",
+    "registry": "Only q-t-r changed.",
+    "jekyll": "passed; 25.032 seconds",
+    "internal_links": 112,
+    "browser": "Eight views passed: both languages, mobile/desktop, light/dark; no overflow. Representative screenshots visually inspected."
+  },
+  "research_sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qtr",
+    "https://ablibrary.net/book_content/b/14214/56",
+    "https://www.islamweb.net/ar/library/content/124/3550/",
+    "https://jamharah.net/showpost.php?p=176518&postcount=15",
+    "https://www.jamharah.net/showpost.php?p=181749&postcount=15",
+    "https://forqan.co/fa/quran-terminology/",
+    "https://forqan.co/en/quran-terminology/"
+  ],
+  "poetry": "Supplied variant confirmed in indexed text of Ashar al-shuara al-sittah al-jahiliyyin, page 56; precise date of composition not claimed. Direct opening returned cache miss, indexed text accessible."
+}

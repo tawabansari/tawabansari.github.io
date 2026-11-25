@@ -1,0 +1,56 @@
+{
+  "root": "ق د ح",
+  "slug": "q-d-h",
+  "date": "2026-11-25",
+  "source": "/Users/tawab/.codex/attachments/42a16a9f-d714-43c7-87c1-c308d9ea21c2/Pasted text.txt",
+  "status": "installed locally; no commit or push",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "blocks_per_language": 95,
+  "quranic_occurrences": [
+    "100:2"
+  ],
+  "full_quotations": 10,
+  "distinct_verses": 9,
+  "editorial_changes": [
+    "Removed process preamble, favicon, and external citation debris.",
+    "Qualified pre-Islamic dating and documented variant poem wording.",
+    "Explained two interpretations of al-ajdham without silently choosing an exclusive meaning.",
+    "Separated grammatical analyses from recitation variants.",
+    "Kept horse/hoof identification in explanatory prose, not direct verse translation.",
+    "Distinguished semantic analogy from historical derivation.",
+    "Preserved all substantive supplied paragraphs and supplied complete English counterpart."
+  ],
+  "research_sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qdH",
+    "https://najafdesertlibrary.com/book/شرح-القصائد-العشر/v/1/p/187",
+    "https://almutadaber.com/books/book1_8520.pdf",
+    "https://www.bookleaks.com/files/ketab/ketab2/217.pdf",
+    "https://ar.wikisource.org/wiki/صفحة:تاج_العروس2.pdf/203",
+    "https://www.islamweb.org/ar/library/content/215/4527/تفسير-قوله-تعالى-فالموريات-قدحا"
+  ],
+  "related_studies": [
+    "w-r-y",
+    "w-q-d",
+    "q-b-s",
+    "sh-r-r"
+  ],
+  "concept_directory_review": "Both live directories checked; no additional concept article necessary for this lexical discussion.",
+  "validation": {
+    "build": "passed in 28.337 seconds",
+    "bilingual_block_parity": "95 each",
+    "arabic_verse_check": "10 quotations matched installed full Quran text with orthographic normalization",
+    "internal_links_and_anchors": 94,
+    "browser_views": 8,
+    "visual_review": [
+      "Persian mobile light",
+      "English desktop dark"
+    ],
+    "git_diff_check": "passed",
+    "prior_content_hashes": "preserved",
+    "registry": "only q-d-h changed"
+  },
+  "verse_units": "No edits. Existing study links already present in both languages; pre-existing preliminary notices and missing contextual fields not changed."
+}

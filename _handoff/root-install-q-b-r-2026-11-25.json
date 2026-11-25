@@ -1,0 +1,85 @@
+{
+  "root": "ق ب ر",
+  "slug": "q-b-r",
+  "date": "2026-11-25",
+  "status": "installed locally; not committed or pushed",
+  "source": "/Users/tawab/.codex/attachments/1b4a5ae6-a08b-49ec-a70e-c8205fac0d41/Pasted text.txt",
+  "files": [
+    "quran-terminology/fa/roots/q-b-r/index.html",
+    "quran-terminology/en/roots/q-b-r/index.html",
+    "_data/quran-root-studies.json"
+  ],
+  "content_blocks_per_language": 108,
+  "complete_verses_per_language": 12,
+  "root_occurrences": 8,
+  "edits": [
+    {
+      "block": 4,
+      "before": "لَوْ أَسْنَدَتْ مَيْتًا إِلَى نَحْرِهَا\\\nعَاشَ وَلَمْ يُنْقَلْ إِلَى قَابِرِ",
+      "after": "لَوْ أَسْنَدَتْ مَيْتًا إِلَى نَحْرِهَا\nعَاشَ وَلَمْ يُنْقَلْ إِلَى قَابِرِ"
+    },
+    {
+      "block": 6,
+      "before": "«قَابِر» در این بیت به کسی گفته شده است که مرده را دفن می‌کند. هرچند تاریخ دقیق سرودن این بیت به‌طور مستقل قطعی نیست، این شاهد از کاربرد شناخته‌شده ریشه در زبان عربی نزدیک به عصر نزول حکایت دارد.",
+      "after": "«قَابِر» در این بیت به کسی گفته شده است که مرده را دفن می‌کند. هرچند تاریخ دقیق سرودن این بیت به‌طور مستقل قطعی نیست، انتساب آن، این شاهد را در مجموعه شعرِ نقل‌شده از شاعری نزدیک به عصر نزول قرار می‌دهد."
+    },
+    {
+      "block": 9,
+      "before": "**صورت‌های قرآنی:** قَبْر، قُبُور، أَقْبَرَ و مَقَابِر.",
+      "after": "**صورت‌های قرآنی:** قَبْر، قُبُور، أَقْبَرَ و مَقَابِر. این صورت‌ها در مجموع هشت بار در قرآن آمده‌اند."
+    },
+    {
+      "block": 19,
+      "before": "این مفهوم با داستان دو فرزند آدم در مائده ۵:۳۱ نیز ارتباط دارد. پس از کشته شدن یکی از دو برادر، خداوند کلاغی را برمی‌انگیزد که زمین را می‌کاود تا به برادر دیگر نشان دهد چگونه پیکر برادرش را بپوشاند.",
+      "after": "این مفهوم با داستان دو فرزند آدم در مائده ۵:۳۱ نیز ارتباط دارد. پس از کشته شدن یکی از دو برادر، آن معبود یگانه کلاغی را برمی‌انگیزد که زمین را می‌کاود تا به برادر دیگر نشان دهد چگونه پیکر برادرش را بپوشاند."
+    },
+    {
+      "block": 30,
+      "before": "و هرگز بر هیچ‌یک از آنان که مرده است صلات مگذار و بر سر گور او نایست؛ زیرا آنان به آن معبود یگانه و رسولش کفر ورزیدند و در حالی مردند که فاسق بودند.",
+      "after": "و هرگز بر هیچ‌یک از آنان که مرده است صلات مگذار و بر سر گور او نایست؛ زیرا آنان به آن معبود یگانه و فرستاده‌اش کفر ورزیدند و در حالی مردند که فاسق بودند."
+    },
+    {
+      "block": 44,
+      "before": "عبارت پایانی این آیه از نظر نحوی دو خوانش دارد.",
+      "after": "عبارت پایانی این آیه دو تحلیل نحوی دارد؛ تفاوت در تعلق «مِنْ» است، نه در قرائت متن آیه."
+    },
+    {
+      "block": 46,
+      "before": "در خوانش دوم، «مِنْ» بیانگر گروهی از کافران است؛ یعنی کافرانی از میان اهل گورها که از آخرت نومید شده‌اند.",
+      "after": "در خوانش دوم، «مِنْ» بیانگر گروهی از کافران است؛ یعنی کافرانی از میان اهل گورها که از خیر و بهرهٔ نیک آخرت نومید شده‌اند."
+    },
+    {
+      "block": 67,
+      "before": "البته برانگیخته شدن انسان به داشتن قبری ساخته‌شده در زمین مشروط نیست. یس ۳۶:۵۳ از حاضر شدن همگان نزد خداوند سخن می‌گوید. کسانی که در دریا غرق شده‌اند، پیکرشان سوخته یا به هر دلیل دفن نشده‌اند نیز از حکم عمومی رستاخیز مستثنا نیستند.",
+      "after": "البته برانگیخته شدن انسان به داشتن قبری ساخته‌شده در زمین مشروط نیست. یس ۳۶:۵۳ از حاضر شدن همگان نزد آن معبود یگانه سخن می‌گوید. کسانی که در دریا غرق شده‌اند، پیکرشان سوخته یا به هر دلیل دفن نشده‌اند نیز از حکم عمومی رستاخیز مستثنا نیستند."
+    },
+    {
+      "block": 92,
+      "before": "گفتند: وای بر ما، چه کسی ما را از آرامگاهمان برانگیخت؟ این همان چیزی است که فرارحمن وعده داده بود و رسولان راست گفتند.",
+      "after": "گفتند: وای بر ما، چه کسی ما را از آرامگاهمان برانگیخت؟ این همان چیزی است که فرارحمن وعده داده بود و فرستادگان راست گفتند."
+    }
+  ],
+  "additional_edits": [
+    "Excluded preliminary AI research claim and external citation debris.",
+    "Adapted Persian-specific mausoleum contrast for English readers.",
+    "Full English translation, verse pronunciation aids, three linked morphology cards."
+  ],
+  "sources_checked": [
+    "https://forqan.co/fa/quran-terminology/",
+    "https://forqan.co/en/quran-terminology/",
+    "https://corpus.quran.com/qurandictionary.jsp?q=qbr",
+    "https://ablibrary.net/book_content/b/14804/68?lang=fa",
+    "https://www.islamweb.net/ar/library/content/124/3540/?idfrom=&idto=&start=",
+    "https://islamweb.net/ar/library/content/215/4315/تفسير-قوله-تعالى-ثم-أماته-فأقبره",
+    "https://www.islamweb.org/ar/library/content/206/5097/تفسير-قوله-تعالى-يا-أيها-الذين-آمنوا-لا-تتولوا-قوما-غضب-الله-عليهم-قد-يئسوا-من-الآخرة-كما-يئس-الكفار-من-أصحاب-القبور"
+  ],
+  "validation": {
+    "jekyll": "passed; 25.168 seconds",
+    "internal_links_and_anchors": 130,
+    "arabic": "All 12 quotations match installed verse units after spelling normalization; supplied Arabic preserved.",
+    "protected_verse_units": "All hashes unchanged; existing root links already present. No word-box edits.",
+    "prior_dirty_files": "Hashes unchanged.",
+    "registry": "Only q-b-r entry changed.",
+    "browser": "8 views passed: Persian/English, 390/1280 widths, light/dark; no horizontal overflow. Persian mobile and English desktop screenshots visually inspected."
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-25",
+  "scope": "Three reported editorial issues, synchronized in Persian and English",
+  "changes": {
+    "m-l-k": "Distinguish morphological indexing from uncertain historical etymology; link to a-l-k; qualify forms list and conclusion",
+    "a-l-k": "Separate 37:149, 37:150, 37:151, 37:152, 37:153, 53:27, 53:28; also separate analogous merged 21:26, 21:27, 21:28, 21:29. Preserve original Arabic; split translations and transliterations; independently link each reference",
+    "q-r-b": "Remove published future-work note"
+  },
+  "checks": {
+    "quran": "11 verses per language matched against installed text with orthographic normalization",
+    "links": 50,
+    "existing_ids": "preserved",
+    "build": "passed, 30.426 seconds",
+    "browser": [
+      {
+        "root": "a-l-k",
+        "lang": "fa",
+        "width": 390,
+        "scroll": 390,
+        "theme": "light",
+        "verses": 11,
+        "cards": 4,
+        "sections": 8
+      },
+      {
+        "root": "a-l-k",
+        "lang": "fa",
+        "width": 390,
+        "scroll": 390,
+        "theme": "dark",
+        "verses": 11,
+        "cards": 4,
+        "sections": 8
+      },
+      {
+        "root": "a-l-k",
+        "lang": "fa",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "light",
+        "verses": 11,
+        "cards": 4,
+        "sections": 8
+      },
+      {
+        "root": "a-l-k",
+        "lang": "fa",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "dark",
+        "verses": 11,
+        "cards": 4,
+        "sections": 8
+      },
+      {
+        "root": "a-l-k",
+        "lang": "en",
+        "width": 390,
+        "scroll": 390,
+        "theme": "light",
+        "verses": 11,
+        "cards": 4,
+        "sections": 8
+      },
+      {
+        "root": "a-l-k",
+        "lang": "en",
+        "width": 390,
+        "scroll": 390,
+        "theme": "dark",
+        "verses": 11,
+        "cards": 4,
+        "sections": 8
+      },
+      {
+        "root": "a-l-k",
+        "lang": "en",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "light",
+        "verses": 11,
+        "cards": 4,
+        "sections": 8
+      },
+      {
+        "root": "a-l-k",
+        "lang": "en",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "dark",
+        "verses": 11,
+        "cards": 4,
+        "sections": 8
+      },
+      {
+        "root": "m-l-k",
+        "lang": "fa",
+        "width": 390,
+        "scroll": 390,
+        "theme": "light",
+        "verses": 0,
+        "cards": 0,
+        "sections": 16
+      },
+      {
+        "root": "m-l-k",
+        "lang": "fa",
+        "width": 390,
+        "scroll": 390,
+        "theme": "dark",
+        "verses": 0,
+        "cards": 0,
+        "sections": 16
+      },
+      {
+        "root": "m-l-k",
+        "lang": "fa",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "light",
+        "verses": 0,
+        "cards": 0,
+        "sections": 16
+      },
+      {
+        "root": "m-l-k",
+        "lang": "fa",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "dark",
+        "verses": 0,
+        "cards": 0,
+        "sections": 16
+      },
+      {
+        "root": "m-l-k",
+        "lang": "en",
+        "width": 390,
+        "scroll": 390,
+        "theme": "light",
+        "verses": 0,
+        "cards": 0,
+        "sections": 16
+      },
+      {
+        "root": "m-l-k",
+        "lang": "en",
+        "width": 390,
+        "scroll": 390,
+        "theme": "dark",
+        "verses": 0,
+        "cards": 0,
+        "sections": 16
+      },
+      {
+        "root": "m-l-k",
+        "lang": "en",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "light",
+        "verses": 0,
+        "cards": 0,
+        "sections": 16
+      },
+      {
+        "root": "m-l-k",
+        "lang": "en",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "dark",
+        "verses": 0,
+        "cards": 0,
+        "sections": 16
+      },
+      {
+        "root": "q-r-b",
+        "lang": "fa",
+        "width": 390,
+        "scroll": 390,
+        "theme": "light",
+        "verses": 0,
+        "cards": 4,
+        "sections": 16
+      },
+      {
+        "root": "q-r-b",
+        "lang": "fa",
+        "width": 390,
+        "scroll": 390,
+        "theme": "dark",
+        "verses": 0,
+        "cards": 4,
+        "sections": 16
+      },
+      {
+        "root": "q-r-b",
+        "lang": "fa",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "light",
+        "verses": 0,
+        "cards": 4,
+        "sections": 16
+      },
+      {
+        "root": "q-r-b",
+        "lang": "fa",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "dark",
+        "verses": 0,
+        "cards": 4,
+        "sections": 16
+      },
+      {
+        "root": "q-r-b",
+        "lang": "en",
+        "width": 390,
+        "scroll": 390,
+        "theme": "light",
+        "verses": 0,
+        "cards": 4,
+        "sections": 16
+      },
+      {
+        "root": "q-r-b",
+        "lang": "en",
+        "width": 390,
+        "scroll": 390,
+        "theme": "dark",
+        "verses": 0,
+        "cards": 4,
+        "sections": 16
+      },
+      {
+        "root": "q-r-b",
+        "lang": "en",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "light",
+        "verses": 0,
+        "cards": 4,
+        "sections": 16
+      },
+      {
+        "root": "q-r-b",
+        "lang": "en",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "dark",
+        "verses": 0,
+        "cards": 4,
+        "sections": 16
+      }
+    ],
+    "diff_check": "passed",
+    "verse_units": "unchanged"
+  },
+  "remaining_observations": [
+    "a-l-k contains other short verse excerpts, including 66:6 and 19:17; this targeted audit did not convert every excerpt into full verses."
+  ],
+  "live_access": "a-l-k and concept directories accessible; m-l-k and q-r-b live requests failed, reviewed repository sources",
+  "publication": "No commit or push"
+}

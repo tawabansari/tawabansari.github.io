@@ -1,0 +1,60 @@
+{
+  "root": "ق ح م",
+  "slug": "q-h-m",
+  "date": "2026-11-25",
+  "source": "/Users/tawab/.codex/attachments/b2bc9fe0-81aa-4d9a-9aeb-141432b875d9/Pasted text.txt",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "status": "installed locally; not committed or pushed",
+  "blocks_per_language": 98,
+  "quranic_occurrences": [
+    "90:11",
+    "38:59"
+  ],
+  "full_verse_quotes": 11,
+  "editorial_changes": [
+    "Removed research-process preamble, external reference debris, and trailing editing notes.",
+    "Qualified absence-of-pre-Islamic-evidence claim; lexical attestation alone cannot date a witness.",
+    "Distinguished grammatical interpretations of fa-la iqtahama from recitation variants.",
+    "Replaced narrow water-entering-earth paraphrase with what enters the earth; supplied 34:2 and 57:6 references.",
+    "Preserved contextual moral distinction between the two occurrences.",
+    "Complete English translation and verse pronunciation aids."
+  ],
+  "research": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qHm",
+    "https://www.islamweb.net/ar/library/content/122/6501/قحم",
+    "https://quran.com/ar/90:11/tafsirs/ar-tafseer-al-qurtubi"
+  ],
+  "concept_review": {
+    "live_directories_checked": [
+      "https://forqan.co/fa/quran-terminology/",
+      "https://forqan.co/en/quran-terminology/"
+    ],
+    "linked_concept": "iman",
+    "related_roots": [
+      "ayn-q-b",
+      "f-k-k",
+      "d-kh-l",
+      "w-l-j",
+      "ayn-b-r",
+      "j-h2-d"
+    ]
+  },
+  "validation": {
+    "build": "passed; 30.199 seconds",
+    "source_blocks": "98 in each language",
+    "arabic": "11 full quotations in each language matched installed Quran text, allowing orthographic variants",
+    "internal_links": 128,
+    "browser_views": 8,
+    "visual_review": [
+      "Persian mobile light",
+      "English desktop dark"
+    ],
+    "git_diff_check": "passed",
+    "protected_content": "all preexisting reflection files and prior dirty files hash-preserved",
+    "registry": "only q-h-m changed"
+  },
+  "verse_boxes": "No verse units edited; all four existing q-h-m links already present. Preliminary notices and existing missing fields left unchanged, outside root-article installation."
+}

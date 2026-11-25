@@ -1,0 +1,43 @@
+{
+  "slug": "q-b-s",
+  "date": "2026-11-25",
+  "status": "installed locally; not committed or pushed",
+  "source_attachment": "842c0e36-636a-4a4b-ab88-ce0690b8df78",
+  "blocks_per_language": 72,
+  "complete_verses_per_language": 5,
+  "root_occurrences": 3,
+  "editorial_changes": [
+    {
+      "block": 3,
+      "before": "این معنا در منابع زبان عربی کهن به‌روشنی ثبت شده و کاربرد قرآنی آن نیز همین معنا را تایید می‌کند. با این حال، برای اثبات مستقل کاربرد آن در دوره پیش از اسلام، شاهد شعری با انتساب قطعی در دست نیست.",
+      "after": "این معنا در سنت لغوی عربی ثبت شده و کاربرد قرآنی آن نیز همین معنا را تأیید می‌کند. با این حال، ثبت یک کاربرد در فرهنگ‌های لغوی به‌تنهایی تاریخ دقیق پیشاقرآنی آن را ثابت نمی‌کند؛ شاهد شعری با تاریخ و انتساب مطمئن به دوره پیش از اسلام مبنای این بحث قرار نگرفته است."
+    },
+    {
+      "block": 7,
+      "before": "**صورت‌های قرآنی:** قَبَس و فعل اِقْتَبَسَ در صورت «نَقْتَبِسْ».",
+      "after": "**صورت‌های قرآنی:** قَبَس و فعل اِقْتَبَسَ در صورت «نَقْتَبِسْ». این ریشه سه بار آمده است: دو کاربرد اسمی و یک کاربرد فعلی."
+    }
+  ],
+  "source_preamble": "AI research claim, favicon link, and citation debris excluded.",
+  "english": "Complete corresponding translation, morphology pronunciation, full verse pronunciation and independent references.",
+  "protected_boxes": "Only four missing learn-more links added for q-b-dad in 2:245 and 2:283, both languages; all other fields and existing notices preserved. All other verse files unchanged.",
+  "validation": {
+    "source_blocks": "complete in both languages",
+    "arabic": "All complete quotations checked against installed verses, allowing orthographic variants without changing supplied Arabic.",
+    "registry": "Only the two current roots modified.",
+    "prior_changes": "All preserved.",
+    "root_boxes": "68 lexical boxes passed in the four edited verse files.",
+    "jekyll": "passed; 28.639 seconds",
+    "internal_links": "222 links and anchors checked across four rendered pages.",
+    "browser": "16 views across four pages: both languages, 390/1280 widths, light/dark; no overflow. Representative screenshots visually inspected."
+  },
+  "research_sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qbs",
+    "https://islamweb.net/ar/library/content/122/6449/قبس",
+    "https://forqan.co/fa/quran-terminology/",
+    "https://forqan.co/en/quran-terminology/",
+    "https://jamharah.net/archive/index.php/t-27578.html",
+    "https://www.safahat.org/books/70724796/4/"
+  ],
+  "poetry_review": "A verse with aqbas attributed to Imru al-Qays was found, but the source explicitly questions attribution; not used as securely pre-Islamic evidence."
+}
