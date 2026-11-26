@@ -14843,13 +14843,13 @@
     "fa": {
       "url": "/quran-terminology/fa/roots/q-dad-b/",
       "title": "ریشه قرآنی ق ض ب",
-      "summary": "بریدن و جدا کردن؛ در کاربرد قرآنی، گیاهان تازه و چیدنی برای خوراک.",
+      "summary": "بریدن و جدا کردن؛ قضب در کاربرد قرآنی نام گیاهان سبز چیدنی است، نه عمل بریدن.",
       "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-dad-b/",
       "title": "The Qur’anic Root Q Ḍ B",
-      "summary": "Cutting and separating; in the Qur’anic occurrence, fresh vegetation cut for food or fodder.",
+      "summary": "Cutting and separating; Qur’anic qaḍb names green vegetation cut for food or fodder, not the act of cutting.",
       "status": "published"
     }
   },
@@ -15640,29 +15640,29 @@
   "q-tt-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-tt-r/",
-      "title": "ریشهٔ ق ط ر",
-      "summary": "چکیدن؛ قِطر: مس گداخته؛ قطران: ماده قیرمانند؛ اقطار: نواحی و کرانه‌ها.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ط ر",
+      "summary": "چکیدن و حرکت پی‌درپی؛ در صورت‌های اسمی، مس مذاب، قطران و نواحی و کرانه‌ها.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-tt-r/",
-      "title": "The Root Q Ṭ R",
-      "summary": "Dripping; qiṭr is molten copper; qaṭirān is tar-like material; aqṭār denotes regions or sides.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q Ṭ R",
+      "summary": "Dripping and successive movement; the nominal forms denote molten copper, tar, and regions or sides.",
+      "status": "published"
     }
   },
   "q-tt-tt": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-tt-tt/",
-      "title": "ریشهٔ ق ط ط",
-      "summary": "بریدن؛ قِطّ: نوشته سهم یا بهره مقرر.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ط ط",
+      "summary": "بریدن و جدا کردن؛ قِطّ: سهم یا سند مکتوبِ سهم.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-tt-tt/",
-      "title": "The Root Q Ṭ Ṭ",
-      "summary": "Cutting; qiṭṭ denotes an allotted share or its written record.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Q Ṭ Ṭ",
+      "summary": "Cutting and separating; qiṭṭ: a share or its written grant.",
+      "status": "published"
     }
   },
   "q-w-ayn": {

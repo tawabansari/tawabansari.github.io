@@ -1,0 +1,346 @@
+{
+  "root": "ق ط ر",
+  "slug": "q-tt-r",
+  "date": "2026-11-25",
+  "input": "/Users/tawab/.codex/attachments/dd173886-783a-4769-8c05-d8e63d786a39/Pasted text.txt",
+  "status": "Installed locally in Persian and English; no assistant commit or push.",
+  "coverage": {
+    "blocks_per_language": 95,
+    "root_occurrences": 5,
+    "full_quoted_verses": [
+      "18:96",
+      "34:12",
+      "14:50",
+      "33:14",
+      "55:33"
+    ],
+    "forms": {
+      "qitr": 2,
+      "qatiran": 1,
+      "aqtar": 2
+    }
+  },
+  "editorial": {
+    "old_to_new": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23,
+      "24": 24,
+      "25": 25,
+      "26": 26,
+      "31": 27,
+      "32": 28,
+      "33": 29,
+      "34": 30,
+      "35": 31,
+      "36": 32,
+      "37": 33,
+      "38": 34,
+      "39": 35,
+      "40": 36,
+      "41": 37,
+      "42": 38,
+      "43": 39,
+      "44": 40,
+      "45": 41,
+      "46": 42,
+      "47": 43,
+      "48": 44,
+      "49": 45,
+      "50": 46,
+      "51": 47,
+      "52": 48,
+      "53": 49,
+      "54": 50,
+      "55": 51,
+      "56": 52,
+      "57": 53,
+      "58": 54,
+      "59": 55,
+      "60": 56,
+      "63": 57,
+      "64": 58,
+      "65": 59,
+      "66": 60,
+      "67": 61,
+      "68": 62,
+      "69": 63,
+      "70": 64,
+      "71": 65,
+      "72": 66,
+      "73": 67,
+      "74": 68,
+      "75": 69,
+      "76": 70,
+      "77": 71,
+      "78": 72,
+      "79": 73,
+      "80": 74,
+      "81": 75,
+      "82": 76,
+      "83": 77,
+      "84": 78,
+      "85": 79,
+      "86": 80,
+      "87": 81,
+      "88": 82,
+      "89": 83,
+      "90": 84,
+      "91": 85,
+      "92": 86,
+      "93": 87,
+      "94": 88,
+      "95": 89,
+      "96": 90,
+      "97": 91,
+      "98": 92,
+      "99": 93,
+      "100": 94
+    },
+    "removed": [
+      27,
+      28,
+      29,
+      30,
+      61,
+      62
+    ],
+    "edits": {
+      "5": "شعر منسوب به دوران جاهلیت و نزدیک به عصر نزول، کاربرد این خانواده واژگانی را درباره مالیدن قطران بر شتران نشان می‌دهد. معنای جانب و ناحیه در خود قرآن نیز روشن است. با این حال، شواهد مستقل برای تعیین زمان پیدایش و رابطه تاریخی تمام شاخه‌ها کافی نیستند؛ ثبت آنها در فرهنگ‌های متأخر، به‌تنهایی چنین تاریخی را اثبات نمی‌کند.",
+      "6": "**صورت‌های قرآنی مورد بررسی:** این خانواده پنج بار در پنج آیه آمده است: قِطر دو بار، قطران یک بار و أقطار دو بار.",
+      "12": "پی‌درپی آمدن قطره‌ها با یکی دیگر از کاربردهای این خانواده، یعنی قطار شتران، شباهت دارد. رشته‌ای از شترانِ پی‌درپی را «قِطَار» می‌نامیدند. این شباهت به فهم کاربردها کمک می‌کند، اما به‌تنهایی ترتیب تاریخی پیدایش آنها را ثابت نمی‌کند.",
+      "15": "قطران ماده‌ای تیره، چسبنده و تندبو بود که در توضیح‌های لغوی با عصاره و مواد حاصل از پختن بعضی درختان ارتباط دارد. مالیدن آن بر بدن شتران، از جمله شتران مبتلا به جرب، از کاربردهای ثبت‌شده آن است.",
+      "19": "این بیت در منابع لغوی با ضبط‌های متفاوت نقل شده است. در ضبطِ آورده‌شده، «قَطَرَ» به مالیدن قطران دلالت دارد. تشبیه، اثر سوزان دلبستگی را با اثر قطران پیوند می‌دهد؛ تاریخ دقیق این ضبط و سرایش بیت در این پژوهش احراز نشد.",
+      "20": "لبید بن ربیعه، در تصویری که اشک را به آب دلو تشبیه می‌کند، از شترِ آبکش چنین یاد می‌کند:",
+      "22": "«شتری از جرش، قطران‌مالیده، بامداد با آن دلو به کار افتاد؛ شتری بالغ و تنومند که باغ‌ها را سیراب می‌کند.»",
+      "37": "«قطعه‌های آهن را برایم بیاورید؛ تا هنگامی که میان دو دامنه را هم‌سطح ساخت، گفت: بدمید. تا هنگامی که آن را آتش گردانید، گفت: برایم [مس] بیاورید تا بر آن مس مذاب بریزم.»",
+      "57": "«قیر گیاهی» معادلی توضیحی برای قطرانِ شناخته‌شده در این شواهد است. برای پرهیز از محدود کردن واژه به ماده‌ای صنعتی یا نفتی، در ترجمه آیه «قطران» حفظ می‌شود و ماهیت آن در شرح توضیح داده می‌شود.",
+      "60": "در خوانشی منقول از برخی قاریان نخستین، «مِنْ قِطْرٍ آنٍ» دو واژه است: مس و بسیار داغ؛ «آنٍ» به ریشه «أ ن ي» مربوط است. در متن این مقاله، مطابق قرائت حفص از عاصم، «قَطِرَانٍ» یک واژه و نام قطران است.",
+      "63": "این دو خوانش باید از یکدیگر متمایز بمانند؛ هم‌معنا گرفتن قطران و مس مذاب از این اختلاف به دست نمی‌آید.",
+      "68": "«و اگر از اطراف آن [شهر] بر آنان وارد می‌شدند، سپس از آنان فتنه خواسته می‌شد، به آن تن می‌دادند و برای آن جز اندکی درنگ نمی‌کردند.»",
+      "71": "«أَقْطَارِهَا» در این سیاق به اطراف شهر اشاره دارد و ضمیر «هَا» با توجه به سیاق به شهر بازمی‌گردد. فعل «دُخِلَتْ» مجهول است؛ شهر مورد ورود قرار می‌گیرد و «مِنْ» جانب‌های ورود را نشان می‌دهد. مقصود از فتنه در این موقعیت، روی‌آوردن به آشوب و همراهی با مهاجمان یا بازگشت از ایمان تفسیر شده است؛ این توضیح سیاقی را نباید با معنای أقطار یکی گرفت.",
+      "80": "«سلطان» در این سیاق با اقتدار و امکان عبور پیوند دارد. خودِ أقطار فقط نواحی و کرانه‌ها را بیان می‌کند؛ از آن نه شکل هندسی جهان به دست می‌آید و نه یک نظریه فیزیکی درباره مرزهای آن.",
+      "91": "این خانواده را باید از «ق ت ر»، با تاء، و از مدخل چهارحرفی «ق ن ط ر» که قنطار در آن بررسی می‌شود متمایز کرد. شباهت نوشتاری، دلیل یکسان بودن ریشه‌ها یا منشأ تاریخی آنها نیست."
+    }
+  },
+  "notes": [
+    "Full Arabic quotations aligned with installed canonical verse text in both languages, retaining source license.",
+    "Alternative reading shortened to two paragraphs; distinguished from Hafs wording.",
+    "Post-revelation Qadisiyya poem omitted under historical scope; modern train illustration and space-travel extrapolation removed.",
+    "Labid poem checked in collected poetry p100: pronoun refers to bucket; tears/irrigation context restored. Composition date not established. Imru al-Qays transmitted wording qualified.",
+    "18:96 molten copper retained as contextual material meaning; supplied ellipsis marked with brackets.",
+    "33:14 passive syntax explained; fitnah interpretation distinguished from aqtar meaning.",
+    "No derivational identity imposed on different nominal branches or q-t-r / q-n-tt-r.",
+    "No input preface, favicon, research URL or trailing editing instruction in publishable articles."
+  ],
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qTr",
+    "https://www.islamweb.org/ar/library/content/122/6700/قطر",
+    "https://najafdesertlibrary.com/book/ديوان-لبيد-بن-ربيعة/v/1/p/100",
+    "https://najafdesertlibrary.com/book/الصحاح/v/2/p/359",
+    "https://najafdesertlibrary.com/book/الهداية-إلى-بلوغ-النهاية/v/5/p/654"
+  ],
+  "concept_linking": {
+    "directories_checked": [
+      "https://forqan.co/fa/quran-terminology/",
+      "https://forqan.co/en/quran-terminology/"
+    ],
+    "added": "sultan-logic-in-quran in commentary and related studies, both languages",
+    "limitation": "English live concept page returned cache miss; repository English article read and built destination verified. Persian live destination read."
+  },
+  "protected_boxes": {
+    "fa": [
+      {
+        "path": "quran-reflection/fa/018-al-kahf/units/096.html",
+        "word": "قِطرًا",
+        "context": "مس گداخته؛ مادهٔ ریخته‌شده بر سازه.",
+        "rootMeaning": "چکیدن؛ قِطر: مس گداخته؛ قطران: ماده قیرمانند؛ اقطار: نواحی و کرانه‌ها.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/014-ibrahim/units/050.html",
+        "word": "قَطِرانٍ",
+        "context": "قطران؛ ماده‌ای قیری که در این آیه جنس تن‌پوش‌ها با آن بیان می‌شود.",
+        "rootMeaning": "چکیدن؛ قِطر: مس گداخته؛ قطران: ماده قیرمانند؛ اقطار: نواحی و کرانه‌ها.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/033-al-ahzab/units/014.html",
+        "word": "أَقطارِها",
+        "context": null,
+        "rootMeaning": "چکیدن؛ قِطر: مس گداخته؛ قطران: ماده قیرمانند؛ اقطار: نواحی و کرانه‌ها.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/055-ar-rahman/units/033.html",
+        "word": "أَقطارِ",
+        "context": "ناحیه‌ها و کرانه‌ها؛ اقطارِ آسمان‌ها و زمین.",
+        "rootMeaning": "چکیدن؛ قِطر: مس گداخته؛ قطران: ماده قیرمانند؛ اقطار: نواحی و کرانه‌ها.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/034-saba/units/012.html",
+        "word": "القِطرِ",
+        "context": "مس گداخته؛ مادهٔ چشمهٔ روان‌شده در آیه.",
+        "rootMeaning": "چکیدن؛ قِطر: مس گداخته؛ قطران: ماده قیرمانند؛ اقطار: نواحی و کرانه‌ها.",
+        "unchanged": true
+      }
+    ],
+    "en": [
+      {
+        "path": "quran-reflection/en/018-al-kahf/units/096.html",
+        "word": "قِطرًا",
+        "context": "Molten copper, the material poured over the structure.",
+        "rootMeaning": "Dripping; qiṭr is molten copper; qaṭirān is tar-like material; aqṭār denotes regions or sides.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/014-ibrahim/units/050.html",
+        "word": "قَطِرانٍ",
+        "context": "Tar: the tar-like substance named as the material of the garments.",
+        "rootMeaning": "Dripping; qiṭr is molten copper; qaṭirān is tar-like material; aqṭār denotes regions or sides.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/033-al-ahzab/units/014.html",
+        "word": "أَقطارِها",
+        "context": null,
+        "rootMeaning": "Dripping; qiṭr is molten copper; qaṭirān is tar-like material; aqṭār denotes regions or sides.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/055-ar-rahman/units/033.html",
+        "word": "أَقطارِ",
+        "context": "Regions or bounds of the heavens and earth.",
+        "rootMeaning": "Dripping; qiṭr is molten copper; qaṭirān is tar-like material; aqṭār denotes regions or sides.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/034-saba/units/012.html",
+        "word": "القِطرِ",
+        "context": "Molten copper: the substance of the flowing spring in the verse.",
+        "rootMeaning": "Dripping; qiṭr is molten copper; qaṭirān is tar-like material; aqṭār denotes regions or sides.",
+        "unchanged": true
+      }
+    ]
+  },
+  "preexisting_issues": [
+    "Aqtariha at 33:14 lacks separate data-context in Persian and English; preserved under root-installation protection."
+  ],
+  "validation": {
+    "complete_verses": "5 per language, matched canonical Arabic",
+    "source_blocks": "95 per language",
+    "protected_content_hashes": "all Quran reflection HTML unchanged; other preexisting changed files unchanged",
+    "registry": "only q-tt-r changed relative to task snapshot",
+    "internal_links_and_anchors": 134,
+    "jekyll_build_seconds": 25.365,
+    "browser_views": [
+      {
+        "root": "q-tt-r",
+        "lang": "fa",
+        "width": 390,
+        "scroll": 390,
+        "theme": "light",
+        "verses": 5,
+        "cards": 3,
+        "sections": 9
+      },
+      {
+        "root": "q-tt-r",
+        "lang": "fa",
+        "width": 390,
+        "scroll": 390,
+        "theme": "dark",
+        "verses": 5,
+        "cards": 3,
+        "sections": 9
+      },
+      {
+        "root": "q-tt-r",
+        "lang": "fa",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "light",
+        "verses": 5,
+        "cards": 3,
+        "sections": 9
+      },
+      {
+        "root": "q-tt-r",
+        "lang": "fa",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "dark",
+        "verses": 5,
+        "cards": 3,
+        "sections": 9
+      },
+      {
+        "root": "q-tt-r",
+        "lang": "en",
+        "width": 390,
+        "scroll": 390,
+        "theme": "light",
+        "verses": 5,
+        "cards": 3,
+        "sections": 9
+      },
+      {
+        "root": "q-tt-r",
+        "lang": "en",
+        "width": 390,
+        "scroll": 390,
+        "theme": "dark",
+        "verses": 5,
+        "cards": 3,
+        "sections": 9
+      },
+      {
+        "root": "q-tt-r",
+        "lang": "en",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "light",
+        "verses": 5,
+        "cards": 3,
+        "sections": 9
+      },
+      {
+        "root": "q-tt-r",
+        "lang": "en",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "dark",
+        "verses": 5,
+        "cards": 3,
+        "sections": 9
+      }
+    ],
+    "visual_review": [
+      "fa 390 light",
+      "en 1280 dark"
+    ],
+    "git_diff_check": "passed"
+  }
+}

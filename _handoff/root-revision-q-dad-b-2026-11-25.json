@@ -1,0 +1,118 @@
+{
+  "root": "ق ض ب",
+  "slug": "q-dad-b",
+  "date": "2026-11-25",
+  "task": "Revision of existing bilingual study from revised submission",
+  "input": "/Users/tawab/.codex/attachments/24f02269-f82e-4ef6-8075-8b69150d52c2/Pasted text.txt",
+  "changes": [
+    "Clarified verbal meaning cutting versus lexical plant noun in 80:28; accusative is not proof of a verbal noun.",
+    "Harmonized full verse translation, proposals, summary, card and catalog in Persian and English around green vegetation.",
+    "Added transmitted Abu Duad poem, translation and cautious lexical explanation; species and dating not assumed.",
+    "Clarified that collective provision for humans and livestock does not prove both consume each individual product.",
+    "Retained fuller previously verified material and Labid bucket/tears context; no duplicate article created.",
+    "Fresh-date alternative qualified; separate naming of palm does not disprove fruit interpretation.",
+    "Removed input preface and trailing conversational instructions from publishable material."
+  ],
+  "edits": {
+    "replaced_blocks": {
+      "2": [
+        "ریشه «ق ض ب» در عربی بر بریدن و جدا کردن دلالت دارد؛ فعل «قَضَبَ» عمل بریدن را بیان می‌کند. «قَضْب» افزون بر کاربرد مصدری، نامی برای بعضی گیاهان و روییدنی‌هاست. در عبس، «قَضْبًا» نام محصول گیاهی است، نه نام عمل بریدن. پیوند این کاربرد با چیدن و برداشت، به توضیح واژه کمک می‌کند، اما هر چیز بریدنی را به مصداق قضب تبدیل نمی‌کند.",
+        "The Arabic root Q Ḍ B denotes cutting and separating; the verb qaḍaba expresses the act of cutting. Besides its use as a verbal noun, qaḍb names certain kinds of vegetation. In ʿAbasa, qaḍban names plant produce, not the act of cutting. Its association with harvesting helps explain the word, but does not make every cuttable object an instance of qaḍb."
+      ],
+      "34": [
+        "و انگور و گیاهان سبز چیدنی،",
+        "And grapes and green vegetation cut for food or fodder,"
+      ],
+      "36": [
+        "«قَضْبًا» اسم نکره منصوب و معطوف بر «عِنَبًا» است. این دو در شمار محصولاتِ فعل «أَنْبَتْنَا» در آیه پیشین‌اند. نقش نحوی و قرار گرفتن در کنار انگور، کاربرد اسمیِ گیاهی را روشن می‌کند؛ منصوب بودن به‌تنهایی نشانه مصدر بودن نیست.",
+        "قَضْبًا (qaḍban) is an indefinite accusative noun coordinated with عِنَبًا (ʿinaban). Both name products of أَنْبَتْنَا (anbatnā, “We caused to grow”) in the preceding verse. The syntax and its position alongside grapes clarify the plant-noun usage; accusative case alone does not make a word a verbal noun."
+      ],
+      "37": [
+        "بنابراین، ترجمه «بریدن» برای این کاربرد درست نیست. «گیاهان سبز چیدنی» نام محصول را بازمی‌تاباند؛ چیدن و بریدن، توضیح ارتباط آن با خانواده ریشه است، نه فعلی که در این آیه به انسان نسبت داده شده باشد.",
+        "Accordingly, “cutting” is not an appropriate translation here. “Green vegetation cut for food or fodder” names the produce. Cutting and harvesting explain its association with the root family; the verse does not state a human act of cutting."
+      ],
+      "41": [
+        "در توضیح‌های تفسیری، خرمای تازه نیز به‌عنوان احتمال مطرح شده است. ذکر جداگانه نخل در آیه بعد، به‌تنهایی آن احتمال را باطل نمی‌کند؛ نام میوه و نام درخت می‌توانند جداگانه بیایند. انتخاب معنای گیاهان سبز چیدنی در این پژوهش بر کاربرد زراعتی و توضیح‌های لغویِ مربوط به علوفه و سبزی استوار است.",
+        "Fresh dates have also been proposed in exegetical explanations. The separate mention of palms in the next verse does not by itself disprove that proposal: a fruit and its tree may be named separately. This study’s choice of green vegetation cut for use rests on agricultural usage and lexical explanations concerning fodder and greens."
+      ],
+      "42": [
+        "از سیاق آیه به‌تنهایی نمی‌توان یک گونه گیاهی را با قطعیت تعیین کرد. در این پژوهش، معادل گسترده‌تر «گیاهان سبز چیدنی» برگزیده می‌شود؛ یونجه و علوفه تازه از مصادیق لغوی مطرح‌اند، اما این انتخاب را نباید تنها تفسیر ممکن شمرد.",
+        "The verse’s context alone does not determine a single botanical species with certainty. This study adopts the broader rendering “green vegetation cut for food or fodder.” Alfalfa and fresh fodder are recognized lexical examples, but this choice is not presented as the only possible interpretation."
+      ],
+      "48": [
+        "این آیه بهره‌مندی انسان و چارپایان از مجموعه محصولات پیشین را بیان می‌کند؛ سهم هر محصول را به‌تنهایی مشخص نمی‌سازد.",
+        "This verse describes people and livestock benefiting from the preceding produce as a whole; it does not separately allocate each crop."
+      ],
+      "49": [
+        "از این پایان‌بندی نمی‌توان نتیجه گرفت که قضب الزاماً خوراک مشترک انسان و دام است. گستره مصادیق آن باید با کاربردهای خود واژه سنجیده شود، نه تنها با مخاطبان آیه پایانی.",
+        "This ending does not establish that qaḍb must feed both people and livestock. Its range of referents must be assessed through the word’s own usage, rather than solely through the beneficiaries named in the final verse."
+      ],
+      "50": [
+        "در مجموع این روییدنی‌ها، بخشی غذای انسان و بخشی خوراک چارپایان است و برخی می‌توانند هر دو کاربرد را داشته باشند.",
+        "Across the produce as a whole, some plants feed people, some feed livestock, and some can serve both."
+      ],
+      "84": [
+        "برای «قَضْبًا» در عبس ۸۰:۲۸، ترجمه «گیاهان سبز چیدنی» پیشنهاد می‌شود. «سبزی‌های چیدنی» ممکن است در فارسی امروز تنها سبزی‌های سفره را تداعی کند؛ «علوفه تازه» بر خوراک دام تأکید دارد. معادل برگزیده، دامنه گسترده‌تر را حفظ می‌کند، بدون آنکه هر گیاه بریدنی را مصداق قطعی واژه بداند.",
+        "For قَضْبًا (qaḍban) in ʿAbasa 80:28, “green vegetation cut for food or fodder” is proposed. “Edible greens” emphasizes human food, while “fresh fodder” emphasizes livestock feed. The selected rendering preserves the broader scope without treating every cuttable plant as a certain referent."
+      ],
+      "86": [
+        "«و انگور و گیاهان سبز چیدنی.» — عبس ۸۰:۲۸",
+        "“And grapes and green vegetation cut for food or fodder.” — ʿAbasa 80:28"
+      ],
+      "87": [
+        "**معنی کوتاه ریشه:** بریدن و جدا کردن، به‌ویژه شاخه‌ها و ساقه‌ها. **معنای قرآنیِ قضب:** گیاهان سبز چیدنی؛ محصول گیاهی برای خوراک انسان یا دام، بر پایه تفسیر برگزیده در این پژوهش.",
+        "**Brief root meaning:** Cutting and separating, particularly branches and stalks. **Qur’anic sense of qaḍb:** Green vegetation cut for food or fodder, according to the interpretation adopted in this study."
+      ],
+      "89": [
+        "ریشه «ق ض ب» بر بریدن و جدا کردن دلالت دارد. این معنای فعلی را باید از کاربرد اسمیِ «قَضْب» برای روییدنی‌ها متمایز کرد؛ نام گیاه، ترجمه مستقیمِ عمل بریدن نیست.",
+        "Q Ḍ B denotes cutting and separating. This verbal meaning must be distinguished from the use of qaḍb as a name for vegetation; a plant noun is not translated directly as the act of cutting."
+      ],
+      "92": [
+        "«گیاهان سبز چیدنی» معادل برگزیده این پژوهش برای قضب در آیه است. یونجه تازه از مصادیق شناخته‌شده آن است؛ تعیین یک گونه خاص یا مشترک بودن مصرف آن میان انسان و دام، تنها از جمله پایانی سوره به دست نمی‌آید.",
+        "“Green vegetation cut for food or fodder” is this study’s chosen rendering of qaḍb in the verse. Fresh alfalfa is a recognized example. A single species, or shared consumption by people and livestock, cannot be established from the passage’s closing statement alone."
+      ]
+    },
+    "added_blocks": {
+      "93": [
+        "در شاهد دیگری منسوب به ابودؤاد ایادی، از شاعران دوران جاهلیت، شتران فرسوده از سفر چنین وصف شده‌اند:",
+        "In another witness attributed to Abū Duʾād al-Iyādī, a pre-Islamic poet, camels worn down by travel are described as follows:"
+      ],
+      "94": [
+        "رَذَايَا كَالْبَلَايَا أَوْ / كَعِيدَانٍ مِنَ الْقَضْبِ",
+        "رَذَايَا كَالْبَلَايَا أَوْ / كَعِيدَانٍ مِنَ الْقَضْبِ"
+      ],
+      "95": [
+        "شترانی فرسوده، همچون شتران وانهاده بر گورها، یا مانند ترکه‌هایی از قضب.",
+        "Worn-out camels, like camels abandoned at graves, or like slender sticks of qaḍb."
+      ],
+      "96": [
+        "«رذایا» به شتران فرسوده از سفر گفته شده و «بلایا» در شرح لغوی، شتران بسته‌شده نزد گورهاست. تشبیه به ترکه‌ها، لاغری را نمایان می‌کند. این شاهد، کاربرد قضب در نامیدن گیاهِ دارای ترکه را نشان می‌دهد؛ از آن نمی‌توان یکسان بودن گونه گیاهی شعر و مصداق قرآنی را نتیجه گرفت. تاریخ دقیق سرایش این بیت در این پژوهش احراز نشد.",
+        "Radhāyā denotes camels worn down by travel; balāyā is explained lexically as camels tethered at graves. The comparison with sticks conveys emaciation. The witness shows qaḍb naming a plant that yields slender sticks; it does not establish that the plant in the poem and the Qur’anic referent are the same species. This study has not established the verse’s precise date."
+      ]
+    }
+  },
+  "research_sources": [
+    "https://www.islamweb.net/ar/library/content/124/1815/باب-الراء-والذال-وما-يثلثهما",
+    "https://islamweb.net/ar/library/content/122/6691/قضب",
+    "https://najafdesertlibrary.com/book/تاج-العروس/v/2/p/327",
+    "https://najafdesertlibrary.com/book/ديوان-لبيد-بن-ربيعة/v/1/p/67",
+    "https://ar.wikisource.org/wiki/لسان_العرب_:_بين-",
+    "https://www.islamweb.net/ar/library/content/215/4319/تفسير-قوله-تعالى-وعنبا-وقضبا"
+  ],
+  "concept_check": "Both live concept directories checked; no additional concept applies to this lexical revision. Existing related-root links retained.",
+  "validation": {
+    "blocks_per_language": 97,
+    "complete_verse_quotations_per_language": 5,
+    "internal_links_and_anchors": 90,
+    "jekyll_build_seconds": 25.296,
+    "browser_views": 8,
+    "visual_review": [
+      "Persian mobile light",
+      "English desktop dark"
+    ],
+    "protected_reflection_files": "SHA256 unchanged for all Quran reflection HTML; existing missing 80:28 contexts preserved",
+    "registry": "only q-dad-b changed",
+    "git_diff_check": "passed"
+  },
+  "publication": "Local files updated; no assistant commit or push."
+}
