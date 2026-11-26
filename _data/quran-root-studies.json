@@ -15066,15 +15066,15 @@
   "q-m-l": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-m-l/",
-      "title": "ریشهٔ ق م ل",
-      "summary": "قُمّل: حشرات آفت، با اختلاف در تعیین گونه؛ قمل: شپش.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق م ل",
+      "summary": "قُمَّل: آفات ریز جانوری با مصداق مورد اختلاف؛ قَمْل: شپش.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-m-l/",
-      "title": "The Root Q M L",
-      "summary": "Qummal denotes pest insects, variously identified; qaml means lice.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Q M L (ق م ل)",
+      "summary": "Qummal: small animal pests of disputed identification; qaml: lice.",
+      "status": "published"
     }
   },
   "q-m-r": {
@@ -15122,15 +15122,15 @@
   "q-n-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-n-ayn/",
-      "title": "ریشهٔ ق ن ع",
-      "summary": "قانع: خرسند یا درخواست‌کننده، بنا بر تفسیر؛ اقناع سر: بالا گرفتن سر.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ن ع",
+      "summary": "رضایت و بسنده کردن؛ درخواست کمک؛ بالا گرفتن سر. قانع در حج: درخواست‌کننده، با خوانش دیگرِ قناعت‌پیشه.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-n-ayn/",
-      "title": "The Root Q N AYN (Q N ʿ)",
-      "summary": "Qāniʿ is explained as content or asking; iqnāʿ of the head means raising it.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q N ʿ",
+      "summary": "Contentment and sufficiency; asking for assistance; raising the head. Qāniʿ in Al-Ḥajj: one who asks, with contentment as an alternative reading.",
+      "status": "published"
     }
   },
   "q-n-t": {
@@ -15150,15 +15150,15 @@
   "q-n-tt": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-n-tt/",
-      "title": "ریشهٔ ق ن ط",
-      "summary": "ناامیدی و از دست دادن امید به خیر.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ن ط",
+      "summary": "نومیدی و از دست دادن امید به خیر، رحمت و گشایش؛ در برخی کاربردها، نومیدی شدید.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-n-tt/",
-      "title": "The Root Q N Ṭ",
-      "summary": "Despair or loss of hope for good.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q N Ṭ",
+      "summary": "Despair and loss of hope of good, mercy, and relief; in some contexts, intense despair.",
+      "status": "published"
     }
   },
   "q-n-tt-r": {
@@ -15178,29 +15178,29 @@
   "q-n-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-n-w/",
-      "title": "ریشهٔ ق ن و",
-      "summary": "قنو: خوشه خرما.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ن و",
+      "summary": "قِنْو: خوشه نخل با رشته‌های آن و آنچه بر آنهاست؛ قِنْوان: خوشه‌های خرما.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-n-w/",
-      "title": "The Root Q N W",
-      "summary": "Qinw is a date cluster.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q N W",
+      "summary": "Qinw: a date-palm cluster with its strands and what they bear; qinwān: date clusters.",
+      "status": "published"
     }
   },
   "q-n-y": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-n-y/",
-      "title": "ریشهٔ ق ن ي",
-      "summary": "اندوخته و دارایی پایدار داشتن؛ اقناء: بخشیدن چنین دارایی یا خرسند ساختن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ن ي",
+      "summary": "به دست آوردن و نگهداری دارایی؛ اقناء: دارایی بخشیدن، و در خوانشی دیگر خشنود ساختن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-n-y/",
-      "title": "The Root Q N Y",
-      "summary": "Possessing lasting property; iqnāʾ means providing it or bringing contentment.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q N Y",
+      "summary": "Acquiring and retaining property; iqnāʾ: bestowing possessions, or in another reading bringing satisfaction.",
+      "status": "published"
     }
   },
   "q-r-a": {
