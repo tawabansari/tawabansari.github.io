@@ -15,3 +15,28 @@ body .container :is(.arabic-text,.arabic-quote,.quran-quote,.quran-text,.ayah-ar
   font-weight:400;direction:rtl;line-height:2.5!important;
 }
 body .container .search-result .verse-arabic{font-size:1.65rem;line-height:2.4!important;margin:.8rem 0;overflow-wrap:normal;word-break:normal}
+
+/* Quoted verses share the reader's alignment, without centering commentary. */
+body .container details[data-type="reflection"] :is(p.arabic-text,.reflection-quote-translation){text-align:center!important}
+body .container .arabic-text .reflection-quote-citation,
+body .container .arabic-text .reflection-quote-citation *{
+  font-family:Vazirmatn,Tahoma,Arial,sans-serif!important;
+  font-size:1rem!important;line-height:1.7!important;font-weight:500;
+}
+body .container .reflection-quote-citation{
+  display:inline-block;white-space:nowrap;unicode-bidi:isolate;
+  vertical-align:baseline;margin-inline-start:.6em;
+}
+
+/* Authored prose links, including visited links, use the theme's own gold. */
+body .container :is(p,li) a[href]:not(.word-link):not([role="button"]),
+body .container :is(p,li) a[href]:not(.word-link):not([role="button"]):visited{
+  color:var(--lib-gold);text-decoration:underline;
+  text-decoration-thickness:.06em;text-underline-offset:.2em;
+}
+body .container :is(p,li) a[href]:not(.word-link):not([role="button"]):hover{
+  text-decoration-thickness:.12em;
+}
+body .container :is(p,li) a[href]:not(.word-link):not([role="button"]):focus-visible{
+  outline:2px solid var(--lib-gold);outline-offset:3px;border-radius:2px;
+}
