@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-25",
+  "root": "ق ر ن",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "blocks_per_language": 192,
+  "occurrences": 36,
+  "distinct_verses": 34,
+  "complete_quotations_per_language": 17,
+  "changes": [
+    "Removed AI preamble, favicon and source debris, and trailing editorial requests.",
+    "Corrected and qualified poetry wording and attribution; removed unsubstantiated passing Tarafah claim.",
+    "Added full occurrence inventory and clarified muqrin/muqarran/muqtarin.",
+    "Corrected our Lord in 50:27; complete bilingual translation and English transliteration."
+  ],
+  "checks": {
+    "build": "passed",
+    "internal_links": 304,
+    "browser_views": 8,
+    "protected_content": "unchanged",
+    "existing_root_boxes": 72,
+    "missing_root_links": 0
+  },
+  "preexisting_missing_context_boxes": [
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/038.html",
+      "word": "قَرينًا",
+      "link": "/quran-terminology/fa/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/038.html",
+      "word": "قَرينًا",
+      "link": "/quran-terminology/fa/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/fa/018-al-kahf/units/083.html",
+      "word": "القَرنَينِ",
+      "link": "/quran-terminology/fa/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/fa/037-as-saffat/units/051.html",
+      "word": "قَرينٌ",
+      "link": "/quran-terminology/fa/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/fa/043-az-zukhruf/units/013.html",
+      "word": "مُقرِنينَ",
+      "link": "/quran-terminology/fa/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/fa/043-az-zukhruf/units/036.html",
+      "word": "قَرينٌ",
+      "link": "/quran-terminology/fa/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/fa/043-az-zukhruf/units/038.html",
+      "word": "القَرينُ",
+      "link": "/quran-terminology/fa/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/fa/043-az-zukhruf/units/053.html",
+      "word": "مُقتَرِنينَ",
+      "link": "/quran-terminology/fa/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/fa/050-qaf/units/023.html",
+      "word": "قَرينُهُ",
+      "link": "/quran-terminology/fa/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/fa/050-qaf/units/027.html",
+      "word": "قَرينُهُ",
+      "link": "/quran-terminology/fa/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/038.html",
+      "word": "قَرينًا",
+      "link": "/quran-terminology/en/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/038.html",
+      "word": "قَرينًا",
+      "link": "/quran-terminology/en/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/en/018-al-kahf/units/083.html",
+      "word": "القَرنَينِ",
+      "link": "/quran-terminology/en/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/en/037-as-saffat/units/051.html",
+      "word": "قَرينٌ",
+      "link": "/quran-terminology/en/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/en/043-az-zukhruf/units/013.html",
+      "word": "مُقرِنينَ",
+      "link": "/quran-terminology/en/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/en/043-az-zukhruf/units/036.html",
+      "word": "قَرينٌ",
+      "link": "/quran-terminology/en/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/en/043-az-zukhruf/units/038.html",
+      "word": "القَرينُ",
+      "link": "/quran-terminology/en/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/en/043-az-zukhruf/units/053.html",
+      "word": "مُقتَرِنينَ",
+      "link": "/quran-terminology/en/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/en/050-qaf/units/023.html",
+      "word": "قَرينُهُ",
+      "link": "/quran-terminology/en/roots/q-r-n/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/en/050-qaf/units/027.html",
+      "word": "قَرينُهُ",
+      "link": "/quran-terminology/en/roots/q-r-n/",
+      "context_present": false
+    }
+  ],
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qrn",
+    "https://islamweb.net/ar/library/content/122/6619/قرن",
+    "https://www.bookleaks.com/files/ketab/ketab2/217.pdf",
+    "https://islamport.com/l/adb/5494/1055.htm",
+    "https://upload.wikimedia.org/wikisource/ar/b/bd/عيون_الأخبار3.pdf"
+  ],
+  "limitation": "English Satan and Taghut live fetch failed; counterpart verified from local source and built route.",
+  "deployment": "local only; no push"
+}

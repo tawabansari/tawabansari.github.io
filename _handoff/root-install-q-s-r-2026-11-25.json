@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-25",
+  "root": "ق س ر",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "blocks_per_language": 90,
+  "occurrences": 1,
+  "root_verse": "74:51",
+  "complete_quotations_per_language": 7,
+  "changes": [
+    "Removed AI preamble, favicon, external source debris and trailing work requests.",
+    "Added independent grammatical and contextual analysis of 74:49 and synchronized conclusion.",
+    "Kept lion and hunters as supported lexical alternatives; qualified poetry dating and qasr/ikrah contrast.",
+    "Complete English translation and full-verse transliteration."
+  ],
+  "checks": {
+    "build": "25.731 seconds; passed",
+    "internal_links": 120,
+    "browser_views": 8,
+    "protected_content": "All snapshot hashes unchanged at installation verification; no verse files written by this root task."
+  },
+  "existing_boxes": [
+    {
+      "file": "quran-reflection/fa/074-al-muddaththir/units/051.html",
+      "word": "قَسوَرَةٍ",
+      "link": "/quran-terminology/fa/roots/q-s-r/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/en/074-al-muddaththir/units/051.html",
+      "word": "قَسوَرَةٍ",
+      "link": "/quran-terminology/en/roots/q-s-r/",
+      "context_present": false
+    }
+  ],
+  "preexisting_issue": "74:51 context missing in both languages; preserved under root-install protection.",
+  "related_studies": "Q H R and K R H remain preliminary; no links to unpublished studies added.",
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qsr",
+    "https://islamweb.net/ar/library/content/122/6644/قسر",
+    "https://quran-tafsir.net/atia/sura74-aya51.html",
+    "https://quran.ksu.edu.sa/tafseer/baghawy/sura74-aya50.html"
+  ],
+  "deployment": "local only; no commit or push by this task"
+}
