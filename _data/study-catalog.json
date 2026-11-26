@@ -2174,5 +2174,20 @@
     "related": [
       "/en/quran-completeness/inherited-tradition-and-revelation/"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/subhan-and-tasbih-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "سبحان و تسبیح",
+    "description": "پژوهشی درباره سبحان و تسبیح، تنزیه مطلق، فلسفه توحید، قانونمندی هستی و مسئولیت اخلاقی انسان.",
+    "format": "study",
+    "aliases": [
+      "سبحان",
+      "تسبیح",
+      "تنزیه",
+      "سبحان الله"
+    ]
   }
 ]
