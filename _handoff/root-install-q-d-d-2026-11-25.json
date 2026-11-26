@@ -1,0 +1,57 @@
+{
+  "root": "ق د د",
+  "slug": "q-d-d",
+  "date": "2026-11-25",
+  "source": "/Users/tawab/.codex/attachments/4258cf31-dd3e-43eb-860f-ca399b33f4a8/Pasted text.txt",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "status": "installed locally; no commit or push",
+  "blocks_per_language": 89,
+  "quranic_occurrences": [
+    "12:25",
+    "12:26",
+    "12:27",
+    "12:28",
+    "72:11"
+  ],
+  "full_quotations": 6,
+  "editorial_changes": [
+    "Removed process preamble and external citation debris.",
+    "Qualified claims about absence of independently dated pre-Islamic witnesses.",
+    "Checked Labid poem against Diwan p.34 and qualified its historical setting.",
+    "Specified counts: qaddat once, qudda three times, qidad once.",
+    "Distinguished semantic connection from proven chronological development.",
+    "Preserved the distinction between form I qadda, form II qaddada, and the grammatical particle qad.",
+    "Translated all substantive source paragraphs into English."
+  ],
+  "research_sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qdd",
+    "https://ablibrary.net/book_content/b/18481/34?lang=ar",
+    "https://islamweb.net/ar/library/content/122/6511/قدد",
+    "https://www.islamweb.net/ar/library/content/123/2073/فصل-القاف"
+  ],
+  "related_studies": [
+    "q-tt-ayn",
+    "sh-q-q",
+    "f-r-q"
+  ],
+  "unavailable_related_study": "m-z-q is preliminary in both languages, with no full article; comparison retained without invented link.",
+  "concept_review": "Both live language directories checked; no additional concept link necessary.",
+  "verse_units": "No edits; existing links present in all ten language-specific word boxes. Pre-existing preliminary notices and missing contextual fields left unchanged.",
+  "validation": {
+    "source_parity": "89 blocks per language",
+    "arabic": "all 6 full quotations matched installed Quran text",
+    "protected_content": "previous files hash-preserved",
+    "registry": "only q-d-d changed",
+    "build": "passed in 30.461 seconds",
+    "internal_links_and_anchors": 102,
+    "git_diff_check": "passed",
+    "browser_views": 8,
+    "visual_review": [
+      "Persian mobile light",
+      "English desktop dark"
+    ]
+  }
+}

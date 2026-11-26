@@ -1,0 +1,64 @@
+{
+  "root": "ق ذ ف",
+  "slug": "q-dh-f",
+  "date": "2026-11-25",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "source": "/Users/tawab/.codex/attachments/8cbf48a0-8b4a-4273-bca5-c0491c70df3e/Pasted text.txt",
+  "status": "Installed locally; not committed or pushed",
+  "content_blocks_per_language": 129,
+  "root_occurrences": 9,
+  "root_verses": 8,
+  "full_verse_quotations_per_language": 10,
+  "edits": [
+    "Removed AI research preamble, favicon and trailing work note",
+    "Clarified nine occurrences in eight verses",
+    "Verified Nabigha verse; clarified canine tooth and wooden pulley support",
+    "Corrected qadhdhafa vocalization",
+    "Distinguished pronoun interpretations from recitation variants",
+    "Qualified comparison with ilqa",
+    "Replaced fragment quotations in translation proposals with references and glosses",
+    "Complete English translation and pronunciation aids"
+  ],
+  "checks": {
+    "arabic_matches_installed_verses": true,
+    "all_prior_dirty_files_and_verse_files_preserved": true,
+    "registry_only_current_root_changed": true,
+    "internal_links": 168,
+    "jekyll_build_seconds": 23.384,
+    "browser_views": 8,
+    "visual_inspection": "Persian mobile dark and English desktop light passed; no horizontal overflow in all eight views"
+  },
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=q%2Af",
+    "https://ablibrary.net/book_content/b/14633/578",
+    "https://ablibrary.net/book_content/b/14648/148?lang=ar",
+    "https://www.islamweb.net/ar/library/content/122/6529/قذف",
+    "https://forqan.co/fa/quran-terminology/",
+    "https://forqan.co/en/quran-terminology/"
+  ],
+  "preexisting_box_issues": [
+    {
+      "path": "quran-reflection/fa/034-saba/units/053.html",
+      "word": "وَيَقذِفونَ",
+      "action": "Preserved existing protected metadata; no verse edits."
+    },
+    {
+      "path": "quran-reflection/fa/034-saba/units/048.html",
+      "word": "يَقذِفُ",
+      "action": "Preserved existing protected metadata; no verse edits."
+    },
+    {
+      "path": "quran-reflection/en/034-saba/units/053.html",
+      "word": "وَيَقذِفونَ",
+      "action": "Preserved existing protected metadata; no verse edits."
+    },
+    {
+      "path": "quran-reflection/en/034-saba/units/048.html",
+      "word": "يَقذِفُ",
+      "action": "Preserved existing protected metadata; no verse edits."
+    }
+  ]
+}

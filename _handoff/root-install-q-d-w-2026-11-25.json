@@ -1,0 +1,56 @@
+{
+  "root": "ق د و",
+  "slug": "q-d-w",
+  "date": "2026-11-25",
+  "source": "/Users/tawab/.codex/attachments/5a1cbb04-b017-4751-867c-fe22566a8d16/Pasted text.txt",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "status": "installed locally; no commit or push",
+  "blocks_per_language": 92,
+  "quranic_occurrences": [
+    "6:90",
+    "43:23"
+  ],
+  "full_verse_quotes": 5,
+  "editorial_changes": [
+    "Removed process preamble, external citation debris, and trailing editing instructions.",
+    "Qualified unsupported assertion of no pre-Islamic witness.",
+    "Explained qida rumhin as a measure distinct from an exemplar; retained etymological uncertainty.",
+    "Shortened reading discussion and specified that Hafs retains silent ha in pause and connection.",
+    "Corrected claim that 43:22 and 43:23 concern the exact same group.",
+    "Used Nabi/Prophet for the earlier figures; translated Rasul as فرستاده/Messenger in 33:21.",
+    "Replaced partial Arabic verse excerpts in translation proposals with individual forms and verse references.",
+    "Complete English translation preserving all substantive paragraphs."
+  ],
+  "research_sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qdw",
+    "https://islamweb.net/ar/library/content/124/3574/باب-القاف-والدال-وما-يثلثهما",
+    "https://www.islamilimleri.com/KKerim/KKerim/07/Tefsir/054/17.htm",
+    "https://app.turath.io/book/8229?page=280",
+    "https://books.quranonlinelibrary.com/books/4940/Al-ajwibah-al-nafay-lil-akhta-al-shaiah-fi-Riwayat-hafs-bin-suleman.pdf"
+  ],
+  "related_studies": [
+    "t-b-ayn",
+    "a-s-w",
+    "h2-d-y",
+    "tt-w-ayn"
+  ],
+  "concept_review": "Both live directories and guide checked; no additional concept article chosen solely on shared terminology.",
+  "verse_units": "No edits; all four language-specific root boxes already link to study. Existing preliminary notices and missing fields preserved.",
+  "validation": {
+    "source_parity": "92 blocks in each language",
+    "arabic": "5 complete quotations matched installed Quran with explicit orthographic normalization",
+    "build": "passed in 27.584 seconds",
+    "links": 120,
+    "protected_files": "hash-preserved",
+    "registry": "only q-d-w changed",
+    "browser_views": 8,
+    "visual_review": [
+      "Persian mobile light",
+      "English desktop dark"
+    ],
+    "git_diff_check": "passed"
+  }
+}
