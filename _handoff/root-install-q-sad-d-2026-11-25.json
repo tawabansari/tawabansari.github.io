@@ -1,0 +1,133 @@
+{
+  "root": "ق ص د",
+  "slug": "q-sad-d",
+  "date": "2026-11-25",
+  "status": "installed locally; no commit or push",
+  "source": "/Users/tawab/.codex/attachments/569b4277-4212-4ab7-b5b0-d94ee68791d9/Pasted text.txt",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "content_blocks_per_language": 147,
+  "quranic_occurrences": 6,
+  "distinct_root_verses": 6,
+  "full_verse_quotes_per_language": 10,
+  "edits": [
+    {
+      "block": 3,
+      "before": "مهلهل بن ربیعه، از شاعران دوران جاهلیت، در شعری درباره ستم بنی‌بکر و کشته شدن برادرش می‌گوید:",
+      "after": "در شعری منسوب به مهلهل بن ربیعه، شاعر دوران جاهلیت، درباره ستم بنی‌بکر و کشته شدن برادرش آمده است:"
+    },
+    {
+      "block": 4,
+      "before": "جَارَتْ بَنُو بَكْرٍ وَلَمْ يَعْدِلُوا\\\nوَالْمَرْءُ قَدْ يَعْرِفُ قَصْدَ الطَّرِيقِ",
+      "after": "جَارَتْ بَنُو بَكْرٍ وَلَمْ يَعْدِلُوا / وَالْمَرْءُ قَدْ يَعْرِفُ قَصْدَ الطَّرِيقِ"
+    },
+    {
+      "block": 7,
+      "before": "این کاربرد در شعر منسوب به دوران پیش از اسلام قابل توجه است؛ زیرا قرآن نیز ترکیب بسیار نزدیکی را در نحل ۱۶:۹ به کار برده و قصد را در برابر انحراف از راه قرار داده است. هرچند تاریخ دقیق سرودن بیت به‌طور مستقل قابل احراز نیست، معنای آن با شواهد زبان عربی کلاسیک سازگار است.",
+      "after": "این شاهد شعریِ نقل‌شده با کاربرد نحل ۱۶:۹ قابل مقایسه است؛ در هر دو، راستای راه در برابر انحراف قرار دارد. تاریخ دقیق سرودن بیت مستقلاً احراز نشده است؛ انتساب و نقل آن را باید از سند هم‌عصرِ دارای تاریخ قطعی متمایز دانست."
+    },
+    {
+      "block": 9,
+      "before": "**صورت‌های قرآنی:** اقْصِدْ، قَصْد، قَاصِد، مُقْتَصِد و مُقْتَصِدَة.",
+      "after": "**صورت‌های قرآنی:** اقْصِدْ، قَصْد، قَاصِد، مُقْتَصِد و مُقْتَصِدَة. این ریشه شش بار در شش آیه آمده است: مائده ۵:۶۶، توبه ۹:۴۲، نحل ۱۶:۹، لقمان ۳۱:۱۹، لقمان ۳۱:۳۲ و فاطر ۳۵:۳۲. «مُقْتَصِد» دو بار و هر یک از چهار صورت دیگر یک بار آمده‌اند. آیات دیگر این مقاله شاهد سیاق و موضوع مرتبط‌اند، نه کاربردهای افزوده این ریشه."
+    },
+    {
+      "block": 16,
+      "before": "«طَرِيقٌ قَاصِدٌ» به راهی راست و آسان و «سَفَرٌ قَاصِدٌ» به سفری نزدیک و کم‌مشقت گفته می‌شود.",
+      "after": "«طَرِيقٌ قَاصِدٌ» به راهی راست و آسان و «سَفَرٌ قَاصِدٌ» به سفری با مسافت و دشواریِ غیرمفرط گفته می‌شود."
+    },
+    {
+      "block": 26,
+      "before": "ترکیب «قَصْدُ السَّبِيلِ» در زبان عربی می‌تواند به راست بودن راه و جهت درست آن اشاره داشته باشد. در ساخت کامل آیه، عبارت «عَلَى اللَّهِ» بیان و نشان دادن این راه را به خداوند نسبت می‌دهد.",
+      "after": "«قَصْدُ السَّبِيلِ» می‌تواند بر راست بودن راه و جهت درست آن دلالت کند. ترجمه حاضر، ساخت کامل «عَلَى اللَّهِ قَصْدُ السَّبِيلِ» را ناظر به بیان و روشن ساختن آن راه از سوی آن معبود یگانه می‌فهمد؛ نشان دادن راه، خوانشِ ترکیب است، نه معنای مستقلِ واژه قصد به‌تنهایی."
+    },
+    {
+      "block": 31,
+      "before": "ما راه را به او نشان دادیم؛ خواه سپاسگزار باشد و خواه آنرا انکار کند.",
+      "after": "ما راه را به او نشان دادیم؛ خواه سپاسگزار باشد و خواه بسیار ناسپاس."
+    },
+    {
+      "block": 44,
+      "before": "در توبه ۹:۹۱، کسانی که واقعا ناتوان، بیمار یا فاقد امکانات لازم برای انفاق‌اند، از این مسئولیت معاف شده‌اند.",
+      "after": "توبه ۹:۹۱ برای ناتوانان واقعی، بیماران و کسانی که چیزی برای هزینه کردن نمی‌یابند نفی حرج می‌کند و در ادامه، خیرخواهی و صداقت آنان نسبت به آن معبود یگانه و فرستاده‌اش را نیز ذکر می‌کند؛ این قید نباید در توضیح آیه نادیده بماند."
+    },
+    {
+      "block": 84,
+      "before": "خوانش نخست با تقابل میان مقتصد و انکارکننده پیمان‌شکن و ناسپاس در پایان آیه سازگاری بیشتری دارد؛ اما معنای محدودترِ اعتدال در عمل نیز از نظر زبانی قابل بررسی است.",
+      "after": "در این پژوهش، خوانش نخست به دلیل تقابل با انکارِ پیمان‌شکنانه و ناسپاسانه در پایان آیه ترجیح داده می‌شود. این ترجیح سیاقی، خوانش دیگر درباره محدود بودن پایبندی و اعتدال در عمل را منتفی نمی‌کند."
+    },
+    {
+      "block": 92,
+      "before": "- ستم کردن بر نفس خود.\n- اقتـصاد و میانه‌روی در کردار.\n- پیشگامی در نیکی‌ها.",
+      "after": "- ستم کردن بر نفس خود.\n- اقتصاد و میانه‌روی در کردار.\n- پیشگامی در نیکی‌ها."
+    },
+    {
+      "block": 110,
+      "before": "در زبان امروز، اقتصاد به حوزه گسترده تولید، توزیع، مبادله و مصرف کالاها و خدمات و دانش مربوط به آنها گفته می‌شود.",
+      "after": "در عربی امروز، اقتصاد همچنین اصطلاح حوزه تولید، توزیع، مبادله و مصرف کالاها و خدمات و دانش مربوط به آنهاست."
+    },
+    {
+      "block": 111,
+      "before": "این معنای اصطلاحی از میدان قدیمی تدبیر معیشت و تنظیم سنجیده امکانات بهره گرفته است، اما با تمام کاربردهای قرآنی ریشه یکسان نیست.",
+      "after": "این کاربرد اصطلاحیِ جدید را باید از معنای کهنِ رفتار سنجیده جدا نگه داشت. شباهت لغوی به‌تنهایی همه مراحل تاریخی پیدایش اصطلاح جدید را ثابت نمی‌کند."
+    },
+    {
+      "block": 137,
+      "before": "اراده و قصد در زبان عربی هم‌پوشانی دارند، ولی خواستن، تعیین مقصد، حرکت به سوی آن و رسیدن به آن مراحل و مفاهیم یکسانی نیستند.",
+      "after": "اراده و قصد در زبان عربی هم‌پوشانی دارند، ولی خواستن، تعیین مقصد، حرکت به سوی آن و رسیدن به آن مراحل و مفاهیم یکسانی نیستند. این تمایزهای توضیحی را نباید به مرزهایی سخت و ثابت برای تمام کاربردهای دو واژه تبدیل کرد."
+    },
+    {
+      "block": 144,
+      "before": "اقتـصاد در معنای قرآنی خود به حوزه مالی محدود نیست و میانه‌روی نیز به معنای سازش همیشگی میان دو دیدگاه مخالف نیست. گاهی راه درست در میانه دو رفتار افراطی قرار دارد و گاهی مستلزم ایستادن صریح در برابر یک راه منحرف است.",
+      "after": "اقتصاد در معنای قرآنی خود به حوزه مالی محدود نیست و میانه‌روی نیز به معنای سازش همیشگی میان دو دیدگاه مخالف نیست. گاهی راه درست در میانه دو رفتار افراطی قرار دارد و گاهی مستلزم ایستادن صریح در برابر یک راه منحرف است."
+    }
+  ],
+  "removed": [
+    "AI research preamble and external citation debris",
+    "Trailing editorial request at source block 147"
+  ],
+  "validation": {
+    "arabic": "All ten full verses match installed canonical Tanzil text in both languages",
+    "coverage": "All six occurrences included as complete verses with independent references and translations",
+    "english": "Complete independent article plus ten full verse transliterations",
+    "protected_content": "SHA-256 preservation of all existing reflection HTML and previously dirty/untracked files; no word boxes modified",
+    "registry": "Only q-sad-d entry changed in this task",
+    "root_boxes": "Six existing root links in each language; none missing",
+    "source_cleanup": "No stray Latin letters in Persian source blocks; tatweel spelling error in اقتصاد removed",
+    "build": "Jekyll passed in 24.961 seconds",
+    "links": 164,
+    "browser": "Eight successful views, both languages at 390 and 1280 pixels, light and dark. No horizontal overflow; Persian mobile dark and English desktop light screenshots visually inspected."
+  },
+  "preexisting_issues": [
+    {
+      "file": "quran-reflection/fa/035-fatir/units/032.html",
+      "issue": "Preexisting missing contextual meaning; preserved during root installation"
+    },
+    {
+      "file": "quran-reflection/en/035-fatir/units/032.html",
+      "issue": "Preexisting missing contextual meaning; preserved during root installation"
+    }
+  ],
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qSd",
+    "https://www.islamweb.net/ar/library/content/122/6676/قصد",
+    "https://ar.wikisource.org/wiki/صفحة:كتاب_شعراء_النصرانية_1_(1890)_-_لويس_شيخو.pdf/188",
+    "https://upload.wikimedia.org/wikisource/ar/d/de/جمهرة_أشعار_العرب.pdf",
+    "https://forqan.co/fa/quran-terminology/",
+    "https://forqan.co/en/quran-terminology/",
+    "https://forqan.co/fa/quran-terminology/takabbur-istikbar-taghut-shaytan/",
+    "https://forqan.co/fa/quran-terminology/divine-decree-and-human-choice/"
+  ],
+  "limitations": [
+    "Exact independent dating of the verse attributed to al-Muhalhil remains unestablished; article qualifies attribution.",
+    "English live concept pages for arrogance and divine decree could not be fetched. Repository counterparts were read and their built links checked."
+  ],
+  "notes": [
+    "Human 76:3 translation preserves contrast grateful/deeply ungrateful without adding an object for rejection.",
+    "Summary of 9:91 now retains sincerity toward The God and His Messenger.",
+    "Interpretation of 16:9 and preference between readings of 31:32 distinguished from lexical definition.",
+    "Modern economics terminology distinguished without claiming an unverified historical derivation."
+  ]
+}

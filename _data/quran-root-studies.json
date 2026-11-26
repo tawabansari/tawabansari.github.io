@@ -15374,15 +15374,15 @@
   "q-s-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-s-m/",
-      "title": "ریشهٔ ق س م",
-      "summary": "تقسیم و بهره‌بندی؛ قَسَم: سوگند.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق س م",
+      "summary": "تقسیم کردن و تعیین سهم؛ در شاخه دیگر، سوگند خوردن برای تأکید بر سخن یا استوار ساختن تعهد.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-s-m/",
-      "title": "The Root Q S M",
-      "summary": "Dividing or allotting; qasam is an oath.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q S M",
+      "summary": "Dividing and assigning shares; in another branch, swearing to affirm a statement or strengthen a commitment.",
+      "status": "published"
     }
   },
   "q-s-r": {
@@ -15402,15 +15402,15 @@
   "q-s-s": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-s-s/",
-      "title": "ریشهٔ ق س س",
-      "summary": "قسّیس: پیشوای دینی مسیحی.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق س س",
+      "summary": "در شاخه فعلی: پی‌جویی و جستجوی اخبار؛ قس و قسیس: عنوان کشیش و پیشوای دینی مسیحی، با پیشینه زبانی متمایز.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-s-s/",
-      "title": "The Root Q S S",
-      "summary": "Qissīs is a Christian religious leader or priest.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q S S",
+      "summary": "In the verbal branch: pursuing and seeking information; qass and qissīs: a Christian priestly title with a distinct linguistic history.",
+      "status": "published"
     }
   },
   "q-s-tt": {
@@ -15458,15 +15458,15 @@
   "q-sad-d": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-sad-d/",
-      "title": "ریشهٔ ق ص د",
-      "summary": "قصد و رو به هدف رفتن؛ نیز میانه‌روی و اعتدال.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ص د",
+      "summary": "روی آوردن به هدف؛ راستای درست راه؛ و در کردار و معیشت، رعایت اندازه مناسب و میانه‌روی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-sad-d/",
-      "title": "The Root Q Ṣ D",
-      "summary": "Purposeful direction; also moderation or a middle course.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q Ṣ D",
+      "summary": "Turning toward an aim; the straight course of a path; and observing a fitting measure in conduct and livelihood.",
+      "status": "published"
     }
   },
   "q-sad-f": {
@@ -15500,15 +15500,15 @@
   "q-sad-r": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-sad-r/",
-      "title": "ریشهٔ ق ص ر",
-      "summary": "کوتاه کردن و محدود ساختن؛ قصر: بنای بزرگ یا کاخ.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ص ر",
+      "summary": "کوتاهی و کوتاه کردن؛ محدود ساختن و بازایستادن؛ و در شاخه اسمی، کاخ و بنای بزرگ محصور.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-sad-r/",
-      "title": "The Root Q Ṣ R",
-      "summary": "Shortening or restricting; qaṣr is a palace or large building.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q Ṣ R",
+      "summary": "Shortness and shortening; restricting and ceasing; and, in the nominal branch, a palace or large enclosed building.",
+      "status": "published"
     }
   },
   "q-sad-sad": {

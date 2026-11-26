@@ -1,0 +1,227 @@
+{
+  "root": "ق ص ر",
+  "slug": "q-sad-r",
+  "date": "2026-11-25",
+  "status": "installed locally; not committed or pushed",
+  "input": "/Users/tawab/.codex/attachments/b65f722e-192c-4fd8-93bd-bbd8561a1dbf/Pasted text.txt",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "source_blocks_per_language": 168,
+  "root_occurrences": 11,
+  "root_verses": 11,
+  "full_verse_quotes_per_language": 12,
+  "additional_context_verse": "7:201",
+  "edits": [
+    {
+      "block": 4,
+      "before": "لَوْلَا حَبَائِلُ مِنْ نُعْمٍ عَلِقْتُ بِهَا\\\nلَأَقْصَرَ الْقَلْبُ عَنْهَا أَيَّ إِقْصَارِ",
+      "after": "لَوْلَا حَبَائِلُ مِنْ نُعْمٍ عَلِقْتُ بِهَا / لَأَقْصَرَ الْقَلْبُ عَنْهَا أَيَّ إِقْصَارِ"
+    },
+    {
+      "block": 7,
+      "before": "این شاهد، کاربرد غیرمادی ریشه را در شعر منسوب به دوران پیش از اسلام نشان می‌دهد. کوتاه کردن اشیا، محدود ساختن حرکت و اطلاق قصر به بناهای بزرگ و محصور نیز در منابع زبان عربی کلاسیک ثبت شده‌اند؛ هرچند برای تعیین قدمت دقیق تمام این کاربردها شواهد مستقل پیشاقرآنی در دست نیست.",
+      "after": "این شاهد، کاربرد غیرمادی ریشه را در شعر منسوب به دوران پیش از اسلام نشان می‌دهد. کوتاه کردن اشیا، محدود ساختن حرکت و اطلاق قصر به بناهای بزرگ و محصور نیز در فرهنگ‌های عربی کلاسیک ثبت شده‌اند؛ شواهد ارائه‌شده در این پژوهش، تاریخ دقیق پیشاقرآنیِ هر کاربرد یا این بیت را مستقلاً اثبات نمی‌کنند."
+    },
+    {
+      "block": 9,
+      "before": "**صورت‌های قرآنی:** تَقْصُرُوا، يُقْصِرُونَ، مُقَصِّرِين، قَصْر، قُصُور، قَاصِرَات و مَقْصُورَات.",
+      "after": "**صورت‌های قرآنی:** تَقْصُرُوا، يُقْصِرُونَ، مُقَصِّرِين، قَصْر، قُصُور، قَاصِرَات و مَقْصُورَات. این ریشه یازده بار در یازده آیه آمده است: قصر و قصور در مجموع چهار بار، قاصرات سه بار و هر یک از چهار صورت دیگر یک بار. اعراف ۷:۲۰۱ شاهد سیاق است، نه کاربرد افزوده این ریشه."
+    },
+    {
+      "block": 45,
+      "before": "بی‌گمان آن معبود یگانه رویای رسولش را به حق راست گردانید. اگر آن معبود یگانه بخواهد، حتما در امنیت وارد مسجدالحرام خواهید شد، در حالی که سرهای خود را تراشیده یا موهای خود را کوتاه کرده‌اید و نمی‌ترسید. پس آنچه را شما نمی‌دانستید دانست و پیش از آن گشایشی نزدیک قرار داد.",
+      "after": "بی‌گمان آن معبود یگانه رویای فرستاده‌اش را به حق راست گردانید. اگر آن معبود یگانه بخواهد، حتما در امنیت وارد مسجدالحرام خواهید شد، در حالی که سرهای خود را تراشیده یا موهای خود را کوتاه کرده‌اید و نمی‌ترسید. پس آنچه را شما نمی‌دانستید دانست و پیش از آن گشایشی نزدیک قرار داد."
+    },
+    {
+      "block": 55,
+      "before": "و هم‌پیمانانشان آنان را در گمراهی مدد می‌رسانند و سپس بازنمی‌ایستند.",
+      "after": "و همراهانِ آنان را در گمراهی پیش می‌برند، سپس بازنمی‌ایستند."
+    },
+    {
+      "block": 64,
+      "before": "درباره مرجع ضمیر در «لَا يُقْصِرُونَ» دو خوانش شناخته‌شده وجود دارد. در یکی، شیاطین از مدد رساندن به همراهان خود در گمراهی بازنمی‌ایستند. در دیگری، انسان‌های گمراه از کردار نادرست خود دست نمی‌کشند.",
+      "after": "ترجمه اعراف ۷:۲۰۲ بر خوانشی است که در آن شیاطین، همراهان انسانی خود را در گمراهی پیش می‌برند؛ «إِخْوَانُهُمْ» مبتداست و جمله پس از آن درباره همان همراهان خبر می‌دهد. مرجع ضمیر در «لَا يُقْصِرُونَ» نیز دوگونه فهمیده شده است: شیاطین از گمراه‌سازی بازنمی‌ایستند، یا انسان‌های گمراه از کردار خود دست نمی‌کشند."
+    },
+    {
+      "block": 65,
+      "before": "این دو خوانش می‌توانند دو سوی یک رابطه را نیز روشن سازند: استمرار گمراه‌سازی از یک سو و استمرار پذیرش و پیروی از سوی دیگر.",
+      "after": "این خوانش‌ها می‌توانند دو سوی رابطه گمراه‌سازی و پیروی را روشن کنند؛ اما دو تفسیر نحوی‌اند، نه اینکه آیه صریحاً هر دو گروه را هم‌زمان فاعل یک فعل معرفی کرده باشد."
+    },
+    {
+      "block": 78,
+      "before": "پس چه بسیار آبادی‌هایی که آنها را در حالی که ستمگر بودند هلاک کردیم؛ اکنون بر سقف‌های خود فرو ریخته‌اند، و چه چاه‌های بی‌استفاده و کاخ‌های استواری بر جای مانده است.",
+      "after": "پس چه بسیار آبادی‌ای که آن را در حالی که ستمگر بود هلاک کردیم؛ پس بر سقف‌های خود فرو ریخته است؛ و چه بسیار چاهِ وانهاده و کاخِ برافراشته!"
+    },
+    {
+      "block": 80,
+      "before": "«قَصْرٍ مَشِيدٍ» به کاخی بلند، استوار یا استوارساخته‌شده اشاره دارد.",
+      "after": "«قَصْرٍ مَشِيدٍ» می‌تواند به کاخی بلند یا استوارساخته‌شده اشاره کند؛ معنای اندوده با گچ نیز با توجه به واژه «شِيد» مطرح شده است."
+    },
+    {
+      "block": 91,
+      "before": "رسالت انسان از بزرگی خانه، میزان دارایی یا جایگاه اقتصادی او شناخته نمی‌شود.",
+      "after": "ادعای مأموریت الهیِ یک انسان از بزرگی خانه، میزان دارایی یا جایگاه اقتصادی او شناخته نمی‌شود."
+    },
+    {
+      "block": 98,
+      "before": "با این حال، در منابع کهن زبان عربی، «قَصْر» به قطعات بزرگ و بریده‌شده چوب و تنه درخت نیز گفته شده است. گزارشی از ابن عباس نیز وجود دارد که این نام را به قطعات چوبی مربوط می‌داند که برای مصرف زمستان نگهداری می‌شدند.",
+      "after": "در گزارش‌های لغوی، قطعات بزرگ چوب و تنه درخت نیز در توضیح این تشبیه آمده‌اند. گزارشی منسوب به ابن عباس، قطعات چوب ذخیره‌شده برای زمستان را ذکر می‌کند؛ این گزارش به‌تنهایی شاهد مستقلی با تاریخ قطعی پیش از اسلام نیست."
+    },
+    {
+      "block": 99,
+      "before": "در برخی قرائت‌های منقول خارج از قرائت‌های ده‌گانه، این واژه با فتح صاد، «كَالْقَصَرِ»، خوانده شده و به تنه‌ها و بخش‌های ضخیم درختان تفسیر گردیده است.",
+      "after": "در قرائتی منقول، واژه با فتح صاد، «كَالْقَصَرِ»، خوانده و به تنه‌ها و بخش‌های ضخیم درختان تفسیر شده است. این ضبط را باید از «كَالْقَصْرِ» با سکون صاد در متن نقل‌شده این مقاله متمایز نگه داشت."
+    },
+    {
+      "block": 119,
+      "before": "از این رو، ترجمه آن به کسانی که نگاهشان به اجبار محدود شده است، تفاوت میان اسم فاعل و اسم مفعول را از میان می‌برد.",
+      "after": "جایگزین کردن ساخت فاعلی با «کسانی که نگاهشان محدود شده است» تفاوت اسم فاعل و اسم مفعول را از میان می‌برد. با این حال، ساخت فاعلی به‌تنهایی همه پرسش‌های مربوط به اختیار، اجبار و شرایط عمل را پاسخ نمی‌دهد."
+    }
+  ],
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qSr",
+    "https://usul.ai/fa/t/diwan-15/31",
+    "https://islamweb.net/ar/library/content/122/6677/قصر",
+    "https://islamweb.net/ar/library/content/201/1223/تفسير-قوله-تعالى-وإخوانهم-يمدونهم-في-الغي-ثم-لا-يقصرون"
+  ],
+  "concept_directory_checked": [
+    "https://forqan.co/fa/quran-terminology/",
+    "https://forqan.co/en/quran-terminology/"
+  ],
+  "limitations": [
+    "English Satan and Taghut live fetch failed; verified repository counterpart and built destination.",
+    "Precise pre-Islamic date of attributed poetic line not independently established."
+  ],
+  "verse_boxes": {
+    "changes": 0,
+    "existing_root_links_per_language": 11,
+    "preexisting_missing_context_per_language": 5,
+    "details": {
+      "fa": [
+        {
+          "file": "quran-reflection/fa/048-al-fath/units/027.html",
+          "word": "وَمُقَصِّرينَ",
+          "missing_context": false
+        },
+        {
+          "file": "quran-reflection/fa/007-al-araf/units/202.html",
+          "word": "يُقصِرونَ",
+          "missing_context": true
+        },
+        {
+          "file": "quran-reflection/fa/007-al-araf/units/074.html",
+          "word": "قُصورًا",
+          "missing_context": false
+        },
+        {
+          "file": "quran-reflection/fa/077-al-mursalat/units/032.html",
+          "word": "كَالقَصرِ",
+          "missing_context": false
+        },
+        {
+          "file": "quran-reflection/fa/022-al-hajj/units/045.html",
+          "word": "وَقَصرٍ",
+          "missing_context": false
+        },
+        {
+          "file": "quran-reflection/fa/025-al-furqan/units/010.html",
+          "word": "قُصورًا",
+          "missing_context": false
+        },
+        {
+          "file": "quran-reflection/fa/004-an-nisa/units/101.html",
+          "word": "تَقصُروا",
+          "missing_context": true
+        },
+        {
+          "file": "quran-reflection/fa/038-sad/units/052.html",
+          "word": "قٰصِرٰتُ",
+          "missing_context": true
+        },
+        {
+          "file": "quran-reflection/fa/055-ar-rahman/units/072.html",
+          "word": "مَقصورٰتٌ",
+          "missing_context": false
+        },
+        {
+          "file": "quran-reflection/fa/055-ar-rahman/units/056.html",
+          "word": "قٰصِرٰتُ",
+          "missing_context": true
+        },
+        {
+          "file": "quran-reflection/fa/037-as-saffat/units/048.html",
+          "word": "قٰصِرٰتُ",
+          "missing_context": true
+        }
+      ],
+      "en": [
+        {
+          "file": "quran-reflection/en/048-al-fath/units/027.html",
+          "word": "وَمُقَصِّرينَ",
+          "missing_context": false
+        },
+        {
+          "file": "quran-reflection/en/007-al-araf/units/202.html",
+          "word": "يُقصِرونَ",
+          "missing_context": true
+        },
+        {
+          "file": "quran-reflection/en/007-al-araf/units/074.html",
+          "word": "قُصورًا",
+          "missing_context": false
+        },
+        {
+          "file": "quran-reflection/en/077-al-mursalat/units/032.html",
+          "word": "كَالقَصرِ",
+          "missing_context": false
+        },
+        {
+          "file": "quran-reflection/en/022-al-hajj/units/045.html",
+          "word": "وَقَصرٍ",
+          "missing_context": false
+        },
+        {
+          "file": "quran-reflection/en/025-al-furqan/units/010.html",
+          "word": "قُصورًا",
+          "missing_context": false
+        },
+        {
+          "file": "quran-reflection/en/004-an-nisa/units/101.html",
+          "word": "تَقصُروا",
+          "missing_context": true
+        },
+        {
+          "file": "quran-reflection/en/038-sad/units/052.html",
+          "word": "قٰصِرٰتُ",
+          "missing_context": true
+        },
+        {
+          "file": "quran-reflection/en/055-ar-rahman/units/072.html",
+          "word": "مَقصورٰتٌ",
+          "missing_context": false
+        },
+        {
+          "file": "quran-reflection/en/055-ar-rahman/units/056.html",
+          "word": "قٰصِرٰتُ",
+          "missing_context": true
+        },
+        {
+          "file": "quran-reflection/en/037-as-saffat/units/048.html",
+          "word": "قٰصِرٰتُ",
+          "missing_context": true
+        }
+      ]
+    }
+  },
+  "validation": {
+    "canonical_arabic": true,
+    "bilingual_block_coverage": true,
+    "protected_content_hashes_unchanged": true,
+    "only_target_registry_entry_changed_since_snapshot": true,
+    "internal_links_and_anchors": 156,
+    "jekyll_build_seconds": 27.621,
+    "browser": "8 views passed: Persian/English, mobile/desktop, light/dark; no horizontal overflow; screenshots visually inspected"
+  }
+}

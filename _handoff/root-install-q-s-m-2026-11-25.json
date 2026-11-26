@@ -1,0 +1,245 @@
+{
+  "root": "ق س م",
+  "slug": "q-s-m",
+  "date": "2026-11-25",
+  "status": "installed locally; not committed or pushed",
+  "source": "/Users/tawab/.codex/attachments/20a2dba7-c810-4737-859d-da66fd68ff48/Pasted text.txt",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "content_blocks_per_language": 211,
+  "quranic_occurrences": 33,
+  "distinct_verses": 31,
+  "full_verse_quotes_per_language": 15,
+  "edits": [
+    {
+      "block": 4,
+      "before": "أَلَا أَبْلِغِ الْأَحْلَافَ عَنِّي رِسَالَةً\\\nوَذُبْيَانَ هَلْ أَقْسَمْتُمْ كُلَّ مُقْسَمِ",
+      "after": "أَلَا أَبْلِغِ الْأَحْلَافَ عَنِّي رِسَالَةً / وَذُبْيَانَ هَلْ أَقْسَمْتُمْ كُلَّ مُقْسَمِ"
+    },
+    {
+      "block": 5,
+      "before": "هان، از جانب من پیامی به هم‌پیمانان و ذبیان برسان: آیا همه گونه سوگند یاد نکرده‌اید؟",
+      "after": "هان، از جانب من پیامی به هم‌پیمانان و ذبیان برسان: شما هرگونه سوگند یاد کرده‌اید."
+    },
+    {
+      "block": 6,
+      "before": "شاعر در سیاق پیمان و پایان دادن به دشمنی میان قبایل، سوگندهای آنان را یادآوری می‌کند. «أَقْسَمْتُمْ» عمل سوگند خوردن و «مُقْسَم» در این بیت خود سوگند را بیان می‌کند.",
+      "after": "شاعر در سیاق پیمان و پایان دادن به دشمنی میان قبایل، سوگندهای آنان را یادآوری می‌کند. «أَقْسَمْتُمْ» عمل سوگند خوردن و «مُقْسَم» در این بیت خود سوگند را بیان می‌کند. در این خوانش، پرسش صورتِ تقریر دارد و تعهدِ پیش‌تر پذیرفته‌شده را یادآوری می‌کند. آغاز این بیت با ضبط‌های دیگری نیز نقل شده است."
+    },
+    {
+      "block": 7,
+      "before": "شاخه مربوط به تقسیم و تعیین سهم نیز در منابع زبان عربی کلاسیک به‌روشنی ثبت شده و کاربردهای قرآنی وجود آن را در زبان عصر نزول تایید می‌کنند؛ هرچند برای این شاخه شاهد مستقل با تاریخ قابل احراز از دوران پیش از اسلام در دست نیست.",
+      "after": "شاخه تقسیم و تعیین سهم در فرهنگ‌های عربی کلاسیک به‌روشنی ثبت شده و کاربردهای قرآنی وجود آن را در زبان عصر نزول تأیید می‌کنند. در شواهد ارائه‌شده در این پژوهش، شاهد شعری مستقل و تاریخ‌پذیرِ پیشاقرآنی برای این شاخه احراز نشده است؛ این محدودیتِ شواهد بررسی‌شده است، نه اثبات نبود چنین شاهدی."
+    },
+    {
+      "block": 9,
+      "before": "**صورت‌های قرآنی:** قَسَمَ، قِسْمَة، قَسَم، قَاسَمَ، أَقْسَمَ، تَقَاسَمَ، اِسْتَقْسَمَ، مَقْسُوم، مُقَسِّمَات و مُقْتَسِمِين.",
+      "after": "**صورت‌های قرآنی:** قَسَمَ، قِسْمَة، قَسَم، قَاسَمَ، أَقْسَمَ، تَقَاسَمَ، اِسْتَقْسَمَ، مَقْسُوم، مُقَسِّمَات و مُقْتَسِمِين. این ریشه ۳۳ بار در ۳۱ آیه آمده است؛ در زخرف ۴۳:۳۲ و نور ۲۴:۵۳ هرکدام دو کاربرد دارد."
+    },
+    {
+      "block": 21,
+      "before": "برخی از لغویان عرب، رابطه میان تقسیم و سوگند را از طریق مفهوم «قَسَامَة» توضیح داده‌اند.",
+      "after": "برخی فرهنگ‌های عربی درباره نسبت سوگند خوردن با «قَسَامَة» توضیح داده‌اند."
+    },
+    {
+      "block": 22,
+      "before": "قسامه در سنت حقوقی عرب به روشی مربوط بود که در برخی منازعات قتل، سوگندهایی میان اشخاص تقسیم می‌شد. بر اساس این توضیح، واژه قسم از تقسیم سوگندها به معنای عمومی سوگند گسترش یافته است.",
+      "after": "قسامه اصطلاحی حقوقی و تاریخی درباره سوگندهای متعدد در برخی منازعات قتل است. توضیح‌های لغوی درباره نسبت آن با قسم یکسان نیستند: در یک توضیح، سوگند خوردن از قسامه دانسته شده و در توضیحی دیگر، قسامه نامی از اقسام است. تقسیم شمار سوگندها میان اشخاص، به‌تنهایی مسیر تاریخیِ تحول معنای تقسیم به سوگند را ثابت نمی‌کند."
+    },
+    {
+      "block": 28,
+      "before": "آیا آنان رحمت پروردگارت را تقسیم می‌کنند؟ ما معیشتشان را در زندگی دنیا میان آنان تقسیم کردیم و برخی از آنان را به درجاتی بر برخی دیگر برتری دادیم تا برخی از توان و خدمات برخی دیگر بهره گیرند؛ و رحمت پروردگارت بهتر از آن چیزی است که گرد می‌آورند.",
+      "after": "آیا آنان رحمت پروردگارت را تقسیم می‌کنند؟ ما معیشتشان را در زندگی دنیا میان آنان تقسیم کردیم و برخی از آنان را به درجاتی بر برخی دیگر برتری دادیم تا برخی، برخی دیگر را به خدمت گیرند؛ و رحمت پروردگارت بهتر از آن چیزی است که گرد می‌آورند."
+    },
+    {
+      "block": 46,
+      "before": "و آنان را آگاه ساز که آب میانشان تقسیم شده است؛ هر نوبت آب‌نوشی را باید حاضر شوند.",
+      "after": "و آنان را آگاه ساز که آب میانشان تقسیم شده است؛ هر نوبت آب‌نوشی با حضور بهره‌گیرنده همراه است."
+    },
+    {
+      "block": 102,
+      "before": "بنابراین، هرگونه قرعه‌کشی را نمی‌توان صرفا به دلیل وجود عنصری تصادفی، مصداق استقسام ممنوع با ازلام دانست.",
+      "after": "بنابراین، هرگونه قرعه‌کشی را نمی‌توان صرفا به دلیل وجود عنصری تصادفی، مصداق استقسام ممنوع با ازلام دانست. این تمایز لغوی به‌تنهایی حکم هر شیوه مشخصِ امروزی را تعیین نمی‌کند."
+    },
+    {
+      "block": 115,
+      "before": "و با استوارترین سوگندهای خود به آن معبود یگانه سوگند خوردند که اگر به آنان فرمان دهی، حتما بیرون خواهند رفت. بگو: سوگند نخورید؛ اطاعتی شناخته‌شده. همانا آن معبود یگانه به آنچه انجام می‌دهید آگاه است.",
+      "after": "و با استوارترین سوگندهای خود به آن معبود یگانه سوگند خوردند که اگر به آنان فرمان دهی، حتما بیرون خواهند رفت. بگو: سوگند نخورید؛ اطاعتی پسندیده [لازم است]. همانا آن معبود یگانه به آنچه انجام می‌دهید آگاه است."
+    },
+    {
+      "block": 118,
+      "before": "تعبیر «جَهْدَ أَيْمَانِهِمْ» بر شدت و تاکید سوگندهای آنان دلالت دارد.",
+      "after": "تعبیر «جَهْدَ أَيْمَانِهِمْ» بر شدت و تاکید سوگندهای آنان دلالت دارد. عبارت «طَاعَةٌ مَعْرُوفَةٌ» جمله‌ای موجز با تحلیل‌های متفاوت است؛ ترجمه حاضر خوانشِ مطالبه اطاعت پسندیده را برگزیده و بخش افزوده برای تکمیل جمله را در قلاب آورده است."
+    },
+    {
+      "block": 135,
+      "before": "از نظر نحوی، این صورت می‌تواند فعل امر خطاب افراد گروه به یکدیگر باشد؛ یعنی با یکدیگر سوگند بخورید. همچنین به صورت فعل ماضی و بیان حالت هم‌پیمانی آنان خوانده شده است.",
+      "after": "از نظر نحوی، این صورت می‌تواند فعل امر خطاب افراد گروه به یکدیگر باشد؛ یعنی با یکدیگر سوگند بخورید. همچنین به صورت فعل ماضی و بیان حالت هم‌پیمانی آنان خوانده شده است. اینها تحلیل‌های نحوی متفاوت‌اند و لزوماً اختلاف قرائت نیستند."
+    },
+    {
+      "block": 155,
+      "before": "و سوگند می‌خورم به نفس سرزنشگر.",
+      "after": "و نه، سوگند می‌خورم به نفس سرزنشگر."
+    },
+    {
+      "block": 192,
+      "before": "در ترکیب قرآنی «أَقْسَمُوا بِاللَّهِ جَهْدَ أَيْمَانِهِمْ»، اقسام عمل سوگند خوردن و ایمان، جمع یمین، خود سوگندهای آنان را بیان می‌کند.",
+      "after": "در ساخت سوگند نور ۲۴:۵۳، اقسام عمل سوگند خوردن و «أَيْمَان»، جمع یمین، خود سوگندهای آنان را بیان می‌کند."
+    }
+  ],
+  "validation": {
+    "arabic": "Full quoted verses matched installed canonical Tanzil word text in both languages",
+    "coverage": "All 31 root verses have individual verified references",
+    "translation": "Complete independent English version, with 15 full verse transliterations",
+    "links": 266,
+    "build": "Jekyll success, 25.818 seconds",
+    "protected_content": "All preexisting reflection HTML and previously dirty/untracked files preserved by SHA-256; only q-s-m registry entry changed in this task",
+    "root_boxes": "33 preexisting linked root boxes per language; no verse units or word boxes edited",
+    "fa_latin": "No Latin letters in Persian article blocks",
+    "browser": "8 views: FA/EN, mobile 390 and desktop 1280, light/dark; no horizontal overflow. Persian mobile dark and English desktop light screenshots inspected."
+  },
+  "preexisting_issues": [
+    {
+      "file": "quran-reflection/fa/053-an-najm/units/022.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/054-al-qamar/units/028.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/007-al-araf/units/049.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/075-al-qiyamah/units/002.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/075-al-qiyamah/units/001.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/015-al-hijr/units/090.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/004-an-nisa/units/008.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/069-al-haqqah/units/038.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/081-at-takwir/units/015.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/056-al-waqiah/units/076.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/070-al-maarij/units/040.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/051-adh-dhariyat/units/004.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/090-al-balad/units/001.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/107.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/fa/089-al-fajr/units/005.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/053-an-najm/units/022.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/054-al-qamar/units/028.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/007-al-araf/units/049.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/075-al-qiyamah/units/002.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/075-al-qiyamah/units/001.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/015-al-hijr/units/090.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/004-an-nisa/units/008.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/069-al-haqqah/units/038.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/081-at-takwir/units/015.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/056-al-waqiah/units/076.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/070-al-maarij/units/040.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/051-adh-dhariyat/units/004.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/090-al-balad/units/001.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/107.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    },
+    {
+      "file": "quran-reflection/en/089-al-fajr/units/005.html",
+      "issue": "Existing root box lacks contextual field; preserved"
+    }
+  ],
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qsm",
+    "https://www.islamweb.net/ar/library/content/122/6655/قسم",
+    "https://islamweb.net/ar/library/content/122/1876/حلف",
+    "https://ablibrary.net/book_content/b/11369/78?lang=fa",
+    "https://forqan.co/fa/quran-terminology/",
+    "https://forqan.co/en/quran-terminology/",
+    "https://forqan.co/fa/quran-terminology/covenant-in-the-quran/",
+    "https://forqan.co/en/quran-terminology/covenant-in-the-quran/",
+    "https://forqan.co/fa/quran-terminology/ghayb/"
+  ],
+  "limitations": [
+    "Live English ghayb page was inaccessible through web tool. Read repository counterpart _posts/en/quran-terminology/2026-06-09-ghayb-en.md and verified built destination.",
+    "Pre-Islamic division-branch poetic evidence not independently established; article states the limit without asserting absence."
+  ],
+  "notes": [
+    "Research preamble and external-source debris removed from publishable text.",
+    "No claim that legal qasamah proves a historical derivation of oaths from division.",
+    "Qur’anic forms counted with corpus; existing website boxes independently confirm 33 occurrences in 31 verses."
+  ]
+}

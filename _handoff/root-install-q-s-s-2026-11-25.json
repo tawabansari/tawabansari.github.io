@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-25",
+  "root": "ق س س",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "blocks_per_language": 88,
+  "occurrences": 1,
+  "root_verse": "5:82",
+  "complete_quotations_per_language": 4,
+  "changes": [
+    "Separated Arabic pursuit vocabulary from the Christian title; qualified historical derivation and poetic dating.",
+    "Retained correct delayed anna noun analysis and clarified case, predicate and causal construction.",
+    "Changed Persian Rasul to approved فرستاده and rabbanā to پروردگار ما in 5:83.",
+    "Reduced repeated claims, removed research preamble/external citation debris/trailing editorial requests.",
+    "Added complete English translation and verse transliteration; verified related root and contextual concept links."
+  ],
+  "validation": {
+    "full_arabic": "exact installed Tanzil text in both languages",
+    "build_seconds": 26.572,
+    "internal_links_and_anchors": 102,
+    "browser_views": 8,
+    "protected_files": "snapshot hashes passed after installation; no verse-unit files edited",
+    "registry": "only q-s-s changed by this installation"
+  },
+  "existing_boxes": [
+    {
+      "file": "quran-reflection/fa/005-al-maidah/units/082.html",
+      "word": "قِسّيسينَ",
+      "link": "/quran-terminology/fa/roots/q-s-s/",
+      "context_present": false
+    },
+    {
+      "file": "quran-reflection/en/005-al-maidah/units/082.html",
+      "word": "قِسّيسينَ",
+      "link": "/quran-terminology/en/roots/q-s-s/",
+      "context_present": false
+    }
+  ],
+  "preexisting_issue": "5:82 qissisin boxes lack context in both languages; preserved and not filled during root installation. Both root-study links already present.",
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qss",
+    "https://www.islamweb.net/ar/library/content/122/6645/قسس",
+    "https://samih-atef-elzein.com/BookDetails.aspx?Bookid=49&Counter=8&Edition=11&SubBook=218",
+    "https://journals.pan.pl/Content/137684/PDF/ROrient%2078%20z.%202-25%202-Hatke.pdf",
+    "https://www.habeshahistory.com/encyclopedia/qasis-p0289-b-y3815-v4"
+  ],
+  "limitation": "English live concept destination fetches failed; routes and relevant content verified in repository and Jekyll output. Live bilingual concept directories were accessible.",
+  "deployment": "local only; no commit or push by this task"
+}
