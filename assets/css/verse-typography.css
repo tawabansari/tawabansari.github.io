@@ -17,14 +17,15 @@ body .container :is(.arabic-text,.arabic-quote,.quran-quote,.quran-text,.ayah-ar
 body .container .search-result .verse-arabic{font-size:1.65rem;line-height:2.4!important;margin:.8rem 0;overflow-wrap:normal;word-break:normal}
 
 /* Quoted verses share the reader's alignment, without centering commentary. */
-body .container details[data-type="reflection"] :is(p.arabic-text,.reflection-quote-translation){text-align:center!important}
-body .container .arabic-text .reflection-quote-citation,
-body .container .arabic-text .reflection-quote-citation *{
+body .container :is([data-quote-formatted],.reflection-quote-translation),
+body .container [data-quote-formatted] > p{text-align:center!important}
+body .container [data-quote-formatted] .reflection-quote-citation,
+body .container [data-quote-formatted] .reflection-quote-citation *{
   font-family:Vazirmatn,Tahoma,Arial,sans-serif!important;
   font-size:1rem!important;line-height:1.7!important;font-weight:500;
 }
 body .container .reflection-quote-citation{
-  display:inline-block;white-space:nowrap;unicode-bidi:isolate;
+  display:inline;unicode-bidi:isolate;
   vertical-align:baseline;margin-inline-start:.6em;
 }
 
@@ -40,3 +41,7 @@ body .container :is(p,li) a[href]:not(.word-link):not([role="button"]):hover{
 body .container :is(p,li) a[href]:not(.word-link):not([role="button"]):focus-visible{
   outline:2px solid var(--lib-gold);outline-offset:3px;border-radius:2px;
 }
+
+body .container .reflection-quote-citation a{display:inline-block;white-space:nowrap}
+body .container .reflection-quote-citation{color:var(--lib-gold)}
+body .container .reflection-quote-citation.single-citation{display:inline-block;white-space:nowrap}

@@ -87,3 +87,7 @@ Verify actual destinations separately in each language; never invent English rou
 Render `روح القدس` (including spelling and diacritic variants such as `روح القدوس`) as **Spirit of The Holy** in all English Quran translations, quoted verses, reflections, word-box text, root studies, articles, and descriptive metadata. Preserve this exact capitalization; do not substitute “Holy Spirit” or “The Holy Spirit,” and do not prepend another “the.” Apply this consistently in new content and revisions. Preserve Arabic text and existing URLs and anchors.
 
 This translation rule concerns the Quranic expression. Retain the conventional term “Holy Spirit” in clearly identified descriptions or quotations of Christian doctrine and historical councils. Do not conflate `القدس` in this expression with the distinct divine epithet `القدوس` (The All-Holy).
+
+## Explicit Quran quotations in reflections
+
+Follow `scripts/REFLECTION-QUOTES.md` when installing or revising reflections. Standalone Quran quotations must use `<p class="arabic-text" lang="ar" dir="rtl">`; their associated translations use `<p class="translation">`. A separate verse citation uses `<p class="verse-ref">` with a verified installed anchor. Do not infer Quran quotations from bold type alone or classify surrounding commentary as translation. Preserve wording and word boxes. Run `python3 scripts/check-reflection-quotes.py` on the edited units and inspect both languages at desktop and mobile widths before delivery. Source markup is required; runtime detection and local build output are not substitutes.
