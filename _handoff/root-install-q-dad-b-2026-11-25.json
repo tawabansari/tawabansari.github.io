@@ -1,0 +1,234 @@
+{
+  "root": "ق ض ب",
+  "slug": "q-dad-b",
+  "date": "2026-11-25",
+  "input": "/Users/tawab/.codex/attachments/9434d115-7703-4514-af54-c27d02cc469e/Pasted text.txt",
+  "status": "Installed locally in Persian and English; no assistant commit or push.",
+  "coverage": {
+    "blocks_per_language": 93,
+    "root_occurrences": 1,
+    "root_verses": [
+      "80:28"
+    ],
+    "full_quoted_verses": [
+      "80:24",
+      "80:27",
+      "80:28",
+      "80:31",
+      "80:32"
+    ],
+    "reference_only": [
+      "69:23",
+      "76:14"
+    ]
+  },
+  "editorial_changes": [
+    {
+      "block": 3,
+      "before": "اعشی، از شاعران اواخر دوران جاهلیت، در وصف مردی که از او ستایش می‌کند، از شتری یاد کرده و می‌گوید:",
+      "after": "در شاهدی منسوب به اعشی، از شاعران اواخر دوران جاهلیت، این بخش از بیت نقل شده است:"
+    },
+    {
+      "block": 6,
+      "before": "«قَضَبْتَ» در این عبارت به بریدن ریسمانی اشاره دارد که پای شتر با آن بسته شده بود. شاعر با این تصویر، رهایی شتر از محدودیت و امکان بهره‌مندی آن از چراگاه را بیان می‌کند.",
+      "after": "«قَضَبْتَ» در این عبارت به بریدن پای‌بند اشاره دارد. ابن‌بری ضبطِ خطاب با فتح تاء را ترجیح داده و تصویر را به گشایش چراگاه برای شتر نزد شخص ستوده‌شده توضیح داده است. در نقل دیگری، فعل با ضمیر گوینده آمده است. بنابراین، شرحِ رهایی برای چرا، توضیحی منقول درباره تصویر شعر است و نباید آن را گزارش قطعی یک رویداد تاریخی شمرد."
+    },
+    {
+      "block": 8,
+      "before": "إِذَا أَرْوَوْا بِهَا زَرْعًا وَقَضْبًا\\\nأَمَالُوهَا عَلَى خُورٍ طِوَالِ",
+      "after": "إِذَا أَرْوَوْا بِهَا زَرْعًا وَقَضْبًا / أَمَالُوهَا عَلَى خُورٍ طِوَالِ"
+    },
+    {
+      "block": 11,
+      "before": "هرچند تاریخ دقیق سرودن این اشعار به‌طور مستقل قابل احراز نیست، شواهد شعری و منابع زبان عربی کلاسیک در ثبت دو معنای بریدن و گیاهان چیدنی با یکدیگر سازگارند.",
+      "after": "این بیت لبید در دیوان او و شاهد اعشی در منابع لغوی نقل شده است. تاریخ دقیق سرودن هیچ‌یک در این پژوهش مستقلاً احراز نشد؛ به‌ویژه انتساب شعر به لبید، به‌تنهایی زمان پیشاقرآنی آن را اثبات نمی‌کند. فرهنگ‌های متأخر، ثبت و توضیح این کاربردها را فراهم می‌کنند، نه تاریخ قطعی پیدایش آنها."
+    },
+    {
+      "block": 15,
+      "before": "در زبان عربی، تعبیر «قَضَبَ الْغُصْنَ» به معنای بریدن شاخه درخت و «قَضَبَ الْكَرْمَ» به معنای بریدن و هرس کردن شاخه‌های تاک است.",
+      "after": "در زبان عربی، تعبیر «قَضَبَ الْغُصْنَ» به معنای بریدن شاخه درخت و «قَضَّبَ الْكَرْمَ» به معنای بریدن و هرس کردن شاخه‌های تاک است."
+    },
+    {
+      "block": 41,
+      "before": "در برخی گزارش‌های تفسیری کهن، خرمای تازه نیز از مصادیق احتمالی قضب دانسته شده است؛ زیرا از درخت چیده و جدا می‌شود. با این حال، شواهد لغوی مستقیم درباره علوفه تازه و گیاهان چیدنی روشن‌ترند.",
+      "after": "برای تعیین مصداق دقیق قضب باید میان معنای واژه و تعیین گونه گیاهی تفاوت گذاشت. توضیح آن با یونجه یا علوفه تازه، یکی از تفسیرهای لغوی شناخته‌شده است؛ این توضیح به‌تنهایی همه مصادیق ممکن را نفی نمی‌کند."
+    },
+    {
+      "block": 42,
+      "before": "قرآن نوع گیاه را با نام گونه‌ای مشخص تعیین نکرده است. از این رو، محدود ساختن قضب به یونجه، با وجود پشتوانه لغوی آن، تمام گستره معنایی واژه را در ترجمه حفظ نمی‌کند.",
+      "after": "از سیاق آیه به‌تنهایی نمی‌توان یک گونه گیاهی را با قطعیت تعیین کرد. در این پژوهش، معادل گسترده‌تر «گیاهان چیدنی» برگزیده می‌شود؛ یونجه و علوفه تازه نیز از مصادیق لغوی مطرح‌اند."
+    },
+    {
+      "block": 52,
+      "before": "## ۳. قضب و اقتضاب در کاربردهای غیرقرآنی",
+      "after": "## ۳. اقتضاب و مرز شواهد غیرقرآنی"
+    },
+    {
+      "block": 54,
+      "before": "در زبان عربی، «اِقْتَضَبَ الْكَلَامَ» به معنای سخن گفتن بدون آمادگی قبلی و بداهه‌گویی نیز به کار می‌رود.",
+      "after": "در فرهنگ‌های عربی کلاسیک، «اِقْتَضَبَ الْكَلَامَ» به معنای سخن گفتن بدون آمادگی قبلی و بداهه‌گویی نیز ثبت شده است."
+    },
+    {
+      "block": 55,
+      "before": "«كَلَامٌ مُقْتَضَبٌ» در کاربردهای امروزی می‌تواند به سخنی کوتاه، فشرده و مختصر اشاره داشته باشد.",
+      "after": "ثبت این معنا در فرهنگ‌های متأخر را نباید به‌تنهایی گواهی برای رواج آن پیش از نزول قرآن دانست."
+    },
+    {
+      "block": 57,
+      "before": "این تصویر به فهم کاربرد غیرمادی ریشه کمک می‌کند، اما اختصار سخن و بداهه‌گویی، معانی کاربرد قرآنی قضب نیستند.",
+      "after": "این تصویر به فهم کاربرد غیرمادی ریشه کمک می‌کند، اما بداهه‌گویی معنای قضب در عبس نیست."
+    },
+    {
+      "block": 58,
+      "before": "همچنین قضیب در عربی امروز برای انواع میله‌ها، ترکه‌ها و اجسام باریک و کشیده به کار می‌رود. این کاربرد با شکل شاخه و چوب بریده‌شده ارتباط دارد.",
+      "after": "«قَضِيب» در شواهد لغوی به شاخه و چوب باریک نیز گفته می‌شود. توضیح این کاربرد مادی به معنای شاخه محدود است؛ کاربردهای صنعتی امروز، مبنای تفسیر واژه قرآنی نیستند."
+    },
+    {
+      "block": 66,
+      "before": "برای مثال، گیاهی که دام مستقیما در چراگاه از آن تغذیه می‌کند، می‌تواند در میدان معنایی أَبّ قرار گیرد. همان گیاه، هنگامی که برای خوراک دام بریده و برداشت می‌شود، ممکن است با مفهوم قضب نیز توصیف گردد.",
+      "after": "برای روشن شدن تفاوت می‌توان گیاهِ قابل چرا را با علوفه‌ای که بریده و برای دام برده می‌شود مقایسه کرد. این مثال آموزشی، مرزبندی قطعی همه مصادیق دو واژه نیست."
+    },
+    {
+      "block": 68,
+      "before": "تفاوت برجسته آنها در جنبه‌ای است که هر واژه از گیاه بیان می‌کند: چیدنی بودن در قضب و قابلیت چرا و تغذیه دام در أَبّ.",
+      "after": "در این مقایسه، چیدن و بریدن در توضیح قضب و چراگاه و خوراک دام در توضیح أَبّ برجسته است؛ با این حال، میدان‌های معنایی آنها هم‌پوشانی دارند."
+    },
+    {
+      "block": 86,
+      "before": "«و انگور و گیاهان چیدنی.»",
+      "after": "«و انگور و گیاهان چیدنی.» — عبس ۸۰:۲۸"
+    }
+  ],
+  "research_sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qDb",
+    "https://islamweb.net/ar/library/content/122/6691/قضب",
+    "https://ar.wikisource.org/wiki/لسان_العرب/أطر-ألل",
+    "https://najafdesertlibrary.com/book/ديوان-لبيد-بن-ربيعة/v/1/p/67",
+    "https://najafdesertlibrary.com/book/تاج-العروس/v/2/p/327"
+  ],
+  "research_notes": [
+    "Al-Asha fragment retained as explicitly labelled fragment; Ibn Barri prefers second-person reading and provides the pasture interpretation. Alternate first-person reading noted. Precise composition dates not established.",
+    "Labid irrigation verse and context verified in collected poetry; pre-Quranic date not assumed.",
+    "Modern technical usages removed as grounds for historical meaning; dictionary record of extemporaneous speech distinguished from chronological evidence.",
+    "Fresh-date interpretation omitted; broad botanical translation stated as editorial choice rather than exclusive certainty.",
+    "Live Persian and English concept directories checked; no substantive separate concept destination required. Related root destinations read in repository for both languages. Q Ṭ F remains preliminary without article files, so no link invented.",
+    "Attachment preface, favicon and search citation debris excluded from article. Research URLs retained only in audit."
+  ],
+  "protected_boxes": {
+    "fa": [
+      {
+        "path": "quran-reflection/fa/080-abasa/units/028.html",
+        "word": "وَقَضبًا",
+        "rootMeaning": "بریدن؛ قضب: سبزی یا گیاه بریدنی برای خوراک.",
+        "context": null,
+        "unchanged": true
+      }
+    ],
+    "en": [
+      {
+        "path": "quran-reflection/en/080-abasa/units/028.html",
+        "word": "وَقَضبًا",
+        "rootMeaning": "Cutting; qaḍb denotes cuttable greenery or fodder.",
+        "context": null,
+        "unchanged": true
+      }
+    ]
+  },
+  "preexisting_issues": [
+    "Existing 80:28 qaḍb box lacks separate data-context in both languages; left untouched under root-installation protection rule. Existing root-study links preserved."
+  ],
+  "validation": {
+    "source_blocks_and_verse_completeness": "passed both languages",
+    "protected_content_hashes": "passed; all Quran reflection HTML unchanged",
+    "registry_scope": "only q-dad-b changed relative to task snapshot",
+    "internal_links_and_anchors": 90,
+    "jekyll_build_seconds": 24.827,
+    "browser_views": [
+      {
+        "root": "q-dad-b",
+        "lang": "fa",
+        "width": 390,
+        "scroll": 390,
+        "theme": "light",
+        "verses": 5,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-dad-b",
+        "lang": "fa",
+        "width": 390,
+        "scroll": 390,
+        "theme": "dark",
+        "verses": 5,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-dad-b",
+        "lang": "fa",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "light",
+        "verses": 5,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-dad-b",
+        "lang": "fa",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "dark",
+        "verses": 5,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-dad-b",
+        "lang": "en",
+        "width": 390,
+        "scroll": 390,
+        "theme": "light",
+        "verses": 5,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-dad-b",
+        "lang": "en",
+        "width": 390,
+        "scroll": 390,
+        "theme": "dark",
+        "verses": 5,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-dad-b",
+        "lang": "en",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "light",
+        "verses": 5,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-dad-b",
+        "lang": "en",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "dark",
+        "verses": 5,
+        "cards": 1,
+        "sections": 7
+      }
+    ],
+    "screenshots_visually_reviewed": [
+      "fa 390 light",
+      "en 1280 dark"
+    ],
+    "git_diff_check": "passed"
+  }
+}

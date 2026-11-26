@@ -14842,15 +14842,15 @@
   "q-dad-b": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-dad-b/",
-      "title": "ریشهٔ ق ض ب",
-      "summary": "بریدن؛ قضب: سبزی یا گیاه بریدنی برای خوراک.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ض ب",
+      "summary": "بریدن و جدا کردن؛ در کاربرد قرآنی، گیاهان تازه و چیدنی برای خوراک.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-dad-b/",
-      "title": "The Root Q Ḍ B",
-      "summary": "Cutting; qaḍb denotes cuttable greenery or fodder.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q Ḍ B",
+      "summary": "Cutting and separating; in the Qur’anic occurrence, fresh vegetation cut for food or fodder.",
+      "status": "published"
     }
   },
   "q-dad-dad": {
@@ -15472,29 +15472,29 @@
   "q-sad-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-sad-f/",
-      "title": "ریشهٔ ق ص ف",
-      "summary": "با شدت شکستن؛ قاصف: باد شکننده.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ص ف",
+      "summary": "شکستن و درهم کوبیدن؛ شکنندگی؛ و در کاربرد صوتی، صدای شدید و سهمگین.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-sad-f/",
-      "title": "The Root Q Ṣ F",
-      "summary": "Breaking violently; qāṣif denotes a shattering wind.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q Ṣ F",
+      "summary": "Breaking and shattering; brittleness; and, in sound-related uses, an intense, formidable sound.",
+      "status": "published"
     }
   },
   "q-sad-m": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-sad-m/",
-      "title": "ریشهٔ ق ص م",
-      "summary": "شکستن و درهم کوبیدن.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ص م",
+      "summary": "شکستن شدید و گسستن پیوستگی یا استواری؛ در کاربرد غیرمادی، درهم شکستن قدرت و نابود ساختن.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-sad-m/",
-      "title": "The Root Q Ṣ M",
-      "summary": "Breaking or crushing.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q Ṣ M",
+      "summary": "Severe breaking and disruption of continuity or strength; figuratively, shattering power and bringing destruction.",
+      "status": "published"
     }
   },
   "q-sad-r": {
@@ -15528,15 +15528,15 @@
   "q-sad-w": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-sad-w/",
-      "title": "ریشهٔ ق ص و",
-      "summary": "دوری و دورترین جانب.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ص و",
+      "summary": "دور بودن، فاصله گرفتن و دور ساختن؛ در صورت تفضیلی، دورتر یا دورترین بودن نسبت به مرجعی معین.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-sad-w/",
-      "title": "The Root Q Ṣ W",
-      "summary": "Remoteness or the farthest side.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q Ṣ W",
+      "summary": "Being distant, moving away, and removing to a distance; in elative forms, being farther or farthest relative to a reference point.",
+      "status": "published"
     }
   },
   "q-sh-ayn-r": {
