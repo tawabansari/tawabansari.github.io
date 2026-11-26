@@ -1,0 +1,46 @@
+{
+  "slug": "q-r-f",
+  "date": "2026-11-25",
+  "status": "Installed locally; no commit or push",
+  "source": "/Users/tawab/.codex/attachments/faeeab6e-76bb-4927-9e36-88bc076ff385/Pasted text.txt",
+  "content_blocks_per_language": 100,
+  "root_occurrences": 5,
+  "root_verses": 4,
+  "full_verse_quotes_per_language": 5,
+  "existing_linked_boxes": {
+    "fa": 5,
+    "en": 5
+  },
+  "verse_changes": [],
+  "preexisting_box_issues": [
+    "42:23 q-r-f box lacks context in both languages; existing verse metadata retained."
+  ],
+  "edits": [
+    "Removed AI research preamble and external citation debris",
+    "Qualified historical dating and absence-of-evidence statements",
+    "Verified attributed Antarah verse and wound-word variants",
+    "Corrected bread-crust explanation; removed unsupported ordinary Persian use of qirfah",
+    "Preserved Nabi in 6:112 and Messenger in 9:24",
+    "Qualified contextual kasb/iqtiraf distinction",
+    "Noted interpretation of kinship phrase outside direct translation",
+    "Replaced repeated partial Arabic quotation list with reference-based translation guidance"
+  ],
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qrf",
+    "https://www.islamweb.net/ar/library/content/122/6601/",
+    "https://ablibrary.net/book_content/b/5408/103",
+    "https://perpustakaanislamdigital.com/pdf/bhs_sd_115.pdf",
+    "https://quran.ksu.edu.sa/tafseer/tabary/sura42-aya23.html",
+    "https://forqan.co/fa/quran-terminology/",
+    "https://forqan.co/en/quran-terminology/"
+  ],
+  "checks": {
+    "complete_verses_match": true,
+    "protected_content_unchanged": true,
+    "registry_only_current_entry": true,
+    "internal_links": 124,
+    "build_seconds": 23.493,
+    "browser_views": 8,
+    "visual_inspection": "Persian mobile dark and English desktop light passed"
+  }
+}

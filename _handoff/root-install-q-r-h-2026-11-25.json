@@ -1,0 +1,58 @@
+{
+  "root": "ق ر ح",
+  "slug": "q-r-h",
+  "date": "2026-11-25",
+  "status": "Installed locally; no commit or push",
+  "source": "/Users/tawab/.codex/attachments/41febd25-09b5-4d70-ae46-9c4444413569/Pasted text.txt",
+  "content_blocks_per_language": 102,
+  "root_occurrences": 3,
+  "root_verses": 2,
+  "full_verse_quotes_per_language": 4,
+  "existing_linked_boxes": {
+    "fa": 3,
+    "en": 3
+  },
+  "preexisting_box_issues": [
+    {
+      "path": "quran-reflection/fa/003-al-imran/units/172.html",
+      "word": "القَرحُ",
+      "action": "Preserved existing metadata; no verse edits"
+    },
+    {
+      "path": "quran-reflection/en/003-al-imran/units/172.html",
+      "word": "القَرحُ",
+      "action": "Preserved existing metadata; no verse edits"
+    }
+  ],
+  "edits": [
+    "Removed AI preamble, external citation debris, and trailing editorial note",
+    "Qualified historical-evidence limitation",
+    "Corrected qarah land definition",
+    "Verified poem attribution and recitation variants",
+    "Clarified yamsas/massa grammar",
+    "Preserved injury, pain, weakness, grief distinctions",
+    "Rasul rendered as فرستاده / Messenger",
+    "Full English translation and verse pronunciation aids",
+    "Contextual taqwa links in prose and cross-references"
+  ],
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qrH",
+    "https://islamweb.net/ar/library/content/122/6546/قرح",
+    "https://www.islamweb.net/ar/library/content/1069/2338/?idfrom=&idto=&start=",
+    "https://www.nquran.com/ar/index.php?ayano=140&group=tb1&sorano=3&tpath=2",
+    "https://jamharah.net/showthread.php?p=175360",
+    "https://forqan.co/fa/quran-terminology/",
+    "https://forqan.co/en/quran-terminology/",
+    "https://forqan.co/fa/quran-terminology/taqwa/",
+    "https://forqan.co/en/quran-terminology/taqwa/"
+  ],
+  "checks": {
+    "complete_Arabic_verses_matched": true,
+    "protected_files_unchanged": true,
+    "only_current_registry_entry_changed": true,
+    "internal_links": 110,
+    "jekyll_build_seconds": 24.333,
+    "browser_views": 8,
+    "visual_inspection": "Persian mobile dark and English desktop light passed; no overflow across eight views"
+  }
+}

@@ -15220,15 +15220,15 @@
   "q-r-ayn": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-r-ayn/",
-      "title": "ریشهٔ ق ر ع",
-      "summary": "کوبیدن و ضربه شدید؛ قارعه: حادثه کوبنده.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ر ع",
+      "summary": "کوبیدن و وارد کردن ضربه؛ حادثه‌ای سخت و کوبنده در دنیا یا رستاخیز.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-r-ayn/",
-      "title": "The Root Q R AYN (Q R ʿ)",
-      "summary": "Striking or pounding; qāriʿah is an overwhelming, striking event.",
-      "status": "preliminary"
+      "title": "Qur’anic root qāf rā ʿayn (ق ر ع)",
+      "summary": "Knocking and striking; a severe, striking event in worldly life or at the Resurrection.",
+      "status": "published"
     }
   },
   "q-r-b": {
@@ -15276,43 +15276,43 @@
   "q-r-f": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-r-f/",
-      "title": "ریشهٔ ق ر ف",
-      "summary": "به دست آوردن و مرتکب شدن، خوب یا بد بنا بر سیاق.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ر ف",
+      "summary": "کندن پوست و پوسته؛ تماس و آمیختگی؛ کسب کردن و انجام دادن کار نیک، بد یا مادی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-r-f/",
-      "title": "The Root Q R F",
-      "summary": "Acquiring or committing, good or bad according to context.",
-      "status": "preliminary"
+      "title": "Qur’anic root qāf rā fāʾ (ق ر ف)",
+      "summary": "Peeling a skin or crust; contact and involvement; acquiring or performing good, bad, or material acts.",
+      "status": "published"
     }
   },
   "q-r-h": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-r-h/",
-      "title": "ریشهٔ ق ر ح",
-      "summary": "زخم و رنج ناشی از آسیب.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ر ح",
+      "summary": "زخم و جراحت و رنج ناشی از آسیب؛ با شاخه‌های غیرقرآنی خلوص و استنباط.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-r-h/",
-      "title": "The Root Q R Ḥ",
-      "summary": "A wound or suffering from injury.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Q R Ḥ",
+      "summary": "Wounds, injury, and associated suffering; with non-Qur’anic branches of purity and drawing out.",
+      "status": "published"
     }
   },
   "q-r-n": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-r-n/",
-      "title": "ریشهٔ ق ر ن",
-      "summary": "پیوستن و همراهی؛ قرین: همراه؛ قرن: نسل یا جماعت هم‌دوره.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ر ن",
+      "summary": "پیوند و همراهی، همتایی و توانایی؛ نسل و جماعت هم‌عصر؛ شاخ و برجستگی.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-r-n/",
-      "title": "The Root Q R N",
-      "summary": "Joining or accompanying; qarīn is a companion; qarn is a generation or contemporary community.",
-      "status": "preliminary"
+      "title": "The Qur’anic Root Q R N",
+      "summary": "Joining and companionship, matching and ability; generations and contemporary communities; horns and projections.",
+      "status": "published"
     }
   },
   "q-r-r": {
@@ -15332,15 +15332,15 @@
   "q-r-sh": {
     "fa": {
       "url": "/quran-terminology/fa/roots/q-r-sh/",
-      "title": "ریشهٔ ق ر ش",
-      "summary": "گردآمدن؛ قریش نام خاص قوم است و توضیح اشتقاقی آن قطعی نیست.",
-      "status": "preliminary"
+      "title": "ریشه قرآنی ق ر ش",
+      "summary": "گرد آوردن و کسب معاش؛ در قرآن، قریش نام خاص قومی با منشأ نام‌گذاری نامطمئن است.",
+      "status": "published"
     },
     "en": {
       "url": "/quran-terminology/en/roots/q-r-sh/",
-      "title": "The Root Q R SH",
-      "summary": "Gathering; Quraysh is a people's proper name with uncertain derivation.",
-      "status": "preliminary"
+      "title": "Qur’anic Root Q R SH",
+      "summary": "Gathering and earning a livelihood; Quraysh is a proper name whose historical derivation is uncertain.",
+      "status": "published"
     }
   },
   "q-r-tt-s": {

@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-25",
+  "scope": [
+    "h-k-m fa/en",
+    "3:46 fa/en"
+  ],
+  "changes": [
+    "Completed 20 independent Quran quotations in each root article using installed Tanzil text and reviewed translations.",
+    "Removed unfinished editorial note.",
+    "Repaired two malformed Persian verse links; removed misleading concept links and corresponding related-study entries."
+  ],
+  "validation": {
+    "full_verses": 20,
+    "internal_links": 322,
+    "build": "passed",
+    "word_boxes": "10 lexical boxes per language; passed; all metadata unchanged",
+    "visual": "16 desktop/mobile light/dark views; inspected Persian root and English reflection mobile dark screenshots"
+  },
+  "deployment": "local only; no push"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "q-r-ayn",
+  "date": "2026-11-25",
+  "status": "Installed locally; no commit or push",
+  "source": "/Users/tawab/.codex/attachments/32066d42-6757-4f5f-95da-bd5c92e7d4c2/Pasted text.txt",
+  "content_blocks_per_language": 120,
+  "root_occurrences": 5,
+  "full_verse_quotes_per_language": 14,
+  "existing_linked_boxes": {
+    "fa": 5,
+    "en": 5
+  },
+  "verse_changes": [],
+  "preexisting_box_issues": [
+    "69:4, 101:1 and 101:2 have no contextual meaning in their q-r-ayn boxes in either language. Existing metadata retained; no verse unit edited."
+  ],
+  "edits": [
+    "Corrected passive kullima in 13:31: the dead are spoken to",
+    "Explained omitted conditional answer and alternative interpretations of yayas outside translation",
+    "Restricted deed-consequence statement to its context; rejected inference that all victims are guilty",
+    "Distinguished syntactic interpretations from recitation variants",
+    "Separated historical witness with its own heading; checked poem in Asmaiyyat",
+    "Removed AI preamble and trailing work instruction",
+    "Full bilingual article and individual verse references"
+  ],
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qrE",
+    "https://usul.ai/ar/t/asmaciyyat/229",
+    "https://www.islamweb.net/ar/library/content/122/6593/",
+    "https://quranpedia.app/uloom/maqayees/w/q0r0e0.html",
+    "https://quran.ksu.edu.sa/tafseer/tabary/sura13-aya31.html",
+    "https://www.greattafsirs.com/Tafsir_Library.aspx?AyahNo=31&FromMainTafsir=1&LanguageID=1&MadhabNo=2&SoraNo=13&TafsirNo=16",
+    "https://forqan.co/fa/quran-terminology/",
+    "https://forqan.co/en/quran-terminology/"
+  ],
+  "checks": {
+    "complete_verse_match": true,
+    "protected_content_unchanged": true,
+    "only_current_registry_entry_changed": true,
+    "internal_links": 164,
+    "jekyll_build_seconds": 24.184,
+    "browser_views": 8,
+    "visual_inspection": "Persian mobile dark and English desktop light passed"
+  }
+}

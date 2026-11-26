@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-25",
+  "status": "Local changes; no commit or push",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "root_article": "k-l-m",
+  "root_verses_completed": [
+    "2:37",
+    "2:75",
+    "4:164",
+    "7:143",
+    "7:144",
+    "18:109",
+    "31:27",
+    "6:115",
+    "6:34",
+    "3:64",
+    "27:82"
+  ],
+  "reflection": "2:117",
+  "reflection_witnesses_completed": [
+    "46:9",
+    "57:27",
+    "6:101",
+    "3:47"
+  ],
+  "checks": {
+    "root_article_all_17_quotes_complete": true,
+    "four_reflection_witnesses_complete": true,
+    "word_boxes_unchanged": true,
+    "word_box_completeness": "PASS 16 lexical boxes",
+    "root_article_links": 110,
+    "browser_views": 16,
+    "build_seconds": 26.698,
+    "diff_check": "PASS"
+  },
+  "note": "Updated only both k-l-m articles and both 2:117 units. Concurrent changes to 3:47 and other files were not edited by this task."
+}

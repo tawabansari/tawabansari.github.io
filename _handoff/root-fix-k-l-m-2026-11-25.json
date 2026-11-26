@@ -1,0 +1,17 @@
+{
+  "root": "k-l-m",
+  "date": "2026-11-25",
+  "scope": "Complete 3:45 and 4:171 quotations in Persian and English root article",
+  "changes": [
+    "Full Arabic from installed Quran text",
+    "Complete bilingual translations; Persian Rasul rendered as فرستاده and English Messenger",
+    "Complete English transliterations",
+    "Existing verse references and section anchors retained"
+  ],
+  "validation": [
+    "Both quotations in both languages exactly match installed Arabic word text"
+  ],
+  "live_access": "Direct open of live Persian article failed; repository article inspected",
+  "commit_push": false,
+  "final_build_seconds": 23.498
+}
