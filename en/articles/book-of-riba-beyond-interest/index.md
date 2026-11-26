@@ -287,35 +287,7 @@ Money and credit have changed, and creating credit money is not the same as simu
 
 The Qur’an contrasts riba both with trade in Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-275">2:275</a> and with charity and zakat (giving associated with purification and growth) in Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-276">2:276</a> and Ar-Rum <a class="verse-citation" href="/quran-reflection/en/030-ar-rum/#ayah-039">30:39</a>. Both contrasts are essential. The question is not merely how much profit is made, but how it is obtained and whether people’s rights are respected.
 
-<blockquote class="quran-quote" data-source-verse="30:39">
-<p class="arabic-text" lang="ar" dir="rtl">
-    وَما
-    ءاتَيتُم
-    مِن
-    رِبًا
-    لِيَربُوَا۟
-    فى
-    أَموٰلِ
-    النّاسِ
-    فَلا
-    يَربوا
-    عِندَ
-    <button class="word-link" type="button" data-word="اللَّهِ" data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/">اللَّهِ</button>
-    ۖ
-    وَما
-    ءاتَيتُم
-    مِن
-    زَكوٰةٍ
-    تُريدونَ
-    وَجهَ
-    <button class="word-link" type="button" data-word="اللَّهِ" data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/">اللَّهِ</button>
-    فَأُولٰئِكَ
-    هُمُ
-    المُضعِفونَ
-  </p>
-<p><a href="/quran-reflection/en/030-ar-rum/#ayah-039">Ar-Rum 30:39</a></p>
-<p class="translation">Whatever you give as riba to increase within people’s wealth does not increase with The God. But whatever you give as zakat, seeking The God’s face—those are the ones who multiply.</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="30:39"></div>
 
 In the first direction, someone gives wealth so that it will increase for them within other people’s wealth; the Qur’an says that this increase does not grow with God. In the second, someone gives zakat seeking God’s approval, and the Qur’an speaks of multiplication. The distinction draws attention to the difference between a numerical increase in assets and the growth of their benefits for people and society.
 
@@ -323,62 +295,7 @@ The question is therefore not simply whether money has increased, but at whose e
 
 The preceding verses repeatedly address giving, charity, sound intention, and the dignity of people in need (Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-261">2:261</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-262">2:262</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-263">2:263</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-264">2:264</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-265">2:265</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-266">2:266</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-267">2:267</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-268">2:268</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-269">2:269</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-270">2:270</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-271">2:271</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-272">2:272</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-273">2:273</a>, Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-274">2:274</a>). Al-Baqarah <a class="verse-citation" href="/quran-reflection/en/002-al-baqarah/#ayah-275">2:275</a> then introduces riba, and the following verses clarify the two economic and ethical directions.
 
-<blockquote class="quran-quote" data-source-verse="2:275">
-<p class="arabic-text" lang="ar" dir="rtl">
-    الَّذينَ
-    يَأكُلونَ
-    الرِّبوٰا۟
-    لا
-    يَقومونَ
-    إِلّا
-    كَما
-    يَقومُ
-    الَّذى
-    يَتَخَبَّطُهُ
-    الشَّيطٰنُ
-    مِنَ
-    المَسِّ
-    ۚ
-    ذٰلِكَ
-    بِأَنَّهُم
-    قالوا
-    إِنَّمَا
-    البَيعُ
-    مِثلُ
-    الرِّبوٰا۟
-    ۗ
-    وَأَحَلَّ
-    <button class="word-link" type="button" data-word="اللَّهُ" data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/">اللَّهُ</button>
-    البَيعَ
-    وَحَرَّمَ
-    الرِّبوٰا۟
-    ۚ
-    فَمَن
-    جاءَهُ
-    مَوعِظَةٌ
-    مِن
-    رَبِّهِ
-    فَانتَهىٰ
-    فَلَهُ
-    ما
-    سَلَفَ
-    وَأَمرُهُ
-    إِلَى
-    <button class="word-link" type="button" data-word="اللَّهِ" data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/">اللَّهِ</button>
-    ۖ
-    وَمَن
-    عادَ
-    فَأُولٰئِكَ
-    أَصحٰبُ
-    النّارِ
-    ۖ
-    هُم
-    فيها
-    خٰلِدونَ
-  </p>
-<p><a href="/quran-reflection/en/002-al-baqarah/#ayah-275">Al-Baqarah 2:275</a></p>
-<p class="translation">Those who consume riba do not rise except as someone whom Satan has thrown into confusion through contact rises. That is because they said: “Trade is just like riba”; yet The God has permitted trade and forbidden riba. So whoever receives an admonition from his Lord and desists may retain what is past, and his affair rests with The God; and whoever returns—those are the companions of the Fire; they will remain in it.</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="2:275"></div>
 
 The verse distinguishes trade from riba: trading profit is not inherently riba. The root r-b-w (increase or rising) is distinct from r-b-h (profit or gain). Qiyam (rising or standing) and takhabbut (confusion and loss of balance) describe a striking contrast. An-Nisa <a class="verse-citation" href="/quran-reflection/en/004-an-nisa/#ayah-005">4:5</a> also describes wealth as a means of sustaining life. Without sufficient evidence, this image should not be turned into a psychiatric diagnosis or confined exclusively to worldly life or the hereafter. The verse leaves room for correction when someone receives admonition and stops, entrusting that person’s affair to God, while warning against returning to riba.
 
@@ -390,126 +307,23 @@ Not every financial increase is riba. The Qur’an permits trade and forbids rib
 
 In an honest sale, both parties exchange things of value with consent and respect for each other’s rights. In financial relationships we must ask what value is provided, where the return comes from, who carries the risk, and whether one person exploits another’s need or incapacity. A specified return alone is not sufficient to establish riba.
 
-<blockquote class="quran-quote" data-source-verse="2:276">
-<p class="arabic-text" lang="ar" dir="rtl">
-    يَمحَقُ
-    <button class="word-link" type="button" data-word="اللَّهُ" data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/">اللَّهُ</button>
-    الرِّبوٰا۟
-    وَيُربِى
-    الصَّدَقٰتِ
-    ۗ
-    <button class="word-link" type="button" data-word="وَاللَّهُ" data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/">وَاللَّهُ</button>
-    لا
-    يُحِبُّ
-    كُلَّ
-    كَفّارٍ
-    أَثيمٍ
-  </p>
-<p><a href="/quran-reflection/en/002-al-baqarah/#ayah-276">Al-Baqarah 2:276</a></p>
-<p class="translation">The God eradicates riba and causes charities to grow; and The God does not love any ungrateful sinner.</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="2:276"></div>
 
 Mahq (erasure or wearing away) of riba is contrasted with the growth of charitable giving. A numerical increase in assets is not necessarily genuine growth for people and society. One group may become wealthier while others lose economic capacity, independence, and opportunities. Charity and the proper use of resources can instead strengthen people’s abilities, employment, and shared prosperity. The verse does not establish that every person who takes riba must lose all their possessions in this life. Nor should every loan or return be called riba or exploitation without examining it.
 
-<blockquote class="quran-quote" data-source-verse="2:277">
-<p class="arabic-text" lang="ar" dir="rtl">
-    إِنَّ
-    الَّذينَ
-    ءامَنوا
-    وَعَمِلُوا
-    الصّٰلِحٰتِ
-    وَأَقامُوا
-    الصَّلوٰةَ
-    وَءاتَوُا
-    الزَّكوٰةَ
-    لَهُم
-    أَجرُهُم
-    عِندَ
-    رَبِّهِم
-    وَلا
-    خَوفٌ
-    عَلَيهِم
-    وَلا
-    هُم
-    يَحزَنونَ
-  </p>
-<p><a href="/quran-reflection/en/002-al-baqarah/#ayah-277">Al-Baqarah 2:277</a></p>
-<p class="translation">Indeed, those who believed and did righteous deeds, established salah, and gave zakat have their reward with their Lord; and no fear shall be upon them, nor shall they grieve.</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="2:277"></div>
 
 Faith, righteous action, establishing salah (the Qur’anic practice of prayer and devotion), and giving zakat (giving associated with purification and growth) appear together. In this context they include economic responsibilities: respecting both parties’ rights, avoiding oppression, helping people in need, and using capital responsibly. Worship and giving cannot replace justice in financial dealings.
 
-<blockquote class="quran-quote" data-source-verse="2:278">
-<p class="arabic-text" lang="ar" dir="rtl">
-    يٰأَيُّهَا
-    الَّذينَ
-    ءامَنُوا
-    اتَّقُوا
-    <button class="word-link" type="button" data-word="اللَّهَ" data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/">اللَّهَ</button>
-    وَذَروا
-    ما
-    بَقِىَ
-    مِنَ
-    الرِّبوٰا۟
-    إِن
-    كُنتُم
-    مُؤمِنينَ
-  </p>
-<p><a href="/quran-reflection/en/002-al-baqarah/#ayah-278">Al-Baqarah 2:278</a></p>
-<p class="translation">O you who have believed, be mindful of The God and relinquish what remains of riba, if you are believers.</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="2:278"></div>
 
 The command concerns more than avoiding new riba transactions: outstanding riba claims must also be relinquished. Faith becomes visible in conduct when someone abandons an illegitimate claim even at personal financial cost. The approved reflection traces earlier prohibitions on taking an increase from people in need, including Exodus 22:25 and Leviticus 25:35, Leviticus 25:36, and Leviticus 25:37. An-Nisa <a class="verse-citation" href="/quran-reflection/en/004-an-nisa/#ayah-161">4:161</a> also recalls taking riba despite an earlier prohibition. This history helps establish context, but the Qur’anic meaning must be understood from the Qur’an itself, without treating all historical rules as identical.
 
-<blockquote class="quran-quote" data-source-verse="2:279">
-<p class="arabic-text" lang="ar" dir="rtl">
-    فَإِن
-    لَم
-    تَفعَلوا
-    فَأذَنوا
-    بِحَربٍ
-    مِنَ
-    <button class="word-link" type="button" data-word="اللَّهِ" data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/">اللَّهِ</button>
-    وَرَسولِهِ
-    ۖ
-    وَإِن
-    تُبتُم
-    فَلَكُم
-    رُءوسُ
-    أَموٰلِكُم
-    لا
-    تَظلِمونَ
-    وَلا
-    تُظلَمونَ
-  </p>
-<p><a href="/quran-reflection/en/002-al-baqarah/#ayah-279">Al-Baqarah 2:279</a></p>
-<p class="translation">So if you do not do so, be aware of a war from The God and His Messenger; and if you repent, your principal sums are yours; you neither do injustice nor suffer injustice.</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="2:279"></div>
 
 Here fa’dhanu means “be aware,” while harb (war or severe confrontation) conveys a warning from God and His Messenger. The language expresses the gravity of knowingly persisting in riba claims; it does not authorize private violence. Repentance remains possible, and the creditor retains the right to the principal. The verse’s clear boundary is “do not wrong and do not be wronged”: neither the debtor’s rights nor the creditor’s legitimate rights may be violated.
 
-<blockquote class="quran-quote" data-source-verse="2:280">
-<p class="arabic-text" lang="ar" dir="rtl">
-    وَإِن
-    كانَ
-    ذو
-    عُسرَةٍ
-    فَنَظِرَةٌ
-    إِلىٰ
-    مَيسَرَةٍ
-    ۚ
-    وَأَن
-    تَصَدَّقوا
-    خَيرٌ
-    لَكُم
-    ۖ
-    إِن
-    كُنتُم
-    تَعلَمونَ
-  </p>
-<p><a href="/quran-reflection/en/002-al-baqarah/#ayah-280">Al-Baqarah 2:280</a></p>
-<p class="translation">And if someone is in hardship, then a respite until ease; and that you give in charity is better for you, if you know.</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="2:280"></div>
 
 When a debtor genuinely cannot pay, repayment must be deferred until circumstances improve. Poverty is not presented as a condition defining riba; it is a circumstance that clarifies the creditor’s responsibility. Deferral preserves the legitimate claim, whereas voluntarily forgiving all or part of it is a further act of charity. Abandoning a prohibited riba claim is not the same as voluntarily forgiving principal. Someone who knowingly profits from another’s distress does not bear the same responsibility as a debtor trapped by necessity or lack of knowledge. A debtor who can pay but deliberately withholds another person’s due is likewise different from someone genuinely unable to pay.
 

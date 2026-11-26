@@ -32,6 +32,8 @@ jobs:
         run: |
           npm install --global pnpm@11.19.0
           pnpm install --frozen-lockfile
+      - name: Check shared Quran quotations
+        run: python3 scripts/test_shared_quran.py
       - name: Build Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
@@ -40,6 +42,8 @@ jobs:
         run: sudo chown -R "$(id -u):$(id -g)" _site
       - name: Generate library and search index
         run: pnpm run build:library
+      - name: Validate shared Quran quotations
+        run: python3 scripts/check-shared-quran.py _site
       - name: Validate generated site
         run: pnpm run check
       - name: Upload Pages artifact

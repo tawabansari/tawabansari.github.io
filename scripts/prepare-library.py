@@ -7,6 +7,7 @@ import sys
 from pathlib import Path
 from html.parser import HTMLParser
 from library_content import extract
+from shared_quran import VerseStore, resolve as resolve_shared_quran
 from prepare_principles import prepare as prepare_principles
 from contribution_scope import is_contribution
 from prepare_contributions import prepare as prepare_contributions
@@ -39,6 +40,8 @@ def plain(s):
 def main():
     site = Path(sys.argv[1] if len(sys.argv)>1 else '_site').resolve()
     if not (site/'index.html').exists(): raise SystemExit('Build Jekyll before preparing the library.')
+    verse_store = VerseStore(Path(__file__).resolve().parent.parent)
+    verse_dependencies = {}
     prepare_principles(site)
     pages = {}; sources = {}; redirects = {}
     for path in sorted(site.rglob('*.html')):
@@ -55,6 +58,7 @@ def main():
             redirects[url] = html.unescape(redirect[1]); sources[url] = (path, source); continue
         source = stable_anchors(source)
         parsed = Page(source)
+        source = resolve_shared_quran(source, parsed.lang, verse_store, url, verse_dependencies)
         title = ' '.join(''.join(parsed.heading or parsed.title).split()).split(' | ')[0]
         if '/roots/' in url and not url.endswith('/roots/'): kind = 'Roots'
         elif re.search(r'/quran-reflection/(en|fa)/\d', url): kind = 'Quran'
@@ -122,9 +126,12 @@ def main():
         if entry:
             source=verse_references(source,entry['lang'])
             source=unavailable_references(source,url,entry['lang'],pages,redirects)
+        if 'class="shared-verse-group"' in source:
+            source=source.replace('</head>', '<link rel="stylesheet" href="/assets/css/shared-quran.css">\n</head>')
         path.write_text(source)
     out=site/'assets/data'; out.mkdir(parents=True,exist_ok=True)
     publish_tabsira(site,pages,search_records)
+    (out/'verse-dependencies.json').write_text(json.dumps(verse_dependencies,ensure_ascii=False,indent=2)+'\n')
     (out/'library.json').write_text(json.dumps({'pages':list(pages.values()),'redirects':redirects},ensure_ascii=False,separators=(',',':')))
     (out/'search-records.json').write_text(json.dumps(search_records,ensure_ascii=False,separators=(',',':')))
     (out/'features.json').write_text(json.dumps(features,ensure_ascii=False,separators=(',',':')))

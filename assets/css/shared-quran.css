@@ -1,0 +1,9 @@
+/* Canonical Quran excerpts in articles; independent of legacy article styles. */
+#main-content .shared-verse-group { min-width:0; margin:1.5rem 0; }
+#main-content blockquote.shared-verse { display:block; box-sizing:border-box; width:100%; margin:1.25rem 0; padding:1.2rem 1.35rem; border:1px solid var(--border, #d8cfbd); border-inline-start:4px solid #99732d; border-radius:12px; background:var(--panel, #fffdf7); color:inherit; font-family:inherit; font-size:inherit; font-style:normal; line-height:1.9; text-align:start; overflow-wrap:anywhere; }
+#main-content .shared-verse > p.arabic-text { display:block; font-family:"Amiri Quran Colored","Amiri Quran",serif !important; font-size:1.5em !important; line-height:2.25 !important; direction:rtl; text-align:center; margin:.4rem 0 1rem; }
+#main-content .shared-verse > p.translation { display:block; font-family:inherit !important; font-size:1em !important; line-height:1.95 !important; text-align:center; margin:.8rem 0; }
+#main-content .shared-verse > p.verse-ref { display:block; font-family:inherit !important; font-size:.95em !important; line-height:1.6; text-align:center; margin:.5rem 0; }
+#main-content .shared-verse > p.shared-verse-status { font-family:inherit; font-size:.8em; opacity:.75; text-align:center; margin:.6rem 0 0; }
+body.dark-theme #main-content blockquote.shared-verse, html[data-theme="dark"] #main-content blockquote.shared-verse, html[data-forqan-theme="dark"] #main-content blockquote.shared-verse { background:#121c2b; border-color:#75603a; }
+@media(max-width:540px) { #main-content blockquote.shared-verse { padding:.85rem .75rem; } #main-content .shared-verse > p.arabic-text { font-size:1.35em !important; } }

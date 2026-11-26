@@ -55,56 +55,24 @@ excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s du
 
   <p>The Noble Qur’an states the principle of religious freedom with exceptional clarity:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">لَا إِكْرَاهَ فِي الدِّينِ ۖ قَد تَّبَيَّنَ الرُّشْدُ مِنَ الْغَيِّ ۚ فَمَن يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِن بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَىٰ لَا انفِصَامَ لَهَا ۗ وَاللَّهُ سَمِيعٌ عَلِيمٌ</p>
-    <p class="translation">There is no compulsion in religion. The right way has become clear from error. So whoever rejects the ṭāghūt and believes in The God has grasped the firmest handhold, with no breaking for it. And The God is Hearing, Knowing.</p>
-    <p class="source"><a href="/quran-reflection/en/002-al-baqarah/256/">Al-Baqarah 2:256</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="2:256"></div>
 
   <p>This verse does not merely say that compulsion in religion is disliked. It says that there is no compulsion in religion. This means that coercion is incompatible with the very nature of religion. Religion must arise from the clarification of right guidance and error, from understanding, conscience, and conscious choice. The one who is forced has not truly believed; he has only submitted before power.</p>
 
   <p>The Qur’an does not hide the truth, nor does it soften the consequence of injustice. Yet even with severe warning, it recognizes the human being’s worldly freedom to choose:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">وَقُلِ الْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَاءَ فَلْيُؤْمِن وَمَن شَاءَ فَلْيَكْفُرْ ۚ إِنَّا أَعْتَدْنَا لِلظَّالِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا يُغَاثُوا بِمَاءٍ كَالْمُهْلِ يَشْوِي الْوُجُوهَ ۚ بِئْسَ الشَّرَابُ وَسَاءَتْ مُرْتَفَقًا</p>
-    <p class="translation">And say: The truth is from your Lord; so whoever wills, let him believe, and whoever wills, let him disbelieve. Indeed, We have prepared for the wrongdoers a Fire whose enclosure surrounds them. And if they call for relief, they will be relieved with water like molten metal that scalds the faces. Wretched is the drink, and evil is the resting place.</p>
-    <p class="source"><a href="/quran-reflection/en/018-al-kahf/029/">Al-Kahf 18:29</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="18:29"></div>
 
   <p>Therefore, an afterlife warning does not mean permission for worldly coercion. Final accounting belongs to The God, not to earthly powers that seek to place themselves in the position of The God.</p>
 
   <p>Surah Al-Kafirun also expresses a clear boundary of belief without compulsion:</p>
 
-  <blockquote class="quran-quote" data-verse-unit="109:1">
-<p class="arabic" lang="ar" dir="rtl">قُلْ يَا أَيُّهَا الْكَافِرُونَ</p>
-<p class="translation">Say: O disbelievers.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/109-al-kafirun/#ayah-001">Al-Kafirun <bdi dir="ltr">109:1</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="109:2">
-<p class="arabic" lang="ar" dir="rtl">لَا أَعْبُدُ مَا تَعْبُدُونَ</p>
-<p class="translation">I do not worship what you worship.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/109-al-kafirun/#ayah-002">Al-Kafirun <bdi dir="ltr">109:2</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="109:3">
-<p class="arabic" lang="ar" dir="rtl">وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ</p>
-<p class="translation">Nor are you worshippers of what I worship.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/109-al-kafirun/#ayah-003">Al-Kafirun <bdi dir="ltr">109:3</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="109:4">
-<p class="arabic" lang="ar" dir="rtl">وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ</p>
-<p class="translation">Nor am I a worshipper of what you have worshipped.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/109-al-kafirun/#ayah-004">Al-Kafirun <bdi dir="ltr">109:4</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="109:5">
-<p class="arabic" lang="ar" dir="rtl">وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ</p>
-<p class="translation">Nor are you worshippers of what I worship.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/109-al-kafirun/#ayah-005">Al-Kafirun <bdi dir="ltr">109:5</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="109:6">
-<p class="arabic" lang="ar" dir="rtl">لَكُمْ دِينُكُمْ وَلِيَ دِينِ</p>
-<p class="translation">For you is your religion, and for me is my religion.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/109-al-kafirun/#ayah-006">Al-Kafirun <bdi dir="ltr">109:6</bdi></a></p>
-</blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="109:1"></div>
+<div class="shared-verse-placeholder" data-quran-verses="109:2"></div>
+<div class="shared-verse-placeholder" data-quran-verses="109:3"></div>
+<div class="shared-verse-placeholder" data-quran-verses="109:4"></div>
+<div class="shared-verse-placeholder" data-quran-verses="109:5"></div>
+<div class="shared-verse-placeholder" data-quran-verses="109:6"></div>
 
   <p>This surah is neither surrender before falsehood nor coercion of opponents into faith. The Messenger does not abandon truth, but he also does not contaminate truth with coercion. The boundary of belief is preserved, but the conscience of the human being is not seized.</p>
 
@@ -112,60 +80,24 @@ excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s du
 
   <p>The Qur’an repeatedly clarifies the limit of the Messenger’s mission. The Messenger is not the owner of people’s hearts. He is not an appointed guard over their conscience. He is not a tyrant over their faith. His duty is to convey the message.</p>
 
-  <blockquote class="quran-quote" data-verse-unit="88:21">
-<p class="arabic" lang="ar" dir="rtl">فَذَكِّرْ إِنَّمَا أَنتَ مُذَكِّرٌ</p>
-<p class="translation">So remind. You are only a reminder.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/088-al-ghashiyah/#ayah-021">Al-Ghashiyah <bdi dir="ltr">88:21</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="88:22">
-<p class="arabic" lang="ar" dir="rtl">لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ</p>
-<p class="translation">You are not over them a controller.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/088-al-ghashiyah/#ayah-022">Al-Ghashiyah <bdi dir="ltr">88:22</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="88:23">
-<p class="arabic" lang="ar" dir="rtl">إِلَّا مَن تَوَلَّىٰ وَكَفَرَ</p>
-<p class="translation">Except the one who turns away and disbelieves.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/088-al-ghashiyah/#ayah-023">Al-Ghashiyah <bdi dir="ltr">88:23</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="88:24">
-<p class="arabic" lang="ar" dir="rtl">فَيُعَذِّبُهُ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهُ">اللَّهُ</button> الْعَذَابَ الْأَكْبَرَ</p>
-<p class="translation">Then The God will punish him with the greater punishment.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/088-al-ghashiyah/#ayah-024">Al-Ghashiyah <bdi dir="ltr">88:24</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="88:25">
-<p class="arabic" lang="ar" dir="rtl">إِنَّ إِلَيْنَا إِيَابَهُمْ</p>
-<p class="translation">Indeed, to Us is their return.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/088-al-ghashiyah/#ayah-025">Al-Ghashiyah <bdi dir="ltr">88:25</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="88:26">
-<p class="arabic" lang="ar" dir="rtl">ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم</p>
-<p class="translation">Then indeed, upon Us is their account.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/088-al-ghashiyah/#ayah-026">Al-Ghashiyah <bdi dir="ltr">88:26</bdi></a></p>
-</blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="88:21"></div>
+<div class="shared-verse-placeholder" data-quran-verses="88:22"></div>
+<div class="shared-verse-placeholder" data-quran-verses="88:23"></div>
+<div class="shared-verse-placeholder" data-quran-verses="88:24"></div>
+<div class="shared-verse-placeholder" data-quran-verses="88:25"></div>
+<div class="shared-verse-placeholder" data-quran-verses="88:26"></div>
 
   <p>The end of these verses is decisive: “upon Us is their account.” Even after denial and turning away, the final accounting is left to The God. The Messenger is assigned to remind, not to seize control of people’s conscience.</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">نَّحْنُ أَعْلَمُ بِمَا يَقُولُونَ ۖ وَمَا أَنتَ عَلَيْهِم بِجَبَّارٍ ۖ فَذَكِّرْ بِالْقُرْآنِ مَن يَخَافُ وَعِيدِ</p>
-    <p class="translation">We know best what they say. And you are not over them a tyrant. So remind by the Qur’an whoever fears My warning.</p>
-    <p class="source"><a href="/quran-reflection/en/050-qaf/045/">Qaf 50:45</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="50:45"></div>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">فَإِنْ أَعْرَضُوا فَمَا أَرْسَلْنَاكَ عَلَيْهِمْ حَفِيظًا ۖ إِنْ عَلَيْكَ إِلَّا الْبَلَاغُ ۗ وَإِنَّا إِذَا أَذَقْنَا الْإِنسَانَ مِنَّا رَحْمَةً فَرِحَ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَإِنَّ الْإِنسَانَ كَفُورٌ</p>
-    <p class="translation">So if they turn away, We have not sent you as a guardian over them. Upon you is only the delivery. And indeed, when We let the human being taste mercy from Us, he rejoices in it; but if evil strikes them because of what their hands have sent ahead, then the human being is ungrateful.</p>
-    <p class="source"><a href="/quran-reflection/en/042-ash-shura/048/">Ash-Shura 42:48</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="42:48"></div>
 
   <p>These verses establish the principle from every side: the Messenger is assigned to delivery, not coercion; to reminder, not domination; to warning, not ownership of the servants’ account.</p>
 
   <p>Even if The God had willed, all people would have believed. But the divine pattern is not that faith be produced through compulsion:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">وَلَوْ شَاءَ رَبُّكَ لَآمَنَ مَن فِي الْأَرْضِ كُلُّهُمْ جَمِيعًا ۚ أَفَأَنتَ تُكْرِهُ النَّاسَ حَتَّىٰ يَكُونُوا مُؤْمِنِينَ</p>
-    <p class="translation">And if your Lord had willed, all who are on the earth would have believed, all together. Then would you compel the people until they become believers?</p>
-    <p class="source"><a href="/quran-reflection/en/010-yunus/099/">Yunus 10:99</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="10:99"></div>
 
   <p>This Qur’anic question must always stand before every system of compulsory religion: if the Messenger is not permitted to compel people until they become believers, from where have others brought such permission?</p>
 
@@ -175,21 +107,13 @@ excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s du
 
   <p>Therefore, freedom of belief, freedom of expression, freedom to hear, freedom to invite, and freedom of dialogue are requirements of the Qur’anic principle of delivery. If someone says, “The Messenger was only assigned to deliver,” and then blocks the path of delivery, he has in reality neutralized the very mission of the Messenger.</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">ادْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِالْحِكْمَةِ وَالْمَوْعِظَةِ الْحَسَنَةِ ۖ وَجَادِلْهُم بِالَّتِي هِيَ أَحْسَنُ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِ ۖ وَهُوَ أَعْلَمُ بِالْمُهْتَدِينَ</p>
-    <p class="translation">Invite to the way of your Lord with wisdom and good instruction, and debate with them by that which is best. Indeed, your Lord knows best who has strayed from His way, and He knows best the guided.</p>
-    <p class="source"><a href="/quran-reflection/en/016-an-nahl/125/">An-Nahl 16:125</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="16:125"></div>
 
   <p>The verse does not say to invite through compulsion, threat, humiliation, silencing, elimination, or deprivation. It says with wisdom, good instruction, and the best form of debate. This method presupposes the freedom of the other side. One who is not allowed to ask, refuse, criticize, or hear is not a recipient of invitation; he is a captive of power.</p>
 
   <p>Even regarding the People of the Book, the Qur’an places dialogue upon the foundation of the best manner:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">وَلَا تُجَادِلُوا أَهْلَ الْكِتَابِ إِلَّا بِالَّتِي هِيَ أَحْسَنُ إِلَّا الَّذِينَ ظَلَمُوا مِنْهُمْ ۖ وَقُولُوا آمَنَّا بِالَّذِي أُنزِلَ إِلَيْنَا وَأُنزِلَ إِلَيْكُمْ وَإِلَـٰهُنَا وَإِلَـٰهُكُمْ وَاحِدٌ وَنَحْنُ لَهُ مُسْلِمُونَ</p>
-    <p class="translation">And do not debate the People of the Book except by that which is best, except those among them who do wrong. And say: We believe in what has been sent down to us and sent down to you. Our God and your God is One, and we are submitters to Him.</p>
-    <p class="source"><a href="/quran-reflection/en/029-al-ankabut/046/">Al-‘Ankabut 29:46</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="29:46"></div>
 
   <p>So the principle of dialogue and delivery is joined with ethics, justice, and respect for the field of hearing and response. The exception only appears when injustice occurs; that is, when the other side moves from difference in belief into oppression, aggression, blocking the path, or destroying the possibility of dialogue.</p>
 
@@ -197,35 +121,19 @@ excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s du
 
   <p>The Qur’an does not understand freedom of belief as freedom to commit injustice. A person is free to believe or not believe; but he is not free to prevent others from the way of The God, expel them from their homes and lands, destroy places of worship, block the possibility of delivery, or oppress people because of their belief.</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">الَّذِينَ يَصُدُّونَ عَن سَبِيلِ اللَّهِ وَيَبْغُونَهَا عِوَجًا وَهُم بِالْآخِرَةِ كَافِرُونَ</p>
-    <p class="translation">Those who prevent from the way of The God and seek to make it crooked, while they are disbelievers in the Hereafter.</p>
-    <p class="source"><a href="/quran-reflection/en/007-al-araf/045/">Al-A‘raf 7:45</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="7:45"></div>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">إِنَّ الَّذِينَ كَفَرُوا وَصَدُّوا عَن سَبِيلِ اللَّهِ قَدْ ضَلُّوا ضَلَالًا بَعِيدًا</p>
-    <p class="translation">Indeed, those who disbelieved and prevented from the way of The God have strayed into a far error.</p>
-    <p class="source"><a href="/quran-reflection/en/004-an-nisa/167/">An-Nisa 4:167</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="4:167"></div>
 
   <p>Preventing from the way of The God does not merely mean that someone personally refuses to believe. It means blocking the path for others: taking away their right to hear, understand, ask, choose, and live according to conscience. Such an act is no longer mere difference of belief; it is social and religious injustice.</p>
 
   <p>From here, the Qur’an affirms goodness and justice toward those who have not fought the believers in religion and have not expelled them from their homes:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">لَا يَنْهَاكُمُ اللَّهُ عَنِ الَّذِينَ لَمْ يُقَاتِلُوكُمْ فِي الدِّينِ وَلَمْ يُخْرِجُوكُم مِّن دِيَارِكُمْ أَن تَبَرُّوهُمْ وَتُقْسِطُوا إِلَيْهِمْ ۚ إِنَّ اللَّهَ يُحِبُّ الْمُقْسِطِينَ</p>
-    <p class="translation">The God does not forbid you from those who did not fight you in religion and did not expel you from your homes, that you act with goodness toward them and deal justly with them. Indeed, The God loves those who act justly.</p>
-    <p class="source"><a href="/quran-reflection/en/060-al-mumtahanah/008/">Al-Mumtahanah 60:8</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="60:8"></div>
 
   <p>But in the next verse, the boundary is clarified:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">إِنَّمَا يَنْهَاكُمُ اللَّهُ عَنِ الَّذِينَ قَاتَلُوكُمْ فِي الدِّينِ وَأَخْرَجُوكُم مِّن دِيَارِكُمْ وَظَاهَرُوا عَلَىٰ إِخْرَاجِكُمْ أَن تَوَلَّوْهُمْ ۚ وَمَن يَتَوَلَّهُمْ فَأُولَـٰئِكَ هُمُ الظَّالِمُونَ</p>
-    <p class="translation">The God only forbids you from those who fought you in religion, expelled you from your homes, and supported your expulsion, that you take them as allies. And whoever takes them as allies, then those are the wrongdoers.</p>
-    <p class="source"><a href="/quran-reflection/en/060-al-mumtahanah/009/">Al-Mumtahanah 60:9</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="60:9"></div>
 
   <p>Thus, the Qur’an’s criterion is not the religious label of the other side. The criterion is conduct: do they fight? Do they expel? Do they support expulsion and suppression? Do they block delivery and freedom? If not, the foundation of the relationship is goodness and justice.</p>
 
@@ -235,51 +143,23 @@ excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s du
 
   <p>The Qur’an connects the first permission to fight with injustice and expulsion, not with difference in belief:</p>
 
-  <blockquote class="quran-quote" data-verse-unit="22:39">
-<p class="arabic" lang="ar" dir="rtl">أُذِنَ لِلَّذِينَ يُقَاتَلُونَ بِأَنَّهُمْ ظُلِمُوا ۚ وَإِنَّ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهَ">اللَّهَ</button> عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ</p>
-<p class="translation">Permission has been given to those who are fought, because they have been wronged. And indeed, The God is capable of giving them victory.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/022-al-hajj/#ayah-039">Al-Hajj <bdi dir="ltr">22:39</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="22:40">
-<p class="arabic" lang="ar" dir="rtl">الَّذِينَ أُخْرِجُوا مِن دِيَارِهِم بِغَيْرِ حَقٍّ إِلَّا أَن يَقُولُوا رَبُّنَا <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهُ">اللَّهُ</button> ۗ وَلَوْلَا دَفْعُ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهِ">اللَّهِ</button> النَّاسَ بَعْضَهُم بِبَعْضٍ لَّهُدِّمَتْ صَوَامِعُ وَبِيَعٌ وَصَلَوَاتٌ وَمَسَاجِدُ يُذْكَرُ فِيهَا اسْمُ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهِ">اللَّهِ</button> كَثِيرًا ۗ وَلَيَنصُرَنَّ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهُ">اللَّهُ</button> مَن يَنصُرُهُ ۗ إِنَّ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهَ">اللَّهَ</button> لَقَوِيٌّ عَزِيزٌ</p>
-<p class="translation">Those who were expelled from their homes without right, except that they said: Our Lord is The God. And if The God did not repel some people by means of others, monasteries, churches, synagogues, and mosques in which the name of The God is remembered much would have been demolished. And The God will surely help whoever helps Him. Indeed, The God is Strong, Mighty.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/022-al-hajj/#ayah-040">Al-Hajj <bdi dir="ltr">22:40</bdi></a></p>
-</blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="22:39"></div>
+<div class="shared-verse-placeholder" data-quran-verses="22:40"></div>
 
   <p>These verses are decisive. When the Qur’an grants permission to fight, it does not defend only mosques; it mentions monasteries, churches, synagogues, and mosques. This means that the purpose of fighting is not the domination of one religious community over all others. The purpose is to repel an injustice that destroys the possibility of worship, religious life, and remembrance of The God for different communities.</p>
 
   <p>In Surah An-Nisa, fighting is also connected with defending the oppressed:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">وَمَا لَكُمْ لَا تُقَاتِلُونَ فِي سَبِيلِ اللَّهِ وَالْمُسْتَضْعَفِينَ مِنَ الرِّجَالِ وَالنِّسَاءِ وَالْوِلْدَانِ الَّذِينَ يَقُولُونَ رَبَّنَا أَخْرِجْنَا مِنْ هَـٰذِهِ الْقَرْيَةِ الظَّالِمِ أَهْلُهَا وَاجْعَل لَّنَا مِن لَّدُنكَ وَلِيًّا وَاجْعَل لَّنَا مِن لَّدُنكَ نَصِيرًا</p>
-    <p class="translation">And what is with you that you do not fight in the way of The God and for the oppressed among men, women, and children, who say: Our Lord, bring us out from this town whose people are wrongdoers, and appoint for us from Yourself a protector, and appoint for us from Yourself a helper.</p>
-    <p class="source"><a href="/quran-reflection/en/004-an-nisa/075/">An-Nisa 4:75</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="4:75"></div>
 
   <p>Thus, fighting in the Qur’anic logic is for rescuing human beings from oppression, not for forcing them to accept a belief.</p>
 
   <p>The same meaning appears with precision in the fighting verses of Surah Al-Baqarah. These verses must be read fully and continuously, not cut apart from their context:</p>
 
-  <blockquote class="quran-quote" data-verse-unit="2:190">
-<p class="arabic" lang="ar" dir="rtl">وَقَاتِلُوا فِي سَبِيلِ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهِ">اللَّهِ</button> الَّذِينَ يُقَاتِلُونَكُمْ وَلَا تَعْتَدُوا ۚ إِنَّ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهَ">اللَّهَ</button> لَا يُحِبُّ الْمُعْتَدِينَ</p>
-<p class="translation">And fight in the way of The God those who fight you, and do not transgress. Indeed, The God does not love the transgressors.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-190">Al-Baqarah <bdi dir="ltr">2:190</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="2:191">
-<p class="arabic" lang="ar" dir="rtl">وَاقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ وَأَخْرِجُوهُم مِّنْ حَيْثُ أَخْرَجُوكُمْ ۚ وَالْفِتْنَةُ أَشَدُّ مِنَ الْقَتْلِ ۚ وَلَا تُقَاتِلُوهُمْ عِندَ الْمَسْجِدِ الْحَرَامِ حَتَّىٰ يُقَاتِلُوكُمْ فِيهِ ۖ فَإِن قَاتَلُوكُمْ فَاقْتُلُوهُمْ ۗ كَذَٰلِكَ جَزَاءُ الْكَافِرِينَ</p>
-<p class="translation">And kill them wherever you encounter them, and expel them from where they expelled you; and fitnah is more severe than killing. And do not fight them at the Sacred Mosque until they fight you there. But if they fight you, then kill them. Such is the recompense of the disbelievers.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-191">Al-Baqarah <bdi dir="ltr">2:191</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="2:192">
-<p class="arabic" lang="ar" dir="rtl">فَإِنِ انتَهَوْا فَإِنَّ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهَ">اللَّهَ</button> غَفُورٌ رَّحِيمٌ</p>
-<p class="translation">But if they cease, then indeed The God is Forgiving, Merciful.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-192">Al-Baqarah <bdi dir="ltr">2:192</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="2:193">
-<p class="arabic" lang="ar" dir="rtl">وَقَاتِلُوهُمْ حَتَّىٰ لَا تَكُونَ فِتْنَةٌ وَيَكُونَ الدِّينُ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="لِلَّهِ">لِلَّهِ</button> ۖ فَإِنِ انتَهَوْا فَلَا عُدْوَانَ إِلَّا عَلَى الظَّالِمِينَ</p>
-<p class="translation">And fight them until there is no fitnah and the religion is for The God. But if they cease, then there is no hostility except against the wrongdoers.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-193">Al-Baqarah <bdi dir="ltr">2:193</bdi></a></p>
-</blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="2:190"></div>
+<div class="shared-verse-placeholder" data-quran-verses="2:191"></div>
+<div class="shared-verse-placeholder" data-quran-verses="2:192"></div>
+<div class="shared-verse-placeholder" data-quran-verses="2:193"></div>
 
   <p>When these verses are read completely, they do not permit transgression. Their beginning says: fight those who fight you, and do not transgress. Their ending says: if they cease, there is no hostility except against the wrongdoers. Therefore, fighting is not for destroying the freedom of others; it is for ending fitnah, expulsion, war, and injustice.</p>
 
@@ -291,11 +171,7 @@ excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s du
 
   <p>The Qur’an does not cancel justice even when dealing with an enemy:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ لِلَّهِ شُهَدَاءَ بِالْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ عَلَىٰ أَلَّا تَعْدِلُوا ۚ اعْدِلُوا هُوَ أَقْرَبُ لِلتَّقْوَىٰ ۖ وَاتَّقُوا اللَّهَ ۚ إِنَّ اللَّهَ خَبِيرٌ بِمَا تَعْمَلُونَ</p>
-    <p class="translation">O you who believe, be persistently standing for The God, witnesses with justice. And do not let the hatred of a people cause you not to be just. Be just; that is nearer to taqwa. And have taqwa of The God. Indeed, The God is aware of what you do.</p>
-    <p class="source"><a href="/quran-reflection/en/005-al-maidah/008/">Al-Ma’idah 5:8</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="5:8"></div>
 
   <p>Therefore, defense of freedom of belief must also remain bound to justice. If someone commits injustice in the name of freedom, he has departed from the Qur’an. If someone creates religious coercion in the name of jihad, he has reversed the aim of the Qur’an. If someone, in the name of defending truth, closes the tongue, pen, place of worship, conscience, and right of expression of others, he himself has become a barrier to delivery.</p>
 
@@ -307,11 +183,7 @@ excerpt: "A Quran-centered reflection on freedom of belief, the Messenger’s du
 
   <p>The Qur’an itself recognizes the diversity of laws and paths:</p>
 
-  <blockquote class="quran-quote">
-    <p class="arabic">وَأَنزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ الْكِتَابِ وَمُهَيْمِنًا عَلَيْهِ ۖ فَاحْكُم بَيْنَهُم بِمَا أَنزَلَ اللَّهُ ۖ وَلَا تَتَّبِعْ أَهْوَاءَهُمْ عَمَّا جَاءَكَ مِنَ الْحَقِّ ۚ لِكُلٍّ جَعَلْنَا مِنكُمْ شِرْعَةً وَمِنْهَاجًا ۚ وَلَوْ شَاءَ اللَّهُ لَجَعَلَكُمْ أُمَّةً وَاحِدَةً وَلَـٰكِن لِّيَبْلُوَكُمْ فِي مَا آتَاكُمْ ۖ فَاسْتَبِقُوا الْخَيْرَاتِ ۚ إِلَى اللَّهِ مَرْجِعُكُمْ جَمِيعًا فَيُنَبِّئُكُم بِمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ</p>
-    <p class="translation">And We sent down to you the Book in truth, confirming what was before it of the Book and as a guardian over it. So judge between them by what The God has sent down, and do not follow their desires away from what has come to you of the truth. For each of you We have made a law and a way. And if The God had willed, He would have made you one community; but to test you in what He has given you. So race toward good deeds. To The God is the return of you all, and He will inform you concerning that over which you used to differ.</p>
-    <p class="source"><a href="/quran-reflection/en/005-al-maidah/048/">Al-Ma’idah 5:48</a></p>
-  </blockquote>
+  <div class="shared-verse-placeholder" data-quran-verses="5:48"></div>
 
   <p>This verse, alongside the principle “there is no compulsion in religion,” shows that the aim of the Qur’an is not the mechanical erasure of all differences. If The God had willed, He would have made all people one community; but He did not. The field of trial is the field of responsibility, choice, and racing toward good deeds. The final judgment over differences returns to The God.</p>
 

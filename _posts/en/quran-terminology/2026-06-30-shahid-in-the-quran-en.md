@@ -63,32 +63,16 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
     <h2>1. Shahadah: the visible world in contrast with the unseen</h2>
     <p>To understand <span class="term">shahid</span>, we must first understand <span class="term">shahadah</span>. Several times the Qur’an describes The God as <span class="term">‘Alim al-ghayb wa ash-shahadah</span>: Knower of the unseen and the witnessed.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ ۖ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ ۖ هُوَ الرَّحْمَٰنُ الرَّحِيمُ</p>
-      <p class="translation">He is The God, the One besides whom there is no god; Knower of the unseen and the witnessed. He is The Merciful, The Compassionate.</p>
-      <p class="source"><a href="/quran-reflection/en/059-al-hashr/022/">Al-Hashr 59:22</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="59:22"></div>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَهُوَ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ بِالْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ الْحَقُّ ۚ وَلَهُ الْمُلْكُ يَوْمَ يُنفَخُ فِي الصُّورِ ۚ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ ۚ وَهُوَ الْحَكِيمُ الْخَبِيرُ</p>
-      <p class="translation">He is the One who created the heavens and the earth in truth. On the day He says “Be,” it is. His word is truth. To Him belongs dominion on the day the trumpet is blown. He is Knower of the unseen and the witnessed, and He is The Wise, The Aware.</p>
-      <p class="source"><a href="/quran-reflection/en/006-al-anam/073/">Al-An‘am 6:73</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="6:73"></div>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">عَالِمُ الْغَيْبِ وَالشَّهَادَةِ الْكَبِيرُ الْمُتَعَالِ</p>
-      <p class="translation">Knower of the unseen and the witnessed; The Great, The Exalted.</p>
-      <p class="source"><a href="/quran-reflection/en/013-ar-rad/009/">Ar-Ra‘d 13:9</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="13:9"></div>
 
     <p>In these verses, <span class="term">ghayb</span> is what is hidden from direct human observation, while <span class="term">shahadah</span> is the realm of presence, observation, experience, examination, and testimony. Shahadah is not only a courtroom word. It is the visible and witnessed world in which the human being lives, sees, thinks, experiences, and becomes responsible.</p>
     <p>From here, we can see that the Qur’anic meaning of shahid does not begin with death. It begins with presence and awareness. The human being is placed in the world of shahadah in order to see the signs of The God, recognize truth, and testify to His oneness.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">سَنُرِيهِمْ آيَاتِنَا فِي الْآفَاقِ وَفِي أَنفُسِهِمْ حَتَّىٰ يَتَبَيَّنَ لَهُمْ أَنَّهُ الْحَقُّ ۗ أَوَلَمْ يَكْفِ بِرَبِّكَ أَنَّهُ عَلَىٰ كُلِّ شَيْءٍ شَهِيدٌ</p>
-      <p class="translation">We will show them Our signs in the horizons and within themselves until it becomes clear to them that it is the truth. Is it not enough that your Lord is witness over all things?</p>
-      <p class="source"><a href="/quran-reflection/en/041-fussilat/053/">Fussilat 41:53</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="41:53"></div>
 
     <p>This verse creates a beautiful connection between observation and testimony. The human being sees the signs in the horizons and in the self; truth becomes clear; and at the end of the verse The God Himself is called <span class="term">Shahid</span> over all things.</p>
   </section>
@@ -97,17 +81,9 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
     <h2>2. The God as Shahid</h2>
     <p>The Qur’an repeatedly calls The God <span class="term">Shahid</span>. Obviously, when The God is called Shahid, the meaning is not “one killed in battle.” It means witness: the One present over all things, aware of every truth, and sufficient as witness.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">مَّا أَصَابَكَ مِنْ حَسَنَةٍ فَمِنَ اللَّهِ ۖ وَمَا أَصَابَكَ مِن سَيِّئَةٍ فَمِن نَّفْسِكَ ۚ وَأَرْسَلْنَاكَ لِلنَّاسِ رَسُولًا ۚ وَكَفَىٰ بِاللَّهِ شَهِيدًا</p>
-      <p class="translation">Whatever good reaches you is from The God, and whatever evil reaches you is from yourself. We sent you to people as a messenger, and The God is sufficient as witness.</p>
-      <p class="source"><a href="/quran-reflection/en/004-an-nisa/079/">An-Nisa 4:79</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="4:79"></div>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">قُلْ أَيُّ شَيْءٍ أَكْبَرُ شَهَادَةً ۖ قُلِ اللَّهُ ۖ شَهِيدٌ بَيْنِي وَبَيْنَكُمْ ۚ وَأُوحِيَ إِلَيَّ هَٰذَا الْقُرْآنُ لِأُنذِرَكُم بِهِ وَمَن بَلَغَ</p>
-      <p class="translation">Say: What thing is greatest in testimony? Say: The God. He is witness between me and you. This Qur’an has been revealed to me so that I may warn you by it, and whoever it reaches.</p>
-      <p class="source"><a href="/quran-reflection/en/006-al-anam/019/">Al-An‘am 6:19</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="6:19"></div>
 
     <p>In Al-An‘am 6:19, several forms from the same root appear together: testimony, witness, and testifying. The subject is standing before the truth of tawhid, not dying in battle.</p>
   </section>
@@ -116,23 +92,11 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
     <h2>3. The Messenger as witness</h2>
     <p>The Qur’an also describes Muhammad as a witness. His witnessing is part of his prophetic mission: he delivers the message, gives good news, warns, and finally bears witness concerning how his people responded to the message of The God.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">يَا أَيُّهَا النَّبِيُّ إِنَّا أَرْسَلْنَاكَ شَاهِدًا وَمُبَشِّرًا وَنَذِيرًا</p>
-      <p class="translation">O Prophet, We have sent you as a witness, a giver of good news, and a warner.</p>
-      <p class="source"><a href="/quran-reflection/en/033-al-ahzab/045/">Al-Ahzab 33:45</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="33:45"></div>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">فَكَيْفَ إِذَا جِئْنَا مِن كُلِّ أُمَّةٍ بِشَهِيدٍ وَجِئْنَا بِكَ عَلَىٰ هَٰؤُلَاءِ شَهِيدًا</p>
-      <p class="translation">How will it be when We bring from every community a witness, and We bring you as a witness over these?</p>
-      <p class="source"><a href="/quran-reflection/en/004-an-nisa/041/">An-Nisa 4:41</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="4:41"></div>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَقَالَ الرَّسُولُ يَا رَبِّ إِنَّ قَوْمِي اتَّخَذُوا هَٰذَا الْقُرْآنَ مَهْجُورًا</p>
-      <p class="translation">And the Messenger said: My Lord, my people took this Qur’an as abandoned.</p>
-      <p class="source"><a href="/quran-reflection/en/025-al-furqan/030/">Al-Furqan 25:30</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="25:30"></div>
 
     <p>The Messenger’s witnessing concerns the delivery of revelation and people’s response to it. The Qur’an does not define this role through being killed in battle.</p>
   </section>
@@ -141,19 +105,11 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
     <h2>4. Jesus as shahid and witness</h2>
     <p>The example of Jesus is especially clear, because the Qur’an states that he was not killed and not crucified:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَقَوْلِهِمْ إِنَّا قَتَلْنَا الْمَسِيحَ عِيسَى ابْنَ مَرْيَمَ رَسُولَ اللَّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَٰكِن شُبِّهَ لَهُمْ</p>
-      <p class="translation">And for their saying, “We killed the Messiah, Jesus son of Mary, the Messenger of The God,” while they did not kill him and did not crucify him, but it was made to appear so to them.</p>
-      <p class="source"><a href="/quran-reflection/en/004-an-nisa/157/">An-Nisa 4:157</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="4:157"></div>
 
     <p>Yet the Qur’an reports Jesus saying that he was a shahid over his people:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">مَا قُلْتُ لَهُمْ إِلَّا مَا أَمَرْتَنِي بِهِ أَنِ اعْبُدُوا اللَّهَ رَبِّي وَرَبَّكُمْ ۚ وَكُنتُ عَلَيْهِمْ شَهِيدًا مَّا دُمْتُ فِيهِمْ ۖ فَلَمَّا تَوَفَّيْتَنِي كُنتَ أَنتَ الرَّقِيبَ عَلَيْهِمْ ۚ وَأَنتَ عَلَىٰ كُلِّ شَيْءٍ شَهِيدٌ</p>
-      <p class="translation">I said nothing to them except what You commanded me: Worship The God, my Lord and your Lord. I was a witness over them as long as I remained among them. Then when You took me, You were the Watcher over them, and You are witness over all things.</p>
-      <p class="source"><a href="/quran-reflection/en/005-al-maidah/117/">Al-Ma’idah 5:117</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="5:117"></div>
 
     <p>This verse alone shows that shahid in the Qur’an is not inherently “one killed in battle.” According to the Qur’an, Jesus was not killed, yet he describes himself as a shahid over his people while he was among them: present, delivering the message, aware, and bearing witness.</p>
   </section>
@@ -162,23 +118,11 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
     <h2>5. Every community has a witness</h2>
     <p>The Qur’an presents prophetic witnessing as a general pattern. Every community has a witness from among itself: one who brought the message and bears witness over the people’s response.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَيَوْمَ نَبْعَثُ مِن كُلِّ أُمَّةٍ شَهِيدًا ثُمَّ لَا يُؤْذَنُ لِلَّذِينَ كَفَرُوا وَلَا هُمْ يُسْتَعْتَبُونَ</p>
-      <p class="translation">On the day We raise from every community a witness, then those who covered the truth will not be permitted, nor will they be allowed to seek favor.</p>
-      <p class="source"><a href="/quran-reflection/en/016-an-nahl/084/">An-Nahl 16:84</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="16:84"></div>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَيَوْمَ نَبْعَثُ فِي كُلِّ أُمَّةٍ شَهِيدًا عَلَيْهِم مِّنْ أَنفُسِهِمْ ۖ وَجِئْنَا بِكَ شَهِيدًا عَلَىٰ هَٰؤُلَاءِ ۚ وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ وَهُدًى وَرَحْمَةً وَبُشْرَىٰ لِلْمُسْلِمِينَ</p>
-      <p class="translation">On the day We raise in every community a witness over them from themselves, and We bring you as a witness over these. We sent down the Book to you as clarification for all things, and as guidance, mercy, and good news for those who submit.</p>
-      <p class="source"><a href="/quran-reflection/en/016-an-nahl/089/">An-Nahl 16:89</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="16:89"></div>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَنَزَعْنَا مِن كُلِّ أُمَّةٍ شَهِيدًا فَقُلْنَا هَاتُوا بُرْهَانَكُمْ فَعَلِمُوا أَنَّ الْحَقَّ لِلَّهِ وَضَلَّ عَنْهُم مَّا كَانُوا يَفْتَرُونَ</p>
-      <p class="translation">We draw out from every community a witness, and We say: Bring your proof. Then they know that the truth belongs to The God, and what they used to fabricate disappears from them.</p>
-      <p class="source"><a href="/quran-reflection/en/028-al-qasas/075/">Al-Qasas 28:75</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="28:75"></div>
 
     <p>These verses place shahid beside community, proof, truth, the Book, and divine judgment. The field is testimony and the unveiling of truth, not the definition of a type of death.</p>
   </section>
@@ -187,11 +131,7 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
     <h2>6. The believing community as witnesses over people</h2>
     <p>The Qur’an does not restrict witnessing to prophets. The believing community is also placed in the position of witness over people: through faith, justice, righteous action, truthfulness, and standing firmly by truth.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَكَذَٰلِكَ جَعَلْنَاكُمْ أُمَّةً وَسَطًا لِّتَكُونُوا شُهَدَاءَ عَلَى النَّاسِ وَيَكُونَ الرَّسُولُ عَلَيْكُمْ شَهِيدًا</p>
-      <p class="translation">Thus We made you a middle community so that you may be witnesses over people, and so that the Messenger may be a witness over you.</p>
-      <p class="source"><a href="/quran-reflection/en/002-al-baqarah/143/">Al-Baqarah 2:143</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="2:143"></div>
 
     <p>Here, <span class="term">shuhada ‘ala an-nas</span>, witnesses over people, cannot mean “those killed in battle.” The community is alive, responsible, and called to bear witness through truth and moral responsibility before humanity.</p>
   </section>
@@ -200,11 +140,7 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
     <h2>7. Witnesses in contracts and judgment</h2>
     <p>One of the clearest Qur’anic uses of sh-h-d is legal and social: witnesses in contracts, debts, transactions, and testimony.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَاسْتَشْهِدُوا شَهِيدَيْنِ مِن رِّجَالِكُمْ ... وَلَا يَأْبَ الشُّهَدَاءُ إِذَا مَا دُعُوا ... وَأَشْهِدُوا إِذَا تَبَايَعْتُمْ ۚ وَلَا يُضَارَّ كَاتِبٌ وَلَا شَهِيدٌ</p>
-      <p class="translation">Call two witnesses from among your men... The witnesses must not refuse when they are called... And take witnesses when you trade. No scribe or witness should be harmed.</p>
-      <p class="source"><a href="/quran-reflection/en/002-al-baqarah/282/">Al-Baqarah 2:282</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="2:282"></div>
 
     <p>The long debt verse uses several forms of the same root: calling witnesses, two witnesses, the witnesses, testimony, and taking witnesses. All of these clearly mean witness and testimony. Anyone who wants to understand shahid from the Qur’an must take this usage seriously.</p>
   </section>
@@ -213,11 +149,7 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
     <h2>8. Testimony to the oneness of The God</h2>
     <p>Testimony in the Qur’an is not only legal testimony. The greatest testimony is testimony to tawhid: that there is no god except The God.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">شَهِدَ اللَّهُ أَنَّهُ لَا إِلَٰهَ إِلَّا هُوَ وَالْمَلَائِكَةُ وَأُولُو الْعِلْمِ قَائِمًا بِالْقِسْطِ ۚ لَا إِلَٰهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ</p>
-      <p class="translation">The God testifies that there is no god except Him, and so do the angels and those of knowledge, standing by justice. There is no god except Him, The Mighty, The Wise.</p>
-      <p class="source"><a href="/quran-reflection/en/003-ali-imran/018/">Ali ‘Imran 3:18</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="3:18"></div>
 
     <p>This is one of the deepest verses about sh-h-d. The God testifies, the angels testify, and those of knowledge testify. Testimony here is conscious acknowledgment of truth grounded in knowledge, justice, and the clarity of reality.</p>
     <p>The human being lives in the world of shahadah, sees the signs, recognizes truth through reason and fitrah, and must testify to the oneness of The God. In the Qur’an, shahadah is tied to knowing truth and standing by it before it is tied to death.</p>
@@ -227,17 +159,9 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
     <h2>9. Those killed in the way of The God: what wording does the Qur’an use?</h2>
     <p>Now we come to the central question. The Qur’an does speak about those killed in the way of The God. But when it does, it does not use the word shahid. Its clear wording is <span class="term">qutilu fi sabili Allah</span>: those killed in the way of The God.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَلَا تَقُولُوا لِمَن يُقْتَلُ فِي سَبِيلِ اللَّهِ أَمْوَاتٌ ۚ بَلْ أَحْيَاءٌ وَلَٰكِن لَّا تَشْعُرُونَ</p>
-      <p class="translation">Do not say of those killed in the way of The God, “They are dead.” Rather, they are alive, but you do not perceive.</p>
-      <p class="source"><a href="/quran-reflection/en/002-al-baqarah/154/">Al-Baqarah 2:154</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="2:154"></div>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَلَا تَحْسَبَنَّ الَّذِينَ قُتِلُوا فِي سَبِيلِ اللَّهِ أَمْوَاتًا ۚ بَلْ أَحْيَاءٌ عِندَ رَبِّهِمْ يُرْزَقُونَ</p>
-      <p class="translation">Do not think of those killed in the way of The God as dead. Rather, they are alive with their Lord, receiving provision.</p>
-      <p class="source"><a href="/quran-reflection/en/003-ali-imran/169/">Ali ‘Imran 3:169</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="3:169"></div>
 
     <p>These two verses are very important. If the Qur’an wanted to define shahid as a technical title for someone killed in the way of The God, we would expect the word to appear precisely here. But the Qur’an chooses another expression: those killed in the way of The God.</p>
     <p>The Qur’an honors them, but its wording for them in these verses is <span class="term">qutilu fi sabili Allah</span>, not shahid.</p>
@@ -247,11 +171,7 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
     <h2>10. Al-Imran 3:140 and shuhada in a battle context</h2>
     <p>The most important verse to examine carefully is Ali ‘Imran 3:140. It appears in the context of wounds, loss, testing, and battle:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">إِن يَمْسَسْكُمْ قَرْحٌ فَقَدْ مَسَّ الْقَوْمَ قَرْحٌ مِّثْلُهُ ۚ وَتِلْكَ الْأَيَّامُ نُدَاوِلُهَا بَيْنَ النَّاسِ وَلِيَعْلَمَ اللَّهُ الَّذِينَ آمَنُوا وَيَتَّخِذَ مِنكُمْ شُهَدَاءَ ۗ وَاللَّهُ لَا يُحِبُّ الظَّالِمِينَ</p>
-      <p class="translation">If a wound has touched you, then a similar wound has touched the people. We alternate these days among people so that The God may make known those who believe, and take from among you witnesses. The God does not love the wrongdoers.</p>
-      <p class="source"><a href="/quran-reflection/en/003-ali-imran/140/">Ali ‘Imran 3:140</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="3:140"></div>
 
     <p>This verse shows that suffering in the way of The God can be connected to the rank of testimony. But even here, the verse does not say that shahid means anyone killed in battle. The word <span class="term">shuhada</span> can still be understood in its deeper Qur’anic sense: those who stood in the field of trial, whose truthfulness of faith became manifest, and whose lives became testimony to the truth of the way of The God.</p>
     <p>If someone is killed in the way of The God, their value is not merely that death reached them. Death by itself is not shahadah. What brings such a death into the field of shahadah is truthfulness, faith, awareness, intention for The God, standing by justice, and practical testimony to truth.</p>
@@ -262,17 +182,9 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
     <h2>11. An-Nisa 4:69 and Al-Hadid 57:19</h2>
     <p>Two other verses are important in this discussion:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَمَن يُطِعِ اللَّهَ وَالرَّسُولَ فَأُولَٰئِكَ مَعَ الَّذِينَ أَنْعَمَ اللَّهُ عَلَيْهِم مِّنَ النَّبِيِّينَ وَالصِّدِّيقِينَ وَالشُّهَدَاءِ وَالصَّالِحِينَ ۚ وَحَسُنَ أُولَٰئِكَ رَفِيقًا</p>
-      <p class="translation">Whoever obeys The God and the Messenger will be with those whom The God has blessed: the prophets, the truthful, the witnesses, and the righteous. Excellent are those as companions.</p>
-      <p class="source"><a href="/quran-reflection/en/004-an-nisa/069/">An-Nisa 4:69</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="4:69"></div>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَالَّذِينَ آمَنُوا بِاللَّهِ وَرُسُلِهِ أُولَٰئِكَ هُمُ الصِّدِّيقُونَ ۖ وَالشُّهَدَاءُ عِندَ رَبِّهِمْ لَهُمْ أَجْرُهُمْ وَنُورُهُمْ</p>
-      <p class="translation">Those who believe in The God and His messengers, they are the truthful; and the witnesses are with their Lord. For them is their reward and their light.</p>
-      <p class="source"><a href="/quran-reflection/en/057-al-hadid/019/">Al-Hadid 57:19</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="57:19"></div>
 
     <p>In these verses, shuhada are placed beside prophets, the truthful, and the righteous. The field is spiritual rank, truthfulness, faith, light, and companionship with those blessed by The God. The verses themselves do not define shuhada as those killed in battle. The Qur’anic root meaning remains: witnesses of truth, people whose faith, action, and steadfastness testify to truth.</p>
   </section>

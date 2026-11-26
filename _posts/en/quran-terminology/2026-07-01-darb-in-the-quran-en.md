@@ -60,11 +60,7 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
   <section class="article-section" id="ayah">
     <h2>1. The verse and a cautious translation</h2>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">الرِّجَالُ قَوَّامُونَ عَلَى النِّسَاءِ بِمَا فَضَّلَ اللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍ وَبِمَا أَنفَقُوا مِنْ أَمْوَالِهِمْ ۚ فَالصَّالِحَاتُ قَانِتَاتٌ حَافِظَاتٌ لِّلْغَيْبِ بِمَا حَفِظَ اللَّهُ ۚ وَاللَّاتِي تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَاهْجُرُوهُنَّ فِي الْمَضَاجِعِ وَاضْرِبُوهُنَّ ۖ فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا عَلَيْهِنَّ سَبِيلًا ۗ إِنَّ اللَّهَ كَانَ عَلِيًّا كَبِيرًا</p>
-      <p class="translation">Men are qawwamun over women by what The God has favored some of them over others, and by what they spend from their wealth. Righteous women are devout and preserve in the unseen what The God has preserved. As for those whose nushuz you fear, admonish them, separate from them in the beds, and then take decisive separation / cut off the current state of the relationship. If they return from that state, do not seek a way against them. Indeed, The God is High, Great.</p>
-      <p class="source"><a href="/quran-reflection/en/004-an-nisa/034/">An-Nisa 4:34</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="4:34"></div>
   </section>
 
   <section class="article-section" id="root">
@@ -84,27 +80,15 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
     <h2>3. The semantic range of darb in the Qur’an</h2>
     <p>The Qur’an says:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">ضَرَبَ اللَّهُ مَثَلًا</p>
-      <p class="translation">The God set forth an example.</p>
-      <p class="source"><a href="/quran-reflection/en/014-ibrahim/024/">Ibrahim 14:24</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="14:24"></div>
 
     <p>There is no physical beating here. The Qur’an also says:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَإِذَا ضَرَبْتُمْ فِي الْأَرْضِ</p>
-      <p class="translation">When you travel through the land.</p>
-      <p class="source"><a href="/quran-reflection/en/004-an-nisa/101/">An-Nisa 4:101</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="4:101"></div>
 
     <p>This is not physical hitting either, but movement away from a state of staying still. Another verse says:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">أَفَنَضْرِبُ عَنكُمُ الذِّكْرَ صَفْحًا</p>
-      <p class="translation">Should We turn the Reminder away from you completely?</p>
-      <p class="source"><a href="/quran-reflection/en/043-az-zukhruf/005/">Az-Zukhruf 43:5</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="43:5"></div>
 
     <p>Here <span class="term">darb</span> with <span class="term">‘an</span> clearly carries the sense of turning aside or pushing away.</p>
     <p>So the meanings of distancing, setting aside, interrupting a condition, and taking a decisive action are not invented from nothing. They are supported by the semantic field of the root in the Qur’an and Arabic. Precision is still necessary: <span class="term">daraba fi al-ard</span> is a specific expression and cannot simply be transferred into <span class="term">wa-idribuhunna</span>. Likewise, <span class="term">daraba ‘an</span> has the preposition <span class="term">‘an</span>, while An-Nisa 4:34 does not.</p>
@@ -138,11 +122,7 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
     <h2>7. Qunut and nushuz</h2>
     <p>The verse then says: <span class="term">fa-as-salihat qanitat</span>. The word <span class="term">qanitat</span> comes from <span class="term">q-n-t</span>. Qunut means lasting devotion, standing in obedience, conscious humility, and submission before The God.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَقُومُوا لِلَّهِ قَانِتِينَ</p>
-      <p class="translation">Stand before The God in qunut.</p>
-      <p class="source"><a href="/quran-reflection/en/002-al-baqarah/238/">Al-Baqarah 2:238</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="2:238"></div>
 
     <p>So <span class="term">qanitat</span> should not be reduced to “obedient to husbands.” Righteous women are women of qunut: responsible, devoted, and humble before The God.</p>
     <p>The next phrase clarifies this: <span class="term">hafizatun lil-ghayb bima hafiza Allah</span>. They preserve in absence what must be preserved by what The God has preserved: trust, sanctity, covenant, privacy, purity of the relationship, and the rights protected by The God. The center of this morality is The God, not male ownership.</p>
@@ -157,11 +137,7 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
     <p><span class="term">Wa-idribuhunna</span>: here two readings become possible. The first is decisive nonphysical action: breaking the normal state of the relationship, stronger distancing, suspending normal cohabitation, and preparing for arbitration. The second is physical striking.</p>
     <p>In the first reading, the difference between the second and third stages is clear. Separation in the bed is limited distancing within intimacy. Darb is a stronger step: leaving the ordinary state of the relationship. It can mean practical distancing, a temporary break in normal shared life, or placing the relationship in a stage where advice and bed-separation are no longer enough and outside arbitration is needed.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَابْعَثُوا حَكَمًا مِّنْ أَهْلِهِ وَحَكَمًا مِّنْ أَهْلِهَا</p>
-      <p class="translation">If you fear a split between the two, send an arbiter from his family and an arbiter from her family.</p>
-      <p class="source"><a href="/quran-reflection/en/004-an-nisa/035/">An-Nisa 4:35</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="4:35"></div>
 
     <p>This continuation fits a crisis of separation and family rupture better than it fits beating. If the third stage means physical beating, the next verse suddenly moves from domestic violence to family arbitration. But if the third stage is decisive distancing, the next verse is the natural continuation of the same path.</p>
   </section>
@@ -184,19 +160,11 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
     <h2>10. Ma‘ruf as a moral boundary in marriage and separation</h2>
     <p>Another Qur’anic problem for the physical beating reading is the repeated command of <span class="term">ma‘ruf</span> in marital life and separation.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَعَاشِرُوهُنَّ بِالْمَعْرُوفِ</p>
-      <p class="translation">Live with them in ma‘ruf.</p>
-      <p class="source"><a href="/quran-reflection/en/004-an-nisa/019/">An-Nisa 4:19</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="4:19"></div>
 
     <p>And when divorce becomes possible, the Qur’an says:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ</p>
-      <p class="translation">Retain them with ma‘ruf, or part from them with ma‘ruf.</p>
-      <p class="source"><a href="/quran-reflection/en/065-at-talaq/002/">At-Talaq 65:2</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="65:2"></div>
 
     <p><span class="term">Ma‘ruf</span> means recognized goodness, fairness, decency, and kindness. It governs both the continuation of marriage and the ending of marriage. This creates a Qur’anic moral boundary: a woman is not to be kept except with ma‘ruf, and she is not to be separated from except with ma‘ruf.</p>
     <p>If physical beating is placed between these two Qur’anic commands, the meaning becomes strained. The man would be told to live with her in ma‘ruf, then physically strike her in the crisis, then either retain her or separate from her in ma‘ruf. This makes ma‘ruf appear suspended precisely at the moment when the woman is most vulnerable. Such a reading does not fit the Qur’an’s own moral language.</p>
@@ -207,34 +175,18 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
     <h2>11. The Qur’an’s method in bodily harm, honor, and punishment</h2>
     <p>The Qur’an’s method in sensitive matters is not vague. Concerning bodily injury, it says:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَالْجُرُوحَ قِصَاصٌ</p>
-      <p class="translation">For wounds there is retribution.</p>
-      <p class="source"><a href="/quran-reflection/en/005-al-maidah/045/">Al-Ma’idah 5:45</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="5:45"></div>
 
     <p>Bodily harm is not left unaccounted for. If striking a woman can lead to injury, bruising, pain, fear, or humiliation, how could the Qur’an leave such an act without limit or supervision here?</p>
     <p>In matters of sexual accusation and human honor, the Qur’an requires four witnesses. A person’s honor is not destroyed by suspicion, anger, or a one-sided claim.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">فَاجْلِدُوهُمْ ثَمَانِينَ جَلْدَةً وَلَا تَقْبَلُوا لَهُمْ شَهَادَةً أَبَدًا</p>
-      <p class="translation">Flog them with eighty lashes and never accept testimony from them.</p>
-      <p class="source"><a href="/quran-reflection/en/024-an-nur/004/">An-Nur 24:4</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="24:4"></div>
 
     <p>Even when a husband accuses his wife, the Qur’an does not give him absolute authority. In An-Nur 24:6-9, the process of li‘an appears: sworn testimonies from the man, and then a right of response and defense for the woman. Even in marital conflict, the Qur’an does not accept a man’s claim without structure.</p>
     <p>In theft, although the ruling is severe, the Qur’an mentions the subject, equal application to male and female, the reason for the penalty, and the path of repentance and reform:</p>
 
-    <blockquote class="quran-quote" data-verse-unit="5:38">
-<p class="arabic" lang="ar" dir="rtl">وَالسَّارِقُ وَالسَّارِقَةُ ... جَزَاءً بِمَا كَسَبَا</p>
-<p class="translation">The male thief and the female thief... as recompense for what they earned...</p>
-<p class="verse-ref"><a href="/quran-reflection/en/005-al-maidah/#ayah-038">Al-Ma'idah <bdi dir="ltr">5:38</bdi></a> — excerpt</p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="5:39">
-<p class="arabic" lang="ar" dir="rtl">فَمَن تَابَ مِن بَعْدِ ظُلْمِهِ وَأَصْلَحَ</p>
-<p class="translation">whoever repents after his wrongdoing and reforms.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/005-al-maidah/#ayah-039">Al-Ma'idah <bdi dir="ltr">5:39</bdi></a> — excerpt</p>
-</blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="5:38"></div>
+<div class="shared-verse-placeholder" data-quran-verses="5:39"></div>
 
     <p>So in matters of body, honor, accusation, and punishment, the Qur’an does not leave rulings floating without limits. If <span class="term">wa-idribuhunna</span> means physical beating, then suddenly, in the most sensitive family space, an undefined and unsupervised bodily authority is placed in the husband’s hand. This does not fit the Qur’an’s method of justice and mercy.</p>
   </section>
@@ -243,11 +195,7 @@ excerpt: "A Qur’an-centered study of the root d-r-b in An-Nisa 4:34, asking wh
     <h2>12. The end of the verse: restraining male power</h2>
     <p>The end of the verse is very important:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا عَلَيْهِنَّ سَبِيلًا ۗ إِنَّ اللَّهَ كَانَ عَلِيًّا كَبِيرًا</p>
-      <p class="translation">If they return from that state, do not seek a way against them. Indeed, The God is High, Great.</p>
-      <p class="source"><a href="/quran-reflection/en/004-an-nisa/034/">An-Nisa 4:34</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="4:34"></div>
 
     <p>If they return from nushuz, the man has no right to seek a path of pressure, revenge, control, or oppression against them. <span class="term">Ata‘nakum</span> here does not mean absolute obedience to the man; it means return from the crisis of nushuz.</p>
     <p>Then The God ends the verse with two names: <span class="term">High</span> and <span class="term">Great</span>. This ending warns the man who holds power. If he imagines himself high because of qiwamah, the Qur’an reminds him that The God is higher. If he imagines himself great, true greatness belongs to The God. The verse restrains male power and arrogance; it does not grant a license for violence.</p>

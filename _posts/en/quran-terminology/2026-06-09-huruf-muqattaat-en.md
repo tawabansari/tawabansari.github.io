@@ -48,17 +48,7 @@ excerpt: "A Quran-centered reflection on the disconnected letters and how they r
 
 <p>The Quran warns that those in whose hearts is deviation pursue its ta’wil; while those firmly rooted in knowledge say: We believe in it; all of it is from our Lord.</p>
 
-<blockquote class="quran-quote" dir="rtl" lang="ar">
-  <a href="{{ '/quran-reflection/en/003-ali-imran/007/' | relative_url }}" style="color: inherit; text-decoration: none;">
-    وَٱلرَّاسِخُونَ فِى ٱلْعِلْمِ يَقُولُونَ ءَامَنَّا بِهِۦ كُلٌّ مِّنْ عِندِ رَبِّنَا
-  </a>
-</blockquote>
-
-<p class="verse-reference">
-  <a href="{{ '/quran-reflection/en/003-ali-imran/007/' | relative_url }}" style="color: inherit; text-decoration: none;">
-    Ali ‘Imran 3:7
-  </a>
-</p>
+<div class="shared-verse-placeholder" data-quran-verses="3:7"></div>
 
 <h2 id="claim">The claim of knowing the meaning of the letters</h2>
 

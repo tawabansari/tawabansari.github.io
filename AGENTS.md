@@ -91,3 +91,9 @@ This translation rule concerns the Quranic expression. Retain the conventional t
 ## Explicit Quran quotations in reflections
 
 Follow `scripts/REFLECTION-QUOTES.md` when installing or revising reflections. Standalone Quran quotations must use `<p class="arabic-text" lang="ar" dir="rtl">`; their associated translations use `<p class="translation">`. A separate verse citation uses `<p class="verse-ref">` with a verified installed anchor. Do not infer Quran quotations from bold type alone or classify surrounding commentary as translation. Preserve wording and word boxes. Run `python3 scripts/check-reflection-quotes.py` on the edited units and inspect both languages at desktop and mobile widths before delivery. Source markup is required; runtime detection and local build output are not substitutes.
+
+## Shared Quran quotations in articles and concept studies
+
+Use the shared verse mechanism documented in `scripts/SHARED-QURAN.md` for standalone Quran quotations in articles and concept studies. Store individual references in an empty block, for example `<div class="shared-verse-placeholder" data-quran-verses="2:155 2:156"></div>`, instead of maintaining separate copies of Arabic text and direct translations. The normal full build resolves each reference from the canonical Quran reader in the article's language and displays every verse independently. Preserve existing anchors when converting older quotations.
+
+Keep article explanations and ta'wil outside the shared block. Never automatically import a verse's reflection into an article or rewrite article reasoning when its source translation changes. Retain the fixed basmala opening. Inline Arabic terms, poetry, prayers and hadith are not automatically Quran quotations. Run `python3 scripts/test_shared_quran.py` and, after the full build, `python3 scripts/check-shared-quran.py _site` for changes to this mechanism or shared quotations.

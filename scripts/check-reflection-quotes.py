@@ -16,7 +16,10 @@ corpus=[]
 for p in (root/'quran-reflection/fa').glob('*/units/*.html'):
     m=re.search(r'<p class="arabic-text">(.*?)</p>',p.read_text(),re.S)
     if m: corpus.append(norm(plain(m[1])))
-paths=[Path(p) for p in sys.argv[1:]] or list((root/'quran-reflection').glob('*/*/units/*.html'))
+defaults=list((root/'quran-reflection').glob('*/*/units/*.html'))
+# Older surahs, including Al-Fatihah, keep their reflections in index.html.
+defaults += [p for p in (root/'quran-reflection').glob('*/*/index.html') if not (p.parent/'units').exists()]
+paths=[Path(p) for p in sys.argv[1:]] or defaults
 errors=[]; checked=0
 for p in paths:
     for detail in re.findall(r'<details\b[^>]*data-type="reflection"[^>]*>.*?</details>',p.read_text(),re.S):

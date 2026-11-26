@@ -38,11 +38,7 @@ excerpt: "Why this study identifies al-Mubin with the clarifying Qur’an, disti
 <section id="al-haqq-al-mubin">
 <h2>God as “the Manifest Truth”: What 24:25 Actually Says</h2>
 <p>In 24:25, the expression is <em>al-Haqq al-Mubin</em> (the manifest and clarifying Truth). <a href="/quran-terminology/en/roots/h-q-q/"><em>Al-Haqq</em> (the Truth)</a> names what is true and real; <em>al-Mubin</em> supplies the description rendered here as “manifest and clarifying.” “Manifest” means evident or made known. The whole expression concerns God:</p>
-<blockquote class="quran-quote" id="quote-01">
-<p class="arabic" lang="ar" dir="rtl">يَوْمَئِذٍ يُوَفِّيهِمُ اللَّهُ دِينَهُمُ الْحَقَّ وَيَعْلَمُونَ أَنَّ اللَّهَ هُوَ الْحَقُّ الْمُبِينُ</p>
-<p class="verse-ref"><bdi dir="ltr">24:25</bdi></p>
-<p class="translation" lang="en" dir="ltr">“On that Day, God will give them their true recompense in full, and they will know that God is the manifest and clarifying Truth.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="24:25" id="quote-01"></div>
 <p>The verse therefore cannot be cited as though the word <em>mubin</em> never describes God. It does. The distinction defended here concerns the complete expression: God is described as the manifest Truth. The article reads <em>al-Mubin</em> as qualifying “the Truth” in that expression, rather than treating it as a detached name whose use displaces the Qur’an’s own description as the clarifying Book. The <a href="https://corpus.quran.com/wordbyword.jsp?chapter=24&amp;verse=25">grammatical annotation of 24:25</a> likewise identifies the final word as an adjective.</p>
 <p>An adjective within a statement and a separately established name are not automatically the same claim. Nor would applying a description to God erase its application to His revelation. The question is therefore not whether God makes truth known. It is whether isolating this word from “the Truth” justifies overlooking its repeated, direct association with the Book and the Qur’an. This study argues that it does not.</p>
 <p>The next step concerns <a href="/quran-terminology/en/roots/b-l-gh/"><em>al-balag al-mubin</em> (clear communication or conveyance of the message)</a>, the expression used for the Messenger’s duty. <em>Balag</em> means conveying or communicating something so that it reaches its recipients. The argument here connects that duty with the revelation described as clear and clarifying: the Messenger communicates the Qur’an, the Clarifier.</p>
@@ -53,27 +49,15 @@ excerpt: "Why this study identifies al-Mubin with the clarifying Qur’an, disti
 <section id="obedience-and-balag">
 <h2>Read the Command to Obey Together with the Messenger’s Task</h2>
 <p>The command “obey God and obey the Messenger” should be read through to the end of the passage. In chapter 24, the instruction is followed by an account of responsibility: the Messenger bears what has been entrusted to him, and his hearers bear what has been entrusted to them. The ending then identifies his duty:</p>
-<blockquote class="quran-quote" id="quote-02">
-<p class="arabic" lang="ar" dir="rtl">قُلْ أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ ۖ فَإِن تَوَلَّوْا فَإِنَّمَا عَلَيْهِ مَا حُمِّلَ وَعَلَيْكُم مَّا حُمِّلْتُمْ ۖ وَإِن تُطِيعُوهُ تَهْتَدُوا ۚ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ</p>
-<p class="verse-ref"><bdi dir="ltr">24:54</bdi></p>
-<p class="translation" lang="en" dir="ltr">“Say: obey God and obey the Messenger. If you turn away, he is responsible for what he has been entrusted with, and you are responsible for what you have been entrusted with. If you obey him, you will be guided; and the Messenger’s only duty is to convey the Clarifier.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="24:54" id="quote-02"></div>
 <p>Obedience here belongs within the Messenger’s mission. He has received a responsibility to convey the message, and his hearers have a responsibility to respond. The article’s reading keeps those two responsibilities connected. It does not treat “obey the Messenger” as an unlimited authorization for every later statement attributed to him.</p>
 <p>The verse does not say that a report becomes revelation simply because a narrator attributes it to Muhammad. It does not identify later hadith collections as an independent source of divine law. It does not command allegiance to a later school of jurisprudence. These are additional claims, and each requires its own justification. The words that actually conclude the passage concern communicating the message.</p>
 <p>Chapter 5 places the same connection immediately after another command to obey:</p>
-<blockquote class="quran-quote" id="quote-03">
-<p class="arabic" lang="ar" dir="rtl">وَأَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَاحْذَرُوا ۚ فَإِن تَوَلَّيْتُمْ فَاعْلَمُوا أَنَّمَا عَلَىٰ رَسُولِنَا الْبَلَاغُ الْمُبِينُ</p>
-<p class="verse-ref"><a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/005-al-maidah/#ayah-092"><bdi dir="ltr">5:92</bdi></a></p>
-<p class="translation" lang="en" dir="ltr">“Obey God and obey the Messenger, and beware. If you turn away, then know that Our Messenger’s only duty is to convey the Clarifier.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="5:92" id="quote-03"></div>
 <p>The Messenger carries God’s message to people; the authority of his mission comes from the One who sent him. On the reading defended here, the instruction does not establish him as an independent religious legislator alongside God. When people turn away, the passage returns to his responsibility to communicate. Their refusal does not give him ownership of their faith, nor does it establish a new body of compulsory teaching alongside the revelation.</p>
 <p>This distinction also matters for religious coercion. Communicating a message and forcing someone to believe it are different acts. The passage locates the Messenger’s responsibility in conveying what he has received. The article therefore rejects using his authority as a justification for controlling people’s faith or handing that control to later religious institutions.</p>
 <p>Chapter 64 repeats the connection:</p>
-<blockquote class="quran-quote" id="quote-04">
-<p class="arabic" lang="ar" dir="rtl">وَأَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ ۚ فَإِن تَوَلَّيْتُمْ فَإِنَّمَا عَلَىٰ رَسُولِنَا الْبَلَاغُ الْمُبِينُ</p>
-<p class="verse-ref"><bdi dir="ltr">64:12</bdi></p>
-<p class="translation" lang="en" dir="ltr">“Obey God and obey the Messenger. If you turn away, then Our Messenger’s only duty is to convey the Clarifier.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="64:12" id="quote-04"></div>
 <p>The recurrence deserves attention. In all three passages, the command to obey is followed by a statement about conveying the message. The argument does not depend on tearing one short phrase away from its setting. It follows the repeated relationship between obedience and the Messenger’s entrusted task.</p>
 <p>To obey the Messenger in his role as Messenger is, on this account, to respond to the revelation he brings. Anyone extending that obedience to disputed historical reports must explain the further step. Repeating the command to obey cannot, by itself, establish that every later attribution carries the authority of the message itself.</p>
 </section>
@@ -81,29 +65,13 @@ excerpt: "Why this study identifies al-Mubin with the clarifying Qur’an, disti
 <section id="messengers">
 <h2>The Same Responsibility Is Assigned to Other Messengers</h2>
 <p>The responsibility to communicate is not described only in passages addressed to Muhammad’s community. Chapter 16 asks the same question about messengers more generally:</p>
-<blockquote class="quran-quote" id="quote-05">
-<p class="arabic" lang="ar" dir="rtl">فَهَلْ عَلَى الرُّسُلِ إِلَّا الْبَلَاغُ الْمُبِينُ</p>
-<p class="verse-ref"><bdi dir="ltr">16:35</bdi></p>
-<p class="translation" lang="en" dir="ltr">“Do the messengers have any duty except to convey the Clarifier?”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="16:35" id="quote-05"></div>
 <p>Later in that chapter, the responsibility remains the same even when the hearers refuse:</p>
-<blockquote class="quran-quote" id="quote-06">
-<p class="arabic" lang="ar" dir="rtl">فَإِن تَوَلَّوْا فَإِنَّمَا عَلَيْكَ الْبَلَاغُ الْمُبِينُ</p>
-<p class="verse-ref"><bdi dir="ltr">16:82</bdi></p>
-<p class="translation" lang="en" dir="ltr">“If they turn away, then your only duty is to convey the Clarifier.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="16:82" id="quote-06"></div>
 <p>Chapter 29 places rejection within the experience of earlier communities:</p>
-<blockquote class="quran-quote" id="quote-07">
-<p class="arabic" lang="ar" dir="rtl">وَإِن تُكَذِّبُوا فَقَدْ كَذَّبَ أُمَمٌ مِّن قَبْلِكُمْ ۖ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ</p>
-<p class="verse-ref"><bdi dir="ltr">29:18</bdi></p>
-<p class="translation" lang="en" dir="ltr">“If you deny, communities before you also denied; and the Messenger’s only duty is to convey the Clarifier.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="29:18" id="quote-07"></div>
 <p>And in chapter 36, the messengers themselves state their task:</p>
-<blockquote class="quran-quote" id="quote-08">
-<p class="arabic" lang="ar" dir="rtl">وَمَا عَلَيْنَا إِلَّا الْبَلَاغُ الْمُبِينُ</p>
-<p class="verse-ref"><bdi dir="ltr">36:17</bdi></p>
-<p class="translation" lang="en" dir="ltr">“And our only duty is to convey the Clarifier.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="36:17" id="quote-08"></div>
 <p>These passages establish the pattern on which this study relies: a messenger receives a message and is responsible for bringing it to people. The article’s expression “the Clarifier” refers here to the clear divine message entrusted to the messengers; it does not imply that every earlier messenger carried the Arabic Qur’an revealed to Muhammad.</p>
 <p>Across these settings, the messenger’s task remains tied to what God communicates. The argument drawn from that pattern is that messengers do not own religion, independently create divine law, or acquire control over the faith of their hearers. Their authority as messengers serves the message. It cannot simply be transferred to every tradition later associated with their names.</p>
 <p>For Muhammad’s mission, the question now becomes specific: where does the Qur’an describe the revelation he communicates as clear and clarifying? The following passages supply that part of the argument.</p>
@@ -113,51 +81,17 @@ excerpt: "Why this study identifies al-Mubin with the clarifying Qur’an, disti
 <h2>The Qur’an Repeatedly Calls the Revelation Clear and Clarifying</h2>
 <p>The association between <em>mubin</em> (clear and clarifying) and the revelation is explicit. The word describes the Book, the Qur’an, and the Book that comes from God as light and guidance. These are descriptions of the message itself.</p>
 <p>Some of the following passages begin with individual Arabic letters. “Alif,” “Lam,” “Ra,” “Ta,” “Sin,” and “Mim” are the names of those letters, not unexplained English words or names of people. They are retained in the renderings because they are part of the quoted text. The argument here concerns the descriptions that follow them.</p>
-<blockquote class="quran-quote" id="quote-09">
-<p class="arabic" lang="ar" dir="rtl">الر ۚ تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ</p>
-<p class="verse-ref"><bdi dir="ltr">12:1</bdi></p>
-<p class="translation" lang="en" dir="ltr">“Alif Lam Ra. These are the verses of the clarifying Book.”</p>
-</blockquote>
-<blockquote class="quran-quote" id="quote-10">
-<p class="arabic" lang="ar" dir="rtl">الر ۚ تِلْكَ آيَاتُ الْكِتَابِ وَقُرْآنٍ مُّبِينٍ</p>
-<p class="verse-ref"><bdi dir="ltr">15:1</bdi></p>
-<p class="translation" lang="en" dir="ltr">“Alif Lam Ra. These are the verses of the Book and a clarifying Qur’an.”</p>
-</blockquote>
-<blockquote class="quran-quote" id="quote-11">
-<p class="arabic" lang="ar" dir="rtl">طس ۚ تِلْكَ آيَاتُ الْقُرْآنِ وَكِتَابٍ مُّبِينٍ</p>
-<p class="verse-ref"><bdi dir="ltr">27:1</bdi></p>
-<p class="translation" lang="en" dir="ltr">“Ta Sin. These are the verses of the Qur’an and a clarifying Book.”</p>
-</blockquote>
-<blockquote class="quran-quote" id="quote-12">
-<p class="arabic" lang="ar" dir="rtl">طسم</p>
-<p class="arabic" lang="ar" dir="rtl">تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ</p>
-<p class="verse-ref"><bdi dir="ltr">26:1</bdi>, <bdi dir="ltr">26:2</bdi></p>
-<p class="translation" lang="en" dir="ltr">“Ta Sin Mim. These are the verses of the clarifying Book.”</p>
-</blockquote>
-<blockquote class="quran-quote" id="quote-13">
-<p class="arabic" lang="ar" dir="rtl">طسم</p>
-<p class="arabic" lang="ar" dir="rtl">تِلْكَ آيَاتُ الْكِتَابِ الْمُبِينِ</p>
-<p class="verse-ref"><bdi dir="ltr">28:1</bdi>, <bdi dir="ltr">28:2</bdi></p>
-<p class="translation" lang="en" dir="ltr">“Ta Sin Mim. These are the verses of the clarifying Book.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="12:1" id="quote-09"></div>
+<div class="shared-verse-placeholder" data-quran-verses="15:1" id="quote-10"></div>
+<div class="shared-verse-placeholder" data-quran-verses="27:1" id="quote-11"></div>
+<div class="shared-verse-placeholder" data-quran-verses="26:1 26:2" id="quote-12"></div>
+<div class="shared-verse-placeholder" data-quran-verses="28:1 28:2" id="quote-13"></div>
 <p>The description also appears in the form of an oath:</p>
-<blockquote class="quran-quote" id="quote-14">
-<p class="arabic" lang="ar" dir="rtl">وَالْكِتَابِ الْمُبِينِ</p>
-<p class="verse-ref"><bdi dir="ltr">43:2</bdi></p>
-<p class="translation" lang="en" dir="ltr">“By the clarifying Book.”</p>
-</blockquote>
-<blockquote class="quran-quote" id="quote-15">
-<p class="arabic" lang="ar" dir="rtl">وَالْكِتَابِ الْمُبِينِ</p>
-<p class="verse-ref"><bdi dir="ltr">44:2</bdi></p>
-<p class="translation" lang="en" dir="ltr">“By the clarifying Book.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="43:2" id="quote-14"></div>
+<div class="shared-verse-placeholder" data-quran-verses="44:2" id="quote-15"></div>
 <p>These statements identify the Book and the Qur’an as clear and clarifying. The article uses “the Clarifier” as a designation grounded in those descriptions. It is the revelation that makes truth known and supplies a standard by which competing claims can be examined.</p>
 <p>Chapter 5 makes a further connection. It addresses the People of the Book (communities associated with earlier scripture, particularly Jews and Christians), describes the Messenger’s work of making concealed matters clear, and speaks of a light and a clarifying Book coming from God:</p>
-<blockquote class="quran-quote" id="quote-16">
-<p class="arabic" lang="ar" dir="rtl">يَا أَهْلَ الْكِتَابِ قَدْ جَاءَكُمْ رَسُولُنَا يُبَيِّنُ لَكُمْ كَثِيرًا مِّمَّا كُنتُمْ تُخْفُونَ مِنَ الْكِتَابِ وَيَعْفُو عَن كَثِيرٍ ۚ قَدْ جَاءَكُم مِّنَ اللَّهِ نُورٌ وَكِتَابٌ مُّبِينٌ</p>
-<p class="verse-ref"><a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/005-al-maidah/#ayah-015"><bdi dir="ltr">5:15</bdi></a></p>
-<p class="translation" lang="en" dir="ltr">“O People of the Book, Our Messenger has come to you, clarifying for you much of what you used to conceal of the Book and passing over much. There has come to you from God a light and a clarifying Book.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="5:15" id="quote-16"></div>
 <p>The Messenger’s clarification and the arrival of the clarifying Book appear together. This supports the article’s central connection: the message he brings is itself a source of clarification. His task should not be detached from that message and reassigned to a body of later material presumed to stand above it.</p>
 <p>The reasoning can now be stated without relying on unexplained Arabic expressions. The Messenger must convey God’s message. The Qur’an repeatedly describes the revealed Book as clear and clarifying. The article therefore understands his task as conveying this clarifying revelation. It is a conclusion drawn from the passages together, rather than from assuming that every occurrence of the adjective names the same thing regardless of its sentence.</p>
 </section>
@@ -166,19 +100,11 @@ excerpt: "Why this study identifies al-Mubin with the clarifying Qur’an, disti
 <h2>The Book’s Clarification and the Messenger’s Task of Explaining It</h2>
 <p>Two related Arabic words help explain the next part of the argument: <em>tibyan</em> (clarification or a clear account) and <em>tabyin</em> (the act of making something clear). Both belong to the same family of words as <em>mubin</em>. The distinction is useful because the Qur’an describes the Book as clarification and also assigns the Messenger a task of explaining what has been revealed.</p>
 <p>Chapter 16 describes the Book itself:</p>
-<blockquote class="quran-quote" id="quote-17">
-<p class="arabic" lang="ar" dir="rtl">وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ وَهُدًى وَرَحْمَةً وَبُشْرَىٰ لِلْمُسْلِمِينَ</p>
-<p class="verse-ref"><bdi dir="ltr">16:89</bdi></p>
-<p class="translation" lang="en" dir="ltr">“And We sent down the Book to you as a clarification of everything, and as guidance, mercy, and good news for those who submit.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="16:89" id="quote-17"></div>
 <p>The revelation is presented as clarification, guidance, mercy, and good news. The article takes this as a reason to examine every claimed explanation against the Book. If a supposed explanation contradicts the revelation or grants another source authority to override it, the explanation has ceased to serve the text it claims to clarify.</p>
 <p>This does not make teaching, reasoning, or explanation pointless. A teacher can help someone understand a statement without becoming its author or acquiring the right to replace it. The question is the authority claimed for that teaching. Explaining what God has revealed differs from declaring a new obligation in His name.</p>
 <p>The other passage in chapter 16 must be considered alongside this description of the Book:</p>
-<blockquote class="quran-quote" id="quote-18">
-<p class="arabic" lang="ar" dir="rtl">بِالْبَيِّنَاتِ وَالزُّبُرِ ۗ وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ وَلَعَلَّهُمْ يَتَفَكَّرُونَ</p>
-<p class="verse-ref"><bdi dir="ltr">16:44</bdi></p>
-<p class="translation" lang="en" dir="ltr">“With clear signs and writings; and We sent down the Reminder to you so that you may clarify to the people what was sent down to them, and so that they may reflect.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="16:44" id="quote-18"></div>
 <p>The Reminder here is the revelation sent to the Messenger. His task is to make clear to people “what was sent down to them.” That object matters: the explanation concerns the revealed message. The verse does not say that later books of reports become a separate revelation or an independent source of religious law.</p>
 <p>The article’s conclusion is that the Messenger’s explanation works in service of revelation. His role in making the message understood should not be used to authorize a later report to cancel that message. The Book’s capacity to clarify and the Messenger’s work of explaining it belong together.</p>
 <p>There is a difference between saying “this explanation helps us understand the verse” and saying “this report may overrule the verse.” The first claim can be examined through language, context, and reasoning. The second grants the report a superior authority. Calling both activities “clarification” conceals the very distinction that needs to be tested.</p>
@@ -197,20 +123,12 @@ excerpt: "Why this study identifies al-Mubin with the clarifying Qur’an, disti
 <section id="ahl-al-kitab">
 <h2>When Human Religious Authorities Are Given God’s Place</h2>
 <p>Chapter 9 criticizes the elevation of religious figures into a position that belongs to God:</p>
-<blockquote class="quran-quote" id="quote-19">
-<p class="arabic" lang="ar" dir="rtl">اتَّخَذُوا أَحْبَارَهُمْ وَرُهْبَانَهُمْ أَرْبَابًا مِّن دُونِ اللَّهِ وَالْمَسِيحَ ابْنَ مَرْيَمَ وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا إِلَٰهًا وَاحِدًا ۖ لَّا إِلَٰهَ إِلَّا هُوَ ۚ سُبْحَانَهُ عَمَّا يُشْرِكُونَ</p>
-<p class="verse-ref"><a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/009-at-tawbah/#ayah-031"><bdi dir="ltr">9:31</bdi></a></p>
-<p class="translation" lang="en" dir="ltr">“They took their scholars and monks as lords besides God, and the Messiah son of Mary, while they were commanded only to worship one God. There is no god except Him. Glory be to Him above what they associate.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="9:31" id="quote-19"></div>
 <p>The criticism cannot be limited to the outward act of bowing before another person. This study reads it also as a warning about obedience: a scholar or religious leader can be treated as a lord when their authority to bind people is accepted without reference to God’s authorization.</p>
 <p>On that reading, the danger appears whenever a scholar, jurist, narrator, priest, monk, or religious school is granted the right to create compulsory religion independently of revelation. Someone can insist that they worship only God while giving human authorities the final say over what God supposedly requires or forbids. The article calls this making a partner in religious lawgiving: assigning another authority a power that belongs to God.</p>
 <p>Learning from a scholar is not automatically the same as doing this. The difference concerns whether a conclusion remains an accountable human interpretation or becomes a command placed beyond examination. Expertise may help explain a text; expertise alone does not turn an opinion into divine speech.</p>
 <p>Chapter 42 addresses the question of authorization directly:</p>
-<blockquote class="quran-quote" id="quote-20">
-<p class="arabic" lang="ar" dir="rtl">أَمْ لَهُمْ شُرَكَاءُ شَرَعُوا لَهُم مِّنَ الدِّينِ مَا لَمْ يَأْذَن بِهِ اللَّهُ ۚ وَلَوْلَا كَلِمَةُ الْفَصْلِ لَقُضِيَ بَيْنَهُمْ ۗ وَإِنَّ الظَّالِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ</p>
-<p class="verse-ref"><bdi dir="ltr">42:21</bdi></p>
-<p class="translation" lang="en" dir="ltr">“Or do they have partners who have prescribed for them as religion what God did not authorize? If not for the decree of judgment, judgment would have been made between them; and the wrongdoers will have a painful punishment.”</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="42:21" id="quote-20"></div>
 <p>This is the decisive question for the article: has God authorized the requirement? If a report makes something forbidden that God has not forbidden in the Qur’an, imposes an obligation the Qur’an does not impose, or claims to cancel a clear Qur’anic ruling, calling it “clarification” does not answer that question. Its authority must be established rather than assumed.</p>
 <p>The position defended here is that no report, legal school, or inherited tradition has an independent right to legislate alongside the Qur’an. The clarifying Book must judge those claims. They must not be allowed to acquire authority over it through the very language of obedience and explanation that should keep attention on the message.</p>
 </section>

@@ -62,9 +62,7 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <h2 id="meaning-of-salat" data-source-line="43">Part One: Salat and the Meaning of Establishing It</h2>
 <h3 id="namaz-word" data-source-line="44">1. Beyond Completing an Observance</h3>
 <p id="passage-045" data-source-line="45">The Qur’an commands:</p>
-<blockquote class="quran-quote">
-<div id="quote-046" data-source-line="46"><p class="arabic" lang="ar" dir="rtl">«وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱرْكَعُوا۟ مَعَ ٱلرَّٰكِعِينَ»</p><p class="verse-ref">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-043"><bdi dir="ltr">2:43</bdi></a>)</p></div>
-<p class="translation" id="passage-047" data-source-line="47">“Establish prayer, give zakat, and bow with those who bow.”</p></blockquote>
+<span id="quote-046"></span><span id="passage-047"></span><div class="shared-verse-placeholder" data-quran-verses="2:43"></div>
 <p id="passage-048" data-source-line="48">The verb translated as “establish” belongs to the Arabic root q-w-m, associated with standing, setting upright, and maintaining. A root alone does not settle the meaning of a command: we must also ask what is being established and what the other passages say about it. Here, establishing prayer includes performing an actual act of worship. Its safeguarding and stated purposes help explain how that worship is to remain established in life. Zakat (giving associated with purification and growth) is a distinct duty placed beside it.</p>
 <p id="passage-049" data-source-line="49">“Saying a prayer” can mean much more than pronouncing a sentence, just as “performing prayer” can include sincere devotion. There is no need to blame an ordinary expression for every misunderstanding. The problem arises when our attention stops at getting the words and movements done. The Qur’an also calls for persistence, care, humility, and moral effect. Familiar language should leave us open to those demands.</p>
 <p id="passage-050" data-source-line="50">Consider putting up a tent. Fabric and poles are necessary, but only their proper arrangement produces a shelter. A shelter imagined without them would be no shelter at all. Prayer likewise has real elements: standing, recitation, bowing, and prostration. They cannot be discarded in pursuit of a supposedly deeper meaning. Yet assembling them while losing remembrance and devotion does not fulfil the whole purpose. The analogy illustrates the relationship between means and purpose; it is not an etymological definition of the verse.</p>
@@ -77,65 +75,40 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <p id="passage-057" data-source-line="57">Good conduct cannot simply replace prayer. Helping someone in need, telling the truth, and acting justly accord with its purpose, but the Qur’an repeatedly places prayer and giving beside each other as distinct responsibilities. Prayer does not release us from other people’s rights, and generosity does not cancel the command to worship. They should strengthen each other in the same life.</p>
 <h3 id="salawat" data-source-line="58">3. God’s Salat, the Angels’ Salat, and the Prophet’s Prayer for Others</h3>
 <p id="passage-059" data-source-line="59">The word’s use extends beyond a human being’s worship of God:</p>
-<blockquote class="quran-quote">
-<div id="quote-060" data-source-line="60"><p class="arabic" lang="ar" dir="rtl">«إِنَّ ٱللَّهَ وَمَلَٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى ٱلنَّبِىِّ يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ صَلُّوا۟ عَلَيْهِ وَسَلِّمُوا۟ تَسْلِيمًا»</p><p class="verse-ref">(<bdi dir="ltr">33:56</bdi>)</p></div>
-<p class="translation" id="passage-061" data-source-line="61">“God and His angels bestow Salat upon the Prophet. You who believe, offer Salat for him and greet him with a full greeting of peace.”</p></blockquote>
+<span id="quote-060"></span><span id="passage-061"></span><div class="shared-verse-placeholder" data-quran-verses="33:56"></div>
 <p id="passage-062" data-source-line="62">Here Salat expresses a gracious regard whose precise character depends on who acts. Retaining the term allows that question to remain open while the passages are examined; it cannot mean that God performs a servant’s ritual prayer. The closing phrase has been rendered as a greeting of peace. Its relationship to greeting and submission is a further interpretive question, deserving separate treatment alongside the wider study of salawat (the plural form of Salat).</p>
 <p id="passage-063" data-source-line="63">God neither worships another being nor petitions a higher power to benefit the Prophet. His action therefore differs from a servant’s supplication. The shared verb invites us to look for a meaningful relationship among these uses, perhaps involving care and the bestowal or seeking of good. It does not justify assuming in advance that the same English definition fits every agent. Another passage identifies an effect of divine Salat:</p>
-<blockquote class="quran-quote">
-<div id="quote-064" data-source-line="64"><p class="arabic" lang="ar" dir="rtl">«هُوَ ٱلَّذِى يُصَلِّى عَلَيْكُمْ وَمَلَٰٓئِكَتُهُۥ لِيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ وَكَانَ بِٱلْمُؤْمِنِينَ رَحِيمًا»</p><p class="verse-ref">(<bdi dir="ltr">33:43</bdi>)</p></div>
-<p class="translation" id="passage-065" data-source-line="65">“He is the One who bestows Salat upon you, and His angels do so, to bring you out of darkness into light. He is merciful toward the believers.”</p></blockquote>
+<span id="quote-064"></span><span id="passage-065"></span><div class="shared-verse-placeholder" data-quran-verses="33:43"></div>
 <p id="passage-066" data-source-line="66">In this passage, the action is associated with guidance from darkness into light. It cannot be reduced to an ineffectual verbal formula. Yet knowing an action’s stated effect does not give us complete knowledge of its nature or manner. For the present inquiry, the essential point is that Salat does not always name the familiar human ritual.</p>
 <p id="passage-067" data-source-line="67">The Prophet is also instructed to offer Salat for other people:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-068" data-source-line="68">«خُذْ مِنْ أَمْوَٰلِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ إِنَّ صَلَوٰتَكَ سَكَنٌ لَّهُمْ وَٱللَّهُ سَمِيعٌ عَلِيمٌ»</p>
-<p class="verse-ref" data-source-line="69">(<bdi dir="ltr">9:103</bdi>)</p>
-<p class="translation" id="passage-070" data-source-line="70">“Take a charitable contribution from their wealth, by which you cleanse them and help them grow, and pray for them. Your prayer is a source of reassurance for them. God is hearing and knowing.”</p></blockquote>
+<span id="quote-068"></span><span id="passage-070"></span><div class="shared-verse-placeholder" data-quran-verses="9:103"></div>
 <p id="passage-071" data-source-line="71">The Prophet’s action here is directed toward the good of those being purified and helped to grow; prayer and the seeking of good belong naturally to this relationship. Its stated effect is reassurance. In <bdi dir="ltr">9:99</bdi>, the Messenger’s prayers are associated with drawing near to God in a passage that ends with divine mercy. In <bdi dir="ltr">9:84</bdi>, prayer over certain deceased people and standing at their graves are prohibited. These settings support an understanding involving supplication, concern, and benevolence. They cannot all be recast as military support or the establishment of government without further evidence.</p>
 <p id="passage-072" data-source-line="72">In <bdi dir="ltr">2:157</bdi>, the steadfast receive salawat from their Lord, with mercy mentioned alongside it. This helps us explore its relationship to divine care, mercy, and guidance. Merely placing two words together proves neither complete identity nor complete separation of meaning. These passages establish the range of usage relevant here; the full relationship between divine, angelic, and human Salat requires its own study.</p>
 <h3 id="creatures" data-source-line="73">4. The Prayer of Other Creatures</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-074" data-source-line="74">«أَلَمْ تَرَ أَنَّ ٱللَّهَ يُسَبِّحُ لَهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱلطَّيْرُ صَٰٓفَّٰتٍ كُلٌّ قَدْ عَلِمَ صَلَاتَهُۥ وَتَسْبِيحَهُۥ وَٱللَّهُ عَلِيمٌۢ بِمَا يَفْعَلُونَ»</p>
-<p class="verse-ref" data-source-line="75">(<bdi dir="ltr">24:41</bdi>)</p>
-<p class="translation" id="passage-076" data-source-line="76">“Have you not seen that all who are in the heavens and the earth glorify God, as do the birds with wings outspread? Each knows its prayer and glorification, and God knows what they do.”</p></blockquote>
+<span id="quote-074"></span><span id="passage-076"></span><div class="shared-verse-placeholder" data-quran-verses="24:41"></div>
 <p id="passage-077" data-source-line="77">Birds do not stand in human prayer rows or repeat our words and cycles, yet the Qur’an attributes Salat to them. Human ritual therefore cannot define the word’s entire range. In one reading of this verse, each creature knows its own prayer and glorification; in another, the knowledge is attributed to God. That difference does not remove the attribution of prayer to creatures.</p>
 <p id="passage-078" data-source-line="78">The passage invites humility about the limits of human experience. We worship through language, thought, and the movements of our bodies. Why assume these are the only possible forms of a creature’s relationship with its Lord? The Qur’an tells us of their prayer without explaining its mechanism. It opens a wider horizon without supplying a definitive theory of the consciousness or cognitive capacities of every creature.</p>
 <span id="the-quran-identifies-how-the-prayer-connection-is-ruined" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="name-and-reality" data-source-line="79">5. Calling Something Prayer Does Not Guarantee Its Worth</h3>
 <p id="passage-080" data-source-line="80">We must also distinguish the name of an observance from its proper fulfilment. The Qur’an can call a practice Salat while condemning what those performing it have made of it:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-081" data-source-line="81">«وَمَا كَانَ صَلَاتُهُمْ عِندَ ٱلْبَيْتِ إِلَّا مُكَآءً وَتَصْدِيَةً فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ»</p>
-<p class="verse-ref" data-source-line="82">(<bdi dir="ltr">8:35</bdi>)</p>
-<p class="translation" id="passage-083" data-source-line="83">“Their prayer at the House was nothing but whistling and clapping. So taste the punishment for your rejection.”</p></blockquote>
+<span id="quote-081"></span><span id="passage-083"></span><div class="shared-verse-placeholder" data-quran-verses="8:35"></div>
 <p id="passage-084" data-source-line="84">The preceding verse concerns people who barred others from the Sacred Mosque. Their activity at the House is then called “their prayer” and condemned. The name does not confer approval. Chapter 107 similarly calls certain people worshippers while reproaching their conduct. We can therefore criticize a degraded form of prayer without denying that an outward observance has taken place.</p>
 <p id="passage-085" data-source-line="85">In human worship directed to God, Salat involves prayerful devotion, and establishing it means sustaining that worship properly. When directed toward another, supplication, goodwill, and gracious care become relevant according to the agent and context. The prayer of other creatures extends beyond the familiar human form. The uses belong to one family of words, but do not all describe an identical action.</p>
 <span id="the-prayer-connection-did-not-begin-with-the-final-prophet" class="legacy-anchor" aria-hidden="true"></span>
 <h2 id="not-new-with-final-prophet" data-source-line="86">Part Two: Prayer in the Lives of Earlier Prophets</h2>
 <p id="passage-087" data-source-line="87">The Qur’an records Abraham’s prayer:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-088" data-source-line="88">«رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى رَبَّنَا وَتَقَبَّلْ دُعَآءِ»</p>
-<p class="verse-ref" data-source-line="89">(<bdi dir="ltr">14:40</bdi>)</p>
-<p class="translation" id="passage-090" data-source-line="90">“My Lord, make me one who establishes prayer, and some of my descendants as well. Our Lord, accept my supplication.”</p></blockquote>
+<span id="quote-088"></span><span id="passage-090"></span><div class="shared-verse-placeholder" data-quran-verses="14:40"></div>
 <p id="passage-091" data-source-line="91">Abraham asks to become a person who sustains prayer and for that worship to continue among his descendants. In <bdi dir="ltr">14:37</bdi>, settling some of his family near the Sacred House is also linked to establishing it. The Qur’an thus places this practice well before Muhammad’s mission and the legal schools that arose later.</p>
 <p id="passage-092" data-source-line="92">Of Ishmael, it says:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-093" data-source-line="93">«وَكَانَ يَأْمُرُ أَهْلَهُۥ بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ وَكَانَ عِندَ رَبِّهِۦ مَرْضِيًّا»</p>
-<p class="verse-ref" data-source-line="94">(<bdi dir="ltr">19:55</bdi>)</p>
-<p class="translation" id="passage-095" data-source-line="95">“He used to enjoin prayer and zakat upon his household, and he was pleasing to his Lord.”</p></blockquote>
+<span id="quote-093"></span><span id="passage-095"></span><div class="shared-verse-placeholder" data-quran-verses="19:55"></div>
 <p id="passage-096" data-source-line="96">Jesus says:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-097" data-source-line="97">«وَجَعَلَنِى مُبَارَكًا أَيْنَ مَا كُنتُ وَأَوْصَٰنِى بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ مَا دُمْتُ حَيًّا»</p>
-<p class="verse-ref" data-source-line="98">(<bdi dir="ltr">19:31</bdi>)</p>
-<p class="translation" id="passage-099" data-source-line="99">“He has made me blessed wherever I may be, and has enjoined prayer and zakat upon me for as long as I live.”</p></blockquote>
+<span id="quote-097"></span><span id="passage-099"></span><div class="shared-verse-placeholder" data-quran-verses="19:31"></div>
 <p id="passage-100" data-source-line="100">In <bdi dir="ltr">10:87</bdi>, Moses and his brother are instructed to provide dwellings for their people, make their houses a direction of prayer, and establish Salat. In <bdi dir="ltr">21:73</bdi>, the revelation given to earlier leaders brings together good deeds, prayer, and giving. In <bdi dir="ltr">3:39</bdi>, Zechariah is standing in prayer in the sanctuary. These are explicit descriptions of worship and command within the Qur’an’s accounts of earlier prophets.</p>
 <p id="passage-101" data-source-line="101">Salat did not first appear as an unprecedented practice with Muhammad. Knowledge of its existence is therefore not dependent on reports written after him. Muhammad was himself commanded to establish it, and believers worshipped with him. The congregational practice described in <bdi dir="ltr">4:102</bdi> is evidence within the Qur’an itself.</p>
 <p id="passage-102" data-source-line="102">A shared practice does not establish identical ritual details across all prophetic communities. The verses do not specify a uniform number of cycles, wording, or sequence for every period. They establish the presence and continuity of prayer. Particular claims about its earlier forms need their own evidence, just as present instructions must be read in their own settings.</p>
 <p id="passage-103" data-source-line="103">This history also prevents any later legal school from claiming exclusive ownership of prayer. Yet age alone does not establish the correctness of an inherited practice. The Qur’an speaks both of establishing prayer and of neglecting it. What people have done in its name must therefore be examined rather than approved merely for being old.</p>
 <h3 id="fasting-comparison" data-source-line="104">A Comparison with Fasting</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-105" data-source-line="105">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ»</p>
-<p class="verse-ref" data-source-line="106">(<bdi dir="ltr">2:183</bdi>)</p>
-<p class="translation" id="passage-107" data-source-line="107">“You who believe, fasting has been prescribed for you as it was prescribed for those before you, so that you may become mindful of God.”</p></blockquote>
+<span id="quote-105"></span><span id="passage-107"></span><div class="shared-verse-placeholder" data-quran-verses="2:183"></div>
 <p id="passage-108" data-source-line="108">The Qur’an acknowledges fasting’s earlier history and then gives practical instructions. In <bdi dir="ltr">2:184</bdi>, <bdi dir="ltr">2:185</bdi> it addresses the days of fasting, illness, travel, making up missed days, and Ramadan. In <bdi dir="ltr">2:187</bdi> it sets boundaries for eating and drinking, marital intimacy at night, and retreat in the mosques. An established practice can still be explained and regulated through revelation.</p>
 <p id="passage-109" data-source-line="109">This raises an important question: why assume that every unstated detail of prayer is a concealed obligation? The answer cannot be to insert preferred numbers or rules into verses that do not contain them. We must identify what the Qur’an actually requires. It need not discuss prayer and fasting at identical lengths, but a difference in detail does not itself authorize anyone to supply new laws in God’s name.</p>
 <p id="passage-110" data-source-line="110">A practice’s familiarity can explain why every movement is not defined from the beginning. People who know what bowing is do not need an account of every joint angle to understand a command to bow. That does not establish every detail taught by a later school as an unstated divine instruction. Using shared language and experience to understand a command differs from adding another obligation to it.</p>
@@ -146,29 +119,20 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <h2 id="purpose-of-salat" data-source-line="114">Part Three: What Prayer Should Awaken in Us</h2>
 <span id="4-remembrance-of-the-god" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="remembrance" data-source-line="115">1. Remembrance and Our Relationship with God</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-116" data-source-line="116">«إِنَّنِىٓ أَنَا ٱللَّهُ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدْنِى وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ»</p>
-<p class="verse-ref" data-source-line="117">(<bdi dir="ltr">20:14</bdi>)</p>
-<p class="translation" id="passage-118" data-source-line="118">“Indeed, I am God. There is no deity except Me. So worship Me and establish prayer for My remembrance.”</p></blockquote>
+<span id="quote-116"></span><span id="passage-118"></span><div class="shared-verse-placeholder" data-quran-verses="20:14"></div>
 <p id="passage-119" data-source-line="119">The purpose is stated within the command: remembrance of God. <a href="/quran-terminology/en/roots/dh-k-r/">Dhikr</a> (remembrance, including bringing God consciously to mind) interrupts the narrowing of life around immediate desires and fears. Work, rivalry, anger, and anxiety can make the next gain or loss seem like the whole of reality. Prayer gives us occasion to remember that we do not own the world or other people. Our abilities and possessions carry responsibilities, and our wishes are not the final measure of right and wrong.</p>
 <p id="passage-120" data-source-line="120">Words can begin that remembrance, and repetition can help sustain it. What we understand clearly today may be forgotten tomorrow under the pressure of habit. The problem begins when repeating a phrase replaces attention to what it means. A person can ask for guidance while thinking only of finishing, or speak of service to God while remaining governed by self-interest.</p>
 <p id="passage-121" data-source-line="121">Recitation and understanding should work together. Each return to prayer offers an opportunity to reconsider the direction of our lives. Nothing is added to God’s knowledge by this reminder. It is our awareness that needs renewal, because we repeatedly lose sight of what we already know.</p>
 <p id="passage-122" data-source-line="122">In <bdi dir="ltr">4:103</bdi>, remembrance is commanded after prayer has ended. A ritual has a beginning and an end; remembrance need not end with it. Sustaining prayer in life does not mean bowing and prostrating without interruption. It means allowing a recurring act of worship to influence the choices made during the rest of the day.</p>
 <span id="when-the-prayer-connection-has-no-effect-on-behavior" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="no-effect-on-behavior" data-source-line="123">2. Restraint from Indecency and Wrongdoing</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-124" data-source-line="124">«ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَٰبِ وَأَقِمِ ٱلصَّلَوٰةَ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ»</p>
-<p class="verse-ref" data-source-line="125">(<bdi dir="ltr">29:45</bdi>)</p>
-<p class="translation" id="passage-126" data-source-line="126">“Recite what has been revealed to you of the Book and establish prayer. Prayer restrains indecency and wrongdoing, and the remembrance of God is greater. God knows what you do.”</p></blockquote>
+<span id="quote-124"></span><span id="passage-126"></span><div class="shared-verse-placeholder" data-quran-verses="29:45"></div>
 <p id="passage-127" data-source-line="127">Recitation, prayer, moral restraint, and remembrance appear together in this verse. Prayer should do more than provide the satisfaction of completing a duty. It should bring God and responsibility to mind when we are tempted to lie, oppress, or humiliate someone. A living awareness of that responsibility makes it harder to violate another person’s rights with an undisturbed conscience.</p>
 <p id="passage-128" data-source-line="128">This does not make every worshipper immediately free from error. People fail, repent, and try to repair what they have done. What conflicts with prayer’s purpose is persistence in wrongdoing accompanied by complacency about the ritual. Someone who counts every cycle carefully but never reckons with the rights they have violated has reason to reconsider their understanding of worship.</p>
 <p id="passage-129" data-source-line="129">Imagine two people in the same prayer row. Afterward, one approaches a person they have wronged, acknowledges it, and begins making amends. The other remains meticulous about hand placement while continuing to deceive people. The question is why prayer’s stated moral effect has become less important to the second person than its finer outward details. The form of worship should lead toward its purpose, rather than provide cover for avoiding it.</p>
 <p id="passage-130" data-source-line="130">We need not claim knowledge of God’s final judgment to recognize this failure. The verse itself provides a standard: prayer restrains indecency and wrongdoing. We can examine conduct against that standard while acknowledging how much of another person’s inner life remains unknown to us.</p>
 <h3 id="shuayb" data-source-line="131">3. Why Shuayb’s People Objected to His Prayer</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-132" data-source-line="132">«قَالُوا۟ يَٰشُعَيْبُ أَصَلَوٰتُكَ تَأْمُرُكَ أَن نَّتْرُكَ مَا يَعْبُدُ ءَابَآؤُنَآ أَوْ أَن نَّفْعَلَ فِىٓ أَمْوَٰلِنَا مَا نَشَٰٓؤُا۟ إِنَّكَ لَأَنتَ ٱلْحَلِيمُ ٱلرَّشِيدُ»</p>
-<p class="verse-ref" data-source-line="133">(<bdi dir="ltr">11:87</bdi>)</p>
-<p class="translation" id="passage-134" data-source-line="134">“They said, ‘Shuayb, does your prayer command you that we should abandon what our ancestors worshipped, or cease doing whatever we wish with our wealth? You are certainly the forbearing and rightly guided one!’”</p></blockquote>
+<span id="quote-132"></span><span id="passage-134"></span><div class="shared-verse-placeholder" data-quran-verses="11:87"></div>
 <p id="passage-135" data-source-line="135">These words follow Shuayb’s condemnation of short measure, the withholding of people’s due, and economic corruption. His opponents connected his prayer with his challenge to their inherited worship and financial conduct. Their response is mocking, but the objection reveals that his devotion had consequences beyond a private ritual.</p>
 <p id="passage-136" data-source-line="136">The verse does not define Salat as an economic system. It shows worship reaching into conduct. A person who bows before the Lord cannot treat other people’s rights as irrelevant. Here, the defence of unrestricted control over wealth accompanies loyalty to ancestral objects of worship; Shuayb challenges both.</p>
 <p id="passage-137" data-source-line="137">The same moral danger remains familiar. Religious observance can win trust that is later exploited in business or public office. An account of prayer must be able to recognize that abuse. If it concentrates entirely on finger positions or the pronunciation of a formula, it overlooks a serious corruption of worship.</p>
@@ -176,73 +140,26 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <span id="heedlessness-inside-the-prayer-connection" class="legacy-anchor" aria-hidden="true"></span>
 <span id="showing-off" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="heedlessness" data-source-line="138">4. The Warning to Worshippers in Chapter 107</h3>
-<blockquote class="quran-quote" data-verse-unit="107:1">
-<p class="arabic" lang="ar" dir="rtl" id="quote-139">أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ</p>
-<p class="translation" id="passage-147">Have you seen the one who denies the religion?</p>
-<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-001">Al-Ma'un <bdi dir="ltr">107:1</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="107:2">
-<p class="arabic" lang="ar" dir="rtl" id="quote-140">فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ</p>
-<p class="translation">That is the one who pushes the orphan away</p>
-<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-002">Al-Ma'un <bdi dir="ltr">107:2</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="107:3">
-<p class="arabic" lang="ar" dir="rtl" id="quote-141">وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ</p>
-<p class="translation">and does not encourage feeding the poor.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-003">Al-Ma'un <bdi dir="ltr">107:3</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="107:4">
-<p class="arabic" lang="ar" dir="rtl" id="quote-142">فَوَيْلٌ لِّلْمُصَلِّينَ</p>
-<p class="translation">So woe to those who pray—</p>
-<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-004">Al-Ma'un <bdi dir="ltr">107:4</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="107:5">
-<p class="arabic" lang="ar" dir="rtl" id="quote-143">ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ</p>
-<p class="translation">those who are heedless of their prayer,</p>
-<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-005">Al-Ma'un <bdi dir="ltr">107:5</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="107:6">
-<p class="arabic" lang="ar" dir="rtl" id="quote-144">ٱلَّذِينَ هُمْ يُرَآءُونَ</p>
-<p class="translation">who make a display of themselves</p>
-<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-006">Al-Ma'un <bdi dir="ltr">107:6</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="107:7">
-<p class="arabic" lang="ar" dir="rtl" id="quote-145">وَيَمْنَعُونَ ٱلْمَاعُونَ</p>
-<p class="translation">and withhold practical help.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/107-al-maun/#ayah-007">Al-Ma'un <bdi dir="ltr">107:7</bdi></a></p>
-</blockquote>
+<span id="quote-139"></span><span id="passage-147"></span><div class="shared-verse-placeholder" data-quran-verses="107:1"></div>
+<span id="quote-140"></span><div class="shared-verse-placeholder" data-quran-verses="107:2"></div>
+<span id="quote-141"></span><div class="shared-verse-placeholder" data-quran-verses="107:3"></div>
+<span id="quote-142"></span><div class="shared-verse-placeholder" data-quran-verses="107:4"></div>
+<span id="quote-143"></span><div class="shared-verse-placeholder" data-quran-verses="107:5"></div>
+<span id="quote-144"></span><div class="shared-verse-placeholder" data-quran-verses="107:6"></div>
+<span id="quote-145"></span><div class="shared-verse-placeholder" data-quran-verses="107:7"></div>
 <p id="passage-148" data-source-line="148">The chapter begins with treatment of the orphan and the poor, then turns to people who pray for show and withhold help. That connection matters. Its warning cannot be exhausted by momentary distraction during prayer. The people described are heedless of their prayer while making an outward display and refusing assistance to others.</p>
 <p id="passage-149" data-source-line="149">A worshipper whose mind wanders, who regrets the distraction and tries to recover attention, differs from someone who uses worship to be admired while neglecting responsibility. Reducing this chapter to ordinary lapses of concentration obscures its larger concern: maintaining religious appearances while losing their purpose.</p>
 <p id="passage-150" data-source-line="150">In <bdi dir="ltr">19:59</bdi>, neglect of prayer appears alongside following desires. In <bdi dir="ltr">70:22</bdi>, <bdi dir="ltr">70:23</bdi>, <bdi dir="ltr">70:24</bdi>, <bdi dir="ltr">70:25</bdi>, <bdi dir="ltr">70:26</bdi>, <bdi dir="ltr">70:27</bdi>, <bdi dir="ltr">70:28</bdi>, <bdi dir="ltr">70:29</bdi>, <bdi dir="ltr">70:30</bdi>, <bdi dir="ltr">70:31</bdi>, <bdi dir="ltr">70:32</bdi>, <bdi dir="ltr">70:33</bdi>, <bdi dir="ltr">70:34</bdi>, <bdi dir="ltr">70:35</bdi>, the description of worshippers begins with constancy in prayer, proceeds through the rights of the needy, accountability, trustworthiness, fidelity, and truthful testimony, then returns to safeguarding prayer. These responsibilities belong within the portrait of worshippers. They cannot be postponed until every ritual detail has been debated.</p>
 <span id="when-the-prayer-connection-becomes-heavy" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="heavy-without-khushu" data-source-line="151">5. Humility, Steadfastness, and Continuity</h3>
-<blockquote class="quran-quote" data-verse-unit="23:1">
-<p class="arabic" lang="ar" dir="rtl" id="quote-152">قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ</p>
-<p class="translation" id="passage-155">The believers have indeed prospered:</p>
-<p class="verse-ref"><a href="/quran-reflection/en/023-al-muminun/#ayah-001">Al-Mu'minun <bdi dir="ltr">23:1</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="23:2">
-<p class="arabic" lang="ar" dir="rtl" id="quote-153">ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَٰشِعُونَ</p>
-<p class="translation">those who are humble in their prayer.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/023-al-muminun/#ayah-002">Al-Mu'minun <bdi dir="ltr">23:2</bdi></a></p>
-</blockquote>
+<span id="quote-152"></span><span id="passage-155"></span><div class="shared-verse-placeholder" data-quran-verses="23:1"></div>
+<span id="quote-153"></span><div class="shared-verse-placeholder" data-quran-verses="23:2"></div>
 <p id="passage-156" data-source-line="156">The first quality named here is <a href="/quran-terminology/en/roots/kh-sh-ayn/">khushu‘</a> (humble, attentive submission). How a person is present in prayer matters alongside the action itself. Words and movements should express a turning away from arrogance before God. Their repetition alone cannot supply that humility.</p>
-<blockquote class="quran-quote" data-verse-unit="2:45">
-<p class="arabic" lang="ar" dir="rtl" id="quote-157">وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ</p>
-<p class="translation" id="passage-160">Seek help through steadfastness and prayer. It is indeed burdensome except for the humble—</p>
-<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-045">Al-Baqarah <bdi dir="ltr">2:45</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="2:46">
-<p class="arabic" lang="ar" dir="rtl" id="quote-158">ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا۟ رَبِّهِمْ وَأَنَّهُمْ إِلَيْهِ رَٰجِعُونَ</p>
-<p class="translation">those who are assured that they will meet their Lord and that to Him they will return.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-046">Al-Baqarah <bdi dir="ltr">2:46</bdi></a></p>
-</blockquote>
+<span id="quote-157"></span><span id="passage-160"></span><div class="shared-verse-placeholder" data-quran-verses="2:45"></div>
+<span id="quote-158"></span><div class="shared-verse-placeholder" data-quran-verses="2:46"></div>
 <p id="passage-161" data-source-line="161">Humility is linked here to meeting the Lord and returning to Him. It reaches beyond lowering the head or changing the voice. The worshipper recognizes a truth and an accountability greater than personal wishes or judgments. Approaching prayer merely as an item to complete differs from approaching it with that awareness of one’s place and final return.</p>
 <p id="passage-162" data-source-line="162"><a href="/quran-terminology/en/roots/sad-b-r/">Sabr</a> (steadfastness and patient perseverance) stands beside prayer. Knowing the right direction does not remove the effort required to remain faithful to it. Prayer renews remembrance; perseverance helps carry it into action under pressure. Another passage makes that continuity explicit:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-163" data-source-line="163">«وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ وَٱصْطَبِرْ عَلَيْهَا لَا نَسْـَٔلُكَ رِزْقًا نَّحْنُ نَرْزُقُكَ وَٱلْعَٰقِبَةُ لِلتَّقْوَىٰ»</p>
-<p class="verse-ref" data-source-line="164">(<bdi dir="ltr">20:132</bdi>)</p>
-<p class="translation" id="passage-165" data-source-line="165">“Enjoin prayer upon your household and persevere in it. We do not ask you for provision; We provide for you. The good outcome belongs to mindfulness of God.”</p></blockquote>
+<span id="quote-163"></span><span id="passage-165"></span><div class="shared-verse-placeholder" data-quran-verses="20:132"></div>
 <p id="passage-166" data-source-line="166">Prayer cannot be established through one day’s enthusiasm alone. It needs persistence in hardship as well as ease. But persistence should not become an excuse for burdens beyond what God has required. The verse reminds us that God provides for His servants; He does not depend on their provision. Worship meets no deficiency in Him. It is the worshipper who needs its discipline, renewal, and guidance. <a href="/quran-terminology/en/roots/w-q-y/">Taqwa</a> (watchful responsibility toward God and avoidance of wrongdoing) describes the orientation associated here with the good outcome.</p>
 <p id="passage-167" data-source-line="167">The distinction between steadfastness on a right course and passive submission to oppression is explored in the related study:</p>
 <p class="related-link" id="passage-168" data-source-line="168"><a href="/en/quran-terminology/sabr-in-the-quran/">Sabr in the Qur’an: Perseverance and Its Moral Worth</a></p>
@@ -257,10 +174,7 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <span id="purity-of-body-and-purity-of-awareness" class="legacy-anchor" aria-hidden="true"></span>
 <span id="1-purity-and-washing" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="purity-body-awareness" data-source-line="175">1. Purification and Bodily Preparation</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-176" data-source-line="176">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»</p>
-<p class="verse-ref" data-source-line="177">(<bdi dir="ltr">5:6</bdi>)</p>
-<p class="translation" id="passage-178" data-source-line="178">“You who believe, when you rise for prayer, wash your faces and your hands to the elbows, and wipe your heads and your feet to the ankles. If you are in a state of major ritual impurity, purify yourselves. If you are ill or travelling, or one of you has come from relieving himself, or you have had contact with women and cannot find water, turn to clean earth and wipe your faces and hands with it. God does not intend to place you in hardship; He intends to purify you and complete His favour upon you, so that you may be grateful.”</p></blockquote>
+<span id="quote-176"></span><span id="passage-178"></span><div class="shared-verse-placeholder" data-quran-verses="5:6"></div>
 <p id="passage-179" data-source-line="179">This passage names parts of the body, distinguishes washing from wiping, and gives an alternative when water cannot be found. Wudu (the prescribed washing and wiping before prayer) is therefore a practical concern within the Qur’an. An account of Salat as an exclusively inward experience cannot simply set these instructions aside.</p>
 <p id="passage-180" data-source-line="180">The rendering above follows the reading that prescribes wiping the feet. Whether the feet are grammatically connected to washing or wiping is disputed, with different recitations and syntactic analyses involved. Those arguments are discussed in Part Seven. “Contact with women” is also disputed: whether it refers to ordinary touch or sexual intimacy affects rulings on purification. These disagreements concern how to understand particular instructions; they do not mean that the Qur’an contains no instruction about preparation.</p>
 <p id="passage-181" data-source-line="181">The end of the verse belongs with its beginning. God’s stated purpose is purification without imposing hardship. The prescribed alternative, tayammum (purification using clean earth when the stated conditions apply), shows that access to water is not to become an impasse. It also shows that ritual purity cannot be explained entirely as hygienic washing. The passage addresses the body, religious preparation, and actual human limitations together.</p>
@@ -269,73 +183,43 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <span id="3-bowing-and-prostration" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="standing-bowing-prostration" data-source-line="183">2. Standing, Bowing, and Prostration</h3>
 <p id="passage-184" data-source-line="184">In <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-043"><bdi dir="ltr">2:43</bdi></a>, establishing prayer is accompanied by bowing with those who bow. Another passage commands:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-185" data-source-line="185">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱرْكَعُوا۟ وَٱسْجُدُوا۟ وَٱعْبُدُوا۟ رَبَّكُمْ وَٱفْعَلُوا۟ ٱلْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ»</p>
-<p class="verse-ref" data-source-line="186">(<bdi dir="ltr">22:77</bdi>)</p>
-<p class="translation" id="passage-187" data-source-line="187">“You who believe, bow, prostrate, worship your Lord, and do good, so that you may prosper.”</p></blockquote>
+<span id="quote-185"></span><span id="passage-187"></span><div class="shared-verse-placeholder" data-quran-verses="22:77"></div>
 <p id="passage-188" data-source-line="188">Bowing, prostration, worship, and good conduct appear together. Ruku‘ (bowing) and sujud (prostration) are bodily expressions of devotion. They cannot all be recast as names for political or economic activity, especially alongside passages about prayer in a sanctuary, groups of worshippers, and prayer under threat. The body participates in worship just as the voice does.</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-189" data-source-line="189">«حَٰفِظُوا۟ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلْوُسْطَىٰ وَقُومُوا۟ لِلَّهِ قَٰنِتِينَ»</p>
-<p class="verse-ref" data-source-line="190">(<bdi dir="ltr">2:238</bdi>)</p>
-<p class="translation" id="passage-191" data-source-line="191">“Guard the prayers and the middle prayer, and stand before God in devout obedience.”</p></blockquote>
+<span id="quote-189"></span><span id="passage-191"></span><div class="shared-verse-placeholder" data-quran-verses="2:238"></div>
 <p id="passage-192" data-source-line="192">Standing before God accompanies the safeguarding of prayers. Standing is not the entire meaning of establishing prayer, but it is part of its actual performance. The phrase “in devout obedience” also gives that posture a direction. Outward standing alone does not disclose whether a person seeks God or an audience’s admiration.</p>
 <p id="passage-193" data-source-line="193">The commands to bow and prostrate do not specify the number of cycles in every prayer. Conversely, the absence of such a table does not remove those commands. The Qur’an gives practical instruction without reproducing every specification found in later jurisprudence.</p>
 <span id="awareness-in-the-prayer-connection" class="legacy-anchor" aria-hidden="true"></span>
 <span id="5-awareness-in-speech" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="loss-of-awareness" data-source-line="194">3. Speech, Recitation, and Understanding</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-195" data-source-line="195">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا»</p>
-<p class="verse-ref" data-source-line="196">(<bdi dir="ltr">4:43</bdi>)</p>
-<p class="translation" id="passage-197" data-source-line="197">“You who believe, do not approach prayer while intoxicated until you know what you are saying, nor in a state of major ritual impurity—except when passing through—until you have washed yourselves. If you are ill or travelling, or one of you has come from relieving himself, or you have had contact with women and cannot find water, turn to clean earth and wipe your faces and hands. God is pardoning and forgiving.”</p></blockquote>
+<span id="quote-195"></span><span id="passage-197"></span><div class="shared-verse-placeholder" data-quran-verses="4:43"></div>
 <p id="passage-198" data-source-line="198">The passage presupposes speech in prayer and requires awareness of it. It prohibits approaching prayer while intoxicated until the person knows what they are saying. It also addresses major ritual impurity, washing, and the alternative involving clean earth. Both awareness and bodily preparation belong to the setting of worship.</p>
 <p id="passage-199" data-source-line="199">A broader lesson for the quality of prayer follows: we should learn what the words we recite mean. Someone who has repeated them for years can still ask what they are requesting of God. Yet ordinary distraction must not be equated with intoxication to manufacture another rule of invalidity. The verse names a particular condition. Its concern for awareness can guide us without silently changing the subject of its prohibition.</p>
 <p id="passage-200" data-source-line="200">Chapter 73 discusses Qur’anic recitation in the setting of worship at night:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-201" data-source-line="201">«إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌ مِّنَ ٱلَّذِينَ مَعَكَ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ وَءَاخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ وَءَاخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا وَٱسْتَغْفِرُوا۟ ٱللَّهَ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌۢ»</p>
-<p class="verse-ref" data-source-line="202">(<bdi dir="ltr">73:20</bdi>)</p>
-<p class="translation" id="passage-203" data-source-line="203">“Your Lord knows that you stand for nearly two-thirds of the night, or half of it, or a third, as does a group of those with you. God measures the night and the day. He knew that you would not be able to keep count of it, so He turned toward you in mercy. Recite, then, whatever is manageable of the Qur’an. He knew that some of you would be ill, others travelling through the land seeking God’s bounty, and others fighting in God’s cause. So recite whatever is manageable of it, establish prayer, give zakat, and lend God a good loan. Whatever good you send ahead for yourselves, you will find it with God, better and greater in reward. Seek God’s forgiveness. God is forgiving and merciful.”</p></blockquote>
+<span id="quote-201"></span><span id="passage-203"></span><div class="shared-verse-placeholder" data-quran-verses="73:20"></div>
 <p id="passage-204" data-source-line="204">The passage begins with night vigil and the difficulty of measuring its duration. It names illness, travel for livelihood, and fighting, and twice directs people to recite what is manageable. Two points follow. The Qur’an itself supplies material for worshipful recitation. It also takes human capacity and the demands of life seriously; illness, work, and danger are not treated as irrelevant to devotion.</p>
 <p id="passage-205" data-source-line="205">This passage alone cannot settle every question about recitation in the daily prayers or the duties of someone praying behind a leader. Its opening concern is the night vigil. What it does establish is a relationship between Qur’anic recitation, worship, and accommodation to circumstances. In <bdi dir="ltr">17:78</bdi>, the dawn recitation also appears with the command to establish prayer. Together these passages rule out the claim that the Qur’an gives no guidance at all about what is recited in worship.</p>
 <span id="6-recitation-from-the-quran" class="legacy-anchor" aria-hidden="true"></span>
 <p id="passage-206" data-source-line="206">Al-Fatihah (the Opening, the Qur’an’s first chapter) brings together praise, service to God, the seeking of help, and a request for guidance. Its recitation fits the purposes of prayer. That is a different claim from saying that the Qur’an explicitly makes this particular chapter a condition of validity in every cycle, for every worshipper, in every congregational situation. That detailed requirement is not stated there. The disagreements over it will be examined below.</p>
 <span id="8-balance-in-voice" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="voice" data-source-line="208">4. The Voice in Prayer</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-209" data-source-line="209">«قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ أَيًّا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا»</p>
-<p class="verse-ref" data-source-line="210">(<bdi dir="ltr">17:110</bdi>)</p>
-<p class="translation" id="passage-211" data-source-line="211">“Say: Call upon God, or call upon the All-Merciful; whichever you call upon, to Him belong the most beautiful names. Do not be excessively loud in your prayer or make it too quiet; seek a way between them.”</p></blockquote>
+<span id="quote-209"></span><span id="passage-211"></span><div class="shared-verse-placeholder" data-quran-verses="17:110"></div>
 <p id="passage-212" data-source-line="212">The passage addresses both the names by which God is invoked and the voice used in prayer. It directs the worshipper toward a middle course. Greater volume does not itself indicate deeper devotion, and quietness does not automatically establish humility. The manner of speaking should suit the worship it serves.</p>
 <p id="passage-213" data-source-line="213">A congregation may need to hear its leader’s recitation; a person praying alone faces different circumstances. An appropriate manner can take account of both. The verse does not provide a catalogue declaring every departure from a school’s customary volume invalid. Claims about additional compulsory details require their own justification.</p>
 <h3 id="essence-before-form" data-source-line="214">5. Prayer in Danger and While Moving</h3>
 <p id="passage-215" data-source-line="215">After the command to safeguard prayers in <bdi dir="ltr">2:238</bdi>, the next verse says:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-216" data-source-line="216">«فَإِنْ خِفْتُمْ فَرِجَالًا أَوْ رُكْبَانًا فَإِذَآ أَمِنتُمْ فَٱذْكُرُوا۟ ٱللَّهَ كَمَا عَلَّمَكُم مَّا لَمْ تَكُونُوا۟ تَعْلَمُونَ»</p>
-<p class="verse-ref" data-source-line="217">(<bdi dir="ltr">2:239</bdi>)</p>
-<p class="translation" id="passage-218" data-source-line="218">“If you are afraid, then on foot or riding. When you are safe, remember God as He taught you what you did not know.”</p></blockquote>
+<span id="quote-216"></span><span id="passage-218"></span><div class="shared-verse-placeholder" data-quran-verses="2:239"></div>
 <p id="passage-219" data-source-line="219">Danger can make an ordinary standing observance impossible. The passage permits worship on foot or while riding, taking life and safety into account. When circumstances prevent the familiar form, insistence on that form must not become a reason to abandon worship altogether.</p>
 <p id="passage-220" data-source-line="220">Chapter 4 describes prayer under threat in greater detail:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-221" data-source-line="221">«وَإِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَقْصُرُوا۟ مِنَ ٱلصَّلَوٰةِ إِنْ خِفْتُمْ أَن يَفْتِنَكُمُ ٱلَّذِينَ كَفَرُوٓا۟ إِنَّ ٱلْكَٰفِرِينَ كَانُوا۟ لَكُمْ عَدُوًّا مُّبِينًا»</p>
-<p class="verse-ref" data-source-line="222">(<bdi dir="ltr">4:101</bdi>)</p>
-<p class="translation" id="passage-223" data-source-line="223">“When you travel through the land, there is no blame upon you for shortening prayer if you fear that those who reject faith may attack you. Those who reject faith have indeed been an open enemy to you.”</p></blockquote>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-224" data-source-line="224">«وَإِذَا كُنتَ فِيهِمْ فَأَقَمْتَ لَهُمُ ٱلصَّلَوٰةَ فَلْتَقُمْ طَآئِفَةٌ مِّنْهُم مَّعَكَ وَلْيَأْخُذُوٓا۟ أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا۟ فَلْيَكُونُوا۟ مِن وَرَآئِكُمْ وَلْتَأْتِ طَآئِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا۟ فَلْيُصَلُّوا۟ مَعَكَ وَلْيَأْخُذُوا۟ حِذْرَهُمْ وَأَسْلِحَتَهُمْ وَدَّ ٱلَّذِينَ كَفَرُوا۟ لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ فَيَمِيلُونَ عَلَيْكُمْ مَّيْلَةً وَٰحِدَةً وَلَا جُنَاحَ عَلَيْكُمْ إِن كَانَ بِكُمْ أَذًى مِّن مَّطَرٍ أَوْ كُنتُم مَّرْضَىٰٓ أَن تَضَعُوٓا۟ أَسْلِحَتَكُمْ وَخُذُوا۟ حِذْرَكُمْ إِنَّ ٱللَّهَ أَعَدَّ لِلْكَٰفِرِينَ عَذَابًا مُّهِينًا»</p>
-<p class="verse-ref" data-source-line="225">(<bdi dir="ltr">4:102</bdi>)</p>
-<p class="translation" id="passage-226" data-source-line="226">“When you are among them and lead them in prayer, let a group of them stand with you and take their weapons. When they have prostrated, let them move behind you, and let another group who have not yet prayed come and pray with you, taking their precautions and weapons. Those who reject faith wish that you would neglect your weapons and equipment, so that they could fall upon you in a single assault. There is no blame upon you for setting down your weapons if you are troubled by rain or are ill, but take precautions. God has prepared a humiliating punishment for those who reject faith.”</p></blockquote>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-227" data-source-line="227">«فَإِذَا قَضَيْتُمُ ٱلصَّلَوٰةَ فَٱذْكُرُوا۟ ٱللَّهَ قِيَٰمًا وَقُعُودًا وَعَلَىٰ جُنُوبِكُمْ فَإِذَا ٱطْمَأْنَنتُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ إِنَّ ٱلصَّلَوٰةَ كَانَتْ عَلَى ٱلْمُؤْمِنِينَ كِتَٰبًا مَّوْقُوتًا»</p>
-<p class="verse-ref" data-source-line="228">(<bdi dir="ltr">4:103</bdi>)</p>
-<p class="translation" id="passage-229" data-source-line="229">“When you have completed the prayer, remember God standing, sitting, and on your sides. When you are secure, establish prayer. Prayer has been prescribed for believers at appointed times.”</p></blockquote>
+<span id="quote-221"></span><span id="passage-223"></span><div class="shared-verse-placeholder" data-quran-verses="4:101"></div>
+<span id="quote-224"></span><span id="passage-226"></span><div class="shared-verse-placeholder" data-quran-verses="4:102"></div>
+<span id="quote-227"></span><span id="passage-229"></span><div class="shared-verse-placeholder" data-quran-verses="4:103"></div>
 <p id="passage-230" data-source-line="230">These passages form a connected account involving travel, fear of attack, groups of worshippers, weapons, standing, and prostration. Verse <bdi dir="ltr">4:102</bdi> distinguishes those who have already prayed from those who have not. It addresses an identifiable observance that can be completed. An interpretation reducing Salat entirely to a general social activity must explain these details.</p>
 <p id="passage-231" data-source-line="231">The congregational arrangement is adapted to danger. One group prays while another maintains protection, and their roles change. Even rain and illness are considered in the instruction about weapons. Worship remains required while actual risks and limitations shape its performance.</p>
 <p id="passage-232" data-source-line="232">Verse <bdi dir="ltr">4:102</bdi> does not state a complete schedule of prayer cycles. It does not specify how many each group performs or provide totals for ordinary daily prayers. It establishes congregational worship and an arrangement for danger. Likewise, <bdi dir="ltr">4:101</bdi> addresses shortening prayer in a setting of travel and fear of attack; all later rulings about every kind of journey cannot simply be read into that sentence.</p>
 <p id="passage-233" data-source-line="233">The conclusion of the passage matters equally. After prayer, people are to remember God standing, sitting, and lying down. When security returns, they are to establish prayer, which has appointed times. The observance ends, but remembrance continues. Prayer should influence the life to which the worshipper returns.</p>
 <p id="passage-234" data-source-line="234">Accommodation in danger does not abolish instructions for ordinary circumstances. It shows that prayer has a form while its performance also responds to the worshipper’s situation. Making worship harder than God requires is not evidence of greater faithfulness to Him.</p>
 <p id="passage-235" data-source-line="235">Human capacity is also addressed in a general principle:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-236" data-source-line="236">«لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ»</p>
-<p class="verse-ref" data-source-line="237">(<bdi dir="ltr">2:286</bdi>)</p>
-<p class="translation" id="passage-238" data-source-line="238">“God does not burden any soul beyond its capacity. It has to its credit what it has earned, and against it what it has incurred. Our Lord, do not take us to task if we forget or make a mistake. Our Lord, do not lay upon us a burden like the one You laid upon those before us. Our Lord, do not burden us with what we have no strength to bear. Pardon us, forgive us, and have mercy on us. You are our protector, so help us against the people who reject faith.”</p></blockquote>
+<span id="quote-236"></span><span id="passage-238"></span><div class="shared-verse-placeholder" data-quran-verses="2:286"></div>
 <p id="passage-239" data-source-line="239">Capacity limits responsibility; it does not provide an excuse to evade it. Someone genuinely unable to stand or perform a customary movement cannot be treated as if they possessed the ability of a healthy person. This verse does not separately describe every form of prayer during illness. The accommodation follows from its general principle. Worship should remain possible, and the worshipper should assess their abilities honestly.</p>
 <span id="the-times-of-the-prayer-connection" class="legacy-anchor" aria-hidden="true"></span>
 <span id="the-five-time-reading" class="legacy-anchor" aria-hidden="true"></span>
@@ -343,37 +227,17 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <span id="7-appointed-times" class="legacy-anchor" aria-hidden="true"></span>
 <h3 id="times-of-salat" data-source-line="240">6. Prayer Times: What Is Stated and What Is Inferred?</h3>
 <p id="passage-241" data-source-line="241">Verse <bdi dir="ltr">4:103</bdi> establishes that prayer has appointed times. It is not left entirely to the moment when we happen to feel devotional. To understand those times, however, we must read the relevant passages together rather than attach the familiar names of prayers to every temporal expression in advance.</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-242" data-source-line="242">«أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًا»</p>
-<p class="verse-ref" data-source-line="243">(<bdi dir="ltr">17:78</bdi>)</p>
-<p class="translation" id="passage-244" data-source-line="244">“Establish prayer from the sun’s decline until the darkness of night, and the dawn recitation. The dawn recitation is indeed witnessed.”</p></blockquote>
+<span id="quote-242"></span><span id="passage-244"></span><div class="shared-verse-placeholder" data-quran-verses="17:78"></div>
 <p id="passage-245" data-source-line="245">The verse gives an interval from the sun’s decline to the darkness of night and separately mentions dawn recitation. The interpretation of duluk (the sun’s movement or decline in this passage) affects where that interval begins. Read as its decline from the zenith, it begins around midday; read as sunset, it begins later. The verse itself does not assign a named prayer and number of cycles to every subdivision of the interval.</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-246" data-source-line="246">«وَأَقِمِ ٱلصَّلَوٰةَ طَرَفَىِ ٱلنَّهَارِ وَزُلَفًا مِّنَ ٱلْلَّيْلِ إِنَّ ٱلْحَسَنَٰتِ يُذْهِبْنَ ٱلسَّيِّـَٔاتِ ذَٰلِكَ ذِكْرَىٰ لِلذَّٰكِرِينَ»</p>
-<p class="verse-ref" data-source-line="247">(<bdi dir="ltr">11:114</bdi>)</p>
-<p class="translation" id="passage-248" data-source-line="248">“Establish prayer at the two ends of the day and in the near portions of the night. Good deeds remove bad deeds. This is a reminder for those who remember.”</p></blockquote>
+<span id="quote-246"></span><span id="passage-248"></span><div class="shared-verse-placeholder" data-quran-verses="11:114"></div>
 <p id="passage-249" data-source-line="249">Here the instruction names the two ends of the day and portions of the night. Turning those expressions into an exact schedule or a specified total of prayers requires an argument. The closing statement also connects prayer with good deeds and remembrance. Its concern extends beyond identifying a clock time.</p>
 <p id="passage-250" data-source-line="250">Another verse explicitly names two prayers:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-251" data-source-line="251">«يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لِيَسْتَـْٔذِنكُمُ ٱلَّذِينَ مَلَكَتْ أَيْمَٰنُكُمْ وَٱلَّذِينَ لَمْ يَبْلُغُوا۟ ٱلْحُلُمَ مِنكُمْ ثَلَٰثَ مَرَّٰتٍ مِّن قَبْلِ صَلَوٰةِ ٱلْفَجْرِ وَحِينَ تَضَعُونَ ثِيَابَكُم مِّنَ ٱلظَّهِيرَةِ وَمِنۢ بَعْدِ صَلَوٰةِ ٱلْعِشَآءِ ثَلَٰثُ عَوْرَٰتٍ لَّكُمْ لَيْسَ عَلَيْكُمْ وَلَا عَلَيْهِمْ جُنَاحٌۢ بَعْدَهُنَّ طَوَّٰفُونَ عَلَيْكُم بَعْضُكُمْ عَلَىٰ بَعْضٍ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْـَٔايَٰتِ وَٱللَّهُ عَلِيمٌ حَكِيمٌ»</p>
-<p class="verse-ref" data-source-line="252">(<bdi dir="ltr">24:58</bdi>)</p>
-<p class="translation" id="passage-253" data-source-line="253">“You who believe, let those whom your right hands possess and those among you who have not reached puberty ask your permission on three occasions: before the dawn prayer, when you put aside your clothes at midday, and after the night prayer. These are three times of privacy for you. Outside them, there is no blame upon you or them as you move about attending to one another. In this way God makes the signs clear to you. God is knowing and wise.”</p></blockquote>
+<span id="quote-251"></span><span id="passage-253"></span><div class="shared-verse-placeholder" data-quran-verses="24:58"></div>
 <p id="passage-254" data-source-line="254">The dawn prayer, Fajr, and the night prayer, Isha, are recognizable points in the household’s day. They mark two of its periods of privacy. But three occasions for requesting entry do not establish that there are three prayers. Midday is identified by putting aside clothing, without an explicit prayer name. Counting periods of privacy cannot settle the number of daily prayers.</p>
 <p id="passage-255" data-source-line="255">Other passages call for glorifying God at various times:</p>
-<blockquote class="quran-quote" data-verse-unit="30:17">
-<p class="arabic" lang="ar" dir="rtl" id="quote-256">فَسُبْحَٰنَ ٱللَّهِ حِينَ تُمْسُونَ وَحِينَ تُصْبِحُونَ</p>
-<p class="translation" id="passage-259">So glorify God when you enter the evening and when you enter the morning.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/030-ar-rum/#ayah-017">Ar-Rum <bdi dir="ltr">30:17</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="30:18">
-<p class="arabic" lang="ar" dir="rtl" id="quote-257">وَلَهُ ٱلْحَمْدُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَعَشِيًّا وَحِينَ تُظْهِرُونَ</p>
-<p class="translation">To Him belongs praise in the heavens and the earth, in the late afternoon, and when you enter midday.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/030-ar-rum/#ayah-018">Ar-Rum <bdi dir="ltr">30:18</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-260" data-source-line="260">«فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ غُرُوبِهَا وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ»</p>
-<p class="verse-ref" data-source-line="261">(<bdi dir="ltr">20:130</bdi>)</p>
-<p class="translation" id="passage-262" data-source-line="262">“Be steadfast in the face of what they say, and glorify your Lord with praise before the rising of the sun and before its setting. Glorify Him during portions of the night and at the edges of the day, so that you may be content.”</p></blockquote>
+<span id="quote-256"></span><span id="passage-259"></span><div class="shared-verse-placeholder" data-quran-verses="30:17"></div>
+<span id="quote-257"></span><div class="shared-verse-placeholder" data-quran-verses="30:18"></div>
+<span id="quote-260"></span><span id="passage-262"></span><div class="shared-verse-placeholder" data-quran-verses="20:130"></div>
 <p id="passage-263" data-source-line="263">Remembrance and glorification belong throughout the day and night. Prayer can be a particularly clear expression of them. Yet a command to glorify God at a time is not automatically a prescription for a separate obligatory prayer with a fixed number of cycles. The move from one claim to the other requires evidence.</p>
 <p id="passage-264" data-source-line="264">A reading in terms of three broad periods identifies dawn, the middle and later part of the day, and the period from sunset into night. Others draw such a division from the two ends of the day and portions of the night in <bdi dir="ltr">11:114</bdi>. These are attempts to relate the temporal signs to one another. The passages do not explicitly announce that the total number of obligatory prayers is exactly three.</p>
 <p id="passage-265" data-source-line="265">A five-prayer reading combines the passages with the familiar practice. Dawn supplies one occasion; the period after midday is associated with Dhuhr (the noon prayer) and Asr (the afternoon prayer); sunset into night is associated with Maghrib (the sunset prayer) and Isha. References to glorification before sunset and during the night are also used to explain this arrangement. This can show how the familiar prayers fit the temporal indications. Dividing an interval into two distinct prayers, however, cannot be established merely by counting words; knowledge of the communal practice also contributes.</p>
@@ -386,16 +250,8 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <p id="passage-272" data-source-line="272">The separate study of qibla explores that relationship in detail. For the present purpose, direction is a real feature of prayer, while the worth of worship cannot be measured by bodily orientation alone:</p>
 <p class="related-link" id="passage-273" data-source-line="273"><a href="/en/quran-terminology/qibla-wajh-and-hanif-in-the-quran/">Qibla, Wajh, and Hanif in the Qur’an</a></p>
 <h3 id="congregation" data-source-line="274">8. Congregation and the Shared Life of Worship</h3>
-<blockquote class="quran-quote" data-verse-unit="62:9">
-<p class="arabic" lang="ar" dir="rtl" id="quote-275">يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ</p>
-<p class="translation" id="passage-278">You who believe, when the call to prayer is made on Friday, hasten to the remembrance of God and leave trade. That is better for you, if you know.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/062-al-jumuah/#ayah-009">Al-Jumu'ah <bdi dir="ltr">62:9</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="62:10">
-<p class="arabic" lang="ar" dir="rtl" id="quote-276">فَإِذَا قُضِيَتِ ٱلصَّلَوٰةُ فَٱنتَشِرُوا۟ فِى ٱلْأَرْضِ وَٱبْتَغُوا۟ مِن فَضْلِ ٱللَّهِ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ</p>
-<p class="translation">When the prayer is completed, disperse through the land, seek God’s bounty, and remember God often, so that you may prosper.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/062-al-jumuah/#ayah-010">Al-Jumu'ah <bdi dir="ltr">62:10</bdi></a></p>
-</blockquote>
+<span id="quote-275"></span><span id="passage-278"></span><div class="shared-verse-placeholder" data-quran-verses="62:9"></div>
+<span id="quote-276"></span><div class="shared-verse-placeholder" data-quran-verses="62:10"></div>
 <p id="passage-279" data-source-line="279">These verses describe a public beginning and ending to prayer. People are called, leave their trade, and gather for remembrance. When worship concludes, they may return to their work and seek provision. Prayer makes a place for remembrance within economic and communal life, and that remembrance should accompany people back into their daily activities.</p>
 <p id="passage-280" data-source-line="280">Congregation requires coordination. Listening, moving together, and respecting other worshippers help make it possible. A shared arrangement need not become a claim that every difference is hostility toward God. The Qur’an calls people together for remembrance. Anyone turning that gathering into a tribunal against other people’s worship must justify the judgments they make.</p>
 <p id="passage-281" data-source-line="281">Taken together, these passages provide substantial practical guidance: bodily preparation, speech and recitation, standing, bowing, prostration, timing, direction, congregation, and accommodation to human circumstances. The absence of some later legal details cannot erase the guidance that is actually present.</p>
@@ -404,35 +260,23 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <p id="passage-284" data-source-line="284">Having examined the practical instructions, we should also identify what the Qur’an does not specify. No verse separately assigns a number of cycles to each of the five familiar daily prayers. Nor does it provide a comprehensive manual of every invocation, hand position, finger movement, distance between the feet, or condition of invalidity found in legal works. We should acknowledge that absence rather than force inherited specifications into passages that do not state them.</p>
 <p id="passage-285" data-source-line="285">Why should this absence establish a deficiency in the Book? That conclusion assumes God intended to make every such detail obligatory in precisely its inherited form. If this is assumed before reading, the absence will naturally appear as a gap. Starting with the Qur’an changes the question: which elements are commanded, and which details of implementation have not been made compulsory?</p>
 <p id="passage-286" data-source-line="286">The Qur’an asks:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-287" data-source-line="287">«أَفَغَيْرَ ٱللَّهِ أَبْتَغِى حَكَمًا وَهُوَ ٱلَّذِىٓ أَنزَلَ إِلَيْكُمُ ٱلْكِتَٰبَ مُفَصَّلًا وَٱلَّذِينَ ءَاتَيْنَٰهُمُ ٱلْكِتَٰبَ يَعْلَمُونَ أَنَّهُۥ مُنَزَّلٌ مِّن رَّبِّكَ بِٱلْحَقِّ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ»</p>
-<p class="verse-ref" data-source-line="288">(<bdi dir="ltr">6:114</bdi>)</p>
-<p class="translation" id="passage-289" data-source-line="289">“Shall I seek a judge other than God, when He is the One who has sent down to you the Book explained in detail? Those to whom We have given the Book know that it has been sent down from your Lord in truth. So do not be among those who doubt.”</p></blockquote>
+<span id="quote-287"></span><span id="passage-289"></span><div class="shared-verse-placeholder" data-quran-verses="6:114"></div>
 <p id="passage-290" data-source-line="290">The Book functions here as a standard of judgment. Its being explained in detail need not mean that every ordinary movement or decision has a separate instruction. Guidance can define responsibility while leaving choices within its boundaries. Its sufficiency does not require the elimination of human judgment in practical life.</p>
 <p id="passage-291" data-source-line="291">A congregation, for example, needs an arrangement people can learn and follow: when to begin, how to move with the leader, and how to teach newcomers. Agreeing on a common method is reasonable. But the need for coordination does not establish that God has imposed every detail of that method on all people everywhere. Organizing and teaching worship do not automatically create divine law.</p>
 <p id="passage-292" data-source-line="292">Where examination of the passages does not establish a binding requirement, choices remain within the Qur’an’s commands. Someone declaring a particular hand position or formula a condition of valid prayer must demonstrate that requirement. The burden is not on everyone else to find a separate verse rejecting each proposed addition. Neither the age nor the popularity of a practice supplies the missing proof.</p>
 <p id="passage-293" data-source-line="293">This leaves no licence to disregard the instructions that do exist. Purification, standing, bowing, prostration, speech, and timing remain features addressed in the text. The distinction concerns additional details for which an obligation has not been established. Faithfulness to a command and judgment about its unspecified implementation can coexist.</p>
 <h3 id="amani" data-source-line="294">Inherited Assumptions and Knowledge of the Book</h3>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-295" data-source-line="295">«وَمِنْهُمْ أُمِّيُّونَ لَا يَعْلَمُونَ ٱلْكِتَٰبَ إِلَّآ أَمَانِىَّ وَإِنْ هُمْ إِلَّا يَظُنُّونَ»</p>
-<p class="verse-ref" data-source-line="296">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-078"><bdi dir="ltr">2:78</bdi></a>)</p>
-<p class="translation" id="passage-297" data-source-line="297">“Among them are people without knowledge of the Book; they know it only through amani, and they do no more than suppose.”</p></blockquote>
+<span id="quote-295"></span><span id="passage-297"></span><div class="shared-verse-placeholder" data-quran-verses="2:78"></div>
 <p id="passage-298" data-source-line="298">The contrast in <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-078"><bdi dir="ltr">2:78</bdi></a> is between knowing the Book and relying on supposition. <a href="/quran-terminology/en/roots/m-n-y/">Amani</a> (wishes or suppositions; in another interpretation, recitations without understanding) is examined more fully in Forqan’s reflection on this verse. The issue relevant here is familiar: a person can repeat something as religion for years without knowing whether it comes from the Book or from what others have said about it.</p>
 <p id="passage-299" data-source-line="299">Someone may have been told as a child that a movement invalidates prayer. Years later they repeat the rule as confidently as if it were an explicit verse, although they have never examined its basis. Repetition has taken the place of evidence. A family or school’s practice is not itself the problem; the problem is forgetting its source and giving an inherited judgment the authority of God’s speech.</p>
 <p id="passage-300" data-source-line="300">When people claim exclusive entry into Paradise, the Qur’an responds:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-301" data-source-line="301">«وَقَالُوا۟ لَن يَدْخُلَ ٱلْجَنَّةَ إِلَّا مَن كَانَ هُودًا أَوْ نَصَٰرَىٰ تِلْكَ أَمَانِيُّهُمْ قُلْ هَاتُوا۟ بُرْهَٰنَكُمْ إِن كُنتُمْ صَٰدِقِينَ»</p>
-<p class="verse-ref" data-source-line="302">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-111"><bdi dir="ltr">2:111</bdi></a>)</p>
-<p class="translation" id="passage-303" data-source-line="303">“They say, ‘No one will enter the Garden unless they are Jews or Christians.’ Those are their wishes. Say: Bring your proof, if you are truthful.”</p></blockquote>
+<span id="quote-301"></span><span id="passage-303"></span><div class="shared-verse-placeholder" data-quran-verses="2:111"></div>
 <p id="passage-304" data-source-line="304">The immediate subject is an exclusive claim about salvation. Its demand for proof also provides a discipline for religious claims more broadly. Someone declaring another person’s worship invalid must do more than appeal to what is familiar within their own school. The same challenge applies to us: does our conclusion follow from the verses and their setting, or have we dressed an earlier assumption in Qur’anic language?</p>
 <p id="passage-305" data-source-line="305">Forqan’s reflections on these two passages examine knowledge, inherited assumptions, and the demand for proof:</p>
 <p class="related-link" id="passage-306" data-source-line="306"><a href="/quran-reflection/en/002-al-baqarah/#ayah-078">Reflection on 2:78</a></p>
 <p class="related-link" id="passage-307" data-source-line="307"><a href="/quran-reflection/en/002-al-baqarah/#ayah-111">Reflection on 2:111</a></p>
 <p id="passage-308" data-source-line="308">The Qur’an also warns against attributing invented rulings to God:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-309" data-source-line="309">«وَلَا تَقُولُوا۟ لِمَا تَصِفُ أَلْسِنَتُكُمُ ٱلْكَذِبَ هَٰذَا حَلَٰلٌ وَهَٰذَا حَرَامٌ لِّتَفْتَرُوا۟ عَلَى ٱللَّهِ ٱلْكَذِبَ إِنَّ ٱلَّذِينَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ لَا يُفْلِحُونَ»</p>
-<p class="verse-ref" data-source-line="310">(<bdi dir="ltr">16:116</bdi>)</p>
-<p class="translation" id="passage-311" data-source-line="311">“Do not say, on the basis of the falsehood your tongues describe, ‘This is lawful and that is forbidden,’ inventing a lie against God. Those who invent lies against God do not prosper.”</p></blockquote>
+<span id="quote-309"></span><span id="passage-311"></span><div class="shared-verse-placeholder" data-quran-verses="16:116"></div>
 <p id="passage-312" data-source-line="312">People can reason about religion, offer interpretations, and learn practices from one another. Their judgments must remain distinguishable from God’s commands. Verse <a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-079"><bdi dir="ltr">2:79</bdi></a> also condemns writing something and claiming that it comes from God. An honest interpretive mistake is not the same as deliberate fabrication. Yet attaching a religious name to a conclusion does not turn human reasoning into revelation.</p>
 <p id="passage-313" data-source-line="313">The issue is not simply how difficult an added condition is. Even an easy detail cannot be called a divine obligation without evidence. A person may choose a method as a private precaution. Making that precaution compulsory for others, or using it to invalidate their prayer, is a further claim requiring its own grounds.</p>
 <span id="living-practice-and-written-reports-are-not-the-same" class="legacy-anchor" aria-hidden="true"></span>
@@ -477,10 +321,7 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <p id="passage-350" data-source-line="350">These are substantially different directions for a worshipper. Yet they must not be exaggerated. The widely held Hanafi position does not say that a follower’s recitation of al-Fatihah automatically invalidates the prayer. The classification is prohibitively discouraged. Even with that distinction maintained, an obligation to recite and a direction to refrain are meaningfully different instructions.</p>
 <p id="passage-351" data-source-line="351">The practical question is simple: should I recite or remain silent behind the leader? Different schools give different answers while appealing to reports and legal reasoning. That challenges the claim that those methods have removed all uncertainty about every detail. It does not, by itself, establish that every answer is false. Anyone claiming final certainty for one answer still needs to demonstrate its grounds.</p>
 <p id="passage-352" data-source-line="352">One Qur’anic passage frequently invoked in this discussion says:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-353" data-source-line="353">«وَإِذَا قُرِئَ ٱلْقُرْءَانُ فَٱسْتَمِعُوا۟ لَهُۥ وَأَنصِتُوا۟ لَعَلَّكُمْ تُرْحَمُونَ»</p>
-<p class="verse-ref" data-source-line="354">(<bdi dir="ltr">7:204</bdi>)</p>
-<p class="translation" id="passage-355" data-source-line="355">“When the Qur’an is recited, listen to it and remain silent, so that you may receive mercy.”</p></blockquote>
+<span id="quote-353"></span><span id="passage-355"></span><div class="shared-verse-placeholder" data-quran-verses="7:204"></div>
 <p id="passage-356" data-source-line="356">That instruction leaves questions about its application to particular circumstances. What if the follower cannot hear? What happens during a pause? Is this particular chapter exclusively required from every follower in every cycle? Citing one sentence cannot settle all those matters without interpretation. Likewise, <bdi dir="ltr">73:20</bdi> permits reciting what is manageable within a passage about night worship. A ruling about a follower in daily congregational prayer must explain how the passages support it.</p>
 <p id="passage-357" data-source-line="357">Both attentive recitation and attentive listening have value, and the congregation needs a workable arrangement. A further claim—that departure from one arrangement is divinely declared to invalidate prayer—must be separately established. Worshippers should understand what they recite and hear; those giving legal guidance should make clear where the text ends and their interpretation begins.</p>
 <h3 id="audible-and-quiet" data-source-line="358">2. Audible and Quiet Recitation</h3>
@@ -514,26 +355,11 @@ excerpt: "A full study of Salat in the Qur’an: its meaning and purpose, practi
 <p id="passage-382" data-source-line="382">This distinction leaves room for firm criticism. The position defended here is that neither a school nor an individual has independent authority to legislate in God’s name. Their conclusions remain open to examination. People can benefit from expertise while asking where a ruling comes from, how it follows from the text, and how certain it really is.</p>
 <h3 id="cow-narrative" data-source-line="383">7. The Israelites and the Cow</h3>
 <p id="passage-384" data-source-line="384">The account in chapter 2 illustrates how people’s response to a command can make its fulfilment harder:</p>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-385" data-source-line="385">«وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦٓ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تَذْبَحُوا۟ بَقَرَةً قَالُوٓا۟ أَتَتَّخِذُنَا هُزُوًا قَالَ أَعُوذُ بِٱللَّهِ أَنْ أَكُونَ مِنَ ٱلْجَٰهِلِينَ»</p>
-<p class="verse-ref" data-source-line="386">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-067"><bdi dir="ltr">2:67</bdi></a>)</p>
-<p class="translation" id="passage-387" data-source-line="387">“When Moses said to his people, ‘God commands you to slaughter a cow,’ they said, ‘Are you making fun of us?’ He said, ‘I seek refuge in God from being one of the ignorant.’”</p></blockquote>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-388" data-source-line="388">«قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا فَارِضٌ وَلَا بِكْرٌ عَوَانٌۢ بَيْنَ ذَٰلِكَ فَٱفْعَلُوا۟ مَا تُؤْمَرُونَ»</p>
-<p class="verse-ref" data-source-line="389">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-068"><bdi dir="ltr">2:68</bdi></a>)</p>
-<p class="translation" id="passage-390" data-source-line="390">“They said, ‘Call upon your Lord for us to make clear what it is.’ He said, ‘He says it is a cow neither old nor young, but between the two. So do what you are commanded.’”</p></blockquote>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-391" data-source-line="391">«قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا لَوْنُهَا قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ صَفْرَآءُ فَاقِعٌ لَّوْنُهَا تَسُرُّ ٱلنَّٰظِرِينَ»</p>
-<p class="verse-ref" data-source-line="392">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-069"><bdi dir="ltr">2:69</bdi></a>)</p>
-<p class="translation" id="passage-393" data-source-line="393">“They said, ‘Call upon your Lord for us to make clear its colour.’ He said, ‘He says it is a yellow cow, bright in colour, pleasing to those who look at it.’”</p></blockquote>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-394" data-source-line="394">«قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ إِنَّ ٱلْبَقَرَ تَشَٰبَهَ عَلَيْنَا وَإِنَّآ إِن شَآءَ ٱللَّهُ لَمُهْتَدُونَ»</p>
-<p class="verse-ref" data-source-line="395">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-070"><bdi dir="ltr">2:70</bdi></a>)</p>
-<p class="translation" id="passage-396" data-source-line="396">“They said, ‘Call upon your Lord for us to make clear what it is. The cattle seem alike to us, and, if God wills, we shall be guided.’”</p></blockquote>
-<blockquote class="quran-quote">
-<p class="arabic" lang="ar" dir="rtl" id="quote-397" data-source-line="397">«قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا ذَلُولٌ تُثِيرُ ٱلْأَرْضَ وَلَا تَسْقِى ٱلْحَرْثَ مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا قَالُوا۟ ٱلْـَٰٔنَ جِئْتَ بِٱلْحَقِّ فَذَبَحُوهَا وَمَا كَادُوا۟ يَفْعَلُونَ»</p>
-<p class="verse-ref" data-source-line="398">(<a class="verse-citation" data-verse-citation="true" href="/quran-reflection/en/002-al-baqarah/#ayah-071"><bdi dir="ltr">2:71</bdi></a>)</p>
-<p class="translation" id="passage-399" data-source-line="399">“He said, ‘He says it is a cow not trained to plough the earth or water the fields, sound and without a mark.’ They said, ‘Now you have brought the truth.’ So they slaughtered it, though they nearly failed to do so.”</p></blockquote>
+<span id="quote-385"></span><span id="passage-387"></span><div class="shared-verse-placeholder" data-quran-verses="2:67"></div>
+<span id="quote-388"></span><span id="passage-390"></span><div class="shared-verse-placeholder" data-quran-verses="2:68"></div>
+<span id="quote-391"></span><span id="passage-393"></span><div class="shared-verse-placeholder" data-quran-verses="2:69"></div>
+<span id="quote-394"></span><span id="passage-396"></span><div class="shared-verse-placeholder" data-quran-verses="2:70"></div>
+<span id="quote-397"></span><span id="passage-399"></span><div class="shared-verse-placeholder" data-quran-verses="2:71"></div>
 <p id="passage-400" data-source-line="400">The initial command did not specify age, colour, and the other later features. Repeated questions were followed by answers that narrowed the choice. Moses urged them to act, yet hesitation continued. Even after the explanations, they nearly failed to comply. The problem was therefore more than missing information; their disposition toward the command obstructed action.</p>
 <p id="passage-401" data-source-line="401">The story does not condemn questions asked to understand. Such questions can make action possible. The danger appears when inquiry becomes a means of delay, or when a command seems insufficiently religious until it has accumulated enough qualifications to become difficult. Greater complication is not automatically greater faithfulness.</p>
 <p id="passage-402" data-source-line="402">Prayer can face a similar displacement of attention. Anxiety about hand placement, finger movements, and minor variations may grow while concern about showing off or wronging others fades. Details intended to assist worship can come to dominate it. The practice should cultivate devotion rather than trap the worshipper in an endless search for additional restrictions.</p>

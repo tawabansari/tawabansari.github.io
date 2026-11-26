@@ -110,11 +110,7 @@ excerpt: "A Qur’an-centered reflection on qada and qadar, free will, determini
     <p>In the absolute knowledge of The God, not only are the choices this person makes in his present condition known, but all possible paths he could have taken under other conditions are also known. The God knows what kind of person he would have become if he had not been born with this illness, what choices he would have made, what paths he would have taken, and what the result of each would have been. The God knows whether he would have been more grateful or more heedless in ease, more just or more oppressive in greater power.</p>
     <p>For this reason, divine judgment is not based merely on the visible shape of a person’s life. It is based on The God’s complete knowledge of real capacity, real conditions, and all possible openings available to that human being. The God does not judge a person by comparing him superficially with others, but by knowing his own true capacity.</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا</p>
-      <p class="translation">The God does not burden any soul except according to its capacity.</p>
-      <p class="source"><a href="/quran-reflection/en/002-al-baqarah/286/">Al-Baqarah 2:286</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="2:286"></div>
 
     <p>This means that illness, limitation, or hardship is not in itself a sign of injustice. It is part of the specific conditions of that person’s test. The justice of The God is that He knows not only what a person did, but what he could have done, what he would have done under other conditions, and what was truly within his capacity.</p>
     <p>In the pharmacy example, a just judge would not look only at how quickly the patient recovered. He would look at what choice the patient made in light of the real condition of his body. The God judges with complete and flawless knowledge.</p>
@@ -127,11 +123,7 @@ excerpt: "A Qur’an-centered reflection on qada and qadar, free will, determini
     <p>Now we turn directly to the Noble Qur’an, because the Qur’an itself explains the relation between divine knowledge, human choice, trial, and justice in judgment.</p>
     <p>The God first describes the reach of His knowledge:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَعِندَهُ مَفَاتِحُ الْغَيْبِ لَا يَعْلَمُهَا إِلَّا هُوَ ۚ وَيَعْلَمُ مَا فِي الْبَرِّ وَالْبَحْرِ ۚ وَمَا تَسْقُطُ مِن وَرَقَةٍ إِلَّا يَعْلَمُهَا وَلَا حَبَّةٍ فِي ظُلُمَاتِ الْأَرْضِ وَلَا رَطْبٍ وَلَا يَابِسٍ إِلَّا فِي كِتَابٍ مُّبِينٍ</p>
-      <p class="translation">With Him are the keys of the unseen; none knows them except Him. He knows what is on land and sea. No leaf falls except that He knows it, nor a grain in the darknesses of the earth, nor anything moist or dry, except that it is in a clear record.</p>
-      <p class="source"><a href="/quran-reflection/en/006-al-anam/059/">Al-An‘am 6:59</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="6:59"></div>
 
     <p>This verse shows that The God’s knowledge is complete. No event, choice, or condition stands outside His knowledge.</p>
   </section>
@@ -140,25 +132,13 @@ excerpt: "A Qur’an-centered reflection on qada and qadar, free will, determini
     <h2>9. Worldly life as trial</h2>
     <p>The same Qur’an that speaks of The God’s absolute knowledge also explains the purpose of worldly life:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا وَهُوَ الْعَزِيزُ الْغَفُورُ</p>
-      <p class="translation">He created death and life to test you as to which of you is best in action, and He is The Mighty, The Forgiving.</p>
-      <p class="source"><a href="/quran-reflection/en/067-al-mulk/002/">Al-Mulk 67:2</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="67:2"></div>
 
     <p>When The God says that the purpose of life is trial, this itself shows that human action is real and meaningful. A trial has meaning only where real choice exists.</p>
     <p>The God also explains the nature of this trial:</p>
 
-    <blockquote class="quran-quote" data-verse-unit="2:155">
-<p class="arabic" lang="ar" dir="rtl">وَلَنَبْلُوَنَّكُم بِشَيْءٍ مِّنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِّنَ الْأَمْوَالِ وَالْأَنفُسِ وَالثَّمَرَاتِ ۗ وَبَشِّرِ الصَّابِرِينَ</p>
-<p class="translation">We will surely test you with something of fear, hunger, loss of wealth, lives, and fruits. Give good news to the patient,</p>
-<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-155">Al-Baqarah <bdi dir="ltr">2:155</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="2:156">
-<p class="arabic" lang="ar" dir="rtl">الَّذِينَ إِذَا أَصَابَتْهُم مُّصِيبَةٌ قَالُوا إِنَّا <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="لِلَّهِ">لِلَّهِ</button> وَإِنَّا إِلَيْهِ رَاجِعُونَ</p>
-<p class="translation">those who, when a calamity reaches them, say: We belong to The God, and to Him we return.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/002-al-baqarah/#ayah-156">Al-Baqarah <bdi dir="ltr">2:156</bdi></a></p>
-</blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="2:155"></div>
+<div class="shared-verse-placeholder" data-quran-verses="2:156"></div>
 
     <p>This verse shows clearly that hardship, including the loss of life, wealth, health, or security, belongs to the reality of trial. It is not, by itself, a sign of injustice.</p>
   </section>
@@ -167,42 +147,18 @@ excerpt: "A Qur’an-centered reflection on qada and qadar, free will, determini
     <h2>10. Human responsibility and what the soul earns</h2>
     <p>At the same time, the Qur’an directly places responsibility for choice upon the human being:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَقُلِ الْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَاءَ فَلْيُؤْمِن وَمَن شَاءَ فَلْيَكْفُرْ</p>
-      <p class="translation">Say: The truth is from your Lord. So whoever wills, let him believe; and whoever wills, let him cover the truth.</p>
-      <p class="source"><a href="/quran-reflection/en/018-al-kahf/029/">Al-Kahf 18:29</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="18:29"></div>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">كُلُّ نَفْسٍ بِمَا كَسَبَتْ رَهِينَةٌ</p>
-      <p class="translation">Every soul is held in pledge for what it has earned.</p>
-      <p class="source"><a href="/quran-reflection/en/074-al-muddaththir/038/">Al-Muddaththir 74:38</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="74:38"></div>
 
-    <blockquote class="quran-quote" data-verse-unit="53:39">
-<p class="arabic" lang="ar" dir="rtl">وَأَن لَّيْسَ لِلْإِنسَانِ إِلَّا مَا سَعَىٰ</p>
-<p class="translation">And that the human being has nothing except what he strives for,</p>
-<p class="verse-ref"><a href="/quran-reflection/en/053-an-najm/#ayah-039">An-Najm <bdi dir="ltr">53:39</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="53:40">
-<p class="arabic" lang="ar" dir="rtl">وَأَنَّ سَعْيَهُ سَوْفَ يُرَىٰ</p>
-<p class="translation">and that his striving will soon be seen.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/053-an-najm/#ayah-040">An-Najm <bdi dir="ltr">53:40</bdi></a></p>
-</blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="53:39"></div>
+<div class="shared-verse-placeholder" data-quran-verses="53:40"></div>
 
     <p>These verses show that the human being has real choice and that his actions are the basis of judgment.</p>
     <p>Yet the Qur’an also makes clear that human will is not outside the will of The God:</p>
 
-    <blockquote class="quran-quote" data-verse-unit="81:28">
-<p class="arabic" lang="ar" dir="rtl">لِمَن شَاءَ مِنكُمْ أَن يَسْتَقِيمَ</p>
-<p class="translation">For whoever among you wills to go straight;</p>
-<p class="verse-ref"><a href="/quran-reflection/en/081-at-takwir/#ayah-028">At-Takwir <bdi dir="ltr">81:28</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="81:29">
-<p class="arabic" lang="ar" dir="rtl">وَمَا تَشَاءُونَ إِلَّا أَن يَشَاءَ <button data-root="A L H" data-root-meaning="In our linguistic reading, Allah is connected with ilah and the root A L H. Ilah means a deity or object of worship: the one toward whom a person turns in devotion, refuge, and servitude. The Arabic definite article al makes the expression definite, bringing al-ilah close to the meaning “The God.” Through contraction and assimilation, this form becomes Allah." data-context="In this reading, Allah is not merely an untranslatable proper name, but a title of rank for the One uniquely worthy of worship. Forqan therefore renders it as “The God.”" data-learn-more="/quran-terminology/en/roots/a-l-h/" class="word-link" type="button" data-word="اللَّهُ">اللَّهُ</button> رَبُّ الْعَالَمِينَ</p>
-<p class="translation">and you do not will except that The God, Lord of all worlds, wills.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/081-at-takwir/#ayah-029">At-Takwir <bdi dir="ltr">81:29</bdi></a></p>
-</blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="81:28"></div>
+<div class="shared-verse-placeholder" data-quran-verses="81:29"></div>
 
     <p>This verse expresses the balance we reached earlier: the human being wills and chooses, but this willing occurs within an order encompassed by The God.</p>
   </section>
@@ -211,11 +167,7 @@ excerpt: "A Qur’an-centered reflection on qada and qadar, free will, determini
     <h2>11. Shakilah: a Qur’anic key to condition and choice</h2>
     <p>At this point, the Qur’an adds a more subtle key, perhaps one of the most important verses for understanding the relation between condition, personality, and action:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">قُلْ كُلٌّ يَعْمَلُ عَلَىٰ شَاكِلَتِهِ فَرَبُّكُمْ أَعْلَمُ بِمَنْ هُوَ أَهْدَىٰ سَبِيلًا</p>
-      <p class="translation">Say: Each acts according to his shakilah, and your Lord knows best who is more guided in way.</p>
-      <p class="source"><a href="/quran-reflection/en/017-al-isra/084/">Al-Isra 17:84</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="17:84"></div>
 
     <p>Shakilah is more than a simple trait. It points to the formed shape of a person: nature, upbringing, environment, experience, and previous choices all gathered into a living inner form. No two human beings enter the world with exactly the same formation, and no two human beings become exactly the same through life. A person raised in safety and affection has one shakilah; a person raised in poverty, violence, illness, or humiliation has another.</p>
     <p>This verse gathers the example of Yusuf and the pharmacy example into one Qur’anic sentence: the human being acts from his shakilah, from the point to which unchosen conditions and previous choices have brought him. Yet the action remains his action; it is not something merely forced upon him.</p>
@@ -227,17 +179,9 @@ excerpt: "A Qur’an-centered reflection on qada and qadar, free will, determini
     <h2>12. Capacity, justice, and divine judgment</h2>
     <p>The central principle of divine justice in judgment is stated clearly:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ</p>
-      <p class="translation">The God does not burden any soul except according to its capacity. For it is what it has earned, and against it is what it has earned.</p>
-      <p class="source"><a href="/quran-reflection/en/002-al-baqarah/286/">Al-Baqarah 2:286</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="2:286"></div>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">لَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا وَلَدَيْنَا كِتَابٌ يَنطِقُ بِالْحَقِّ وَهُمْ لَا يُظْلَمُونَ</p>
-      <p class="translation">We do not burden any soul except according to its capacity, and with Us is a record that speaks with truth, and they will not be wronged.</p>
-      <p class="source"><a href="/quran-reflection/en/023-al-muminun/062/">Al-Mu’minun 23:62</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="23:62"></div>
 
     <p>These verses, together with the verse of shakilah, form a complete picture. The God knows each person’s nature, conditions, formation, striving, and real capacity. He judges on that basis, not by a shallow comparison between people.</p>
   </section>
@@ -246,31 +190,15 @@ excerpt: "A Qur’an-centered reflection on qada and qadar, free will, determini
     <h2>13. This world in relation to the Hereafter</h2>
     <p>The Qur’an also corrects our view of worldly life:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">وَمَا هَذِهِ الْحَيَاةُ الدُّنْيَا إِلَّا لَهْوٌ وَلَعِبٌ ۚ وَإِنَّ الدَّارَ الْآخِرَةَ لَهِيَ الْحَيَوَانُ ۚ لَوْ كَانُوا يَعْلَمُونَ</p>
-      <p class="translation">This worldly life is nothing but diversion and play, and the home of the Hereafter is truly the life, if they only knew.</p>
-      <p class="source"><a href="/quran-reflection/en/029-al-ankabut/064/">Al-‘Ankabut 29:64</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="29:64"></div>
 
-    <blockquote class="quran-quote" data-verse-unit="87:16">
-<p class="arabic" lang="ar" dir="rtl">بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا</p>
-<p class="translation">Rather, you prefer the worldly life,</p>
-<p class="verse-ref"><a href="/quran-reflection/en/087-al-ala/#ayah-016">Al-A'la <bdi dir="ltr">87:16</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="87:17">
-<p class="arabic" lang="ar" dir="rtl">وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ</p>
-<p class="translation">while the Hereafter is better and more lasting.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/087-al-ala/#ayah-017">Al-A'la <bdi dir="ltr">87:17</bdi></a></p>
-</blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="87:16"></div>
+<div class="shared-verse-placeholder" data-quran-verses="87:17"></div>
 
     <p>These verses show that worldly life is brief and passing in relation to the Hereafter, and final judgment takes place within a frame much greater than this limited life.</p>
     <p>Finally, The God states the foundation of His justice:</p>
 
-    <blockquote class="quran-quote">
-      <p class="arabic">إِنَّ اللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍ</p>
-      <p class="translation">Indeed, The God does not wrong by the weight of an atom.</p>
-      <p class="source"><a href="/quran-reflection/en/004-an-nisa/040/">An-Nisa 4:40</a></p>
-    </blockquote>
+    <div class="shared-verse-placeholder" data-quran-verses="4:40"></div>
   </section>
 
   <section class="article-section conclusion" id="conclusion">

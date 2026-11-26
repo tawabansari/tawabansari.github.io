@@ -156,65 +156,29 @@ padding: 0.68rem 0.8rem;
 <h2 id="opening-scene">The Foundational Scene of Moral Fall</h2>
 <p>In this section, the Qur’an places before us one of the most foundational scenes of moral collapse: the creation of the human being, the command to prostrate, the refusal of Iblis, and finally the clarification of the boundary of Satan’s power. This story is not only about the beginning of creation. It is about the disease of istikbar: arrogant self-exaltation before the truth. The Qur’an shows how a being can know God, speak with God, acknowledge His lordship, and yet fall at the moment of testing because he takes himself as the standard.</p>
 <p>The central verse of this discussion is:</p>
-<blockquote>
-<p class="quran-quote">﴿وَإِنَّ عِبَادِي لَيْسَ لَكَ عَلَيْهِمْ سُلْطَانٌ إِلَّا مَنِ اتَّبَعَكَ مِنَ الْغَاوِينَ﴾</p>
-<p>“Indeed, over My servants you have no authority, except those of the deviators who follow you.”</p>
-<p>Al-Hijr 15:42</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="15:42"></div>
 <p>To understand this verse, we must see the path of verses 26 through 42 together. The Qur’an begins by speaking about creation, but the final purpose is not merely to identify the material from which the human being was made. The point is to show how the arrogant gaze can use even the material of creation to build a justification for superiority.</p>
 <h2 id="creation-material">Creation Material and the Error of Making It the Standard</h2>
 <p>The Qur’an says:</p>
-<blockquote>
-<p class="quran-quote">﴿وَلَقَدْ خَلَقْنَا الْإِنسَانَ مِن صَلْصَالٍ مِّنْ حَمَإٍ مَّسْنُونٍ﴾</p>
-<p>“And indeed, We created the human being from dry clay, from dark molded mud.”</p>
-<p>Al-Hijr 15:26</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="15:26"></div>
 <p>And about the jinn it says:</p>
-<blockquote>
-<p class="quran-quote">﴿وَالْجَانَّ خَلَقْنَاهُ مِن قَبْلُ مِن نَّارِ السَّمُومِ﴾</p>
-<p>“And the jann We created before, from the scorching, penetrating fire.”</p>
-<p>Al-Hijr 15:27</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="15:27"></div>
 <p>Outwardly, clay appears earthly, silent, and humble. Fire, in the eyes of created beings, may seem to signify power, penetration, and superiority. But from the beginning, the Qur’an teaches us that the worth of no being is measured by its first material. What appears low to the arrogant eye may, in God’s decree, carry a high station.</p>
 <h2 id="command-to-prostrate">The Command to Prostrate and Human Honor</h2>
 <p>Then the Qur’an reaches a decisive moment:</p>
-<blockquote>
-<p class="quran-quote">﴿فَإِذَا سَوَّيْتُهُ وَنَفَخْتُ فِيهِ مِن رُّوحِي فَقَعُوا لَهُ سَاجِدِينَ﴾</p>
-<p>“So when I have fashioned him and breathed into him from My Spirit, fall down to him in prostration.”</p>
-<p>Al-Hijr 15:29</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="15:29"></div>
 <p>The command to prostrate comes after the human being is fashioned and after the breathing of the Spirit. So the prostration was not because of clay. It was because of the honor God granted to the human being. This prostration was not worship of the human being either. It was obedience to God’s command. The outward direction of prostration was the human being, but the true reference of obedience was God Himself.</p>
 <p>Then all prostrated except Iblis:</p>
-<blockquote class="quran-quote" data-verse-unit="15:30">
-<p class="quran-quote" lang="ar" dir="rtl">فَسَجَدَ الْمَلَائِكَةُ كُلُّهُمْ أَجْمَعُونَ</p>
-<p class="translation">So the angels prostrated, all of them together,</p>
-<p class="verse-ref"><a href="/quran-reflection/en/015-al-hijr/#ayah-030">Al-Hijr <bdi dir="ltr">15:30</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="15:31">
-<p class="quran-quote" lang="ar" dir="rtl">إِلَّا إِبْلِيسَ أَبَىٰ أَن يَكُونَ مَعَ السَّاجِدِينَ</p>
-<p class="translation">except Iblis. He refused to be with those who prostrated.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/015-al-hijr/#ayah-031">Al-Hijr <bdi dir="ltr">15:31</bdi></a></p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="15:30"></div>
+<div class="shared-verse-placeholder" data-quran-verses="15:31"></div>
 <p>Elsewhere, the Qur’an clarifies that Iblis was from the jinn:</p>
-<blockquote>
-<p class="quran-quote">﴿كَانَ مِنَ الْجِنِّ فَفَسَقَ عَنْ أَمْرِ رَبِّهِ﴾</p>
-<p>“He was from the jinn, so he departed from the command of his Lord.”</p>
-<p>Al-Kahf 18:50</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="18:50"></div>
 <p>So the central issue is not what species Iblis belonged to. The issue is that God’s command was clear to him, and he departed from it. His problem was not ignorance. His problem was refusal.</p>
 <h2 id="iblis-refusal">The Refusal of Iblis and the Root of Istikbar</h2>
 <p>God asks him:</p>
-<blockquote>
-<p class="quran-quote">﴿قَالَ يَا إِبْلِيسُ مَا لَكَ أَلَّا تَكُونَ مَعَ السَّاجِدِينَ﴾</p>
-<p>“He said: O Iblis, what is with you that you are not with those who prostrate?”</p>
-<p>Al-Hijr 15:32</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="15:32"></div>
 <p>The answer of Iblis reveals the root of his fall:</p>
-<blockquote>
-<p class="quran-quote">﴿قَالَ لَمْ أَكُن لِّأَسْجُدَ لِبَشَرٍ خَلَقْتَهُ مِن صَلْصَالٍ مِّنْ حَمَإٍ مَّسْنُونٍ﴾</p>
-<p>“He said: I was not one to prostrate to a human being whom You created from dry clay, from dark molded mud.”</p>
-<p>Al-Hijr 15:33</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="15:33"></div>
 <p>Here we must notice what Iblis did not say, and what he did say. He did not say: I prostrate only to You, and I do not prostrate to other than You. If he had said that, someone might imagine that his statement came from zeal for tawhid. But that was not his objection. His objection was: why should he prostrate before a being created from clay?</p>
 <p>In other words, Iblis did not take God’s command as the standard of value. He took the material of creation as the standard. He looked at the clay, but did not see the Spirit. He looked at outward material, but ignored divine honor. This is the moment in which istikbar is born: when a being, instead of submitting before God’s command, makes himself the measure by which God’s command is judged.</p>
 <p>So the root of Iblis’s disobedience was not tawhid. It was istikbar.</p>
@@ -223,47 +187,23 @@ padding: 0.68rem 0.8rem;
 <p>This point is extremely important. The problem of Iblis was not denial of God. He knew God, spoke with God, asked God for delay, and even acknowledged God’s lordship. But that knowledge did not save him. Awareness, when not joined with humility, can become an instrument of downfall. Sometimes collapse does not begin from ignorance. It begins from knowledge polluted by pride.</p>
 <p>So salvation is not in mere awareness. Salvation is in humility before the truth.</p>
 <p>After this, God says to Iblis:</p>
-<blockquote class="quran-quote" data-verse-unit="15:34">
-<p class="quran-quote" lang="ar" dir="rtl">قَالَ فَاخْرُجْ مِنْهَا فَإِنَّكَ رَجِيمٌ</p>
-<p class="translation">He said: Then get out from it, for indeed you are expelled.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/015-al-hijr/#ayah-034">Al-Hijr <bdi dir="ltr">15:34</bdi></a></p>
-</blockquote>
-<blockquote class="quran-quote" data-verse-unit="15:35">
-<p class="quran-quote" lang="ar" dir="rtl">وَإِنَّ عَلَيْكَ اللَّعْنَةَ إِلَىٰ يَوْمِ الدِّينِ</p>
-<p class="translation">And indeed, upon you is the curse until the Day of Judgment.</p>
-<p class="verse-ref"><a href="/quran-reflection/en/015-al-hijr/#ayah-035">Al-Hijr <bdi dir="ltr">15:35</bdi></a></p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="15:34"></div>
+<div class="shared-verse-placeholder" data-quran-verses="15:35"></div>
 <p>At this point, one might expect Iblis to confess or return. But he chooses another path. Instead of confession, he brings justification. Instead of accepting responsibility, he makes an accusation:</p>
-<blockquote>
-<p class="quran-quote">﴿قَالَ رَبِّ بِمَا أَغْوَيْتَنِي لَأُزَيِّنَنَّ لَهُمْ فِي الْأَرْضِ وَلَأُغْوِيَنَّهُمْ أَجْمَعِينَ﴾</p>
-<p>“He said: My Lord, because You caused me to deviate, I will surely adorn for them on the earth, and I will surely cause all of them to deviate.”</p>
-<p>Al-Hijr 15:39</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="15:39"></div>
 <p>Here one of the deepest psychological layers of istikbar appears. An arrogant human being or jinn does not merely make a mistake. He also refuses to accept his mistake. Iblis did not say: I became arrogant. He did not say: I refused the command. He said: You caused me to deviate.</p>
 <p>This is the logic of the fall: first seeing oneself as superior, then belittling another, then rejecting the command of truth, and finally placing responsibility on someone else.</p>
 <h2 id="satan-method">Satan’s Method: Adorning Falsehood</h2>
 <p>In the same verse, Iblis also reveals his method. He does not say: I will force human beings. He says: I will adorn for them. So Satan’s method is not compulsion. It is the beautification of falsehood. He makes ugliness appear beautiful, danger appear attractive, arrogance appear as dignity, fanaticism appear as honor, and disobedience appear as freedom.</p>
 <p>Yet even Iblis knows that this method does not work on everyone:</p>
-<blockquote>
-<p class="quran-quote">﴿إِلَّا عِبَادَكَ مِنْهُمُ الْمُخْلَصِينَ﴾</p>
-<p>“Except Your purified servants among them.”</p>
-<p>Al-Hijr 15:40</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="15:40"></div>
 <p>These purified servants are not necessarily people who are never tempted. Rather, they are those over whom temptation does not become master. If they err, they do not reside in error. If they see temptation, they recognize it. If the truth becomes clear to them, they do not become arrogant before it.</p>
 <h2 id="no-sultan">The Boundary of Satan’s Power</h2>
 <p>Then God clarifies the boundary of Satan’s power:</p>
-<blockquote>
-<p class="quran-quote">﴿إِنَّ عِبَادِي لَيْسَ لَكَ عَلَيْهِمْ سُلْطَانٌ إِلَّا مَنِ اتَّبَعَكَ مِنَ الْغَاوِينَ﴾</p>
-<p>“Indeed, over My servants you have no authority, except those of the deviators who follow you.”</p>
-<p>Al-Hijr 15:42</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="15:42"></div>
 <p>This is a great verse. The Qur’an does not say Satan owns the human being. It does not say he takes away the human will. It does not say he can force the human being whenever he wishes. Rather, it says he has no sultan: no coercive authority and no direct sovereignty.</p>
 <p>In Surah Ibrahim, Satan himself confesses this truth on the Day of Resurrection:</p>
-<blockquote>
-<p class="quran-quote">﴿وَمَا كَانَ لِيَ عَلَيْكُم مِّن سُلْطَانٍ إِلَّا أَن دَعَوْتُكُمْ فَاسْتَجَبْتُمْ لِي﴾</p>
-<p>“And I had no authority over you except that I invited you, and you responded to me.”</p>
-<p>Ibrahim 14:22</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="14:22"></div>
 <p>So following Satan is not merely committing a few outward sins. Following Satan means accepting the logic of Iblis inside oneself.</p>
 <h2 id="satanic-logic-within">The Logic of Iblis Within the Human Being</h2>
 <p>It means that when the truth becomes clear, we resist instead of submitting. When we make a mistake, we manufacture excuses instead of confessing. When we face another human being, we judge them by race, tribe, language, power, wealth, age, fame, or appearance. Instead of taking God’s command and the truth as our standard, we take ourselves and our own status as the standard.</p>
@@ -275,10 +215,6 @@ padding: 0.68rem 0.8rem;
 <p>In the end, the axis of these verses is clear. Iblis did not fall through a simple act of disobedience alone. He fell through istikbar. Istikbar pushed him to make the material of creation the standard of value, belittle the human being, refuse God’s command, justify his mistake, and finally attribute responsibility to God.</p>
 <p>So every human being and every jinn who wants to measure their path sincerely must ask: when the truth becomes clear to me, do I submit or resist? When I make a mistake, do I confess or invent excuses? When I meet others, do I measure them by God’s standard or by the standard of my own pride?</p>
 <p>Perhaps true salvation is this: before it is too late, the human being recognizes the logic of Iblis within himself and leaves it behind.</p>
-<blockquote>
-<p class="quran-quote">﴿رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً إِنَّكَ أَنتَ الْوَهَّابُ﴾</p>
-<p>“Our Lord, do not cause our hearts to deviate after You have guided us, and grant us mercy from Yourself. Indeed, You are the Bestower.”</p>
-<p>Ali ‘Imran 3:8</p>
-</blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="3:8"></div>
 </div>
 </article>

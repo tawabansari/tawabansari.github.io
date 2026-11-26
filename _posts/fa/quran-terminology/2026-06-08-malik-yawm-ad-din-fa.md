@@ -176,17 +176,7 @@ excerpt: "تأملی قرآنی درباره عبارت «مالک روز دین
 
 <p>از همین روست که قرآن در آغاز سوره فاتحه می فرماید:</p>
 
-<blockquote class="quran-quote" dir="rtl" lang="ar">
-  <a href="{{ '/quran-reflection/fa/001-al-fatihah/004/' | relative_url }}" style="color: inherit; text-decoration: none;">
-    مَالِكِ يَوْمِ الدِّينِ
-  </a>
-</blockquote>
-
-<p class="translation">
-  <a href="{{ '/quran-reflection/fa/001-al-fatihah/004/' | relative_url }}" style="color: inherit; text-decoration: none;">
-    «مالک روز دین؛ صاحب و فرمانروای روز جزا.»
-  </a>
-</p>
+<div class="shared-verse-placeholder" data-quran-verses="1:4"></div>
 
 <p>زیرا تنها کسی که مالک خود زمان است، می تواند درباره آنچه درون زمان رخ داده داوری کند.</p>
 
@@ -194,23 +184,7 @@ excerpt: "تأملی قرآنی درباره عبارت «مالک روز دین
 
 <p>و حتی پیامبران، آنان که نزدیک ترین انسان ها به حقیقت بودند، در آن روز در برابر علم خدا فروتن می شوند:</p>
 
-<blockquote class="quran-quote" dir="rtl" lang="ar">
-  <a href="{{ '/quran-reflection/fa/005-al-maidah/109/' | relative_url }}" style="color: inherit; text-decoration: none;">
-    يَوْمَ يَجْمَعُ ٱللَّهُ ٱلرُّسُلَ فَيَقُولُ مَاذَآ أُجِبْتُمْ ۖ قَالُوا۟ لَا عِلْمَ لَنَآ ۖ إِنَّكَ أَنتَ عَلَّـٰمُ ٱلْغُيُوبِ
-  </a>
-</blockquote>
-
-<p class="translation">
-  <a href="{{ '/quran-reflection/fa/005-al-maidah/109/' | relative_url }}" style="color: inherit; text-decoration: none;">
-    «روزی که خدا پیامبران را گرد آورد و گوید: به شما چه پاسخی داده شد؟ گویند: ما هیچ دانشی نداریم؛ همانا تویی دانای همه نادیدنی ها.»
-  </a>
-</p>
-
-<p class="verse-reference">
-  <a href="{{ '/quran-reflection/fa/005-al-maidah/109/' | relative_url }}" style="color: inherit; text-decoration: none;">
-    سوره مائده، آیه ۱۰۹
-  </a>
-</p>
+<div class="shared-verse-placeholder" data-quran-verses="5:109"></div>
 
 <p>این آیه حقیقتی عظیم را آشکار می کند: حتی پیامبران، با آن همه نزدیکی به وحی و حقیقت، در برابر علم بی کران خدا ادعای دانستن نمی کنند.</p>
 

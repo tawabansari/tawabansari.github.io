@@ -48,17 +48,7 @@ excerpt: "تأملی قرآنی درباره حروف مقطعات و اینکه
 
 <p>قرآن درباره متشابهات هشدار می‌دهد که کسانی که در دل‌شان انحراف است، دنبال تأویل آن می‌روند؛ اما راسخان در علم می‌گویند: ما به آن ایمان آوردیم، همه از نزد پروردگار ماست.</p>
 
-<blockquote class="quran-quote" dir="rtl" lang="ar">
-  <a href="{{ '/quran-reflection/fa/003-ali-imran/007/' | relative_url }}" style="color: inherit; text-decoration: none;">
-    وَٱلرَّاسِخُونَ فِى ٱلْعِلْمِ يَقُولُونَ ءَامَنَّا بِهِۦ كُلٌّ مِّنْ عِندِ رَبِّنَا
-  </a>
-</blockquote>
-
-<p class="verse-reference">
-  <a href="{{ '/quran-reflection/fa/003-ali-imran/007/' | relative_url }}" style="color: inherit; text-decoration: none;">
-    آل‌عمران ۳:۷
-  </a>
-</p>
+<div class="shared-verse-placeholder" data-quran-verses="3:7"></div>
 
 <h2 id="claim">ادعای دانستن معنای حروف</h2>
 

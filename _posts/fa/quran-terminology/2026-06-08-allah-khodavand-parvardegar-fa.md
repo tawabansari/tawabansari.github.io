@@ -91,7 +91,7 @@ excerpt: "تأملی زبان‌شناختی و قرآنی درباره واژه
 
 <p>آیه شریفه قرآن به زیبایی بر آزادی اندیشه و قدرت انتخاب انسان تأکید دارد، در <a href="{{ '/quran-reflection/fa/039-az-zumar/018/' | relative_url }}" style="color: inherit; text-decoration: none;">سوره زمر، آیه ۱۸</a> آمده است:</p>
 
-<blockquote class="quran-quote" dir="rtl" lang="ar"><a href="{{ '/quran-reflection/fa/039-az-zumar/018/' | relative_url }}" style="color: inherit; text-decoration: none;">الَّذينَ يَستَمِعونَ القَولَ فَيَتَّبِعونَ أَحسَنَهُ</a></blockquote>
+<div class="shared-verse-placeholder" data-quran-verses="39:18"></div>
 
 <p class="translation"><a href="{{ '/quran-reflection/fa/039-az-zumar/018/' | relative_url }}" style="color: inherit; text-decoration: none;">«همان کسانی که سخنان را می‌شنوند و از نیکوترین آن‌ها پیروی می‌کنند.»</a></p>
 
@@ -111,11 +111,7 @@ excerpt: "تأملی زبان‌شناختی و قرآنی درباره واژه
 
 <p>در نهایت، باید دانست که پرستش آن معبود یگانه در بند حصارهای زبانی و تعصبات قشری نیست؛ چرا که حقیقت توحید، ذاتی است که از قلب کتیبه‌های یمن و نجوای آرامی مسیح تا طنین وحی بر زبان محمد و اندیشه‌ی فیلسوفان تنزیهی، همواره خود را از پیوند با محدودیت‌های بشری رهانیده است. اتهام شرک به واژگانی چون «خداوند» و «پروردگار»، ناشی از بی‌خبری از ریشه‌های عمیق این کلمات است که در جان فرهنگ ما، معادل دقیق «الحی و القیوم» و «رب کائنات» گشته‌اند. ما با به‌کارگیری مفاهیمی چون «فرابخشاینده» و «فرامهربان»، نه تنها از سنت توحیدی دور نشده‌ایم، بلکه کوشیده‌ایم تا با تکیه بر منطق <a href="{{ '/quran-reflection/fa/042-ash-shuraa/011/' | relative_url }}" style="color: inherit; text-decoration: none;">«لیس کمثله شیء»</a>، زبان فارسی را به افق‌های بلند تنزیه نزدیک کنیم. باشد که با شنیدن سخن‌های گوناگون، نیکوترین آن‌ها را برگزینیم و بدانیم که او والاتر از آن است که در انحصار یک لفظ بماند؛ او همان «فراتر از همه‌چیز» است که هر زبان به قدر وسع خود، نامی برای اشاره به جلال او برگزیده است.</p>
 
-<blockquote class="quran-quote" dir="rtl" lang="ar"><a href="{{ '/quran-reflection/fa/017-al-isra/110/' | relative_url }}" style="color: inherit; text-decoration: none;">قُلِ ادْعُوا اللَّهَ أَوِ ادْعُوا الرَّحْمَنَ أَيًّا مَا تَدْعُوا فَلَهُ الْأَسْمَاءُ الْحُسْنَى</a></blockquote>
-
-<p class="verse-reference"><a href="{{ '/quran-reflection/fa/017-al-isra/110/' | relative_url }}" style="color: inherit; text-decoration: none;">سوره اسراء، آیه ۱۱۰</a></p>
-
-<p class="translation"><a href="{{ '/quran-reflection/fa/017-al-isra/110/' | relative_url }}" style="color: inherit; text-decoration: none;">«بگو: الله را بخوانید یا رحمن را؛ هر کدام را که بخوانید (فرقی نمی‌کند)، برای او نام‌های نیکوست.»</a></p>
+<div class="shared-verse-placeholder" data-quran-verses="17:110"></div>
 
 
 </article>
