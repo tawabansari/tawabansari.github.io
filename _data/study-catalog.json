@@ -2205,5 +2205,35 @@
       "Divine transcendence",
       "Subhan Allah"
     ]
+  },
+  {
+    "url": "/fa/quran-terminology/lordship-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "ربوبیت",
+    "description": "پروردگاری، بندگی، حق فرمان و حدود صلاحیت انسان‌ها در قرآن.",
+    "format": "study",
+    "aliases": [
+      "ربوبیت",
+      "رب",
+      "ارباب",
+      "پروردگاری"
+    ]
+  },
+  {
+    "url": "/en/quran-terminology/lordship-in-the-quran/",
+    "collections": [
+      "terminology"
+    ],
+    "concept": "Lordship",
+    "description": "Divine care, devotion, the authority to command, and the limits of human authority.",
+    "format": "study",
+    "aliases": [
+      "Lordship",
+      "Rububiyyah",
+      "Rabb",
+      "Arbab"
+    ]
   }
 ]
