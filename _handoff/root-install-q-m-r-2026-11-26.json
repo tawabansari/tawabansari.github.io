@@ -1,0 +1,697 @@
+{
+  "root": "ق م ر",
+  "slug": "q-m-r",
+  "date": "2026-11-26",
+  "input": "/Users/tawab/.codex/attachments/f67e21dd-78d7-492d-b478-36b80fae0335/Pasted text.txt",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "blocks_per_language": 177,
+  "root_occurrences": 27,
+  "complete_quotes": [
+    "10:5",
+    "71:16",
+    "25:61",
+    "21:33",
+    "36:40",
+    "14:33",
+    "6:96",
+    "55:5",
+    "36:39",
+    "84:18",
+    "6:77",
+    "41:37",
+    "12:4",
+    "74:32",
+    "91:2",
+    "54:1",
+    "75:8",
+    "75:9"
+  ],
+  "editorial": {
+    "old_to_new": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "21": 18,
+      "28": 19,
+      "29": 20,
+      "30": 21,
+      "31": 22,
+      "32": 23,
+      "33": 24,
+      "34": 25,
+      "35": 26,
+      "36": 27,
+      "37": 28,
+      "38": 29,
+      "39": 30,
+      "40": 31,
+      "41": 32,
+      "42": 33,
+      "43": 34,
+      "44": 35,
+      "45": 36,
+      "46": 37,
+      "47": 38,
+      "48": 39,
+      "49": 40,
+      "50": 41,
+      "51": 42,
+      "52": 43,
+      "53": 44,
+      "54": 45,
+      "55": 46,
+      "56": 47,
+      "57": 48,
+      "58": 49,
+      "59": 50,
+      "60": 51,
+      "61": 52,
+      "62": 53,
+      "63": 54,
+      "64": 55,
+      "65": 56,
+      "66": 57,
+      "67": 58,
+      "68": 59,
+      "69": 60,
+      "70": 61,
+      "71": 62,
+      "72": 63,
+      "73": 64,
+      "74": 65,
+      "75": 66,
+      "76": 67,
+      "77": 68,
+      "78": 69,
+      "79": 70,
+      "80": 71,
+      "81": 72,
+      "82": 73,
+      "83": 74,
+      "84": 75,
+      "85": 76,
+      "86": 77,
+      "87": 78,
+      "88": 79,
+      "89": 80,
+      "90": 81,
+      "91": 82,
+      "92": 83,
+      "93": 84,
+      "94": 85,
+      "95": 86,
+      "96": 87,
+      "97": 88,
+      "98": 89,
+      "99": 90,
+      "100": 91,
+      "101": 92,
+      "102": 93,
+      "103": 94,
+      "104": 95,
+      "105": 96,
+      "106": 97,
+      "107": 98,
+      "108": 99,
+      "109": 100,
+      "110": 101,
+      "111": 102,
+      "112": 103,
+      "113": 104,
+      "114": 105,
+      "115": 106,
+      "116": 107,
+      "117": 108,
+      "118": 109,
+      "119": 110,
+      "120": 111,
+      "121": 112,
+      "122": 113,
+      "123": 114,
+      "124": 115,
+      "125": 116,
+      "126": 117,
+      "127": 118,
+      "128": 119,
+      "129": 120,
+      "130": 121,
+      "131": 122,
+      "132": 123,
+      "133": 124,
+      "134": 125,
+      "135": 126,
+      "136": 127,
+      "137": 128,
+      "138": 129,
+      "139": 130,
+      "140": 131,
+      "141": 132,
+      "142": 133,
+      "143": 134,
+      "144": 135,
+      "145": 136,
+      "146": 137,
+      "147": 138,
+      "148": 139,
+      "149": 140,
+      "150": 141,
+      "151": 142,
+      "152": 143,
+      "153": 144,
+      "154": 145,
+      "155": 146,
+      "156": 147,
+      "157": 148,
+      "158": 149,
+      "159": 150,
+      "160": 151,
+      "161": 152,
+      "162": 153,
+      "163": 154,
+      "164": 155,
+      "165": 156,
+      "166": 157,
+      "167": 158,
+      "168": 159,
+      "169": 160,
+      "170": 161,
+      "171": 162,
+      "172": 163,
+      "173": 164,
+      "174": 165,
+      "175": 166,
+      "176": 167,
+      "177": 168,
+      "178": 169,
+      "179": 170
+    },
+    "removed": [
+      5,
+      19,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "added_start": 171,
+    "edits": [
+      {
+        "source_block": 1,
+        "before": "**ماه، روشنایی مهتاب و سپیدی؛ و شاخه مربوط به قمار و غلبه در گروبندی**",
+        "after": "**ماه آسمان، روشنایی مهتاب و نقش ماه در شناخت زمان**"
+      },
+      {
+        "source_block": 3,
+        "before": "ریشه «ق م ر» در عربی پیش از اسلام، بر اساس شواهد شعری به‌جامانده، برای نامیدن ماه آسمان به کار می‌رفت. ماه در زندگی عرب، افزون بر فراهم ساختن روشنایی شب، از نشانه‌های شناخت زمان و جهت‌یابی در سفرهای شبانه بود.",
+        "after": "در شعر منقول از طرفه بن عبد، شاعر پیش از اسلام، «قمر» نام ماه آسمان است. چنین شاهدی پشتوانه کاربرد کهن واژه است، اما تاریخ دقیق سرایش بیت یا آغاز پیدایش نام ماه را تعیین نمی‌کند."
+      },
+      {
+        "source_block": 4,
+        "before": "در عربی کلاسیک، خانواده این واژه با سپیدی، روشنایی مهتاب و بعضی حالت‌های ناشی از مواجهه با روشنایی نیز ارتباط دارد. ابن فارس سپیدی را اصل معنایی این خانواده دانسته و نام‌گذاری ماه را با سپیدی آن مرتبط ساخته است. این توضیح پیوند معنایی واژه‌ها را نشان می‌دهد، اما ترتیب تاریخی پیدایش آنها را به‌طور قطعی تعیین نمی‌کند.",
+        "after": "ابن فارس سپیدی را محور این خانواده دانسته و نام ماه را با آن پیوند داده است. این تحلیل لغوی، ترتیب تاریخی پیدایش واژه‌ها را ثابت نمی‌کند؛ در این مدخل، محور بحث نام ماه و کاربردهای قرآنی آن است."
+      },
+      {
+        "source_block": 6,
+        "before": "**صورت قرآنی مورد بررسی:** «قَمَر»؛ ماه.",
+        "after": "**صورت قرآنی:** «قَمَر»؛ ماه. این اسم ۲۷ بار در ۲۶ آیه آمده است؛ در فصلت ۴۱:۳۷ دو بار تکرار می‌شود. فهرست کامل در بخش دهم آمده است."
+      },
+      {
+        "source_block": 7,
+        "before": "در زبان عربی، صورت‌های دیگری نیز از این خانواده شناخته شده‌اند: «أَقْمَار» به معنای ماه‌ها، «قَمْرَاء» به معنای مهتاب، «أَقْمَر» به معنای سفید یا روشن، «مُقْمِر» به معنای مهتابی، «قُمَيْر» به عنوان صورت تصغیر قمر، «قِمَار» به معنای قمار و «مُقَامَرَة» به معنای گروبندی و قمار کردن. این صورت‌ها در قرآن نیامده‌اند.",
+        "after": "از صورت‌های غیرقرآنیِ مرتبط، «أَقْمَار» جمع قمر، «قُمَيْر» تصغیر آن، «أَقْمَر» سفید یا روشن و «قَمْرَاء» وصف مؤنث یا نام روشنایی ماه است. صورت‌های مربوط به قمار در یادداشت جداگانه پایان مقاله آمده‌اند."
+      },
+      {
+        "source_block": 11,
+        "before": "وَكَانَ لَهَا جَارَانِ قَابُوسُ مِنْهُمَا\\\nوَعَمْرٌو وَلَمْ أَسْتَرْعِهَا الشَّمْسَ وَالْقَمَرْ",
+        "after": "وَكَانَ لَهَا جَارَانِ قَابُوسُ مِنْهُمَا\nوَعَمْرٌو وَلَمْ أَسْتَرْعِهَا الشَّمْسَ وَالْقَمَرْ"
+      },
+      {
+        "source_block": 15,
+        "before": "این شاهد کاربرد قمر به معنای ماه آسمان را در زبان پیش از نزول قرآن تایید می‌کند.",
+        "after": "این بیت، در دیوان منسوب به طرفه، شاهد کاربرد «قمر» به معنای ماه است؛ اثبات سیر پیدایش دیگر معانی از این شاهد برنمی‌آید."
+      },
+      {
+        "source_block": 18,
+        "before": "«أَقْمَر» در زبان عربی برای توصیف چیزی سفید یا دارای رنگ روشن نیز به کار می‌رود. صورت مؤنث آن «قَمْرَاء» است.",
+        "after": "«أَقْمَر» و مؤنث آن «قَمْرَاء» برای سپیدی و روشنی ثبت شده‌اند؛ در شاخه‌ای دیگر، «قَمِرَ» درباره آسیب دیدن بینایی از روشنایی آمده است. این کاربردها با نام جرم آسمانی یکسان نیستند."
+      },
+      {
+        "source_block": 63,
+        "before": "«دَائِبَيْنِ» از ریشه «د أ ب» بر استمرار و پیگیری دلالت دارد. این واژه به صورت مثنی آمده و وصف خورشید و ماه است.",
+        "after": "«دَائِبَيْنِ» از ریشه «د أ ب»، حالِ منصوب و مثنی برای خورشید و ماه است و استمرار در کار را بیان می‌کند."
+      },
+      {
+        "source_block": 95,
+        "before": "در سوره انعام، ماه در جریان شناخت پروردگار و بررسی اجرام آسمانی از سوی ابراهیم مطرح شده است:",
+        "after": "در سوره انعام، مشاهده ماه در گفتار ابراهیم درباره پروردگار آمده است. درباره جست‌وجو یا احتجاج بودن این گفتار، تفسیرهای متفاوتی وجود دارد؛ هیچ‌کدام معنای لغوی قمر را تغییر نمی‌دهد."
+      },
+      {
+        "source_block": 137,
+        "before": "درباره زمان وقوع رخداد بیان‌شده در این آیه، دو خوانش عمده مطرح شده‌اند. یکی آن را رخدادی واقع‌شده در دوران رسالت محمد می‌داند و دیگری آن را در شمار رخدادهای مربوط به نزدیک شدن قیامت قرار می‌دهد.",
+        "after": "در تفسیر مشهور، آیه از رخدادی در دوران رسالت محمد خبر می‌دهد. خوانشی دیگر آن را ناظر به رخدادهای قیامت می‌داند؛ این دو دیدگاه از نظر رواج تاریخی هم‌وزن نیستند."
+      },
+      {
+        "source_block": 138,
+        "before": "خوانش نخست به ساخت ماضی فعل و مضمون آیه بعد، قمر ۵۴:۲، درباره دیدن آیه و رویگردانی از آن تکیه دارد. خوانش دوم به کاربرد فعل ماضی برای بیان رخدادهای قطعی آینده در زبان قرآن و هم‌نشینی شکافته شدن ماه با نزدیک شدن ساعت توجه می‌کند.",
+        "after": "تفسیر مشهور به صورت ماضی فعل، آیه بعد یعنی قمر ۵۴:۲ و گزارش‌های روایی تکیه دارد. خوانش آینده‌نگر به کاربرد ماضی برای آینده قطعی و هم‌نشینی با نزدیک شدن ساعت توجه می‌کند. صرف وجود چنین کاربردی برای ماضی، به‌تنهایی زمان این آیه را تعیین نمی‌کند."
+      },
+      {
+        "source_block": 174,
+        "before": "در کاربردهای غیرقرآنی، مهتاب، سپیدی، شب مهتابی، قمار و گروبندی، با توجه به شاخه و صورت مربوط، از معادل‌های مناسب این خانواده هستند.",
+        "after": "در کاربردهای غیرقرآنیِ شاخه مورد بحث، مهتاب، سپیدی و مهتابی بودن، با توجه به صورت واژه، از معادل‌های مناسب‌اند."
+      },
+      {
+        "source_block": 176,
+        "before": "ریشه «ق م ر» در یکی از شاخه‌های اصلی خود با ماه، سپیدی و روشنایی مهتاب ارتباط دارد. قمار، گروبندی و غلبه بر طرف مقابل نیز شاخه دیگری از کاربردهای ثبت‌شده این خانواده در زبان عربی هستند.",
+        "after": "مدخل اصلی قمر به ماه و واژه‌های مربوط به سپیدی و مهتاب اختصاص دارد. بحث قمار برای جلوگیری از آمیختن معانی، در یادداشت جداگانه آمده است."
+      },
+      {
+        "source_block": 179,
+        "before": "**تعریف پیشنهادی برای فرقان:** ماه آسمان و خانواده واژگانی مربوط به سپیدی و روشنایی مهتاب؛ و در شاخه دیگر، قمار، گروبندی و غلبه بر طرف مقابل. معنای مستقیم قمر در تمامی کاربردهای قرآنی «ماه» است.",
+        "after": "**تعریف پیشنهادی برای فرقان:** قمر در تمام کاربردهای قرآنی نام ماه آسمان است. روشنایی، منزل‌ها، حرکت و نقش رؤیایی آن از سیاق فهمیده می‌شوند و جایگزین معنای اصلی واژه نیستند."
+      }
+    ]
+  },
+  "word_boxes": {
+    "fa": [
+      {
+        "path": "quran-reflection/fa/071-nuh/units/016.html",
+        "word": "القَمَرَ",
+        "context": "ماه؛ جرم آسمانی که در این آیه نور نامیده شده است.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/029-al-ankabut/units/061.html",
+        "word": "وَالقَمَرَ",
+        "context": "و ماه؛ همراه خورشید.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/054-al-qamar/units/001.html",
+        "word": "القَمَرُ",
+        "context": "ماه؛ جرم آسمانی که شکافتن به آن نسبت داده شده است.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/007-al-araf/units/054.html",
+        "word": "وَالقَمَرَ",
+        "context": "ماه، در کنار خورشید و ستارگان.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/075-al-qiyamah/units/008.html",
+        "word": "القَمَرُ",
+        "context": "ماه؛ در این صحنه روشنایی‌اش کاسته یا پنهان می‌شود.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/075-al-qiyamah/units/009.html",
+        "word": "وَالقَمَرُ",
+        "context": "و ماه؛ همراه خورشید گرد آورده می‌شود.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/022-al-hajj/units/018.html",
+        "word": "وَالقَمَرُ",
+        "context": "ماه؛ از آفریدگانِ سجده‌کننده.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/036-ya-sin/units/039.html",
+        "word": "وَالقَمَرَ",
+        "context": "و ماه؛ جرم آسمانی‌ای که در این آیه از منزل‌ها و تغییر شکلِ دیداریِ آن سخن می‌رود.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/036-ya-sin/units/040.html",
+        "word": "القَمَرَ",
+        "context": "ماه؛ چیزی که رسیدن خورشید به آن نفی می‌شود.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/025-al-furqan/units/061.html",
+        "word": "وَقَمَرًا",
+        "context": "و ماهی؛ جرم آسمانیِ یادشده در کنار چراغ.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/010-yunus/units/005.html",
+        "word": "وَالقَمَرَ",
+        "context": "و ماه.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/013-ar-rad/units/002.html",
+        "word": "وَالقَمَرَ",
+        "context": "و ماه.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/014-ibrahim/units/033.html",
+        "word": "وَالقَمَرَ",
+        "context": "و ماه؛ دومین موجودِ توصیف‌شده به فعالیت پیوسته.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/039-az-zumar/units/005.html",
+        "word": "وَالقَمَرَ",
+        "context": "و ماه را؛ در کنار خورشید.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/084-al-inshiqaq/units/018.html",
+        "word": "وَالقَمَرِ",
+        "context": null,
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/012-yusuf/units/004.html",
+        "word": "وَالقَمَرَ",
+        "context": "و ماه؛ یکی از دیده‌شده‌ها در رؤیا.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/035-fatir/units/013.html",
+        "word": "وَالقَمَرَ",
+        "context": "و ماه؛ در کنارِ خورشید، در نظمِ مقرر جریان دارد.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/074-al-muddaththir/units/032.html",
+        "word": "وَالقَمَرِ",
+        "context": null,
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/041-fussilat/units/037.html",
+        "word": "وَالقَمَرُ",
+        "context": "و ماه؛ از نشانه‌های آفرینش.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/041-fussilat/units/037.html",
+        "word": "لِلقَمَرِ",
+        "context": "برای ماه؛ موضوع سجده نهی‌شده.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/031-luqman/units/029.html",
+        "word": "وَالقَمَرَ",
+        "context": "و ماه را؛ پدیدهٔ دیگر یادشده.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/055-ar-rahman/units/005.html",
+        "word": "وَالقَمَرُ",
+        "context": "و ماه؛ در کنار خورشید.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/006-al-anam/units/096.html",
+        "word": "وَالقَمَرَ",
+        "context": "و ماه؛ در پیوند با حساب و سنجش زمان.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/006-al-anam/units/077.html",
+        "word": "القَمَرَ",
+        "context": "ماه؛ جرم آسمانیِ موضوع این مرحله از گفت‌وگو.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/016-an-nahl/units/012.html",
+        "word": "وَالقَمَرَ",
+        "context": "و ماه؛ از پدیده‌های رام‌شده برای انسان",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/091-ash-shams/units/002.html",
+        "word": "وَالقَمَرِ",
+        "context": null,
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/021-al-anbiya/units/033.html",
+        "word": "وَالقَمَرَ",
+        "context": "و ماه را؛ جرم آسمانی یادشده در کنار خورشید.",
+        "rootMeaning": "ماه آسمان.",
+        "unchanged": true
+      }
+    ],
+    "en": [
+      {
+        "path": "quran-reflection/en/071-nuh/units/016.html",
+        "word": "القَمَرَ",
+        "context": "The moon; the heavenly body described here as a light.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/029-al-ankabut/units/061.html",
+        "word": "وَالقَمَرَ",
+        "context": "And the moon, alongside the sun.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/054-al-qamar/units/001.html",
+        "word": "القَمَرُ",
+        "context": "The moon; the celestial body described as splitting.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/007-al-araf/units/054.html",
+        "word": "وَالقَمَرَ",
+        "context": "The moon, alongside the sun and stars.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/075-al-qiyamah/units/008.html",
+        "word": "القَمَرُ",
+        "context": "The moon, whose light diminishes or disappears in this scene.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/075-al-qiyamah/units/009.html",
+        "word": "وَالقَمَرُ",
+        "context": "And the moon, gathered with the sun.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/022-al-hajj/units/018.html",
+        "word": "وَالقَمَرُ",
+        "context": "The moon; among those described as prostrating.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/036-ya-sin/units/039.html",
+        "word": "وَالقَمَرَ",
+        "context": "And the Moon; the celestial body whose stations and changing visible appearance are described here.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/036-ya-sin/units/040.html",
+        "word": "القَمَرَ",
+        "context": "The moon; the object that the sun is denied overtaking.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/025-al-furqan/units/061.html",
+        "word": "وَقَمَرًا",
+        "context": "And a moon, the celestial body mentioned alongside the lamp.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/010-yunus/units/005.html",
+        "word": "وَالقَمَرَ",
+        "context": "And the moon.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/013-ar-rad/units/002.html",
+        "word": "وَالقَمَرَ",
+        "context": "And the moon.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/014-ibrahim/units/033.html",
+        "word": "وَالقَمَرَ",
+        "context": "And the moon, the other body described as working continuously.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/039-az-zumar/units/005.html",
+        "word": "وَالقَمَرَ",
+        "context": "And the moon, alongside the sun.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/084-al-inshiqaq/units/018.html",
+        "word": "وَالقَمَرِ",
+        "context": null,
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/012-yusuf/units/004.html",
+        "word": "وَالقَمَرَ",
+        "context": "And the moon, seen in the dream.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/035-fatir/units/013.html",
+        "word": "وَالقَمَرَ",
+        "context": "And the moon: running within the appointed order alongside the sun.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/074-al-muddaththir/units/032.html",
+        "word": "وَالقَمَرِ",
+        "context": null,
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/041-fussilat/units/037.html",
+        "word": "وَالقَمَرُ",
+        "context": "And the moon, a sign of creation.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/041-fussilat/units/037.html",
+        "word": "لِلقَمَرِ",
+        "context": "To the moon, the object of the prohibited prostration.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/031-luqman/units/029.html",
+        "word": "وَالقَمَرَ",
+        "context": "And the moon; the other phenomenon mentioned.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/055-ar-rahman/units/005.html",
+        "word": "وَالقَمَرُ",
+        "context": "And the moon, alongside the sun.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/006-al-anam/units/096.html",
+        "word": "وَالقَمَرَ",
+        "context": "And the moon: associated with reckoning time.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/006-al-anam/units/077.html",
+        "word": "القَمَرَ",
+        "context": "The moon, the heavenly body discussed at this stage.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/016-an-nahl/units/012.html",
+        "word": "وَالقَمَرَ",
+        "context": "And the moon; among the phenomena subjected for people",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/091-ash-shams/units/002.html",
+        "word": "وَالقَمَرِ",
+        "context": null,
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/021-al-anbiya/units/033.html",
+        "word": "وَالقَمَرَ",
+        "context": "And the moon, named alongside the sun.",
+        "rootMeaning": "The moon.",
+        "unchanged": true
+      }
+    ]
+  },
+  "checks": {
+    "canonical_arabic": true,
+    "full_bilingual_content": true,
+    "protected_files_unchanged": true,
+    "internal_links_and_anchors": 280,
+    "jekyll_build_seconds": 24.427,
+    "browser_views": 8,
+    "visual_review": [
+      "fa mobile light",
+      "en desktop dark"
+    ]
+  },
+  "notes": [
+    "Existing boxes preserved, including missing contexts.",
+    "No external research URLs or search debris in reader-facing prose."
+  ],
+  "publication": "Local installation only; no commit or push."
+}

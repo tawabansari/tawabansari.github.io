@@ -1,0 +1,231 @@
+{
+  "root": "ق ط ف",
+  "slug": "q-tt-f",
+  "date": "2026-11-25",
+  "input": "/Users/tawab/.codex/attachments/945bd111-812f-48d0-a469-d1cbbd73c4f2/Pasted text.txt",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "blocks_per_language": 72,
+  "root_occurrences": [
+    "69:23",
+    "76:14"
+  ],
+  "complete_quotes": [
+    "69:23",
+    "69:24",
+    "76:14",
+    "55:54"
+  ],
+  "edits": [
+    {
+      "block": 4,
+      "before": "شواهد شعری نزدیک به عصر نزول نشان می‌دهند که این ریشه در زبان زراعت برای چیدن انگور و برداشت محصول شناخته شده بود. کاربردهای دیگر آن، از جمله توصیف حرکت چارپایان، در شعر منسوب به دوران جاهلیت نیز دیده می‌شوند. با این حال، برای تعیین تاریخ دقیق کاربرد زراعتی این ریشه پیش از نزول قرآن، شواهد مستقل کافی در دست نیست.",
+      "after": "در شعر منسوب به حطیئه و حسان بن ثابت، هر دو از شاعرانِ زیسته در دوران جاهلیت و صدر اسلام، کاربرد زراعتی این خانواده دیده می‌شود. کاربرد مربوط به حرکت چارپایان نیز در شعری منسوب به زهیر آمده است. این انتساب‌ها با تعیین تاریخ دقیق سرایش یکسان نیستند؛ شواهد بررسی‌شده، زمان پیشاقرآنیِ دو شاهد زراعتی را مستقلاً اثبات نمی‌کنند."
+    },
+    {
+      "block": 10,
+      "before": "حطیئه، شاعری که دوران جاهلیت و صدر اسلام را تجربه کرده است، در وصف سخاوت گروهی می‌گوید:",
+      "after": "در شعری منسوب به حطیئه، شاعری که دوران جاهلیت و صدر اسلام را تجربه کرده است، در وصف سخاوت گروهی آمده است:"
+    },
+    {
+      "block": 11,
+      "before": "وَنُبِّئْتُ أَنَّ الْجُودَ مِنْهُمْ خَلِيقَةٌ\\\nيَجُودُونَ فِي يَبْسِ الزَّبِيبِ وَفِي الْقَطْفِ",
+      "after": "وَنُبِّئْتُ أَنَّ الْجُودَ مِنْهُمْ خَلِيقَةٌ / يَجُودُونَ فِي يَبْسِ الزَّبِيبِ وَفِي الْقَطْفِ"
+    },
+    {
+      "block": 12,
+      "before": "«به من خبر رسیده است که سخاوت خصلت آنان است؛ هم در هنگام خشک شدن انگور و هم در هنگام چیدن آن بخشندگی می‌کنند.»",
+      "after": "«به من خبر رسیده است که بخشندگی خصلت آنان است؛ هم در فصل کشمش خشک و هم در فصل چیدن، بخشندگی می‌کنند.»"
+    },
+    {
+      "block": 13,
+      "before": "قطف در این بیت به برداشت انگور اشاره دارد و در کنار مرحله خشک شدن انگور و تهیه کشمش آمده است.",
+      "after": "«قَطْف» در این بیت به برداشت محصول اشاره دارد و در برابر هنگامِ کشمش خشک آمده است؛ این تقابل، استمرار بخشندگی در دو زمان را برجسته می‌کند."
+    },
+    {
+      "block": 14,
+      "before": "حسان بن ثابت نیز در شعری درباره زندگی و برخورداری مردم از محصولات زراعتی می‌گوید:",
+      "after": "در شعری منسوب به حسان بن ثابت، در وصف زندگی برخوردار در یثرب، آمده است:"
+    },
+    {
+      "block": 15,
+      "before": "وَفِيمَا اشْتَهَوْا مِنْ عَصِيرِ الْقِطَافِ\\\nوَعَيْشٍ رَخِيٍّ عَلَى غَيْرِ هَمٍّ",
+      "after": "وَفِيمَا اشْتَهَوْا مِنْ عَصِيرِ الْقِطَافِ / وَعَيْشٍ رَخِيٍّ عَلَى غَيْرِ هَمٍّ"
+    },
+    {
+      "block": 17,
+      "before": "تعبیر «عَصِيرِ الْقِطَافِ» با محصول برداشت‌شده و نوشیدنی حاصل از آن ارتباط دارد. زمان دقیق سرایش این دو شاهد معلوم نیست، اما معنای زراعتی ریشه در آنها روشن است.",
+      "after": "تعبیر «عَصِيرِ الْقِطَافِ» با محصول برداشت‌شده و نوشیدنی حاصل از آن ارتباط دارد. برای مصراع دوم ضبط دیگری نیز نقل شده است. زمان دقیق سرایش این دو شاهد در این پژوهش احراز نشده؛ ازاین‌رو، آنها شاهد کاربرد زراعتی‌اند، نه دلیل قطعی تقدم تاریخی آن بر قرآن."
+    },
+    {
+      "block": 21,
+      "before": "«قُطُوف» جمع شکسته «قِطْف» است. قِطْف در زبان عربی هم به میوه برداشت‌شده و هم به خوشه و محصول قابل چیدن اطلاق می‌شود.",
+      "after": "«قُطُوف» جمع شکسته «قِطْف» است. در شرح‌های لغوی، دو کاربرد نزدیک برای قِطْف ثبت شده است: میوه‌ای که چیده شده، و خوشه یا میوه‌ای که موضوع چیدن است. کاربرد دوم، به‌خودی‌خود نمی‌گوید که چیدن قبلاً انجام شده است. بنابراین، نباید معنای محصولِ برداشت‌شده را در همه سیاق‌ها بر واژه تحمیل کرد."
+    },
+    {
+      "block": 38,
+      "before": "«و سایه‌های آن بر آنان نزدیک است و چیدن میوه‌هایش کاملا آسان گردانیده شده است.»",
+      "after": "«و سایه‌های آن بر آنان نزدیک است و میوه‌های چیدنی‌اش کاملاً دسترس‌پذیر گردانیده شده‌اند.»"
+    },
+    {
+      "block": 56,
+      "before": "تعبیر «جَنَى الْجَنَّتَيْنِ دَانٍ» از نظر معنایی بسیار نزدیک به «قُطُوفُهَا دَانِيَةٌ» است.",
+      "after": "آیه الرحمن و آیه الحاقه، با دو تعبیر متفاوت، نزدیکی میوه‌های چیدنی را بیان می‌کنند."
+    },
+    {
+      "block": 71,
+      "before": "**تعریف پیشنهادی برای فرقان:** چیدن و جدا کردن، به‌ویژه برداشت میوه از شاخه؛ و در صورت اسمی «قِطْف» و جمع آن «قُطُوف»، میوه‌ها و خوشه‌های قابل چیدن یا برداشت‌شده.",
+      "after": "**تعریف پیشنهادی برای فرقان:** چیدن و جدا کردن، به‌ویژه برداشت میوه از شاخه. «قِطْف» در زبان عربی هم محصول چیده‌شده و هم خوشه یا میوه موضوع چیدن را می‌نامد؛ جمع آن «قُطُوف» در دو کاربرد قرآنی این پژوهش، «میوه‌های چیدنی» ترجمه می‌شود، بدون ادعای اینکه پیش‌تر از شاخه جدا شده‌اند."
+    }
+  ],
+  "removed": "Chat preface, favicon and citation debris, trailing English editing instruction.",
+  "sources": [
+    "https://corpus.quran.com/qurandictionary.jsp?q=qTf",
+    "https://islamweb.net/ar/library/content/122/6708/قطف",
+    "https://www.aldiwan.net/poem21667.html",
+    "https://najafdesertlibrary.com/book/ديوان-حسان-بن-ثابت-الأنصاري/v/1/p/105",
+    "https://ablibrary.net/book_content/b/2981/135?lang=ar"
+  ],
+  "research_limitations": "Exact dates of the two attributed agricultural poetic witnesses not established; different Hassan hemistich transmitted.",
+  "concept_directories_checked": [
+    "https://forqan.co/fa/quran-terminology/",
+    "https://forqan.co/en/quran-terminology/"
+  ],
+  "related_roots": [
+    "q-tt-ayn",
+    "j-n-y",
+    "th-m-r",
+    "d-n-w",
+    "dh-l-l"
+  ],
+  "existing_boxes": {
+    "fa": [
+      {
+        "path": "quran-reflection/fa/076-al-insan/units/014.html",
+        "word": "قُطوفُها",
+        "context": null,
+        "rootMeaning": "چیدن میوه؛ قطوف: میوه‌های چیدنی یا خوشه‌ها.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/fa/069-al-haqqah/units/023.html",
+        "word": "قُطوفُها",
+        "context": null,
+        "rootMeaning": "چیدن میوه؛ قطوف: میوه‌های چیدنی یا خوشه‌ها.",
+        "unchanged": true
+      }
+    ],
+    "en": [
+      {
+        "path": "quran-reflection/en/076-al-insan/units/014.html",
+        "word": "قُطوفُها",
+        "context": null,
+        "rootMeaning": "Picking fruit; quṭūf denotes fruit or clusters ready for picking.",
+        "unchanged": true
+      },
+      {
+        "path": "quran-reflection/en/069-al-haqqah/units/023.html",
+        "word": "قُطوفُها",
+        "context": null,
+        "rootMeaning": "Picking fruit; quṭūf denotes fruit or clusters ready for picking.",
+        "unchanged": true
+      }
+    ]
+  },
+  "checks": {
+    "canonical_complete_verses": "passed",
+    "source_coverage": "passed",
+    "protected_content": "SHA256 unchanged, including preexisting edits to 3:49",
+    "registry": "only q-tt-f",
+    "diff_check": "passed",
+    "build": "passed, 25.6 seconds",
+    "internal_links_and_anchors": 84,
+    "browser_views": [
+      {
+        "root": "q-tt-f",
+        "lang": "fa",
+        "width": 390,
+        "scroll": 390,
+        "theme": "light",
+        "verses": 4,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-tt-f",
+        "lang": "fa",
+        "width": 390,
+        "scroll": 390,
+        "theme": "dark",
+        "verses": 4,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-tt-f",
+        "lang": "fa",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "light",
+        "verses": 4,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-tt-f",
+        "lang": "fa",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "dark",
+        "verses": 4,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-tt-f",
+        "lang": "en",
+        "width": 390,
+        "scroll": 390,
+        "theme": "light",
+        "verses": 4,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-tt-f",
+        "lang": "en",
+        "width": 390,
+        "scroll": 390,
+        "theme": "dark",
+        "verses": 4,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-tt-f",
+        "lang": "en",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "light",
+        "verses": 4,
+        "cards": 1,
+        "sections": 7
+      },
+      {
+        "root": "q-tt-f",
+        "lang": "en",
+        "width": 1280,
+        "scroll": 1280,
+        "theme": "dark",
+        "verses": 4,
+        "cards": 1,
+        "sections": 7
+      }
+    ],
+    "visual_inspection": "Persian mobile light and English desktop dark inspected; readable and no overflow"
+  },
+  "commit": false,
+  "push": false
+}
