@@ -1,0 +1,2316 @@
+{
+  "roots": [
+    {
+      "slug": "k-a-s",
+      "source": "/Users/tawab/.codex/attachments/ee322d23-e9d9-46e0-ae6b-ce69717a8404/Pasted text.txt",
+      "source_sha256": "ab62129f7d9cf955d62c7cdca73b595679b82fd5762b7fb98aef7993b2802fc9",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 12,
+      "source_blocks": 121,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/076-al-insan/units/005.html",
+          "word": "كَأسٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/076-al-insan/units/017.html",
+          "word": "كَأسًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/056-al-waqiah/units/018.html",
+          "word": "وَكَأسٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/037-as-saffat/units/045.html",
+          "word": "بِكَأسٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/076-al-insan/units/005.html",
+          "word": "كَأسٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/076-al-insan/units/017.html",
+          "word": "كَأسًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/056-al-waqiah/units/018.html",
+          "word": "وَكَأسٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/037-as-saffat/units/045.html",
+          "word": "بِكَأسٍ",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 12,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-a-s/index.html",
+          "sha256": "0a21fc43d7126290ef80a8ed363ca2d413c1e8b2a6ade04da9a20a0c94081a6e"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-a-s/index.html",
+          "sha256": "a58143217234b342819a893b826de7ffa7b6d7ea8b96b2ab523e5c0c77b99154"
+        }
+      }
+    },
+    {
+      "slug": "k-b-b",
+      "source": "/Users/tawab/.codex/attachments/91163744-f9d9-42a9-a782-6ac0858abc5e/Pasted text.txt",
+      "source_sha256": "57faeb5951951c471e93221f4163eff305de470adef3ff927b7d5680a0c8b71c",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 4,
+      "source_blocks": 93,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/067-al-mulk/units/022.html",
+          "word": "مُكِبًّا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/090.html",
+          "word": "فَكُبَّت",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/067-al-mulk/units/022.html",
+          "word": "مُكِبًّا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/090.html",
+          "word": "فَكُبَّت",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 4,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-b-b/index.html",
+          "sha256": "8d33f6f672411a08149c4f545becc522ffe9191b1663e654d98b2f76f7601cf0"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-b-b/index.html",
+          "sha256": "436ac28caf8b178136121e20f9f39b8420659338db97eb70aeb0b4b9a1d3c49a"
+        }
+      }
+    },
+    {
+      "slug": "k-b-t",
+      "source": "/Users/tawab/.codex/attachments/55591bb6-8a52-43ef-ac9e-815ef9b30adf/Pasted text.txt",
+      "source_sha256": "59c56747a71f9aee8d06226f356909b1274bc4aa7ab2422504dcaa2fc48998c8",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 5,
+      "source_blocks": 98,
+      "preexisting_word_box_issues": [],
+      "quran_reader_edits_by_this_task": false,
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 5,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-b-t/index.html",
+          "sha256": "c5441dc0890b5ef2a5d73aa3aa84e948d7c3377d32c2170346ee83c798af6a35"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-b-t/index.html",
+          "sha256": "b0c8068b6bbbb5d366113cdb3b99150b86474782cda2abffc36dd06f26fcb9b8"
+        }
+      }
+    },
+    {
+      "slug": "k-b-d",
+      "source": "/Users/tawab/.codex/attachments/4201eef3-5e7e-45c2-b950-1edd2c6f8691/Pasted text.txt",
+      "source_sha256": "374c0f7f771c08cbed205abf42800f7e598712f084594ff8f9d6a939469576e2",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 8,
+      "source_blocks": 110,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/090-al-balad/units/004.html",
+          "word": "كَبَدٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/090-al-balad/units/004.html",
+          "word": "كَبَدٍ",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 8,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-b-d/index.html",
+          "sha256": "371b8dd075ae4bc24d656ce9b778be83fbff63f1ae5217676b1b947c1fb924d0"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-b-d/index.html",
+          "sha256": "1bbbe8c4ae9d45a3c5ed746c8852af5c19e1d0b293db31bf5b9b93a496aa3575"
+        }
+      }
+    },
+    {
+      "slug": "k-th-b",
+      "source": "/Users/tawab/.codex/attachments/a443347c-16ef-4a4e-af91-75f6bb2afbd9/Pasted text.txt",
+      "source_sha256": "36be646ede16bf64dd0e0d9939407e8fe3dc8223c1655a26730e8dcbe999dbe6",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 4,
+      "source_blocks": 94,
+      "preexisting_word_box_issues": [],
+      "quran_reader_edits_by_this_task": false,
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 4,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-th-b/index.html",
+          "sha256": "bd9e91d80832ce65cd862409acb450e60fb53dbdf0c0c9699e7712219bef0ec9"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-th-b/index.html",
+          "sha256": "0a2fb0133ead82281809e6fa773f2b9a03ab9cf352f9c8e9f23e48e7039bee78"
+        }
+      }
+    },
+    {
+      "slug": "k-d-h",
+      "source": "/Users/tawab/.codex/attachments/d1ac907c-b302-4b5f-915b-0be76c436ed6/Pasted text.txt",
+      "source_sha256": "71c596767837b31db2c781a912733f375b1d0a55c12819042d4e61248f751575",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 10,
+      "source_blocks": 122,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/084-al-inshiqaq/units/006.html",
+          "word": "كادِحٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/084-al-inshiqaq/units/006.html",
+          "word": "كَدحًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/084-al-inshiqaq/units/006.html",
+          "word": "كادِحٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/084-al-inshiqaq/units/006.html",
+          "word": "كَدحًا",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 10,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-d-h/index.html",
+          "sha256": "16943e659fec4d079d354c0aeae4a889e82e19fd834a4ed55e7872234e0f0204"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-d-h/index.html",
+          "sha256": "36e4f722be16d1f05aadb5d2f9c76c86d7cde2a8b2ee48ca82a42fa52fd13e96"
+        }
+      }
+    },
+    {
+      "slug": "k-d-y",
+      "source": "/Users/tawab/.codex/attachments/5223f2d1-bd76-40d4-b366-6fbf98487948/Pasted text.txt",
+      "source_sha256": "a6350c97f29723b230d19a4ea0a0d6c574725587ed970b85abef575c3bc0a916",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 10,
+      "source_blocks": 117,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/053-an-najm/units/034.html",
+          "word": "وَأَكدىٰ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/053-an-najm/units/034.html",
+          "word": "وَأَكدىٰ",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 10,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-d-y/index.html",
+          "sha256": "c6d32651e7a21dd8ac78d48c900a69c939191907e41b19ac694cfb648d0340a3"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-d-y/index.html",
+          "sha256": "357f1f0aa767a4e6ddbf2fc69e5b5e4748075aa73a78298e4c902858e02d273c"
+        }
+      }
+    },
+    {
+      "slug": "k-r-b",
+      "source": "/Users/tawab/.codex/attachments/58ec1f83-01d2-46a2-a405-ae7f0b12bb08/Pasted text.txt",
+      "source_sha256": "ed00ff5489c9a226a2750513ed00ffc5c1d5f012528675a02aefc5250917fcdb",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 11,
+      "source_blocks": 142,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/006-al-anam/units/064.html",
+          "word": "كَربٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/037-as-saffat/units/076.html",
+          "word": "الكَربِ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/037-as-saffat/units/115.html",
+          "word": "الكَربِ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/006-al-anam/units/064.html",
+          "word": "كَربٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/037-as-saffat/units/076.html",
+          "word": "الكَربِ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/037-as-saffat/units/115.html",
+          "word": "الكَربِ",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 11,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-r-b/index.html",
+          "sha256": "77154ea171384e5554c4dc28f51712f399fe0ba95e0cab4ffd1a38644c643539"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-r-b/index.html",
+          "sha256": "797a361cbb7b6ba95c7f1309e03aa6b88959a801fe1f067b99a3cc7df57189cd"
+        }
+      }
+    },
+    {
+      "slug": "k-r-m",
+      "source": "/Users/tawab/.codex/attachments/b5a3b5d9-cd89-413c-95e7-f88ceaca3edf/Pasted text.txt",
+      "source_sha256": "be1e53bbac06ec1615a66114250b212de1a9af962aa39417893ab4f99aec68b2",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 35,
+      "source_blocks": 332,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/022-al-hajj/units/050.html",
+          "word": "كَريمٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/026-ash-shuara/units/058.html",
+          "word": "كَريمٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/026-ash-shuara/units/007.html",
+          "word": "كَريمٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/036-ya-sin/units/027.html",
+          "word": "المُكرَمينَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/036-ya-sin/units/011.html",
+          "word": "كَريمٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/080-abasa/units/013.html",
+          "word": "مُكَرَّمَةٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/080-abasa/units/016.html",
+          "word": "كِرامٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/023-al-muminun/units/116.html",
+          "word": "الكَريمِ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/033-al-ahzab/units/044.html",
+          "word": "كَريمًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/082-al-infitar/units/006.html",
+          "word": "الكَريمِ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/082-al-infitar/units/011.html",
+          "word": "كِرامًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/069-al-haqqah/units/040.html",
+          "word": "كَريمٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/081-at-takwir/units/019.html",
+          "word": "كَريمٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/070-al-maarij/units/035.html",
+          "word": "مُكرَمونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/044-ad-dukhan/units/017.html",
+          "word": "كَريمٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/044-ad-dukhan/units/026.html",
+          "word": "كَريمٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/034-saba/units/004.html",
+          "word": "كَريمٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/029.html",
+          "word": "كَريمٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/040.html",
+          "word": "كَريمٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/037-as-saffat/units/042.html",
+          "word": "مُكرَمونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/051-adh-dhariyat/units/024.html",
+          "word": "المُكرَمينَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/089-al-fajr/units/015.html",
+          "word": "فَأَكرَمَهُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/089-al-fajr/units/015.html",
+          "word": "أَكرَمَنِ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/089-al-fajr/units/017.html",
+          "word": "تُكرِمونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/021-al-anbiya/units/026.html",
+          "word": "مُكرَمونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/022-al-hajj/units/050.html",
+          "word": "كَريمٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/026-ash-shuara/units/058.html",
+          "word": "كَريمٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/026-ash-shuara/units/007.html",
+          "word": "كَريمٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/036-ya-sin/units/027.html",
+          "word": "المُكرَمينَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/036-ya-sin/units/011.html",
+          "word": "كَريمٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/080-abasa/units/013.html",
+          "word": "مُكَرَّمَةٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/080-abasa/units/016.html",
+          "word": "كِرامٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/023-al-muminun/units/116.html",
+          "word": "الكَريمِ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/033-al-ahzab/units/044.html",
+          "word": "كَريمًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/082-al-infitar/units/006.html",
+          "word": "الكَريمِ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/082-al-infitar/units/011.html",
+          "word": "كِرامًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/069-al-haqqah/units/040.html",
+          "word": "كَريمٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/081-at-takwir/units/019.html",
+          "word": "كَريمٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/070-al-maarij/units/035.html",
+          "word": "مُكرَمونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/044-ad-dukhan/units/017.html",
+          "word": "كَريمٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/044-ad-dukhan/units/026.html",
+          "word": "كَريمٍ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/034-saba/units/004.html",
+          "word": "كَريمٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/029.html",
+          "word": "كَريمٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/040.html",
+          "word": "كَريمٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/037-as-saffat/units/042.html",
+          "word": "مُكرَمونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/051-adh-dhariyat/units/024.html",
+          "word": "المُكرَمينَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/089-al-fajr/units/015.html",
+          "word": "فَأَكرَمَهُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/089-al-fajr/units/015.html",
+          "word": "أَكرَمَنِ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/089-al-fajr/units/017.html",
+          "word": "تُكرِمونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/021-al-anbiya/units/026.html",
+          "word": "مُكرَمونَ",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 35,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-r-m/index.html",
+          "sha256": "4acb45bae09ab48c98f364f51ea9c04b5ff54a03d0d14f8ab07fce2ea8fad2e9"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-r-m/index.html",
+          "sha256": "94ce255eaf51c9dba450db53b3d87fd6ceee1e7b1f4fc1cdd96497581634e61e"
+        }
+      }
+    },
+    {
+      "slug": "k-s-d",
+      "source": "/Users/tawab/.codex/attachments/6d4288e0-6331-4ba9-b265-086f202ce4db/Pasted text.txt",
+      "source_sha256": "ef6cae898362cce94ddb136f38a111f83af606b1af25f1ff7070b4cdb78b64c0",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 3,
+      "source_blocks": 99,
+      "preexisting_word_box_issues": [],
+      "quran_reader_edits_by_this_task": false,
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 3,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-s-d/index.html",
+          "sha256": "77ace530f26f83ad176d3bb38d8937c444ed5149ce6dd40b703fc920cfe3ea31"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-s-d/index.html",
+          "sha256": "c3a745b8801a21ddc739d59900310ed351b4cd740a024e28c3084a2b4887d598"
+        }
+      }
+    },
+    {
+      "slug": "k-s-f",
+      "source": "/Users/tawab/.codex/attachments/83d2b34d-54c9-445e-9689-a0f3a644cc27/Pasted text.txt",
+      "source_sha256": "75e2673bffe321ae6235b2f5a2b143090f4a1b3e67ebd237c062a87127ff3894",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 9,
+      "source_blocks": 158,
+      "preexisting_word_box_issues": [],
+      "quran_reader_edits_by_this_task": false,
+      "verification_sources": [
+        "https://www.islamweb.net/ar/library/content/124/3834/",
+        "https://www.islamweb.net/ar/library/content/1082/990/",
+        "https://www.islamweb.net/ar/library/content/201/2210/"
+      ],
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 9,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-s-f/index.html",
+          "sha256": "277e7c84884301c242da65138745f8ca152aa7f4191b63b46efb98c369e7b0c0"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-s-f/index.html",
+          "sha256": "cc835fd8b3f17f32e472ccc75d854dae4830427f547520e99db903b2538e677b"
+        }
+      }
+    },
+    {
+      "slug": "k-s-l",
+      "source": "/Users/tawab/.codex/attachments/1bd427a4-98e6-4c91-afa3-c2c519b56b7c/Pasted text.txt",
+      "source_sha256": "f50771cd3d630c2beafd07aa2d82e6c2235e84d61b7ca6445f3b642f3c29fc49",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 6,
+      "source_blocks": 131,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/004-an-nisa/units/142.html",
+          "word": "كُسالىٰ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/009-at-tawbah/units/054.html",
+          "word": "كُسالىٰ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/004-an-nisa/units/142.html",
+          "word": "كُسالىٰ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/009-at-tawbah/units/054.html",
+          "word": "كُسالىٰ",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "verification_sources": [
+        "https://najafdesertlibrary.com/book/ديوان-لبيد-بن-ربيعة/v/1/p/92",
+        "https://www.islamweb.net/ar/library/content/122/7157/كسل"
+      ],
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 6,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-s-l/index.html",
+          "sha256": "9f399bb4fe19fb1c1b3794a2d087a69aad610d7ad340fc10c6e56efbede5d07c"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-s-l/index.html",
+          "sha256": "5818622c937380f7cad8c542b859929d5c0afca0cd5478e8d84d9f523a929e75"
+        }
+      }
+    },
+    {
+      "slug": "k-sh-tt",
+      "source": "/Users/tawab/.codex/attachments/418782e7-a3b5-4f24-8117-90e37f13518a/Pasted text.txt",
+      "source_sha256": "475a1b4e1c283bf960f33952e9450433eb92eef5e890329ec40c379679a014f0",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 6,
+      "source_blocks": 112,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/081-at-takwir/units/011.html",
+          "word": "كُشِطَت",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/081-at-takwir/units/011.html",
+          "word": "كُشِطَت",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "verification_sources": [
+        "https://arabiclexicon.hawramani.com/كشط/",
+        "https://lanelexicon.com/wp-content/uploads/2019/01/العباب-الزاخر-للصغاني.pdf"
+      ],
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 6,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-sh-tt/index.html",
+          "sha256": "32301e7860665648a5fdbd4fca6bcbfd01c8a7a87de173dcaf9b2d6418b5343a"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-sh-tt/index.html",
+          "sha256": "dc2f6006870a6ace72087fcf5a025f6e2ce158917f859bbe779a34d94058c725"
+        }
+      }
+    },
+    {
+      "slug": "k-sh-f",
+      "source": "/Users/tawab/.codex/attachments/a6698b0b-d232-4d7e-af6b-63c33290716e/Pasted text.txt",
+      "source_sha256": "2d1102a9af60738255fcabddabfe21b7e44f48c117b986ce07b8efa20719ceae",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 20,
+      "source_blocks": 240,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/053-an-najm/units/058.html",
+          "word": "كاشِفَةٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/007-al-araf/units/134.html",
+          "word": "كَشَفتَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/010-yunus/units/107.html",
+          "word": "كاشِفَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/010-yunus/units/098.html",
+          "word": "كَشَفنا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/023-al-muminun/units/075.html",
+          "word": "وَكَشَفنا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/006-al-anam/units/041.html",
+          "word": "فَيَكشِفُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/006-al-anam/units/017.html",
+          "word": "كاشِفَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/044-ad-dukhan/units/012.html",
+          "word": "اكشِف",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/044-ad-dukhan/units/015.html",
+          "word": "كاشِفُوا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/016-an-nahl/units/054.html",
+          "word": "كَشَفَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/062.html",
+          "word": "وَيَكشِفُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/021-al-anbiya/units/084.html",
+          "word": "فَكَشَفنا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/053-an-najm/units/058.html",
+          "word": "كاشِفَةٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/007-al-araf/units/134.html",
+          "word": "كَشَفتَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/010-yunus/units/107.html",
+          "word": "كاشِفَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/010-yunus/units/098.html",
+          "word": "كَشَفنا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/023-al-muminun/units/075.html",
+          "word": "وَكَشَفنا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/006-al-anam/units/041.html",
+          "word": "فَيَكشِفُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/006-al-anam/units/017.html",
+          "word": "كاشِفَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/044-ad-dukhan/units/012.html",
+          "word": "اكشِف",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/044-ad-dukhan/units/015.html",
+          "word": "كاشِفُوا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/016-an-nahl/units/054.html",
+          "word": "كَشَفَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/062.html",
+          "word": "وَيَكشِفُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/021-al-anbiya/units/084.html",
+          "word": "فَكَشَفنا",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "verification_sources": [
+        "https://mc.dlib.nyu.edu/files/books/columbia_aco001515/columbia_aco001515_lo.pdf",
+        "https://www.islamweb.net/ar/library/content/206/4784/",
+        "https://www.islamweb.net/ar/library/content/205/2832/"
+      ],
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 20,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-sh-f/index.html",
+          "sha256": "33df6b1ecbca013fe4f201dfd84c5804b22e427c0f358668a56289e87932c5fb"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-sh-f/index.html",
+          "sha256": "f05be4a49b3811b663008fe44146ef9174489d04af08b34c12a9ac367803dad0"
+        }
+      }
+    },
+    {
+      "slug": "k-ayn-b",
+      "source": "/Users/tawab/.codex/attachments/cda7b477-d150-45e4-9c1f-768aca122366/Pasted text.txt",
+      "source_sha256": "145571da09c13642b46ae11a72c4da9b3e3f58ea3f9d9d88041f9c2aa6758ca6",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 10,
+      "source_blocks": 180,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/078-an-naba/units/033.html",
+          "word": "وَكَواعِبَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/078-an-naba/units/033.html",
+          "word": "وَكَواعِبَ",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "verification_sources": [
+        "https://ablibrary.net/book_content/b/2978/80?lang=ar",
+        "https://ablibrary.net/book_content/b/8060/186"
+      ],
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 10,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-ayn-b/index.html",
+          "sha256": "22783586e8b192bb886f0c51638bdcfbce78e8df0550b69a8815727893bc3f03"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-ayn-b/index.html",
+          "sha256": "8f37bf66adf7ca38b8478207c7dcea3abd9f7e51835b092d9839dcfff421b141"
+        }
+      }
+    },
+    {
+      "slug": "k-f-t",
+      "source": "/Users/tawab/.codex/attachments/80ba010e-63ae-430f-8adb-40ba71c46b3c/Pasted text.txt",
+      "source_sha256": "cd9c56bf83448de3cc2e1e10a5f4a21ecd93aee5fbb2bdabfe56c3a799a100da",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 8,
+      "source_blocks": 135,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/077-al-mursalat/units/025.html",
+          "word": "كِفاتًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/077-al-mursalat/units/025.html",
+          "word": "كِفاتًا",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "verification_sources": [
+        "https://najafdesertlibrary.com/book/الصحاح/v/1/p/287",
+        "https://najafdesertlibrary.com/book/كتاب-الأفعال/v/2/p/153"
+      ],
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 8,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-f-t/index.html",
+          "sha256": "ff2ceb3e517c34e33d19cfb0a5089131e2eb0604dc584c1b4eff65cbd9589dab"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-f-t/index.html",
+          "sha256": "198ee97033e4943f170d598df73afaeb27a4e8a590c9f9783c46efb6ac54434f"
+        }
+      }
+    },
+    {
+      "slug": "k-f-f",
+      "source": "/Users/tawab/.codex/attachments/60af740b-e6cc-4664-82a4-7f406e1f69bc/Pasted text.txt",
+      "source_sha256": "36e41161a92ff5ada12b3382f08e418eed777da89e6837a423856ca02e89ff25",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 12,
+      "source_blocks": 222,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/048-al-fath/units/020.html",
+          "word": "وَكَفَّ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/004-an-nisa/units/077.html",
+          "word": "كُفّوا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/034-saba/units/028.html",
+          "word": "كافَّةً",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/021-al-anbiya/units/039.html",
+          "word": "يَكُفّونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/048-al-fath/units/020.html",
+          "word": "وَكَفَّ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/004-an-nisa/units/077.html",
+          "word": "كُفّوا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/034-saba/units/028.html",
+          "word": "كافَّةً",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/021-al-anbiya/units/039.html",
+          "word": "يَكُفّونَ",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "verification_sources": [
+        "https://usul.ai/t/diwan-24/32",
+        "https://www.islamweb.net/ar/library/content/106/92/"
+      ],
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 12,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-f-f/index.html",
+          "sha256": "908f4b7ee03690ab208b52ec8619ca6a7388acaa396c52019c399aed23506a22"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-f-f/index.html",
+          "sha256": "d2a41abe54647a3adbe739abc2195f337d97517d1310db78c05f9d831d298e1e"
+        }
+      }
+    },
+    {
+      "slug": "k-l-a",
+      "source": "/Users/tawab/.codex/attachments/d2f8025d-aa81-431d-9ec3-d27011aeb730/Pasted text.txt",
+      "source_sha256": "637d0a784abad31545d63cd29ca284dbcd50b7da29f903d87f888a1d2daad8cb",
+      "status": "installed_locally_bilingual_validated",
+      "editorial_changes": [
+        "Qualified the historical-evidence claim to evidence reviewed, rather than asserting no evidence exists.",
+        "Replaced six standalone Quran quotations in each language with canonical shared verse references.",
+        "Removed the long partial verse from the rendering table; retained lexical examples.",
+        "Preserved Quran reader word boxes unchanged, including two pre-existing missing context fields."
+      ],
+      "research_sources": [
+        "https://ablibrary.net/book_content/b/5405/93?lang=ar",
+        "https://www.islamweb.net/ar/library/content/124/3713/",
+        "https://www.masaha.org/book/view/2314/page/545"
+      ],
+      "pre_existing_word_box_issues": [
+        {
+          "path": "quran-reflection/en/021-al-anbiya/units/042.html",
+          "word": "يَكلَؤُكُم",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/021-al-anbiya/units/042.html",
+          "word": "يَكلَؤُكُم",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "source_checks": {
+        "bilingual_block_count": 134,
+        "standalone_verses_per_language": 6,
+        "local_destinations_and_unit_anchors": "passed",
+        "quran_reader_files": "unchanged",
+        "external_urls_in_article": 0
+      },
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 6,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "quoted_verses_per_language": 6,
+      "source_blocks": 148,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/021-al-anbiya/units/042.html",
+          "word": "يَكلَؤُكُم",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/021-al-anbiya/units/042.html",
+          "word": "يَكلَؤُكُم",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-l-a/index.html",
+          "sha256": "c96d7f2c15aad5d1a5a32cfc108c94b8cc85b66f32bf12f834c6d30261b4201c"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-l-a/index.html",
+          "sha256": "accc0f30f79cc75e2344c9b5f5cf59f29056a465a2ececa20e215a390931f325"
+        }
+      }
+    },
+    {
+      "slug": "k-r-h2",
+      "source": "/Users/tawab/.codex/attachments/033d4b5f-f420-4132-9e0f-f99e017ce2e0/Pasted text.txt",
+      "source_sha256": "4e8629b91aa31c7d46d8273c7ebf08f4fd219aae404c98b8182923a1433c3111",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 22,
+      "source_blocks": 279,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/007-al-araf/units/088.html",
+          "word": "كٰرِهينَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/011-hud/units/028.html",
+          "word": "كٰرِهونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/010-yunus/units/099.html",
+          "word": "تُكرِهُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/023-al-muminun/units/070.html",
+          "word": "كٰرِهونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/061-as-saff/units/008.html",
+          "word": "كَرِهَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/061-as-saff/units/009.html",
+          "word": "كَرِهَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/047-muhammad/units/026.html",
+          "word": "كَرِهوا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/040-ghafir/units/014.html",
+          "word": "كَرِهَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/003-al-imran/units/083.html",
+          "word": "وَكَرهًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/043-az-zukhruf/units/078.html",
+          "word": "كٰرِهونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/017-al-isra/units/038.html",
+          "word": "مَكروهًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/009-at-tawbah/units/053.html",
+          "word": "كَرهًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/009-at-tawbah/units/032.html",
+          "word": "كَرِهَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/009-at-tawbah/units/048.html",
+          "word": "كٰرِهونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/009-at-tawbah/units/033.html",
+          "word": "كَرِهَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/009-at-tawbah/units/054.html",
+          "word": "كٰرِهونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/007-al-araf/units/088.html",
+          "word": "كٰرِهينَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/011-hud/units/028.html",
+          "word": "كٰرِهونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/010-yunus/units/099.html",
+          "word": "تُكرِهُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/023-al-muminun/units/070.html",
+          "word": "كٰرِهونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/061-as-saff/units/008.html",
+          "word": "كَرِهَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/061-as-saff/units/009.html",
+          "word": "كَرِهَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/047-muhammad/units/026.html",
+          "word": "كَرِهوا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/040-ghafir/units/014.html",
+          "word": "كَرِهَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/003-al-imran/units/083.html",
+          "word": "وَكَرهًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/043-az-zukhruf/units/078.html",
+          "word": "كٰرِهونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/017-al-isra/units/038.html",
+          "word": "مَكروهًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/009-at-tawbah/units/053.html",
+          "word": "كَرهًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/009-at-tawbah/units/032.html",
+          "word": "كَرِهَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/009-at-tawbah/units/048.html",
+          "word": "كٰرِهونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/009-at-tawbah/units/033.html",
+          "word": "كَرِهَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/009-at-tawbah/units/054.html",
+          "word": "كٰرِهونَ",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 22,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-r-h2/index.html",
+          "sha256": "16aed47a1bc0f497be309eeb7947b2a21fe4b0c2c6cb4695a927bf9d2f9459b0"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-r-h2/index.html",
+          "sha256": "7fdd56f63550786f1d17a6e92e88fd76c885689b512204cf965df254df37d6bb"
+        }
+      }
+    },
+    {
+      "slug": "k-zha-m",
+      "source": "/Users/tawab/.codex/attachments/87fb044e-dcbf-4c72-aeab-be00e7c8c7a0/Pasted text.txt",
+      "source_sha256": "afbbdc6a667a9e731ca40fbb192ced88e038bd3dc16f0959b0e392e076a748bf",
+      "status": "installed_locally_bilingual_validated",
+      "quoted_verses_per_language": 13,
+      "source_blocks": 190,
+      "preexisting_word_box_issues": [],
+      "quran_reader_edits_by_this_task": false,
+      "verification_sources": [
+        "https://www.islamweb.net/ar/library/content/122/7188/كظم",
+        "https://najafdesertlibrary.com/book/المحكم-والمحيط-الأعظم/v/6/p/785"
+      ],
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 13,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/k-zha-m/index.html",
+          "sha256": "839fc1bdcef33068f94b2dbaa58b29750c752e8c53238cc913669b287f978929"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/k-zha-m/index.html",
+          "sha256": "633a65e560f0a147be7d507bd6191048630c096e657d87a5cb822f86aeed286c"
+        }
+      }
+    },
+    {
+      "slug": "m-k-r",
+      "source": "/Users/tawab/.codex/attachments/20cebfd7-6e2d-43d7-9328-a91ac1dff7cb/Pasted text.txt",
+      "source_sha256": "b388cb2e1c0b3feb940f080aa1cecb488453ea3eb0128fb93efe17b3b449334a",
+      "status": "installed_locally_bilingual_validated",
+      "editorial_changes": [
+        "Qualified the historical evidence claim.",
+        "Distinguished botanical plural mukur from makur, cunning.",
+        "Acknowledged the rhetorical explanation of divine makr alongside concealed planning.",
+        "Used 15 canonical shared verses per language.",
+        "Added verified taqwa and arrogance concept links; omitted unavailable k-y-d study link."
+      ],
+      "research_sources": [
+        "https://www.islamweb.net/ar/library/content/122/7944/",
+        "https://quranpedia.app/uloom/raghib/w/m0k0r0.html",
+        "https://ablibrary.net/book_content/b/12441/31?lang=ar",
+        "https://corpus.quran.com/qurandictionary.jsp?q=mkr"
+      ],
+      "pre_existing_word_box_issues": [
+        {
+          "path": "quran-reflection/en/071-nuh/units/022.html",
+          "word": "وَمَكَروا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/071-nuh/units/022.html",
+          "word": "مَكرًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/007-al-araf/units/099.html",
+          "word": "مَكرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/007-al-araf/units/099.html",
+          "word": "مَكرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/007-al-araf/units/123.html",
+          "word": "لَمَكرٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/007-al-araf/units/123.html",
+          "word": "مَكَرتُموهُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/013-ar-rad/units/042.html",
+          "word": "مَكَرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/013-ar-rad/units/042.html",
+          "word": "المَكرُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/012-yusuf/units/102.html",
+          "word": "يَمكُرونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/003-al-imran/units/054.html",
+          "word": "وَمَكَروا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/003-al-imran/units/054.html",
+          "word": "وَمَكَرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/003-al-imran/units/054.html",
+          "word": "المٰكِرينَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/016-an-nahl/units/127.html",
+          "word": "يَمكُرونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/070.html",
+          "word": "يَمكُرونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/050.html",
+          "word": "وَمَكَروا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/050.html",
+          "word": "مَكرًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/050.html",
+          "word": "وَمَكَرنا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/050.html",
+          "word": "مَكرًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/071-nuh/units/022.html",
+          "word": "وَمَكَروا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/071-nuh/units/022.html",
+          "word": "مَكرًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/007-al-araf/units/099.html",
+          "word": "مَكرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/007-al-araf/units/099.html",
+          "word": "مَكرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/007-al-araf/units/123.html",
+          "word": "لَمَكرٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/007-al-araf/units/123.html",
+          "word": "مَكَرتُموهُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/013-ar-rad/units/042.html",
+          "word": "مَكَرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/013-ar-rad/units/042.html",
+          "word": "المَكرُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/012-yusuf/units/102.html",
+          "word": "يَمكُرونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/003-al-imran/units/054.html",
+          "word": "وَمَكَروا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/003-al-imran/units/054.html",
+          "word": "وَمَكَرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/003-al-imran/units/054.html",
+          "word": "المٰكِرينَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/016-an-nahl/units/127.html",
+          "word": "يَمكُرونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/070.html",
+          "word": "يَمكُرونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/050.html",
+          "word": "وَمَكَروا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/050.html",
+          "word": "مَكرًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/050.html",
+          "word": "وَمَكَرنا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/050.html",
+          "word": "مَكرًا",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "validation": {
+        "shared_quran_tests": "6 passed",
+        "shared_quran_build_check": "3246 verses across 184 pages verified site-wide",
+        "rendering": "8 combinations for this root: Persian/English, mobile/desktop, light/dark; no horizontal overflow",
+        "internal_links_and_anchors": "verified in final built output",
+        "quoted_verses_per_language": 15,
+        "quran_reader_edits_by_this_task": false,
+        "build_pipeline": "Jekyll, library preparation, discovery, search, PDF client completed"
+      },
+      "concurrent_changes_note": "Other work changed Baqarah 2:208 and unrelated articles. This root installation did not edit them; all other Quran reader files match the saved baseline.",
+      "quoted_verses_per_language": 15,
+      "source_blocks": 231,
+      "preexisting_word_box_issues": [
+        {
+          "path": "quran-reflection/en/071-nuh/units/022.html",
+          "word": "وَمَكَروا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/071-nuh/units/022.html",
+          "word": "مَكرًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/007-al-araf/units/099.html",
+          "word": "مَكرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/007-al-araf/units/099.html",
+          "word": "مَكرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/007-al-araf/units/123.html",
+          "word": "لَمَكرٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/007-al-araf/units/123.html",
+          "word": "مَكَرتُموهُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/013-ar-rad/units/042.html",
+          "word": "مَكَرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/013-ar-rad/units/042.html",
+          "word": "المَكرُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/012-yusuf/units/102.html",
+          "word": "يَمكُرونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/003-al-imran/units/054.html",
+          "word": "وَمَكَروا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/003-al-imran/units/054.html",
+          "word": "وَمَكَرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/003-al-imran/units/054.html",
+          "word": "المٰكِرينَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/016-an-nahl/units/127.html",
+          "word": "يَمكُرونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/070.html",
+          "word": "يَمكُرونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/050.html",
+          "word": "وَمَكَروا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/050.html",
+          "word": "مَكرًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/050.html",
+          "word": "وَمَكَرنا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/en/027-an-naml/units/050.html",
+          "word": "مَكرًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/071-nuh/units/022.html",
+          "word": "وَمَكَروا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/071-nuh/units/022.html",
+          "word": "مَكرًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/007-al-araf/units/099.html",
+          "word": "مَكرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/007-al-araf/units/099.html",
+          "word": "مَكرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/007-al-araf/units/123.html",
+          "word": "لَمَكرٌ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/007-al-araf/units/123.html",
+          "word": "مَكَرتُموهُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/013-ar-rad/units/042.html",
+          "word": "مَكَرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/013-ar-rad/units/042.html",
+          "word": "المَكرُ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/012-yusuf/units/102.html",
+          "word": "يَمكُرونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/003-al-imran/units/054.html",
+          "word": "وَمَكَروا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/003-al-imran/units/054.html",
+          "word": "وَمَكَرَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/003-al-imran/units/054.html",
+          "word": "المٰكِرينَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/016-an-nahl/units/127.html",
+          "word": "يَمكُرونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/070.html",
+          "word": "يَمكُرونَ",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/050.html",
+          "word": "وَمَكَروا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/050.html",
+          "word": "مَكرًا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/050.html",
+          "word": "وَمَكَرنا",
+          "missing": [
+            "data-context"
+          ]
+        },
+        {
+          "path": "quran-reflection/fa/027-an-naml/units/050.html",
+          "word": "مَكرًا",
+          "missing": [
+            "data-context"
+          ]
+        }
+      ],
+      "quran_reader_edits_by_this_task": false,
+      "installed_files": {
+        "fa": {
+          "path": "quran-terminology/fa/roots/m-k-r/index.html",
+          "sha256": "1df4d69dcfff11c3f111b722628998ecc81d3f597a5b877325ebc65451fbbeef"
+        },
+        "en": {
+          "path": "quran-terminology/en/roots/m-k-r/index.html",
+          "sha256": "9ca4c8336c137790da7bce58e7e2b130b52f15f2b130af07f2eeb31238bb79b5"
+        }
+      }
+    }
+  ],
+  "commit": false,
+  "push": false,
+  "work_directory": "/private/tmp/k-roots",
+  "latest_requested_root": "m-k-r",
+  "older_queue_not_completed": [],
+  "scope": "This 21-root batch only; no claim that all historical conversation attachments have been installed.",
+  "current_validation": {
+    "source_checks": "42 bilingual source files present; 458 individual shared verse markers; no external URLs, search citation artifacts, or Latin prose in Persian bodies.",
+    "shared_quran_unit_tests": "6 passed",
+    "quran_reader_preservation": "All files match saved baseline except concurrent Baqarah 2:208 changes in both languages; this task did not edit those files.",
+    "built_pages": 42,
+    "individual_shared_verse_quotations_in_batch": 458,
+    "internal_link_errors": 0,
+    "browser_views_passed": 168,
+    "search_index_records": 16702,
+    "shared_quran_build_check": "3246 verses across 184 pages verified",
+    "build_pipeline": "completed",
+    "sample_visual_inspection": "Persian mobile/light and desktop/light; English mobile/dark and desktop/dark inspected."
+  },
+  "editorial_notes": [
+    "Complete English versions prepared for the remaining eight roots.",
+    "Removed unsupported dual attribution of the k-r-b poem; retained verified al-Mufaddaliyyat attribution.",
+    "Removed uncertain poet nickname in k-s-d.",
+    "Corrected final vowel of the Form II verb in the k-f-t poem.",
+    "Qualified historical evidence claims and distinguished interpretation from lexical meaning.",
+    "Added contextual concept links and related-study entries in both languages.",
+    "Protected pre-existing Quran word-box omissions were recorded, not rewritten."
+  ],
+  "additional_verification_sources": [
+    "https://usul.ai/t/diwan-24/32",
+    "https://ablibrary.net/book_content/b/8060/186",
+    "https://www.islamarchive.cc/ketab_content/3471/p-4495",
+    "https://najafdesertlibrary.com/book/المحكم-والمحيط-الأعظم/v/8/p/601"
+  ],
+  "canonical_translation_note": "Shared quotations retain canonical reader translations, including existing provisional-review notices; article installation does not approve or rewrite those translations."
+}

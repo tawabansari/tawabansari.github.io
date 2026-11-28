@@ -1,0 +1,116 @@
+{
+  "task": "ح و ر: منشأ عنوان حواریون",
+  "date": "2026-11-27",
+  "status": "Bilingual local revision and build verification complete; not committed or published.",
+  "files": [
+    "quran-terminology/fa/roots/h-w-r/index.html",
+    "quran-terminology/en/roots/h-w-r/index.html"
+  ],
+  "sources": [
+    {
+      "source": "Littmann 1913, Deutsche Aksum-Expedition IV, inscription 11, pp.32–33, line11",
+      "url": "https://archive.org/details/SabaischeGriechischeUndAltabessinischeInschriften",
+      "access": "Downloaded scan; inspected p.33 and OCR p.32 dating circa350CE",
+      "finding": "Royal messengers/envoys; secular application. Strong evidence for pre-Quranic noun, not apostles or borrowing route."
+    },
+    {
+      "source": "Jeffery1938/reprint2007 pp115–116",
+      "url": "https://almuslih.org/wp-content/uploads/Library/Jeffery,%20A%20-%20The%20Foreign%20Vocabulary%20of%20the%20Qur%E2%80%99%C4%81n.pdf",
+      "access": "Read entry directly",
+      "finding": "Supports Ethiopic borrowing, cites inscription and Ethiopic Mark6:30; route via returnees from Abyssinia is conjecture, not adopted. Verse attributed to Dabi not independently dated; not used as pre-Quranic proof."
+    },
+    {
+      "source": "van Putten2020 §3.4.1 p69",
+      "url": "https://langsci-press.org/catalog/view/235/1805/1831-1",
+      "access": "Read original chapter",
+      "finding": "Explicitly classifies hawariyyun among Geʿez borrowings. Used as scholarly judgment, not documentary proof of transfer route."
+    },
+    {
+      "source": "Reynolds2013 pp2–3",
+      "url": "https://doi.org/10.1017/S0041977X13000062",
+      "access": "Read PDF via almuslih mirror",
+      "finding": "Geʿez noun and traditional alternatives. Separate theological thesis about disciples not adopted as lexical evidence."
+    },
+    {
+      "source": "Dost2017 An Arabian Quran pp212–213",
+      "url": "https://almuslih.org/wp-content/uploads/2024/10/Dost-S-An-Arabian-Quran-.pdf",
+      "access": "Read original dissertation",
+      "finding": "Agent noun related to hora go; cites Leslau249. Leslau page not directly obtained; citation is indirect and labeled so."
+    },
+    {
+      "source": "Nöldeke1910 p48",
+      "access": "Primary page not obtained; cited through Jeffery, Reynolds, Dost. Not counted as an independently inspected source."
+    },
+    {
+      "source": "Tabari on3:52",
+      "url": "https://tafsir.app/tabari/3/52",
+      "access": "Read primary commentary",
+      "finding": "Different naming accounts are later reports, not independent contemporary evidence for the occupations of Jesus disciples."
+    },
+    {
+      "source": "Gebremariam2016, Copenhagen manuscript seminar",
+      "url": "https://nors.ku.dk/cc/previousseminars/cc16/cc16programme/friday-15-april-2016/gebremariam/",
+      "finding": "GarimaII parchment390–570CE, GarimaI530–660CE; manuscript antiquity not direct verification of hawarya in a specified early leaf."
+    },
+    {
+      "source": "F.A.Bishi, Debunking the Ethiopic Loanword Claim, online draft",
+      "url": "https://www.academia.edu/172148406",
+      "access": "Read opposing argument; publication/peer-review not established",
+      "finding": "Shared root/Arabic morphology do not disprove borrowing of a specific title. Inscription lead independently checked in Littmann; Safaitic readings and claimed Garima lexical witness not independently confirmed and not published as facts."
+    },
+    {
+      "source": "Quranic Arabic Corpus Hwr + canonical local Arabic verses",
+      "url": "https://corpus.quran.com/qurandictionary.jsp?q=Hwr",
+      "finding": "Five occurrences:3:52:12;5:111:4;5:112:3;61:14:12;61:14:18. Classified root total13 does not establish historical derivation."
+    }
+  ],
+  "evidence_grades": {
+    "strong": "Fourth-century inscription for royal envoys; five Quranic occurrences and their contexts.",
+    "well_supported_hypothesis": "Geʿez borrowing, supported by specialized lexical usage and scholarly analyses; exact route/date unestablished.",
+    "unverified_here": "Specific pre-Quranic Christian manuscript occurrence of the noun; Leslau249 and Nöldeke48 primary pages.",
+    "not_established": "Clothing occupation as historical cause; inferring Quranic Messenger status from foreign etymology."
+  },
+  "changes": {
+    "content": "Qualified introduction, conventional grouping and short definition; replaced disciples-title origin discussion; revised conclusion in both languages. Other lexical analyses preserved.",
+    "format": "Four complete independent shared Quran quotations in each language; removed external research-reference paragraphs into this private handoff. No word boxes edited.",
+    "metadata": "No paths, titles, permalinks or existing anchors changed."
+  },
+  "limitations": [
+    "Live h-w-r pages unavailable through web tool; used repository source. Concept directories were checked online.",
+    "Canonical3:52 translations have an existing unclosed quotation mark in both languages; Persian5:111 retains رسولم. Reader sources were not changed by this root-study task.",
+    "Historical Christian meaning verified through scholarship; no exact Garima leaf verification claimed."
+  ],
+  "removed_external_reference_markup": {
+    "fa": [
+      "<p class=\"verse-ref\"><a href=\"https://corpus.quran.com/qurandictionary.jsp?q=Hwr\">پیکرهٔ عربی قرآن؛ سیزده کاربرد در پنج گروه</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://arabiclexicon.hawramani.com/حور/\">مقاییس اللغة؛ سه اصل رنگ، بازگشت و گردش</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://ablibrary.net/book_content/b/12391/77?lang=ar\">غریب القرآن در شعر عرب؛ نقل شاهد لبید و ارجاع به دیوان</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://arabiclexicon.hawramani.com/حور/\">الصحاح، لسان العرب و دیگر فرهنگ‌ها؛ اختلاف در شرح حور چشم</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://www.islamweb.net/ar/library/content/122/7997/مها\">لسان العرب، مها؛ گاو وحشی، بلور، دُرّ و وجه تشبیه</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://afaqattaiseer.net/vb/showthread.php?t=9459\">شرح المفضلیات؛ شاهد سلامة بن جندل و من الحور الخراعیب</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://arabiclexicon.hawramani.com/حور/\">فرهنگ‌های کهن؛ سفید کردن جامه و حوّارى</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://arabiclexicon.hawramani.com/حور/\">لسان العرب و مقاییس اللغة؛ حور، أحور و حوراء، متمایز از حیرت</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://arabiclexicon.hawramani.com/حور/\">مقاییس اللغة و تهذیب اللغة؛ محور و گرداندن نان</a></p>"
+    ],
+    "en": [
+      "<p class=\"verse-ref\"><a href=\"https://corpus.quran.com/qurandictionary.jsp?q=Hwr\">Quranic Arabic Corpus: thirteen occurrences in five groups</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://arabiclexicon.hawramani.com/حور/\">Maqāyīs al-Lughah: three principles, color, return, and rotation</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://ablibrary.net/book_content/b/12391/77?lang=ar\">Gharīb al-Qurʾān in Arabic poetry: Labīd’s witness and its collected-poetry reference</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://arabiclexicon.hawramani.com/حور/\">Al-Ṣiḥāḥ, Lisān al-ʿArab, and other lexica: differing explanations of eye color</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://www.islamweb.net/ar/library/content/122/7997/مها\">Lisān al-ʿArab, M H W: wild cow, crystal, pearl, and the point of comparison</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://afaqattaiseer.net/vb/showthread.php?t=9459\">The edited Al-Mufaḍḍaliyyāt: Salāmah ibn Jandal’s witness and mina al-ḥūri al-kharāʿībi</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://arabiclexicon.hawramani.com/حور/\">Early lexica: whitening garments and ḥuwwārā</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://arabiclexicon.hawramani.com/حور/\">Lisān al-ʿArab and Maqāyīs al-Lughah: ḥūr, aḥwar, and ḥawrāʾ, distinct from bewilderment</a></p>",
+      "<p class=\"verse-ref\"><a href=\"https://arabiclexicon.hawramani.com/حور/\">Maqāyīs al-Lughah and Tahdhīb al-Lughah: the axle and turning bread</a></p>"
+    ]
+  },
+  "validation": {
+    "shared_quran_unit_tests": "6 passed",
+    "generated_shared_quran": "3254 verses across 186 pages verified",
+    "browser": "FA/EN at 390 and 1280 pixels, light/dark: 8 combinations, no overflow, four shared verses each; inspected origin and verse screenshots",
+    "source_structure": "Unique anchors, valid fragment targets, seven origin paragraphs and four verse references in each language",
+    "git_diff_check": "passed",
+    "publication": "Local only; no commit/push",
+    "build": "Jekyll, library, discovery, search and PDF-client build passed"
+  }
+}
