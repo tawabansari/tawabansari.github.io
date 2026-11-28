@@ -134,6 +134,7 @@ excerpt: "A Qur’an-centered study of the root sh-h-d, showing that shahid in t
     <div class="shared-verse-placeholder" data-quran-verses="2:143"></div>
 
     <p>Here, <span class="term">shuhada ‘ala an-nas</span>, witnesses over people, cannot mean “those killed in battle.” The community is alive, responsible, and called to bear witness through truth and moral responsibility before humanity.</p>
+    <p>In <a href="/quran-reflection/en/003-al-imran/#ayah-053">Al Imran 3:53</a>, Jesus’ disciples ask God to include them among the witnesses after affirming their faith. Those who believe in the Qur’an make the same request in <a href="/quran-reflection/en/005-al-maidah/#ayah-083">Al-Ma’idah 5:83</a>. Both passages connect bearing witness with recognizing and accepting the truth of revelation.</p>
   </section>
 
   <section class="article-section" id="legal-witness">
